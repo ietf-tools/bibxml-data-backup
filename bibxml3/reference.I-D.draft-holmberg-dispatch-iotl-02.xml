@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.holmberg-dispatch-iotl'>
+<front>
+<title>3rd-Generation Partnership Project (3GPP) SIP URI Inter Operator Traffic Leg parameter</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='J' surname='Holm' fullname='Jan Holm'>
+    <organization />
+</author>
+
+<author initials='R' surname='Jesske' fullname='Roland Jesske'>
+    <organization />
+</author>
+
+<author initials='M' surname='Dolly' fullname='Martin Dolly'>
+    <organization />
+</author>
+
+<date month='August' day='21' year='2014' />
+
+<abstract><t>In 3rd-Generation Partnership Project (3GPP) networks, the signalling path between a calling user and a called user can be partioned into segments, referred to as traffic legs.  Each traffic leg may span networks belonging to different operators, and will have its own characteristics that can be different from other traffic legs in the same call.  The directionality in traffic legs relates to a SIP request creating a dialogue and stand-alone SIP request.  A traffic leg might be associated with multiple SIP dialogs, e.g. in case a B2BUA which modifies the SIP dialog identifier is located within the traffic leg.  This document defines a new SIP URI parameter, 'iotl', which can be used in a SIP URI to indicate that the entity associated with the address, or an entity responsible for the host part of the address, represents the end of a specific traffic leg (or multiple traffic legs).  The 'iotl' parameter is defined in order to fulfil requirements from the 3GPP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-holmberg-dispatch-iotl-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-holmberg-dispatch-iotl-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.foster-mgcp-lockstep'>
+<front>
+<title>Media Gateway Control Protocol (MGCP) Lockstep State Reporting Mechanism</title>
+
+<author initials='B' surname='Foster' fullname='Bill Foster'>
+    <organization />
+</author>
+
+<author initials='F' surname='Andreasen' fullname='Flemming Andreasen'>
+    <organization />
+</author>
+
+<date month='July' day='25' year='2003' />
+
+<abstract><t>A Media Gateway Control Protocol (MGCP) endpoint that has encountered an adverse failure condition such as being involved in a transient call when a Call Agent failover occurred could be left in a lockstep state such that events are quarantined but not notified. The MGCP package described in this document provides a mechanism for reporting these situations so that the new Call Agent can take the necessary fault recovery procedures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-foster-mgcp-lockstep-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-foster-mgcp-lockstep-01.txt' />
+</reference>

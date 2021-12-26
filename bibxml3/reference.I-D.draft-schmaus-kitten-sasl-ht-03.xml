@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schmaus-kitten-sasl-ht'>
+<front>
+<title>The Hashed Token SASL Mechanism</title>
+
+<author initials='F' surname='Schmaus' fullname='Florian Schmaus'>
+    <organization />
+</author>
+
+<author initials='C' surname='Egger' fullname='Christoph Egger'>
+    <organization />
+</author>
+
+<date month='November' day='11' year='2017' />
+
+<abstract><t>This document specifies the family of Hashed Token SASL mechanisms, which are meant to be used for quick re-authentication of a previous session.  The Hashed Token SASL mechanism's authentication sequence consists of only one round-trip.  This is achieved by the usage of short-lived, exclusively ephemeral hashed tokens.  It further provides hash agility, mutual authentication and is secured by channel binding.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schmaus-kitten-sasl-ht-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schmaus-kitten-sasl-ht-03.txt' />
+</reference>

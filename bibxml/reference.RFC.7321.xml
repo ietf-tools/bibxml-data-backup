@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7321' target='https://www.rfc-editor.org/info/rfc7321'>
+<front>
+<title>Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)</title>
+<author initials='D.' surname='McGrew' fullname='D. McGrew'><organization /></author>
+<author initials='P.' surname='Hoffman' fullname='P. Hoffman'><organization /></author>
+<date year='2014' month='August' />
+<abstract><t>This document updates the Cryptographic Algorithm Implementation Requirements for the Encapsulating Security Payload (ESP) and Authentication Header (AH).  It also adds usage guidance to help in the selection of these algorithms.</t><t>ESP and AH protocols make use of various cryptographic algorithms to provide confidentiality and/or data origin authentication to protected data communications in the IP Security (IPsec) architecture.  To ensure interoperability between disparate implementations, the IPsec standard specifies a set of mandatory-to- implement algorithms.  This document specifies the current set of mandatory-to-implement algorithms for ESP and AH, specifies algorithms that should be implemented because they may be promoted to mandatory at some future time, and also recommends against the implementation of some obsolete algorithms.  Usage guidance is also provided to help the user of ESP and AH best achieve their security goals through appropriate choices of cryptographic algorithms.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7321'/>
+<seriesInfo name='DOI' value='10.17487/RFC7321'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-cert'>
+<front>
+<title>HIP Certificates</title>
+
+<author initials='T' surname='Heer' fullname='Tobias Heer'>
+    <organization />
+</author>
+
+<author initials='S' surname='Varjonen' fullname='Samu Varjonen'>
+    <organization />
+</author>
+
+<date month='September' day='23' year='2010' />
+
+<abstract><t>The CERT parameter is a container for X.509.v3 certificates and Simple Public Key Infrastructure (SPKI) certificates.  It is used for carrying these certificates in HIP control packets.  This document only specifies the certificate parameter and the error signaling in case of a failed verification.  The use of certificates including how certificates are obtained, requested, and which actions are taken upon successful or failed verification are to be defined in the documents that use the certificate parameter.  Additionally, this document specifies the representations of Host Identity Tags in X.509.v3 and SPKI certificates.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-cert-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-cert-04.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-xcap-diff'>
+<front>
+<title>An Extensible Markup Language (XML) Document Format for Indicating A Change in XML Configuration Access Protocol (XCAP) Resources</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<author initials='J' surname='Urpalainen' fullname='Jari Urpalainen'>
+    <organization />
+</author>
+
+<date month='February' day='1' year='2010' />
+
+<abstract><t>This specification defines a document format that can be used to indicate that a change has occurred in a document managed by the Extensible Markup Language (XML) Configuration Access Protocol (XCAP).  This format reports which document has changed and its former and new entity tags.  It can report the differences between versions of the document, using an XML patch format.  It can report existing element and attribute content when versions of an XCAP server document change.  XCAP diff documents can be delivered to diff clients using a number of means, including a Session Initiation Protocol (SIP) event package.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-xcap-diff-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-xcap-diff-14.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stenn-ntp-leap-smear-refid'>
+<front>
+<title>Network Time Protocol Leap Smear REFID</title>
+
+<author initials='H' surname='Stenn' fullname='Harlan Stenn'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2016' />
+
+<abstract><t>RFC 5905 [RFC5905] and earlier versions of NTP are the overwhelming method of distributing time on networks.  Leap Seconds will continue to exist for a good number of years' time, and since the timescale mandated by POSIX effectively ignores any instances where there are not 86,400 seconds' time in a day, something must be done to reliably synchronize clocks during the application of leap second corrections. One mechanism for dealing with the application that has recently become visible is to apply the leap second using a "smear", where the time reported by leap-second aware servers is gradually adjusted so there is no major disruption to time synchronization when processing a leap second.  While leap second processing can be expected to be properly handled by up-to-date software and by time servers, there are large numbers of out-of-date software installations and client systems that are just not able to properly handle a leap second correction.  This proposal offers a way for a system to generate a REFID that indicates that the time being supplied in the NTP packet already contains an amount of leap smear correction, and what that amount is.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stenn-ntp-leap-smear-refid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stenn-ntp-leap-smear-refid-00.txt' />
+</reference>

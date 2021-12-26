@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-sealopt'>
+<front>
+<title>The SEAL IPv6 Extension Header</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2012' />
+
+<abstract><t>The Subnetwork Encapsulation and Adaptation Layer (SEAL) provides a mid-layer header designed for the encapsulation of an inner network layer packet within outer network layer headers.  SEAL also supports a transport mode of operation, where the inner payload corresponds to an ordinary transport layer payload.  However, SEAL can also provide benefit when used as an IPv6 extension header.  Namely, the SEAL header when used as an extension header contains a digital signature or nonce inserted by the source.  The source can thereafter use the digital signature/nonce to verify that any ICMPv6 messages received actually came from a router on the path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-sealopt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-sealopt-00.txt' />
+</reference>

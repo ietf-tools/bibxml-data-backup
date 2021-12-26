@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.laurie-pki-sunlight'>
+<front>
+<title>Certificate Transparency</title>
+
+<author initials='B' surname='Laurie' fullname='Ben Laurie'>
+    <organization />
+</author>
+
+<author initials='A' surname='Langley' fullname='Adam Langley'>
+    <organization />
+</author>
+
+<author initials='E' surname='Kasper' fullname='Emilia Kasper'>
+    <organization />
+</author>
+
+<date month='September' day='12' year='2012' />
+
+<abstract><t>The aim of Certificate Transparency is to have every public end- entity TLS certificate issued by a known Certificate Authority recorded in one or more certificate logs.  In order to detect mis- issuance of certificates, all logs are publicly auditable.  In particular, domain owners will be able to monitor logs for certificates issued on their own domain.  In order to protect clients from unlogged mis-issued certificates, logs sign all recorded certificates, and clients can choose not to trust certificates that are not accompanied by an appropriate log signature.  For privacy and performance reasons log signatures are embedded in the TLS handshake via the TLS authorization extension [RFC5878], or in the certificate itself via an X.509v3 certificate extension [RFC5280].  In order to ensure a globally consistent view of the log, logs also provide a global signature over the entire log.  Any inconsistency of logs can be detected through cross-checks on the global signature.  Logs are only expected to certify that they have seen a certificate and thus, we do not specify any revocation mechanism for log signatures in this document.  Logs will be append-only, and log signatures will be valid indefinitely.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-laurie-pki-sunlight-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-laurie-pki-sunlight-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnssd-srp'>
+<front>
+<title>Service Registration Protocol for DNS-Based Service Discovery</title>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2018' />
+
+<abstract><t>The Service Registration Protocol for DNS-Based Service Discovery uses the standard DNS Update mechanism to enable DNS-Based Service Discovery using only unicast packets.  This eliminates the dependency on Multicast DNS as the foundation layer, which greatly improves scalability and improves performance on networks where multicast service is not an optimal choice, particularly 802.11 (Wi-Fi) and 802.15.4 (IoT) networks.  DNS-SD Service registration uses public keys and SIG(0) to allow services to defend their registrations against attack.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnssd-srp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnssd-srp-00.txt' />
+</reference>

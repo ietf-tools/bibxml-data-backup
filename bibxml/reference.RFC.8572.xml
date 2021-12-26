@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8572' target='https://www.rfc-editor.org/info/rfc8572'>
+<front>
+<title>Secure Zero Touch Provisioning (SZTP)</title>
+<author initials='K.' surname='Watsen' fullname='K. Watsen'><organization /></author>
+<author initials='I.' surname='Farrer' fullname='I. Farrer'><organization /></author>
+<author initials='M.' surname='Abrahamsson' fullname='M. Abrahamsson'><organization /></author>
+<date year='2019' month='April' />
+<abstract><t>This document presents a technique to securely provision a networking device when it is booting in a factory-default state.  Variations in the solution enable it to be used on both public and private networks.  The provisioning steps are able to update the boot image, commit an initial configuration, and execute arbitrary scripts to address auxiliary needs.  The updated device is subsequently able to establish secure connections with other systems.  For instance, a device may establish NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific network management systems.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8572'/>
+<seriesInfo name='DOI' value='10.17487/RFC8572'/>
+</reference>

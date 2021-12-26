@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.satoh-pcn-st-marking'>
+<front>
+<title>Single PCN Threshold Marking by using PCN baseline encoding for both  admission and termination controls</title>
+
+<author initials='D' surname='Satoh' fullname='Daisuke Satoh'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ishizuka' fullname='Mika Ishizuka'>
+    <organization />
+</author>
+
+<author initials='O' surname='Phanachet' fullname='Oratai Phanachet'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Maeda' fullname='Yukari Maeda'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2008' />
+
+<abstract><t>This document proposes an algorithm for marking and metering by using pre-congestion notification (PCN) baseline encoding for both flow admission and flow termination.  The proposed algorithm uses threshold marking whose TBthreshold.threshold is set to the number of bits of a metered-packet smaller than the token bucket size.  Another threshold for the token bucket is required to change the marking. frequency.  Under the flow termination state, all the packets are to be threshold-marked.  Under the admission stop state, 1/Nth of packets are to be threshold-marked when the meter indicates.  We evaluates the performance of the proposed algorithm by simulations. Our simulation indicates that the performance is almost the same as that of the CL[I-D.briscoe-tsvwg-cl-architecture] algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-satoh-pcn-st-marking-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-satoh-pcn-st-marking-00.txt' />
+</reference>

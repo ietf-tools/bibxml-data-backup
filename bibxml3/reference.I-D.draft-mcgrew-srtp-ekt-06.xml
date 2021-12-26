@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mcgrew-srtp-ekt'>
+<front>
+<title>Encrypted Key Transport for Secure RTP</title>
+
+<author initials='D' surname='McGrew' fullname='David McGrew'>
+    <organization />
+</author>
+
+<author initials='F' surname='Andreasen' fullname='Flemming Andreasen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dondeti' fullname='Lakshminath Dondeti'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>SRTP Encrypted Key Transport (EKT) is an extension to SRTP that provides for the secure transport of SRTP master keys, Rollover Counters, and other information, within SRTP or SRTCP.  This facility enables SRTP to work for decentralized conferences with minimal control, and to handle situations caused by early media.  This note defines EKT, and also describes how to use it with SDP Security Descriptions, DTLS-SRTP Key Transport (KTR), and MIKEY. These other key management protocols provide an EKT key to everyone in a session, and EKT coordinates the keys within the session.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mcgrew-srtp-ekt-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mcgrew-srtp-ekt-06.txt' />
+</reference>

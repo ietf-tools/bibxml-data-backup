@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-gandhewar-dhc-relay-initiated-release-01.pdf'>
+    <title>"DHCP Relay Initiated Release", Sunil Gandhewar</title>
+    <link>http://www.ietf.org/internet-drafts/draft-gandhewar-dhc-relay-initiated-release-01.pdf</link>
+    <description>The Dynamic Host Configuration Protocol (DHCP) is initiated by a DHCP client.  A DHCP server can force DHCP client to send DHCPRENEW by sending a DHCPFORCERENEW message.  There may be multiple DHCP network devices connected in between a DHCP client and a server, each one reserving resources for the DHCP client.  There are no DHCP messages that a relay can initiate in order to control the client binding.  A DHCP client may not always send a DHCPRELEASE message when it no longer needs the IP address and network resources for the associated services it is using.  This document specifies a way to request release message to be initiated by an intermediate DHCP network device, e.g.  DHCP relay, on behalf of DHCP client.  This helps to relinquish network resources sooner than the lease expiration time.</description>
+    <dc:date>2015-10-01T07:00:00-00:00</dc:date>
+</item>

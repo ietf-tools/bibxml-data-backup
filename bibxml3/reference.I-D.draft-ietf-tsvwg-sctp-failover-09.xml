@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-sctp-failover'>
+<front>
+<title>SCTP-PF: Quick Failover Algorithm in SCTP</title>
+
+<author initials='Y' surname='Nishida' fullname='Yoshifumi Nishida'>
+    <organization />
+</author>
+
+<author initials='P' surname='Natarajan' fullname='Preethi Natarajan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Caro' fullname='Armando Caro'>
+    <organization />
+</author>
+
+<author initials='P' surname='Amer' fullname='Paul Amer'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nielsen' fullname='Karen E. E. Nielsen'>
+    <organization />
+</author>
+
+<date month='December' day='24' year='2014' />
+
+<abstract><t>One of the major advantages of SCTP is the support of multi-homed communication.  A multi-homed SCTP end-point has the ability to withstand network failures by migrating the traffic from an inactive network to an active one.  However, if the failover operation as specified in [RFC4960] is followed, there can be a significant delay in the migration to the active destination addresses, thus severely reducing the effectiveness of the SCTP failover operation.  This memo complements [RFC4960] by the introduction of the Potentially Failed path state and the associated new failover operation called SCTP-PF to apply during a network failure.  In addition, the memo complements [RFC4960] by introducing of alternative switchover operation modes for the data transfer path management after the recovery of a failed primary path.  These modes offers for more performance optimal operation in some network environments.  The implementation of the additional switchover operation modes is optional.  The procedures defined in the document require only minimal modifications to the current specification.  The procedures are sender-side only and do not impact the SCTP receiver.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-sctp-failover-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-failover-09.txt' />
+</reference>

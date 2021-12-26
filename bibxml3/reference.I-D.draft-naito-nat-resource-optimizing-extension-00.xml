@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.naito-nat-resource-optimizing-extension'>
+<front>
+<title>NAT resource optimizing extension</title>
+
+<author initials='A' surname='Matsumoto' fullname='Arifumi Matsumoto'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2012' />
+
+<abstract><t>When NAT is used in address resource restricted environment, or when a lot of users are located under a NAT device, IP address and port resources may be eaten up, and it brings severe bad effects on user experiences.  This situation can be greatly mitigated by tweaking mapping behavior and session timer handling at NAT function.  This document proposes to NAT IP address and port resource optimizing extension for address resource restricted environment.  One extension is to enable simultaneous use of a port for different transport sessions, and the other is to make use of TCP timestamp for TIME_WAIT Assassination.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-naito-nat-resource-optimizing-extension-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-naito-nat-resource-optimizing-extension-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-simplednsjson'>
+<front>
+<title>Simple DNS Queries and Responses in JSON</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='June' day='5' year='2017' />
+
+<abstract><t>This document describes a JSON-based format for simple DNS queries and responses.  In this case, "simple" means "only useful for getting A and AAAA records".  This document also defines the application/ simpledns+json media type.  The primary use case of this format is programs that do not want to take on the programmatic overhead needed to use messages in the application/dns-udpwireformat media type.  [ This paragraph is to be removed when this document is published as an RFC ] Comments on this draft can be sent to the DNS over HTTP mailing list at https://www.ietf.org/mailman/listinfo/dnsoverhttp .</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-simplednsjson-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-simplednsjson-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-with-defaults'>
+<front>
+<title>With-defaults capability for NETCONF</title>
+
+<author initials='A' surname='Bierman' fullname='Andy Bierman'>
+    <organization />
+</author>
+
+<author initials='B' surname='Lengyel' fullname='Balazs Lengyel'>
+    <organization />
+</author>
+
+<date month='November' day='10' year='2010' />
+
+<abstract><t>The NETCONF protocol defines ways to read and edit configuration data from a NETCONF server.  In some cases, part of this data may not be set by the NETCONF client, but rather a default value known to the server is used instead.  In many situations the NETCONF client has a priori knowledge about default data, so the NETCONF server does not need to save it in a NETCONF configuration datastore or send it to the client in a retrieval operation reply.  In other situations the NETCONF client will need this data from the server.  Not all server implementations treat this default data the same way.  This document defines a capability-based extension to the NETCONF protocol that allows the NETCONF client to identify how defaults are processed by the server, and also defines new mechanisms for client control of server processing of default data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-with-defaults-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-with-defaults-14.txt' />
+</reference>

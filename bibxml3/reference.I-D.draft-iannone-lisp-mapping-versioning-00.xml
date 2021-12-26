@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iannone-lisp-mapping-versioning'>
+<front>
+<title>LISP Mapping Versioning</title>
+
+<author initials='L' surname='Iannone' fullname='Luigi Iannone'>
+    <organization />
+</author>
+
+<author initials='D' surname='Saucez' fullname='Damien Saucez'>
+    <organization />
+</author>
+
+<author initials='O' surname='Bonaventure' fullname='Olivier Bonaventure'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2009' />
+
+<abstract><t>The present document sketches an alternative approach to provide information about changes to EID-to-RLOC mappings in the context of LISP.  The proposed approach is based on a versioning system for the EID-to-RLOC mapping itself.  When there is a change in the mapping (where change could mean adding/removing an RLOC or just a modification in the priority or weight of one or more RLOCs) a new version number is generated and propagated in the LISP data packet. In the LISP context, ETRs do not keep state that allows to know when an ITR changes a mapping.  The versioning system is a data-driven mechanism to annonce those changes.  In order to support such an approach, the LISP encapsulation need to be modified.  In particular LISP-encapsulated data packets have to contain the version number of the mapings used to select the RLOCs in the outer header.  These version numbers are contained in a "new" LISP header.  The mappings are distributed as usual through the mapping distribution system (e.g., CONS, ALT); versioning is only a mean to announce that something has changed in the mapping.  The infrastructure built by each specific mapping protocol does not change anyhow.  Nevertheless, two modifications are needed.  The first modification consist in including version number in the Map- Reply messages.  The second modification consist in the introduction of a new message, the "Map-Update-Notification" message used by ETRs to notify ITRs that the mapping used to encapsulate the packet is old and needs to be updated.  This message does not contain the mapping, it just suggests ITRs to perform a Map-Request in order to retrieve the updated mapping.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iannone-lisp-mapping-versioning-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iannone-lisp-mapping-versioning-00.txt' />
+</reference>

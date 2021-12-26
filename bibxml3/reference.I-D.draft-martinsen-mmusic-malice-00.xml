@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.martinsen-mmusic-malice'>
+<front>
+<title>Meta-data Attribute signaLling with ICE</title>
+
+<author initials='R' surname='Penno' fullname='Reinaldo Penno'>
+    <organization />
+</author>
+
+<author initials='P' surname='Martinsen' fullname='Paal-Erik Martinsen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='A' surname='Zamfir' fullname='Anca Zamfir'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2013' />
+
+<abstract><t>It can be useful for applications to provide flow metadata information to on-path devices to influence flow treatment in the network.  Provided that the network is able to provide useful feedback, this can also influence path selection if an application have multiple flow paths to choose from.  This draft describes how this can be achieved by adding metadata to the STUN packets sent during the ICE connectivity checks or a slightly modified version of the keep-alive mechanism.  Devices on the media path can use the metadata information to prioritize the flow, perform traffic engineering, or provide network analytics and notifications as requested by the endpoints.  On-path devices can append or modify the existing metadata information in the STUN/ICE messages to enable feedback to other on-path devices or the applications in both ends of the media session.  This document describes a framework mechanism for how such metadata can be transported by STUN when ICE is in use and it covers the endpoint and on path device processing.  The functionality described here is referred to as MALICE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-martinsen-mmusic-malice-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-martinsen-mmusic-malice-00.txt' />
+</reference>

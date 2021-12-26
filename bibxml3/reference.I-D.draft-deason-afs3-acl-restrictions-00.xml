@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.deason-afs3-acl-restrictions'>
+<front>
+<title>Methods of Specifying Restrictions on AFS3 ACLs</title>
+
+<author initials='A' surname='Deason' fullname='Andrew Deason'>
+    <organization />
+</author>
+
+<author initials='M' surname='Meffie' fullname='Michael Meffie'>
+    <organization />
+</author>
+
+<author initials='T' surname='Keiser' fullname='Thomas Keiser'>
+    <organization />
+</author>
+
+<date month='January' day='12' year='2010' />
+
+<abstract><t>The AFS-3 ACL 'a' bit gives users unfettered power to grant, or revoke, privileges, with no provision for enforcing site policy. This memo provides several alternative mechanisms for creating restrictions on what powers the 'a' bit denotes.  Three alternative mechanisms for restricting the power of the 'a' bit are proposed: a method for overlaying the ACL with a site-controlled ACL; a method for masking the ACL with a site-controlled privilege mask; and a finely granular meta-acl mechanism for restricting to whom privileges may be delegated, and which privileges may be given to different classes of principals.  This memo will serve as a basis for the ACL restriction discussion with the AFS-3 protocol working group.  The intended goal of this discussion is to reach consensus on standardization of one or more solutions, and then publish a BCP status memo.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-deason-afs3-acl-restrictions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-deason-afs3-acl-restrictions-00.txt' />
+</reference>

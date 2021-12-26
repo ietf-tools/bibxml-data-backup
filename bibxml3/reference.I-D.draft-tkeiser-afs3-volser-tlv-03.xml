@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tkeiser-afs3-volser-tlv'>
+<front>
+<title>AFSVol Tag-Length-Value Remote Procedure Call Extensions</title>
+
+<author initials='T' surname='Keiser' fullname='Thomas Keiser'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jenkins' fullname='Steven Jenkins'>
+    <organization />
+</author>
+
+<date month='August' day='4' year='2010' />
+
+<abstract><t>AFS-3 is a distributed file system based upon prototypes developed at Carnegie Mellon University during the 1980s.  AFS-3 heavily leverages Remote Procedure Calls (RPCs) as the foundation for its distributed architecture.  In 2003, new RPCs were introduced into AFS-3 that provide for capability introspection between file servers and cache managers.  This memo introduces equivalent functionality to the volume server RPC interface, thus making the volume management interface more extensible.  Furthermore, this memo extends the volume management interface to support getting and setting of AFS volume attributes via an extensible Tag-Length-Value (TLV) encoding, which is based upon XDR discriminated unions.  TLV-based get and set RPCs are specified, along with a tag enumeration RPC.  The TLV encoding side-steps the typical XDR union decode problem, whereby failure to decode a union leg causes the entire RPC payload decode to fail, by mandating an XDR opaque default leg for the union, along with a standard mechanism for encoding new leg types inside the XDR opaque blob.  Finally, tags are allocated for existing volume and transaction metadata, and implementation-private tags are allocated for metadata related to the OpenAFS Demand Attach File Server and RxOSD protocol.  Internet Draft Comments  Comments regarding this draft are solicited.  Please include the AFS-3 protocol standardization mailing list (afs3-standardization@openafs.org) as a recipient of any comments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tkeiser-afs3-volser-tlv-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tkeiser-afs3-volser-tlv-03.txt' />
+</reference>

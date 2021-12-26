@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fossati-core-multipart-ct'>
+<front>
+<title>Multipart Content Format Encoding for CoAP</title>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='October' day='2' year='2012' />
+
+<abstract><t>This memo defines a new content format encoding that can be used to combine several different media types into a single CoAP message- body.  The proposed encoding provides a cheap framing facility aimed at minimizing the overhead bits as much as possible.  Its main use case is for applications whose purpose is as simple as just pulling together a number of known content formats, with the caveat that their juxtaposition must not raise any semantic ambiguity on the receiving side (i.e. strictly ordered, with no optional parts).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fossati-core-multipart-ct-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fossati-core-multipart-ct-01.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-pc-spc-rsvpte-ext'>
+<front>
+<title>RSVP-TE Signaling Extension For Management Plane To Control Plane LSP Handover In A GMPLS Enabled Transport Network.</title>
+
+<author initials='D' surname='Caviglia' fullname='Diego Caviglia'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
+    <organization />
+</author>
+
+<author initials='D' surname='Li' fullname='Dan Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bardalai' fullname='Snigdho Bardalai'>
+    <organization />
+</author>
+
+<date month='January' day='8' year='2010' />
+
+<abstract><t>In a transport network scenario, where Data Plane connections are controlled either by a Generalized Multi-Protocol Label Switching (GMPLS) Control Plane (Soft Permanent Connections - SPC) or by a Management System (Permanent Connections - PC) may independently coexist, the ability of transforming an existing PC into a SPC and vice versa - without actually affecting Data Plane traffic being carried over it - is a requirement.  The requirements for the conversion between permanent connections and switched connections in a GMPLS Network are defined in [RFC5493].  This memo describes an extension to GMPLS RSVP-TE signaling that enables the transfer of connection ownership between the Management and the Control Planes.  Such a transfer is referred to as a Handover.  This document defines all Handover related procedures. This includes the handling of failure conditions and subsequent reversion to original state.  A basic premise of the extension is that the handover procedures must never impact an already established Data plane.  Status of this Memo  This Internet-Draft is submitted to IETF in full conformance with the provisions of BCP 78 and BCP 79.  Internet-Drafts are working documents of the Internet Engineering Task Force (IETF), its areas, and its working groups.  Note that other groups may also distribute working documents as Internet- Drafts.  Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."  The list of current Internet-Drafts can be accessed at http://www.ietf.org/ietf/1id-abstracts.txt.  The list of Internet-Draft Shadow Directories can be accessed at http://www.ietf.org/shadow.html.  This Internet-Draft will expire on July 12, 2010.  Copyright Notice  Copyright (c) 2010 IETF Trust and the persons identified as the document authors.  All rights reserved.  This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the BSD License.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-pc-spc-rsvpte-ext-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-pc-spc-rsvpte-ext-05.txt' />
+</reference>

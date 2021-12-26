@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yee-regext-simple-registration-reporting'>
+<front>
+<title>Simple Registration Reporting</title>
+
+<author initials='J' surname='Yee' fullname='Joseph Yee'>
+    <organization />
+</author>
+
+<author initials='J' surname='Galvin' fullname='James Galvin'>
+    <organization />
+</author>
+
+<date month='April' day='10' year='2020' />
+
+<abstract><t>Domain name registries and registrars report to each other by sharing bulk information through files.  This document creates two IANA registries to create a standard reporting mechanism between domain name registries and registrars.  The first IANA registry lists standard data elements and their syntax for inclusion in the files. The second IANA registry lists standard reports based on the standard data elements.  Each report is a file formatted as a CSV file.  The advantage of this reporting mechanism is that reports, each file, can be imported by recipients without any prior knowledge of their contents, although reporting is enhanced with a minimum of knowledge about the files.  The mechanism for the transmission and reception of the files is a matter of local policy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yee-regext-simple-registration-reporting-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yee-regext-simple-registration-reporting-01.txt' />
+</reference>

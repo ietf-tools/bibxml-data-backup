@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.holmberg-sipcore-proxy-feature'>
+<front>
+<title>Indication of features supported by proxy</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='I' surname='Sedlacek' fullname='Ivo Sedlacek'>
+    <organization />
+</author>
+
+<date month='June' day='9' year='2011' />
+
+<abstract><t>The Session Initiation Protocol (SIP) "Caller Preferences" extension defined in RFC 3840 provides a mechanism that allows a SIP message to convey information relating to the originator's capabilities.  This document makes it possible for SIP proxies to convey similar information, by extending the rr-param rule defined in RFC 3261, so that the header field parameter can be used to convey feature tags that indicate features supported by the proxy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-holmberg-sipcore-proxy-feature-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-holmberg-sipcore-proxy-feature-02.txt' />
+</reference>

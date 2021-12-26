@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8202' target='https://www.rfc-editor.org/info/rfc8202'>
+<front>
+<title>IS-IS Multi-Instance</title>
+<author initials='L.' surname='Ginsberg' fullname='L. Ginsberg'><organization /></author>
+<author initials='S.' surname='Previdi' fullname='S. Previdi'><organization /></author>
+<author initials='W.' surname='Henderickx' fullname='W. Henderickx'><organization /></author>
+<date year='2017' month='June' />
+<abstract><t>This document describes a mechanism that allows a single router to share one or more circuits among multiple Intermediate System to Intermediate System (IS-IS) routing protocol instances.</t><t>Multiple instances allow the isolation of resources associated with each instance.  Routers will form instance-specific adjacencies. Each instance can support multiple topologies.  Each topology has a unique Link State Database (LSDB).  Each Protocol Data Unit (PDU) will contain a new Type-Length-Value (TLV) identifying the instance and the topology (or topologies) to which the PDU belongs.</t><t>This document obsoletes RFC 6822.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8202'/>
+<seriesInfo name='DOI' value='10.17487/RFC8202'/>
+</reference>

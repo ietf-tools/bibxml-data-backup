@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nordmark-6lowpan-reg'>
+<front>
+<title>Neighbor Discovery Registration Extension</title>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2008' />
+
+<abstract><t>In order to reduce Neighbor Discovery multicast messages it is useful if the routers on a link can maintain an authoritative list of the IPv6 and layer 2 addresses for all the hosts on the link.  This draft specifies an extension to the Router Advertisement messages which trigger to hosts to send periodic registration messages which can be either unicast, multicast, or anycast.  The protocol uses a soft-state approach to gather registration information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nordmark-6lowpan-reg-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nordmark-6lowpan-reg-00.txt' />
+</reference>

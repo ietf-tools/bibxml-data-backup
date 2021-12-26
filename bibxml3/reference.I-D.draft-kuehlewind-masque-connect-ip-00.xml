@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuehlewind-masque-connect-ip'>
+<front>
+<title>The CONNECT-IP method for proxying IP traffic</title>
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+<organization />
+</author>
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+<organization />
+</author>
+<author initials='M' surname='Ihlar' fullname='Marcus Ihlar'>
+<organization />
+</author>
+<author initials='Z' surname='Sarker' fullname='Zaheduzzaman Sarker'>
+<organization />
+</author>
+<date year='2020' month='November' day='02' />
+<abstract><t>This draft specifies a new HTTP/3 method CONNECT-IP to proxy IP traffic.  CONNECT-IP can be used to convert a QUIC stream into a tunnel or initialise an HTTP datagram flow to a forwarding proxy. Each stream or HTTP datagram flow can be used separately to establish forwarding of an IP flow to potentially different remote hosts.  To request forwarding, a client connects to a proxy server by initiating a HTTP/3 connection and sends a CONNECT-IP indicating the address of the target server.  The proxy server then forwards payload received on that stream or in an HTTP datagram with a certain flow ID to the target server after adding an IP header to each of the frames received.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-kuehlewind-masque-connect-ip-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-kuehlewind-masque-connect-ip-00.txt'/>
+</reference>

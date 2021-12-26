@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-cbor-sequence'>
+<front>
+<title>Concise Binary Object Representation (CBOR) Sequences</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2019' />
+
+<abstract><t>This document describes the Concise Binary Object Representation (CBOR) Sequence format and associated media type "application/cbor- seq".  A CBOR Sequence consists of any number of encoded CBOR data items, simply concatenated in sequence.  Structured syntax suffixes for media types allow other media types to build on them and make it explicit that they are built on an existing media type as their foundation.  This specification defines and registers "+cbor-seq" as a structured syntax suffix for CBOR Sequences.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-cbor-sequence-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-cbor-sequence-02.txt' />
+</reference>

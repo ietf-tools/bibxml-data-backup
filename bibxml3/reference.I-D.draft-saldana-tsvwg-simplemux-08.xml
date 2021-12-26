@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.saldana-tsvwg-simplemux'>
+<front>
+<title>Simplemux. A generic multiplexing protocol</title>
+
+<author initials='J' surname='Saldana' fullname='Jose Saldana'>
+    <organization />
+</author>
+
+<author initials='J' surname='Navajas' fullname='Julian Navajas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mas' fullname='Jose Mas'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2017' />
+
+<abstract><t>The high amount of small packets present in nowaday's networks results in a low efficiency, as the size of the headers and the payload of these packets can be in the same order of magnitude.  In some situations, multiplexing a number of small packets into a bigger one is desirable in order to improve the efficiency.  For example, a number of small packets can be sent together between a pair of machines if they share a common network path.  Thus, the traffic profile can be shifted from small to larger packets, reducing the network overhead and the number of packets per second to be managed by intermediate routers.  This document describes Simplemux, a protocol able to encapsulate a number of packets belonging to different protocols into a single packet.  Small headers (separators) are added at the beginning of each multiplexed packet, including some flags, the packet length and a "Protocol" field.  This allows the inclusion of a number of packets belonging to different protocols (the "multiplexed packets") on a packet of another protocol (the "tunneling protocol").  In order to reduce the overhead, the size of the multiplexing headers is kept very low (it may be a single byte when multiplexing small packets).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-saldana-tsvwg-simplemux-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-saldana-tsvwg-simplemux-08.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-saldana-tsvwg-simplemux-08.pdf' />
+</reference>

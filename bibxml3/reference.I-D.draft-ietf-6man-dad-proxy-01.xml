@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-dad-proxy'>
+<front>
+<title>Duplicate Address Detection Proxy</title>
+
+<author initials='F' surname='Costa' fullname='Fabio Costa'>
+    <organization />
+</author>
+
+<author initials='J' surname='Combes' fullname='Jean-Michel Combes'>
+    <organization />
+</author>
+
+<author initials='X' surname='Pougnard' fullname='Xavier Pougnard'>
+    <organization />
+</author>
+
+<author initials='L' surname='Hongyu' fullname='Li Hongyu'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2011' />
+
+<abstract><t>The document describes a mechanism allowing the use of Duplicate Address Detection (DAD) by IPv6 nodes in a point-to-multipoint architecture with "split-horizon" forwarding scheme.  Based on the DAD signalling, the first hop router stores in a Binding Table all known IPv6 addresses used on a point-to-multipoint domain (e.g. VLAN).  When a node performs DAD for an address already used by another node, the first hop router replies instead of this last one.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-dad-proxy-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-dad-proxy-01.txt' />
+</reference>

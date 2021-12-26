@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-alto-multipart'>
+<front>
+<title>Multiple ALTO Resources Query Using Multipart Message</title>
+
+<author initials='S' surname='Chen' fullname='Shiwei Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='J. Zhang'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2018' />
+
+<abstract><t>Many ALTO use cases involve multiple ALTO information resources like network map, cost map and property map to achieve their own goal.  To make the ALTO client query them one by one is not only inefficient but also possible to introduce inconsistent issues.  Further more, some ALTO information resources may have correlation, which means one's input parameters may depends on another one's response.  So some advanced query schema is required.  This document proposes an extension to support the multiple ALTO resources query with HTTP multipart message and the existing JSON query languages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-alto-multipart-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-alto-multipart-00.txt' />
+</reference>

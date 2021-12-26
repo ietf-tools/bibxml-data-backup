@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.michaelson-signerinfo'>
+<front>
+<title>Clarifying RPKI use of CMS SignerInfo</title>
+
+<author initials='G' surname='Michaelson' fullname='George Michaelson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Huston' fullname='Geoff Huston'>
+    <organization />
+</author>
+
+<date month='January' day='20' year='2014' />
+
+<abstract><t>RFC6485 section 2 mandated a single CMS OID sha256withRSAEncryption from RFC4055 for use in the CMS SignerInfo field.  This draft updates RFC6485 and extends it to permit the correct CMS use which includes an option of rsaEncryption for the SignerInfo field.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-michaelson-signerinfo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-michaelson-signerinfo-00.txt' />
+</reference>

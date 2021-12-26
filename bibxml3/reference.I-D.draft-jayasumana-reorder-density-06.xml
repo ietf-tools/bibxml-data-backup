@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jayasumana-reorder-density'>
+<front>
+<title>Reorder Density and Reorder Buffer-occupancy Density Metrics for Packet  Reordering Measurements</title>
+
+<author initials='A' surname='Jayasumana' fullname='Anura Jayasumana'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2006' />
+
+<abstract><t>Out-of-order arrival of packets is a common occurrence on the Internet, and it will become more widespread as link speeds increase. A good reorder metric will capture the occurrence and characteristics of reordering comprehensively, and will have broader utility than merely distinguishing among different reordered sequences. Two metrics for packet reordering are presented, namely, Reorder Density (RD) and Reorder Buffer-occupancy Density (RBD). A threshold is used to clearly define when a packet is considered lost, to bound computational complexity at O(N), and to keep the memory requirement for evaluation independent of N, where N is the length of the packet sequence. RD is a comprehensive metric that captures the characteristics of reordering, while RBD evaluates the sequences from the point of view of recovery from reordering. These metrics are simple to compute yet comprehensive in their characterization of packet reordering. The measures are robust and orthogonal to packet loss and duplication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jayasumana-reorder-density-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jayasumana-reorder-density-06.txt' />
+</reference>

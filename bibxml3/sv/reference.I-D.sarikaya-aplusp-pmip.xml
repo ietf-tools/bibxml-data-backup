@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-aplusp-pmip'>
+<front>
+<title>A+P for Proxy Mobile IPv6</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohammed Boucadair'>
+    <organization />
+</author>
+
+<date month='October' day='12' year='2009' />
+
+<abstract><t>This memo specifies how to use IPv6 a+p technique in mobile networks for Proxy Mobile IPv6 (PMIPv6).  Mobile node which is a dual-stack node can receive a shared IPv4 Home Address together with a port range from the Local Mobility Agent (LMA).  LMA is co-located with Port Range Router (PRR).  Mobile Access Gateway (MAG) encapsulates IPv4 datagrams in IPv6 which are decapsulated at the LMA.  In the binding mode, LMA as PRR receives incoming IPv4 datagrams, determines the routing identifier, finds the binding cache entry for this MN and then encapsulates the IPv4 datagram in an IPv6 one and forwards the encapsulated datagram to MN.  The stateless mode is also described. Mobile network could be WiMAX network or 3GPP Long Term Evolution (LTE) network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-aplusp-pmip-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-aplusp-pmip-00.txt' />
+</reference>

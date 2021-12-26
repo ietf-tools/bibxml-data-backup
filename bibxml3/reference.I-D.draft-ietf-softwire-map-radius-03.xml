@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-softwire-map-radius'>
+<front>
+<title>RADIUS Attribute for MAP</title>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fu' fullname='Yu Fu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Liu' fullname='Bing Liu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Deacon' fullname='Peter Deacon'>
+    <organization />
+</author>
+
+<date month='December' day='19' year='2014' />
+
+<abstract><t>Mapping of Address and Port (MAP) is a stateless mechanism for running IPv4 over IPv6-only infrastructure.  It provides both IPv4 and IPv6 connectivity services simultaneously during the IPv4/IPv6 co-existing period.  The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) MAP options has been defined to configure MAP Customer Edge (CE).  However, in many networks, the configuration information may be stored in Authentication Authorization and Accounting (AAA) servers while user configuration is mainly from Broadband Network Gateway (BNG) through DHCPv6 protocol.  This document defines a Remote Authentication Dial In User Service (RADIUS) attribute that carries MAP configuration information from AAA server to BNG.  The MAP RADIUS attribute are designed following the simplify principle. It provides just enough information to form the correspondent DHCPv6 MAP option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-softwire-map-radius-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-softwire-map-radius-03.txt' />
+</reference>

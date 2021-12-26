@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gerdes-ace-a2a'>
+<front>
+<title>Managing the Authorization to Authorize in the Lifecycle of a Constrained Device</title>
+
+<author initials='S' surname='Gerdes' fullname='Stefanie Gerdes'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>Constrained nodes are devices which are limited in terms of processing power, memory, non-volatile storage and transmission capacity.  Due to these constraints, commonly used security protocols are not easily applicable.  Nevertheless, an authentication and authorization solution is needed to ensure the security of these devices.  During the lifecycle of a constrained device, responsibility for managing authorization policies for the constrained device may change several times.  To ensure the security of the constrained devices, the authorization to authorize must be transferred to the new principal in a secure way.  The Delegated CoAP Authorization Framework (DCAF) specifies how resource-constrained nodes can delegate defined authentication- and authorization-related tasks to less-constrained devices called Authorization Managers, thus limiting the hardware requirements of the security solution for the constrained devices.  This document defines how DCAF can be used to manage the Authorization Manager of a constrained device and introduces a flexible authorization solution for the whole lifecycle of a constrained device.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gerdes-ace-a2a-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gerdes-ace-a2a-00.txt' />
+</reference>

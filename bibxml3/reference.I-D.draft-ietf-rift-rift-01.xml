@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rift-rift'>
+<front>
+<title>RIFT: Routing in Fat Trees</title>
+
+<author initials='T' surname='Przygienda' fullname='Tony Przygienda'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sharma' fullname='Alankar Sharma'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<date month='April' day='27' year='2018' />
+
+<abstract><t>This document outlines a specialized, dynamic routing protocol for Clos and fat-tree network topologies.  The protocol (1) deals with automatic construction of fat-tree topologies based on detection of links, (2) minimizes the amount of routing state held at each level, (3) automatically prunes the topology distribution exchanges to a sufficient subset of links, (4) supports automatic disaggregation of prefixes on link and node failures to prevent black-holing and suboptimal routing, (5) allows traffic steering and re-routing policies, (6) allows non-ECMP forwarding, (7) automatically re- balances traffic towards the spines based on bandwidth available and ultimately (8) provides mechanisms to synchronize a limited key-value data-store that can be used after protocol convergence to e.g. bootstrap higher levels of functionality on nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rift-rift-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rift-rift-01.txt' />
+</reference>

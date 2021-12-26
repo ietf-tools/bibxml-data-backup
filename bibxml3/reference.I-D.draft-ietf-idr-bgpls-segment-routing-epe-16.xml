@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgpls-segment-routing-epe'>
+<front>
+<title>BGP-LS extensions for Segment Routing BGP Egress Peer Engineering</title>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ray' fullname='Saikat Ray'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2018' />
+
+<abstract><t>Segment Routing (SR) leverages source routing.  A node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header.  A segment can represent any instruction, topological or service-based.  SR segments allow steering a flow through any topological path and service chain while maintaining per-flow state only at the ingress node of the SR domain.  This document describes an extension to BGP Link State (BGP-LS) for advertisement of BGP Peering Segments along with their BGP peering node information so that efficient BGP Egress Peer Engineering (EPE) policies and strategies can be computed based on Segment Routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgpls-segment-routing-epe-16' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgpls-segment-routing-epe-16.txt' />
+</reference>

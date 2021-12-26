@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yao-dnsop-idntld-implementation'>
+<front>
+<title>IDN TLD Variants Implementation Guideline</title>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2009' />
+
+<abstract><t>ICANN is pushing the IDN TLD into the root server.  Some IDN TLD has the variants.  Currently, there are two proposals to implement the IDN TLD variants in the root servers:1, implement it with the DNAME record; 2, implement it with NS record.  The IDN TLD variants may be reserved or activated.  If the IDN TLD variants are activated, these variants will be allocated to the same TLD manager in order to avoid the possible phishing problems.  How to deal with the IDN TLD variant issue is a big challenge ahead of us.  This document discusses the IDN TLD variants implementation issues related with DNAME and NS resource record way.  This memo also gives a proposal about how to avoid the possible phishing problem after putting the IDN TLD variants into the root.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yao-dnsop-idntld-implementation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yao-dnsop-idntld-implementation-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuzmanovic-ecn-syn'>
+<front>
+<title>Adding Explicit Congestion Notification (ECN) Capability to TCP's SYN/ACK  Packets</title>
+
+<author initials='A' surname='Kuzmanovic' fullname='Aleksandar Kuzmanovic'>
+    <organization />
+</author>
+
+<date month='October' day='4' year='2005' />
+
+<abstract><t>This draft specifies a modification to RFC 3168 to allow TCP SYN/ACK packets to be ECN-Capable. For TCP, RFC 3168 only specified setting an ECN-Capable codepoint on data packets, and not on SYN and SYN/ACK packets. However, because of the high cost to the TCP transfer of having a SYN/ACK packet dropped, with the resulting retransmit timeout, this document is specifying the use of ECN for the SYN/ACK packet itself, when sent in response to a SYN packet with the two ECN flags set in the TCP header, indicating a willingness to use ECN. Setting TCP SYN/ACK packets as ECN-Capable can be of great benefit to the TCP connection, avoiding the severe penalty of a retransmit timeout for a connection that has not yet started placing a load on the network. The sender of the SYN/ACK packet must respond to an ECN mark by reducing its initial congestion window from two, three, or four segments to one segment, reducing the subsequent load from that connection on the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuzmanovic-ecn-syn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuzmanovic-ecn-syn-00.txt' />
+</reference>

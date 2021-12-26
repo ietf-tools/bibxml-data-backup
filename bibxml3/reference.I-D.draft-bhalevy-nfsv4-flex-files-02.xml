@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bhalevy-nfsv4-flex-files'>
+<front>
+<title>Parallel NFS (pNFS) Flexible Files Layout</title>
+
+<author initials='B' surname='Halevy' fullname='Benny Halevy'>
+    <organization />
+</author>
+
+<author initials='T' surname='Haynes' fullname='Tom Haynes'>
+    <organization />
+</author>
+
+<date month='April' day='21' year='2014' />
+
+<abstract><t>Parallel NFS (pNFS) extends Network File System version 4 (NFSv4) to allow clients to directly access file data on the storage used by the NFSv4 server.  This ability to bypass the server for data access can increase both performance and parallelism, but requires additional client functionality for data access, some of which is dependent on the class of storage used, i.e., the Layout Type.  The main pNFS operations and data types in NFSv4 Minor version 1 specify a layout- type-independent layer; layout-type-specific information is conveyed using opaque data structures whose internal structure is further defined by the particular layout type specification.  This document specifies the NFSv4.1 Flexible Files pNFS Layout as a companion to the main NFSv4 Minor version 1 specification for use of pNFS with Data Servers over NFSv4 or higher minor versions using flexible, per- file striping topology.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bhalevy-nfsv4-flex-files-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bhalevy-nfsv4-flex-files-02.txt' />
+</reference>

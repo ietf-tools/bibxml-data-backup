@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wcg-i2rs-cu-separation-infor-model'>
+<front>
+<title>Information Model of Control-Plane and User-Plane separation BNG</title>
+
+<author initials='Z' surname='Wang' fullname='Zitao Wang'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gu' fullname='Rong Gu'>
+    <organization />
+</author>
+
+<author initials='V' surname='Lopezalvarez' fullname='Victor Lopezalvarez'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hu' fullname='Sujun Hu'>
+    <organization />
+</author>
+
+<date month='October' day='29' year='2017' />
+
+<abstract><t>To improve network resource utilization and reduce the operation expense, the Control-Plane and User-Plane separation conception is raised [I-D.gu-nfvrg-cloud-bng-architecture].  This document describes the information model for the interface between Control- Plane and User-Plane separation BNG.  This information model may involve both control channel interface and configuration channel interface.  The interface for control channel allows the Control- Plane to send several flow tables to the User-Plane, such as user's information table, user's interface table, and user's QoS table, etc. And it also allows the User-Plane to report the resources and statistics information to the Control-Plane.  The interface for configuration channel is in charge of the version negotiation of protocols between the Control-Plane and User-Plane, the configuration for devices of Control-Plane and User-Plane, and the reports of User- Plane's capabilities, etc.  The information model defined in this document enables defining a standardized data model.  Such a data model can be used to define an interface to the CU separation BNG.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wcg-i2rs-cu-separation-infor-model-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wcg-i2rs-cu-separation-infor-model-02.txt' />
+</reference>

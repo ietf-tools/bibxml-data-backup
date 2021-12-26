@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuhn-quic-0rtt-bdp'>
+<front>
+<title>Transport parameters for 0-RTT connections</title>
+
+<author initials='N' surname='Kuhn' fullname='Nicolas Kuhn'>
+    <organization />
+</author>
+
+<author initials='S' surname='Emile' fullname='Stephan Emile'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<author initials='T' surname='Jones' fullname='Tom Jones'>
+    <organization />
+</author>
+
+<date month='May' day='18' year='2020' />
+
+<abstract><t>0-RTT mechanisms reduce the time it takes for the first bytes of application data to be processed in a transport connection and can greatly reduce connection latency during setup.  The 0-RTT transport features described by quic-transport help clients establish secure connections with a minimal number of round-trips.  This document describes a generic method to exchange path parameters relating to transport.  The additional transport parameters can help a connection that continues after an interruption or restarts by sharing connection properties.  They can be used to increase the performance for a path with large RTT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuhn-quic-0rtt-bdp-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuhn-quic-0rtt-bdp-07.txt' />
+</reference>

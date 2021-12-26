@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pcn-3-state-encoding'>
+<front>
+<title>A PCN encoding using 2 DSCPs to provide 3 or more states</title>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob  Briscoe'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<date month='April' day='8' year='2009' />
+
+<abstract><t>Pre-congestion notification (PCN) is a mechanism designed to protect the Quality of Service of inelastic flows within a controlled domain. It does this by marking packets when traffic load on a link is approaching or has exceeded a threshold below the physical link rate. This experimental encoding scheme specifies how three encoding states can be carried in the IP header using a combination of two DSCPs and the ECN bits.  The Basic scheme only allows for three encoding states.  The Full scheme additionally provides limited end-to-end support for ECN.  Status (to be removed by RFC Editor)  This memo is posted as an Internet-Draft with an intent to eventually be published as an experimental RFC.  The PCN Working Group will be asked to adopt this memo as a Working Group document describing one of several possible experimental PCN encoding schemes.  The intention is that the title of this document will change to avoid confusion with the three state marking scheme.  Changes from previous drafts  From draft-moncaster-pcn-3-state-encoding-01:  o  Changed to WG draft.  Title changed from "A three state extended  PCN encoding scheme"  o  Imposed new structure on document.  This structure is intended to  be followed by all extensions to the baseline PCN encoding scheme.  o  Extensive changes throughout to ensure consistency with the  baseline PCN encoding scheme.  From 00 to 01:  o  Checked terminology for consistency with  [I-D.ietf-pcn-baseline-encoding] o  Minor editorial changes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pcn-3-state-encoding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pcn-3-state-encoding-00.txt' />
+</reference>

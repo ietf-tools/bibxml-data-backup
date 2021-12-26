@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.balaji-mpls-li-thru-label-dis-snmp'>
+<front>
+<title>SNMP based Provider-Provisioned label for Lawful Intercept in L3 VPNs</title>
+
+<author initials='S' surname='Raman' fullname='Shankar Raman'>
+    <organization />
+</author>
+
+<author initials='B' surname='Venkat' fullname='Balaji Venkat'>
+    <organization />
+</author>
+
+<author initials='G' surname='Raina' fullname='Gaurav Raina'>
+    <organization />
+</author>
+
+<author initials='V' surname='Srini' fullname='Vasan Srini'>
+    <organization />
+</author>
+
+<author initials='B' surname='Bhikkaji' fullname='Bhargav Bhikkaji'>
+    <organization />
+</author>
+
+<date month='August' day='19' year='2012' />
+
+<abstract><t>In models of Single-AS and inter-provider Multi- Protocol Label Switching (MPLS) based Virtual Private Networks (VPNs) Lawful Intercept is a key requirement. For example, MPLS-based Layer 3 VPN models do not have any provider provisioned methods of lawful intercept that are comprehensive, quick and easy to provision from one single point. More particularly the auto-provisioning of lawful intercept for all sets of streams travelling between VPN sites and consequent re-direction of these streams to the appropriate government network has not been covered without multiple instances of having to configure the intercept at various points in the network both in the Single-AS case and the Inter-Provider VPN case.  In this paper, we propose a technique which uses a set of pre-defined labels called Lawful Intercept labels and a method for provisioning lawful intercept amongst the various PE devices using these labels both in the Single-AS and the inter-provider VPN cases. A single point of action is the key to this idea. The intercepted traffic is mirrored on a PE or a whole set of PEs or on all the PEs participating in the VPN. A technique called the Domino-effect provisioning of these Label-based Provider Provisioned Lawful Intercept mechanism is also outlined. This differs from [1] in that there is explicit use of a secure SNMP mechanism to provision the labels for Lawful Intercept at the various PEs instead of a MP-BGP update.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-balaji-mpls-li-thru-label-dis-snmp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-balaji-mpls-li-thru-label-dis-snmp-00.txt' />
+</reference>

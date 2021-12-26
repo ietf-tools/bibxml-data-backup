@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.baer-lightweight-token-authentication'>
+<front>
+<title>Lightweight Token authentication (LTA) 1.0</title>
+
+<author initials='S' surname='Baer' fullname='Sebastian Baer'>
+    <organization />
+</author>
+
+<author initials='B' surname='Haberstumpf' fullname='Bernd Haberstumpf'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2015' />
+
+<abstract><t>This document contains a specification for a token authentication mechanism that is sufficiently resource-friendly to use it on small embedded or mobile devices.  The three involved parties are a service consumer (CON) a service provider (SP) and an authentication provider (AP).  The authentication provider decouples authentication and the actual service that is consumed.  It also serves as anonymizer.  The consumer authenticates at the authentication provider, requests one or more authorization tokens and redeems those tokens when accessing the service provider's offered services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-baer-lightweight-token-authentication-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-baer-lightweight-token-authentication-01.txt' />
+</reference>

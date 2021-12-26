@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ahmed-lssctp'>
+<front>
+<title>Load Sharing in Stream Control Transmission Protocol</title>
+
+<author initials='A' surname='Al' fullname='Ahmed Abd El Al'>
+    <organization />
+</author>
+
+<date month='May' day='19' year='2005' />
+
+<abstract><t>Stream Control Transmission Protocol (SCTP) RFC2960 [SXM00] specifications utilize the possible multiple paths between the sender and receiver for retransmission of lost data chunks and as a backup for the primary path, in case of primary path failure. Other than that, all the data chunks are being sent on the primary path chosen by the SCTP user during the association initiation. This memo describes an extension to SCTP that allows endpoints to use the multiple available paths for simultaneous data transmission. The extension maintains SCTP congestion control on each path, so as to ensure fair integration with other traffic in the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ahmed-lssctp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ahmed-lssctp-01.txt' />
+</reference>

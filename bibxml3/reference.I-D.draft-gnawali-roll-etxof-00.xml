@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gnawali-roll-etxof'>
+<front>
+<title>The ETX Objective Function for RPL</title>
+
+<author initials='O' surname='Gnawali' fullname='Omprakash Gnawali'>
+    <organization />
+</author>
+
+<author initials='P' surname='Levis' fullname='P Levis'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2010' />
+
+<abstract><t>The ETX metric of a wireless link is the expected number of transmissions required to successfully transmit and acknowledge a packet on the link.  The Routing Protocol for Low Power and Lossy Networks (RPL) allows the use of objective functions to construct routes that optimize or constrain a routing metric on the paths. This specification describes ETXOF, an objective function that minimizes ETX.  The RPL path computation using ETXOF results in minimum-ETX paths from the nodes to the DAG roots, i.e., paths that minimize the number of packet transmissions for packet delivery from nodes in the network to the DAG root.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gnawali-roll-etxof-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gnawali-roll-etxof-00.txt' />
+</reference>

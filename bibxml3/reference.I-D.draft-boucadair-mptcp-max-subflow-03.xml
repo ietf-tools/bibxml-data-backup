@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-mptcp-max-subflow'>
+<front>
+<title>Negotiating the Maximum Number of Multipath TCP (MPTCP) Subflows</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<date month='November' day='24' year='2016' />
+
+<abstract><t>This document specifies an experimental Multipath TCP (MPTCP) option that is meant to negotiate the maximum number of subflows that can be established and maintained for a given MPTCP connection.  The purpose is to minimize any possible performance degradation that can be induced by a possibly large number of establishment requests for additional subflows if the remote endpoint is not appropriately dimensioned to handle such requests.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-mptcp-max-subflow-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-mptcp-max-subflow-03.txt' />
+</reference>

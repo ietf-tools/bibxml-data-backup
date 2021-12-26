@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-lsp-hierarchy-bis'>
+<front>
+<title>Procedures for Dynamically Signaled Hierarchical Label Switched Paths</title>
+
+<author initials='K' surname='Shiomoto' fullname='Kohei Shiomoto'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='R' surname='Rabbat' fullname='Richard Rabbat'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ayyangar' fullname='Arthi Ayyangar'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2008' />
+
+<abstract><t>Label Switched Paths (LSPs) set up in Multiprotocol Label Switching (MPLS) or Generalized MPLS (GMPLS) networks can be used to form links for carrying traffic in those networks or in other (client) networks.  Protocol extensions already exist to facilitate the establishment of an LSP as a numbered traffic engineering (TE) link within the same instance of the routing as is used to advertise the links that it traverses creating a Forwarding Adjacency (FA). This document extends those mechanisms to support unnumbered FAs.  This document also defines how to indicate that an LSP should be advertised as a link in another instance of the routing protocol (for instance in a client network) and which instance to use. Furthermore, mechanisms are defined to indicate when an LSP is to be used as a component link of a TE link bundle and to identify the bundle.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-lsp-hierarchy-bis-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-lsp-hierarchy-bis-05.txt' />
+</reference>

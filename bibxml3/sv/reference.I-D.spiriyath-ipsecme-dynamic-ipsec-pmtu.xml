@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.spiriyath-ipsecme-dynamic-ipsec-pmtu'>
+<front>
+<title>Packetization Layer Path Maximum Transmission Unit Discovery (PLPMTUD) For IPsec Tunnels</title>
+
+<author initials='S' surname='Piriyath' fullname='Shibu Piriyath'>
+    <organization />
+</author>
+
+<author initials='U' surname='Mangla' fullname='Umesh Mangla'>
+    <organization />
+</author>
+
+<author initials='N' surname='Melam' fullname='Nagavenkata Melam'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2018' />
+
+<abstract><t>This document describes Packetization Layer PMTU Discovery (PLPMTUD) procedures for IPSec tunnels.  In these procedures, the encrypting node discovers and maintains a running estimate of the tunnel MTU. In order to do this, the encrypting nodes sends Probe Packets of various size through the IPSec tunnel.  If the size of Probe Packet exceeds the tunnel MTU, a downstream node discards the packet and sends an ICMP PTB message to the encrypting node.  The encrypting node ignores the ICMP PTB message.  If the size of the Probe Packet does not exceed the tunnel MTU and the decrypting node receives the Probe Packet, the decrypting node sends an Acknowledgement Packet to encrypting node through the IPSec tunnel.  The Acknowledgement Packet indicates the size of the Probe Packet.  The procedures described in this document are applicable to IPSec tunnels that are signaled by IKEv2 and provide authentication services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-spiriyath-ipsecme-dynamic-ipsec-pmtu-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-spiriyath-ipsecme-dynamic-ipsec-pmtu-01.txt' />
+</reference>

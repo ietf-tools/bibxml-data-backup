@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-oscore-groupcomm'>
+<front>
+<title>Group OSCORE - Secure Group Communication for CoAP</title>
+
+<author initials='M' surname='Tiloca' fullname='Marco Tiloca'>
+    <organization />
+</author>
+
+<author initials='G' surname='Selander' fullname='Goeran Selander'>
+    <organization />
+</author>
+
+<author initials='F' surname='Palombini' fullname='Francesca Palombini'>
+    <organization />
+</author>
+
+<author initials='J' surname='Park' fullname='Jiye Park'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2019' />
+
+<abstract><t>This document describes a mode for protecting group communication over the Constrained Application Protocol (CoAP).  The proposed mode relies on Object Security for Constrained RESTful Environments (OSCORE) and the CBOR Object Signing and Encryption (COSE) format. In particular, it defines how OSCORE is used in a group communication setting, while fulfilling the same security requirements for group requests and responses.  Source authentication of all messages exchanged within the group is provided by means of digital signatures produced by the sender and embedded in the protected CoAP messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-oscore-groupcomm-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-core-oscore-groupcomm-05.txt' />
+</reference>

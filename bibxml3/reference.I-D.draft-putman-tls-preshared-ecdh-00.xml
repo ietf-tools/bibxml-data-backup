@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.putman-tls-preshared-ecdh'>
+<front>
+<title>ECDH-based Authentication using Pre-Shared Asymmetric Keypairs for (Datagram) Transport Layer Security ((D)TLS) Protocol version 1.2</title>
+
+<author initials='T' surname='Putman' fullname='Tony Putman'>
+    <organization />
+</author>
+
+<date month='November' day='30' year='2017' />
+
+<abstract><t>This document defines a new mutual authentication method for the Transport Layer Security (TLS) protocol version 1.2.  The authentication method requires that the client and server are each pre-provisioned with a unique asymmetric Elliptic Curve Diffie- Hellman (ECDH) keypair and with the public ECDH key of the peer.  The handshake provides ephemeral ECDH keys, and a premaster key is agreed using Double- or Triple-ECDH; confirmation of possession of this key provides mutual authentication.  Multiple new cipher suites which use this authentication method are specified.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-putman-tls-preshared-ecdh-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-putman-tls-preshared-ecdh-00.txt' />
+</reference>

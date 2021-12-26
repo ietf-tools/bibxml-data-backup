@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.burleigh-dtnrg-imc'>
+<front>
+<title>CBHE-Compatible Bundle Multicast</title>
+
+<author initials='S' surname='Burleigh' fullname='Scott Burleigh'>
+    <organization />
+</author>
+
+<date month='November' day='7' year='2012' />
+
+<abstract><t>This document describes a mechanism for Delay-Tolerant Networking (DTN) multicast that is compatible with Compressed Bundle Header Encoding (CBHE).  The mechanism, named "Interplanetary Multicast" (IMC), comprises (a) a single network-wide multicast spanning tree overlaid on any single Bundle Protocol (BP)-based network, (b) multicast groups that take the form of ordinary BP non-singleton endpoints, (c) a new CBHE-compatible URI scheme, "imc", for expressing the identities of these endpoints, (d) a new type of BP administrative record that propagates multicast "petitions" (announcements regarding nodes' membership in IMC endpoints) through the multicast tree, and (e) a new bundle forwarding procedure by which bundles whose destinations are multicast groups are forwarded through the multicast tree in accord with previously received petitions.  IMC is designed to provide simple and efficient multi-source, generally reliable, delay-tolerant multi-point data delivery in a network of arbitrary size.  Anycast, content-centric networking, persistent messages, and similar research challenges are not explicitly supported.  For research purposes and small-scale deployment, it is anticipated that multicast tree construction and maintenance can be manual.  For larger networks an automated protocol for IMC tree management would be required; the design of such a protocol is beyond the scope of this specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-burleigh-dtnrg-imc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-burleigh-dtnrg-imc-00.txt' />
+</reference>

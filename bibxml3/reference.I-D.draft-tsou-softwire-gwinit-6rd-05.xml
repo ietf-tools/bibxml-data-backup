@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tsou-softwire-gwinit-6rd'>
+<front>
+<title>"Gateway-Initiated" 6rd</title>
+
+<author initials='C' surname='Zhou' fullname='Cathy Zhou'>
+    <organization />
+</author>
+
+<author initials='O' surname='Troan' fullname='Ole Troan'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Chen' fullname='Qi Chen'>
+    <organization />
+</author>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<date month='February' day='3' year='2012' />
+
+<abstract><t>This document proposes an alternative 6rd deployment model to that of RFC 5969.  The basic 6rd model allows IPv6 hosts to gain access to IPv6 networks across an IPv4 access network using 6-in-4 tunnels. 6rd requires support by a device (the 6rd-CE) on the customer site, which must also be assigned an IPv4 address.  The alternative model described in this document initiates the 6-in-4 tunnels from an operator-owned gateway collocated with the operator's IPv4 network edge, rather than from customer equipment.  The advantages of this approach are that it requires no modification to customer equipment and avoids assignment of IPv4 addresses to customer equipment.  The latter point means less pressure on IPv4 addresses in a high-growth environment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tsou-softwire-gwinit-6rd-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tsou-softwire-gwinit-6rd-05.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kucherawy-dkim-rcpts'>
+<front>
+<title>Including Recipients in DKIM Signatures</title>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<date month='November' day='15' year='2016' />
+
+<abstract><t>The DomainKeys Identified Mail (DKIM) protocol applies a domain-level cryptographic signature to an e-mail message.  DKIM only guarantees authenticity of the message content and does not consider the message envelope.  This allows for replay attacks by recycling a signed message with an arbitrary new set of recipients.  This document presents a protocol extension that can include original envelope information in the signature data, so that an altered that information renders the signature invalid.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kucherawy-dkim-rcpts-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kucherawy-dkim-rcpts-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fsc-dhc-dhcp4o6-saddr-opt'>
+<front>
+<title>DHCPv4 over DHCPv6 Source Address Option</title>
+
+<author initials='I' surname='Farrer' fullname='Ian Farrer'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Sun' fullname='Qi Sun'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2014' />
+
+<abstract><t>DHCPv4 over DHCPv6 [I-D.ietf-dhc-dhcpv4-over-dhcpv6] describes one possible mechanism for dynamically configuring IPv4 over an IPv6 only network.  For DHCPv4 over DHCPv6 to function with some softwire mechanisms, the operator must obtain information about the DHCP 4o6 client's allocated IPv4 address and PSID, as well as the /128 IPv6 prefix that the client will use as the source of IPv4-in-IPv6 tunnel. This memo defines a DHCPv6 option to convey this IPv6 prefix between the DHCP 4o6 client and server.  It is designed to work in conjunction with the DHCPv4 IPv4 address allocation process message flow.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fsc-dhc-dhcp4o6-saddr-opt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fsc-dhc-dhcp4o6-saddr-opt-00.txt' />
+</reference>

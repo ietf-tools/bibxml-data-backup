@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yusef-dispatch-ccmp-indication'>
+<front>
+<title>Conference Focus Indicating CCMP Support</title>
+
+<author initials='R' surname='Shekh-Yusef' fullname='Rifaat Shekh-Yusef'>
+    <organization />
+</author>
+
+<author initials='M' surname='Barnes' fullname='Mary Barnes'>
+    <organization />
+</author>
+
+<date month='September' day='27' year='2013' />
+
+<abstract><t>The Centralized Conferencing Manipulation Protocol document defines a way for a client to discover a conference control server that supports CCMP. However, it does not define a way for a client involved in a conference to determine if the conference focus supports CCMP. This information would allow a CCMP-enabled client that joins a conference using SIP to also register for the XCON conference event package and take advantage of CCMP operations on the conference.  This document describes two mechanisms, depending upon the need of the UA, to address the above limitation. The first mechanism uses the Call-Info header, and the second mechanism defines a new value for the 'purpose' parameter in the 'service-uris' element in the SIP conferencing event package.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yusef-dispatch-ccmp-indication-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yusef-dispatch-ccmp-indication-06.txt' />
+</reference>

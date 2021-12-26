@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-mpls-tp-bnm'>
+<front>
+<title>Multiprotocol Label Switching Transport Profile Bidirectional Notify Message Packet</title>
+
+<author initials='G' surname='Liu' fullname='Guoman Liu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yang' fullname='Jian Yang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jiang' fullname='Lili Jiang'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2009' />
+
+<abstract><t>This document specifies an extension to MPLS BDI packet to form a new type of OAM packet BNM(Bidirectional Notify Message) , this BNM packet will not only have the function of informing another peer MEP about existing fault of this path like MPLS BDI packet, but also it may use for performance measure and testing communication between two equipments. in addtion, when Client network has a fault or defect. it notify another peer client network about remote peer fault.  And these performance measure and fault notification information will be encapsulated in BNM packet by the way of TLV packet.  So it may decrease the number of OAM type and keep compatibility with MPLS network. on the other hand, this encapsulating these information by the way of TLV packet will be easy to extend OAM function to operate an MPLS Transport profile(MPLS-TP) label switched path (LSP).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-mpls-tp-bnm-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-mpls-tp-bnm-01.txt' />
+</reference>

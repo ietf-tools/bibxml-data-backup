@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.google-self-published-geofeeds'>
+<front>
+<title>A Format for Self-published IP Geolocation Feeds</title>
+
+<author initials='E' surname='Kline' fullname='Erik Kline'>
+    <organization />
+</author>
+
+<author initials='K' surname='Duleba' fullname='Krzysztof Duleba'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Szamonek' fullname='Zoltan Szamonek'>
+    <organization />
+</author>
+
+<author initials='S' surname='Moser' fullname='Stefan Moser'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<date month='May' day='27' year='2019' />
+
+<abstract><t>This document records a format whereby a network operator can publish a mapping of IP address prefixes to simplified geolocation information, colloquially termed a geolocation "feed".  Interested parties can poll and parse these feeds to update or merge with other geolocation data sources and procedures.  This format intentionally only allows specifying coarse level location.  Some technical organizations operating networks that move from one conference location to the next have already experimentally published small geolocation feeds.  This document describes a currently deployed format.  At least one consumer (Google) has incorporated these feeds into a geolocation data pipeline, and a significant number of ISPs are using it to inform them where their prefixes should be geolocated.  [RFC Ed - Please remove publication: The IETF Meeting network currently publishes a feed in this format at: https://noc.ietf.org/geo/google.csv -- this has significantly cut down on the number of "Gah!  Why does the network believe I'm in Montreal, that was last meeting!  How am I supposed to find a pub?!" complaints.  A number of other meeting networks, including RIPE and ICANN publish this information as well, see below. ]  [ Ed note: Text inside square brackets ([]) is additional background information, answers to frequently asked questions, general musings, etc.  They will be removed before publication.]  [ This document is being collaborated on in Github at: https://github.com/google/self-published-geo . The most recent version of the document, open issues, etc should all be available here.  The authors (gratefully) accept pull requests ]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-google-self-published-geofeeds-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-google-self-published-geofeeds-04.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josefsson-sasl-tls-cb'>
+<front>
+<title>Channel Bindings for TLS based on the PRF</title>
+
+<author initials='S' surname='Josefsson' fullname='Simon Josefsson'>
+    <organization />
+</author>
+
+<date month='August' day='19' year='2009' />
+
+<abstract><t>This document specify how to compute data, "channel bindings", that is cryptographically bound to a specific Transport Layer Security (TLS) session.  The intention is to use this data as a name of the secure channel for the purpose of a channel binding.  The channel bindings can be used by authentication protocols to avoid tunneling attacks and security layer re-use.  The data is derived using the TLS Pseudo-Random Function (PRF).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josefsson-sasl-tls-cb-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josefsson-sasl-tls-cb-02.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-isis-ieee-aq'>
+<front>
+<title>IS-IS Extensions Supporting IEEE 802.1aq Shortest Path Bridging</title>
+
+<author initials='D' surname='Fedyk' fullname='Don Fedyk'>
+    <organization />
+</author>
+
+<author initials='P' surname='Ashwood-Smith' fullname='Peter Ashwood-Smith'>
+    <organization />
+</author>
+
+<author initials='D' surname='Allan' fullname='David Allan'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bragg' fullname='Nigel Bragg'>
+    <organization />
+</author>
+
+<author initials='P' surname='Unbehagen' fullname='Paul Unbehagen'>
+    <organization />
+</author>
+
+<date month='December' day='23' year='2010' />
+
+<abstract><t>802.1aq Shortest Path Bridging (SPB) is being standardized by the IEEE as the next step in the evolution of the various spanning tree and registration protocols. 802.1aq allows for true shortest path forwarding in a mesh network context utilizing multiple equal cost paths. This permits it to support much larger layer 2 topologies, with faster convergence, and vastly improved use of the mesh topology. Combined with this is single point provisioning for logical connectivity membership (E-LINE/E-LAN/E-TREE etc).  The control protocol for 802.1aq is IS-IS [IS-IS] augmented with a small number of TLVs while the encapsulating data paths are respectively 802.1ad (Provider Bridges) [PB] and 802.1ah (Provider Backbone Bridges) [PBB]. This memo documents those TLVs while providing some overview.  Note that 802.1aq requires no state machine or other substantive changes to [IS-IS]. It is our intention that 802.1aq be simply a new NLPID and set of TLVs. In the event of any confusion the reader should take [IS-IS] as authoritative.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-isis-ieee-aq-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-isis-ieee-aq-03.txt' />
+</reference>

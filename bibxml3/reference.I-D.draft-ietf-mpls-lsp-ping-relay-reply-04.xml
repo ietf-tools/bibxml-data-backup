@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-lsp-ping-relay-reply'>
+<front>
+<title>Relayed Echo Reply mechanism for LSP Ping</title>
+
+<author initials='L' surname='Jian' fullname='Luo Jian'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jin' fullname='Lizhong Jin'>
+    <organization />
+</author>
+
+<author initials='T' surname='Nadeau' fullname='Tom Nadeau'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<date month='July' day='30' year='2014' />
+
+<abstract><t>In some inter autonomous system (AS) and inter-area deployment scenarios for RFC 4379 "Label Switched Path (LSP) Ping and Traceroute", a replying LSR may not have the available route to the initiator, and the Echo Reply message sent to the initiator would be discarded resulting in false negatives or complete failure of operation of LSP Ping and Traceroute.  This document describes extensions to LSP Ping mechanism to enable the replying Label Switching Router (LSR) to have the capability to relay the Echo Response by a set of routable intermediate nodes to the initiator. This document updates RFC 4379.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-lsp-ping-relay-reply-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-lsp-ping-relay-reply-04.txt' />
+</reference>

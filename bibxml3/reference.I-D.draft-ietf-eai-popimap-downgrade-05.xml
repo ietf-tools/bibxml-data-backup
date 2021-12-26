@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-eai-popimap-downgrade'>
+<front>
+<title>Post-delivery Message Downgrading for Internationalized Email Messages</title>
+
+<author initials='K' surname='Fujiwara' fullname='Kazunori Fujiwara'>
+    <organization />
+</author>
+
+<date month='April' day='13' year='2012' />
+
+<abstract><t>The Email Address Internationalization (SMTPUTF8) extension allows UTF-8 characters in mail header fields.  Upgraded POP and IMAP servers support internationalized Email messages.  If a POP/IMAP client does not support Email Address Internationalization, POP/IMAP servers cannot send Internationalized Email Headers to the client and cannot remove the message.  To avoid the situation, this document describes a conversion mechanism for internationalized Email messages to be in traditional message format.  In the process, message elements requiring internationalized treatment are recoded or removed and receivers are able to know that they received messages containing such elements even if they cannot treat the internationalized elements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-eai-popimap-downgrade-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-eai-popimap-downgrade-05.txt' />
+</reference>

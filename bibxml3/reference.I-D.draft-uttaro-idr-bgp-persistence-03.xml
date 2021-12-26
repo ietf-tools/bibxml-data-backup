@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.uttaro-idr-bgp-persistence'>
+<front>
+<title>Support for Long-lived BGP Graceful Restart</title>
+
+<author initials='J' surname='Uttaro' fullname='Jim Uttaro'>
+    <organization />
+</author>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2013' />
+
+<abstract><t>In this document we introduce a new BGP capability termed "Long-lived Graceful Restart Capability" so that stale routes can be retained for a longer time upon session failure.  In addition a new BGP community "LLGR_STALE" is introduced for marking stale routes retained for a longer time.  We also specify that such long-lived stale routes be treated as the least-preferred, and their advertisements be limited to BGP speakers that have advertised the new capability.  Use of this extension is not advisable in all cases, and we provide guidelines to help determine if it is.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-uttaro-idr-bgp-persistence-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-uttaro-idr-bgp-persistence-03.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lepinski-dh-groups'>
+<front>
+<title>Additional Diffie-Hellman Groups for use with IETF Standards</title>
+
+<author initials='M' surname='Lepinski' fullname='Matt  Lepinski'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kent' fullname='Stephen Kent'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2007' />
+
+<abstract><t>This document describes eight Diffie-Hellman groups that can be used in conjunction with IETF protocols to provide security for Internet communications. The groups allow implementers to use the same groups with a variety of security protocols, e.g., SMIME, SSH, TLS, and IKE. All of these groups comply in form and structure with relevant standards from ISO, ANSI, NIST and the IEEE. These groups are compatible with all IETF standards that make use of Diffie-Hellman or Elliptic Curve Diffie-Hellman crypto. These groups and the associated test data are defined by NIST on their web site [EX80056A], but have not yet (as of this writing) been published in a formal NIST document. Publication of these groups and associated test data as an RFC will facilitate development of interoperable implementations and support FIPS validation of implementations that make use of these groups.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lepinski-dh-groups-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lepinski-dh-groups-00.txt' />
+</reference>

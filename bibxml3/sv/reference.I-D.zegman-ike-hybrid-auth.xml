@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zegman-ike-hybrid-auth'>
+<front>
+<title>A Hybrid Authentication Mode for IKE</title>
+
+<author initials='M' surname='Litvin' fullname='Moshe Litvin'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shamir' fullname='Roy Shamir'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zegman' fullname='Tamir  Zegman'>
+    <organization />
+</author>
+
+<date month='April' day='22' year='2004' />
+
+<abstract><t>This document describes a set of new authentication methods to be used within Phase 1 of the Internet Key Exchange (IKE). The proposed methods assume an asymmetry between the authenticating entities. One entity, typically an Edge Device (e.g. firewall), authenticates using standard public key techniques (in signature mode), while the other entity, typically a remote User, authenticates using challenge response techniques. These authentication methods are used to establish, at the end of Phase 1, an IKE SA which is unidirectionally authenticated. To make this IKE bi-directionally authenticated, this Phase 1 is immediately followed by an X-Auth Exchange [XAUTH]. The X-Auth Exchange is used to authenticate the remote User. The use of these authentication methods is referred to as Hybrid Authentication mode. This proposal is designed to provide a solution for environments where a legacy authentication system exists, yet a full public key infrastructure is not deployed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zegman-ike-hybrid-auth-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zegman-ike-hybrid-auth-01.txt' />
+</reference>

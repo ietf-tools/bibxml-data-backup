@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ypoeluev-tls-m2mcertificate'>
+<front>
+<title>Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Authentication Using M2M Certificate</title>
+
+<author initials='Y' surname='Poeluev' fullname='Yuri Poeluev'>
+    <organization />
+</author>
+
+<author initials='W' surname='Ford' fullname='Warwick Ford'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2015' />
+
+<abstract><t>This memo defines Transport Layer Security (TLS) extensions and associated semantics that allow clients and servers to negotiate the use of M2M certificates for a TLS/DTLS session, and specifies how to transport M2M certificates via TLS/DTLS.  It also defines the registry for non-X.509 certificate types.  The X.509 public key certificate format is overly verbose for Internet- of-Things (IoT) constrained environments, where nodes with limited memory and networks with limited bandwidth are not uncommon.  The Machine-to-Machine (M2M) certificate format is a pruned down and encoding-optimized replacement for X.509, which reuses much of the X.509 semantics but reduces certificate sizes by typically 40%.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ypoeluev-tls-m2mcertificate-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ypoeluev-tls-m2mcertificate-00.txt' />
+</reference>

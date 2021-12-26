@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc0925.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc0925.txt</link>
+        <title>RFC 0925: Multi-LAN address resolution, J. Postel</title>
+        <dc:date>1984-10-01T23:00:00-00:00</dc:date>
+        <description>The problem of treating a set of local area networks (LANs) as one    Internet network has generated some interest and concern.  It is    inappropriate to give each LAN within an site a distinct Internet    network number.  It is desirable to hide the details of the    interconnections between the LANs within an site from people, gateways,    and hosts outside the site.  The question arises on how to best do this,    and even how to do it at all.  In RFC-917 Jeffery Mogul makes a case for    the use of "explicit subnets" in a multi-LAN environment.  The explicit    subnet scheme is a call to recursively apply the mechanisms the Internet    uses to manage networks to the problem of managing LANs within one    network.  In this note I urge another approach: the use of "transparent    subnets" supported by a multi-LAN extension of the Address Resolution    Protocol.  This RFC suggests a proposed protocol for the ARPA-Internet    community, and requests discussion and suggestions for improvements. </description>
+    </item>
+

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-deprecate-bgp-entropy-label'>
+<front>
+<title>Deprecation of BGP Entropy Label Capability Attribute</title>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kompella' fullname='Kireeti Kompella'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2014' />
+
+<abstract><t>RFC 6790 defines the BGP Entropy Label Capability attribute. Regrettably, it has a bug: although RFC 6790 mandates that Entropy Label-incapable routers must remove the attribute, in practice this requirement can't be guaranteed to be fulfilled.  This specification deprecates the attribute.  A forthcoming document will propose a replacement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-deprecate-bgp-entropy-label-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-deprecate-bgp-entropy-label-00.txt' />
+</reference>

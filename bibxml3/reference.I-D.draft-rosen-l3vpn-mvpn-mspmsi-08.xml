@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosen-l3vpn-mvpn-mspmsi'>
+<front>
+<title>MVPN: Optimized use of PIM via MS-PMSIs</title>
+
+<author initials='A' surname='Boers' fullname='Arjen Boers'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cai' fullname='Yiqun Cai'>
+    <organization />
+</author>
+
+<author initials='M' surname='Napierala' fullname='Maria Napierala'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2011' />
+
+<abstract><t>This document specifies an optimized method that a service provider can use to provide MVPN service when using PIM as the MVPN control protocol.  As in prior MVPN methods, PIM control messages are sent over multicast tunnels through the provider network.  However, unlike older MVPN methods, the tunnels are only created if they are needed to carry multicast data traffic; no tunnels are used only for control traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosen-l3vpn-mvpn-mspmsi-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosen-l3vpn-mvpn-mspmsi-08.txt' />
+</reference>

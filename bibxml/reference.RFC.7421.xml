@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7421' target='https://www.rfc-editor.org/info/rfc7421'>
+<front>
+<title>Analysis of the 64-bit Boundary in IPv6 Addressing</title>
+<author initials='B.' surname='Carpenter' fullname='B. Carpenter' role='editor'><organization /></author>
+<author initials='T.' surname='Chown' fullname='T. Chown'><organization /></author>
+<author initials='F.' surname='Gont' fullname='F. Gont'><organization /></author>
+<author initials='S.' surname='Jiang' fullname='S. Jiang'><organization /></author>
+<author initials='A.' surname='Petrescu' fullname='A. Petrescu'><organization /></author>
+<author initials='A.' surname='Yourtchenko' fullname='A. Yourtchenko'><organization /></author>
+<date year='2015' month='January' />
+<abstract><t>The IPv6 unicast addressing format includes a separation between the prefix used to route packets to a subnet and the interface identifier used to specify a given interface connected to that subnet. Currently, the interface identifier is defined as 64 bits long for almost every case, leaving 64 bits for the subnet prefix.  This document describes the advantages of this fixed boundary and analyzes the issues that would be involved in treating it as a variable boundary.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7421'/>
+<seriesInfo name='DOI' value='10.17487/RFC7421'/>
+</reference>

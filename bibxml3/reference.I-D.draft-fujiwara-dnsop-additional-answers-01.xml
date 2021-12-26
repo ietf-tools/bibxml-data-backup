@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fujiwara-dnsop-additional-answers'>
+<front>
+<title>Returning additional answers in DNS responses</title>
+
+<author initials='K' surname='Fujiwara' fullname='Kazunori Fujiwara'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2018' />
+
+<abstract><t>This document proposes to document the ability to provide multiple answers in single DNS response.  For example, authoritative servers may add a NSEC resource record or A/AAAA resource records of the query name.  This is especially useful as, in many cases, the entity making the request has no a priori knowledge of what other questions it will need to ask.  It is already possible (an authoritative server MAY already sends what it wants in the additional section).  This document does not propose any protocol changes, just explanations of an already acceptable practice.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fujiwara-dnsop-additional-answers-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fujiwara-dnsop-additional-answers-01.txt' />
+</reference>

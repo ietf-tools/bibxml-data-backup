@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.savolainen-6man-icmp-destination-sleeping'>
+<front>
+<title>ICMPv6 Destination Unreachable due Sleep</title>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>A destination node may be unreachable due being in sleep mode that lasts longer than is feasible to buffer a packet in a network or at the last hop entity, such as a router of a link.  In such scenarios the originator of the packet can be better off knowing destination's sleep being the cause of destination unreachable ICMPv6 message emitted by the entity dropping the packet.  This document defines an ICMPv6 Code value for indicating Destination Unreachable due sleep.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-savolainen-6man-icmp-destination-sleeping-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-savolainen-6man-icmp-destination-sleeping-00.txt' />
+</reference>

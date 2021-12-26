@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-bier-architecture-08.txt'>
+    <title>"Multicast using Bit Index Explicit Replication", IJsbrand Wijnands, Eric Rosen, Andrew Dolganow, Tony Przygienda, Sam Aldrin</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-bier-architecture-08.txt</link>
+    <description>This document specifies a new architecture for the forwarding of multicast data packets.  It provides optimal forwarding of multicast packets through a "multicast domain".  However, it does not require a protocol for explicitly building multicast distribution trees, nor does it require intermediate nodes to maintain any per-flow state. This architecture is known as "Bit Index Explicit Replication" (BIER).  When a multicast data packet enters the domain, the ingress router determines the set of egress routers to which the packet needs to be sent.  The ingress router then encapsulates the packet in a BIER header.  The BIER header contains a bitstring in which each bit represents exactly one egress router in the domain; to forward the packet to a given set of egress routers, the bits corresponding to those routers are set in the BIER header.  The procedures for forwarding a packet based on its BIER header are specified in this document.  Elimination of the per-flow state and the explicit tree- building protocols results in a considerable simplification.</description>
+    <dc:date>2017-09-13T07:00:00-00:00</dc:date>
+</item>

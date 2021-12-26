@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pan-tsvwg-hpccplus'>
+<front>
+<title>HPCC++: Enhanced High Precision Congestion Control</title>
+
+<author initials='R' surname='Miao' fullname='Rui Miao'>
+    <organization />
+</author>
+
+<author initials='H' surname='Liu' fullname='Hongqiang Liu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pan' fullname='Rong Pan'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lee' fullname='Jeongkeun Lee'>
+    <organization />
+</author>
+
+<author initials='C' surname='Kim' fullname='Changhoon Kim'>
+    <organization />
+</author>
+
+<author initials='B' surname='Gafni' fullname='Barak Gafni'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Shpigelman' fullname='Yuval Shpigelman'>
+    <organization />
+</author>
+
+<date month='September' day='11' year='2020' />
+
+<abstract><t>Congestion control (CC) is the key to achieving ultra-low latency, high bandwidth and network stability in high-speed networks. However, the existing high-speed CC schemes have inherent limitations for reaching these goals.  In this document, we describe HPCC++ (High Precision Congestion Control), a new high-speed CC mechanism which achieves the three goals simultaneously.  HPCC++ leverages inband telemetry to obtain precise link load information and controls traffic precisely.  By addressing challenges such as delayed inband telemetry information during congestion and overreaction to inband telemetry information, HPCC++ can quickly converge to utilize free bandwidth while avoiding congestion, and can maintain near-zero in-network queues for ultra- low latency.  HPCC++ is also fair and easy to deploy in hardware, implementable with commodity NICs and switches.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pan-tsvwg-hpccplus-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pan-tsvwg-hpccplus-02.txt' />
+</reference>

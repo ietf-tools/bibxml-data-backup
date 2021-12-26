@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iana-charset-reg-procedure'>
+<front>
+<title>IANA Charset Registration Procedures</title>
+
+<author initials='M' surname='McFadden' fullname='Mark McFadden'>
+    <organization />
+</author>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2014' />
+
+<abstract><t>Multipurpose Internet Mail Extensions (MIME) (RFC-2045, RFC-2046, RFC-2047, RFC-2231) and various other Internet protocols are capable of using many different charsets.  This in turn means that the ability to label different charsets is essential.  This draft updates the IANA Charset Registration Procedures originally defined in [RFC2978].  Specifically, this document completely revises the registration procedures and the charset registries.  The charset registry is now divided into three parts with separate registration procedures for each.  Note: The charset registration procedure exists solely to associate a specific name or names with a given charset and to give an indication of whether or not a given charset can be used in MIME text objects. In particular, the general applicability and appropriateness of a given registered charset to a particular application is a protocol issue, not a registration issue, and is not dealt with by this registration procedure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iana-charset-reg-procedure-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iana-charset-reg-procedure-00.txt' />
+</reference>

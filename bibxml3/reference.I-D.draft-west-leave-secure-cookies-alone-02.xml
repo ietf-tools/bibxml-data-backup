@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.west-leave-secure-cookies-alone'>
+<front>
+<title>Deprecate modification of 'secure' cookies from non-secure origins</title>
+
+<author initials='M' surname='West' fullname='Mike West'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2015' />
+
+<abstract><t>This document updates RFC6265 by removing the ability for a non- secure origin to set cookies with a 'secure' flag, and to overwrite cookies whose 'secure' flag is set.  This deprecation improves the isolation between HTTP and HTTPS origins, and reduces the risk of malicious interference.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-west-leave-secure-cookies-alone-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-west-leave-secure-cookies-alone-02.txt' />
+</reference>

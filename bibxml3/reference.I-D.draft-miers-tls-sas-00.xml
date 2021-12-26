@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.miers-tls-sas'>
+<front>
+<title>Short Authentication Strings for TLS</title>
+
+<author initials='I' surname='Miers' fullname='Ian Miers'>
+    <organization />
+</author>
+
+<author initials='M' surname='Green' fullname='Matthew Green'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>TLS and DTLS connections generally rely on a PKI, a shared secret, or endpoint fingerprints for endpoint authentication.  This document describes an authentication mechanism which instead generates a "short authentication string" (SAS) as an emergent property of the connection.  The SAS can then be verified via an external channel in order to authenticate the connection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-miers-tls-sas-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-miers-tls-sas-00.txt' />
+</reference>

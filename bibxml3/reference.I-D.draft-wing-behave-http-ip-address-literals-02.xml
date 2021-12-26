@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wing-behave-http-ip-address-literals'>
+<front>
+<title>Coping with IP Address Literals in HTTP URIs with IPv6/IPv4 Translators</title>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2010' />
+
+<abstract><t>A small percentage of HTTP URIs contain an IPv4 address literal as the hostname which is not accessible to IPv6-only HTTP clients using an IPv6/IPv4 translator and DNS64.  This document proposes a workaround for this problem using an HTTP proxy to handle that traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wing-behave-http-ip-address-literals-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wing-behave-http-ip-address-literals-02.txt' />
+</reference>

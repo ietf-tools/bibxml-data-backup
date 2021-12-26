@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gao-mpls-teas-rsvpte-state-update'>
+<front>
+<title>State-updating mechanism in RSVP-TE for MPLS network</title>
+
+<author initials='J' surname='Gao' fullname='Jun Gao'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dai' fullname='Jinyou Dai'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2019' />
+
+<abstract><t>RSVP-TE has the following advantages: source routing capability, and the ability to reserve resources hop by hop along the LSP path.  RSVP takes a "soft state" approach to managing the reservation state in routers and hosts. The use of Refresh messages to cover many possible failures has resulted in a number of operational problems.  One problem relates to scaling, another relates to the reliability and latency of RSVP Signaling.  This document describes a number of mechanisms that can be used to reduce processing overhead requirements of refresh messages. These extension present no backwards compatibility issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gao-mpls-teas-rsvpte-state-update-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gao-mpls-teas-rsvpte-state-update-00.txt' />
+</reference>

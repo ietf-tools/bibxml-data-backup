@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-mpls-mldp-deployment-via-p2p-tunnels'>
+<front>
+<title>Deploying mLDP through p2p LSP Tunnels</title>
+
+<author initials='E' surname='Chen' fullname='Emily Chen'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Zhao' fullname='Quintin Zhao'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2011' />
+
+<abstract><t>Label Distribution Protocol (LDP) can be used to set up Point-to- Multipoint (P2MP) and Multipoint-to-Multipoint (MP2MP) Label Switched Paths.  The existing specification for this functionality assumes that a pair of LDP neighbors which support the P2MP/MP2MP capability are directly connected.  However, the real deployment may not have all the nodes along the LSP path to be P2MP/MP2MP capable so that the CapEx of the deployment can be reduced or the deployment of the LDP P2MP/MP2MP can be in phases instead of updating the whole network. This document provides a solution for finding the first upstream node which supports the LDP P2MP/MP2MP along the path from the current node to the root node.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-mpls-mldp-deployment-via-p2p-tunnels-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-mpls-mldp-deployment-via-p2p-tunnels-00.txt' />
+</reference>

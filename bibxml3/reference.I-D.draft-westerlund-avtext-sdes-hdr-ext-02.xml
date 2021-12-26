@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.westerlund-avtext-sdes-hdr-ext'>
+<front>
+<title>RTP Header Extension for RTCP Source Description Items</title>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zanaty' fullname='Mo Zanaty'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2014' />
+
+<abstract><t>Source Description (SDES) items are normally transported in RTP control protocol (RTCP).  In some cases it can be beneficial to speed up the delivery of these items.  Mainly when a new source (SSRC) joins an RTP session and the receivers needs this source's relation to other sources and its synchronization context, which are fully or partially identified using SDES items.  To enable this optimization, this document specifies a new RTP header extension that can carry any type of SDES items.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-westerlund-avtext-sdes-hdr-ext-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-westerlund-avtext-sdes-hdr-ext-02.txt' />
+</reference>

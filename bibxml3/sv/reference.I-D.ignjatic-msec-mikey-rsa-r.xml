@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ignjatic-msec-mikey-rsa-r'>
+<front>
+<title>An additional mode of key distribution in MIKEY</title>
+
+<author initials='D' surname='Ignjatic' fullname='Dragan Ignjatic'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dondeti' fullname='Lakshminath Dondeti'>
+    <organization />
+</author>
+
+<date month='January' day='28' year='2005' />
+
+<abstract><t>The MIKEY specification [2] describes several modes of key distribution to setup SRTP [4] sessions, viz., pre-shared key, public-key, and an optional Diffie-Hellman key exchange. In the public-key mode the initiator encrypts a random key with the responder's public key and sends it to the responder. In many VoIP calling scenarios, the initiator may not know the responder's public key or in some cases the responder's ID (e.g., call forwarding) in advance. We propose a new MIKEY mode that works well in such scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ignjatic-msec-mikey-rsa-r-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ignjatic-msec-mikey-rsa-r-00.txt' />
+</reference>

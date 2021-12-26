@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.michaelson-as112-ipv6'>
+<front>
+<title>AS112 Nameserver Delegations for IPv6</title>
+
+<author initials='G' surname='Michaelson' fullname='George Michaelson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Huston' fullname='Geoff Huston'>
+    <organization />
+</author>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<author initials='W' surname='Maton' fullname='William Maton'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2011' />
+
+<abstract><t>To reduce longterm traffic to the DNS root servers and the IP6.ARPA authoritative servers, the IAB is requested to instruct the IANA to delegate a set of sub-domains of IP6.ARPA to the AS112 Project [RFC6304].  These domains represent IPv6 address prefixes that are not conventionally populated in the global reverse-DNS, including IPv6 prefixes that are not globally scoped and certain prefixes used in an anycast context.  The reverse DNS query load associated with these IPv6 address prefixes appear to have unacceptable scaling consequences as IPv6 uptake increases.  By delegating these sub-domains to the AS112 project, the DNS query load can be passed to a distributed sink, reducing the query load on the root servers and the IP6.ARPA authoritative servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-michaelson-as112-ipv6-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-michaelson-as112-ipv6-01.txt' />
+</reference>

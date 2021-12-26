@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.leroux-mpls-p2mp-te-autoleaf'>
+<front>
+<title>Routing extensions for discovery of P2MP TE LSP Leaf LSRs</title>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le  Roux'>
+    <organization />
+</author>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2006' />
+
+<abstract><t>The setup of a Point To MultiPoint (P2MP) Traffic Engineering Label Switched Path (TE LSP) requires the head-end Label Switching Router (LSR) to be aware of all leaf LSRs. This may require the potentially cumbersome configuration of potentially a large number of leaf LSRs on the P2MP TE LSP head-end LSR. Also leaf LSRs may want to dynamically join or leave a P2MP TE LSP without requiring manual configuration on the head-end LSR. This document specifies IGP routing extensions for ISIS and OSPF so as to provide an automatic discovery of the set of leaf LSRs members of a P2MP TE-LSP, also referred to as a P2MP TE Group, in order to automate the creation and modification of such P2MP TE LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-leroux-mpls-p2mp-te-autoleaf-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-leroux-mpls-p2mp-te-autoleaf-01.txt' />
+</reference>

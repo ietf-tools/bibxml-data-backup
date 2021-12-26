@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.izh-ccamp-flexe-fwk'>
+<front>
+<title>GMPLS Routing and Signaling Framework for Flexible Ethernet (FlexE)</title>
+
+<author initials='I' surname='Hussain' fullname='Iftekhar Hussain'>
+    <organization />
+</author>
+
+<author initials='R' surname='Valiveti' fullname='Radha Valiveti'>
+    <organization />
+</author>
+
+<author initials='K' surname='Pithewan' fullname='Khuzema Pithewan'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wang' fullname='Qilei Wang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Andersson' fullname='Loa Andersson'>
+    <organization />
+</author>
+
+<author initials='F' surname='Zhang' fullname='Fatai Zhang'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Du' fullname='Zongpeng Du'>
+    <organization />
+</author>
+
+<author initials='z' surname='zhenghaomian@huawei.com' fullname='zhenghaomian@huawei.com'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhang' fullname='Xian Zhang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Huang' fullname='Jing Huang'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Zhong' fullname='Qiwen Zhong'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2016' />
+
+<abstract><t>Traditionally, Ethernet MAC rates were constrained to match the rates of the Ethernet PHY(s).  OIF's implementation agreement [OIFMLG3] was the first step in allowing MAC rates to be different than the PHY rates.  OIF has recently approved another implementation agreement [OIFFLEXE1] which allows complete decoupling of the MAC data rates and the Ethernet PHY(s) that support them.  This includes support for (a) MAC rates which are greater than the rate of a single PHY (satisfied by bonding of multiple PHY(s)), (b) MAC rates which are less than the rate of a PHY (sub-rate), (c) support of multiple FlexE client signals carried over a single PHY, or over a collection of bonded PHY(s).  The FlexE SHIM functions which bond multipe Ethernet PHY(s) to form a large "pipe" view the connectivity between two FlexE aware devices as a collection of multiple point-to-point links (one link per Ethernet PHY).  These logical point-to-point links can either be direct links (without an intervening transport network), or realized via a Optical transport network.  This draft catalogs the usecases that capture the FlexE deployment scenarios -- including the cases that include/exclude OTNs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-izh-ccamp-flexe-fwk-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-izh-ccamp-flexe-fwk-00.txt' />
+</reference>

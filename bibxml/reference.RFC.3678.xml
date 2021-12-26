@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3678' target='https://www.rfc-editor.org/info/rfc3678'>
+<front>
+<title>Socket Interface Extensions for Multicast Source Filters</title>
+<author initials='D.' surname='Thaler' fullname='D. Thaler'><organization /></author>
+<author initials='B.' surname='Fenner' fullname='B. Fenner'><organization /></author>
+<author initials='B.' surname='Quinn' fullname='B. Quinn'><organization /></author>
+<date year='2004' month='January' />
+<abstract><t>The Internet Group Management Protocol (IGMPv3) for IPv4 and the Multicast Listener Discovery (MLDv2) for IPv6 add the capability for applications to express source filters on multicast group memberships, which allows receiver applications to determine the set of senders (sources) from which to accept multicast traffic.  This capability also simplifies support of one-to-many type multicast applications.  This document specifies new socket options and functions to manage source filters for IP Multicast group memberships.  It also defines the socket structures to provide input and output arguments to these new application program interfaces (APIs).  These extensions are designed to provide access to the source filtering features, while introducing a minimum of change into the system and providing complete compatibility for existing multicast applications.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3678'/>
+<seriesInfo name='DOI' value='10.17487/RFC3678'/>
+</reference>

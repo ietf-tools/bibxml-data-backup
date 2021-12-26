@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lazzeri-pce-residual-bw'>
+<front>
+<title>Extensions to the Path Computation Element Protocol (PCEP) for residual path bandwidth support</title>
+
+<author initials='F' surname='Lazzeri' fullname='Francesco Lazzeri'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<date month='February' day='26' year='2018' />
+
+<abstract><t>The PCEP protocol has objective functions to optimize path attributes like the residual bandwidth. While this is enough for some applications, it's not possible to return the computed values of such attributes to the PCC, or put bounds on them. This document describes extensions to the PCE Communication Protocol (PCEP) providing new path-related bandwidth metrics allowing a PCE to compute paths taking into account and returning to the PCC information about the remaining bandwidth along the computed paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lazzeri-pce-residual-bw-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lazzeri-pce-residual-bw-01.txt' />
+</reference>

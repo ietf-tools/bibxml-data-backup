@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-homenet-front-end-naming-delegation'>
+<front>
+<title>IPv6 Home Network Front End Naming Delegation</title>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<author initials='P' surname='Lemordant' fullname='Philippe Lemordant'>
+    <organization />
+</author>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<date month='July' day='30' year='2012' />
+
+<abstract><t>This document proposes a Naming Delegation Architecture that makes possible End Users to reach the hosts or services of their Home Network using Names instead of IP addresses.  This document shows how the Naming Delegation between the CPE and the ISP can be set so the CPE is not exposed on the Internet.  This document describes an Naming Architecture where ISPs provide Front End Delegating DNS Servers whereas the CPEs constitute a Back End Network of Delegated DNS Servers.  All DNS queries for any Home Network are addressed to the Delegating Front End Server.  The response is expected to be stored on a CPE, and the Front End Delegating DNS Server sends a DNS Query to that CPE before answering to the initial DNS query.  The negotiation between the CPE and the ISP is using DHCP Options. This document provides options so Front End Delegating and the Delegated DNS Servers configure their respective Zone files and so that CPEs restrict access and protect themselves from unauthorized DNS Queries.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-homenet-front-end-naming-delegation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-homenet-front-end-naming-delegation-00.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-homenet-front-end-naming-delegation-00.ps' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-homenet-front-end-naming-delegation-00.pdf' />
+</reference>

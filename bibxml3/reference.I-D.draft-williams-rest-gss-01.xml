@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.williams-rest-gss'>
+<front>
+<title>RESTful Hypertext Transfer Protocol Application-Layer Authentication Using Generic Security Services</title>
+
+<author initials='N' surname='Williams' fullname='Nico Williams'>
+    <organization />
+</author>
+
+<date month='June' day='2' year='2012' />
+
+<abstract><t>This document describes a method for application-layer authentication in Hypertext Transfer Protocol (HTTP) applications using Generic Security Services Application Programming Interface (GSS-API) mechanisms via, for simplicity, the Simple Authentication and Security Layers (SASL) mechanism bridge known as "GS2".  This approach to authentication allows for pluggability, mutual authentication, and channel binding, all with no changes to HTTP nor the Transport Layer Security (TLS).  We hope that the use of mutual authentication and channel binding at the application layer will make phishing more difficult.  We hope that the use of authentication at the application layer will make REST-GSS deployable.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-williams-rest-gss-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-williams-rest-gss-01.txt' />
+</reference>

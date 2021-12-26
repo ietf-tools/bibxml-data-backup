@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mathis-frag-harmful'>
+<front>
+<title>Fragmentation Considered Very Harmful</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2004' />
+
+<abstract><t>IPv4 fragmentation is not sufficiently robust for general use in today's Internet. The 16-bit IP identification field is not large enough to prevent frequent missassociated IP fragments and the TCP and UDP checksums are insufficient to prevent the resulting corrupted data from being delivered to higher protocol layers. In this note we describe some easily reproduced experiments demonstrating the problem and estimate the scale the data corruption in the presence of ever growing data rates.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mathis-frag-harmful-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mathis-frag-harmful-00.txt' />
+</reference>

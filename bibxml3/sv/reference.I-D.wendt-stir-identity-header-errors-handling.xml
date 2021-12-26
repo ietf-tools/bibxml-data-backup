@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wendt-stir-identity-header-errors-handling'>
+<front>
+<title>Identity Header Error Handling</title>
+<author initials='C' surname='Wendt' fullname='Chris Wendt'>
+<organization />
+</author>
+<date year='2021' month='October' day='25' />
+<abstract><t>This document extends STIR and the Authenticated Identity Management in the Session Initiation Protocol (SIP) error handling procedures to include the mapping of verification failure reasons to STIR defined 4xx codes so the failure reason of an Identity header field can be conveyed to the upstream authentication service when local policy dictates that the call should continue in the presence of a verification failure.  This document also defines procedures that enable enable a failure reason to be mapped to a specific Identity header for scenarios that use multiple Identity header fields where some may have errors and others may not and the handling of those situations is defined.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-wendt-stir-identity-header-errors-handling-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-wendt-stir-identity-header-errors-handling-03.txt'/>
+</reference>

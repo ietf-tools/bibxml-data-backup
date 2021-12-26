@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dukhovni-tls-dnssec-chain'>
+<front>
+<title>TLS DNSSEC Chain Extension</title>
+<author initials='V' surname='Dukhovni' fullname='Viktor Dukhovni'>
+<organization />
+</author>
+<author initials='S' surname='Huque' fullname='Shumon Huque'>
+<organization />
+</author>
+<author initials='W' surname='Toorop' fullname='Willem Toorop'>
+<organization />
+</author>
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+<organization />
+</author>
+<author initials='M' surname='Shore' fullname='Melinda Shore'>
+<organization />
+</author>
+<date year='2021' month='June' day='10' />
+<abstract><t>This document describes an experimental TLS extension for in-band transport of the complete set of DNSSEC validatable records needed to perform DANE authentication of a TLS server without the need to perform separate out-of-band DNS lookups.  When the requisite DNS records do not exist, the extension conveys a validatable denial of existence proof.</t><t> This experimental extension is developed outside the IETF and is published here to guide implementation of the extension and to ensure interoperability among implementations.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-dukhovni-tls-dnssec-chain-08'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-dukhovni-tls-dnssec-chain-08.txt'/>
+</reference>

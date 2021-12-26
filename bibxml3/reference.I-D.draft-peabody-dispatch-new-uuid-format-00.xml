@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.peabody-dispatch-new-uuid-format'>
+<front>
+<title>UUID Format Update</title>
+
+<author initials='B' surname='Peabody' fullname='Brad Peabody'>
+    <organization />
+</author>
+
+<date month='February' day='24' year='2020' />
+
+<abstract><t>This document presents a new UUID format (version 6) which is suited for use as a database key.  A common case for modern applications is to create a unique identifier to be used as a primary key in a database table that is ordered by creation time, difficult to guess and has a compact text format.  None of the existing UUID versions fulfill each of these requirements.  This document is a proposal to update RFC4122 with a new UUID version that addresses these concerns.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-peabody-dispatch-new-uuid-format-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-peabody-dispatch-new-uuid-format-00.txt' />
+</reference>

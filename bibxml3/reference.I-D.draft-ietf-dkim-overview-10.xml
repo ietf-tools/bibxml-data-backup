@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dkim-overview'>
+<front>
+<title>DomainKeys Identified Mail (DKIM) Service Overview</title>
+
+<author initials='T' surname='Hansen' fullname='Tony Hansen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Crocker' fullname='Dave  Crocker'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2008' />
+
+<abstract><t>This document provides an overview of the DomainKeys Identified Mail (DKIM) service and describes how it can fit into a messaging service. It also describes how DKIM relates to other IETF message signature technologies.  It is intended for those who are adopting, developing, or deploying DKIM.  DKIM allows an organization to take responsibility for transmitting a message, in a way that can be validated by a recipient.  The organization can be the author's, the originating sending site, an intermediary, or one of their agents.  A message can contain multiple signatures, from the same or different organizations involved with the message.  DKIM defines a domain-level digital signature authentication framework for email, using public- key cryptography, using the domain name service as its key server technology [RFC4871].  This permits verification of a responsible organization, as well as the integrity of the message contents.  DKIM will also provide a mechanism that permits potential email signers to publish information about their email signing practices; this will permit email receivers to make additional assessments about messages. DKIM's authentication of email identity can assist in the global control of "spam" and "phishing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dkim-overview-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dkim-overview-10.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dkim-overview-10.pdf' />
+</reference>

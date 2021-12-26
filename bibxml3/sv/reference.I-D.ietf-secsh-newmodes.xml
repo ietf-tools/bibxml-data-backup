@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-secsh-newmodes'>
+<front>
+<title>SSH Transport Layer Encryption Modes</title>
+
+<author initials='M' surname='Bellare' fullname='Mihir Bellare'>
+    <organization />
+</author>
+
+<date month='August' day='19' year='2005' />
+
+<abstract><t>Researchers have discovered that the authenticated encryption portion of the current SSH Transport Protocol is vulnerable to several attacks. This document describes new symmetric encryption methods for the SSH Transport Protocol and gives specific recommendations on how frequently SSH implementations should rekey. In a paper at the Ninth ACM Conference on Computer and Communications Security, Bellare, Kohno, and Namprempre prove that if an SSH application implements the modifications described in this document, then the symmetric cryptographic portion of that application will provably resist chosen-plaintext, chosen-ciphertext, reaction-based privacy, and integrity/authenticity attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-secsh-newmodes-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-secsh-newmodes-05.txt' />
+</reference>

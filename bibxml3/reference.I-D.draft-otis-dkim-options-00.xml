@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-dkim-options'>
+<front>
+<title>Extended Options for DomainKeys Identified Mail (DKIM)</title>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<date month='December' day='27' year='2005' />
+
+<abstract><t>This document describes options that extend protections offered by DKIM. These options include Binding-Advice &amp; Role-Assertion, Opaque- Identifier, and an In-Channel check. The Binding-Advice &amp; Role- Assertion offers guidance in isolating the source of a message, in addition to establishing message signature expectations. The Opaque- Identifier (O-ID) offers protection from replay abuse and intra- domain spoofing, even when email-addresses are not associated with the signing-domain. The In-Channel check provides a means to mitigate DNS lookups for avoiding possible message replay abuse.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-dkim-options-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-dkim-options-00.txt' />
+</reference>

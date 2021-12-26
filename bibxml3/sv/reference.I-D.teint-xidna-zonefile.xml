@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.teint-xidna-zonefile'>
+<front>
+<title>An X-IDNA Profile for DNS Zone Master Files</title>
+
+<author initials='N' surname='Teint' fullname='Nick Teint'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2010' />
+
+<abstract><t>While the Domain Name System (DNS) has allowed any octets in labels and ressource records since its inception, traditionally, addresses used for hostnames, email addresses, and other names actuall used in the DNS were limited to ASCII characters.  This memo defines an extension to allow the use of a wide range of internationalised addresses that need to be converted to ACE form on the wire, including domain names and email addresses in zone master files, without removing the ability to include arbitrary octets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-teint-xidna-zonefile-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-teint-xidna-zonefile-00.txt' />
+</reference>

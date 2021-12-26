@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lamps-cmp-updates'>
+<front>
+<title>Certificate Management Protocol (CMP) Updates</title>
+<author initials='H' surname='Brockhaus' fullname='Hendrik Brockhaus'>
+<organization />
+</author>
+<author initials='D' surname='Oheimb' fullname='David von Oheimb'>
+<organization />
+</author>
+<author initials='J' surname='Gray' fullname='John Gray'>
+<organization />
+</author>
+<date year='2021' month='December' day='22' />
+<abstract><t>This document contains a set of updates to the syntax and transfer of Certificate Management Protocol (CMP) version 2.  This document updates RFC 4210, RFC 5912, and RFC 6712.</t><t> The aspects of CMP updated in this document are using EnvelopedData instead of EncryptedValue, clarifying the handling of p10cr messages, improving the crypto agility, as well as adding new general message types, extended key usages to identify certificates for use with CMP, and '.well-known' HTTP path segments.</t><t> To properly differentiate the support of EnvelopedData instead of EncryptedValue, the CMP version 3 is introduced in case a transaction is supposed to use EnvelopedData.</t><t> CMP version 3 is introduced to enable signaling support of EnvelopedData instead of EncryptedValue and signaling the use of an explicit hash AlgorithmIdentifier in certConf messages, as far as needed.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-lamps-cmp-updates-16'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-lamps-cmp-updates-16.txt'/>
+</reference>

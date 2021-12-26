@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gersch-dnsop-revdns-cidr'>
+<front>
+<title>Reverse DNS Naming Convention for CIDR Address Blocks</title>
+
+<author initials='J' surname='Gersch' fullname='Joe Gersch'>
+    <organization />
+</author>
+
+<author initials='D' surname='Massey' fullname='Dan Massey'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2012' />
+
+<abstract><t>The current reverse DNS naming method is used to specify a complete IP address.  It has not been used to handle address ranges; for example, there is no formal mechanism for specifying a reverse DNS name for the block of addresses specified by the IPv4 prefix 129.82.0.0/16.  Defining such a reverse DNS naming convention would be useful for a number of applications.  These include applications for secure BGP routing, and applications that need host-information for a device owning a complete IPv6 address block.  This draft proposes a naming convention for encoding CIDR address blocks in the reverse DNS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gersch-dnsop-revdns-cidr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gersch-dnsop-revdns-cidr-00.txt' />
+</reference>

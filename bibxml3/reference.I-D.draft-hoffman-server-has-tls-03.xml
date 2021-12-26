@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-server-has-tls'>
+<front>
+<title>Specifying That a Server Supports TLS</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='January' day='16' year='2011' />
+
+<abstract><t>A server that hosts applications that can be run with or without TLS may want to communicate with clients whether the server is hosting an application only using TLS or also hosting the application without TLS.  Many clients have a policy to try to set up a TLS session but fall back to insecure if the TLS session cannot be set up.  If the server can securely communicate whether or not it can fall back to insecure tells such a client whether or not they should even try to set up an insecure session with the server.  This document describes the use cases for this type of communication and a secure method for communicating that information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-server-has-tls-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-server-has-tls-03.txt' />
+</reference>

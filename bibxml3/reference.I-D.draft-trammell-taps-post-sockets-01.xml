@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.trammell-taps-post-sockets'>
+<front>
+<title>Post Sockets, An Abstract Programming Interface for the Transport Layer</title>
+
+<author initials='B' surname='Trammell' fullname='Brian Trammell'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Colin Perkins'>
+    <organization />
+</author>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='September' day='8' year='2017' />
+
+<abstract><t>This document describes Post Sockets, an asynchronous abstract programming interface for the atomic transmission of messages in an inherently multipath environment.  Post replaces connections with long-lived associations between endpoints, with the possibility to cache cryptographic state in order to reduce amortized connection latency.  We present this abstract interface as an illustration of what is possible with present developments in transport protocols when freed from the strictures of the current sockets API.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-trammell-taps-post-sockets-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-trammell-taps-post-sockets-01.txt' />
+</reference>

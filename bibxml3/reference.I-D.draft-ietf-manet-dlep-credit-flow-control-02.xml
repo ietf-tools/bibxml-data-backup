@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-manet-dlep-credit-flow-control'>
+<front>
+<title>DLEP Credit-Based Flow Control Messages and Data Items</title>
+
+<author initials='B' surname='Cheng' fullname='Bow-Nan Cheng'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wiggins' fullname='David Wiggins'>
+    <organization />
+</author>
+
+<author initials='L' surname='Berger' fullname='Lou Berger'>
+    <organization />
+</author>
+
+<date month='June' day='26' year='2018' />
+
+<abstract><t>This document defines new DLEP protocol Data Items that are used to support credit-based flow control.  The Data Items enable separate but related functions: traffic classification and credit window control.  Traffic classification information is used to identify traffic flows based on frame/packet content such as destination address.  Credit window control is used to regulate when data may be sent to an associated virtual or physical queue.  The Data Items are defined in an extensible and reusable fashion.  Their use will be mandated in other documents defining specific DLEP extensions.  This document also introduces DLEP sub data items.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-manet-dlep-credit-flow-control-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-manet-dlep-credit-flow-control-02.txt' />
+</reference>

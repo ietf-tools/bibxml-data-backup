@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hal-adot-operational-considerations'>
+<front>
+<title>Authoritative DNS-over-TLS Operational Considerations</title>
+
+<author initials='K' surname='Henderson' fullname='Karl Henderson'>
+    <organization />
+</author>
+
+<author initials='T' surname='April' fullname='Tim April'>
+    <organization />
+</author>
+
+<author initials='J' surname='Livingood' fullname='Jason Livingood'>
+    <organization />
+</author>
+
+<date month='August' day='13' year='2019' />
+
+<abstract><t>DNS over TLS (DoT) has been gaining attention, primarily as a means of communication between stub resolvers and recursive resolvers. There have also been discussions and experiments involving the use of DoT to communicate with authoritative nameservers (Authoritative DNS over TLS or "ADoT"), including communication between recursive and authoritative resolvers.  However, we have identified a number of operational concerns with ADoT that have arisen as DNS operators have begun to experiment with and prepare for deploying DoT.  These operational concerns need to be addressed prior to ADoT's deployment at scale by DNS operators in order to maintain the stability and resilience of the global DNS.  The document also provides some suggested next steps to advance the operator community's understanding of ADoT's operational impact.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hal-adot-operational-considerations-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hal-adot-operational-considerations-02.txt' />
+</reference>

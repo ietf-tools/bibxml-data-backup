@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-of'>
+<front>
+<title>Encoding of Objective Functions in Path Computation Element communication  Protocol (PCEP)</title>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2008' />
+
+<abstract><t>The computation of one or a series of Traffic Engineering Label Switched Paths (TE LSPs) in MultiProtocol Label Switching (MPLS) and Generalized MPLS (GMPLS) networks, is subject to a set of one or more specific optimization criteria(s), referred to as an objective function (e.g. minimum cost path, widest path, etc.). A Path Computation Element (PCE) may support one or multiple objective functions, and it is desired for a Path Computation Client (PCC) to automatically discover the set of objective functions supported by a PCE. Furthermore, it may be useful for a PCC to specify in a path computation request the required objective function to be used by the PCE to compute a TE LSP or a set of TE LSPs. Thus the aim of this document is to define extensions to the PCE communication Protocol (PCEP) in order to allow a PCC to discover the set of objective functions supported by a PCE as well as to allow a PCC to indicate in a path computation request the required objective function and a PCE to indicate in a path computation reply the objective function that was used for path computation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-of-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-of-02.txt' />
+</reference>

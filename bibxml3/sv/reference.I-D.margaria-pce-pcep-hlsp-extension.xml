@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.margaria-pce-pcep-hlsp-extension'>
+<front>
+<title>PCEP Procedures for Hierarchical Label Switched Paths</title>
+
+<author initials='C' surname='Margaria' fullname='Cyril Margaria'>
+    <organization />
+</author>
+
+<author initials='C' surname='Barth' fullname='Colby Barth'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cheruathur' fullname='Sudhir Cheruathur'>
+    <organization />
+</author>
+
+<author initials='B' surname='Tsai' fullname='Ben Tsai'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>Label Switched Paths (LSPs) set up in Multiprotocol Label Switching (MPLS) or Generalized MPLS (GMPLS) networks can be used to form links to carry traffic in those networks or in other (client) networks. These LSPs can be referred to as Hierarchical LSPs (H-LSP).  H-LSPs allow to improve the scalability of MPLS/GMPLS networks by creating hierarchies of TE-LSPs.  Those hierarchies are an important state for optimal TE-Computation, therefore a stateful PCE should be able to discover and manage those H-LSPs.  A PCE having a global view of the network, including Forwarding Adjacencies LSP (FA-LSP) and non FA- LSPs, can create more optimal hierachies and (re-)compute the TE-LSPs path to make use of the H-LSPs.  In particular a PCE can better leverage the Private H-LSP introduced by RFC6107 without influencing the IGP, allowing a less disruptive use of Hierarchies.  RFC6107 defined Protocol mechanisms to facilitate the establishment of such LSPs and to bundle traffic engineering (TE) links to reduce the load on routing protocols.  This document defines PCEP extensions to learn about and control those H-LSPs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-margaria-pce-pcep-hlsp-extension-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-margaria-pce-pcep-hlsp-extension-00.txt' />
+</reference>

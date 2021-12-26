@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birrane-dtn-ampmgr-sql'>
+<front>
+<title>AMP Manager SQL Interface</title>
+
+<author initials='M' surname='Sinkiat' fullname='Mark Sinkiat'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jacobs' fullname='Samantha Jacobs'>
+    <organization />
+</author>
+
+<author initials='E' surname='Birrane' fullname='Edward Birrane'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2015' />
+
+<abstract><t>This document describes a proposed public interface through which an application, such as a network management console, interacts with an Asynchronous Management Protocol (AMP) Manager via a database supporting the Structured Query Language (SQL).  The use of SQL as an interfacing layer provides a natural way to describe interactions with an AMP Manager independent of a particular implementation of either the Manager or the application.  Specifically, this document presents a database schema capturing how to send controls to a Manager and how to accept reports received by a Manager from one or more AMP Agents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-birrane-dtn-ampmgr-sql-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-birrane-dtn-ampmgr-sql-00.txt' />
+</reference>

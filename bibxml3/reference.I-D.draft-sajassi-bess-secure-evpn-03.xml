@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sajassi-bess-secure-evpn'>
+<front>
+<title>Secure EVPN</title>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Banerjee' fullname='Ayan Banerjee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Thoria' fullname='Samir Thoria'>
+    <organization />
+</author>
+
+<author initials='D' surname='Carrel' fullname='David Carrel'>
+    <organization />
+</author>
+
+<author initials='B' surname='Weis' fullname='Brian Weis'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>The applications of EVPN-based solutions ([RFC7432] and [RFC8365]) have become pervasive in Data Center, Service Provider, and Enterprise segments. It is being used for fabric overlays and inter- site connectivity in the Data Center market segment, for Layer-2, Layer-3, and IRB VPN services in the Service Provider market segment, and for fabric overlay and WAN connectivity in Enterprise networks. For Data Center and Enterprise applications, there is a need to provide inter-site and WAN connectivity over public Internet in a secured manner with same level of privacy, integrity, and authentication for tenant's traffic as IPsec tunneling using IKEv2. This document presents a solution where BGP point-to-multipoint signaling is leveraged for key and policy exchange among PE devices to create private pair-wise IPsec Security Associations without IKEv2 point-to-point signaling or any other direct peer-to-peer session establishment messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sajassi-bess-secure-evpn-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sajassi-bess-secure-evpn-03.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-disco-proto-igp'>
+<front>
+<title>IGP protocol extensions for Path Computation Element (PCE) Discovery</title>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2006' />
+
+<abstract><t>There are various circumstances in which it is highly desirable for a Path Computation Client (PCC) to be able to dynamically and automatically discover a set of Path Computation Element(s) (PCE), along with some of information that can used for PCE selection. When the PCE is an LSR participating to the IGP, or even a server participating passively to the IGP, a simple and efficient way for PCE discovery consists of relying on IGP flooding. For that purpose this document defines OSPF and ISIS extensions for the advertisement of PCE Discovery information within an IGP area or the entire routing domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-disco-proto-igp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-disco-proto-igp-01.txt' />
+</reference>

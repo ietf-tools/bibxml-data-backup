@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoerdt-pim-group-unreachable'>
+<front>
+<title>Simple join failure notification for PIM-SM multicast routing</title>
+
+<author initials='M' surname='Hoerdt' fullname='Mickael  Hoerdt'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2006' />
+
+<abstract><t>Currently, PIM-SM is the most widely deployed multicast routing protocol in the Internet. However in IPv6 this multicast protocol lacks a simple connectivity debugging tool, making it difficult to identify multicast routing problems. When a host wants to receive a multicast group or channel, if the corresponding PIM-Join message cannot be propagated in the network, nothing exists to inform the receiver or the network about this failure. We propose a simple error notification message based on ICMP/ICMP6 which is able to indicate where and why the error happened in the network without using a multicast traceroute mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoerdt-pim-group-unreachable-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoerdt-pim-group-unreachable-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.osterweil-dmarc-dane-names'>
+<front>
+<title>DMARC Extensions for DANE</title>
+
+<author initials='E' surname='Osterweil' fullname='Eric Osterweil'>
+    <organization />
+</author>
+
+<author initials='G' surname='Wiley' fullname='Glen Wiley'>
+    <organization />
+</author>
+
+<date month='January' day='19' year='2016' />
+
+<abstract><t>This document proposes additions to the Domain-based Message Authentication, Reporting, and Conformance (DMARC) Tag Registry to enable Mail administrators to specify the domain-wide policies for S/ MIME and PGP key usage in their mail domains, in conjunction with use of the DANE SMIMEA and OPENPGPKEY resource records.  This would mean adding to the authentication mechanisms specified in RFC 7489, but it would specify only the domain-wide policies for S/MIME and PGP, such as what the policies are for signing and encrypting (does the sender mandate it, not allow it, etc.).  This document also suggests the specification of the type of encoding of the left-hand sides used in the DANE resource records.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-osterweil-dmarc-dane-names-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-osterweil-dmarc-dane-names-00.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-litkowski-idr-bgp-timestamp-02.txt'>
+    <title>"Timestamp support for BGP paths", Stephane Litkowski, Keyur Patel, Jeffrey Haas</title>
+    <link>http://www.ietf.org/internet-drafts/draft-litkowski-idr-bgp-timestamp-02.txt</link>
+    <description>BGP is more and more used to transport routing information for critical services.  Some BGP updates may be critical to be received as fast as possible : for example, in a layer 3 VPN scenario where a dual-attached site is loosing primary connection, the BGP withdraw message should be propagated as fast as possible to restore the service.  The same criticity exists for other address-families like multicast VPNs where "join" messages should also be propagated very fast.  Experience of service providers shows that BGP path propagation time may vary depending on network conditions (especially load of BGP speaker on the path) and too long propagation time are affecting customer service.  It is important for service providers to keep track of BGP updates propagation time to monitor quality of service for the customers.  It is also important to be able to identify BGP Speakers that are slowing down the propagation.  This document presents a solution to transport timestamps of a BGP path.  The solution is targeted to be used using special identified beacon prefixes that are single-homed.</description>
+    <dc:date>2015-03-23T07:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.filsfils-spring-sr-recursing-info'>
+<front>
+<title>Segment Routing Recursive Information</title>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2015' />
+
+<abstract><t>Segment Routing (SR) allows for a flexible definition of end-to-end paths within IGP topologies by encoding paths as sequences of topological sub-paths, called "segments".  These segments are advertised by the link-state routing protocols (IS-IS and OSPF).  There are use cases where it is desirable to utilize a SID associated with a given node in order to transport traffic destined to different local services supported by such node.  This document defines the mechanism to do so and illustrates it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-filsfils-spring-sr-recursing-info-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-filsfils-spring-sr-recursing-info-00.txt' />
+</reference>

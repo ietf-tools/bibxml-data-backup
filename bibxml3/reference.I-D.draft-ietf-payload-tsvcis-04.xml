@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-payload-tsvcis'>
+<front>
+<title>RTP Payload Format for TSVCIS Codec</title>
+
+<author initials='V' surname='Demjanenko' fullname='Victor Demjanenko'>
+    <organization />
+</author>
+
+<author initials='J' surname='Punaro' fullname='John Punaro'>
+    <organization />
+</author>
+
+<author initials='D' surname='Satterlee' fullname='David Satterlee'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2019' />
+
+<abstract><t>This document describes the RTP payload format for the Tactical Secure Voice Cryptographic Interoperability Specification (TSVCIS) speech coder.  TSVCIS is a scalable narrowband voice coder supporting varying encoder data rates and fallbacks.  It is implemented as an augmentation to the Mixed Excitation Linear Prediction Enhanced (MELPe) speech coder by conveying additional speech coder parameters for enhancing voice quality.  TSVCIS augmented speech data is processed in conjunction with its temporal matched MELP 2400 speech data.  The RTP packetization of TSVCIS and MELPe speech coder data is described in detail.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-payload-tsvcis-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-payload-tsvcis-04.txt' />
+</reference>

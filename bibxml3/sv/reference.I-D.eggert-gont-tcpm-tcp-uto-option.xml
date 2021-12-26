@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eggert-gont-tcpm-tcp-uto-option'>
+<front>
+<title>TCP User TimeOut (UTO) Option</title>
+
+<author initials='L' surname='Eggert' fullname='L Eggert'>
+    <organization />
+</author>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2004' />
+
+<abstract><t>The TCP user timeout controls how long transmitted data may remain unacknowledged before a connection is aborted. TCP implementations typically use a single, system-wide user timeout value. The TCP User Timeout Option allows conforming TCP implementations to exchange requests for individual, per-connection user timeouts. Lengthening the system-wide default user timeout allows established TCP connections to survive extended periods of disconnection. On the other hand, shortening the default user timeout allows busy servers to explicitly notify their clients they will maintain the connection state information only accross short periods of disconnection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eggert-gont-tcpm-tcp-uto-option-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eggert-gont-tcpm-tcp-uto-option-01.txt' />
+</reference>

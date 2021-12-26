@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.myklebust-nfsv4-unstable-file-creation'>
+<front>
+<title>Enabling server side caching of file creation in NFSv4</title>
+
+<author initials='T' surname='Myklebust' fullname='Trond Myklebust'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2011' />
+
+<abstract><t>This document describes an extension to the NFSv4 protocol to allow clients to create and write files with greater efficiency.  The proposed extension allows the server to defer creating the file on stable storage when replying to an OPEN call.  The aim is to improve server efficiency and scalability by reducing the number of required disk accesses when writing a file from scratch.Keywords</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-myklebust-nfsv4-unstable-file-creation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-myklebust-nfsv4-unstable-file-creation-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dhody-pce-stateful-pce-vendor'>
+<front>
+<title>Conveying Vendor-Specific Information in the Path Computation Element (PCE) Communication Protocol (PCEP) extensions for Stateful PCE.</title>
+
+<author initials='C' surname='Li' fullname='Cheng Li'>
+    <organization />
+</author>
+
+<author initials='H' surname='Zheng' fullname='Haomian Zheng'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sidor' fullname='Samuel Sidor'>
+    <organization />
+</author>
+
+<date month='August' day='3' year='2020' />
+
+<abstract><t>A Stateful Path Computation Element (PCE) maintains information on the current network state, including: computed Label Switched Path (LSPs), reserved resources within the network, and pending path computation requests.  This information may then be considered when computing new traffic engineered LSPs, and for associated and dependent LSPs, received from Path Computation Clients (PCCs).  RFC 7470 defines a facility to carry vendor-specific information in PCEP.  This document extends this capability for the Stateful PCEP messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dhody-pce-stateful-pce-vendor-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dhody-pce-stateful-pce-vendor-10.txt' />
+</reference>

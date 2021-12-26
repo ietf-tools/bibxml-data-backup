@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-pce-pcep-ls-sr-extension'>
+<front>
+<title>PCEP Link-State extensions for Segment Routing</title>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='X' surname='Chen' fullname='Xia Chen'>
+    <organization />
+</author>
+
+<author initials='N' surname='Wu' fullname='Nan Wu'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2016' />
+
+<abstract><t>Segment Routing leverages source routing.  A node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header.  A segment can represent any instruction, topological or service-based.  SR allows to enforce a flow through any topological path and service chain while maintaining per-flow state only at the ingress node of the SR domain.  IGP protocols have been extended to advertise the segments.  Because of IGP's propagation scope limitation, it is not suited for IGP to signal paths that span across AS borders.  This document introduces extensions of PCEP-LS to solve the problem without the similar limitation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-pce-pcep-ls-sr-extension-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-pce-pcep-ls-sr-extension-01.txt' />
+</reference>

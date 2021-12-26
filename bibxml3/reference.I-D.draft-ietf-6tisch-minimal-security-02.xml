@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6tisch-minimal-security'>
+<front>
+<title>Minimal Security Framework for 6TiSCH</title>
+
+<author initials='M' surname='Vucinic' fullname='Malisa Vucinic'>
+    <organization />
+</author>
+
+<author initials='J' surname='Simon' fullname='Jonathan Simon'>
+    <organization />
+</author>
+
+<author initials='K' surname='Pister' fullname='Kris Pister'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<date month='March' day='12' year='2017' />
+
+<abstract><t>This document describes the minimal mechanisms required to support secure enrollment of a pledge, a device being added to an IPv6 over the TSCH mode of IEEE 802.15.4e (6TiSCH) network.  It assumes that the pledge has been provisioned with a credential that is relevant to the deployment - the "one-touch" scenario.  The goal of this configuration is to set link-layer keys, and to establish a secure end-to-end session between each pledge and the join registrar who may use that to further configure the pledge.  Additional security behaviors and mechanisms may be added on top of this minimal framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6tisch-minimal-security-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6tisch-minimal-security-02.txt' />
+</reference>

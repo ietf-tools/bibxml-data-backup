@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-bundle-retrans-block'>
+<front>
+<title>Delay-Tolerant Networking Retransmission Block</title>
+
+<author initials='S' surname='Symington' fullname='Susan Symington'>
+    <organization />
+</author>
+
+<date month='May' day='11' year='2007' />
+
+<abstract><t>This document defines an optional extension block, called a Retransmission Block, that may be used with the Bundle Protocol [2] within the context of a Delay-Tolerant Network architecture [4]. The Retransmission Block (RB) is designed to be inserted by a custodian when re-forwarding a bundle, so as to mark the bundle as a legitimate custody-based retransmission rather than an unauthorized bundle duplicate. By providing a way for nodes that receive the re- forwarded bundle to distinguish it from an unauthorized duplicate, the RB enables those nodes whose local security policies do not permit them to forward unauthorized duplicate bundles to detect and delete unauthorized bundle duplicates but forward legitimate custody- based bundle retransmissions. This document defines the format and processing of this new Retransmission Block.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-bundle-retrans-block-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-retrans-block-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-rift-network-ip-assignment'>
+<front>
+<title>A method to assign IP-address automatically in data center construction</title>
+
+<author initials='Y' surname='Zhang' fullname='Yun Zhang'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sun' fullname='Marcus Sun'>
+    <organization />
+</author>
+
+<author initials='F' surname='Gao' fullname='Feng Gao'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>IP assignment is always a big challenge in the construction of an enterprise-scale data center. For two interfaces connected by a cable, if their assigned IP addresses do not belong to a same subnet, data then cannot be transmitted via this cable. An error in a cable connection could make the IP addresses of the cable's two ends not in a same subnet, resulting in a reduction in network throughout. Furthermore, it is difficult to find and repair this error connection among numerous cables. A method to address this error in switch connection would save a great amount of time and cost in modern data center construction. Here, this draft introduces an approach to assign the IP addresses automatically for two connected switches, which allows data to be transmitted via a cable that is connecting two arbitrary interfaces from two switches.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-rift-network-ip-assignment-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-rift-network-ip-assignment-00.txt' />
+</reference>

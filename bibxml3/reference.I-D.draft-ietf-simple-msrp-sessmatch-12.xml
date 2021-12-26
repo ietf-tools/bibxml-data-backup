@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-msrp-sessmatch'>
+<front>
+<title>Alternative Connection Establishment (ACE) for the Message Session Relay Protocol (MSRP)</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blau' fullname='Staffan Blau'>
+    <organization />
+</author>
+
+<date month='June' day='9' year='2011' />
+
+<abstract><t>This document defines an MSRP extension, Alternative Connection Establishment (ACE).  Support of the extension is optional.  MSRP endpoints can implement the extension in order to allow MSRP communication in networks where SIP Application Layer Gateways (ALGs) anchor the MSRP connection, without the need for the ALGs to enable MSRP B2BUA functionality.  The document also defines a Session Description Protocol (SDP) [RFC4566] attribute, a=msrp-ace, that can be used by MSRP endpoints to indicate support of the ACE extension.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-msrp-sessmatch-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-msrp-sessmatch-12.txt' />
+</reference>

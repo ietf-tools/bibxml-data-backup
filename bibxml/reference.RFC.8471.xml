@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8471' target='https://www.rfc-editor.org/info/rfc8471'>
+<front>
+<title>The Token Binding Protocol Version 1.0</title>
+<author initials='A.' surname='Popov' fullname='A. Popov' role='editor'><organization /></author>
+<author initials='M.' surname='Nystroem' fullname='M. Nystroem'><organization /></author>
+<author initials='D.' surname='Balfanz' fullname='D. Balfanz'><organization /></author>
+<author initials='J.' surname='Hodges' fullname='J. Hodges'><organization /></author>
+<date year='2018' month='October' />
+<abstract><t>This document specifies version 1.0 of the Token Binding protocol. The Token Binding protocol allows client/server applications to create long-lived, uniquely identifiable TLS bindings spanning multiple TLS sessions and connections.  Applications are then enabled to cryptographically bind security tokens to the TLS layer, preventing token export and replay attacks.  To protect privacy, the Token Binding identifiers are only conveyed over TLS and can be reset by the user at any time.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8471'/>
+<seriesInfo name='DOI' value='10.17487/RFC8471'/>
+</reference>

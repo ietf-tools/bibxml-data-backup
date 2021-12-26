@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-hiprg-hip-natfw-traversal'>
+<front>
+<title>Traversing HIP-aware NATs and Firewalls: Problem Statement and  Requirements</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='M' surname='Shanmugam' fullname='Murugaraj Shanmugam'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2006' />
+
+<abstract><t>The Host Identity Protocol (HIP) is a signaling protocol, which supports mobility and multihoming by adding a new layer in the TCP/IP stack. By carring relevant parameters in the signaling messages, HIP can be used to establish IPsec encapsulating security payload (ESP) security associations between two hosts. Middleboxes (e.g. firewalls and network address translators) cannot inspect transport layer headers of data traffic if that traffic is sent over an IPsec ESP tunnel. However, HIP is designed to be middlebox friendly; it enables the middleboxes to inspect the signaling messages. The information that they can derive from that messages enables the middleboxes to uniquely identify the subsequent data flows, e.g. for the purposes of multiplexing and demultiplexing . A middlebox that implements the relevant mechanisms is called "HIP-aware". This document presents a problem statement and lists some requirements that are necessary for a HIP-aware middlebox traversal technique. These include authentication and authorization of signaling end-hosts by the middleboxes. Such authorization will help the middleboxes to decide whether or not an end host is allowed to traverse, and can potentially limit unwanted traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-hiprg-hip-natfw-traversal-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-hiprg-hip-natfw-traversal-05.txt' />
+</reference>

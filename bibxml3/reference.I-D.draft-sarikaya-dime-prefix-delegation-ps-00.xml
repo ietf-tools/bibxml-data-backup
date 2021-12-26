@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-dime-prefix-delegation-ps'>
+<front>
+<title>Problem Statement: Diameter Prefix Delegation Application</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='November' day='6' year='2007' />
+
+<abstract><t>Point-to-point link model requires unique prefixes to be assigned to each interface of the mobile nodes.  In NEMO, home agents need to assign unique prefixes to mobile routers.  Prefix management in point-to-point links and in NEMO will be facilitated if AAA servers can delegate prefixes.  This document identifies the following use cases where Diameter prefix delegation application is needed.  In 16NG, prefix delegation only occurs between an Access Router and a mobile node, and there is no discussion about how an Access Router acquires prefix from an external entity.  NEMO deals with synchronization of Mobile Network prefixes between a Mobile Router and a Home Agent, while the method is agnostic to the way that a Home Agent gets prefix from back end servers.  In Proxy Mobile IPv6, Proxy Binding Update and Proxy Binding Acknowledgement message pair is used to allocate prefix from a Local Mobile Anchor for a Mobile Node's interface but how a Local Mobile Anchor gets prefixes from external server is currently left open.  Next, the document identifies requirements on a AAA-based prefix delegation application.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-dime-prefix-delegation-ps-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-dime-prefix-delegation-ps-00.txt' />
+</reference>

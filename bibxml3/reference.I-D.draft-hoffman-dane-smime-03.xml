@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-dane-smime'>
+<front>
+<title>Using Secure DNS to Associate Certificates with Domain Names For S/MIME</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schlyter' fullname='Jakob Schlyter'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2012' />
+
+<abstract><t>S/MIME uses certificates for authenticating and encrypting messages. Users want their mail user agents to securely associate a certificate with the sender of an encrypted and/or signed message.  DNSSEC provides a mechanism for a zone operator to sign DNS information directly.  This way, bindings of certificates to users within a domain are asserted not by external entities, but by the entities that operate the DNS.  This document describes how to use secure DNS to associate an S/MIME user's certificate with the intended domain name.  IMPORTANT NOTE: This draft is intentionally sketchy.  It is meant as a possible starting point for the DANE WG if it wants to consider making a protocol similar to TLSA, as described in draft-ietf-dane-protocol, but that applies to S/MIME.  The WG may or may not want to adopt such work, or if it does, may want to use a very different scheme from the one described here.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-dane-smime-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-dane-smime-03.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-tschofenig-dime-keying-database-00.txt'>
+    <title>"A Keying Database for Diameter End-to-End Security", Hannes Tschofenig</title>
+    <link>http://www.ietf.org/internet-drafts/draft-tschofenig-dime-keying-database-00.txt</link>
+    <description>The Diameter Base specification offers security protection between neighboring Diameter peers using TLS, DTLS, and IPsec.  The development of a solution to protect Diameter Attribute Value Pairs between non-neighboring nodes is currently work in progress.  Diameter nodes maintain different types of databases, depending on their functions.  Examples include the peer table and the realm-based routing table.  This document describes a conceptual model for a keying database as it would be used by a Diameter node to determine what AVPs to protect, and what keys / algorithms to use.  On the receiving side it allows the receiving node to select the appropriate security association for verifying the protected AVPs.  The design is similar to IPsec and inspired by the routing protocol security key table.</description>
+    <dc:date>2013-02-17T23:00:00-00:00</dc:date>
+</item>

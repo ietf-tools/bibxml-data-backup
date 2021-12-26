@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nygren-tls-client-puzzles'>
+<front>
+<title>TLS Client Puzzles Extension</title>
+
+<author initials='E' surname='Nygren' fullname='Erik Nygren'>
+    <organization />
+</author>
+
+<author initials='S' surname='Erb' fullname='Samuel Erb'>
+    <organization />
+</author>
+
+<author initials='A' surname='Biryukov' fullname='Alex Biryukov'>
+    <organization />
+</author>
+
+<author initials='D' surname='Khovratovich' fullname='Dmitry Khovratovich'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2016' />
+
+<abstract><t>Client puzzles allow a TLS server to defend itself against asymmetric DDoS attacks.  In particular, it allows a server to request clients perform a selected amount of computation prior to the server performing expensive cryptographic operations.  This allows servers to employ a layered defense that represents an improvement over pure rate-limiting strategies.  Client puzzles are implemented as an extension to TLS 1.3 [I-D.ietf-tls-tls13] wherein a server can issue a HelloRetryRequest containing the puzzle as an extension.  The client must then resend its ClientHello with the puzzle results in the extension.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nygren-tls-client-puzzles-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nygren-tls-client-puzzles-01.txt' />
+</reference>

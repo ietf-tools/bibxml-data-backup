@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.balasubramanian-iccrg-ledbatplusplus'>
+<front>
+<title>LEDBAT++: Congestion Control for Background Traffic</title>
+
+<author initials='P' surname='Balasubramanian' fullname='Praveen Balasubramanian'>
+    <organization />
+</author>
+
+<author initials='O' surname='Ertugay' fullname='Osman Ertugay'>
+    <organization />
+</author>
+
+<author initials='D' surname='Havey' fullname='Daniel Havey'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>This experimental memo describes LEDBAT++, a set of enhancements to the LEDBAT (Low Extra Delay Background Transport) congestion control algorithm for background traffic.  The LEDBAT congestion control algorithm has several shortcomings that prevent it from working effectively in practice.  LEDBAT++ extends LEDBAT by adding a set of improvements, including reduced congestion window gain, modified slow-start, multiplicative decrease and periodic slowdowns.  This set of improvement mitigates the known issues with the LEDBAT algorithm, such as latency drift, latecomer advantage and inter-LEDBAT fairness. LEDBAT++ has been implemented as a TCP congestion control algorithm in the Windows operating system.  LEDBAT++ has been deployed in production at scale on a variety of networks and been experimentally verified to achieve the original stated goals of LEDBAT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-balasubramanian-iccrg-ledbatplusplus-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-balasubramanian-iccrg-ledbatplusplus-01.txt' />
+</reference>

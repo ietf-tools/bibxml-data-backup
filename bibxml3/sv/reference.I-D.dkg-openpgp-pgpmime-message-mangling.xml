@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dkg-openpgp-pgpmime-message-mangling'>
+<front>
+<title>Common PGP/MIME Message Mangling</title>
+
+<author initials='D' surname='Gillmor' fullname='Daniel Gillmor'>
+    <organization />
+</author>
+
+<date month='May' day='22' year='2019' />
+
+<abstract><t>An e-mail message with OpenPGP encryption and/or signature has standard form.  However, some mail transport agents damage those forms in transit.  A user-friendly mail user agent that encounters such a mangled message may wish to try to process it anyway, despite the message's non-standard structure.  This document aims to be a sort of bestiary of common message mangling patterns, along with guidance for implementers for how to cope with messages structured in these common ways.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dkg-openpgp-pgpmime-message-mangling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dkg-openpgp-pgpmime-message-mangling-00.txt' />
+</reference>

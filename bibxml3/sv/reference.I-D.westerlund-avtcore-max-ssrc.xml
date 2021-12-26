@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.westerlund-avtcore-max-ssrc'>
+<front>
+<title>Multiple Synchronization sources (SSRC) in RTP Session Signaling</title>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<author initials='B' surname='Burman' fullname='Bo Burman'>
+    <organization />
+</author>
+
+<author initials='F' surname='Jansson' fullname='Fredrik Jansson'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>RTP has always been a protocol that supports multiple participants each sending their own media streams in an RTP session. Unfortunately, many implementations are designed only for point to point voice over IP with a single source in each end-point.  Even client implementations aimed at video conferences have often been built with the assumption around central mixers that only deliver a single media stream per media type.  Thus any application that wants to allow for more advanced usage, where multiple media streams are sent and received by an end-point, has an issue with legacy implementations.  This document describes the problem and proposes a signalling solution for how to use multiple SSRCs within one RTP session and at the same time handle the legacy issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-westerlund-avtcore-max-ssrc-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-westerlund-avtcore-max-ssrc-02.txt' />
+</reference>

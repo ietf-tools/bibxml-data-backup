@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iyengar-sctp-cacc'>
+<front>
+<title>Preventing SCTP Congestion Window Overgrowth During Changeover</title>
+
+<author initials='J' surname='Iyengar' fullname='Janardhan  Iyengar'>
+    <organization />
+</author>
+
+<date month='December' day='2' year='2005' />
+
+<abstract><t>SCTP [RFC2960] supports IP multihoming at the transport layer. SCTP allows an association to span multiple local and peer IP addresses, and allows the application to dynamically change the primary destination during an active association. We present a problem in the current SCTP specification that results in unnecessary retransmissions and "TCP-unfriendly" growth of the sender's congestion window during certain changeover conditions. We present the problem and propose an algorithm called the Split Fast Retransmit Changeover Aware Congestion Control algorithm (SFR-CACC) as a solution. We recommend the addition of SFR-CACC to the SCTP specification [RFC2960].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iyengar-sctp-cacc-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iyengar-sctp-cacc-03.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-cfrg-opaque'>
+<front>
+<title>The OPAQUE Asymmetric PAKE Protocol</title>
+
+<author initials='H' surname='Krawczyk' fullname='Hugo Krawczyk'>
+    <organization />
+</author>
+
+<author initials='K' surname='Lewi' fullname='Kevin Lewi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>This document describes the OPAQUE protocol, a secure asymmetric password-authenticated key exchange (aPAKE) that supports mutual authentication in a client-server setting without reliance on PKI and with security against pre-computation attacks upon server compromise. In addition, the protocol provides forward secrecy and the ability to hide the password from the server, even during password registration. This document specifies the core OPAQUE protocol, along with several instantiations in different authenticated key exchange protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-cfrg-opaque-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-opaque-01.txt' />
+</reference>

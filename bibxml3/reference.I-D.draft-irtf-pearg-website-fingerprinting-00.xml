@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-pearg-website-fingerprinting'>
+<front>
+<title>Network-Based Website Fingerprinting</title>
+
+<author initials='I' surname='Goldberg' fullname='Ian Goldberg'>
+    <organization />
+</author>
+
+<author initials='T' surname='Wang' fullname='Tao Wang'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='February' day='26' year='2020' />
+
+<abstract><t>The IETF is well on its way to protecting connection metadata with protocols such as DNS-over-TLS and DNS-over-HTTPS, and work-in- progress towards encrypting the TLS SNI.  However, more work is needed to protect traffic metadata, especially in the context of web traffic.  In this document, we survey Website Fingerprinting attacks, which are a class of attacks that use machine learning techniques to attack web privacy, and highlight metadata leaks used by said attacks.  We also survey proposed mitigations for such leakage and discuss their applicability to IETF protocols such as TLS, QUIC, and HTTP.  We endeavor to show that Website Fingerprinting attacks are a serious problem that affect all Internet users, and we pose open problems and directions for future research in this area.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-pearg-website-fingerprinting-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-pearg-website-fingerprinting-00.txt' />
+</reference>

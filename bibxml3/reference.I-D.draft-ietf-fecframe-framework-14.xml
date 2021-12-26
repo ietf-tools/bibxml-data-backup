@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-fecframe-framework'>
+<front>
+<title>Forward Error Correction (FEC) Framework</title>
+
+<author initials='M' surname='Watson' fullname='Mark Watson'>
+    <organization />
+</author>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2011' />
+
+<abstract><t>This document describes a framework for using Forward Error Correction (FEC) codes with applications in public and private IP networks to provide protection against packet loss.  The framework supports applying FEC to arbitrary packet flows over unreliable transport and is primarily intended for real-time, or streaming, media.  This framework can be used to define Content Delivery Protocols that provide FEC for streaming media delivery or other packet flows.  Content Delivery Protocols defined using this framework can support any FEC scheme (and associated FEC codes) which is compliant with various requirements defined in this document. Thus, Content Delivery Protocols can be defined which are not specific to a particular FEC scheme, and FEC schemes can be defined which are not specific to a particular Content Delivery Protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-fecframe-framework-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-fecframe-framework-14.txt' />
+</reference>

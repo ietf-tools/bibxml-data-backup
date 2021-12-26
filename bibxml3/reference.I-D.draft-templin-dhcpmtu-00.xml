@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-dhcpmtu'>
+<front>
+<title>DHCP Fragmentation and Reassembly</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='December' day='4' year='2007' />
+
+<abstract><t>IP fragmentation has been shown to be problematic through operational experience and through studies conducted over the course of many years.  Some transports (e.g., TCP) have the ability to adjust their message sizes to avoid IP fragmentation, however no such capability is built into the UDP transport.  UDP applications must therefore have a means to perform their own fragmentation and reassembly prior to submitting their data to UDP/IP.  This document specifies a fragmentation/reassembly capability for DHCP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-dhcpmtu-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-dhcpmtu-00.txt' />
+</reference>

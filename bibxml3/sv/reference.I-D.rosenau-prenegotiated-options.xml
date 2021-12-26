@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosenau-prenegotiated-options'>
+<front>
+<title>Prenegotiated options for IP, ICMP and TCP headers</title>
+
+<author initials='M' surname='Rosenau' fullname='Martin Rosenau'>
+    <organization />
+</author>
+
+<date month='December' day='22' year='2017' />
+
+<abstract><t>In many cases (example: PPTP [RFC2637]) a data transfer between two hosts is initiated by using "generic" protocols (in the case of PPTP this is UDP) and later on "special" protocols (in the case of PPTP this is GRE) are used.  The drawback in this case is that the IANA has to assign protcol numbers (in the case of GRE this is 47)  The same is true for TCP header "options" and ICMP packet "types".  To avoid assigning numbers by the IANA this document proposes to reserve a range of protocol numbers for "negotiation" instead. During the phase using "generic" protocols the two hosts negotiate a protocol number in that range.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosenau-prenegotiated-options-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosenau-prenegotiated-options-00.txt' />
+</reference>

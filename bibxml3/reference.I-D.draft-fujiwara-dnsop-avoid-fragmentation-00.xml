@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fujiwara-dnsop-avoid-fragmentation'>
+<front>
+<title>Avoid IP fragmentation in DNS</title>
+
+<author initials='K' surname='Fujiwara' fullname='Kazunori Fujiwara'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2019' />
+
+<abstract><t>Path MTU discovery is vulnerable and IP fragmentation may cause protocol weakness.  Currently, DNS is said to be the biggest user of IP fragmentation.  However, it is possible to avoid IP fragmentation in DNS because TCP transport and truncation work well.  This document proposes to avoid IP fragmentation in DNS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fujiwara-dnsop-avoid-fragmentation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fujiwara-dnsop-avoid-fragmentation-00.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-nalawade-softwire-nhop-00.txt'>
+    <title>"BGP Softwire Nexthop Attribute", Gargi Nalawade</title>
+    <link>http://www.ietf.org/internet-drafts/draft-nalawade-softwire-nhop-00.txt</link>
+    <description>The current [MP-BGP] extensions carry routing information by associating the same network layer protocol with both the NLRI and the next hop. However, in certain scenarios, it is desirable or required to advertise next hop information associated with a different network layer protocol to the one associated with the NLRI. Similarly, when data traffic for a network layer protocol's NLRIs needs to be forwarded over an underlying tunnel, it is required to indicate the tunnel endpoint to be used for forwarding with the BGP update for a given NLRI. This document specifies a new BGP attribute, called the SW_NEXT_HOP attribute, which can optionally be used in a BGP Update message to advertise next hop information associated with a different network layer protocol than that of the NLRIs or convey information about the tunnel endpoint.</description>
+    <dc:date>2006-06-22T07:00:00-00:00</dc:date>
+</item>

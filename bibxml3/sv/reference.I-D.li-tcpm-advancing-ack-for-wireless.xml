@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-tcpm-advancing-ack-for-wireless'>
+<front>
+<title>Advancing ACK Handling for Wireless Transports</title>
+
+<author initials='T' surname='Li' fullname='Tong Li'>
+    <organization />
+</author>
+
+<author initials='K' surname='Zheng' fullname='Kai Zheng'>
+    <organization />
+</author>
+
+<author initials='R' surname='Jadhav' fullname='Rahul Jadhav'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kang' fullname='Jiao Kang'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2020' />
+
+<abstract><t>Acknowledgement (ACK) is a basic function and implemented in most of the ordered and reliable transport protocols [RFC0793].  Legacy TCP ACK is designed with high frequency to guarantee correct interaction between sender and receiver.  However, the shared nature of the wireless medium over wireless local area network (WLAN) induces contention between data transport and backward signaling, such as acknowledgement.  The current way of TCP acknowledgment induces control overhead which is counter-productive for TCP performance especially for WLAN scenarios.  This document conducts the ACK frequency breakdown, analyzes several ways of reducing ACK frequency, and discusses the compatibility issues with existing systems in detail.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-tcpm-advancing-ack-for-wireless-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-tcpm-advancing-ack-for-wireless-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cui-softwire-pet64'>
+<front>
+<title>PET for IPv6 to IPv4 communication</title>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wang' fullname='Shengling Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Li' fullname='Xing Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>This draft offers a solution using PET for the scenario that an IPv6- only client initiates a communication to an IPv4-only server through IPv6 backbone.  In this communication scenario,translation is needed. However, translation work has requirements on the performance (hardware or software) of PET and the size of network that the PET is charge for.  This draft introduces the concept of translation preference to express the PET's willing of performing translation according to some policies the network administrators constitute. Through exchanging the Translation preference among PETs, PET framework can decide which PET should act as a translator.  In addition, this draft also gives how the PET collaborates with DNS to solve the IPv6-to-IPv4 communication problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cui-softwire-pet64-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cui-softwire-pet64-00.txt' />
+</reference>

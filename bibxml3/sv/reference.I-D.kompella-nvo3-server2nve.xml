@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kompella-nvo3-server2nve'>
+<front>
+<title>Signaling Virtual Machine Activity to the Network Virtualization Edge</title>
+
+<author initials='K' surname='Kompella' fullname='Kireeti Kompella'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Rekhter' fullname='Yakov Rekhter'>
+    <organization />
+</author>
+
+<author initials='T' surname='Morin' fullname='Thomas Morin'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<date month='April' day='29' year='2013' />
+
+<abstract><t>This document proposes a simplified approach for provisioning network parameters related to Virtual Machine creation, migration and termination on servers.  The idea is to provision the server, then have the server signal the requisite parameters to the relevant network device(s).  Such an approach reduces the workload on the provisioning system and simplifies the data model that the provisioning system needs to maintain.  It is also more resilient to topology changes in server-network connectivity, for example, reconnecting a server to a different network port or switch.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kompella-nvo3-server2nve-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kompella-nvo3-server2nve-02.txt' />
+</reference>

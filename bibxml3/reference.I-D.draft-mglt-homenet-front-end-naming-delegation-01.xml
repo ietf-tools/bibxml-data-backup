@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-homenet-front-end-naming-delegation'>
+<front>
+<title>IPv6 Home Network Front End Naming Delegation</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<author initials='P' surname='Lemordant' fullname='Philippe Lemordant'>
+    <organization />
+</author>
+
+<author initials='C' surname='Griffiths' fullname='Chris Griffiths'>
+    <organization />
+</author>
+
+<date month='November' day='6' year='2012' />
+
+<abstract><t>CPEs are designed to provide IP connectivity to the Home Network. Most of the CPEs are also providing the IP addresses of the nodes of the Home Network.  This makes CPEs good candidates for hosting the Naming Service that would make devices reachable from the Home Network but also from the Internet.  CPEs have not been designed to host a Naming Service reachable from the Internet.  This would expose the CPEs and the Home Network to resource exhaustion which would result in making the Home Network unreachable, and most probably would also affect the Home Network inner communications.  This document describes an Front End Naming Architecture where the CPEs manage the DNS(SEC) zone for its Home Network, and outsource the zone to Public Server for resolution coming from the Internet.  The goal of the document is first to describe a Naming Architecture that fulfills Home Network Naming requirements without exposing the CPE to resource exhaustion.  Then we intend the CPEs to be easily configured by the End Users, and describe the necessary information the End User is expect to provide to the CPE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-homenet-front-end-naming-delegation-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-homenet-front-end-naming-delegation-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-homenet-front-end-naming-delegation-01.pdf' />
+</reference>

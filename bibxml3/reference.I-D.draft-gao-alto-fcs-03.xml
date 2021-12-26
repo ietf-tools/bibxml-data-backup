@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gao-alto-fcs'>
+<front>
+<title>ALTO Extension: Flow-based Cost Query</title>
+
+<author initials='K' surname='Gao' fullname='Kai Gao'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='J. Zhang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wang' fullname='Junzhuo Wang'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Xiang' fullname='Qiao Xiang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>The Endpoint Cost Service maps a source-destination pair into a cost value, which provides an abstract network view based on a subset of the 2-dimension address space.  Given that the emergence of new networking datapath capabilities has substantially increased the routing flexibility, such a query space is not sufficient to uniquely identify a flow.  To address the limitations of the network information query space provided by the legacy ALTO protocol, this document takes two approaches: extending the existing ALTO cost query services with fine-grained semantics, and enabling a new flow-based query service named Flow Cost Service.  These extensions move ALTO to a more flexible and expressive network information query space.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gao-alto-fcs-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gao-alto-fcs-03.txt' />
+</reference>

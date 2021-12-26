@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-rack'>
+<front>
+<title>The RACK-TLP loss detection algorithm for TCP</title>
+
+<author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
+    <organization />
+</author>
+
+<author initials='N' surname='Cardwell' fullname='Neal Cardwell'>
+    <organization />
+</author>
+
+<author initials='N' surname='Dukkipati' fullname='Nandita Dukkipati'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jha' fullname='Priyaranjan Jha'>
+    <organization />
+</author>
+
+<date month='December' day='22' year='2020' />
+
+<abstract><t>This document presents the RACK-TLP loss detection algorithm for TCP. RACK-TLP uses per-segment transmit timestamps and selective acknowledgements (SACK) and has two parts: RACK ("Recent ACKnowledgment") starts fast recovery quickly using time-based inferences derived from ACK feedback.  TLP ("Tail Loss Probe") leverages RACK and sends a probe packet to trigger ACK feedback to avoid retransmission timeout (RTO) events.  Compared to the widely used DUPACK threshold approach, RACK-TLP detects losses more efficiently when there are application-limited flights of data, lost retransmissions, or data packet reordering events.  It is intended to be an alternative to the DUPACK threshold approach.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-rack-15' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-rack-15.txt' />
+</reference>

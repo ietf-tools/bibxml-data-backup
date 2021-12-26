@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sridharan-tcpm-ctcp'>
+<front>
+<title>Compound TCP: A New TCP Congestion Control for High-Speed and Long Distance  Networks</title>
+
+<author initials='M' surname='Sridharan' fullname='Murali Sridharan'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2007' />
+
+<abstract><t>This document proposes Compound TCP (CTCP), a modification to TCP's congestion control mechanism for use with TCP connections with large congestion windows. The key idea behind CTCP is to add a scalable delay-based component to the standard TCP's loss-based congestion control. The sending rate of CTCP is controlled by both loss and delay components. The delay-based component has a scalable window increasing rule that not only efficiently uses the link capacity, but on sensing queue build up, gracefully reduces the sending rate. We have implemented CTCP on Microsoft's Windows and we have done extensive testing on production links and in Windows Beta deployments. We also engaged with Stanford Linear Accelerator Center to evaluate the properties of CTCP. The results so far are very encouraging. This document describes the Compound TCP algorithm in detail, and solicits experimentation and feedback from the wider community. In this document, we collectively refer to any TCP congestion control algorithm that employs a linear increase function for congestion control, including TCP Reno and all its variants as Standard TCP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sridharan-tcpm-ctcp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sridharan-tcpm-ctcp-00.txt' />
+</reference>

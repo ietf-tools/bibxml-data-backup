@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-nxdomain-cut'>
+<front>
+<title>NXDOMAIN really means there is nothing underneath</title>
+
+<author initials='S' surname='Bortzmeyer' fullname='Stephane Bortzmeyer'>
+    <organization />
+</author>
+
+<author initials='S' surname='Huque' fullname='Shumon Huque'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2016' />
+
+<abstract><t>This document states clearly that when a DNS resolver receives a response with response code of NXDOMAIN, it means that the domain name which is thus denied AND ALL THE NAMES UNDER IT do not exist.  REMOVE BEFORE PUBLICATION: this document should be discussed in the IETF DNSOP (DNS Operations) group, through its mailing list.  The source of the document, as well as a list of open issues, is currently kept at Github [1].  This documents clarifies RFC 1034 and modifies a bit RFC 2308 so it updates both of them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-nxdomain-cut-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-nxdomain-cut-01.txt' />
+</reference>

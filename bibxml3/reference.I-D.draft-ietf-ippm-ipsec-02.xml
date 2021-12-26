@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ippm-ipsec'>
+<front>
+<title>Network Performance Measurement for IPsec</title>
+
+<author initials='K' surname='Pentikousis' fullname='Kostas Pentikousis'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yang Cui'>
+    <organization />
+</author>
+
+<author initials='E' surname='Zhang' fullname='Emma Zhang'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>The O/TWAMP security mechanism requires that endpoints (i.e. both the client and the server) possess a shared secret.  Since the currently- standardized O/TWAMP security mechanism only supports a pre-shared key mode, large scale deployment of O/TWAMP is hindered significantly.  At the same time, recent trends point to wider IKEv2 deployment, which in turn calls for mechanisms and methods that enable tunnel end-users, as well as operators, to measure one-way and two-way network performance in a standardized manner.  This document discusses the use of keys derived from an IKE SA as the shared key in O/TWAMP.  If the shared key can be derived from the IKE SA, O/TWAMP can support cert-based key exchange, which would allow for more flexibility and efficiency.  Such key derivation can also facilitate automatic key management.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ippm-ipsec-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ippm-ipsec-02.txt' />
+</reference>

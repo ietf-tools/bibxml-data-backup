@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wei-isis-tlv'>
+<front>
+<title>New TLV for Purge Packet in ISIS</title>
+
+<author initials='F' surname='Wei' fullname='Fang Wei'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Qin' fullname='Yue Qin'>
+    <organization />
+</author>
+
+<author initials='L' surname='Li' fullname='Lianyuan Li'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Huang' fullname='Zhaorui Huang'>
+    <organization />
+</author>
+
+<author initials='C' surname='Fan' fullname='Chuan Fan'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>At present the purge packet does not contain information of source router generating purge packets, so under the circumstance of route oscillation, it is difficult to locate the router closest to the point of failure that receives the LSP.  In this draft, it is proposed to add a new TLV for purge packet in which the system ID of source router is included. The TLVs are not changed in purge packets sent by other routers. When there is a network failure and purge packets are sent by routers, it is easy to locate the point of failure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wei-isis-tlv-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wei-isis-tlv-00.txt' />
+</reference>

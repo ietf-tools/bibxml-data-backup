@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-anima-bootstrapping-keyinfra'>
+<front>
+<title>Bootstrapping Remote Secure Key Infrastructures (BRSKI)</title>
+
+<author initials='M' surname='Pritikin' fullname='Max Pritikin'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Behringer' fullname='Michael Behringer'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bjarnason' fullname='Steinthor Bjarnason'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2016' />
+
+<abstract><t>This document specifies automated bootstrapping of a remote secure key infrastructure (BRSKI) using vendor installed IEEE 802.1AR manufacturing installed certificates, in combination with a vendor based service on the Internet.  Before being authenticated, a new device has only link-local connectivity, and does not require a routable address.  When a vendor provides an Internet based service devices can be redirected to a local service.  In limited/ disconnected networks or legacy environments we describe a variety of options that allow bootstrapping to proceed.  Support for lower security models, including devices with minimal identity, is described for legacy reasons but not encouraged.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-anima-bootstrapping-keyinfra-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-anima-bootstrapping-keyinfra-03.txt' />
+</reference>

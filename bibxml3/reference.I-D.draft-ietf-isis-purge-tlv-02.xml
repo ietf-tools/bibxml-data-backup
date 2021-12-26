@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-isis-purge-tlv'>
+<front>
+<title>Purge Originator Identification TLV for IS-IS</title>
+
+<author initials='F' surname='Wei' fullname='Fang Wei'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Qin' fullname='Yue Qin'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenqiang Li'>
+    <organization />
+</author>
+
+<author initials='T' surname='Li' fullname='Tony Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<date month='June' day='7' year='2010' />
+
+<abstract><t>At present an IS-IS purge does not contain any information identifying the Intermediate System (IS) that generates the purge. This makes it difficult to locate the source IS.  To address this issue, this document defines a TLV to be added to purges to record the system ID of the IS generating it.  Since normal LSP flooding does not change LSP contents, this TLV should propagate with the purge.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-isis-purge-tlv-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-isis-purge-tlv-02.txt' />
+</reference>

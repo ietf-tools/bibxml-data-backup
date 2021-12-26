@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8475' target='https://www.rfc-editor.org/info/rfc8475'>
+<front>
+<title>Using Conditional Router Advertisements for Enterprise Multihoming</title>
+<author initials='J.' surname='Linkova' fullname='J. Linkova'><organization /></author>
+<author initials='M.' surname='Stucchi' fullname='M. Stucchi'><organization /></author>
+<date year='2018' month='October' />
+<abstract><t>This document discusses the most common scenarios of connecting an enterprise network to multiple ISPs using an address space assigned by an ISP and how the approach proposed in &quot;Enterprise Multihoming                          using Provider-Assigned Addresses without Network Prefix Translation:                       Requirements and Solution&quot; could be applied in those scenarios.  The problem of enterprise multihoming without address translation of any form has not been solved yet as it requires both the network to select the correct egress ISP based on the packet source address and hosts to select the correct source address based on the desired egress ISP for that traffic.  The aforementioned document proposes a solution to this problem by introducing a new routing functionality (Source Address Dependent Routing) to solve the uplink selection issue.  It also proposes using Router Advertisements to influence the host source address selection.  It focuses on solving the general problem and covering various complex use cases, and this document adopts its proposed approach to provide a solution for a limited number of common use cases.  In particular, the focus of this document is on scenarios in which an enterprise network has two Internet uplinks used either in primary/backup mode or simultaneously and hosts in that network might not yet properly support multihoming as described in RFC 8028.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8475'/>
+<seriesInfo name='DOI' value='10.17487/RFC8475'/>
+</reference>

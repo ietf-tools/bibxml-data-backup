@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lbaudoin-iemax'>
+<front>
+<title>Internationalized Electronic Mail Addresses in X.509 Certificates</title>
+
+<author initials='L' surname='Baudoin' fullname='Laetitia Baudoin'>
+    <organization />
+</author>
+
+<author initials='W' surname='Chuang' fullname='Wei Chuang'>
+    <organization />
+</author>
+
+<author initials='N' surname='Lidzborkski' fullname='Nicolas Lidzborkski'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2015' />
+
+<abstract><t>Specifies support for internationalized email address local parts in X.509 certificates.  RFC6532 established support for UTF8 email headers hence internationalized email addresses including the local part.  S/MIME email also needs support for UTF8 local part email addresses in X.509 certificates.  This draft defines an encoding for UTF-8 characters in X.509 certificates which is backwards compatible with the IA5String encoding used to encode email addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lbaudoin-iemax-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lbaudoin-iemax-00.txt' />
+</reference>

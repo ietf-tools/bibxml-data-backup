@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hares-idr-flowspec-v2'>
+<front>
+<title>BGP Flow Specification Version 2</title>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2016' />
+
+<abstract><t>BGP flow specification version 1 (RFC5575) describes the distribution of traffic filter policy (traffic filters and actions) which are distributed via BGP to BGP peers.  Three applications utilize this traffic filter policy: (1) mitigation of Denial of Service (DoS), (2) enabling of traffic filtering in BGP/MPLS VPNS, and (3)centralized traffic control for networks with SDN or NFV controllers. Application of centralized traffic utilizing BGP Flow Specification traffic filters may need user-ordered filters rather than RFC5575's strict ordering of filters and defined ordering of actions.  This document proposes a new BGP Flow specification version 2 that supports user-order of filters and actions plus allowing more actions</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hares-idr-flowspec-v2-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hares-idr-flowspec-v2-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hares-idr-flowspec-v2-00.pdf' />
+</reference>

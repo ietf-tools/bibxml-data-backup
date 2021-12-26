@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.patil-dhc-apn-attachtype-options'>
+<front>
+<title>DHCP options for Access Point Name and attach type indication</title>
+
+<author initials='B' surname='Patil' fullname='Basavaraj  Patil'>
+    <organization />
+</author>
+
+<author initials='K' surname='Chowdhury' fullname='Kuntal Chowdhury'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2008' />
+
+<abstract><t>Cellular data networks which are based on 3GPP standards use the concept of Access Point Name.  A mobile node which attaches via a 3GPP access network indicates thru layer 2 signaling the access point name to which connectivity is desired.  This document specifies a DHCP option which enables the mobile node to request the access point name in DHCP messages.  A mobile node whose mobility is managed by the network using Proxy Mobile IPv6 protocol may perform a handover from one access technology to another.  A DHCP option which enables the host to indicate if the attachment via the new interface is a handover or another connction is also specified.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-patil-dhc-apn-attachtype-options-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-patil-dhc-apn-attachtype-options-00.txt' />
+</reference>

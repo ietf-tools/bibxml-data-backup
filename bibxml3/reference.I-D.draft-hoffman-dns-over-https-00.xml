@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-dns-over-https'>
+<front>
+<title>DNS Queries over HTTPS</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<author initials='P' surname='McManus' fullname='Patrick McManus'>
+    <organization />
+</author>
+
+<date month='May' day='3' year='2017' />
+
+<abstract><t>DNS queries sometimes experience problems with end to end connectivity at times and places where HTTPS flows freely.  HTTPS provides the most practical mechanism for reliable end to end communication.  Its use of TLS provides integrity and confidentiality guarantees and its use of HTTP allows it to interoperate with proxies, firewalls, and authentication systems where required for transit.  This document describes how to run DNS service over HTTP using https:// URIs.  [ This paragraph is to be removed when this document is published as an RFC ] Comments on this draft can be sent to the DNS over HTTP mailing list at https://www.ietf.org/mailman/listinfo/dnsoverhttp .</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-dns-over-https-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-dns-over-https-00.txt' />
+</reference>

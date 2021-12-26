@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7140' target='https://www.rfc-editor.org/info/rfc7140'>
+<front>
+<title>LDP Extensions for Hub and Spoke Multipoint Label Switched Path</title>
+<author initials='L.' surname='Jin' fullname='L. Jin'><organization /></author>
+<author initials='F.' surname='Jounay' fullname='F. Jounay'><organization /></author>
+<author initials='IJ.' surname='Wijnands' fullname='IJ. Wijnands'><organization /></author>
+<author initials='N.' surname='Leymann' fullname='N. Leymann'><organization /></author>
+<date year='2014' month='March' />
+<abstract><t>This document introduces a hub and spoke multipoint (HSMP) Label Switched Path (LSP), which allows traffic from root to leaf through point-to-multipoint (P2MP) LSPs and also leaf to root along the reverse path.  That means traffic entering the HSMP LSP from the application/customer at the root node travels downstream to each leaf node, exactly as if it were traveling downstream along a P2MP LSP to each leaf node.  Upstream traffic entering the HSMP LSP at any leaf node travels upstream along the tree to the root, as if it were unicast to the root.  Direct communication among the leaf nodes is not allowed.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7140'/>
+<seriesInfo name='DOI' value='10.17487/RFC7140'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-mipshop-fmip-arinfo'>
+<front>
+<title>AR information for FMIPv6</title>
+
+<author initials='J' surname='Zhang' fullname='Jian Zhang'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2006' />
+
+<abstract><t>The document [FMIP] describes a protocol to reduce the handover latency of MIPv6. In order to reduce the handover latency, MN in FMIPv6 protocol should first send request message to PAR for NAR's information, which is (AP-ID, AR-Info). If PAR can not provide (AP-ID, AR-Info) to MN, MN cannot use FMIPv6 protocol to perform fast handover. So it is important for PAR to have the information of NAR. But there is no mechanism to build the (AP-ID, AR-Info) in FMIPv6 protocol. This draft describes a mechanism used to build (AP-ID, AR- Info) information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-mipshop-fmip-arinfo-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-mipshop-fmip-arinfo-01.txt' />
+</reference>

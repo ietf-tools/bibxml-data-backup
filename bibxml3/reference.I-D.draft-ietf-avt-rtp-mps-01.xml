@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rtp-mps'>
+<front>
+<title>RTP Payload Format for Elementary Streams with MPEG Surround multi- channel  audio</title>
+
+<author initials='F' surname='Bont' fullname='Frans Bont'>
+    <organization />
+</author>
+
+<author initials='S' surname='Doehla' fullname='Stefan Doehla'>
+    <organization />
+</author>
+
+<author initials='M' surname='Schmidt' fullname='Malte Schmidt'>
+    <organization />
+</author>
+
+<author initials='R' surname='Sperschneider' fullname='Ralph Sperschneider'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2008' />
+
+<abstract><t>This memo describes extensions for the RTP payload format defined in RFC3640 for the transport of MPEG Surround multi-channel audio. Additional Media Type parameters are defined to signal backwards compatible transmission inside an MPEG-4 audio elementary stream.  In addition a layered transmission scheme without using the MPEG-4 systems framework is presented to transport an MPEG Surround elementary stream via RTP in parallel with an RTP stream containing the downmixed audio data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rtp-mps-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rtp-mps-01.txt' />
+</reference>

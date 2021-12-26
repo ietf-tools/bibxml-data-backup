@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nfsv4-rpc-iana'>
+<front>
+<title>RPC Numbering Authority Transfer to IANA</title>
+
+<author initials='R' surname='Thurlow' fullname='Robert Thurlow'>
+    <organization />
+</author>
+
+<date month='February' day='4' year='2005' />
+
+<abstract><t>Network services based on RPC [RFC1831] use program numbers rather than well known transport ports to permit clients to find them, and use authentication flavor numbers to define the format of the authentication data passed. The assignment of RPC program numbers and authentication flavor numbers is still performed by Sun Microsystems, Inc. This is inappropriate for an IETF standard protocol, as such work is done well by the Internet Assigned Numbers Authority (IANA). This document defines how IANA will maintain and assign RPC program numbers and authentication flavor numbers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nfsv4-rpc-iana-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nfsv4-rpc-iana-03.txt' />
+</reference>

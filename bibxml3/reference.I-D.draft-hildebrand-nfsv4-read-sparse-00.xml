@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hildebrand-nfsv4-read-sparse'>
+<front>
+<title>Simple and Efficient Read Support for Sparse Files</title>
+
+<author initials='D' surname='Hildebrand' fullname='Dean Hildebrand'>
+    <organization />
+</author>
+
+<author initials='M' surname='Eshel' fullname='Marc Eshel'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>This document extends the NFSv4.1 protocol to support efficient reading of sparse files.  The number of sparse files is growing in the data center, most notably due to the increasing number of virtual disk images.  This simple extension provides an easy and efficient way for administrators to copy and manage these files without wasting disk space or transferring data unnecessarily.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hildebrand-nfsv4-read-sparse-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hildebrand-nfsv4-read-sparse-00.txt' />
+</reference>

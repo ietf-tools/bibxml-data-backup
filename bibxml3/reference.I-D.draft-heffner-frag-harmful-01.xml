@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.heffner-frag-harmful'>
+<front>
+<title>Fragmentation Considered Very Harmful</title>
+
+<author initials='J' surname='Heffner' fullname='John Heffner'>
+    <organization />
+</author>
+
+<date month='April' day='24' year='2006' />
+
+<abstract><t>IPv4 fragmentation is not sufficiently robust for general use in today's Internet. The 16-bit IP identification field is not large enough to prevent frequent incorrectly assembled IP fragments, and the TCP and UDP checksums are insufficient to prevent the resulting corrupted datagrams from being delivered to higher protocol layers. This note describes some easily reproduced experiments demonstrating the problem, and discusses some of the operational implications of these observations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-heffner-frag-harmful-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-heffner-frag-harmful-01.txt' />
+</reference>

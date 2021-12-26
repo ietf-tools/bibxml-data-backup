@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-failure-detection'>
+<front>
+<title>A Quick Crash Detection Method for IKE</title>
+
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wierbowski' fullname='David Wierbowski'>
+    <organization />
+</author>
+
+<author initials='F' surname='Detienne' fullname='Frederic Detienne'>
+    <organization />
+</author>
+
+<author initials='P' surname='Sethi' fullname='Pratima Sethi'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2011' />
+
+<abstract><t>This document describes an extension to the IKEv2 protocol that allows for faster detection of SA desynchronization using a saved token.  When an IPsec tunnel between two IKEv2 peers is disconnected due to a restart of one peer, it can take as much as several minutes for the other peer to discover that the reboot has occurred, thus delaying recovery.  In this text we propose an extension to the protocol, that allows for recovery immediately following the restart.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-failure-detection-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-failure-detection-05.txt' />
+</reference>

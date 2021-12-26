@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boldy-l2vpn-vplsloop-req'>
+<front>
+<title>VPLS External Loop Detection and Protection Requirements</title>
+
+<author initials='R' surname='Boldy' fullname='Richard Boldy'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2013' />
+
+<abstract><t>Virtual Private LAN Service (VPLS) implementations, as defined in [RFC4761] and [RFC4762], are highly susceptible to layer-2 loops external to the PE customer-facing interface. Such loops impact performance and can have a detrimental affect on all VPLS traffic throughout the entire instance under certain conditions.  Current Layer-2 loop detection and protection mechanisms do not function effectively here.  This document describes the requirements for a protocol function to offer VPLS service providers a mechanism for detecting such layer-2 loops and facilitating configurable actions without the need for inter-operation with customer network protocols, other VPLS PEs or customer sourced frames.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boldy-l2vpn-vplsloop-req-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boldy-l2vpn-vplsloop-req-00.txt' />
+</reference>

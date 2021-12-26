@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kundrat-incthread'>
+<front>
+<title>IMAP Extension for Incremental Threading (INCTHREAD)</title>
+
+<author initials='J' surname='Kundrat' fullname='Jan Kundrat'>
+    <organization />
+</author>
+
+<date month='August' day='27' year='2013' />
+
+<abstract><t>This document describes the INCTHREAD IMAP extension which enables clients to retrieve incremental updates of the mailbox threading. The extension repurposes the ESEARCH response for passing along the threading information and builds on top of Arnt Gulbrandsen's work on the INTHREAD search key.  The UID THREAD command is also extended to allow activating this extension.  Together, these changes make it possible for clients not to fetch the complete mailbox threading each time a new message arrives.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kundrat-incthread-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kundrat-incthread-02.txt' />
+</reference>

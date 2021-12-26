@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zatda-dprive-xfr-using-dso'>
+<front>
+<title>DNS Zone Transfer using DNS Stateful Operations</title>
+
+<author initials='H' surname='Zhang' fullname='Han Zhang'>
+    <organization />
+</author>
+
+<author initials='P' surname='Aras' fullname='Pallavi Aras'>
+    <organization />
+</author>
+
+<author initials='W' surname='Toorop' fullname='Willem Toorop'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dickinson' fullname='Sara Dickinson'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mankin' fullname='Allison Mankin'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>DNS zone transfers are transmitted in clear text, which gives attackers the opportunity to collect the content of a zone by eavesdropping on network connections.  This document specifies use of DNS Stateful Operations to enable a subscribe/publish mechanism for zone transfers reducing the over head introduced by NOTITY/SOA interactions prior to zone transfer request.  This additionally prevents zone contents collection via passive monitoring of zone transfers by restricting XFR using DSO to require TLS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zatda-dprive-xfr-using-dso-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zatda-dprive-xfr-using-dso-00.txt' />
+</reference>

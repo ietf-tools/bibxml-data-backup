@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.decraene-lsr-isis-flooding-speed'>
+<front>
+<title>IS-IS Flooding Speed advertisement</title>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='J' surname='J' fullname='Jayesh J'>
+    <organization />
+</author>
+
+<author initials='T' surname='Li' fullname='Tony Li'>
+    <organization />
+</author>
+
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2019' />
+
+<abstract><t>This document proposes a mechanism that can be used to increase the speed at which link state information is flooded across a network when multiple LSPDUs need to be flooded, such as in case of a node failure.  It also reduces the likelihood of overloading the downstream flooding neighbors.  This document defines a new TLV to be advertised in IS-IS Hello messages.  This TLV carries two parameters indicating the performance capacity to receive LSPDUs: the minimum delay between two consecutive LSPDUs and the number of LSPDUs which can the received back to back.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-decraene-lsr-isis-flooding-speed-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-decraene-lsr-isis-flooding-speed-01.txt' />
+</reference>

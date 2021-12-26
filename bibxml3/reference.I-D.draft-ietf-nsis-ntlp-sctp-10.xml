@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nsis-ntlp-sctp'>
+<front>
+<title>General Internet Signaling Transport (GIST) over SCTP and Datagram TLS</title>
+
+<author initials='X' surname='Fu' fullname='Xiaoming Fu'>
+    <organization />
+</author>
+
+<author initials='C' surname='Dickmann' fullname='Christian Dickmann'>
+    <organization />
+</author>
+
+<author initials='J' surname='Crowcroft' fullname='Jon Crowcroft'>
+    <organization />
+</author>
+
+<date month='April' day='20' year='2010' />
+
+<abstract><t>The General Internet Signaling Transport (GIST) protocol currently uses TCP or TLS over TCP for connection mode operation.  This document describes the usage of GIST over the Stream Control Transmission Protocol (SCTP) and Datagram Transport Layer Security (DTLS).  The use of SCTP can take advantage of features provided by SCTP, namely streaming-based transport, support of multiple streams to avoid head of line blocking, the support of multi-homing to provide network level fault tolerance, as well as partial reliability extension for partially reliable data transmission.  This document also specifies how to establish GIST security over datagram transport protocols using an extension to DTLS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nsis-ntlp-sctp-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nsis-ntlp-sctp-10.txt' />
+</reference>

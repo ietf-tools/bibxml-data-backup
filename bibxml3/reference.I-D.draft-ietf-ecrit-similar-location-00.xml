@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ecrit-similar-location'>
+<front>
+<title>A LoST extension to return complete and similar location info</title>
+
+<author initials='R' surname='Marshall' fullname='Roger Marshall'>
+    <organization />
+</author>
+
+<author initials='J' surname='Martin' fullname='Jeff Martin'>
+    <organization />
+</author>
+
+<author initials='B' surname='Rosen' fullname='Brian Rosen'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>This document introduces a new way to provide returned location information in LoST responses that is either of a completed or similar form to the original input civic location, based on whether valid or invalid civic address elements are returned within the findServiceResponse message.  This document defines a new extension to the findServiceResponse message within the LoST protocol [RFC5222] that enables the LoST protocol to return a completed civic address element set for a valid location response, and one or more suggested sets of similar location information for invalid LoST responses. These two types of civic addresses are referred to as either "complete location" or "similar location", and are included as compilation of ca type xml elements within the existing LoST findServiceResponse message structure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ecrit-similar-location-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ecrit-similar-location-00.txt' />
+</reference>

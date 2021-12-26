@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-dns-a-aaaa'>
+<front>
+<title>Glue A RR to the No Data Answer of AAAA RR</title>
+
+<author initials='Z' surname='Wang' fullname='Zheng Wang'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wang' fullname='Cindy Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<date month='December' day='7' year='2009' />
+
+<abstract><t>Many existing DNS clients (resolvers) and applications that support IPv6 first search for AAAA Resource Records (RR) of a target host name, and if no data, then for A RR of the same name. This memo proposes adding A RR in the additional section for the no data answer of AAAA RR, which can save a request for A RR.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-dns-a-aaaa-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-dns-a-aaaa-00.txt' />
+</reference>

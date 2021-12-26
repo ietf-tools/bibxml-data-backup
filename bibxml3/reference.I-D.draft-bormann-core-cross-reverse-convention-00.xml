@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-core-cross-reverse-convention'>
+<front>
+<title>A convention for URIs operating a HTTP-CoAP reverse proxy</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='December' day='5' year='2012' />
+
+<abstract><t>CoAP is a RESTful transfer protocol for constrained nodes and networks.  In many applications, CoAP will be used via cross-protocol proxies from HTTP clients.  HTTP client libraries may make it hard to operate an HTTP-CoAP forward proxy by not providing a way to put a CoAP URI on the HTTP Request-Line; reverse-proxying may therefore lead to wider applicability of a proxy.  This specification will define a convention for URIs operating such a HTTP-CoAP reverse proxy.  The current version of this specification is a placeholder only.  It is meant to pick up http://trac.tools.ietf.org/wg/core/trac/ticket/259 and provide a home for its considerations.  It might be merged with other documents later.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-core-cross-reverse-convention-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-core-cross-reverse-convention-00.txt' />
+</reference>

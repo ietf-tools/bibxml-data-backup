@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-kitamura-tcp-sharp-close-02.txt'>
+    <title>""Sharp Close": Elimination of TIME-WAIT state of TCP connections", Hiroshi Kitamura, Shingo Ata, Masayuki Murata</title>
+    <link>http://www.ietf.org/internet-drafts/draft-kitamura-tcp-sharp-close-02.txt</link>
+    <description>This document describes an idea "Sharp Close" that eliminates or minimizes TIME-WAIT state of TCP connections.  In the current TCP specification ([RFC0793]), there are some inappropriate or not up-to-date functions. Here we focus and discuss on TCP TIME-WAIT state function.  TIME-WAIT is the last state of TCP connections of Active Close side nodes. After TCP connections are effectively closed, state of them move to TIME-WAIT state. After TIME-WAIT state is finished, resources of connections are released. This means that even if connections are effectively finished, resources of connections are NOT released.  The TIME-WAIT state prevents from releasing them.  From the viewpoints of current high-speed and high-multiplicity communication styles, it is thought that TIME-WAIT state is one of evil functions.  In order to provide efficient communications that match current styles, an idea "Sharp Close" that eliminates or minimizes TIME- WAIT state of TCP connections is proposed.</description>
+    <dc:date>2015-10-15T07:00:00-00:00</dc:date>
+</item>

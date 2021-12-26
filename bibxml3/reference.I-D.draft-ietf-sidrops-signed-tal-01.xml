@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidrops-signed-tal'>
+<front>
+<title>RPKI signed object for TAL</title>
+
+<author initials='T' surname='Bruijnzeels' fullname='Tim Bruijnzeels'>
+    <organization />
+</author>
+
+<author initials='C' surname='Martinez' fullname='Carlos Martinez'>
+    <organization />
+</author>
+
+<date month='June' day='8' year='2018' />
+
+<abstract><t>Trust Anchor Locators (TALs) [I-D.ietf-sidrops-https-tal] are used by Relying Parties in the RPKI to locate and validate Trust Anchor certificates used in RPKI validation.  This document defines an RPKI signed object [RFC6488] for a Trust Anchor Locator (TAL) that can be used by Trust Anchors to perform a planned migration to a new key, allowing Relying Parties to discover the new key up to one year after the migration occurred.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidrops-signed-tal-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidrops-signed-tal-01.txt' />
+</reference>

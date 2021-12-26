@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-improve-dns-resolver'>
+<front>
+<title>Improving the caching DNS resolvers on "authority failure"</title>
+
+<author initials='Y' surname='Wang' fullname='Yan Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Shen' fullname='Sean Shen'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2010' />
+
+<abstract><t>This document provides a new mechanism for caching DNS resolvers. When all the authoritative name servers for a zone fail, and the request can't be found in the cache, during a period of time the caching DNS resolvers won't query the authoritative name servers, but directly return a SERVFAIL to the clients to reduce the recursive name server load and the network load.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-improve-dns-resolver-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-improve-dns-resolver-01.txt' />
+</reference>

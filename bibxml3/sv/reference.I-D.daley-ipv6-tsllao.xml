@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.daley-ipv6-tsllao'>
+<front>
+<title>Tentative Source Link-Layer Address Options for IPv6 Neighbour Discovery</title>
+
+<author initials='G' surname='Daley' fullname='Greg Daley'>
+    <organization />
+</author>
+
+<date month='July' day='19' year='2005' />
+
+<abstract><t>The proposed IPv6 Duplicate Address Detection (DAD) Optimization "Optimistic DAD" defines a set of recoverable procedures which allow a node to make use of an address before DAD completes. Essentially, Optimistic DAD forbids usage of certain Neighbour Discovery options which could pollute active neighbour cache entries, while an address is tentative. This document defines a new option and procedures to replace cache polluting options, in a way which is useful to tentative nodes. These procedures are designed to be to backward compatible with existing devices which support IPv6 Neighbour Discovery.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-daley-ipv6-tsllao-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-daley-ipv6-tsllao-02.txt' />
+</reference>

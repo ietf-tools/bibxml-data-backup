@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.klensin-idna-5892upd-unicode70'>
+<front>
+<title>IDNA Update for Unicode 7.0 and Later Versions</title>
+
+<author initials='J' surname='Klensin' fullname='John Klensin'>
+    <organization />
+</author>
+
+<author initials='P' surname='Faltstrom' fullname='Patrik Faltstrom'>
+    <organization />
+</author>
+
+<date month='October' day='8' year='2017' />
+
+<abstract><t>The current version of the IDNA specifications anticipated that each new version of Unicode would be reviewed to verify that no changes had been introduced that required adjustments to the set of rules and, in particular, whether new exceptions or backward compatibility adjustments were needed.  The review for Unicode 7.0.0 first identified a potentially problematic new code point and then a much more general and difficult issue with Unicode normalization.  This specification discusses those issues and proposes updates to IDNA and, potentially, the way the IETF handles comparison of identifiers more generally, especially when there is no associated language or language identification.  It also applies an editorial clarification to RFC 5892 that was the subject of an earlier erratum and updates RFC 5894 to point to the issues involved.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-klensin-idna-5892upd-unicode70-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-klensin-idna-5892upd-unicode70-05.txt' />
+</reference>

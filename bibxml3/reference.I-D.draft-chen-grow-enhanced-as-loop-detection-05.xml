@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-grow-enhanced-as-loop-detection'>
+<front>
+<title>Enhanced AS-Loop Detection for BGP</title>
+
+<author initials='H' surname='Chen' fullname='Huanan Chen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ma' fullname='Di Ma'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Gu' fullname='Yunan Gu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zhuang' fullname='Shunwan Zhuang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Wang' fullname='Haibo Wang'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2020' />
+
+<abstract><t>Misconfiguration and malicious manipulation of BGP AS_Path may lead to route hijack.  This document proposes to enhance the BGP [RFC4271] Inbound/ Outbound route processing in the case of detecting an AS loop.  It is an enhancement to the current BGP's Inbound/Outbound processing and can be implemented directly on the device, and this document also proposes a centralized usecase.  This could empower networks to quickly and accurately figure out they're being victimized.  Two options are proposed for the enhancement, a) a local check at the device; b) data collection/analysis at the remote network controller/ server.  Both approaches are beneficial for route hijack detection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-grow-enhanced-as-loop-detection-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-grow-enhanced-as-loop-detection-05.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmarc-psd'>
+<front>
+<title>DMARC (Domain-based Message Authentication, Reporting, and Conformance) Extension For PSDs (Public Suffix Domains)</title>
+
+<author initials='S' surname='Kitterman' fullname='Scott Kitterman'>
+    <organization />
+</author>
+
+<date month='May' day='27' year='2019' />
+
+<abstract><t>DMARC (Domain-based Message Authentication, Reporting, and Conformance) is a scalable mechanism by which a mail-originating organization can express domain-level policies and preferences for message validation, disposition, and reporting, that a mail-receiving organization can use to improve mail handling.  DMARC policies can be applied at the individual domain level or for a set of domains at the organizational level.  The design of DMARC precludes grouping policies for a set of domains above the organizational level, such as TLDs (Top Level Domains).  These types of domains (which are not all at the top level of the DNS tree) can be collectively referred to as Public Suffix Domains (PSDs).  For the subset of PSDs that require DMARC usage, this memo describes an extension to DMARC to enable DMARC functionality for such domains.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmarc-psd-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmarc-psd-04.txt' />
+</reference>

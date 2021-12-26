@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.oneill-mip-decomposedha'>
+<front>
+<title>Decomposed Home Agent Architecture</title>
+
+<author initials='A' surname='O&apos;Neill' fullname='Alan O&apos;Neill'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2004' />
+
+<abstract><t>RFC 3344 [1] describes the current version of Mobile IP version 4 signaling and forwarding. The signaling and forwarding is conducted between a Mobile Node and a Home Agent, via an optional intermediate Foreign Agent, for a Home Address of the Mobile Node. The Home Agent acts as the Mobile IP signaling endpoint, as well as the forwarding endpoint for packet tunneling between the Home Agent and the MN Care of Address. This document describes an alternative architecture in which the Home Agent is the signaling endpoint whilst a new Tunnel Agent acts as the forwarding endpoint.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-oneill-mip-decomposedha-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-oneill-mip-decomposedha-00.txt' />
+</reference>

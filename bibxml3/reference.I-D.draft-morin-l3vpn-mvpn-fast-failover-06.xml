@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.morin-l3vpn-mvpn-fast-failover'>
+<front>
+<title>Multicast VPN fast upstream failover</title>
+
+<author initials='T' surname='Morin' fullname='Thomas Morin'>
+    <organization />
+</author>
+
+<author initials='R' surname='Kebler' fullname='Robert Kebler'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Rekhter' fullname='Yakov Rekhter'>
+    <organization />
+</author>
+
+<author initials='R' surname='Qiu' fullname='Ray Qiu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Aggarwal' fullname='Rahul Aggarwal'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='P' surname='Muley' fullname='Praveen Muley'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2014' />
+
+<abstract><t>This document defines multicast VPN extensions and procedures that allow fast failover for upstream failures, by allowing downstream PEs to take into account the status of Provider-Tunnels (P-tunnels) when selecting the upstream PE for a VPN multicast flow, and extending BGP MVPN routing so that a C-multicast route can be advertized toward a standby upstream PE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-morin-l3vpn-mvpn-fast-failover-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-morin-l3vpn-mvpn-fast-failover-06.txt' />
+</reference>

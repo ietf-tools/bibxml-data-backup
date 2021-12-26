@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-egress-protection-framework'>
+<front>
+<title>MPLS Egress Protection Framework</title>
+
+<author initials='Y' surname='Shen' fullname='Yimin Shen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jeganathan' fullname='Jeyananth Jeganathan'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='C' surname='Michel' fullname='Carsten Michel'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Jiang' fullname='Yuanlong Jiang'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2018' />
+
+<abstract><t>This document specifies a fast reroute framework for protecting IP/ MPLS services and MPLS transport tunnels against egress node and egress link failures.  In this framework, the penultimate-hop router of an MPLS tunnel acts as the point of local repair (PLR) for an egress node failure, and the egress router of the MPLS tunnel acts as the PLR for an egress link failure.  Each of them pre-establishes a bypass tunnel to a protector.  Upon an egress node or link failure, the corresponding PLR performs local failure detection and local repair, by rerouting packets over the corresponding bypass tunnel. The protector in turn performs context label switching or context IP forwarding to send the packets to the ultimate service destination(s).  This mechanism can be used to reduce traffic loss before global repair reacts to the failure and control plane protocols converge on the topology changes due to the failure.  The framework is applicable to all types of IP/MPLS services and MPLS tunnels.  Under the framework, service protocol extensions may be further specified to support service label distribution from an egress router to a protector.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-egress-protection-framework-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-egress-protection-framework-03.txt' />
+</reference>

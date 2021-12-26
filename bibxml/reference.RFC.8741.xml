@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8741' target='https://www.rfc-editor.org/info/rfc8741'>
+<front>
+<title>Ability for a Stateful Path Computation Element (PCE) to Request and Obtain Control of a Label Switched Path (LSP)</title>
+<author initials='A.' surname='Raghuram' fullname='A. Raghuram'><organization /></author>
+<author initials='A.' surname='Goddard' fullname='A. Goddard'><organization /></author>
+<author initials='J.' surname='Karthik' fullname='J. Karthik'><organization /></author>
+<author initials='S.' surname='Sivabalan' fullname='S. Sivabalan'><organization /></author>
+<author initials='M.' surname='Negi' fullname='M. Negi'><organization /></author>
+<date year='2020' month='March' />
+<abstract><t>A stateful Path Computation Element (PCE) retains information about the placement of Multiprotocol Label Switching (MPLS) Traffic Engineering Label Switched Paths (TE LSPs). When a PCE has stateful control over LSPs, it may send indications to LSP head-ends to modify the attributes (especially the paths) of the LSPs. A Path Computation Client (PCC) that has set up LSPs under local configuration may delegate control of those LSPs to a stateful PCE.</t><t>There are use cases in which a stateful PCE may wish to obtain control of locally configured LSPs that it is aware of but have not been delegated to the PCE.</t><t>This document describes an extension to the Path Computation Element Communication Protocol (PCEP) to enable a PCE to make requests for such control.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8741'/>
+<seriesInfo name='DOI' value='10.17487/RFC8741'/>
+</reference>

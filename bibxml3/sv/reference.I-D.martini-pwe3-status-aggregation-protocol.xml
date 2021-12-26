@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.martini-pwe3-status-aggregation-protocol'>
+<front>
+<title>MPLS LSP PW status refresh reduction for Static Pseudowires</title>
+
+<author initials='L' surname='Martini' fullname='Luca Martini'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<author initials='E' surname='Bellagamba' fullname='Elisa Bellagamba'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2011' />
+
+<abstract><t>This document describes a method for generating an aggregated pseudowire status message on Multi-Protocol Label Switching (MPLS) network Label Switched Path (LSP).  The method for transmitting the pseudowire (PW) status information is not new, however this protocol extension allows a Service Provider (SP) to reliably monitor the individual PW status while not overwhelming the network of multiple periodic status messages. This is achieved by sending a single cumulative status message for all the PWs grouped in the same LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-martini-pwe3-status-aggregation-protocol-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-martini-pwe3-status-aggregation-protocol-03.txt' />
+</reference>

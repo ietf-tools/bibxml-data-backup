@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chakrabarti-mip4-mcbc'>
+<front>
+<title>IPv4 Mobility extension for Multicast and Broadcast Packets</title>
+
+<author initials='S' surname='Chakrabarti' fullname='Samita  Chakrabarti'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2007' />
+
+<abstract><t>The IP Mobility Protocol [RFC3344] describes the multicast and broadcast packet transmission between the mobile node and the home- network or visited network. The Reverse Tunneling for Mobile IP, Revised [RFC3024] describes reverse tunneling the multicast and broadcast packets to the home network using encapsulating delivery style between mobile nodes and the foreign agent. However, [RFC3024] says that all packets must be encapsulated in the IP-in-IP tunnel once the encapsulated delivery style is negotiated. This restriction causes over-the-air tunnel overhead in the wireless medium between the mobile and the foreign agent. This document provides a generic solution to ease the restriction of unicast packet to be encapsulated in encapsulating delivery mode. It also provides alternatives of direct delivery of multicast/broadcast packets between a foreign agent and a mobile node in point-to-point link such as Wimax network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chakrabarti-mip4-mcbc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chakrabarti-mip4-mcbc-00.txt' />
+</reference>

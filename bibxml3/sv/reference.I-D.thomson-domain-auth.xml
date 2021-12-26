@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thomson-domain-auth'>
+<front>
+<title>Domain Authorization for PIDF-LO</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='J' surname='Winterbottom' fullname='James Winterbottom'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2005' />
+
+<abstract><t>This document describes a standard method for digitally signing Presence Information Data Format Location Object (PIDF-LO) documents using a subset of the XML Digital Signature specification. A digital signature enables the user of a signed PIDF-LO document to attribute that information to an authorized source within the domain of the target entity. A schema is defined for including a domain authorization element in the PIDF-LO and a set of XML Path Language (XPath) filters for selecting the correct elements for signing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thomson-domain-auth-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thomson-domain-auth-01.txt' />
+</reference>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8554' target='https://www.rfc-editor.org/info/rfc8554'>
+<front>
+<title>Leighton-Micali Hash-Based Signatures</title>
+<author initials='D.' surname='McGrew' fullname='D. McGrew'><organization /></author>
+<author initials='M.' surname='Curcio' fullname='M. Curcio'><organization /></author>
+<author initials='S.' surname='Fluhrer' fullname='S. Fluhrer'><organization /></author>
+<date year='2019' month='April' />
+<abstract><t>This note describes a digital-signature system based on cryptographic hash functions, following the seminal work in this area of Lamport, Diffie, Winternitz, and Merkle, as adapted by Leighton and Micali in 1995.  It specifies a one-time signature scheme and a general signature scheme.  These systems provide asymmetric authentication without using large integer mathematics and can achieve a high security level.  They are suitable for compact implementations, are relatively simple to implement, and are naturally resistant to side-channel attacks.  Unlike many other signature systems, hash-based signatures would still be secure even if it proves feasible for an attacker to build a quantum computer.</t><t>This document is a product of the Crypto Forum Research Group (CFRG) in the IRTF.  This has been reviewed by many researchers, both in the research group and outside of it.  The Acknowledgements section lists many of them.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8554'/>
+<seriesInfo name='DOI' value='10.17487/RFC8554'/>
+</reference>

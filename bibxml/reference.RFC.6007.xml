@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6007' target='https://www.rfc-editor.org/info/rfc6007'>
+<front>
+<title>Use of the Synchronization VECtor (SVEC) List for Synchronized Dependent Path Computations</title>
+<author initials='I.' surname='Nishioka' fullname='I. Nishioka'><organization /></author>
+<author initials='D.' surname='King' fullname='D. King'><organization /></author>
+<date year='2010' month='September' />
+<abstract><t>A Path Computation Element (PCE) may be required to perform dependent path computations.  Dependent path computations are requests that need to be synchronized in order to meet specific objectives.  An example of a dependent request would be a PCE computing a set of services that are required to be diverse (disjointed) from each other.  When a PCE computes sets of dependent path computation requests concurrently, use of the Synchronization VECtor (SVEC) list is required for association among the sets of dependent path computation requests.  The SVEC object is optional and carried within the Path Computation Element Communication Protocol (PCEP) PCRequest (PCReq) message.</t><t>This document does not specify the PCEP SVEC object or procedure. This informational document clarifies the use of the SVEC list for synchronized path computations when computing dependent requests. The document also describes a number of usage scenarios for SVEC lists within single-domain and multi-domain environments.   This document is not an Internet Standards Track specification; it is published for informational purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6007'/>
+<seriesInfo name='DOI' value='10.17487/RFC6007'/>
+</reference>

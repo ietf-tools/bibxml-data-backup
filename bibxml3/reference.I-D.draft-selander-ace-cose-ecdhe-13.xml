@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.selander-ace-cose-ecdhe'>
+<front>
+<title>Ephemeral Diffie-Hellman Over COSE (EDHOC)</title>
+
+<author initials='G' surname='Selander' fullname='Goeran Selander'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<author initials='F' surname='Palombini' fullname='Francesca Palombini'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>This document specifies Ephemeral Diffie-Hellman Over COSE (EDHOC), a very compact, and lightweight authenticated Diffie-Hellman key exchange with ephemeral keys.  EDHOC provides mutual authentication, perfect forward secrecy, and identity protection.  EDHOC is intended for usage in constrained scenarios and a main use case is to establish an OSCORE security context.  By reusing COSE for cryptography, CBOR for encoding, and CoAP for transport, the additional code footprint can be kept very low.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-selander-ace-cose-ecdhe-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-selander-ace-cose-ecdhe-13.txt' />
+</reference>

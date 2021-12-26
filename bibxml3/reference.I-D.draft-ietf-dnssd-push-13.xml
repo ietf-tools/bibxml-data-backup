@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnssd-push'>
+<front>
+<title>DNS Push Notifications</title>
+
+<author initials='T' surname='Pusateri' fullname='Tom Pusateri'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>The Domain Name System (DNS) was designed to return matching records efficiently for queries for data that is relatively static.  When those records change frequently, DNS is still efficient at returning the updated results when polled, as long as the polling rate is not too high.  But there exists no mechanism for a client to be asynchronously notified when these changes occur.  This document defines a mechanism for a client to be notified of such changes to DNS records, called DNS Push Notifications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnssd-push-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnssd-push-13.txt' />
+</reference>

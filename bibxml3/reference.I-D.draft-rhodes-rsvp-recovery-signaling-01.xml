@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rhodes-rsvp-recovery-signaling'>
+<front>
+<title>Problems observed with RSVP recovery signaling</title>
+
+<author initials='A' surname='Rhodes' fullname='Andrew Rhodes'>
+    <organization />
+</author>
+
+<author initials='N' surname='Neate' fullname='Nic Neate'>
+    <organization />
+</author>
+
+<author initials='D' surname='McWalter' fullname='David McWalter'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>Implementation experience with RSVP-TE recovery signaling has uncovered some problems.  Associations between LSPs in different sessions are forbidden.  Protecting LSPs cannot themselves be protected.  Overlapping repairs cause loss of traffic.  This draft provides details of these problems for the community to consider.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rhodes-rsvp-recovery-signaling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rhodes-rsvp-recovery-signaling-01.txt' />
+</reference>

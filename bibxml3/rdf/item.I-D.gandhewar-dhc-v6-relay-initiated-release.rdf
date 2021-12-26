@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-gandhewar-dhc-v6-relay-initiated-release-01.pdf'>
+    <title>"DHCPv6 Relay Initiated Release", Sunil Gandhewar</title>
+    <link>http://www.ietf.org/internet-drafts/draft-gandhewar-dhc-v6-relay-initiated-release-01.pdf</link>
+    <description>The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) is initiated by a DHCPv6 client.  A DHCPv6 server can force DHCPv6 client to send RENEW or INFORMATION-REQUEST by sending a RECONFIGURE message.  There may be multiple DHCPv6 network devices connected in between a DHCPv6 client and a server, each one reserving resources for the DHCPv6 client.  There are no DHCPv6 messages that a relay can initiate in order to control the client binding.  A DHCPv6 client may not always send a RELEASE message when it no longer needs the IPv6 address or prefix and network resources for the associated services it is using.  This document specifies a way to request release to be initiated by an intermediate DHCPv6 network device, e.g.  DHCPv6 relay, on behalf of DHCPv6 client.  This helps to relinquish network resources sooner than the lease expiration time.</description>
+    <dc:date>2015-10-01T07:00:00-00:00</dc:date>
+</item>

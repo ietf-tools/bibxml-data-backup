@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-httpbis-client-hints'>
+<front>
+<title>HTTP Client Hints</title>
+
+<author initials='I' surname='Grigorik' fullname='Ilya Grigorik'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Weiss' fullname='Yoav Weiss'>
+    <organization />
+</author>
+
+<date month='May' day='18' year='2020' />
+
+<abstract><t>HTTP defines proactive content negotiation to allow servers to select the appropriate response for a given request, based upon the user agent's characteristics, as expressed in request headers.  In practice, user agents are often unwilling to send those request headers, because it is not clear whether they will be used, and sending them impacts both performance and privacy.  This document defines an Accept-CH response header that servers can use to advertise their use of request headers for proactive content negotiation, along with a set of guidelines for the creation of such headers, colloquially known as "Client Hints."</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-httpbis-client-hints-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-httpbis-client-hints-14.txt' />
+</reference>

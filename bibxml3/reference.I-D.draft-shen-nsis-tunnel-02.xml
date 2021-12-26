@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shen-nsis-tunnel'>
+<front>
+<title>NSIS Operation Over IP Tunnels</title>
+
+<author initials='C' surname='Shen' fullname='Charles Shen'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2006' />
+
+<abstract><t>This draft presents an NSIS operation over IP tunnels scheme using QoS NSLP as the NSIS signaling application. Both sender-initiated and receiver-initiated reservation modes are discussed. The scheme proposes the use of separate signaling sessions inside the tunnel for the end-to-end sessions. Packets belonging to qualified tunnel sessions are assigned special flow IDs to be distinguished from the rest of the tunnel traffic. The end-to-end session and its corresponding tunnel session are associated with each other when necessary; so that adjustment in one session may be reflected in the other.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shen-nsis-tunnel-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shen-nsis-tunnel-02.txt' />
+</reference>

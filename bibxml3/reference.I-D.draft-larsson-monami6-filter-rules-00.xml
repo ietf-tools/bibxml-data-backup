@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.larsson-monami6-filter-rules'>
+<front>
+<title>A Filter Rule Mechanism for Multi-access Mobile IPv6</title>
+
+<author initials='C' surname='Larsson' fullname='Conny Larsson'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2006' />
+
+<abstract><t>This document suggests a mechanism that could be used to direct flows from and to multi-homed nodes. A clear distinction is made between policies, filter rules and filters. In order to be able to use filter rules in a multi-access mobility context without excessive overhead, it is advantageous to be able to define match functions and bindings separately, as it is expected that it may be necessary to update the bindings much more often than the match functions. If the binding is expressed in terms of filter rule identifier and care-of address, the bindings must be updated on a handover to a new care-of address, while the match function will not.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-larsson-monami6-filter-rules-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-larsson-monami6-filter-rules-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-ftpext2-ftp64'>
+<front>
+<title>Recommendations for FTP Clients and Servers in the IPv6/IPv4 Transition Scenario</title>
+
+<author initials='D' surname='Liu' fullname='Dapeng Liu'>
+    <organization />
+</author>
+
+<author initials='I' surname='Beijnum' fullname='Iljitsch van Beijnum'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Cao' fullname='Zhen Cao'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>The File transfer protocol, which was originally defined in RFC 114 and published in 1971, well before TCP and IP were created.  However, it is still in wide use.  Many FTP servers implement RFC 959, which requires IPv4.  RFC 2428 defines extensions that allow FTP to work over IPv6 by introducing the EPRT and EPSV commands.  When IPv6 FTP clients attempt to communicate with IPv4 FTP servers through an IPv6-IPv4 translator, only certain combinations of FTP client and server behavior lead to successful file transfers.  This document proposes the best current practice for IPv6 FTP client implementations in the IPv6-IPv4 translation scenario, allowing file transfers to succeed without the presence of an ALG (Application Layer Gateway).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-ftpext2-ftp64-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-ftpext2-ftp64-00.txt' />
+</reference>

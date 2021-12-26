@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fairhurst-quic-ack-scaling'>
+<front>
+<title>Changing the Default QUIC ACK Policy</title>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<author initials='A' surname='Custura' fullname='Ana Custura'>
+    <organization />
+</author>
+
+<author initials='T' surname='Jones' fullname='Tom Jones'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2020' />
+
+<abstract><t>ACKs are used by transport protocols to confirm delivery of packets. The transmission of ACKs consumes resources at the receiver, in the network and at the sender.  On network paths where there is significant path asymmetry, acknowledgments of data receipt can reduce the efficient use of network capacity.  This effect occurs when the return capacity is significantly more constrained than the forward capacity, or the cost of transmission per packet is a significant component of the total transmission cost.  In these cases, reducing the ratio of acknowledgements to data can improve link utilization and reduce link transmission costs.  It can also reduce processing overhead at the sender and receiver.  This document proposes a change to the default acknowledgement policy of the QUIC transport protocol to improve performance over paths with appreciable asymmetry.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fairhurst-quic-ack-scaling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fairhurst-quic-ack-scaling-01.txt' />
+</reference>

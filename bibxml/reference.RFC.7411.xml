@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7411' target='https://www.rfc-editor.org/info/rfc7411'>
+<front>
+<title>Multicast Listener Extensions for Mobile IPv6 (MIPv6) and Proxy Mobile IPv6 (PMIPv6) Fast Handovers</title>
+<author initials='T.' surname='Schmidt' fullname='T. Schmidt' role='editor'><organization /></author>
+<author initials='M.' surname='Waehlisch' fullname='M. Waehlisch'><organization /></author>
+<author initials='R.' surname='Koodli' fullname='R. Koodli'><organization /></author>
+<author initials='G.' surname='Fairhurst' fullname='G. Fairhurst'><organization /></author>
+<author initials='D.' surname='Liu' fullname='D. Liu'><organization /></author>
+<date year='2014' month='November' />
+<abstract><t>Fast handover protocols for Mobile IPv6 (MIPv6) and Proxy Mobile IPv6 (PMIPv6) define mobility management procedures that support unicast communication at reduced handover latency.  Fast handover base operations do not affect multicast communication and, hence, do not accelerate handover management for native multicast listeners.  Many multicast applications like IPTV or conferencing, though, comprise delay-sensitive, real-time traffic and will benefit from fast handover completion.  This document specifies extension of the Mobile IPv6 Fast Handovers (FMIPv6) and the Fast Handovers for Proxy Mobile IPv6 (PFMIPv6) protocols to include multicast traffic management in fast handover operations.  This multicast support is provided first at the control plane by management of rapid context transfer between access routers and second at the data plane by optional fast traffic forwarding that may include buffering.  An FMIPv6 access router indicates support for multicast using an updated Proxy Router Advertisements message format.</t><t>This document updates RFC 5568, &quot;Mobile IPv6 Fast Handovers&quot;.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7411'/>
+<seriesInfo name='DOI' value='10.17487/RFC7411'/>
+</reference>

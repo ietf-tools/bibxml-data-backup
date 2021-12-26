@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-esp-ah-reqts'>
+<front>
+<title>Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)</title>
+
+<author initials='D' surname='McGrew' fullname='David McGrew'>
+    <organization />
+</author>
+
+<author initials='W' surname='Feghali' fullname='Wajdi Feghali'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='March' day='31' year='2014' />
+
+<abstract><t>This Internet Draft is standards track proposal to update to the Cryptographic Algorithm Implementation Requirements for ESP and AH; it also adds usage guidance to help in the selection of these algorithms.  The Encapsulating Security Payload (ESP) and Authentication Header (AH) protocols makes use of various cryptographic algorithms to provide confidentiality and/or data origin authentication to protected data communications in the IP Security (IPsec) architecture.  To ensure interoperability between disparate implementations, the IPsec standard specifies a set of mandatory-to- implement algorithms.  This document specifies the current set of mandatory-to-implement algorithms for ESP and AH, specifies algorithms that should be implemented because they may be promoted to mandatory at some future time, and also recommends against the implementation of some obsolete algorithms.  Usage guidance is also provided to help the user of ESP and AH best achieve their security goals through appropriate choices of cryptographic algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-esp-ah-reqts-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-esp-ah-reqts-03.txt' />
+</reference>

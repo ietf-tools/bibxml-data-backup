@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.riikonen-silc-ke-auth'>
+<front>
+<title>SILC Key Exchange and Authentication Protocols</title>
+
+<author initials='P' surname='Riikonen' fullname='Pekka Riikonen'>
+    <organization />
+</author>
+
+<date month='May' day='26' year='2005' />
+
+<abstract><t>This memo describes two protocols used in the Secure Internet Live Conferencing (SILC) protocol, specified in the Secure Internet Live Conferencing, Protocol Specification [SILC1]. The SILC Key Exchange (SKE) protocol provides secure key exchange between two parties resulting into shared secret key material. The protocol is based on Diffie-Hellman key exchange algorithm and its functionality is derived from several key exchange protocols. SKE use best parts of the SSH2 Key Exchange protocol, Station-To-Station (STS) protocol and the OAKLEY Key Determination protocol [OAKLEY]. The second protocol, SILC Connection Authentication protocol provides user level authentication used when creating connections in SILC network. The protocol is transparent to the authentication data which means that it can be used to authenticate the user with, for example, passphrase (pre-shared secret) or public key (and certificate) based on digital signatures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-riikonen-silc-ke-auth-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-riikonen-silc-ke-auth-08.txt' />
+</reference>

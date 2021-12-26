@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.osterweil-dane-ipsec'>
+<front>
+<title>Opportunistic Encryption with DANE Semantics and IPsec: IPSECA</title>
+
+<author initials='E' surname='Osterweil' fullname='Eric Osterweil'>
+    <organization />
+</author>
+
+<author initials='G' surname='Wiley' fullname='Glen Wiley'>
+    <organization />
+</author>
+
+<author initials='T' surname='Okubo' fullname='Tomofumi Okubo'>
+    <organization />
+</author>
+
+<author initials='R' surname='Lavu' fullname='Ramana Lavu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mohaisen' fullname='Aziz Mohaisen'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>This document defines a new Domain Name System (DNS) resource record type called the IPSECA RR that is used to associate an X.509 certificate or a public key to an Internet Protocol Security (IPsec) gateway in a similar manner TLSA RR is used in the DNS-based Authentication of Named Entities (DANE) protocol does that for Transport Layer Security (TLS) in order to make the credential discovery easier through DNS and to allow credential discovery to be performed in a secure manner leveraging DNS Security Extensions (DNSSEC).  Among the issues addressed in this draft is the danger of IP address spoofing that can be a liability to IPsec endpoints.  It is important to note that the "right destination" in this document is strictly defined by the response of the DNS and does not attest to the identity of the organization or the ownership of the IP address space.  The identity of the organization shall be attested in an X.509 certificate issued by a certification authority if desired and the ownership of the IP address space shall be attested by other mechanisms such as Towards A Secure Routing System (TASRS) architecture or Resource Public Key Infrastructure (RPKI).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-osterweil-dane-ipsec-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-osterweil-dane-ipsec-03.txt' />
+</reference>

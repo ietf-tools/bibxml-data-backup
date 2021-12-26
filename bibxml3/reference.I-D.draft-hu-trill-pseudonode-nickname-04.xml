@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hu-trill-pseudonode-nickname'>
+<front>
+<title>RBridge: Pseudo-Nickname</title>
+
+<author initials='Z' surname='Corporation' fullname='ZTE Corporation'>
+    <organization />
+</author>
+
+<author initials='T' surname='Senevirathne' fullname='Tissa Senevirathne'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<author initials='f' surname='hu' fullname='fangwei hu'>
+    <organization />
+</author>
+
+<date month='December' day='12' year='2012' />
+
+<abstract><t>RBridges provide frame forwarding service to layer2 switches or end stations at the edge of TRILL campus.  As defined in [RFC6325], when there are multiple RBridges attached to the same LAN segment, only one edge RBridge is allowed to be the frame forwarder of a specific VLAN in order to avoid potential frame duplication and loops in the TRILL campus.  However, in some application scenarios, for example an end station is multi-homed to multiple RBridges needs to improve the resiliency and increase the available network bandwidth of the connection.  This means all those RBriges attached to the end station can act as the frame forwarders of a specific VLAN.  This kind of active-active connection violates the definition above.  Frame duplication and forwarding loops may happen and it may cause the flip-flopping of the egress RBridge nickname associated to the MAC address of such an end station in remote RBridges' forwarding tables. The Reverse Path Forwarding Check does not work as well, which has been addressed in [CMT].  This document proposes the concept of Virtual RBridge, along with the pseudo-nickname configuration for this Virtual RBridge, to address the above problems in accompany with [CMT].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hu-trill-pseudonode-nickname-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hu-trill-pseudonode-nickname-04.txt' />
+</reference>

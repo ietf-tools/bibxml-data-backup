@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dnoveck-nfsv4-rpcrdma-rtissues'>
+<front>
+<title>Issues Related to RPC-over-RDMA Internode Round-trips</title>
+
+<author initials='D' surname='Noveck' fullname='David Noveck'>
+    <organization />
+</author>
+
+<date month='April' day='17' year='2016' />
+
+<abstract><t>As currently designed and implemented, the RPC-over-RDMA protocol requires use of multiple internode round trips to process many common operations.  For example, NFS READ or WRITE operations require use of three internode round trips.  This document looks at this issue and discusses what can and what should be done to address it, both within the context of an extensible version of RPC-over-RDMA and possibly outside that framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dnoveck-nfsv4-rpcrdma-rtissues-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dnoveck-nfsv4-rpcrdma-rtissues-00.txt' />
+</reference>

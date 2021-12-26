@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8271' target='https://www.rfc-editor.org/info/rfc8271'>
+<front>
+<title>Updates to the Resource Reservation Protocol for Fast Reroute of Traffic Engineering GMPLS Label Switched Paths (LSPs)</title>
+<author initials='M.' surname='Taillon' fullname='M. Taillon'><organization /></author>
+<author initials='T.' surname='Saad' fullname='T. Saad' role='editor'><organization /></author>
+<author initials='R.' surname='Gandhi' fullname='R. Gandhi' role='editor'><organization /></author>
+<author initials='Z.' surname='Ali' fullname='Z. Ali'><organization /></author>
+<author initials='M.' surname='Bhatia' fullname='M. Bhatia'><organization /></author>
+<date year='2017' month='October' />
+<abstract><t>This document updates the Resource Reservation Protocol - Traffic Engineering (RSVP-TE) Fast Reroute (FRR) procedures defined in RFC 4090 to support Packet Switch Capable (PSC) Generalized Multiprotocol Label Switching (GMPLS) Label Switched Paths (LSPs). These updates allow the coordination of a bidirectional bypass tunnel assignment protecting a common facility in both forward and reverse directions of a co-routed bidirectional LSP.  In addition, these updates enable the redirection of bidirectional traffic onto bypass tunnels that ensure the co-routing of data paths in the forward and reverse directions after FRR and avoid RSVP soft-state timeout in the control plane.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8271'/>
+<seriesInfo name='DOI' value='10.17487/RFC8271'/>
+</reference>

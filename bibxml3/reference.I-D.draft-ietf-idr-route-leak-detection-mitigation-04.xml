@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-route-leak-detection-mitigation'>
+<front>
+<title>Methods for Detection and Mitigation of BGP Route Leaks</title>
+
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+    <organization />
+</author>
+
+<author initials='D' surname='Montgomery' fullname='Doug Montgomery'>
+    <organization />
+</author>
+
+<author initials='B' surname='Dickson' fullname='Brian Dickson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='A' surname='Robachevsky' fullname='Andrei Robachevsky'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>[I-D.ietf-grow-route-leak-problem-definition] provides a definition of the route leak problem, and also enumerates several types of route leaks.  This document first examines which of those route-leak types are detected and mitigated by the existing origin validation (OV) [RFC 6811].  It is recognized that OV offers a limited detection and mitigation capability against route leaks.  This document specifies enhancements that significantly extend the route-leak prevention, detection, and mitigation capabilities of BGP.  One solution component involves carrying a per-hop route-leak protection (RLP) field in BGP updates.  The RLP field is proposed be carried in a new optional transitive attribute, called BGP RLP attribute.  The solution is meant to be initially implemented as an enhancement of BGP without requiring BGPsec [I-D.ietf-sidr-bgpsec-protocol]. However, when BGPsec is deployed in the future, the solution can be incorporated in BGPsec, enabling cryptographic protection for the RLP field.  That would be one way of implementing the proposed solution in a secure way.  The document also includes a stopgap method for detection and mitigation of route leaks for an intermediate phase when OV is deployed but BGP protocol on the wire is unchanged.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-route-leak-detection-mitigation-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-route-leak-detection-mitigation-04.txt' />
+</reference>

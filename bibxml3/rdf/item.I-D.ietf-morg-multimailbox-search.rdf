@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-morg-multimailbox-search-07.txt'>
+    <title>"IMAP4 Multimailbox SEARCH Extension", Barry Leiba, Alexey Melnikov</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-morg-multimailbox-search-07.txt</link>
+    <description>The IMAP4 specification allows the searching only of the selected mailbox.  A user often wants to search multiple mailboxes, and a client that wishes to support this must issue a series of SELECT and SEARCH commands, waiting for each to complete before moving on to the next.  This extension allows a client to search multiple mailboxes with one command, limiting the round-trips and waiting for various searches to complete, and not requiring disruption of the currently selected mailbox.  This also uses MAILBOX and TAG fields in ESEARCH responses, allowing a client to pipeline the searches if it chooses.</description>
+    <dc:date>2011-03-06T23:00:00-00:00</dc:date>
+</item>

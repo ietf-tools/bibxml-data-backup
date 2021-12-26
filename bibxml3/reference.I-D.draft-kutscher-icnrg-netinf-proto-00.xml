@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kutscher-icnrg-netinf-proto'>
+<front>
+<title>The NetInf Protocol</title>
+
+<author initials='D' surname='Kutscher' fullname='Dirk Kutscher'>
+    <organization />
+</author>
+
+<author initials='S' surname='Farrell' fullname='Stephen Farrell'>
+    <organization />
+</author>
+
+<author initials='E' surname='Davies' fullname='Elwyn Davies'>
+    <organization />
+</author>
+
+<date month='October' day='4' year='2012' />
+
+<abstract><t>This document defines a conceptual protocol and corresponding node requirements for NetInf nodes in a NetInf network.  A NetInf network offers an information-centric paradigm that supports the creation, location, exchange and storage of Named Data Objects (NDOs).  NetInf nodes can provide different services to other NetInf nodes, e.g., forwarding requests for information objects, delivering corresponding response messages, name resolution services etc.  This (abstract) protocol is intended to be run over some "convergence layer" that handles transport issues.  Two "wire" formats are defined, one that uses HTTP for message transfer and one layered on UDP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kutscher-icnrg-netinf-proto-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kutscher-icnrg-netinf-proto-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jholland-mboned-driad-amt-discovery'>
+<front>
+<title>DNS Reverse IP AMT Discovery</title>
+
+<author initials='J' surname='Holland' fullname='Jake Holland'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2018' />
+
+<abstract><t>This document defines a new DNS resource record (RR) used to advertise addresses for Automatic Multicast Tunneling (AMT) relays capable of receiving multicast traffic from the owner of the RR.  The new AMTRELAY RR makes possible a source-specific method for AMT gateways to discover appropriate AMT relays, in order to ingest traffic for source-specific multicast channels into multicast-capable receiving networks when no multicast connectivity is directly available between the sending and receiving networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jholland-mboned-driad-amt-discovery-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jholland-mboned-driad-amt-discovery-02.txt' />
+</reference>

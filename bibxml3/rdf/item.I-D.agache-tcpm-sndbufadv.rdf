@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-agache-tcpm-sndbufadv-00.txt'>
+    <title>"TCP Sendbuffer Advertising", Alexandru Agache, Costin Raiciu</title>
+    <link>http://www.ietf.org/internet-drafts/draft-agache-tcpm-sndbufadv-00.txt</link>
+    <description>Network operators have difficulty in understanding the end-to-end performance of TCP connections through their networks.  By observing packets at different vantage points on their path and maintaining per flow state, network operators can detect packet losses, retransmission and estimate RTTs, among other metrics.  A key information needed by networks is whether a connection is limited by the network or by the application.  This information is very difficult to accurately infer by passive measurements.  We propose to advertise sendbuffer occupancy in TCP: each segment will carry the amount of backlogged data present in the sender's buffer.  This information allows networks to discern between application-limited, network-limited and flow-control limited flows, creating new avenues of network optimization.</description>
+    <dc:date>2015-07-19T07:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7770' target='https://www.rfc-editor.org/info/rfc7770'>
+<front>
+<title>Extensions to OSPF for Advertising Optional Router Capabilities</title>
+<author initials='A.' surname='Lindem' fullname='A. Lindem' role='editor'><organization /></author>
+<author initials='N.' surname='Shen' fullname='N. Shen'><organization /></author>
+<author initials='JP.' surname='Vasseur' fullname='JP. Vasseur'><organization /></author>
+<author initials='R.' surname='Aggarwal' fullname='R. Aggarwal'><organization /></author>
+<author initials='S.' surname='Shaffer' fullname='S. Shaffer'><organization /></author>
+<date year='2016' month='February' />
+<abstract><t>It is useful for routers in an OSPFv2 or OSPFv3 routing domain to know the capabilities of their neighbors and other routers in the routing domain.  This document proposes extensions to OSPFv2 and OSPFv3 for advertising optional router capabilities.  The Router Information (RI) Link State Advertisement (LSA) is defined for this purpose.  In OSPFv2, the RI LSA will be implemented with an Opaque LSA type ID.  In OSPFv3, the RI LSA will be implemented with a unique LSA type function code.  In both protocols, the RI LSA can be advertised at any of the defined flooding scopes (link, area, or autonomous system (AS)).  This document obsoletes RFC 4970 by providing a revised specification that includes support for advertisement of multiple instances of the RI LSA and a TLV for functional capabilities.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7770'/>
+<seriesInfo name='DOI' value='10.17487/RFC7770'/>
+</reference>

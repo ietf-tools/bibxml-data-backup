@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gurbani-sipping-connection-guidelines'>
+<front>
+<title>Guidelines for implementors using connection-oriented transports in the  Session Initiation Protocol (SIP)</title>
+
+<author initials='V' surname='Gurbani' fullname='Vijay Gurbani'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2005' />
+
+<abstract><t>The growing SIP message size and the ensuing IP fragmentation, scalability and performance efficiencies gained by multiplexing SIP sessions over fewer reliable transport connections, efficient use of security certificates etc. are engendering widespread use of connection-oriented protocols for SIP transport. A variety of SIP transport related issues are currently being discussed in the IETF including connection reuse, persistent connections, outbound connection flows, SIP over SCTP, NAT traversal, and SIP/TCP race conditions. This document attempts to unify these techniques by describing practical guidelines for implementers and takes a broad stroke at defining SIP Connection Management. We hope to abstract the diverse connection techniques into a few generic connection characteristics, which then help define a few common connection models and use cases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gurbani-sipping-connection-guidelines-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gurbani-sipping-connection-guidelines-01.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lencse-tsvwg-mpt'>
+<front>
+<title>MPT Network Layer Multipath Library</title>
+
+<author initials='G' surname='Lencse' fullname='Gabor Lencse'>
+    <organization />
+</author>
+
+<author initials='S' surname='Szilagyi' fullname='Szabolcs Szilagyi'>
+    <organization />
+</author>
+
+<author initials='F' surname='Fejes' fullname='Ferenc Fejes'>
+    <organization />
+</author>
+
+<author initials='M' surname='Georgescu' fullname='Marius Georgescu'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2020' />
+
+<abstract><t>Although several contemporary IT devices have multiple network interfaces, communication sessions are restricted to use only one of them at a time due to the design of the TCP/IP protocol stack: the communication endpoint is identified by an IP address and a TCP or UDP port number. The simultaneous use of these multiple interfaces for a communication session would improve user experience through higher throughput and improved resilience to network failures.  MPT is a network layer multipath solution, which provides a tunnel over multiple paths using the GRE-in-UDP specification, thus being different from both MPTCP and Huawei's GRE Tunnel Bonding Protocol.  MPT can also be used as a router, routing the packets among several networks between the tunnel endpoints, thus establishing a multipath site-to-site connection.  The version of tunnel IP and the version of path IP are independent from each other, therefore MPT can also be used for IPv6 transition purposes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lencse-tsvwg-mpt-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lencse-tsvwg-mpt-06.txt' />
+</reference>

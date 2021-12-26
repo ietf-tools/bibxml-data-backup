@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-suit-manifest'>
+<front>
+<title>A Concise Binary Object Representation (CBOR)-based Serialization Format for the Software Updates for Internet of Things (SUIT) Manifest</title>
+
+<author initials='B' surname='Moran' fullname='Brendan Moran'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='K' surname='Zandberg' fullname='Koen Zandberg'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>This specification describes the format of a manifest.  A manifest is a bundle of metadata about the firmware for an IoT device, where to find the firmware, the devices to which it applies, and cryptographic information protecting the manifest.  Firmware updates and secure boot both tend to use sequences of common operations, so the manifest encodes those sequences of operations, rather than declaring the metadata.  The manifest also serves as a building block for secure boot.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-suit-manifest-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-suit-manifest-08.txt' />
+</reference>

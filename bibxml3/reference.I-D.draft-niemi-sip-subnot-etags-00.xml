@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.niemi-sip-subnot-etags'>
+<front>
+<title>An Extension to Session Initiation Protocol (SIP) Events for Issuing  Conditional Subscriptions</title>
+
+<author initials='A' surname='Niemi' fullname='Aki Niemi'>
+    <organization />
+</author>
+
+<date month='January' day='26' year='2006' />
+
+<abstract><t>The Session Initiation Protocol (SIP) events framework enables receiving asynchronous notification of various events from other SIP user agents. This framework defines the procedures for creating, refreshing and terminating subscriptions, as well as fetching and periodic polling of resource state. These procedures have a serious deficiency in that they do not allow state to persist over a subscription refresh, or between two consecutive polls. This inablity to suppress notifications of state already known to the subscriber results in superfluous traffic. This memo defines an extension to SIP events that allows the subscriber to condition the subscription request to whether the state has changed since the previous notification was received. When such a condition fails, the event state is not sent in a notification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-niemi-sip-subnot-etags-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-niemi-sip-subnot-etags-00.txt' />
+</reference>

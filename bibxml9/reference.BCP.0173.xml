@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<referencegroup anchor="BCP173" target="https://www.rfc-editor.org/info/bcp173">
+<!-- reference.RFC.6484.xml -->
+<reference  anchor='RFC6484' target='https://www.rfc-editor.org/info/rfc6484'>
+<front>
+<title>Certificate Policy (CP) for the Resource Public Key Infrastructure (RPKI)</title>
+<author initials='S.' surname='Kent' fullname='S. Kent'><organization /></author>
+<author initials='D.' surname='Kong' fullname='D. Kong'><organization /></author>
+<author initials='K.' surname='Seo' fullname='K. Seo'><organization /></author>
+<author initials='R.' surname='Watro' fullname='R. Watro'><organization /></author>
+<date year='2012' month='February' />
+<abstract><t>This document describes the certificate policy for a Public Key Infrastructure (PKI) used to support attestations about Internet Number Resource (INR) holdings.  Each organization that distributes IP addresses or Autonomous System (AS) numbers to an organization will, in parallel, issue a (public key) certificate reflecting this distribution.  These certificates will enable verification that the resources indicated in the certificate have been distributed to the holder of the associated private key and that this organization is the current, unique holder of these resources.  This memo documents  an Internet Best Current Practice.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='173'/>
+<seriesInfo name='RFC' value='6484'/>
+<seriesInfo name='DOI' value='10.17487/RFC6484'/>
+</reference>
+<!-- reference.RFC.7382.xml -->
+<reference  anchor='RFC7382' target='https://www.rfc-editor.org/info/rfc7382'>
+<front>
+<title>Template for a Certification Practice Statement (CPS) for the Resource PKI (RPKI)</title>
+<author initials='S.' surname='Kent' fullname='S. Kent'><organization /></author>
+<author initials='D.' surname='Kong' fullname='D. Kong'><organization /></author>
+<author initials='K.' surname='Seo' fullname='K. Seo'><organization /></author>
+<date year='2015' month='April' />
+<abstract><t>This document contains a template to be used for creating a Certification Practice Statement (CPS) for an organization that is part of the Resource Public Key Infrastructure (RPKI), e.g., a resource allocation registry or an ISP.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='173'/>
+<seriesInfo name='RFC' value='7382'/>
+<seriesInfo name='DOI' value='10.17487/RFC7382'/>
+</reference>
+</referencegroup>

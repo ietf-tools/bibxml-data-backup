@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dkim-rfc4871bis'>
+<front>
+<title>DomainKeys Identified Mail (DKIM) Signatures</title>
+
+<author initials='D' surname='Crocker' fullname='D. Crocker'>
+    <organization />
+</author>
+
+<author initials='T' surname='Hansen' fullname='Tony Hansen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kucherawy' fullname='M. Kucherawy'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2011' />
+
+<abstract><t>DomainKeys Identified Mail (DKIM) permits a person, role, or organization that owns the signing domain to claim some responsibility for a message by associating the domain with the message.  This can be an author's organization, an operational relay or one of their agents.  DKIM separates the question of the identity of the signer of the message from the purported author of the message.  Assertion of responsibility is validated through a cryptographic signature and querying the signer's domain directly to retrieve the appropriate public key.  Message transit from author to recipient is through relays that typically make no substantive change to the message content and thus preserve the DKIM signature.  This memo obsoletes RFC4871 and RFC5672.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dkim-rfc4871bis-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dkim-rfc4871bis-14.txt' />
+</reference>

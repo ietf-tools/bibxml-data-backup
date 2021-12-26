@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.erdtman-jose-cleartext-jwe'>
+<front>
+<title>Cleartext JSON Web Encryption (JWE)</title>
+
+<author initials='S' surname='Erdtman' fullname='Samuel Erdtman'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rundgren' fullname='Anders Rundgren'>
+    <organization />
+</author>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>Cleartext JSON Web Encryption (JWE) is a means of representing encrypted content as a JSON object without representing JSON values to be integrity protected in a non-JSON representation, such as base64url-encoded JSON.  The integrity protection calculation for the authenticated encryption performed uses the predictable JSON serialization defined in ECMAScript version 6.  Cleartext JWE builds on the JWE, JWA, and JWK specifications, reusing data structures and semantics from these specifications, where applicable.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-erdtman-jose-cleartext-jwe-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-erdtman-jose-cleartext-jwe-00.txt' />
+</reference>

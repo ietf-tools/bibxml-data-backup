@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ippm-loss-episode-metrics'>
+<front>
+<title>Loss Episode Metrics for IPPM</title>
+
+<author initials='N' surname='Duffield' fullname='Nick Duffield'>
+    <organization />
+</author>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<author initials='J' surname='Sommers' fullname='Joel Sommers'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2011' />
+
+<abstract><t>The IETF has developed a one way packet loss metric that measures the loss rate on a Poisson probe stream between two hosts.  However, the impact of packet loss on applications is in general sensitive not just to the average loss rate, but also to the way in which packet losses are distributed in loss episodes (i.e., maximal sets of consecutively lost probe packets).  This draft defines one-way packet loss episode metrics, specifically the frequency and average duration of loss episodes, and a probing methodology under which the loss episode metrics are to be measured.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ippm-loss-episode-metrics-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ippm-loss-episode-metrics-03.txt' />
+</reference>

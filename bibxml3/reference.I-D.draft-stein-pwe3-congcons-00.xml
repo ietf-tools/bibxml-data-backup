@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stein-pwe3-congcons'>
+<front>
+<title>PW Congestion Considerations</title>
+
+<author initials='Y' surname='Stein' fullname='Yaakov Stein'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2012' />
+
+<abstract><t>Pseudowires (PWs) have become a common mechanism for tunneling traffic, and may be found competing for network resources both with other PWs and with non-PW traffic, such as TCP/IP flows.  It is thus worthwhile specifying under what conditions such competition is safe, i.e., the PW traffic does not significantly harm other traffic or contribute more than it should to congestion.  We conclude that PWs transporting responsive traffic behave as desired without the need for additional mechanisms.  For inelastic PWs (such as TDM PWs) we derive a bound under which such PWs consume no more network capacity than a TCP flow.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stein-pwe3-congcons-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stein-pwe3-congcons-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-stein-pwe3-congcons-00.pdf' />
+</reference>

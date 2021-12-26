@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-acme-star-delegation'>
+<front>
+<title>An ACME Profile for Generating Delegated Certificates</title>
+<author initials='Y' surname='Sheffer' fullname='Yaron Sheffer'>
+<organization />
+</author>
+<author initials='D' surname='Lopez' fullname='Diego Lopez'>
+<organization />
+</author>
+<author initials='A' surname='Pastor' fullname='Antonio Pastor'>
+<organization />
+</author>
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+<organization />
+</author>
+<date year='2021' month='June' day='11' />
+<abstract><t>This document defines a profile of the Automatic Certificate Management Environment (ACME) protocol by which the holder of an identifier (e.g., a domain name) can allow a third party to obtain an X.509 certificate such that the certificate subject is the delegated identifier while the certified public key corresponds to a private key controlled by the third party.  A primary use case is that of a Content Delivery Network (CDN, the third party) terminating TLS sessions on behalf of a content provider (the holder of a domain name).  The presented mechanism allows the holder of the identifier to retain control over the delegation and revoke it at any time. Importantly, this mechanism does not require any modification to the deployed TLS clients and servers.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-acme-star-delegation-09'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-acme-star-delegation-09.txt'/>
+</reference>

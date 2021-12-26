@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.duigou-jxta-protocols'>
+<front>
+<title>JXTA v2.0 Protocols Specification</title>
+
+<author initials='M' surname='Duigou' fullname='Michael Duigou'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2004' />
+
+<abstract><t>The JXTA protocols defines a suite of six XML-based protocols that standardize the manner in which peers self-organize into peergroups, publish and discover peer resources, communicate, and monitor each other. The Endpoint Routing Protocol (ERP) is the protocol by which a peer can discover a route (sequence of hops) to send a message to another peer potentially traversing firewalls and NATs. The Rendezvous Protocol (RVP) is used for propagating a message within a peergroup. The Peer Resolver Protocol (PRP) is the protocol used to send a generic query to one or more peers, and receive a response (or multiple responses) to the query. The Peer Discovery Protocol (PDP) is used to publish and discover resource advertisements. The Peer Information Protocol (PIP) is the protocol by a which a peer may obtain status information about another peers. The Pipe Binding Protocol (PBP) is the protocol by which a peer can establish a virtual communication channel or pipe between one or more peers. The JXTA protocols permit the establishment a virtual network overlay on top of physical networks allowing peers to directly interact and organize independently of their network location and connectivity. The JXTA protocols have been designed to be easily implemented on unidirectional links and asymmetric transports.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-duigou-jxta-protocols-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-duigou-jxta-protocols-05.txt' />
+</reference>

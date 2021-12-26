@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-app-aware-tldp'>
+<front>
+<title>Application-aware Targeted LDP</title>
+
+<author initials='S' surname='Esale' fullname='Santosh Esale'>
+    <organization />
+</author>
+
+<author initials='R' surname='Torvi' fullname='Raveendra Torvi'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='K' surname='Raza' fullname='Kamran Raza'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2016' />
+
+<abstract><t>Recent targeted LDP (tLDP) applications such as remote loop-free alternate (LFA) and BGP auto discovered pseudowire may automatically establish a tLDP session to any LSR in a network.  The initiating LSR has information about the targeted applications to administratively control initiation of the session. However, the responding LSR has no such information to control acceptance of this session. This document defines a mechanism to advertise and negotiate Targeted Applications Capability (TAC) during LDP session initialization.  As the responding LSR becomes aware of targeted applications, it may establish a limited number of tLDP sessions for certain applications. In addition, each targeted application is mapped to LDP Forwarding Equivalence Class (FEC) Elements to advertise only necessary LDP FEC- label bindings over the session.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-app-aware-tldp-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-app-aware-tldp-05.txt' />
+</reference>

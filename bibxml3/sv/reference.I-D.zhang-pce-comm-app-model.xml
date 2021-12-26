@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-pce-comm-app-model'>
+<front>
+<title>PCE Communication Protocol Application Model</title>
+
+<author initials='R' surname='Zhang' fullname='Renhai Zhang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Li' fullname='Defeng Li'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2005' />
+
+<abstract><t>In an environment where multiple PCEs are responsible for computing paths in a domain, there is a greater possibility of race conditions compared to traditional methods. Fast convergence of network state, e.g. TED, LSPs, is more important for PCEs. Furthermore, load balancing of computation should be considered among these PCEs. This document is not intended to provide a detailed description of all the architectural components of the PCE communication protocol. Rather, it specifies the Global Computing Table (GCT) along with corresponding mechanisms and procedures to resolve some predictable problems in PCEs, especially in situations where multiple PCEs are responsible for computing TE LSPs path in a domain. It is hoped that these mechanisms can cooperate with the PCE communication protocol to improve the abilities of the protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-pce-comm-app-model-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-pce-comm-app-model-01.txt' />
+</reference>

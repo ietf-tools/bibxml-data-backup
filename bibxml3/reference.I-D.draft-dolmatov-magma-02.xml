@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dolmatov-magma'>
+<front>
+<title>GOST R 34.12-2015: Block Cipher "Magma"</title>
+
+<author initials='V' surname='Dolmatov' fullname='Vasily Dolmatov'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eremin-Solenikov' fullname='Dmitry Eremin-Solenikov'>
+    <organization />
+</author>
+
+<date month='September' day='24' year='2019' />
+
+<abstract><t>The Russian Federal standard for electronic encryption, decryption, and message authentication algorithms (GOST 28147-89), which is one of the Russian cryptographic standard algorithms is described in RFC 5830.  Since its publication, an update to the Russian Federal standard was published as GOST R 34.12-2015 that includes the specification of the block cipher known as "Kuznyechik" which has been described in RFC7801.  GOST R 34.12-2015 also includes an updated version of the block cipher with block length of n=64 bits and key length k=256 bits, which is also referred as "Magma".  This document is intended to be a source of information about the updated version of 64-bit cipher.  It may facilitate the use of the block cipher in Internet applications by providing information for developers and users of GOST 64-bit cipherwith the revised version of the cipherfor encryption and decryption.  Unlike RFC 5830 (GOST 28147-89) and like RFC 7801 this specification does not define exact block modes which should be used together with updated Magma cipher.  One is free to select block modes depending on the protocol and necessity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dolmatov-magma-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dolmatov-magma-02.txt' />
+</reference>

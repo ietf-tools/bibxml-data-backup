@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sheffer-ietf-ciphertext-format'>
+<front>
+<title>A Generic Ciphertext Format</title>
+<author initials='Y' surname='Sheffer' fullname='Yaron Sheffer'>
+<organization />
+</author>
+<author initials='G' surname='Keselman' fullname='Gleb Keselman'>
+<organization />
+</author>
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+<organization />
+</author>
+<date year='2021' month='January' day='15' />
+<abstract><t>This document defines a set of structured headers for encrypted data. The main goal of this format is to enable detection of encrypted data in large data stores, and associating it back to the system where it was created and the key with which it was encrypted.  This allows organizations to extend the concept of data governance to encrypted data, and to manage such data even when encrypted by multiple different systems and cloud providers.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-sheffer-ietf-ciphertext-format-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-sheffer-ietf-ciphertext-format-01.txt'/>
+</reference>

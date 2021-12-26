@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kucherawy-dmarc-base'>
+<front>
+<title>Domain-based Message Authentication, Reporting and Conformance (DMARC)</title>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<date month='March' day='31' year='2013' />
+
+<abstract><t>The email ecosystem currently lacks a cohesive mechanism through which email senders and receivers can make use of multiple authentication protocols in an attempt to establish reliable domain identifiers.  This lack of cohesion prevents receivers from providing domain-specific feedback to senders regarding the accuracy of authentication deployments.  Inaccurate authentication deployments preclude receivers from safely taking deterministic action against email that fails authentication checks.  Finally, email senders do not have the ability to publish policies specifying actions that should be taken against email that fails multiple authentication checks.  This memo presents a proposal for a scalable mechanism by which an organization can express, using the Domain Name System, domain-level policies and preferences for message validation, disposition, and reporting with predictable and accurate results.  The enclosed proposal is not intended to introduce mechanisms that provide elevated delivery privilege of authenticated email.  The proposal presents a mechanism for policy distribution that enables a continuum of increasingly strict handling of messages that fail multiple authentication checks, from no action, through silent reporting, up to message rejection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kucherawy-dmarc-base-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kucherawy-dmarc-base-00.txt' />
+</reference>

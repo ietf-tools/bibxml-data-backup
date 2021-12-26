@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.davey-iialp'>
+<front>
+<title>Iowa Internet Annoyance Logging Protocol (IIALP) pronounced E'-alp</title>
+
+<author initials='P' surname='Davey' fullname='Paula Davey'>
+    <organization />
+</author>
+
+<author initials='D' surname='Arthur' fullname='Dan Arthur'>
+    <organization />
+</author>
+
+<author initials='G' surname='Davey' fullname='George Davey'>
+    <organization />
+</author>
+
+<date month='May' day='17' year='2009' />
+
+<abstract><t>This draft describes a system by which Internet Annoyances can be logged quickly and automatically using IIALP (Iowa Internet Annoyance Logging Protocol).  The annoyance logs on a particular IIALP Server are condensed and forwarded up the IIALP hierarchy to central Root IIALP Servers for central annoyance queries.  Serial numbers and TTL values keep the individual reports organized and dated.  One unique complaint per IP per epoch period prevents flooding.  Differences in detail and propagation parameters exist between Root and Subordinate IIALP Servers to allow for more detail to be kept at the originating IIALP Server. Standard XML and TCP security techniques, and Hierarchy Structure eliminate erroneous reporting.  Routers and software running IIALP can use IIALP to create dynamic QOS lists for abusing Internet assets exceeding a set limits. IIALP allows for an infinite number of different types of annoyances to exist but has concise templates for common annoyances such as SPAM.  IIALP is a centralized logging system for Internet annoyance event reporting.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-davey-iialp-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-davey-iialp-09.txt' />
+</reference>

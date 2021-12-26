@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lucas-assure-data-security'>
+<front>
+<title>aSSURE Data Security</title>
+
+<author initials='R' surname='Lucas' fullname='Roger Lucas'>
+    <organization />
+</author>
+
+<date month='September' day='13' year='2017' />
+
+<abstract><t>aSSURE uses industry standards and best practice to provide a secure communications platform for device configuration and life cycle management across the entire range of smart devices, from the largest servers through to more constrained devices, with minimal human involvement. Based on extensions to current standard methods, aSSURE also provides secure end to end communication across any network type.  A new approach allows key distribution and encrypted channels to be established between devices that support RSA, EC and/or simple shared secrets. For devices that only support shared secrets, key derivation algorithms ensure that forward and backward compatible secrecy is supported so that secure change of ownership can be obtained. Owners prove ownership via a "case ID" known by the manufacturer and the "Trusted Authority" ID Server but not known by the device.  aSSURE defines end-to-end encryption links, called "channels", so that pairs of devices communicate with a unique set of encryption keys. These unique keys, coupled with the end-to-end encryption, mean communication is both secure and private.  DTLS supports both certificates and pre-shared keys, but does not cover key distribution or management. DTLS does not support client-specific pre-shared keys because the client cannot identify itself during the handshake. Herein are all the APIs required to support key distribution and management as well as an extension to the DTLS handshake that allows the client identity to be provided.  aSSURE cleanly integrates with the Open Interconnect Consortium (OIC) architecture. Both use CBOR encoded data with CoAP over UDP and DTLS. aSSURE URIs do not collide with OIC URIs and aSSURE channels can be used as a secure transport for OIC requests.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lucas-assure-data-security-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lucas-assure-data-security-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-lucas-assure-data-security-00.pdf' />
+</reference>

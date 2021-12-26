@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-bad-dns-res'>
+<front>
+<title>Observed DNS Resolution Misbehavior</title>
+
+<author initials='M' surname='Larson' fullname='Matt Larson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Barber' fullname='Piet Barber'>
+    <organization />
+</author>
+
+<date month='April' day='10' year='2006' />
+
+<abstract><t>This memo describes DNS iterative resolver behavior that results in a significant query volume sent to the root and top-level domain (TLD) name servers. We offer implementation advice to iterative resolver developers to alleviate these unnecessary queries. The recommendations made in this document are a direct byproduct of observation and analysis of abnormal query traffic patterns seen at two of the thirteen root name servers and all thirteen com/net TLD name servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-bad-dns-res-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-bad-dns-res-06.txt' />
+</reference>

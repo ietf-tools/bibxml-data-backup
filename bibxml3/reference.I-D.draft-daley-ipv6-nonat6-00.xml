@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.daley-ipv6-nonat6'>
+<front>
+<title>Achieving Addressing Functions in IPv6 without using NAT</title>
+
+<author initials='G' surname='Daley' fullname='Greg Daley'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2009' />
+
+<abstract><t>Proposals have been made to include Network Address Translation (NAT) in IPv6.  Network Address Translation substitutes a source address in the outbound Packet headers at the Internet Egress point for one present at the network edge.  It then matches the responding packets by destination address, and restores the original headers.  NAT itself is not a feature.  It is a mechanism which provides features at an application cost.  This document identifies features which are supplied by NAT in IPv4 and how these features may be provisioned in IPv6.  Both NAT and application-friendly alternatives are presented.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-daley-ipv6-nonat6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-daley-ipv6-nonat6-00.txt' />
+</reference>

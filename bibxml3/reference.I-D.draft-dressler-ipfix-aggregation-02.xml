@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dressler-ipfix-aggregation'>
+<front>
+<title>IPFIX Aggregation</title>
+
+<author initials='F' surname='Dressler' fullname='Falko Dressler'>
+    <organization />
+</author>
+
+<date month='December' day='20' year='2005' />
+
+<abstract><t>IPFIX Aggregation describes a methodology for reducing the amount of measurement data exchanged between monitoring devices (IPFIX exporters) and analyzers (IPFIX collectors). Using aggregation techniques, measurement information of multiple similar flows is aggregated into one compound meta-flow record. Subsets of flows eligible for aggregation, as well as the degree of similarity, can be customized using aggregation rules. To ensure efficient communication of both aggregated flows and the aggregation rules used, the IPFIX Protocol and IPFIX Information Model are slightly extended to allow for two new abstract data types and a new type of template set.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dressler-ipfix-aggregation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dressler-ipfix-aggregation-02.txt' />
+</reference>

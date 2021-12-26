@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yang-ippm-ptp-measurement'>
+<front>
+<title>Application Oriented High Precision Delay and Jitter Measurement</title>
+
+<author initials='H' surname='Yang' fullname='Hongwei Yang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Sun' fullname='Tao Sun'>
+    <organization />
+</author>
+
+<author initials='K' surname='Yao' fullname='Kehan Yao'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2020' />
+
+<abstract><t>As 5G has arisen and it is still evolving, there become many more time sensitive services which require high precision of measurements. In addition, in order to better simulate the transmission of packets of actual services, the length and priorities of the measurement packets SHOULD be customized, especially for some network that is inclined to get congested.  This document introduces a new way to measure the time delay and jitter between two devices by making adjustments based on PTP Sync message and Delay_Req message, which could, to a great extent, get close to the messages of actual services as well as achieve high precison of measured metrics, so as to meet all requirements mentioned above.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yang-ippm-ptp-measurement-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yang-ippm-ptp-measurement-00.txt' />
+</reference>

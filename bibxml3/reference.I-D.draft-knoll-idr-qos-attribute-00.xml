@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.knoll-idr-qos-attribute'>
+<front>
+<title>BGP Extended Community Attribute for QoS Marking</title>
+
+<author initials='T' surname='Knoll' fullname='Thomas Martin Knoll'>
+    <organization />
+</author>
+
+<date month='June' day='8' year='2008' />
+
+<abstract><t>This document specifies a simple signalling mechanism for inter- domain QoS marking using a BGP Extended Community QoS Attribute. Class based packet forwarding for delay and loss critical services is currently performed in an individual AS internal manner.  The new QoS marking attribute makes the QoS class setup within the IP prefix advertising AS known to all access and transit ASes.  This enables individual (re-)marking and forwarding treatment adaptation to the original QoS class setup of the respective IP prefix.  The attribute provides the means to signal QoS markings on different layers, which are linked together in QoS class sets.  It provides inter-domain and cross-layer insight into the QoS class mapping of the source AS with minimal signalling traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-knoll-idr-qos-attribute-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-knoll-idr-qos-attribute-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lai-tsvwg-normalizer'>
+<front>
+<title>Normalization Marker for AF PHB Group in DiffServ</title>
+
+<author initials='C' surname='Lai' fullname='Cheng-Jia Lai'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wang' fullname='Wenyi Wang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Yang' fullname='Stan Yang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='F' surname='Yip' fullname='Fred Yip'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2013' />
+
+<abstract><t>This memo describes a Normalization Marker (NM) at DiffServ (DS) nodes to normalize the distribution of DS codepoint (DSCP) markings for an Assured Forwarding (AF) Per-Hop Behavior (PHB) group.  NM is useful for traffic conditioning with Active Queue Management (AQM) when the AF PHB group is deployed for multimedia service classes that carry video packets with advanced codec technologies.  Using NM can offer an incentive that is however missing in today's ecosystem of practical deployment, i.e., when congestion occurs in the AF PHB group, the network should allow a video codec to benefit from its effort of generating finer layers of intra-flow precedence (IFP) with discardable packets in a more balanced distribution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lai-tsvwg-normalizer-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lai-tsvwg-normalizer-01.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-grow-bgp-graceful-shutdown-requirements'>
+<front>
+<title>Requirements for the graceful shutdown of BGP sessions</title>
+
+<author initials='T' surname='Takeda' fullname='Tomonori Takeda'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='P' surname='Francois' fullname='Pierre Francois'>
+    <organization />
+</author>
+
+<author initials='c' surname='pelsser' fullname='cristel pelsser'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ahmad' fullname='Zubair Ahmad'>
+    <organization />
+</author>
+
+<author initials='A' surname='Armengol' fullname='Antonio Jose Elizond Armengol'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2010' />
+
+<abstract><t>The Border Gateway Protocol(BGP) is heavily used in Service Provider networks both for Internet and BGP/MPLS VPN services. For resiliency purposes, redundant routers and BGP sessions can be deployed to reduce the consequences of an AS Border Router or BGP session breakdown on customers' or peers' traffic. However simply taking down or even bringing up a BGP session for maintenance purposes may still induce connectivity losses during the BGP convergence. This is not satisfactory any more for new applications (e.g. voice over IP, on line gaming, VPN). Therefore, a solution is required for the graceful shutdown of a (set of) BGP session(s) in order to limit the amount of traffic loss during a planned shutdown. This document expresses requirements for such a solution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-grow-bgp-graceful-shutdown-requirements-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-grow-bgp-graceful-shutdown-requirements-04.txt' />
+</reference>

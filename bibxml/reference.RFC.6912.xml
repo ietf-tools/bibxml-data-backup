@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6912' target='https://www.rfc-editor.org/info/rfc6912'>
+<front>
+<title>Principles for Unicode Code Point Inclusion in Labels in the DNS</title>
+<author initials='A.' surname='Sullivan' fullname='A. Sullivan'><organization /></author>
+<author initials='D.' surname='Thaler' fullname='D. Thaler'><organization /></author>
+<author initials='J.' surname='Klensin' fullname='J. Klensin'><organization /></author>
+<author initials='O.' surname='Kolkman' fullname='O. Kolkman'><organization /></author>
+<date year='2013' month='April' />
+<abstract><t>Internationalized Domain Names in Applications (IDNA) makes available to DNS zone administrators a very wide range of Unicode code points. Most operators of zones should probably not permit registration of U-labels using the entire range.  This is especially true of zones that accept registrations across organizational boundaries, such as top-level domains and, most importantly, the root.  It is unfortunately not possible to generate algorithms to determine whether permitting a code point presents a low risk.  This memo presents a set of principles that can be used to guide the decision of whether a Unicode code point may be wisely included in the repertoire of permissible code points in a U-label in a zone.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6912'/>
+<seriesInfo name='DOI' value='10.17487/RFC6912'/>
+</reference>

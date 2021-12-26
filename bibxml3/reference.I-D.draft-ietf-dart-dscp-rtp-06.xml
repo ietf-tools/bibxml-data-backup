@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dart-dscp-rtp'>
+<front>
+<title>Differentiated Services (DiffServ) and Real-time Communication</title>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jones' fullname='Paul Jones'>
+    <organization />
+</author>
+
+<date month='August' day='30' year='2014' />
+
+<abstract><t>This memo describes the interaction between Differentiated Services (DiffServ) network quality of service (QoS) functionality and real- time network communication, including communication based on the Real-time Transport Protocol (RTP).  DiffServ is based on network nodes applying different forwarding treatments to packets whose IP headers are marked with different DiffServ Code Points (DSCPs). WebRTC applications, as well as some conferencing applications, have begun using the Session Description Protocol (SDP) bundle negotiation mechanism to send multiple traffic streams with different QoS requirements using the same network 5-tuple.  Use of different DSCPs to obtain different QoS treatments within a single network 5-tuple, the results (e.g., reordering) may cause transport protocol interactions, particularly with congestion control functionality.  In addition, DSCP markings may be changed or removed between the traffic source and destination.  This memo covers the implications of these DiffServ aspects for real-time network communication, including WebRTC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dart-dscp-rtp-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dart-dscp-rtp-06.txt' />
+</reference>

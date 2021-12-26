@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bonica-v6-multihome'>
+<front>
+<title>Multihoming with IPv6-to-IPv6 Network Prefix Translation (NPTv6)</title>
+
+<author initials='R' surname='Bonica' fullname='Ronald Bonica'>
+    <organization />
+</author>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wasserman' fullname='Margaret Wasserman'>
+    <organization />
+</author>
+
+<author initials='G' surname='Miller' fullname='Gregory Miller'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<date month='April' day='13' year='2012' />
+
+<abstract><t>RFC 6296 introduces IPv6-to-IPv6 Network Prefix Translation (NPTv6). By deploying NPTv6, a site can achieve addressing independence without contributing to excessive routing table growth.  Section 2.4 of RFC 6296 proposes an NPTv6 architecture for sites that are homed to multiple upstream providers.  By deploying the proposed architecture, a multihomed site can achieve access redundancy and load balancing, in addition to addressing independence.  This memo proposes an alternative NPTv6 architecture for hosts that are homed to multiple upstream providers.  The architecture described herein provides transport-layer survivability, in addition to the benefits mentioned above.  In order to provide transport-layer survivability, the architecture described herein requires a small amount of additional configuration.  This memo updates RFC 6296.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bonica-v6-multihome-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bonica-v6-multihome-03.txt' />
+</reference>

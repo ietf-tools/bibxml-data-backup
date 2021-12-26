@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-tictoc-pdv-lsp'>
+<front>
+<title>PDV-based PTP LSP Setup,Reoptimization and Recovery</title>
+
+<author initials='J' surname='Zhang' fullname='Junhui Zhang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Xia' fullname='Liang Xia'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2011' />
+
+<abstract><t>This document defines a mechanism for the setup,reoptimization and recovery of PTP LSP based on the PDV metrics between the 1588 Master and the 1588 Slave.  When a PTP communication path goes through the third party networks (e.g. the MPLS networks), the PDV noise caused by the third party networks will have a significant impact on the synchronization performance.  So, the PDV metrics should be considered in the setup of PTP LSP.  In addition, when the PDV noise exceeds to a certain degree, it is necessary to notify the head-end LSR(i.e. the 1588 Master) to switch to the backup PTP LSP and to reoptimize the primary PTP LSP in order to improve the PTP reliability.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-tictoc-pdv-lsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-tictoc-pdv-lsp-00.txt' />
+</reference>

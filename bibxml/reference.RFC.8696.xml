@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8696' target='https://www.rfc-editor.org/info/rfc8696'>
+<front>
+<title>Using Pre-Shared Key (PSK) in the Cryptographic Message Syntax (CMS)</title>
+<author initials='R.' surname='Housley' fullname='R. Housley'><organization /></author>
+<date year='2019' month='December' />
+<abstract><t>The invention of a large-scale quantum computer would pose a serious challenge for the cryptographic algorithms that are widely deployed today.  The Cryptographic Message Syntax (CMS) supports key transport and key agreement algorithms that could be broken by the invention of such a quantum computer.  By storing communications that are protected with the CMS today, someone could decrypt them in the future when a large-scale quantum computer becomes available.  Once quantum-secure key management algorithms are available, the CMS will be extended to support the new algorithms if the existing syntax does not accommodate them.  This document describes a mechanism to protect today's communication from the future invention of a large-scale quantum computer by mixing the output of key transport and key agreement algorithms with a pre-shared key.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8696'/>
+<seriesInfo name='DOI' value='10.17487/RFC8696'/>
+</reference>

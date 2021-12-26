@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.drao-bgp-l3vpn-virtual-network-overlays'>
+<front>
+<title>Layer-3 virtual network overlays based on BGP Layer-3 VPNs</title>
+
+<author initials='D' surname='Rao' fullname='Dhananjaya Rao'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mullooly' fullname='John Mullooly'>
+    <organization />
+</author>
+
+<author initials='R' surname='Fernando' fullname='Rex Fernando'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2013' />
+
+<abstract><t>Virtual network overlays are being designed and deployed in various types of networks, including data centers.  These network overlays address several requirements including flexible network virtualization and multi-tenancy, increased scale, and support for mobility of virtual machines.  Such overlay networks can be used to provide both Layer-2 and Layer-3 network services to hosts at the network edge.  New packet encapsulations are being defined and standardized to support these virtual networks.  These encapsulations, such as VXLAN and NVGRE, are primarily based on IP and are currently defined to support a Layer-2 forwarding service.  BGP based Layer-3 VPNs, as specified in RFC 4364, provide an industry proven and well-defined solution for supporting Layer-3 virtual network services.  However, RFC 4364 procedures use MPLS labels to provide the network virtualization capability in the data plane. With the increasing support for IP overlay encapsulations in data center devices, there is a strong preference to utilize this support to deploy Layer-3 virtual networks using the familiarpolicy and operational primitives of Layer-3 VPNs.  This document describes the use of BGP Layer-3 VPNs alongwith the new IP-based virtual network overlay encapsulations to provide a Layer-3 virtualization solution for all IP traffic, and specifies mechanisms to use the new encapsulations while continuing to leverage the BGP Layer-3 VPN control plane techniques and extensions.  This mechanism provides an efficient incremental solution to support forwarding for IP traffic, irrespective of whether it is destined within or across an IP subnet boundary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-drao-bgp-l3vpn-virtual-network-overlays-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-drao-bgp-l3vpn-virtual-network-overlays-01.txt' />
+</reference>

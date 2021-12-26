@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7596' target='https://www.rfc-editor.org/info/rfc7596'>
+<front>
+<title>Lightweight 4over6: An Extension to the Dual-Stack Lite Architecture</title>
+<author initials='Y.' surname='Cui' fullname='Y. Cui'><organization /></author>
+<author initials='Q.' surname='Sun' fullname='Q. Sun'><organization /></author>
+<author initials='M.' surname='Boucadair' fullname='M. Boucadair'><organization /></author>
+<author initials='T.' surname='Tsou' fullname='T. Tsou'><organization /></author>
+<author initials='Y.' surname='Lee' fullname='Y. Lee'><organization /></author>
+<author initials='I.' surname='Farrer' fullname='I. Farrer'><organization /></author>
+<date year='2015' month='July' />
+<abstract><t>Dual-Stack Lite (DS-Lite) (RFC 6333) describes an architecture for transporting IPv4 packets over an IPv6 network.  This document specifies an extension to DS-Lite called &quot;Lightweight 4over6&quot;, which moves the Network Address and Port Translation (NAPT) function from the centralized DS-Lite tunnel concentrator to the tunnel client located in the Customer Premises Equipment (CPE).  This removes the requirement for a Carrier Grade NAT function in the tunnel concentrator and reduces the amount of centralized state that must be held to a per-subscriber level.  In order to delegate the NAPT function and make IPv4 address sharing possible, port-restricted IPv4 addresses are allocated to the CPEs.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7596'/>
+<seriesInfo name='DOI' value='10.17487/RFC7596'/>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rafiee-intarea-cga-tsig'>
+<front>
+<title>Transaction SIGnature (TSIG) using CGA Algorithm in IPv6</title>
+
+<author initials='H' surname='Hosnieh' fullname='Hosnieh'>
+    <organization />
+</author>
+
+<author initials='M' surname='Loewis' fullname='Martin von Loewis'>
+    <organization />
+</author>
+
+<author initials='C' surname='Meinel' fullname='Christoph Meinel'>
+    <organization />
+</author>
+
+<date month='September' day='8' year='2013' />
+
+<abstract><t>The first step in the Transaction SIGnature (TSIG) (RFC 2845) process is the generation of a shared secret to be used between a DNS server and a host. The second step consists of modifying the DNS configuration so that the DNS server will know what key to use with which host, because this shared secret is only valid between a pair of hosts. This document, CGA-TSIG, proposes a possible way to eliminate the human intervention needed for the generation and exchange of keys between a DNS server and a host when SEcure Neighbor Discovery (SeND) (RFC 3971) is used. CGA-TSIG will facilitate the authentication process of a host with a DNS server and will reduce the time needed to accomplish DNS Updates. It will also provide a means for securing the authentication process between resolvers and clients. CGA-TSIG will be added, as an extension, to TSIG in order to provide data integrity and proof of IP address ownership. The current signature generation and verification process used in TSIG will be substituted with the use of the same parameters as are used in generating a secure address in IPv6 networks, i.e., Cryptographically Generated Addresses (CGA) (RFC 3972).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rafiee-intarea-cga-tsig-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rafiee-intarea-cga-tsig-04.txt' />
+</reference>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6943' target='https://www.rfc-editor.org/info/rfc6943'>
+<front>
+<title>Issues in Identifier Comparison for Security Purposes</title>
+<author initials='D.' surname='Thaler' fullname='D. Thaler' role='editor'><organization /></author>
+<date year='2013' month='May' />
+<abstract><t>Identifiers such as hostnames, URIs, IP addresses, and email addresses are often used in security contexts to identify security principals and resources.  In such contexts, an identifier presented via some protocol is often compared using some policy to make security decisions such as whether the security principal may access the resource, what level of authentication or encryption is required, etc.  If the parties involved in a security decision use different algorithms to compare identifiers, then failure scenarios ranging from denial of service to elevation of privilege can result.  This document provides a discussion of these issues that designers should consider when defining identifiers and protocols, and when constructing architectures that use multiple protocols.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6943'/>
+<seriesInfo name='DOI' value='10.17487/RFC6943'/>
+</reference>

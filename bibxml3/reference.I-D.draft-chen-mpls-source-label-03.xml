@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-mpls-source-label'>
+<front>
+<title>MultiProtocol Label Switching (MPLS) Source Label</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='G' surname='Mirsky' fullname='Greg Mirsky'>
+    <organization />
+</author>
+
+<date month='April' day='15' year='2014' />
+
+<abstract><t>A MultiProtocol Label Switching (MPLS) label was originally defined to identify a Forwarding Equivalence Class (FEC), a packet is assigned to a specific FEC based on its network layer destination address.  It's difficult or even impossible to derive the source identity information from the label.  For some applications, source identification is a critical requirement.  For example, performance monitoring, where the monitoring node needs to identify where a packet was sent from.  This document introduces the concept of Source Label (SL) that is carried in the label stack and used to identify the ingress Label Switching Router (LSR) of an Label Switched Path (LSP).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-mpls-source-label-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-mpls-source-label-03.txt' />
+</reference>

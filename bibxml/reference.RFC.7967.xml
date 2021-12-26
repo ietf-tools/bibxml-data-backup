@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7967' target='https://www.rfc-editor.org/info/rfc7967'>
+<front>
+<title>Constrained Application Protocol (CoAP) Option for No Server Response</title>
+<author initials='A.' surname='Bhattacharyya' fullname='A. Bhattacharyya'><organization /></author>
+<author initials='S.' surname='Bandyopadhyay' fullname='S. Bandyopadhyay'><organization /></author>
+<author initials='A.' surname='Pal' fullname='A. Pal'><organization /></author>
+<author initials='T.' surname='Bose' fullname='T. Bose'><organization /></author>
+<date year='2016' month='August' />
+<abstract><t>There can be machine-to-machine (M2M) scenarios where server responses to client requests are redundant.  This kind of open-loop exchange (with no response path from the server to the client) may be desired to minimize resource consumption in constrained systems while updating many resources simultaneously or performing high-frequency updates. CoAP already provides Non-confirmable (NON) messages that are not acknowledged by the recipient.  However, the request/response semantics still require the server to respond with a status code indicating &quot;the result of the attempt to       understand and satisfy the request&quot;, per RFC 7252.</t><t>This specification introduces a CoAP option called 'No-Response'. Using this option, the client can explicitly express to the server its disinterest in all responses against the particular request. This option also provides granular control to enable expression of disinterest to a particular response class or a combination of response classes.  The server MAY decide to suppress the response by not transmitting it back to the client according to the value of the No-Response option in the request.  This option may be effective for both unicast and multicast requests.  This document also discusses a few examples of applications that benefit from this option.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7967'/>
+<seriesInfo name='DOI' value='10.17487/RFC7967'/>
+</reference>

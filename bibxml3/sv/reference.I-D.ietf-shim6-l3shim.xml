@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-shim6-l3shim'>
+<front>
+<title>Multihoming L3 Shim Approach</title>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2005' />
+
+<abstract><t>This document specifies a particular approach to IPv6 multihoming. The approach is based on using a multihoming shim placed between the IP endpoint sublayer and the IP routing sublayer, and, at least initially, using routable IP locators as the identifiers visible above the shim layer. The approach does not introduce a "stack name" type of identifier, instead it ensures that all upper layer protocols can operate unmodified in a multihomed setting while still seeing a stable IPv6 address. This document does not specify the mechanism for authenticating and authorizing the "rehoming" - this is specified in the HBA document. Nor does it specify the messages used to establish multihoming state. The document does not even specify the packet format used for the data packets. Instead it discusses the issue of receive side demultiplexing and the different tradeoffs. The resolution of this issue will affect the packet format for the data packets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-shim6-l3shim-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-shim6-l3shim-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ssh-ext-info'>
+<front>
+<title>Extension Negotiation in Secure Shell (SSH)</title>
+
+<author initials='d' surname='bider' fullname='denis bider'>
+    <organization />
+</author>
+
+<date month='November' day='7' year='2015' />
+
+<abstract><t>This memo defines a mechanism for SSH clients and servers to exchange information about supported protocol extensions confidentially after completed key exchange. This is done while optimizing protocol startup to eliminate the round-trip the original protocol requires on messages SSH_MSG_SERVICE_REQUEST and SSH_MSG_SERVICE_ACCEPT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ssh-ext-info-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ssh-ext-info-00.txt' />
+</reference>

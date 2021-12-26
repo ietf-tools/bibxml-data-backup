@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8569' target='https://www.rfc-editor.org/info/rfc8569'>
+<front>
+<title>Content-Centric Networking (CCNx) Semantics</title>
+<author initials='M.' surname='Mosko' fullname='M. Mosko'><organization /></author>
+<author initials='I.' surname='Solis' fullname='I. Solis'><organization /></author>
+<author initials='C.' surname='Wood' fullname='C. Wood'><organization /></author>
+<date year='2019' month='July' />
+<abstract><t>This document describes the core concepts of the Content-Centric Networking (CCNx) architecture and presents a network protocol based on two messages: Interests and Content Objects.  It specifies the set of mandatory and optional fields within those messages and describes their behavior and interpretation.  This architecture and protocol specification is independent of a specific wire encoding.</t><t>The protocol also uses a control message called an Interest Return, whereby one system can return an Interest message to the previous hop due to an error condition.  This indicates to the previous hop that the current system will not respond to the Interest.</t><t>This document is a product of the Information-Centric Networking Research Group (ICNRG).  The document received wide review among ICNRG participants.  Two full implementations are in active use and have informed the technical maturity of the protocol specification.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8569'/>
+<seriesInfo name='DOI' value='10.17487/RFC8569'/>
+</reference>

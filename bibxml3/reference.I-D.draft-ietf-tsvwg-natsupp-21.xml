@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-natsupp'>
+<front>
+<title>Stream Control Transmission Protocol (SCTP) Network Address Translation Support</title>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<author initials='I' surname='Ruengeler' fullname='Irene Ruengeler'>
+    <organization />
+</author>
+
+<date month='November' day='1' year='2020' />
+
+<abstract><t>The Stream Control Transmission Protocol (SCTP) provides a reliable communications channel between two end-hosts in many ways similar to the Transmission Control Protocol (TCP).  With the widespread deployment of Network Address Translators (NAT), specialized code has been added to NAT functions for TCP that allows multiple hosts to reside behind a NAT function and yet share a single IPv4 address, even when two hosts (behind a NAT function) choose the same port numbers for their connection.  This additional code is sometimes classified as Network Address and Port Translation (NAPT).  This document describes the protocol extensions needed for the SCTP endpoints and the mechanisms for NAT functions necessary to provide similar features of NAPT in the single point and multipoint traversal scenario.  Finally, a YANG module for SCTP NAT is defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-natsupp-21' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-natsupp-21.txt' />
+</reference>

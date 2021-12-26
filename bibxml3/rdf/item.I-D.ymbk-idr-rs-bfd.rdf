@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ymbk-idr-rs-bfd-01.txt'>
+    <title>"Making Route Servers Aware of Data Link Failures at IXPs", Randy Bush, Jeffrey Haas, John Scudder, Arnold Nipper, Thomas King</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ymbk-idr-rs-bfd-01.txt</link>
+    <description>When route servers are used, the data plane is not congruent with the control plane.  Therefore, the peers on the Internet exchange can lose data connectivity without the control plane being aware of it, and packets are dropped on the floor.  This document proposes the use of BFD between the two peering routers to detect a data plane failure, and then uses BGP next hop cost to signal the state of the data link to the route server(s).</description>
+    <dc:date>2015-03-24T07:00:00-00:00</dc:date>
+</item>

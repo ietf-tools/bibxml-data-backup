@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-teas-p2mp-loose-path-reopt'>
+<front>
+<title>RSVP Extensions For Re-optimization of Loosely Routed Point-to-Multipoint Traffic Engineering Label Switched Paths (LSPs)</title>
+
+<author initials='T' surname='Saad' fullname='Tarek Saad'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gandhi' fullname='Rakesh Gandhi'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<author initials='R' surname='Venator' fullname='Robert Venator'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kamite' fullname='Yuji Kamite'>
+    <organization />
+</author>
+
+<date month='November' day='16' year='2015' />
+
+<abstract><t>For a Traffic Engineered (TE) Point-to-Multipoint (P2MP) Label Switched Path (LSP), it is preferable in some cases to re-evaluate and re-optimize the entire P2MP-TE LSP by re-signaling all its Source-to-Leaf (S2L) sub-LSP(s).  Existing mechanisms, a mechanism for an ingress Label Switched Router (LSR) to trigger a new path re-evaluation request and a mechanism for a mid-point LSR to notify an availability of a preferred path, operate on an individual or a sub-group of S2L sub-LSP(s) basis only.  This document defines Resource Reservation Protocol (RSVP) signaling extensions to allow an ingress node of a P2MP-TE LSP to request the re-evaluation of the entire LSP tree containing one or more S2L sub-LSPs whose paths are loose (or abstract) hop expanded, and for a mid-point LSR to notify to the ingress node that a preferable tree exists for the entire P2MP-TE LSP.  For re-optimizing a group of S2L sub-LSP(s) in a tree, an S2L sub-LSP descriptor list can be used to signal one or more S2L sub-LSPs in an RSVP message.  This document defines markers to indicate beginning and end of an S2L sub-LSP descriptor list when the RSVP message needs to be fragmented due to large number of S2L sub-LSPs in the message when performing sub-group based re-optimization.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-teas-p2mp-loose-path-reopt-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-teas-p2mp-loose-path-reopt-04.txt' />
+</reference>

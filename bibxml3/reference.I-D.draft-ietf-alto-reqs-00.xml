@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-alto-reqs'>
+<front>
+<title>Application-Layer Traffic Optimization (ALTO) Requirements</title>
+
+<author initials='S' surname='Kiesel' fullname='Sebastian  Kiesel'>
+    <organization />
+</author>
+
+<author initials='L' surname='Popkin' fullname='Laird Popkin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='R' surname='Woundy' fullname='Richard Woundy'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<date month='April' day='17' year='2009' />
+
+<abstract><t>Many Internet applications are used to access resources, such as pieces of information or server processes, which are available in several equivalent replicas on different hosts.  This includes, but is not limited to, peer-to-peer file sharing applications.  The goal of Application-Layer Traffic Optimization (ALTO) is to provide guidance to applications, which have to select one or several hosts from a set of candidates, that are able to provide a desired resource.  This guidance shall be based on parameters that affect performance and efficiency of the data transmission between the hosts, e.g., the topological distance.  The ultimate goal is to improve performance (or Quality of Experience) in the application while reducing resource consumption in the underlying network infrastructure.  This document enumerates requirements for ALTO, which should be considered when specifying, assessing, or comparing protocols and implementations, and it solicits feedback and discussion.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-alto-reqs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-alto-reqs-00.txt' />
+</reference>

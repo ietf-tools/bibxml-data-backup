@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-mpls-encapsulation'>
+<front>
+<title>Encapsulation for Bit Index Explicit Replication in MPLS and non-MPLS Networks</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Dolganow' fullname='Andrew Dolganow'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='S' surname='Aldrin' fullname='Sam Aldrin'>
+    <organization />
+</author>
+
+<author initials='I' surname='Meilik' fullname='Israel Meilik'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2017' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a "multicast domain", without requiring intermediate routers to maintain any per-flow state or to engage in an explicit tree-building protocol.  When a multicast data packet enters the domain, the ingress router determines the set of egress routers to which the packet needs to be sent.  The ingress router then encapsulates the packet in a BIER header.  The BIER header contains a bitstring in which each bit represents exactly one egress router in the domain; to forward the packet to a given set of egress routers, the bits corresponding to those routers are set in the BIER header.  The details of the encapsulation depend on the type of network used to realize the multicast domain.  This document specifies a BIER encapsulation that can be used in an MPLS network, or with slight differences, in a non-MPLS network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-mpls-encapsulation-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-mpls-encapsulation-11.txt' />
+</reference>

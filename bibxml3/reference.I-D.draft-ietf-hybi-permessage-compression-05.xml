@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hybi-permessage-compression'>
+<front>
+<title>WebSocket Per-message Compression</title>
+
+<author initials='T' surname='Yoshino' fullname='Takeshi Yoshino'>
+    <organization />
+</author>
+
+<date month='January' day='23' year='2013' />
+
+<abstract><t>This document specifies a framework for creating WebSocket extensions that add compression functionality to the WebSocket Protocol. Extensions based on this framework compress the payload of non- control WebSocket messages using a specified compression algorithm. One reserved bit RSV1 in the WebSocket frame header is allocated to control application of compression for each message.  This document also specifies one specific compression extension using DEFLATE.  Please send feedback to the hybi@ietf.org mailing list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hybi-permessage-compression-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hybi-permessage-compression-05.txt' />
+</reference>

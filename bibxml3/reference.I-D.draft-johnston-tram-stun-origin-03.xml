@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.johnston-tram-stun-origin'>
+<front>
+<title>An Origin Attribute for the STUN Protocol</title>
+
+<author initials='A' surname='Johnston' fullname='Alan Johnston'>
+    <organization />
+</author>
+
+<author initials='J' surname='Uberti' fullname='Justin Uberti'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yoakum' fullname='John Yoakum'>
+    <organization />
+</author>
+
+<author initials='K' surname='Singh' fullname='Kundan Singh'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2014' />
+
+<abstract><t>STUN, or Session Traversal Utilities for NAT, is a protocol used to assist other protocols traverse Network Address Translators or NATs. STUN, and STUN extensions such as TURN, or Traversal Using Relays around NAT, and ICE, Interactive Communications Establishment, have been around for many years but with WebRTC, Web Real-Time Communications, STUN and related extensions are about to see major deployments and implementation due to these protocols being implemented in browsers.  This specification defines an ORIGIN attribute for STUN that can be used in similar ways to the HTTP header field of the same name.  WebRTC browsers utilizing STUN and TURN would include this attribute which would provide servers with additional information about the STUN and TURN requests they receive. This specification defines the usage of the STUN ORIGIN attribute for web and SIP contexts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-johnston-tram-stun-origin-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-johnston-tram-stun-origin-03.txt' />
+</reference>

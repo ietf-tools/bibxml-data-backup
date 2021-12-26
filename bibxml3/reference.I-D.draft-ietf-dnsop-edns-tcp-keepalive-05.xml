@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-edns-tcp-keepalive'>
+<front>
+<title>The edns-tcp-keepalive EDNS0 Option</title>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dickinson' fullname='Sara Dickinson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bellis' fullname='Ray Bellis'>
+    <organization />
+</author>
+
+<date month='January' day='6' year='2016' />
+
+<abstract><t>DNS messages between clients and servers may be received over either UDP or TCP.  UDP transport involves keeping less state on a busy server, but can cause truncation and retries over TCP.  Additionally, UDP can be exploited for reflection attacks.  Using TCP would reduce retransmits and amplification.  However, clients commonly use TCP only for retries and servers typically use idle timeouts on the order of seconds.  This document defines an EDNS0 option ("edns-tcp-keepalive") that allows DNS servers to signal a variable idle timeout.  This signalling encourages the use of long-lived TCP connections by allowing the state associated with TCP transport to be managed effectively with minimal impact on the DNS transaction time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-edns-tcp-keepalive-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-edns-tcp-keepalive-05.txt' />
+</reference>

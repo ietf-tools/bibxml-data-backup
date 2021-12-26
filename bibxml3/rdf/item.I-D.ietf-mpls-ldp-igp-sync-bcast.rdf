@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-mpls-ldp-igp-sync-bcast-06.txt'>
+    <title>"LDP IGP Synchronization for broadcast networks", Sriganesh Kini, Wenhu Lu</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-mpls-ldp-igp-sync-bcast-06.txt</link>
+    <description>RFC 5443 describes a mechanism to achieve LDP IGP Synchronization to prevent black-holing traffic (e.g. VPN) when an interior gateway protocol (IGP) is operational on a link but Label Distribution Protocol (LDP) is not. If this mechanism is applied to broadcast links that have more than one LDP/IGP peer, the metric increase procedure can only be applied to the link as a whole but not an individual peer. When a new LDP peer comes up on a broadcast network, this can result in loss of traffic through other established peers on that network. This document describes a mechanism to address that use-case without dropping traffic. The mechanism does not introduce any protocol message changes.</description>
+    <dc:date>2010-11-22T23:00:00-00:00</dc:date>
+</item>

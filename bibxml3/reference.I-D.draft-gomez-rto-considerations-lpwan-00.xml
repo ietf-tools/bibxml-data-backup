@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gomez-rto-considerations-lpwan'>
+<front>
+<title>RTO considerations in LPWAN</title>
+
+<author initials='C' surname='Gomez' fullname='Carles Gomez'>
+    <organization />
+</author>
+
+<author initials='J' surname='Crowcroft' fullname='Jon Crowcroft'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2019' />
+
+<abstract><t>Low-Power Wide Area Network (LPWAN) technologies are characterized by very low physical layer bit and message transmission rates. Moreover, a response to a message sent by an LPWAN device may often only be received after a significant delay.  As a result, Round-Trip Time (RTT) values in LPWAN are often (sometimes, significantly) greater than typical default values of Retransmission TimeOut (RTO) algorithms.  Furthermore, buffering at network elements such as radio gateways may interact negatively with LPWAN technology transmission mechanisms, potentially exacerbating RTTs by up to several orders of magnitude.  This document provides guidance for RTO settings in LPWAN, and describes an experimental dual RTO algorithm for LPWAN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gomez-rto-considerations-lpwan-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gomez-rto-considerations-lpwan-00.txt' />
+</reference>

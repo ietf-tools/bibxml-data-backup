@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bhargavan-tls-session-hash'>
+<front>
+<title>Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension</title>
+
+<author initials='K' surname='Bhargavan' fullname='Karthikeyan Bhargavan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Delignat-Lavaud' fullname='Antoine Delignat-Lavaud'>
+    <organization />
+</author>
+
+<author initials='A' surname='Pironti' fullname='Alfredo Pironti'>
+    <organization />
+</author>
+
+<author initials='A' surname='Langley' fullname='Adam Langley'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ray' fullname='Marsh Ray'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2014' />
+
+<abstract><t>The Transport Layer Security (TLS) master secret is not cryptographically bound to important session parameters such as the client and server identities.  Consequently, it is possible for an active attacker to set up two sessions, one with a client and another with a server such that the master secrets on the two sessions are the same.  Thereafter, any mechanism that relies on the master secret for authentication, including renegotiation after session resumption, becomes vulnerable to a man-in-the-middle attack, where the attacker can simply forward messages back and forth between the client and server.  This specification defines a TLS extension that contextually binds the master secret to a log of the full handshake that computes it, thus preventing such attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bhargavan-tls-session-hash-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bhargavan-tls-session-hash-01.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wwlh-netconf-list-pagination-rc'>
+<front>
+<title>RESTCONF Extensions to Support List Pagination</title>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<author initials='Q' surname='WU' fullname='Qin WU'>
+    <organization />
+</author>
+
+<author initials='O' surname='Hagsand' fullname='Olof Hagsand'>
+    <organization />
+</author>
+
+<author initials='H' surname='Li' fullname='Hongwei Li'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>In some circumstance, a server may contain many instances of a particular YANG list or leaf-list.  Retrieval of the entire list or leaf-list at once can be extremely inefficient.  Pagination mechanisms are needed to allow a client to iterate through a large list, in a manner that is most efficient for the application.  This document Updates RFC 8040 to declare "list" and "leaf-list" as resource targets for the RESTCONF operations such as GET, POST operations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wwlh-netconf-list-pagination-rc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wwlh-netconf-list-pagination-rc-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-alto-large-data-framework'>
+<front>
+<title>Design and Implementation of Large Data Transfer Coordinator</title>
+
+<author initials='x' surname='xinwang2014@hotmail.com' fullname='xinwang2014@hotmail.com'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dong' fullname='Shu Dong'>
+    <organization />
+</author>
+
+<author initials='G' surname='Chen' fullname='G.Robert Chen'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2015' />
+
+<abstract><t>The Application-Layer Traffic Optimization (ALTO) protocol provides network information with the goal of improving both application performance and network resource utilization.  As data transfers become larger (e.g., due to big data analysis), more data transfers are concurrent but with service requirements, and more network capabilities are emerging (e.g., SDN allowing a data transfer to request specific routes or Qos), the management of large data transfers has become an increasingly challenging issue.  This document introduces Data Transfer Coordinator (DTC), a centralized data transfer scheduling framework which provides Scheduling Hub Service (SHS) to coordinate and schedule large data transfers.  DTC considers all three components: data transfer requirements, (ALTO) network information, and SDN control capabilities.  This document specifies not only the basic framework of DTC, but also a key component, service API for SHS to specify data transfers and their relations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-alto-large-data-framework-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-alto-large-data-framework-01.txt' />
+</reference>

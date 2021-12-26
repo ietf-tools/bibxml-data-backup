@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.decraene-isis-lsp-lifetime-problem-statement'>
+<front>
+<title>IS-IS LSP lifetime corruption - Problem Statement</title>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='C' surname='Schmitz' fullname='Christof Schmitz'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2016' />
+
+<abstract><t>The IS-IS protocol exchanges Link State Packet (LSP) to exchange routing information.  The lifetime of this LSP is located in the LSP header and is neither protected from corruption by the Fletcher checksum nor by cryptographic authentication.  So the LSP lifetime may be altered, either accidentally or maliciously any time.  The lifetime field of the LSP is an important field for the correct operation of IS-IS.  Corruption of this LSP lifetime may cause flooding storm with severe impact in the network.  This draft documents the problem statement and calls for a solution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-decraene-isis-lsp-lifetime-problem-statement-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-decraene-isis-lsp-lifetime-problem-statement-02.txt' />
+</reference>

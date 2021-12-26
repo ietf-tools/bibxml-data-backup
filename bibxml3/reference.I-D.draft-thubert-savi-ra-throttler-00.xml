@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thubert-savi-ra-throttler'>
+<front>
+<title>Throttling RAs on constrained interfaces</title>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<date month='December' day='13' year='2011' />
+
+<abstract><t>In a large switched topology with either many routers or routers that transmit a high rate of multicast advertisements per router, as suggested to support mobile nodes, the cost of distributing the many resulting multicast messages to certain classes of devices might be prohibitive.  This is the case of a device that runs on batteries, or a device that is reachable over a wireless interface.  For this device, it can be beneficial to filter a certain amount of multicast messages such as the Router Advertisement while preserving the functionality expected in the IPv6 Neighbor Discovery Protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thubert-savi-ra-throttler-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thubert-savi-ra-throttler-00.txt' />
+</reference>

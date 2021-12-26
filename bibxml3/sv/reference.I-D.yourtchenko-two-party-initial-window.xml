@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yourtchenko-two-party-initial-window'>
+<front>
+<title>TIE: Two-Party Selection of TCP Initial Congestion Window Estimate</title>
+
+<author initials='A' surname='Yourtchenko' fullname='Andrew Yourtchenko'>
+    <organization />
+</author>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ramaiah' fullname='Anantha Ramaiah'>
+    <organization />
+</author>
+
+<date month='December' day='3' year='2010' />
+
+<abstract><t>There are several proposals on increasing the TCP initial congestion window to a new hardcoded value and subsequent updates of this hardcoded value.  This document explores the mechanism of dynamically determining the potentially unbounded Initial Window.  This would allow for the future growth after only one software upgrade of the existing TCP stacks.  Also this would allow automatic adjustment of the Initial Window size depending on the connectivity properties of the particular Internet host, while minimizing the retransmissions that result from overly optimistic initial congestion window selection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yourtchenko-two-party-initial-window-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yourtchenko-two-party-initial-window-00.txt' />
+</reference>

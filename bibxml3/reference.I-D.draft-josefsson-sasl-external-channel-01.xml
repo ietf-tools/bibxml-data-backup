@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josefsson-sasl-external-channel'>
+<front>
+<title>SASL Mechanism for External Authentication using a Named Channel:  EXTERNAL-CHANNEL</title>
+
+<author initials='S' surname='Josefsson' fullname='Simon Josefsson'>
+    <organization />
+</author>
+
+<date month='April' day='13' year='2009' />
+
+<abstract><t>This document describes a way to perform end-user authentication in the Simple Authentication and Security Layer (SASL) framework by re- using an external security layer (such as the Transport Layer Security (TLS) protocol) that may have already completed end-user authentication.  In comparison with the existing EXTERNAL mechanism, this mechanism alleviates the a priori assumptions made by the design of the EXTERNAL mechanism.  This mechanism transfers an identifier of the external channel to be used explicitly.  See &lt;http://josefsson.org/external-channel/> for more information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josefsson-sasl-external-channel-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josefsson-sasl-external-channel-01.txt' />
+</reference>

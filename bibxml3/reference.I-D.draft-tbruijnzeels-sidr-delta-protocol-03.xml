@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tbruijnzeels-sidr-delta-protocol'>
+<front>
+<title>RPKI Repository Delta Protocol</title>
+
+<author initials='T' surname='Bruijnzeels' fullname='Tim Bruijnzeels'>
+    <organization />
+</author>
+
+<author initials='O' surname='Muravskiy' fullname='Oleg Muravskiy'>
+    <organization />
+</author>
+
+<author initials='B' surname='Weber' fullname='Bryan Weber'>
+    <organization />
+</author>
+
+<author initials='R' surname='Austein' fullname='Rob Austein'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mandelberg' fullname='David Mandelberg'>
+    <organization />
+</author>
+
+<date month='December' day='22' year='2014' />
+
+<abstract><t>In the Resource Public Key Infrastructure (RPKI), certificate authorities publish certificates, including end entity certificates, and CRLs to repositories on publication servers.  Relying Parties (RP) retrieve the published information from the repository and MAY store it in a cache.  This document specifies a delta protocol which provides relying parties with a mechanism to query a repository for changes, thus enabling the RP to keep its state in sync with the repository.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tbruijnzeels-sidr-delta-protocol-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tbruijnzeels-sidr-delta-protocol-03.txt' />
+</reference>

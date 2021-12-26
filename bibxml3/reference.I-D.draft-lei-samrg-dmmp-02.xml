@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lei-samrg-dmmp'>
+<front>
+<title>DMMP: Dynamic Mesh-based Overlay Multicast Protocol</title>
+
+<author initials='J' surname='Lei' fullname='Jun Lei'>
+    <organization />
+</author>
+
+<date month='April' day='2' year='2007' />
+
+<abstract><t>This document describes a Dynamic Mesh-based overlay Multicast Protocol (DMMP) framework to support multicast data delivery applications without relying on classic IP multicast, including multicast group management, overlay hierarchy establishment, multicast tree construction and data forwarding scheme from the source to a number of receivers. The DMMP framework builds on control plane functions which dynamically manage an overlay core and a multicast tree layer. The key idea is a number of end hosts self- organize into an overlay mesh, and dynamically maintain such a mesh. Based on the constructed mesh, some core-based clusters are built with capacity-aware trees inside. Then, a multicast tree consisting of DMMP-aware end hosts (and/or specific routers) is built on the top of the overlay core for the efficient delivery of the multicast data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lei-samrg-dmmp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lei-samrg-dmmp-02.txt' />
+</reference>

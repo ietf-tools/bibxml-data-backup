@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-websec-key-pinning'>
+<front>
+<title>Public Key Pinning Extension for HTTP</title>
+
+<author initials='C' surname='Evans' fullname='Chris Evans'>
+    <organization />
+</author>
+
+<author initials='C' surname='Palmer' fullname='Chris Palmer'>
+    <organization />
+</author>
+
+<author initials='R' surname='Sleevi' fullname='Ryan Sleevi'>
+    <organization />
+</author>
+
+<date month='August' day='7' year='2014' />
+
+<abstract><t>This document describes an extension to the HTTP protocol allowing web host operators to instruct user agents to remember ("pin") the hosts' cryptographic identities for a given period of time.  During that time, UAs will require that the host present a certificate chain including at least one Subject Public Key Info structure whose fingerprint matches one of the pinned fingerprints for that host.  By effectively reducing the number of authorities who can authenticate the domain during the lifetime of the pin, pinning may reduce the incidence of man-in-the-middle attacks due to compromised Certification Authorities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-websec-key-pinning-20' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-websec-key-pinning-20.txt' />
+</reference>

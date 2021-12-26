@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mrugalski-dhc-dhcpv6-failover-requirements'>
+<front>
+<title>DHCPv6 Failover Requirements</title>
+
+<author initials='T' surname='Mrugalski' fullname='Tomasz Mrugalski'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kinnear' fullname='Kim Kinnear'>
+    <organization />
+</author>
+
+<date month='June' day='26' year='2011' />
+
+<abstract><t>The DHCPv6 protocol, defined in [RFC3315] allows for multiple servers to operate on a single network, however it does not define any way to decide which server responds to which client queries.  Some sites are interested in running multiple servers in such a way as to provide increased availability in case of server failure.  In order for this to work reliably, the cooperating primary and secondary servers must maintain a consistent database of the lease information.  [RFC3315] allows for but does not define any redundancy or failover mechanisms. This document outlines requirements for DHCPv6 failover, enumerates related problems, and discusses the proposed scope of work to be conducted.  This document does not define a DHCPv6 failover protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mrugalski-dhc-dhcpv6-failover-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mrugalski-dhc-dhcpv6-failover-requirements-00.txt' />
+</reference>

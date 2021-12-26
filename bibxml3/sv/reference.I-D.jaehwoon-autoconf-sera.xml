@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jaehwoon-autoconf-sera'>
+<front>
+<title>Scope-Extended Router Advertisement for Connected MANETs</title>
+
+<author initials='J' surname='Lee' fullname='Jaehwoon Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ahn' fullname='Sanghyun Ahn'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kim' fullname='Younghan Kim'>
+    <organization />
+</author>
+
+<date month='October' day='28' year='2008' />
+
+<abstract><t>In the connected MANET, the MANET Border Router (MBR) is used to connect the MANET with the external network and MANET nodes are required to know the MBR address to communicate with hosts in the external network. One way of acquiring the MBR address is to use the Router Advertisement (RA) and the Router Solicitation (RS) messages. In order to allow RA/RS messages to be delivered in the multi-hop MANET, the modified RA/RS message has been defined [4]. However, this approach may incur the duplicate packet reception problem due to rebroadcasting of received RA/RS messages to its neighbors. In this draft, we define the scope-extended Router Advertisement/ Solicitation message for announcing/solicitating the MBR address in the connected MANET. In the scope-extended RA/RS message, a new message field, the sequence number field, is defined so that duplicate RA/RS messages can be detected based on the sequence number and the MBR address included in the message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jaehwoon-autoconf-sera-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jaehwoon-autoconf-sera-01.txt' />
+</reference>

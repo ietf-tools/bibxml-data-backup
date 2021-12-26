@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanderstok-roll-mcreq'>
+<front>
+<title>Multicast requirements for control over LLN</title>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<author initials='E' surname='Dijk' fullname='Esko Dijk'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lelkens' fullname='Armand Lelkens'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2012' />
+
+<abstract><t>This is a working document intended to focus discussion on requirements for multicast in Low-power and Lossy Networks in the area of M2M communication for control applications.  The Trickle algorithm, which uses random re-broadcasting to assure that messages arrive at all destinations, has been proposed in the Trickle Multicast Forwarding ROLL WG draft as the basis for a multicast routing protocol.  In this draft additional requirements on multicast routing are presented, such as timeliness, motivated by building control.  Random re-broadcasting and timeliness can be difficult to reconcile.  This draft presents some simulation results in typical control settings which show that achieving latencies below 400 ms is feasible with Trickle.  Recommendations are proposed for the current Trickle Multicast Forwarding draft to achieve optimal performance and meet the stated requirements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanderstok-roll-mcreq-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-roll-mcreq-02.txt' />
+</reference>

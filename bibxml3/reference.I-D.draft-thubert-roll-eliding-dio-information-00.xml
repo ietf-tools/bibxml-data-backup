@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thubert-roll-eliding-dio-information'>
+<front>
+<title>Eliding and Querying RPL Information</title>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='D' surname='Barthel' fullname='Dominique Barthel'>
+    <organization />
+</author>
+
+<author initials='R' surname='Jadhav' fullname='Rahul Jadhav'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2019' />
+
+<abstract><t>This document presents a method to elide a group of global RPL options by synchonizing the state associated with each of these options between parent and child using a new sequence counter in DIO messages.  A child that missed a DIO message with an update of any of those protected options detects it by the change of sequence counter and queries the update with a DIS Message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thubert-roll-eliding-dio-information-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thubert-roll-eliding-dio-information-00.txt' />
+</reference>

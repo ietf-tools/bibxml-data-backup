@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hollstein-queuelength-control'>
+<front>
+<title>LDAP Queue Length Control</title>
+
+<author initials='C' surname='Hollstein' fullname='Christian Hollstein'>
+    <organization />
+</author>
+
+<date month='June' day='24' year='2013' />
+
+<abstract><t>This document specifies a new control. The client can use it to tell the server the number of responses it expects for a series of requests that were sent in asynchronous mode. This enables the server to better pack usually small LDAP result messages into send buffers that better match the TCP maximum transfer unit. From this a substantial improvement in network ressource utilization, response time and throughput is expected.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hollstein-queuelength-control-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hollstein-queuelength-control-00.txt' />
+</reference>

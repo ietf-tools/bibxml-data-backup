@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jones-oauth-dpop-implicit'>
+<front>
+<title>OAuth 2.0 DPoP for the Implicit Flow</title>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<author initials='B' surname='Campbell' fullname='Brian Campbell'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bradley' fullname='John Bradley'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>This specification describes a mechanism for sender-constraining OAuth 2.0 tokens via a proof-of-possession mechanism on the application level.  This mechanism allows for the detection of replay attacks with access tokens.  This specification compliments and builds upon the mechanisms defined in draft-fett-oauth-dpop, in which access tokens are returned from the token endpoint.  In particular, this specification extends the Demonstration of Proof-of-Possession at the Application Layer (DPoP) mechanisms to also be usable with the OAuth 2.0 implicit flow, in which access tokens are returned from the authorization endpoint.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jones-oauth-dpop-implicit-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jones-oauth-dpop-implicit-00.txt' />
+</reference>

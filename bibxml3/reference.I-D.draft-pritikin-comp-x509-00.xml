@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pritikin-comp-x509'>
+<front>
+<title>The Compressed X.509 Certificate Format</title>
+
+<author initials='D' surname='McGrew' fullname='David McGrew'>
+    <organization />
+</author>
+
+<author initials='M' surname='Pritikin' fullname='Max Pritikin'>
+    <organization />
+</author>
+
+<date month='May' day='11' year='2010' />
+
+<abstract><t>This note defines the Compressed X.509 Format (CXF), a compact format for X.509 certificates and CRLs, and a way to translate between the compact format and standard X.509 encoding.  The translation consists of the lossless compression algorithm DEFLATE with a particular predefined dictionary.  Protocol bindings for TLS and IKE are designated.  This format is useful in a constrained environment, where bandwidth and/or storage is low, and it preserves interoperability with standards-compliant X.509 certificates and the systems for certificate processing, issuance, and management.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pritikin-comp-x509-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pritikin-comp-x509-00.txt' />
+</reference>

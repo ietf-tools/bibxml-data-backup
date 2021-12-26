@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-sr-over-ip'>
+<front>
+<title>SR-MPLS over IP</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bryant' fullname='Stewart Bryant'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hassan' fullname='Syed Hassan'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<date month='December' day='18' year='2018' />
+
+<abstract><t>MPLS Segment Routing (SR-MPLS) is an MPLS data plane-based source routing paradigm in which the sender of a packet is allowed to partially or completely specify the route the packet takes through the network by imposing stacked MPLS labels on the packet.  SR-MPLS could be leveraged to realize a source routing mechanism across MPLS, IPv4, and IPv6 data planes by using an MPLS label stack as a source routing instruction set while preserving backward compatibility with SR-MPLS.  This document describes how SR-MPLS capable routers and IP-only routers can seamlessly co-exist and interoperate through the use of SR-MPLS label stacks and IP encapsulation/tunneling such as MPLS-in- UDP as defined in RFC 7510.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-sr-over-ip-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-sr-over-ip-02.txt' />
+</reference>

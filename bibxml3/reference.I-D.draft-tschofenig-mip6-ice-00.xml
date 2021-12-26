@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-mip6-ice'>
+<front>
+<title>Mobile IP Interactive Connectivity Establishment (M-ICE)</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes  Tschofenig'>
+    <organization />
+</author>
+
+<author initials='G' surname='Bajko' fullname='Gabor Bajko'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2007' />
+
+<abstract><t>This document describes how the Interactive Connectivity Establishment (ICE) methodology can be used for Mobile IP to determine whether end-to-end communication is possible. ICE makes use of the Session Traversal Utilities for NAT (STUN) protocol in addition to mechanisms for checking connectivity between peers. After running the ICE the two MIP end points will be able to communicate directly or through a relay via Network Address Translators (NATs), Network Address and Port Translators (NAPTs) and firewalls. This document addresses also the problems raised in RFC 4487 "Mobile IPv6 and Firewalls: Problem Statement".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-mip6-ice-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-mip6-ice-00.txt' />
+</reference>

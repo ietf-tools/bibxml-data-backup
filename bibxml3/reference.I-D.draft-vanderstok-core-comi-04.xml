@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanderstok-core-comi'>
+<front>
+<title>CoAp Management Interfaces</title>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<author initials='B' surname='Greevenbosch' fullname='Bert Greevenbosch'>
+    <organization />
+</author>
+
+<date month='May' day='8' year='2014' />
+
+<abstract><t>The draft describes an interface based on CoAP to manage constrained devices via MIBs.  The proposed integration of CoAP with SNMP reduces the code- and application development complexity by accessing MIBs via a standard CoAP server.  The payload of the MIB request is CBOR based on JSON.  The mapping from SMI to CBOR is specified.  The introduction motivates the choices of CoMI with respect to utilization of YANG, NETCONF, SMI, CBOR, CoAP, and URI structure.  Note  Discussion and suggestions for improvement are requested, and should be sent to core@ietf.org.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanderstok-core-comi-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-core-comi-04.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-core-comi-04.pdf' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-multi-instance'>
+<front>
+<title>OSPFv2 Multi-Instance Extensions</title>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='A' surname='Roy' fullname='Abhay Roy'>
+    <organization />
+</author>
+
+<author initials='S' surname='Mirtorabi' fullname='Sina Mirtorabi'>
+    <organization />
+</author>
+
+<date month='January' day='16' year='2012' />
+
+<abstract><t>OSPFv3 includes a mechanism to support multiple instances of the protocol running on the same interface.  OSPFv2 can utilize such a mechanism in order to support multiple routing domains on the same subnet.  This document defines the OSPFv2 instance ID to enable separate OSPFv2 protocol instances on the same interface.  Unlike OSPFv3 where the instance ID can be used for multiple purposes, such as putting the same interface in multiple areas, the OSPFv2 instance ID is reserved for identifying protocol instances.  This document updates RFC 2328.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-multi-instance-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-multi-instance-08.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-ipsecha-protocol'>
+<front>
+<title>Protocol Support for High Availability of IKEv2/IPsec</title>
+
+<author initials='R' surname='Jenwar' fullname='Rajeshwar Jenwar'>
+    <organization />
+</author>
+
+<author initials='K' surname='Garigipati' fullname='Kalyani Garigipati'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Sheffer' fullname='Yaron Sheffer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Zhang' fullname='Dacheng Zhang'>
+    <organization />
+</author>
+
+<date month='May' day='6' year='2011' />
+
+<abstract><t>The IPsec protocol suite is widely used for business-critical network traffic.  In order to make IPsec deployments highly available, more scalable and failure-resistant, they are often implemented as IPsec High Availability (HA) clusters.  However there are many issues in IPsec HA clustering, and in particular in IKEv2 clustering.  An earlier document, "IPsec Cluster Problem Statement", enumerates the issues encountered in the IKEv2/IPsec HA cluster environment.  This document resolves these issues with the least possible change to the protocol.  This document defines an extension to the IKEv2 protocol to solve the main issues of "IPsec Cluster Problem Statement" in the commonly deployed hot-standby cluster, and provides implementation advice for other issues.  The main issues solved are the synchronization of IKEv2 Message ID counters, and of IPsec Replay Counters.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-ipsecha-protocol-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-ipsecha-protocol-06.txt' />
+</reference>

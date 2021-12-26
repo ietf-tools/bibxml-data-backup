@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-alto-path-vector'>
+<front>
+<title>ALTO Extension: Path Vector</title>
+
+<author initials='K' surname='Gao' fullname='Kai Gao'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Randriamasy' fullname='Sabine Randriamasy'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Y. Yang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='J. Zhang'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>This document is an extension to the base Application-Layer Traffic Optimization protocol [RFC7285].  While the current ALTO Cost Services only allow applications to obtain numerical/ordinal cost values on an end-to-end path defined by its source and destination, the present extension enables the provision of abstracted information on particular Abstract Network Elements on the path.  These Abstract Network Elements, or simply Elements, are components of the network which handle data packets, and their properties may have an impact on the end-to-end performance of the applications' traffic.  Examples of such Elements include physical devices such as routers, cables and interfaces, and aggregations of devices such as subnetworks and data centers.  Such information is useful for applications whose performance is impacted by particular Abstract Network Elements they traverse or by their properties.  Applications having the choice among several connection paths may use this information to select paths accordingly and improve their performance.  In particular, they may infer that several paths share common links and prevent traffic bottlenecks by avoiding such paths.  This document introduces a new cost type called Path Vector.  A Path Vector is an array of entities that each identifies an Abstract Network Element (ANE).  Each ANE is associated with a set of properties.  ANE properties are conveyed by an ALTO information resource called "Property Map", that can be packed together with the Path Vectors in a multipart response.  They can also be obtained via a separate ALTO request to a Property Map. An ALTO Property Map is an extension to the ALTO protocol, that is specified in another document entitled "Unified Properties for the ALTO Protocol" [I-D.ietf-alto-unified-props-new].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-alto-path-vector-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-alto-path-vector-12.txt' />
+</reference>

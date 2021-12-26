@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-na-flags'>
+<front>
+<title>Propagation of ARP/ND Flags in EVPN</title>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sathappan' fullname='Senthil Sathappan'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nagaraj' fullname='Kiran Nagaraj'>
+    <organization />
+</author>
+
+<author initials='W' surname='Lin' fullname='Wen Lin'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2020' />
+
+<abstract><t>An EVPN MAC/IP Advertisement route can optionally carry an IPv4 or IPv6 addresses associated with a MAC address.  Remote PEs can use this information to populate their ARP/ND tables on IRB interfaces or their proxy-ARP/ND tables in Broadcast Domains (BD).  PEs can then reply locally (act as an ARP/ND proxy) to IPv4 ARP requests and IPv6 Neighbor Solicitation messages and reduce/suppress the flooding produced by the Address Resolution procedure.  However, the information conveyed in the MAC/IP route may not be enough for the remote PE to reply to local ARP or ND requests.  For example, if a PE learns an IPv6->MAC ND entry via EVPN, the PE would not know if that particular IPv6->MAC pair belongs to a host, a router or a host with an anycast address, as this information is not carried in the EVPN MAC/IP Advertisement routes.  Similarly, other information relevant to the IP->MAC ARP/ND entries may be needed.  This document defines an Extended Community that is advertised along with an EVPN MAC/IP Advertisement route and carries information relevant to the ARP/ND resolution, so that an EVPN PE implementing a proxy-ARP/ND function can reply to ARP Requests or Neighbor Solicitations with the correct information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-na-flags-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-na-flags-05.txt' />
+</reference>

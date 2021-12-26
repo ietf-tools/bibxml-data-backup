@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaiser-dnssd-bloomfilter-hints'>
+<front>
+<title>Efficient Hinting for Privacy Preserving DNS-SD using Bloomfilters</title>
+
+<author initials='D' surname='Kaiser' fullname='Daniel Kaiser'>
+    <organization />
+</author>
+
+<date month='November' day='16' year='2018' />
+
+<abstract><t>While DNS-SD over mDNS significantly improves the convenience of network configuration, parts of the published information may seriously breach the users' privacy.  Currently discussed privacy extensions either are not efficient in terms of multicast messages sent, reduce privacy and complicate key revocation by introducing an 1:m pairing system, or use trial encryptions which are inefficient in terms of necessary computational power.  The method proposed in this document leverages Bloomfilters to significantly reduce the number of multicast (public) messages for a DNS-SD privacy extension based on an 1:1 pairing mechanism.  This allows keeping the advantages of both an 1:1 pairing system and a hinting system that does not require trial encryptions, while mitigating the main disadvantage: multicast messages sent.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kaiser-dnssd-bloomfilter-hints-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kaiser-dnssd-bloomfilter-hints-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.drage-sipping-rfc3455bis'>
+<front>
+<title>Private Header (P-Header) Extensions to the Session Initiation Protocol  (SIP) for the 3rd-Generation Partnership Project (3GPP)</title>
+
+<author initials='K' surname='Drage' fullname='Keith Drage'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2008' />
+
+<abstract><t>This document describes a set of private Session Initiation Protocol (SIP) headers (P-headers) used by the 3rd-Generation Partnership Project (3GPP), along with their applicability, which is limited to particular environments.  The P-headers are for a variety of purposes within the networks that the partners use, including charging and information about the networks a call traverses.1.  Overall Applicability  The SIP extensions specified in this document make certain assumptions regarding network topology, linkage between SIP and lower layers, and the availability of transitive trust.  These assumptions are generally NOT APPLICABLE in the Internet as a whole.  The mechanisms specified here were designed to satisfy the requirements specified in the 3GPP Release 5 requirements on SIP [RFC4083] for which either no general-purpose solution was planned, where insufficient operational experience was available to understand if a general solution is needed, or where a more general solution is not yet mature.  For more details about the assumptions made about these extensions, consult the Applicability subsection for each extension.2.  Conventions</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-drage-sipping-rfc3455bis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-drage-sipping-rfc3455bis-01.txt' />
+</reference>

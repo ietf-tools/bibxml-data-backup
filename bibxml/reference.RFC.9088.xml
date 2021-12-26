@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9088' target='https://www.rfc-editor.org/info/rfc9088'>
+<front>
+<title>Signaling Entropy Label Capability and Entropy Readable Label Depth Using IS-IS</title>
+<author initials='X.' surname='Xu' fullname='X. Xu'><organization /></author>
+<author initials='S.' surname='Kini' fullname='S. Kini'><organization /></author>
+<author initials='P.' surname='Psenak' fullname='P. Psenak'><organization /></author>
+<author initials='C.' surname='Filsfils' fullname='C. Filsfils'><organization /></author>
+<author initials='S.' surname='Litkowski' fullname='S. Litkowski'><organization /></author>
+<author initials='M.' surname='Bocci' fullname='M. Bocci'><organization /></author>
+<date year='2021' month='August' />
+<abstract><t>Multiprotocol Label Switching (MPLS) has defined a mechanism to load-balance traffic flows using Entropy Labels (EL). An ingress Label Switching Router (LSR) cannot insert ELs for packets going into a given Label Switched Path (LSP) unless an egress LSR has indicated via signaling that it has the capability to process ELs, referred to as the Entropy Label Capability (ELC), on that LSP. In addition, it would be useful for ingress LSRs to know each LSR's capability for reading the maximum label stack depth and performing EL-based load-balancing, referred to as Entropy Readable Label Depth (ERLD). This document defines a mechanism to signal these two capabilities using IS-IS and Border Gateway Protocol - Link State (BGP-LS).</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9088'/>
+<seriesInfo name='DOI' value='10.17487/RFC9088'/>
+</reference>

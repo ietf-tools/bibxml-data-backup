@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-cfrg-aead-limits'>
+<front>
+<title>Usage Limits on AEAD Algorithms</title>
+
+<author initials='F' surname='Guenther' fullname='Felix Guenther'>
+    <organization />
+</author>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='August' day='14' year='2020' />
+
+<abstract><t>An Authenticated Encryption with Associated Data (AEAD) algorithm provides confidentiality and integrity.  Excessive use of the same key can give an attacker advantages in breaking these properties. This document provides simple guidance for users of common AEAD functions about how to limit the use of keys in order to bound the advantage given to an attacker.  It considers limits in both single- and multi-user settings.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-cfrg-aead-limits-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-aead-limits-00.txt' />
+</reference>

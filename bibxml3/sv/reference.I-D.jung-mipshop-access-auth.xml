@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jung-mipshop-access-auth'>
+<front>
+<title>Access Authentication Protocol in FMIP6</title>
+
+<author initials='S' surname='Jung' fullname='Souhwan Jung'>
+    <organization />
+</author>
+
+<author initials='J' surname='Choi' fullname='Jaeduck Choi'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2006' />
+
+<abstract><t>This memo describes a secure authentication protocol between the MN and NAR(New Access Router) in FMIP6. The main idea is that the MN generates an authentication key for handoff, and delivers it to the NAR through an existing secure channel via the AAA server during a pre-authentication process. The NAR verifies the MN using the delivered key when the MN attaches to itself. The main advantage of this scheme over the full authentication procedure is to distribute the heavy overhead of the AAA server such as key generation and management to the MNs. The AAA server in this scheme just forwards the key information to the NAR using an existing secure channel.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jung-mipshop-access-auth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jung-mipshop-access-auth-00.txt' />
+</reference>

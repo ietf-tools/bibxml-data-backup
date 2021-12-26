@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.krovetz-ocb-wideblock'>
+<front>
+<title>OCB For Block Ciphers Without 128-Bit Blocks</title>
+
+<author initials='T' surname='Krovetz' fullname='Ted Krovetz'>
+    <organization />
+</author>
+
+<date month='May' day='11' year='2018' />
+
+<abstract><t>The OCB authenticated-encryption algorithm is specified in RFC 7523, but only for blockciphers with 128-bit blocks such as AES.  This document extends RFC 7523 by specifying how OCB is used with blockciphers of any blocklength.  When the blocklength is 128 bits, this specification and that in RFC 7523 are identical.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-krovetz-ocb-wideblock-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-krovetz-ocb-wideblock-00.txt' />
+</reference>

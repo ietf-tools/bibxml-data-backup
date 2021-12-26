@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dccp-tfrc-voip'>
+<front>
+<title>TCP Friendly Rate Control (TFRC): the Small-Packet (SP) Variant</title>
+
+<author initials='S' surname='Floyd' fullname='Sally  Floyd'>
+    <organization />
+</author>
+
+<author initials='E' surname='Kohler' fullname='Eddie Kohler'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2006' />
+
+<abstract><t>This document proposes a mechanism for further experimentation, but not for widespread deployment at this time in the global Internet. TCP-Friendly Rate Control (TFRC) is a congestion control mechanism for unicast flows operating in a best-effort Internet environment [RFC 3448]. TFRC was intended for applications that use a fixed packet size, and was designed to be reasonably fair when competing for bandwidth with TCP connections using the same packet size. This document proposes TFRC-SP, a Small-Packet (SP) variant of TFRC, that is designed for applications that send small packets. The design goal for TFRC-SP is to achieve the same bandwidth in bps as a TCP flow using packets of up to 1500 bytes. TFRC-SP enforces a Min Interval of 10 ms between data packets, to prevent a single flow from sending small packets arbitrarily frequently.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dccp-tfrc-voip-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-tfrc-voip-05.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-tfrc-voip-05.ps' />
+</reference>

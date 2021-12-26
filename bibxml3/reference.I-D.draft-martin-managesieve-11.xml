@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.martin-managesieve'>
+<front>
+<title>A Protocol for Remotely Managing Sieve Scripts</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<author initials='T' surname='Martin' fullname='Tim  Martin'>
+    <organization />
+</author>
+
+<date month='August' day='25' year='2008' />
+
+<abstract><t>Sieve scripts allow users to filter incoming email.  Message stores are commonly sealed servers so users cannot log into them, yet users must be able to update their scripts on them.  This document describes a protocol "ManageSieve" for securely managing Sieve scripts on a remote server.  This protocol allows a user to have multiple scripts, and also alerts a user to syntactically flawed scripts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-martin-managesieve-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-martin-managesieve-11.txt' />
+</reference>

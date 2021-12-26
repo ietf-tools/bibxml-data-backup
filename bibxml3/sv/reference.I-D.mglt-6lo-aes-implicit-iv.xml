@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-6lo-aes-implicit-iv'>
+<front>
+<title>Implicit IV for AES-CBC, AES-CTR, AES-CCM and AES-GCM</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='T' surname='Guggemos' fullname='Tobias Guggemos'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2015' />
+
+<abstract><t>IPsec ESP with AES-CBC, AES-CTR, AES-CCM or AES-GCM sends an IV in each IP packet, which represents 8 or 16 additional bytes.  In some context, such as IoT, the cost of sending bytes over computing these bytes is generally in favor of the computation.  As a result, it would be better to compute the IV on each party then to send it.  The document describes how to the IV can be generated instead of being sent.  This document limits the IV generation for AES-CBC, AES- CTR, AES-CCM and AES-GCM but can be used for additional cryptographic mode and suites.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-6lo-aes-implicit-iv-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-6lo-aes-implicit-iv-01.txt' />
+</reference>

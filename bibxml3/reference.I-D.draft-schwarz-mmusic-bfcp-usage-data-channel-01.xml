@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schwarz-mmusic-bfcp-usage-data-channel'>
+<front>
+<title>BFCP floor control signalling over Data Channels</title>
+
+<author initials='K' surname='Drage' fullname='Keith Drage'>
+    <organization />
+</author>
+
+<author initials='J' surname='Stoetzer-Bradler' fullname='Juergen Stoetzer-Bradler'>
+    <organization />
+</author>
+
+<author initials='A' surname='Schwarz' fullname='Albrecht Schwarz'>
+    <organization />
+</author>
+
+<date month='October' day='1' year='2015' />
+
+<abstract><t>This document specifies how the Binary Floor Control Protocol (BFCP) can be instantiated as a data channel sub-protocol, using the SDP offer/answer exchange-based external negotiation defined in [I- D.ietf-mmusic-data-channel-sdpneg]. Two network configurations are documented: a WebRTC end-to-end configuration (connecting two BFCP over data channel endpoints), and a gateway configuration (connecting an BFCP over data channel endpoint with an BFCP over (TLS)/TCP/IP (or over (DTLS)/UDP/IP) endpoint).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schwarz-mmusic-bfcp-usage-data-channel-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schwarz-mmusic-bfcp-usage-data-channel-01.txt' />
+</reference>

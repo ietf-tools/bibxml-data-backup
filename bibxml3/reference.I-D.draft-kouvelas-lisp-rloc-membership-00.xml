@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kouvelas-lisp-rloc-membership'>
+<front>
+<title>LISP RLOC Membership Distribution</title>
+
+<author initials='C' surname='Cassar' fullname='Christian Cassar'>
+    <organization />
+</author>
+
+<author initials='I' surname='Kouvelas' fullname='Isidor Kouvelas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Leong' fullname='Johnson Leong'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lewis' fullname='Darrel Lewis'>
+    <organization />
+</author>
+
+<author initials='G' surname='Schudel' fullname='Gregg Schudel'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2014' />
+
+<abstract><t>The Locator/ID Separation Protocol (LISP) operation is based on EID to RLOC mappings that are exchanged through a mapping system.  The mapping system can use the RLOCs included in mapping registrations to construct the complete set of RLOC addresses across all xTRs that are members of the LISP deployment.  This set can then be made available by the mapping system to all the member xTRs.  An xTR can use the RLOC set to optimise protocol operation as well as to implement new functionality.  This document describes the use of the LISP reliable transport session between an xTR and a Map-Server to communicate the contents of the RLOC membership set.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kouvelas-lisp-rloc-membership-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kouvelas-lisp-rloc-membership-00.txt' />
+</reference>

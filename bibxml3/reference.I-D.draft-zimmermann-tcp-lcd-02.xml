@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zimmermann-tcp-lcd'>
+<front>
+<title>Make TCP more Robust to Long Connectivity Disruptions</title>
+
+<author initials='A' surname='Zimmermann' fullname='Alexander Zimmermann'>
+    <organization />
+</author>
+
+<author initials='A' surname='Hannemann' fullname='Arnd Hannemann'>
+    <organization />
+</author>
+
+<date month='August' day='26' year='2009' />
+
+<abstract><t>Disruptions in end-to-end path connectivity which last longer than one retransmission timeout cause suboptimal TCP performance.  The reason for the performance degradation is that TCP interprets segment loss induced by connectivity disruptions as a sign of congestion, resulting in repeated backoffs of the retransmission timer.  This leads in turn to a deferred detection of the re-establishment of the connection since TCP waits until the next retransmission timeout occurs before attempting the retransmission.  This document describes how standard ICMP messages can be exploited to disambiguate true congestion loss from non-congestion loss caused by long connectivity disruptions.  Moreover, a revert strategy of the retransmission timer is specified that enables a more prompt detection of whether the connectivity to a previously disconnected peer node has been restored or not.  The specified algorithm is a TCP sender-only modification that effectively improves TCP performance in presence of connectivity disruptions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zimmermann-tcp-lcd-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zimmermann-tcp-lcd-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-zimmermann-tcp-lcd-02.pdf' />
+</reference>

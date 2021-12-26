@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-marid-smtp-validate'>
+<front>
+<title>Client SMTP Validation (CSV)</title>
+
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+    <organization />
+</author>
+
+<author initials='D' surname='Crocker' fullname='David Crocker'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2004' />
+
+<abstract><t>Internet mail relies on exchanges between systems that have made no prior arrangement with each other. For reasons of history and expediency, the current service provides a level of accountability for participating hosts that is no longer adequate. This makes it impossible to vet MTAs or find recourse when their operation causes problems. Client SMTP Validation (CSV) provides an economical service that permits an SMTP server to decide whether messages sent by the client SMTP are likely to be well-behaved, or at least to decide whether the client is sufficiently accountable for its actions. CSV provides a small, simple and useful improvement to Internet mail service accountability. It builds upon the existing practise of service providers that accredit the networks from which sending systems are connecting.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crocker-marid-smtp-validate-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crocker-marid-smtp-validate-01.txt' />
+</reference>

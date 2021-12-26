@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-netext-prefix-delegation'>
+<front>
+<title>Local Mobility Anchor Based Prefix Management for PMIPv6 Using DHCPv6PD</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2009' />
+
+<abstract><t>In Proxy Mobile IPv6, prefixes can only be assigned to one interface of a mobile node by the local mobility anchor (LMA) and different mobile nodes can not share these home network prefixes.  Managing per-MN's interface home network prefixes is likely to increase the processing load at the LMA.  Based on the idea that Dynamic Host Configuration Protocol for IPv6 (DHCPv6) servers can manage prefixes, we propose a new technique in which LMA offloads delegation and release tasks of the prefixes to the DHCPv6 server.  LMA requests prefixes for an incoming mobile node to the DHCPv6 server.  Based on these prefixes, the mobile node can create home addresses for its interface.  When the mobile node leaves the network, the prefixes are returned to the DHCPv6 server.  Authentication, Authorization and Accounting (AAA) servers can also play a role in prefix authorization.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-netext-prefix-delegation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-netext-prefix-delegation-00.txt' />
+</reference>

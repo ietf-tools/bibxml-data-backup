@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8981' target='https://www.rfc-editor.org/info/rfc8981'>
+<front>
+<title>Temporary Address Extensions for Stateless Address Autoconfiguration in IPv6</title>
+<author initials='F.' surname='Gont' fullname='F. Gont'><organization /></author>
+<author initials='S.' surname='Krishnan' fullname='S. Krishnan'><organization /></author>
+<author initials='T.' surname='Narten' fullname='T. Narten'><organization /></author>
+<author initials='R.' surname='Draves' fullname='R. Draves'><organization /></author>
+<date year='2021' month='February' />
+<abstract><t>This document describes an extension to IPv6 Stateless Address Autoconfiguration that causes hosts to generate temporary addresses with randomized interface identifiers for each prefix advertised with autoconfiguration enabled. Changing addresses over time limits the window of time during which eavesdroppers and other information collectors may trivially perform address-based network-activity correlation when the same address is employed for multiple transactions by the same host. Additionally, it reduces the window of exposure of a host as being accessible via an address that becomes revealed as a result of active communication. This document obsoletes RFC 4941.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8981'/>
+<seriesInfo name='DOI' value='10.17487/RFC8981'/>
+</reference>

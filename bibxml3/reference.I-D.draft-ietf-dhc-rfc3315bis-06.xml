@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-rfc3315bis'>
+<front>
+<title>Dynamic Host Configuration Protocol for IPv6 (DHCPv6) bis</title>
+
+<author initials='T' surname='Mrugalski' fullname='Tomek Mrugalski'>
+    <organization />
+</author>
+
+<author initials='M' surname='Siodelski' fullname='Marcin Siodelski'>
+    <organization />
+</author>
+
+<author initials='B' surname='Volz' fullname='Bernie Volz'>
+    <organization />
+</author>
+
+<author initials='A' surname='Yourtchenko' fullname='Andrew Yourtchenko'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<author initials='T' surname='Winters' fullname='Timothy Winters'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>This document describes the Dynamic Host Configuration Protocol for IPv6 (DHCPv6): an extensible mechanism for configuring hosts with network configuration parameters, IP addresses, and prefixes. Parameters can be provided statelessly, or in combination with stateful assignment of one or more IPv6 addresses and/or IPv6 prefixes.  DHCPv6 can operate either in place of or in addition to stateless address autoconfiguration (SLAAC).  This document updates the text from RFC3315, the original DHCPv6 specification, and incorporates prefix delegation (RFC3633), stateless DHCPv6 (RFC3736), an option to specify an upper bound for how long a client should wait before refreshing information (RFC4242), a mechanism for throttling DHCPv6 clients when DHCPv6 service is not available (RFC7083), and clarifies the interactions between modes of operation (RFC7550).  As such, this document obsoletes RFC3315, RFC3633, RFC3736, RFC4242, RFC7083, and RFC7550.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-rfc3315bis-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-rfc3315bis-06.txt' />
+</reference>

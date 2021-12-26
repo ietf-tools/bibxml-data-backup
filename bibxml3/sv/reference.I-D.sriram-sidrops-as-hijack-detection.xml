@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sriram-sidrops-as-hijack-detection'>
+<front>
+<title>AS Hijack Detection and Mitigation</title>
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+<organization />
+</author>
+<author initials='D' surname='Montgomery' fullname='Doug Montgomery'>
+<organization />
+</author>
+<date year='2021' month='July' day='11' />
+<abstract><t>This document proposes a method for detection and mitigation of AS hijacking.  In this mechanism, an AS operator registers a new object in the RPKI called 'ROAs Exist for All Prefixes (REAP)'.  REAP is digitally signed using the AS holder's certificate.  By registering a REAP object, the AS operator is declaring that they have Route Origin Authorization (ROA) coverage for all prefixes originated by their AS. A receiving AS will mark a route as Invalid if the prefix is not covered by any Validated ROA Payload (VRP) and the route origin AS has signed a REAP.  Here Invalid means that the route is determined to be an AS hijack.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-sriram-sidrops-as-hijack-detection-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-sriram-sidrops-as-hijack-detection-02.txt'/>
+</reference>

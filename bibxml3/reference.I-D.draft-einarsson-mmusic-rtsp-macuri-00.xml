@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.einarsson-mmusic-rtsp-macuri'>
+<front>
+<title>Multiple aggregated control URIs for RTSP</title>
+
+<author initials='T' surname='Einarsson' fullname='Torbjorn Einarsson'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2006' />
+
+<abstract><t>By introducing multiple aggregated control URIs to be used with PLAY requests inside one single RTSP session, it is possible to switch content channel with minimal delay. This is important for accessing content channels via unicast networks while keeping the content streams the same as for multicast/broadcast network. An important use case is hybrid unicast and broadcast distribution of live media, e.g. mobile TV. The possible control URIs can be specified using a new SDP control attribute altcontrol either explicitly or in a dynamic out-of-band way.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-einarsson-mmusic-rtsp-macuri-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-einarsson-mmusic-rtsp-macuri-00.txt' />
+</reference>

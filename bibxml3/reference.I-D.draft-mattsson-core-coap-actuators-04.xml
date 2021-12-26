@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mattsson-core-coap-actuators'>
+<front>
+<title>Controlling Actuators with CoAP</title>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<author initials='J' surname='Fornehed' fullname='John Fornehed'>
+    <organization />
+</author>
+
+<author initials='G' surname='Selander' fullname='Goeran Selander'>
+    <organization />
+</author>
+
+<author initials='F' surname='Palombini' fullname='Francesca Palombini'>
+    <organization />
+</author>
+
+<author initials='C' surname='Amsuess' fullname='Christian Amsuess'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>Being able to trust information from sensors and to securely control actuators are essential in a world of connected and networking things interacting with the physical world.  In this memo we show that just using COAP with a security protocol like DTLS, TLS, or OSCORE is not enough.  We describe several serious attacks any on-path attacker can do, and discusses tougher requirements and mechanisms to mitigate the attacks.  While this document is focused on actuators, one of the attacks applies equally well to sensors using DTLS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mattsson-core-coap-actuators-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mattsson-core-coap-actuators-04.txt' />
+</reference>

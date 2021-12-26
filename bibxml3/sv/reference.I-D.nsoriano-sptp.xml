@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nsoriano-sptp'>
+<front>
+<title>Simple Partition Transfer Protocol (SPTP)</title>
+
+<author initials='N' surname='Soriano' fullname='Nestor Soriano'>
+    <organization />
+</author>
+
+<date month='December' day='2' year='2004' />
+
+<abstract><t>This document presents a protocol intended to transfer the whole contents of a disk partition (or the whole directory tree placed under a given directory on the disk) to a backup server. The protocol lies on top of TCP or other stream-oriented transport protocol, and is based on the exchange of messages between the client (the host sending data) and the server (the host storing the received data).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nsoriano-sptp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nsoriano-sptp-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gundavelli-v6ops-pmipv6-address-reservations'>
+<front>
+<title>Reserved IPv6 Interface Identifier for Proxy Mobile IPv6</title>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<date month='December' day='11' year='2011' />
+
+<abstract><t>Proxy Mobile IPv6 [RFC5213] requires all the mobile access gateways to use a fixed link-local and link-layer addresses on any of its access links that it shares with the mobile nodes.  This was intended to ensure a mobile node does not detect any change with respect to its layer-3 attachment even after it roams from one mobile access gateway to another.  In the absence of any reserved addresses for this use, it requires coordination across vendors and the manual configuration of these addresses on all the mobility elements in a Proxy Mobile IPv6 domain.  This document attempts to simplify this operational requirement by making reservation for special addresses that can be used for this purpose and it also updates RFC 5213.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gundavelli-v6ops-pmipv6-address-reservations-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gundavelli-v6ops-pmipv6-address-reservations-04.txt' />
+</reference>

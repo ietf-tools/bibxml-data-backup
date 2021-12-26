@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-krb-wg-preauth-framework'>
+<front>
+<title>A Generalized Framework for Kerberos Pre-Authentication</title>
+
+<author initials='L' surname='Zhu' fullname='Larry Zhu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hartman' fullname='Sam  Hartman'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2008' />
+
+<abstract><t>Kerberos is a protocol for verifying the identity of principals (e.g., a workstation user or a network server) on an open network. The Kerberos protocol provides a mechanism called pre-authentication for proving the identity of a principal and for better protecting the long-term secret of the principal.  This document describes a model for Kerberos pre-authentication mechanisms.  The model describes what state in the Kerberos request a pre-authentication mechanism is likely to change.  It also describes how multiple pre-authentication mechanisms used in the same request will interact. This document also provides common tools needed by multiple pre- authentication mechanisms.  One of these tools is a secure channel between the client and the KDC with a reply key delivery mechanism; this secure channel can be used to protect the authentication exchange thus eliminate offline dictionary attacks.  With these tools, it is relatively straightforward to chain multiple authentication mechanisms, utilize a different key management system, or support a new key agreement algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-krb-wg-preauth-framework-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-krb-wg-preauth-framework-08.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-http-mapping'>
+<front>
+<title>Guidelines for HTTP-to-CoAP Mapping Implementations</title>
+
+<author initials='A' surname='Castellani' fullname='Angelo Castellani'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rahman' fullname='Akbar Rahman'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<author initials='E' surname='Dijk' fullname='Esko Dijk'>
+    <organization />
+</author>
+
+<date month='September' day='8' year='2016' />
+
+<abstract><t>This document provides reference information for implementing a cross-protocol network proxy that performs translation from the HTTP protocol to CoAP (Constrained Application Protocol).  This will enable a HTTP client to access resources on a CoAP server through the proxy.  This document describes how a HTTP request is mapped to a CoAP request, and then how a CoAP response is mapped back to a HTTP response.  This includes guidelines for URI mapping, media type mapping and additional proxy implementation issues.  This document covers the Reverse, Forward and Interception cross-protocol proxy cases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-http-mapping-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-core-http-mapping-14.txt' />
+</reference>

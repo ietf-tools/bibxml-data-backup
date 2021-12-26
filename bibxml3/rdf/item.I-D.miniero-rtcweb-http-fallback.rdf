@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-miniero-rtcweb-http-fallback-00.txt'>
+    <title>"HTTP Fallback for RTP Media Streams", Lorenzo Miniero</title>
+    <link>http://www.ietf.org/internet-drafts/draft-miniero-rtcweb-http-fallback-00.txt</link>
+    <description>Almost all VoIP endpoints, especially SIP and RTCWEB ones, make use of RTP to tranport media frames in real-time and communicate with each other.  Since RTP uses UDP, the presence of network elements that filter UDP packets and/or only allow some protocols like SMTP or HTTP to pass through would make such a communication very hard to accomplish, if not impossible.  This draft describes a way to implement an HTTP Fallback for RTP media streams, that is, a way to effectively encapsulate RTP packets in HTTP messages in order to traverse proxies and firewalls.</description>
+    <dc:date>2012-08-06T22:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nvo3-hpvr2nve-cp-req'>
+<front>
+<title>Hypervisor to NVE Control Plane Requirements</title>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<author initials='L' surname='Kreeger' fullname='Lawrence Kreeger'>
+    <organization />
+</author>
+
+<author initials='T' surname='Narten' fullname='Thomas Narten'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2014' />
+
+<abstract><t>This document describes the control plane protocol requirements when NVE is not co-located with the hypervisor on a server. A control plane protocol (or protocols) between a hypervisor and its associated external NVE(s) is used for the hypervisor to populate its virtual machines states to the NVE(s) for further handling. This document illustrates the functionalities required by such control plane signaling protocols and outlines the high level requirements to be fulfiled. Virtual machine states and state transitioning are summarized to help clarifying the needed requirements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nvo3-hpvr2nve-cp-req-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nvo3-hpvr2nve-cp-req-00.txt' />
+</reference>

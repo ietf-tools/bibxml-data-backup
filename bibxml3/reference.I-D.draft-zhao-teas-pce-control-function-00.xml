@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhao-teas-pce-control-function'>
+<front>
+<title>An Architecture for Use of PCE and PCEP in a Network with Central Control</title>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Zhao' fullname='Quintin Zhao'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Chao Zhou'>
+    <organization />
+</author>
+
+<date month='May' day='6' year='2016' />
+
+<abstract><t>The Path Computation Element (PCE) has become established as a core component of Software Defined Networking (SDN) systems.  It can compute optimal paths for traffic across a network for any definition of "optimal" and can also monitor changes in resource availability and traffic demands to update the paths.  Conventionally, the PCE has been used to derive paths for MPLS Label Switched Paths (LSPs).  These paths are supplied using the Path Computation Element Communication Protocol (PCEP) to the head end of the LSP for signaling in the MPLS network.  SDN has a far broader applicability than just signaled MPLS traffic engineered networks, and the PCE may be used to determine paths in a wide range of use cases including static LSPs, segment routing, service function chaining (SFC), and indeed any form of routed or switched network.  It is, therefore reasonable to consider PCEP as a general southbound control protocol for use in these environments to allow the PCE to be fully enabled as a central controller.  This document briefly introduces the architecture for PCE as a central controller, examines the motivations and applicability for PCEP as a southbound interface, and introduces the implications for the protocol.  This document does not describe the use cases in detail and does not define protocol extensions: that work is left for other documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhao-teas-pce-control-function-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhao-teas-pce-control-function-00.txt' />
+</reference>

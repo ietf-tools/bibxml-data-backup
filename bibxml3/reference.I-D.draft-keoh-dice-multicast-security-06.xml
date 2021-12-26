@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.keoh-dice-multicast-security'>
+<front>
+<title>DTLS-based Multicast Security in Constrained Environments</title>
+
+<author initials='S' surname='Keoh' fullname='Sye Keoh'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kumar' fullname='Sandeep Kumar'>
+    <organization />
+</author>
+
+<author initials='O' surname='Garcia-Morchon' fullname='Oscar Garcia-Morchon'>
+    <organization />
+</author>
+
+<author initials='E' surname='Dijk' fullname='Esko Dijk'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rahman' fullname='Akbar Rahman'>
+    <organization />
+</author>
+
+<date month='May' day='5' year='2014' />
+
+<abstract><t>The CoAP standard is fast emerging as a key protocol in the area of resource-constrained devices.  Such IP-based systems are foreseen to be used for building and lighting control systems where devices interconnect with each other, forming, for example, low-power and lossy networks (LLNs).  Both multicast and its security are key needs in these networks.  This draft presents a method for securing IPv6 multicast communication based on the DTLS which is already supported for unicast communication for CoAP devices.  This draft deals with the adaptation of the DTLS record layer to protect multicast group communication, assuming that all group members already have the group security association parameters in their possession.  The adapted DTLS record layer provides message confidentiality, integrity and replay protection to group messages using the group keying material before sending the message via IPv6 multicast to the group.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-keoh-dice-multicast-security-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-keoh-dice-multicast-security-06.txt' />
+</reference>

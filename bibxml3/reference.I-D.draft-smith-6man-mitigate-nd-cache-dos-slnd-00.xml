@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.smith-6man-mitigate-nd-cache-dos-slnd'>
+<front>
+<title>Mitigating IPv6 Router Neighbor Cache DoS Using Stateless Neighbor Discovery</title>
+
+<author initials='M' surname='Smith' fullname='Mark Smith'>
+    <organization />
+</author>
+
+<date month='October' day='6' year='2012' />
+
+<abstract><t>The IPv6 neighbor discovery cache is vulernable to a Denial of Service attack that purposely exhausts the state used during the neighbor discovery address resolution process.  This can be very disruptive when a router is successfully attacked.  This memo proposes a stateless form of neighbor discovery to be used by routers to eliminate the opportunity for this DoS attack.  This method of stateless neighbor discovery would be used for unknown or untrusted packet sources, when the router's neighbor cache's state capacity reaches a medium to high threshold of use.  Trusted packet sources would continue to be provided with traditional stateful neighbor discovery.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-smith-6man-mitigate-nd-cache-dos-slnd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-smith-6man-mitigate-nd-cache-dos-slnd-00.txt' />
+</reference>

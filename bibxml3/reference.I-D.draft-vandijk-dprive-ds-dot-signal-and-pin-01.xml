@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vandijk-dprive-ds-dot-signal-and-pin'>
+<front>
+<title>Signalling Authoritative DoT support in DS records, with key pinning</title>
+
+<author initials='P' surname='Dijk' fullname='Peter van Dijk'>
+    <organization />
+</author>
+
+<author initials='R' surname='Geuze' fullname='Robin Geuze'>
+    <organization />
+</author>
+
+<author initials='E' surname='Bretelle' fullname='Emmanuel Bretelle'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>This document specifies a way to signal the usage of DoT, and the pinned keys for that DoT usage, in authoritative servers.  This signal lives on the parent side of delegations, in DS records.  To ensure easy deployment, the signal is defined in terms of (C)DNSKEY.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vandijk-dprive-ds-dot-signal-and-pin-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vandijk-dprive-ds-dot-signal-and-pin-01.txt' />
+</reference>

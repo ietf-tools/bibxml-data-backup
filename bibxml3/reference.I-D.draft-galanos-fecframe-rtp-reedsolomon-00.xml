@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.galanos-fecframe-rtp-reedsolomon'>
+<front>
+<title>RTP Payload Format for Reed Solomon FEC</title>
+
+<author initials='S' surname='Galanos' fullname='Sarit Galanos'>
+    <organization />
+</author>
+
+<author initials='O' surname='Peck' fullname='Orly Peck'>
+    <organization />
+</author>
+
+<date month='October' day='12' year='2009' />
+
+<abstract><t>This document defines a new RTP payload format for the Forward Error Correction (FEC) that uses Reed-Solomon codes.  The format defined by this document enables the protection of source media encapsulated in RTP with one or more repair flows and is based on the FEC framework (described in [I-D.ietf-fecframe-framework]) and the SDP Elements for FEC Framework (described in [I-D.ietf-fecframe-sdp-elements]).  The Reed-Solomon codes used in this document belong to the class of Maximum Distance Separable (MDS) codes which means they offer optimal protection against random and bursty packet losses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-galanos-fecframe-rtp-reedsolomon-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-galanos-fecframe-rtp-reedsolomon-00.txt' />
+</reference>

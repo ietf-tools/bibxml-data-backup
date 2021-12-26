@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.acee-ospf-rfc6506bis'>
+<front>
+<title>Supporting Authentication Trailer for OSPFv3</title>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<date month='May' day='9' year='2013' />
+
+<abstract><t>Currently, OSPF for IPv6 (OSPFv3) uses IPsec as the only mechanism for authenticating protocol packets.  This behavior is different from authentication mechanisms present in other routing protocols (OSPFv2, Intermediate System to Intermediate System (IS-IS), RIP, and Routing Information Protocol Next Generation (RIPng)).  In some environments, it has been found that IPsec is difficult to configure and maintain and thus cannot be used.  This document defines an alternative mechanism to authenticate OSPFv3 protocol packets so that OSPFv3 does not only depend upon IPsec for authentication.  This document obsoletes RFC 6506.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-acee-ospf-rfc6506bis-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-acee-ospf-rfc6506bis-02.txt' />
+</reference>

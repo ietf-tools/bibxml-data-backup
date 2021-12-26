@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pals-endpoint-fast-protection'>
+<front>
+<title>PW Endpoint Fast Failure Protection</title>
+
+<author initials='Y' surname='Shen' fullname='Yimin Shen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Aggarwal' fullname='Rahul Aggarwal'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Jiang' fullname='Yuanlong Jiang'>
+    <organization />
+</author>
+
+<date month='November' day='10' year='2015' />
+
+<abstract><t>This document specifies a fast mechanism for protecting pseudowires against egress endpoint failures, including egress attachment circuit failure, egress PE failure, multi-segment PW terminating PE failure, and multi-segment PW switching PE failure.  Designed on the basis of multi-homed CE, redundant PWs, upstream label assignment and context specific label switching, the mechanism enables local repair to be performed by the router upstream adjacent to a failure.  The router can restore PW traffic in the order of tens of milliseconds, by transmitting the traffic to a protector through a pre-established bypass tunnel.  Therefore, the mechanism can be used to reduce traffic loss before global repair reacts to the failure and the network converges on the topology changes due to the failure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pals-endpoint-fast-protection-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pals-endpoint-fast-protection-01.txt' />
+</reference>

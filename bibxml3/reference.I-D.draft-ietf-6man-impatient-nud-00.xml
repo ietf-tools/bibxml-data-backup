@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-impatient-nud'>
+<front>
+<title>Neighbor Unreachability Detection is too impatient</title>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<author initials='I' surname='Gashinsky' fullname='Igor Gashinsky'>
+    <organization />
+</author>
+
+<date month='November' day='14' year='2011' />
+
+<abstract><t>IPv6 Neighbor Discovery includes Neighbor Unreachability Detection. That function is very useful when a host has an alternative, for instance multiple default routers, since it allows the host to switch to the alternative in short time.  This time is 3 seconds after the node starts probing.  However, if there are no alternatives, this is far too impatient.  This document proposes an approach where an implementation can choose the timeout behavior to be different based on whether or not there are alternatives.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-impatient-nud-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-impatient-nud-00.txt' />
+</reference>

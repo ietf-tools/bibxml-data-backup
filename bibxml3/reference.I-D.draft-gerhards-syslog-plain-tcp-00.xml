@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gerhards-syslog-plain-tcp'>
+<front>
+<title>Transmission of Syslog Messages over TCP</title>
+
+<author initials='R' surname='Gerhards' fullname='Rainer Gerhards'>
+    <organization />
+</author>
+
+<author initials='C' surname='Lonvick' fullname='Chris Lonvick'>
+    <organization />
+</author>
+
+<date month='November' day='30' year='2009' />
+
+<abstract><t>This document describes the transport for syslog messages over TCP/ IPv4 or TCP/IPv6.  The syslog protocol layered architecture provides for support of any number of transport mappings.  However, for interoperability purposes, syslog protocol implementers are required to support this transport mapping.  There have been many implementations and deployments of traditional syslog over TCP for many years.  That protocol has evolved without being standardized and has proven to be quite interoperable in practice.  The aim of this specification is to document three things: how to transmit standardized syslog over TCP, how this has been done for traditional syslog, and how the new syslog architecture can interoperate with the traditional deployments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gerhards-syslog-plain-tcp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gerhards-syslog-plain-tcp-00.txt' />
+</reference>

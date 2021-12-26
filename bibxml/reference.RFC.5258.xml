@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5258' target='https://www.rfc-editor.org/info/rfc5258'>
+<front>
+<title>Internet Message Access Protocol version 4 - LIST Command Extensions</title>
+<author initials='B.' surname='Leiba' fullname='B. Leiba'><organization /></author>
+<author initials='A.' surname='Melnikov' fullname='A. Melnikov'><organization /></author>
+<date year='2008' month='June' />
+<abstract><t>IMAP4 has two commands for listing mailboxes: LIST and LSUB.  As we have added extensions, such as Mailbox Referrals, that have required specialized lists we have had to expand the number of list commands, since each extension must add its function to both LIST and LSUB, and these commands are not, as they are defined, extensible.  If we've needed the extensions to work together, we've had to add a set of commands to mix the different options, the set increasing in size with each new extension.  This document describes an extension to the base LIST command that will allow these additions to be done with mutually compatible options to the LIST command, avoiding the exponential increase in specialized list commands.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5258'/>
+<seriesInfo name='DOI' value='10.17487/RFC5258'/>
+</reference>

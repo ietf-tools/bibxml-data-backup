@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ippm-reordering'>
+<front>
+<title>Packet Reordering Metric for IPPM</title>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<date month='May' day='1' year='2006' />
+
+<abstract><t>This memo defines metrics to evaluate if a network has maintained packet order on a packet-by-packet basis. It provides motivations for the new metrics and discusses the measurement issues, including the context information required for all metrics. The memo first defines a reordered singleton, and then uses it as the basis for sample metrics to quantify the extent of reordering in several useful dimensions for network characterization or receiver design. Additional metrics quantify the frequency of reordering and the distance between separate occurrences. We then define a metric oriented toward assessing reordering effects on TCP. Several examples of evaluation using the various sample metrics are included. An Appendix gives extended definitions for evaluating order with packet fragmentation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ippm-reordering-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ippm-reordering-13.txt' />
+</reference>

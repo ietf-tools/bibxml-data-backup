@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-jmap-mdn'>
+<front>
+<title>Handling Message Disposition Notification with JMAP</title>
+
+<author initials='R' surname='Ouazana' fullname='Raphael Ouazana'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2020' />
+
+<abstract><t>JMAP ([RFC8620] - JSON Meta Application Protocol) is a generic protocol for synchronising data, such as mail, calendars or contacts, between a client and a server.  It is optimised for mobile and web environments, and aims to provide a consistent interface to different data types.  JMAP for Mail ([RFC8621] - The JSON Meta Application Protocol (JMAP) for Mail) specifies a data model for synchronising email data with a server using JMAP.  Clients can use this to efficiently search, access, organise, and send messages.  MDN are defined in [RFC8098] and are used as "read receipts", "acknowledgements", or "receipt notifications".  MDN have a specific format that must be parsed or generated.  The goal of this document is to specify a data model for handling MDN messages with a server using JMAP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-jmap-mdn-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-jmap-mdn-10.txt' />
+</reference>

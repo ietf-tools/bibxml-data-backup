@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-intarea-broadcast-consider'>
+<front>
+<title>Privacy considerations for IP broadcast and multicast protocol designers</title>
+
+<author initials='R' surname='Winter' fullname='Rolf Winter'>
+    <organization />
+</author>
+
+<author initials='M' surname='Faath' fullname='Michael Faath'>
+    <organization />
+</author>
+
+<author initials='F' surname='Weisshaar' fullname='Fabian Weisshaar'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>A number of application-layer protocols make use of IP broadcasts or multicast messages for functions like local service discovery or name resolution.  Some of these functions can only be implemented efficiently using such mechanisms.  When using broadcasts or multicast messages, a passive observer in the same broadcast/ multicast domain can trivially record these messages and analyze their content.  Therefore, broadcast/multicast protocol designers need to take special care when designing their protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-intarea-broadcast-consider-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-intarea-broadcast-consider-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipp-not-spec'>
+<front>
+<title>Internet Printing Protocol (IPP): Event Notifications and Subscriptions</title>
+
+<author initials='R' surname='Herriot' fullname='Robert Herriot'>
+    <organization />
+</author>
+
+<author initials='T' surname='Hastings' fullname='Thomas Hastings'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2004' />
+
+<abstract><t>This document describes an OPTIONAL extension to the Internet Printing Protocol/1.1: Model and Semantics (RFC 2911, RFC 2910). This extension allows a client to subscribe to printing related Events. Subscriptions are modeled as Subscription Objects. The Subscription Object specifies that when one of the specified Events occurs, the Printer sends an asynchronous Event Notification to the specified Notification Recipient via the specified Push or Pull Delivery Method (i.e., protocol). A client associates Subscription Objects with a particular Job by performing the Create-Job-Subscriptions operation or by submitting a Job with subscription information. A client associates Subscription Objects with the Printer by performing a Create-Printer-Subscriptions operation. Four other operations are defined for Subscription Objects: Get-Subscriptions-Attributes, Get-Subscriptions, Renew- Subscription, and Cancel-Subscription.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipp-not-spec-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipp-not-spec-12.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hayano-rtsp-bitrate'>
+<front>
+<title>RTSP 2.0 Bitrate Notification</title>
+
+<author initials='H' surname='Hatano' fullname='Hiroyuki Hatano'>
+    <organization />
+</author>
+
+<author initials='K' surname='Taniguchi' fullname='Kunihiro Taniguchi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Kobayashi' fullname='Akira Kobayashi'>
+    <organization />
+</author>
+
+<author initials='M' surname='Stiemerling' fullname='Martin Stiemerling'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2009' />
+
+<abstract><t>Typically, there is no use for providing bandwidth information from an RTSP 2.0 server to RTSP 2.0 clients.  The bandwidth of the medias played out by the server is different from the available bandwidth in the network (which is also changing) and there is anyhow the need to perform congestion control during media playout.  This is true for Internet deployments, or similar, but conveying information about bandwidth of the medias can be required in other deployments of RTSP 2.0.  It might necessarily for RTSP 2.0 clients to obtain information about the by medias used bandwidth in networks that rely on bandwidth reservation initiated by the end host.  An example is the Next Generation Network (NGN) standardized by ETSI TISPAN, where RTSP 2.0 clients must indicate the required bandwidth to the network.  This memo discusses how to provide bandwidth information from RTSP 2.0 servers to clients and how to introduce it in RTSP 2.0.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hayano-rtsp-bitrate-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hayano-rtsp-bitrate-02.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kunze-g-698-2-management-control-framework'>
+<front>
+<title>A framework for Management and Control of optical interfaces supporting G.698.2</title>
+
+<author initials='R' surname='Kunze' fullname='Ruediger Kunze'>
+    <organization />
+</author>
+
+<author initials='G' surname='Grammel' fullname='Gert Grammel'>
+    <organization />
+</author>
+
+<author initials='H' surname='Schmidtke' fullname='Hans-Juergen Schmidtke'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2011' />
+
+<abstract><t>This document provides a framework that describes a solution space for the control and management of optical interfaces according to the Black Link approach as specified by ITU-T [ITU.G698.2] and further revisions.  In particular, it examines topological elements and related network management measures.  Optical Routing and Wavelength assignment based on WSON is out of scope.  This document concentrates on the management of optical interfaces.  The application of a dynamic control plane, e.g. for auto-discovery or for the distribtion of interface parameters, is complementary.  Anyway, this work is not in conflict with WSON but leverages and supports related work already done for management plane and control plane.  The framework document will not address the client mapping into G.709.  This document only addresses the lower layers.  Furthermore, support for Fast Fault Detection, to e.g. trigger Protection Switching is provided by the WDM interface capability of the client interface (e.g.  ITU-T G.709) is out of scope for this work. Additionally the wavelength ordering process and the process how to determine the demand for a new wavelength from A to Z is out of scope.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kunze-g-698-2-management-control-framework-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kunze-g-698-2-management-control-framework-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-regext-rdap-partial-response'>
+<front>
+<title>Registration Data Access Protocol (RDAP) Partial Response</title>
+
+<author initials='M' surname='Loffredo' fullname='Mario Loffredo'>
+    <organization />
+</author>
+
+<author initials='M' surname='Martinelli' fullname='Maurizio Martinelli'>
+    <organization />
+</author>
+
+<date month='May' day='29' year='2020' />
+
+<abstract><t>The Registration Data Access Protocol (RDAP) does not include capabilities to request partial responses.  Servers will only return full responses that includes all of the information that a client is authorized to receive.  A partial response capability that limits the amount of information returned, especially in the case of search queries, could bring benefits to both clients and servers.  This document describes an RDAP query extension that allows clients to specify their preference for obtaining a partial response.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-regext-rdap-partial-response-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-regext-rdap-partial-response-11.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.welzl-tcp-corruption'>
+<front>
+<title>TCP Corruption Notification Options</title>
+
+<author initials='M' surname='Welzl' fullname='Michael Welzl'>
+    <organization />
+</author>
+
+<date month='June' day='3' year='2004' />
+
+<abstract><t>This memo specifies options that enable TCP to detect corruption in the presence of link layers which hand over known-corrupt data to upper layers. The receiver notifies the sender of an erroneous segment that would otherwise be lost and assumed to be a sign of congestion. The sender uses this ACK to drive its RTO calculation, retransmit the segment and react to congestion earlier if ECE=1. In addition, this feedback could be used to realize a more appropriate rate change in response to such lost segments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-welzl-tcp-corruption-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-welzl-tcp-corruption-00.txt' />
+</reference>

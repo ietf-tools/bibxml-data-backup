@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.krecicki-dns-covert'>
+<front>
+<title>Domain Name System (DNS) Resource Record types for transferring covert information from primary to secondaries</title>
+
+<author initials='W' surname='Krecicki' fullname='Witold Krecicki'>
+    <organization />
+</author>
+
+<author initials='E' surname='Hunt' fullname='Evan Hunt'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mahoney' fullname='Dan Mahoney'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2019' />
+
+<abstract><t>The Domain Name System (DNS) Resource Record TYPEs IANA registry reserves the range 128-255 for Q-TYPEs and Meta-TYPEs [RFC6895] - Resource Records that can only be queried for or contain transient data associated with a particular DNS message.  This document reserves a range of RR TYPE numbers for Covert-TYPEs - types that are an integral part of the zone but cannot be accessed via a normal QUERY operation.  Uses for such records could include zone comments that are transferrable with the zone, expiry times for dynamically updated records, or Zone Signing Keys for inline signing.  This document, however, does not define any specific Covert RR types.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-krecicki-dns-covert-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-krecicki-dns-covert-00.txt' />
+</reference>

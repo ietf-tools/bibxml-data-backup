@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hsingh-ipv6-coin-ml'>
+<front>
+<title>New IPv6 Multicast Addresses for Switch ML</title>
+
+<author initials='H' surname='Singh' fullname='Hemant Singh'>
+    <organization />
+</author>
+
+<date month='June' day='10' year='2019' />
+
+<abstract><t>Recently, in-network aggregation to scale distributed machine learning (ML) has been presented.  A network switch implementation uses IPv4 broadcast messages from switch to the hosts to send updates to all workers.  IPv6 does not support broadcast addresses.  This document proposes, IPv6 implementations use the IPv6 link-local all- nodes multicast address, until a new IPv6 link-local multicast address is assigned by IANA for switch to hosts multicast communications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hsingh-ipv6-coin-ml-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hsingh-ipv6-coin-ml-02.txt' />
+</reference>

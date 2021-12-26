@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dong-6man-enhanced-vpn-vtn-id'>
+<front>
+<title>Carrying Virtual Transport Network Identifier in IPv6 Extension Header</title>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='C' surname='Ma' fullname='Chenhao Ma'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>A Virtual Transport Network (VTN) is a virtual network which has a customized network topology and a set of dedicated or shared network resources allocated from the network infrastructure.  A VTN can be used as the underlay for one or a group of VPNs to provide enhanced VPN (VPN+) services.  In packet forwarding, some fields in data packet needs to be used to identify the VTN the packet belongs to, so that the VTN-specific processing can be performed.  This document proposes a new option type to carry VTN ID in an IPv6 extension headers to identify the Virtual Transport Network (VTN) the packet belongs to.  The procedure for processing of the VTN option is also specified.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dong-6man-enhanced-vpn-vtn-id-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dong-6man-enhanced-vpn-vtn-id-02.txt' />
+</reference>

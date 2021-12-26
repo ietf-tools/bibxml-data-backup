@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pwe3-redundancy-bit'>
+<front>
+<title>Preferential Forwarding Status bit definition</title>
+
+<author initials='P' surname='Muley' fullname='Praveen Muley'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bocci' fullname='Matthew Bocci'>
+    <organization />
+</author>
+
+<author initials='L' surname='Martini' fullname='Luca Martini'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>This document describes a mechanism for standby status signaling of redundant PWs between their termination points. A set of redundant PWs is configured between PE nodes in SS-PW applications, or between T-PE nodes in MS-PW applications.  In order for the PE/T-PE nodes to indicate the preferred PW path to forward to one another, a new status bit is needed to indicate a preferential forwarding status of active or standby for each PW in the redundancy set.  In addition, a second status bit is defined to allow peer PE/T-PE nodes to coordinate a switchover operation of the PW/MS-PW path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pwe3-redundancy-bit-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pwe3-redundancy-bit-02.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-behave-v6v4-xlate-stateful'>
+<front>
+<title>NAT64: Network Address and Protocol Translation from IPv6 Clients to IPv4 Servers</title>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<author initials='P' surname='Matthews' fullname='Philip Matthews'>
+    <organization />
+</author>
+
+<author initials='I' surname='Beijnum' fullname='Iljitsch van Beijnum'>
+    <organization />
+</author>
+
+<date month='October' day='10' year='2009' />
+
+<abstract><t>NAT64 is a mechanism for translating IPv6 packets to IPv4 packets and vice-versa.  DNS64 is a mechanism for synthesizing AAAA records from A records.  These two mechanisms together enable client-server communication between an IPv6-only client and an IPv4-only server, without requiring any changes to either the IPv6 or the IPv4 node, for the class of applications that work through NATs.  They also enable peer-to-peer communication between an IPv4 and an IPv6 node, where the communication can be initiated by either end using existing, NAT-traversing, peer-to-peer communication techniques. This document specifies NAT64, and gives suggestions on how they should be deployed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-behave-v6v4-xlate-stateful-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-behave-v6v4-xlate-stateful-02.txt' />
+</reference>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8706' target='https://www.rfc-editor.org/info/rfc8706'>
+<front>
+<title>Restart Signaling for IS-IS</title>
+<author initials='L.' surname='Ginsberg' fullname='L. Ginsberg'><organization /></author>
+<author initials='P.' surname='Wells' fullname='P. Wells'><organization /></author>
+<date year='2020' month='February' />
+<abstract><t>This document describes a mechanism for a restarting router to signal to its neighbors that it is restarting, allowing them to reestablish their adjacencies without cycling through the DOWN state while still correctly initiating database synchronization.</t><t>This document additionally describes a mechanism for a router to signal its neighbors that it is preparing to initiate a restart while maintaining forwarding-plane state. This allows the neighbors to maintain their adjacencies until the router has restarted but also allows the neighbors to bring the adjacencies down in the event of other topology changes.</t><t>This document additionally describes a mechanism for a restarting router to determine when it has achieved Link State Protocol Data Unit (LSP) database synchronization with its neighbors and a mechanism to optimize LSP database synchronization while minimizing transient routing disruption when a router starts.</t><t>This document obsoletes RFC 5306.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8706'/>
+<seriesInfo name='DOI' value='10.17487/RFC8706'/>
+</reference>

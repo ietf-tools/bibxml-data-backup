@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-tsvwg-loops-problem-opportunities'>
+<front>
+<title>LOOPS (Localized Optimization of Path Segments) Problem Statement and Opportunities</title>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhou' fullname='Xingwang Zhou'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>Various overlay tunnels are used in networks including WAN, enterprise campus and others.  End to end paths are partitioned into multiple segments using overlay tunnels to achieve better path selection, lower latency and so on.  Traditional end-to-end transport layers respond to packet loss slowly especially in long-haul networks: They either wait for some signal from the receiver to indicate a loss and then retransmit from the sender or rely on sender's timeout which is often quite long.  LOOPS (Localized Optimization of Path Segments) attempts to provide non end-to-end local based in-network recovery to achieve better data delivery by making packet loss recovery faster.  In an overlay network scenario, LOOPS can be performed over the existing, or purposely created, overlay tunnel based path segments.  This document illustrates the slow packet loss recovery problems LOOPS tries to solve in some use cases and analyzes the impacts when local in-network recovery is employed as a LOOPS mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-tsvwg-loops-problem-opportunities-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-tsvwg-loops-problem-opportunities-01.txt' />
+</reference>

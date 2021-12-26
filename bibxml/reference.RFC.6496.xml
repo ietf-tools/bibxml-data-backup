@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6496' target='https://www.rfc-editor.org/info/rfc6496'>
+<front>
+<title>Secure Proxy ND Support for SEcure Neighbor Discovery (SEND)</title>
+<author initials='S.' surname='Krishnan' fullname='S. Krishnan'><organization /></author>
+<author initials='J.' surname='Laganier' fullname='J. Laganier'><organization /></author>
+<author initials='M.' surname='Bonola' fullname='M. Bonola'><organization /></author>
+<author initials='A.' surname='Garcia-Martinez' fullname='A. Garcia-Martinez'><organization /></author>
+<date year='2012' month='February' />
+<abstract><t>SEcure Neighbor Discovery (SEND) specifies a method for securing Neighbor Discovery (ND) signaling against specific threats.  As defined today, SEND assumes that the node sending an ND message is the owner of the address from which the message is sent and/or possesses a key that authorizes the node to act as a router, so that it is in possession of the private key or keys used to generate the digital signature on each message.  This means that the Proxy ND signaling performed by nodes that do not possess knowledge of the address owner's private key and/or knowledge of a router's key cannot be secured using SEND.  This document extends the current SEND specification in order to secure Proxy ND operation.  This document  defines an Experimental Protocol for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6496'/>
+<seriesInfo name='DOI' value='10.17487/RFC6496'/>
+</reference>

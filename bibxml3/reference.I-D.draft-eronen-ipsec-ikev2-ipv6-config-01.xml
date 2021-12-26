@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eronen-ipsec-ikev2-ipv6-config'>
+<front>
+<title>IPv6 Configuration in IKEv2</title>
+
+<author initials='P' surname='Eronen' fullname='Pasi Eronen'>
+    <organization />
+</author>
+
+<date month='November' day='8' year='2007' />
+
+<abstract><t>When IKEv2 is used for remote VPN access (client to VPN gateway), the gateway assigns the client an IP address from the internal network using IKEv2 configuration payloads. The configuration payloads specified in RFC 4306 work well for IPv4, but make it difficult to use certain features of IPv6. This document describes the limitations of current IKEv2 configuration payloads for IPv6, and explores possible solutions that would allow IKEv2 to set up full- featured virtual IPv6 interfaces.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eronen-ipsec-ikev2-ipv6-config-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eronen-ipsec-ikev2-ipv6-config-01.txt' />
+</reference>

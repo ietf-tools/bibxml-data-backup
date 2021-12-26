@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-ac-df'>
+<front>
+<title>AC-Influenced Designated Forwarder Election for EVPN</title>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nagaraj' fullname='Kiran Nagaraj'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sathappan' fullname='Senthil Sathappan'>
+    <organization />
+</author>
+
+<author initials='V' surname='Prabhu' fullname='Vinod Prabhu'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='A' surname='Liu' fullname='Autumn Liu'>
+    <organization />
+</author>
+
+<author initials='W' surname='Lin' fullname='Wen Lin'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2017' />
+
+<abstract><t>The Designated Forwarder (DF) in EVPN networks is the PE responsible for sending multicast, broadcast and unknown unicast traffic to a multi-homed CE, on a given Ethernet Tag on a particular Ethernet Segment (ES). The DF is selected based on the list of PEs that advertise the Ethernet Segment Identifier (ESI) to the EVPN network. While PE node or link failures trigger the DF re-election for a given &lt;ESI, EVI>, individual Attachment Circuit (AC) or MAC-VRF failures do not trigger such DF re-election and the traffic may therefore be permanently impacted, even though there is an alternative path. This document improves the DF election algorithm so that the AC status can influence the result of the election and this type of "logical" failures can be protected too.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-ac-df-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-ac-df-02.txt' />
+</reference>

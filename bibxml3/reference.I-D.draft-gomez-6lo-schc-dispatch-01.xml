@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gomez-6lo-schc-dispatch'>
+<front>
+<title>IPv6 over Low-Power Wireless Personal Area Network (6LoWPAN) Dispatch Type for SCHC</title>
+
+<author initials='C' surname='Gomez' fullname='Carles Gomez'>
+    <organization />
+</author>
+
+<date month='September' day='21' year='2020' />
+
+<abstract><t>A new framework called Static Context Header Compression (SCHC) has been designed with the primary goal of supporting IPv6 over Low Power Wide Area Network (LPWAN) technologies [RFC8724].  One of the SCHC components is a header compression mechanism.  If used properly, SCHC header compression allows a greater compression ratio than that achievable with traditional 6LoWPAN header compression [RFC6282]. For this reason, it may make sense to use SCHC header compression in some 6LoWPAN environments.  This document defines a 6LoWPAN Dispatch Type to signal when a packet header has been compressed by using SCHC header compression.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gomez-6lo-schc-dispatch-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gomez-6lo-schc-dispatch-01.txt' />
+</reference>

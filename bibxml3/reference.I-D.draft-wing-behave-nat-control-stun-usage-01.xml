@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wing-behave-nat-control-stun-usage'>
+<front>
+<title>Controlling NAT Bindings using STUN</title>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2007' />
+
+<abstract><t>Simple Traversal Underneath NAT (STUN) is a mechanism for traversing NATs. STUN requests are transmitted through a NAT to external STUN servers. While this works very well, its two primary drawbacks are the inability to modify the properties of a NAT binding and the need to query a public STUN server for every NAT binding. These drawbacks require frequent messages which present a load on servers (like SIP servers and STUN servers) and are bad for low speed access networks, such as cellular. This document proposes that the STUN server be embedded in the NAT itself, and describes how these STUN servers can be readily discovered and utilized to reduce queries to public STUN servers and to reduce NAT keepalive traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wing-behave-nat-control-stun-usage-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wing-behave-nat-control-stun-usage-01.txt' />
+</reference>

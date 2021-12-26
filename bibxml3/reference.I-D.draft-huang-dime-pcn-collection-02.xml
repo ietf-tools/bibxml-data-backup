@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huang-dime-pcn-collection'>
+<front>
+<title>The Diameter Precongestion Notification (PCN) Data Collection Application</title>
+
+<author initials='F' surname='Huang' fullname='Fortune Huang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<author initials='G' surname='Zorn' fullname='Glen Zorn'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>Pre-Congestion notification (PCN) is a technique for maintaining QoS for inelastic flows in a DIFFServ domain.  The PCN architecture requires that egress nodes send reports of congestion-related events reliably to a policy decision point.  The policy decision point might be located in different places of the network.  In one architectural variant the policy decision point is a central node rather than co- located with the ingress or the egress nodes of the network.  In this case it needs to have access to certain information from the edge nodes.  This memo defines a Diameter application to support the ingress and the egress node to interact with the Diameter server acting as a policy decision point.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-huang-dime-pcn-collection-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-huang-dime-pcn-collection-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chakrabarti-ipv6-addrselect-api'>
+<front>
+<title>IPv6 Socket API for Source Address Selection</title>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<date month='June' day='18' year='2007' />
+
+<abstract><t>The IPv6 default address selection document [RFC3484] describes the rules for selecting source and destination IPv6 addresses, and indicates that applications should be able to reverse the sense of some of the address selection rules through some unspecified API. However, no such socket API exists in the basic [RFC3493] or advanced [RFC3542] IPv6 socket API documents. This document fills that gap partially by specifying new socket-level options for source address selection and flags for the getaddrinfo() API to specify address selection based on the the source address preference in accordance with the socket-level options that modify the default source address selection algorithm. The socket API described in this document will be particularly useful for IPv6 applications that want to choose between temporary and public addresses, and for Mobile IPv6 aware applications that want to use the care-of address for communication. It also specifies socket options and flags for selecting CGA or non- CGA source addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chakrabarti-ipv6-addrselect-api-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chakrabarti-ipv6-addrselect-api-07.txt' />
+</reference>

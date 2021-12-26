@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stokes-vkompella-l2vpn-hvpls-oam'>
+<front>
+<title>Testing Hierarchical Virtual Private LAN Services</title>
+
+<author initials='O' surname='Stokes' fullname='Olen Stokes'>
+    <organization />
+</author>
+
+<author initials='V' surname='Kompella' fullname='Vach  Kompella'>
+    <organization />
+</author>
+
+<author initials='G' surname='Heron' fullname='Giles Heron'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Serbest' fullname='Yetik Serbest'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2004' />
+
+<abstract><t>This document describes a methodology for testing the operation, administration and maintenance (OA&amp;M) of a general VPN service, that is applied here to Hierarchical Virtual Private LAN Services (HVPLS) as described in [VPLS]. As part of this methodology, the MPLS ping concepts described in [LSP-PING] are extended to enable HVPLS spoke- to-spoke connectivity testing. The approaches to identifying OAM packets has also been made compatible with [LSP-PING] and [PWE3-VCCV]. These are the goals of this draft: - checking connectivity between 'service-aware' nodes of a network, - verifying data plane and control plane integrity, - verifying service membership There are two specific requirements to which we call attention because of their seemingly contradictory nature: - the checking of connectivity MUST involve the ability to use packets that look like customer packets - the OAM packets MUST not propagate beyond the boundary of the provider network</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stokes-vkompella-l2vpn-hvpls-oam-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stokes-vkompella-l2vpn-hvpls-oam-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ivov-mmusic-multiple-sources'>
+<front>
+<title>Economical Use of the Offer/Answer Model in Sessions with Multiple Media Sources</title>
+
+<author initials='E' surname='Ivov' fullname='Emil Ivov'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>The Session Description Protocol (SDP) Offer/Answer model describes a mechanism that allows two entities to negotiate a multimedia session. The SDP syntax of the Offer/Answer model uses constructs known as media (m=) lines to describe each medium.  In SDP itself these "m=" lines were designed to describe RTP sessions with any number of streams (SSRCs).  Yet, Offer/Answer implementations in SIP applications have most often used them as an envelope for a maximum of two RTP streams (SSRCs) at a time: one in each direction.  The most common reason for this has been the fact these applications could not meaningfully render multiple SSRCs simultaneously.  The above situation has led to difficulties once the need to represent multiple (SSRCs) in an interoperable manner became more common.  This document explores the use of "m=" lines for the negotiation of sessions with multiple media sources, as per their original design in SDP.  It presents the advantages of such an approach as well as the challenges that it implies in terms of interoperability with already deployed legacy devices.  The model described here was first presented in the RTCWEB No Plan proposal.  The reason to spin it off into this new document is mainly to separate the parts related to Offer/Answer and "m=" line semantics, from those that are specific to WebRTC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ivov-mmusic-multiple-sources-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ivov-mmusic-multiple-sources-00.txt' />
+</reference>

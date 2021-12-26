@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.secure-cookie-session-protocol'>
+<front>
+<title>SCS: Secure Cookie Sessions for HTTP</title>
+
+<author initials='S' surname='Barbato' fullname='Stefano Barbato'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dorigotti' fullname='Steven Dorigotti'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='December' day='2' year='2012' />
+
+<abstract><t>This memo defines a generic URI and HTTP header friendly envelope for carrying symmetrically encrypted, authenticated, and origin- timestamped tokens.  It also describes one possible usage of such tokens via a simple protocol based on HTTP cookies.  SCS use cases cover a wide spectrum of applications, ranging from distribution of authorized content via HTTP (e.g. with out-of-band signed URIs), to securing browser sessions with diskless embedded devices (e.g.  SOHO routers), or web servers with high availability or load balancing requirements that may want to delegate the handling of the application state to clients instead of using shared storage or forced peering.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-secure-cookie-session-protocol-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-secure-cookie-session-protocol-09.txt' />
+</reference>

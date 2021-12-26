@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.blank-ietf-bimi'>
+<front>
+<title>Brand Indicators for Message Identification (BIMI)</title>
+
+<author initials='S' surname='Blank' fullname='Seth Blank'>
+    <organization />
+</author>
+
+<author initials='P' surname='Goldstein' fullname='Peter Goldstein'>
+    <organization />
+</author>
+
+<author initials='T' surname='Loder' fullname='Thede Loder'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zink' fullname='Terry Zink'>
+    <organization />
+</author>
+
+<date month='February' day='6' year='2019' />
+
+<abstract><t>Brand Indicators for Message Identification (BIMI) permits Domain Owners to coordinate with Mail User Agents (MUAs) to display brand- specific Indicators next to properly authenticated messages.  There are two aspects of BIMI coordination: a scalable mechanism for Domain Owners to publish their desired indicators, and a mechanism for Mail Transfer Agents (MTAs) to verify the authenticity of the indicator. This document specifies how Domain Owners communicate their desired indicators through the BIMI assertion record in DNS and how that record is to be handled by MTAs and MUAs.  The domain verification mechanism and extensions for other mail protocols (IMAP, etc.) are specified in separate documents.  MUAs and mail-receiving organizations are free to define their own policies for indicator display that makes use or not of BIMI data as they see fit.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-blank-ietf-bimi-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-blank-ietf-bimi-00.txt' />
+</reference>

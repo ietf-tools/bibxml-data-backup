@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nsis-rmd'>
+<front>
+<title>RMD-QOSM - The Resource Management in Diffserv QOS Model</title>
+
+<author initials='A' surname='Bader' fullname='Attila Bader'>
+    <organization />
+</author>
+
+<author initials='L' surname='Westberg' fullname='Lars Westberg'>
+    <organization />
+</author>
+
+<author initials='G' surname='Karagiannis' fullname='Georgios Karagiannis'>
+    <organization />
+</author>
+
+<author initials='C' surname='Kappler' fullname='Cornelia Kappler'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='T' surname='Phelan' fullname='Thomas Phelan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Takacs' fullname='Attila Takacs'>
+    <organization />
+</author>
+
+<author initials='A' surname='Csaszar' fullname='Andras Csaszar'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2009' />
+
+<abstract><t>This document describes an NSIS QoS Model for networks that use the Resource Management in Diffserv (RMD) concept.  RMD is a technique for adding admission control and pre-emption function to Differentiated Services (Diffserv) networks.  The RMD QoS Model allows devices external to the RMD network to signal reservation requests to edge nodes in the RMD network. The RMD Ingress edge nodes classify the incoming flows into traffic classes and signals resource requests for the corresponding traffic class along the data path to the Egress edge nodes for each flow.  Egress nodes reconstitute the original requests and continue forwarding them along the data path towards the final destination. In addition, RMD defines notification functions to indicate overload situations within the domain to the edge nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nsis-rmd-15' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nsis-rmd-15.txt' />
+</reference>

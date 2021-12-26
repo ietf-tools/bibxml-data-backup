@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-behave-nat64-discovery-heuristic'>
+<front>
+<title>Discovery of IPv6 Prefix Used for IPv6 Address Synthesis</title>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='May' day='24' year='2012' />
+
+<abstract><t>This document describes a method for detecting presence of DNS64 and for learning IPv6 prefix used for protocol translation on an access network.  The method depends on existence of a well-known IPv4-only domain name "ipv4only.arpa".  The information learned enables nodes to perform local IPv6 address synthesis and to potentially avoid traversal through NAT64 on dual-stack accesses and multi-interface deployments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-behave-nat64-discovery-heuristic-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-behave-nat64-discovery-heuristic-09.txt' />
+</reference>

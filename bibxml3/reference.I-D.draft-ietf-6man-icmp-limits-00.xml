@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-icmp-limits'>
+<front>
+<title>ICMPv6 errors for discarding packets due to processing limits</title>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<date month='May' day='29' year='2018' />
+
+<abstract><t>Network nodes may discard packets if they are unable to process protocol headers of packets due to processing constraints or limits. When such packets are dropped, the sender receives no indication so it cannot take action to address the cause of discarded packets. This document defines ICMPv6 errors that can be sent by a node that discards packets because it is unable to process the protocol headers. A node that receives such an ICMPv6 error may be able to modify what it sends in future packets to avoid subsequent packet discards.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-icmp-limits-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-icmp-limits-00.txt' />
+</reference>

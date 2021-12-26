@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.utgikar-serr'>
+<front>
+<title>Selective route refresh for BGP</title>
+
+<author initials='A' surname='Anant' fullname='Anant'>
+    <organization />
+</author>
+
+<date month='November' day='10' year='2015' />
+
+<abstract><t>This document proposes a new Route Refresh mechanism which provides ability to perform route refresh for a smaller subset of updates than the entire Adj-RIB-Out. It is applicable to multiple deployment scenarios like , BGP-LS [I-D.draft-ietf-idr-ls-distribution-11] , EVPN [RFC7432].  The suggested capability will help faster convergence and minimize overhead for routing policy changes.  This document updates [RFC7313].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-utgikar-serr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-utgikar-serr-00.txt' />
+</reference>

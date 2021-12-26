@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidrops-signed-tal'>
+<front>
+<title>RPKI Signed Object for Trust Anchor Keys</title>
+
+<author initials='T' surname='Bruijnzeels' fullname='Tim Bruijnzeels'>
+    <organization />
+</author>
+
+<author initials='C' surname='Martinez' fullname='Carlos Martinez'>
+    <organization />
+</author>
+
+<author initials='R' surname='Austein' fullname='Rob Austein'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>Trust Anchor Locators (TALs) [I-D.ietf-sidrops-https-tal] are used by Relying Parties in the RPKI to locate and validate Trust Anchor certificates used in RPKI validation.  This document defines an RPKI signed object for Trust Anchor Keys (TAK), that can be used by Trust Anchors to signal their set of current keys and the location(s) of the accompanying CA certiifcates to Relying Parties, as well as changes to this set in the form of revoked keys and new keys, in order to support both planned and unplanned key rolls without impacting RPKI validation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidrops-signed-tal-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidrops-signed-tal-03.txt' />
+</reference>

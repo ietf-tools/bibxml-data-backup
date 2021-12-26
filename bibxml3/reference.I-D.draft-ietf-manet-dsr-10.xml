@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-manet-dsr'>
+<front>
+<title>The Dynamic Source Routing Protocol for Mobile Ad Hoc Networks (DSR)</title>
+
+<author initials='D' surname='Johnson' fullname='Dave  Johnson'>
+    <organization />
+</author>
+
+<date month='July' day='22' year='2004' />
+
+<abstract><t>The Dynamic Source Routing protocol (DSR) is a simple and efficient routing protocol designed specifically for use in multi-hop wireless ad hoc networks of mobile nodes. DSR allows the network to be completely self-organizing and self-configuring, without the need for any existing network infrastructure or administration. The protocol is composed of the two main mechanisms of 'Route Discovery' and 'Route Maintenance', which work together to allow nodes to discover and maintain routes to arbitrary destinations in the ad hoc network. All aspects of the protocol operate entirely on-demand, allowing the routing packet overhead of DSR to scale automatically to only that needed to react to changes in the routes currently in use. The protocol allows multiple routes to any destination and allows each sender to select and control the routes used in routing its packets, for example for use in load balancing or for increased robustness. Other advantages of the DSR protocol include easily guaranteed loop-free routing, operation in networks containing unidirectional links, use of only 'soft state' in routing, and very rapid recovery when routes in the network change. The DSR protocol is designed mainly for mobile ad hoc networks of up to about two hundred nodes, and is designed to work well with even very high rates of mobility. This document specifies the operation of the DSR protocol for routing unicast IPv4 packets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-manet-dsr-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-manet-dsr-10.txt' />
+</reference>

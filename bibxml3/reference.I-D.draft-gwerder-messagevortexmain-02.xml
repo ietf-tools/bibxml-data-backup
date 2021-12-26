@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gwerder-messagevortexmain'>
+<front>
+<title>MessageVortex Protocol</title>
+
+<author initials='M' surname='Gwerder' fullname='Martin Gwerder'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2019' />
+
+<abstract><t>The MessageVortex (referred to as Vortex) protocol achieves different degrees of anonymity, including sender, receiver, and third-party anonymity, by specifying messages embedded within existing transfer protocols, such as SMTP or XMPP, sent via peer nodes to one or more recipients.  The protocol outperforms others by decoupling the transport from the final transmitter and receiver.  No trust is placed into any infrastructure except for that of the sending and receiving parties of the message.  The creator of the routing block has full control over the message flow.  Routing nodes gain no non-obvious knowledge about the messages even when collaborating.  While third-party anonymity is always achieved, the protocol also allows for either sender or receiver anonymity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gwerder-messagevortexmain-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gwerder-messagevortexmain-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-gwerder-messagevortexmain-02.pdf' />
+</reference>

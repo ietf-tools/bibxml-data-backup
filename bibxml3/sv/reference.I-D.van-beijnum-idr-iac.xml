@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.van-beijnum-idr-iac'>
+<front>
+<title>A BGP Inter-AS Cost Attribute</title>
+
+<author initials='I' surname='Beijnum' fullname='Iljitsch van Beijnum'>
+    <organization />
+</author>
+
+<author initials='R' surname='Winter' fullname='Rolf Winter'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2009' />
+
+<abstract><t>Although BGP implementations have extensive path selection algorithms, in practice operators have trouble performing satisfactory traffic engineering of incoming traffic based on BGP attributes that are taken into account in the path selection algorithm alone.  For this reason, many ASes deaggregate their address range(s) into smaller blocks and announce these blocks differently to different neighboring ASes in order to arrive at the desired traffic flow.  This practice contributes to the growth of the global routing table, which drives up capital expenditures for networks engaging in inter-domain routing.  This memo introduces a new inter-domain metric that supports finer-grained traffic engineering than current BGP attributes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-van-beijnum-idr-iac-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-van-beijnum-idr-iac-02.txt' />
+</reference>

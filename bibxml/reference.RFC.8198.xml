@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8198' target='https://www.rfc-editor.org/info/rfc8198'>
+<front>
+<title>Aggressive Use of DNSSEC-Validated Cache</title>
+<author initials='K.' surname='Fujiwara' fullname='K. Fujiwara'><organization /></author>
+<author initials='A.' surname='Kato' fullname='A. Kato'><organization /></author>
+<author initials='W.' surname='Kumari' fullname='W. Kumari'><organization /></author>
+<date year='2017' month='July' />
+<abstract><t>The DNS relies upon caching to scale; however, the cache lookup generally requires an exact match.  This document specifies the use of NSEC/NSEC3 resource records to allow DNSSEC-validating resolvers to generate negative answers within a range and positive answers from wildcards.  This increases performance, decreases latency, decreases resource utilization on both authoritative and recursive servers, and increases privacy.  Also, it may help increase resilience to certain DoS attacks in some circumstances.</t><t>This document updates RFC 4035 by allowing validating resolvers to generate negative answers based upon NSEC/NSEC3 records and positive answers in the presence of wildcards.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8198'/>
+<seriesInfo name='DOI' value='10.17487/RFC8198'/>
+</reference>

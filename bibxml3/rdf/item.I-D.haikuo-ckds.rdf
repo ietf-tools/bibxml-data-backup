@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-haikuo-ckds-01.txt'>
+    <title>"Compromised-key Digest Signature (CKDS) Introduction and Requirement", Haikuo Zhang, Likun Zhang</title>
+    <link>http://www.ietf.org/internet-drafts/draft-haikuo-ckds-01.txt</link>
+    <description>DNS Security Extensions (DNSSEC) is widely deployed at TLD and other important domain names currently.  DNSSEC is an effective method to provide security protection for end users in the network.  DNSSEC needs a lot of operations to maintain the chain of trust, like DNSKEY rollover operations periodically.  But the chain of trust could be broken if the operator of domain replaces the old key immediately in a emergency rollover operation when the key is compromised.  The break will make the domain and his sub-domains invisible in a short time if the data in the cache of resolver is right, on the contrary, the fake RR in the cache of resolver may be "valid" if the resolver is under the attack from hackers.  This document introduces the compromised-key digest signature (CKDS) resource record to mitigate the impact of invalidation which is due to emergency rollover from the authoritative name server.</description>
+    <dc:date>2012-06-04T22:00:00-00:00</dc:date>
+</item>

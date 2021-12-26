@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-msec-mikey-rsa-r'>
+<front>
+<title>An additional mode of key distribution in MIKEY: MIKEY-RSA-R</title>
+
+<author initials='D' surname='Ignjatic' fullname='Dragan  Ignjatic'>
+    <organization />
+</author>
+
+<date month='August' day='9' year='2006' />
+
+<abstract><t>The Multimedia Internet Keying (MIKEY) specification describes several modes of key distribution solution that addresses multimedia scenarios (e.g., SIP calls and RTSP sessions) -- using pre-shared keys, public keys, and optionally a Diffie-Hellman key exchange. In the public-key mode, the Initiator encrypts a random key with the Responder's public key and sends it to the Responder. In many communication scenarios, the Initiator may not know the Responder's public key, or in some cases the Responder's ID (e.g., call forwarding) in advance. We propose a new MIKEY mode that works well in such scenarios. This mode also enhances the group key management support in MIKEY; it supports member-initiated group key download (in contrast to group manager pushing the group keys to all members). This document updates RFC 3830 with the RSA-R mode.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-msec-mikey-rsa-r-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-msec-mikey-rsa-r-07.txt' />
+</reference>

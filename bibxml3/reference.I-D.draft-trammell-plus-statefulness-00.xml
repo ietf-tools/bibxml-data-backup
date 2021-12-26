@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.trammell-plus-statefulness'>
+<front>
+<title>Transport-Independent Path Layer State Management</title>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<author initials='B' surname='Trammell' fullname='Brian Trammell'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hildebrand' fullname='Joe Hildebrand'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2016' />
+
+<abstract><t>This document describes a simple state machine for stateful network devices on a path between two endpoints to associate state with traffic traversing them on a per-flow basis, as well as abstract signaling mechanisms for driving the state machine.  This state machine is intended to replace the de-facto use of the TCP state machine or incomplete forms thereof by stateful network devices in a transport-independent way, while still allowing for fast state timeout of non-established or undesirable flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-trammell-plus-statefulness-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-trammell-plus-statefulness-00.txt' />
+</reference>

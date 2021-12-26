@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc3445.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc3445.txt</link>
+        <title>RFC 3445: Limiting the Scope of the KEY Resource Record (RR), D. Massey, S. Rose</title>
+        <dc:date>2002-12-01T23:00:00-00:00</dc:date>
+        <description>This document limits the Domain Name System (DNS) KEY Resource Record (RR) to only keys used by the Domain Name System Security Extensions (DNSSEC).  The original KEY RR used sub-typing to store both DNSSEC keys and arbitrary application keys.  Storing both DNSSEC and application keys with the same record type is a mistake.  This document removes application keys from the KEY record by redefining the Protocol Octet field in the KEY RR Data.  As a result of removing application keys, all but one of the flags in the KEY record become unnecessary and are redefined.  Three existing application key sub-types are changed to reserved, but the format of the KEY record is not changed.  This document updates RFC 2535.  [STANDARDS-TRACK] </description>
+    </item>
+

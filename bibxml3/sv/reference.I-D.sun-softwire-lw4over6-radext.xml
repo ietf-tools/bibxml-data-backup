@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sun-softwire-lw4over6-radext'>
+<front>
+<title>Radius Extension for Lightweight 4over6</title>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Sun' fullname='Qi Sun'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Qiong' fullname='Qiong'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Cathy Zhou'>
+    <organization />
+</author>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Liu' fullname='ZiLong Liu'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2014' />
+
+<abstract><t>lightweight 4over6(lw4over6) [I-D.ietf-softwire-lw4over6] is an extension to DS-Lite in which the amount of state maintained in lwAFTR has been reduced to per-subscriber-level.  The lwB4 needs to be provisioned with the public IPv4 address and port set it is allowed to use.  The DHCPv4 over DHCPv6 Transport [I.D-ietf-dhc- dhcpv4-over-dhcpv6] and Dynamic Host Configuration Protocol (DHCP) Option for Port Set [I.D-sun-dhc-port-set-option] can be used for lwB4 to provison with the public IPv4 address and port set.  However, in many networks, the configuration information may be stored in Authentication Authorization and Accounting (AAA) servers while user configuration is mainly from Broadband Network Gateway (BNG).  This document defines a Remote Authentication Dial In User Service (RADIUS) attribute that carries lightweight 4over6 configuration information from AAA server to BNG.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sun-softwire-lw4over6-radext-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sun-softwire-lw4over6-radext-01.txt' />
+</reference>

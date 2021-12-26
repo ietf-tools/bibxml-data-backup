@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ucarion-json-type-definition'>
+<front>
+<title>JSON Type Definition</title>
+
+<author initials='U' surname='Carion' fullname='Ulysse Carion'>
+    <organization />
+</author>
+
+<date month='March' day='16' year='2020' />
+
+<abstract><t>This document proposes a format, called JSON Type Definition (JTD), for describing the shape of JavaScript Object Notation (JSON) messages.  Its main goals are to enable code generation from schemas as well as portable validation with standardized error indicators. To this end, JTD is intentionally limited to be no more expressive than the type systems of mainstream programming languages.  This intentional limitation, as well as the decision to make JTD schemas be JSON documents, makes tooling atop of JTD easier to build.  This document does not have IETF consensus and is presented here to facilitate experimentation with the concept of JTD.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ucarion-json-type-definition-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ucarion-json-type-definition-00.txt' />
+</reference>

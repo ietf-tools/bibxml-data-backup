@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-mvpn-fast-failover'>
+<front>
+<title>Multicast VPN fast upstream failover</title>
+
+<author initials='T' surname='Morin' fullname='Thomas Morin'>
+    <organization />
+</author>
+
+<author initials='R' surname='Kebler' fullname='Robert Kebler'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2016' />
+
+<abstract><t>This document defines multicast VPN extensions and procedures that allow fast failover for upstream failures, by allowing downstream PEs to take into account the status of Provider-Tunnels (P-tunnels) when selecting the upstream PE for a VPN multicast flow, and extending BGP MVPN routing so that a C-multicast route can be advertized toward a standby upstream PE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-mvpn-fast-failover-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-mvpn-fast-failover-01.txt' />
+</reference>

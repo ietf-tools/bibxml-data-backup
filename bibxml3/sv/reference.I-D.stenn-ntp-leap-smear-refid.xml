@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stenn-ntp-leap-smear-refid'>
+<front>
+<title>Network Time Protocol Leap Smear REFID</title>
+
+<author initials='H' surname='Stenn' fullname='Harlan Stenn'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2019' />
+
+<abstract><t>Leap Seconds are part of UTC.  NTP timestamps are based on POSIX timestamps, which require each day to have exactly 86,400 seconds per day.  Some applications and environments choose to "smear" leap second corrections over a period that can last up to 24 hours' time, and implement NTP servers that offer smeared time to clients asking them for the time.  Both NTP clients and operators have no current way to tell if an NTP server is offering leap-smeared time or not.  This is a problem.  Similarly, an NTP server may choose to offer leap-smeared time to clients that do not appear to know that a leap event is in-process. This is a problem.  This proposal offers a mechanism that provides a simple and clean solution to problems, by giving a way that clients (and operators) can trivially ask for leap-smeared time and detect a server that is offering leap-smeared time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stenn-ntp-leap-smear-refid-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stenn-ntp-leap-smear-refid-02.txt' />
+</reference>

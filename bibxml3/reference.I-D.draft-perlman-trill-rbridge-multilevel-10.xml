@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.perlman-trill-rbridge-multilevel'>
+<front>
+<title>Alternatives for Multilevel TRILL (Transparent Interconnection of Lots of Links)</title>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ghanwani' fullname='Anoop Ghanwani'>
+    <organization />
+</author>
+
+<author initials='H' surname='Zhai' fullname='Hongjun Zhai'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2015' />
+
+<abstract><t>Extending TRILL to multiple levels has challenges that are not addressed by the already-existing capability of IS-IS to have multiple levels.  One issue is with the handling of multi-destination packet distribution trees. Another issue is with TRILL switch nicknames.  There have been two proposed approaches.  One approach, which we refer to as the "unique nickname" approach, gives unique nicknames to all the TRILL switches in the multilevel campus, either by having the level-1/level-2 border TRILL switches advertise which nicknames are not available for assignment in the area, or by partitioning the 16-bit nickname into an "area" field and a "nickname inside the area" field.  The other approach, which we refer to as the "aggregated nickname" approach, involves hiding the nicknames within areas, allowing nicknames to be reused in different areas, by having the border TRILL switches rewrite the nickname fields when entering or leaving an area. Each of those approaches has advantages and disadvantages. This informational document suggests allowing a choice of approach in each area. This allows the simplicity of the unique nickname approach in installations in which there is no danger of running out of nicknames and allows the complexity of hiding the nicknames in an area to be phased into larger installations on a per- area basis.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-perlman-trill-rbridge-multilevel-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-perlman-trill-rbridge-multilevel-10.txt' />
+</reference>

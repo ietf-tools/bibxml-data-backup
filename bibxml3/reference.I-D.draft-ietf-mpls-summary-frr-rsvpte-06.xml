@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-summary-frr-rsvpte'>
+<front>
+<title>RSVP-TE Summary Fast Reroute Extensions for LSP Tunnels</title>
+
+<author initials='M' surname='Taillon' fullname='Mike Taillon'>
+    <organization />
+</author>
+
+<author initials='T' surname='Saad' fullname='Tarek Saad'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gandhi' fullname='Rakesh Gandhi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Deshmukh' fullname='Abhishek Deshmukh'>
+    <organization />
+</author>
+
+<author initials='M' surname='Jork' fullname='Markus Jork'>
+    <organization />
+</author>
+
+<author initials='V' surname='Beeram' fullname='Vishnu Beeram'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2019' />
+
+<abstract><t>This document defines Resource Reservation Protocol (RSVP) Traffic- Engineering (TE) signaling extensions that reduce the amount of RSVP signaling required for Fast Reroute (FRR) procedures and subsequently improve the scalability of the RSVP-TE signaling when undergoing FRR convergence after a link or node failure.  Such extensions allow the RSVP message exchange between the Point of Local Repair (PLR) and the Merge Point (MP) to be independent of the number of protected Label Switched Paths (LSPs) traversing between them when facility bypass FRR protection is used.  The signaling extensions are fully backwards compatible with nodes that do not support them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-summary-frr-rsvpte-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-summary-frr-rsvpte-06.txt' />
+</reference>

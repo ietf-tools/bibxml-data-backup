@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zamfir-explicit-resource-control-bundle'>
+<front>
+<title>Component Link Recording and Resource Control for GMPLS Link Bundles</title>
+
+<author initials='A' surname='Zamfir' fullname='Anca  Zamfir'>
+    <organization />
+</author>
+
+<date month='June' day='22' year='2005' />
+
+<abstract><t>Record Route is a useful administrative tool that has been used extensively by the service providers. However, when TE links are bundled, identification of label resource in RRO is not enough for the administrative purpose. Network service providers would like to know the component link within a TE link that is being used by a given LSP. In other words, when link bundling is used, resource recording requires mechanisms to specify the component link identifier, along with the TE link identifier and Label. As , it is not possible to record component link in the RRO, this draft defines the extensions to RSVP-TE [RFC3209] and [RFC3473] to specify component link identifiers for resource recording purposes. This draft also defines the ERO counterpart of the RRO extension. The ERO extensions are needed to perform explicit label/ resource control over bundled TE link. Hence, this draft defines the extensions to RSVP-TE [RFC3209] and [RFC3473] to specify component link identifiers for explicit resource control and recording over GMPLS link bundles.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zamfir-explicit-resource-control-bundle-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zamfir-explicit-resource-control-bundle-05.txt' />
+</reference>

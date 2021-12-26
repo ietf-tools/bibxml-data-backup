@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8803' target='https://www.rfc-editor.org/info/rfc8803'>
+<front>
+<title>0-RTT TCP Convert Protocol</title>
+<author initials='O.' surname='Bonaventure' fullname='O. Bonaventure' role='editor'><organization /></author>
+<author initials='M.' surname='Boucadair' fullname='M. Boucadair' role='editor'><organization /></author>
+<author initials='S.' surname='Gundavelli' fullname='S. Gundavelli'><organization /></author>
+<author initials='S.' surname='Seo' fullname='S. Seo'><organization /></author>
+<author initials='B.' surname='Hesmans' fullname='B. Hesmans'><organization /></author>
+<date year='2020' month='July' />
+<abstract><t>This document specifies an application proxy, called Transport Converter, to assist the deployment of TCP extensions such as Multipath TCP. A Transport Converter may provide conversion service for one or more TCP extensions. The conversion service is provided by means of the 0-RTT TCP Convert Protocol (Convert).</t><t>This protocol provides 0-RTT (Zero Round-Trip Time) conversion service since no extra delay is induced by the protocol compared to connections that are not proxied. Also, the Convert Protocol does not require any encapsulation (no tunnels whatsoever).</t><t>This specification assumes an explicit model, where the Transport Converter is explicitly configured on hosts. As a sample applicability use case, this document specifies how the Convert Protocol applies for Multipath TCP.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8803'/>
+<seriesInfo name='DOI' value='10.17487/RFC8803'/>
+</reference>

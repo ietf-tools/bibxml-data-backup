@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jobert-tsvwg-pre-congest-notif-mobile'>
+<front>
+<title>Pre-congestion notification in mobile networks</title>
+
+<author initials='S' surname='Jobert' fullname='Sebastien Jobert'>
+    <organization />
+</author>
+
+<author initials='I' surname='Hamchaoui' fullname='Isabelle Hamchaoui'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2012' />
+
+<abstract><t>Mobile networks may be divided into two main segments: the radio segment, and the wireline segment. This document highlights that the algorithms leading to pre-congestion notification (e.g. ECN marking) are usually significantly different for these two segments, and not defined or documented in general over the radio segment. It also explains that using ECN bits leads to having a unique signal for notifying a pre-congestion related to two separate segments with very different notification algorithms. Some consequences are questioned, as well as the potential benefits of being able to identify where the congestion comes from. This document finally discusses the possibility to take into account the radio conditions of the terminals when counting the volume of congestion over the radio segment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jobert-tsvwg-pre-congest-notif-mobile-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jobert-tsvwg-pre-congest-notif-mobile-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-jobert-tsvwg-pre-congest-notif-mobile-00.pdf' />
+</reference>

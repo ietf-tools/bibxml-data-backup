@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-rfc5202-bis'>
+<front>
+<title>Using the Encapsulating Security Payload (ESP) Transport Format with the Host Identity Protocol (HIP)</title>
+
+<author initials='P' surname='Jokela' fullname='Petri Jokela'>
+    <organization />
+</author>
+
+<author initials='R' surname='Moskowitz' fullname='Robert Moskowitz'>
+    <organization />
+</author>
+
+<author initials='P' surname='Nikander' fullname='Pekka Nikander'>
+    <organization />
+</author>
+
+<author initials='J' surname='Melen' fullname='Jan Melen'>
+    <organization />
+</author>
+
+<date month='September' day='23' year='2010' />
+
+<abstract><t>This memo specifies an Encapsulated Security Payload (ESP) based mechanism for transmission of user data packets, to be used with the Host Identity Protocol (HIP).  IESG Note  The following issues describe IESG concerns about this document.  The IESG expects that these issues will be addressed when future versions of HIP are designed.  In case of complex Security Policy Databases (SPDs) and the co- existence of HIP and security-related protocols such as IKE, implementors may encounter conditions that are unspecified in these documents.  For example, when the SPD defines an IP address subnet to be protected and a HIP host is residing in that IP address area, there is a possibility that the communication is encrypted multiple times.  Readers are advised to pay special attention when running HIP with complex SPD settings.  Future specifications should clearly define when multiple encryption is intended, and when it should be avoided.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-rfc5202-bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-rfc5202-bis-00.txt' />
+</reference>

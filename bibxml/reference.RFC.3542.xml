@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3542' target='https://www.rfc-editor.org/info/rfc3542'>
+<front>
+<title>Advanced Sockets Application Program Interface (API) for IPv6</title>
+<author initials='W.' surname='Stevens' fullname='W. Stevens'><organization /></author>
+<author initials='M.' surname='Thomas' fullname='M. Thomas'><organization /></author>
+<author initials='E.' surname='Nordmark' fullname='E. Nordmark'><organization /></author>
+<author initials='T.' surname='Jinmei' fullname='T. Jinmei'><organization /></author>
+<date year='2003' month='May' />
+<abstract><t>This document provides sockets Application Program Interface (API) to support &quot;advanced&quot; IPv6 applications, as a supplement to a separate specification, RFC 3493.  The expected applications include Ping, Traceroute, routing daemons and the like, which typically use raw sockets to access IPv6 or ICMPv6 header fields.  This document proposes some portable interfaces for applications that use raw sockets under IPv6.  There are other features of IPv6 that some applications will need to access: interface identification (specifying the outgoing interface and determining the incoming interface), IPv6 extension headers, and path Maximum Transmission Unit (MTU) information.  This document provides API access to these features too.  Additionally, some extended interfaces to libraries for the &quot;r&quot; commands are defined.  The extension will provide better backward compatibility to existing implementations that are not IPv6-capable.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3542'/>
+<seriesInfo name='DOI' value='10.17487/RFC3542'/>
+</reference>

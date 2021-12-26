@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-bundle-checksum'>
+<front>
+<title>Checksum Ciphersuites for the Bundle Protocol</title>
+
+<author initials='W' surname='Eddy' fullname='Wesley Eddy'>
+    <organization />
+</author>
+
+<date month='September' day='18' year='2007' />
+
+<abstract><t>The Delay-Tolerant Networking Bundle Protocol includes a custody transfer mechanism to provide acknowledgements of receipt for particular bundles.  No checksum is included in the basic DTN Bundle Protocol, however, so it is not possible to verify that bundles have been either forwarded or passed through various convergence layers without errors having been introduced.  This document remedies the situation by defining ciphersuites for use within the Bundle Security Protocol's Payload Security Block to provide error-detection functions regardless of an implementation's support for other, more heavy-weight, security-providing ciphersuites.  This creates the checksum service needed for error-free reliability, but does so at the expense of divorcing security concerns from the few new ciphersuite definitions.  This document lengthily discusses the pros and cons of this approach and the discussion points that combined to drive this design.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-bundle-checksum-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-checksum-00.txt' />
+</reference>

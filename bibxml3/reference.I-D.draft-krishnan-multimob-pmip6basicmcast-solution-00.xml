@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.krishnan-multimob-pmip6basicmcast-solution'>
+<front>
+<title>Proxy Mobile IPv6 Basic Multicast Support Solution</title>
+
+<author initials='S' surname='Krishnan' fullname='Suresh Krishnan'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schmidt' fullname='Thomas Schmidt'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2009' />
+
+<abstract><t>This document describes how multicast routing can be supported in Proxy Mobile IPv6 in a way similar to Mobile IPv6.  The Mobile Access Gateway tunnels MLD messages from the mobile nodes to local mobility anchor.  The Local Mobility Anchor joins the multicast group and starts forwarding the received multicast packets to the mobile access gateway.  In case of a handover the tunnel end point changes but the operation remains anchored at the local mobility anchor.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-krishnan-multimob-pmip6basicmcast-solution-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-krishnan-multimob-pmip6basicmcast-solution-00.txt' />
+</reference>

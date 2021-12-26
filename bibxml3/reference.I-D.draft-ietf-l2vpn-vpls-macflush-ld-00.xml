@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2vpn-vpls-macflush-ld'>
+<front>
+<title>MAC Flush Loop Detection in VPLS</title>
+
+<author initials='P' surname='Kwok' fullname='Paul Kwok'>
+    <organization />
+</author>
+
+<author initials='P' surname='Dutta' fullname='Pranjal Dutta'>
+    <organization />
+</author>
+
+<date month='December' day='7' year='2010' />
+
+<abstract><t>MAC Address Withdrawal is a mechanism described in [RFC4762] to remove or unlearn MAC addresses that have been dynamically learned, for faster convergence. Failure of mechanisms that control loop free connectivity (e.g Split Horizon) among VPLS PE nodes may cause MAC Address Withdrawal messages looping among those nodes, leading to Denial of Service (DoS) or complete failure of control plane in the PE nodes. This document describes a mechanism to detect and prevent loops of MAC Address Withdrawal messages in a VPLS PE node on such failures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2vpn-vpls-macflush-ld-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2vpn-vpls-macflush-ld-00.txt' />
+</reference>

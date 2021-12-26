@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5057' target='https://www.rfc-editor.org/info/rfc5057'>
+<front>
+<title>Multiple Dialog Usages in the Session Initiation Protocol</title>
+<author initials='R.' surname='Sparks' fullname='R. Sparks'><organization /></author>
+<date year='2007' month='November' />
+<abstract><t>Several methods in the Session Initiation Protocol (SIP) can create an association between endpoints known as a dialog.  Some of these methods can also create a different, but related, association within an existing dialog.  These multiple associations, or dialog usages, require carefully coordinated processing as they have independent life-cycles, but share common dialog state.  Processing multiple dialog usages correctly is not completely understood.  What is understood is difficult to implement.</t><t>This memo argues that multiple dialog usages should be avoided.  It discusses alternatives to their use and clarifies essential behavior for elements that cannot currently avoid them.</t><t>This is an informative document and makes no normative statements of any kind.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5057'/>
+<seriesInfo name='DOI' value='10.17487/RFC5057'/>
+</reference>

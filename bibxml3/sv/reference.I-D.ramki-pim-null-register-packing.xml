@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ramki-pim-null-register-packing'>
+<front>
+<title>PIM Null register packing</title>
+
+<author initials='V' surname='Kamath' fullname='Vikas Kamath'>
+    <organization />
+</author>
+
+<author initials='R' surname='Sundaram' fullname='Ramakrishnan Sundaram'>
+    <organization />
+</author>
+
+<author initials='R' surname='Banthia' fullname='Raunak Banthia'>
+    <organization />
+</author>
+
+<date month='April' day='12' year='2019' />
+
+<abstract><t>In PIM-SM networks PIM registers are sent from the first hop router to the RP (Rendezvous Point) to signal the presence of Multicast source in the network.  There are periodic PIM Null registers sent from first hop router to the RP to keep the state alive at the RP as long as the source is active.  The PIM Null register packet carries information about a single Multicast source and group.  This document defines a standard to send multiple Multicast source and group information in a single pim Null register packet and the interoperability between the PIM routers which do not understand the packet format with multiple Multicast source and group details.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ramki-pim-null-register-packing-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ramki-pim-null-register-packing-03.txt' />
+</reference>

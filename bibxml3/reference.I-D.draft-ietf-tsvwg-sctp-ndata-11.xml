@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-sctp-ndata'>
+<front>
+<title>Stream Schedulers and User Message Interleaving for the Stream Control Transmission Protocol</title>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<author initials='R' surname='Seggelmann' fullname='Robin Seggelmann'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2017' />
+
+<abstract><t>The Stream Control Transmission Protocol (SCTP) is a message oriented transport protocol supporting arbitrarily large user messages.  This document adds a new chunk to SCTP for carrying payload data.  This allows a sender to interleave different user messages that would otherwise result in head of line blocking at the sender.  Whenever an SCTP sender is allowed to send user data, it may choose from multiple outgoing SCTP streams.  Multiple ways for performing this selection, called stream schedulers, are defined.  A stream scheduler can choose to either implement, or not implement, user message interleaving.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-sctp-ndata-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-ndata-11.txt' />
+</reference>

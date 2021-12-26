@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ohta-practically-secure-dns'>
+<front>
+<title>Practically Secure DNS</title>
+
+<author initials='M' surname='Ohta' fullname='Masataka Ohta'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2011' />
+
+<abstract><t>Plain DNS without PKI is secure, if a chain of query/response communications between a client and an authoritative server relayed by zero or more intermediate resolvers and the authoritative server and all the resolvers are secure.  However, because of short (16bit) message ID, the communications composing the chain are not very secure without, or even with (port exhaustion attack is possible), source port randomization.  Still, plain DNS can be made practically secure, if the client makes two queries with independent message IDs to an address of a server (a resolver or a name server) and confirm that two replies are identical.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ohta-practically-secure-dns-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ohta-practically-secure-dns-00.txt' />
+</reference>

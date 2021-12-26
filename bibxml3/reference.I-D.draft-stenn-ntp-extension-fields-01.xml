@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stenn-ntp-extension-fields'>
+<front>
+<title>Network Time Protocol Version 4 (NTPv4) Extension Fields</title>
+
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mayer' fullname='Danny Mayer'>
+    <organization />
+</author>
+
+<author initials='H' surname='Stenn' fullname='Harlan Stenn'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2017' />
+
+<abstract><t>Network Time Protocol version 4 (NTPv4) defines the optional usage of extension fields.  An extension field, as defined in RFC 5905 [RFC5905], resides after the end of the NTP header, and supplies optional capabilities or information that is not conveyed in the standard NTP header.  This document updates RFC 5905 [RFC5905] by clarifying some points regarding NTP extension fields and their usage with legacy Message Authentication Codes (MACs).  With the adoption of this update, the authors recommend rescinding [Err3627].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stenn-ntp-extension-fields-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stenn-ntp-extension-fields-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pppext-eap-ttls'>
+<front>
+<title>EAP Tunneled TLS Authentication Protocol (EAP-TTLS)</title>
+
+<author initials='P' surname='Funk' fullname='Paul Funk'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blake-Wilson' fullname='Simon  Blake-Wilson'>
+    <organization />
+</author>
+
+<date month='July' day='20' year='2004' />
+
+<abstract><t>EAP-TTLS is an EAP protocol that extends EAP-TLS. In EAP-TLS, a TLS handshake is used to mutually authenticate a client and server. EAP- TTLS extends this authentication negotiation by using the secure connection established by the TLS handshake to exchange additional information between client and server. In EAP-TTLS, the TLS handshake may be mutual; or it may be one-way, in which only the server is authenticated to the client. The secure connection established by the handshake may then be used to allow the server to authenticate the client using existing, widely-deployed authentication infrastructures such as RADIUS. The authentication of the client may itself be EAP, or it may be another authentication protocol such as PAP, CHAP, MS-CHAP or MS-CHAP-V2.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pppext-eap-ttls-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pppext-eap-ttls-05.txt' />
+</reference>

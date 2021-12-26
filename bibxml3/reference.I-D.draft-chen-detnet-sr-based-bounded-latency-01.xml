@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-detnet-sr-based-bounded-latency'>
+<front>
+<title>Segment Routing (SR) Based Bounded Latency</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='X' surname='Geng' fullname='Xuesong Geng'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenqiang Li'>
+    <organization />
+</author>
+
+<date month='May' day='7' year='2019' />
+
+<abstract><t>One of the goals of DetNet is to provide bounded end-to-end latency for critical flows.  This document defines how to leverage Segment Routing (SR) to implement bounded latency.  Specifically, the SR Identifier (SID) is used to specify transmission time (cycles) of a packet.  When forwarding devices along the path follow the instructions carried in the packet, the bounded latency is achieved. This is called Cycle Specified Queuing and Forwarding (CSQF) in this document.  Since SR is a source routing technology, no per-flow state is maintained at intermediate and egress nodes, SR-based CSQF naturally supports flow aggregation that is deemed to be a key capability to allow DetNet to scale to large networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-detnet-sr-based-bounded-latency-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-detnet-sr-based-bounded-latency-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-cfrg-augpake'>
+<front>
+<title>Augmented Password-Authenticated Key Exchange (AugPAKE)</title>
+
+<author initials='S' surname='Shin' fullname='SeongHan Shin'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kobara' fullname='Kazukuni Kobara'>
+    <organization />
+</author>
+
+<date month='July' day='22' year='2015' />
+
+<abstract><t>This document describes a secure and highly-efficient augmented password-authenticated key exchange (AugPAKE) protocol where a user remembers a low-entropy password and its verifier is registered in the intended server.  In general, the user password is chosen from a small set of dictionary whose space is within the off-line dictionary attacks.  The AugPAKE protocol described here is secure against passive attacks, active attacks and off-line dictionary attacks (on the obtained messages with passive/active attacks).  Also, this protocol provides resistance to server compromise in the context that an attacker, who obtained the password verifier from the server, must at least perform off-line dictionary attacks to gain any advantage in impersonating the user.  The AugPAKE protocol is not only provably secure in the random oracle model but also the most efficient over the previous augmented PAKE protocols (SRP and AMP).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-cfrg-augpake-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-augpake-04.txt' />
+</reference>

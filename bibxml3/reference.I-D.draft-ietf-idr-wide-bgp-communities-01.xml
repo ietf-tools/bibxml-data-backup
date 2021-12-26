@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-wide-bgp-communities'>
+<front>
+<title>Wide BGP Communities Attribute</title>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lange' fullname='Andrew Lange'>
+    <organization />
+</author>
+
+<author initials='S' surname='Amante' fullname='Shane Amante'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jakma' fullname='Paul Jakma'>
+    <organization />
+</author>
+
+<author initials='R' surname='Steenbergen' fullname='Richard Steenbergen'>
+    <organization />
+</author>
+
+<date month='November' day='22' year='2015' />
+
+<abstract><t>Route tagging plays an important role in external BGP [RFC4271] relations, in communicating various routing policies between peers. It is also a very common best practice among operators to propagate various additional information about routes intra-domain.  The most common tool used today to attach various information about routes is through the use of BGP communities [RFC1997].  Such information is important to allow BGP speakers to perform some mutually agreed actions without the need to maintain a separate offline database for each tuple of prefix and associated set of action entries.  This document defines a new encoding which will enhance and simplify what can be accomplished today with the use of BGP communities.  The most important addition this specification makes over currently defined BGP communities is the ability to specify, carry as well as use for execution an operator's defined set of parameters.  It also provides an extensible platform for any new community encoding needs in the future.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-wide-bgp-communities-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-wide-bgp-communities-01.txt' />
+</reference>

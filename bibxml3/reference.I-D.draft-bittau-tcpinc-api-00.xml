@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bittau-tcpinc-api'>
+<front>
+<title>Interface Extensions for TCPINC</title>
+
+<author initials='A' surname='Bittau' fullname='Andrea Bittau'>
+    <organization />
+</author>
+
+<author initials='D' surname='Boneh' fullname='Dan Boneh'>
+    <organization />
+</author>
+
+<author initials='D' surname='Giffin' fullname='Daniel Giffin'>
+    <organization />
+</author>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mazieres' fullname='David Mazieres'>
+    <organization />
+</author>
+
+<author initials='E' surname='Smith' fullname='Eric Smith'>
+    <organization />
+</author>
+
+<date month='August' day='9' year='2015' />
+
+<abstract><t>TCP-ENO negotiates encryption at the transport layer.  It also defines a few parameters that are intended to be used or configured by applications.  This document specifies operating system interfaces for access for these TCP-ENO parameters.  We describe the interfaces in terms of socket options, the de facto standard API for adjusting per-connection behavior in TCP/IP, and sysctl, a popular mechanism for setting global defaults.  Operating systems that lack socket or sysctl functionality can implement similar interfaces in their native frameworks, but should ideally adapt their interfaces from those presented in this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bittau-tcpinc-api-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bittau-tcpinc-api-00.txt' />
+</reference>

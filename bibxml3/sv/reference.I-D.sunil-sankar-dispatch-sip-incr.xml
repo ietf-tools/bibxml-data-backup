@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sunil-sankar-dispatch-sip-incr'>
+<front>
+<title>Only Incremented header transmitted in Session Initiation Protocol (SIP)</title>
+
+<author initials='S' surname='Sinha' fullname='Sunil Sinha'>
+    <organization />
+</author>
+
+<date month='June' day='2' year='2016' />
+
+<abstract><t>This document outlines a new optional tag called "incr" as an extension for the SIP Message indicating that only those header(s) will be present in the subsequent request or response whose attribute is changed. This is necessary to increase the processing speed of any proxy server and also prevents fragmentation of messages over UDP and provides congestion control for larger messages in the Session Initiation Protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sunil-sankar-dispatch-sip-incr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sunil-sankar-dispatch-sip-incr-00.txt' />
+</reference>

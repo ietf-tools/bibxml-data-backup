@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tsvwg-ecn-tunnel'>
+<front>
+<title>Layered Encapsulation of Congestion Notification</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2007' />
+
+<abstract><t>This document redefines how the explicit congestion notification (ECN) field of the outer IP header of a tunnel should be constructed. It brings all IP in IP tunnels (v4 or v6) into line with the way IPsec tunnels now construct the ECN field, ensuring that the outer header reveals any congestion experienced so far on the path. It specifies the default ECN tunneling behaviour for any Diffserv per- hop behaviour (PHB), but also gives general principles to guide the design of alternate congestion marking behaviours for specific PHBs and for lower layer congestion notification schemes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tsvwg-ecn-tunnel-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-ecn-tunnel-00.txt' />
+</reference>

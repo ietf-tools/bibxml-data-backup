@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-intarea-grefrag'>
+<front>
+<title>GRE Tunnel Fragmentation</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='April' day='9' year='2015' />
+
+<abstract><t>GRE tunnels use IPv4 or IPv6 fragmentation of the delivery packet when the delivery packet exceeds the tunnel MTU, or when otherwise necessary.  This can cause problems when unmitigated IPv4 fragemntation ensues, or when middleboxes drop IPv6 fragments unconditionally.  This document proposes GRE tunnel fragmentation which avoids these pitfalls..</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-intarea-grefrag-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-intarea-grefrag-00.txt' />
+</reference>

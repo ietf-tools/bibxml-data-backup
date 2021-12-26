@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mptcp-api'>
+<front>
+<title>MPTCP Application Interface Considerations</title>
+
+<author initials='M' surname='Scharf' fullname='Michael Scharf'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ford' fullname='Alan Ford'>
+    <organization />
+</author>
+
+<date month='January' day='19' year='2013' />
+
+<abstract><t>Multipath TCP (MPTCP) adds the capability of using multiple paths to a regular TCP session.  Even though it is designed to be totally backward compatible to applications, the data transport differs compared to regular TCP, and there are several additional degrees of freedom that applications may wish to exploit.  This document summarizes the impact that MPTCP may have on applications, such as changes in performance.  Furthermore, it discusses compatibility issues of MPTCP in combination with non-MPTCP-aware applications. Finally, the document describes a basic application interface which is a simple extension of TCP's interface for MPTCP-aware applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mptcp-api-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mptcp-api-07.txt' />
+</reference>

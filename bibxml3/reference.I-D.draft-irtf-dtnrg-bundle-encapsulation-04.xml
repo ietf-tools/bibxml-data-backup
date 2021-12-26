@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-bundle-encapsulation'>
+<front>
+<title>Delay-Tolerant Networking Bundle-in-Bundle Encapsulation</title>
+
+<author initials='S' surname='Symington' fullname='Susan Symington'>
+    <organization />
+</author>
+
+<author initials='R' surname='Durst' fullname='Robert Durst'>
+    <organization />
+</author>
+
+<author initials='K' surname='Scott' fullname='Keith Scott'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2008' />
+
+<abstract><t>This document defines an extension block that may be used with the Bundle Protocol [2] within the context of a Delay-Tolerant Network architecture [6].  When included as part of a given bundle B, this extension block, called a Bundle-in-Bundle Encapsulation Block, indicates that one or more other bundles have been placed inside of the payload field of B's Bundle Payload Block according to the format defined in this document.  Hence, the Bundle-in-Bundle Encapsulation Block provides a mechanism for bundle-in-bundle encapsulation by indicating that one or more bundles are being transmitted as the payload of a bundle.  This extension block is expected to be of general utility in DTN.  It may be used, for example, to encapsulate a multicast bundle inside of a unicast bundle, or to encapsulate a bundle with one type of security protection inside of a bundle with a different type of security protection.  This document defines the format and processing of this new Bundle-in-Bundle Encapsulation Block and the contents of the Bundle Payload Block accompanying it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-bundle-encapsulation-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-encapsulation-04.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-interfaces'>
+<front>
+<title>Reusable Interface Definitions for Constrained RESTful Environments</title>
+
+<author initials='Z' surname='Shelby' fullname='Zach Shelby'>
+    <organization />
+</author>
+
+<author initials='M' surname='Vial' fullname='Matthieu Vial'>
+    <organization />
+</author>
+
+<author initials='M' surname='Koster' fullname='Michael Koster'>
+    <organization />
+</author>
+
+<author initials='C' surname='Groves' fullname='Christian Groves'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>This document defines a set of Constrained RESTful Environments (CoRE) Link Format Interface Descriptions [RFC6690] applicable for use in constrained environments.  These include the: Actuator, Paramter, Read-only parameter, Sensor, Batch, Linked Batch and Link List interfaces.  The Batch, Linked Batch and Link List interfaces make use of resource collections.  This document further describes how collections relate to interfaces.  Many applications require a set of interface descriptions in order provide the required functionality.  This document defines the concept of function sets to specify this set of interfaces and resources.  _Editor's note: The git repository for the draft is found at https://github.com/core-wg/interfaces_  _Editor's note: Two open issues are proposals for: Removing the binding interface in favour of the link list interface.  Changing "rel" type from one attribute to two to indicate src and destination._</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-interfaces-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-core-interfaces-09.txt' />
+</reference>

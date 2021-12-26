@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cem-dane-assertion'>
+<front>
+<title>HTTP DANE Validation Assertion</title>
+
+<author initials='C' surname='Mehner' fullname='Carl Mehner'>
+    <organization />
+</author>
+
+<date month='November' day='20' year='2014' />
+
+<abstract><t>This document defines a new HTTP header that allows web host operators to instruct user agents to remember the hosts' request for DANE (DNS-Based Authentication of Named Entities) validation over a period of time.  During that time, UAs will require that the host presents a certificate chain that will authenticate the Transport Layer Security connection using DANE.  By having hosts explicitly state that they have adopted DANE, UAs will only expend resources attempting DANE validation on hosts that request it.  Comments are solicited and should be addressed to the author</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cem-dane-assertion-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cem-dane-assertion-00.txt' />
+</reference>

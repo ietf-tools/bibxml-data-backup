@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.macdonald-simple-msrp-opaque-path'>
+<front>
+<title>Opaque MSRP Path Uri</title>
+
+<author initials='D' surname='MacDonald' fullname='Derek MacDonald'>
+    <organization />
+</author>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>The Message Session Relay Protocol(MSRP) does not allow efficient topology hiding, such that MSRP users can hide the IP Address of their systems.  This limitation is due to the fact that MSRP Path headers contain physical IP addresses.  This document describes a mechanism which adds a level of indirection to allow topology hiding. It defines the option tag msrp-opaque.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-macdonald-simple-msrp-opaque-path-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-macdonald-simple-msrp-opaque-path-00.txt' />
+</reference>

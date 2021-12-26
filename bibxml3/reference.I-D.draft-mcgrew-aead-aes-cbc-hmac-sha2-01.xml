@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mcgrew-aead-aes-cbc-hmac-sha2'>
+<front>
+<title>Authenticated Encryption with AES-CBC and HMAC-SHA</title>
+
+<author initials='D' surname='McGrew' fullname='David McGrew'>
+    <organization />
+</author>
+
+<author initials='K' surname='Paterson' fullname='Kenny Paterson'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2012' />
+
+<abstract><t>This document specifies algorithms for authenticated encryption with associated data (AEAD) that are based on the composition of the Advanced Encryption Standard (AES) in the Cipher Block Chaining (CBC) mode of operation for encryption, and the HMAC-SHA message authentication code (MAC).  These are randomized encryption algorithms, and thus are suitable for use with applications that cannot provide distinct nonces to each invocation of the AEAD encrypt operation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mcgrew-aead-aes-cbc-hmac-sha2-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mcgrew-aead-aes-cbc-hmac-sha2-01.txt' />
+</reference>

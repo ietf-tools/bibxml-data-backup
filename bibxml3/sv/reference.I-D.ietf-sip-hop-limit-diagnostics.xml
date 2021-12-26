@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-hop-limit-diagnostics'>
+<front>
+<title>Diagnostic Responses for Session Initiation Protocol Hop Limit Errors</title>
+
+<author initials='S' surname='Lawrence' fullname='Scott Lawrence'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2006' />
+
+<abstract><t>The Session Initiation Protocol (SIP) imposes a limit on the number of hops a request can transit on the way to its destination. When this limit is reached, a 483 (Too Many Hops) error response is returned. The present form of the 483 response does not provide enough information for the UAC or proxy on the path to diagnose failures whose symptom is that the hop limit is reached. This document specifies additional diagnostic information to be returned in a 483 response.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-hop-limit-diagnostics-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-hop-limit-diagnostics-03.txt' />
+</reference>

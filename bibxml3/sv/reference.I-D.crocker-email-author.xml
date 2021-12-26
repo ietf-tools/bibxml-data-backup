@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-email-author'>
+<front>
+<title>Email Author Header Field</title>
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+<organization />
+</author>
+<date year='2021' month='March' day='20' />
+<abstract><t>Internet mail defines the From: header field to indicate the author of the message's content and the Sender: field to indicate who initially handled the message, on the author's behalf.  The Sender: field is optional, if it has the same information as the From: field. This was not a problem, until development of stringent protections on use of the From: field.  It has prompted Mediators, such as mailing lists, to modify the From: field, to circumvent mail rejection caused by those protections.  In effect, the From: field has become dominated by its role as a handling identifier.</t><t> The current specification augments the altered use of the From: field, by specifying the Author: field, which ensures identification of the original author of the message and is not subject to modification by Mediators.  This version is published as an Experiment, to assess community interest, functional efficacy, and technical adequacy.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-crocker-email-author-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-crocker-email-author-04.txt'/>
+</reference>

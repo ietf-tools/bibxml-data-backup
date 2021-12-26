@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.soilandreyes-arcp'>
+<front>
+<title>The Archive and Packaging (arcp) URI scheme</title>
+
+<author initials='S' surname='Soiland-Reyes' fullname='Stian Soiland-Reyes'>
+    <organization />
+</author>
+
+<author initials='M' surname='Caceres' fullname='Marcos Caceres'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2018' />
+
+<abstract><t>This specification proposes the Application and Packaging URI scheme "arcp".  arcp URIs can be used to consume or reference hypermedia resources bundled inside a file archive or an application package, as well as to resolve URIs for archive resources within a programmatic framework.  This URI scheme provides mechanisms to generate a unique base URI to represent the root of the archive, so that relative URI references in a bundled resource can be resolved within the archive without having to extract the archive content on the local file system.  An arcp URI can be used for purposes of isolation (e.g. when consuming multiple archives), security constraints (avoiding "climb out" from the archive), or for externally identiyfing sub-resources referenced by hypermedia formats.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-soilandreyes-arcp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-soilandreyes-arcp-01.txt' />
+</reference>

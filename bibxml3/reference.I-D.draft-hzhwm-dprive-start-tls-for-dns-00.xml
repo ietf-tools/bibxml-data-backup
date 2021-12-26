@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hzhwm-dprive-start-tls-for-dns'>
+<front>
+<title>TLS for DNS: Initiation and Performance Considerations</title>
+
+<author initials='Z' surname='Zi' fullname='Zi'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhu' fullname='Liang Zhu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Heidemann' fullname='John Heidemann'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mankin' fullname='Allison Mankin'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wessels' fullname='Duane Wessels'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2014' />
+
+<abstract><t>This memo offers one approach to initiating TLS for DNS over the standard port (TCP/53).  Encryption provided by TLS eliminates opportunities for eavesdropping on DNS queries in the network.  In addition, and most importantly, the document discusses performance considerations to minimize overheads from using TCP and TLS with DNS. These considerations may apply to other approaches for DNS over TCP and TLS using other ports.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hzhwm-dprive-start-tls-for-dns-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hzhwm-dprive-start-tls-for-dns-00.txt' />
+</reference>

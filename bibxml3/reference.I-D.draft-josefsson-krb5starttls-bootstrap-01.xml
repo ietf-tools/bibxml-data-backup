@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josefsson-krb5starttls-bootstrap'>
+<front>
+<title>Kerberos V5 Reply Keys From TLS</title>
+
+<author initials='S' surname='Josefsson' fullname='Simon Josefsson'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2009' />
+
+<abstract><t>This document describes how the Kerberos V5 over TLS protocol together with a users' long term shared secret can be used to 1) allow clients to securely learn a realm's KDC X.509 certificate, 2) distribute the X.509 trust anchors used by the KDC, and 3) make it possible for clients to use Kerberos V5 over TLS without having to validate the server certificates.  We also describe how the Kerberos V5 over TLS protocol can be used to 4) avoid the need for a long term shared key between the user and the KDC by instead using TLS user authentication.  This goals are achieved by introducing two new Kerberos V5 pre- authentication mechanisms that modify how the Kerberos V5 reply key is derived.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josefsson-krb5starttls-bootstrap-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josefsson-krb5starttls-bootstrap-01.txt' />
+</reference>

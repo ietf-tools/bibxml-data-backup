@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-rfc2845bis'>
+<front>
+<title>Secret Key Transaction Authentication for DNS (TSIG)</title>
+
+<author initials='F' surname='Dupont' fullname='Francis Dupont'>
+    <organization />
+</author>
+
+<author initials='S' surname='Morris' fullname='Stephen Morris'>
+    <organization />
+</author>
+
+<date month='July' day='17' year='2018' />
+
+<abstract><t>This protocol allows for transaction level authentication using shared secrets and one way hashing.  It can be used to authenticate dynamic updates as coming from an approved client, or to authenticate responses as coming from an approved name server.  No provision has been made here for distributing the shared secrets: it is expected that a network administrator will statically configure name servers and clients using some out of band mechanism.  This document includes revised original TSIG specifications (RFC2845) and its extension for HMAC-SHA (RFC4635).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-rfc2845bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-rfc2845bis-00.txt' />
+</reference>

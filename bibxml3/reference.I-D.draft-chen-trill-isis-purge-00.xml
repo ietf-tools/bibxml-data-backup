@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-trill-isis-purge'>
+<front>
+<title>Extension to Purge Initiator Identification TLV for ISIS in TRILL</title>
+
+<author initials='G' surname='Chen' fullname='Gang Chen'>
+    <organization />
+</author>
+
+<date month='February' day='17' year='2013' />
+
+<abstract><t>This memo specified an extension of ISIS TLV for identifying purge initiator in TRILL environments.  With the extension, it's beneficial for operators to nail down the root cause when there is a corrupted LSP spread within a layer-2 network.  The defined TLV is expected to record the system ID, Nickname and impacted VLAN information. RBridge should propagate the TLV information without changes in order to flood the information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-trill-isis-purge-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-trill-isis-purge-00.txt' />
+</reference>

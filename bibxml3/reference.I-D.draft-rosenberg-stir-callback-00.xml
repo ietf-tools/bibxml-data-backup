@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosenberg-stir-callback'>
+<front>
+<title>Bootstrapping STIR Deployments with Self-Signed Certs and Callbacks</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2018' />
+
+<abstract><t>Robocalling has become an increasing problem in the Public Switched Telephone Network (PSTN).  A partial remedy for it is the provision of an authenticated caller ID in the PSTN, which today is lacking. Secure Telephone Identity Revisited (STIR) provides this through the usage of signed payloads in Session Initiation Protocol (SIP) calls. However, STIR deployment requires a global certificate system which allows for worldwide issuance of certifications that attest to which numbers a provider is responsible for.  Such a system is likely to take years to rollout.  To accelerate STIR deployment, this draft proposes a technique wherein STIR can be used without certificates that attest to number ownership.  This is done through a combination of self-signed certificates, reverse callbacks and cached validations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosenberg-stir-callback-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosenberg-stir-callback-00.txt' />
+</reference>

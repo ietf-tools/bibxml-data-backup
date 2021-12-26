@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-mptcp-connectivity-checks'>
+<front>
+<title>MPTCP Connectivity Checks</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2015' />
+
+<abstract><t>This document specifies an extension to minimize the delay induced by the presence of MPTCP-unfriendly nodes in some of the paths selected by a MPTCP endpoint, and which may support the establishment of MPTCP subflows.  Concretely, this procedure allows a MPTCP endpoint to assess whether the networks the endpoint connects to are compliant with MPTCP signals or not.  The procedure is not enabled for every new MPTCP connection; it is activated upon bootstrap or when a network attachment change occurs (e.g., attach to a new network, discover a new external IP address, etc.).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-mptcp-connectivity-checks-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-mptcp-connectivity-checks-00.txt' />
+</reference>

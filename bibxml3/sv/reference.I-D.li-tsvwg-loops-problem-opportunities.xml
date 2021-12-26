@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-tsvwg-loops-problem-opportunities'>
+<front>
+<title>LOOPS (Localized Optimizations on Path Segments) Problem Statement and Opportunities for Network-Assisted Performance Enhancement</title>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhou' fullname='Xingwang Zhou'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wang' fullname='Jianglong Wang'>
+    <organization />
+</author>
+
+<author initials='F' surname='Qin' fullname='Fengwei Qin'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>In various network deployments, end to end forwarding paths are partitioned into multiple segments.  For example, in some cloud-based WAN communications, stitching multiple overlay tunnels are used for traffic policy enforcement matters such as to optimize traffic distribution or to select paths exposing a lower latency.  Likewise, in satellite communications, the communication path is decomposed into two terrestrial segments and a satellite segment.  Such long- haul paths are naturally composed of multiple network segments with various encapsulation schemes.  Packet loss may show different characteristics on different segments.  Traditional transport protocols (e.g., TCP) respond to packet loss slowly especially in long-haul networks: they either wait for some signal from the receiver to indicate a loss and then retransmit from the sender or rely on sender's timeout which is often quite long. With the increase of end-to-end transport encryption (e.g., QUIC), traditional PEP (performance enhancing proxy) techniques such as TCP splitting are no longer applicable.  LOOPS (Local Optimizations on Path Segments) is a network-assisted performance enhancement over path segment and it aims to provide local in-network recovery to achieve better data delivery by making packet loss recovery faster.  In an overlay network scenario, LOOPS can be performed over a variety of the existing, or purposely created, tunnel-based path segments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-tsvwg-loops-problem-opportunities-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-tsvwg-loops-problem-opportunities-06.txt' />
+</reference>

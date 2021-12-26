@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bagnulo-v6ops-6man-nat64-pb-statement'>
+<front>
+<title>IPv6 - IPv4 Translators (NAT64) - Problem Statement and Analysis</title>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo  Bagnulo'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2007' />
+
+<abstract><t>RFC 4966 published on July 2007 deprecates the NAT-PT tool, the mechanism defined by the IETF to enable communications between IPv4 only nodes with IPv6 only nodes, letting the dual-stack approach as the preferred mechanism to enable nodes to be able to communicate with v6 and v4 nodes.  However, there are several reasons why the dual stack approach may not be adequate for a number of scenarios. For once, the dual-stack approach imposes the management of two networks in a site, the v6 one and the v4 one, increasing the costs of using IPv6.  In addition, as IPv4 public address space is depleted, it will no longer possible to access to IPv4 public addresses, making dual stack nodes even less attractive.  It is then considered necessary to explore alternative mechanisms that enable communication of v6 nodes and v4 nodes, other than the deprecated NAT-PT.  In order to do that, the first that is needed is to understand what capabilities are required and what constrains affect the design space.  The goal of this document is to state the different capabilities that can be required to IPv4 - IPv6 translators (hereafter called NAT64) and the constraints that affect the solution space.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bagnulo-v6ops-6man-nat64-pb-statement-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bagnulo-v6ops-6man-nat64-pb-statement-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vesely-vhlo'>
+<front>
+<title>Verified-Hello SMTP extension</title>
+
+<author initials='A' surname='Vesely' fullname='Alessandro Vesely'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2009' />
+
+<abstract><t>This memo defines an extension to the SMTP service that provides protocol support for weak authentication of SMTP clients.  Weakly authenticated clients enjoy an intermediate level of trust: they have no relying privileges, but can attempt to deliver mail to local users, are whitelisted from some filters, and may receive DSNs as needed.  Note that this treatment is what SMTP recommends for all clients. However, most servers operate filters to limit spam, thereby affecting the reliability of the mail forwarding system.  Verified- Hello recovers that reliability by providing for uncensored mail transmission in a framework where authenticated domains are responsible for the messages they send.  In addition, support is provided for an extensible set of authentication mechanisms, so that they can be managed and branded.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vesely-vhlo-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vesely-vhlo-04.txt' />
+</reference>

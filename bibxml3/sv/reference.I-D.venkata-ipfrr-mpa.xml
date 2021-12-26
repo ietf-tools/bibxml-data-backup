@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.venkata-ipfrr-mpa'>
+<front>
+<title>IP Fast Reroute using Multiple Path Algorithm (MPA)</title>
+
+<author initials='V' surname='Naidu' fullname='Venkata Naidu'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2004' />
+
+<abstract><t>This document describes a practical mechanism to implement IP fast reroute using multiple viable loop-free next hops, which are not necessarily shortest path to a destination. Upon a link failure, all the destinations reachable via the primary nexthop will be forwarded to pre-computed alternative loop free nexthops, if any, without much delay. The mechanism does not impose any new protocol message/capability exchange. The mechanism does not use any tunneling techniques. It is shown that simple changes to existing IGP shortest path computation and routing table structures are sufficient to achieve the desired functionality. More over, routers which implement the proposed mechanism can co-exist and can be fully backward compatible with existing unmodified routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-venkata-ipfrr-mpa-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-venkata-ipfrr-mpa-00.txt' />
+</reference>

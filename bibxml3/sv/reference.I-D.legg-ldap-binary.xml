@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.legg-ldap-binary'>
+<front>
+<title>Lightweight Directory Access Protocol (LDAP): The Binary Encoding Option</title>
+
+<author initials='S' surname='Legg' fullname='Steven Legg'>
+    <organization />
+</author>
+
+<date month='January' day='30' year='2006' />
+
+<abstract><t>Each attribute stored in a Lightweight Directory Access Protocol (LDAP) directory has a defined syntax (i.e., data type). A syntax definition specifies how attribute values conforming to the syntax are normally represented when transferred in LDAP operations. This representation is referred to as the LDAP-specific encoding to distinguish it from other methods of encoding attribute values. This document defines an attribute option, the binary option, which can be used to specify that the associated attribute values are instead encoded according to the Basic Encoding Rules (BER) used by X.500 directories.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-legg-ldap-binary-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-legg-ldap-binary-04.txt' />
+</reference>

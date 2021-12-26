@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mcbride-edge-data-discovery-overview'>
+<front>
+<title>Overview of Edge Data Discovery</title>
+
+<author initials='M' surname='McBride' fullname='Mike McBride'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kutscher' fullname='Dirk Kutscher'>
+    <organization />
+</author>
+
+<author initials='E' surname='Schooler' fullname='Eve Schooler'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bernardos' fullname='Carlos Bernardos'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2019' />
+
+<abstract><t>This document describes the problem of distributed data discovery in edge computing.  Increasing numbers of IoT devices and sensors are generating a torrent of data that originates at the very edges of the network and that flows upstream, if it flows at all.  Sometimes that data must be processed or transformed (transcoded, subsampled, compressed, analyzed, annotated, combined, aggregated, etc.) on edge equipment, particularly in places where multiple high bandwidth streams converge and where resources are limited.  Support for edge data analysis is critical to make local, low-latency decisions (e.g., regarding predictive maintenance, the dispatch of emergency services, identity, authorization, etc.).  In addition, (transformed) data may be cached, copied and/or stored at multiple locations in the network on route to its final destination.  Although the data might originate at the edge, for example in factories, automobiles, video cameras, wind farms, etc., as more and more distributed data is created, processed and stored, it becomes increasingly dispersed throughout the network.  There needs to be a standard way to find it.  New and existing protocols will need to be identified/developed/enhanced for distributed data discovery at the network edge and beyond.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mcbride-edge-data-discovery-overview-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mcbride-edge-data-discovery-overview-01.txt' />
+</reference>

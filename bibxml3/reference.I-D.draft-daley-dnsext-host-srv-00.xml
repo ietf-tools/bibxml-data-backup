@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.daley-dnsext-host-srv'>
+<front>
+<title>Use of DNS SRV records for host selection</title>
+
+<author initials='G' surname='Daley' fullname='Greg Daley'>
+    <organization />
+</author>
+
+<author initials='R' surname='Ng' fullname='Raymond Ng'>
+    <organization />
+</author>
+
+<date month='December' day='31' year='2009' />
+
+<abstract><t>Where multiple application servers are able to receive inbound connections from clients, it is desirable provide some policy control over client behaviour.  This specification allows application service providers to provide addresses of multiple servers in response to DNS queries, while specifying failover and load balancing behaviours.  Multiple servers are specified using existing protocol mechanisms for DNS Service records (SRV).  An experimental record definition is described, which can be implemented on existing systems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-daley-dnsext-host-srv-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-daley-dnsext-host-srv-00.txt' />
+</reference>

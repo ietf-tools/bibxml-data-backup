@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.whyte-select-pkc-qsh'>
+<front>
+<title>Criteria for selection of public-key cryptographic algorithms for quantum-safe hybrid cryptography</title>
+
+<author initials='J' surname='Schanck' fullname='John Schanck'>
+    <organization />
+</author>
+
+<author initials='W' surname='Whyte' fullname='William Whyte'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhenfei Zhang'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2016' />
+
+<abstract><t>Authenticated key exchange mechanisms instantiated with cryptosystems based on integer factorization, finite field discrete log, or elliptic curve discrete log, are believed to be secure now but are vulnerable to a harvest-then-decrypt attack where an attacker who cannot currently break the mechanism records the traffic anyway, then decrypts it at some point in the future when quantum computers become available.  The Quantum-safe Hybrid approach is a modular design, allowing any authenticated key exchange mechanism to be protected against the harvest-then-decrypt attack by exchanging additional secret material protected with an ephemeral key for a quantum-safe public key cryptographic algorithm and including that secret material in the Key Derivation Function (KDF) run at the end of the key exchange.  This approach has been proposed in TLS as the Quantum-safe Hybrid handshake mechanism for Transport Layer Security protocol (QSH_TLS).  This document provides a guideline to criteria for selecting public key encryption algorithms approved for experimental use in the quantum safe hybrid setting.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-whyte-select-pkc-qsh-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-whyte-select-pkc-qsh-02.txt' />
+</reference>

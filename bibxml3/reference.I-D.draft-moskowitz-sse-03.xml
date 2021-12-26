@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moskowitz-sse'>
+<front>
+<title>Session Security Envelope</title>
+
+<author initials='R' surname='Moskowitz' fullname='Robert Moskowitz'>
+    <organization />
+</author>
+
+<author initials='I' surname='Faynberg' fullname='Igor Faynberg'>
+    <organization />
+</author>
+
+<author initials='H' surname='Lu' fullname='Huilan Lu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='P' surname='Giacomin' fullname='Pierpaolo Giacomin'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This memo specifies the details of the Session Security Envelope (SSE).  SSE is a session protocol aiming to guarantee confidentiality, integrity and authentication completely independently by the underlying context, namely network and transport layers.  A single session using the SEE protocol can include a single transport session or multiple transport sessions.  This mean that SSE can survive the break-down in network and transport layers or to attacks carried against them.  SSE is also applicable in networks lacking in classic inter-networking and transport protocols SSE relies on modern AEAD block cipher modes of operations, a class of block cipher modes which allows, at the same time, to authenticate the message while encrypting a part of it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moskowitz-sse-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moskowitz-sse-03.txt' />
+</reference>

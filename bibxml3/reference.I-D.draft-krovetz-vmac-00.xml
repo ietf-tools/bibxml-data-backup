@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.krovetz-vmac'>
+<front>
+<title>VMAC: Message Authentication Code using Universal Hashing</title>
+
+<author initials='T' surname='Krovetz' fullname='Ted Krovetz'>
+    <organization />
+</author>
+
+<date month='November' day='8' year='2006' />
+
+<abstract><t>This specification describes how to generate an authentication tag using the VMAC message authentication algorithm. VMAC is designed to have exceptional performance in software on 64-bit CPU architectures while performing well on 32-bit architectures. Measured speeds are as low as one-half CPU cycle per byte on the 64-bit Intel Core 2 architecture, and under five cycles per byte on recent 32-bit PowerPC and Intel processors. To generate the authentication tag on a given message, a "universal" hash function is applied to the message and key to produce a short, fixed-length hash value, and this hash value is then xor'ed with a key-derived pseudorandom pad. VMAC tags can be either 64 or 128 bits in length and have proven forgery probabilities on the order of 1/2"59 and 1/2"94, respectively.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-krovetz-vmac-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-krovetz-vmac-00.txt' />
+</reference>

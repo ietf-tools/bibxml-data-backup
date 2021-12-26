@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jangir-replay-attack-protection'>
+<front>
+<title>IPSec Replay Attack Protection in Multisender Environment</title>
+
+<author initials='M' surname='Jangir' fullname='Mohanlal Jangir'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2004' />
+
+<abstract><t>The IPsec Architecture [RFC2401] and IPsec transform RFCs [RFC2402, RFC2406] define certain mechanisms for protecting IP traffic. One of the mechanisms defined is replay attack protection. But this mechanism is not addressed in multisender environment where multiple senders are sending packets for same destination SA (This includes sharing of SA as well as multicast). This document reviews the issues in multisender environment and addresses solution for this by identifying the sending SA and having replay attack protection against each sending SA. The documents also summarizes the changes needed in AH, ESP, Key management protocols, which would enable IPSec to protect against replay attack protection in multisender environment for same destination SA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jangir-replay-attack-protection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jangir-replay-attack-protection-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.swami-tsvwg-tcp-dclor'>
+<front>
+<title>Decorrelated Loss Recovery (DCLOR) Using SACK Option for Spurious Timeouts</title>
+
+<author initials='Y' surname='Swami' fullname='Yogesh Swami'>
+    <organization />
+</author>
+
+<author initials='K' surname='Le' fullname='Khiem Le'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2006' />
+
+<abstract><t>A spurious timeout in TCP forces the sender to unnecessarily retransmit one complete congestion window of data into the network. In addition, the congestion state of the network could change substantially after a spurious timeout. In this draft we propose a conservative congestion response algorithm afert spurious timeout that takes network state into account.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-swami-tsvwg-tcp-dclor-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-swami-tsvwg-tcp-dclor-07.txt' />
+</reference>

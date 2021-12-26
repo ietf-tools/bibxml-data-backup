@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5384' target='https://www.rfc-editor.org/info/rfc5384'>
+<front>
+<title>The Protocol Independent Multicast (PIM) Join Attribute Format</title>
+<author initials='A.' surname='Boers' fullname='A. Boers'><organization /></author>
+<author initials='I.' surname='Wijnands' fullname='I. Wijnands'><organization /></author>
+<author initials='E.' surname='Rosen' fullname='E. Rosen'><organization /></author>
+<date year='2008' month='November' />
+<abstract><t>A &quot;Protocol Independent Multicast - Sparse Mode&quot; Join message sent by a given node identifies one or more multicast distribution trees that that node wishes to join.  Each tree is identified by the combination of a multicast group address and a source address (where the source address is possibly a &quot;wild card&quot;).  Under certain conditions it can be useful, when joining a tree, to specify additional information related to the construction of the tree.  However, there has been no way to do so until now.  This document describes a modification of the Join message that allows a node to associate attributes with a particular tree.  The attributes are encoded in Type-Length-Value format.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5384'/>
+<seriesInfo name='DOI' value='10.17487/RFC5384'/>
+</reference>

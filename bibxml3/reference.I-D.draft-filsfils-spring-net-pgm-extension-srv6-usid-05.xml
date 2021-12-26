@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.filsfils-spring-net-pgm-extension-srv6-usid'>
+<front>
+<title>Network Programming extension: SRv6 uSID instruction</title>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='P' surname='Camarillo' fullname='Pablo Camarillo'>
+    <organization />
+</author>
+
+<author initials='D' surname='Cai' fullname='Dezhong Cai'>
+    <organization />
+</author>
+
+<author initials='D' surname='Voyer' fullname='Daniel Voyer'>
+    <organization />
+</author>
+
+<author initials='I' surname='Meilik' fullname='Israel Meilik'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jonnalagadda' fullname='Prem Jonnalagadda'>
+    <organization />
+</author>
+
+<author initials='D' surname='Melman' fullname='David Melman'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Liu' fullname='Yisong Liu'>
+    <organization />
+</author>
+
+<date month='May' day='18' year='2020' />
+
+<abstract><t>The SRv6 "micro segment" (SRv6 uSID or uSID for short) instruction is a straightforward extension of the SRv6 Network Programming model:  o  The SRv6 Control Plane is leveraged without any change  o  The SRH dataplane encapsulation is leveraged without any change  o  Any SID in the SID list can carry micro segments  This enables:  o  ultra-scale (e.g. multi-domain 5G deployments)  o  minimum MTU overhead  o  installed-base reuse</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-filsfils-spring-net-pgm-extension-srv6-usid-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-filsfils-spring-net-pgm-extension-srv6-usid-05.txt' />
+</reference>

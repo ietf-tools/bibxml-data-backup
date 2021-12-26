@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8824' target='https://www.rfc-editor.org/info/rfc8824'>
+<front>
+<title>Static Context Header Compression (SCHC) for the Constrained Application Protocol (CoAP)</title>
+<author initials='A.' surname='Minaburo' fullname='A. Minaburo'><organization /></author>
+<author initials='L.' surname='Toutain' fullname='L. Toutain'><organization /></author>
+<author initials='R.' surname='Andreasen' fullname='R. Andreasen'><organization /></author>
+<date year='2021' month='June' />
+<abstract><t>This document defines how to compress Constrained Application Protocol (CoAP) headers using the Static Context Header Compression and fragmentation (SCHC) framework. SCHC defines a header compression mechanism adapted for Constrained Devices. SCHC uses a static description of the header to reduce the header's redundancy and size. While RFC 8724 describes the SCHC compression and fragmentation framework, and its application for IPv6/UDP headers, this document applies SCHC to CoAP headers. The CoAP header structure differs from IPv6 and UDP, since CoAP uses a flexible header with a variable number of options, themselves of variable length. The CoAP message format is asymmetric: the request messages have a header format different from the format in the response messages. This specification gives guidance on applying SCHC to flexible headers and how to leverage the asymmetry for more efficient compression Rules.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8824'/>
+<seriesInfo name='DOI' value='10.17487/RFC8824'/>
+</reference>

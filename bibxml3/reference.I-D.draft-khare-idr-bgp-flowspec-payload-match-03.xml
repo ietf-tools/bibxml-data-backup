@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.khare-idr-bgp-flowspec-payload-match'>
+<front>
+<title>BGP FlowSpec Payload Matching</title>
+
+<author initials='A' surname='Khare' fullname='Anurag Khare'>
+    <organization />
+</author>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<author initials='M' surname='Gallagher' fullname='Michael Gallagher'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kasavchenko' fullname='Kirill Kasavchenko'>
+    <organization />
+</author>
+
+<date month='May' day='1' year='2019' />
+
+<abstract><t>The rise in frequency, volume, and pernicious effects of DDoS attacks has elevated them from fare for the specialist to generalist press. Numerous reports detail the taxonomy of DDoS types, the varying motivations of their attackers, as well as the resulting business and reputation loss of their targets.  BGP FlowSpec (RFC 5575, "Dissemination of Flow Specification Rules") can be used to rapidly disseminate filters that thwart attacks, being particularly effective against the volumetric type.  Operators can use existing FlowSpec components to match on pre-defined packet header fields.  However recent enhancements to forwarding plane filter implementations allow matches at arbitary locations within the packet header and, to some extent, the payload.  This capability can be used to detect highly amplified attacks whose attack signature remains relatively constant while values in the packet header vary, as well as the burgeoning variety of tunneled traffic.  We define a new FlowSpec component, "Flexible Match Conditions", with similar matching semantics to those of existing components.  This component will allow the operator to define bounded match conditions using bit offsets and a variety of match types.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-khare-idr-bgp-flowspec-payload-match-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-khare-idr-bgp-flowspec-payload-match-03.txt' />
+</reference>

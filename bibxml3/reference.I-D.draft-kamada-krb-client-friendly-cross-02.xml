@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kamada-krb-client-friendly-cross'>
+<front>
+<title>Client-Friendly Cross-Realm Model for Kerberos 5</title>
+
+<author initials='K' surname='Kamada' fullname='Ken&apos;ichi Kamada'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sakane' fullname='Shoichi  Sakane'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2007' />
+
+<abstract><t>This document proposes a cross-realm traversal model, which is suitable for resource-limited clients, for Kerberos Version 5. This model provides a way to move the cost of consecutive Ticket-Granting Service (TGS) exchanges from clients to Key Distribution Centers (KDCs) and a way to reduce the traversal cost by generating a direct inter-realm relationship between two realms. The document describes behavior of clients and KDCs, but does not specify any wire format, which need to be specified separately.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kamada-krb-client-friendly-cross-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kamada-krb-client-friendly-cross-02.txt' />
+</reference>

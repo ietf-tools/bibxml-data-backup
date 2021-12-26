@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.groves-core-senml-bto'>
+<front>
+<title>SenML Base Time Offset Attribute</title>
+
+<author initials='C' surname='Groves' fullname='Christian Groves'>
+    <organization />
+</author>
+
+<author initials='W' surname='Yang' fullname='Weiwei Yang'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2016' />
+
+<abstract><t>SenML [I-D.ietf-core-senml] defines a base time attribute and time value which is used to determine the time when a value is recorded. In some applications a SenML package will contain a series of records related to a constant sample time interval, e.g. once every 60 seconds.  This means that the time attribute will be required for each record.  This document defines a new "time offset" base attribute that allows a sender to include the time for the sample interval between records.  If the "time offset" base attribute is used the sender will not send the time attribute for each record, minimising message and storage size.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-groves-core-senml-bto-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-groves-core-senml-bto-00.txt' />
+</reference>

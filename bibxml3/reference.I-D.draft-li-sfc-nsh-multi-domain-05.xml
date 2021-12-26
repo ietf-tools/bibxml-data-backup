@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-sfc-nsh-multi-domain'>
+<front>
+<title>Multi-domain Service Forwarding For NSH</title>
+
+<author initials='G' surname='Li' fullname='Guanwen Li'>
+    <organization />
+</author>
+
+<author initials='G' surname='Li' fullname='Guanglei Li'>
+    <organization />
+</author>
+
+<author initials='T' surname='Li' fullname='Taixin Li'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Xu' fullname='Qi Xu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Feng' fullname='Bohao Feng'>
+    <organization />
+</author>
+
+<author initials='H' surname='Zhou' fullname='Hua-chun Zhou'>
+    <organization />
+</author>
+
+<date month='September' day='27' year='2018' />
+
+<abstract><t>This document describes the mechanism to achieve multi-domain service forwarding for NSH. The proposed mechanism adopts a horizontal deployment structure, which divides a multi-domain SFC into several segmental SFCs in the control plane and each domain creates its own SFP independently in data plane. A label is proposed to identify different cross-domain flows at the classifier by extending the metadata of the NSH encapsulation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-sfc-nsh-multi-domain-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-sfc-nsh-multi-domain-05.txt' />
+</reference>

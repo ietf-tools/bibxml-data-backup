@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.housley-stir-enhance-rfc8226'>
+<front>
+<title>Enhanced JWT Claim Constraints for STIR Certificates</title>
+
+<author initials='R' surname='Housley' fullname='Russ Housley'>
+    <organization />
+</author>
+
+<date month='January' day='21' year='2021' />
+
+<abstract><t>RFC 8226 provides a certificate extension to constrain the JWT claims that can be included in the PASSporT as defined in RFC 8225.  If the signer includes a JWT claim outside the constraint boundaries, then the recipient will reject the entire PASSporT.  This document defines additional ways that the JWT claims can be constrained.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-housley-stir-enhance-rfc8226-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-housley-stir-enhance-rfc8226-00.txt' />
+</reference>

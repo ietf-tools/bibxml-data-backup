@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.masotta-tftpexts-windowsize-opt'>
+<front>
+<title>TFTP Windowsize Option</title>
+
+<author initials='P' surname='Masotta' fullname='Patrick Masotta'>
+    <organization />
+</author>
+
+<date month='September' day='26' year='2014' />
+
+<abstract><t>The Trivial File Transfer Protocol (RFC1350) is a simple, lock-step, file transfer protocol which allows a client to get or put a file onto a remote host. One of its primary uses is in the early stages of nodes booting from a Local Area Network. TFTP has been used for this application because it is very simple to implement. The Employment of a lock-step scheme limits throughput when used on a LAN.  This document describes a TFTP option which allows the client and server to negotiate a window size of consecutive blocks to send as an alternative for replacing the single block lock-step schema. The TFTP option mechanism employed is described in TFTP Option Extension (RFC2347).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-masotta-tftpexts-windowsize-opt-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-masotta-tftpexts-windowsize-opt-12.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kumaki-murai-pce-pcep-extension-l3vpn'>
+<front>
+<title>PCEP extensions for a BGP/MPLS IP-VPN</title>
+
+<author initials='K' surname='Kumaki' fullname='Kenji Kumaki'>
+    <organization />
+</author>
+
+<author initials='T' surname='Murai' fullname='Tomoki Murai'>
+    <organization />
+</author>
+
+<author initials='P' surname='JIANG' fullname='PENG JIANG'>
+    <organization />
+</author>
+
+<date month='October' day='16' year='2013' />
+
+<abstract><t>IP Virtual Private Networks (IP-VPNs) allow Service Providers to offer customers connectivity between sites across an IP Backbone. These VPNs can be supported using BGP/MPLS and the connections can be created by using MPLS Traffic Engineered (TE) Label Switched Paths (LSPs). The paths of these LSPs must be computed to provide the connectivity between customer sites. Path selection may be dependent on a variety of factors including traffic engineering constraints and bandwidth requirements.  It is highly desirable for VPN customers to be able to dynamically establish their MPLS TE LSPs for interconnectivity between BGP/MPLS IP-VPN sites. The Path Computation Element (PCE) can determine the optimal paths of TE LSPs within an MPLS network. This document defines how to extend the PCEP to support the dynamic creation of MPLS TE LSPs between BGP/MPLS IP-VPN sites.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kumaki-murai-pce-pcep-extension-l3vpn-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kumaki-murai-pce-pcep-extension-l3vpn-12.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bannister-dbis-custom'>
+<front>
+<title>Directory-Based Information Services: Custom Maps</title>
+
+<author initials='M' surname='Bannister' fullname='Mark Bannister'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2014' />
+
+<abstract><t>This document extends Directory-Based Information Services (DBIS) described in [draft-bannister-dbis-mapping-00] to support custom databases.  The custom database schema SHALL be backwards compatible with the Network Information Service [NIS] but stored within [X.500] entries so that they may be resolved with the Lightweight Directory Access Protocol [RFC4510].  A custom database contains arbitrary key/value pairs.  This document describes configuration maps [draft-bannister-dbis- mapping-00] for custom databases, and database entries referenced by those maps.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bannister-dbis-custom-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bannister-dbis-custom-01.txt' />
+</reference>

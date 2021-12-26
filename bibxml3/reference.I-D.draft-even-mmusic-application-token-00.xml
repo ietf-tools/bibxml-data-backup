@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.even-mmusic-application-token'>
+<front>
+<title>The Session Description Protocol (SDP) Application Token Attribute</title>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lennox' fullname='Jonathan Lennox'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2013' />
+
+<abstract><t>The RTP fixed header includes the payload type number and the SSRC values of the RTP stream.  RTP defines how you de-multiplex streams within an RTP session, but in some use cases applications need further identifiers in order to identify the application semantics associated with particular streams within the session.  This document defines a mechanism to provide the mapping between the SSRCs of RTP streams and the application semantics by defining extensions to RTP and RTCP messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-even-mmusic-application-token-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-even-mmusic-application-token-00.txt' />
+</reference>

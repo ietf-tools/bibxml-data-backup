@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-aqm-dualq-coupled'>
+<front>
+<title>DualQ Coupled AQM for Low Latency, Low Loss and Scalable Throughput</title>
+
+<author initials='K' surname='Schepper' fullname='Koen Schepper'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='O' surname='Bondarenko' fullname='Olga Bondarenko'>
+    <organization />
+</author>
+
+<author initials='I' surname='Tsang' fullname='Ing Tsang'>
+    <organization />
+</author>
+
+<date month='May' day='10' year='2017' />
+
+<abstract><t>Data Centre TCP (DCTCP) was designed to provide predictably low queuing latency, near-zero loss, and throughput scalability using explicit congestion notification (ECN) and an extremely simple marking behaviour on switches.  However, DCTCP does not co-exist with existing TCP traffic---throughput starves.  So, until now, DCTCP could only be deployed where a clean-slate environment could be arranged, such as in private data centres.  This specification defines `DualQ Coupled Active Queue Management (AQM)' to allow scalable congestion controls like DCTCP to safely co-exist with classic Internet traffic.  The Coupled AQM ensures that a flow runs at about the same rate whether it uses DCTCP or TCP Reno/Cubic, but without inspecting transport layer flow identifiers.  When tested in a residential broadband setting, DCTCP achieved sub-millisecond average queuing delay and zero congestion loss under a wide range of mixes of DCTCP and `Classic' broadband Internet traffic, without compromising the performance of the Classic traffic.  The solution also reduces network complexity and eliminates network configuration.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-aqm-dualq-coupled-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-aqm-dualq-coupled-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-dnsop-weighted-address-records'>
+<front>
+<title>New weighted resource record for traffic scheduling</title>
+
+<author initials='H' surname='Zhang' fullname='Haikuo Zhang'>
+    <organization />
+</author>
+
+<author initials='P' surname='Zuo' fullname='Peng Zuo'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2018' />
+
+<abstract><t>Scheduling traffic in proportion to different nodes can optimize bandwidth utilization and improve user experience when the Internet traffic exceeds the bandwidth limit of a CDN cache node.  This document defines AX and AAAAX RR types by adding weight field to existing A and AAAA resource records.  A group of weighted records will be sorted in the DNS response according to the weight in AX and AAAAX records.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-dnsop-weighted-address-records-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-dnsop-weighted-address-records-00.txt' />
+</reference>

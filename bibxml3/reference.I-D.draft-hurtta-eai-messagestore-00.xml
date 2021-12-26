@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hurtta-eai-messagestore'>
+<front>
+<title>Message Store requirements for Internationalized Email</title>
+
+<author initials='K' surname='Hurtta' fullname='Kari Hurtta'>
+    <organization />
+</author>
+
+<date month='March' day='22' year='2007' />
+
+<abstract><t>The Email Address Internationalization (EAI) is implemented by allowing UTF-8 characters in SMTP envelope and mail headers. UTF8SMTP extension of ESMTP takes care that mails with UTF-8 characters in SMTP envelope and mail headers are not delivered to EAI non-compliant SMTP servers. This document describes mechanism how to keep messages with UTF-8 characters on mail headers separated from EAI non-compliant Mail User Agents. This document also describes general requirements for UTF8SMTP Message Store.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hurtta-eai-messagestore-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hurtta-eai-messagestore-00.txt' />
+</reference>

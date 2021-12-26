@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5325' target='https://www.rfc-editor.org/info/rfc5325'>
+<front>
+<title>Licklider Transmission Protocol - Motivation</title>
+<author initials='S.' surname='Burleigh' fullname='S. Burleigh'><organization /></author>
+<author initials='M.' surname='Ramadas' fullname='M. Ramadas'><organization /></author>
+<author initials='S.' surname='Farrell' fullname='S. Farrell'><organization /></author>
+<date year='2008' month='September' />
+<abstract><t>This document describes the motivation for the development of the Licklider Transmission Protocol (LTP) designed to provide retransmission-based reliability over links characterized by extremely long message round-trip times (RTTs) and/or frequent interruptions in connectivity.  Since communication across interplanetary space is the most prominent example of this sort of environment, LTP is principally aimed at supporting &quot;long-haul&quot; reliable transmission in interplanetary space, but it has applications in other environments as well.</t><t>In an Interplanetary Internet setting deploying the Bundle protocol, LTP is intended to serve as a reliable convergence layer over single-hop deep-space radio frequency (RF) links.  LTP does Automatic Repeat reQuest (ARQ) of data transmissions by soliciting selective-acknowledgment reception reports.  It is stateful and has no negotiation or handshakes.</t><t>This document is a product of the Delay Tolerant Networking Research Group and has been reviewed by that group.  No objections to its publication as an RFC were raised.  This memo defines an Experimental  Protocol for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5325'/>
+<seriesInfo name='DOI' value='10.17487/RFC5325'/>
+</reference>

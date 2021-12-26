@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.leddy-6man-truncate'>
+<front>
+<title>IPv6 Packet Truncation</title>
+
+<author initials='J' surname='Leddy' fullname='John Leddy'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2018' />
+
+<abstract><t>This document defines IPv6 packet truncation procedures.  When an IPv6 source node originates a packet, it can mark the packet as being eligible for truncation and forward it towards its destination.  If an intermediate node cannot forward the packet because of an MTU issue, it truncates the packet, marks it as being truncated, and, again, forwards it towards its destination.  When the destination node receives the packet, it detects that it has been truncated and sends an ICMP message to the source node.  The ICMP message contains MTU information that the source node uses to update its Path MTU estimate.  The above-mentioned procedures enhance Path MTU Discovery (PMTUD) by eliminating its reliance on the network's ability to deliver ICMP messages from an intermediate node to the source node.  However, the above-mentioned procedures require the network to deliver ICMP messages from the destination node to the source node.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-leddy-6man-truncate-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-leddy-6man-truncate-04.txt' />
+</reference>

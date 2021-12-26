@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irino-ipfix-ie-order'>
+<front>
+<title>Order of Information Elements</title>
+
+<author initials='H' surname='Irino' fullname='Hitoshi Irino'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2007' />
+
+<abstract><t>This draft describes guidelines for the order of Information Elements of the IPFIX protocol for the creation of Templates. It aims to improve the efficiency of the Collecting Process on the assumption that multiple Exporting Processes send Flow Records containing the same Information Elements to a Collecting Process. Exporters can make (almost) the same Template from the same combination of Information Elements by applying the order rule defined in this draft. Furthermore, some Templates will have a suitable data structure for hardware processing if the rule is applied because the rule defines that fixed-length Information Elements and other Information Elements are separated in position.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irino-ipfix-ie-order-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irino-ipfix-ie-order-02.txt' />
+</reference>

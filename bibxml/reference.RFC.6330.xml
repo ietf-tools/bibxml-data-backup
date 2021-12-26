@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6330' target='https://www.rfc-editor.org/info/rfc6330'>
+<front>
+<title>RaptorQ Forward Error Correction Scheme for Object Delivery</title>
+<author initials='M.' surname='Luby' fullname='M. Luby'><organization /></author>
+<author initials='A.' surname='Shokrollahi' fullname='A. Shokrollahi'><organization /></author>
+<author initials='M.' surname='Watson' fullname='M. Watson'><organization /></author>
+<author initials='T.' surname='Stockhammer' fullname='T. Stockhammer'><organization /></author>
+<author initials='L.' surname='Minder' fullname='L. Minder'><organization /></author>
+<date year='2011' month='August' />
+<abstract><t>This document describes a Fully-Specified Forward Error Correction (FEC) scheme, corresponding to FEC Encoding ID 6, for the RaptorQ FEC code and its application to reliable delivery of data objects.</t><t>RaptorQ codes are a new family of codes that provide superior flexibility, support for larger source block sizes, and better coding efficiency than Raptor codes in RFC 5053.  RaptorQ is also a fountain code, i.e., as many encoding symbols as needed can be generated on the fly by the encoder from the source symbols of a source block of data.  The decoder is able to recover the source block from almost any set of encoding symbols of sufficient cardinality -- in most cases, a set of cardinality equal to the number of source symbols is sufficient; in rare cases, a set of cardinality slightly more than the number of source symbols is required.</t><t>The RaptorQ code described here is a systematic code, meaning that all the source symbols are among the encoding symbols that can be generated.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6330'/>
+<seriesInfo name='DOI' value='10.17487/RFC6330'/>
+</reference>

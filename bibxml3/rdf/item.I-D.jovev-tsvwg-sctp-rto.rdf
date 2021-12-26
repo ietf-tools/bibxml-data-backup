@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-jovev-tsvwg-sctp-rto-04.txt'>
+    <title>"Determining SCTP's Retransmission Timer", Dimitar Jovev, Maksim Proshin</title>
+    <link>http://www.ietf.org/internet-drafts/draft-jovev-tsvwg-sctp-rto-04.txt</link>
+    <description>This document defines a modification in the RFC 4960 [RFC4960] defined Stream Control Transmission Protocol's (SCTP's) Retransmission Timer (RTO) calculation method.  The modification is aimed to reduce the frequency of spurious T3 timeouts, which are caused by underestimated RTO values, derived by the [RFC4960] defend RTO calculation method.  The proposed modification aligns the RTO calculation method with the characteristics of the statistical estimator algorithms, which are used for SRTT and RTTVAR calculation, the SCTP protocol data transfer rules and the characteristics of the data packets' arrival pattern in the telecom signalling networks.</description>
+    <dc:date>2019-05-09T07:00:00-00:00</dc:date>
+</item>

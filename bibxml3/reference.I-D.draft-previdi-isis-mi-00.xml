@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.previdi-isis-mi'>
+<front>
+<title>IS-IS Multi-instance</title>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<date month='May' day='21' year='2007' />
+
+<abstract><t>This draft describes a mechanism that allows a single router to share one or more links among multiple IS-IS routing protocol instances. Multiple instances allow the isolation of resources associated with each instance. Routers will form instance specific adjacencies, exchange instance specific routing updates and compute paths utilizing instance specific LSDB information. Each PDU will contain a new TLV identifying the instance to which the PDU belongs. This allows a network operator to deploy multiple IS-IS instances in parallel, using the same set of links when required and still have the capability of computing instance specific paths. This draft does not address the forwarding paradigm that needs to be used in order to ensure data PDUs are forwarded according to the paths computed by a specific instance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-previdi-isis-mi-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-previdi-isis-mi-00.txt' />
+</reference>

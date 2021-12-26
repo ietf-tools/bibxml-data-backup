@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.petithuguenin-sip-outbound-fragmentation'>
+<front>
+<title>Preventing Fragmentation for Client Initiated Connections in the Session  Initiation Protocol (SIP)</title>
+
+<author initials='M' surname='Petit-Huguenin' fullname='Marc Petit-Huguenin'>
+    <organization />
+</author>
+
+<date month='December' day='7' year='2006' />
+
+<abstract><t>There is cases where a Session Initiation Protocol (SIP) client can initiate a bidirectional UDP stream or a congestion controlled protocol connection to a SIP server but the SIP server cannot do the same in the other direction. The server can reuse the existing bidirectional UDP stream or connection but cannot use a congestion controlled protocol connection if the client chose to use a bidirectional UDP stream. This document described a method to force the client to initiate a congestion controlled protocol connection to the server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-petithuguenin-sip-outbound-fragmentation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-petithuguenin-sip-outbound-fragmentation-00.txt' />
+</reference>

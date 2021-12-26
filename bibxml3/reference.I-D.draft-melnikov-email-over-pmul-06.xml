@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melnikov-email-over-pmul'>
+<front>
+<title>Multicast Email (MULE) over Allied Communications Publication (ACP) 142</title>
+
+<author initials='D' surname='Wilson' fullname='David Wilson'>
+    <organization />
+</author>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2018' />
+
+<abstract><t>Allied Communications Publication (ACP) 142 defines P_MUL, which is a protocol for reliable multicast suitable for bandwidth constrained and delayed acknowledgement (Emissions Control or "EMCON") environments running over UDP.  This document defines an application protocol called MULE (Multicast Email) for transferring of Internet Mail messages (as described in RFC 5322) over P_MUL (as defined in ACP 142A).  MULE enables Message Transfer Agents (MTA) to MTA transfer and doesn't provide service similar to SMTP Submission (as described in RFC 6409).  This document explains how MULE can be used in conjunction with Simple Mail Transfer Protocol (SMTP, RFC 5321), including some common SMTP extensions, to provide an alternate MTA to MTA transfer mechanism.  This is not an IETF specification, but describes an existing implementation.  It is provided in order to facilitate interoperable implementations and third-party diagnostics.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melnikov-email-over-pmul-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melnikov-email-over-pmul-06.txt' />
+</reference>

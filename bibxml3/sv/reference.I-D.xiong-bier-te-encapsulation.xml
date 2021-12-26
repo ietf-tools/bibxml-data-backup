@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xiong-bier-te-encapsulation'>
+<front>
+<title>BIER-TE Encapsulation</title>
+
+<author initials='Q' surname='Xiong' fullname='Quan Xiong'>
+    <organization />
+</author>
+
+<author initials='f' surname='hu' fullname='fangwei hu'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zheng Zhang'>
+    <organization />
+</author>
+
+<date month='July' day='18' year='2017' />
+
+<abstract><t>Traffic Engineering for Bit Index Explicit Replication (BIER-TE) shares part of architecture , definition and packet format with Bit Index Explicit Replication (BIER) according to the introduce in [I-D.eckert-bier-te-arch].  BIER-TE supports the traffic engineering by explicit hop-by-hop forwarding and loose hop forwarding of packets.[I-D.ietf-bier-mpls-encapsulation] specifies a BIER encapsulation that BIER header contains a bitstring in which each bit represents exactly one egress router in the domain.  This document proposes a set of extensions to BIER encapsulation for BIER-TE.  The extensions define the BIER-TE header which contains serveral bitstrings and each bit in each bitstring represents one or more adjacencies in BIER-TE domain.  The encapsulation can be used both in an MPLS network and a non-MPLS network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xiong-bier-te-encapsulation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xiong-bier-te-encapsulation-00.txt' />
+</reference>

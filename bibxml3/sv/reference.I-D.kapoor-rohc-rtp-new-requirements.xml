@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kapoor-rohc-rtp-new-requirements'>
+<front>
+<title>RObust Header Compression (ROHC): Support for Reordering and Constant  IP-ID</title>
+
+<author initials='R' surname='Kapoor' fullname='Rohit Kapoor'>
+    <organization />
+</author>
+
+<date month='March' day='17' year='2005' />
+
+<abstract><t>RObust Header Compression (ROHC), RFC 3095, defines a framework for header compression, along with a number of compression protocols (profiles). This document seeks to add support for two issues to basic RoHC profiles, (a) the ability to handle reordering and (b) avoid extra header overhead when IP-ID is a constant value. The first issue can be supported by making the value of p (which is part of the RoHC interpretation interval) configurable. The second issue is already supported in the IP Profile of RoHC (RFC 3843). The discussion of this IP-ID issue in the current document merely replicates the discussion in RFC 3843 regarding constant IP-ID.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kapoor-rohc-rtp-new-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kapoor-rohc-rtp-new-requirements-00.txt' />
+</reference>

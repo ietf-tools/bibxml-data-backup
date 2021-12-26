@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melnikov-sasl-auxprop-attrs'>
+<front>
+<title>An LDAP Schema for CMU SASL auxiliary properties plugins</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='April' day='2' year='2004' />
+
+<abstract><t>The CMU SASL implementation of the RFC 2222 defines an API for auxiliary properties (auxprop) plugins. Auxprop plugins can store properties. A property can be a user password in cleartext or in a hashed form used by a particular SASL mechanism, or any other information associated with the user. This document describes a schema for the storage of auxprop properties in an LDAP directory server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melnikov-sasl-auxprop-attrs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melnikov-sasl-auxprop-attrs-00.txt' />
+</reference>

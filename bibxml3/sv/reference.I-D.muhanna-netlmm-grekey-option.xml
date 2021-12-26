@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.muhanna-netlmm-grekey-option'>
+<front>
+<title>GRE Key Option for Proxy Mobile IPv6</title>
+
+<author initials='A' surname='Muhanna' fullname='Ahmad Muhanna'>
+    <organization />
+</author>
+
+<author initials='M' surname='Khalil' fullname='Mohamed Khalil'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri  Gundavelli'>
+    <organization />
+</author>
+
+<author initials='K' surname='Leung' fullname='Kent Leung'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2008' />
+
+<abstract><t>The Proxy Mobile IPv6 base specification and Proxy Mobile IPv6 support for IPv4 allow the mobile node's IPv4 and IPv6 traffic between the local mobility anchor and the mobile access gateway to be tunneled using IPv6 or IPv4 encapsulation headers.  These encapsulation modes do not offer the tunnel end-points the required semantics to expose a service identifier that can be used to identify traffic for a certain classification, such as for supporting mobile nodes that are using overlapping private IPv4 addressing.  The extension defined in this document allow the mobile access gateway and the local mobility anchor to negotiate GRE encapsulation mode and exchange the GRE keys for marking the flows, so that differential processing can be applied by the tunnel peers over those flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-muhanna-netlmm-grekey-option-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-muhanna-netlmm-grekey-option-04.txt' />
+</reference>

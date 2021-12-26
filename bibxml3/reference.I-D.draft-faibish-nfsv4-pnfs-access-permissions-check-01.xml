@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.faibish-nfsv4-pnfs-access-permissions-check'>
+<front>
+<title>pNFS Access Permissions Check</title>
+
+<author initials='M' surname='Eisler' fullname='Mike Eisler'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2009' />
+
+<abstract><t>This document describes an extension to the pNFS protocol addressing  a gap related to the access permission checks to data servers used by  the MDS in layouts sent to the clients. The draft addresses both the  client access permission checks as well as the MDS access permissions  to the data servers. The draft will address new errors related to  access permission denial to devices included in valid pNFS layouts.  The draft will also address the case when clients request direct NFS  access to the MDS and the MDS has no permission to access some of the  data servers included in valid layouts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-faibish-nfsv4-pnfs-access-permissions-check-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-faibish-nfsv4-pnfs-access-permissions-check-01.txt' />
+</reference>

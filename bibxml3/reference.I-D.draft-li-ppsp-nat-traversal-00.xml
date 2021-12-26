@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-ppsp-nat-traversal'>
+<front>
+<title>PPSP NAT traversal</title>
+
+<author initials='L' surname='Li' fullname='Lichun Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wang' fullname='Jun Wang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Meng' fullname='Yu Meng'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>This document proposes a NAT traversal solution using ICE for PPSP. To use ICE with PPSP, this document proposes some modifications to ICE and some requirements on PPSP.  First, capable PPSP peers function as STUN/relay servers, and PPSP protocol is used to discover them.  Second, PPSP protocol is used to convey candidate addresses. Third, in addition to STUN message, PPSP message is proposed as an option to test connectivity.  Fourth, as an option, proxy peer is proposed to relay PPSP messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-ppsp-nat-traversal-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-ppsp-nat-traversal-00.txt' />
+</reference>

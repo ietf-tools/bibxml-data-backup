@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liang-idr-bgp-flowspec-time'>
+<front>
+<title>BGP FlowSpec with Time Constraints</title>
+
+<author initials='J' surname='You' fullname='Jianjie You'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zhuang' fullname='Shunwan Zhuang'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2015' />
+
+<abstract><t>The BGP flow specification (FlowSpec) is an additional tool to mitigate the effects of Distributed Denial of Service (DDoS) attacks. Since DDoS attacks are dynamic, filtering of a flow may only be necessary for some specified time, and be undesirable at other times. This document proposes a new BGP path attribute called "Flow Extended Attribute", which carries expected valid period information for a FlowSpec rule.  So network administrators can control certain types of traffic in a specified period.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liang-idr-bgp-flowspec-time-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liang-idr-bgp-flowspec-time-00.txt' />
+</reference>

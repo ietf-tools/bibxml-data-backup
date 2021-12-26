@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-winfo-format'>
+<front>
+<title>An Extensible Markup Language (XML) Based Format for Watcher Information</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<date month='January' day='31' year='2003' />
+
+<abstract><t>Watchers are defined as entities that request (i.e., subscribe to) information about a resource. There is fairly complex state associated with these subscriptions. The union of the state for all subscriptions to a particular resource is called the watcher information for that resource. This state is dynamic, changing as subscribers come and go. As a result, it is possible, and indeed useful, to subscribe to the watcher information for a particular resource. In order to enable this, a format is needed to describe the state of watchers on a resource. This specification describes an XML document format for such state.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-winfo-format-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-winfo-format-04.txt' />
+</reference>

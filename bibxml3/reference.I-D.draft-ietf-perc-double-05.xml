@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-perc-double'>
+<front>
+<title>SRTP Double Encryption Procedures</title>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jones' fullname='Paul Jones'>
+    <organization />
+</author>
+
+<author initials='A' surname='Roach' fullname='Adam Roach'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2017' />
+
+<abstract><t>In some conferencing scenarios, it is desirable for an intermediary to be able to manipulate some RTP parameters, while still providing strong end-to-end security guarantees.  This document defines SRTP procedures that use two separate but related cryptographic operations to provide hop-by-hop and end-to-end security guarantees.  Both the end-to-end and hop-by-hop cryptographic algorithms can utilize an authenticated encryption with associated data scheme or take advantage of future SRTP transforms with different properties.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-perc-double-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-perc-double-05.txt' />
+</reference>

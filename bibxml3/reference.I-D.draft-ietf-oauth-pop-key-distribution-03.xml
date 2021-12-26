@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-oauth-pop-key-distribution'>
+<front>
+<title>OAuth 2.0 Proof-of-Possession: Authorization Server to Client Key Distribution</title>
+
+<author initials='J' surname='Bradley' fullname='John Bradley'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hunt' fullname='Phil Hunt'>
+    <organization />
+</author>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='February' day='24' year='2017' />
+
+<abstract><t>RFC 6750 specified the bearer token concept for securing access to protected resources.  Bearer tokens need to be protected in transit as well as at rest.  When a client requests access to a protected resource it hands-over the bearer token to the resource server.  The OAuth 2.0 Proof-of-Possession security concept extends bearer token security and requires the client to demonstrate possession of a key when accessing a protected resource.  This document describes how the client obtains this keying material from the authorization server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-oauth-pop-key-distribution-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-pop-key-distribution-03.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-pop-key-distribution-03.pdf' />
+</reference>

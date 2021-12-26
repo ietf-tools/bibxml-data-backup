@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rmt-pi-norm-revised'>
+<front>
+<title>NACK-Oriented Reliable Multicast Protocol</title>
+
+<author initials='B' surname='Adamson' fullname='Brian Adamson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<author initials='U' surname='London' fullname='University London'>
+    <organization />
+</author>
+
+<author initials='J' surname='Macker' fullname='Joseph Macker'>
+    <organization />
+</author>
+
+<date month='April' day='24' year='2009' />
+
+<abstract><t>This document describes the messages and procedures of the Negative- ACKnowledgment (NACK) Oriented Reliable Multicast (NORM) Protocol. This protocol is designed to provide end-to-end reliable transport of bulk data objects or streams over generic IP multicast routing and forwarding services.  NORM uses a selective, negative acknowledgment mechanism for transport reliability and offers additional protocol mechanisms to allow for operation with minimal a priori coordination among senders and receivers.  A congestion control scheme is specified to allow the NORM protocol to fairly share available network bandwidth with other transport protocols such as Transmission Control Protocol (TCP).  It is capable of operating with both reciprocal multicast routing among senders and receivers and with asymmetric connectivity (possibly a unicast return path) between the senders and receivers.  The protocol offers a number of features to allow different types of applications or possibly other higher level transport protocols to utilize its service in different ways.  The protocol leverages the use of FEC-based repair and other IETF Reliable Multicast Transport (RMT) building blocks in its design. This document obsoletes RFC 3940.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rmt-pi-norm-revised-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rmt-pi-norm-revised-11.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rmt-pi-norm-revised-11.pdf' />
+</reference>

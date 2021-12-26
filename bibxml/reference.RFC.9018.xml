@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9018' target='https://www.rfc-editor.org/info/rfc9018'>
+<front>
+<title>Interoperable Domain Name System (DNS) Server Cookies</title>
+<author initials='O.' surname='Sury' fullname='O. Sury'><organization /></author>
+<author initials='W.' surname='Toorop' fullname='W. Toorop'><organization /></author>
+<author initials='D.' surname='Eastlake 3rd' fullname='D. Eastlake 3rd'><organization /></author>
+<author initials='M.' surname='Andrews' fullname='M. Andrews'><organization /></author>
+<date year='2021' month='April' />
+<abstract><t>DNS Cookies, as specified in RFC 7873, are a lightweight DNS transaction security mechanism that provide limited protection to DNS servers and clients against a variety of denial-of-service amplification, forgery, or cache-poisoning attacks by off-path attackers.</t><t>This document updates RFC 7873 with precise directions for creating Server Cookies so that an anycast server set including diverse implementations will interoperate with standard clients, with suggestions for constructing Client Cookies in a privacy-preserving fashion, and with suggestions on how to update a Server Secret.  An IANA registry listing the methods and associated pseudorandom function suitable for creating DNS Server Cookies has been created with the method described in this document as the first and, as of the time of publication, only entry.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9018'/>
+<seriesInfo name='DOI' value='10.17487/RFC9018'/>
+</reference>

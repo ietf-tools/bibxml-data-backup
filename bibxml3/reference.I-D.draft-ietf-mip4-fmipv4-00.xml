@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mip4-fmipv4'>
+<front>
+<title>Mobile IPv4 Fast Handovers</title>
+
+<author initials='R' surname='Koodli' fullname='Rajeev Koodli'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Charles Perkins'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2006' />
+
+<abstract><t>The Mobile IPv6 fast handover document [2] specifies a protocol to improve latency and packet loss resulting from Mobile IPv6 handover operations. This document adapts the protocol for IPv4 networks to improve performance over Mobile IPv4 operations, including processing of Agent Advertisements, new Care of Address acquisition and Registration Request and Reply. However, operation without Foreign Agent function at a router is also feasible. In addition, the protocol may be used transparently on hosts which do not support Mobile IP, but with limited movement across subnets. Using the concepts outlined in [2], this document also addresses movement detection, IP address configuration and location update latencies during a handover. For reducing the IP address configuration, the document currently proposes that the new CoA is always made to be the new access router's IP address. Additional mechanisms may be defined in the future versions of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mip4-fmipv4-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mip4-fmipv4-00.txt' />
+</reference>

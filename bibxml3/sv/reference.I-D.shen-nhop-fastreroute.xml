@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shen-nhop-fastreroute'>
+<front>
+<title>Nexthop Fast ReRoute for IP and MPLS</title>
+
+<author initials='N' surname='Shen' fullname='Naiming Shen'>
+    <organization />
+</author>
+
+<date month='July' day='22' year='2004' />
+
+<abstract><t>This document describes a mechanism called NFRR (Nexthop Fast ReRoute) to perform fast re-route for any type of traffic in the event of a link/node failure or a nexthop unreachable. The protected traffic can be IP, MPLS, unicast or multicast. The re-routed traffic can either be destined to the nexthop router or to the next-nexthop router. RSVP explicitly routed LSPs are used as a tool to perform the local patch for minimizing the packet loss.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shen-nhop-fastreroute-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shen-nhop-fastreroute-01.txt' />
+</reference>

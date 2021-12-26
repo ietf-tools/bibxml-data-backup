@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.whittle-ivip-arch'>
+<front>
+<title>Ivip (Internet Vastly Improved Plumbing) Architecture</title>
+
+<author initials='R' surname='Whittle' fullname='Robin Whittle'>
+    <organization />
+</author>
+
+<date month='January' day='13' year='2010' />
+
+<abstract><t>Ivip (Internet Vastly Improved Plumbing) is a core-edge separation solution to the routing scaling problem, for both IPv4 and IPv6.  It provides portable address space which is suitable for multihoming and inbound traffic engineering (TE) to end-user networks of all types and sizes.  The subset of the global unicast address space which is used in this fashion is called SPI (Scalable Provider Independent) space.  End-user networks divide their SPI space into "micronets", each with a common mapping to a particular ETR (Egress Tunnel Router) address.  ITRs (Ingress Tunnel Routers) receive packets which are addressed to SPI addresses and, after looking up the mapping at a local query server, tunnel traffic packets to the ETR which delivers them to the end-user network.  Ivip pushes mapping changes in real- time to local full-database query servers - such as in each ISP. These answer ITRs' mapping queries and push subsequent changes to the mapping to any ITRs which would still be caching the mapping of an earlier reply.  The mapping for a micronet consists of a single ETR address.  ITRs make no decisions between multiple ETR addresses. End-user networks would typically contract a separate company to change the mapping of their micronet, in response to the reachability of their ETRs and TE and portability between ISPs.  Ivip includes two extensions for ITR-to-ETR tunneling without encapsulation and the resulting Path MTU Discovery problems - one for IPv4 and the other for IPv6.  Both involve modifying the IP header and require most DFZ routers to be upgraded.  Ivip is a good basis for the TTR (Translating Tunnel Router) approach to mobility, in which mobile hosts retain an SPI micronet of one IPv4 address (or IPv6 /64) no matter what physical addresses they are using, including behind NAT. TTR mobility for both IPv4 and IPv6 involves generally optimal paths and works with unmodified correspondent hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-whittle-ivip-arch-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-whittle-ivip-arch-03.txt' />
+</reference>

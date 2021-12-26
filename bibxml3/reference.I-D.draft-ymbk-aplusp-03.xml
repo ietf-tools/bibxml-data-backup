@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ymbk-aplusp'>
+<front>
+<title>The A+P Approach to the IPv4 Address Shortage</title>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<author initials='O' surname='Maennel' fullname='Olaf Maennel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zorz' fullname='Jan Zorz'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bellovin' fullname='Steven Bellovin'>
+    <organization />
+</author>
+
+<author initials='L' surname='Cittadini' fullname='Luca Cittadini'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2009' />
+
+<abstract><t>We are facing the exhaustion of the IANA IPv4 free IP address pool. Unfortunately, IPv6 is not yet deployed widely enough to fully replace IPv4, and it is unrealistic to expect that this is going to change before we run out of IPv4 addresses.  Letting hosts seamlessly communicate in an IPv4-world without assigning a unique globally routable IPv4 address to each of them is a challenging problem.  This draft discusses the possibility of address sharing by treating some of the port number bits as part of an extended IPv4 address (Address plus Port, or A+P).  Instead of assigning a single IPv4 address to a device, we propose to extended the address by "stealing" bits from the port number in the TCP/UDP header, leaving the applications a reduced range of ports.  This means assigning the same IP to different clients (e.g., CPE's, mobile phones), each with its port-range.  In the face of IPv4 address exhaustion, the need for addresses is stronger than the need to be able to address thousands of applications on a single host.  If address translation is needed, the end-user should be in control of the translation process - not some smart boxes in the core.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ymbk-aplusp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ymbk-aplusp-03.txt' />
+</reference>

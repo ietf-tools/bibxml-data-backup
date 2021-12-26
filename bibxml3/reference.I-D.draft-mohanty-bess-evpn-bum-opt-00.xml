@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mohanty-bess-evpn-bum-opt'>
+<front>
+<title>BGP EVPN Flood Traffic Optimization</title>
+
+<author initials='s' surname='satyamoh@cisco.com' fullname='satyamoh@cisco.com'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ghosh' fullname='Mrinmoy Ghosh'>
+    <organization />
+</author>
+
+<author initials='S' surname='Breeze' fullname='Sandy Breeze'>
+    <organization />
+</author>
+
+<author initials='J' surname='Uttaro' fullname='Jim Uttaro'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>In EVPN, the Broadcast, Unknown Unicast and Multicast (BUM) traffic is sent to all the routers participating in the EVPN instance.  In a multi-homing scenario, when more than one PEs share the same Ethernet Segment, i.e. there are more than one PEs in a redundancy group, only the PE that is the Designated-Forwarder (DF) for the ES will forward that packet on the access interface whereas all non-DF PEs will drop the packet.  From the perspective of the network, this is quite wasteful.  This is especially true if there are significantly more PEs on the Ethernet Segment.  This draft explores this problem and provides a solution for the same.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mohanty-bess-evpn-bum-opt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mohanty-bess-evpn-bum-opt-00.txt' />
+</reference>

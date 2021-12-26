@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.menth-pcn-e2e-encoding'>
+<front>
+<title>End-to-end Extension for PCN Encoding</title>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='J' surname='Babiarz' fullname='Jozef Babiarz'>
+    <organization />
+</author>
+
+<author initials='T' surname='Moncaster' fullname='T  Moncaster'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>This document proposes an encoding of PCN marks based on the ECN field of the Voice-Admit DSCP.  It has global meaning and ECN semantics are not applied to that field.  The PCN codepoints are the same as those for packet-specific dual marking (PSDM) within a single PCN domain, but the general concept can also be applied to other encodings requiring only a single PCN-enabled DSCP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-menth-pcn-e2e-encoding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-menth-pcn-e2e-encoding-00.txt' />
+</reference>

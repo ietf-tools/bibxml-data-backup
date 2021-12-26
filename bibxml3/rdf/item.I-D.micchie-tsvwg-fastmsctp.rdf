@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-micchie-tsvwg-fastmsctp-01.txt'>
+    <title>"Stream Control Transmission Protocol (SCTP) Readdressing Retransmission  Trigger", Michio Honda</title>
+    <link>http://www.ietf.org/internet-drafts/draft-micchie-tsvwg-fastmsctp-01.txt</link>
+    <description>Stream Control Transmission Protocol (SCTP)[RFC4960] can support mobility by utilizing the multi-home feature and the Dynamic Address Reconfiguration extension (ADDIP)[RFC5061].  By leveraging this feature, applications that use SCTP can continue communication without terminating it when the mobile node migrates to another network.  However, the migration of a mobile node often involves connectivity disruption due to bad wireless coverage, potential device overhead on the wireless interface to switch the wireless network to connect, and configuring a new IP address.  The connectivity disruption can induce significant delay on the SCTP communications, because it causes retransmission time outs (RTOs) for lost packets that are transmitted in this period.  In order to avoid the delay caused by the RTOs, this document describes a new retransmission trigger based on endpoint readdressing events.  SCTP can minimize the delay caused by migration involving connectivity disruption with this retransmission trigger.</description>
+    <dc:date>2008-02-22T08:00:00-00:00</dc:date>
+</item>

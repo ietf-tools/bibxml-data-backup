@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.spv-ippm-monitor-implementation-services-kpi'>
+<front>
+<title>Monitoring Service KPIs using TWAMP - Implementation</title>
+
+<author initials='S' surname='Sarangapani' fullname='Srivathsa Sarangapani'>
+    <organization />
+</author>
+
+<author initials='P' surname='Gupta' fullname='Peyush Gupta'>
+    <organization />
+</author>
+
+<author initials='V' surname='Hegde' fullname='Vinayak Hegde'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2016' />
+
+<abstract><t>We are using a new method to calculate services KPIs and metrics in the network using TWAMP protocol.  This draft outlines the implementation of the service KPIs and there use cases in the service plane in the network.  The KPIs discussed in this draft include Service Latency and Application Liveliness detection.  Service latency is defined as the time spent by the packet when it is injected in the service module or service card till the time, serviced packet is received back by the TWAMP server.  TWAMP server records the timestamp of the packet when it is injected into the service module and then again record the timestamp when it receives the packet afer service is applied in the data plane.  Application Liveliness detection means whether the application is up and running in the network.  In case you want to monitor the http application or the dns server and verify if they are up and running, this method is applicable.  The implementation can be used for liveliness detection of any service in the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-spv-ippm-monitor-implementation-services-kpi-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-spv-ippm-monitor-implementation-services-kpi-01.txt' />
+</reference>

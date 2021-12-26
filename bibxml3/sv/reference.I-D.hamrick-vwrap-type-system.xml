@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hamrick-vwrap-type-system'>
+<front>
+<title>VWRAP : Abstract Type System for the Transmission of Dynamic Structured Data</title>
+
+<author initials='A' surname='Brashears' fullname='Aaron Brashears'>
+    <organization />
+</author>
+
+<author initials='M' surname='Hamrick' fullname='Meadhbh Hamrick'>
+    <organization />
+</author>
+
+<author initials='M' surname='Lentczner' fullname='Mark Lentczner'>
+    <organization />
+</author>
+
+<date month='February' day='12' year='2010' />
+
+<abstract><t>This document describes the LLIDL interface description language, the related LLSD abstract type system and three serialization formats for LLIDL messages.  LLIDL (pronounced "little") is a language-neutral facility for describing transport independent message flows for RESTful resource access.  LLIDL itself is an abstract meta-grammar for producing and recognizing valid request / response messages affecting state change in application layer objects by way of RESTful resource access.  It may be used by protocol developers and system deployers to describe the composition of application layer protocol exchanges without adopting transport specific message semantics or programming language specific type semantics.  The type behavior of individual message elements is described by the LLSD abstract type system.  Abstract LLIDL messages are concretized using one of three defined LLSD serialization schemes.  Serialization / deserialization rules are provided in this document for XML, JSON and Binary schemes. This abstract messaging and type system is intended to be used by other specifications to describe application layer protocol exchanges, independent of implementation language or message transport protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hamrick-vwrap-type-system-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hamrick-vwrap-type-system-00.txt' />
+</reference>

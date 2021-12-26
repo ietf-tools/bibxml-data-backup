@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bretelle-dprive-dot-spki-in-ns-name'>
+<front>
+<title>Encoding DNS-over-TLS (DoT) Subject Public Key Info (SPKI) in Name Server name</title>
+
+<author initials='E' surname='Bretelle' fullname='Emmanuel Bretelle'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>This document describes a mechanism to exchange the Subject Public Key Info (SPKI) ([RFC5280] Section 4.1.2.7) fingerprint associated with a DNS-over-TLS (DoT [RFC7858]) authoritative server by encoding it as part of its name.  The fingerprint can thereafter be used to validate the certificate received from the DoT server as well as being able to discover support for DoT on the server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bretelle-dprive-dot-spki-in-ns-name-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bretelle-dprive-dot-spki-in-ns-name-00.txt' />
+</reference>

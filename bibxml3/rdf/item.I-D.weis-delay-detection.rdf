@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-weis-delay-detection-04.txt'>
+    <title>"IPsec Delivery Delay Detection", Brian Weis, Umesh Mangla, Thomas Karl, Nilesh Maheshwari</title>
+    <link>http://www.ietf.org/internet-drafts/draft-weis-delay-detection-04.txt</link>
+    <description>This memo describes a one-way measurement of an IPsec packet edge-to- edge delay.  Delay detection is enabled by a sender of an IPsec packet that includes a timestamp declaring the time at which it was sent.  The receiver of the datagram can then judge how recently it was sent and choose a policy action, which could include discarding packets deemed to be 'too old' (having a timestamp too far into the past) or 'too new' (having a timestamp that is too far into the future).  This provides a freshness policy check, which can be valuable irrespective of whether the IPsec policy also includes replay protection.</description>
+    <dc:date>2018-03-05T08:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-rsvp-lsp-fastreroute'>
+<front>
+<title>Fast Reroute Extensions to RSVP-TE for LSP Tunnels</title>
+
+<author initials='P' surname='Pan' fullname='Ping Pan'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George  Swallow'>
+    <organization />
+</author>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<date month='September' day='7' year='2004' />
+
+<abstract><t>This document defines extensions to and describes the use of RSVP to establish backup label-switched path (LSP) tunnels for local repair of LSP tunnels. These mechanisms enable the re-direction of traffic onto backup LSP tunnels in 10s of milliseconds in the event of a failure. Two methods are defined here. The one-to-one backup method creates detour LSPs for each protected LSP at each potential point of local repair. The facility backup method creates a bypass tunnel to protect a potential failure point; by taking advantage of MPLS label stacking, this bypass tunnel can protect a set of protected LSPs that have similar backup constraints. Both methods can be used to protect links and nodes during network failure. The described behavior and extensions to RSVP allow nodes to implement either or both methods and to interoperate in a mixed network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-rsvp-lsp-fastreroute-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-rsvp-lsp-fastreroute-07.txt' />
+</reference>

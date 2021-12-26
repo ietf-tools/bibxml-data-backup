@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mills-kitten-sasl-oauth'>
+<front>
+<title>Tunneled HTTP Authentication For SASL</title>
+
+<author initials='W' surname='Mills' fullname='William Mills'>
+    <organization />
+</author>
+
+<author initials='T' surname='Showalter' fullname='Tim Showalter'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2011' />
+
+<abstract><t>Simple Authentication and Security Layer (SASL) is a framework for providing authentication and data security services in connection- oriented protocols via replaceable mechanisms.  OAuth is a protocol framework for delegated HTTP authentication and thereby provides a method for clients to access a protected resource on behalf of a resource owner.  This document defines the use of HTTP authentication over SASL, and additionally defines authorization and token issuing endpoint discovery.  Thereby, it enables schemes defined within the OAuth framework for non-HTTP-based application protocols.  A significant benefit of OAuth for usage in clients that usually store passwords is storing tokens instead of passwords.  This is much lower risk since tokens can be more limited in scope of access and can be managed and revoked separately from the user credential (password).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mills-kitten-sasl-oauth-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mills-kitten-sasl-oauth-03.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mills-kitten-sasl-oauth-03.pdf' />
+</reference>

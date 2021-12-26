@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netlmm-mn-ar-if'>
+<front>
+<title>Network-based Localized Mobility Management Interface between Mobile Node  and Access Router</title>
+
+<author initials='J' surname='Laganier' fullname='Julien Laganier'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2006' />
+
+<abstract><t>This document specifies an IP layer interface between mobile nodes (MN) and access routers (AR) of a network-based localized mobility management (NetLMM) domain. Such an interface is subject to a certain number of threats, amongst which are attacks on the mapping between the MN Identifier and IPv6 address set. A binding enforcement mechanism between those two is hence required to prevent malicious nodes to carry on various attacks like service theft or denial-of-service attacks. In the absence of link-layer specific mechanisms enforcing this binding, it is required to implement such mechanism at the IP layer MN-AR interface. Moreover, it is required that no NetLMM specific software support is present on MNs. The IP layer MN-AR interface described in this document fulfills these two requirements by using the SEND public key as the MN identifier, while being solely based on standard track IPv6 protocols (DNA and SEND.)</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netlmm-mn-ar-if-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netlmm-mn-ar-if-01.txt' />
+</reference>

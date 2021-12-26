@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.filsfils-spring-segment-routing-ldp-interop'>
+<front>
+<title>Segment Routing interoperability with LDP</title>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Bashandy' fullname='Ahmed Bashandy'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='M' surname='Horneffer' fullname='Martin Horneffer'>
+    <organization />
+</author>
+
+<author initials='I' surname='Milojevic' fullname='Igor Milojevic'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shakir' fullname='Rob Shakir'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ytti' fullname='Saku Ytti'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='E' surname='Crabbe' fullname='Edward Crabbe'>
+    <organization />
+</author>
+
+<date month='April' day='18' year='2014' />
+
+<abstract><t>A Segment Routing (SR) node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header.  A segment can represent any instruction, topological or service-based.  SR allows to enforce a flow through any topological path and service chain while maintaining per-flow state only at the ingress node to the SR domain.  The Segment Routing architecture can be directly applied to the MPLS data plane with no change in the forwarding plane.  This drafts describes how Segment Routing operates in a network where LDP is deployed and in the case where SR-capable and non-SR-capable nodes coexist.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-filsfils-spring-segment-routing-ldp-interop-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-filsfils-spring-segment-routing-ldp-interop-01.txt' />
+</reference>

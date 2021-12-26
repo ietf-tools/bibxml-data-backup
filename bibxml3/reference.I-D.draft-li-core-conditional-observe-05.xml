@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-core-conditional-observe'>
+<front>
+<title>Conditional observe in CoAP</title>
+
+<author initials='S' surname='Li' fullname='Shitao Li'>
+    <organization />
+</author>
+
+<author initials='K' surname='Li' fullname='Kepeng Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hoebeke' fullname='Jeroen Hoebeke'>
+    <organization />
+</author>
+
+<author initials='F' surname='Abeele' fullname='Floris Van den Abeele'>
+    <organization />
+</author>
+
+<author initials='A' surname='Jara' fullname='Antonio Jara'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2014' />
+
+<abstract><t>CoAP is a RESTful application protocol for constrained nodes and networks.  Through the Observe option, clients can observe changes in the state of resources and obtain a current representation of the last resource state.  This document defines two new options for CoAP Observe so that a CoAP client can specify timing conditions when observing a resource on a CoAP server.  As a result, the CoAP client is only informed about resource state changes when the timing conditions are met.  This offers possibilities to extend network intelligence, enhance scalability, and optimize the lifetime and performance in order to address the requirements from the Constrained Nodes and Networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-core-conditional-observe-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-core-conditional-observe-05.txt' />
+</reference>

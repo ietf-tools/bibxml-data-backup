@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5805' target='https://www.rfc-editor.org/info/rfc5805'>
+<front>
+<title>Lightweight Directory Access Protocol (LDAP) Transactions</title>
+<author initials='K.' surname='Zeilenga' fullname='K. Zeilenga'><organization /></author>
+<date year='2010' month='March' />
+<abstract><t>Lightweight Directory Access Protocol (LDAP) update operations, such as Add, Delete, and Modify operations, have atomic, consistency, isolation, durability (ACID) properties.  Each of these update operations act upon an entry.  It is often desirable to update two or more entries in a single unit of interaction, a transaction. Transactions are necessary to support a number of applications including resource provisioning.  This document extends LDAP to support transactions.  This document defines an Experimental  Protocol for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5805'/>
+<seriesInfo name='DOI' value='10.17487/RFC5805'/>
+</reference>

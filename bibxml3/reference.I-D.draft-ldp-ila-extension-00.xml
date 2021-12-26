@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ldp-ila-extension'>
+<front>
+<title>Incremental Label Announcement Extensions for LDP</title>
+
+<author initials='A' surname='Lo' fullname='Alton Lo'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='V' surname='Lim' fullname='Vanson Lim'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2011' />
+
+<abstract><t>The current LDP Graceful Restart (GR) mechanism specified in RFC3478 requires a complete re-advertisement of the LDP label binding information across a session restart, even though complete label binding information might be preserved.  In this document we specify extensions to LDP graceful restart in order to support avoiding unnecessary transmission of the label binding information preserved across a session restart, thus accelerating the router re-convergence.  More specifically, we describe a version number based batching mechanism for keeping track of the label binding information across a session restart.  The new 1) LDP ILA capability TLV, 2) LDP VERSION ID TLV and 3) LDP ILA Version message type, is introduced for checkpointing the label binding version maintained for a neighbor.  We also specify procedures for handling label binding table version update across a session restart.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ldp-ila-extension-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ldp-ila-extension-00.txt' />
+</reference>

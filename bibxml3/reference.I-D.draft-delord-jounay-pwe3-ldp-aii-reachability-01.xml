@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.delord-jounay-pwe3-ldp-aii-reachability'>
+<front>
+<title>LDP extension for AII reachability</title>
+
+<author initials='S' surname='DeLord' fullname='Simon DeLord'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>The dynamic End-to-End Multisegment pseudowire setup requires PEs to maintain a pseudowire routing table when using FEC129. There is therefore a requirement for automatic Attachment Individual Identifiers discovery. Two mechanisms already exist, a BGP based solution and an IGP based one. Here we define a third solution relying on LDP. It allows for automatic discovery of the Attachment Individual Identifiers provsionned on a PE when this node does not run BGP or IGP. The mechanism described here only runs on the T-LDP (Targeted LDP) session between the T-PE and S-PE, but not on any other LDP session which may exist for the tunnels. The T-PE advertises its locally attached AIIs only for the S-PE to build its PW routing table (the S-PE does not propagate this information further via this mechanism). The mechanism described here is intended to complement other existing autodiscovery and routing mechanisms already described with BGP and OSPF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-delord-jounay-pwe3-ldp-aii-reachability-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-delord-jounay-pwe3-ldp-aii-reachability-01.txt' />
+</reference>

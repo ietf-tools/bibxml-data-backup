@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-fischer-sip-e2e-sec-media-00.txt'>
+    <title>"End-to-End Security for DTLS-SRTP", Kai Fischer</title>
+    <link>http://www.ietf.org/internet-drafts/draft-fischer-sip-e2e-sec-media-00.txt</link>
+    <description>The end-to-end security properties of DTLS-SRTP depend on the authenticity of the certificate fingerprint exchanged in the signalling channel.  In current approaches the authenticity is protected by SIP-Identity or SIP-Identity-Media.  These types of signatures are broken if intermediaries like Session Border Controllers in other domains change specific information of the SIP header or the SIP body.  The end-to-end security property between the originating and terminating domain is lost if these intermediaries re-sign the SIP message and create a new identity signature using their own domain credentials.  This document defines a new signature type 'Fingerprint-Identity' which is exchanged in the signalling channel.  Fingerprint-Identity covers only those elements of a SIP message necessary to authenticate the certificate fingerprint and to secure media end-to-end.  It is independent from SIP-Identity and SIP-Identity-Media and can be applied in parallel to them.</description>
+    <dc:date>2008-01-23T08:00:00-00:00</dc:date>
+</item>

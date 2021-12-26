@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9061' target='https://www.rfc-editor.org/info/rfc9061'>
+<front>
+<title>A YANG Data Model for IPsec Flow Protection Based on Software-Defined Networking (SDN)</title>
+<author initials='R.' surname='Marin-Lopez' fullname='R. Marin-Lopez'><organization /></author>
+<author initials='G.' surname='Lopez-Millan' fullname='G. Lopez-Millan'><organization /></author>
+<author initials='F.' surname='Pereniguez-Garcia' fullname='F. Pereniguez-Garcia'><organization /></author>
+<date year='2021' month='July' />
+<abstract><t>This document describes how to provide IPsec-based flow protection (integrity and confidentiality) by means of an Interface to Network Security Function (I2NSF) Controller.  It considers two main well-known scenarios in IPsec: gateway-to-gateway and host-to-host. The service described in this document allows the configuration and monitoring of IPsec Security Associations (IPsec SAs) from an I2NSF Controller to one or several flow-based Network Security Functions (NSFs) that rely on IPsec to protect data traffic. </t><t>This document focuses on the I2NSF NSF-Facing Interface by providing YANG data models for configuring the IPsec databases, namely Security Policy Database (SPD), Security Association Database (SAD), Peer Authorization Database (PAD), and Internet Key Exchange Version 2 (IKEv2). This allows IPsec SA establishment with minimal intervention by the network administrator. This document defines three YANG modules, but it does not define any new protocol.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9061'/>
+<seriesInfo name='DOI' value='10.17487/RFC9061'/>
+</reference>

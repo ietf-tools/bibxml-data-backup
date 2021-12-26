@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8249' target='https://www.rfc-editor.org/info/rfc8249'>
+<front>
+<title>Transparent Interconnection of Lots of Links (TRILL): MTU Negotiation</title>
+<author initials='M.' surname='Zhang' fullname='M. Zhang'><organization /></author>
+<author initials='X.' surname='Zhang' fullname='X. Zhang'><organization /></author>
+<author initials='D.' surname='Eastlake 3rd' fullname='D. Eastlake 3rd'><organization /></author>
+<author initials='R.' surname='Perlman' fullname='R. Perlman'><organization /></author>
+<author initials='S.' surname='Chatterjee' fullname='S. Chatterjee'><organization /></author>
+<date year='2017' month='September' />
+<abstract><t>The base IETF TRILL (Transparent Interconnection of Lots of Links) protocol has a TRILL campus-wide MTU feature, specified in RFCs 6325 and 7177, that assures that link-state changes can be successfully flooded throughout the campus while being able to take advantage of a campus-wide capability to support jumbo packets.  This document specifies recommended updates to that MTU feature to take advantage, for appropriate link-local packets, of link-local MTUs that exceed the TRILL campus MTU.  In addition, it specifies an efficient algorithm for local MTU testing.  This document updates RFCs 6325, 7177, and 7780.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8249'/>
+<seriesInfo name='DOI' value='10.17487/RFC8249'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sakane-dhc-dhcpv6-kdc-option'>
+<front>
+<title>Kerberos Option for DHCPv6</title>
+
+<author initials='M' surname='Ishiyama' fullname='Masahiro Ishiyama'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sakane' fullname='Shoichi Sakane'>
+    <organization />
+</author>
+
+<date month='October' day='1' year='2008' />
+
+<abstract><t>This document defines a new DHCPv6 option to carry a set of configuration information related to the Kerberos protocol [RFC4120]. This document also defines three sub-options to be used in this new option, which specify a realm name of the Kerberos, a list of IP addresses of the Key Distribution Center of that realm and a client principal name to distinguish a Kerberos client by the DHCPv6 server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sakane-dhc-dhcpv6-kdc-option-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sakane-dhc-dhcpv6-kdc-option-02.txt' />
+</reference>

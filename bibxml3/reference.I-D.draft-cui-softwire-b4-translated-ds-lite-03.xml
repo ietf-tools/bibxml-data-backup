@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cui-softwire-b4-translated-ds-lite'>
+<front>
+<title>Lightweight 4over6 in access network</title>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wu' fullname='Peng Wu'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Sun' fullname='Qiong Sun'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Cathy Zhou'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Yiu Lee'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2011' />
+
+<abstract><t>The dual-stack lite mechanism provide an IPv4 access method over IPv6 ISP network for end users.  Dual-Stack Lite enables an IPv6 provider to share IPv4 addresses among customers by combining IPv4-in-IPv6 tunnel and Carrier Grade NAT.  However, in dual-stack lite, CGN has to maintain active NAT sessions, which could become the performance bottom-neck due to high dynamic s of NAT entries, memory cost and log issue.  This document propose the lightweight 4over6 mechanism which moves the translation function from tunnel concentrator (AFTR) to initiators (B4s), and hence reduce the mapping scale on the concentrator to per-customer level.  For NAT44 translation usage, the mechanism will allocate port restricted IPv4 addresses to initiators in a flexible way independent of IPv6 network in the middle.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cui-softwire-b4-translated-ds-lite-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cui-softwire-b4-translated-ds-lite-03.txt' />
+</reference>

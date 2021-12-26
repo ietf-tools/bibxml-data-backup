@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7793' target='https://www.rfc-editor.org/info/rfc7793'>
+<front>
+<title>Adding 100.64.0.0/10 Prefixes to the IPv4 Locally-Served DNS Zones Registry</title>
+<author initials='M.' surname='Andrews' fullname='M. Andrews'><organization /></author>
+<date year='2016' month='May' />
+<abstract><t>RFC 6598 specifies that &quot;Reverse DNS queries for Shared Address Space addresses [100.64.0.0/10] MUST NOT be forwarded to the global DNS infrastructure.&quot;</t><t>This document formally directs IANA to add the associated zones to the &quot;IPv4 Locally-Served DNS Zones Registry&quot; to prevent such queries from accidentally leaking to the global DNS infrastructure.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='163'/>
+<seriesInfo name='RFC' value='7793'/>
+<seriesInfo name='DOI' value='10.17487/RFC7793'/>
+</reference>

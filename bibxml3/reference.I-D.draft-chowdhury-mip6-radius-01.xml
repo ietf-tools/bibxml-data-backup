@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chowdhury-mip6-radius'>
+<front>
+<title>RADIUS Mobile IPv6 Support</title>
+
+<author initials='K' surname='Chowdhury' fullname='Kuntal Chowdhury'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2006' />
+
+<abstract><t>A Mobile IPv6 node requires a home agent address, a home address, and IPsec security association with its home agent before it can start utilizing Mobile IPv6 service. RFC 3775 requires that some or all of these parameters are statically configured. Ongoing work aims to make this information dynamically available to the mobile node. An important aspect of the Mobile IPv6 bootstrapping solution is to support interworking with existing authentication, authorization and accounting infrastructure. This document defines the new attributes to facilitate Mobile IPv6 bootstrapping via a RADIUS infrastructure. This information exchange may take place as part of the initial network access authentication procedure or as part of a separate protocol exchange between the mobile node, the home agent and the AAA infrastructure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chowdhury-mip6-radius-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chowdhury-mip6-radius-01.txt' />
+</reference>

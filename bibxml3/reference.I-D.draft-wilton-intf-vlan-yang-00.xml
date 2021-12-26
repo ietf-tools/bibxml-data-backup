@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wilton-intf-vlan-yang'>
+<front>
+<title>Interface VLAN YANG Data Models</title>
+
+<author initials='R' surname='Wilton' fullname='Robert Wilton'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ball' fullname='David Ball'>
+    <organization />
+</author>
+
+<author initials='G' surname='Heron' fullname='Giles Heron'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>This document defines a YANG configuration data model for the management of VLAN sub-interfaces that augments the generic interfaces data model defined in RFC 7223 [RFC7223].  It provides support for basic tag matching to allow termination of an L2 VLAN segement into L3 services.  It also provides support for flexible matching and rewriting of L2 header fields for L2 services.  The model differs from an IEEE 802.1Q VLAN derived model in that the configuration is interface/sub-interface based as opposed to being VLAN based.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wilton-intf-vlan-yang-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wilton-intf-vlan-yang-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-wilton-intf-vlan-yang-00.pdf' />
+</reference>

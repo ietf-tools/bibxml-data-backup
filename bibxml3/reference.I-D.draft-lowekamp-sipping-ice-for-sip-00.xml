@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lowekamp-sipping-ice-for-sip'>
+<front>
+<title>Using ICE to establish SIP Dialogs</title>
+
+<author initials='B' surname='Lowekamp' fullname='Bruce Lowekamp'>
+    <organization />
+</author>
+
+<author initials='D' surname='Bryan' fullname='David Bryan'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2007' />
+
+<abstract><t>This draft explores a way SIP can be extended to allow a new dialog directly between the endpoints to replace an initial dialog that had one or more proxies in the signalling path.  This technique relies on ICE to perform hole punching that allows a direct connection to be used in deployments where a sip-outbound proxy or SBC is used to establish SIP connections across NAT or firewall boundaries.  It can also be used to replace such a dialog with a secure connection directly between the endpoints.  This technique can be applied to traditional proxy-based SIP routing as well as to emerging P2PSIP deployments that lack centrally located proxies.  This draft describes early work that evolved from ideas initially developed for P2PSIP that are no longer being pursued.  We are interested in feedback on whether there is broader interest in these techniques.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lowekamp-sipping-ice-for-sip-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lowekamp-sipping-ice-for-sip-00.txt' />
+</reference>

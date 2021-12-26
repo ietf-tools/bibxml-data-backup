@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.qi-mip6-ikev2-interfacing'>
+<front>
+<title>Interfacing between IKEv2/IPsec &amp; MIPv6 by simple PF_KEY extensions</title>
+
+<author initials='M' surname='Qi' fullname='Minpeng Qi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Li' fullname='Haitao Li'>
+    <organization />
+</author>
+
+<author initials='P' surname='Yang' fullname='Peng Yang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Ma' fullname='Yuanchen Ma'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2008' />
+
+<abstract><t>This draft discusses the issues associated with interfacing between IKEv2/IPsec and MIPv6.  When mobile nodes bootstrap in foreign network or handover to a new network, IKEv2/IPsec can not probe the changing of care-of-address, which is related security associations. One simple extension to the SADB_ACQUIRE in PF_KEY framework is proposed to support this interfacing.  And the operation modification of IKEv2 and MIPv6 are described in this proposal based on the SADB_ACQUIRE extension.  A new mobility security reference database is created to store the temporary mobility parameters.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-qi-mip6-ikev2-interfacing-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-qi-mip6-ikev2-interfacing-02.txt' />
+</reference>

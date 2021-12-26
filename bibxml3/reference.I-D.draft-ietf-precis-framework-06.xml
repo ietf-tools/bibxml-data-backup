@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-precis-framework'>
+<front>
+<title>PRECIS Framework: Preparation and Comparison of Internationalized Strings in Application Protocols</title>
+
+<author initials='P' surname='Saint-Andre' fullname='Peter Saint-Andre'>
+    <organization />
+</author>
+
+<author initials='M' surname='Blanchet' fullname='Marc Blanchet'>
+    <organization />
+</author>
+
+<date month='September' day='23' year='2012' />
+
+<abstract><t>Application protocols using Unicode code points in protocol strings need to prepare such strings in order to perform comparison operations (e.g., for purposes of authentication or authorization). This document defines a framework enabling application protocols to perform the preparation and comparison of internationalized strings (a.k.a.  "PRECIS") in a way that depends on the properties of Unicode code points and thus is agile with respect to versions of Unicode. As a result, this framework provides a more sustainable approach to the handling of internationalized strings than the previous framework, known as Stringprep (RFC 3454).  A specification that reuses this framework can either directly use the base string classes or subclass the base string classes as needed.  This framework takes an approach similar to the revised internationalized domain names in applications (IDNA) technology (RFC 5890, RFC 5891, RFC 5892, RFC 5893, RFC 5894) and thus adheres to the high-level design goals described in RFC 4690, albeit for application technologies other than the Domain Name System (DNS).  This document obsoletes RFC 3454.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-precis-framework-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-precis-framework-06.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-p2mp-te-bypass'>
+<front>
+<title>P2MP MPLS-TE Fast Reroute with P2MP Bypass Tunnels</title>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2008' />
+
+<abstract><t>This document defines procedures for fast reroute protection of Point-To-MultiPoint (P2MP) Traffic Engineering Label Switched Paths (TE-LSP) in  MultiProtocol Label Switching (MPLS) networks, based upon Point-To-MultiPoint Bypass Tunnels. The motivation for using P2MP Bypass Tunnels is to avoid potentially expensive data duplication along the backup path that could occur if Point-To-Point Bypass Tunnels were used, i.e., to optimize the bandwidth usage, during fast reroute protection of a link or a node. During link or node failure the traffic carried onto a protected P2MP TE-LSP is tunnelled within one or several P2MP Bypass Tunnels towards a set of Merge Points. To avoid data duplication, backup labels (i.e., inner labels) are assigned by the Point of Local Repair (PLR) according to the RSVP-TE upstream label assignment procedure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-p2mp-te-bypass-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-p2mp-te-bypass-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dubois-bgp-planned-maintenance'>
+<front>
+<title>Graceful Shutdown of BGP Sessions</title>
+
+<author initials='N' surname='Dubois' fullname='Nicolas Dubois'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2004' />
+
+<abstract><t>To ease the maintenance of BGP-4 sessions and limit the amount of traffic that is lost during planned maintenance on routers, a specific mechanism is proposed in order to gracefully shutdown a router or a session. It's proposed that a router first withdraw its route to its peer to initiate their convergence. After a timer the router can proceed with the closing of the BGP sessions and consequently remove its peers'routes from it's RIB (Routing Information Base).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dubois-bgp-planned-maintenance-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dubois-bgp-planned-maintenance-00.txt' />
+</reference>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birkholz-rats-tuda'>
+<front>
+<title>Time-Based Uni-Directional Attestation</title>
+<author initials='A' surname='Fuchs' fullname='Andreas Fuchs'>
+<organization />
+</author>
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+<organization />
+</author>
+<author initials='I' surname='McDonald' fullname='Ira McDonald'>
+<organization />
+</author>
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+<organization />
+</author>
+<date year='2021' month='July' day='12' />
+<abstract><t>This document defines the method and bindings used to convey Evidence via Time-based Uni-Directional Attestation (TUDA) in Remote ATtestation procedureS (RATS).  TUDA does not require a challenge- response handshake and thereby does not rely on the conveyance of a nonce to prove freshness of remote attestation Evidence.  TUDA enables the creation of Secure Audit Logs that can constitute believable Evidence about both current and past operational states of an Attester.  In TUDA, RATS entities require access to a Handle Distributor to which a trustable and synchronized time-source is available.  The Handle Distributor takes on the role of a Time Stamp Authority (TSA) to distribute Handles incorporating Time Stamp Tokens (TST) to the RATS entities.  RATS require an Attesting Environment that generates believable Evidence.  While a TPM is used as the corresponding root of trust in this specification, any other type of root of trust can be used with TUDA.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-birkholz-rats-tuda-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-birkholz-rats-tuda-05.txt'/>
+</reference>

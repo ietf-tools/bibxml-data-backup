@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.baker-ipv6-ospf-dst-flowlabel-routing'>
+<front>
+<title>Using OSPFv3 with Role-Based Access Control</title>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<date month='May' day='2' year='2013' />
+
+<abstract><t>This note describes the changes necessary for OSPFv3 to route classes of IPv6 traffic that are defined by an IPv6 Flow Label and a destination prefix.  This implies not simply routing "to a destination", but "traffic going to that destination AND using a specified flow label".  It may be combined with other qualifying attributes, such as "traffic going to that destination AND using a specified flow label AND from a specified source prefix".  The obvious application is data center inter-tenant routing using a form of role-based access control.  If the sender doesn't know the value to insert in the flow label (the receiver's tenant ID), it in effect has no route to that destination, thus providing an access list that is as changeable and scalable as routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-baker-ipv6-ospf-dst-flowlabel-routing-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-baker-ipv6-ospf-dst-flowlabel-routing-02.txt' />
+</reference>

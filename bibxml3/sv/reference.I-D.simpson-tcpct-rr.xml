@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.simpson-tcpct-rr'>
+<front>
+<title>TCP Cookie Transactions (TCPCT) Rapid Restart</title>
+
+<author initials='W' surname='Simpson' fullname='William Simpson'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2011' />
+
+<abstract><t>TCP Cookie Transactions (TCPCT) [RFC6013] deter spoofing of connections and prevent resource exhaustion, eliminating Responder (server) state during the initial handshake.  The Initiator (client) has sole responsibility for ensuring required delays between connections.  The cookie exchange may carry data, limited to inhibit amplification and reflection denial of service attacks.  This specification provides an optional rapid restart facility for persistent connections.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-simpson-tcpct-rr-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-simpson-tcpct-rr-02.txt' />
+</reference>

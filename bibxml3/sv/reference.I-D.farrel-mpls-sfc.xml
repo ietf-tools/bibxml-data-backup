@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.farrel-mpls-sfc'>
+<front>
+<title>An MPLS-Based Forwarding Plane for Service Function Chaining</title>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bryant' fullname='Stewart Bryant'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<date month='March' day='22' year='2018' />
+
+<abstract><t>Service Function Chaining (SFC) is the process of directing packets through a network so that they can be acted on by an ordered set of abstract service functions before being delivered to the intended destination.  An architecture for SFC is defined in RFC7665.  The Network Service Header (NSH) can be inserted into packets to steer them along a specific path to realize a Service Function Chain.  Multiprotocol Label Switching (MPLS) is a widely deployed forwarding technology that uses labels placed in a packet in a label stack to identify the forwarding actions to be taken at each hop through a network.  Actions may include swapping or popping the labels as well, as using the labels to determine the next hop for forwarding the packet.  Labels may also be used to establish the context under which the packet is forwarded.  This document describes how Service Function Chaining can be achieved in an MPLS network by means of a logical representation of the NSH in an MPLS label stack.  It does not deprecate or replace the NSH, but acknowledges that there may be a need for an interim deployment of SFC functionality in brownfield networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-farrel-mpls-sfc-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-farrel-mpls-sfc-05.txt' />
+</reference>

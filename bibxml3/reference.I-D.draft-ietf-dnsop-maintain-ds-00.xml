@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-maintain-ds'>
+<front>
+<title>Managing DS records from parent via CDS/CDNSKEY</title>
+
+<author initials='Ó' surname='Guðmundsson' fullname='Ólafur Guðmundsson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<date month='December' day='14' year='2015' />
+
+<abstract><t>RFC7344 specifies how DNS trust can be maintained in-band between parent and child.  There are two features missing in that specification: initial trust setup and removal of trust anchor.  This document addresses both these omissions.  Changing a domain's DNSSEC status can be a complicated matter involving many parties.  Some of these parties, such as the DNS operator, might not even be known by all organisations involved.  The inability to enable or disable DNSSEC via in-band signalling is seen as a problem or liability that prevents DNSSEC adoption at large scale.  This document adds a method for in-band signalling of DNSSEC status changes.  Initial trust is considered a much harder problem, this document will seek to clarify and simplify the initial acceptance policy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-maintain-ds-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-maintain-ds-00.txt' />
+</reference>

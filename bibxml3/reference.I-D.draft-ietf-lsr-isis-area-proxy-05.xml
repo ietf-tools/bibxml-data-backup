@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lsr-isis-area-proxy'>
+<front>
+<title>Area Proxy for IS-IS</title>
+<author initials='T' surname='Li' fullname='Tony Li'>
+<organization />
+</author>
+<author initials='S' surname='Chen' fullname='Sarah Chen'>
+<organization />
+</author>
+<author initials='V' surname='Ilangovan' fullname='Vivek Ilangovan'>
+<organization />
+</author>
+<author initials='G' surname='Mishra' fullname='Gyan Mishra'>
+<organization />
+</author>
+<date year='2020' month='November' day='18' />
+<abstract><t>Link state routing protocols have hierarchical abstraction already built into them.  However, when lower levels are used for transit, they must expose their internal topologies to each other, leading to scale issues.</t><t> To avoid this, this document discusses extensions to the IS-IS routing protocol that would allow level 1 areas to provide transit, yet only inject an abstraction of the level 1 topology into level 2. Each level 1 area is represented as a single level 2 node, thereby enabling greater scale.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-lsr-isis-area-proxy-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-lsr-isis-area-proxy-05.txt'/>
+</reference>

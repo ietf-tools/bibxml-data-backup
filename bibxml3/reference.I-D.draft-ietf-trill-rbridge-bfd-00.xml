@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-rbridge-bfd'>
+<front>
+<title>Rbridges: Bidirectional Forwarding Detection (BFD) support for TRILL</title>
+
+<author initials='D' surname='Ward' fullname='David Ward'>
+    <organization />
+</author>
+
+<author initials='D' surname='3rd' fullname='Donald Eastlake 3rd'>
+    <organization />
+</author>
+
+<author initials='A' surname='Banerjee' fullname='Ayan Banerjee'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='May' day='6' year='2011' />
+
+<abstract><t>This document specifies use of the BFD (Bidirectional Forwarding Detection) protocol in RBridge campuses based on the Rbridge Channel extension to the TRILL (TRansparent Interconnection of Lots of Links) protocol.  BFD is a widely deployed (Operations, Administration and Maintenance) OAM mechanism in IP and MPLS networks.  However, in the present form a BFD packet cannot be sent over a TRILL network as it is either IP/ UDP encapsulated or encapsulated directly over Multi Protocol Label Switching (MPLS) or using Associated Channel Header (ACH) encapsulation.  This document defines BFD encapsulation over TRILL to address this shortcoming.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-rbridge-bfd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-rbridge-bfd-00.txt' />
+</reference>

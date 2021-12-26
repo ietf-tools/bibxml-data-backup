@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pinkas-pkix-lcvp'>
+<front>
+<title>Lightweight Certificate Validation Protocol (LCVP)</title>
+
+<author initials='D' surname='Pinkas' fullname='Denis Pinkas'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2007' />
+
+<abstract><t>LCVP allows a client to delegate certificate path validation to a trusted server. The path validation (e.g. making sure that none of the certificates in the path are revoked) is performed according to a set of rules called a validation policy. It allows simplification of client implementations and only uses of a set of predefined validation policies. This document defines a protocol that can be used to: (1) validate one certificate according to one validation policy, (2) query the validation policies supported by an LCVP server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pinkas-pkix-lcvp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pinkas-pkix-lcvp-02.txt' />
+</reference>

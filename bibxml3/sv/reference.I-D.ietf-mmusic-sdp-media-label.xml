@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-sdp-media-label'>
+<front>
+<title>The SDP (Session Description Protocol) Label Attribute</title>
+
+<author initials='O' surname='Levin' fullname='Orit Levin'>
+    <organization />
+</author>
+
+<author initials='G' surname='Camarillo' fullname='Gonzalo  Camarillo'>
+    <organization />
+</author>
+
+<date month='January' day='17' year='2005' />
+
+<abstract><t>This document defines a new Session Description Protocol (SDP) media-level attribute: "label". The "label" attribute carries a pointer to a media stream in the context of an arbitrary network application that uses SDP. The sender of the SDP document can attach the "label" attribute to a particular media stream or streams. The application can then use the provided pointer to refer to each particular media stream in its context.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-sdp-media-label-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-sdp-media-label-01.txt' />
+</reference>

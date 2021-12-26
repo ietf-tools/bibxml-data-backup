@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.willis-sip-answeralert'>
+<front>
+<title>Requesting Answering and Alerting Modes for the Session Initiation Protocol  (SIP)</title>
+
+<author initials='D' surname='Willis' fullname='Dean Willis'>
+    <organization />
+</author>
+
+<author initials='A' surname='Allen' fullname='Andrew Allen'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2005' />
+
+<abstract><t>This document defines three SIP extension header fields and associated option tags that can be used in INVITE requests to convey the requester's preference for user-interface handling of that request. The first header, "Answer-Mode", expresses a preference as to whether the target node's user interface waits for user input before accepting the request or instead accepts the request without waiting on user input. The second header, "Priv-Answer-Mode" is similar to the second, except that it requests administrative-level access and has consequent additional authentication and authorization requirements. The third header, "Alert-Mode", expresses a preference as to whether the target node's user interface alerts the user about the request. These behaviors have applicability to applications such as Push-to-Talk and to diagnostics like loop-back. This document also defines use of the SIP extension header field "Answer-Mode" in a response to an INVITE request to inform the requester as to which answer mode was actually applied to this request. There are significant security considerations, especially when an answering mode option is used in conjunction with an alerting mode option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-willis-sip-answeralert-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-willis-sip-answeralert-01.txt' />
+</reference>

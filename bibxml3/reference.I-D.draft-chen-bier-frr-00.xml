@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-bier-frr'>
+<front>
+<title>BIER Fast ReRoute</title>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+    <organization />
+</author>
+
+<author initials='G' surname='Mishra' fullname='Gyan Mishra'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fan' fullname='Yanhe Fan'>
+    <organization />
+</author>
+
+<author initials='L' surname='Liu' fullname='Lei Liu'>
+    <organization />
+</author>
+
+<author initials='X' surname='Liu' fullname='Xufeng Liu'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>This document describes a mechanism for fast re-route (FRR) protection against the failure of a node or link in the core of a "Bit Index Explicit Replication" (BIER) domain.  It does not have any per-flow state in the core.  For a multicast packet to traverse a node in the domain, when the node fails, its upstream hop as a PLR reroutes the packet around the failed node once it detects the failure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-bier-frr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-bier-frr-00.txt' />
+</reference>

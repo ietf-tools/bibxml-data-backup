@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dunbar-sr-sdwan-over-hybrid-networks'>
+<front>
+<title>Segment routing for SD-WAN paths over hybrid networks</title>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Toy' fullname='Mehmet Toy'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>This document describes a method for end-to-end (E2E) SD-WAN paths to traverse specific list of underlay network segments, some of which can be private networks which include SR enabled segments, some of which  can be the public IP networks that do not support SR, to achieve the desired optimal E2E quality.  The method described in this draft uses the principle of segment routing to enforce a SD-WAN path' head-end selected route traversing through a list of specific nodes of multiple network segments without requiring the nodes in each network segment to have the intelligence (or maintaining states) of selecting next hop or next domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dunbar-sr-sdwan-over-hybrid-networks-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dunbar-sr-sdwan-over-hybrid-networks-05.txt' />
+</reference>

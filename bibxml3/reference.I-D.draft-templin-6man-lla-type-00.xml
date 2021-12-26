@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-6man-lla-type'>
+<front>
+<title>The IPv6 Link-Local Address Type Field</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2020' />
+
+<abstract><t>IPv6 link-local addresses are formed from the prefix fe80::/10 which is followed by 54 "zero" bits, then followed by a 64-bit Interface Identifier.  There are multiple methods for generating link-local addresses, and multiple may be in use by nodes on the same link (and sometimes even the same interface) at the same time.  This document defines an IPv6 link-local address "Type" field that identifies the type of link-local address being used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-6man-lla-type-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-6man-lla-type-00.txt' />
+</reference>

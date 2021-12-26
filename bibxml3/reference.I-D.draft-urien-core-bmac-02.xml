@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.urien-core-bmac'>
+<front>
+<title>Bijective MAC for Constraint Nodes</title>
+
+<author initials='P' surname='Urien' fullname='Pascal Urien'>
+    <organization />
+</author>
+
+<date month='November' day='25' year='2019' />
+
+<abstract><t>In this draft context, things are powered by micro controllers units (MCU) comprising a set of memories such as static RAM (SRAM), FLASH and EEPROM. The total memory size, ranges from 10KB to a few megabytes. In this context code and data integrity is a major security issue, for the deployment of Internet of Things infrastructure. The goal of the bijective MAC (bMAC) is to compute an integrity value, which cannot be guessed by malicious software. In classical keyed MACs, MAC is computing according to a fixed order. In the bijective MAC, the content of N addresses is hashed according to a permutation P (i.e. bijective application). The bijective MAC key is the permutation P. The number of permutations for N addresses is N!. So the computation of the bMAC requires the knowledge of the whole space memory; this is trivial for genuine software, but could very difficult for corrupted software.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-urien-core-bmac-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-urien-core-bmac-02.txt' />
+</reference>

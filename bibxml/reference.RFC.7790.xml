@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7790' target='https://www.rfc-editor.org/info/rfc7790'>
+<front>
+<title>Mapping Characters for Classes of the Preparation, Enforcement, and Comparison of Internationalized Strings (PRECIS)</title>
+<author initials='Y.' surname='Yoneya' fullname='Y. Yoneya'><organization /></author>
+<author initials='T.' surname='Nemoto' fullname='T. Nemoto'><organization /></author>
+<date year='2016' month='February' />
+<abstract><t>The framework for the preparation, enforcement, and comparison of internationalized strings (PRECIS) defines several classes of strings for use in application protocols.  Because many protocols perform case-sensitive or case-insensitive string comparison, it is necessary to define methods for case mapping.  In addition, both the Internationalized Domain Names in Applications (IDNA) and the PRECIS problem statement describe mappings for internationalized strings that are not limited to case, but include width mapping and mapping of delimiters and other special characters that can be taken into consideration.  This document provides guidelines for designers of PRECIS profiles and describes several mappings that can be applied between receiving user input and passing permitted code points to internationalized protocols.  In particular, this document describes both locale-dependent and context-depending case mappings as well as additional mappings for delimiters and special characters.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7790'/>
+<seriesInfo name='DOI' value='10.17487/RFC7790'/>
+</reference>

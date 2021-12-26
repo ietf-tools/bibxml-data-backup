@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moreau-pkix-aixcm'>
+<front>
+<title>Auto Issued X.509 Certificate Mechanism (AIXCM)</title>
+
+<author initials='T' surname='Moreau' fullname='Thierry Moreau'>
+    <organization />
+</author>
+
+<date month='August' day='6' year='2008' />
+
+<abstract><t>The Transport Layer Security (TLS) protocol does not support the use of client public key pairs without X.509 security certificates. This document circumvents this limitation: an end-entity has access to the public domain private key of a dummy (or "explicitly meaningless") Certification Authority (CA), and can thus freely issue an X.509 security certificate for interoperability purposes. Given these workaround requirement and solution approach, the document limits itself to the strict minimal set of standardization provisions. This supports the orderly cohabitation of auto issued certificates and normal TLS traffic relying on the full Public Key Infrastructure (PKI) model.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moreau-pkix-aixcm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moreau-pkix-aixcm-00.txt' />
+</reference>

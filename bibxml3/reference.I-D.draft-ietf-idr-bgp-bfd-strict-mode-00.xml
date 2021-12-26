@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-bfd-strict-mode'>
+<front>
+<title>BGP BFD Strict-Mode</title>
+
+<author initials='M' surname='Zheng' fullname='Mercia Zheng'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<date month='September' day='21' year='2019' />
+
+<abstract><t>This document specifies extensions to RFC4271 BGP-4 that enable a BGP speaker to negotiate additional Bidirectional Forwarding Detection (BFD) extensions using a BGP capability.  This BFD capability enables a BGP speaker to prevent a BGP session from being established until a BFD session is established.  It is referred to as BGP BFD "strict- mode".  BGP BFD strict-mode will be supported when both the local speaker and its remote peer are BFD strict-mode capable.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-bfd-strict-mode-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-bfd-strict-mode-00.txt' />
+</reference>

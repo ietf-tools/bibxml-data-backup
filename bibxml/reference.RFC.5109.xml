@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5109' target='https://www.rfc-editor.org/info/rfc5109'>
+<front>
+<title>RTP Payload Format for Generic Forward Error Correction</title>
+<author initials='A.' surname='Li' fullname='A. Li' role='editor'><organization /></author>
+<date year='2007' month='December' />
+<abstract><t>This document specifies a payload format for generic Forward Error Correction (FEC) for media data encapsulated in RTP.  It is based on the exclusive-or (parity) operation.  The payload format described in this document allows end systems to apply protection using various protection lengths and levels, in addition to using various protection group sizes to adapt to different media and channel characteristics. It enables complete recovery of the protected packets or partial recovery of the critical parts of the payload depending on the packet loss situation.  This scheme is completely compatible with non-FEC-capable hosts, so the receivers in a multicast group that do not implement FEC can still work by simply ignoring the protection data.  This specification obsoletes RFC 2733 and RFC 3009.  The FEC specified in this document is not backward compatible with RFC 2733 and RFC 3009.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5109'/>
+<seriesInfo name='DOI' value='10.17487/RFC5109'/>
+</reference>

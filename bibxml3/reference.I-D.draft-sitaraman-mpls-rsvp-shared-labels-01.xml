@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sitaraman-mpls-rsvp-shared-labels'>
+<front>
+<title>Signaling RSVP-TE tunnels on a shared MPLS forwarding plane</title>
+
+<author initials='H' surname='Sitaraman' fullname='Harish Sitaraman'>
+    <organization />
+</author>
+
+<author initials='V' surname='Beeram' fullname='Vishnu Beeram'>
+    <organization />
+</author>
+
+<author initials='T' surname='Parikh' fullname='Tejal Parikh'>
+    <organization />
+</author>
+
+<author initials='T' surname='Saad' fullname='Tarek Saad'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>As the scale of MPLS RSVP-TE LSPs has grown, various implementation recommendations have been proposed to manage control plane state. However, the forwarding plane footprint of labels at a transit LSR has remained proportional to the total LSP state in the control plane.  This draft defines a mechanism to prevent the label space limit on an LSR from being a constraint to control plane scaling on that node.  It introduces the notion of pre-installed per TE link 'pop labels' that are shared by MPLS RSVP-TE LSPs that traverse these links and thus significantly reducing the forwarding plane state required.  This couples the feature benefits of the RSVP-TE control plane with the simplicity of the Segment Routing MPLS forwarding plane.  This document also introduces the ability to mix different types of label operations along the path of the LSP, thereby allowing the ingress or an external controller to influence how to optimally place a LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sitaraman-mpls-rsvp-shared-labels-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sitaraman-mpls-rsvp-shared-labels-01.txt' />
+</reference>

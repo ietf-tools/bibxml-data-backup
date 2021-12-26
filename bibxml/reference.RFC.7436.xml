@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7436' target='https://www.rfc-editor.org/info/rfc7436'>
+<front>
+<title>IP-Only LAN Service (IPLS)</title>
+<author initials='H.' surname='Shah' fullname='H. Shah'><organization /></author>
+<author initials='E.' surname='Rosen' fullname='E. Rosen'><organization /></author>
+<author initials='F.' surname='Le Faucheur' fullname='F. Le Faucheur'><organization /></author>
+<author initials='G.' surname='Heron' fullname='G. Heron'><organization /></author>
+<date year='2015' month='January' />
+<abstract><t>A Virtual Private LAN Service (VPLS) is used to interconnect systems across a wide-area or metropolitan-area network, making it appear that they are on a private LAN.  The systems that are interconnected may themselves be LAN switches.  If, however, they are IP hosts or IP routers, certain simplifications to the operation of the VPLS are possible.  We call this simplified type of VPLS an &quot;IP-only LAN                      Service&quot; (IPLS).  In an IPLS, as in a VPLS, LAN interfaces are run in promiscuous mode, and frames are forwarded based on their destination Media Access Control (MAC) addresses.  However, the maintenance of the MAC forwarding tables is done via signaling, rather than via the MAC address learning procedures specified in the IEEE's &quot;Media Access Control            (MAC) Bridges&quot;.  This document specifies the protocol extensions and procedures for support of the IPLS service.</t><t>The original intent was to provide an alternate solution to VPLS for those Provider Edge (PE) routers that were not capable of learning MAC addresses through data plane.  This became a non-issue with newer hardware.  The concepts put forth by this document are still valuable and are adopted in one form or other by newer work such as Ethernet VPN in L2VPN working group and possible data center applications.  At this point, no further action is planned to update this document and it is published simply as a historic record of the ideas.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7436'/>
+<seriesInfo name='DOI' value='10.17487/RFC7436'/>
+</reference>

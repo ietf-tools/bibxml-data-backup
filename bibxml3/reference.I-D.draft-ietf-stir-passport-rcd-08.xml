@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-stir-passport-rcd'>
+<front>
+<title>PASSporT Extension for Rich Call Data</title>
+
+<author initials='J' surname='Peterson' fullname='Jon Peterson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wendt' fullname='Chris Wendt'>
+    <organization />
+</author>
+
+<date month='November' day='16' year='2020' />
+
+<abstract><t>This document extends PASSporT, a token for conveying cryptographically-signed call information about personal communications, to include rich meta-data about a call and caller that can be signed and integrity protected, transmitted, and subsequently rendered to users.  This framework is intended to extend caller and call specific information beyond human-readable display name comparable to the "Caller ID" function common on the telephone network.  The JSON element defined for this purpose, Rich Call Data (RCD), is an extensible object defined to either be used as part of STIR or with SIP Call-Info to include related information about calls that helps people decide whether to pick up the phone.  This signing of the RCD information is also enhanced with a integrity mechanism that is designed to protect the authoring and transport of this information between authoritative and non-authoritative parties authoring and signing the Rich Call Data for support of different usage and content policies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-stir-passport-rcd-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-stir-passport-rcd-08.txt' />
+</reference>

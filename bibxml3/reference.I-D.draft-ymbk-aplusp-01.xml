@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ymbk-aplusp'>
+<front>
+<title>The A+P Approach to the Broadband Provider IPv4 Address Shortage</title>
+
+<author initials='O' surname='Maennel' fullname='Olaf  Maennel'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<author initials='L' surname='Cittadini' fullname='Luca Cittadini'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bellovin' fullname='Steven Bellovin'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>We are facing the exhaustion of the IANA IPv4 free IP address pool. Unfortunately, IPv6 is not yet deployed widely enough to fully replace IPv4, and it is unrealistic to expect that this is going to change before we run out of IPv4 addresses.  Letting hosts seamlessly communicate in an IPv4-world without assigning a unique globally routable IPv4 address to each of them is a challenging problem, for which many solutions have been proposed.  Some prominent ones involve carrier-grade-NATs (CGN), which have been shown to provide an inadequate experience to IPv4 users and enshrine a walled garden in the core of the provider.  Instead, we propose using specialized NATs at the consumer premises equipment (CPE) edge which treat some of the port number bits as part of an extended IPv4 address.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ymbk-aplusp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ymbk-aplusp-01.txt' />
+</reference>

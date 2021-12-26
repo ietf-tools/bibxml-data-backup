@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moskowitz-small-crypto'>
+<front>
+<title>Small Crypto for Small IOT</title>
+
+<author initials='R' surname='Moskowitz' fullname='Robert Moskowitz'>
+    <organization />
+</author>
+
+<author initials='L' surname='Xia' fullname='Liang Xia'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>This memo proposes to leverage the Keccak algorithm at a function "width" of b=400 to provide a set of "small" cryptographic functions well suited to the IOT constrained environment.  As such, only 128 bit security level is provided here.  The full set of NIST approved Keccak derived functions that can work within the b=400 constraint, plus the 3rd round candidate in the CAESAR competition, Ketje, are defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moskowitz-small-crypto-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moskowitz-small-crypto-00.txt' />
+</reference>

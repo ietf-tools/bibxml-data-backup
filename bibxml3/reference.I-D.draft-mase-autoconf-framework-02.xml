@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mase-autoconf-framework'>
+<front>
+<title>A common framework for autoconfiguration of stand-alone ad hoc networks</title>
+
+<author initials='C' surname='Adjih' fullname='Cedric Adjih'>
+    <organization />
+</author>
+
+<author initials='K' surname='Mase' fullname='Kenichi Mase'>
+    <organization />
+</author>
+
+<date month='June' day='8' year='2006' />
+
+<abstract><t>We consider the unique local address autoconfiguration problem for stand-alone ad hoc networks (MANETs). Specifically, we consider two cases. First, a node without a pre-assigned and valid local address acquires a new local address and becomes a member of a new or existing MANET. Second, two or more MANETs merge. In the first case, a mechanism of IP address generation is needed. We also should have MANET-wide duplicate address detection (MANET-DAD) on newly generated address (tentative address) for suppressing occurrence of duplicate addresses for address generation (pre-service MANET-DAD). In the second case, duplicate address may occur as the result of a merger of two formerly independent networks. We should have MANET- DAD on addresses in use for resolving duplicate addresses and suppressing routing information contamination due to existence of duplicate addresses (in-service MANET-DAD). To realize pre-service MANET-DAD and in-service MANET-DAD, we define autoconfiguration states that are common for both proactive and reactive routing protocol. Each node exists in one of the autoconfiguration states at any time. A node, that detects duplicate address between other nodes, should advertise the detected duplicate address to all other nodes In the MANET. This is termed "MANET duplicate address advertisement" (MANET-DAA). The specific MANET-DAD and MANET-DAA algorithm is beyond the scope of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mase-autoconf-framework-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mase-autoconf-framework-02.txt' />
+</reference>

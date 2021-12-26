@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-segment-routing'>
+<front>
+<title>PCEP Extensions for Segment Routing</title>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hardwick' fullname='Jonathan Hardwick'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2019' />
+
+<abstract><t>Segment Routing (SR) enables any head-end node to select any path without relying on a hop-by-hop signaling technique (e.g., LDP or RSVP-TE).  It depends only on "segments" that are advertised by link- state Interior Gateway Protocols (IGPs).  A Segment Routing Path can be derived from a variety of mechanisms, including an IGP Shortest Path Tree (SPT), explicit configuration, or a Path Computation Element (PCE).  This document specifies extensions to the Path Computation Element Communication Protocol (PCEP) that allow a stateful PCE to compute and initiate Traffic Engineering (TE) paths, as well as a PCC to request a path subject to certain constraints and optimization criteria in SR networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-segment-routing-16' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-segment-routing-16.txt' />
+</reference>

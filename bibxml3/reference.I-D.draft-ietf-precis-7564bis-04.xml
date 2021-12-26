@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-precis-7564bis'>
+<front>
+<title>PRECIS Framework: Preparation, Enforcement, and Comparison of Internationalized Strings in Application Protocols</title>
+
+<author initials='P' surname='Saint-Andre' fullname='Peter Saint-Andre'>
+    <organization />
+</author>
+
+<author initials='M' surname='Blanchet' fullname='Marc Blanchet'>
+    <organization />
+</author>
+
+<date month='November' day='30' year='2016' />
+
+<abstract><t>Application protocols using Unicode code points in protocol strings need to properly handle such strings in order to enforce internationalization rules for strings placed in various protocol slots (such as addresses and identifiers) and to perform valid comparison operations (e.g., for purposes of authentication or authorization).  This document defines a framework enabling application protocols to perform the preparation, enforcement, and comparison of internationalized strings ("PRECIS") in a way that depends on the properties of Unicode code points and thus is more agile with respect to versions of Unicode.  As a result, this framework provides a more sustainable approach to the handling of internationalized strings than the previous framework, known as Stringprep (RFC 3454).  This document obsoletes RFC 7564.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-precis-7564bis-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-precis-7564bis-04.txt' />
+</reference>

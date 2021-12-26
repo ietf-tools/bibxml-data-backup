@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bryan-p2psip-reload'>
+<front>
+<title>REsource LOcation And Discovery (RELOAD)</title>
+
+<author initials='D' surname='Bryan' fullname='David Bryan'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2007' />
+
+<abstract><t>This document outlines the motivation, requirements, and architectural design for a extensible and lightweight distributed REsource LOcation And Discovery (RELOAD) protocol. RELOAD is a Peer- to-Peer (P2P) based approach for registration and resource discovery using distributed hash tables maintained with binary messages. This design removes the need for central servers from SIP, while offering full backward compatibility with SIP, allowing reuse of existing clients, and allowing P2P enabled peers to communicate with conventional SIP entities. A basic introduction to the concepts of P2P is presented, backward compatibility issues addressed, and security considerations are discussed. RELOAD is one possible implementation of the protocols being discussed for creation in the P2PSIP WG. In the context of the work being proposed, this draft represents a concrete proposal for the P2PSIP Peer Protocol. RELOAD uses binary messages, derived as much as possible from the STUN protocol, as the underlying protocol. Note that in order to be as similar to STUN as possible, some text has been re-used verbatim from I-Ds and RFCs describing STUN. In this architecture, no P2PSIP Client Protocol is needed, rather unmodified SIP is used for access by non-peers. This protocol considers NAT traversal and fragmentation, supports storage of information other than registrations, allows for multiple DHT and hash algorithms, and provides hooks for multiple security schemes. The protocol described here derives from a fully implemented and commercially available system with running code.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bryan-p2psip-reload-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bryan-p2psip-reload-01.txt' />
+</reference>

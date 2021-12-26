@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.urien-tls-se'>
+<front>
+<title>Secure Element for TLS Version 1.3</title>
+
+<author initials='P' surname='Urien' fullname='Pascal Urien'>
+    <organization />
+</author>
+
+<date month='September' day='15' year='2020' />
+
+<abstract><t>This draft presents ISO7816 interface for TLS1.3 stack running in secure element. It presents supported cipher suites and key exchange modes, and describes embedded software architecture. TLS 1.3 is the de facto security stack for emerging Internet of Things (IoT) devices. Some of them are constraint nodes, with limited computing resources. Furthermore cheap System on Chip (SoC) components don't usually provide tamper resistant features, so private or pre shared keys are exposed to hacking. According to the technology state of art, some ISO7816 secure elements are able to process TLS 1.3, but with a limited set of cipher suites. There are two benefits for TLS- SE; first fully tamper resistant processing of TLS protocol, which increases the security level insurance; second embedded software component ready for use, which relieves the software of the burden of cryptographic libraries and associated attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-urien-tls-se-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-urien-tls-se-00.txt' />
+</reference>

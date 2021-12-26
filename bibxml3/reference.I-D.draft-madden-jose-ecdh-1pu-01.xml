@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.madden-jose-ecdh-1pu'>
+<front>
+<title>Public Key Authenticated Encryption for JOSE: ECDH-1PU</title>
+
+<author initials='N' surname='Madden' fullname='Neil Madden'>
+    <organization />
+</author>
+
+<date month='May' day='12' year='2019' />
+
+<abstract><t>This document describes the ECDH-1PU public key authenticated encryption algorithm for JWE.  The algorithm is similar to the existing ECDH-ES encryption algorithm, but adds an additional ECDH key agreement between static keys of the sender and recipient.  This additional step allows the recipient to be assured of sender authenticity without requiring a nested signed-then-encrypted message structure.  The mode is also a useful building block for constructing interactive handshake protocols on top of JOSE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-madden-jose-ecdh-1pu-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-madden-jose-ecdh-1pu-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-monitoring'>
+<front>
+<title>NETCONF Monitoring Schema</title>
+
+<author initials='M' surname='Scott' fullname='Mark Scott'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chisholm' fullname='Sharon Chisholm'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bjorklund' fullname='Martin Bjorklund'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2008' />
+
+<abstract><t>This document defines NETCONF content via XML Schema to be used to monitor the NETCONF protocol.  It includes information about NETCONF sessions, locks, and subscriptions and is intended to facilitate management of a NETCONF server.  In addition this memo defines a mechanism to discover all possible data models (schema list retrieval) and a mechanism to retrieve schema via NETCONF (get schema).  Both can be performed dynamically throughout a session, unlike capabilities exchange which is performed during session setup only.  Both support multiple schema versions, formats and locations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-monitoring-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-monitoring-02.txt' />
+</reference>

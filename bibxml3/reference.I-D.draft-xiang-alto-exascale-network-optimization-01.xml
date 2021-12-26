@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xiang-alto-exascale-network-optimization'>
+<front>
+<title>Traffic Optimization for ExaScale Science Applications</title>
+
+<author initials='Q' surname='Xiang' fullname='Qiao Xiang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Newman' fullname='Harvey Newman'>
+    <organization />
+</author>
+
+<author initials='G' surname='Bernstein' fullname='Greg Bernstein'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mughal' fullname='Azher Mughal'>
+    <organization />
+</author>
+
+<author initials='J' surname='Balcas' fullname='Justas Balcas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='J. Zhang'>
+    <organization />
+</author>
+
+<author initials='d' surname='duhaizhou@gmail.com' fullname='duhaizhou@gmail.com'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>Massive datasets continue to be acquired, simulated, processed and analyzed by globally distributed scientific collaborations, and the volume of this data is growing exponentially.  These datasets need to be exchanged through a global network infrastructure.  Applications that manage and analyze such massive data volumes can benefit substantially from the information about networking, computing and storage resources from each member sites, and more directly from network-resident services that optimize and load balance resource usage among multiple data transfer and analytic requests, and achieve a better utilization of multi-resources in clusters.  The Application-Layer Traffic Optimization (ALTO) protocol can provide via extensions the network information about different clusters/sites, to both users and proactive network management services where applicable, with the goal of improving both application performance and network resource utilization.  However, it has been verified in both science networks and commercial data center networks that network resource in many cases is not the bottleneck preventing the efficiency of large dataset transfer and data-intensive analytics.  To achieve a greater overall efficiency of the science programs' workflows information about different resources, such as computing, storage and networking, should be provided to data intensive applications simultaneously.  In this document, we propose that it is feasible to use existing ALTO services to provides not only network information, but also information about other resources in science networks including computing and storage.  We introduce an Exascale Science Application Orchestrator (ExaO), which achieves an efficient multi-resource allocation to support low-latency dataset transfer and data intensive analytics in exascale science networks.  ExaO provides simple APIs for users to submit and manage dataset transfer and analytic requests and to monitor the status of each request, along with fine-grained local and global network and site state information in real-time.  It collects cluster information from multiple ALTO services utilizing topology extensions and leverages emerging SDN control capabilities to orchestrate the resource allocation for dataset transfers and analytic tasks, leading to improved transfer and analytic latency as well as more efficient utilization of multi-resources in clusters/ sites.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xiang-alto-exascale-network-optimization-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xiang-alto-exascale-network-optimization-01.txt' />
+</reference>

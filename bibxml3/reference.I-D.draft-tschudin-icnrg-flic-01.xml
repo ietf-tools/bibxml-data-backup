@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschudin-icnrg-flic'>
+<front>
+<title>File-Like ICN Collection (FLIC)</title>
+
+<author initials='C' surname='Tschudin' fullname='Christian Tschudin'>
+    <organization />
+</author>
+
+<author initials='c' surname='cwood@parc.com' fullname='cwood@parc.com'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2016' />
+
+<abstract><t>This document describes a bare bones "index table"-approach for organizing a set of ICN data objects into a large, File-Like ICN Collection (FLIC).  At the core of this collection is a so called manifest which acts as the collection's root node.  The manifest contains an index table with pointers, each pointer being a hash value pointing to either a final data block or another index table node.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschudin-icnrg-flic-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschudin-icnrg-flic-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-tschudin-icnrg-flic-01.pdf' />
+</reference>

@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-bider-ssh-quic-09.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-bider-ssh-quic-09.txt</link>
+        <title>"QUIC-based UDP Transport for Secure Shell (SSH)", denis bider</title>
+        <dc:date>2020-12-02T23:00:00-00:00</dc:date>
+        <description>The Secure Shell protocol (SSH) [RFC4251] is widely used for purposes including secure remote administration, file transfer using SFTP and SCP, and encrypted tunneling of TCP connections.  Because it is based on TCP, SSH suffers similar problems as motivate the HTTP protocol to transition to UDP-based QUIC [QUIC].  These include: unauthenticated network intermediaries can trivially disconnect SSH sessions; SSH connections are lost when mobile clients change IP addresses; performance limitations in OS-based TCP stacks; many round-trips to establish a connection; duplicate flow control on the level of the connection as well as channels.  This memo specifies SSH key exchange over UDP and leverages QUIC to provide a UDP-based transport.</description>
+    </item>

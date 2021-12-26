@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tuexen-tsvwg-sctp-udp-encaps-cons'>
+<front>
+<title>Additional Considerations for UDP Encapsulation of Stream Control Transmission Protocol (SCTP) Packets</title>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>RFC 6951 specifies the UDP encapsulation of SCTP packets.  The described handling of received packets requires the check of the verification tag.  However, RFC 6951 misses a specification for the handling of received packets for which this check is not possible.  This document updates RFC 6951 by specifying the handling of received packets where the verification tag can not be checked.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tuexen-tsvwg-sctp-udp-encaps-cons-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tuexen-tsvwg-sctp-udp-encaps-cons-02.txt' />
+</reference>

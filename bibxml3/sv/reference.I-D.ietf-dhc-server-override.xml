@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-server-override'>
+<front>
+<title>DHCP Server Identifier Override Suboption</title>
+
+<author initials='R' surname='Johnson' fullname='Richard Johnson'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kumarasamy' fullname='Jay Kumarasamy'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kinnear' fullname='Kim Kinnear'>
+    <organization />
+</author>
+
+<author initials='M' surname='Stapp' fullname='Mark Stapp'>
+    <organization />
+</author>
+
+<date month='November' day='16' year='2007' />
+
+<abstract><t>This memo defines a new suboption of the DHCP relay information option which allows the DHCP relay to specify a new value for the Server Identifier option, which is inserted by the DHCP Server. This allows the DHCP relay to act as the actual DHCP server such that RENEW DHCPREQUESTs will come to the relay instead of going to the server directly. This gives the relay the opportunity to include the Relay Agent option with appropriate suboptions even on DHCP RENEW messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-server-override-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-server-override-05.txt' />
+</reference>

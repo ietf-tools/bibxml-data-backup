@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-chen-nvo3-load-banlancing-00.txt'>
+    <title>"Load balancing without packet reordering in NVO3", Hao Chen</title>
+    <link>http://www.ietf.org/internet-drafts/draft-chen-nvo3-load-banlancing-00.txt</link>
+    <description>Traditional ECMP can not balance loads well in the data center network because it splits loads at the granularity of flow.  Packets belong to a single flow have to be delivered along the same path. Though it is able to avoid packet reordering, it may degrade the bandwidth utilization.  This document describes method of splitting a single flow to across multiple parallel paths without causing packet reordering, which is more effective when large flows exist.  The specific path selection algorithm is NOT discussed in this document.</description>
+    <dc:date>2014-10-27T07:00:00-00:00</dc:date>
+</item>

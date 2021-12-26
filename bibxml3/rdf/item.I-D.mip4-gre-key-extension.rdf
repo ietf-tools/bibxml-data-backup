@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-mip4-gre-key-extension-01.txt'>
+    <title>"GRE Key Extension for Mobile IPv4", Parviz Yegani, Kent Leung, Avi Lior, Kuntal Chowdhury, Jay Navali</title>
+    <link>http://www.ietf.org/internet-drafts/draft-mip4-gre-key-extension-01.txt</link>
+    <description>The GRE specification contains a Key field, which MAY contain a value that is used to identify a particular GRE data stream.  This specification defines a new Mobile IP extension that is used to exchange the value to be used in the GRE Key field.  This extension further allows the Mobility Agents to setup the necessary protocol interfaces prior to receiving the mobile's traffic.  The new extension option allows a foreign agent to request GRE tunneling without disturbing the Home Agent behavior specified for Mobile Ipv4. GRE tunneling provides an advantage that allows operator's private home networks to be overlaid and allows the HA to provide overlapping home addresses to different subscribers.  When the tuple &lt; Care of Address, Home Address and Home Agent Address > is the same across multiple subscriber sessions, GRE tunneling will provide a means for the FA and HA to identify data streams for the individual sessions based on the GRE key.  In the absence of this key identifier, the data streams cannot be distinguished from each other, a significant drawback when using IP-in-IP tunneling.</description>
+    <dc:date>2010-03-31T22:00:00-00:00</dc:date>
+</item>

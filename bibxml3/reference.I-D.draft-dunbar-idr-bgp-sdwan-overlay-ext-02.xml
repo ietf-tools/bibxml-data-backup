@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dunbar-idr-bgp-sdwan-overlay-ext'>
+<front>
+<title>BGP Extension for SDWAN Overlay Networks</title>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='H' surname='Wang' fullname='Haibo Wang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<date month='November' day='5' year='2018' />
+
+<abstract><t>The document defines a new BGP SAFI with a new NLRI in order to advertise a SD-WAN edge node's capabilities in establishing SD-WAN overlay tunnels with other SD-WAN nodes through third party untrusted networks. The goal is for SD-WAN network to scale, enabling SD-WAN overlay tunnels among large number of SD-WAN nodes to be established with few provisioning needed, and allow services to be carried by different SD-WAN tunnels based on user specified criteria.  A "SD-WAN" tunnel refers to a point-to-point IPsec overlay path between two end-points that can aggregate multiple different types of underlay networks. An "end-point" is referring to a port on a SD- WAN node throughout this document.  This document specifies new sub-TLVs for the SD-WAN Tunnel Encapsulation Attribute.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dunbar-idr-bgp-sdwan-overlay-ext-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dunbar-idr-bgp-sdwan-overlay-ext-02.txt' />
+</reference>

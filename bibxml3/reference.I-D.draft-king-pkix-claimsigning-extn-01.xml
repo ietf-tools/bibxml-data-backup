@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.king-pkix-claimsigning-extn'>
+<front>
+<title>claimSigning Extended Key Usage (EKU)</title>
+
+<author initials='M' surname='King' fullname='Matt King'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tebo' fullname='Matt Tebo'>
+    <organization />
+</author>
+
+<author initials='W' surname='Brown' fullname='Wendy Brown'>
+    <organization />
+</author>
+
+<author initials='D' surname='Silver' fullname='Dave Silver'>
+    <organization />
+</author>
+
+<author initials='C' surname='Louden' fullname='Chris Louden'>
+    <organization />
+</author>
+
+<author initials='P' surname='Patterson' fullname='Patrick Patterson'>
+    <organization />
+</author>
+
+<date month='May' day='25' year='2011' />
+
+<abstract><t>This memo specifies an Extended Key Usage (EKU) X.509 certificate extension which indicates that the certificate holder is authorized to sign security tokens to assert claims, or attributes, about a principal.  When an owner of a certificate that asserts the claimSigning EKU signs a claim, the owner is asserting that a statement about the principal is true. For example, a IdP secure token service (STS) would use an X.509 certificate containing the claimSigning EKU to sign SAML assertions containing an identifier and attributes about a user. This additional EKU value would further allow the differentiation of certificates used to identify a particular server from those used by the server to sign identity or attribute claims.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-king-pkix-claimsigning-extn-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-king-pkix-claimsigning-extn-01.txt' />
+</reference>

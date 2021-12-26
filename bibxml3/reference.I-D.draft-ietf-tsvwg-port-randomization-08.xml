@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-port-randomization'>
+<front>
+<title>Transport Protocol Port Randomization Recommendations</title>
+
+<author initials='M' surname='Larsen' fullname='Michael Larsen'>
+    <organization />
+</author>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='May' day='31' year='2010' />
+
+<abstract><t>During the las few years, awareness has been raised about a number of "blind" attacks that can be performed against the Transmission Control Protocol (TCP) and similar protocols.  The consequences of these attacks range from throughput-reduction to broken connections or data corruption.  These attacks rely on the attacker's ability to guess or know the five-tuple (Protocol, Source Address, Destination Address, Source Port, Destination Port) that identifies the transport protocol instance to be attacked.  This document describes a number of simple and efficient methods for the selection of the client port number, such that the possibility of an attacker guessing the exact value is reduced.  While this is not a replacement for cryptographic methods for protecting the transport-protocol instance, the described port number obfuscation algorithms provide improved security/ obfuscation with very little effort and without any key management overhead.  The algorithms described in this document are local policies that may be incrementally deployed, and that do not violate the specifications of any of the transport protocols that may benefit from them, such as TCP, UDP, UDP-lite, SCTP, DCCP, and RTP (provided the RTP application explicitly signals the RTP and RTCP port numbers).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-port-randomization-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-port-randomization-08.txt' />
+</reference>

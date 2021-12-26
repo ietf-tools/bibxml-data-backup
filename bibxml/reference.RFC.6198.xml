@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6198' target='https://www.rfc-editor.org/info/rfc6198'>
+<front>
+<title>Requirements for the Graceful Shutdown of BGP Sessions</title>
+<author initials='B.' surname='Decraene' fullname='B. Decraene'><organization /></author>
+<author initials='P.' surname='Francois' fullname='P. Francois'><organization /></author>
+<author initials='C.' surname='Pelsser' fullname='C. Pelsser'><organization /></author>
+<author initials='Z.' surname='Ahmad' fullname='Z. Ahmad'><organization /></author>
+<author initials='A.J.' surname='Elizondo Armengol' fullname='A.J. Elizondo Armengol'><organization /></author>
+<author initials='T.' surname='Takeda' fullname='T. Takeda'><organization /></author>
+<date year='2011' month='April' />
+<abstract><t>The Border Gateway Protocol (BGP) is heavily used in Service Provider networks for both Internet and BGP/MPLS VPN services.  For resiliency purposes, redundant routers and BGP sessions can be deployed to reduce the consequences of an Autonomous System Border Router (ASBR) or BGP session breakdown on customers' or peers' traffic.  However, simply taking down or even bringing up a BGP session for maintenance purposes may still induce connectivity losses during the BGP convergence.  This is no longer satisfactory for new applications (e.g., voice over IP, online gaming, VPN).  Therefore, a solution is required for the graceful shutdown of a (set of) BGP session(s) in order to limit the amount of traffic loss during a planned shutdown.  This document expresses requirements for such a solution.  This document is not  an Internet Standards Track specification; it is published for informational purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6198'/>
+<seriesInfo name='DOI' value='10.17487/RFC6198'/>
+</reference>

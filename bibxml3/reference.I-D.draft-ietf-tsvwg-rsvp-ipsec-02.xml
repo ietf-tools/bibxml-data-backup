@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-rsvp-ipsec'>
+<front>
+<title>Generic Aggregate RSVP Reservations</title>
+
+<author initials='F' surname='Faucheur' fullname='Francois Le Faucheur'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2006' />
+
+<abstract><t>[RSVP-AGG] defines aggregate RSVP reservations allowing resources to be reserved in a Diffserv network for a given DSCP from a given source to a given destination. [RSVP-AGG] also defines how end-to-end RSVP reservations can be aggregated onto such aggregate reservations when transiting through a Diffserv cloud. There are situations where multiple such aggregate reservations are needed for the same source IP address, destination IP address and DSCP. However, this is not supported by the aggregate reservations defined in [RSVP-AGG]. In order to support this, the present document defines a more flexible type of aggregate RSVP reservations, referred to as generic aggregate reservation. Multiple such generic aggregate reservations can be established for a given DSCP from a given source IP address to a given destination IP address. The generic aggregate reservations may be used to aggregate end-to-end RSVP reservations. This document also defines the procedures for such aggregation. The generic aggregate reservations may also be used end-to-end directly by end-systems attached to a Diffserv network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-rsvp-ipsec-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-rsvp-ipsec-02.txt' />
+</reference>

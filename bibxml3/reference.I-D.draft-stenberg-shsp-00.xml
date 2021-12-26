@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stenberg-shsp'>
+<front>
+<title>Simple Home Status Protocol</title>
+
+<author initials='M' surname='Stenberg' fullname='Markus Stenberg'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2015' />
+
+<abstract><t>This document describes yet another DNCP-based protocol, which uses HNCP-style transport, yet intentionally is incompatible with it so that TLVs of SHSP and HNCP can be handled using same transport channel and de/encoders, but individual implementations of the different protocols can ignore each other unless they support both protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stenberg-shsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stenberg-shsp-00.txt' />
+</reference>

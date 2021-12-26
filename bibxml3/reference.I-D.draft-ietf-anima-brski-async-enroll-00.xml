@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-anima-brski-async-enroll'>
+<front>
+<title>Support of asynchronous Enrollment in BRSKI (BRSKI-AE)</title>
+
+<author initials='S' surname='Fries' fullname='Steffen Fries'>
+    <organization />
+</author>
+
+<author initials='H' surname='Brockhaus' fullname='Hendrik Brockhaus'>
+    <organization />
+</author>
+
+<author initials='E' surname='Lear' fullname='Eliot Lear'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2020' />
+
+<abstract><t>This document describes enhancements of bootstrapping a remote secure key infrastructure (BRSKI) to also operate in domains featuring no or only timely limited connectivity between involved components.  It addresses connectivity to backend services supporting enrollment like a Public Key Infrastructure (PKI) and also to the connectivity between pledge and registrar.  For this it enhances the use of authenticated self-contained objects in BRSKI also for request and distribution of deployment domain specific device certificates.  The defined approach is agnostic regarding the utilized enrollment protocol allowing the application of existing and potentially new certificate management protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-anima-brski-async-enroll-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-anima-brski-async-enroll-00.txt' />
+</reference>

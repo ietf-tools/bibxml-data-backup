@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fairhurst-tsvwg-datagram-plpmtud'>
+<front>
+<title>Packetization Layer Path MTU Discovery for Datagram Transports</title>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<author initials='T' surname='Jones' fullname='Tom Jones'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<author initials='I' surname='Ruengeler' fullname='Irene Ruengeler'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>This document describes a robust method for Path MTU Discovery (PMTUD) for datagram packetization layers.  It allows these layers to probe an Internet path with progressively larger packets to determine a maximum packet size This method is described as an extension to RFC 1191 and RFC 1981, which specify ICMP-based Path MTU Discovery for IP versions 4 and 6.  The document provides functionally for datagram transports that is equivalent to the packetization layer PMTUD specification for TCP, specified in RFC4821.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fairhurst-tsvwg-datagram-plpmtud-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fairhurst-tsvwg-datagram-plpmtud-00.txt' />
+</reference>

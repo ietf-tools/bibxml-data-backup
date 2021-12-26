@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.unbehagen-spb-ip-ipvpn'>
+<front>
+<title>IP/IPVPN services with IEEE 802.1aq SPB networks</title>
+
+<author initials='P' surname='Unbehagen' fullname='Paul Unbehagen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Lapuh' fullname='Roger Lapuh'>
+    <organization />
+</author>
+
+<author initials='P' surname='Ashwood-Smith' fullname='Peter Ashwood-Smith'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2012' />
+
+<abstract><t>This document describes a compact method of using a IEEE 802.1aq Shortest Path Backbone Bridging (SPB) network to natively enable and carry IP and IPVPN services on native Ethernet links.  Further this documents the extensions to SPB's control protocol, IS-IS, required to allow it to be a single mechanism for providing all these services types.  On its own SPB provides virtual Ethernet networks; utilizing IS-IS to create loop free Ethernet topologies that forward Ethernet traffic using a standard Ethernet header.  This document shows how the same SPB network can also be leveraged to provide IP based services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-unbehagen-spb-ip-ipvpn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-unbehagen-spb-ip-ipvpn-00.txt' />
+</reference>

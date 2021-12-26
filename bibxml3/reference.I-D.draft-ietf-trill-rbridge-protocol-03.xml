@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-rbridge-protocol'>
+<front>
+<title>RBridges: Base Protocol Specification</title>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2007' />
+
+<abstract><t>RBridges allow for optimal pair-wise forwarding with zero configuration, safe forwarding even during periods of temporary loops, and the ability to cut down on ARP/ND and IP multicast traffic. They achieve these goals by replacing the Spanning Tree protocol with IS-IS. The design also supports VLANs, and allows forwarding tables to be based on RBridge destinations (rather than endnode destinations), which allows internal forwarding tables to be substantially smaller than in conventional bridge systems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-rbridge-protocol-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-rbridge-protocol-03.txt' />
+</reference>

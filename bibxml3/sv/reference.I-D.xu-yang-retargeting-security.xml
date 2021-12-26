@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-yang-retargeting-security'>
+<front>
+<title>Retargeting Security in the Session Initiation Protocol (SIP)</title>
+
+<author initials='Y' surname='Xu' fullname='Yang Xu'>
+    <organization />
+</author>
+
+<date month='May' day='11' year='2007' />
+
+<abstract><t>As a SIP request is processed along its route to the destination, the initial request-URI can be altered without callers’ notice or consent. The caller may concern both the final call recipient’s identity and the authorities of the SIP intermediaries that alter the request-URI. Especially when the caller does not know the final call recipient, simply giving his/her identity to the caller will not help the caller to decide the legitimacy of the call. Without a secure retarget mechanism, the end-to-end security of SIP cannot be guaranteed. This document proposes a security mechanism to provide the caller with credentials of SIP intermediaries that retarget a request and the final recipient’s identity through response.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-yang-retargeting-security-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-yang-retargeting-security-00.txt' />
+</reference>

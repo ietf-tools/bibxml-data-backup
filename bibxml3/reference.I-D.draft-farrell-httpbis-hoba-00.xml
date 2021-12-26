@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.farrell-httpbis-hoba'>
+<front>
+<title>HTTP Origin-Bound Authentication (HOBA)</title>
+
+<author initials='S' surname='Farrell' fullname='Stephen Farrell'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2012' />
+
+<abstract><t>This memo proposes a way of using origin-bound certificates for HTTP authentication, called HOBA.  HOBA is an HTTP authentication method with credentials that are not vulnerable to simple phishing attacks, and that does not require a server-side password database, both major potential positives, if deployed.  HOBA can be integrated with account management and other applications running over HTTP and supports portability, so a user can associate more than one device or origin-bound certificate with the same service.  This also provides a mechanism to handle state-loss, if one of a user's credentials is lost.  HOBA also provides a logout mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-farrell-httpbis-hoba-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-farrell-httpbis-hoba-00.txt' />
+</reference>

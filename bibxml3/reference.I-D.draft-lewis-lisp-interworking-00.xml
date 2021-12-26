@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lewis-lisp-interworking'>
+<front>
+<title>Interworking LISP with IPv4 and IPv6</title>
+
+<author initials='D' surname='Lewis' fullname='Darrel Lewis'>
+    <organization />
+</author>
+
+<date month='December' day='14' year='2007' />
+
+<abstract><t>This document describes various methods for interworking between the Internet and an Internet in which Endpoint Identifiers are separated from to Routing Locators using the Locator/ID Separation Protocol (LISP).  Existing Internet hosts that do not participate in the LISP system must still be able to reach sites numbered from this EID prefixes.  This new draft describes mechanisms which might be used to provide reachability between these types of sites.  A new network  element, the Proxy Tunnel Router may also be deployed to act as a transitional LISP Ingress Tunnel Router for a subnetwork which does not implement LISP but which requires communication to devices that are addressed from LISP prefixes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lewis-lisp-interworking-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lewis-lisp-interworking-00.txt' />
+</reference>

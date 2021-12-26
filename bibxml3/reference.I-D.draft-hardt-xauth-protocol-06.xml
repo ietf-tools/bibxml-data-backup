@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hardt-xauth-protocol'>
+<front>
+<title>The XAuth Protocol</title>
+
+<author initials='D' surname='Hardt' fullname='Dick Hardt'>
+    <organization />
+</author>
+
+<date month='March' day='22' year='2020' />
+
+<abstract><t>Client software often desires resources or identity claims that are independent of the client.  This protocol allows a user and/or resource owner to delegate resource authorization and/or release of identity claims to a server.  Client software can then request access to resources and/or identity claims by calling the server.  The server acquires consent and authorization from the user and/or resource owner if required, and then returns to the client software the authorization and identity claims that were approved.  This protocol can be extended to support alternative authorizations, claims, interactions, and client authentication mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hardt-xauth-protocol-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hardt-xauth-protocol-06.txt' />
+</reference>

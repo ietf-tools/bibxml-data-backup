@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-anima-autonomic-control-plane'>
+<front>
+<title>An Autonomic Control Plane (ACP)</title>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='M' surname='Behringer' fullname='Michael Behringer'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bjarnason' fullname='Steinthor Bjarnason'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2020' />
+
+<abstract><t>Autonomic functions need a control plane to communicate, which depends on some addressing and routing.  This Autonomic Control Plane should ideally be self-managing, and as independent as possible of configuration.  This document defines such a plane and calls it the "Autonomic Control Plane", with the primary use as a control plane for autonomic functions.  It also serves as a "virtual out-of-band channel" for Operations, Administration and Management (OAM) communications over a network that provides automatically configured hop-by-hop authenticated and encrypted communications via automatically configured IPv6 even when the network is not configured, or misconfigured.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-anima-autonomic-control-plane-26' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-anima-autonomic-control-plane-26.txt' />
+</reference>

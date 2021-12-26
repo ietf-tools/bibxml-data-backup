@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sanjib-private-vlan'>
+<front>
+<title>Private VLANs: Addressing VLAN scalability and security issues in a  multi-client environment</title>
+
+<author initials='S' surname='HomChaudhuri' fullname='Sanjib HomChaudhuri'>
+    <organization />
+</author>
+
+<author initials='M' surname='Foschiano' fullname='Marco Foschiano'>
+    <organization />
+</author>
+
+<date month='May' day='25' year='2007' />
+
+<abstract><t>A vlan is a broadcast domain in which all devices can establish direct communication with one another at Layer 2. As a consequence, devices that are connected to the same vlan have an implicit trust relationship with each other. If 'untrusted' devices are introduced into a vlan, security issues may arise because trusted and untrusted devices end up sharing the same broadcast domain. The traditional solution to this kind of problem is to assign a separate vlan to each user that is concerned about Layer 2 security issues. That however is not always a scalable solution. This document describes a mechanism to achieve Layer 2 isolation among devices that are members of the same Layer 2 domain. What that means is that, on the one hand, each user can enjoy the benefits that come with a separate dedicated vlan, while on the other hand the network provider will enjoy the benefit of consuming as few as two vlan identifiers. Moreover, the scheme described in this document allows end devices to be Layer 2 isolated while sharing the same IP subnet, which in turn allows the network designer to employ larger subnets and reduce the address allocation and management overhead.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sanjib-private-vlan-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sanjib-private-vlan-07.txt' />
+</reference>

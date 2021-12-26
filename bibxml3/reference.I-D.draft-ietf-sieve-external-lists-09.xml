@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sieve-external-lists'>
+<front>
+<title>Sieve Extension: Externally Stored Lists</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<author initials='B' surname='Leiba' fullname='Barry Leiba'>
+    <organization />
+</author>
+
+<date month='May' day='18' year='2011' />
+
+<abstract><t>The Sieve scripting language can be used to implement whitelisting, blacklisting, personal distribution lists, and other sorts of list matching.  Currently, this requires that all members of such lists be hardcoded in the script itself.  Whenever a member of a list is added or deleted, the script needs to be updated and possibly uploaded to a mail server.  This document defines a Sieve extension for accessing externally stored lists -- lists whose members are stored externally to the script, such as using LDAP (RFC 4510), ACAP (RFC 2244), CardDAV (work in progress), or relational databases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sieve-external-lists-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sieve-external-lists-09.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-detnet-security'>
+<front>
+<title>Deterministic Networking (DetNet) Security Considerations</title>
+
+<author initials='E' surname='Grossman' fullname='Ethan Grossman'>
+    <organization />
+</author>
+
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Hacker' fullname='Andrew Hacker'>
+    <organization />
+</author>
+
+<date month='December' day='11' year='2020' />
+
+<abstract><t>A DetNet (deterministic network) provides specific performance guarantees to its data flows, such as extremely low data loss rates and bounded latency (including bounded latency variation, i.e. "jitter").  As a result, securing a DetNet requires that in addition to the best practice security measures taken for any mission-critical network, additional security measures may be needed to secure the intended operation of these novel service properties.  This document addresses DetNet-specific security considerations from the perspectives of both the DetNet system-level designer and component designer.  System considerations include a threat model, taxonomy of relevant attacks, and associations of threats versus use cases and service properties.  Component-level considerations include ingress filtering and packet arrival time violation detection.  This document also addresses security considerations specific to the IP and MPLS data plane technologies, thereby complementing the Security Considerations sections of those documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-detnet-security-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-detnet-security-13.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nagayama-ipsecme-ipsec-with-qkd'>
+<front>
+<title>IKE for IPsec with QKD</title>
+
+<author initials='S' surname='Nagayama' fullname='Shota Nagayama'>
+    <organization />
+</author>
+
+<author initials='R' surname='Meter' fullname='Rodney Meter'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>Quantum Key Distribution (QKD) is a mechanism for creating shared, secret, random bits.  This document describes extensions to the IKEv2 protocol to use random bits created via QKD as keys for IPsec.  The Diffie-Hellman key agreement mechanism is replaced with QKD.  The use of QKD-generated keys with standard IPsec will extend the lifetime of privacy guarantees for IPsec-protected data: future technological advances that break Diffie-Hellman key exchange will not disclose data until such time as the encryption algorithm used for the IPsec tunnel is broken.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nagayama-ipsecme-ipsec-with-qkd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nagayama-ipsecme-ipsec-with-qkd-00.txt' />
+</reference>

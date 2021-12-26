@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-alto-path-vector'>
+<front>
+<title>ALTO Extension: Path Vector</title>
+
+<author initials='K' surname='Gao' fullname='Kai Gao'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Randriamasy' fullname='Sabine Randriamasy'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Y. Yang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='J. Zhang'>
+    <organization />
+</author>
+
+<date month='July' day='22' year='2019' />
+
+<abstract><t>This document defines an ALTO extension that allows a resource to provide not only preferences of network paths but also correlations of network paths, including aggregations of network components and their properties on the paths between different PIDs or endpoints. The extended information can be used to improve the robustness and performance for applications in some new usage scenarios, such as high-speed data transfers and traffic optimization using in-network storage and computation.  This document introduces abstract network element (ANE) as an abstraction for aggregations of network components.  It extends the base protocol and the Unified Property extension to enable the capability of encoding such information in a "path vector", i.e., an array of ANEs that are traversed by traffic from a source to a destination.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-alto-path-vector-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-alto-path-vector-08.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-bhalevy-nfs-obj-00.txt'>
+    <title>"Object-Based Parallel NFS (pNFS) Operations - Version 2", Benny Halevy</title>
+    <link>http://www.ietf.org/internet-drafts/draft-bhalevy-nfs-obj-00.txt</link>
+    <description>Parallel NFS (pNFS) extends Network File System version 4 (NFSv4) to allow clients to directly access file data on the storage used by the NFSv4 server.  This ability to bypass the server for data access can increase both performance and parallelism, but requires additional client functionality for data access, some of which is dependent on the class of storage used, a.k.a. the Layout Type.  The main pNFS operations and data types in NFSv4 Minor version 1 specify a layout- type-independent layer; layout-type-specific information is conveyed using opaque data structures whose internal structure is further defined by the particular layout type specification.  This document specifies the NFSv4.1 Object-Based pNFS Layout Type as a companion to the main NFSv4 Minor version 1 specification.  Version 2 of this layout type introduces the use of the Network File System protocol as an object-storage protocol in addition to the T-10 OSD protocol.</description>
+    <dc:date>2012-08-30T22:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bennish-http-tldr'>
+<front>
+<title>Trusted Linker Download Redirection (TLDR)</title>
+
+<author initials='B' surname='Bennish' fullname='Bennish'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2014' />
+
+<abstract><t>This document describes an HTTP extension that allows user agents to verify downloaded data.  It provides a standardised way for an HTTPS URL (assumed trustworthy) to redirect to a non-HTTPS URL and give the user agent extra information about the resulting output (e.g. a downloaded file.)  Once that is retrieved, it can check whether or not the data has been modified since the trustworthy site checked it (e.g. altered during transit or as a result of the destination site having been compromised.)</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bennish-http-tldr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bennish-http-tldr-00.txt' />
+</reference>

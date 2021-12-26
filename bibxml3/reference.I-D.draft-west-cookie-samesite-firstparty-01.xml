@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.west-cookie-samesite-firstparty'>
+<front>
+<title>First-Party Sets and SameSite Cookies</title>
+
+<author initials='M' surname='West' fullname='Mike West'>
+    <organization />
+</author>
+
+<date month='May' day='10' year='2019' />
+
+<abstract><t>This document proposes the addition of two new values to the "SameSite" cookie attribute defined in RFC6265bis [I-D.ietf-httpbis-rfc6265bis]: "FirstPartyLax" and "FirstPartyStrict".  These values are conceptually similar to the existing "Lax" and "Strict" values, but base the delivery checks on the First-Party Sets [first-party-set] of a request's initiator and target, rather than on their respective registrable domains.  This widens the scope of a given cookie's applicability, enabling entities that have sharded themselves across multiple registrable domains to maintain HTTP state without exposing themselves to the risks of "SameSite=None".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-west-cookie-samesite-firstparty-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-west-cookie-samesite-firstparty-01.txt' />
+</reference>

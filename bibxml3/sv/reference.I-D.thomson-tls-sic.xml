@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thomson-tls-sic'>
+<front>
+<title>Suppressing Intermediate Certificates in TLS</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2019' />
+
+<abstract><t>A TLS client that has access to the complete set of published intermediate certificates can inform servers of this fact so that the server can avoid sending intermediates, reducing the size of the TLS handshake.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thomson-tls-sic-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thomson-tls-sic-00.txt' />
+</reference>

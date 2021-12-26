@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.generic-6man-tunfrag'>
+<front>
+<title>IPv6 Network Fragmentation for Tunnels</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2012' />
+
+<abstract><t>IPv6 intentionally deprecates fragmentation by routers in the network.  An exception to this requirement occurs when there is an IPv6/IPv4 protocol translator in the path, where in-the-network fragmentation may be unavoidable when the IPv4 network path includes a restricting link.  Unfortunately, recent investigations have shown that IPv6 Path MTU Discovery (PMTUD) interacts poorly with tunnels to the point that tunneled packets can be best accommodated only when the tunnel ingress is permitted to perform fragmentation.  This document therefore updates the IPv6 protocol specification to enable in-the-network fragmentation by routers that configure tunnel endpoints.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-generic-6man-tunfrag-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-generic-6man-tunfrag-00.txt' />
+</reference>

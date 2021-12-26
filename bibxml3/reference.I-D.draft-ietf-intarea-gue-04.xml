@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-intarea-gue'>
+<front>
+<title>Generic UDP Encapsulation</title>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<author initials='O' surname='Zia' fullname='Osama Zia'>
+    <organization />
+</author>
+
+<date month='May' day='18' year='2017' />
+
+<abstract><t>This specification describes Generic UDP Encapsulation (GUE), which is a scheme for using UDP to encapsulate packets of different IP protocols for transport across layer 3 networks. By encapsulating packets in UDP, specialized capabilities in networking hardware for efficient handling of UDP packets can be leveraged. GUE specifies basic encapsulation methods upon which higher level constructs, such as tunnels and overlay networks for network virtualization, can be constructed. GUE is extensible by allowing optional data fields as part of the encapsulation, and is generic in that it can encapsulate packets of various IP protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-intarea-gue-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-intarea-gue-04.txt' />
+</reference>

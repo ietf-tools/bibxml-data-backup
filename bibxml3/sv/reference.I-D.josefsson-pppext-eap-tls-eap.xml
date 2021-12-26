@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josefsson-pppext-eap-tls-eap'>
+<front>
+<title>Protected EAP Protocol (PEAP) Version 2</title>
+
+<author initials='S' surname='Josefsson' fullname='Simon Josefsson'>
+    <organization />
+</author>
+
+<author initials='A' surname='Palekar' fullname='Ashwin Palekar'>
+    <organization />
+</author>
+
+<author initials='D' surname='Simon' fullname='Daniel Simon'>
+    <organization />
+</author>
+
+<author initials='G' surname='Zorn' fullname='Glen Zorn'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2004' />
+
+<abstract><t>The Extensible Authentication Protocol (EAP) provides support for multiple authentication methods. This document defines the Protected Extensible Authentication Protocol (PEAP) Version 2, which provides an encrypted and authenticated tunnel based on transport layer security (TLS) that encapsulates EAP authentication mechanisms. PEAPv2 uses TLS to protect against rogue authenticators, protect against various attacks on the confidentiality and integrity of the inner EAP method exchange and provide EAP peer identity privacy. PEAPv2 also provides support for chaining multiple EAP mechanisms, cryptographic binding between authentications performed by inner EAP mechanisms and the tunnel, exchange of arbitrary parameters (TLVs), and fragmentation and reassembly.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josefsson-pppext-eap-tls-eap-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josefsson-pppext-eap-tls-eap-10.txt' />
+</reference>

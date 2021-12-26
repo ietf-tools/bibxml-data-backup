@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-sctp-dtls-encaps'>
+<front>
+<title>DTLS Encapsulation of SCTP Packets</title>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<author initials='R' surname='Jesup' fullname='Randell Jesup'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<date month='January' day='15' year='2015' />
+
+<abstract><t>The Stream Control Transmission Protocol (SCTP) is a transport protocol originally defined to run on top of the network protocols IPv4 or IPv6.  This document specifies how SCTP can be used on top of the Datagram Transport Layer Security (DTLS) protocol.  Using the encapsulation method described in this document, SCTP is unaware of the protocols being used below DTLS; hence explicit IP addresses cannot be used in the SCTP control chunks.  As a consequence, the SCTP associations carried over DTLS can only be single homed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-sctp-dtls-encaps-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-dtls-encaps-08.txt' />
+</reference>

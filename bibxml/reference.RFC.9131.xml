@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9131' target='https://www.rfc-editor.org/info/rfc9131'>
+<front>
+<title>Gratuitous Neighbor Discovery: Creating Neighbor Cache Entries on First-Hop Routers</title>
+<author initials='J.' surname='Linkova' fullname='J. Linkova'><organization /></author>
+<date year='2021' month='October' />
+<abstract><t>Neighbor Discovery (RFC 4861) is used by IPv6 nodes to determine the link-layer addresses of neighboring nodes as well as to discover and maintain reachability information. This document updates RFC 4861 to allow routers to proactively create a Neighbor Cache entry when a new IPv6 address is assigned to a node. It also updates RFC 4861 and recommends that nodes send unsolicited Neighbor Advertisements upon assigning a new IPv6 address. These changes will minimize the delay and packet loss when a node initiates connections to an off-link destination from a new IPv6 address.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9131'/>
+<seriesInfo name='DOI' value='10.17487/RFC9131'/>
+</reference>

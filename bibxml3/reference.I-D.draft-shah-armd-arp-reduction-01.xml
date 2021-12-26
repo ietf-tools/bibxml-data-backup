@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shah-armd-arp-reduction'>
+<front>
+<title>ARP Broadcast Reduction for Large Data Centers</title>
+
+<author initials='H' surname='Shah' fullname='Himanshu Shah'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2010' />
+
+<abstract><t>With the emergence server virtualization technologies, a host is able to support multiple Virtual Machines (VMs) in a single physical machine. Data centers can leverage these capabilities to instantiate on the order of 10s to 100s of VMs in a server. Each VM operates as an independent IP host with a set of Virtual Network Interface Cards (vNICs), each having its own MAC address and mapping to a physical Ethernet interface. These physical servers are typically installed in a rack with their Ethernet interfaces connected to a top-of-rack (ToR) switch. The ToR switches are interconnected through End-of- the-Row (EoR) or aggregation switches which are in turn connected to core switches.  As discussed in [ARP-Problem] the host VMs use ARP broadcasts to find other host VMs and use periodic (broadcast) Gratuitous ARPs to refresh their IP to MAC address binding in other VM hosts. Such broadcasts in a large data center with potentially thousands of VM hosts in a Layer 2 based topology can overwhelm the network.  This memo proposes mechanisms to reduce the number of broadcasts that are sent throughout the network. This is done by having the ToR switches intelligently process ARP packets, rather than simply broadcasting them throughout the broadcast domain.  While this document specifically addresses ARP, the Neighbor Discovery mechanisms used by IPv6 hosts that make use of multicast rather than broadcast also pose similar issues for the data center. The solutions defined herein should be equally applicable to hosts running IPv6.  The details will be specified in a subsequent revision.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shah-armd-arp-reduction-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shah-armd-arp-reduction-01.txt' />
+</reference>

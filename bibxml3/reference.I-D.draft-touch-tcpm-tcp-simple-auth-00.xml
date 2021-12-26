@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.touch-tcpm-tcp-simple-auth'>
+<front>
+<title>The TCP Simple Authentication Option</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mankin' fullname='Allison Mankin'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2006' />
+
+<abstract><t>This document specifies a TCP Simple Authentication Option (TCP-SA) which is intended to replace the TCP MD5 Signature option of RFC-2385 (TCP/MD5). TCP-SA specifies the use of stronger HMAC-based hashes and provides more details on the association of security associations with TCP connections. TCP-SA assumes that rekeying is supported by restarting the TCP connection, and so omits in-band parameter negotiation, session key establishment, and rekeying support; where such features are desired, use of the IPsec suite is recommended. The result is intended to be a simple modification to support current infrastructure uses of TCP/MD5, such as to protect BGP and LDP, to support a larger set of hashes with minimal other system and operational changes. TCP-SA requires no new option identifier, though it is intended to be mutually exclusive with TCP/MD5 on a given TCP connection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-touch-tcpm-tcp-simple-auth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-touch-tcpm-tcp-simple-auth-00.txt' />
+</reference>

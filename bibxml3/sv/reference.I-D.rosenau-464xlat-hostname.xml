@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosenau-464xlat-hostname'>
+<front>
+<title>Special host name for 464xlat connections</title>
+
+<author initials='M' surname='Rosenau' fullname='Martin Rosenau'>
+    <organization />
+</author>
+
+<date month='September' day='23' year='2018' />
+
+<abstract><t>This document describes an idea for a special DNS query whose use is to get the IPv6 address representing an IPv4 address in a 464xlat environment.  The query can also be used to force the IPv4 client to connect to the server via IPv6 by returning the "real" IPv6 address of a dual-stack server instead of the IPv6 address used to connect to the server's IPv4 address using NAT64.  The query is supposed to be compatible to the existing DNS system so no changes to the DNS protocol or DNS servers need to be done.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosenau-464xlat-hostname-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosenau-464xlat-hostname-00.txt' />
+</reference>

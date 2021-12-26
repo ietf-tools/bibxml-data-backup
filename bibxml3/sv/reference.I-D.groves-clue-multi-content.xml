@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.groves-clue-multi-content'>
+<front>
+<title>Describing Captures in CLUE and relation to multipoint conferencing</title>
+
+<author initials='C' surname='Groves' fullname='Christian Groves'>
+    <organization />
+</author>
+
+<author initials='W' surname='Yang' fullname='Weiwei Yang'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<date month='August' day='11' year='2013' />
+
+<abstract><t>In a multipoint Telepresence conference, there are more than two sites participating.  Additional complexity is required to enable media streams from each participant to show up on the displays of the other participants.  Common policies to address the multipoint case include "site-switch" and "segment-switch".  The document will discuss these policies as well as the "composed" policy and how they work in the multipoint case.  The current CLUE framework document contains the "composed" and "switched" attributes to describe situations where a capture is mix or composition of streams or where the capture represents a dynamic subset of streams.  "Composed" and "switched" are capture level attributes.  In addition to these attributes the framework defines an attribute "Scene-switch-policy" on a capture scene entry (CSE) level which indicates how the captures are switched.  This draft discusses composition/switching in CLUE and makes a number of proposals to better define and support these capabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-groves-clue-multi-content-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-groves-clue-multi-content-00.txt' />
+</reference>

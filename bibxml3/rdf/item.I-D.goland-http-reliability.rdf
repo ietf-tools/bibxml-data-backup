@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-goland-http-reliability-00.txt'>
+    <title>"SOA-Reliability (SOA-Rity) for HTTP", Yaron Goland</title>
+    <link>http://www.ietf.org/internet-drafts/draft-goland-http-reliability-00.txt</link>
+    <description>SOAR-ity is intended to allow for "reliable" (this term is almost always a misnomer) messaging over HTTP. It achieves this goal by introducing two new request headers, Message-ID which provides a unique ID for a message and MsgCreate which contains the date and time on which the first instance of the message with the associated Message-ID was sent. The purpose of the Message-ID/MsgCreate pair is to allow any HTTP request (e.g. any HTTP method can be used) to be repeated multiple times with a guarantee that the message will be processed no more than one time. In essence it makes any HTTP method call idempotent.</description>
+    <dc:date>2005-11-08T08:00:00-00:00</dc:date>
+</item>

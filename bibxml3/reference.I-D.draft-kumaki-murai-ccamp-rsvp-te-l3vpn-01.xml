@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kumaki-murai-ccamp-rsvp-te-l3vpn'>
+<front>
+<title>Support for RSVP-TE in L3VPNs</title>
+
+<author initials='T' surname='Yamagata' fullname='Tomohiro Yamagata'>
+    <organization />
+</author>
+
+<author initials='C' surname='Sasaki' fullname='Chikara Sasaki'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kumaki' fullname='Kenji Kumaki'>
+    <organization />
+</author>
+
+<author initials='T' surname='Murai' fullname='Tomoki Murai'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2009' />
+
+<abstract><t>It is highly desirable for VPN customers to be able to establish their MPLS TE LSPs in the context of a BGP/MPLS IP-VPN. In such a scenario, it is necessary that RSVP control messages, such as Path messages and Resv messages, are appropriately handled by the PE routers. This document defines new object types in SESSION, SENDER_TEMPLATE and FILTERSPEC object to establish a customer MPLS TE LSP in the context of BGP/IP-VPNs and describes a procedure of RSVP control messages including the new object types.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kumaki-murai-ccamp-rsvp-te-l3vpn-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kumaki-murai-ccamp-rsvp-te-l3vpn-01.txt' />
+</reference>

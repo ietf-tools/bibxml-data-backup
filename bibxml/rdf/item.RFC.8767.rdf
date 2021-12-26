@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc8767.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc8767.txt</link>
+        <title>RFC 8767: Serving Stale Data to Improve DNS Resiliency, D. Lawrence, W. Kumari, P. Sood</title>
+        <dc:date>2020-03-01T23:00:00-00:00</dc:date>
+        <description>This document defines a method (serve-stale) for recursive resolvers to use stale DNS data to avoid outages when authoritative nameservers cannot be reached to refresh expired data. One of the motivations for serve-stale is to make the DNS more resilient to DoS attacks and thereby make them less attractive as an attack vector. This document updates the definitions of TTL from RFCs 1034 and 1035 so that data can be kept in the cache beyond the TTL expiry; it also updates RFC 2181 by interpreting values with the high-order bit set as being positive, rather than 0, and suggests a cap of 7 days. </description>
+    </item>
+

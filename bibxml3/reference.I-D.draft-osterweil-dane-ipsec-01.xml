@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.osterweil-dane-ipsec'>
+<front>
+<title>Opportunistic Encryption with DANE Semantics and IPsec: IPSECA</title>
+
+<author initials='E' surname='Osterweil' fullname='Eric Osterweil'>
+    <organization />
+</author>
+
+<author initials='G' surname='Wiley' fullname='Glen Wiley'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mitchell' fullname='Dave Mitchell'>
+    <organization />
+</author>
+
+<author initials='A' surname='Newton' fullname='Andrew Newton'>
+    <organization />
+</author>
+
+<date month='August' day='28' year='2014' />
+
+<abstract><t>The query/response transactions of the Domain Name System (DNS) can disclose valuable meta-data about the online activities of DNS' users.  The DNS Security Extensions (DNSSEC) provide object-level security, but do not attempt to secure the DNS transaction itself. For example, DNSSEC does not protect against information leakage, and only protects DNS data until the last validating recursive resolver. Stub resolvers are vulnerable to adversaries in the network between themselves and their validating resolver ("the last mile").  This document details a new DANE-like DNS Resource Record (RR) type called IPSECA, and explains how to use it to bootstrap DNS transactions through informing entries in IPsec Security Policy Databases (SPDs) and to subsequently verifying Security Associations (SAs) for OE IPsec tunnels.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-osterweil-dane-ipsec-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-osterweil-dane-ipsec-01.txt' />
+</reference>

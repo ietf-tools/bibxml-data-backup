@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.patterson-intarea-ipoe-health'>
+<front>
+<title>IP over Ethernet (IPoE) Session Health Checking</title>
+
+<author initials='R' surname='Patterson' fullname='Richard Patterson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Abrahamsson' fullname='Mikael Abrahamsson'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2018' />
+
+<abstract><t>PPP over Ethernet clients have the functionality to detect path unavailability by using PPP Keepalives.  IP over Ethernet does not have this functionality, and it is not specified in the IETF when an IP over Ethernet client should consider its WAN connectivity down, unless there is a physical layer link down event.  This document describes a mechanism for IP over Ethernet clients to achieve connectivity validation, similar to that of PPP over Ethernet, by using BFD Echo, or ARP and Neighbor Discovery functions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-patterson-intarea-ipoe-health-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-patterson-intarea-ipoe-health-03.txt' />
+</reference>

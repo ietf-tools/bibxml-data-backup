@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-avt-splicing-for-mpeg2ts-ps'>
+<front>
+<title>Splicing for MPEG2-TS Problem Statement in RTP Sessions</title>
+
+<author initials='J' surname='Xia' fullname='Jinwei Xia'>
+    <organization />
+</author>
+
+<author initials='H' surname='Xia' fullname='Hui Xia'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='Jinhui Zhang'>
+    <organization />
+</author>
+
+<date month='April' day='20' year='2010' />
+
+<abstract><t>The base MPEG2-TS splicing related protocols, i.e., Digital Program Insertion Splicing API [SCTE30] and Digital Program Insertion Cueing Message for Cable [SCTE35], only take into account how to insert the content (e.g., spot advertisements of various lengths, program substitution, public service announcements, etc) into any MPEG2-TS output multiplex on the splicer , as well as how to carry notification of upcoming splicing and other timing information in the transport stream, but not give enough mechanisms to direct the underlying transport protocol such as RTP how to compatibly work with the MPEG2-TS splicing.  This memo highlights the issues of what's the impact on RTP and RTCP when performing splicing between the primary channel and the insertion channel.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-avt-splicing-for-mpeg2ts-ps-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-avt-splicing-for-mpeg2ts-ps-01.txt' />
+</reference>

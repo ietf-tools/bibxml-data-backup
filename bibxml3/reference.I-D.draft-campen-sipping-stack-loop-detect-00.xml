@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.campen-sipping-stack-loop-detect'>
+<front>
+<title>An Efficient Loop Detection Algorithm for SIP Proxies</title>
+
+<author initials='B' surname='Campen' fullname='Byron Campen'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2006' />
+
+<abstract><t>This document defines a loop-detection algorithm with a cumulative O(n) complexity (O(1) average complexity for each proxy) and average O(log n) state-space, where n is the number of proxies that the message passes through. Also, the backwards-compatibility and security of this algorithm are discussed. Comments are solicited, and should be directed to the SIPPING working group list at 'sipping@ietf.org'.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-campen-sipping-stack-loop-detect-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-campen-sipping-stack-loop-detect-00.txt' />
+</reference>

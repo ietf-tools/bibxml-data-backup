@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kompella-nvo3-server2nve'>
+<front>
+<title>Using Signaling to Simplify Network Virtualization Provisioning</title>
+
+<author initials='K' surname='Kompella' fullname='Kireeti Kompella'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Rekhter' fullname='Yakov Rekhter'>
+    <organization />
+</author>
+
+<author initials='T' surname='Morin' fullname='Thomas Morin'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2012' />
+
+<abstract><t>This document proposes a "single-touch" approach for provisioning the networking parameters related to Virtual Machine creation, migration and termination on servers.  The idea is to provision the server, then have the server signal the requisite parameters to the relevant network device(s).  Such an approach reduces the workload on the provisioning system and simplifies the data model that the provisioning system needs to maintain.  Furthermore, it is more resilient to topology changes in server-network connectivity, for example, reconnecting a server to a different network port or switch.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kompella-nvo3-server2nve-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kompella-nvo3-server2nve-00.txt' />
+</reference>

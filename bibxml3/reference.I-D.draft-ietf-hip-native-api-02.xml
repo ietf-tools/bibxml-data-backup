@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-native-api'>
+<front>
+<title>Native Application Programming Interfaces for SHIM APIs</title>
+
+<author initials='M' surname='Komu' fullname='Miika Komu'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2007' />
+
+<abstract><t>This document defines extensions to the current networking APIs for protocols based on identifier/locator split. Currently, the document focuses on HIP, but the extensions can be used also by other protocols implementing identifier locator split. Using the API extensions, new SHIM aware applications can configure manually mappings between upper layer identifiers and the corresponding locators. Also, the API describes how to handle outbound connection establishment where an application is unaware of the peer identifier but knows the peer locator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-native-api-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-native-api-02.txt' />
+</reference>

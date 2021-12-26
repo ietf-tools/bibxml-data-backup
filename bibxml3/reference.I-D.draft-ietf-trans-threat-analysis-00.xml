@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trans-threat-analysis'>
+<front>
+<title>Threat Analysis for Certificate Transparency</title>
+
+<author initials='S' surname='Kent' fullname='Stephen Kent'>
+    <organization />
+</author>
+
+<date month='June' day='3' year='2015' />
+
+<abstract><t>This document describes a threat model for the Web PKI context in which security mechanisms to detect mis-issuance of web site certificates will be developed. The threat model covers both syntactic and semantic mis-issuance, using a taxonomy of threats starting with whether the mis-issuance was done by the CA maliciously or not; then whether or not the certificate was logged; and then whether the log(s) or monitor(s) are benign or malicious, whether the certificate subject is self-monitoring and whether a client is doing any checks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trans-threat-analysis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trans-threat-analysis-00.txt' />
+</reference>

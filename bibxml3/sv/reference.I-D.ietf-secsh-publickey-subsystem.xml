@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-secsh-publickey-subsystem'>
+<front>
+<title>Secure Shell Public-Key Subsystem</title>
+
+<author initials='J' surname='Galbraith' fullname='Joseph Galbraith'>
+    <organization />
+</author>
+
+<date month='October' day='6' year='2006' />
+
+<abstract><t>Secure Shell defines a user authentication mechanism that is based on public keys, but does not define any mechanism for key distribution. No common key management solution exists in current implementations. This document describes a protocol that can be used to configure public keys in an implementation-independent fashion, allowing client software to take on the burden of this configuration. The public-key subsystem provides a server-independent mechanism for clients to add public keys, remove public keys, and list the current public keys known by the server. Rights to manage public keys are specific and limited to the authenticated user. A public key may also be associated with various restrictions, including a mandatory command or subsystem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-secsh-publickey-subsystem-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-secsh-publickey-subsystem-08.txt' />
+</reference>

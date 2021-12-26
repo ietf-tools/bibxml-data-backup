@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wessels-dns-zone-digest'>
+<front>
+<title>Message Digest for DNS Zones</title>
+
+<author initials='D' surname='Wessels' fullname='Duane Wessels'>
+    <organization />
+</author>
+
+<author initials='P' surname='Barber' fullname='Piet Barber'>
+    <organization />
+</author>
+
+<author initials='M' surname='Weinberg' fullname='Matt Weinberg'>
+    <organization />
+</author>
+
+<date month='April' day='3' year='2018' />
+
+<abstract><t>This document describes a protocol and DNS Resource Record used to provide a message digest over DNS zone data.  In particular, it describes how to compute, sign, represent, and use the message digest to verify the contents of a zone for accuracy and completeness.  The ZONEMD Resource Record type is introduced for conveying the message digest data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wessels-dns-zone-digest-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wessels-dns-zone-digest-00.txt' />
+</reference>

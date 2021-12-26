@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-dns-capture-format'>
+<front>
+<title>C-DNS: A DNS Packet Capture Format</title>
+
+<author initials='J' surname='Dickinson' fullname='John Dickinson'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hague' fullname='Jim Hague'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dickinson' fullname='Sara Dickinson'>
+    <organization />
+</author>
+
+<author initials='T' surname='Manderson' fullname='Terry Manderson'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bond' fullname='John Bond'>
+    <organization />
+</author>
+
+<date month='December' day='6' year='2016' />
+
+<abstract><t>This document describes a data representation for collections of DNS messages.  The format is designed for efficient storage and transmission of large packet captures of DNS traffic; it attempts to minimize the size of such packet capture files but retain the full DNS message contents along with the most useful transport meta data. It is intended to assist with the development of DNS traffic monitoring applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-dns-capture-format-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-dns-capture-format-00.txt' />
+</reference>

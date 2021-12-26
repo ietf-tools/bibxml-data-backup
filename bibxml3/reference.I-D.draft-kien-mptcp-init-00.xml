@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kien-mptcp-init'>
+<front>
+<title>An Improvement of MPTCP Initialization</title>
+
+<author initials='K' surname='Nguyen' fullname='Kien Nguyen'>
+    <organization />
+</author>
+
+<author initials='K' surname='Ishizu' fullname='Kentaro Ishizu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kibria' fullname='Mirza Kibria'>
+    <organization />
+</author>
+
+<author initials='F' surname='Kojima' fullname='Fumihide Kojima'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2016' />
+
+<abstract><t>This draft describes a new method of connection initialization for Multipath TCP (MPTCP).  In the current implementation, the MPTCP's first subflow needs to be successfully initialized before an additional flow takes its turn.  This yields to a degradation of MPTCP benefit in many use cases (e.g., transferring short flows).  To overcome the problem, we propose to duplicate the first SYN packet and send the duplicating ones via multiple interfaces.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kien-mptcp-init-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kien-mptcp-init-00.txt' />
+</reference>

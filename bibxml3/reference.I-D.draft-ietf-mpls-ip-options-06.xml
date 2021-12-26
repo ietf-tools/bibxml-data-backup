@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-ip-options'>
+<front>
+<title>Requirements for Label Edge Router Forwarding of IPv4 Option Packets</title>
+
+<author initials='W' surname='Jaeger' fullname='William Jaeger'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mullooly' fullname='John Mullooly'>
+    <organization />
+</author>
+
+<author initials='T' surname='Scholl' fullname='Tom Scholl'>
+    <organization />
+</author>
+
+<author initials='D' surname='Smith' fullname='David Smith'>
+    <organization />
+</author>
+
+<date month='December' day='15' year='2010' />
+
+<abstract><t>This document specifies how Label Edge Routers (LER) should behave when determining whether to MPLS encapsulate an IP packet with header options.  Lack of a formal standard has resulted in different LER forwarding behaviors for IP packets with header options despite being associated with a prefix-based Forwarding Equivalence Class (FEC). IP option packets that belong to a prefix-based FEC, yet are forwarded into an IP/MPLS network without being MPLS-encapsulated, present a security risk against the MPLS infrastructure.  Further, LERs that are unable to MPLS encapsulate IP packets with header options cannot operate in certain MPLS environments.  While this newly defined LER behavior is mandatory to implement, it is optional to invoke.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-ip-options-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-ip-options-06.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-flowspec-interfaceset'>
+<front>
+<title>Applying BGP flowspec rules on a specific interface set</title>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='A' surname='Simpson' fullname='Adam Simpson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2017' />
+
+<abstract><t>BGP flowspec is an extension to BGP that allows for the dissemination of traffic flow specification rules.  The primary application of this extension is DDoS mitigation where the flowspec rules are applied in most cases to all peering routers of the network.  This document will present another use case of BGP flowspec where flow specifications are used to maintain some access control lists at network boundary.  BGP flowspec is a very efficient distributing machinery that can help in saving OPEX while deploying/updating ACLs. This new application requires flow specification rules to be applied only on a specific subset of interfaces and in a specific direction.  The current specification of BGP flowspec ([RFC5575]) introduces the notion of flow specification (which describes the matching criterion) and traffic filtering actions.  The flow specification is encoded as part of the NLRI while the traffic filtering actions are encoded as extended communities.  The combination of a flow specification and one or more actions is known as a flow specification rule.  [RFC5575] does not detail where the flow specification rules need to be applied.  Besides the flow specification and traffic filtering actions, this document introduces the notion of traffic filtering scope in order to drive where a particular rule must be applied.  In particular, this document introduces the "interface-set" traffic filtering scope that could be used in parallel of traffic filtering actions (marking, rate-limiting ...).  The purpose of this extension is to inform remote routers about groups of interfaces where the rule must be applied.  This extension can also be used in a DDoS mitigation context where a provider wants to apply the filtering only on specific peers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-flowspec-interfaceset-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-flowspec-interfaceset-03.txt' />
+</reference>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-mptcp-plain-mode'>
+<front>
+<title>An MPTCP Option for Network-Assisted MPTCP Deployments: Plain Transport Mode</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<author initials='D' surname='Behaghel' fullname='Denis Behaghel'>
+    <organization />
+</author>
+
+<author initials='s' surname='Secci' fullname='Stefano Secci'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='R' surname='Skog' fullname='Robert Skog'>
+    <organization />
+</author>
+
+<author initials='O' surname='Bonaventure' fullname='Olivier Bonaventure'>
+    <organization />
+</author>
+
+<author initials='S' surname='Vinapamula' fullname='Suresh Vinapamula'>
+    <organization />
+</author>
+
+<author initials='S' surname='Seo' fullname='SungHoon Seo'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<author initials='U' surname='Meyer' fullname='Ullrich Meyer'>
+    <organization />
+</author>
+
+<author initials='L' surname='Contreras' fullname='Luis Contreras'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2016' />
+
+<abstract><t>Because of the lack of Multipath TCP (MPTCP) support at the server side, some service providers now consider a network-assisted model that relies upon the activation of a dedicated function called MPTCP concentrator.  This document focuses on a deployment scheme where the identity of the MPTCP concentrator(s) is explicitly configured on connected hosts.  This document specifies an MPTCP option that is used to avoid the encapsulation of packets and out-of-band signaling between the CPE and the MPTCP concentrator.  Also, this document specifies how UDP traffic, in particular, can be distributed among available paths by leveraging MPTCP capabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-mptcp-plain-mode-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-mptcp-plain-mode-08.txt' />
+</reference>

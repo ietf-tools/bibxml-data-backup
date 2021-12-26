@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-isis-black-hole-avoid'>
+<front>
+<title>Avoiding Traffic Black-Holes for Route Aggregation in IS-IS</title>
+
+<author initials='Z' surname='Chen' fullname='Zhe Chen'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Cheng' fullname='Dean Cheng'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>When the Intermediate System to Intermediate System (IS-IS) routing protocol is adopted by a highly symmetric network such as the Leaf- Spine or Fat-Tree network, the Leaf nodes (e.g., Top of Rack switches in datacenters) are recommended to be prevented from receiving other nodes' explicit routes in order to achieve scalability.  However, such a setup would cause traffic black-holes or suboptimal routing if link failure happens in the network.  This document introduces INFINITE cost to IS-IS LSPs to solve this problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-isis-black-hole-avoid-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-isis-black-hole-avoid-02.txt' />
+</reference>

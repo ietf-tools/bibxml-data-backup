@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mattsson-uta-tls-overhead'>
+<front>
+<title>Overview and Analysis of Overhead Caused by TLS</title>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>A common argument against the use of TLS is that it adds overhead. In this document we illustrate in detail how much (or little) processing, latency, and traffic overhead TLS adds.  Transition to more secure cipher suites (TLS 1.2 with AES-GCM or ChaCha20-Poly1305) actually reduces both traffic and processing overhead.  AES-GCM combines security, low traffic overhead, and great performance on modern hardware.  On platforms without hardware support for AES-GCM, ChaCha20-Poly1305 gives the same benefits.  For everything but very short connections, TLS is not inducing any major traffic overhead (nor CPU or memory overhead).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mattsson-uta-tls-overhead-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mattsson-uta-tls-overhead-01.txt' />
+</reference>

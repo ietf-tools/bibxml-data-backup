@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shirasaki-nat444'>
+<front>
+<title>NAT444</title>
+
+<author initials='I' surname='Yamagata' fullname='Ikuhei Yamagata'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Shirasaki' fullname='Yasuhiro Shirasaki'>
+    <organization />
+</author>
+
+<author initials='A' surname='Nakagawa' fullname='Akira Nakagawa'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yamaguchi' fullname='Jiro Yamaguchi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ashida' fullname='Hiroyuki Ashida'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2010' />
+
+<abstract><t>This document describes one of the network models that are designed for smooth transition to IPv6.  It is called NAT444 model.  NAT444 model is composed of IPv6, and IPv4 with Large Scale NAT (LSN).  NAT444 is the only scheme not to require replacing Customer Premises Equipment (CPE) even if IPv4 address exhausted.  But it must be noted that NAT444 has serious restrictions i.e. it limits the number of sessions per CPE so that rich applications such as AJAX and RSS feed cannot work well.  Therefore, IPv6 which is free from such a difficulty has to be introduced into the network at the same time.  In other words, NAT444 is just a tool to make IPv6 transition easy to be swallowed.  It is designed for the days IPv4 and IPv6 co-existence.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shirasaki-nat444-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shirasaki-nat444-01.txt' />
+</reference>

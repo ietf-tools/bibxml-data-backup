@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shah-armd-arp-reduction'>
+<front>
+<title>ARP Reduction in Data Center</title>
+
+<author initials='H' surname='Shah' fullname='Himanshu Shah'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>With advent of virtual machine (VM) technologies, a host is able to support multiple VMs in a single physical machine. The data center application leverages these capabilities to instantiate upwards of 10s to 100s of VMs in a server. Each VM operates as an independent IP host with its own MAC address associated with a virtual Network Interface Card (vNIC) that maps to a single physical Ethernet interface. These physical servers are typically stacked in a rack with its Ethernet interface connected to top-of-the-rack (ToR) switch. The ToR switches are interconnected through End-of-the-Row (EoR) switch which in turn is connected to core switches.  As discussed in [ARP-Problem] the VM hosts use ARP broadcasts to find other VM hosts and use periodic (broadcast) gratuitous ARPs to refresh their IP to MAC address binding in other VM hosts. Such broadcasts in a large data center with potentially thousands of VM hosts in a layer-2 based topology can cause havoc.  This document describes a solution whereby a ToR switch assumes the handling of the ARP broadcasts based on the ARP table that it maintains by gleaning information from the passing ARP PDUs. When the information is not new, gratuitous ARP PDUs are dropped and ARP broadcast requests from hosts are responded by the switch from the learned ARP information instead of forwarding them out.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shah-armd-arp-reduction-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shah-armd-arp-reduction-00.txt' />
+</reference>

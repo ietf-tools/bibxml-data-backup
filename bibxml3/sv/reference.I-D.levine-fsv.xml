@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.levine-fsv'>
+<front>
+<title>A Flexible Method to Validate SMTP Senders in DNS</title>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<date month='April' day='26' year='2004' />
+
+<abstract><t>Flexible Sender Validation (FSV) is a lightweight validation technique to detect and deter some kinds of e-mail address forgery. It publishes information in the DNS about IP addresses authorized to send mail for a domain, one in a family of IP based mail validation proposals dating back to Paul Vixie's original in 2002[5]. FSV uses redundant copies of IP data to permit both efficient use by very high-volume mail servers, and simple implementation on low to moderate volume mail servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-levine-fsv-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-levine-fsv-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lear-ietf-syslog-rfc3195bis'>
+<front>
+<title>Reliable Delivery for syslog</title>
+
+<author initials='E' surname='Lear' fullname='Eliot Lear'>
+    <organization />
+</author>
+
+<date month='April' day='20' year='2007' />
+
+<abstract><t>The syslog protocol describes a number of service options related to propagating event messages. This memo describes a mapping of the syslog protocol to TCP connections, useful for reliable delivery of event messages through the use of a BEEP profile. The earlier RAW and COOKED BEEP syslog profiles are deprecated. The use of syslog over BEEP provides robustness and security in message delivery that is unavailable to the usual UDP-based syslog protocol, by providing encryption and authentication over a connection-oriented protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lear-ietf-syslog-rfc3195bis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lear-ietf-syslog-rfc3195bis-01.txt' />
+</reference>

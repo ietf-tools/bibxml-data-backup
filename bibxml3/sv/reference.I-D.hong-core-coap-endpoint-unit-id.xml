@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hong-core-coap-endpoint-unit-id'>
+<front>
+<title>CoAP Endpoint Unit Identification for Multiple Sensor and Actuator in a Node</title>
+
+<author initials='Y' surname='Hong' fullname='Yung Hong'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kim' fullname='DoHyeun Kim'>
+    <organization />
+</author>
+
+<author initials='M' surname='Khan' fullname='Mohammad Khan'>
+    <organization />
+</author>
+
+<author initials='W' surname='JIN' fullname='WENQUAN JIN'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>The Constrained Application Protocol (CoAP) is a protocol intended towards devices which are constrained in terms of memory, processing and power i.e. small low power sensors, switches and valves etc.  The CoAP allows such devices to interactively communicate over the Internet.  This document is motivated by the concept of a composite CoAP node, a single CoAP entity which integrates multiple CoAP resources (sensors, actuators) and the scheme to allow the identification of individual integrated resources while using the Unit ID as a new CoAP option.  The Unit ID option in the CoAP enables the usage of composite nodes consisting of multiple sensors and actuators while having a single IP address for communication.  The integrated resources can be individually or collectively communicated with and/or controlled using CoAP messages with additional options of UnitSize and UnitID.  The UnitSize is basically a numeric value indicating the number of sub-resources in a composite CoAP node while the UnitID option has the string identifiers for the sub-resource(s) for which the message is intended.  These options will enable the CoAP to communicate and control multiple resources by using single composite messages i.e.  UnitID = "*", efficiently utilize IP addresses i.e. one IP multiple IDs, reduce communication traffic and hence conserve power among the CoAP resources.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hong-core-coap-endpoint-unit-id-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hong-core-coap-endpoint-unit-id-01.txt' />
+</reference>

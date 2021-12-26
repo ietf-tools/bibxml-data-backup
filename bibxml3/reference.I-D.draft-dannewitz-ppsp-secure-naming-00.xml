@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dannewitz-ppsp-secure-naming'>
+<front>
+<title>Secure naming structure and p2p application interaction</title>
+
+<author initials='C' surname='Dannewitz' fullname='Christian Dannewitz'>
+    <organization />
+</author>
+
+<author initials='T' surname='Rautio' fullname='Teemu Rautio'>
+    <organization />
+</author>
+
+<author initials='O' surname='Strandberg' fullname='Ove Strandberg'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2010' />
+
+<abstract><t>Many P2P applications use their own way to identify and address data relying on host centric addressing, limiting the access to the same data on potentially multiple locations for multiple P2P applications. There are potential benefits in providing a generic way to identify and address data so that multiple P2P systems can use the same data regardless of data location.  The proposed secure naming structure provides a potential way to address these challenges with a common naming structure for all data and different needs.  The additional feature of the proposal is securing the way data is addressed such that the receiver has the possibility to verify that the correct data is received.  The secure naming structure should be beneficial as potential design principle in defining the two protocols identified as objectives in the PPSP charter.  This document enumerates a number of design considerations to impact the design and implementation of the tracker-peer signaling and peer-peer streaming signaling protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dannewitz-ppsp-secure-naming-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dannewitz-ppsp-secure-naming-00.txt' />
+</reference>

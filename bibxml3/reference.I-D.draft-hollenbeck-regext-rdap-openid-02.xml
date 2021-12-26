@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hollenbeck-regext-rdap-openid'>
+<front>
+<title>Federated Authentication for the Registration Data Access Protocol (RDAP) using OpenID Connect</title>
+
+<author initials='S' surname='Hollenbeck' fullname='Scott Hollenbeck'>
+    <organization />
+</author>
+
+<date month='December' day='2' year='2016' />
+
+<abstract><t>The Registration Data Access Protocol (RDAP) provides "RESTful" web services to retrieve registration metadata from domain name and regional internet registries.  RDAP allows a server to make access control decisions based on client identity, and as such it includes support for client identification features provided by the Hypertext Transfer Protocol (HTTP).  Identification methods that require clients to obtain and manage credentials from every RDAP server operator present management challenges for both clients and servers, whereas a federated authentication system would make it easier to operate and use RDAP without the need to maintain server-specific client credentials.  This document describes a federated authentication system for RDAP based on OpenID Connect.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hollenbeck-regext-rdap-openid-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hollenbeck-regext-rdap-openid-02.txt' />
+</reference>

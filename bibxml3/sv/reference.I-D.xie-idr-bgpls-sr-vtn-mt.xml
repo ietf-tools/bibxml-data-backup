@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xie-idr-bgpls-sr-vtn-mt'>
+<front>
+<title>BGP-LS with Multi-topology for Segment Routing based Virtual Transport Networks</title>
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+<organization />
+</author>
+<author initials='C' surname='Li' fullname='Cong Li'>
+<organization />
+</author>
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+<organization />
+</author>
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+<organization />
+</author>
+<date year='2021' month='July' day='12' />
+<abstract><t>Enhanced VPN (VPN+) aims to provide enhanced VPN service to support some applications' needs of enhanced isolation and stringent performance requirements.  VPN+ requires integration between the overlay VPN and the underlay network.  A Virtual Transport Network (VTN) is a virtual underlay network which consists of a subset of the network topology and network resources allocated from the physical network.  A VTN could be used as the underlay for one or a group of VPN+ services.</t><t> When Segment Routing is used as the data plane of VTNs, each VTN can be allocated with a group of Segment Identifiers (SIDs) to identify the topology and resource attributes of network segments in the VTN. The association between the network topology, the network resource attributes and the SR SIDs may need to be distributed to a centralized network controller.  For network scenarios where each VTN can be associated with a unique logical network topology, this document describes a mechanism to distribute the information of SR based VTNs using BGP-LS with Multi-Topology.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-xie-idr-bgpls-sr-vtn-mt-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-xie-idr-bgpls-sr-vtn-mt-03.txt'/>
+</reference>

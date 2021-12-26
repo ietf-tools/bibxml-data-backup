@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.selander-core-access-control'>
+<front>
+<title>Access Control Framework for Constrained Environments</title>
+
+<author initials='G' surname='Selander' fullname='Goran Selander'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sethi' fullname='Mohit Sethi'>
+    <organization />
+</author>
+
+<author initials='L' surname='Seitz' fullname='Ludwig Seitz'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2013' />
+
+<abstract><t>The Constrained Application Protocol (CoAP) is a light-weight web transfer protocol designed to be used in constrained nodes and constrained networks.  Communication security support for CoAP, including authentication, encryption, integrity protection, is well understood and a DTLS binding for CoAP is specified, but authorization and access control are not described in detail.  This document describes a generic and dynamic access control framework suitable for constrained environments using CoAP.  The framework builds on standards and well known paradigms for access control, externalizing authorization decision making to unconstrained nodes while performing authorization decision enforcement and verification of local conditions in constrained devices.  In addition, this document provides alternative or complementary key management to the CoAP security modes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-selander-core-access-control-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-selander-core-access-control-00.txt' />
+</reference>

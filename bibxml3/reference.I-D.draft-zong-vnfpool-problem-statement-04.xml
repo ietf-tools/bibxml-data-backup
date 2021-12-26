@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zong-vnfpool-problem-statement'>
+<front>
+<title>Virtualized Network Function (VNF) Pool Problem Statement</title>
+
+<author initials='N' surname='Zong' fullname='Ning Zong'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Shore' fullname='Melinda Shore'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lopez' fullname='Diego Lopez'>
+    <organization />
+</author>
+
+<date month='April' day='9' year='2014' />
+
+<abstract><t>Network functions are traditionally implemented on specialized hardware rather than on general purpose servers, but there is a clear trend to implement a number of network functions, such as firewall or load balancer, as software on virtualized computing platforms.  These virtualized functions are called Virtualized Network Functions (VNFs).  We call a group of such VNFs a VNF set, which can be used to build network services.  The use of VNF set to build network services introduces additional challenges on reliability, such as additional points of failure and the need to coordinate various VNFs.  This document introduces a general idea of VNF Pools to support reliable function provision by the VNF set.  We then highlight the reliability challenges and problems when using the VNF set to build services.  Related IETF works are also briefly described.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zong-vnfpool-problem-statement-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zong-vnfpool-problem-statement-04.txt' />
+</reference>

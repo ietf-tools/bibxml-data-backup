@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bonica-tcp-auth'>
+<front>
+<title>Authentication for TCP-based Routing and Management Protocols</title>
+
+<author initials='R' surname='Bonica' fullname='Ronald  Bonica'>
+    <organization />
+</author>
+
+<date month='August' day='11' year='2006' />
+
+<abstract><t>This memo describes a TCP extension that enhances security for BGP, LDP and other TCP-based protocols. It is intended for applications where secure administrative access to both the end-points of the TCP connection is normally available. TCP peers can use this extension to authenticate messages passed between one another. The strategy described herein improves upon current practice, which is described in RFC 2385. Using this new strategy, TCP peers can update authentication keys during the lifetime of a TCP connection. TCP peers can also use stronger authentication algorithms to authenticate routing messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bonica-tcp-auth-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bonica-tcp-auth-05.txt' />
+</reference>

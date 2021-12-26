@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-keiser-afs3-xdr-union-06.txt'>
+    <title>"Extensible XDR Discriminated Union Primitive Type", Thomas Keiser, Andrew Deason</title>
+    <link>http://www.ietf.org/internet-drafts/draft-keiser-afs3-xdr-union-06.txt</link>
+    <description>AFS-3 relies upon XDR to carry Rx RPC call payloads.  XDR discriminated unions are ill-suited to cases where the protocol needs to evolve without inventing new RPCs, i.e., unknown discriminant values cause the entire XDR payload to fail the decoding step.  While this can be circumvented through the use of opaque payloads (and recursive XDR invocations), such solutions are inelegant and difficult to implement.  This memo defines a new XDR primitive type, "ext-union", which is derived from the XDR discriminated union primitive type, but with two key variations: 1) each leg contains a length field, and 2) no default leg is supported.  Internet Draft Comments  Comments regarding this draft are solicited.  Please include the AFS-3 protocol standardization mailing list (afs3-standardization@openafs.org) as a recipient of any comments.  AFS-3 Document State  This document is in state "draft", as per the document state definitions set forth in [I-D.wilkinson-afs3-standardisation].</description>
+    <dc:date>2012-09-09T22:00:00-00:00</dc:date>
+</item>

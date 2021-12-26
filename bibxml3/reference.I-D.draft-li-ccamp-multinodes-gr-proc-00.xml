@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-ccamp-multinodes-gr-proc'>
+<front>
+<title>Procedure for Multiple Node Graceful Restart</title>
+
+<author initials='D' surname='Li' fullname='Dan Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Gao' fullname='Jianhua Gao'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2006' />
+
+<abstract><t>The Hello message for the Resource Reservation Protocol (RSVP) has been defined to establish and maintain basic signaling node adjacencies for Label Switching Routers (LSRs) participating in a Multiprotocol Label Switching (MPLS) traffic engineered (TE) network. The Hello message has been extended for use in Generalized MPLS (GMPLS) network for state recovery of control channel or nodal faults. GMPLS protocol definitions for RSVP also allow a restarting node to learn the label that it previously allocated for use on a Label Switching Path (LSP). Further RSVP protocol extensions have been defined to enable a restarting node to recover full control plane state by exchanging RSVP messages with its upstream and downstream neighbors. This document clarifies the control plane procedures for a GMPLS network when there are multiple node failures, and describes how full control plane state can be recovered depending on the order in which the nodes restart.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-ccamp-multinodes-gr-proc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-ccamp-multinodes-gr-proc-00.txt' />
+</reference>

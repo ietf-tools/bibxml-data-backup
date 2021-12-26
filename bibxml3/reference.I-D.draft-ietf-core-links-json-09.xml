@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-links-json'>
+<front>
+<title>Representing Constrained RESTful Environments (CoRE) Link Format in JSON and CBOR</title>
+
+<author initials='K' surname='Li' fullname='Kepeng Li'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rahman' fullname='Akbar Rahman'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>JavaScript Object Notation, JSON (RFC7159) is a text-based data format which is popular for Web based data exchange.  Concise Binary Object Representation, CBOR (RFC7049) is a binary data format which has been optimized for data exchange for the Internet of Things (IoT).  For many IoT scenarios, CBOR formats will be preferred since it can help decrease transmission payload sizes as well as implementation code sizes compared to other data formats.  Web Linking (RFC5988) provides a way to represent links between Web resources as well as the relations expressed by them and attributes of such a link.  In constrained networks, a collection of Web links can be exchanged in the CoRE link format (RFC6690).  Outside of constrained environments, it may be useful to represent these collections of Web links in JSON, and similarly, inside constrained environments, in CBOR.  This specification defines a common format for this.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-links-json-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-core-links-json-09.txt' />
+</reference>

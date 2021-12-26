@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jing-sfc-flow-release-notify'>
+<front>
+<title>Flow Release Notify</title>
+
+<author initials='W' surname='Jing' fullname='WeiDong Jing'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhao' fullname='Jingbo Zhao'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhan' fullname='Xuzhou Zhan'>
+    <organization />
+</author>
+
+<author initials='H' surname='Cai' fullname='Hongbo Cai'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wang' fullname='Cui Wang'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2016' />
+
+<abstract><t>Service function chain is the definition of an ordered set of service functions.  After instantiated, the service function path is created and the classified traffic is steered through the corresponding service function path and then forwarded to the final destination. SFs and SFC Proxies do not know the termination of a service flow. This document describes a method to notify the SFs and SFC Proxies the termination of a service flow.  When one service flow goes through the SFP, there may create some states in some SFs or SFC Proxies.  However, when the service flow terminates, the SFs and SFC Proxies are unaware of that and maintain the states as well.This document describes a method to notify the SFs and SFC Proxies the termination of a service flow and release the resources occupied by the flow.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jing-sfc-flow-release-notify-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jing-sfc-flow-release-notify-00.txt' />
+</reference>

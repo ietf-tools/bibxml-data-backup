@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6094' target='https://www.rfc-editor.org/info/rfc6094'>
+<front>
+<title>Summary of Cryptographic Authentication Algorithm Implementation Requirements for Routing Protocols</title>
+<author initials='M.' surname='Bhatia' fullname='M. Bhatia'><organization /></author>
+<author initials='V.' surname='Manral' fullname='V. Manral'><organization /></author>
+<date year='2011' month='February' />
+<abstract><t>The routing protocols Open Shortest Path First version 2 (OSPFv2), Intermediate System to Intermediate System (IS-IS), and Routing Information Protocol (RIP) currently define cleartext and MD5 (Message Digest 5) methods for authenticating protocol packets. Recently, effort has been made to add support for the SHA (Secure Hash Algorithm) family of hash functions for the purpose of authenticating routing protocol packets for RIP, IS-IS, and OSPF.</t><t>To encourage interoperability between disparate implementations, it is imperative that we specify the expected minimal set of algorithms, thereby ensuring that there is at least one algorithm that all implementations will have in common.</t><t>Similarly, RIP for IPv6 (RIPng) and OSPFv3 support IPsec algorithms for authenticating their protocol packets.</t><t>This document examines the current set of available algorithms, with interoperability and effective cryptographic authentication protection being the principal considerations.  Cryptographic authentication of these routing protocols requires the availability of the same algorithms in disparate implementations.  It is desirable that newly specified algorithms should be implemented and available in routing protocol implementations because they may be promoted to requirements at some future time.  This document is not an Internet  Standards Track specification; it is published for informational purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6094'/>
+<seriesInfo name='DOI' value='10.17487/RFC6094'/>
+</reference>

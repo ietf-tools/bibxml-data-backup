@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-multi-party-rtt-mix'>
+<front>
+<title>RTP-mixer formatting of multiparty Real-time text</title>
+<author initials='G' surname='Hellstrom' fullname='Gunnar Hellstrom'>
+<organization />
+</author>
+<date year='2021' month='May' day='26' />
+<abstract><t>This document provides enhancements for RFC 4103 real-time text mixing suitable for a centralized conference model that enables source identification and rapidly interleaved transmission of text from different sources.  The intended use is for real-time text mixers and participant endpoints capable of providing an efficient presentation or other treatment of a multiparty real-time text session.  The specified mechanism builds on the standard use of the Contributing Source (CSRC) list in the Realtime Protocol (RTP) packet for source identification.  The method makes use of the same &quot;text/ t140&quot; and &quot;text/red&quot; formats as for two-party sessions.</t><t> Solutions using multiple RTP streams in the same RTP session are briefly mentioned, as they could have some benefits over the RTP- mixer model.  The possibility to implement the solution in a wide range of existing RTP implementations made the RTP-mixer model be selected to be fully specified in this document.</t><t> A capability exchange is specified so that it can be verified that a mixer and a participant can handle the multiparty-coded real-time text stream using the RTP-mixer method.  The capability is indicated by use of an RFC 8866 Session Description Protocol (SDP) media attribute &quot;rtt-mixer&quot;.</t><t> The document updates RFC 4103 &quot;RTP Payload for Text Conversation&quot;.</t><t> A specification of how a mixer can format text for the case when the endpoint is not multiparty-aware is also provided.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-multi-party-rtt-mix-20'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-avtcore-multi-party-rtt-mix-20.txt'/>
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-nfsv4-pnfs-block-disk-protection-03.txt'>
+    <title>"pNFS block disk protection", David Black, Jason Glasgow, Sorin Faibish</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-nfsv4-pnfs-block-disk-protection-03.txt</link>
+    <description>Parallel NFS (pNFS) extends Network File System version 4 (NFSv4) to enable direct client access to file data on storage, bypassing the NFSv4 server.  This can increase both performance and parallelism, but requires additional client functionality, some of which depends upon the type of storage used.  The pNFS specification for block storage (RFC 5663) describes how clients can identify the volumes used for pNFS, but this mechanism requires communication with the NFSv4 server.  This document updates RFC 5663 to add a mechanism that enables identification of block storage devices used by pNFS file systems without communicating with the server.  This enables clients to control access to pNFS block devices when the client initially boots, as opposed to waiting until the client can communicate with the NFSv4 server.</description>
+    <dc:date>2012-06-21T22:00:00-00:00</dc:date>
+</item>

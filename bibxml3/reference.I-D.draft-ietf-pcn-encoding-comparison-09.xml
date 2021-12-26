@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pcn-encoding-comparison'>
+<front>
+<title>Overview of Pre-Congestion Notification Encoding</title>
+
+<author initials='G' surname='Karagiannis' fullname='Georgios Karagiannis'>
+    <organization />
+</author>
+
+<author initials='K' surname='Chan' fullname='Kwok Chan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Moncaster' fullname='Toby Moncaster'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='P' surname='Eardley' fullname='Philip Eardley'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2012' />
+
+<abstract><t>The objective of Pre-Congestion Notification (PCN) is to protect the quality of service (QoS) of inelastic flows within a Diffserv domain. On every link in the PCN domain, the overall rate of the PCN-traffic is metered, and PCN-packets are appropriately marked when certain configured rates are exceeded.  Egress nodes provide decision points with information about the PCN-marks of PCN-packets which allows them to take decisions about whether to admit or block a new flow request, and to terminate some already admitted flows during serious pre- congestion.  The PCN Working Group explored a number of approaches for encoding this pre-congestion information into the IP header.  This document provides details of all those approaches along with an explanation of the constraints that had to be met by any solution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pcn-encoding-comparison-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pcn-encoding-comparison-09.txt' />
+</reference>

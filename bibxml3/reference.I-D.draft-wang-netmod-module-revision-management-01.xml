@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-netmod-module-revision-management'>
+<front>
+<title>A YANG Data Model for module revision management</title>
+
+<author initials='Z' surname='Wang' fullname='Zitao Wang'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+    <organization />
+</author>
+
+<date month='September' day='19' year='2018' />
+
+<abstract><t>This document defines a YANG Data Model for module revision change management.  It is intended this model be used by vendors who support multiple revisions of the same YANG module in their systems but implement only one revision of a module.  In addition, this document introduces a new generic mechanism based on RPC, denoted as module- revision-change, that allow datanode backwards compatibility detection and provide a report on change type and change details of a YANG module with two or multiple revisions that is defined in design time., e.g.,identifies a place in the node hierarchy where data node gets changed or new data gets inserted and indicate whether the change to the data node is backward compatible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-netmod-module-revision-management-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-netmod-module-revision-management-01.txt' />
+</reference>

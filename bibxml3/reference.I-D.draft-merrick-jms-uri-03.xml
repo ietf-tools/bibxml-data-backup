@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.merrick-jms-uri'>
+<front>
+<title>URI Scheme for Java(tm) Message Service 1.0</title>
+
+<author initials='D' surname='Xiao' fullname='Dongbo Xiao'>
+    <organization />
+</author>
+
+<author initials='R' surname='Merrick' fullname='Roland Merrick'>
+    <organization />
+</author>
+
+<author initials='P' surname='Easton' fullname='Peter Easton'>
+    <organization />
+</author>
+
+<author initials='D' surname='Rokicki' fullname='Derek Rokicki'>
+    <organization />
+</author>
+
+<author initials='E' surname='Johnson' fullname='Eric Johnson'>
+    <organization />
+</author>
+
+<date month='April' day='22' year='2008' />
+
+<abstract><t>This document defines the format of Uniform Resource Identifiers (URI) as defined in [RFC3986], for designating connections and destination addresses used in the Java(tm) Messaging Service (JMS) [REF-JMS].  It was originally designed for particular uses, but should have general applicability wherever a JMS URI is needed to describe the connection to a JMS provider, and access to a JMS destination.  The syntax of this 'jms' URI is not compatible with any known current vendor implementation, but the expressivity of the format should permit all vendors to use it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-merrick-jms-uri-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-merrick-jms-uri-03.txt' />
+</reference>

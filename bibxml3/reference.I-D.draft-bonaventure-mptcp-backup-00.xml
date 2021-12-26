@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bonaventure-mptcp-backup'>
+<front>
+<title>Improving Multipath TCP Backup Subflows</title>
+
+<author initials='O' surname='Bonaventure' fullname='Olivier Bonaventure'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Coninck' fullname='Quentin De Coninck'>
+    <organization />
+</author>
+
+<author initials='M' surname='Baerts' fullname='Matthieu Baerts'>
+    <organization />
+</author>
+
+<author initials='F' surname='Duchene' fullname='Fabien Duchene'>
+    <organization />
+</author>
+
+<author initials='b' surname='benjamin.hesmans@uclouvain.be' fullname='benjamin.hesmans@uclouvain.be'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>This document documents some issues with the current definition of the backup subflows in [RFC6824].  The solution proposed in [RFC6824] works well when a subflow completely fails.  However, if a subflow suffers from huge packet losses, but still remains up, then the delay to switch to the backup subflow may be very long.  We propose to measure the evolution of the retransmission timer (RTO) to detect the bad performance of subflows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bonaventure-mptcp-backup-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bonaventure-mptcp-backup-00.txt' />
+</reference>

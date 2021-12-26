@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-mrw-ram-trip-00.txt'>
+    <title>"Tiered Routing for IPv4 and IPv6 (TRIP)", Margaret Wasserman</title>
+    <link>http://www.ietf.org/internet-drafts/draft-mrw-ram-trip-00.txt</link>
+    <description>This document describes a mechanism for scalable, tiered Internet routing, called TRIP.  The goal of TRIP is to decrease the growth rate of the core Internet routing tables by increasing route aggregation and constraining the propagation of multihoming and traffic engineering routes.  TRIP accomplishes this goal by defining separate routing domains for edge networks and transit networks.  All current, non-TRIP-aware networks and nodes are considered part of the transit domain.  Edge network domains may be created by deploying TRIP at a domain-boundary routers or within IP (v4 or v6) endpoints.  In addition to defining the basic TRIP mechanism, this document describes an incremental deployment path that provides a means for endpoints in TRIP-enabled edge networks to talk directly to non-TRIP- aware end-points in transit domain.  This is accomplished without the need to advertise edge network prefixes in the global routing tables or to create a separate global routing domain for edge network prefixes.</description>
+    <dc:date>2008-12-01T23:00:00-00:00</dc:date>
+</item>

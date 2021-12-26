@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wing-behave-nat-control-stun-usage'>
+<front>
+<title>Discovering, Querying, and Controlling Firewalls and NATs using STUN</title>
+
+<author initials='D' surname='Wing' fullname='Dan  Wing'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='October' day='10' year='2007' />
+
+<abstract><t>Simple Traversal Underneath NAT (STUN) is a mechanism for traversing NATs. STUN requests are transmitted through a NAT to external STUN servers. While this works very well, its two primary drawbacks are the inability to modify the properties of a NAT binding and the need to query a public STUN server for every new NAT binding (e.g., every phone call). These drawbacks require frequent keepalive messages, which contribute negatively to server and network load. This document describes two mechanisms to discover NATs and firewalls and a mechanism to query and control them. With these mechanisms, binding discovery and keepalive traffic can be reduced to involve only the necessary NATs or firewalls. This eliminates the keepalive traffic to servers, and vastly reduces keepalive traffic across the network. At the same time, backwards compatibility with NATs and firewalls that do not support this specification is retained, which allows for incremental deployment of these mechanisms. This document is discussed on the SAFE mailing list, &lt;http://www1.ietf.org/mailman/listinfo/safe>. Terminology The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wing-behave-nat-control-stun-usage-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wing-behave-nat-control-stun-usage-04.txt' />
+</reference>

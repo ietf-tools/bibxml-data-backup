@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pfeifer-6man-exthdr-res'>
+<front>
+<title>IPv6 Extension Headers Reserved Space</title>
+
+<author initials='H' surname='Pfeifer' fullname='Hagen Pfeifer'>
+    <organization />
+</author>
+
+<date month='September' day='11' year='2011' />
+
+<abstract><t>This document specify a mechanism to allow IPv6 stack implementation to parse upcoming IPv6 extension header by reserving a small range of protocol numbers for well defined IPv6 extension headers.  IPv6 stack implementors can code these range into their network stack a priori. These reserved range provide an guarantee that a given next header is a well formed extension header and not a next layer protocol. Operators, companies, vendors et cetera are in the ability to deploy and test not standardized extension headers without modifying every middle box parsing the complete extension header chain in between.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pfeifer-6man-exthdr-res-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pfeifer-6man-exthdr-res-01.txt' />
+</reference>

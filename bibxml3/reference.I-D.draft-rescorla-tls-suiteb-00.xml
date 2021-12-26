@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rescorla-tls-suiteb'>
+<front>
+<title>SuiteB CipherSuites for TLS</title>
+
+<author initials='M' surname='Salter' fullname='Margaret Salter'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='December' day='14' year='2006' />
+
+<abstract><t>RFC 4492 describes elliptic curve cipher suites for Transport Layer Security (TLS). However, all those cipher suites use SHA-1 as their MAC algorithm, which makes them unsuitable for some applications. This document describes eight new CipherSuites for TLS/DTLS which specify stronger digest algorithms and therefore are suitable for use in applications which require compliance with the United States Government's guidelines for "NSA Suite B Cryptography" dated July, 2005.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rescorla-tls-suiteb-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rescorla-tls-suiteb-00.txt' />
+</reference>

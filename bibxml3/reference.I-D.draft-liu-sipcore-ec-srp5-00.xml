@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-sipcore-ec-srp5'>
+<front>
+<title>SIP Authentication using the EC-SRP5 Protocol</title>
+
+<author initials='F' surname='liu' fullname='Fuwen liu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Qi' fullname='Minpeng Qi'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zuo' fullname='Min Zuo'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2015' />
+
+<abstract><t>This document specifies the way that the elliptic curve secure remote protocol (EC-SRP) is applied to SIP authentication. SIP Client and server perform mutual authenticate by using the modern 'zero knowledge' method without disclosing the password in the process. It has low computation complexity and low bandwidth consumption due to the use of elliptical curve cryptography. This makes it more suitable for resource-constrained environments,e.g. wireless network. The security of the scheme is based on the computational intractability of the elliptic curve discrete logarithm problem. It is resilient to various kinds of attacks, including off-line dictionary attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-sipcore-ec-srp5-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-sipcore-ec-srp5-00.txt' />
+</reference>

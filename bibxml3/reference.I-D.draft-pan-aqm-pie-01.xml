@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pan-aqm-pie'>
+<front>
+<title>PIE: A Lightweight Control Scheme To Address the Bufferbloat Problem</title>
+
+<author initials='R' surname='Pan' fullname='Rong Pan'>
+    <organization />
+</author>
+
+<author initials='P' surname='Natarajan' fullname='Preethi Natarajan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Piglione' fullname='Chiara Piglione'>
+    <organization />
+</author>
+
+<author initials='M' surname='Prabhu' fullname='Mythili Prabhu'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2014' />
+
+<abstract><t>Bufferbloat is a phenomenon where excess buffers in the network cause high latency and jitter. As more and more interactive applications (e.g. voice over IP, real time video streaming and financial transactions) run in the Internet, high latency and jitter degrade application performance. There is a pressing need to design intelligent queue management schemes that can control latency and jitter; and hence provide desirable quality of service to users.  We present here a lightweight design, PIE(Proportional Integral controller Enhanced) that can effectively control the average queueing latency to a target value. Simulation results, theoretical analysis and Linux testbed results have shown that PIE can ensure low latency and achieve high link utilization under various congestion situations. The design does not require per-packet timestamp, so it incurs very small overhead and is simple enough to implement in both hardware and software.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pan-aqm-pie-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pan-aqm-pie-01.txt' />
+</reference>

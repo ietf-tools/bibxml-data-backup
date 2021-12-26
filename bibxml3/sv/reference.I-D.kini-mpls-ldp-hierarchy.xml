@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kini-mpls-ldp-hierarchy'>
+<front>
+<title>Hierarchical Labels in the Label Distribution Protocol (LDP)</title>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<date month='January' day='26' year='2011' />
+
+<abstract><t>Label Distribution Protocol (LDP) is used to advertise mappings of Forwarding Equivalence Classes (FECs) to labels. IP prefix FECs are used to setup Label Switched Paths (LSPs) along routed paths. LDP advertises label mappings for IP Prefix FECs that appear as routes in the route table. As the number of FECs in the network increases the number of labels correspondingly increases. During certain failure conditions a large number of label mappings may have to be generated and/or installed in the data plane. In this document we describe an LDP extension to advertise hierarchical label mappings. This helps to reduce the number of label mappings that are downloaded during certain failure conditions and hence improves convergence times.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kini-mpls-ldp-hierarchy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kini-mpls-ldp-hierarchy-00.txt' />
+</reference>

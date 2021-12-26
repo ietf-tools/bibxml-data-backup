@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-resolver-associated-doh'>
+<front>
+<title>Associating a DoH Server with a Resolver</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2018' />
+
+<abstract><t>Browsers and web applications may want to know if there are one or more DoH servers associated with the DNS recursive resolver that the operating system is already using.  This would allow them to get DNS responses from a resolver that the user (or, more likely, the user's network administrator) has already chosen.  This document describes a protocol for a resolver to tell a client what its associated DoH servers are.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-resolver-associated-doh-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-resolver-associated-doh-04.txt' />
+</reference>

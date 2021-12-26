@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-v6only'>
+<front>
+<title>IPv6-Only-Preferred Option for DHCPv4</title>
+
+<author initials='L' surname='Colitti' fullname='Lorenzo Colitti'>
+    <organization />
+</author>
+
+<author initials='J' surname='Linkova' fullname='Jen Linkova'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='T' surname='Mrugalski' fullname='Tomek Mrugalski'>
+    <organization />
+</author>
+
+<date month='August' day='13' year='2020' />
+
+<abstract><t>This document specifies a DHCPv4 option to indicate that a host supports an IPv6-only mode and is willing to forgo obtaining an IPv4 address if the network provides IPv6 connectivity.  It also updates RFC2563 to specify the DHCPv4 server behavior when the server receives a DHCPDISCOVER not containing the Auto-Configure option but containing the new option defined in this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-v6only-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-v6only-08.txt' />
+</reference>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mirsky-6man-unified-id-sr'>
+<front>
+<title>Unified Identifier in IPv6 Segment Routing Networks</title>
+<author initials='W' surname='Cheng' fullname='Weiqiang Cheng'>
+<organization />
+</author>
+<author initials='G' surname='Mirsky' fullname='Greg Mirsky'>
+<organization />
+</author>
+<author initials='S' surname='Peng' fullname='Shaofu Peng'>
+<organization />
+</author>
+<author initials='A' surname='Liu' fullname='Aihua Liu'>
+<organization />
+</author>
+<author initials='G' surname='Mishra' fullname='Gyan Mishra'>
+<organization />
+</author>
+<date year='2021' month='September' day='25' />
+<abstract><t>Segment Routing architecture leverages the paradigm of source routing.  It can be realized in a network data plane by prepending the packet with a list of instructions, a.k.a. segments.  A segment can be encoded as a Multi-Protocol Label Switching (MPLS) label, IPv4 address, or IPv6 address.  Segment Routing can be applied in the MPLS data plane by encoding segments in the MPLS label stack.  It also can be applied to the IPv6 data plane by encoding a list of segment identifiers in IPv6 Segment Routing Extension Header (SRH).  This document extends the use of the SRH to unified segment identifiers encoded, for example, as MPLS label or IPv4 address, to compress the SRH, and support more detailed network programming and interworking between SR-MPLS and SRv6 domains.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-mirsky-6man-unified-id-sr-10'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-mirsky-6man-unified-id-sr-10.txt'/>
+</reference>

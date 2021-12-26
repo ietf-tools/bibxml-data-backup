@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhangj-pce-multi-fiber-inter-domain'>
+<front>
+<title>PCEP extension for multi-fiber existing in inter-domain link</title>
+
+<author initials='J' surname='Zhang' fullname='Jie Zhang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wang' fullname='Jingjing Wang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Zhao' fullname='Yongli Zhao'>
+    <organization />
+</author>
+
+<author initials='S' surname='Huang' fullname='Shanguo Huang'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Wang' fullname='Zhihong Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Cao' fullname='Xuping Cao'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2012' />
+
+<abstract><t>In real networks, the link between two adjacent nodes always has multi-fibers.  The condition above happens more frequently especially for the gateway nodes in the multi-domain network.  Moreover, the number of links between two adjacent domains is always more than one. From the view of parent PCE, the two conditions above will be regarded as the problem of multi-fiber between adjacent nodes. However, most route computing algorithms always can not solve the problem of multi-fiber between adjacent nodes.  As a result, parent PCE will not compute the route sequence with specific fibers.  It brings distress and problems when parent PCE computing the loose route sequence.  In order to solve the problems existing in real networks, an efficient solution will be proposed for parent PCE facing the multi- fiber between adjacent nodes.  Some interface and structure will be expanded in this proposal.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhangj-pce-multi-fiber-inter-domain-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhangj-pce-multi-fiber-inter-domain-00.txt' />
+</reference>

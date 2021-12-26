@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-lwig-tls-minimal'>
+<front>
+<title>A Hitchhiker's Guide to the (Datagram) Transport Layer Security Protocol for Smart Objects and Constrained Node Networks</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='J' surname='Gilger' fullname='Johannes Gilger'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kovatsch' fullname='Matthias Kovatsch'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>Transport Layer Security (TLS) is a widely used security protocol that offers communication security services at the transport layer. The initial design of TLS was focused on the protection of applications running on top of the Transmission Control Protocol (TCP), and was a good match for securing the Hypertext Transfer Protocol (HTTP).  The Stream Control Transmission Protocol (SCTP), as a more recent connection-oriented transport protocol, also benefits from TLS support.  Subsequent standardization efforts lead to the publication of the Datagram Transport Layer Security (DTLS) protocol, which allows TLS payloads to be exchanged on top of the User Datagram Protocol (UDP), and the Datagram Congestion Control Protocol (DCCP).  TLS can be customized in a variety of ways and every feature has a certain cost.  To offer input for implementers and system architects this document provides guidance for the usage of TLS and DTLS features for smart objects and constraint node networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-lwig-tls-minimal-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-lwig-tls-minimal-02.txt' />
+</reference>

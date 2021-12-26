@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.decraene-lsr-isis-flooding-speed'>
+<front>
+<title>IS-IS Flooding Parameters advertisement</title>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='J' surname='J' fullname='Jayesh J'>
+    <organization />
+</author>
+
+<author initials='T' surname='Li' fullname='Tony Li'>
+    <organization />
+</author>
+
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+    <organization />
+</author>
+
+<date month='June' day='10' year='2020' />
+
+<abstract><t>This document proposes a mechanism that can be used to increase the speed at which link state information is exchanged between two routers when multiple LSPs need to be flooded, such as in case of a node failure.  It also reduces the likelihood of overloading the router receiving the LSPs, causing LSPs losses and delayed retransmission.  This document defines a new TLV to be advertised in SNP and/or Hello messages.  This TLV may carry a set of parameters indicating the performance capacity to receive LSPs: the number of LSPs which can the received back to back, the minimum delay between further two consecutive LSPs and the minimum delay before retransmission of an LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-decraene-lsr-isis-flooding-speed-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-decraene-lsr-isis-flooding-speed-04.txt' />
+</reference>

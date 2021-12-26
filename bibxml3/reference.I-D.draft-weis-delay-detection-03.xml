@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.weis-delay-detection'>
+<front>
+<title>IP Delivery Delay Detection Protocol</title>
+
+<author initials='B' surname='Weis' fullname='Brian Weis'>
+    <organization />
+</author>
+
+<author initials='U' surname='Mangla' fullname='Umesh Mangla'>
+    <organization />
+</author>
+
+<author initials='N' surname='Maheshwari' fullname='Nilesh Maheshwari'>
+    <organization />
+</author>
+
+<author initials='T' surname='Karl' fullname='Thomas Karl'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>This memo describes a one-way measurement of IP packet end to end delay.  Delay detection is enabled by a sender of an IP Internet Protocol datagram placing a timestamp in the packet declaring the time at which it was sent.  The receiver of the datagram can then judge how recently it was sent and choose a policy action, which could include discarding packets deemed to be 'too old' (having a timestamp too far into the past) or 'too new' (having a timestamp that is too far into the future).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-weis-delay-detection-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-weis-delay-detection-03.txt' />
+</reference>

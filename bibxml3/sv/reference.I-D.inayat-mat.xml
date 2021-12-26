@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.inayat-mat'>
+<front>
+<title>MAT: A Network Architecture for Supporting Node Mobility in Wireless IP  Networks</title>
+
+<author initials='R' surname='Inayat' fullname='Riaz Inayat'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2005' />
+
+<abstract><t>This document describes MAT, a mobile network architecture that allows smooth node mobility in wireless IP networks without using any packet intercepter/forwarder. The mobility solution is specifically designed for time-sensitive real-time applications, particularly the applications where payload tends to be short and packet header overhead is very significant. Connections are established as per permanent addresses of the nodes but are carried on by the IP layer according to the temporary addresses by address translation at the end nodes. The mapping information is maintained by database servers, which can be placed in the Internet in a distributed manner. TCP connections and security associations can be preserved even if the node moves to another subnet or the node changes its active interface in a multi-homed environment without modifying TCP or IPsec. In comparison with Mobile IPv4 and IPv6, MAT has several advantages in terms of header overhead and fault tolerance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-inayat-mat-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-inayat-mat-00.txt' />
+</reference>

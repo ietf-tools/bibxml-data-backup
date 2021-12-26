@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-native-api'>
+<front>
+<title>Native Application Programming Interfaces for SHIM Layer Prococols</title>
+
+<author initials='M' surname='Komu' fullname='Miika  Komu'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2007' />
+
+<abstract><t>This document proposes extensions to the current networking APIs for protocols based on identifier/locator split. Currently, the document focuses on HIP, but the extensions can be used also by other protocols implementing identifier locator split. Using the API extensions, new SHIM aware applications can gain a better control of the SHIM layer and endpoint identifiers. For example, the applications can query and set SHIM related attributes, or specify their own endpoint identifiers for a host. In addition, a new indirection element called endpoint descriptor is defined for SHIM aware applications that can be used for implementing opportunistic mode in a clean way.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-native-api-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-native-api-01.txt' />
+</reference>

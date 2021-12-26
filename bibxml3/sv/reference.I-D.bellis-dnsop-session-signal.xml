@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bellis-dnsop-session-signal'>
+<front>
+<title>DNS Session Signaling</title>
+
+<author initials='R' surname='Bellis' fullname='Ray Bellis'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dickinson' fullname='John Dickinson'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dickinson' fullname='Sara Dickinson'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mankin' fullname='Allison Mankin'>
+    <organization />
+</author>
+
+<author initials='T' surname='Pusateri' fullname='Tom Pusateri'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2016' />
+
+<abstract><t>The EDNS(0) Extension Mechanism for DNS [RFC6891] is explicitly defined to only have "per-message" semantics.  This document defines a new Session Signaling Opcode used to carry persistent "per-session" type-length-values (TLVs), and defines an initial set of TLVs used to manage session timeouts and termination.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bellis-dnsop-session-signal-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bellis-dnsop-session-signal-02.txt' />
+</reference>

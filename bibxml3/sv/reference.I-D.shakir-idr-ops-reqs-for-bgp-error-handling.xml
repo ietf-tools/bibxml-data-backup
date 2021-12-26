@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shakir-idr-ops-reqs-for-bgp-error-handling'>
+<front>
+<title>Operational Requirements for Enhanced Error Handling Behaviour in BGP-4</title>
+
+<author initials='R' surname='Shakir' fullname='Rob Shakir'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2011' />
+
+<abstract><t>BGP-4 is utilised as a key intra- and inter-Autonomous System routing protocol in modern IP networks.  The failure modes as defined by the original protocol standards are based on a number of assumptions around the impact of session failure.  Numerous incidents both in the global Internet routing table and within Service Provider networks have been caused by strict handling of a single invalid UPDATE message causing large-scale failures in one or more Autonomous Systems.  This memo describes the current use of BGP-4 within Service Provider networks, and outlines a set of requirements for further work to enhance the mechanisms available to a BGP-4 implementation when erroneous data is detected.  Whilst this document does not provide specification of any standard, it is intended as an overview of a set of enhancements to BGP-4 to improve the protocol's robustness to suit its current deployment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shakir-idr-ops-reqs-for-bgp-error-handling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shakir-idr-ops-reqs-for-bgp-error-handling-01.txt' />
+</reference>

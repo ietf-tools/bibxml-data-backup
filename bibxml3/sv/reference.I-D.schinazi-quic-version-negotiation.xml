@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schinazi-quic-version-negotiation'>
+<front>
+<title>Compatible Version Negotiation for QUIC</title>
+
+<author initials='D' surname='Schinazi' fullname='David Schinazi'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>QUIC does not provide a complete version negotiation mechanism but instead only provides a way for the server to indicate that the version the client offered is unacceptable.  This document describes a version negotiation mechanism that allows a client and server to select a mutually supported version.  Optionally, if the original and negotiated version share a compatible Initial format, the negotiation can take place without incurring an extra round trip.  Discussion of this work is encouraged to happen on the QUIC IETF mailing list quic@ietf.org [1] or on the GitHub repository which contains the draft: http://github.com/ekr/draft-schinazi-quic- version-negotiation [2].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schinazi-quic-version-negotiation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schinazi-quic-version-negotiation-02.txt' />
+</reference>

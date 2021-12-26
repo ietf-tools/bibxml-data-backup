@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc7112.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc7112.txt</link>
+        <title>RFC 7112: Implications of Oversized IPv6 Header Chains, F. Gont, V. Manral, R. Bonica</title>
+        <dc:date>2014-01-01T23:00:00-00:00</dc:date>
+        <description>The IPv6 specification allows IPv6 Header Chains of an arbitrary size.  The specification also allows options that can, in turn, extend each of the headers.  In those scenarios in which the IPv6 Header Chain or options are unusually long and packets are fragmented, or scenarios in which the fragment size is very small, the First Fragment of a packet may fail to include the entire IPv6 Header Chain.  This document discusses the interoperability and security problems of such traffic, and updates RFC 2460 such that the First Fragment of a packet is required to contain the entire IPv6 Header Chain. </description>
+    </item>
+

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lubashev-ipv6-addr-mask'>
+<front>
+<title>IPv6 Address/Mask Notation</title>
+
+<author initials='I' surname='Lubashev' fullname='Igor Lubashev'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nygren' fullname='Erik Nygren'>
+    <organization />
+</author>
+
+<date month='March' day='26' year='2017' />
+
+<abstract><t>With significantly longer IPv6 address prefixes assigned to ISPs, operators sometimes find opportunities to assign special meaning to lower-order bit patterns.  Often, these bit patterns cannot be expressed as an address prefix.  This RFC introduces IPv6 Address/Mask notation that allows one to express address groupings beyond "all addresses that share a single prefix".  The notation is similar to the IPv4 Address/Mask notation in its expressiveness, but its syntax is derived from the traditional Address/Prefix-length notation.  The traditional Address/Prefix- length notation is a special case of the Address/Mask notation.  For example, using this notation, both 2001:db8::/32 and 2001:db8::/ ffff:ffff:: have the same meaning.  However, the following requires the new notation: 2001:db8::1234/ffff:ffff::ffff or, equivalently, 2001:db8::1234/32+::ffff.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lubashev-ipv6-addr-mask-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lubashev-ipv6-addr-mask-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ananth-middisc-tcpopt'>
+<front>
+<title>TCP option for transparent Middlebox discovery</title>
+
+<author initials='A' surname='Knutsen' fullname='Andrew Knutsen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ramaiah' fullname='Anantha Ramaiah'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2012' />
+
+<abstract><t>This document describes a TCP option for use by middleboxes to facilitate transparent detection of other middleboxes along the path of the TCP connection during the connection initiation phase.  The option has no effect if an appropriate middlebox is not present on the path.  The TCP end hosts are unaware of this option and its usage is strictly for use by TCP middleboxes.  Multiple vendors of WAN optimization products have used similar (but incompatible and proprietary) mechanisms since at least 2004.  Those existing vendor systems use multiple TCP option code points, all of which are officially unassigned by IANA.  The goal of this memo is to standardize a single TCP option code point for this functionality. This memo is the product of discussion among some of the vendors currently using incompatible proprietary TCP options for middlebox discovery.  It is a non-goal of this memo to achieve interoperability of middlebox discovery between multiple vendors.  It needs to be noted that an earlier document [I-D.knutsen-tcpm-middlebox-discovery], is re-written as the current document after agreement from multiple vendors.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ananth-middisc-tcpopt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ananth-middisc-tcpopt-00.txt' />
+</reference>

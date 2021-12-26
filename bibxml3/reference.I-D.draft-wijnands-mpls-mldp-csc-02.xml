@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-mpls-mldp-csc'>
+<front>
+<title>Using mLDP through a Backbone where there is no Route to the Root</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Napierala' fullname='Maria Napierala'>
+    <organization />
+</author>
+
+<date month='October' day='9' year='2009' />
+
+<abstract><t>The control protocol used for constructing Point-to-Multipoint and Multipoint-to-Multipoint Label Switched Paths ("MP LSPs") contains a field that identifies the address of a "root node".  Intermediate nodes are expected to be able to look up that address in their routing tables.  However, if the route to the root node is a BGP route, and the intermediate nodes are part of a BGP-free core, this is not possible.  This document specifies procedures which enable a MP LSP to be constructed through a BGP-free core.  In these procedures, the root node address is temporarily replaced by an address which is known to the intermediate nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-mpls-mldp-csc-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-mpls-mldp-csc-02.txt' />
+</reference>

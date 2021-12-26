@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-bishop-httpbis-http2-additional-certs-05.txt'>
+    <title>"Secondary Certificate Authentication in HTTP/2", Mike Bishop, Nick Sullivan, Martin Thomson</title>
+    <link>http://www.ietf.org/internet-drafts/draft-bishop-httpbis-http2-additional-certs-05.txt</link>
+    <description>TLS provides fundamental mutual authentication services for HTTP, supporting up to one server certificate and up to one client certificate associated to the session to prove client and server identities as necessary.  This draft provides mechanisms for providing additional such certificates at the HTTP layer when these constraints are not sufficient.  Many HTTP servers host content from several origins.  HTTP/2 [RFC7540] permits clients to reuse an existing HTTP connection to a server provided that the secondary origin is also in the certificate provided during the TLS [I-D.ietf-tls-tls13] handshake.  In many cases, servers will wish to maintain separate certificates for different origins but still desire the benefits of a shared HTTP connection.  Similarly, servers may require clients to present authentication, but have different requirements based on the content the client is attempting to access.  This document describes how TLS exported authenticators [I-D.ietf-tls-exported-authenticator] can be used to provide proof of ownership of additional certificates to the HTTP layer to support both scenarios.</description>
+    <dc:date>2017-10-30T07:00:00-00:00</dc:date>
+</item>

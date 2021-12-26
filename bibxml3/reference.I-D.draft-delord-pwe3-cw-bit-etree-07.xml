@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.delord-pwe3-cw-bit-etree'>
+<front>
+<title>Control Word Reserved bit for use in E-Tree</title>
+
+<author initials='S' surname='DeLord' fullname='Simon DeLord'>
+    <organization />
+</author>
+
+<author initials='R' surname='Key' fullname='Raymond Key'>
+    <organization />
+</author>
+
+<author initials='F' surname='JOUNAY' fullname='Frederic JOUNAY'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jin' fullname='Lizhong Jin'>
+    <organization />
+</author>
+
+<date month='April' day='16' year='2012' />
+
+<abstract><t>The extension described in this document allows a pair of PEs connected via an Ethernet Pseudowire (PW) to signal via the use of the Control Word (CW) whether the Ethernet frame encapsulated is coming from a Root AC or a Leaf AC. This allows a PE receiving this frame to decide whether it can be forwarded to a Leaf AC or not. Such forward or drop decision is an additional filtering action after the MAC-based forwarding decision. This applies to both P2P PW and P2MP PW.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-delord-pwe3-cw-bit-etree-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-delord-pwe3-cw-bit-etree-07.txt' />
+</reference>

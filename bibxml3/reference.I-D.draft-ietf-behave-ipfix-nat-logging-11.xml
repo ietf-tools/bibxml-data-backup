@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-behave-ipfix-nat-logging'>
+<front>
+<title>IPFIX Information Elements for logging NAT Events</title>
+
+<author initials='S' surname='Sivakumar' fullname='Senthil Sivakumar'>
+    <organization />
+</author>
+
+<author initials='R' surname='Penno' fullname='Reinaldo Penno'>
+    <organization />
+</author>
+
+<date month='October' day='3' year='2016' />
+
+<abstract><t>Network operators require NAT devices to log events like creation and deletion of translations and information about the resources that the NAT device is managing.  The logs are essential in many cases to identify an attacker or a host that was used to launch malicious attacks and for various other purposes of accounting.  Since there is no standard way of logging this information, different NAT devices log the information using proprietary formats and hence it is difficult to expect a consistent behavior.  The lack of a consistent way to log the data makes it difficult to write the collector applications that would receive this data and process it to present useful information.  This document describes the formats for logging of NAT events.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-behave-ipfix-nat-logging-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-behave-ipfix-nat-logging-11.txt' />
+</reference>

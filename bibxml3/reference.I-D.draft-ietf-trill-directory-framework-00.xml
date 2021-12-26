@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-directory-framework'>
+<front>
+<title>TRILL Edge Directory Assistance Framework</title>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='I' surname='Gashinsky' fullname='Igor Gashinsky'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2012' />
+
+<abstract><t>Edge RBridges currently learn the mapping between MAC addresses and their egress RBridges by observing the data packets traversed through. When ingress RBridge receives a data frame with its destination address (MAC&amp;VLAN) unknown, the data frame is flooded across the TRILL campus. When there are more than one RBridge ports connected to one bridged LAN, only one of them can be designated as AF port for forwarding/receiving traffic for each LAN, the rest have to be blocked for that LAN.  This draft describes the framework for using directory service to assist edge RBridges to improve TRILL network scalability in data center environment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-directory-framework-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-directory-framework-00.txt' />
+</reference>

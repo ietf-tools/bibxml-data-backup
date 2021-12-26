@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.levine-dkim-adsp'>
+<front>
+<title>DKIM Author Domain Signing Practices (ADSP)</title>
+
+<author initials='a' surname='Local-part' fullname='agent Local-part'>
+    <organization />
+</author>
+
+<author initials='A' surname='Domain' fullname='Author  Domain'>
+    <organization />
+</author>
+
+<author initials='J' surname='Callas' fullname='Jon Callas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<author initials='E' surname='Siegel' fullname='Ellen Siegel'>
+    <organization />
+</author>
+
+<date month='May' day='23' year='2008' />
+
+<abstract><t>DomainKeys Identified Mail (DKIM) defines a domain-level authentication framework for email to permit verification of the source and contents of messages.  This document specifies an adjunct mechanism to aid in assessing messages that do not contain a DKIM signature for the domain used in the author's address.  It defines a record that can advertise whether they sign their outgoing mail, and how other hosts can access those records.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-levine-dkim-adsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-levine-dkim-adsp-00.txt' />
+</reference>

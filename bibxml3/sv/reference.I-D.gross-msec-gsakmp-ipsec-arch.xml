@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gross-msec-gsakmp-ipsec-arch'>
+<front>
+<title>The Group Security Association Key Management Protocol Application to the IP  Security Architecture</title>
+
+<author initials='G' surname='Gross' fullname='George Gross'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2004' />
+
+<abstract><t>The Group Security Association Key Management Protocol (GSAKMP)is a distributed secure multicast framework and key management protocol. This specification defines the GSAKMP profile for the IP security architecture version 2 and extends the base GSAKMP protocol with the Security Association Management (SAM) message. The GSAKMP IPsec policy token explicitly authorizes which group members may exercise the speaker privilege. When an authorized group speaker endpoint multicasts a SAM message to a GSAKMP group, the SAM message configures that group's Security Policy Databases and Security Association Databases in compliance to a template within the GSAKMP IPsec policy token. In addition, this specification profiles the three supporting components: RFC2401-bis compliant IP security subsystem, Negative-acknowledgement Oriented Reliable Multicast (NORM) protocol handler, and the X.509 Public Key Infrastructure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gross-msec-gsakmp-ipsec-arch-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gross-msec-gsakmp-ipsec-arch-00.txt' />
+</reference>

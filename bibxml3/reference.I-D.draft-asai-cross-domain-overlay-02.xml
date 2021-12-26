@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.asai-cross-domain-overlay'>
+<front>
+<title>Global Cost Mapping for AS-Level Application-Layer Traffic Optimization</title>
+
+<author initials='H' surname='Asai' fullname='Hirochika Asai'>
+    <organization />
+</author>
+
+<author initials='H' surname='Esaki' fullname='Hiroshi Esaki'>
+    <organization />
+</author>
+
+<author initials='T' surname='Momose' fullname='Tsuyoshi Momose'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2011' />
+
+<abstract><t>This document provides an approach of cross-domain traffic control in application-layer or overlay routing, such as content delivery networks and live media streaming systems, to reduce inter-domain traffic and transit traffic that costs more for Internet service providers (ISPs).  This approach utilizes global cost map to regulate policy conflicts between distinct ISPs.  The approach and the simulation results in this document suggest to use global cost map in application-layer routing and highlight the advantage of cross-domain cooperation with the global cost map.  To distribute the global cost map, the ALTO protocol is the best way today, and consequently, this document defines a usage of the ALTO protocol.  This document also defines a solution approach to compute global cost map that takes into account commercial relationships between autonomous systems, with hiding confidential information as much as possible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-asai-cross-domain-overlay-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-asai-cross-domain-overlay-02.txt' />
+</reference>

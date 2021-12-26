@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.turner-est-extensions'>
+<front>
+<title>EST (Enrollment over Secure Transport) Extensions</title>
+
+<author initials='S' surname='Turner' fullname='Sean Turner'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2017' />
+
+<abstract><t>The EST (Enrollment over Secure Transport) protocol defined a Well- Known URI (Uniform Resource Identifier): /.well-known/est along with a number of other path components that clients use for PKI (Public Key Infrastructure) services, namely certificate enrollment (e.g., /simpleenroll).  This document defines a number of other PKI services as additional path components, specifically firmware and trust anchors as well as symmetric, asymmetric, and encrypted keys.  This document also specifies the PAL (Package Availability List), which is an XML (Extensible Markup Language) file or JSON (JavaScript Object Notation) object that clients use to retrieve packages available and authorized for them.  This document extends the EST server path components to provide these additional services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-turner-est-extensions-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-turner-est-extensions-11.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipping-reason-header-for-preemption'>
+<front>
+<title>Extending the Session Initiation Protocol Reason Header for Preemption  Events</title>
+
+<author initials='J' surname='Polk' fullname='James Polk'>
+    <organization />
+</author>
+
+<date month='September' day='12' year='2005' />
+
+<abstract><t>This document proposes an IANA Registration extension to the Session Initiation Protocol (SIP) Reason Header to include in a BYE Method Request as a result of a session preemption event, either at a user agent (UA), or somewhere in the network involving a reservation- based protocol such as RSVP or NSIS. This document does not attempt to address routers failing in the packet path; but a deliberate event of tearing down a flow between UAs, and informing the terminated UA(s) with an indication of what occurred.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipping-reason-header-for-preemption-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipping-reason-header-for-preemption-04.txt' />
+</reference>

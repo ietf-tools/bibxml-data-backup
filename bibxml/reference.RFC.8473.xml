@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8473' target='https://www.rfc-editor.org/info/rfc8473'>
+<front>
+<title>Token Binding over HTTP</title>
+<author initials='A.' surname='Popov' fullname='A. Popov'><organization /></author>
+<author initials='M.' surname='Nystroem' fullname='M. Nystroem'><organization /></author>
+<author initials='D.' surname='Balfanz' fullname='D. Balfanz' role='editor'><organization /></author>
+<author initials='N.' surname='Harper' fullname='N. Harper'><organization /></author>
+<author initials='J.' surname='Hodges' fullname='J. Hodges'><organization /></author>
+<date year='2018' month='October' />
+<abstract><t>This document describes a collection of mechanisms that allow HTTP servers to cryptographically bind security tokens (such as cookies and OAuth tokens) to TLS connections.</t><t>We describe both first-party and federated scenarios.  In a first- party scenario, an HTTP server is able to cryptographically bind the security tokens that it issues to a client -- and that the client subsequently returns to the server -- to the TLS connection between the client and the server.  Such bound security tokens are protected from misuse, since the server can generally detect if they are replayed inappropriately, e.g., over other TLS connections.</t><t>Federated Token Bindings, on the other hand, allow servers to cryptographically bind security tokens to a TLS connection that the client has with a different server than the one issuing the token.</t><t>This document is a companion document to &quot;The Token Binding Protocol                    Version 1.0&quot; (RFC 8471).</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8473'/>
+<seriesInfo name='DOI' value='10.17487/RFC8473'/>
+</reference>

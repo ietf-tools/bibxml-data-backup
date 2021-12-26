@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rekhter-v6-ext-communities'>
+<front>
+<title>IPv6 Address Specific BGP Extended Communities Attribute</title>
+
+<author initials='Y' surname='Rekhter' fullname='Yakov Rekhter'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2006' />
+
+<abstract><t>Current specifications of BGP Extended Communities [BGP-EXTCOMM] support IPv4 Address Specific Extended Community, but do not support IPv6 Address Specific Extended Community. The lack of IPv6 Address Specific Extended Community may be a problem when an application uses IPv4 Address Specific Extended Community, and one wants to use this application in a pure IPv6 environment. This document defines a new BGP attribute, IPv6 Address Specific Extended Community that addresses this problem. The IPv6 Address Specific Extended Community is similar to the IPv4 Address Specific Extended Community, except that it carries an IPv6 address rather than an IPv4 address.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rekhter-v6-ext-communities-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rekhter-v6-ext-communities-00.txt' />
+</reference>

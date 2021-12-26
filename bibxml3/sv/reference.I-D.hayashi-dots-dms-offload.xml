@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hayashi-dots-dms-offload'>
+<front>
+<title>DDoS Mitigation Offload: DOTS Applicability and Deployment Considerations</title>
+
+<author initials='Y' surname='Hayashi' fullname='Yuhei Hayashi'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nishizuka' fullname='Kaname Nishizuka'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2019' />
+
+<abstract><t>This document describes a deployment scenario to assess the applicability of DOTS protocols together with a discussion on DOTS deployment considerations of such scenario.  This scenario assumes that a DMS (DDoS Mitigation System) whose utilization rate is high sends its blocked traffic information to an orchestrator using DOTS protocols, then the orchestrator requests forwarding nodes such as routers to filter the traffic.  Doing so enables service providers to mitigate the DDoS attack traffic automatically while ensuring interoperability and distributed filter enforcement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hayashi-dots-dms-offload-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hayashi-dots-dms-offload-00.txt' />
+</reference>

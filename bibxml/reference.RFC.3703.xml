@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3703' target='https://www.rfc-editor.org/info/rfc3703'>
+<front>
+<title>Policy Core Lightweight Directory Access Protocol (LDAP) Schema</title>
+<author initials='J.' surname='Strassner' fullname='J. Strassner'><organization /></author>
+<author initials='B.' surname='Moore' fullname='B. Moore'><organization /></author>
+<author initials='R.' surname='Moats' fullname='R. Moats'><organization /></author>
+<author initials='E.' surname='Ellesson' fullname='E. Ellesson'><organization /></author>
+<date year='2004' month='February' />
+<abstract><t>This document defines a mapping of the Policy Core Information Model to a form that can be implemented in a directory that uses Lightweight Directory Access Protocol (LDAP) as its access protocol.  This model defines two hierarchies of object classes: structural classes representing information for representing and controlling policy data as specified in RFC 3060, and relationship classes that indicate how instances of the structural classes are related to each other.  Classes are also added to the LDAP schema to improve the performance of a client's interactions with an LDAP server when the client is retrieving large amounts of policy-related information.  These classes exist only to optimize LDAP retrievals: there are no classes in the information model that correspond to them.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3703'/>
+<seriesInfo name='DOI' value='10.17487/RFC3703'/>
+</reference>

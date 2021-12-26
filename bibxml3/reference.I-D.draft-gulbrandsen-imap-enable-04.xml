@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gulbrandsen-imap-enable'>
+<front>
+<title>The IMAP ENABLE Extension</title>
+
+<author initials='A' surname='Gulbrandsen' fullname='Arnt Gulbrandsen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='December' day='14' year='2007' />
+
+<abstract><t>Most IMAP extensions are used by the client when it wants to and the server supports it. However, a few extensions require the server to know whether a client supports that extension. The ENABLE extension allows an IMAP client to say which extensions it supports.1. Conventions Used in This Document The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119]. Formal syntax is defined by [RFC4234] as modified by [RFC3501]. Example lines prefaced by "C:" are sent by the client and ones prefaced by "S:" by the server. The five characters [...] means that something has been elided.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gulbrandsen-imap-enable-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gulbrandsen-imap-enable-04.txt' />
+</reference>

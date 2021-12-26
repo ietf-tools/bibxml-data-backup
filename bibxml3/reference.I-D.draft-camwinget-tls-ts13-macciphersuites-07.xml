@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.camwinget-tls-ts13-macciphersuites'>
+<front>
+<title>TLS 1.3 Authentication and Integrity only Cipher Suites</title>
+
+<author initials='N' surname='Cam-Winget' fullname='Nancy Cam-Winget'>
+    <organization />
+</author>
+
+<author initials='J' surname='Visoky' fullname='Jack Visoky'>
+    <organization />
+</author>
+
+<date month='August' day='28' year='2020' />
+
+<abstract><t>There are use cases, specifically in Internet of Things (IoT) and constrained environments that do not require confidentiality, though message integrity for all communications and mutual authentication during tunnel establishment are both still mandated.  Examples of such use cases are given, although a threat model is necessary to determine whether or not a given situation falls into this catergory of use cases.  In order to serve these use cases, this document defines the use of HMAC only cipher suites for TLS 1.3, which provides mutual authentication and data authenticity, but not data confidentiality.  The approach described in this document is not endorsed by the IETF and does not have IETF consensus, but is presented here to enable interoperable implementation of a reduced security mechanism that provides authentication and message integrity without supporting confidentiality.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-camwinget-tls-ts13-macciphersuites-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-camwinget-tls-ts13-macciphersuites-07.txt' />
+</reference>

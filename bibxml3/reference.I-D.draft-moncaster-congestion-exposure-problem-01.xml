@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moncaster-congestion-exposure-problem'>
+<front>
+<title>The Need for Congestion Exposure in the Internet</title>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<author initials='A' surname='Burness' fullname='Anne-Louise  Burness'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='J' surname='Araujo' fullname='Joao Araujo'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blake' fullname='Steven Blake'>
+    <organization />
+</author>
+
+<author initials='R' surname='Woundy' fullname='Richard Woundy'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2009' />
+
+<abstract><t>The success of the Internet is largely down to the elegant manner in which it shares capacity amongst all users while avoiding congestion collapse.  However this relies on the cooperation of all end users to work efficiently.  Increasingly a small minority of users are able to grab larger and larger shares of the network leading ISPs to impose arbitrary controls on traffic.  These controls set ISPs on a direct collision course with their customers and the regulators.  The root of the problem lies in the fact the ISPs are unable to see the most important information about the traffic - namely the amount of congestion that traffic is going to cause in the network.  We propose congestion exposure as a possible solution.  Every packet will carry an accurate prediction of the congestion it expects to cause downstream.  This memo sets out the motivations for congestion exposure and introduces a strawman protocol designed to achieve congestion exposure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moncaster-congestion-exposure-problem-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moncaster-congestion-exposure-problem-01.txt' />
+</reference>

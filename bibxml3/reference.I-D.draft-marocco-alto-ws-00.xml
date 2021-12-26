@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.marocco-alto-ws'>
+<front>
+<title>WebSocket-based server-to-client notifications for the Application-Layer Traffic Optimization (ALTO) Protocol</title>
+
+<author initials='E' surname='Marocco' fullname='Enrico Marocco'>
+    <organization />
+</author>
+
+<author initials='J' surname='Seedorf' fullname='Jan Seedorf'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2012' />
+
+<abstract><t>The Application-Layer Traffic Optimization (ALTO) protocol is designed to allow entities with knowledge about the network infrastructure to export such information to applications that need to choose one or more endpoints to connect to among large sets of logically equivalent ones.  The base protocol specification adopts a simple pull-based model, according to which the client retrieves the information encoded as JSON objects over HTTP directly from the server.  This document proposes (for discussion) a mechanism for providing server-initiated information update notifications through a WebSocket-based ALTO protocol extension that easily integrates in the basic protocol model.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-marocco-alto-ws-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-marocco-alto-ws-00.txt' />
+</reference>

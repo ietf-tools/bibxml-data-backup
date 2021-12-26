@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-idr-extensions'>
+<front>
+<title>BGP Extensions for BIER</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='T' surname='P' fullname='Tony P'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2015' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) is a new multicast forwarding architecture which doesn't require an explicit tree-building protocol and doesn't require intermediate routers to maintain any multicast state.  BIER is applicable in a multi-tenant data center network environment for efficient delivery of Broadcast, Unknown-unicast and Multicast (BUM) traffic while eliminating the need for maintaining a huge amount of multicast state in the underlay.  This document describes BGP extensions for advertising the BIER-specific information.  These extensions are applicable in those multi-tenant data centers where BGP instead of IGP is deployed as an underlay for network reachability advertisement.  These extensions may also be applicable in other scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-idr-extensions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-idr-extensions-00.txt' />
+</reference>

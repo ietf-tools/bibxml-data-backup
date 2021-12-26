@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rafiee-intarea-cga-tsig'>
+<front>
+<title>Secure DNS Authentication using CGA/SSAS Algorithm in IPv6</title>
+
+<author initials='H' surname='Hosnieh' fullname='Hosnieh'>
+    <organization />
+</author>
+
+<author initials='M' surname='Loewis' fullname='Martin von Loewis'>
+    <organization />
+</author>
+
+<author initials='C' surname='Meinel' fullname='Christoph Meinel'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>This document describes a new mechanism that can be used to reduce the need for human intervention during DNS authentication and secure DNS authentication in various scenarios such as the DNS authentication of resolvers to stub resolvers, authentication during zone transfers, authentication of root DNS servers to recursive DNS servers, and authentication during the FQDN (RFC 4703) update.  Especially in the last scenario, i.e., FQDN, if the node uses the Neighbor Discovery Protocol (NDP) (RFC 4861, RFC 4862), unlike the Dynamic Host Configuration Protocol (DHCP) (RFC 3315), the node has no way of updating his FQDN records on the DNS and has no means for a secure authentication with the DNS server. While this is a major problem in NDP-enabled networks, this is a minor problem in DHCPv6. This is because the DHCP server updates the FQDN records on behalf of the nodes on the network. This document also introduces a possible algorithm for DNS data confidentiality.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rafiee-intarea-cga-tsig-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rafiee-intarea-cga-tsig-07.txt' />
+</reference>

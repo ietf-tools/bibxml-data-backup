@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.muenz-ipfix-compression'>
+<front>
+<title>Lossless Compression for IP Flow Information Export (IPFIX)</title>
+
+<author initials='G' surname='Muenz' fullname='Gerhard Muenz'>
+    <organization />
+</author>
+
+<author initials='L' surname='Braun' fullname='Lothar Braun'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2008' />
+
+<abstract><t>In this document, we discuss the benefits and possible realizations of IPFIX traffic compression.  Experiments with real measurement data show that a significant compression gain can be achieved by applying the DEFLATE compression method to IPFIX data sets.  Compression of IPFIX traffic can be based on underlying transport protocols, such as IPComp and TLS/DTLS, or realized as an extension of the IPFIX protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-muenz-ipfix-compression-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-muenz-ipfix-compression-00.txt' />
+</reference>

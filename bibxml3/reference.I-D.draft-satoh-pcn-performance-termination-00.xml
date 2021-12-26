@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.satoh-pcn-performance-termination'>
+<front>
+<title>Performance evaluation of termination in CL-algorithm</title>
+
+<author initials='D' surname='Satoh' fullname='Daisuke Satoh'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ueno' fullname='Harutaka Ueno'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2009' />
+
+<abstract><t>Pre-congestion notification (PCN) gives information to support admission control and flow termination in order to protect the quality of service (QoS) of inelastic flows.  [I-D.taylor-cl-edge- behaviour] describes one boundary node behaviours for three-state measurement-based load control, known informally as CL [I-D.briscoe- tsvwg-cl-phb].  In [I-D.taylor-cl-edge-behaviour], flow termination is required if excess-traffic-marked packets were observed and the end of one measurement period MUST be the beginning of the next one, independently of current flow conditions.  According to this termination, PCN-flows in some ingress-egress (IE) pairs may be terminated during measurement period of other IE pairs unless round- trip times (RTT) of all the IE pairs are the same.  We illustrate that this can lead to over-termination.  Our simulation confirms that accuracy of termination is improved when no PCN-flows in some IE pairs are terminated during measurement period of other IE pairs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-satoh-pcn-performance-termination-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-satoh-pcn-performance-termination-00.txt' />
+</reference>

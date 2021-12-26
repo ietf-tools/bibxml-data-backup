@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.farrel-spring-sr-domain-interconnect'>
+<front>
+<title>Interconnection of Segment Routing Domains - Problem Statement and Solution Landscape</title>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2018' />
+
+<abstract><t>Segment Routing (SR) is a forwarding paradigm for use in MPLS and IPv6 networks.  It is intended to be deployed in discrete domains that may be data centers, access networks, or other networks that are under the control of a single operator and that can easily be upgraded to support this new technology.  Traffic originating in one SR domain often terminates in another SR domain, but must transit a backbone network that provides interconnection between those domains.  This document describes a mechanism for providing connectivity between SR domains to enable end-to-end or domain-to-domain traffic engineering.  The approach described allows connectivity between SR domains, utilizes traffic engineering mechanisms (RSVP-TE or Segment Routing) across the backbone network, makes heavy use of pre-existing technologies, and requires the specification of very few additional mechanisms.  This document provides some background and a problem statement, explains the solution mechanism, gives references to other documents that define protocol mechanisms, and provides examples.  It does not define any new protocol mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-farrel-spring-sr-domain-interconnect-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-farrel-spring-sr-domain-interconnect-04.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.salgado-rrserial'>
+<front>
+<title>The "RRSERIAL" EDNS option for the SOA serial of a RR's zone</title>
+
+<author initials='H' surname='Salgado' fullname='Hugo Salgado'>
+    <organization />
+</author>
+
+<date month='July' day='30' year='2019' />
+
+<abstract><t>The "RRSERIAL" EDNS option allows a DNS querier to ask a DNS authoritative server to add a EDNS option in the answer of such query with the SOA serial number field of the origin zone which contains the answered resource record.  This "RRSERIAL" data allows to debug problems and diagnosis by helping to recognize the origin of an answer, associating this answer with a respective zone version.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-salgado-rrserial-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-salgado-rrserial-00.txt' />
+</reference>

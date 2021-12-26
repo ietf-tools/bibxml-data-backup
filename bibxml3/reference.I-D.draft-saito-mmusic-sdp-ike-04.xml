@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.saito-mmusic-sdp-ike'>
+<front>
+<title>Media Description for IKE in the Session Description Protocol (SDP)</title>
+
+<author initials='M' surname='Saito' fullname='Makoto  Saito'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2009' />
+
+<abstract><t>This document extends the protocol identifier of SDP so that it could negotiate the use of IKE for media session in SDP offer/answer model. And it also specifies the method to boot up IKE and generate IPsec SA using self-signed certificate under the mechanism of comedia-tls. This document extends RFC 4572.  In addition, it defines a new attribute "udp-setup", which is similar to "setup" attribute defined in RFC 4145, to enable endpoints to negotiate their roles in the IKE session.  Considering the case that pre-shared keys can be used for authentication in IKE, a new attribute "psk-fingerprint" is also defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-saito-mmusic-sdp-ike-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-saito-mmusic-sdp-ike-04.txt' />
+</reference>

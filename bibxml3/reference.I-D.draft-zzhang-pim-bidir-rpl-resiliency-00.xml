@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zzhang-pim-bidir-rpl-resiliency'>
+<front>
+<title>PIM-Bidir RPL Resiliency</title>
+
+<author initials='J' surname='Zhang' fullname='Jeffrey Zhang'>
+    <organization />
+</author>
+
+<author initials='K' surname='Windisch' fullname='Kurt Windisch'>
+    <organization />
+</author>
+
+<author initials='J' surname='Gralak' fullname='Jaroslaw Gralak'>
+    <organization />
+</author>
+
+<date month='October' day='16' year='2013' />
+
+<abstract><t>With PIM-Bidir, the RPA does not have to be associated with a router. Rather, it only needs to be a routable address on a RPL (typically a multi-access network).  Such a scenario is commonly referred as Phantom RPA.  This achieves RP resiliency to some extent, because the "RP" will not fail.  However, if the RPL itself partitions, traffic converged to one partition will not be able to reach other parts of the network where joins converge to the other partitions of the RPL.  This document proposes simple procedures, which does not require signaling extensions, to achieve RPL resiliency.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zzhang-pim-bidir-rpl-resiliency-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zzhang-pim-bidir-rpl-resiliency-00.txt' />
+</reference>

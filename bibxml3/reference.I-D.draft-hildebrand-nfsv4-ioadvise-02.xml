@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hildebrand-nfsv4-ioadvise'>
+<front>
+<title>Support for Application IO Hints</title>
+
+<author initials='D' surname='Hildebrand' fullname='Dean Hildebrand'>
+    <organization />
+</author>
+
+<author initials='M' surname='Eisler' fullname='Mike Eisler'>
+    <organization />
+</author>
+
+<author initials='T' surname='Myklebust' fullname='Trond Myklebust'>
+    <organization />
+</author>
+
+<author initials='S' surname='Falkner' fullname='Sam Falkner'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2011' />
+
+<abstract><t>This document proposes a new IO_ADVISE operation for NFSv4.2 that clients can use to communicate expected I/O behavior to the server. By communicating future I/O behavior such as whether a file will be accessed sequentially or randomly, and whether a file will or will not be accessed in the near future, servers can optimize future I/O requests for a file by, for example, prefetching or evicting data. This operation can be used to support the posix_fadvise function as well as other applications such as databases and video editors.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hildebrand-nfsv4-ioadvise-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hildebrand-nfsv4-ioadvise-02.txt' />
+</reference>

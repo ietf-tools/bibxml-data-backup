@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoehrmann-date-parsing'>
+<front>
+<title>Parsing malformed HTTP dates</title>
+
+<author initials='B' surname='Hoehrmann' fullname='Bjoern Hoehrmann'>
+    <organization />
+</author>
+
+<date month='September' day='20' year='2010' />
+
+<abstract><t>The HTTP/1.1 specification encourages recipients of date values, as found in HTTP headers like Date and Last-Modified, to be robust in accepting date values that may have been sent by non-HTTP software. This memo defines an error-tolerant parsing algorithm based on the date formats permitted by the HTTP specification for this purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoehrmann-date-parsing-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoehrmann-date-parsing-01.txt' />
+</reference>

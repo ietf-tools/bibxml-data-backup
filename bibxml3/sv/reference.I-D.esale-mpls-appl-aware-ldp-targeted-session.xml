@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.esale-mpls-appl-aware-ldp-targeted-session'>
+<front>
+<title>Applications aware LDP Targeted Session</title>
+
+<author initials='S' surname='Esale' fullname='Santosh Esale'>
+    <organization />
+</author>
+
+<author initials='R' surname='Torvi' fullname='Raveendra Torvi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<date month='April' day='2' year='2014' />
+
+<abstract><t>Recent Targeted LDP applications such as Remote LFA and BGP auto discovery FEC 129 pseudowire may automatically establish a targeted LDP session to any LSR in the core network. The sender LSR has information about the targeted applications to administratively control initiation of the session. However the receiver LSR has no such information to control the acceptance of this session. This document defines a mechanism to advertise Targeted Application Capability during session initialization. As the receiver LSR becomes aware of targeted LDP applications, it may establish a limited number of sessions for certain applications. In addition, each targeted application is mapped to LDP FEC Elements to advertise only necessary LDP FEC label bindings over the session.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-esale-mpls-appl-aware-ldp-targeted-session-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-esale-mpls-appl-aware-ldp-targeted-session-00.txt' />
+</reference>

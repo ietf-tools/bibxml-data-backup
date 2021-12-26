@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-grow-ops-reqs-for-bgp-error-handling'>
+<front>
+<title>Operational Requirements for Enhanced Error Handling Behaviour in BGP-4</title>
+
+<author initials='R' surname='Shakir' fullname='Rob Shakir'>
+    <organization />
+</author>
+
+<date month='December' day='27' year='2012' />
+
+<abstract><t>BGP is utilised as a key intra- and inter-autonomous system routing protocol in modern IP networks.  The failure modes, as defined by the original protocol standards, are based on a number of assumptions around the impact of session failure.  Numerous incidents both in the global Internet routing table and within service provider networks have been caused by strict handling of a single invalid UPDATE message causing large-scale failures in one or more autonomous systems.  This memo describes the current use of BGP within service provider networks, and outlines a set of requirements for further work to enhance the mechanisms available to a BGP implementation when erroneous data is detected.  Whilst this document does not provide specification of any standard, it is intended as an overview of a set of enhancements to BGP to improve the protocol's robustness to suit its current deployment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-grow-ops-reqs-for-bgp-error-handling-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-grow-ops-reqs-for-bgp-error-handling-06.txt' />
+</reference>

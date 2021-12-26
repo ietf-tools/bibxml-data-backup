@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pluta-ldap-srv-side-current-time-match'>
+<front>
+<title>Lightweight Directory Access Protocol (LDAP): Server Side Current Time Matching - Matching Rules and Syntaxes</title>
+
+<author initials='D' surname='Pluta' fullname='Daniel Pluta'>
+    <organization />
+</author>
+
+<author initials='W' surname='Hommel' fullname='Wolfgang Hommel'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2010' />
+
+<abstract><t>This document extends the Lightweight Directory Access Protocol (LDAP) to support server side current time matching.  Matching of attribute values against an LDAP server's current time offers additional functionality with regard to authorization and fulfills enhanced data privacy requirements for restrictive environments. Therefore this specification defines four additional syntaxes and related matching rules useful for extensible matching in association with these syntaxes.  In addition and for general use the matching rules defined in this document are also applicable to any attribute type definitions that are using the 'Generalized Time' syntax.  This specification also contains restrictive attribute type definitions demonstrating the usage of the introduced syntaxes and matching rules.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pluta-ldap-srv-side-current-time-match-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pluta-ldap-srv-side-current-time-match-00.txt' />
+</reference>

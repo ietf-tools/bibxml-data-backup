@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.groth-dns-encryption'>
+<front>
+<title>DNS Encryption</title>
+
+<author initials='D' surname='Groth' fullname='Duane Groth'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2008' />
+
+<abstract><t>This document requests IANA registration of a new DNS OpCode and ErrorCode type in facilitating encryption of DNS requests and replies and feed back to the client if plain text requests are not acceptable. Once this OpCode is seen the DNS server attempts to decrypt the request using it's private OpenPGP key. Inside the encrypted packet will be an AES key which the client expects to be used when the server encrypts a response. A server can advertise that it is capable of DNS encryption by advertising OpenPGP pubic keys as CERT records against the host names of any NS records.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-groth-dns-encryption-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-groth-dns-encryption-00.txt' />
+</reference>

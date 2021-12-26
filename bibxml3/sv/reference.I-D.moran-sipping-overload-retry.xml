@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moran-sipping-overload-retry'>
+<front>
+<title>Determining When to Discard or Retry a SIP Request During Overload</title>
+
+<author initials='T' surname='Moran' fullname='Timothy  Moran'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2008' />
+
+<abstract><t>SIP servers can become overload and unable to handle all SIP messages they receive.  Even though the SIP protocol provides a limited overload control mechanism through its 503 (Service Unavailable) response code, SIP servers are still vulnerable to overload.  This document proposes an architecture for determining when a client should throttle the sending of SIP requests vs. retrying them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moran-sipping-overload-retry-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moran-sipping-overload-retry-00.txt' />
+</reference>

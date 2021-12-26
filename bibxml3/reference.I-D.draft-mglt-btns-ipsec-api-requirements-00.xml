@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-btns-ipsec-api-requirements'>
+<front>
+<title>IPSEC_API requirements</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2009' />
+
+<abstract><t>IPsec suite has been designed to secure communication between two nodes.  Security is performed at the network layer, and there are almost no interactions between applications and the IPsec layer.  The main motivation of this API is to enable any applications to interact with the IPsec layer and to take advantage of the security deployed in IPsec suite.  This draft lists applications requirements with regard to the IPsec suite, and we tried not to limit the requirements to today's application requirements, but also to consider future applications' requirements.  Applications are associated to different privileges, and IPsec layer MUST be protected from nasty IPsec manipulations.  This draft is not considering applications privileges management.  This draft lists any possible requirements on the IPsec layer an application might require.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-btns-ipsec-api-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-btns-ipsec-api-requirements-00.txt' />
+</reference>

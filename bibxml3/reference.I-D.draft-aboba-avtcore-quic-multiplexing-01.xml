@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.aboba-avtcore-quic-multiplexing'>
+<front>
+<title>QUIC Multiplexing</title>
+
+<author initials='B' surname='Aboba' fullname='Bernard Aboba'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thatcher' fullname='Peter Thatcher'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Colin Perkins'>
+    <organization />
+</author>
+
+<date month='October' day='29' year='2017' />
+
+<abstract><t>If QUIC is to be used in a peer-to-peer manner, with NAT traversal, then it is necessary to be able to demultiplex QUIC and STUN flows running on a single UDP port.  This memo discusses options for how to perform such demultiplexing.  It also considers demultiplexing of QUIC and WebRTC traffic (both media and data) when running on a single UDP port.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-aboba-avtcore-quic-multiplexing-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-aboba-avtcore-quic-multiplexing-01.txt' />
+</reference>

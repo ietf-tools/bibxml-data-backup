@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-trill-vlan-extension'>
+<front>
+<title>To Address the Space Limitation of Inner VLAN</title>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<date month='May' day='31' year='2011' />
+
+<abstract><t>TRILL is originally designed for customer networks. When it is used as a provider network to interconnect multiple separate users, the space of current Inner VLAN becomes insufficient. As an easy way, we can introduce a new VLAN ID field to TRILL header. The new VLAN ID can be use in conjunction with the native Inner VLAN, which is usually known as stacked VLANs(or Q-in-Q). The stacked VLANs mechanism is analyzed in this document. In addition, a novel MAC address rewriting mechanism is also brought forward to break the space limitation of the Inner VLAN. The MAC addresses of the native frame are not used for forwarding process in transit RBridges. When the packet enters the TRILL network, the ingress RBridge (Appointed Forwarder) uses a Virtual MAC (VMAC) address to replace the real MAC and embedded the native VLAN ID into this virtual MAC address. When a packet egresses from the TRILL network, the egress RBridge will use the real MAC address to replace the virtual MAC address and deliver it to the destination on the local link.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-trill-vlan-extension-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-trill-vlan-extension-00.txt' />
+</reference>

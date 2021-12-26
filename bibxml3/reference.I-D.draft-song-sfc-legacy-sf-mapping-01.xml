@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-sfc-legacy-sf-mapping'>
+<front>
+<title>SFC Header Mapping for Legacy SF</title>
+
+<author initials='H' surname='Song' fullname='Haibin Song'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Jiang' fullname='Yuanlong Jiang'>
+    <organization />
+</author>
+
+<date month='April' day='16' year='2014' />
+
+<abstract><t>SFC (Service Function Chaining) is used to manipulate service functions with easy creation, updating and deletion.  A service function chain goes through a list of ordered service function instances.  One assumption of this document is that legacy service function instances can participate in the service chain.  They are not aware of the SFC header, nor interpret it.  This document provides a mechanism between a Service Forwarding Entity (SFE) and a Service Function Instance (SFI), to identify the SFC header associated with a packet that is returned from an SFI, without SFC header being explicitly carried in the wired protocol between SFE and SFI.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-sfc-legacy-sf-mapping-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-sfc-legacy-sf-mapping-01.txt' />
+</reference>

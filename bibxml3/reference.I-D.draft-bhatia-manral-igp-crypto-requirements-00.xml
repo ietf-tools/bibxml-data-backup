@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bhatia-manral-igp-crypto-requirements'>
+<front>
+<title>Cryptographic Algorithm Implementation Requirements for Routing Protocols</title>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2008' />
+
+<abstract><t>The interior gateway routing protocols OSPFv2 [RFC2328], IS-IS [ISO] [RFC1195] and RIP [RFC2453] currently define clear text and MD5 [RFC1321] algorithms for authenticating their protocol packets. There have recently been documents adding support of the SHA family of hash algorithms for authenticating routing protocol packets for RIP, IS-IS and OSPF.  To ensure interoperability between disparate implementations, it is imperative that we specify a set of mandatory-to-implement algorithms thereby ensuring that there is at least one algorithm that all implementations will have available. This document defines the current set of mandatory-to-implement algorithms to be used for the cryptographic authentication of these routing protocols as well as specifying the algorithms that should be implemented because they may be promoted to mandatory at some future time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bhatia-manral-igp-crypto-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bhatia-manral-igp-crypto-requirements-00.txt' />
+</reference>

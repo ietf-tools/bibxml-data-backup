@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bryan-ftp-hash'>
+<front>
+<title>File Transfer Protocol HASH Command for Cryptographic Hashes</title>
+
+<author initials='A' surname='Bryan' fullname='Anthony Bryan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kosse' fullname='Tim Kosse'>
+    <organization />
+</author>
+
+<author initials='D' surname='Stenberg' fullname='Daniel Stenberg'>
+    <organization />
+</author>
+
+<date month='August' day='5' year='2010' />
+
+<abstract><t>The File Transfer Protocol does not offer any method to verify the integrity of a transferred file, nor can two files be compared against each other without actually transferring them first. Cryptographic hashes are a possible solution to this problem.  In the past, several attempts have been made to add commands to obtain checksums and hashes, however none have been formally specified, leading to non-interoperability and confusion.  To solve these issues, this document specifies a new FTP command to be used by clients to request cryptographic hashes of files.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bryan-ftp-hash-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bryan-ftp-hash-07.txt' />
+</reference>

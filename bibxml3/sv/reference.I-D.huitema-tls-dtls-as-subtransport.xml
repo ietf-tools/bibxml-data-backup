@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huitema-tls-dtls-as-subtransport'>
+<front>
+<title>DTLS as Subtransport protocol</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jana' fullname='Jana'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2015' />
+
+<abstract><t>The developers of "user level" transports will benefit from a standard implementation of authentication and encryption.  This can be achieved using DTLS as a sub-transport.  Using DTLS enables developers to benefit from the investment in TLS, and removes the burden and the risks of re-creating similar technology.  There are several requirements to ensure that DTLS is a suitable sub- transport: zero RTT setup, low overhead, and DOS prevention.  The IAB SEMI workshop outlined other potential requirements: start/stop indication, and ability to accept indications from the network.  The draft presents guidelines for meeting these requirements in a new version of DTLS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-huitema-tls-dtls-as-subtransport-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-huitema-tls-dtls-as-subtransport-00.txt' />
+</reference>

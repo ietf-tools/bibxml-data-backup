@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ohara-ospf-lsdb-monitoring-consideration'>
+<front>
+<title>Consideration on OSPF LSDB Monitoring</title>
+
+<author initials='Y' surname='Ohara' fullname='Yasuhiro Ohara'>
+    <organization />
+</author>
+
+<author initials='A' surname='Kato' fullname='Akira Kato'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2011' />
+
+<abstract><t>Many people believe that any LSA once flooded throughout the OSPF area can be monitored on all OSPF routers in the area.  This is not always true, and a malicious OSPF router that pretends to be legal may want to, and be able to, hide malicious LSAs.  This document proposes the modifications to OSPF specification to prevent hiding the malicious LSAs, and to make LSDB monitoring more successful (hence, secure).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ohara-ospf-lsdb-monitoring-consideration-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ohara-ospf-lsdb-monitoring-consideration-01.txt' />
+</reference>

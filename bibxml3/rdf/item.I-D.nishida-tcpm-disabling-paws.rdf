@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-nishida-tcpm-disabling-paws-00.txt'>
+    <title>"Disabling PAWS When Other Protections Are Available", Yoshifumi Nishida</title>
+    <link>http://www.ietf.org/internet-drafts/draft-nishida-tcpm-disabling-paws-00.txt</link>
+    <description>PAWS provides protection against old duplicated segments caused by wrapped sequence or earlier incarnated connections.  One drawback of PAWS is that it requires to place timestamp option in all segments, which consumes 10-12 bytes in the option space of TCP.  In addition, since PAWS just checks if timestamps is older or not, the protection logic is not very strong against malicious attacks or cannot work properly in some situations.  On the other hand, some other technologies which can provide stronger protections than PAWS are becoming available these days.  In this document, we propose to utilize other protection mechanisms as replacements of PAWS when they are available.</description>
+    <dc:date>2018-06-20T07:00:00-00:00</dc:date>
+</item>

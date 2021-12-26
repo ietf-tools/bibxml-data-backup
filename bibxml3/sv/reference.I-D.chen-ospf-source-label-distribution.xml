@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-ospf-source-label-distribution'>
+<front>
+<title>Extensions to OSPF for Source Label Distribution</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='G' surname='Mirsky' fullname='Greg Mirsky'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2014' />
+
+<abstract><t>An MPLS Source Label (SL) is defined to identify a node that is (one of) the ingress LSRs to a specific LSP.  This document defines extensions to OSPF protocol for distribution of the mapping of an MPLS Source Label to an specific LSR.  Therefore, the egress and intermediate LSRs can determine from which LSR an MPLS packet is sent.  This document also defines OSPF extensions to advertise the Source Label Capability (SLC) of each LSR that indicates whether an LSR can process the Source Label.  With the SLC, an ingress LSR can determine whether it is allowed to insert a Source Label into the label stack for a specific LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-ospf-source-label-distribution-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-ospf-source-label-distribution-00.txt' />
+</reference>

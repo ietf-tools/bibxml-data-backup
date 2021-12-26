@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5510' target='https://www.rfc-editor.org/info/rfc5510'>
+<front>
+<title>Reed-Solomon Forward Error Correction (FEC) Schemes</title>
+<author initials='J.' surname='Lacan' fullname='J. Lacan'><organization /></author>
+<author initials='V.' surname='Roca' fullname='V. Roca'><organization /></author>
+<author initials='J.' surname='Peltotalo' fullname='J. Peltotalo'><organization /></author>
+<author initials='S.' surname='Peltotalo' fullname='S. Peltotalo'><organization /></author>
+<date year='2009' month='April' />
+<abstract><t>This document describes a Fully-Specified Forward Error Correction (FEC) Scheme for the Reed-Solomon FEC codes over GF(2^^m), where m is in {2..16}, and its application to the reliable delivery of data objects on the packet erasure channel (i.e., a communication path where packets are either received without any corruption or discarded during transmission).  This document also describes a Fully-Specified FEC Scheme for the special case of Reed-Solomon codes over GF(2^^8) when there is no encoding symbol group.  Finally, in the context of the Under-Specified Small Block Systematic FEC Scheme (FEC Encoding ID 129), this document assigns an FEC Instance ID to the special case of Reed-Solomon codes over GF(2^^8).</t><t>Reed-Solomon codes belong to the class of Maximum Distance Separable (MDS) codes, i.e., they enable a receiver to recover the k source symbols from any set of k received symbols.  The schemes described here are compatible with the implementation from Luigi Rizzo.   [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5510'/>
+<seriesInfo name='DOI' value='10.17487/RFC5510'/>
+</reference>

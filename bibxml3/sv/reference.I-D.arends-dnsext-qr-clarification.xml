@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.arends-dnsext-qr-clarification'>
+<front>
+<title>DNS Response clarification.</title>
+
+<author initials='R' surname='Arends' fullname='Roy Arends'>
+    <organization />
+</author>
+
+<date month='October' day='14' year='2004' />
+
+<abstract><t>This document clarifies DNS response message interpretation to avoid denial of service attacks using DNS responses. In a recent DNS software assessment it has come to light that some implementations respond to DNS response messages. A loop occurs if the receiver of this response responds with a response. It was never explicitly stated that response messages must not be answered. This draft makes the statement explicit.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-arends-dnsext-qr-clarification-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-arends-dnsext-qr-clarification-00.txt' />
+</reference>

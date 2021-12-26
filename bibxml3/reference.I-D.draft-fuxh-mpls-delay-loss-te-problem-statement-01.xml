@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fuxh-mpls-delay-loss-te-problem-statement'>
+<front>
+<title>Delay and Loss Traffic Engineering Problem Statement for MPLS</title>
+
+<author initials='Q' surname='Wang' fullname='Qilei Wang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Giacalone' fullname='Spencer Giacalone'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<author initials='X' surname='Fu' fullname='Xihua Fu'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<author initials='D' surname='McDysan' fullname='Dave McDysan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Malis' fullname='Andrew Malis'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>Deployment and usage of cloud based applications and services that use an underlying MPLS network are expanding and an increasing number of applications are extremely sensitive to delay and packet loss. Furthermore, in cloud computing an additional decision problem arises of simultaneously choosing the data center to host applications along with MPLS network connectivity such that the overall performance of the application is met. Mechanisms exist to measure and monitor MPLS path performance parameters for packet loss and delay, but the mechanisms work only after the path has been setup. The cloud-based and performance sensitive applications would benefit from measurement of MPLS network and potential path information that would be provided for use in the computation before LSP setup and then the selection of LSPs.  This document provides a statement of problems faced by these cloud based and performance sensitive applications and describes requirements to enable the efficient and accurate measurement of the MPLS network. This also allows new performance parameters to be reported and used in the computation of MPLS services in support of these cloud based and performance sensitive applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fuxh-mpls-delay-loss-te-problem-statement-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fuxh-mpls-delay-loss-te-problem-statement-01.txt' />
+</reference>

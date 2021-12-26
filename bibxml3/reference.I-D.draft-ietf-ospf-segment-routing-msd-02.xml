@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-segment-routing-msd'>
+<front>
+<title>Signaling MSD (Maximum SID Depth) using OSPF</title>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='S' surname='Aldrin' fullname='Sam Aldrin'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2017' />
+
+<abstract><t>This document proposes a way to signal Maximum SID Depth (MSD) supported by a node at node and/or link granularity by an OSPF Router.  In a Segment Routing (SR) enabled network a centralized controller that programs SR tunnels needs to know the MSD supported by the head-end at node and/or link granularity to push the SID stack of an appropriate depth.  MSD is relevant to the head-end of a SR tunnel or Binding-SID anchor node where Binding-SID expansions might result in creation of a new SID stack.  Here the term OSPF means both OSPFv2 and OSPFv3.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-segment-routing-msd-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-segment-routing-msd-02.txt' />
+</reference>

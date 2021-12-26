@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.enhanced-xml-digital-signature-algorithm'>
+<front>
+<title>Enhanced XML Digital Signature Algorithm to Mitigate Wrapping Attacks</title>
+
+<author initials='J' surname='Kumar' fullname='Jitendra Kumar'>
+    <organization />
+</author>
+
+<author initials='B' surname='Rajendran' fullname='Balaji Rajendran'>
+    <organization />
+</author>
+
+<author initials='B' surname='BS' fullname='Bindhumadhava BS'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2019' />
+
+<abstract><t>XML signature standard as described in [RFC3275] and defined by IETF/ W3C references or identifies signed elements by their unique identities in the given XML document.  Hence, signed XML elements can be shifted from one location to another location in a XML document,and still, it does not have any effect on its ability to verify its signature.  This flexibility paves the way for an attacker to tweak original XML message without getting noticed by the receiver.  This document proposes to use absolute XPath as an "Positional Token" and modifies existing XML Digital Signature algorithm to overcome the XML Signature wrapping/rewriting attacks on XML ignatures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-enhanced-xml-digital-signature-algorithm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-enhanced-xml-digital-signature-algorithm-00.txt' />
+</reference>

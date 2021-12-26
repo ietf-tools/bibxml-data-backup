@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vesely-dmarc-mlm-transform'>
+<front>
+<title>Mailing List Manager (MLM) Transformations</title>
+
+<author initials='A' surname='Vesely' fullname='Alessandro Vesely'>
+    <organization />
+</author>
+
+<date month='November' day='16' year='2020' />
+
+<abstract><t>The widespread adoption of Domain-based Message Authentication, Reporting, and Conformance (DMARC) led Mailing List Managers (MLM) to rewrite the From: header field as a workaround.  This document describes cases where it is possible to revert MLM transformations and hence verify DomainKeys Identified Mail (DKIM) signatures that were applied at submission time.  For reliable results, some compliance is required of all agents involved, author domain signers, MLMs, forwarders, and final recipients.  MLM transformation reversion reduces the DMARC's effects on indirect mail flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vesely-dmarc-mlm-transform-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vesely-dmarc-mlm-transform-00.txt' />
+</reference>

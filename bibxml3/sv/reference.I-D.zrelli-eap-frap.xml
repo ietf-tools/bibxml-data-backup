@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zrelli-eap-frap'>
+<front>
+<title>EAP Fast Re-Authentication Protocol (EAP-FRAP)</title>
+
+<author initials='S' surname='Zrelli' fullname='Saber Zrelli'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Shinoda' fullname='Yoichi  Shinoda'>
+    <organization />
+</author>
+
+<date month='June' day='3' year='2008' />
+
+<abstract><t>This document specifies an extension to the AAA/EAP authentication and key management framework that allows an EAP peer to perform fast re-authentications with the local EAP server after an initial full EAP authentication using a legacy EAP method with the same or another EAP server.  EAP-FRAP eliminates the need for exchanges between the local EAP server and the home EAP server each time the EAP peers is authenticated.  In wireless networks, this allows the mobile device to reduce hand-off delays.  The EAP-FRAP extension does not require changes in underlying layer protocols.  Which makes is back-ward compatible with existing infrastructures and easily deployable with minimal costs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zrelli-eap-frap-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zrelli-eap-frap-04.txt' />
+</reference>

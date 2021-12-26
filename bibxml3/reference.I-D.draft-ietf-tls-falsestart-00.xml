@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-falsestart'>
+<front>
+<title>Transport Layer Security (TLS) False Start</title>
+
+<author initials='A' surname='Langley' fullname='Adam Langley'>
+    <organization />
+</author>
+
+<author initials='N' surname='Modadugu' fullname='Nagendra Modadugu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Moeller' fullname='Bodo Moeller'>
+    <organization />
+</author>
+
+<date month='May' day='7' year='2015' />
+
+<abstract><t>This document specifies an optional behavior of TLS implementations, dubbed False Start.  It affects only protocol timing, not on-the-wire protocol data, and can be implemented unilaterally.  The TLS False Start feature leads to a latency reduction of one round trip for certain handshakes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-falsestart-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-falsestart-00.txt' />
+</reference>

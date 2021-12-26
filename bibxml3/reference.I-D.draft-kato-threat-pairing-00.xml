@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kato-threat-pairing'>
+<front>
+<title>The threat of Pairing based cryptographic protocols.</title>
+
+<author initials='A' surname='Kato' fullname='Akihiro Kato'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kobayashi' fullname='Tetsutaro Kobayashi'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kawahara' fullname='Yuto Kawahara'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kim' fullname='Teachan Kim'>
+    <organization />
+</author>
+
+<author initials='T' surname='Saito' fullname='Tsunekazu Saito'>
+    <organization />
+</author>
+
+<date month='March' day='18' year='2018' />
+
+<abstract><t>Pairing is a special map from two elliptic curves that called Pairing-friendly curves to a finite field and is useful mathematical tools for constructing cryptographic primitives.  At CRYPTO 2016, Kim and Barbulescu proposed an efficient number field sieve algorithm for the discrete logarithm problem in a finite field. The security of pairing-based cryptography is based on the difficulty in solving the DLP.  Hence, it has become necessary to shift the parameters that the DLP is computationally infeasible against the efficient number field sieve algorithms.  This memo introduce Optimal Ate Pairing and two pairing-friendly curves with parameters of pairing against efficient number field sieve algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kato-threat-pairing-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kato-threat-pairing-00.txt' />
+</reference>

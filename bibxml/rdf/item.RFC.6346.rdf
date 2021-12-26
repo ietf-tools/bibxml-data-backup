@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc6346.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc6346.txt</link>
+        <title>RFC 6346: The Address plus Port (A+P) Approach to the IPv4 Address Shortage, R. Bush</title>
+        <dc:date>2011-08-01T23:00:00-00:00</dc:date>
+        <description>This document proposes an IPv4 address sharing scheme, treating some of the port number bits as part of an extended IPv4 address (Address plus Port, or A+P).  Instead of assigning a single IPv4 address to a single customer device, we propose to extend the address field by using bits from the port number range in the TCP/UDP header as additional endpoint identifiers, thus leaving a reduced range of ports available to applications.  This means assigning the same IPv4 address to multiple clients (e.g., Customer Premises Equipment (CPE), mobile phones), each with its assigned port range.  In the face of IPv4 address exhaustion, the need for addresses is stronger than the need to be able to address thousands of applications on a single host.  If address translation is needed, the end-user should be in control of the translation process -- not some smart boxes in the core.  This document defines an Experimental Protocol for the Internet community. </description>
+    </item>
+

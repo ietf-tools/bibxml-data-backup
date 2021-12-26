@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-conex-re-ecn-tcp'>
+<front>
+<title>Re-ECN: Adding Accountability for Causing Congestion to TCP/IP</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='A' surname='Jacquet' fullname='Arnaud Jacquet'>
+    <organization />
+</author>
+
+<author initials='T' surname='Moncaster' fullname='Toby Moncaster'>
+    <organization />
+</author>
+
+<author initials='A' surname='Smith' fullname='Alan Smith'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2012' />
+
+<abstract><t>This document introduces re-ECN (re-inserted explicit congestion notification), which is intended to make a simple but far-reaching change to the Internet architecture.  The sender uses the IP header to reveal the congestion that it expects on the end-to-end path.  The protocol works by arranging an extended ECN field in each packet so that, as it crosses any interface in an internetwork, it will carry a truthful prediction of congestion on the remainder of its path.  It can be deployed incrementally around unmodified routers.  The purpose of this document is to specify the re-ECN protocol at the IP layer and to give guidelines on any consequent changes required to transport protocols.  It includes the changes required to TCP both as an example and as a specification.  It briefly gives examples of mechanisms that can use the protocol to ensure data sources respond sufficiently to congestion, but these are described more fully in a companion document.  Note concerning Intended Status: If this draft were ever published as an RFC it would probably have historic status.  There is limited space in the IP header, so re-ECN had to compromise by requiring the receiver to be ECN-enabled otherwise the sender could not use re-ECN. Re-ECN was a precursor to chartering of the IETF's Congestion Exposure (ConEx) working group, but during chartering there were still too few ECN receivers enabled, therefore it was decided to pursue other compromises in order to fit a similar capability into the IP header.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-conex-re-ecn-tcp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-conex-re-ecn-tcp-01.txt' />
+</reference>

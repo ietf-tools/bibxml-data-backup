@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jholland-cb-assisted-cc'>
+<front>
+<title>Circuit Breaker Assisted Congestion Control (CBACC): Protocol Specification</title>
+
+<author initials='J' surname='Holland' fullname='Jake Holland'>
+    <organization />
+</author>
+
+<date month='April' day='23' year='2017' />
+
+<abstract><t>This document specifies Circuit Breaker Assisted Congestion Control (CBACC), which provides bandwidth information from senders to intermediate network nodes to enable good decisions for fast-trip Network Transport Circuit Breaker activity ([I-D.ietf-tsvwg-circuit-breaker]) when necessary for network health. CBACC is specifically designed to support protocols using IP multicast, particularly as a supplement to receiver-driven congestion control protocols to help affected networks rapidly detect and mitigate the impact of scenarios in which a network is oversubscribed to flows which are not responsive to congestion.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jholland-cb-assisted-cc-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jholland-cb-assisted-cc-01.txt' />
+</reference>

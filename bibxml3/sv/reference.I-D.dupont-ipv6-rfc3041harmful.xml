@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dupont-ipv6-rfc3041harmful'>
+<front>
+<title>RFC 3041 Considered Harmful</title>
+
+<author initials='F' surname='Dupont' fullname='Francis Dupont'>
+    <organization />
+</author>
+
+<author initials='P' surname='Savola' fullname='Pekka Savola'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2004' />
+
+<abstract><t>The purpose of the privacy extensions for stateless address autoconfiguration [1] is to change the interface identifier (and the global-scope addresses generated from it) over time in order to make it more difficult for eavesdroppers and other information collectors to identify when different addresses used in different transactions actually correspond to the same node. Current Distributed Denial of Service (DDoS) [2] attacks employ forged source addresses which can also be in the same prefixes than the real addresses of the compromised nodes used for attacks. Indeed, network ingress filtering defeats DDoS using 'random' forged source addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dupont-ipv6-rfc3041harmful-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dupont-ipv6-rfc3041harmful-05.txt' />
+</reference>

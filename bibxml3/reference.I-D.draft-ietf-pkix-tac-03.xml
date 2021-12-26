@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pkix-tac'>
+<front>
+<title>Traceable Anonymous Certificate</title>
+
+<author initials='S' surname='Park' fullname='Sanghwan Park'>
+    <organization />
+</author>
+
+<author initials='H' surname='Park' fullname='Haeryong Park'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Won' fullname='Yoojae Won'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lee' fullname='Jaeil Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kent' fullname='Stephen Kent'>
+    <organization />
+</author>
+
+<date month='March' day='31' year='2009' />
+
+<abstract><t>Public Key Infrastructure (PKI) provides a powerful means of authenticating individuals, organizations, and computers(e.g., web servers). However, when individuals use certificates to access resources on the public Internet, there are legitimate concerns about personal privacy, and thus there are increasing demands for privacy enhancing techniques on the Internet.  In a PKI, an authorized entity such as a certification Authority (CA) or a Registration Authority (RA) may be perceived, from a privacy perspective, as a "big brother," even when a CA issues a certificate containing a Subject name that is a pseudonym. This is because such entities can always map a pseudonym in a certificate they issued to the name of the real user to whom it was issued. This document defines a practical architecture and protocols for offering privacy for a user who requests and uses an X.509 certificate containing a pseudonym, while still retaining the ability to map such a certificate to the real user who requested it. The architecture is compatible with IETF certificate request formats such as PKCS10 [3]and CMC[4]. The architecture separates the authorities involved in issuing a certificate: one for verifying ownership of a private key (Blind Issuer) and the other for validating the contents of a certificate (Anonymous Issuer). The end-entity(EE) certificates issued under this model are called Traceable Anonymous Certificates (TACs).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pkix-tac-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pkix-tac-03.txt' />
+</reference>

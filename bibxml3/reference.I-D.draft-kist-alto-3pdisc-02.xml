@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kist-alto-3pdisc'>
+<front>
+<title>Third-Party ALTO Server Discovery (3pdisc)</title>
+
+<author initials='S' surname='Kiesel' fullname='Sebastian Kiesel'>
+    <organization />
+</author>
+
+<author initials='K' surname='Krause' fullname='Kilian Krause'>
+    <organization />
+</author>
+
+<author initials='M' surname='Stiemerling' fullname='Martin Stiemerling'>
+    <organization />
+</author>
+
+<date month='February' day='11' year='2013' />
+
+<abstract><t>The goal of Application-Layer Traffic Optimization (ALTO) is to provide guidance to applications that have to select one or several hosts from a set of candidates capable of providing a desired resource.  ALTO is realized by a client-server protocol.  Before an ALTO client can ask for guidance it needs to discover one or more ALTO servers that can provide suitable guidance.  This document specifies a procedure for third-party ALTO server discovery, which can be used if the ALTO client is not co-located with the actual resource consumer, but instead embedded in a third party such as a peer-to-peer tracker.  This algorithm takes a resource consumer's IP address as argument, performs several DNS lookups (for PTR, SOA, and U-NAPTR resource records), and produces URIs of ALTO servers that are able to give reasonable ALTO guidance to a resource consumer willing to communicate using this IP address.  Starting with draft-kist-alto-3pdisc-02 the algorithm has significantly changed compared to previous versions of this document, including draft-kiesel-alto-3pdisc-* and draft-ietf-alto-server-discovery-*.  The new algorithm does not try "DNS tree climbing" and it does not neccessarily rely on PTR records, i.e., it can also produce results if no PTR records are populated in the DNS, for example when IPv6 privacy exensions are in use.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kist-alto-3pdisc-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kist-alto-3pdisc-02.txt' />
+</reference>

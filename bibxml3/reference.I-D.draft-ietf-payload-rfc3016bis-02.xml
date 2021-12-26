@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-payload-rfc3016bis'>
+<front>
+<title>RTP Payload Format for MPEG-4 Audio/Visual Streams</title>
+
+<author initials='M' surname='Schmidt' fullname='Malte Schmidt'>
+    <organization />
+</author>
+
+<author initials='F' surname='Bont' fullname='Frans Bont'>
+    <organization />
+</author>
+
+<author initials='S' surname='Doehla' fullname='Stefan Doehla'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kim' fullname='Jaehwan Kim'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2011' />
+
+<abstract><t>This document describes Real-Time Transport Protocol (RTP) payload formats for carrying each of MPEG-4 Audio and MPEG-4 Visual bitstreams without using MPEG-4 Systems.  For the purpose of directly mapping MPEG-4 Audio/Visual bitstreams onto RTP packets, it provides specifications for the use of RTP header fields and also specifies fragmentation rules.  It also provides specifications for Media Type registration and the use of Session Description Protocol (SDP).  The audio payload format described in this document has some limitations related to the signaling of audio codec parameters for the required multiplexing format.  Therefore, for new system designs RFC 3640 is preferred, which does not have these restrictions.  This document obsoletes RFC 3016.  A revision of RFC 3016 was required because of some misalignments between RFC 3016 and the 3GPP PSS specification regarding the RTP payload format for MPEG-4 Audio. Changes from RFC 3016 are summarized in Section 11.  Issues on backward compatibility to RFC 3016 are discussed in Section 1.3.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-payload-rfc3016bis-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-payload-rfc3016bis-02.txt' />
+</reference>

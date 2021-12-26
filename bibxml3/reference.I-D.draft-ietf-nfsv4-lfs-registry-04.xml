@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nfsv4-lfs-registry'>
+<front>
+<title>Registry Specification for Mandatory Access Control (MAC) Security Label Formats</title>
+
+<author initials='D' surname='Quigley' fullname='David Quigley'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lu' fullname='Jarrett Lu'>
+    <organization />
+</author>
+
+<author initials='T' surname='Haynes' fullname='Tom Haynes'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2015' />
+
+<abstract><t>In the past Mandatory Access Control (MAC) systems have used very rigid policies which were implemented in particular protocols and platforms.  As MAC systems became more widely deployed, additional flexibility in mechanism and policy will be required.  While traditional trusted systems implemented Multi-Level Security (MLS) and integrity models, modern systems have expanded to include technologies such as type enforcement.  Due to the wide range of policies and mechanisms which need to be accommodated, it is unlikely that use of a single security label format and model will be viable.  To allow multiple MAC mechanisms and label formats to co-exist in a network, this document proposes a registry of label format specifications.  This registry would contain label format identifiers and would provide for the association of each such identifier with a corresponding extensive document document outlining the exact syntax and use of the particular label format.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nfsv4-lfs-registry-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nfsv4-lfs-registry-04.txt' />
+</reference>

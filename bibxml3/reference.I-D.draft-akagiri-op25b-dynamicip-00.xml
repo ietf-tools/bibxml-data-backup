@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.akagiri-op25b-dynamicip'>
+<front>
+<title>Outbound Port 25 Blocking for Dynamic IP Addresses</title>
+
+<author initials='T' surname='Akagiri' fullname='Takehito Akagiri'>
+    <organization />
+</author>
+
+<author initials='K' surname='Wakamatsu' fullname='Koji Wakamatsu'>
+    <organization />
+</author>
+
+<author initials='K' surname='Okada' fullname='Kouji Okada'>
+    <organization />
+</author>
+
+<author initials='K' surname='Maeda' fullname='Kaoru Maeda'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>Outbound Port 25 Blocking has been widely used over a decade as a countermeasure against mail spams.  It is the operation to filter TCP traffic which (1) the source IP addresses are dynamic IP addresses and (2) the destination port is 25.  Since ordinal mail message submissions from dynamic IP addresses can be done via submission port (port number 587), operators can introduce the blocking without preventing ordinal mail message submissions.  We explain current OP25B operations in this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-akagiri-op25b-dynamicip-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-akagiri-op25b-dynamicip-00.txt' />
+</reference>

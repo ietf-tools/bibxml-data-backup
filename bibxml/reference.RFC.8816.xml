@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8816' target='https://www.rfc-editor.org/info/rfc8816'>
+<front>
+<title>Secure Telephone Identity Revisited (STIR) Out-of-Band Architecture and Use Cases</title>
+<author initials='E.' surname='Rescorla' fullname='E. Rescorla'><organization /></author>
+<author initials='J.' surname='Peterson' fullname='J. Peterson'><organization /></author>
+<date year='2021' month='February' />
+<abstract><t>The Personal Assertion Token (PASSporT) format defines a token that can be carried by signaling protocols, including SIP, to cryptographically attest the identity of callers. However, not all telephone calls use Internet signaling protocols, and some calls use them for only part of their signaling path, while some cannot reliably deliver SIP header fields end-to-end. This document describes use cases that require the delivery of PASSporT objects outside of the signaling path, and defines architectures and semantics to provide this functionality.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8816'/>
+<seriesInfo name='DOI' value='10.17487/RFC8816'/>
+</reference>

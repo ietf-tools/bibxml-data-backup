@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-manet-rfc5444-usage'>
+<front>
+<title>Rules For Designing Protocols Using the RFC 5444 Generalized Packet/ Message Format</title>
+
+<author initials='T' surname='Clausen' fullname='Thomas Clausen'>
+    <organization />
+</author>
+
+<author initials='C' surname='Dearlove' fullname='Christopher Dearlove'>
+    <organization />
+</author>
+
+<author initials='U' surname='Herberg' fullname='Ulrich Herberg'>
+    <organization />
+</author>
+
+<author initials='H' surname='Rogge' fullname='Henning Rogge'>
+    <organization />
+</author>
+
+<date month='April' day='12' year='2017' />
+
+<abstract><t>RFC 5444 specifies a generalized MANET packet/message format and describes an intended use to multiplex MANET routing protocol messages that is mandated for use on the port/protocol specified by RFC 5498.  This document updates RFC 5444 by providing rules and recommendations for how the multiplexer operates and how protocols can use the packet/message format.  In particular, the mandatory rules prohibit a number of uses that have been suggested in various proposals, and which would have led to interoperability problems, to the impediment of protocol extension development, and to an inability to use optional generic parsers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-manet-rfc5444-usage-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-manet-rfc5444-usage-05.txt' />
+</reference>

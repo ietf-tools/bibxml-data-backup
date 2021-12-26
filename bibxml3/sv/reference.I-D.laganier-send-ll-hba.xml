@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.laganier-send-ll-hba'>
+<front>
+<title>Link Layer Hashed Based Addresses (LL-HBA) for Secure Neighbor Discovery  (SEND)</title>
+
+<author initials='J' surname='Laganier' fullname='Julien Laganier'>
+    <organization />
+</author>
+
+<author initials='G' surname='Montenegro' fullname='Gabriel Montenegro'>
+    <organization />
+</author>
+
+<date month='September' day='14' year='2005' />
+
+<abstract><t>The current mechanisms used by Secure Neighbor Discovery (SEND) to secure the Neighbor Discovery Protocol (NDP) relies almost solely on public key cryptography (i.e. Certificates and/or Cryptographically Generated Addresses). While these approaches provide very strong guarantees on the authenticity of an IP address to link layer address mapping, they are computationally expensive, which might be a problem on resource-constrained devices. It is also recognized in the SEND specification that it does not compensate for an insecure link layer; more specifically, no protections are offered against spoofing, link disruption, or bombing DoS attacks launched at the link layer. Accordingly, this note suggests an alternative to the current specification of SEND which leverage on the deemed required link layer security to secure NDP. This technique is based on the use of a specific kind of IPv6 addresses, the so-called Link Layer Hashed Based Addresses (LL-HBA), and of link layer address reachability tests. When the link layer security prevents attacker to redirect frames at the link layer layer, this technique allows to provide some level of security to NDP while relying solely on symmetric (i.e., computationally inexpensive) cryptography.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-laganier-send-ll-hba-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-laganier-send-ll-hba-00.txt' />
+</reference>

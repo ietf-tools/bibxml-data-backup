@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.litkowski-spring-non-protected-paths'>
+<front>
+<title>Implementing non protected paths using SPRING</title>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='M' surname='Aissaoui' fullname='Mustapha Aissaoui'>
+    <organization />
+</author>
+
+<date month='January' day='27' year='2017' />
+
+<abstract><t>Segment Routing (SR) leverages the source routing paradigm.  A node can steer a packet on a specific path by prepending the packet with an SR header.  In the framework of traffic-engineering use cases, a customer may request its service provider to implement some non protected paths.  This means that in case of a failure within the network, fast-reroute (or similar) techniques should not be activated for those paths.  This document analyzes the different options to implement a non protected path with Segment Routing and in a future release will provide a recommandation on the best option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-litkowski-spring-non-protected-paths-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-litkowski-spring-non-protected-paths-01.txt' />
+</reference>

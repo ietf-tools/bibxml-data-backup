@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-homenet-front-end-naming-delegation'>
+<front>
+<title>Outsourcing Home Network Authoritative Naming Service</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<author initials='C' surname='Griffiths' fullname='Chris Griffiths'>
+    <organization />
+</author>
+
+<author initials='R' surname='Weber' fullname='Ralf Weber'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2015' />
+
+<abstract><t>CPEs are designed to provide IP connectivity to home networks.  Most CPEs assign IP addresses to the nodes of the home network which makes it a good candidate for hosting the naming service.  With IPv6, the naming service makes nodes reachable from the home network as well as from the Internet.  However, CPEs have not been designed to host such a naming service exposed on the Internet.  This may expose the CPEs to resource exhaustion which would make the home network unreachable, and most probably would also affect the home network inner communications.  In addition, DNSSEC management and configuration may not be well understood or mastered by regular end users.  Misconfiguration may also result in naming service disruption, thus these end users may prefer to rely on third party naming providers.  This document describes a homenet naming architecture where the CPEs manage the DNS zone associated to its home network, and outsources the naming service and eventually the DNSSEC management on the Internet to a third party designated as the Public Authoritative Servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-homenet-front-end-naming-delegation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-homenet-front-end-naming-delegation-02.txt' />
+</reference>

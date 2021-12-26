@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-rpki-oob-setup'>
+<front>
+<title>An Out-Of-Band Setup Protocol For RPKI Production Services</title>
+
+<author initials='R' surname='Austein' fullname='Rob Austein'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2017' />
+
+<abstract><t>This note describes a simple out-of-band protocol to ease setup of the RPKI provisioning and publication protocols between two parties. The protocol is encoded in a small number of XML messages, which can be passed back and forth by any mutually agreeable means which provides acceptable data integrity and authentication.  This setup protocol is not part of the provisioning or publication protocol, rather, it is intended to simplify configuration of these protocols by setting up relationships and exchanging keying material used to authenticate those relationships.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-rpki-oob-setup-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-rpki-oob-setup-09.txt' />
+</reference>

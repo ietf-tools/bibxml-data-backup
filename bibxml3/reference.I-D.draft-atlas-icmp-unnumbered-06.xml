@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.atlas-icmp-unnumbered'>
+<front>
+<title>Extending ICMP for Interface and Next-hop Identification</title>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ronald Bonica'>
+    <organization />
+</author>
+
+<author initials='N' surname='Systems' fullname='Nuova Systems'>
+    <organization />
+</author>
+
+<author initials='N' surname='Shen' fullname='Naiming Shen'>
+    <organization />
+</author>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>This memo defines ICMP extensions, using ICMP multi-part messages, through which a router or host can explicitly identify an interface by ifIndex, name, and/or address, as already used in MIBs and by OSPF.  The interfaces so identified can be the interface upon which an undeliverable datagram arrived, a sub-IP member of that interface, and the interface through which the datagram would have been sent. The nexthop IP address can also be provided as part of the outgoing interface information.  The extensions defined herein are particularly useful when troubleshooting networks with unnumbered interfaces, parallel interfaces and/or asymmetric routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-atlas-icmp-unnumbered-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-atlas-icmp-unnumbered-06.txt' />
+</reference>

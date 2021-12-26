@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-pashby-ipv6-detecting-spoofing-00.txt'>
+    <title>"Detection of IPv6 Neighbor Discovery and Host Redirection Spoofing", Ronald  Pashby</title>
+    <link>http://www.ietf.org/internet-drafts/draft-pashby-ipv6-detecting-spoofing-00.txt</link>
+    <description>The purpose of this draft is to provide a method to detect exploitation of inherent vulnerabilities in the Neighbor Discovery processes. There are two well documented vulnerabilities in the basic IPv6 architecture: Neighbor Discover spoofing and Host Redirection. There already exists the SeND RFC [send] that addresses authenticating these interactions. Certain networks may choose not to uses (or cannot use) SeND, for instance, networks that use DHCP or statically assigned addresses. There is an underlying security principle that says, "If you can block a attack do it. If you cannot block it, detect it. Even if you can block it, detect it." This proposal outlines simple modifications to the basic protocols to allow for easily detecting these attacks. Through proactive systems, once an attack is detected it could easily provide blocking by isolating the attacking host via Access Control Lists (ACLs) or disabling ports. The basic method proposed is to force packets used in these attacks to be multicast to the attacked nodes Solicited Node Multicast group, thus allowing a security device to detect when it is occurring.</description>
+    <dc:date>2005-07-14T07:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pals-vpls-pim-snooping'>
+<front>
+<title>Protocol Independent Multicast (PIM) over Virtual Private LAN Service (VPLS)</title>
+
+<author initials='O' surname='Dornon' fullname='Olivier Dornon'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kotalwar' fullname='Jayant Kotalwar'>
+    <organization />
+</author>
+
+<author initials='V' surname='Hemige' fullname='Venu Hemige'>
+    <organization />
+</author>
+
+<author initials='R' surname='Qiu' fullname='Ray Qiu'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2017' />
+
+<abstract><t>This document describes the procedures and recommendations for Virtual Private LAN Service (VPLS) Provider Edges (PEs) to facilitate replication of multicast traffic to only certain ports (behind which there are interested Protocol Independent Multicast (PIM) routers and/or Internet Group Management Protocol (IGMP) hosts) via Protocol Independent Multicast (PIM) snooping and proxying.  With PIM snooping, PEs passively listen to certain PIM control messages to build control and forwarding states while transparently flooding those messages.  With PIM proxying, Provider Edges (PEs) do not flood PIM Join/Prune messages but only generate their own and send out of certain ports, based on the control states built from downstream Join/Prune messages.  PIM proxying is required when PIM Join suppression is enabled on the Customer Equipment (CE) devices and useful to reduce PIM control traffic in a VPLS domain.  The document also describes PIM relay, which can be viewed as light- weight proxying, where all downstream Join/Prune messages are simply forwarded out of certain ports but not flooded to avoid triggering PIM Join suppression on CE devices.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pals-vpls-pim-snooping-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pals-vpls-pim-snooping-06.txt' />
+</reference>

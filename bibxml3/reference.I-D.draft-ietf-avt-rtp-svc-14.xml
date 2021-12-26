@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rtp-svc'>
+<front>
+<title>RTP Payload Format for SVC Video</title>
+
+<author initials='S' surname='Wenger' fullname='Stephan Wenger'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Wang' fullname='Ye-Kui Wang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schierl' fullname='Thomas  Schierl'>
+    <organization />
+</author>
+
+<author initials='A' surname='Eleftheriadis' fullname='Alex Eleftheriadis'>
+    <organization />
+</author>
+
+<date month='September' day='26' year='2008' />
+
+<abstract><t>This memo describes an RTP payload format for Scalable Video Coding (SVC) as defined in_Annex G of ITU-T Recommendation H.264, which is technically identical to Amendment 3 of ISO/IEC International Standard 14496-10.  The RTP payload format allows for packetization of one or more Network Abstraction Layer (NAL) units in each RTP packet payload, as well as fragmentation of a NAL unit in multiple RTP packets.  Furthermore, it supports transmission of an SVC stream over a single as well as multiple RTP sessions.  For single-session transmission the packetization modes of RFC 3984 are used.  For multi-session transmission four different modes are defined in this memo.  The modes differ depending on whether the SVC data are allowed to be interleaved, i.e., to be transmitted in an order different than the intended decoding order, and they also differ in the mechanisms provided in order to recover the correct decoding order of the NAL units across the multiple RTP sessions. Specifically, decoding order recovery is performed using either timestamp alignment or Cross-Session Decoding Order Numbers (CS- DON), although in one of the modes both schemes are used in order to allow receivers to use their preferred method.  The multi-session transmission modes use the packetization modes defined in RFC 3984 as each individual session still uses a packetization mode defined in RFC 3984.  The packetization modes defined in RFC 3984 are slightly extended such that the three new NAL unit types defined in this memo can be included in the RTP packet streams.  The payload format defines a new media subtype name "H264-SVC", but is still backwards compatible to RFC 3984 since the base layer, when encapsulated in its own RTP stream, must use the H.264 media subtype name ("H264") and the packetization method specified in RFC 3984. The payload format has wide applicability in videoconferencing, Internet video streaming, and high bit-rate entertainment-quality video, among others.  Table of Contents  Status of this Memo...............................................1 Copyright Notice..................................................1 Abstract..........................................................2</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rtp-svc-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rtp-svc-14.txt' />
+</reference>

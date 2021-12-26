@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-media-path-middleboxes'>
+<front>
+<title>Analysis of Middlebox Interactions for Signaling Protocol Communication along the Media Path</title>
+
+<author initials='B' surname='Stucker' fullname='Brian Stucker'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='G' surname='Salgueiro' fullname='Gonzalo Salgueiro'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2013' />
+
+<abstract><t>Middleboxes are defined as any intermediary box performing functions apart from normal, standard functions of an IP router on the data path between a source host and destination host.  Two such functions are network address translation and firewalling.  When Application Layer Gateways, such as SIP entities, interact with NATs and firewalls, as described in the MIDCOM architecture, then problems may occur in the transport of media traffic when signaling protocol interaction takes place along the media path, as it is the case for recent key exchange proposals (such as DTLS-SRTP).  This document highlights problems that may arise.  Unfortunately, it is difficult for the end points to detect or predict problematic behavior and to determine whether the media path is reliably available for packet exchange.  This document aims to summarize the various sources and effects of NAT and firewall control, the reasons that they exist, and possible means of improving their behavior to allow protocols that rely upon signaling along the media path to operate effectively.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-media-path-middleboxes-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-media-path-middleboxes-06.txt' />
+</reference>

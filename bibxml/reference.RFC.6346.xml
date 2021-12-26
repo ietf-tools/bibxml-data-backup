@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6346' target='https://www.rfc-editor.org/info/rfc6346'>
+<front>
+<title>The Address plus Port (A+P) Approach to the IPv4 Address Shortage</title>
+<author initials='R.' surname='Bush' fullname='R. Bush' role='editor'><organization /></author>
+<date year='2011' month='August' />
+<abstract><t>We are facing the exhaustion of the IANA IPv4 free IP address pool. Unfortunately, IPv6 is not yet deployed widely enough to fully replace IPv4, and it is unrealistic to expect that this is going to change before the depletion of IPv4 addresses.  Letting hosts seamlessly communicate in an IPv4 world without assigning a unique globally routable IPv4 address to each of them is a challenging problem.</t><t>This document proposes an IPv4 address sharing scheme, treating some of the port number bits as part of an extended IPv4 address (Address plus Port, or A+P).  Instead of assigning a single IPv4 address to a single customer device, we propose to extend the address field by using bits from the port number range in the TCP/UDP header as additional endpoint identifiers, thus leaving a reduced range of ports available to applications.  This means assigning the same IPv4 address to multiple clients (e.g., Customer Premises Equipment (CPE), mobile phones), each with its assigned port range.  In the face of IPv4 address exhaustion, the need for addresses is stronger than the need to be able to address thousands of applications on a single host.  If address translation is needed, the end-user should be in control of the translation process -- not some smart boxes in the core.  This document defines an Experimental Protocol for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6346'/>
+<seriesInfo name='DOI' value='10.17487/RFC6346'/>
+</reference>

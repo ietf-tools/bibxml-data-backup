@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-johansson-sipcore-dane-sip-00.txt'>
+    <title>TLS sessions in SIP using DNS-based Authentication of Named Entities (DANE) TLSA records</title>
+    <link>http://www.ietf.org/internet-drafts/draft-johansson-sipcore-dane-sip-00.txt</link>
+    <description>Use of TLS in the SIP protocol is defined in multiple documents, starting with RFC 3261.  The actual verification that happens when setting up a SIP TLS connection to a SIP server based on a SIP URI is described in detail in RFC 5922 - SIP Domain Certificates.  In this document, an alternative method is defined, using DNS-Based Authentication of Named Entities (DANE).  By looking up TLSA DNS records and using DNSsec protection of the required queries, including lookups for NAPTR and SRV records, a SIP Client can verify the identity of the TLS SIP server in a different way, matching on the SRV host name in the X.509 PKIX certificate instead of the SIP domain.  This provides more scalability in hosting solutions and make it easier to use standard CA certificates (if needed at all).</description>
+    <dc:date>2014-10-06T07:00:00-00:00</dc:date>
+</item>

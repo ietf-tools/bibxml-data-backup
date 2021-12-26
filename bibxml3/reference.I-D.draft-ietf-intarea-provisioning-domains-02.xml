@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-intarea-provisioning-domains'>
+<front>
+<title>Discovering Provisioning Domain Names and Data</title>
+
+<author initials='P' surname='Pfister' fullname='Pierre Pfister'>
+    <organization />
+</author>
+
+<author initials='E' surname='Vyncke' fullname='Eric Vyncke'>
+    <organization />
+</author>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='D' surname='Schinazi' fullname='David Schinazi'>
+    <organization />
+</author>
+
+<author initials='W' surname='Shao' fullname='Wenqin Shao'>
+    <organization />
+</author>
+
+<date month='June' day='4' year='2018' />
+
+<abstract><t>An increasing number of hosts access the Internet via multiple interfaces or, in IPv6 multi-homed networks, via multiple IPv6 prefix configurations context.  This document describes a way for hosts to identify such contexts, called Provisioning Domains (PvDs), where Fully Qualified Domain Names (FQDNs) act as PvD identifiers.  Those identifiers are advertised in a new Router Advertisement (RA) option and, when present, are associated with the set of information included within the RA.  Based on this FQDN, hosts can retrieve additional information about their network access characteristics via an HTTP over TLS query. This allows applications to select which Provisioning Domains to use as well as to provide configuration parameters to the transport layer and above.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-intarea-provisioning-domains-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-intarea-provisioning-domains-02.txt' />
+</reference>

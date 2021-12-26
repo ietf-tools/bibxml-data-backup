@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lisp-ddt'>
+<front>
+<title>LISP Delegated Database Tree</title>
+
+<author initials='V' surname='Fuller' fullname='Vince Fuller'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lewis' fullname='Darrel Lewis'>
+    <organization />
+</author>
+
+<author initials='V' surname='Ermagan' fullname='Vina Ermagan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Jain' fullname='Amit Jain'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2013' />
+
+<abstract><t>This draft describes the LISP Delegated Database Tree (LISP-DDT), a hierarchical, distributed database which embodies the delegation of authority to provide mappings from LISP Endpoint Identifiers (EIDs) to Routing Locators (RLOCs).  It is a statically-defined distribution of the EID namespace among a set of LISP-speaking servers, called DDT nodes.  Each DDT node is configured as "authoritative" for one or more EID-prefixes, along with the set of RLOCs for Map Servers or "child" DDT nodes to which more-specific EID-prefixes are delegated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lisp-ddt-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lisp-ddt-01.txt' />
+</reference>

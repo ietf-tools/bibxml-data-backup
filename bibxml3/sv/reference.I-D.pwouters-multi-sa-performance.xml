@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pwouters-multi-sa-performance'>
+<front>
+<title>IKEv2 support for per-queue Child SAs</title>
+<author initials='A' surname='Antony' fullname='Antony Antony'>
+<organization />
+</author>
+<author initials='S' surname='Klassert' fullname='Steffen Klassert'>
+<organization />
+</author>
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+<organization />
+</author>
+<date year='2021' month='February' day='22' />
+<abstract><t>This document defines two Notification Payloads for the Internet Key Exchange Protocol Version 2 (IKEv2): NUM_QUEUES and QUEUE_INFO. These payloads add support for indicating that the negotiating of multiple identical Child SAs are to be used to optimize performance based on the number of queues or CPUs, or to create multiple Child SAs for different Quality of Service (QoS) levels.  It indicates that a newer idetnical Child SA should not be interpreted as a replacement Child SA.</t><t> Using multiple identical Child Sa's has the benefit that each stream has its own Sequence Number, ensuring that CPU's don't have to synchronize their crypto state or disable their packet replay detection.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-pwouters-multi-sa-performance-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-pwouters-multi-sa-performance-01.txt'/>
+</reference>

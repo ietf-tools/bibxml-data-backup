@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.delregno-pwe3-vccv-mandatory-features'>
+<front>
+<title>Mandatory Features of Virtual Circuit Connectivity Verification Implementations</title>
+
+<author initials='N' surname='Regno' fullname='Nick Del Regno'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<author initials='R' surname='Kunze' fullname='Ruediger Kunze'>
+    <organization />
+</author>
+
+<author initials='M' surname='Paul' fullname='Manuel Paul'>
+    <organization />
+</author>
+
+<author initials='T' surname='Nadeau' fullname='Thomas Nadeau'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2010' />
+
+<abstract><t>Pseudowire Virtual Circuit Connectivity Verification (VCCV) [RFC5085] defines several Control Channel (CC) Types for MPLS PW's , none of which are preferred or mandatory.  As a result, independent implementations of different subsets of the three options have resulted in interoperability challenges.  In RFC5085 the CV type of LSP Ping is made the default for MPLS PW's and ICMP Ping is made optional.  This however, is a recommendation and not a requirement for implementations which can also lead to interoperability challenges.  To enable interoperability between implementations, this document defines a subset of control channels that is considered mandatory for VCCV implementation.  This will ensure that VCCV remains the valuable tool it was designed to be in multi-vendor, multi-implementation and multi-carrier networks.  This document also states requirements for the CV type too.  This draft is specific to MPLS PW's and not L2TPv3 PW.  For the L2TPv3 PW only one CC and CV type are specified and the issues raised in this draft do not arise.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-delregno-pwe3-vccv-mandatory-features-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-delregno-pwe3-vccv-mandatory-features-02.txt' />
+</reference>

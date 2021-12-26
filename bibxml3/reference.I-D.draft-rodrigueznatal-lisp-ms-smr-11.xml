@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rodrigueznatal-lisp-ms-smr'>
+<front>
+<title>MS-originated SMRs</title>
+
+<author initials='A' surname='Rodriguez-Natal' fullname='Alberto Rodriguez-Natal'>
+    <organization />
+</author>
+
+<author initials='A' surname='Cabellos-Aparicio' fullname='Albert Cabellos-Aparicio'>
+    <organization />
+</author>
+
+<author initials='V' surname='Ermagan' fullname='Vina Ermagan'>
+    <organization />
+</author>
+
+<author initials='F' surname='Maino' fullname='Fabio Maino'>
+    <organization />
+</author>
+
+<author initials='S' surname='Barkai' fullname='Sharon Barkai'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2020' />
+
+<abstract><t>This document extends [I-D.ietf-lisp-rfc6833bis] to allow Map Servers to send SMR messages.  This extension is intended to be used in some SDN deployments that use LISP as a southbound protocol with (P)ITRs that are compliant with [I-D.ietf-lisp-rfc6833bis].  In this use-case mapping updates do not come from ETRs, but rather from a centralized controller that pushes the updates directly to the Mapping System.  In such deployments, Map Servers will benefit from having a mechanism to inform directly (P)ITRs about updates in the mappings they are serving.  Although implementations of this extension exist, this extension is deprecated by [I-D.ietf-lisp-pubsub] and it is being documented for informational purposes.  Newer implementations should look into [I-D.ietf-lisp-pubsub] to support PubSub in LISP deployments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rodrigueznatal-lisp-ms-smr-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rodrigueznatal-lisp-ms-smr-11.txt' />
+</reference>

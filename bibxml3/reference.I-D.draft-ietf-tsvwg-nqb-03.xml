@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-nqb'>
+<front>
+<title>A Non-Queue-Building Per-Hop Behavior (NQB PHB) for Differentiated Services</title>
+
+<author initials='G' surname='White' fullname='Greg White'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>This document specifies properties and characteristics of a Non- Queue-Building Per-Hop Behavior (NQB PHB).  The purpose of this NQB PHB is to provide a separate queue that enables low latency and, when possible, low loss for application-limited traffic flows that would ordinarily share a queue with capacity-seeking traffic.  This PHB is implemented without prioritization and without rate policing, making it suitable for environments where the use of either these features may be restricted.  The NQB PHB has been developed primarily for use by access network segments, where queuing delays and queuing loss caused by Queue-Building protocols are manifested, but its use is not limited to such segments.  In particular, applications to cable broadband links and mobile network radio and core segments are discussed.  This document defines a standard Differentiated Services Code Point (DSCP) to identify Non-Queue-Building flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-nqb-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-nqb-03.txt' />
+</reference>

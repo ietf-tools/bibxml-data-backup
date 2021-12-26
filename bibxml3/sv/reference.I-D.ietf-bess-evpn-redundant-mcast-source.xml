@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-redundant-mcast-source'>
+<front>
+<title>Multicast Source Redundancy in EVPN Networks</title>
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+<organization />
+</author>
+<author initials='J' surname='Kotalwar' fullname='Jayant Kotalwar'>
+<organization />
+</author>
+<author initials='S' surname='Sathappan' fullname='Senthil Sathappan'>
+<organization />
+</author>
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+<organization />
+</author>
+<author initials='W' surname='Lin' fullname='Wen Lin'>
+<organization />
+</author>
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+<organization />
+</author>
+<date year='2021' month='August' day='04' />
+<abstract><t>EVPN supports intra and inter-subnet IP multicast forwarding. However, EVPN (or conventional IP multicast techniques for that matter) do not have a solution for the case where: a) a given multicast group carries more than one flow (i.e., more than one source), and b) it is desired that each receiver gets only one of the several flows.  Existing multicast techniques assume there are no redundant sources sending the same flow to the same IP multicast group, and, in case there were redundant sources, the receiver's application would deal with the received duplicated packets.  This document extends the existing EVPN specifications and assumes that IP Multicast source redundancy may exist.  It also assumes that, in case two or more sources send the same IP Multicast flows into the tenant domain, the EVPN PEs need to avoid that the receivers get packet duplication by following the described procedures.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-redundant-mcast-source-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-redundant-mcast-source-02.txt'/>
+</reference>

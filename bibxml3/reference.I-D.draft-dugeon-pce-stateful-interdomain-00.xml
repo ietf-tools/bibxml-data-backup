@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dugeon-pce-stateful-interdomain'>
+<front>
+<title>PCEP Extension for Stateful Inter-Domain Tunnels</title>
+
+<author initials='O' surname='Dugeon' fullname='Olivier Dugeon'>
+    <organization />
+</author>
+
+<author initials='J' surname='Meuric' fullname='Julien Meuric'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2017' />
+
+<abstract><t>The Path Computation Element (PCE) working group (WG) has produced a set of RFCs to standardize the behavior of the Path Computation Element as a tool to help MPLS-TE, GMPLS LSP tunnels and Segment Routing paths placement.  This also include the ability to compute inter-domain LSPs or Segment Routing path following a distributed or hierarchical approach.  In complement to the original stateless mode, a stateful mode has been added.  In particular, the new PCInitiate message allows a PCE to directly ask a PCC to setup an MPLS-TE, GMPLS LSP tunnel or a Segment Routing path.  However, once computed, the inter-domain LSPs or Segment Routing path are hard to setup in the underlying network.  Especially, in operational network, RSVP-TE signaling is not enable between AS border routers.  But, such RSVP-TE signaling is mandatory to setup contiguous LSP tunnels or to stitch or nest independent LSP tunnels to form the end-to-end inter-domain paths.  This document proposes to combine a Backward Recursive or Hierarchical method with PCInitiate message to setup independent paths per domain, and combine these different paths together in order to operated them as end-to-end inter-domain paths without the need of signaling session between AS border routers.  A new Stitching Label is defined and new LSP-TYPE code points are considered for that purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dugeon-pce-stateful-interdomain-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dugeon-pce-stateful-interdomain-00.txt' />
+</reference>

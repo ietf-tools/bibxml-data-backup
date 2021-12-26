@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.savolainen-mif-dns-server-selection'>
+<front>
+<title>Improved DNS Server Selection for Multi-Homed Hosts</title>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<date month='June' day='7' year='2010' />
+
+<abstract><t>A multi-homed host may receive DNS server configuration information from multiple physical and/or virtual network interfaces.  In split DNS scenarios some DNS servers have information others do not have. When the multi-homed host needs to utilize DNS, it has to select which of the servers to contact to.  This document describes a policy based method for selecting DNS server for both forward and reverse DNS lookup procedures with help of DNS suffix and IPv6 prefix information received via DHCPv6.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-savolainen-mif-dns-server-selection-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-savolainen-mif-dns-server-selection-03.txt' />
+</reference>

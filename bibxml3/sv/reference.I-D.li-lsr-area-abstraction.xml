@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-lsr-area-abstraction'>
+<front>
+<title>Area Abstraction for IS-IS</title>
+
+<author initials='T' surname='Li' fullname='Tony Li'>
+    <organization />
+</author>
+
+<date month='July' day='26' year='2019' />
+
+<abstract><t>Link state routing protocols have hierarchical abstraction already built into them.  However, when lower levels are used for transit, they must expose their internal topologies, leading to scale issues.  To avoid this, this document discusses extensions to the IS-IS routing protocol that would allow level 1 areas to provide transit, yet only inject an abstraction of the level 1 topology into level 2.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-lsr-area-abstraction-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-lsr-area-abstraction-00.txt' />
+</reference>

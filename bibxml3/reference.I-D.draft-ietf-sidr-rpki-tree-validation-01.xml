@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-rpki-tree-validation'>
+<front>
+<title>RPKI Certificate Tree Validation by a Relying Party Tool</title>
+
+<author initials='O' surname='Muravskiy' fullname='Oleg Muravskiy'>
+    <organization />
+</author>
+
+<author initials='T' surname='Bruijnzeels' fullname='Tim Bruijnzeels'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>This document describes the approach to validate the content of the RPKI certificate tree, as used by the RIPE NCC RPKI Validator.  This approach is independent of a particular object retrieval mechanism. This allows it to be used with repositories available over the rsync protocol, the RPKI Repository Delta Protocol, and repositories that use a mix of both.  This algorithm does not rely on content of repository directories, but uses the Authority Key Identifier (AKI) field of a manifest and a certificate revocation list (CRL) objects to discover manifest and CRL objects issued by a particular Certificate Authority (CA).  It further uses the hashes of manifest entries to discover other objects issued by the CA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-rpki-tree-validation-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-rpki-tree-validation-01.txt' />
+</reference>

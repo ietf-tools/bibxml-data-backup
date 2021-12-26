@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-oauth-signature-thoughts'>
+<front>
+<title>Thoughts about Digital Signatures for the Open Web Authentication (OAuth) Protocol</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='B' surname='Cook' fullname='Blaine Cook'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>The initial version of the Open Web Authentication Protocol (OAuth 1.0), often referred to as the community addition, included an mechanism for putting a digital signature (when using asymmetric keys) or a keyed message digest (when using symmetric keys) to a resource request when presenting the OAuth token.  This cryptographic mechanism has lead to lots of discussions, particularly about the problems implementers had, the use cases it supports, and the benefit-cost tradeoff.  This document tries to describe the use of the so-called 'OAuth Signature' mechamism in an unbiased and less emotional way with the main purpose to conclude the discussions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-oauth-signature-thoughts-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-oauth-signature-thoughts-00.txt' />
+</reference>

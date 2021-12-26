@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-split-dns'>
+<front>
+<title>Split DNS Configuration for IKEv2</title>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2018' />
+
+<abstract><t>This document defines two Configuration Payload Attribute Types for the IKEv2 protocol that add support for private DNS domains.  These domains should be resolved using DNS servers reachable through an IPsec connection, while leaving all other DNS resolution unchanged. This approach of resolving a subset of domains using non-public DNS servers is referred to as "Split DNS".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-split-dns-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-split-dns-06.txt' />
+</reference>

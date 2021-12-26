@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ford-behave-app'>
+<front>
+<title>Application Design Guidelines for Traversal through Network Address  Translators</title>
+
+<author initials='B' surname='Ford' fullname='Bryan Ford'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2006' />
+
+<abstract><t>This document defines guidelines by which application designers can create applications that communicate reliably and efficiently in the presence of Network Address Translators (NATs), particularly when the application has a need for "peer-to-peer" (P2P) style communication. The guidelines allow a P2P application to work reliably over a majority of existing NATs, as well as all future NATs that conform to the behave requirements specified in companion documents. The NAT traversal techniques described in the document do not require the use of special proxy or relay protocols, do not require specific knowledge about the network topology or the number and type of NATs in the path, and do not require any modifications to IP or transport-layer protocols on the end hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ford-behave-app-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ford-behave-app-03.txt' />
+</reference>

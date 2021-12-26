@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.realvnc-rtcp-codec'>
+<front>
+<title>Codec-Layer Feedback for the Real-time Transport Control Protocol (RTCP)</title>
+
+<author initials='N' surname='Wilson' fullname='Nicholas Wilson'>
+    <organization />
+</author>
+
+<date month='September' day='24' year='2018' />
+
+<abstract><t>This document specifies an extension to the messages defined in the Audio-Visual Profile with Feedback (AVPF), allowing for an RTP codec to send codec-specific feedback via RTCP.  Currently, RTCP feedback messages have been defined only for generic capabilities which may be defined in the context of individual codecs, and some codecs have their own RTCP feedback messages.  There is a need for a feedback message at the codec-layer, allowing other codecs to send codec- specific feedback.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-realvnc-rtcp-codec-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-realvnc-rtcp-codec-00.txt' />
+</reference>

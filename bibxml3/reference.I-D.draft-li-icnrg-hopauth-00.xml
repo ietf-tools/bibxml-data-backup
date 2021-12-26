@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-icnrg-hopauth'>
+<front>
+<title>Hop-by-Hop Authentication in Content-Centric Networking/Named Data Networking</title>
+
+<author initials='R' surname='Li' fullname='Ruidong Li'>
+    <organization />
+</author>
+
+<author initials='H' surname='Asaeda' fullname='Hitoshi Asaeda'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>The unpredictability of consumers, routers, copyholders, and publishers for the in-network data retrievals in Content-Centric Networking (CCN) / Named Data Networking (NDN) poses a challenge to design an authentication mechanism to inhibit the malicious consumers to flood data requests and prevent the fake data from being provided. Signature is adopted as the fundamental function in CCN / NDN, which however can only provide publisher authentication with additional certificate acquisition.  This document describes the the Hop-by-Hop Authentication mechanism (HopAuth) integrating certificate collection and packet forwarding potentially with the assistance from certificate authority to provide consumer authentication, copyholder authentication and path authentication to enable the in-network data retrieval to be trustworthy, besides the publisher authentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-icnrg-hopauth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-icnrg-hopauth-00.txt' />
+</reference>

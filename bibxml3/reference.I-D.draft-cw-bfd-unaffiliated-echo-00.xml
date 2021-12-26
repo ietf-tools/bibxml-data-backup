@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cw-bfd-unaffiliated-echo'>
+<front>
+<title>Unaffiliated BFD Echo Function</title>
+
+<author initials='W' surname='Cheng' fullname='Weiqiang Cheng'>
+    <organization />
+</author>
+
+<author initials='R' surname='Wang' fullname='Ruixue Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Min' fullname='Xiao Min'>
+    <organization />
+</author>
+
+<author initials='L' surname='Aihua' fullname='Liu Aihua'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>Bidirectional Forwarding Detection (BFD) is a fault detection protocol that can quickly determine a communication failure between devices and notify upper-layer applications [RFC5880].  BFD has asynchronous detecting mode and demand detection mode to satisfy different scenarios, also supports echo function as an adjunct to both modes to reduce the device requirement for BFD.  Unaffiliated BFD echo function described in this document reuses the BFD echo function as described in [RFC5880] and [RFC5881], but independent of BFD asynchronous mode or BFD demand mode, that means it doesn't need BFD protocol capability of state machine, but only BFD echo function to a deployed device supporting BFD detection. When using unaffiliated BFD echo function, just the local device works on BFD protocol and the BFD peer doesn't, which only loopback the received BFD echo packets as usual data packets without enabling BFD protocol.  Section 6.2.2 of [BBF-TR-146] describes one use case of the unaffiliated BFD echo function, and at least one more use case is known in the field BFD deployment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cw-bfd-unaffiliated-echo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cw-bfd-unaffiliated-echo-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.peterson-sipcore-advprop'>
+<front>
+<title>The Advertisement/Proposal Model of Session Description</title>
+
+<author initials='J' surname='Peterson' fullname='Jon Peterson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2010' />
+
+<abstract><t>In common SIP practice, a two-phase "offer/answer" exchange of session description documents negotiates preferences, capabilities and requested sessions.  However, the structure of the session description greatly confuses the disambiguation of these elements and thus the clear characterization of sessions.  The current work proposes an alternative to the offer/answer model which leverages pre-association between user agents to recast those two phases into a less ambiguous form: an Advertisement of capabilities and preferences which occurs in non-real-time before a session is ever requested, which is followed during session establishment by a unidirectional and complete Proposal of a session.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-peterson-sipcore-advprop-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-peterson-sipcore-advprop-00.txt' />
+</reference>

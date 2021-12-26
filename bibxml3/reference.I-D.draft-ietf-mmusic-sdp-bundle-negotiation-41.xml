@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-sdp-bundle-negotiation'>
+<front>
+<title>Negotiating Media Multiplexing Using the Session Description Protocol (SDP)</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='H' surname='Alvestrand' fullname='Harald Alvestrand'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<date month='November' day='27' year='2017' />
+
+<abstract><t>This specification defines a new Session Description Protocol (SDP) Grouping Framework extension, 'BUNDLE'.  The extension can be used with the SDP Offer/Answer mechanism to negotiate the usage of a single transport (5-tuple) for sending and receiving media described by multiple SDP media descriptions ("m=" sections).  Such transport is referred to as a BUNDLE transport, and the media is referred to as bundled media.  The "m=" sections that use the BUNDLE transport form a BUNDLE group.  To assist endpoints in negotiating the use of bundle this specification defines a new SDP attribute, 'bundle-only', which can be used to request that specific media is only used if bundled.  The specification also updates RFC 3264, to allow assigning a zero port value to a "m= section without meaning that the media described by the "m=" section is disabled or rejected.  When RTP-based media is used, there are multiple ways to correlate bundled RTP packets with the appropriate "m=" section.  This specification defines a new Real-time Transport Protocol (RTP) source description (SDES) item and a new RTP header extension that provides an additional way to do this correlation by using them to carry a value that associates the RTP/RTCP packets with a specific "m=" section.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-sdp-bundle-negotiation-41' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-sdp-bundle-negotiation-41.txt' />
+</reference>

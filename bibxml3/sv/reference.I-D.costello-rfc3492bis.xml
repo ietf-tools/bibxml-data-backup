@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.costello-rfc3492bis'>
+<front>
+<title>Punycode: A Bootstring encoding of Unicode for Internationalized Domain  Names in Applications (IDNA)</title>
+
+<author initials='A' surname='Costello' fullname='Adam Costello'>
+    <organization />
+</author>
+
+<date month='April' day='15' year='2004' />
+
+<abstract><t>Punycode is a simple and efficient transfer encoding syntax designed for use with Internationalized Domain Names in Applications (IDNA). It uniquely and reversibly transforms a Unicode string into an ASCII string. ASCII characters in the Unicode string are represented literally, and non-ASCII characters are represented by ASCII characters that are allowed in host name labels (letters, digits, and hyphens). This document defines a general algorithm called Bootstring that allows a string of basic code points to uniquely represent any string of code points drawn from a larger set. Punycode is an instance of Bootstring that uses particular parameter values specified by this document, appropriate for IDNA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-costello-rfc3492bis-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-costello-rfc3492bis-02.txt' />
+</reference>

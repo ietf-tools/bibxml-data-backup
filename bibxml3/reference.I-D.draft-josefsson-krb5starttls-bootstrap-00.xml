@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josefsson-krb5starttls-bootstrap'>
+<front>
+<title>Strengthening the Kerberos V5 Reply Key using TLS</title>
+
+<author initials='S' surname='Josefsson' fullname='Simon Josefsson'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2009' />
+
+<abstract><t>This document describes how to strengthen the Kerberos V5 reply key using keying material derived from TLS, by using a pre-authentication mechanism.  The goals are to 1) allow clients to securely learn a realm's KDC X.509 certificate, 2) distribute the X.509 trust anchors used by the KDC, and 3) make it possible for clients to use Kerberos V5 over TLS without having to validate the server certificates.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josefsson-krb5starttls-bootstrap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josefsson-krb5starttls-bootstrap-00.txt' />
+</reference>

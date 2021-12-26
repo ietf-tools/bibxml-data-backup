@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kundrat-qresync-arrived'>
+<front>
+<title>IMAP QRESYNC-ARRIVED Extension</title>
+
+<author initials='J' surname='Kundrat' fullname='Jan Kundrat'>
+    <organization />
+</author>
+
+<date month='August' day='18' year='2012' />
+
+<abstract><t>This document updates the QRESYNC extension of the IMAP protocol to use a new untagged response, the ARRIVED one, to inform about the UIDs of newly arriving messages.  Deprecating the EXISTS response, this extension prevents a possible race condition where clients can lose synchronization of message UIDs in a selected mailbox when new arrivals are immediately expunged.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kundrat-qresync-arrived-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kundrat-qresync-arrived-00.txt' />
+</reference>

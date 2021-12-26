@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-yhb-6man-nd-improvement-00.txt'>
+    <title>"'Deleted' flag in neighbor advertisement", hua bing Yu</title>
+    <link>http://www.ietf.org/internet-drafts/draft-yhb-6man-nd-improvement-00.txt</link>
+    <description>This document describes the improvement to neighbor discovery. When an IPv6 address is deleted on a node, the node will send a neighbor advertisement with a "Deleted" flag set to all link-local nodes. If the IPv6 address has been configured on another node, and it is in duplicate state, it will perform DAD(Duplicate Address Detection) again. If DAD succeeds, the IPv6 address will be assigned to the node. If the IPv6 address exists in the neighbor cache on the other nodes, when the neighbor advertisement with deleted flag set arrived, they know the neighbor is unreachable and delete the neighbor cache entry.</description>
+    <dc:date>2011-01-10T23:00:00-00:00</dc:date>
+</item>

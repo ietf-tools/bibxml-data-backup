@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vyncke-6man-mcast-not-efficient'>
+<front>
+<title>Why Network-Layer Multicast is Not Always Efficient At Datalink Layer</title>
+
+<author initials='E' surname='Vyncke' fullname='Eric Vyncke'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='E' surname='Levy-Abegnoli' fullname='Eric Levy-Abegnoli'>
+    <organization />
+</author>
+
+<date month='February' day='6' year='2014' />
+
+<abstract><t>Several IETF protocols (IPv6 Neighbor Discovery for example) rely on IP multicast in the hope to be efficient with respect to available bandwidth and to avoid generating interrupts in the network nodes. On some datalink-layer network, for example IEEE 802.11 WiFi, this is not the case because of some limitations in the services offered by the datalink-layer network.  This document lists and explains all the potential issues when using network-layer multicast over some datalink-layer networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vyncke-6man-mcast-not-efficient-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vyncke-6man-mcast-not-efficient-00.txt' />
+</reference>

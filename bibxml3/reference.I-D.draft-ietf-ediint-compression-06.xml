@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ediint-compression'>
+<front>
+<title>Compressed Data for EDIINT</title>
+
+<author initials='T' surname='Harding' fullname='Terry Harding'>
+    <organization />
+</author>
+
+<date month='January' day='17' year='2007' />
+
+<abstract><t>The intent of this document is to be placed on the RFC track as an Informational RFC. The EDIINT AS1 and AS2 message formats don't currently contain any transport neutral provisions for compressing data when utilizing S/MIME as the secure packaging standard. Compressing data before transmission provides a number of advantages including 1. reducing data redundancy, and so reducing opportunities for attacks exploiting redundancy, and 2. reducing the amount of data and so speeding up cryptographic processing such as signing, encryption, archiving, and 3. reducing the overall transmitted message size, reducing both time and bandwidth needed for transport.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ediint-compression-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ediint-compression-06.txt' />
+</reference>

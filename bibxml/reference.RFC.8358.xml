@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8358' target='https://www.rfc-editor.org/info/rfc8358'>
+<front>
+<title>Update to Digital Signatures on Internet-Draft Documents</title>
+<author initials='R.' surname='Housley' fullname='R. Housley'><organization /></author>
+<date year='2018' month='March' />
+<abstract><t>RFC 5485 specifies the conventions for digital signatures on Internet-Drafts.  The Cryptographic Message Syntax (CMS) is used to create a detached signature, which is stored in a separate companion file so that no existing utilities are impacted by the addition of the digital signature.</t><t>The RFC Editor recently published the first RFC that includes non- ASCII characters in a text file.  The conventions specified in RFC 7997 were followed.  We assume that non-ASCII characters will soon start appearing in Internet-Drafts as well.  This document updates the handling of digital signatures on Internet-Drafts that contain non-ASCII characters in a text file.</t><t>This document updates RFC 5485.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8358'/>
+<seriesInfo name='DOI' value='10.17487/RFC8358'/>
+</reference>

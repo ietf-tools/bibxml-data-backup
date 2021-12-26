@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmm-pmipv6-dlif'>
+<front>
+<title>Proxy Mobile IPv6 extensions for Distributed Mobility Management</title>
+
+<author initials='C' surname='Bernardos' fullname='Carlos Bernardos'>
+    <organization />
+</author>
+
+<author initials='A' surname='Oliva' fullname='Antonio de la Oliva'>
+    <organization />
+</author>
+
+<author initials='F' surname='Giust' fullname='Fabio Giust'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zuniga' fullname='Juan Zuniga'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mourad' fullname='Alain Mourad'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2018' />
+
+<abstract><t>Distributed Mobility Management solutions allow for setting up networks so that traffic is distributed in an optimal way and does not rely on centrally deployed anchors to provide IP mobility support.  There are many different approaches to address Distributed Mobility Management, as for example extending network-based mobility protocols (like Proxy Mobile IPv6), or client-based mobility protocols (like Mobile IPv6), among others.  This document follows the former approach and proposes a solution based on Proxy Mobile IPv6 in which mobility sessions are anchored at the last IP hop router (called mobility anchor and access router).  The mobility anchor and access router is an enhanced access router which is also able to operate as a local mobility anchor or mobility access gateway, on a per prefix basis.  The document focuses on the required extensions to effectively support simultaneously anchoring several flows at different distributed gateways.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmm-pmipv6-dlif-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmm-pmipv6-dlif-03.txt' />
+</reference>

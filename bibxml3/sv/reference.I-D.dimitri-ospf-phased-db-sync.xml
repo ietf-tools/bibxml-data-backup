@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dimitri-ospf-phased-db-sync'>
+<front>
+<title>Phased OSPF Link-State Database Synchronization</title>
+
+<author initials='D' surname='Papadimitriou' fullname='Dimitri Papadimitriou'>
+    <organization />
+</author>
+
+<date month='May' day='23' year='2010' />
+
+<abstract><t>Opaque Link-State Advertisements (LSA) extend the topological link state of Open Shortest Path First (OSPF). The information contained in Opaque LSA may be used directly by OSPF or indirectly by some application wishing to distribute information throughout the OSPF domain. However the Link-State Database (LSDB) synchronization process is kept unified, i.e., there is no messaging or processing allowing to order the exchanges in the link state database synchronization process. We call this ordering, phasing of logically segmented LSDB into Opaque and non-Opaque. The motivation is to prevent delaying reaching Full state whereas synchronizing over the entire LSDB would delay full adjacency establishment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dimitri-ospf-phased-db-sync-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dimitri-ospf-phased-db-sync-00.txt' />
+</reference>

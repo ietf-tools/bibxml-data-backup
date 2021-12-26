@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-route-leak-detection-mitigation'>
+<front>
+<title>Methods for Detection and Mitigation of BGP Route Leaks</title>
+
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+    <organization />
+</author>
+
+<author initials='D' surname='Montgomery' fullname='Doug Montgomery'>
+    <organization />
+</author>
+
+<author initials='B' surname='Dickson' fullname='Brian Dickson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='A' surname='Robachevsky' fullname='Andrei Robachevsky'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2017' />
+
+<abstract><t>RFC 7908 provides a definition of the route leak problem, and also enumerates several types of route leaks.  This document first examines which of those route-leak types are detected and mitigated by the existing origin validation (OV) [RFC 6811].  It is recognized that OV offers a limited detection and mitigation capability against route leaks.  This document specifies enhancements that significantly extend the route-leak prevention, detection, and mitigation capabilities of BGP.  One solution component involves intra-AS messaging from ingress router to egress router using a BGP Community or Attribute.  This intra-AS messaging prevents the AS from causing route leaks.  Another solution component involves carrying a per-hop route-leak protection (RLP) field in BGP updates.  The RLP fields are proposed to be carried in a new optional transitive attribute, called BGP RLP attribute.  The RLP attribute helps with detection and mitigation of route leaks at ASes downstream from the leaking AS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-route-leak-detection-mitigation-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-route-leak-detection-mitigation-06.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lonvick-sobgp-radius'>
+<front>
+<title>RADIUS Attributes for soBGP Support</title>
+
+<author initials='C' surname='Lonvick' fullname='Chris Lonvick'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2004' />
+
+<abstract><t>This document defines a set of RADIUS attributes designed to support the provisioning of the soBGP protocol. A router will encapsulate the components of a soBGP certificate into a profile composed of ordered TLVs and transport them to a centralized server capable of verifying the associated signature. The certralized will respond notifying the client of the validity of the signed information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lonvick-sobgp-radius-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lonvick-sobgp-radius-04.txt' />
+</reference>

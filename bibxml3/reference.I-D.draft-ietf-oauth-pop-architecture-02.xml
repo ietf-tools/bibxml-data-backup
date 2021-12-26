@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-oauth-pop-architecture'>
+<front>
+<title>OAuth 2.0 Proof-of-Possession (PoP) Security Architecture</title>
+
+<author initials='P' surname='Hunt' fullname='Phil Hunt'>
+    <organization />
+</author>
+
+<author initials='J' surname='Richer' fullname='Justin Richer'>
+    <organization />
+</author>
+
+<author initials='W' surname='Mills' fullname='William Mills'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mishra' fullname='Prateek Mishra'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>The OAuth 2.0 bearer token specification, as defined in RFC 6750, allows any party in possession of a bearer token (a "bearer") to get access to the associated resources (without demonstrating possession of a cryptographic key).  To prevent misuse, bearer tokens must to be protected from disclosure in transit and at rest.  Some scenarios demand additional security protection whereby a client needs to demonstrate possession of cryptographic keying material when accessing a protected resource.  This document motivates the development of the OAuth 2.0 proof-of-possession security mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-oauth-pop-architecture-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-pop-architecture-02.txt' />
+</reference>

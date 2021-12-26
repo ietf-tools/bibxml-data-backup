@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-softwire-4over6multicast'>
+<front>
+<title>IPv4 over IPv6 multicast</title>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<date month='September' day='13' year='2006' />
+
+<abstract><t>The 4over6 mechanism is a mechanism to interconnect IPv4 networks over IPv6 backbones and provide IPv4-to-IPv6 transparent routing. The 4over6 unicast has been described in draft-wu-softwire-mesh-framework-00.txt. This memo provides the 4over6 multicast mechanism. We use BGP for discovering and maintaining the membership among all the Provider Edges (PE), and use IPv6 and IPv4 PIM-SM to construct the distribution tree. In the IPv6 backbone, static PIM-SSM trees are initially constructed for every PE. All the multicast traffic from the same PE are forwarded through only one PIM-SSM tree to avoid P routers maintaining too much state information. The process of encapsulation and decapsulation is the same as 4over6 unicast.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-softwire-4over6multicast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-softwire-4over6multicast-00.txt' />
+</reference>

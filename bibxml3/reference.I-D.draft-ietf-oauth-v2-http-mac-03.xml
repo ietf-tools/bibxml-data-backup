@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-oauth-v2-http-mac'>
+<front>
+<title>OAuth 2.0 Message Authentication Code (MAC) Tokens</title>
+
+<author initials='J' surname='Richer' fullname='Justin Richer'>
+    <organization />
+</author>
+
+<author initials='W' surname='Mills' fullname='William Mills'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>This specification describes how to use MAC Tokens in HTTP requests to access OAuth 2.0 protected resources.  An OAuth client willing to access a protected resource needs to demonstrate possession of a crytographic key by using it with a keyed message digest function to the request.  The document also defines a key distribution protocol for obtaining a fresh session key.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-oauth-v2-http-mac-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-v2-http-mac-03.txt' />
+</reference>

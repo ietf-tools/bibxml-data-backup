@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.acee-rtg-yang-key-chain'>
+<front>
+<title>Key Chain YANG Data Model</title>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Qu' fullname='Yingzhen Qu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Yeung' fullname='Derek Yeung'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Helen Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='Jeffrey Zhang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yi Yang'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2015' />
+
+<abstract><t>This document describes the key chain YANG data model.  A key chain is a list of elements each containing a key, send lifetime, accept lifetime, and algorithm.  By properly overlapping the send and accept lifetimes of multiple key chain elements, keys and algorithms may be gracefully updated.  By representing them in a YANG data model, key distribution can be automated.  Key chains are commonly used for routing protocol authentication and other applications.  In some applications, the protocols do not use the key chain element key directly, but rather a key derivation function is used to derive a short-lived key from the key chain element key.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-acee-rtg-yang-key-chain-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-acee-rtg-yang-key-chain-06.txt' />
+</reference>

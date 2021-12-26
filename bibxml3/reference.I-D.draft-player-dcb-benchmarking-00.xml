@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.player-dcb-benchmarking'>
+<front>
+<title>Benchmarking Methodology for Data Center Bridging Devices</title>
+
+<author initials='T' surname='Player' fullname='Timmons Player'>
+    <organization />
+</author>
+
+<author initials='D' surname='Newman' fullname='David Newman'>
+    <organization />
+</author>
+
+<date month='August' day='14' year='2009' />
+
+<abstract><t>Existing benchmarking methodologies are based on the assumption that networking devices will drop network traffic at their performance limits.  Data Center Bridging (DCB) devices, however, will attempt to throttle network endpoints before those limits are reached in order to minimize the probability of frame loss in the network.  Hence, existing methodologies based around frame loss are inappropriate for DCB devices.  This document takes the basic benchmarking ideas based on loss and extends them to support "lossless" Ethernet devices.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-player-dcb-benchmarking-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-player-dcb-benchmarking-00.txt' />
+</reference>

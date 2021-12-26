@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-cbor-packed'>
+<front>
+<title>Packed CBOR</title>
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+<organization />
+</author>
+<date year='2021' month='August' day='13' />
+<abstract><t>The Concise Binary Object Representation (CBOR, RFC 8949) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.</t><t> CBOR does not provide any forms of data compression.  CBOR data items, in particular when generated from legacy data models often allow considerable gains in compactness when applying data compression.  While traditional data compression techniques such as DEFLATE (RFC 1951) can work well for CBOR encoded data items, their disadvantage is that the receiver needs to unpack the compressed form to make use of data.</t><t> This specification describes Packed CBOR, a simple transformation of a CBOR data item into another CBOR data item that is almost as easy to consume as the original CBOR data item.  A separate decompression step is therefore often not required at the receiver.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-cbor-packed-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-cbor-packed-03.txt'/>
+</reference>

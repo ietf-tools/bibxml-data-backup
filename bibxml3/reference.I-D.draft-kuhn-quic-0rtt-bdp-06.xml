@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuhn-quic-0rtt-bdp'>
+<front>
+<title>Transport parameters for 0-RTT connections</title>
+
+<author initials='N' surname='Kuhn' fullname='Nicolas Kuhn'>
+    <organization />
+</author>
+
+<author initials='S' surname='Emile' fullname='Stephan Emile'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<date month='December' day='23' year='2019' />
+
+<abstract><t>QUIC 0-RTT relies on the sharing of the "initial_max_data" transport parameter between peers.  It indicates to the client the number of bytes it is allowed to send in the first packet of the 0-RTT connection.  This allows a faster startup of flows and enables adaptated buffer sizes at the server.  The traffic that the client sends, i.e. the egress trafic, is improved.  This memo proposes the sharing of additional transport parameters to provide a faster startup of flows and a better buffer management for the data that the client receives, i.e. the ingress traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuhn-quic-0rtt-bdp-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuhn-quic-0rtt-bdp-06.txt' />
+</reference>

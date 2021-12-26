@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nielsen-tsvwg-sctp-tlr'>
+<front>
+<title>SCTP Tail Loss Recovery Enhancements</title>
+
+<author initials='K' surname='Nielsen' fullname='Karen E. E. Nielsen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Santis' fullname='Rafaelle De Santis'>
+    <organization />
+</author>
+
+<author initials='A' surname='Brunstrom' fullname='Anna Brunstrom'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>Loss Recovery by means of T3-Retransmission has significant detrimental impact on the delays experienced through an SCTP association.  The throughput achievable over an SCTP association also is negatively impacted by the occurrence of T3-Retransmissions.  The present SCTP Fast Recovery algorithms as specified by [RFC4960] are not able to adequately or timely recover losses in certain situations, thus resorting to loss recovery by lengthy T3-Retransimissions or by non-timely activation of Fast Recovery.  In this document we specify a number of enhancements to the SCTP Loss Recovery algorithms which amends some of these deficiencies with a particular focus on Loss Recovery for drops in Traffic Tails.  The enhancements supplement the existing algorithms of [RFC4960] with proactive probing and timer driven activation of the Fast Retransmission algorithm as well as a number of enhancements of the Fast Retransmission algorithm in itself are specified.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nielsen-tsvwg-sctp-tlr-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nielsen-tsvwg-sctp-tlr-02.txt' />
+</reference>

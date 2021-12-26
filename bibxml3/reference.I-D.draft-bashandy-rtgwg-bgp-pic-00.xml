@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bashandy-rtgwg-bgp-pic'>
+<front>
+<title>Abstract</title>
+
+<author initials='A' surname='Bashandy' fullname='Ahmed Bashandy'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<date month='October' day='14' year='2015' />
+
+<abstract><t>In the network comprising thousands of iBGP peers exchanging millions of routes, many routes are reachable via more than one path. Given the large scaling targets, it is desirable to restore traffic after failure in a time period that does not depend on the number of BGP prefixes. In this document we proposed a technique by which traffic can be re-routed to ECMP or pre-calculated backup paths in a timeframe that does not depend on the number of BGP prefixes. The objective is achieved through organizing the forwarding chains in a hierarchical manner and sharing forwarding elements among the maximum possible number of routes. The proposed technique achieves prefix independent convergence while ensuring incremental deployment, complete transparency and automation, and zero management and provisioning effort</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bashandy-rtgwg-bgp-pic-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bashandy-rtgwg-bgp-pic-00.txt' />
+</reference>

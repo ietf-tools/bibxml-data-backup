@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hof-trans-cross'>
+<front>
+<title>STH Cross Logging</title>
+
+<author initials='B' surname='Hof' fullname='Benjamin Hof'>
+    <organization />
+</author>
+
+<date month='November' day='15' year='2017' />
+
+<abstract><t>A malicious Certificate Transparency (CT) log can offer a modified tree to a client in a "split view" attack.  This document proposes to extend CT by submitting Signed Tree Heads (STH) into another log, run by a different operator.  Auditors and monitors can use these cross logged STHs to detect split view attacks by the log.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hof-trans-cross-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hof-trans-cross-00.txt' />
+</reference>

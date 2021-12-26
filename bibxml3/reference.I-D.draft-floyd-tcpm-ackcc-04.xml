@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.floyd-tcpm-ackcc'>
+<front>
+<title>Adding Acknowledgement Congestion Control to TCP</title>
+
+<author initials='S' surname='Floyd' fullname='Sally Floyd'>
+    <organization />
+</author>
+
+<author initials='I' surname='Property' fullname='Intellectual  Property'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2008' />
+
+<abstract><t>This document adds an optional congestion control mechanism for acknowledgement traffic (ACKs) to TCP.  The document specifies an end-to-end acknowledgement congestion control mechanism for TCP that uses participation from both TCP hosts, the TCP data sender and the TCP data receiver.  The TCP data sender detects lost and ECN-marked ACK packets, and tells the TCP data receiver the ACK Ratio R to use to respond to the congestion on the reverse path from the data receiver to the data sender.  The TCP data receiver sends roughly one ACK packet for every R data packets received.  This mechanism is based on the acknowledgement congestion control in DCCP's CCID 2. This acknowledgement congestion control mechanism is being proposed as an experimental mechanism for TCP for evaluation by the network community.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-floyd-tcpm-ackcc-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-floyd-tcpm-ackcc-04.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-floyd-tcpm-ackcc-04.pdf' />
+</reference>

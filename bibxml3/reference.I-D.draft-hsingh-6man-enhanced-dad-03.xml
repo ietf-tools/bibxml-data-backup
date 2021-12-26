@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hsingh-6man-enhanced-dad'>
+<front>
+<title>Enhanced Duplicate Address Detection</title>
+
+<author initials='R' surname='Asati' fullname='Rajiv Asati'>
+    <organization />
+</author>
+
+<author initials='H' surname='Singh' fullname='Hemant Singh'>
+    <organization />
+</author>
+
+<author initials='W' surname='Beebee' fullname='Wes Beebee'>
+    <organization />
+</author>
+
+<author initials='E' surname='Dart' fullname='Eli Dart'>
+    <organization />
+</author>
+
+<author initials='W' surname='George' fullname='Wes George'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<date month='December' day='8' year='2011' />
+
+<abstract><t>Appendix A of the IPv6 Duplicate Address Detection (DAD) document in RFC 4862 discusses Loopback Suppression and DAD.  However, RFC 4862 does not settle on one specific automated means to detect loopback of Neighbor Discovery (ND of RFC 4861) messages used by DAD.  Several service provider communities have expressed a need for automated detection of looped backed ND messages used by DAD.  This document includes mitigation techniques and then outlines the Enhanced DAD algorithm to automate detection of looped back IPv6 ND messages used by DAD.  For network loopback tests, the Enhanced DAD algorithm allows IPv6 to self-heal after a loopback is placed and removed. Further, for certain access networks the document automates resolving a specific duplicate address conflict.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hsingh-6man-enhanced-dad-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hsingh-6man-enhanced-dad-03.txt' />
+</reference>

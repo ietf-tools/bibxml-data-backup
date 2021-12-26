@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tewari-nfsv4-federated-fs-protocol'>
+<front>
+<title>Protocol for Federated Filesystems v1.0</title>
+
+<author initials='R' surname='Tewari' fullname='Renu Tewari'>
+    <organization />
+</author>
+
+<author initials='M' surname='Naik' fullname='Manoj Naik'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ellard' fullname='Daniel  Ellard'>
+    <organization />
+</author>
+
+<author initials='C' surname='Everhart' fullname='Craig Everhart'>
+    <organization />
+</author>
+
+<date month='December' day='12' year='2007' />
+
+<abstract><t>This document describes a file system federation protocol that enables file access and namespace traversal across collections of independently administered fileservers. The protocol specifies a set of interfaces by which fileservers and collections of fileservers with different administrators can form a fileserver federation that provides a namespace composed of the filesystems physically hosted on and exported by the constituent fileservers. &lt;Tewari, et al.> Expires June 12, 2008 [page 2] Internet-Draft draft-tewari-nfsv4-federated-fs-protocol-00 December 2007 1 Introduction.....................................................5 1.1 Protocol Goals.............................................5 2 Overview of Features and Concepts................................6 2.1 Namespace..................................................6 2.2 Fileset....................................................6 2.2.1 Fileset Location (FSL)...............................6 2.3 Namespace Repository (NSDB)................................8 2.4 Mount Points, Junctions and Referrals......................8 2.5 Federation Root FileServers................................9 2.6 Federation Root FileSet....................................9 2.7 Fileservers................................................9 2.8 File-access Clients........................................9 3 Interaction with NFSv4...........................................9 4 Finding the local NSDB...........................................10 5 Examples.........................................................10 5.1 Create a Fileset and its FSL(s)............................10 5.1.1 Creating a Fileset and a FSN.........................10 5.1.2 Adding a Replica of a Fileset........................11 5.2 Junction Resolution........................................11 5.3 Example use case for fileset annotations...................12 6 Error Definitions................................................12 7 Protocol Operations..............................................13 7.1 ADMINISTRATIVE NSDB OPERATIONS.............................14 7.1.1 FSN_CREATE............................................15 7.1.2 FSN_DELETE............................................16 7.1.3 FSN_MOUNT.............................................17 7.1.4 FSN_UNMOUNT...........................................18 7.1.5 FSL_CREATE ...........................................19 7.1.6 FSL_DELETE...........................................20 7.1.7 FSL_UPDATE...........................................20 7.1.8 FSL_STAT.............................................21 7.2 FILESERVER to NSDB OPERATIONS..............................21 7.2.1 FSN_GET_FSL..........................................21 7.3 ADMIN to FILESERVER OPERATIONS.............................22 7.3.1 FSL_FINDBYHOST, FSN_FINDBYHOST, FSL_FINDBYHOSTPATH,.......24 7.3.2 FSN_CREATE_JUNCTION.........................................24 7.3.3 FSN_CREATE_EXPORT....................................25 8 Security Considerations..........................................25 9 IANA Considerations..............................................25 10 Conclusions...................................................25 11 Glossary......................................................25 Appendix B. Namespace Schema Class Objects..........................28 12 References....................................................30 12.1 Normative References.......................................30 &lt;Tewari, et al.> Expires June 12, 2008 [page 3] Internet-Draft draft-tewari-nfsv4-federated-fs-protocol-00 December 2007 Author's Addresses..................................................31 Intellectual Property Statement.....................................32 Disclaimer of Validity..............................................32 &lt;Tewari, et al.> Expires June 12, 2008 [page 4] Internet-Draft draft-tewari-nfsv4-federated-fs-protocol-00 December 2007</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tewari-nfsv4-federated-fs-protocol-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tewari-nfsv4-federated-fs-protocol-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schuetz-nid-arch'>
+<front>
+<title>Node Identity Internetworking Architecture</title>
+
+<author initials='S' surname='Schuetz' fullname='Simon Schuetz'>
+    <organization />
+</author>
+
+<date month='September' day='18' year='2007' />
+
+<abstract><t>This document describes a new proposal for a future Internet architecture.  Similar to many other proposals it employs a locator/ identifier split to overcome the short-comings arising from the dual role of IP addresses.  Similar to the Host Identity Protocol, each node carries a unique, randomly self-generated identifier - the public part of a public/private key pair.  It can therefore directly be used for authentication and authorisation purposes.  Different from some other proposals, the Node Identity Internetworking architecture does not try to converge on a single (globally managed) address space, but instead accepts the co-existence of different networking domains - here called locator domains.  Routing within the architecture is based on a two-level approach.  First, routing within a locator domain is managed by the internal addressing and routing scheme of the locator domain.  Second, routing between locator domains involves specialized nodes at locator domain borders.  By grouping the nodes into locator domains, the effects of certain events such as mobility can often be localised, thus reducing the impact on the global network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schuetz-nid-arch-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schuetz-nid-arch-00.txt' />
+</reference>

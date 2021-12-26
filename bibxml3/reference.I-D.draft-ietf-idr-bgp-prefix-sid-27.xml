@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-prefix-sid'>
+<front>
+<title>Segment Routing Prefix SID extensions for BGP</title>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sreekantiah' fullname='Arjun Sreekantiah'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<date month='June' day='26' year='2018' />
+
+<abstract><t>Segment Routing (SR) leverages the source routing paradigm.  A node steers a packet through an ordered list of instructions, called segments.  A segment can represent any instruction, topological or service-based.  The ingress node prepends an SR header to a packet containing a set of segment identifiers (SID).  Each SID represents a topological or a service-based instruction.  Per-flow state is maintained only on the ingress node of the SR domain.  An SR domain is defined as a single administrative domain for global SID assignment.  This document defines an optional, transitive BGP attribute for announcing BGP Prefix Segment Identifiers (BGP Prefix-SID) information and the specification for SR-MPLS SIDs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-prefix-sid-27' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-prefix-sid-27.txt' />
+</reference>

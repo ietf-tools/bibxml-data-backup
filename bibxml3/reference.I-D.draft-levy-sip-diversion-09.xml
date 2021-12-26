@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.levy-sip-diversion'>
+<front>
+<title>Diversion Indication in SIP</title>
+
+<author initials='S' surname='Levy' fullname='Stuart Levy'>
+    <organization />
+</author>
+
+<author initials='B' surname='Byerly' fullname='Bryan Byerly'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yang' fullname='John Yang'>
+    <organization />
+</author>
+
+<date month='May' day='1' year='2009' />
+
+<abstract><t>This document proposes an extension to the Session Initiation Protocol (SIP).  This extension provides the ability for the called SIP user agent to identify from whom the call was diverted and why the call was diverted. The extension defines a general header, Diversion, which conveys the diversion information from other SIP user agents and proxies to the called user agent. This extension allows enhanced support for various features, including Unified Messaging, Third-Party Voicemail, and Automatic Call Distribution (ACD).  SIP user agents and SIP proxies which receive diversion information may use this as supplemental information for feature invocation decisions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-levy-sip-diversion-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-levy-sip-diversion-09.txt' />
+</reference>

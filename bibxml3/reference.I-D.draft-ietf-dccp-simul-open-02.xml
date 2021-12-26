@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dccp-simul-open'>
+<front>
+<title>DCCP Simultaneous-Open Technique to Facilitate NAT/Middlebox Traversal</title>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<author initials='G' surname='Renker' fullname='Gerrit Renker'>
+    <organization />
+</author>
+
+<date month='September' day='15' year='2008' />
+
+<abstract><t>This document specifies an update to the Datagram Congestion Control Protocol (DCCP), a connection-oriented and datagram-based transport protocol.  The update adds a packet type, DCCP-Listen, which assists DCCP applications that need to communicate through one or more middleboxes (e.g.  Network Address Translators, NATs, or firewalls), where establishing necessary middlebox state requires peering endpoints to initiate communication in a near-simultaneous manner.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dccp-simul-open-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-simul-open-02.txt' />
+</reference>

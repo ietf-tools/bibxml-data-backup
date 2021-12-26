@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-rtp-circuit-breakers'>
+<front>
+<title>RTP Congestion Control: Circuit Breakers for Unicast Sessions</title>
+
+<author initials='C' surname='Perkins' fullname='Colin Perkins'>
+    <organization />
+</author>
+
+<author initials='V' surname='Singh' fullname='Varun Singh'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2012' />
+
+<abstract><t>The Real-time Transport Protocol (RTP) is widely used in telephony, video conferencing, and telepresence applications.  Such applications are often run on best-effort UDP/IP networks.  If congestion control is not implemented in the applications, then network congestion will deteriorate the user's multimedia experience.  This document does not propose a congestion control algorithm; rather, it defines a minimal set of "circuit-breakers".  Circuit-breakers are conditions under which an RTP flow is expected to stop transmitting media to protect the network from excessive congestion.  It is expected that all RTP applications running on best-effort networks will be able to run without triggering these circuit breakers in normal operation.  Any future RTP congestion control specification is expected to operate within the envelope defined by these circuit breakers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-rtp-circuit-breakers-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-rtp-circuit-breakers-01.txt' />
+</reference>

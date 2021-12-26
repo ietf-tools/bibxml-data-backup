@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-tcpsecure'>
+<front>
+<title>Improving TCP's Robustness to Blind In-Window Attacks</title>
+
+<author initials='A' surname='Ramaiah' fullname='Anantha Ramaiah'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2007' />
+
+<abstract><t>TCP has historically been considered protected against spoofed packet injection attacks by relying on the fact that it is difficult to guess the 4-tuple (the source and destination IP addresses and the source and destination ports) in combination with the 32 bit sequence number(s). A combination of increasing window sizes and applications using a longer term connections (e.g. H-323 or Border Gateway Protocol [RFC4271]) have left modern TCP implementation more vulnerable to these types of spoofed packet injection attacks. Many of these long term TCP applications tend to have predictable IP addresses and ports which makes it far easier for the 4-tuple to be guessed. Having guessed the 4-tuple correctly, an attacker can inject a RST, SYN or DATA segment into a TCP connection by carefully crafting the sequence number of the spoofed segment to be in the current receive window. This can cause the connection to either abort or possibly cause data corruption. This document specifies small modifications to the way TCP handles inbound segments that can reduce the chances of a successful attack.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-tcpsecure-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-tcpsecure-07.txt' />
+</reference>

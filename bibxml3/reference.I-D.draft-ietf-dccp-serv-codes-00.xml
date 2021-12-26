@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dccp-serv-codes'>
+<front>
+<title>The DCCP Service Code</title>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2007' />
+
+<abstract><t>This document describes the usage of Service Codes by the Datagram Congestion Control Protocol, RFC 4340. Service Codes provide a method to identify the intended service/application to process a DCCP connection request. This provides improved flexibility in the use and assignment of port numbers for connection multiplexing. The use of a DCCP Service Code can also enable more explicit coordination of services behind network address translators and firewalls. This document motivates the setting of Service Codes by applications, rather than assigning a default Service Code value of zero. This updates the description provided in RFC4 4340.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dccp-serv-codes-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-serv-codes-00.txt' />
+</reference>

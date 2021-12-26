@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-ikev2-multiple-ke'>
+<front>
+<title>Multiple Key Exchanges in IKEv2</title>
+
+<author initials='C' surname='Tjhai' fullname='C. Tjhai'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tomlinson' fullname='M. Tomlinson'>
+    <organization />
+</author>
+
+<author initials='g' surname='grbartle@cisco.com' fullname='grbartle@cisco.com'>
+    <organization />
+</author>
+
+<author initials='S' surname='Fluhrer' fullname='Scott Fluhrer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Geest' fullname='Daniel Van Geest'>
+    <organization />
+</author>
+
+<author initials='O' surname='Garcia-Morchon' fullname='Oscar Garcia-Morchon'>
+    <organization />
+</author>
+
+<author initials='V' surname='Smyslov' fullname='Valery Smyslov'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2020' />
+
+<abstract><t>This document describes how to extend the Internet Key Exchange Protocol Version 2 (IKEv2) to allow multiple key exchanges to take place while computing of a shared secret during a Security Association (SA) setup.  The primary application of this feature in IKEv2 is the ability to perform one or more post-quantum key exchanges in conjunction with the classical (Elliptic Curve) Diffie- Hellman key exchange, so that the resulting shared key is resistant against quantum computer attacks.  Another possible application is the ability to combine several key exchanges in situations when no single key exchange algorithm is trusted by both initiator and responder.  This document updates RFC7296 by renaming a tranform type 4 from "Diffie-Hellman Group (D-H)" to "Key Exchange Method (KE)" and renaming a field in the Key Exchange Payload from "Diffie-Hellman Group Num" to "Key Exchange Method".  It also renames an IANA registry for this transform type from "Transform Type 4 - Diffie- Hellman Group Transform IDs" to "Transform Type 4 - Key Exchange Method Transform IDs".  These changes generalize key exchange algorithms that can be used in IKEv2.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-ikev2-multiple-ke-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-ikev2-multiple-ke-00.txt' />
+</reference>

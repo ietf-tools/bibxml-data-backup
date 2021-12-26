@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.westerlund-mmusic-max-ssrc'>
+<front>
+<title>Multiple Synchronization Sources (SSRC) in SDP Media Descriptions</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<author initials='F' surname='Jansson' fullname='Fredrik Jansson'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2013' />
+
+<abstract><t>This document describes use-cases where endpoints, for a given media type, use multiple media sources.  It also describes how endpoints normally support media sources, and limitations associated with the support of multiple sources.  This document also defines two new SDP attributes, "max-send-ssrc" and "max-recv-ssrc".  The attributes allows an entity to, for a given media description, indicate sending and receiving capabilities of multiple media sources, based on codec usage .</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-westerlund-mmusic-max-ssrc-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-westerlund-mmusic-max-ssrc-01.txt' />
+</reference>

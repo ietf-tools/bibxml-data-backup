@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-hl-dnsop-cache-filling-00.txt'>
+    <title>"Additional Method for Filling DNS Caches", Paul Hoffman, Matt Larson</title>
+    <link>http://www.ietf.org/internet-drafts/draft-hl-dnsop-cache-filling-00.txt</link>
+    <description>DNS recursive resolvers do not always have access to the authoritative resolvers from which they need to get information.  For example, when the DNS root servers are under DDoS attack, a recursive resolver may not be able to get an answer from any of the root servers.  This document describes how resolvers can populate their caches with zone information, and keep their cache populated, using out-of-band mechanisms that do not rely on the DNS protocol.  The protocol is primarily designed for the root zone, but can apply to any zone that wants to participate by publishing values to be cached.</description>
+    <dc:date>2018-03-02T08:00:00-00:00</dc:date>
+</item>

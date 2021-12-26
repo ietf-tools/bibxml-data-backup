@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.welzl-irtf-iccrg-tcp-in-udp'>
+<front>
+<title>TCP in UDP</title>
+
+<author initials='M' surname='Welzl' fullname='Michael Welzl'>
+    <organization />
+</author>
+
+<author initials='S' surname='Islam' fullname='Safiqul Islam'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hiorth' fullname='Kristian Hiorth'>
+    <organization />
+</author>
+
+<author initials='J' surname='You' fullname='Jianjie You'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This document specifies a method to encapsulate multiple TCP connections using only one UDP port number pair.  Doing so allows for a relatively easy implementation of coupled congestion control for the TCP connections.  This can have several performance benefits, and it makes it possible to precisely assign a share of the congestion window to the connections based on priorities.  It also enables use of UDP-based NAT traversal techniques, and it can act as a framework for experimentation with novel changes to the TCP standard.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-welzl-irtf-iccrg-tcp-in-udp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-welzl-irtf-iccrg-tcp-in-udp-00.txt' />
+</reference>

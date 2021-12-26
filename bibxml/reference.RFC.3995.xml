@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3995' target='https://www.rfc-editor.org/info/rfc3995'>
+<front>
+<title>Internet Printing Protocol (IPP): Event Notifications and Subscriptions</title>
+<author initials='R.' surname='Herriot' fullname='R. Herriot'><organization /></author>
+<author initials='T.' surname='Hastings' fullname='T. Hastings'><organization /></author>
+<date year='2005' month='March' />
+<abstract><t>This document describes an OPTIONAL extension to the Internet Printing Protocol/1.1: Model and Semantics (RFC 2911, RFC 2910).  This extension allows a client to subscribe to printing related Events.  Subscriptions are modeled as Subscription Objects.  The Subscription Object specifies that when one of the specified Events occurs, the Printer delivers an asynchronous Event Notification to the specified Notification Recipient via the specified Push or Pull Delivery Method (i.e., protocol). </t><t> A client associates Subscription Objects with a particular Job by performing the Create-Job-Subscriptions operation or by submitting a Job with subscription information.  A client associates Subscription Objects with the Printer by performing a Create-Printer-Subscriptions operation.  Four other operations are defined for Subscription Objects: Get-Subscriptions-Attributes, Get-Subscriptions, Renew-Subscription, and Cancel-Subscription.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3995'/>
+<seriesInfo name='DOI' value='10.17487/RFC3995'/>
+</reference>

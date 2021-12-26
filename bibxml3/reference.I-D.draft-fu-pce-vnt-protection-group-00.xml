@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fu-pce-vnt-protection-group'>
+<front>
+<title>A YANG Model for IP Link and Transport Service Mapping</title>
+
+<author initials='P' surname='FU' fullname='Pengcheng FU'>
+    <organization />
+</author>
+
+<author initials='J' surname='FU' fullname='Jianzhong FU'>
+    <organization />
+</author>
+
+<author initials='R' surname='Jing' fullname='Ruiquan Jing'>
+    <organization />
+</author>
+
+<date month='October' day='28' year='2016' />
+
+<abstract><t>IP+optical is a cross-layer collaboration technology for unified management of IP and optical networks.  Based on framework proposed in [ACTN- FWK][I-D.ietf-teas-actn-framework], this draft presents specific information about the IP+optical solution: hierarchical controllers + disabled GMPLS UNIs.  This solution does not involve UNI tunnel objects.  Therefore, the mapping between IP links and transport services is key point of this solution.  The system uses loose-coupled dual-controllers to implement cross- layer collaborative path calculation on the virtual network topology (VNT), where the VNT provides the route calculation bridging function.  The VNT needs to be defined as a YANG model for configuration management.  This draft provides a YANG model for the RESTCONF/NETCONF protocol. This YANG module defines NBIs for the IP+optical super controller.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fu-pce-vnt-protection-group-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fu-pce-vnt-protection-group-00.txt' />
+</reference>

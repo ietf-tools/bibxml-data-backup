@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ppsp-peer-protocol'>
+<front>
+<title>Peer-to-Peer Streaming Peer Protocol (PPSPP)</title>
+
+<author initials='A' surname='Bakker' fullname='A. Bakker'>
+    <organization />
+</author>
+
+<author initials='R' surname='Petrocco' fullname='Riccardo Petrocco'>
+    <organization />
+</author>
+
+<author initials='V' surname='Grishchenko' fullname='Victor Grishchenko'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>The Peer-to-Peer Streaming Peer Protocol (PPSPP) is a protocol for disseminating the same content to a group of interested parties in a streaming fashion.  PPSPP supports streaming of both pre-recorded (on-demand) and live audio/video content.  It is based on the peer- to-peer paradigm, where clients consuming the content are put on equal footing with the servers initially providing the content, to create a system where everyone can potentially provide upload bandwidth.  It has been designed to provide short time-till-playback for the end user, and to prevent disruption of the streams by malicious peers.  PPSPP has also been designed to be flexible and extensible.  It can use different mechanisms to optimize peer uploading, prevent freeriding, and work with different peer discovery schemes (centralized trackers or Distributed Hash Tables).  It supports multiple methods for content integrity protection and chunk addressing.  Designed as a generic protocol that can run on top of various transport protocols, it currently runs on top of UDP using LEDBAT for congestion control.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ppsp-peer-protocol-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ppsp-peer-protocol-07.txt' />
+</reference>

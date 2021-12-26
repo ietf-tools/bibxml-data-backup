@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-best-external'>
+<front>
+<title>Advertisement of the best external route in BGP</title>
+
+<author initials='P' surname='Marques' fullname='Pedro Marques'>
+    <organization />
+</author>
+
+<author initials='R' surname='Fernando' fullname='Rex Fernando'>
+    <organization />
+</author>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2011' />
+
+<abstract><t>The base BGP specifications prevent a BGP speaker from advertising any route that is not the best route for a BGP destination.  This document specifies a modification of this rule.  Routes are divided into two categories, "external" and "internal".  A specification is provided for choosing a "best external route" (for a particular value of the Network Layer Reachability Information).  A BGP speaker is then allowed to advertise its "best external route" to its internal BGP peers, even if that is not the best route for the destination. The document explains why advertising the best external route can improve convergence time without causing routing loops.  Additional benefits include reduction of inter-domain churn and avoidance of permanent route oscillation.  The document also generalizes the notions of "internal" and "external" so that they can be applied to Route Reflector Clusters and Autonomous System Confederations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-best-external-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-best-external-03.txt' />
+</reference>

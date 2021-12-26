@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-bess-evpn-cmac-overload-reduction'>
+<front>
+<title>Light Weighted EVPN</title>
+<author initials='Y' surname='Wang' fullname='Yubao Wang'>
+<organization />
+</author>
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+<organization />
+</author>
+<date year='2021' month='August' day='30' />
+<abstract><t>SRv6 EVPN [I-D.ietf-bess-srv6-services] is not sufficient for some light-weighted use cases.  When PBB EVPN [RFC7623] over SRv6 is used to support these light-weighted EVPN services, it is complicated to make use of the SID list to carry a function that is aiming for C-MACs.</t><t> In [RFC8986], End.DX2 function is defined, this function can be used in EVPN VPLS.  When it is used in EVPN VPLS, the data-plane learning defined in End.DT2U function can also be transplanted into End.DX2 function.  On the basis of such extended End.DX2 function, SRv6 EVPN can be improved to meet all the requirements per [RFC7623] and bring us some other benefits.  Such SRv6 EVPN is called light-weighted SRv6 EVPN, and it will be more simpler than PBB EVPN over SRv6.</t><t> It is easy for the light-weighted SRv6 EVPN to carry a SID that is aiming for customer ethernet packets, because there will be no other ethernet header between the SID list and the customer ethernet header.  These SIDs may be user-defined functions for the customer ethernet headers.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-wang-bess-evpn-cmac-overload-reduction-07'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-wang-bess-evpn-cmac-overload-reduction-07.txt'/>
+</reference>

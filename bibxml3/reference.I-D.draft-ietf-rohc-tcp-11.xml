@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rohc-tcp'>
+<front>
+<title>RObust Header Compression (ROHC): A Profile for TCP/IP (ROHC-TCP)</title>
+
+<author initials='G' surname='Pelletier' fullname='Ghyslain  Pelletier'>
+    <organization />
+</author>
+
+<date month='January' day='4' year='2006' />
+
+<abstract><t>Existing TCP/IP header compression schemes do not work well when used over links with significant error rates and long round-trip times. For many bandwidth-limited links where header compression is essential, such characteristics are common. In addition, existing schemes have not addressed how to compress TCP options such as SACK (Selective Acknowledgements) and Timestamps. This document specifies a ROHC (Robust Header Compression) profile for compression of TCP/IP packets. The profile, called ROHC-TCP, is a robust header compression scheme for TCP/IP that provides improved compression efficiency and enhanced capabilities for compression of various header fields including TCP options.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rohc-tcp-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rohc-tcp-11.txt' />
+</reference>

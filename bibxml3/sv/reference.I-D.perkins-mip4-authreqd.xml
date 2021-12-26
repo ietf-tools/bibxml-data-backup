@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.perkins-mip4-authreqd'>
+<front>
+<title>Authentication Mandate for All Registration Reply Messages</title>
+
+<author initials='C' surname='Perkins' fullname='Charles Perkins'>
+    <organization />
+</author>
+
+<date month='October' day='12' year='2009' />
+
+<abstract><t>Some implementations of Mobile IP home agents have been observed to supply zero authentication data when sending a Registration Reply to the mobile node that contains rejection code 131 (Mobile Node Failed Authentication).  This creates a vulnerability whereby a mobile node could be denied service from its home agent, and thus lose connectivity to the Internet even though mobile node and home agent were otherwise functioning properly.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-perkins-mip4-authreqd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-perkins-mip4-authreqd-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ledbat-congestion'>
+<front>
+<title>Low Extra Delay Background Transport (LEDBAT)</title>
+
+<author initials='S' surname='Shalunov' fullname='Stanislav Shalunov'>
+    <organization />
+</author>
+
+<author initials='G' surname='Hazel' fullname='Greg Hazel'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2010' />
+
+<abstract><t>LEDBAT is an alternative experimental congestion control algorithm.  LEDBAT enables a networking application to minimize the extra delay it induces in the bottleneck while saturating the bottleneck.  It thus implements an end-to-end version of scavenger service.  LEDBAT has been been implemented in uTorrent, which is currently the most popular BitTorrent client, as the preferred congestion control mechanism, and deployed in the wild with favorable results.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ledbat-congestion-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ledbat-congestion-02.txt' />
+</reference>

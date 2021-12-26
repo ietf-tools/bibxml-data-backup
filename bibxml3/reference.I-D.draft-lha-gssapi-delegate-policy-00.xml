@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lha-gssapi-delegate-policy'>
+<front>
+<title>GSS-API: Delegate if approved by policy</title>
+
+<author initials='L' surname='Astrand' fullname='Love Astrand'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hartman' fullname='Sam Hartman'>
+    <organization />
+</author>
+
+<date month='August' day='13' year='2008' />
+
+<abstract><t>Several GSS-API applications work in a multi-tiered architecture, where the server takes advantage of delegated user credentials to act on behalf of the user and contact additional servers.  In effect, the server acts as an agent on behalf of the user.  Examples include web applications that need to access e-mail or file servers as well as CIFs file servers.  However, delegating the ability to act as a user to a party who is not sufficiently trusted is problematic from a security standpoint.  Kerberos provides a flag called OK-AS-DELEGATE that allows the administrator of a Kerberos realm to communicate that a particular service is trusted for delegation.  This specification adds support for this flag and similar facilities in other authentication mechanisms to GSS-API (RFC 2743).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lha-gssapi-delegate-policy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lha-gssapi-delegate-policy-00.txt' />
+</reference>

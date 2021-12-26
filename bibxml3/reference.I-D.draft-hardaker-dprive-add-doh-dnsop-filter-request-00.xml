@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hardaker-dprive-add-doh-dnsop-filter-request'>
+<front>
+<title>Client DNS Filtering Profile Request</title>
+
+<author initials='W' surname='Hardaker' fullname='Wes Hardaker'>
+    <organization />
+</author>
+
+<date month='September' day='27' year='2019' />
+
+<abstract><t>This document defines a mechanism under which a client can request that an upstream recursive resolver perform DNS filtering on behalf of a client-requested policy.  This is may be done, for example, under a subscription model, where the client wishes not to get redirected to domains known to host malware or malicious content. This request is sent as an EDNS0 option with every DNS request, or potentially to just the first DNS request in a stream when using DNS over TLS, DNS over DTLS or DNS over DOH for example.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hardaker-dprive-add-doh-dnsop-filter-request-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hardaker-dprive-add-doh-dnsop-filter-request-00.txt' />
+</reference>

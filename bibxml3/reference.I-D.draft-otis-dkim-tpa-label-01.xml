@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-dkim-tpa-label'>
+<front>
+<title>DKIM Third-Party Authorization Label</title>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<date month='October' day='8' year='2009' />
+
+<abstract><t>TPA-Label is a DNS-based prefix mechanism for DKIM policy related records as a means to authorize Third-Party domains, such as mailing- lists.  This mechanism allows first-party domains to autonomously authorize a range of third-party domains using scalable, individual DNS transactions.  This authorization extends the scope of DKIM policy assertions as a means to supplant more difficult to administer mechanisms.  Alternatives for facilitating third-party authorizations currently necessitate the coordination between two or more domains to synchronously set up selector/key DNS records, DNS zone delegations, and/or the regular exchange of public/private keys.  Checking DKIM policies may occur when a From header email-address is not within the domain of a valid DKIM signature.  When a Third-Party signature is found, TPA-Label transactions offer an efficient means for Author Domains to authorize specific third-party signing domains.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-dkim-tpa-label-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-dkim-tpa-label-01.txt' />
+</reference>

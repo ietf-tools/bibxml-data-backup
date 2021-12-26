@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rohc-context-replication'>
+<front>
+<title>RObust Header Compression (ROHC):Context Replication for ROHC Profiles</title>
+
+<author initials='G' surname='Pelletier' fullname='Ghyslain Pelletier'>
+    <organization />
+</author>
+
+<date month='October' day='6' year='2004' />
+
+<abstract><t>This document defines context replication, a complement to the context initialization procedure found in ROHC (Robust Header Compression) [RFC-3095]. Profiles defining support for context replication may use the mechanism described herein to establish a new context based on another already existing context. Context replication is introduced to reduce the overhead of the context establishment procedure, and may be especially useful for the compression of multiple short-lived flows that may be occurring simultaneously or near-simultaneously, such as for example short- lived TCP flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rohc-context-replication-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rohc-context-replication-06.txt' />
+</reference>

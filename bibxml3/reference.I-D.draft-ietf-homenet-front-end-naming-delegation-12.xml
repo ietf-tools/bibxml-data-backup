@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-homenet-front-end-naming-delegation'>
+<front>
+<title>Simple Provisioning of Public Names for Residential Networks</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='R' surname='Weber' fullname='Ralf Weber'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hunter' fullname='Ray Hunter'>
+    <organization />
+</author>
+
+<author initials='C' surname='Griffiths' fullname='Chris Griffiths'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>Home owners often have IPv6 devices that they wish to access over the Internet using names.  It has been possible to register and populate a DNS Zone with names since DNS became a thing, but it has been an activity typically reserved for experts.  This document automates the process through creation of a Homenet Naming Authority, whose responsibility is to select, sign and publish names to a set of publically visible servers.  The use of an outsourced primary DNS server deals with possible renumbering of the home network, and with possible denial of service attacks against the DNS infrastructure.  This document describes the mechanism that enables the Home Network Authority (HNA) to outsource the naming service to the DNS Outsourcing Infrastructure via a Distribution Master (DM).  In addition, this document deals with publication of a corresponding reverse zone.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-homenet-front-end-naming-delegation-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-homenet-front-end-naming-delegation-12.txt' />
+</reference>

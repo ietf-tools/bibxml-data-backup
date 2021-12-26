@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raszuk-idr-bgp-pr'>
+<front>
+<title>BGP Path Record Attribute</title>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<date month='July' day='23' year='2014' />
+
+<abstract><t>BGP protocol today contains number of build in mechanisms which record critical for its loop free operation data along the path of BGP message propagation.  Those are encoded in AS_PATH, CLUSTER_LIST or ORIGINATOR_ID attributes.  However in the same time there is no provisioning to record other useful information along the path which can be helpful to the operator in order to enhance end to end visibility of BGP control plane.  In order to solve this problem this document proposes a new single BGP attribute designed as an generic and extensible container to carry number of new optional information corresponding to the BGP speakers given BGP advertisement (or withdraw) message traverses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raszuk-idr-bgp-pr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raszuk-idr-bgp-pr-00.txt' />
+</reference>

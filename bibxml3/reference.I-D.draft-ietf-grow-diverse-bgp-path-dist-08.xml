@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-grow-diverse-bgp-path-dist'>
+<front>
+<title>Distribution of diverse BGP paths.</title>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='R' surname='Fernando' fullname='Rex Fernando'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='D' surname='McPherson' fullname='Danny McPherson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kumaki' fullname='Kenji Kumaki'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2012' />
+
+<abstract><t>The BGP4 protocol specifies the selection and propagation of a single best path for each prefix.  As defined and widely deployed today BGP has no mechanisms to distribute alternate paths which are not considered best path between its speakers.  This behaviour results in number of disadvantages for new applications and services.  The main objective of this document is to observe that by simply adding new session between route reflector and it's client Nth best path can be distributed.  Document also compares existing solutions and proposed ideas that enable distribution of more paths than just the best path.  This proposal does not specify any changes to the BGP protocol definition.  It does not require software upgrade of provider edge routers acting as route reflector clients.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-grow-diverse-bgp-path-dist-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-grow-diverse-bgp-path-dist-08.txt' />
+</reference>

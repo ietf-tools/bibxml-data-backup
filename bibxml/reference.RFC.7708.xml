@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7708' target='https://www.rfc-editor.org/info/rfc7708'>
+<front>
+<title>Using a Generic Associated Channel Label as a Virtual Circuit Connectivity Verification Channel Indicator</title>
+<author initials='T.' surname='Nadeau' fullname='T. Nadeau'><organization /></author>
+<author initials='L.' surname='Martini' fullname='L. Martini'><organization /></author>
+<author initials='S.' surname='Bryant' fullname='S. Bryant'><organization /></author>
+<date year='2015' month='November' />
+<abstract><t>The Virtual Circuit Connectivity Verification (VCCV) protocol specified in RFC 5085 provides a control channel (CC) that is associated with a pseudowire (PW).  This document specifies an additional VCCV control channel type to be used with pseudowires that do not use the PW Control Word and that are carried over an MPLS network.  This new VCCV CC type uses the Generic Associated Channel Label defined in RFC 5586 to distinguish VCCV packets from packets carrying user data.  This new VCCV CC type introduces compatibility with the method of MPLS Label Switched Path Operations, Administration, and Maintenance (OAM) identification, particularly in MPLS Transport Profile (MPLS-TP) networks (RFC 5921).</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7708'/>
+<seriesInfo name='DOI' value='10.17487/RFC7708'/>
+</reference>

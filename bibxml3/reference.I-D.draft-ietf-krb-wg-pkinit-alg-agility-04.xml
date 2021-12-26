@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-krb-wg-pkinit-alg-agility'>
+<front>
+<title>PK-INIT algorithm agility</title>
+
+<author initials='L' surname='Astrand' fullname='Love Astrand'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhu' fullname='Larry Zhu'>
+    <organization />
+</author>
+
+<date month='August' day='5' year='2008' />
+
+<abstract><t>The PK-INIT defined in RFC 4556 is examined and updated to remove protocol structures tied to specific cryptographic algorithms.  The affinity to SHA-1 as the checksum algorithm in the authentication request is analyzed.  The PK-INIT key derivation function is made negotiable, the digest algorithms for signing the pre-authentication data and the client's X.509 certificates are made discoverable.  These changes provide protection preemptively against vulnerabilities discovered in the future against any specific cryptographic algorithm, and allow incremental deployment of newer algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-krb-wg-pkinit-alg-agility-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-krb-wg-pkinit-alg-agility-04.txt' />
+</reference>

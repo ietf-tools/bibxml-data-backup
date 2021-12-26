@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ash-avt-hc-over-mpls-protocol-01.txt'>
+    <title>"Protocol Extensions for Header Compression over MPLS", Jerry Ash</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ash-avt-hc-over-mpls-protocol-01.txt</link>
+    <description>VoIP typically uses the encapsulation voice/RTP/UDP/IP. When MPLS Labels are added, this becomes voice/RTP/UDP/IP/MPLS-labels. For an MPLS VPN, the packet header is typically 48 bytes, while the voice payload is often no more than 30 bytes, for example. Header compression can significantly reduce the overhead through various compression mechanisms. MPLS is used to route header-compressed (HC) packets over an MPLS LSP without compression/decompression cycles at each router. Such an HC over MPLS capability increases the bandwidth efficiency as well as processing scalability of the maximum number of simultaneous compressed flows that use HC at each router. MPLS pseudowires are used to transport the HC context and other control messages between the ingress and egress MPLS label switched router (LSR), and the pseudowires define a point to point instance of each HC session at the header decompressor. Standard HC methods (e.g., ECRTP, ROHC, etc.) are re-used to determine the context.</description>
+    <dc:date>2005-07-08T07:00:00-00:00</dc:date>
+</item>

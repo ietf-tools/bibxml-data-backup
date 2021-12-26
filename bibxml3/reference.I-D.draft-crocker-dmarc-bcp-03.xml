@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-dmarc-bcp'>
+<front>
+<title>Using DMARC</title>
+
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+    <organization />
+</author>
+
+<date month='November' day='5' year='2013' />
+
+<abstract><t>Email abuse often relies on unauthorized use of a domain name, such as one belonging to a well-known company (brand).  SPF and DKIM provide basic domain name authentication methods for email.  A recent industry effort built an additional authentication-based layer, called Domain-based Message Authentication, Reporting &amp; Conformance (DMARC).  It allows a sender to indicate that their emails are protected by SPF and/or DKIM, and tells a receiver what to do if neither of those authentication methods passes; it also provides a reporting mechanism, from receivers back to domain owners.  Such capabilities over the public Internet are unusual and their use is not yet well-understood.  This document formulates a set of best practices for the use of DMARC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crocker-dmarc-bcp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crocker-dmarc-bcp-03.txt' />
+</reference>

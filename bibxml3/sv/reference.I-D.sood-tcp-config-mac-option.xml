@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sood-tcp-config-mac-option'>
+<front>
+<title>TCP Configurable Message Authentication Code (MAC) Option</title>
+
+<author initials='K' surname='Sood' fullname='Kapil Sood'>
+    <organization />
+</author>
+
+<date month='February' day='3' year='2004' />
+
+<abstract><t>This RFC proposes a generic and configurable message authentication code (MAC) option for TCP. This work extends the practice defined in TCP MD5 Signature Option for BGP sessions [RFC-2385]. This RFC describes a new TCP option that allows any TCP-based application to enhance security in TCP connections. This option is configurable because it allows implementers to choose the digest mechanism of choice for each TCP connection. This digest mechanism constructs a MAC for each TCP segment, using a (preferably) connection specific shared secret key and components from TCP header and data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sood-tcp-config-mac-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sood-tcp-config-mac-option-00.txt' />
+</reference>

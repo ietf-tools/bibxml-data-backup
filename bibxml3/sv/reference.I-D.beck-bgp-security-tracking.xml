@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.beck-bgp-security-tracking'>
+<front>
+<title>BGP Security Tracking</title>
+
+<author initials='J' surname='Beck' fullname='Jody Beck'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gray' fullname='Andrew Gray'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2019' />
+
+<abstract><t>This document describes the BGP Path Security Tracking attribute, an extension to BGP-4. This attribute provides a transitive means for networks to indicate BGP security checks in place to upstream networks. Upstream networks can optionally use that information to modify the path selection algorithm giving preference to paths reporting better security where the prefix length is the same and as-path length is similar. Effectively reporting no security would be treated the same as prepending the announcement once and reporting strong security would be treated the same as not prepending. The net result of using the information to influence path selection is that more secured paths would be preferred over less secured paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-beck-bgp-security-tracking-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-beck-bgp-security-tracking-00.txt' />
+</reference>

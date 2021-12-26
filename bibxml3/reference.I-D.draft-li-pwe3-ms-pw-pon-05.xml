@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-pwe3-ms-pw-pon'>
+<front>
+<title>Multisegment Pseudowires in Passive Optical Networks</title>
+
+<author initials='L' surname='Hongyu' fullname='Li Hongyu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Zheng' fullname='Ruobin Zheng'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<date month='September' day='1' year='2011' />
+
+<abstract><t>This document describes the application of MPLS multi-segment pseudowires (MS-PWs) in a dual-technology environment comprising a Passive Optical Network (PON) and an MPLS Packet Switched Network (PSN).  PON technology may be used in mobile backhaul networks to support the end segments closest to the aggregation devices.  In these cases, there may be a very large number of Pseudowire (PW) Terminating Provider Edge nodes (T-PEs).  The MPLS control plane could be used to provision these end segments, but support for the necessary protocols would complicate the management of the T-PEs and would significantly increase their expense.  Alternatively, static, or management plane, configuration could be used to configure the end segments, but the very large number of such segments in a PON places a very heavy burden on the network manager.  This document describes how to set up the end segment of an end-to- end MPLS PW over a Gigabit-capable Passive Optical Network (G-PON) or 10 Gigabit-capable Passive Optical Network (XG-PON) using the G-PON and XG-PON management protocol, Optical Network Termination Management and Control Interface (OMCI).  This simplifies and speeds up PW provisioning compared with manual configuration.  This document also shows how a MS-PW may be constructed from an end segment supported over a PON, and switched to one or more segments supported over an MPLS PSN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-pwe3-ms-pw-pon-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-pwe3-ms-pw-pon-05.txt' />
+</reference>

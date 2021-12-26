@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-udpzero'>
+<front>
+<title>IPv6 UDP Checksum Considerations</title>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2011' />
+
+<abstract><t>This document examines the role of the UDP transport checksum when used with IPv6, as defined in RFC2460.  It presents a summary of the trade-offs for evaluating the safety of updating RFC 2460 to permit an IPv6 UDP endpoint to use a zero value in the checksum field as an indication that no checksum is present.  This method is compared with some other possibilities.  The document also describes the issues and design principles that need to be considered when UDP is used with IPv6 to support tunnel encapsulations.  It concludes that UDP with a zero checksum in IPv6 can safely be used for this purpose, provided that this usage is governed by a set of constraints.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-udpzero-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-udpzero-04.txt' />
+</reference>

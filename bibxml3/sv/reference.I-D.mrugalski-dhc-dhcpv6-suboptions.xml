@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mrugalski-dhc-dhcpv6-suboptions'>
+<front>
+<title>Requesting Suboptions in DHCPv6</title>
+
+<author initials='T' surname='Mrugalski' fullname='Tomasz Mrugalski'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2012' />
+
+<abstract><t>DHCPv6 clients may use Option Request Option (ORO) defined in RFC3315 [RFC3315] to specify, which options they would like to have configured by DHCPv6 servers.  Clients may also be interested in specific options that do not appear in DHCPv6 message directly (top- level options), but rather as nested options or sub-options (i.e. options conveyed within other options).  This document clarifies how to use already defined ORO to request sub-options.  It also defines new Option Exclude Option (OXO) for cases, when client does not want requested options to appear within specific options.  This document updates RFC3315 (if approved).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mrugalski-dhc-dhcpv6-suboptions-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mrugalski-dhc-dhcpv6-suboptions-04.txt' />
+</reference>

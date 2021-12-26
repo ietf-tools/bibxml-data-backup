@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dane-protocol'>
+<front>
+<title>Using Secure DNS to Associate Certificates with Domain Names For TLS</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schlyter' fullname='Jakob Schlyter'>
+    <organization />
+</author>
+
+<date month='August' day='15' year='2011' />
+
+<abstract><t>TLS and DTLS use PKIX certificates for authenticating the server. Users want their applications to verify that the certificate provided by the TLS server is in fact associated with the domain name they expect.  TLSA provides bindings of keys to domains that are asserted not by external entities, but by the entities that operate the DNS. This document describes how to use secure DNS to associate the TLS server's certificate with the intended domain name.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dane-protocol-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dane-protocol-10.txt' />
+</reference>

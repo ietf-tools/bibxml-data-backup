@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.loffredo-regext-rdap-reverse-search'>
+<front>
+<title>Registration Data Access Protocol (RDAP) Reverse search capabilities</title>
+
+<author initials='M' surname='Loffredo' fullname='Mario Loffredo'>
+    <organization />
+</author>
+
+<author initials='M' surname='Martinelli' fullname='Maurizio Martinelli'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2018' />
+
+<abstract><t>The Registration Data Access Protocol (RDAP) does not include query capabilities to find the list of domains related to a set of entities matching a given search pattern.  Even if such capabilities, commonly referred to as reverse search, respond to some needs not yet readily fulfilled by the current Whois protocol, they have raised concern from two perspectives: server processing impact and data privacy. Anyway, the impact of the reverse queries on RDAP servers processing is the same of the standard searches and it can be reduced by implementing policies to deal with big result sets, while data privacy risks can be mitigated by RDAP access control functionalites. This document describes RDAP query extensions that allows clients to request a reverse search based on the domains-entities relationship.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-loffredo-regext-rdap-reverse-search-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-loffredo-regext-rdap-reverse-search-01.txt' />
+</reference>

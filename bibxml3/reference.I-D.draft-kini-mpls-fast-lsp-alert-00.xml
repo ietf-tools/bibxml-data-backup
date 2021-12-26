@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kini-mpls-fast-lsp-alert'>
+<front>
+<title>A fast LSP-alert Mechanism</title>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='A' surname='Liu' fullname='Autumn Liu'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2010' />
+
+<abstract><t>There are applications (e.g. fault-management, OAM) that need to alert LSRs along an LSP path. TTL expiry and GAL are currently defined mechanisms. An invocation of such a mechanism alerts a single LSR. When multiple LSRs along the LSP need to be alerted, multiple messages may have to be generated. Also, messages may have to be processed and forwarded hop-by-hop by the control plane. In fault recovery scenarios where multiple LSRs need to be alerted this increases the recovery time and hence the traffic loss. This document defines a simple and fast mechanism that allows all the LSRs along a LSP to be alerted with a single message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kini-mpls-fast-lsp-alert-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kini-mpls-fast-lsp-alert-00.txt' />
+</reference>

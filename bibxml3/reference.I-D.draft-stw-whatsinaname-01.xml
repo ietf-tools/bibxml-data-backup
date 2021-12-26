@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stw-whatsinaname'>
+<front>
+<title>Some Considerations for the Use of Domain Names in non-DNS Protocols</title>
+
+<author initials='S' surname='Woolf' fullname='Suzanne Woolf'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>From time to time, networking protocols need to be able to name things used within the protocol, and resolve the names created or referenced.  It's common for protocol designers in this predicament to attempt to use domain names as the starting point for their systems of names, and the DNS as the starting point for name resolution.  There is existing guidance on how to think about application-specific extensions to DNS if the protocol or software designer is re-using both domain name abstractions and DNS protocol assumptions (see RFC 6950).  However, recently there's also a tendency to re-use a domain- name-based namespace without necessarily re-using DNS protocol for name resolution.  This document acknowledges that class of extensions to the shared domain namespace and considers a framework for the properties a naming and resolution convention should have in the internet protocol environment, including the avoidance of collision with other uses of the namespace.  Depending to the answers to the suggested questions, the answer may be that domain names will not meet the constraints at hand.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stw-whatsinaname-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stw-whatsinaname-01.txt' />
+</reference>

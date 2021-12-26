@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wood-tsvwg-saratoga'>
+<front>
+<title>Saratoga: A Scalable File Transfer Protocol</title>
+
+<author initials='L' surname='Wood' fullname='Lloyd Wood'>
+    <organization />
+</author>
+
+<author initials='W' surname='Eddy' fullname='Wesley Eddy'>
+    <organization />
+</author>
+
+<author initials='C' surname='Smith' fullname='Charles Smith'>
+    <organization />
+</author>
+
+<author initials='W' surname='Ivancic' fullname='Will Ivancic'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jackson' fullname='Chris Jackson'>
+    <organization />
+</author>
+
+<date month='December' day='6' year='2010' />
+
+<abstract><t>This document specifies the Saratoga transfer protocol.  Saratoga was originally developed to efficiently transfer remote-sensing imagery from a low-Earth-orbiting satellite constellation, but is useful for many other scenarios, including ad-hoc peer-to-peer communications, delay-tolerant networking, and grid computing.  Saratoga is a simple, lightweight, content dissemination protocol that builds on UDP, and optionally uses UDP-Lite.  Saratoga is intended for use when moving files or streaming data between peers which may have permanent, sporadic or intermittent connectivity, and is capable of transferring very large amounts of data reliably under adverse conditions.  The Saratoga protocol is designed to cope with highly asymmetric link or path capacity between peers, and can support fully-unidirectional data transfer if required.  In scenarios with dedicated links, Saratoga focuses on high link utilization to make the most of limited connectivity times, while standard congestion control mechanisms can be implemented for operation over shared links.  Loss recovery is implemented via a simple negative-ack ARQ mechanism.  The protocol specified in this document is considered to be appropriate for experimental use on private IP networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wood-tsvwg-saratoga-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wood-tsvwg-saratoga-07.txt' />
+</reference>

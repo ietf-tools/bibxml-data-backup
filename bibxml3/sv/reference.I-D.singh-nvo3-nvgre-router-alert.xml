@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.singh-nvo3-nvgre-router-alert'>
+<front>
+<title>NVGRE Router Alert Option</title>
+
+<author initials='K' surname='Singh' fullname='Kanwar Singh'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jain' fullname='Pradeep Jain'>
+    <organization />
+</author>
+
+<author initials='F' surname='Balus' fullname='Florin Balus'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<date month='May' day='24' year='2013' />
+
+<abstract><t>This proposal describes a new option to achieve a mechanism which alerts NVGRE egress End Point to more closely examine the contents of the packet encapsulated under NVGRE header.  This option is useful for case(s) where a given frame encapsulated within a given NVGRE segment responsible for carrying data between two different End Systems contains some control information (e.g OAM information) that may require special handling/processing at NVGRE egress End Point.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-singh-nvo3-nvgre-router-alert-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-singh-nvo3-nvgre-router-alert-00.txt' />
+</reference>

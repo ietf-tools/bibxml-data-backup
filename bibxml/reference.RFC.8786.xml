@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8786' target='https://www.rfc-editor.org/info/rfc8786'>
+<front>
+<title>Updated Rules for Processing Stateful PCE Request Parameters Flags</title>
+<author initials='A.' surname='Farrel' fullname='A. Farrel'><organization /></author>
+<date year='2020' month='May' />
+<abstract><t>Extensions to the Path Computation Element Communication Protocol (PCEP) to support stateful Path Computation Elements (PCEs) are defined in RFC 8231.  One of the extensions is the Stateful PCE Request Parameters (SRP) object.  That object includes a Flags field that is a set of 32 bit flags, and RFC 8281 defines an IANA registry for tracking assigned flags.  However, RFC 8231 does not explain how an implementation should set unassigned flags in transmitted messages, nor how an implementation should process unassigned, unknown, or unsupported flags in received messages.</t><t>This document updates RFC 8231 by defining the correct behaviors.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8786'/>
+<seriesInfo name='DOI' value='10.17487/RFC8786'/>
+</reference>

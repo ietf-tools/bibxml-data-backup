@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-krb-wg-gss-cb-hash-agility'>
+<front>
+<title>Kerberos Version 5 GSS-API Channel Binding Hash Agility</title>
+
+<author initials='S' surname='Emery' fullname='Shawn Emery'>
+    <organization />
+</author>
+
+<date month='December' day='15' year='2011' />
+
+<abstract><t>Currently, channel bindings are implemented using a MD5 hash in the Kerberos Version 5 Generic Security Services Application Programming Interface (GSS-API) mechanism [RFC4121].  This document updates RFC4121 to allow channel bindings using algorithms negotiated based on Kerberos crypto framework as defined in RFC3961.  In addition, because this update makes use of the last extensible field in the Kerberos client-server exchange message, extensions are defined to allow future protocol extensions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-krb-wg-gss-cb-hash-agility-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-krb-wg-gss-cb-hash-agility-09.txt' />
+</reference>

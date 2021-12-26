@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-schierl-avt-rtp-ntp-for-layered-codecs-00.txt'>
+    <title>"RTP NTP header extension for decoding order recovery in layered codecs", Thomas Schierl</title>
+    <link>http://www.ietf.org/internet-drafts/draft-schierl-avt-rtp-ntp-for-layered-codecs-00.txt</link>
+    <description>This memo describes an RTP header extension mechanism to be used with timestamp-based decoding order recovery of RTP flows containing layered codecs.  The header extension may be most useful in the presence of clock skew as well as for early decoding order recovery. The RTP header extension is based on [RFC5285] and extends the RTP header by the lower 56bit part of the NTP timestamp corresponding to the RTP timestamp of the same packet as defined in [RFC3550] for the RTCP sender reports.  This memo further gives guidance on how decoding order is recovered in RTP flows using the NTP timestamp information when parts of a layered, multi-view or multi- descriptions coding media are transported in different RTP flows.</description>
+    <dc:date>2009-01-14T23:00:00-00:00</dc:date>
+</item>

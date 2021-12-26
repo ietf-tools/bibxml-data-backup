@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.perkins-avt-rapid-rtp-sync'>
+<front>
+<title>Rapid Synchronisation of RTP Flows</title>
+
+<author initials='C' surname='Perkins' fullname='Colin Perkins'>
+    <organization />
+</author>
+
+<date month='January' day='15' year='2009' />
+
+<abstract><t>This memo outlines how RTP multimedia sessions are synchronised, and discusses how rapidly such synchronisation can occur.  We show that most RTP sessions can be synchronised immediately, but that the use of video switching MCUs or large multicast (SSM) groups can greatly increase the initial synchronisation delay.  This increased delay can be unacceptable to some applications that use layered and/or multi- description codecs.  This memo changes to the RTCP timing rules to reduce the initial synchronisation delay for SSM sessions.  A new RTP/AVPF feedback packet is defined to allow video switching MCUs to request rapid resynchronisation, and a new RTP header extension is defined to support rapid synchronisation for late joiners.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-perkins-avt-rapid-rtp-sync-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-perkins-avt-rapid-rtp-sync-01.txt' />
+</reference>

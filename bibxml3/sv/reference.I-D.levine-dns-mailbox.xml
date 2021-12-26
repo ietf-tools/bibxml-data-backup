@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.levine-dns-mailbox'>
+<front>
+<title>Encoding mailbox local-parts in the DNS</title>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<date month='September' day='20' year='2015' />
+
+<abstract><t>Many applications would like to store per-mailbox information securely in the DNS.  Mapping mailbox local-parts into the DNS is a difficult problem, due to the fuzzy matching that most mail systems do, and the DNS design that only does exact matching.  We propose several experimental approaches that attempt to implement the required fuzzy matching through DNS queries.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-levine-dns-mailbox-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-levine-dns-mailbox-01.txt' />
+</reference>

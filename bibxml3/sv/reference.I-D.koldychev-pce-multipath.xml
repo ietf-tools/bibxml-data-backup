@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.koldychev-pce-multipath'>
+<front>
+<title>PCEP Extensions for Signaling Multipath Information</title>
+<author initials='M' surname='Koldychev' fullname='Mike Koldychev'>
+<organization />
+</author>
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+<organization />
+</author>
+<author initials='T' surname='Saad' fullname='Tarek Saad'>
+<organization />
+</author>
+<author initials='V' surname='Beeram' fullname='Vishnu Beeram'>
+<organization />
+</author>
+<author initials='H' surname='Bidgoli' fullname='Hooman Bidgoli'>
+<organization />
+</author>
+<author initials='B' surname='Yadav' fullname='Bhupendra Yadav'>
+<organization />
+</author>
+<author initials='S' surname='Peng' fullname='Shuping Peng'>
+<organization />
+</author>
+<date year='2021' month='February' day='16' />
+<abstract><t>Current PCEP standards allow only one intended and/or actual path to be present in a PCEP report or update.  Applications that require multipath support such as SR Policy require an extension to allow signaling multiple intended and/or actual paths within a single PCEP message.  This document introduces such an extension.  Encoding of multiple intended and/or actual paths is done by encoding multiple Explicit Route Objects (EROs) and/or multiple Record Route Objects (RROs).  A special separator object is defined in this document, to facilitate this.  This mechanism is applicable to SR-TE and RSVP-TE and is dataplane agnostic.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-koldychev-pce-multipath-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-koldychev-pce-multipath-05.txt'/>
+</reference>

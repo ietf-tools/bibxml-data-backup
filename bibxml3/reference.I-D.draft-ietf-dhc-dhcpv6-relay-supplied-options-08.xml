@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-dhcpv6-relay-supplied-options'>
+<front>
+<title>Relay-Supplied DHCP Options</title>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2011' />
+
+<abstract><t>DHCPv6 relay agents can not communicate with DHCPv6 clients directly. However, in some cases, the relay agent possesses some information that would be useful to the DHCPv6 client.  This document describes a mechanism whereby the DHCPv6 relay agent can provide such information to the DHCPv6 server, which can, in turn, pass this information on to the DHCP client.  This document updates RFC3315 (DHCPv6) by making explicit the implicit requirement that relay agents not modify the content of encapsulation payloads as they are relayed back toward clients.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-dhcpv6-relay-supplied-options-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-dhcpv6-relay-supplied-options-08.txt' />
+</reference>

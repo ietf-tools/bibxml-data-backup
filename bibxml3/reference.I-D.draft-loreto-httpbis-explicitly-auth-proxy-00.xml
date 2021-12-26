@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.loreto-httpbis-explicitly-auth-proxy'>
+<front>
+<title>Explicitly Authenticated Proxy in HTTP/2.0</title>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Skog' fullname='Robert Skog'>
+    <organization />
+</author>
+
+<author initials='H' surname='Spaak' fullname='Hans Spaak'>
+    <organization />
+</author>
+
+<author initials='G' surname='Bourg' fullname='Gus Bourg'>
+    <organization />
+</author>
+
+<author initials='D' surname='Druta' fullname='Dan Druta'>
+    <organization />
+</author>
+
+<author initials='M' surname='Hafeez' fullname='Mohammad Hafeez'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2014' />
+
+<abstract><t>This document proposes the definition of an Explicitly Authenticated Proxy as intermediary of normally unprotected "http://" URI scheme requests and responses of HTTP2 traffic.  An Explicitly Authenticated Proxy is a message forwarding agent that is selected, with explicit user's consent, and configured by the user agent to receive exclusively "http" URI scheme requests and attempt to satisfy those requests on behalf of the user agent.  A client is connected to an Explicitly Authenticated Proxy through an authenticated TLS secured connection.  This document describes a method for a user agent to automatically discover and authenticate, and for an user to provide consent for an Explicitly Authenticated Proxy.  This enables proxied communication to be encrypted and authenticated, explicitly acknowledged by the user agent and visible to the server end point.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-loreto-httpbis-explicitly-auth-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-loreto-httpbis-explicitly-auth-proxy-00.txt' />
+</reference>

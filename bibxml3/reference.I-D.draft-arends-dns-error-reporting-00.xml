@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.arends-dns-error-reporting'>
+<front>
+<title>DNS Error Reporting</title>
+<author initials='R' surname='Arends' fullname='Roy Arends'>
+<organization />
+</author>
+<author initials='M' surname='Larson' fullname='Matt Larson'>
+<organization />
+</author>
+<date year='2020' month='October' day='30' />
+<abstract><t>DNS Error Reporting is a lightweight error reporting mechanism that provides the operator of an authoritative server with reports on DNS resource records that fail to resolve or validate, that a Domain Owner or DNS Hosting organization can use to improve domain hosting. The reports are based on Extended DNS Errors [RFC8914].</t><t> When a domain name fails to resolve or validate due to a misconfiguration or an attack, the operator of the authoritative server may be unaware of this.  To mitigate this lack of feedback, this document describes a method for a validating recursive resolver to automatically signal an error to an agent specified by the authoritative server.  DNS Error Reporting uses the DNS to report errors.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-arends-dns-error-reporting-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-arends-dns-error-reporting-00.txt'/>
+</reference>

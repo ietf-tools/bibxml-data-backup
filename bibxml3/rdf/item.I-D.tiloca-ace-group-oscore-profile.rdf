@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-tiloca-ace-group-oscore-profile-07.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-tiloca-ace-group-oscore-profile-07.txt</link>
+        <title>"Group OSCORE Profile of the Authentication and Authorization for Constrained Environments Framework", Marco Tiloca, Rikard Hoeglund, Ludwig Seitz, Francesca Palombini</title>
+        <dc:date>2021-10-25T23:00:00-00:00</dc:date>
+        <description>This document specifies a profile for the Authentication and Authorization for Constrained Environments (ACE) framework.  The profile uses Group OSCORE to provide communication security between a Client and a (set of) Resource Server(s) as members of an OSCORE Group.  The profile securely binds an OAuth 2.0 Access Token with the public key of the Client associated to the private key used in the OSCORE group.  The profile uses Group OSCORE to achieve server authentication, as well as proof-of-possession for the Client's public key.  Also, it provides proof of the Client's membership to the correct OSCORE group, by binding the Access Token to information from the Group OSCORE Security Context, thus allowing the Resource Server(s) to verify the Client's membership upon receiving a message protected with Group OSCORE from the Client.</description>
+    </item>

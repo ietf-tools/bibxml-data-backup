@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sami-pim-ng'>
+<front>
+<title>Protocol independent multicast- Next Generation (PIM-NG): Protocol Specifications</title>
+
+<author initials='s' surname='sami' fullname='saeed sami'>
+    <organization />
+</author>
+
+<date month='May' day='28' year='2018' />
+
+<abstract><t>This document specifies a new generation of PIM family of multicast routing protocols called Protocol Independent Multicast-Next Generation (PIM-NG) which is faster in source discover and provides many features suitable for Different type of networks. PIM-NG uses the underlying unicast routing information, but unlike PIM-SM it doesn't necessarily need to build unidirectional shared trees rooted at a Rendezvous Point (RP) per group. It achieves this due to the fact that the processes through which a source registers with the Rendezvous Point and a host finds the source of the multicast destination groups it needs are done in a whole new way and hence, the source of multicast group (G) is discovered faster at the cost of additional memory. So at some points PIM-NG works faster than its predecessor. Also the new Domain concept, unique to PIM-NG, along the RPF check method used in PIM-NG specifications provides many features along a robust and flexible control and administration over multicast networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sami-pim-ng-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sami-pim-ng-13.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-sami-pim-ng-13.pdf' />
+</reference>

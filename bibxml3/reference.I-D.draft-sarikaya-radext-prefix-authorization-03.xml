@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-radext-prefix-authorization'>
+<front>
+<title>RADIUS Support for Prefix Authorization</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2009' />
+
+<abstract><t>This document specifies a new attribute for supporting prefix authorization.  Using RADIUS protocol, a client requests prefixes from a server; the client gives back the prefixes to the server; the client is responsible for renewing the prefixes when the lifetime expires.  The RADIUS server can also renumber prefixes.  RADIUS clients can be home agents in MIPv6 and NEMO scenario, local mobile anchors in Proxy MIPv6 scenario, or common access routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-radext-prefix-authorization-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-radext-prefix-authorization-03.txt' />
+</reference>

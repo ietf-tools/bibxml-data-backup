@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7473' target='https://www.rfc-editor.org/info/rfc7473'>
+<front>
+<title>Controlling State Advertisements of Non-negotiated LDP Applications</title>
+<author initials='K.' surname='Raza' fullname='K. Raza'><organization /></author>
+<author initials='S.' surname='Boutros' fullname='S. Boutros'><organization /></author>
+<date year='2015' month='March' />
+<abstract><t>There is no capability negotiation done for Label Distribution Protocol (LDP) applications that set up Label Switched Paths (LSPs) for IP prefixes or that signal point-to-point (P2P) Pseudowires (PWs) for Layer 2 Virtual Private Networks (L2VPNs).  When an LDP session comes up, an LDP speaker may unnecessarily advertise its local state for such LDP applications even when the peer session is established for some other applications like Multipoint LDP (mLDP) or the Inter-Chassis Communication Protocol (ICCP).  This document defines a solution by which an LDP speaker announces to its peer its disinterest in such non-negotiated applications, thus disabling the unnecessary advertisement of corresponding application state, which would have otherwise been advertised over the established LDP session.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7473'/>
+<seriesInfo name='DOI' value='10.17487/RFC7473'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuehlewind-crypto-sep'>
+<front>
+<title>Separating Crypto Negotiation and Communication</title>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>Based on the increasing deployment of session resumption mechanisms where cryptographic context can be resumed to transmit application data with the first packet without delay for connection setup and negotiation, this draft proposes a split to separate connections used to set up encryption context and negotiate capabilities from connections used to transmit application data.  While cryptographic context and endpoint capabilities need to be be known before encrypted application data can be sent, there is otherwise no technical constraint that the crypto handshake has to be performed on the same transport connection.  This document discusses requirements on the cryptographic protocol to establish medium- to long-lived association that can be used by different transport protocols that implement different transport services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuehlewind-crypto-sep-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuehlewind-crypto-sep-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosen-l3vpn-mvpn-profiles'>
+<front>
+<title>MVPN Profiles Using PIM Control Plane</title>
+
+<author initials='A' surname='Boers' fullname='A Boers'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cai' fullname='Yiqun Cai'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<date month='December' day='31' year='2008' />
+
+<abstract><t>The MVPN (Multicast Virtual Private Network) architecture is divided into a number of functional "layers".  At each layer, multiple options are allowed.  It is necessary to allow multiple options at each layer because "one size doesn't fit all."  However, it is not expected that any particular implementation will support all the possible combinations of options.  To ensure multi-vendor interoperability, it is useful to specify "profiles", where each profile is a particular combination of options.  The number of specified profiles will be much less than the total number of possible combination, and a given implementation can be characterized by saying which profiles it supports.  This document describes two profiles that use a PIM control plane.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosen-l3vpn-mvpn-profiles-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosen-l3vpn-mvpn-profiles-02.txt' />
+</reference>

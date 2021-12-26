@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-wkumari-dnsop-extended-error-02.txt'>
+    <title>"Extended DNS Errors", Warren Kumari, Evan Hunt, Roy Arends, Wes Hardaker, David Lawrence</title>
+    <link>http://www.ietf.org/internet-drafts/draft-wkumari-dnsop-extended-error-02.txt</link>
+    <description>This document defines an extensible method to return additional information about the cause of DNS errors.  The primary use case is to extend SERVFAIL to provide additional information about the cause of DNS and DNSSEC failures.  [ Open question: The document currently defines a registry for errors.  It has also been suggested that the option also carry human readable (text) messages, to allow the server admin to provide additional debugging information (e.g: "example.com pointed their NS at us.  No idea why...", "We don't provide recursive DNS to 192.0.2.0.  Please stop asking...", "Have you tried Acme Anvil and DNS?  We do DNS right..." (!).  Please let us know if you think text is needed, or if a 16bit FCFS registry is expressive enough. ]  [ Open question: This document discusses extended *errors*, but it has been suggested that this could be used to also annotate *non- error* messages.  The authors do not think that this is a good idea, but could be persuaded otherwise. ]</description>
+    <dc:date>2017-07-17T07:00:00-00:00</dc:date>
+</item>

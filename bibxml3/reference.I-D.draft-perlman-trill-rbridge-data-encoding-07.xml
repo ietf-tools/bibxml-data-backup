@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.perlman-trill-rbridge-data-encoding'>
+<front>
+<title>RBridges: TRILL Link Data Optimizations</title>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ghanwani' fullname='Anoop Ghanwani'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2017' />
+
+<abstract><t>TRILL (TRansparent Interconnection of Lots of Links) Data frames can be encoded so as to make more efficient use of communications links under certain circumstances.  This document specifies two such optional optimizations.  One, called Compact Format, improves the compactness of encoding where a TRILL link is a point-to-point Ethernet link.  The other, called Specific Addressing, optionally decreases the burden on multi-access TRILL links for multi- destination TRILL Data frames. This document updates RFC 6325.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-perlman-trill-rbridge-data-encoding-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-perlman-trill-rbridge-data-encoding-07.txt' />
+</reference>

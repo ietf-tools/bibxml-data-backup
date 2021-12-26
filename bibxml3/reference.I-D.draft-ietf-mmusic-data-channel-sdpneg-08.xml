@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-data-channel-sdpneg'>
+<front>
+<title>SDP-based Data Channel Negotiation</title>
+
+<author initials='K' surname='Drage' fullname='Keith Drage'>
+    <organization />
+</author>
+
+<author initials='M' surname='(Raju)' fullname='Maridi R. Makaraju (Raju)'>
+    <organization />
+</author>
+
+<author initials='J' surname='Stoetzer-Bradler' fullname='Juergen Stoetzer-Bradler'>
+    <organization />
+</author>
+
+<author initials='R' surname='Ejzak' fullname='Richard Ejzak'>
+    <organization />
+</author>
+
+<author initials='J' surname='Marcon' fullname='Jerome Marcon'>
+    <organization />
+</author>
+
+<date month='February' day='17' year='2016' />
+
+<abstract><t>The Real-Time Communication in WEB-browsers (RTCWeb) working group is charged to provide protocols to support direct interactive rich communications using audio, video, and data between two peers' web- browsers.  For the support of data communication, the RTCWeb working group has in particular defined the concept of bi-directional data channels over SCTP (Stream Control Transmission Protocol), where each data channel might be used to transport other protocols, called subprotocols.  Data channel setup can be done using either the in- band Data Channel Establishment Protocol (DCEP) or using some out-of- band non-DCEP protocol.  This document specifies how the SDP (Session Description Protocol) offer/answer exchange can be used to achieve such an out-of-band non-DCEP negotiation.  Even though data channels are designed for RTCWeb use initially, they may be used by other protocols like, but not limited to, the CLUE protocol (which is defined by the IETF "ControLling mUltiple streams for tElepresence" working group).  This document is intended to be used wherever data channels are used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-data-channel-sdpneg-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-data-channel-sdpneg-08.txt' />
+</reference>

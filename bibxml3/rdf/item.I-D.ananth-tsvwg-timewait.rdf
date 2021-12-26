@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ananth-tsvwg-timewait-00.txt'>
+    <title>"Effects of port randomization with TCP TIME-WAIT state.", Anantha Ramaiah, Patrick Tate</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ananth-tsvwg-timewait-00.txt</link>
+    <description>Source port randomization has been suggested to provide improved security and obfuscation which helps in adding robustness towards blind attacks.  With TCP in practice, simply producing a random port as the source port for a new connection can lead to problems when a TCP client establishes connections to a TCP server at a high rate. If the same source port value is chosen twice, the client TCP connection can fail due to the server having the Transmission Control Block (TCB) for this tuple lingering in TIME-WAIT state.  This memo discusses the ramifications of such source port reuse scenarios and suggests some mitigations to avoid the same.</description>
+    <dc:date>2008-07-05T22:00:00-00:00</dc:date>
+</item>

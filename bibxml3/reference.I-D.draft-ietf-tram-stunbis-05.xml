@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tram-stunbis'>
+<front>
+<title>Session Traversal Utilities for NAT (STUN)</title>
+
+<author initials='M' surname='Petit-Huguenin' fullname='Marc Petit-Huguenin'>
+    <organization />
+</author>
+
+<author initials='G' surname='Salgueiro' fullname='Gonzalo Salgueiro'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='R' surname='Mahy' fullname='Rohan Mahy'>
+    <organization />
+</author>
+
+<author initials='P' surname='Matthews' fullname='Philip Matthews'>
+    <organization />
+</author>
+
+<date month='January' day='26' year='2016' />
+
+<abstract><t>Session Traversal Utilities for NAT (STUN) is a protocol that serves as a tool for other protocols in dealing with Network Address Translator (NAT) traversal.  It can be used by an endpoint to determine the IP address and port allocated to it by a NAT.  It can also be used to check connectivity between two endpoints, and as a keep-alive protocol to maintain NAT bindings.  STUN works with many existing NATs, and does not require any special behavior from them.  STUN is not a NAT traversal solution by itself.  Rather, it is a tool to be used in the context of a NAT traversal solution.  This document obsoletes RFC 5389.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tram-stunbis-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tram-stunbis-05.txt' />
+</reference>

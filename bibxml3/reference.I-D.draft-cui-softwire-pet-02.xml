@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cui-softwire-pet'>
+<front>
+<title>IPv4/IPv6 Coexistence Framework (PET)</title>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wang' fullname='Shengling Wang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='X' surname='Li' fullname='Xing Li'>
+    <organization />
+</author>
+
+<author initials='C' surname='Metz' fullname='Chris Metz'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2010' />
+
+<abstract><t>IPv4 and IPv6 are expected to coexist for a long period.  Currently, there are many IPv4/IPv6 transition/coexistence techniques, which can be roughly divided into two categories: tunneling and translation. Both tunneling and translation have restricted application scopes, and translation has some technical limitations.  To maximize the benifits and reduce the costs, we may need to use both tunneling and translation in some scenarios.  Besides, there may be multiple network devices capable of performing translation/tunneling along the end-to-end path.  It's important to choose the appropriate device(devices) to execute translation/tunneling.  This draft brings up the method of choosing the appropriate translation spot to avoid the limitations of translation. Furthermore, this draft presents an IPv4-IPv6 transition/coexistence framework named PET (short for Prefixing, Encapsulation and Translation).  PET integrates tunneling and translation to support both traversing and IPv4-IPv6 interconnection, and uses tunneling and translation properly to constitute communication modes in different scenarios.  When executing translation, PET achieves translation spot negotiation through signaling process between PET devices.  PET framework covers most network transition scenarios.  It is a generic solution framework for IPv4-IPv6 coexistence.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cui-softwire-pet-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cui-softwire-pet-02.txt' />
+</reference>

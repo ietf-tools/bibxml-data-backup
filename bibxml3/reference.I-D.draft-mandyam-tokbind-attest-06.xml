@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mandyam-tokbind-attest'>
+<front>
+<title>Attested TLS Token Binding</title>
+
+<author initials='G' surname='Mandyam' fullname='Giridhar Mandyam'>
+    <organization />
+</author>
+
+<author initials='L' surname='Lundblade' fullname='Laurence Lundblade'>
+    <organization />
+</author>
+
+<author initials='J' surname='Azen' fullname='Jon Azen'>
+    <organization />
+</author>
+
+<date month='July' day='24' year='2018' />
+
+<abstract><t>Token binding allows HTTP servers to bind bearer tokens to TLS connections.  In order to do this, clients or user agents must prove possession of a private key.  However, proof-of-possession of a private key becomes truly meaningful to a server when accompanied by an attestation statement.  This specification describes extensions to the existing token binding protocol to allow for attestation statements to be sent along with the related token binding messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mandyam-tokbind-attest-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mandyam-tokbind-attest-06.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mandyam-tokbind-attest-06.pdf' />
+</reference>

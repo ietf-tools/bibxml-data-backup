@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.van-beijnum-multi-mtu'>
+<front>
+<title>Extensions for Multi-MTU Subnets</title>
+
+<author initials='I' surname='Beijnum' fullname='Iljitsch van Beijnum'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>In the early days of the internet, many different link types with many different maximum packet sizes were in use.  For point-to-point or point-to-multipoint links, there are still some other link types (PPP, ATM, Packet over SONET), but multipoint subnets are now almost exclusively implemented as Ethernets.  Even though the relevant standards mandate a 1500 byte maximum packet size for Ethernet, more and more Ethernet equipment is capable of handling packets bigger than 1500 bytes.  However, since this capability isn't standardized, it is seldom used today, despite the potential performance benefits of using larger packets.  This document specifies mechanisms to negotiate per-neighbor maximum packet sizes so that nodes on a multipoint subnet may use the maximum mutually supported packet size between them without being limited by nodes with smaller maximum sizes on the same subnet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-van-beijnum-multi-mtu-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-van-beijnum-multi-mtu-04.txt' />
+</reference>

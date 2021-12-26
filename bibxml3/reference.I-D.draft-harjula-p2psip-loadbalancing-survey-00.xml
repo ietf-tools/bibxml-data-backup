@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.harjula-p2psip-loadbalancing-survey'>
+<front>
+<title>Load balancing models for DHT-based Peer-to-Peer Networks</title>
+
+<author initials='E' surname='Harjula' fullname='Erkki Harjula'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ylianttila' fullname='Mika Ylianttila'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2009' />
+
+<abstract><t>This draft provides a review of the proposed load balancing methods for structured (DHT-based) P2P systems, and introduces their operating principles and main characteristics.  To maximize performance, reliability and fairness of a structured P2P system, the load between the nodes should be equally or nearly equally distributed.  Structured P2P systems are usually based on Distributed Hash Tables (DHT), that distribute peers to the identifier space and objects among peers by choosing random identifiers for them.  In the worst case, this may result in O(log N) imbalance of object distribution between the peers, causing high degree of heterogeneity in loads of peer nodes.  Other sources for load imbalance are frequent arrival and departure of nodes (i.e. churn) and the variation in both the size and the popularity of objects.  Load balancing in structured P2P systems has been thoroughly studied during the past years.  In this draft, we introduce and compare the existing fundamental load balancing models.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-harjula-p2psip-loadbalancing-survey-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-harjula-p2psip-loadbalancing-survey-00.txt' />
+</reference>

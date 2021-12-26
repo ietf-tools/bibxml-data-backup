@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-oauth-jwsreq'>
+<front>
+<title>OAuth 2.0 JWT Authorization Request (JAR)</title>
+
+<author initials='N' surname='Sakimura' fullname='Nat Sakimura'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bradley' fullname='John Bradley'>
+    <organization />
+</author>
+
+<date month='August' day='3' year='2016' />
+
+<abstract><t>The authorization request in OAuth 2.0 [RFC6749] utilizes query parameter serialization, which means that Authorization Request parameters are encoded in the URI of the request and sent through user agents such as web browsers.  While it is easy to implement, it means that (a) the communication through the user agents are not integrity protected and thus the parameters can be tainted, and (b) the source of the communication is not authentciated.  Because of these weaknesses, several attacks to the protocol have now been put forward.  This document introduces the ability to send request parameters in a JSON Web Token (JWT) instead, which allows the request to be JWS signed and/or JWE encrypted so that the integrity, source authentication and confidentiallity property of the Authorization Request is attained.  The request can be sent by value or by reference.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-oauth-jwsreq-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-jwsreq-08.txt' />
+</reference>

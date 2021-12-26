@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.badra-tls-multiplexing'>
+<front>
+<title>Multiplexing Single-Application Multiple-Connection over TLS</title>
+
+<author initials='M' surname='Badra' fullname='Mohamad  Badra'>
+    <organization />
+</author>
+
+<author initials='I' surname='Hajjeh' fullname='Ibrahim Hajjeh'>
+    <organization />
+</author>
+
+<author initials='J' surname='Blaisdell' fullname='James Blaisdell'>
+    <organization />
+</author>
+
+<date month='April' day='20' year='2009' />
+
+<abstract><t>The Transport Layer Security (TLS) is the most widely deployed protocol for securing network traffic.  It provides mutual authentication, data confidentiality and integrity, key generation and distribution, and security parameters negotiation.  However, missing from the protocol is a way to multiplex single-application multiple-stream applications that commonly use parallel connections to the same logical and/or physical server application data.  This document describes a mechanism to multiplex single-application multiple-stream over TLS.  It extends TLS to multiplex parallel connections of a given application over a single TLS session, avoiding additional delay related to the TLS/TCP session/connection setup.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-badra-tls-multiplexing-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-badra-tls-multiplexing-00.txt' />
+</reference>

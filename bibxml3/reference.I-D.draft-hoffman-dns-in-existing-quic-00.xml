@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-dns-in-existing-quic'>
+<front>
+<title>Running DNS in Existing QUIC Connections</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='April' day='10' year='2017' />
+
+<abstract><t>Intermediaries such as governments and ISPs spoof DNS responses, and block DNS requests to particular recursive resolvers, for a variety of reasons.  They spoof by capturing traffic on port 53, or by redirecting port 853 traffic in the hopes that the client is using opportunistic encryption.  They block if they know the address of a resolver that they don't like, such as public resolvers that give honest answers.  This document describes how to run DNS service over existing QUIC connections, such as those being used for HTTP for basic web service. This design prevents intermediaries from spoofing DNS responses, and makes it impossible for intermediaries to block the use of those recursive resolvers without blocking the desired HTTP connections. It also prevents intermediaries or passive observers from seeing the DNS traffic.  This design is meant for communication between a DNS stub resolver and a DNS recursive resolver.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-dns-in-existing-quic-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-dns-in-existing-quic-00.txt' />
+</reference>

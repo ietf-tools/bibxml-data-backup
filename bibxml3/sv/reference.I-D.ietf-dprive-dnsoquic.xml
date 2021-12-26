@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dprive-dnsoquic'>
+<front>
+<title>DNS over Dedicated QUIC Connections</title>
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+<organization />
+</author>
+<author initials='S' surname='Dickinson' fullname='Sara Dickinson'>
+<organization />
+</author>
+<author initials='A' surname='Mankin' fullname='Allison Mankin'>
+<organization />
+</author>
+<date year='2021' month='December' day='01' />
+<abstract><t>This document describes the use of QUIC to provide transport privacy for DNS.  The encryption provided by QUIC has similar properties to that provided by TLS, while QUIC transport eliminates the head-of- line blocking issues inherent with TCP and provides more efficient packet loss recovery than UDP.  DNS over QUIC (DoQ) has privacy properties similar to DNS over TLS (DoT) specified in RFC7858, and latency characteristics similar to classic DNS over UDP.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-dprive-dnsoquic-07'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-dprive-dnsoquic-07.txt'/>
+</reference>

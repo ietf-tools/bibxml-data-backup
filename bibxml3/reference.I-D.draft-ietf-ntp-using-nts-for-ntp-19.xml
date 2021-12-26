@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ntp-using-nts-for-ntp'>
+<front>
+<title>Network Time Security for the Network Time Protocol</title>
+
+<author initials='D' surname='Franke' fullname='Daniel Franke'>
+    <organization />
+</author>
+
+<author initials='D' surname='Sibold' fullname='Dieter Sibold'>
+    <organization />
+</author>
+
+<author initials='K' surname='Teichel' fullname='Kristof Teichel'>
+    <organization />
+</author>
+
+<author initials='M' surname='Dansarie' fullname='Marcus Dansarie'>
+    <organization />
+</author>
+
+<author initials='R' surname='Sundblad' fullname='Ragnar Sundblad'>
+    <organization />
+</author>
+
+<date month='April' day='30' year='2019' />
+
+<abstract><t>This memo specifies Network Time Security (NTS), a mechanism for using Transport Layer Security (TLS) and Authenticated Encryption with Associated Data (AEAD) to provide cryptographic security for the client-server mode of the Network Time Protocol (NTP).  NTS is structured as a suite of two loosely coupled sub-protocols. The first (NTS-KE) handles initial authentication and key establishment over TLS.  The second handles encryption and authentication during NTP time synchronization via extension fields in the NTP packets, and holds all required state only on the client via opaque cookies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ntp-using-nts-for-ntp-19' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ntp-using-nts-for-ntp-19.txt' />
+</reference>

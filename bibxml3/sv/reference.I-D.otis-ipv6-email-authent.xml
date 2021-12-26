@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-ipv6-email-authent'>
+<front>
+<title>IPv6 Email Authentication</title>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<author initials='D' surname='Rand' fullname='David Rand'>
+    <organization />
+</author>
+
+<date month='May' day='9' year='2013' />
+
+<abstract><t>IPv6 facilitates network routing over an incredibly vast address space, but abuse mitigation resolving to underlying structures of routes or blocks of prefixes would be highly disruptive due to collateral effects.  Use of domains minimizes unintended coincidental blocking while offering the consolidation necessary to facilitate connection management.  Currently, email lacks conventions ensuring SMTP clients can be identified by an authenticated domain.  DKIM is independent of intended recipients and domains accountable for having sent email.  SPF normally requires several text based responses imposing high overhead to query various locations.  These locations can be constructed by email-address local-part macros which can flood caches or leverage DNS name compression to further increase network DDoS amplifications when receivers' attempt to verify message sources which may then only offer authorization, not authentication of accountable domains.  Most email abuse, including what might be imposed by SPF, is prevented with comprehensive mapping of the address space, but such mapping is impractical with IPv6.  An effective authenticated domain name alternative is needed to provide a basis for assessing and reacting to abusive behavior.  For most high scale protocols, this involves cryptography.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-ipv6-email-authent-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-ipv6-email-authent-01.txt' />
+</reference>

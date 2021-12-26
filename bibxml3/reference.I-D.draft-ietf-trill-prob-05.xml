@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-prob'>
+<front>
+<title>Transparent Interconnection of Lots of Links (TRILL): Problem and  Applicability Statement</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2008' />
+
+<abstract><t>Current Ethernet (802.1) link layers use spanning tree protocols that have a number of challenges. These protocols need to strictly avoid loops, even temporary ones, during route propagation, because of the lack of header loop detection support. Routing tends not to take full advantage of alternate paths, or even non-overlapping pairwise paths (in the case of spanning trees). This document addresses these concerns and suggests that they can be addressed by applying modern  network layer routing protocols at the link layer. This document assumes that solutions would not address issues of scalability beyond that of existing bridged (802.1) links, but that a solution would be backward compatible with 802.1, including hubs, bridges, and their existing plug-and-play capabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-prob-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-prob-05.txt' />
+</reference>

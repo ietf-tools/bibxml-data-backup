@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.spv-ippm-monitor-methodology-services-kpi'>
+<front>
+<title>Monitoring Service KPIs using TWAMP - Methodology</title>
+
+<author initials='S' surname='Sarangapani' fullname='Srivathsa Sarangapani'>
+    <organization />
+</author>
+
+<author initials='P' surname='Gupta' fullname='Peyush Gupta'>
+    <organization />
+</author>
+
+<author initials='V' surname='Hegde' fullname='Vinayak Hegde'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<date month='July' day='17' year='2016' />
+
+<abstract><t>The TWAMP protocol provides a common architecture for two way measurements in the IP network.  However IP network performance are also affected by a set of L4-L7 service deployed in the network. Monitoring of these service performance in the IP network also plays a vital role in network optimization and application layer traffic optimization.  This capability is not supported by the existing TWAMP protocol.  In this document, we extend TWAMP protocol to support service performance monitoring and service KPIs calculation.  Some of the existing fields in the TWAMP protocol are extended to support new modes for calculating these KPIs.  A set of new messages are added in the control protocol between TWAMP client (session sender) and the TWAMP server (session reflector).  Services here ranging from Layer 4 to Layer 7 services,such as Http based services, Traffic load balancer, DPI, Video caching, real time streaming and IPSec.  The KPIs MAY be service latency, liveliness of an application, number of flows and sessions per service, load balancer statistics.  There is a separate Draft[I.D-spv-ippm-monitor-implementation- services-kpi] that talks about implementation of monitoring these KPIs in the network using TWAMP.  Monitoring of these KPIs in the service plane with in a network play a vital role in optimum usage of network resources and improving the overall performance and capacity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-spv-ippm-monitor-methodology-services-kpi-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-spv-ippm-monitor-methodology-services-kpi-02.txt' />
+</reference>

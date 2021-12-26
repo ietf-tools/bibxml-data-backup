@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4551' target='https://www.rfc-editor.org/info/rfc4551'>
+<front>
+<title>IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization</title>
+<author initials='A.' surname='Melnikov' fullname='A. Melnikov'><organization /></author>
+<author initials='S.' surname='Hole' fullname='S. Hole'><organization /></author>
+<date year='2006' month='June' />
+<abstract><t>Often, multiple IMAP (RFC 3501) clients need to coordinate changes to a common IMAP mailbox.  Examples include different clients working on behalf of the same user, and multiple users accessing shared mailboxes. These clients need a mechanism to synchronize state changes for messages within the mailbox.  They must be able to guarantee that only one client can change message state (e.g., message flags) at any time.  An example of such an application is use of an IMAP mailbox as a message queue with multiple dequeueing clients.</t><t>The Conditional Store facility provides a protected update mechanism for message state information that can detect and resolve conflicts between multiple writing mail clients.</t><t>The Conditional Store facility also allows a client to quickly resynchronize mailbox flag changes.</t><t>This document defines an extension to IMAP (RFC 3501).  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4551'/>
+<seriesInfo name='DOI' value='10.17487/RFC4551'/>
+</reference>

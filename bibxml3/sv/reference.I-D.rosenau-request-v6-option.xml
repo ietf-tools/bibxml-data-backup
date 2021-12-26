@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosenau-request-v6-option'>
+<front>
+<title>TCP option "request IPv6 connection"</title>
+
+<author initials='M' surname='Rosenau' fullname='Martin Rosenau'>
+    <organization />
+</author>
+
+<date month='February' day='11' year='2018' />
+
+<abstract><t>This document describes an idea for a header "option" for the Transmission Control Protocol (TCP).  The extension is used by dual-stack nodes to force the use of the IPv6 protocol instead of the IPv4 protocol when exchanging data over TCP.  Especially if one of the two nodes is a NAT64 or NAT46 router it makes sense not to use IPv4 but IPv6 if both nodes are dual-stack nodes.  This document also suggests to declare the usage of such a method mandatory for all nodes that use IPv4 addresses that will be assigned by RIRs in the future.  Doing so will make it impossible to (mis-) use IPv4 addresses assigned by RIRs to ISPs for IPv4-only nodes that do not support IPv6.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosenau-request-v6-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosenau-request-v6-option-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mipshop-3gfh'>
+<front>
+<title>Mobile IPv6 Fast Handovers for 3G CDMA Networks</title>
+
+<author initials='H' surname='Yokota' fullname='Hidetoshi Yokota'>
+    <organization />
+</author>
+
+<author initials='G' surname='Dommety' fullname='Gopal  Dommety'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2006' />
+
+<abstract><t>Mobile IPv6 is designed to maintain its connectivity while moving from one network to another. It is adopted in 3G CDMA networks as a way to maintain connectivity when the mobile node moves between access routers. However, this handover procedure requires not only movement detection, but also the acquisition of a new care-of address and the sending of a binding update message to the home agent before the traffic begins to direct to the new location. During this period, packets destined for the mobile node will be lost, which may not be acceptable for real-time application such as Voice over IP (VoIP) or video telephony. This document specifies fast handover methods and selective bi-casting methods in the 3G context in order to reduce latency and packet loss during handover.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mipshop-3gfh-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mipshop-3gfh-01.txt' />
+</reference>

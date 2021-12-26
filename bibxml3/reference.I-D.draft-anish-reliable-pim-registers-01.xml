@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.anish-reliable-pim-registers'>
+<front>
+<title>Reliable Transport For PIM Register States</title>
+
+<author initials='A' surname='Peter' fullname='Anish Peter'>
+    <organization />
+</author>
+
+<author initials='R' surname='Kebler' fullname='Robert Kebler'>
+    <organization />
+</author>
+
+<author initials='V' surname='Nagarajan' fullname='Vikram Nagarajan'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>This document introduces a hard-state, reliable transport for the existing PIM-SM registers states.  This eliminates the needs for periodic NULL-registers and register-stop in response to each data- register or NULL-registers.  This specification uses the existing PIM reliability mechanisms defined by PIM Over Reliable Transport [RFC6559].  This is simply a means to transmit reliable PIM messages and does not require the support for Join/Prune messages over PORT as defined in [RFC6559].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-anish-reliable-pim-registers-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-anish-reliable-pim-registers-01.txt' />
+</reference>

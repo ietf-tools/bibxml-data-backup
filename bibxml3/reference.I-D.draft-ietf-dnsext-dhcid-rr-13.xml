@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsext-dhcid-rr'>
+<front>
+<title>A DNS RR for Encoding DHCP Information (DHCID RR)</title>
+
+<author initials='M' surname='Stapp' fullname='Mark Stapp'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2006' />
+
+<abstract><t>It is possible for DHCP clients to attempt to update the same DNS FQDN or attempt to update a DNS FQDN that has been added to the DNS for another purpose as they obtain DHCP leases. Whether the DHCP server or the clients themselves perform the DNS updates, conflicts can arise. To resolve such conflicts, [1] proposes storing client identifiers in the DNS to unambiguously associate domain names with the DHCP clients to which they refer. This memo defines a distinct RR type for this purpose for use by DHCP clients and servers, the "DHCID" RR.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsext-dhcid-rr-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsext-dhcid-rr-13.txt' />
+</reference>

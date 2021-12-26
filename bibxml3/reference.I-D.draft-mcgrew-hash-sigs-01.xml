@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mcgrew-hash-sigs'>
+<front>
+<title>Hash-Based Signatures</title>
+
+<author initials='D' surname='McGrew' fullname='David McGrew'>
+    <organization />
+</author>
+
+<author initials='M' surname='Curcio' fullname='Michael Curcio'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>This note describes a digital signature system based on cryptographic hash functions, following the seminal work in this area.  It specifies a one-time signature scheme based on the work of Lamport, Diffie, Winternitz, and Merkle (LDWM), and specifies a general signature system using a Merkle tree.  These systems provide asymmetric authentication without using large integer mathematics and achieve a high security level.  They are suitable for compact implementations, are relatively simple to implement, and naturally resist side-channel attacks.  Unlike most other signature systems, hash-based signatures would still be secure even if it proves feasible for an attacker to build a quantum computer.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mcgrew-hash-sigs-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mcgrew-hash-sigs-01.txt' />
+</reference>

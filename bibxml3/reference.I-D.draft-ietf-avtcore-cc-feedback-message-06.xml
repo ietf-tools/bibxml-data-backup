@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-cc-feedback-message'>
+<front>
+<title>RTP Control Protocol (RTCP) Feedback for Congestion Control</title>
+
+<author initials='Z' surname='Sarker' fullname='Zaheduzzaman Sarker'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Colin Perkins'>
+    <organization />
+</author>
+
+<author initials='V' surname='Singh' fullname='Varun Singh'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ramalho' fullname='Michael Ramalho'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>This document describes an RTCP feedback message intended to enable congestion control for interactive real-time traffic using RTP.  The feedback message is designed for use with a sender-based congestion control algorithm, in which the receiver of an RTP flow sends RTCP feedback packets to the sender containing the information the sender needs to perform congestion control.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-cc-feedback-message-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-cc-feedback-message-06.txt' />
+</reference>

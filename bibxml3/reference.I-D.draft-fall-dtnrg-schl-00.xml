@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fall-dtnrg-schl'>
+<front>
+<title>DTN Scope Control using Hop Limits (SCHL)</title>
+
+<author initials='K' surname='Fall' fullname='Kevin Fall'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2010' />
+
+<abstract><t>This document defines DTN Scope Control using Hop Limits (SCHL), a DTN Bundle Protocol extension block.  The SCHL extension block holds the number of DTN hops a bundle has traversed while being forwarded (count sub-field) and a maximum hop limit value set by the bundle sender (limit sub-field).  DTN nodes increment the count sub-field when forwarding a bundle and discard bundles that have traveled at least the number of hops specified in the limit sub-field.  This memo also reserves the value 9 for the SCHL extension block type value and bundle status reason code in RFC 5050.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fall-dtnrg-schl-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fall-dtnrg-schl-00.txt' />
+</reference>

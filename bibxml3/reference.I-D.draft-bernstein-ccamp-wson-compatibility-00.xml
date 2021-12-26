@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bernstein-ccamp-wson-compatibility'>
+<front>
+<title>WSON Signal Characteristics and Network Element Compatibility Constraints  for GMPLS</title>
+
+<author initials='G' surname='Bernstein' fullname='Greg Bernstein'>
+    <organization />
+</author>
+
+<author initials='D' surname='Grove' fullname='Downers Grove'>
+    <organization />
+</author>
+
+<date month='August' day='19' year='2009' />
+
+<abstract><t>While the current GMPLS WSON framework can deal with many types of wavelength switching systems there is a desire to extend this control plane to include other common optical or hybrid electro optical systems such as OEO switches, regenerators, and wavelength converters. Such systems can be limited to processing only certain types of WSON signals. In addition, if such a system can support more than one type of WSON signal it may need to be provisioned as to the characteristics of the signal that it will be processing.  This document provides a WSON signal definition and characterization based on ITU-T interface and signal class standards and describes the signal compatibility constraints of this extended set of network elements. The signal characterization and network element compatibility constraints enable GMPLS routing and signaling to control these devices and PCE to compute optical light-paths subject to signal compatibility attributes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bernstein-ccamp-wson-compatibility-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bernstein-ccamp-wson-compatibility-00.txt' />
+</reference>

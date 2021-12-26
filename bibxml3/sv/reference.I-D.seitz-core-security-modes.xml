@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.seitz-core-security-modes'>
+<front>
+<title>Additional Security Modes for CoAP</title>
+
+<author initials='L' surname='Seitz' fullname='Ludwig Seitz'>
+    <organization />
+</author>
+
+<author initials='G' surname='Selander' fullname='Goran Selander'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2013' />
+
+<abstract><t>The CoAP draft defines how to use DTLS as security mechanism.  In order to establish which nodes are trusted to initiate a DTLS session with a device, the following security modes are defined: NoSec, PreSharedKey, RawPublicKey, and Certificate.  These modes require either to provision a list of keys of trusted clients, or to handle heavyweight certificates.  This memo proposes two intermediate security modes involving a trusted third party that are very similar to PreSharedKey and RawPublicKey respectively, but which do not require out-of-band provisioning of client keys to the device.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-seitz-core-security-modes-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-seitz-core-security-modes-00.txt' />
+</reference>

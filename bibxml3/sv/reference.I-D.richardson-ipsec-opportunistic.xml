@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.richardson-ipsec-opportunistic'>
+<front>
+<title>Opportunistic Encryption using The Internet Key Exchange (IKE)</title>
+
+<author initials='M' surname='Richardson' fullname='Michael  Richardson'>
+    <organization />
+</author>
+
+<author initials='D' surname='Redelmeier' fullname='D. Hugh Redelmeier'>
+    <organization />
+</author>
+
+<date month='February' day='17' year='2005' />
+
+<abstract><t>This document describes opportunistic encryption (OE) as designed and implemented by the Linux FreeS/WAN project. OE uses the Internet Key Exchange (IKE) and IPsec protocols. The objective is to allow encryption for secure communication without any pre-arrangement specific to the pair of systems involved. DNS is used to distribute the public keys of each system involved. This is resistant to passive attacks. The use of DNS Security (DNSSEC) secures this system against active attackers as well.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-richardson-ipsec-opportunistic-17' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-richardson-ipsec-opportunistic-17.txt' />
+</reference>

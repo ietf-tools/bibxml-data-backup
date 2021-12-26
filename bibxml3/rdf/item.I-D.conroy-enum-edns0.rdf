@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-conroy-enum-edns0-02.txt'>
+    <title>"ENUM Requirement for EDNS0 Support", Lawrence Conroy, Jim Reid</title>
+    <link>http://www.ietf.org/internet-drafts/draft-conroy-enum-edns0-02.txt</link>
+    <description>Support for EDNS0 (Extension Mechanisms for DNS) is mandated in this document for DNS entities querying for or serving NAPTR records. In general those entities will be supporting ENUM resolution. This requirement is needed because DNS responses to ENUM-related queries generally return large RRSets. Without EDNS0 support these lookups would result in truncated responses and repeated queries over TCP transport. That has a severe impact on DNS server load and on the latency of those queries. This document updates RFC3761 only in adding this requirement.</description>
+    <dc:date>2006-06-29T07:00:00-00:00</dc:date>
+</item>

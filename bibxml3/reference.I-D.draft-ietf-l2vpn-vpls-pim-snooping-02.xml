@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2vpn-vpls-pim-snooping'>
+<front>
+<title>PIM Snooping over VPLS</title>
+
+<author initials='O' surname='Dornon' fullname='Olivier Dornon'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kotalwar' fullname='Jayant Kotalwar'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='Jeffrey Zhang'>
+    <organization />
+</author>
+
+<author initials='V' surname='Hemige' fullname='Venu Hemige'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>In Virtual Private LAN Service (VPLS), as also in IEEE Bridged Networks, the switches simply flood multicast traffic on all ports in the LAN by default.  IGMP Snooping is commonly deployed to ensure multicast traffic is not forwarded on ports without IGMP receivers. The procedures and recommendations for IGMP Snooping are defined in [IGMP-SNOOP].  But when any protocol other than IGMP is used, the common practice is to simply flood multicast traffic to all ports. PIM-SM, PIM-SSM, PIM-BIDIR are widely deployed routing protocols. PIM Snooping procedures are important to restrict multicast traffic to only the routers interested in receiving such traffic.  While most of the PIM Snooping procedures defined here also apply to IEEE Bridged Networks, VPLS demands certain special procedures due to the split-horizon rules that require the Provider Edge (PE) devices to co-operate.  This document describes the procedures and recommendations for PIM-Snooping in VPLS to facilitate replication to only those ports behind which there are interested PIM routers and/or IGMP hosts.  This document also describes procedures for PIM Proxy. PIM Proxy is required on PEs for VPLS Multicast to work correctly when Join suppression is enabled in the VPLS.  PIM Proxy also helps scale VPLS Multicast much better than just PIM Snooping.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2vpn-vpls-pim-snooping-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2vpn-vpls-pim-snooping-02.txt' />
+</reference>

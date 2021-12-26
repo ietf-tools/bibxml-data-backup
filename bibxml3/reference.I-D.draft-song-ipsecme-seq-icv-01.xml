@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-ipsecme-seq-icv'>
+<front>
+<title>IPsec sequence number integrity check value</title>
+
+<author initials='J' surname='Song' fullname='Jifei Song'>
+    <organization />
+</author>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2013' />
+
+<abstract><t>This document specifies an IPsec AH and ESP sequence number validation scheme, which is complementary to the existing ICV mechanism and anti-replay mechanism of AH and ESP in defense against DOS attack.  It is an optional feature negotiable through IKE, for this feature to be negotiated, both sender and receiver must implement it.  If any party doesn't support it, then this feature should be excluded from negotiation.  The rationale for such a scheme is discussed first; then requirements and guidelines for design of the scheme are laid out.  There can be various ways to implement the scheme, some reference designs are discussed to set the base for effort of identifying best practice and eventually establishing a standard on the subject.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-ipsecme-seq-icv-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-ipsecme-seq-icv-01.txt' />
+</reference>

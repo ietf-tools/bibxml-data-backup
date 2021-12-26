@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vandevelde-v6ops-harmful-tunnels'>
+<front>
+<title>Non-Deterministic IPv6 Tunnels considered Harmful</title>
+
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+    <organization />
+</author>
+
+<author initials='O' surname='Troan' fullname='Ole Troan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Chown' fullname='Tim Chown'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2009' />
+
+<abstract><t>IPv6 is ongoing and natively being deployed by a growing community and it is important that the quality perception and traffic flows are as optimal as possible.  Ideally it would be as good as the IPv4 perceptive experience.  This paper looks into a set of transitional technologies where the actual user has IPv6 connectivity through the means of IPv6-in-IPv4 tunnels.  A subset of the available tunnels has the property of being non-deterministic (i.e. 6to4 [RFC3056] and Teredo [RFC4380] ) because neither the egress path nor the ingress path is always fully controlled.  While native IPv6 deployments will keep growing it is uncertain or even expected that these non-deterministic traffic flows will be providing the same user experience and operational quality as deterministic tunnels or native IPv6 connectivity.  This paper will detail some considerations around non-deterministic tunnels and will document the harmful element of these for the future growth of networks and the Internet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vandevelde-v6ops-harmful-tunnels-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vandevelde-v6ops-harmful-tunnels-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nfsv4-umask'>
+<front>
+<title>Allowing Inheritable NFSv4 Access Control Entries to Override the Umask</title>
+
+<author initials='J' surname='Fields' fullname='J. Fields'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gruenbacher' fullname='Andreas Gruenbacher'>
+    <organization />
+</author>
+
+<date month='July' day='20' year='2017' />
+
+<abstract><t>In many environments, inheritable NFSv4 Access Control Entries (ACEs) can be rendered ineffective by the application of the per-process umask.  This can be addressed by transmitting the umask and create mode as separate pieces of data, allowing the server to make more intelligent decisions about the permissions to set on new files. This document proposes a protocol extension which accomplishes that.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nfsv4-umask-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nfsv4-umask-04.txt' />
+</reference>

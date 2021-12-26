@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-oob-pubkey'>
+<front>
+<title>TLS Out-of-Band Public Key Validation</title>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<author initials='J' surname='Gilmore' fullname='John Gilmore'>
+    <organization />
+</author>
+
+<author initials='S' surname='Weiler' fullname='Samuel Weiler'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kivinen' fullname='Tero Kivinen'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='April' day='25' year='2012' />
+
+<abstract><t>This document specifies a new TLS certificate type for exchanging raw public keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) for use with out-of-band public key validation. Currently, TLS authentication can only occur via X.509-based Public Key Infrastructure (PKI) or OpenPGP certificates.  By specifying a minimum resource for raw public key exchange, implementations can use alternative public key validation methods.  One such alternative public key valiation method is offered by the DNS-Based Authentication of Named Entities (DANE) together with DNS Security.  Another alternative is to utilize pre-configured keys, as is the case with sensors and other embedded devices.  The usage of raw public keys, instead of X.509-based certificates, leads to a smaller code footprint.  The support for raw public keys is introduced into TLS via a new non- PKIX certificate type.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-oob-pubkey-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-oob-pubkey-03.txt' />
+</reference>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huitema-quic-mpath-option'>
+<front>
+<title>QUIC Multipath Negotiation Option</title>
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+<organization />
+</author>
+<date year='2021' month='September' day='12' />
+<abstract><t>The initial version of QUIC provides support for path migration.  We propose a simple mechanism to support not just migration, but also simultaneous usage of multiple paths.  In its simplest form, this mechanisms simply requires that multipath senders keep track of which packet is sent on what path, and use that information to manage congestion control and loss recovery.  With that, clients can send data on any validated path, and server on any validated path on which the client recently sent non-probing packets.  A more sophisticated mechanism can be negotiated to explicitly manage paths and packet scheduling.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-huitema-quic-mpath-option-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-huitema-quic-mpath-option-01.txt'/>
+</reference>

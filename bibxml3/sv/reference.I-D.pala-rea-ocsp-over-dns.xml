@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pala-rea-ocsp-over-dns'>
+<front>
+<title>OCSP over DNS</title>
+
+<author initials='M' surname='Pala' fullname='Massimiliano Pala'>
+    <organization />
+</author>
+
+<author initials='S' surname='Rea' fullname='Scott Rea'>
+    <organization />
+</author>
+
+<date month='July' day='25' year='2012' />
+
+<abstract><t>One of the most strategic problems for Internet Certification Authorities (ICAs) is the provisioning of revocation information in an efficient way.  Current approaches for the distribution of OCSP responses over HTTP do not provide efficient solutions for the high volume of traffic that Internet CAs face when providing services for highly utilized websites.  This document describes a new transport protocol for OCSP responses to efficiently provide revocation information about digital certificates.  In particular, this specification defines how to distribute OCSP responses over DNS and how to define OCSP-over-DNS URLs in certificates.  The use of the DNS system to distribute such information is meant to lower the costs of providing revocation services and increase the availability of revocation information by using the distributed nature of the DNS infrastructure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pala-rea-ocsp-over-dns-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pala-rea-ocsp-over-dns-00.txt' />
+</reference>

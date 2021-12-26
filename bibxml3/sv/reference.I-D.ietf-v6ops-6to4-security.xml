@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-6to4-security'>
+<front>
+<title>Security Considerations for 6to4</title>
+
+<author initials='P' surname='Savola' fullname='Pekka Savola'>
+    <organization />
+</author>
+
+<date month='July' day='20' year='2004' />
+
+<abstract><t>The IPv6 interim mechanism 6to4 (RFC3056) uses automatic IPv6-over- IPv4 tunneling to interconnect IPv6 networks. The architecture includes 6to4 Routers and Relay Routers, which accept and decapsulate IPv4 protocol-41 ('IPv6-in-IPv4') traffic from anywhere. There aren't many constraints on the embedded IPv6 packets, or where IPv4 traffic will be automatically tunneled to. These could enable one to go around access controls, and more likely, being able to perform proxy Denial of Service attacks using 6to4 relays or routers as reflectors. Anyone is also capable of spoofing traffic from non-6to4 addresses, as if it was coming from a relay, to a 6to4 node. This document discusses these issues in more detail and tries to suggest enhancements to alleviate the problems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-6to4-security-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-6to4-security-04.txt' />
+</reference>

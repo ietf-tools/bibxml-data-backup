@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hong-nsis-pbs-nslp'>
+<front>
+<title>PBS NSLP: Network Traffic Authorization</title>
+
+<author initials='S' surname='Hong' fullname='Se Gi Hong'>
+    <organization />
+</author>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<date month='January' day='12' year='2010' />
+
+<abstract><t>This document describes the NSIS Signaling Layer protocol (NSLP) for network traffic authorization on the Internet, the Permission-Based Sending (PBS) NSLP.  This NSLP aims to prevent Denial-of-Service (DoS) attacks and other forms of unauthorized traffic.  PBS NSLP is based on the proactive approach of explicitly granting permissions and the reactive approach of monitoring and reacting against the attacks.  Signaling installs and maintains the permission state of routers for a data flow.  PBS NSLP uses two security mechanisms: message security in an end-to-end fashion and channel security in a hop-by-hop fashion.  The message security is for protecting the integrity of the message on end-to-end traffic and channel security is for protecting the integrity and confidentiality between adjacent nodes.  These security mechanisms enable the secure distribution of shared keys, as well as protection of signaling messages.  To authenticate data packets, the PBS NSLP requests a sender to use an existing security protocol, the IPsec Authentication Header (AH). This allows routers to drop bogus packets by using an IP packet filter.  To avoid a compromised router that drops legitimate packets, the PBS NSLP triggers the sender to change the data flow path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hong-nsis-pbs-nslp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hong-nsis-pbs-nslp-03.txt' />
+</reference>

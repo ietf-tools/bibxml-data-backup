@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-raza-mpls-ldp-olf-01.txt'>
+    <title>"LDP Outbound Label Bindings Filtering", Kamran Raza, Sami Boutros, Pradosh Mohapatra</title>
+    <link>http://www.ietf.org/internet-drafts/draft-raza-mpls-ldp-olf-01.txt</link>
+    <description>The Label Distribution Protocol (LDP) allows one Label Switching Router (LSR) to advertise to another a set of "bindings" between MPLS labels and "Forwarding Equivalence Classes" (FECs).  Suppose LSR2 is advertising a set of label bindings to LSR1.  Frequently, LSR1 does not need to know all of LSR2's label bindings, and LSR1 may be configured to disregard bindings in which it has no interest. This document defines an "Outbound Label Bindings Filtering" (OLF) mechanism that allows LSR1 to inform LSR2 dynamically of the set of FECs for which it needs to receive label bindings.  LSR2 then applies this filter before sending its label bindings to LSR1. In addition to the generic aspects of this mechanism, this document also specifies the format for the outbound label binding filter for the "Address Prefix FEC" type.</description>
+    <dc:date>2012-04-30T22:00:00-00:00</dc:date>
+</item>

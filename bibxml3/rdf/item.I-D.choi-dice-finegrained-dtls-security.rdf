@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-choi-dice-finegrained-dtls-security-01.txt'>
+    <title>"Fine-grained Support of Security Services for Constrained Devices using DTLS", Jaeduck Choi, Gunhee Lee, Namhi Kang, Seung Jung, Souhwan Jung</title>
+    <link>http://www.ietf.org/internet-drafts/draft-choi-dice-finegrained-dtls-security-01.txt</link>
+    <description>This document proposes a method that can selectively apply application data encryption to the DTLS record layer. The CoAP used for resource-constrained devices defines the use of DTLS as a basic security mechanism, and CoAP standard specifies the use of AES_CCM that provides data integrity and confidentiality as a cipher suite for DTLS. However, not all CoAP messages require both data integrity and confidentiality. For example, in case of CoAP messages that include information for turning a light off at home or in a building, or simple ACK information, encryption might not be necessary because such information might not be useful to attackers. Furthermore, from the perspective of effective resource use of resource-constrained devices, reducing the computation load required to perform data encryption every time is necessary. This document describes the methods for CoAP nodes to establish DTLS security channels using the AES_CCM cipher suite, and to selectively apply the encryption function in the DTLS record layer by considering sensitivity to application data leakage.</description>
+    <dc:date>2015-03-24T07:00:00-00:00</dc:date>
+</item>

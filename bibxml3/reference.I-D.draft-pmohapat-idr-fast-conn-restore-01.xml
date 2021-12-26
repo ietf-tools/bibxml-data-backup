@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pmohapat-idr-fast-conn-restore'>
+<front>
+<title>Fast Connectivity Restoration Using BGP Add-path</title>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<author initials='R' surname='Fernando' fullname='Rex Fernando'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2011' />
+
+<abstract><t>A BGP route defines an association of an address prefix with an "exit point" from the current Autonomous System (AS).  If the exit point becomes unreachable due to a failure, the route becomes invalid. This usually triggers an exchange of BGP control messages after which a new BGP route for the given prefix is installed.  However, connectivity can be restored more quickly if the router maintains precomputed BGP backup routes.  It can then switch to a backup route immediately upon learning that an exit point is unreachable, without needing to wait for the BGP control messages exchange.  This document specifies the procedures to be used by BGP to maintain and distribute the precomputed backup routes.  Maintaining these additional routes is also useful in promoting load balancing, performing maintenance without causing traffic loss, and in reducing churn in the BGP control plane.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pmohapat-idr-fast-conn-restore-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pmohapat-idr-fast-conn-restore-01.txt' />
+</reference>

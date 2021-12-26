@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dai-mpls-rsvp-te-mbb-label-reuse'>
+<front>
+<title>MPLS RSVP-TE MBB Label Reuse</title>
+
+<author initials='M' surname='Dai' fullname='Minjie Dai'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chaudhry' fullname='Muhammad Chaudhry'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2015' />
+
+<abstract><t>The concept of "make-before-break (MBB)" while rerouting MPLS RSVP-TE tunnels is discussed in [RFC3209].  In the procedure that is outlined, the behaviour of downstream label assignment for the new LSP (new tunnel instance) is not well defined.  As a general practice, a different label is assigned by each downstream router and advertised to the upstream router in the RESV message for the new LSP; this results in a separate end-to-end data-plane path for the new LSP (with the exception of PHP LSPs or UHP LSP with explicit label on the last hop).  The consequence of this practice is that the label entry gets added/deleted in the LFIB at every non-ingress router along the LSP path during MBB.  Also, the ingress router would need to update all the applications using this LSP when switching to the new tunnel instance, as the new tunnel instance uses different outgoing label.  This in turn may also cause other elements of the network which are dependant on the LSP to do the update.  Such network churn can be avoided or reduced if the same label can be re-used (kept intact) wherever it is affecting neither the routing functionalities nor the data path verification of each instance. This document proposes a set of procedures to facilitate label reuse when there is a total or partial path overlap between the two tunnel instances during MBB.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dai-mpls-rsvp-te-mbb-label-reuse-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dai-mpls-rsvp-te-mbb-label-reuse-01.txt' />
+</reference>

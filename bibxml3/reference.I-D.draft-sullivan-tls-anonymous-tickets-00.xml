@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sullivan-tls-anonymous-tickets'>
+<front>
+<title>Anonymous Tickets for TLS 1.3</title>
+
+<author initials='N' surname='Sullivan' fullname='Nick Sullivan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>This document describes a mechanism that enables unlinkable session resumption for TLS 1.3 without server-side state.  In contrast to existing ticket-based resumption in TLS 1.3, wherein servers construct and issue tickets to clients, this document specifies a mechanism by which clients request "anonymous tickets" from servers. When a session is resumed using an anonymous ticket, a server only learns that it previously engaged in a session with some client, rather than linking it to a specific client.  Anonymous tickets are only useful for clients with idempotent early data to send.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sullivan-tls-anonymous-tickets-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sullivan-tls-anonymous-tickets-00.txt' />
+</reference>

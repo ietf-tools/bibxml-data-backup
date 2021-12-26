@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-appsawg-authres-ptypes-registry'>
+<front>
+<title>A Property Types Registry for the Authentication-Results Header Field</title>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<date month='August' day='26' year='2014' />
+
+<abstract><t>[RFC7001] describes a header field called Authentication-Results for use with electronic mail messages to indicate the results of message authentication efforts.  Any receiver-side software, mainly Mail Transfer Agents (MTAs) or mail filters, can add or use this header field to relay that information in a convenient and meaningful way to later-stage systems, such as for sorting and filtering decisions.  One portion of the definition in that document limits the types of authentication properties about a message to a small, fixed set. This document updates the specification, making it extensible to allow new property types to be declared and used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-appsawg-authres-ptypes-registry-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-appsawg-authres-ptypes-registry-02.txt' />
+</reference>

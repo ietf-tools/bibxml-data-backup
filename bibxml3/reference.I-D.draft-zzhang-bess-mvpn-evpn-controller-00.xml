@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zzhang-bess-mvpn-evpn-controller'>
+<front>
+<title>MVPN and EVPN BUM Signaling with Controllers</title>
+
+<author initials='Z' surname='Zhang' fullname='Zheng Zhang'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<author initials='R' surname='Parekh' fullname='Rishabh Parekh'>
+    <organization />
+</author>
+
+<author initials='H' surname='Bidgoli' fullname='Hooman Bidgoli'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>This document specifies optional procedures for BGP-MVPN and EVPN BUM signaling with controllers.  When P2MP tunnels used for BGP-MVPN and EVPN BUM are to be signaled from controllers, the controllers can learn tunnel information (identifier, root, leaf) by participating BGP-MVPN and EVPN BUM signaling, instead of relying on ingress PEs to collect the information and then pass to the controllers. Additionally, Inclusive/Selective PMSI Auto Discovery Routes can be originated from controllers based on central provisioning, instead of from PEs based on local provisioning.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zzhang-bess-mvpn-evpn-controller-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zzhang-bess-mvpn-evpn-controller-00.txt' />
+</reference>

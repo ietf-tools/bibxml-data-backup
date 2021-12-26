@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.van-meter-qirg-quantum-connection-setup'>
+<front>
+<title>Connection Setup in a Quantum Network</title>
+
+<author initials='R' surname='Meter' fullname='Rodney Van Meter'>
+    <organization />
+</author>
+
+<author initials='T' surname='Matsuo' fullname='Takaaki Matsuo'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>Near-term quantum networks will grow to form a Noisy, Intermediate- Scale Quantum Internet (NISQI).  Connection setup will require adapting behavior along the path to the noise levels of individual elements.  In this proposal, path creation is triggered by an application at the Initiator, information is accumulated node-by-node on an outbound pass in a series of QCap (quantum capability) blocks, then the RuleSets are created at the Responder.  RuleSets are installed at the individual nodes on the return pass.  This document describes the architecture of connection setup in a network.  Details of the RuleSets and QCaps, addressing architecture, link protocols, routing, resource allocation (multiplexing), extension of this setup procedure to an internetwork, and extension to multiparty communications are beyond the scope of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-van-meter-qirg-quantum-connection-setup-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-van-meter-qirg-quantum-connection-setup-00.txt' />
+</reference>

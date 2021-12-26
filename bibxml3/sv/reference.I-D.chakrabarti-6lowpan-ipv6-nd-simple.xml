@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chakrabarti-6lowpan-ipv6-nd-simple'>
+<front>
+<title>IPv6 LoWPAN Neighbor Discovery and Addressing Choices</title>
+
+<author initials='S' surname='Chakrabarti' fullname='Samita Chakrabarti'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>IETF 6LoWPAN working group defines IPv6 over low-power personal area network (IEEE 802.15.4).  IEEE 802.15.4 and other low-power wireless networks have limited or no usage of broadcast or multicast signaling due to energy conservation.  Besides the wireless nodes may not strictly follow traditional concept of IP subnet and IP-links while connecting nodes and routers.  This document describes simple optimizations to IPv6 Neighbor Discovery protocol(RFC4861), and addressing mechanisms that are useful for small scale 6LoWPAN networks in star and mesh topologies.  The optimizations include reducing the amount of Neighbor Discovery multicast traffic and allowing for a single subnet to span multiple routers in a "route-over" topology.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chakrabarti-6lowpan-ipv6-nd-simple-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chakrabarti-6lowpan-ipv6-nd-simple-00.txt' />
+</reference>

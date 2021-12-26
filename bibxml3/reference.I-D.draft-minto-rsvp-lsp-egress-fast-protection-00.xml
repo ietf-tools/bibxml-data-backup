@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.minto-rsvp-lsp-egress-fast-protection'>
+<front>
+<title>RSVP-TE LSP egress fast-protection-00</title>
+
+<author initials='J' surname='Jeganathan' fullname='Jeyananth Jeganathan'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Shen' fullname='Yimin Shen'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>RFC4090 defines an RSVP fast reroute mechanism for local repairing LSP tunnel in the order of 10s milliseconds, in the event of a downstream link or node failure.  However, the mechanism does not provide node protection for LSP egress nodes.  This document describes two methods to establish a bypass LSP from the penultimate- hop node of an LSP to a backup egress node, which could be used to protect the LSP against egress node failure.  The methods enable local repair in the order of 10s of millisecond, in the event of the egress node failure.  These methods are only applicable if traffic carried by the LSP could be rerouted to ultimate destination by the backup egress node.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-minto-rsvp-lsp-egress-fast-protection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-minto-rsvp-lsp-egress-fast-protection-00.txt' />
+</reference>

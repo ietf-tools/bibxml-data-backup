@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-g-ikev2'>
+<front>
+<title>Group Key Management using IKEv2</title>
+
+<author initials='B' surname='Weis' fullname='Brian Weis'>
+    <organization />
+</author>
+
+<author initials='V' surname='Smyslov' fullname='Valery Smyslov'>
+    <organization />
+</author>
+
+<date month='January' day='8' year='2020' />
+
+<abstract><t>This document presents a set of IKEv2 exchanges that comprise a group key management protocol.  The protocol is in conformance with the Multicast Security (MSEC) key management architecture, which contains two components: member registration and group rekeying.  Both components require a Group Controller/Key Server to download IPsec group security associations to authorized members of a group.  The group members then exchange IP multicast or other group traffic as IPsec packets.  This document obsoletes RFC 6407.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-g-ikev2-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-g-ikev2-00.txt' />
+</reference>

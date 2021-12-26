@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.akagiri-mail-divide'>
+<front>
+<title>Mail Divide Framework</title>
+
+<author initials='T' surname='Akagiri' fullname='Takehito Akagiri'>
+    <organization />
+</author>
+
+<author initials='G' surname='Yasutaka' fullname='Genki Yasutaka'>
+    <organization />
+</author>
+
+<author initials='K' surname='Okada' fullname='Kouji Okada'>
+    <organization />
+</author>
+
+<author initials='T' surname='Hayashi' fullname='Tatsuya Hayashi'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kase' fullname='Masaki Kase'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2017' />
+
+<abstract><t>Mail Divide Framework (MDF) is a recipient driven partitioning framework for E-Mail delivery.  A protocol to divide mail delivery at the source of the message is defined in this draft.  A mechanism called Reputation Service Provider is also introduced so that a third-party authority can assure senders' trust.  With MDF, subdomaining is used for category-specific MTA designation.  Senders decide which category the outgoing mail belongs.  It then looks up DNS TXT record to find whether the recipient advertises a specific server for that category.  The specified server puts the received mail into a corresponding per-category inbox for the user.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-akagiri-mail-divide-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-akagiri-mail-divide-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosenberg-sip-target-uri-delivery'>
+<front>
+<title>Delivery of Request-URI Targets to User Agents</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2008' />
+
+<abstract><t>When a Session Initiation Protocol (SIP) proxy receives a request targeted at a URI identifying a user or resource it is responsible for, the proxy translates the URI to a registered contact URI of an agent representing that user or resource.  In the process, the original URI is removed from the request.  Numerous use cases have arisen which require this information to be delivered to the user agent.  This document describes these use cases and defines an extension to the History-Info header field which allows it to be used to support those cases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosenberg-sip-target-uri-delivery-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosenberg-sip-target-uri-delivery-00.txt' />
+</reference>

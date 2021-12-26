@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reschke-ref-parsing'>
+<front>
+<title>Processing potentially invalid URI and IRI References</title>
+
+<author initials='J' surname='Reschke' fullname='Julian Reschke'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2011' />
+
+<abstract><t>The parsing of Uniform Resource Identifiers (URIs, RFC 3986) and Internationalized Resource Identifiers (IRIs, RFC 3987) is defined in terms of Augmented Backus-Naur Form (ABNF).  The ABNF grammars are defined in terms of valid identifiers, and thus technically do not address how to handle invalid ones.  The URI specification however includes a note how to use Regular Expressions for parsing, and this note applies to invalid identifiers as well.  This document introduces terminology referring to potentially invalid identifiers, and demonstrates how the rules in the URI specification can be applied to them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reschke-ref-parsing-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reschke-ref-parsing-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lehtonen-mboned-mcop-operation'>
+<front>
+<title>MCOP operation for first hop routers</title>
+
+<author initials='R' surname='Lehtonen' fullname='Rami Lehtonen'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2004' />
+
+<abstract><t>This draft defines Multicast Control Protocol (MCOP) operation for first hop routers. In this context, MCOP may be used as a tool for multicast network management. MCOP provides multicast network remote management with centralized information database located at Multicast Control Server (MCS). It allows gradual, group and network specific multicast network deployment. The control is done by MCOP enabled first hop routers, Multicast Control Clients (MCC), based on the information received from the MCS. MCC can filter IGMP/MLD reports and multicast packets before they reach the IGMP/MLD processing layer or multicast routing stack of the router. MCOP is independent of multicast routing protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lehtonen-mboned-mcop-operation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lehtonen-mboned-mcop-operation-02.txt' />
+</reference>

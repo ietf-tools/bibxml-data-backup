@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bvtm-dhc-mac-assign'>
+<front>
+<title>Link-Layer Addresses Assignment Mechanism for DHCPv6</title>
+
+<author initials='B' surname='Volz' fullname='Bernie Volz'>
+    <organization />
+</author>
+
+<author initials='T' surname='Mrugalski' fullname='Tomek Mrugalski'>
+    <organization />
+</author>
+
+<date month='May' day='14' year='2018' />
+
+<abstract><t>In certain environments, e.g. large scale virtualization deployments, new devices are created in an automated manner.  Such devices typically have their link-layer (MAC) addresses randomized.  With sufficient scale, the likelihood of collision is not acceptable. Therefore an allocation mechanism is required.  This draft proposes an extension to DHCPv6 that allows a scalable approach to link-layer address assignments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bvtm-dhc-mac-assign-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bvtm-dhc-mac-assign-01.txt' />
+</reference>

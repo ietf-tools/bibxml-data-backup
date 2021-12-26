@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.keyupate-idr-bgp-selective-add-paths'>
+<front>
+<title>Selective Advertisement of Multiple Paths within BGP</title>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>[draft-ietf-idr-add-paths] defines a BGP extension that allows the advertisement of multiple paths for the same address prefix without the new paths implicitly replacing any previous ones.  The essence of the extension is that each path is identified by a path identifier in addition to the address prefix.  This draft augments functionality defined in [draft-ietf-idr-add-paths] to facilitate advertisement of multiple paths for a subset of prefixes in a given address family. Prefixes are selected through specification of a well-known BGP extended community.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-keyupate-idr-bgp-selective-add-paths-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-keyupate-idr-bgp-selective-add-paths-01.txt' />
+</reference>

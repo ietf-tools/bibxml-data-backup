@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmm-distributed-mobility-anchoring'>
+<front>
+<title>Distributed Mobility Anchoring</title>
+
+<author initials='A' surname='Chan' fullname='Anthony Chan'>
+    <organization />
+</author>
+
+<author initials='X' surname='Wei' fullname='Xinpeng Wei'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lee' fullname='Jong-Hyouk Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jeon' fullname='Seil Jeon'>
+    <organization />
+</author>
+
+<author initials='A' surname='Petrescu' fullname='Alexandre Petrescu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='September' day='8' year='2016' />
+
+<abstract><t>This document defines distributed mobility anchoring to meet diverse mobility needs in 5G Wireless and beyond.  Multiple anchors and nodes with mobility functions work together to provide IP mobility support. A network or network slice may be configured with distributed mobility anchoring with the needed behaviors depending on the needs of mobility support.  In the distributed mobility anchoring environment, multiple anchors are available for mid-session switching of an IP prefix anchor.  Without ongoing session requiring session continuity, a flow can be re-started using a new IP prefix which is allocated from the new network and is therefore anchored to the new network.  With ongoing session, the anchoring of the prior IP prefix may be relocated to the new network to enable session continuity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmm-distributed-mobility-anchoring-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmm-distributed-mobility-anchoring-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmm-distributed-mobility-anchoring-01.pdf' />
+</reference>

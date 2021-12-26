@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tsvwg-aqm-tcpm-rmcat-l4s-problem'>
+<front>
+<title>Low Latency, Low Loss, Scalable Throughput (L4S) Internet Service: Problem Statement</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='K' surname='Schepper' fullname='Koen De Schepper'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<date month='June' day='3' year='2016' />
+
+<abstract><t>This document motivates a new service that the Internet could provide to eventually replace best efforts for all traffic: Low Latency, Low Loss, Scalable throughput (L4S).  It is becoming common for all (or most) applications being run by a user at any one time to require low latency, but the only solution the IETF can offer for ultra-low queuing latency is Diffserv, which only offers low latency for some packets at the expense of others.  Diffserv has also proved hard to deploy widely end-to-end.  In contrast, a zero-config incrementally deployable solution has been demonstrated that keeps average queuing delay under a millisecond for _all_ applications even under very heavy load; and it keeps congestion loss to zero.  At the same time it solves the long-running problem with the scalability of TCP throughput.  Even with a high capacity broadband access, the resulting performance under load is remarkably and consistently improved for applications such as interactive video, conversational video, voice, Web, gaming, instant messaging, remote desktop and cloud-based apps.  This document explains the underlying problems that have been preventing the Internet from enjoying such performance improvements.  It then outlines the parts necessary for a solution and the steps that will be needed to standardize them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tsvwg-aqm-tcpm-rmcat-l4s-problem-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-aqm-tcpm-rmcat-l4s-problem-00.txt' />
+</reference>

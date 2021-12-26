@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-distributed-mobility'>
+<front>
+<title>Distributed mobility management Problem Statement</title>
+
+<author initials='D' surname='Liu' fullname='Dapeng Liu'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>Current mobility solutions normally introduce an anchor point in the network, eg HA in MIPv6, LMA in PMIPv6, GGSN in 3GPP.  The anchor point is used to maintain the mapping between the stable IP address (eg Home address in MIPv6) and the current routable IP address (eg CoA in MIPv6).  In the hierarchical architecture, since the anchor point normally locates in the top of the hierarchical architecture, there will no scalability issue.  But in the more flat architecture, the anchor point will be much lower compared with hierarchical architecture; this will introduce some issues if traditionally mobility protocol is used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-distributed-mobility-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-distributed-mobility-00.txt' />
+</reference>

@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-dprive-xfr-over-tls-12.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-dprive-xfr-over-tls-12.txt</link>
+        <title>"DNS Zone Transfer-over-TLS", Willem Toorop, Sara Dickinson, Shivan Sahib, Pallavi Aras, Allison Mankin</title>
+        <dc:date>2021-05-27T23:00:00-00:00</dc:date>
+        <description>DNS zone transfers are transmitted in clear text, which gives attackers the opportunity to collect the content of a zone by eavesdropping on network connections.  The DNS Transaction Signature (TSIG) mechanism is specified to restrict direct zone transfer to authorized clients only, but it does not add confidentiality.  This document specifies the use of TLS, rather than clear text, to prevent zone content collection via passive monitoring of zone transfers: XFR-over-TLS (XoT).  Additionally, this specification updates RFC1995 and RFC5936 with respect to efficient use of TCP connections, and RFC7766 with respect to the recommended number of connections between a client and server for each transport.</description>
+    </item>

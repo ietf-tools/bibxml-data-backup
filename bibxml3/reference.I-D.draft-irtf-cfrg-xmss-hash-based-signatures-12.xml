@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-cfrg-xmss-hash-based-signatures'>
+<front>
+<title>XMSS: Extended Hash-Based Signatures</title>
+
+<author initials='A' surname='Huelsing' fullname='Andreas Huelsing'>
+    <organization />
+</author>
+
+<author initials='D' surname='Butin' fullname='Denis Butin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gazdag' fullname='Stefan-Lukas Gazdag'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rijneveld' fullname='Joost Rijneveld'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mohaisen' fullname='Aziz Mohaisen'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2018' />
+
+<abstract><t>This note describes the eXtended Merkle Signature Scheme (XMSS), a hash-based digital signature system.  It follows existing descriptions in scientific literature.  The note specifies the WOTS+ one-time signature scheme, a single-tree (XMSS) and a multi-tree variant (XMSS^MT) of XMSS.  Both variants use WOTS+ as a main building block.  XMSS provides cryptographic digital signatures without relying on the conjectured hardness of mathematical problems. Instead, it is proven that it only relies on the properties of cryptographic hash functions.  XMSS provides strong security guarantees and is even secure when the collision resistance of the underlying hash function is broken.  It is suitable for compact implementations, relatively simple to implement, and naturally resists side-channel attacks.  Unlike most other signature systems, hash-based signatures can withstand so far known attacks using quantum computers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-cfrg-xmss-hash-based-signatures-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-xmss-hash-based-signatures-12.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-xmss-hash-based-signatures-12.pdf' />
+</reference>

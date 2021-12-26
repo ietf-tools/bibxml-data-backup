@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.heer-hip-lhip'>
+<front>
+<title>LHIP Lightweight Authentication Extension for HIP</title>
+
+<author initials='T' surname='Heer' fullname='Tobias Heer'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2007' />
+
+<abstract><t>This document specifies the Lightweight authentication extension for the Host Identifier Protocol (LHIP). The goal of LHIP is to reduce the computational requirements of the Host Identifier Protocol (HIP), thus, making its benefits, such as end-host mobility and multihoming, accessible to CPU-restricted devices. LHIP reduces the computational cost of establishing, updating, and closing a HIP association by providing an alternative way of signing and verifying HIP control packets which is based on computationally inexpensive hash function computations and hash chains. However, LHIP does not provide nor does it aim at providing the same level of security as HIP does. Especially, host authentication and payload encryption are not possible. The LHIP extensions in this draft specify also mechanisms for dynamic transitioning between lightweight and full HIP associations on the fly.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-heer-hip-lhip-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-heer-hip-lhip-00.txt' />
+</reference>

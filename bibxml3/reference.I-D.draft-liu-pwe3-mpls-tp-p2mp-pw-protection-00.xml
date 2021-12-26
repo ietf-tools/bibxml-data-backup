@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-pwe3-mpls-tp-p2mp-pw-protection'>
+<front>
+<title>p2mp pw protection for mpls-tp network</title>
+
+<author initials='Y' surname='jinghai' fullname='Yu jinghai'>
+    <organization />
+</author>
+
+<author initials='G' surname='Liu' fullname='Guoman Liu'>
+    <organization />
+</author>
+
+<author initials='T' surname='XiaoPing' fullname='Tu XiaoPing'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xueqiong' fullname='Xu Xueqiong'>
+    <organization />
+</author>
+
+<date month='December' day='29' year='2011' />
+
+<abstract><t>According to one protection Requirement in RFC 5654, Requirement 63 :It MUST be possible to provide protection for the MPLS-TP data plane without any IP forwarding capability in the MPLS-TP data plane. and it requires mpls-tp date plane should be independent of its control plane. so it is necessary for the 1:1 protection of p2mp pw to have a return path to coordinate the switch state between root node and each leaf node. for the above problem statement, the document provides a solution to protect p2mp pw by using one leaf node as protector for another leaf node. so it may avoid setting up a return path for each leaf node.  This document is a product of a joint Internet Task Force(IETF) / International Telecommunications Union Telecommunications Standardization Sector (ITU-T) effort to include an MPLS Transport Profile within the IETF MPLS and PWE3 architectures to support the capabilities and functionalities of a packet transport network as defined by the ITU-T.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-pwe3-mpls-tp-p2mp-pw-protection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-pwe3-mpls-tp-p2mp-pw-protection-00.txt' />
+</reference>

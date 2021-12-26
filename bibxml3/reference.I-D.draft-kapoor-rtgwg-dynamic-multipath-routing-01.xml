@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kapoor-rtgwg-dynamic-multipath-routing'>
+<front>
+<title>Dynamic MultiPath Routing</title>
+
+<author initials='F' surname='Devetak' fullname='Fabrizio Devetak'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kapoor' fullname='Sanjiv Kapoor'>
+    <organization />
+</author>
+
+<date month='September' day='12' year='2017' />
+
+<abstract><t>In this draft we consider dynamic multipath routing and introduce two methods that use additive increase and multiplicative decrease for flow control, similar to TCP.  Our first method allows for congestion control and re-routing flows as users join in or leave the network. As the number of applications and services supported by the Internet grows, bandwidth requirements increase dramatically so it is imperative to design methods to ensure not only that network throughput is maximized but also to ensure a level of fairness in network resource allocation.  Our second method provides fairness over multiple streams of traffic.  We drive the multiplicative decrease part of the algorithm with link queue occupancy data provided by an enhanced routing protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kapoor-rtgwg-dynamic-multipath-routing-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kapoor-rtgwg-dynamic-multipath-routing-01.txt' />
+</reference>

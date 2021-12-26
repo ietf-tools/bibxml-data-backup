@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lhotka-netconf-relaxng'>
+<front>
+<title>Modular RELAX NG Schema of NETCONF RPC and Protocol Operations</title>
+
+<author initials='L' surname='Lhotka' fullname='Ladislav  Lhotka'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2009' />
+
+<abstract><t>This memo presents a schema for NETCONF RPC and protocol operations expressed in RELAX NG (compact syntax).  The schema is modular and cleanly separates the server and client part of the NETCONF vocabulary and also the schema extensions provided by optional capabilities.  The modular structure improves readability but also enables selecting certain modules and assembling them into a grammar that can be used for validation of NETCONF protocol data units.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lhotka-netconf-relaxng-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lhotka-netconf-relaxng-00.txt' />
+</reference>

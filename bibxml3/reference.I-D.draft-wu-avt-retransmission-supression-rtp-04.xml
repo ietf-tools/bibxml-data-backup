@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-avt-retransmission-supression-rtp'>
+<front>
+<title>RTCP Report Extension for Feedback Suppression</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2010' />
+
+<abstract><t>When packet loss close to the media source or intermediary of the session is detected as a loss by a large number of receivers, large number of feedback requests used to ask for the lost RTP packets are all addressed to the same media source, or a designated feedback target.  This may result in a phenomenon known variously as a "feedback storm " or "feedback implosion ".  This document specifies an extension to the RTCP feedback messages defined in the Audio-Visual Profile with Feedback (AVPF).  This extension allows an intermediate node in the network (such as an RTP translator) inform downstream receivers that packet loss was detected and sending a feedback message concerning a specified set of RTP packets may be unnecessary, or even harmful.  Receivers respond to receipt of a feedback suppression message by not sending a feedback message (e.g. a NACK) that they otherwise would, This in turn reduces load on both the feedback target and on the network.  The proposed extension is useful for single-source multicast sessions.  In addition, it can be applied to any other types of RTP sessions and topologies that might benefit from feedback suppression mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-avt-retransmission-supression-rtp-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-avt-retransmission-supression-rtp-04.txt' />
+</reference>

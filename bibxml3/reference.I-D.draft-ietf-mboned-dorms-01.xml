@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mboned-dorms'>
+<front>
+<title>Discovery Of Restconf Metadata for Source-specific multicast</title>
+<author initials='J' surname='Holland' fullname='Jake Holland'>
+<organization />
+</author>
+<date year='2020' month='October' day='31' />
+<abstract><t>This document defines DORMS (Discovery Of Restconf Metadata for Source-specific multicast), a method to discover and retrieve extensible metadata about source-specific multicast channels using RESTCONF.  The reverse IP DNS zone for a multicast sender's IP address is configured to use SRV resource records to advertise the hostname of a RESTCONF server that publishes metadata according to a new YANG module with support for extensions.  A new service name and the new YANG module are defined.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-mboned-dorms-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-mboned-dorms-01.txt'/>
+</reference>

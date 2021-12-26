@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bishop-httpbis-http2-additional-certs'>
+<front>
+<title>Secondary Server-Certificate Authentication in HTTP/2</title>
+
+<author initials='M' surname='Bishop' fullname='Mike Bishop'>
+    <organization />
+</author>
+
+<date month='March' day='15' year='2016' />
+
+<abstract><t>Many HTTP servers host content from several origins.  HTTP/2 [RFC7540] permits clients to reuse an existing HTTP connection to a server provided that certain conditions are satisfied.  One of these conditions is the inclusion of the secondary origin in the certificate provided during the TLS [I-D.ietf-tls-tls13] handshake.  In many cases, origins will wish to maintain separate certificates for different origins but still desire the benefits of a shared HTTP connection.  This draft describes how frames which were defined to transfer client certificates might be used to provide additional server certificates as well.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bishop-httpbis-http2-additional-certs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bishop-httpbis-http2-additional-certs-00.txt' />
+</reference>

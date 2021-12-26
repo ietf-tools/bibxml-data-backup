@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-rfc6040update-shim'>
+<front>
+<title>Propagating Explicit Congestion Notification Across IP Tunnel Headers Separated by a Shim</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='May' day='30' year='2017' />
+
+<abstract><t>RFC 6040 on "Tunnelling of Explicit Congestion Notification" made the rules for propagation of ECN consistent for all forms of IP in IP tunnel.  This specification extends the scope of RFC 6040 to include tunnels where two IP headers are separated by at least one shim header that is not sufficient on its own for packet forwarding.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-rfc6040update-shim-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-rfc6040update-shim-01.txt' />
+</reference>

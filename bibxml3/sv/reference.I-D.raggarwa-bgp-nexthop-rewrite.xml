@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raggarwa-bgp-nexthop-rewrite'>
+<front>
+<title>Preserving Original BGP Next Hops</title>
+
+<author initials='R' surname='Aggarwal' fullname='Rahul Aggarwal'>
+    <organization />
+</author>
+
+<date month='August' day='16' year='2004' />
+
+<abstract><t>A BGP speaker uses the NEXT_HOP attribute or the MP_REACH_NLRI attribute to advertise the IP address that should be used as the next hop to the destinations listed in the Network Layer Reachability Information (NLRI). This next hop may be rewritten by other BGP speakers when the NLRI is re-advertised. Some applications depend on the original BGP next hop. This document proposes a mechanism to preserve the original BGP next hop.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raggarwa-bgp-nexthop-rewrite-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raggarwa-bgp-nexthop-rewrite-01.txt' />
+</reference>

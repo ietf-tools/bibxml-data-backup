@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2vpn-arp-mediation'>
+<front>
+<title>ARP Mediation for IP Interworking of Layer 2 VPN</title>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='H' surname='Shah' fullname='Himanshu Shah'>
+    <organization />
+</author>
+
+<author initials='T' surname='Smith' fullname='Toby Smith'>
+    <organization />
+</author>
+
+<author initials='G' surname='Heron' fullname='Giles Heron'>
+    <organization />
+</author>
+
+<author initials='W' surname='Augustyn' fullname='Waldemar Augustyn'>
+    <organization />
+</author>
+
+<author initials='A' surname='Malis' fullname='Andrew Malis'>
+    <organization />
+</author>
+
+<author initials='V' surname='Kompella' fullname='Vach Kompella'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wright' fullname='Steven Wright'>
+    <organization />
+</author>
+
+<author initials='S' surname='Khandekar' fullname='Sunil Khandekar'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2010' />
+
+<abstract><t>The VPWS service [L2VPN-FRM] provides point-to-point connections between pairs of Customer Edge (CE) devices.  It does so by binding two Attachment Circuits (each connecting a CE device with a Provider Edge, PE, device) to a pseudowire (connecting the two PEs).  In general, the Attachment Circuits must be of the same technology (e.g., both Ethernet, both ATM), and the pseudowire must carry the frames of that technology.  However, if it is known that the frames' payload consists solely of IP datagrams, it is possible to provide a point-to-point connection in which the pseudowire connects Attachment Circuits of different technologies. This requires the PEs to perform a function known as "ARP Mediation". ARP Mediation refers to the process of resolving Layer 2 addresses when different resolution protocols are used on either Attachment Circuit. The methods described in this document are applicable even when the CEs run a routing protocol between them, as long as the routing protocol runs over IP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2vpn-arp-mediation-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2vpn-arp-mediation-13.txt' />
+</reference>

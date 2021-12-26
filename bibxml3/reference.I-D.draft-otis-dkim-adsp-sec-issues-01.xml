@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-dkim-adsp-sec-issues'>
+<front>
+<title>DKIM Author Domain Signing Practices (ADSP) Security Issues</title>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<date month='August' day='18' year='2008' />
+
+<abstract><t>The proposed [I-D.ietf-dkim-ssp] defines DNS records that advertise the extent to which a domain employs [RFC4871] to sign [RFC2822] messages, and defines how other hosts can access these advertisements.  Its laudable goal is to allow domains control over the use of the From header field.  When a message is not adequately signed, advertised assertions, referenced by a domain in the From header field, assist in resolving the message's intended disposition.  However, [I-D.ietf-dkim-ssp] fails to discern that restricted identities imposed upon remote signing agents, require additional control be afforded the domain, irrespective of the domain's advertised practices.  [I-D.ietf-dkim-ssp] employs a flawed two-stage signature validation process that occurs in conjunction with advertised practices.  The two stage approach impairs the range of authentication assertions and related security tactics.  Advertised practices not only determine whether a signature should be expected, they may constrain the "on-behalf-of" identity applied by signing agents that are not otherwise so restricted.  By constraining the "on-behalf-of" identity for all signing agents, the draft neglects the predominate role of the domain as a point of trust, and incorrectly assumes the signature is limited to supporting assertions regarding the identity of the author.  In addition, the only directly actionable practice is defined using a term that is likely to negatively impact the integrity of delivery status.  [I-D.ietf-dkim-ssp] impairs security in other ways as well, but fortunately minor changes to the definition of a valid signature can significantly remedy the most critical security issue.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-dkim-adsp-sec-issues-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-dkim-adsp-sec-issues-01.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tictoc-1588overmpls'>
+<front>
+<title>Transporting PTP messages (1588) over MPLS Networks</title>
+
+<author initials='S' surname='Davari' fullname='Shahram Davari'>
+    <organization />
+</author>
+
+<author initials='A' surname='Oren' fullname='Amit Oren'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='P' surname='Roberts' fullname='Peter Roberts'>
+    <organization />
+</author>
+
+<author initials='L' surname='Montini' fullname='Laurent Montini'>
+    <organization />
+</author>
+
+<date month='May' day='24' year='2011' />
+
+<abstract><t>This document defines the method for transporting PTP messages (PDUs) over an MPLS network to enable a proper handling of these packets (e.g. implementation of Transparent Clocks (TC)) in LSRs.  The basic idea is to transport PTP messages inside dedicated MPLS LSPs.  These LSPs only carry PTP messages and possibly Control and Management packets, but they do not carry customer traffic.  Two methods for transporting 1588 over MPLS are defined.  The first method is to transport PTP messages directly over the dedicated MPLS LSP via UDP/IP encapsulation, which is suitable for IP/MPLS networks. The second method is to transport PTP messages inside a PW via Ethernet encapsulation, which is more suitable for MPLS-TP networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tictoc-1588overmpls-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tictoc-1588overmpls-01.txt' />
+</reference>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3782' target='https://www.rfc-editor.org/info/rfc3782'>
+<front>
+<title>The NewReno Modification to TCP's Fast Recovery Algorithm</title>
+<author initials='S.' surname='Floyd' fullname='S. Floyd'><organization /></author>
+<author initials='T.' surname='Henderson' fullname='T. Henderson'><organization /></author>
+<author initials='A.' surname='Gurtov' fullname='A. Gurtov'><organization /></author>
+<date year='2004' month='April' />
+<abstract><t>The purpose of this document is to advance NewReno TCP's Fast Retransmit and Fast Recovery algorithms in RFC 2582 from Experimental to Standards Track status.  The main change in this document relative to RFC 2582 is to specify the Careful variant of NewReno's Fast Retransmit and Fast Recovery algorithms.  The base algorithm described in RFC 2582 did not attempt to avoid unnecessary multiple Fast Retransmits that can occur after a timeout.  However, RFC 2582 also defined &quot;Careful&quot; and &quot;Less Careful&quot; variants that avoid these unnecessary Fast Retransmits, and recommended the Careful variant.  This document specifies the previously-named &quot;Careful&quot; variant as the basic version of NewReno TCP.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3782'/>
+<seriesInfo name='DOI' value='10.17487/RFC3782'/>
+</reference>

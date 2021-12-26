@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.peng-p2psip-one-hop-plugin'>
+<front>
+<title>One Hop Lookups Algorithm Plugin for RELOAD</title>
+
+<author initials='J' surname='Peng' fullname='Jin Peng'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Qing' fullname='Yu Qing'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Li' fullname='Yuan Li'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2012' />
+
+<abstract><t>This document defines a specific Topology Plugin using a ramification of the basic One Hop Lookups based DHT algorithm which is called ONE- HOP-RELOAD. In the One Hop Lookups algorithm, each peer maintains a full routing table containing information about every node on the overlay in order to route RELOAD message in one hop. Compared with CHORD-RELOAD algorithm, ONE-HOP-RELOAD improves the routing efficiency, and can maintain complete membership information with reasonable bandwidth requirements. This algorithm is able to handle frequent membership changes by superimposing a well-defined hierarchy on the system that guarantees topology disturbance events notification reach every peer in the overlay within a specified amount of time. Currently some typical peer-to-peer storages systems have stringent latency requirements, such as Amazon's Dynamo which is built for latency sensitive applications uses One-Hop algorithm, so that each node maintains enough routing information locally to route a request to the appropriate node directly.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-peng-p2psip-one-hop-plugin-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-peng-p2psip-one-hop-plugin-02.txt' />
+</reference>

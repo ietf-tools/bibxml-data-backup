@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.massar-dnsop-service'>
+<front>
+<title>The _service domain and prefix</title>
+
+<author initials='J' surname='Massar' fullname='Jeroen Massar'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2005' />
+
+<abstract><t>This document defines a new domain, _service., which can be used for automatic service configuration and discovery. The associated anycast prefixes can be used to configure a default DNS server, which provides lookups for a local _service. domain but also acts as a (caching) recursive DNS server, thus allowing DNS clients to use this well-known address as their default DNS server as well as to use it to find various well known services, thus avoiding manual configuration.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-massar-dnsop-service-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-massar-dnsop-service-00.txt' />
+</reference>

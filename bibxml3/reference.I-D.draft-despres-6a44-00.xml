@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.despres-6a44'>
+<front>
+<title>Native IPv6 Behind NAT44 CPEs (6a44)</title>
+
+<author initials='R' surname='Despres' fullname='Remi Despres'>
+    <organization />
+</author>
+
+<author initials='B' surname='Carpenter' fullname='Brian Carpenter'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2011' />
+
+<abstract><t>In customer sites having IPv4-only CPEs, Teredo provides a last resort IPv6 connectivity [RFC4380] [RFC5991] [RFC6081].  However, because it is designed to work without involvement of Internet service providers, it has significant limitations (connectivity between IPv6 native addresses and Teredo addresses is uncertain; connectivity between Teredo addresses fails for some combinations of NAT types). 6a44 is a complementary solution that, being base on ISP cooperation, avoids these limitations.  At the beginning of IPv6 addresses, it replaces the Teredo well-known prefix by network specific prefixes assigned by local ISP's (an evolution similar to that from 6to4 to 6rd).  In hosts, 6a44 can be implemented either autonomously or as an extension of Teredo.  The specification is complete enough for actual deployment, including with independently written codes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-despres-6a44-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-despres-6a44-00.txt' />
+</reference>

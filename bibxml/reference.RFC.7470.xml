@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7470' target='https://www.rfc-editor.org/info/rfc7470'>
+<front>
+<title>Conveying Vendor-Specific Constraints in the Path Computation Element Communication Protocol</title>
+<author initials='F.' surname='Zhang' fullname='F. Zhang'><organization /></author>
+<author initials='A.' surname='Farrel' fullname='A. Farrel'><organization /></author>
+<date year='2015' month='March' />
+<abstract><t>The Path Computation Element Communication Protocol (PCEP) is used to convey path computation requests and responses both between Path Computation Clients (PCCs) and Path Computation Elements (PCEs) and between cooperating PCEs.  In PCEP, the path computation requests carry details of the constraints and objective functions that the PCC wishes the PCE to apply in its computation.</t><t>This document defines a facility to carry vendor-specific information in PCEP using a dedicated object and a new Type-Length-Value (TLV) that can be carried in any PCEP object that supports TLVs.</t><t>This document obsoletes RFC 7150.  The only changes from that document are a clarification of the use of the new Type-Length-Value and the allocation of a different code point for the VENDOR-INFORMATION object.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7470'/>
+<seriesInfo name='DOI' value='10.17487/RFC7470'/>
+</reference>

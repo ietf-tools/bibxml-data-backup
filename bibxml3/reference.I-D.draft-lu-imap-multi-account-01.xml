@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lu-imap-multi-account'>
+<front>
+<title>IMAP4 Extension for Multi-Account Situations</title>
+
+<author initials='Y' surname='Lu' fullname='Yan Lu'>
+    <organization />
+</author>
+
+<date month='November' day='20' year='2011' />
+
+<abstract><t>Simultaneous authentication of multiple mail accounts belonging to a single user is an attractive feature but is not supported in the current Internet Message Access Protocol [RFC3501]. This document introduces an extension of the Internet Message Access Protocol, Version 4rev1 (IMAP4rev1). With this extension, when a client is authenticated with one of its user identifiers, all the other associated user identifiers (if present) are also regarded as authenticated ones. Furthermore, this document specifies the syntax of LISTA and SELECTA commands for the IMAP4rev1 protocol. With LISTA command, a client can obtain a list of all the identifiers authenticated for the user. With SELECTA command, a client can select one of the user's authenticated identifiers and then gain access to all the mailboxes belonging to that identifier, without having to log out and re-log in with that identifier.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lu-imap-multi-account-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lu-imap-multi-account-01.txt' />
+</reference>

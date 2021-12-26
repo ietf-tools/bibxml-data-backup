@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hares-rtgwg-fb-rib'>
+<front>
+<title>Filter-Based RIB Data Model</title>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This document defines a yang data model for a Filter-based Routing Information Base (RIB) Yang data model.  A routing system uses the Filter-based RIB to program FIB entries that process incoming packets by matching on multiple fields (n-tuple) within the packet and then performing a specified action on it.  The FB-RIB can also specify an action to forward the packet according to the FIB entries programmed using the RIBs of its routing instance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hares-rtgwg-fb-rib-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hares-rtgwg-fb-rib-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hares-rtgwg-fb-rib-00.pdf' />
+</reference>

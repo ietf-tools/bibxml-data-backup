@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zorn-dime-n2n-sec-lite'>
+<front>
+<title>A Lightweight Approach to Node-to-Node Security in Diameter</title>
+
+<author initials='G' surname='Zorn' fullname='Glen Zorn'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<date month='April' day='12' year='2011' />
+
+<abstract><t>This document describes a lightweight method for cryptographically protecting a portion of the contents of a Diameter message in transit between an arbitrary pair of Diameter nodes.  The scheme assumes that the destination node possesses an X.509 certificate containing an RSA public key and that that certificate is retrievable through a DNS query by the node originating the message.  In addition to describing the operation of the protocol, this note specifies an Attribute-Value Pair (AVP) for the encapsulation of encrypted AVPs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zorn-dime-n2n-sec-lite-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zorn-dime-n2n-sec-lite-01.txt' />
+</reference>

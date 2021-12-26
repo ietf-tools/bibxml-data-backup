@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-arch'>
+<front>
+<title>An Infrastructure to Support Secure Internet Routing</title>
+
+<author initials='R' surname='Barnes' fullname='Russ Barnes'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2007' />
+
+<abstract><t>This document describes an architecture for an infrastructure to support secure Internet routing. The foundation of this architecture is a public key infrastructure (PKI) that represents the allocation hierarchy of IP address space and Autonomous System Numbers; certificates from this PKI are used to verify signed objects that authorize autonomous systems to originate routes for specified IP address prefixes. The data objects that comprise the PKI, as well as other signed objects necessary for secure routing, are stored and disseminated through a distributed repository system. This document also describes at a high level how this architecture can be used to add security features to common operations such as IP address space allocation and route filter construction.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-arch-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-arch-01.txt' />
+</reference>

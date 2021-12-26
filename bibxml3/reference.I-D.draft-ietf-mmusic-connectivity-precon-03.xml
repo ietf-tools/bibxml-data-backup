@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-connectivity-precon'>
+<front>
+<title>Connectivity Preconditions for Session Description Protocol Media Streams</title>
+
+<author initials='F' surname='Andreasen' fullname='Flemming Andreasen'>
+    <organization />
+</author>
+
+<author initials='G' surname='Camarillo' fullname='Gonzalo Camarillo'>
+    <organization />
+</author>
+
+<author initials='D' surname='Oran' fullname='David Oran'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>This document defines a new connectivity precondition for the Session Description Protocol (SDP) precondition framework. A connectivity precondition can be used to delay session establishment or modification until media stream connectivity has been successfully verified. The method of verification may vary depending on the type of transport used for the media. For unreliable datagram transports such as UDP, verification involves probing the stream with data or control packets. For reliable connection-oriented transports such as TCP, verification can be achieved simply by successful connection establishment or by probing the connection with data or control packets, depending on the situation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-connectivity-precon-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-connectivity-precon-03.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mif-dns-server-selection'>
+<front>
+<title>Improved DNS Server Selection for Multi-Homed Nodes</title>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kato' fullname='Jun-ya Kato'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<date month='April' day='12' year='2011' />
+
+<abstract><t>A multi-homed node can be connected to multiple networks that may utilize different DNS namespaces.  The node commonly receives DNS server configuration information from all connected networks.  Some of the DNS servers may have information about namespaces other servers do not have.  When the multi-homed node needs to utilize DNS, it has to choose which of the servers to contact to.  This document describes a policy based method for helping on selection of DNS server, for both forward and reverse DNS lookup procedures, with help of DNS suffix and IPv6 prefix information received via DHCPv6.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mif-dns-server-selection-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mif-dns-server-selection-02.txt' />
+</reference>

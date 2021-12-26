@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rawat-mext-hc-tunneling'>
+<front>
+<title>Tunneling Header Compression (TuCP) for Tunneling over IP</title>
+
+<author initials='P' surname='Rawat' fullname='Priyanka Rawat'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bonnin' fullname='J-M Bonnin'>
+    <organization />
+</author>
+
+<author initials='A' surname='Minaburo' fullname='Ana Minaburo'>
+    <organization />
+</author>
+
+<author initials='E' surname='Paik' fullname='Eun Paik'>
+    <organization />
+</author>
+
+<date month='March' day='26' year='2009' />
+
+<abstract><t>The IP tunneling mechanisms have important applications in network solutions and are widely used in numerous contexts such as security (VPN), IPv4 to IPv6 transition, and mobility support (MobileIP and NEMO).  However, these tunneling mechanisms induce a large overhead resulting from adding several protocol headers in each packet.  This overhead deteriorates performance on wireless links which are scarce in resources.  Header compression methods are often used on connection oriented communication (e.g., UMTS networks) to reduce the overhead on the wireless part.  These header compression methods can be used on tunnel headers to reduce the protocol header overheads, independent of the payload type.  Although, several header compression methods exist, the header compression profiles defined by them are not adapted to the characteristics of IP tunneling.  This document specifies a tunneling header compression protocol for IP tunneling mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rawat-mext-hc-tunneling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rawat-mext-hc-tunneling-00.txt' />
+</reference>

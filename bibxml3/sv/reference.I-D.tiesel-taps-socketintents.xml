@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tiesel-taps-socketintents'>
+<front>
+<title>Socket Intents</title>
+
+<author initials='P' surname='Tiesel' fullname='Philipp Tiesel'>
+    <organization />
+</author>
+
+<author initials='T' surname='Enghardt' fullname='Theresa Enghardt'>
+    <organization />
+</author>
+
+<author initials='A' surname='Feldmann' fullname='Anja Feldmann'>
+    <organization />
+</author>
+
+<date month='October' day='28' year='2017' />
+
+<abstract><t>This document outlines Socket Intents, a concept that allows applications to share their knowledge about upcoming communication and express their performance preferences in a generic, intuitive and, portable way.  Using Socket Intents, an application can express what it knows, assumes, expects, or wants regarding its network communication.  The information provided by Socket Intents can be used by the network stack to optimize communication in a best-effort way.  Socket Intent can be used to stem against the complexity of exploiting transport diversity, e.g., to automate the choice among multiple paths, provisioning domains or protocols.  By shifting this complexity from the application developer to the operating system, it enables the use of these transport features to a wider range of applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tiesel-taps-socketintents-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tiesel-taps-socketintents-01.txt' />
+</reference>

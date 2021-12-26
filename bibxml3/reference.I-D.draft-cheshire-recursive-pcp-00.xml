@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheshire-recursive-pcp'>
+<front>
+<title>Recursive PCP</title>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2013' />
+
+<abstract><t>The Port Control Protocol (PCP) allows clients to request explicit dynamic inbound and outbound port mappings in their their closest on- path NAT, Firewall, or other middlebox.  However, in today's world, there may be more than one NAT on the path between a client and the public Internet.  This document describes how the closest on-path middlebox generates a corresponding upstream PCP request to the next closest on-path middlebox, to request an appropriate explicit dynamic port mapping in that middlebox too.  Applied recursively, this generates the necessary chain of port mappings in any number of middleboxes on the path between the client and the public Internet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheshire-recursive-pcp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheshire-recursive-pcp-00.txt' />
+</reference>

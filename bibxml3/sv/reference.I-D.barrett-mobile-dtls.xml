@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barrett-mobile-dtls'>
+<front>
+<title>Mobile DTLS</title>
+
+<author initials='M' surname='Williams' fullname='Michael Williams'>
+    <organization />
+</author>
+
+<author initials='J' surname='Barrett' fullname='Jeremey Barrett'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>Mobile DTLS (Mobi-D) is an extension to DTLS that provides host mobility support.  After obtaining a new IP address or port, a DTLS client mobile host can continue sending to its DTLS server correspondent host.  The mobile host continues to use the existing set of security parameters, from the new address, without re- negotiation.  The correspondent host accepts packets from the new IP address or port, also without re-negotiation.  After receiving any valid DTLS packet from the mobile host's new address or port, the correspondent host uses the new address or port to send to the mobile host.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-barrett-mobile-dtls-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-barrett-mobile-dtls-00.txt' />
+</reference>

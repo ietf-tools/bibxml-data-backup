@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cl-spring-generalized-srv6-np'>
+<front>
+<title>Generalized SRv6 Network Programming</title>
+
+<author initials='W' surname='Cheng' fullname='Weiqiang Cheng'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='C' surname='Li' fullname='Cheng Li'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='L' surname='Cong' fullname='Li Cong'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tian' fullname='Hui Tian'>
+    <organization />
+</author>
+
+<author initials='F' surname='Zhao' fullname='Feng Zhao'>
+    <organization />
+</author>
+
+<date month='February' day='11' year='2020' />
+
+<abstract><t>As the deployment of SRv6, some new requirements are proposed, such as SRv6 compression, transporting over SR-MPLS/MPLS and IPv4 domains. Therefore, it is necessary to consider other types of segments or sub-paths in the end-to-end SRv6 network programming.  This document proposes Generalized Segment Routing over IPv6 (G-SRv6) Networking Programming, which supports to encode multiple types of Segments in a SRH, called Generalized SRH (G-SRH).  These Segments can be called Generalized Segment, and the ID can be Generalized Segment Identifier (G-SID), which may include an SRv6 SID(128 bits), C-SIDs, MPLS labels, or IPv4 tunnel information.  This document also defines the mechanisms of Generalized SRv6 Networking Programming and the requirements of related protocol extensions of control plane and data plane.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cl-spring-generalized-srv6-np-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cl-spring-generalized-srv6-np-00.txt' />
+</reference>

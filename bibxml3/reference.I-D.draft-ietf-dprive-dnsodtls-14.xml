@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dprive-dnsodtls'>
+<front>
+<title>Specification for DNS over Datagram Transport Layer Security (DTLS)</title>
+
+<author initials='T' surname='Reddy' fullname='Tirumaleswar Reddy'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='P' surname='Patil' fullname='Prashanth Patil'>
+    <organization />
+</author>
+
+<date month='December' day='15' year='2016' />
+
+<abstract><t>DNS queries and responses are visible to network elements on the path between the DNS client and its server.  These queries and responses can contain privacy-sensitive information which is valuable to protect.  This document proposes the use of Datagram Transport Layer Security (DTLS) for DNS, to protect against passive listeners and certain active attacks.  As latency is critical for DNS, this proposal also discusses mechanisms to reduce DTLS round trips and reduce DTLS handshake size.  The proposed mechanism runs over port 853.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dprive-dnsodtls-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dprive-dnsodtls-14.txt' />
+</reference>

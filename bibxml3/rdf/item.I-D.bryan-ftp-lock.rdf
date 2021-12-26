@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-bryan-ftp-lock-02.txt'>
+    <title>"File Transfer Protocol LOCK Command for Using a Single Port", Anthony Bryan, Daniel Stenberg, Tatsuhiro Tsujikawa</title>
+    <link>http://www.ietf.org/internet-drafts/draft-bryan-ftp-lock-02.txt</link>
+    <description>One of the biggest hurdles for FTP in real life usage is its use of two connections.  First, it uses a primary connection to send control commands on, and when it sends or receives data, it opens a second TCP stream for that purpose.  This document specifies a new FTP LOCK command to be used by clients to request the server to use the control connection for data transfers, using a single port instead of two.</description>
+    <dc:date>2013-01-31T23:00:00-00:00</dc:date>
+</item>

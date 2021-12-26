@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fang-mpls-hsdn-for-hsdc'>
+<front>
+<title>MPLS-Based Hierarchical SDN for Hyper-Scale DC/Cloud</title>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='V' surname='Gill' fullname='Vijay Gill'>
+    <organization />
+</author>
+
+<author initials='F' surname='Chiussi' fullname='Fabio Chiussi'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>This document describes Hierarchical SDN (HSDN), an architectural solution to scale the Data Center (DC) and Data Center Interconnect (DCI) networks to support tens of millions of physical underlay endpoints, while efficiently handling both ECMP and any-to-any end- to-end Traffic Engineered (TE) traffic. HSDN achieves massive scale using surprisingly small forwarding tables in the network nodes and brings key simplifications in the control plane as well. The HSDN forwarding architecture is based on four main concepts: 1. Dividing the DC and DCI in a hierarchically-partitioned structure; 2. Assigning groups of Underlay Border Nodes in charge of forwarding within each partition; 3. Constructing HSDN MPLS label stacks to identify the endpoints according to the HSDN structure; and 4. Forwarding using the HSDN MPLS labels.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fang-mpls-hsdn-for-hsdc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fang-mpls-hsdn-for-hsdc-00.txt' />
+</reference>

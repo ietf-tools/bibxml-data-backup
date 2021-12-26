@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4420' target='https://www.rfc-editor.org/info/rfc4420'>
+<front>
+<title>Encoding of Attributes for Multiprotocol Label Switching (MPLS) Label Switched Path (LSP) Establishment Using Resource ReserVation Protocol-Traffic Engineering (RSVP-TE)</title>
+<author initials='A.' surname='Farrel' fullname='A. Farrel' role='editor'><organization /></author>
+<author initials='D.' surname='Papadimitriou' fullname='D. Papadimitriou'><organization /></author>
+<author initials='J.-P.' surname='Vasseur' fullname='J.-P. Vasseur'><organization /></author>
+<author initials='A.' surname='Ayyangar' fullname='A. Ayyangar'><organization /></author>
+<date year='2006' month='February' />
+<abstract><t>Multiprotocol Label Switching (MPLS) Label Switched Paths (LSPs) may be established using the Resource Reservation Protocol Traffic Engineering (RSVP-TE) extensions.  This protocol includes an object (the SESSION_ATTRIBUTE object) that carries a Flags field used to indicate options and attributes of the LSP.  That Flags field has eight bits allowing for eight options to be set.  Recent proposals in many documents that extend RSVP-TE have suggested uses for each of the previously unused bits.</t><t>This document defines a new object for RSVP-TE messages that allows the signaling of further attribute bits and also the carriage of arbitrary attribute parameters to make RSVP-TE easily extensible to support new requirements.  Additionally, this document defines a way to record the attributes applied to the LSP on a hop-by-hop basis.</t><t>The object mechanisms defined in this document are equally applicable to Generalized MPLS (GMPLS) Packet Switch Capable (PSC) LSPs and to GMPLS non-PSC LSPs.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4420'/>
+<seriesInfo name='DOI' value='10.17487/RFC4420'/>
+</reference>

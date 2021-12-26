@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kelsey-roll-lip'>
+<front>
+<title>LIP: Label Information Protocol</title>
+
+<author initials='R' surname='Kelsey' fullname='Richard Kelsey'>
+    <organization />
+</author>
+
+<date month='April' day='23' year='2009' />
+
+<abstract><t>LIP is an extension of MPLS for use in Lossy and Low power Networks (LLN).  Use of MPLS allows rapid response to local topology changes within an LLN, while still using full IP routing both within the LLN and for packets that cross into other domains.  LIP has optional RIP commands for discovering and maintaining label switched tree routes. To support local route repair, labeled packets include a path metric used to detect loops in label-switched paths.  Labeled messages may optionally include a source route or route record at the label level in order to allow their use without losing the advantages of label switching.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kelsey-roll-lip-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kelsey-roll-lip-00.txt' />
+</reference>

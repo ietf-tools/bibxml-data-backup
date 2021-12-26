@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-brigm-deterministicrp-00.txt'>
+    <title>"Deterministic RP (D-RP) Specification", Charles Schlise, Jeff Chaney, Thomas Tharp, Michael Brig</title>
+    <link>http://www.ietf.org/internet-drafts/draft-brigm-deterministicrp-00.txt</link>
+    <description>This document specifies the Deterministic Rendezvous Point (D-RP) mechanism for Protocol Independent Multicast (PIM) Sparse Mode (SM) networks. It intends to provide a simple and robust RP service. The mechanism is deterministic since it elects the highest priority candidate to be the D-RP from those available for each IP address family. If a D-RP fails, the election process begins again using the remaining C-RPs for the IP address family. If no candidates are availabe, the network will transition to PIM Dense Mode (DM) routing for that IP address family. In the future if C-RPs emerge for the address family, the network will elect a new D-RP and return to operations with PIM SM routing.</description>
+    <dc:date>2011-05-19T22:00:00-00:00</dc:date>
+</item>

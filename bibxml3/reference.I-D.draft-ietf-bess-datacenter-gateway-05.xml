@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-datacenter-gateway'>
+<front>
+<title>Gateway Auto-Discovery and Route Advertisement for Segment Routing Enabled Domain Interconnection</title>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2020' />
+
+<abstract><t>Data centers are critical components of the infrastructure used by network operators to provide services to their customers.  Data centers are attached to the Internet or a backbone network by gateway routers.  One data center typically has more than one gateway for commercial, load balancing, and resiliency reasons.  Segment Routing is a popular protocol mechanism for use within a data center, but also for steering traffic that flows between two data center sites.  In order that one data center site may load balance the traffic it sends to another data center site, it needs to know the complete set of gateway routers at the remote data center, the points of connection from those gateways to the backbone network, and the connectivity across the backbone network.  Segment Routing may also be operated in other domains, such as access networks.  Those domains also need to be connected across backbone networks through gateways.  This document defines a mechanism using the BGP Tunnel Encapsulation attribute to allow each gateway router to advertise the routes to the prefixes in the Segment Routing domains to which it provides access, and also to advertise on behalf of each other gateway to the same Segment Routing domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-datacenter-gateway-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-datacenter-gateway-05.txt' />
+</reference>

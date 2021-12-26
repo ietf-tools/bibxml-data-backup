@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.przygienda-lsr-flood-reflection'>
+<front>
+<title>Flood Reflectors</title>
+
+<author initials='T' surname='Przygienda' fullname='Tony Przygienda'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Yiu Lee'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sharma' fullname='Alankar Sharma'>
+    <organization />
+</author>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2019' />
+
+<abstract><t>This document provides specification of an optional ISIS extension that allows to create l2 flood reflector topologies allowing forwarding through all paths within L1 areas when they are used as 'transit' to guarantee L2 connectivity between L2 'islands'.  Only routers participating in the flood reflection have to be upgraded and with that the feature allows to significantly increase practical size of ISIS L2 backbone without forklifting the whole domain or complex configuration requirements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-przygienda-lsr-flood-reflection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-przygienda-lsr-flood-reflection-00.txt' />
+</reference>

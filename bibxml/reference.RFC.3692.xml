@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3692' target='https://www.rfc-editor.org/info/rfc3692'>
+<front>
+<title>Assigning Experimental and Testing Numbers Considered Useful</title>
+<author initials='T.' surname='Narten' fullname='T. Narten'><organization /></author>
+<date year='2004' month='January' />
+<abstract><t>When experimenting with or extending protocols, it is often necessary to use some sort of protocol number or constant in order to actually test or experiment with the new function, even when testing in a closed environment.  For example, to test a new DHCP option, one needs an option number to identify the new function.  This document recommends that when writing IANA Considerations sections, authors should consider assigning a small range of numbers for experimentation purposes that implementers can use when testing protocol extensions or other new features.  This document reserves some ranges of numbers for experimentation purposes in specific protocols where the need to support experimentation has been identified.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='82'/>
+<seriesInfo name='RFC' value='3692'/>
+<seriesInfo name='DOI' value='10.17487/RFC3692'/>
+</reference>

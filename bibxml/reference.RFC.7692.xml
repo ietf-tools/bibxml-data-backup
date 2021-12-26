@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7692' target='https://www.rfc-editor.org/info/rfc7692'>
+<front>
+<title>Compression Extensions for WebSocket</title>
+<author initials='T.' surname='Yoshino' fullname='T. Yoshino'><organization /></author>
+<date year='2015' month='December' />
+<abstract><t>This document defines a framework for creating WebSocket extensions that add compression functionality to the WebSocket Protocol.  An extension based on this framework compresses the payload data portion of WebSocket data messages on a per-message basis using parameters negotiated during the opening handshake.  This framework provides a general method for applying a compression algorithm to the contents of WebSocket messages.  Each compression algorithm has to be defined in a document defining the extension by specifying the parameter negotiation and the payload transformation algorithm in detail.  This document also specifies one specific compression extension using the DEFLATE algorithm.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7692'/>
+<seriesInfo name='DOI' value='10.17487/RFC7692'/>
+</reference>

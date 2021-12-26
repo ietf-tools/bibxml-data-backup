@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipv6-link-scoped-mcast'>
+<front>
+<title>A Method for Generating Link Scoped IPv6 Multicast Addresses</title>
+
+<author initials='J' surname='Park' fullname='Jung-Soo  Park'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2005' />
+
+<abstract><t>This document specifies an extension to the multicast addressing architecture of the IPv6 protocol. The extension allows for the use of Interface Identifiers (IIDs) to allocate multicast addresses. When a link-local unicast address is configured at each interface of a node, an IID is uniquely determined. After that, each node can generate their unique multicast addresses automatically without conflicts. Basically, this document proposes an alternative method for creating link-local multicast addresses over a known method like unicast-prefix-based IPv6 multicast addresses. It is preferred to use this method for link-local scope rather than unicast- prefix-based IPv6 multicast addresses. This memo update RFC3306.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipv6-link-scoped-mcast-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipv6-link-scoped-mcast-09.txt' />
+</reference>

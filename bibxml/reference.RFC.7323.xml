@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7323' target='https://www.rfc-editor.org/info/rfc7323'>
+<front>
+<title>TCP Extensions for High Performance</title>
+<author initials='D.' surname='Borman' fullname='D. Borman'><organization /></author>
+<author initials='B.' surname='Braden' fullname='B. Braden'><organization /></author>
+<author initials='V.' surname='Jacobson' fullname='V. Jacobson'><organization /></author>
+<author initials='R.' surname='Scheffenegger' fullname='R. Scheffenegger' role='editor'><organization /></author>
+<date year='2014' month='September' />
+<abstract><t>This document specifies a set of TCP extensions to improve performance over paths with a large bandwidth * delay product and to provide reliable operation over very high-speed paths.  It defines the TCP Window Scale (WS) option and the TCP Timestamps (TS) option and their semantics.  The Window Scale option is used to support larger receive windows, while the Timestamps option can be used for at least two distinct mechanisms, Protection Against Wrapped Sequences (PAWS) and Round-Trip Time Measurement (RTTM), that are also described herein.</t><t>This document obsoletes RFC 1323 and describes changes from it.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7323'/>
+<seriesInfo name='DOI' value='10.17487/RFC7323'/>
+</reference>

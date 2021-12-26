@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barnes-dane-uks'>
+<front>
+<title>Unknown Key-Share Attacks on DNS-based Authentications of Named Entities (DANE)</title>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='October' day='9' year='2016' />
+
+<abstract><t>Unknown key-share attacks are a class of attacks that allow an attacker to deceive one peer of a secure communication as to the identity of the remote peer.  When used with traditional, PKI-based authentication, TLS-based applications are generally safe from unknown key-share attacks.  DNS-based Authentication of Named Entities (DANE), however, proposes that applications perform a different set of checks as part of authenticating a TLS connection. As a result, DANE as currently specified is likely to lead to unknown key-share attacks when clients support DANE for authentication.  We describe these risks and some simple mitigations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-barnes-dane-uks-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-barnes-dane-uks-00.txt' />
+</reference>

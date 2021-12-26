@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xie-pim-bier-extension'>
+<front>
+<title>PIM Extensions for P2MP-based BIER</title>
+
+<author initials='J' surname='Xie' fullname='Jingrong Xie'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Liu' fullname='Yisong Liu'>
+    <organization />
+</author>
+
+<author initials='M' surname='McBride' fullname='Mike McBride'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) is a new architecture that provides optimal multicast forwarding without requiring intermediate routers to maintain any per-flow state by using a multicast-specific BIER header.  PIM is a well-known multicast-specific routing protocol which is widely deployed either in a VRF context or in a Non-VRF context.  This document describes PIM extensions to signal a P2MP Tree with BIER information, which is called a P2MP based BIER in [I.D.xie-bier-mvpn-mpls-p2mp].  PIM is required to alloc Label to build a P2MP tree hop-by-hop, and build a P2MP based BIER forwarding table further.  This requires a BitMask being carried as a PIM Join Attribute by downstream node to upstream node hop-by-hop, and the behavior is like precedures as specified in [RFC6807].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xie-pim-bier-extension-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xie-pim-bier-extension-00.txt' />
+</reference>

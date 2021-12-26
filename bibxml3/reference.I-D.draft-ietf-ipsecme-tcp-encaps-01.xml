@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-tcp-encaps'>
+<front>
+<title>TCP Encapsulation of IKE and IPSec Packets</title>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='S' surname='Touati' fullname='Samy Touati'>
+    <organization />
+</author>
+
+<author initials='R' surname='Mantha' fullname='Ravi Mantha'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2016' />
+
+<abstract><t>This document describes a method to transport IKE and IPSec packets over a TCP connection for traversing network middleboxes that may block IKE negotiation over UDP.  This method, referred to as TCP encapsulation, involves sending all packets for tunnel establishment as well as tunneled packets over a TCP connection.  This method is intended to be used as a fallback option when IKE cannot be negotiated over UDP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-tcp-encaps-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-tcp-encaps-01.txt' />
+</reference>

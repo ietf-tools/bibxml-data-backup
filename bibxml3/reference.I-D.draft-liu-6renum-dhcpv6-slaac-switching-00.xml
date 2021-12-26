@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-6renum-dhcpv6-slaac-switching'>
+<front>
+<title>DHCPv6/SLAAC Address Configuration Switching for Host Renumbering</title>
+
+<author initials='B' surname='Liu' fullname='Bing Liu'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2012' />
+
+<abstract><t>Sometimes stateful DHCPv6 address configuration and SLAAC may be both available in one network. In ND protocol, there is a M (ManagedFlag) flag defined in RA message, which indicates the hosts the DHCPv6 service is availeble. But for some reason, the ND protocol didn't define the flag as prescriptive but only advisory. This draft proposes to use two reserved bits in RA message to let the network control the hosts that which address configuration mode should be used. This feature is useful for management, especially in a renumbering event.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-6renum-dhcpv6-slaac-switching-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-6renum-dhcpv6-slaac-switching-00.txt' />
+</reference>

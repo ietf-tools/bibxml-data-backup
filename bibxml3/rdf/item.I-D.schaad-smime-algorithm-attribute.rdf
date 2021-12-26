@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-schaad-smime-algorithm-attribute-05.txt'>
+    <title>"Cryptographic Messages Syntax (CMS) Algorithm Identifier Protection Attribute", Jim Schaad</title>
+    <link>http://www.ietf.org/internet-drafts/draft-schaad-smime-algorithm-attribute-05.txt</link>
+    <description>The Cryptographic Message Syntax (CMS) unlike X.509/PKIX certificates, are venerable to algorithm substitution attacks.  In an algorithm substitution attack, the attacker changes either the algorithm being used or parameters of the algorithm in order to change the result of a signature verification process.  In X.509 certificates, the signature algorithm is protected because it is duplicated in the TBSCertificate.signature field with the proviso that the validater is to compare both fields as part of the signature validation process.  This document defines a new attribute that contains a copy of the relevant algorithm identifiers so that they are protected by the signature or authentication process.</description>
+    <dc:date>2011-01-23T23:00:00-00:00</dc:date>
+</item>

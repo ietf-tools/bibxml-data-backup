@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.drao-bgp-l3vpn-virtual-network-overlays'>
+<front>
+<title>Layer-3 virtual network overlays based on BGP Layer-3 VPNs</title>
+
+<author initials='D' surname='Rao' fullname='Dhananjaya Rao'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mullooly' fullname='John Mullooly'>
+    <organization />
+</author>
+
+<author initials='R' surname='Fernando' fullname='Rex Fernando'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>Virtual network overlays are being designed and deployed in various types of networks, including data center networks.  These network overlays serve several purposes including flexible network virtualization, increased scale, multi-tenancy, and mobility.  Such overlay networks may be used to provide both Layer-2 and Layer-3 network services to hosts at the network edge.  New encapsulations are being defined and standardized to support these virtual networks. These encapsulations are primarily based on IP, such as VxLAN and NvGRE.  BGP based Layer-3 VPNs, as specified in RFC 4364, provide an industry proven and well-defined solution for supporting Layer-3 virtual network services.  RFC 4364 mechanisms use MPLS labels to provide the network virtualization capability in the data plane.  This document specifies a simple mechanism to use the new IP-based virtual network overlay encapsulations, while continuing to leverage the BGP based Layer-3 VPN control plane techniques and extensions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-drao-bgp-l3vpn-virtual-network-overlays-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-drao-bgp-l3vpn-virtual-network-overlays-00.txt' />
+</reference>

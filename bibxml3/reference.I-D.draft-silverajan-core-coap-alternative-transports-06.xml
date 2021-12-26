@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.silverajan-core-coap-alternative-transports'>
+<front>
+<title>CoAP Communication with Alternative Transports</title>
+
+<author initials='B' surname='Silverajan' fullname='Bill Silverajan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2014' />
+
+<abstract><t>CoAP has been standardised as an application level REST-based protocol.  A single CoAP message is typically encapsulated and transmitted using UDP or DTLS as transports.  These transports are optimal solutions for CoAP use in IP-based constrained environments and nodes.  However compelling motivation exists for understanding how CoAP can operate with other transports, such as the need for M2M communication using non-IP networks, improved transport level end-to- end reliability and security, NAT and firewall traversal issues, and mechanisms possibly incurring a lower overhead to CoAP/HTTP translation gateways.  This draft examines the requirements for conveying CoAP messages to end points over such alternative transports.  It also provides a new URI format for representing CoAP resources over alternative transports.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-silverajan-core-coap-alternative-transports-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-silverajan-core-coap-alternative-transports-06.txt' />
+</reference>

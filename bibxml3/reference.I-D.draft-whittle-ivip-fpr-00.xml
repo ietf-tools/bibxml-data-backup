@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.whittle-ivip-fpr'>
+<front>
+<title>Fast Payload Replication mapping distribution for Ivip</title>
+
+<author initials='R' surname='Whittle' fullname='Robin Whittle'>
+    <organization />
+</author>
+
+<date month='January' day='18' year='2010' />
+
+<abstract><t>Fast Payload Replication (FPR) is a technique for fanning out the payloads of individual packets to large numbers of recipients.  By trading off efficiency for robustness, the system can be made highly tolerant of random packet loss or loss of connection from some upstream Replicators.  FPR is simpler and less efficient than Reliable Multicast or Secure Multicast, but can operate on a global scale over the DFZ.  It is a host-to-host arrangement and is independent of routers and network topology.  Packets are DTLS encrypted so spoofed packets cannot enter the Replicator system. Since it is not completely robust against packet or link loss, or secure against an attack which compromises a Replicator, the basic FPR should be supplemented with Missing Payload Servers and end-to- end authentication of received data in order to make an entirely robust and secure system.  FPR is being developed as part of a global fast-push mapping distribution system for the Ivip core-edge separation scalable routing architecture.  It should be able to fan out information to hundreds of thousands of recipients, worldwide, in less than a second.  FPR may have other applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-whittle-ivip-fpr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-whittle-ivip-fpr-00.txt' />
+</reference>

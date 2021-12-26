@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.toyama-multi6-operational-site-multihoming'>
+<front>
+<title>Operational Approach to achieve IPv6 multihomed network</title>
+
+<author initials='K' surname='Toyama' fullname='Katsuyasu Toyama'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2004' />
+
+<abstract><t>This document proposes an operational solution of IPv6 mulithoming. This approach is that a group of providers administrates cooperatively one prefix and one autonomous system number (ASN) for only their multihoming customers; each multihomed customer is assigned a longer prefix, such as /48, but only address block of /32 allocated by RIR is advertised through the providers of the group to the global IPv6 Internet. This approach does not need allocation of provider-independent address block to each customer who needs multihomed network, and therefore saves IPv6 address space.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-toyama-multi6-operational-site-multihoming-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-toyama-multi6-operational-site-multihoming-00.txt' />
+</reference>

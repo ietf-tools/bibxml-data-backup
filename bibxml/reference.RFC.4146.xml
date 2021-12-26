@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4146' target='https://www.rfc-editor.org/info/rfc4146'>
+<front>
+<title>Simple New Mail Notification</title>
+<author initials='R.' surname='Gellens' fullname='R. Gellens'><organization /></author>
+<date year='2005' month='August' />
+<abstract><t>This memo documents a long-standing technique, supported by a large number of mail servers, which allows users to be notified of new mail.  In addition to server support, there are a number of clients that support this, ranging from full email clients to specialized clients whose only purpose is to receive new mail notifications and alert a mail client.</t><t>In brief, the server sends the string &quot;nm_notifyuser&quot; CRLF to the finger port on the IP address (either configured or last used) of the user who has received new mail.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4146'/>
+<seriesInfo name='DOI' value='10.17487/RFC4146'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dhody-pce-pcep-ds'>
+<front>
+<title>Encoding of Data Structure (DS) in the Path Computation Element Communication Protocol (PCEP)</title>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='U' surname='Palle' fullname='Udayasree Palle'>
+    <organization />
+</author>
+
+<date month='August' day='17' year='2012' />
+
+<abstract><t>The ability to compute shortest constrained Traffic Engineering Label Switched Paths (TE LSPs) in Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) networks across multiple domains has been identified as a key requirement for P2P and P2MP scenarios. Backward-Recursive PCE-Based Computation (BRPC) [RFC5441] defines VSPT [Virtual Shortest Path Tree] as a default de-facto data structure for PCRep message in inter-domain scenarios.  AS PCE will get used in newer scenarios like inter-domain, protection, P2MP etc.  As well as PCE is being explored to be used in Cross Stratrum Optimization (CSO) environment (see [CSO-PCE]). Limiting PCEP protocol to just one data structure limits the usage of PCEP.  Its important to keep PCEP generic enough to use differnt data structure and apply different algorithms.  This document defines extensions to the PCE communication Protocol (PCEP) to allow multiple data structures.  Extensions are defined for PCE to indicate the set of Data Structure (DS) it supports; also PCC/ PCE can indicate in a path computation request the required DS, and a PCE can report in a path computation reply the Data Structure that was used in the path reply message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dhody-pce-pcep-ds-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dhody-pce-pcep-ds-02.txt' />
+</reference>

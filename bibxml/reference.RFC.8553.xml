@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8553' target='https://www.rfc-editor.org/info/rfc8553'>
+<front>
+<title>DNS Attrleaf Changes: Fixing Specifications That Use Underscored Node Names</title>
+<author initials='D.' surname='Crocker' fullname='D. Crocker'><organization /></author>
+<date year='2019' month='March' />
+<abstract><t>Using an underscore for a prefix creates a space for constrained interoperation of resource records.  Original uses of an underscore character as a domain node name prefix were specified without the benefit of an IANA registry.  This produced an entirely uncoordinated set of name-creation activities, all drawing from the same namespace. A registry for these names has now been defined by RFC 8552. However, the existing specifications that use underscored naming need to be modified in order to be in line with the new registry.  This document specifies those changes.  The changes preserve existing software and operational practice, while adapting the specifications for those practices to the newer underscore registry model.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='222'/>
+<seriesInfo name='RFC' value='8553'/>
+<seriesInfo name='DOI' value='10.17487/RFC8553'/>
+</reference>

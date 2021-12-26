@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-spring-segment-routing-mpls'>
+<front>
+<title>Segment Routing with MPLS data plane</title>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Bashandy' fullname='Ahmed Bashandy'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shakir' fullname='Rob Shakir'>
+    <organization />
+</author>
+
+<date month='June' day='22' year='2017' />
+
+<abstract><t>Segment Routing (SR) leverages the source routing paradigm.  A node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header.  In the MPLS dataplane, the SR header is instantiated through a label stack.  A segment can represent any instruction, topological or service-based. Additional segments can be defined in the future.  SR allows to enforce a flow through any topological path and/or service chain while maintaining per-flow state only at the ingress node to the SR domain.  Segment Routing can be directly applied to the MPLS architecture with no change in the forwarding plane.  This drafts describes how Segment Routing operates on top of the MPLS data plane.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-spring-segment-routing-mpls-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-spring-segment-routing-mpls-10.txt' />
+</reference>

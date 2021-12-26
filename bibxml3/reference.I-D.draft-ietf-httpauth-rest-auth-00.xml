@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-httpauth-rest-auth'>
+<front>
+<title>RESTful Authentication Pattern for the Hypertext Transport Protocol (HTTP)</title>
+
+<author initials='N' surname='Williams' fullname='Nico Williams'>
+    <organization />
+</author>
+
+<date month='August' day='14' year='2013' />
+
+<abstract><t>This document proposes a "RESTful" pattern of authentication for HTTP/1.0, 1.1, and 2.0.  The goal is to make it easy to add authentication mechanisms to HTTP and to make it easy to implement them even without much help from the HTTP stack (though it is best to integrate authentication into the stack, of course).  Among other benefits of RESTauth: it is orthogonal to "HTTP routers" and proxies, it results in session Uniform Resource Identifiers (URIs) that can be DELETEd to logout, naturally supports multi-legged authentication schemes, and it can be universally implemented on the server side with the Common Gateway Interface (CGI) and FastCGI.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-httpauth-rest-auth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-httpauth-rest-auth-00.txt' />
+</reference>

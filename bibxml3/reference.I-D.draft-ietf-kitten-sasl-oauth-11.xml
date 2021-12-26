@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-kitten-sasl-oauth'>
+<front>
+<title>A set of SASL Mechanisms for OAuth</title>
+
+<author initials='W' surname='Mills' fullname='William Mills'>
+    <organization />
+</author>
+
+<author initials='T' surname='Showalter' fullname='Tim Showalter'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2013' />
+
+<abstract><t>OAuth enables a third-party application to obtain limited access to a protected resource, either on behalf of a resource owner by orchestrating an approval interaction, or by allowing the third-party application to obtain access on its own behalf.  This document defines how an application client uses credentials obtained via OAuth over the Simple Authentication and Security Layer (SASL) to access a protected resource at a resource serve.  Thereby, it enables schemes defined within the OAuth framework for non-HTTP- based application protocols.  Clients typically store the user's long-term credential.  This does, however, lead to significant security vulnerabilities, for example, when such a credential leaks.  A significant benefit of OAuth for usage in those clients is that the password is replaced by a shared secret with higher entropy, i.e., the token.  Tokens typically provide limited access rights and can be managed and revoked separately from the user's long-term password.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-kitten-sasl-oauth-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-kitten-sasl-oauth-11.txt' />
+</reference>

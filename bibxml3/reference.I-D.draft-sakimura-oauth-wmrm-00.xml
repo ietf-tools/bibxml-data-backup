@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sakimura-oauth-wmrm'>
+<front>
+<title>OAuth 2.0 Web Message Response Mode</title>
+
+<author initials='T' surname='Yamaguchi' fullname='Toru Yamaguchi'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sakimura' fullname='Nat Sakimura'>
+    <organization />
+</author>
+
+<author initials='N' surname='Matake' fullname='Nov Matake'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2015' />
+
+<abstract><t>This specification defines a new response mode for RFC6749 that uses HTML5 Web Messaging (a.k.a window.postMessage()) instead of the redirect for the Authorization Response from the Authorization Endpoint.  It defines two modes: simple mode and relay mode.  Relay mode can be used to protect the access token in the implicit grant case by confining it within the origins of authorization server or resource server and preventing it from being read by the client.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sakimura-oauth-wmrm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sakimura-oauth-wmrm-00.txt' />
+</reference>

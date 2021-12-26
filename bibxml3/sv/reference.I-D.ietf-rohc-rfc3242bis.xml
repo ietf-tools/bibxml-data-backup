@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rohc-rfc3242bis'>
+<front>
+<title>RObust Header Compression (ROHC): A Link-Layer Assisted Profile for  IP/UDP/RTP</title>
+
+<author initials='L' surname='Jonsson' fullname='Lars-Erik Jonsson'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2005' />
+
+<abstract><t>This document defines a ROHC (Robust Header Compression) profile for compression of IP/UDP/RTP (Internet Protocol/User Datagram Protocol/Real-Time Transport Protocol) packets, utilizing functionality provided by the lower layers to increase compression efficiency by completely eliminating the header for most packets during optimal operation. The profile is built as an extension to the ROHC RTP profile. It defines additional mechanisms needed in ROHC, states requirements on the assisting layer to guarantee transparency, and specifies general logic for compression and decompression making use of this header-free packet. This document is a replacement for RFC 3242, which it obsoletes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rohc-rfc3242bis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rohc-rfc3242bis-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.blanchet-regext-entityid2rdapserver'>
+<front>
+<title>Finding Additional Registration Data (RDAP) Service</title>
+
+<author initials='M' surname='Blanchet' fullname='Marc Blanchet'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>This document specifies a method to find which Registration Data Access Protocol (RDAP) server is authoritative to answer additional information for a query already answered by another server.  It is based on an entity id to RDAP server location mapping registry managed by IANA.  One use case of this specification is the domain registry RDAP server providing a referral URL to the registrar RDAP server, based on the registrar entity id, for information that the registrar is authoritative for such as the contact or reseller information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-blanchet-regext-entityid2rdapserver-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-blanchet-regext-entityid2rdapserver-00.txt' />
+</reference>

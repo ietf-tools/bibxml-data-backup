@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.takacs-ccamp-rsvp-te-eth-oam-ext'>
+<front>
+<title>GMPLS RSVP-TE Ethernet OAM Extensions</title>
+
+<author initials='A' surname='Takacs' fullname='Attila Takacs'>
+    <organization />
+</author>
+
+<author initials='B' surname='Gero' fullname='Balazs Gero'>
+    <organization />
+</author>
+
+<date month='November' day='6' year='2007' />
+
+<abstract><t>The GMPLS controlled Ethernet Label Switching (GELS) work is extending GMPLS RSVP-TE to support the establishment of Ethernet LSPs.  Ethernet Connectivity Fault Management (CFM) specifies an adjunct OAM flow to check connectivity in Ethernet networks.  CFM can be also used with Ethernet LSPs for fault detection and triggering recovery mechanisms.  This memo proposes experimental extensions to GMPLS RSVP-TE to support the setup of the associated CFM OAM entities for point-to-point bidirectional Ethernet LSPs.  Note that the extensions defined may be applicable to other fault detection mechanisms that use periodic Hello messages, e.g., BFD, as well.  Subsequent versions of the ID will consider the possibility of general OAM extensions not limiting the applicability to Ethernet OAM.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-takacs-ccamp-rsvp-te-eth-oam-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-takacs-ccamp-rsvp-te-eth-oam-ext-00.txt' />
+</reference>

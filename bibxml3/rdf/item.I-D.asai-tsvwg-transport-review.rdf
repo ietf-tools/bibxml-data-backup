@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-asai-tsvwg-transport-review-02.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-asai-tsvwg-transport-review-02.txt</link>
+        <title>"Separation of Data Path and Data Flow Sublayers in the Transport Layer", Hirochika Asai</title>
+        <dc:date>2021-09-15T23:00:00-00:00</dc:date>
+        <description>This document reviews the architectural design of the transport layer.  In particular, this document proposes to separate the transport layer into two sublayers; the data path and the data flow layers.  The data path layer provides functionality on the data path, such as connection handling, path quality and trajectory monitoring, waypoint management, and congestion control for the data path resource management.  The data flow layer provides additional functionality upon the data path layer, such as flow control for the receive buffer management, retransmission for reliable data delivery, and transport layer security.  The data path layer multiplexes multiple data flow layer protocols and provides data path information to the data flow layer to control data transmissions, such as prioritization and inverse multiplexing for multipath protocols.</description>
+    </item>

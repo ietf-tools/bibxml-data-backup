@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.franco-ipv4depletion'>
+<front>
+<title>IP v4 Addressing Depletion Solution</title>
+
+<author initials='J' surname='Arboine' fullname='J. Arboine'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2011' />
+
+<abstract><t>This document addresses the problem of IP v4 address space depletion. This document proposes an easy, technical solution based on the use of two options in the IP packet. The IP Version is used to extend the current IP v4 address universe to 25 to 30 billion IP addresses. A modified IP packet header Option 3, the Loose Source and Record Router (LSRR), is used to carry source ip version, source ip prefix, destination ip version, and destination ip prefix in the IP network packet.  This document introduces the concepts of RIR nebulae (or IP address nebula) and mirror prefixes (or pseudo prefixes). RIR nebulae are concurrent IP v4 address spaces which are differentiated from one another by the IP Version in the IP network packet header. The mirror prefixes (/33 to /255) emulate or mirror standard prefixes (/0 to /31). The single host route (/32 or 255.255.255.255) is supported in all RIR nebulae. The new extended IP v4 universe (a new, hypothetical Internet) is comprised of multiple IP v4 address spaces and DNS domains of 4.2 billion addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-franco-ipv4depletion-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-franco-ipv4depletion-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-ddns-resolution'>
+<front>
+<title>Resolution of FQDN Conflicts among DHCP Clients</title>
+
+<author initials='M' surname='Stapp' fullname='Mark Stapp'>
+    <organization />
+</author>
+
+<author initials='B' surname='Volz' fullname='Bernie Volz'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2006' />
+
+<abstract><t>DHCP provides a mechanism for host configuration that includes dynamic assignment of IP addresses and fully qualified domain names. To maintain accurate name to IP address and IP address to name mappings in the DNS, these dynamically assigned addresses and fully qualified domain names require updates to the DNS. This document identifies situations in which conflicts in the use of fully qualified domain names may arise among DHCP clients and servers, and describes a strategy for the use of the DHCID DNS resource record in resolving those conflicts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-ddns-resolution-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-ddns-resolution-12.txt' />
+</reference>

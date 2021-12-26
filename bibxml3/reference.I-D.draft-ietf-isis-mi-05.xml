@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-isis-mi'>
+<front>
+<title>IS-IS Multi-Instance</title>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='L' surname='Ginsberg' fullname='Les Ginsberg'>
+    <organization />
+</author>
+
+<author initials='M' surname='Shand' fullname='Mike Shand'>
+    <organization />
+</author>
+
+<author initials='A' surname='Roy' fullname='Abhay Roy'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ward' fullname='Dave Ward'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2011' />
+
+<abstract><t>This draft describes a mechanism that allows a single router to share one or more circuits among multiple Intermediate System To Intermediate System (IS-IS) routing protocol instances.  Multiple instances allow the isolation of resources associated with each instance.  Routers will form instance specific adjacencies. Each instance can support multiple topologies.  Each topology has a unique Link State Database (LSDB).  Each Protocol Data Unit (PDU) will contain a new Type Length Value (TLV) identifying the instance and the topology(ies) to which the PDU belongs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-isis-mi-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-isis-mi-05.txt' />
+</reference>

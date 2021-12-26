@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pmtud-method'>
+<front>
+<title>Packetization Layer Path MTU Discovery</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<author initials='J' surname='Heffner' fullname='John Heffner'>
+    <organization />
+</author>
+
+<date month='August' day='30' year='2006' />
+
+<abstract><t>This document describes a robust method for Path MTU Discovery (PMTUD) that relies on TCP or some other Packetization Layer to probe an Internet path with progressively larger packets. This method is described as an extension to RFC 1191 and RFC 1981, which specify ICMP based Path MTU Discovery for IP versions 4 and 6, respectively. The general strategy of the new algorithm is to start with a small MTU and search upward, testing successively larger MTUs by probing with single packets. If a probe is successfully delivered then the MTU can be raised. If the probe is lost, it is treated as an MTU limitation and not as a congestion signal. Packetization Layer PMTUD (PLPMTUD) introduces some flexibility in the implementation of classical Path MTU discovery. It can be configured to perform just ICMP black hole recovery to increase the robustness of classical Path MTU Discovery, or at the other extreme, all ICMP processing can be disabled and PLPMTUD can completely replace classical Path MTU Discovery. In the latter configuration, PLPMTUD exactly parallels congestion control. An end-to-end transport protocol adjusts properties of the data stream (window size or packet size) while using packet losses to deduce the appropriateness of the adjustments. This technique is more philosophically consistent with the end-to-end principle than relying on ICMP messages containing transcribed headers of multiple protocol layers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pmtud-method-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pmtud-method-09.txt' />
+</reference>

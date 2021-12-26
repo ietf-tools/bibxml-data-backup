@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipcore-refer-explicit-subscription'>
+<front>
+<title>Explicit Subscriptions for the REFER Method</title>
+
+<author initials='R' surname='Sparks' fullname='Robert Sparks'>
+    <organization />
+</author>
+
+<date month='April' day='22' year='2015' />
+
+<abstract><t>The Session Initiation Protocol (SIP) REFER request, as defined by RFC3515, triggers an implicit SIP-Specific Event Notification framework subscription.  Conflating the start of the subscription with handling the REFER request makes negotiating SUBSCRIBE extensions impossible, and complicates avoiding SIP dialog sharing. This document defines extensions to REFER to remove the implicit subscription and, if desired, replace it with an explicit one.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipcore-refer-explicit-subscription-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipcore-refer-explicit-subscription-02.txt' />
+</reference>

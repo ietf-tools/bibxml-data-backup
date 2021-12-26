@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-intarea-nat64-prefix-dhcp-option'>
+<front>
+<title>DHCPv6 Options for Discovery NAT64 Prefixes</title>
+
+<author initials='L' surname='Li' fullname='Lishan Li'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='C' surname='Liu' fullname='Cong Liu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<author initials='J' surname='Palet' fullname='Jordi Palet'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2017' />
+
+<abstract><t>Several IPv6 transition mechanisms require the usage of stateless or stateful translators (commonly named as NAT64) able to allow IP/ICMP communication between IPv4 and IPv6 networks.  Those translators are using either a default well-known prefix, and/ or one or several additional network specific prefixes, which need to be configured into the nodes willing to use the translator. Different translators will likely have different IPv6 prefixes, to attract traffic to the correct translator.  Thus, an automatic translator prefix discovery method is necessary.  This document defines a DHCPv6-based method to inform DHCPv6 clients the set of IPv6 and IPv4 prefixes it serves.  This DHCPv6 option can be used by several transition mechanisms such as SIIT, 464XLAT, EAM.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-intarea-nat64-prefix-dhcp-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-intarea-nat64-prefix-dhcp-option-00.txt' />
+</reference>

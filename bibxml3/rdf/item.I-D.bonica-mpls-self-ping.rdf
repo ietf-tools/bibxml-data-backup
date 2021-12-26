@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-bonica-mpls-self-ping-06.txt'>
+    <title>"LSP Self-Ping", Raveendra Torvi, Ron Bonica, Ina Minei, Michael Conn, Dante Pacella, Luis Tomotaki, Mark Wygant</title>
+    <link>http://www.ietf.org/internet-drafts/draft-bonica-mpls-self-ping-06.txt</link>
+    <description>When certain RSVP-TE optimizations are implemented, ingress LSRs can receive RSVP RESV messages before forwarding state has been installed on all downstream nodes.  According to the RSVP-TE specification, the ingress LSR can forward traffic through an LSP as soon as it receives a RESV message.  However, if the ingress LSR forwards traffic through the LSP before forwarding state has been installed on all downstream nodes, traffic can be lost.  This memo describes LSP Self-ping.  When an ingress LSR receives an RESV message, it can invoke LSP Self-ping procedures to ensure that forwarding state has been installed on all downstream nodes.  LSP Self-ping is an extremely light-weight mechanism.  It does not consume control plane resources on transit or egress LSRs.</description>
+    <dc:date>2015-05-18T07:00:00-00:00</dc:date>
+</item>

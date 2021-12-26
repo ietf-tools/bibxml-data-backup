@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-netmod-yang-xml-doc-conventions'>
+<front>
+<title>Documentation Conventions for Expressing YANG in XML</title>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<date month='January' day='26' year='2018' />
+
+<abstract><t>Many documents that define YANG modules also include examples presented in XML.  IETF documentation has specific limits on line length and some XML examples have to include line wraps that would not normally be allowed according to the XML representation rules of RFC7950 and RFC7952.  This document lays out documentation conventions that allow YANG examples to be presented in IETF documentation when leaf node encoding would otherwise exceed the maximum line length.  There are no implications in this document for YANG parsers: this document does not change the rules for presenting YANG models or for encoding YANG in data files or in the wire.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-netmod-yang-xml-doc-conventions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-netmod-yang-xml-doc-conventions-00.txt' />
+</reference>

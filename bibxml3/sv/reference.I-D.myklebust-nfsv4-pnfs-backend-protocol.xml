@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.myklebust-nfsv4-pnfs-backend-protocol'>
+<front>
+<title>Network File System (NFS) version 4 pNFS back end protocol extensions</title>
+
+<author initials='T' surname='Myklebust' fullname='Trond Myklebust'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2009' />
+
+<abstract><t>This document describes an extension to the NFSv4.1 draft protocol to allow NFS clients to act as pNFS data servers towards other NFS clients.  The intention is to reduce the load on the actual data servers by allowing some trusted clients to share the contents of their data caches with other clients.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-myklebust-nfsv4-pnfs-backend-protocol-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-myklebust-nfsv4-pnfs-backend-protocol-00.txt' />
+</reference>

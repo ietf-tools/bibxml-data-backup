@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.skr-bess-evpn-pim-proxy'>
+<front>
+<title>PIM Proxy in EVPN Networks</title>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kotalwar' fullname='Jayant Kotalwar'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sathappan' fullname='Senthil Sathappan'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>Ethernet Virtual Private Networks [RFC7432] are becoming prevalent in Data Centers, Data Center Interconnect (DCI) and Service Provider VPN applications. One of the goals that EVPN pursues is the reduction of flooding and the efficiency of CE-based control plane procedures in Broadcast Domains. Examples of this are [EVPN-PROXY-ARP-ND] for improving the efficiency of CE's ARP/ND protocols, and [EVPN-IGMP- MLD-PROXY] for IGMP/MLD protocols. This document complements the latter, describing the procedures required to minimize the flooding of PIM messages in EVPN Broadcast Domains, and optimize the IP Multicast delivery between PIM routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-skr-bess-evpn-pim-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-skr-bess-evpn-pim-proxy-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stapleton-ttned'>
+<front>
+<title>Trusted Transactions for Network-Enabled Devices</title>
+
+<author initials='J' surname='Stapleton' fullname='Jeff Stapleton'>
+    <organization />
+</author>
+
+<author initials='P' surname='Griffin' fullname='Phillip  Griffin'>
+    <organization />
+</author>
+
+<date month='February' day='10' year='2006' />
+
+<abstract><t>This document specifies a cryptographically protected message format and transaction protocol for managing network-enabled devices. The message format consists of a header, content and trailers. The message header uniquely identifies the message type. The message content is afforded (i) authentication by means of a digital signature trailer and (ii) confidentiality by means of encryption trailer; and the whole message (header, content, trailers) is afforded integrity by means of a trusted time stamp trailer. All message structures are defined using ASN.1 and all cryptographic structures use CMS. The transaction protocol consists of request messages, response messages, acknowledgement messages, and notification messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stapleton-ttned-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stapleton-ttned-00.txt' />
+</reference>

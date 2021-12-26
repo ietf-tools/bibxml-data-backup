@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanderstok-core-bc'>
+<front>
+<title>CoAP utilisation for building control</title>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2010' />
+
+<abstract><t>This draft describes an example use of the RESTful CoAP protocol to control equipment in buildings such as HVAC and lighting.  A few basic design assumptions are stated first.  The uri structure is exploited to define multicast scopes.  RFC 3986 divides the uri in (1) a scheme, (2) an authority part, used here to locate the building under control, (3) a path, used here to locate the resource under control, and (4) a query and fragment part, only the query part is discussed in the context of service discovery.  This I-D supports the view that (1) building control will move in steps towards all-IP control networks building on the legacy efforts provided by DALI, LON, BACnet, ZigBee and other standards, and (2) the provision of a reliable group communication protocol is essential.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanderstok-core-bc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-core-bc-00.txt' />
+</reference>

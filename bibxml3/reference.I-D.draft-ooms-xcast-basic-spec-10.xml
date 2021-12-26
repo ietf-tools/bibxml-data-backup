@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ooms-xcast-basic-spec'>
+<front>
+<title>Explicit Multicast (Xcast) Concepts and Options</title>
+
+<author initials='R' surname='Boivie' fullname='Richard Boivie'>
+    <organization />
+</author>
+
+<date month='January' day='26' year='2007' />
+
+<abstract><t>While traditional IP multicast schemes [1112] are scalable for very large multicast groups, they have scalability issues with a very large number of distinct multicast groups. This document describes Xcast (Explicit Multi-unicast (Xcast)), a new multicast scheme with complementary scaling properties: Xcast supports a very large number of small multicast sessions. Xcast achieves this by explicitly encoding the list of destinations in the data packets, instead of using a multicast group address. This document discusses Xcast concepts and options in several areas; it does not provide a complete technical specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ooms-xcast-basic-spec-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ooms-xcast-basic-spec-10.txt' />
+</reference>

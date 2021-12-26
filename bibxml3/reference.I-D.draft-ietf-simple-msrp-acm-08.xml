@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-msrp-acm'>
+<front>
+<title>An Alternative Connection Model for the Message Session Relay Protocol (MSRP)</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blau' fullname='Staffan Blau'>
+    <organization />
+</author>
+
+<date month='April' day='21' year='2010' />
+
+<abstract><t>This document defines an alternative connection model for Message Session Relay Protocol (MSRP) User Agents (UAs), which uses the connection-oriented media (COMEDIA) mechanism in order to create the MSRP transport connection.  The model allows MSRP UAs behind Network Address Translators (NATs) to negotiate which endpoint initiates the establishment of the TCP connection, in order for MSRP messages to traverse the NAT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-msrp-acm-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-msrp-acm-08.txt' />
+</reference>

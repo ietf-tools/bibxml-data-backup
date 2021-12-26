@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-rsvpte-bidir-wave'>
+<front>
+<title>Extensions to GMPLS RSVP-TE for Bidirectional Lightpath with the Same  Wavelength</title>
+
+<author initials='S' surname='Xu' fullname='Sugang Xu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Harai' fullname='Hiroaki Harai'>
+    <organization />
+</author>
+
+<author initials='D' surname='King' fullname='Daniel King'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2007' />
+
+<abstract><t>For bidirectional lightpaths provisioning, in the case of optical nodes that do not support wavelength conversion, it would be necessary to use the same wavelength along the route on each direction. In certain optical network scenarios, the use of the same wavelength on both directions would be advantageous.  For instance, some ROADMs may add/drop the same wavelength simultaneously. In other cases, the users' optical end nodes are equipped with fixed-wavelength transponders.  This document describes extensions to RSVP-TE signaling for bidirectional wavelength lightpaths that require the same wavelength on both directions. By using an LSP_ATTRIBUTES object defined in [RFC4420], the extensions enable the new type lightpaths to support the low cost configuration at users' optical end nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-rsvpte-bidir-wave-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-rsvpte-bidir-wave-01.txt' />
+</reference>

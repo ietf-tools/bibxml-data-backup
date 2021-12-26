@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.taylor-v6ops-fragdrop'>
+<front>
+<title>Why Operators Filter Fragments and What It Implies</title>
+
+<author initials='J' surname='Jaeggli' fullname='Joel Jaeggli'>
+    <organization />
+</author>
+
+<author initials='L' surname='Colitti' fullname='Lorenzo Colitti'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='E' surname='Vyncke' fullname='Eric Vyncke'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kaeo' fullname='Merike Kaeo'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>This memo is written to make application developers and network operators aware of the significant probability that IPv6 packets containing fragmentation extension headers will fail to reach their destination.  Some assumptions about the ability to use TCP or UDP datagrams larger than a single packet may accordingly need adjustment.  This memo provides observational evidence for the dropping of IPv6 fragments along a significant number of paths, explores the operational impact of fragmentation and the reasons why dropping occurs, and considers the effect of fragment dropping on applications particularly including DNS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-taylor-v6ops-fragdrop-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-taylor-v6ops-fragdrop-00.txt' />
+</reference>

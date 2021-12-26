@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5710' target='https://www.rfc-editor.org/info/rfc5710'>
+<front>
+<title>PathErr Message Triggered MPLS and GMPLS LSP Reroutes</title>
+<author initials='L.' surname='Berger' fullname='L. Berger'><organization /></author>
+<author initials='D.' surname='Papadimitriou' fullname='D. Papadimitriou'><organization /></author>
+<author initials='JP.' surname='Vasseur' fullname='JP. Vasseur'><organization /></author>
+<date year='2010' month='January' />
+<abstract><t>This document describes how Resource ReserVation Protocol (RSVP) PathErr messages may be used to trigger rerouting of Multi-Protocol Label Switching (MPLS) and Generalized MPLS (GMPLS) point-to-point Traffic Engineering (TE) Label Switched Paths (LSPs) without first removing LSP state or resources.  Such LSP rerouting may be desirable in a number of cases, including, for example, soft-preemption and graceful shutdown.  This document describes the usage of existing Standards Track mechanisms to support LSP rerouting.  In this case, it relies on mechanisms already defined as part of RSVP-TE and simply describes a sequence of actions to be executed.  While existing protocol definitions can be used to support reroute applications, this document also defines a new reroute-specific error code to allow for the future definition of reroute-application-specific error values.   [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5710'/>
+<seriesInfo name='DOI' value='10.17487/RFC5710'/>
+</reference>

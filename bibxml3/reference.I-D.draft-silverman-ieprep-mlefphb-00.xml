@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.silverman-ieprep-mlefphb'>
+<front>
+<title>Multi-Level Expedited Forwarding Per Hop Behavior (MLEF PHB)</title>
+
+<author initials='S' surname='Silverman' fullname='Steve  Silverman'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2006' />
+
+<abstract><t>Some networks require certain packet flows to be transported with preferential treatment over others of the same type (e.g., voice or video). This document defines a new PHB (Per Hop Behavior), the Multi-Level Expedited Forwarding (MLEF) PHB, which is a minor extension to EF defined in RFC 3246. RFC 3246 defines the Expedited Forwarding PHB for applications requiring low latency, but with a single DSCP and treatment per queue. Although EF suggests that packet discard should be used to achieve this behavior, it does not define an algorithm for packet discard. This document extends that concept and defines a PHB with multiple discard treatments for packet flows for applications requiring low latency and multiple priority levels.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-silverman-ieprep-mlefphb-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-silverman-ieprep-mlefphb-00.txt' />
+</reference>

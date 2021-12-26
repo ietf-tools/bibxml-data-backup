@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mile-enum-reference-format'>
+<front>
+<title>IODEF Enumeration Reference Format</title>
+
+<author initials='A' surname='Montville' fullname='Adam Montville'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<date month='December' day='24' year='2014' />
+
+<abstract><t>The Incident Object Description Exchange Format (IODEF) is an XML data representation framework for sharing information about computer security incidents.  In IODEF, the Reference class provides references to externally specified information such as a vulnerability, IDS alert, malware sample, advisory, or attack technique.  In practice, these references are based on external enumeration specifications that define both the enumeration format and the specific enumeration values, but the IODEF Reference class (as specified in IODEF v1 in RFC 5070) does not indicate how to include both of these important pieces of information.  This memo establishes a stand-alone data format to include both the external specification and specific enumeration identification value, and establishes an IANA registry to manage external enumeration specifications.  While this memo does not update IODEV v1, this enumeration reference format is used in IODEF v2 and is applicable to other formats that support this class of enumeration references.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mile-enum-reference-format-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mile-enum-reference-format-12.txt' />
+</reference>

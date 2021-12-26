@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-dhcpv6-slaac-problem'>
+<front>
+<title>DHCPv6/SLAAC Interaction Problems on Address and DNS Configuration</title>
+
+<author initials='B' surname='Liu' fullname='Bing Liu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Gong' fullname='Xiangyang Gong'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wang' fullname='Wendong Wang'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rey' fullname='Enno Rey'>
+    <organization />
+</author>
+
+<date month='August' day='17' year='2016' />
+
+<abstract><t>The IPv6 Neighbor Discovery (ND) Protocol includes an ICMPv6 Router Advertisement (RA) message.  The RA message contains three flags, indicating the availability of address auto-configuration mechanisms and other configuration such as DNS-related configuration.  These are the M, O, and A flags, which by definition are advisory, not prescriptive.  This document describes divergent host behaviors observed in popular operating systems.  It also discusses operational problems that the divergent behaviors might cause.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-dhcpv6-slaac-problem-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-dhcpv6-slaac-problem-07.txt' />
+</reference>

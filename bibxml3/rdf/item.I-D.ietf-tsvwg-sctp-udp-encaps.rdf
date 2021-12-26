@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-udp-encaps-14.txt'>
+    <title>"UDP Encapsulation of SCTP Packets for End-Host to End-Host Communication", Michael Tuexen, Randall Stewart</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-udp-encaps-14.txt</link>
+    <description>This document describes a simple method of encapsulating SCTP Packets into UDP packets and its limitations.  This allows the usage of SCTP in networks with legacy NAT not supporting SCTP.  It can also be used to implement SCTP on hosts without directly accessing the IP-layer, for example implementing it as part of the application without requiring special privileges.  Please note that this document only describes the functionality required within an SCTP stack to add on UDP encapsulation, providing only those mechanisms for two end-hosts to communicate with each other over UDP ports.  In particular, it does not provide mechanisms to determine whether UDP encapsulation is being used by the peer, nor the mechanisms for determining which remote UDP port number can be used.  These functions are are out of scope for this document.  This document covers only end-hosts and not tunneling (egress or ingress) end-points.</description>
+    <dc:date>2013-03-18T23:00:00-00:00</dc:date>
+</item>

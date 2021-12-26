@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-lsr-ethernet-extensions'>
+<front>
+<title>LSR Extensions for BIER over Ethernet</title>
+
+<author initials='S' surname='Dhanaraj' fullname='Senthil Dhanaraj'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<author initials='G' surname='Yan' fullname='Gang Yan'>
+    <organization />
+</author>
+
+<author initials='J' surname='Xie' fullname='Jingrong Xie'>
+    <organization />
+</author>
+
+<date month='May' day='30' year='2019' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) [RFC8279] is an architecture that provides multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain multicast related per-flow state.  BIER can be supported in MPLS and non-MPLS networks.  The common BIER header format and encapsulation for MPLS and non-MPLS networks is specified in [RFC8296].  This document specifies the required extensions to the IS-IS [RFC1195] and OSPFv2 [RFC2328] protocol for supporting BIER in non- MPLS networks using BIER in Ethernet encapsulation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-lsr-ethernet-extensions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-lsr-ethernet-extensions-00.txt' />
+</reference>

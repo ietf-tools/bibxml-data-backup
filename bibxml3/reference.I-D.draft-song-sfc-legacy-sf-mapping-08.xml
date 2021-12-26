@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-sfc-legacy-sf-mapping'>
+<front>
+<title>SFC Header Mapping for Legacy SF</title>
+
+<author initials='H' surname='Song' fullname='Haibin Song'>
+    <organization />
+</author>
+
+<author initials='J' surname='You' fullname='Jianjie You'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Jiang' fullname='Yuanlong Jiang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bouthors' fullname='Nicolas Bouthors'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dolson' fullname='David Dolson'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2016' />
+
+<abstract><t>A Service Function Chain (SFC) defines a set of abstract Service Functions (SF) and ordering constraints that must be applied to packets and/or frames selected as a result of classification.  One assumption of this document is that legacy service functions can participate in service function chains without supporting the SFC header, or even being aware of it.  This document provides some of the mechanisms between an SFC proxy and an SFC-unaware service function (herein termed "legacy SF"), to identify the SFC header associated with a packet that is returned from a legacy SF, without an SFC header being explicitly carried in the wired protocol between SFC proxy and legacy SF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-sfc-legacy-sf-mapping-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-sfc-legacy-sf-mapping-08.txt' />
+</reference>

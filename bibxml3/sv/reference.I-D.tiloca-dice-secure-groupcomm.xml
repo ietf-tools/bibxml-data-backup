@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tiloca-dice-secure-groupcomm'>
+<front>
+<title>Secure Two-Way DTLS-Based Group Communication in the IoT</title>
+
+<author initials='M' surname='Tiloca' fullname='Marco Tiloca'>
+    <organization />
+</author>
+
+<author initials='S' surname='Raza' fullname='Shahid Raza'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nikitin' fullname='Kirill Nikitin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kumar' fullname='Sandeep Kumar'>
+    <organization />
+</author>
+
+<date month='October' day='14' year='2015' />
+
+<abstract><t>CoAP has emerged as the de-facto IoT standard for communication involving resource-constrained devices composing Low-power and Lossy Networks (LLNs). CoAP mandates the adoption of the DTLS protocol to secure unicast communication. However, in several IoT application scenarios involving a group of multiple devices, the adoption of CoAP multicast communication through IPv6 results in a number of advantages, especially in terms of performance and scalability. Yet, CoAP does not specify how to secure multicast group communication in an interoperable way. This draft presents a method to secure communication in a multicast group, through an adaptation of the DTLS record layer. In particular, group members rely on the same group keying material in order to secure both request messages sent via multicast and possible unicast messages sent as response. Since the group keying material is provided upon joining the group, all group members are not required to perform any DTLS handshake with each other. The proposed method makes it possible to provide either group authentication or source authentication of secured messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tiloca-dice-secure-groupcomm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tiloca-dice-secure-groupcomm-00.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-tiloca-dice-secure-groupcomm-00.ps' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-tiloca-dice-secure-groupcomm-00.pdf' />
+</reference>

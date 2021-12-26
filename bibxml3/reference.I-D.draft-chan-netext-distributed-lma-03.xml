@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chan-netext-distributed-lma'>
+<front>
+<title>Distributed Local Mobility Anchors</title>
+
+<author initials='H' surname='Chan' fullname='H Anthony Chan'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='J' surname='Xiang' fullname='Justin Xiang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ahmed' fullname='Hanan Ahmed'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2010' />
+
+<abstract><t>This draft proposes a distributed local mobility anchors architecture.  It splits the functions of a local mobility anchor into different logical functions: (1) allocation of home network prefixes or home addresses to mobile nodes, (2) location management (LM) which includes managing the IP addresses and locations of the mobile nodes, and (3) mobility routing (MR) which includes intercepting and forwarding packets.  The distributed local mobility anchors architecture consists of home local mobility anchors (H-LMA) at the registered networks and visited local mobility anchors (V-LMA) at the visited networks.  The V-LMA provides mobility routing function to avoid triangle routing problem in Proxy mobile IP, whereas the H-LMA keeps the location management function.  The needed location information of a mobile node is acquired by a V-LMA from the H-LMA only when a packet is first sent to the mobile node via the V-LMA and are then cached at the V-LMA to enable optimized mobility routing for packets subsequently sent to the mobile node.  When either the source or the destination node is a fixed node, bypassing the tunneling role of all LMA's will expose the location information of the mobile node in some cases.  Yet unnecessarily long routes are still avoid by having multiple V-LMA's in different networks and serving the packet transport with the nearest V-LMA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chan-netext-distributed-lma-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chan-netext-distributed-lma-03.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-chan-netext-distributed-lma-03.pdf' />
+</reference>

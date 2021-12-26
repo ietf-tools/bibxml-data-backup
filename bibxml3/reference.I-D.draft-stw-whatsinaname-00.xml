@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stw-whatsinaname'>
+<front>
+<title>Some Considerations on the Choice of Naming in IETF Protocols</title>
+
+<author initials='S' surname='Woolf' fullname='Suzanne Woolf'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>From time to time, networking protocols need to be able to name things used within the protocol, and resolve the names created or referenced.  It's common for protocol designers in this predicament to attempt to use domain names as the starting point for their systems of names, and the DNS as the starting point for name resolution.  This is completely understandable-- domain names, and DNS resolution, are well-established in both the expectations of network users and developers, and well-supported by fielded software.  It also has significant limitations.  This document deals principally with the questions a protocol designer or software developer should ask themselves about what behavior they want from the names they use in the context of a new protocol or scope for names.  Depending to the answers to these questions, the answer may be that domain names will not meet the constraints at hand.  Future versions of this draft will provide some comments on alternatives.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stw-whatsinaname-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stw-whatsinaname-00.txt' />
+</reference>

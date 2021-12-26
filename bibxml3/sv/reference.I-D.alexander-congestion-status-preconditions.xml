@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.alexander-congestion-status-preconditions'>
+<front>
+<title>A Congestion Status Precondition for the Session Initiation Protocol (SIP)</title>
+
+<author initials='C' surname='Alexander' fullname='Corey Alexander'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rutledge' fullname='John Rutledge'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2005' />
+
+<abstract><t>This document defines the Congestion Status precondition for SIP, utilizing the framework defined in RFC 3312 and updated in RFC 4032. The Congestion Status precondition requires that the participant verify that congestion thresholds along the network path for the session media have not been exceeded before continuing with session establishment or modification. This verification is performed via an RTP probe utilizing draft "Congestion Notification Process for Real- Time Traffic" and draft "RTP Payload Format for ECN Probing".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-alexander-congestion-status-preconditions-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-alexander-congestion-status-preconditions-01.txt' />
+</reference>

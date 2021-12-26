@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kunze-bagit'>
+<front>
+<title>The BagIt File Packaging Format (V0.96)  http://www.ietf.org/internet-drafts/draft-kunze-bagit-03.txt</title>
+
+<author initials='A' surname='Boyko' fullname='Andy Boyko'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kunze' fullname='John Kunze'>
+    <organization />
+</author>
+
+<author initials='J' surname='Littman' fullname='Justin Littman'>
+    <organization />
+</author>
+
+<author initials='L' surname='Madden' fullname='Liz Madden'>
+    <organization />
+</author>
+
+<author initials='B' surname='Vargas' fullname='Brian Vargas'>
+    <organization />
+</author>
+
+<date month='November' day='24' year='2008' />
+
+<abstract><t>This document specifies BagIt, a hierarchical file packaging format for the exchange of generalized digital content.  A "bag" has just enough structure to safely enclose a brief descriptive "tag" and a payload but does not require any knowledge of the payload's internal semantics.  This BagIt format should be suitable for disk-based or network-based file hierarchy transfer.  One important use case is the possibility of eventual safe return of a received bag.  Tag information consists of a small number of top-level reserved file names, checksums for transfer validation, and optional small metadata blocks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kunze-bagit-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kunze-bagit-03.txt' />
+</reference>

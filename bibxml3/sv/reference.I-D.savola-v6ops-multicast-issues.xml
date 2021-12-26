@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.savola-v6ops-multicast-issues'>
+<front>
+<title>IPv6 Multicast Deployment Issues</title>
+
+<author initials='P' surname='Savola' fullname='Pekka Savola'>
+    <organization />
+</author>
+
+<author initials='P' surname='Savola' fullname='Pekka Savola'>
+    <organization />
+</author>
+
+<date month='February' day='10' year='2004' />
+
+<abstract><t>There are many issues concerning the deployment and implementation, and to a lesser degree, specification of IPv6 multicast. This memo describes known problems, trying to raise awareness. Currently, global IPv6 interdomain multicast is completely impossible except using SSM: there is no way to convey information about multicast sources between PIM RPs. Site-scoped multicast is also problematic when used alongside to global multicast because of that. A few possible solutions are outlined or referred to. In addition, an issue regarding link-local multicast-blocking Ethernet switches is brought up. Finally, a feature request for MLD snooping switches is noted.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-savola-v6ops-multicast-issues-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-savola-v6ops-multicast-issues-03.txt' />
+</reference>

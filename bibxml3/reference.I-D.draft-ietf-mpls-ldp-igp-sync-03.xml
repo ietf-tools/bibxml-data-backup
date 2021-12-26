@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-ldp-igp-sync'>
+<front>
+<title>LDP IGP Synchronization</title>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>In certain networks there is a dependency on edge-to-edge LSPs setup by LDP, e.g. networks that are used for MPLS VPN applications. For such applications it is not possible to rely on IP forwarding if the MPLS LSP is not operating appropriately. Blackholing of labeled traffic can occur in situations where the IGP is operational on a link but LDP is not operational on that link. While the link could still be used for IP forwarding, it is not useful for MPLS  M. Jork, A. Atlas, and L. Fang  [page 1]  LDP IGP Synchronization  November 2008  forwarding, for example, MPLS VPN; BGP route free core; or IP address carried in the packet is out of the RFC1918 space. This document describes a mechanism to avoid traffic loss due to this condition without introducing any protocol changes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-ldp-igp-sync-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-ldp-igp-sync-03.txt' />
+</reference>

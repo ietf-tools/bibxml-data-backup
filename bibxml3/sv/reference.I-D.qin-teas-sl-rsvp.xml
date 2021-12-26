@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.qin-teas-sl-rsvp'>
+<front>
+<title>Architecture for Stateless RSVP</title>
+
+<author initials='J' surname='Qin' fullname='Jun Qin'>
+    <organization />
+</author>
+
+<author initials='D' surname='Sun' fullname='Dongzhi Sun'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='X' surname='Wei' fullname='Xiugang Wei'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<date month='December' day='27' year='2016' />
+
+<abstract><t>RSVP takes a "soft state" scheme to manage the reservation states in routers and hosts, the soft states are created and periodically refreshed by Path and Resv messages.  Soft state scheme gives a simple way to maintain the state synchonization between neighbors, but also introduces scalability issue.  This document provides a framework that describes and discusses the architecture for stateless RSVP (SL-RSVP), which disabled the soft-state scheme to improve the protocol scalability and the other processes of RSVP are kept.  This document does not describe specific protocols or protocol extensions needed to realize this architecture.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-qin-teas-sl-rsvp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-qin-teas-sl-rsvp-00.txt' />
+</reference>

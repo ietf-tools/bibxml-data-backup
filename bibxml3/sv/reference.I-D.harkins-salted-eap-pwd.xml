@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.harkins-salted-eap-pwd'>
+<front>
+<title>Adding Support for Salted Password Databases to EAP-pwd</title>
+
+<author initials='D' surname='Harkins' fullname='Dan Harkins'>
+    <organization />
+</author>
+
+<date month='November' day='23' year='2016' />
+
+<abstract><t>EAP-pwd is an EAP method that uses a shared password for authentication using a technique that is resistant to dictionary attack.  It included support for raw keys and [RFC2759]-style double hashing of a password but did not include support for salted passwords.  There are many existing databases of salted passwords and it is desirable to allow their use with EAP-pwd.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-harkins-salted-eap-pwd-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-harkins-salted-eap-pwd-08.txt' />
+</reference>

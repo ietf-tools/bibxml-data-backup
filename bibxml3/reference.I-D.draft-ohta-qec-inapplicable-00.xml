@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ohta-qec-inapplicable'>
+<front>
+<title>Quantum Error Correction Inapplicable to Really Entangled States</title>
+<author initials='M' surname='Ohta' fullname='Masataka Ohta'>
+<organization />
+</author>
+<date year='2020' month='October' day='30' />
+<abstract><t>Though quantum error correction assumes localized error model of Shor that errors on a qubit are caused by interaction with its local environment, enabling essentially classical error correction for unentangled states, the model is applied to entangled states improperly without involving local environment states in the entanglement.</t><t> That is, when an entangled state (Q) is represented as superposition of unentangled terms (Qi) as Q=Q1+Q2+...+Qn, local environment states around qubits are, in general, different term by term. Q will be, with term-specific error operators (Ei), E1*Q1+E2*Q2+...+En*Qn, not, with a common error operator (E) assumed by Shor, E*(Q1+Q2+...+Qn).</t><t> A complication is that Shor's error model is a little quantum, allowing for two different local environment states around a qubit. As such, quantum error correction is applicable to some trivially entangled states including states used by Shor code but not to really entangled states.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ohta-qec-inapplicable-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ohta-qec-inapplicable-00.txt'/>
+</reference>

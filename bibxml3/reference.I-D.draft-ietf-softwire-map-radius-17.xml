@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-softwire-map-radius'>
+<front>
+<title>RADIUS Attributes for Address plus Port (A+P) based Softwire Mechanisms</title>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fu' fullname='Yu Fu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Liu' fullname='Bing Liu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Deacon' fullname='Peter Deacon'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='T' surname='Li' fullname='Tianxiang Li'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<date month='November' day='7' year='2018' />
+
+<abstract><t>IPv4-over-IPv6 transition mechanisms provide IPv4 connectivity services over IPv6 native networks during the IPv4/IPv6 co-existence period.  DHCPv6 options have been defined for configuring clients for Lightweight 4over6, Mapping of Address and Port with Encapsulation, and Mapping of Address and Port using Translation unicast softwire mechanisms, and also multicast softwires.  However, in many networks, configuration information is stored in an Authentication, Authorization, and Accounting server which utilizes the RADIUS protocol to provide centralized management for users.  When a new transition mechanism is developed, new RADIUS attributes need to be defined correspondingly.  This document defines three new RADIUS attributes to carry Address plus Port based softwire configuration parameters from an Authentication, Authorization, and Accounting server to a Broadband Network Gateway.  Both unicast and multicast attributes are covered.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-softwire-map-radius-17' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-softwire-map-radius-17.txt' />
+</reference>

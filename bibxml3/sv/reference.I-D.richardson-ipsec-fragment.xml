@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.richardson-ipsec-fragment'>
+<front>
+<title>An interim solution to the Path MTU discovery problem for IPsec gateways</title>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<date month='July' day='19' year='2004' />
+
+<abstract><t>Path MTU discovery depends upon proper respect for the Don't Fragment (DF) bit. IPsec gateways often present an Maximum Transmission Unit (MTU) constraint, and therefore must send ICMP Fragment Needed messages when the DF bit is set. This document proposes to ignore it in certain cases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-richardson-ipsec-fragment-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-richardson-ipsec-fragment-01.txt' />
+</reference>

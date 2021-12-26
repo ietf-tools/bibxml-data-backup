@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chu-ldap-logschema'>
+<front>
+<title>A Schema for Logging the LDAP Protocol</title>
+
+<author initials='H' surname='Chu' fullname='Howard Chu'>
+    <organization />
+</author>
+
+<date month='May' day='5' year='2006' />
+
+<abstract><t>In order to facilitate remote administration and auditing of LDAP server operation, it is desirable to provide the server's operational logs themselves as a searchable LDAP directory. These logs may also be used as a persistent change log to support various replication mechanisms. This document defines a schema that may be used to represent all of the requests that have been processed by an LDAP server. It may be used by various applications for auditing, flight recorder, replication, and other purposes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chu-ldap-logschema-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chu-ldap-logschema-00.txt' />
+</reference>

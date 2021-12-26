@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cao-behave-dsdns64'>
+<front>
+<title>Dual Stack Hosts with DNS64</title>
+
+<author initials='Z' surname='Cao' fullname='Zehn Cao'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<date month='February' day='12' year='2010' />
+
+<abstract><t>If a dual stack host is configured with a DNS64 server, the packet will be routed through the NAT64 translator instead of the plain IPv4 router or NAT44.  This document suggest the DNS64 should handle type A DNS request normally to avoid packets being detoured to NAT64.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cao-behave-dsdns64-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cao-behave-dsdns64-00.txt' />
+</reference>

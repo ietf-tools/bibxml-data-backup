@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tian-rsvp-loose-seg-opt'>
+<front>
+<title>Loose Segment Optimization in Explicit Paths</title>
+
+<author initials='A' surname='Tian' fullname='Albert Tian'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2004' />
+
+<abstract><t>RSVP-TE [RSVPTE] can signal explicit paths with loose or strict hops in a MPLS network. Using loose hops can shorten the ERO, but can not reduce the overhead associated with an RSVP signaled LSP since path states are still created on every hop along the path. In this paper, we propose a mechanism that can reduce the signaling and maintenance overhead associated with loose hops in an RSVP signaled LSP in an LDP enabled network. The mechanism can also be generalized to work with other tunneling technologies such as GRE or IP-in-IP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tian-rsvp-loose-seg-opt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tian-rsvp-loose-seg-opt-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.heitz-idr-diagnostic-attr'>
+<front>
+<title>BGP Diagnostic Path Attribute</title>
+
+<author initials='J' surname='Heitz' fullname='Jakob Heitz'>
+    <organization />
+</author>
+
+<author initials='P' surname='Narasimha' fullname='Prasad Narasimha'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gulrajani' fullname='Sameer Gulrajani'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2019' />
+
+<abstract><t>A BGP path attribute for the purpose of network diagnostics is described.  It is non-transitive, such that BGP speakers will not forward it by default.  It is structured as a list of elements.  An element begins with the BGP identifier and AS number of the speaker that appends the element and includes a list of TLVs.  Any speaker can add or remove an element to/from the list.  TLVs for a timestamp and for a checksum are described.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-heitz-idr-diagnostic-attr-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-heitz-idr-diagnostic-attr-01.txt' />
+</reference>

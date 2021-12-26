@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-spring-segment-list-id'>
+<front>
+<title>Spring Segment List ID</title>
+
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+    <organization />
+</author>
+
+<author initials='T' surname='Liao' fullname='Ting Liao'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2015' />
+
+<abstract><t>Segment Routing allows a node to steer a packet through an ordered list of instructions, called segments.  The ingress node prepends a SR header to a packet containing a set of "segments".  A segment can represent any instruction topological or service-based.  The Segment Routing architecture can be implemented using MPLS with no change to the forwarding plane.  A segment is encoded as an MPLS label.  An ordered list of segments is encoded as a stack of labels, but it has implications on label stack depth.  This document describes how to decrease the depth of the label stack in order to do effective Segment Routing operation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-spring-segment-list-id-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-spring-segment-list-id-00.txt' />
+</reference>

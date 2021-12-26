@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-tcp-timestamps'>
+<front>
+<title>Reducing the TIME-WAIT state using TCP timestamps</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='December' day='19' year='2010' />
+
+<abstract><t>This document describes an algorithm for processing incoming SYN segments that allows higher connection-establishment rates between any two TCP endpoints when a TCP timestamps option is present in the incoming SYN segment.  This document only modifies processing of SYN segments received for connections in the TIME-WAIT state; processing in all other states is unchanged.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-tcp-timestamps-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-tcp-timestamps-03.txt' />
+</reference>

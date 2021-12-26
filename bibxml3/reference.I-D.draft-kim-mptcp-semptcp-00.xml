@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kim-mptcp-semptcp'>
+<front>
+<title>Efficient Design for Secure Multipath TCP against Eavesdropper in Initial Handshake</title>
+
+<author initials='D' surname='Kim' fullname='Dongyong Kim'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2016' />
+
+<abstract><t>Multipath TCP has become the transmission technique of choice for the multi-homed environment.  Recently, there have been multiple attempts to verify the security of Multipath TCP; but an eavesdropper in the initial handshake breaches the primary security goal of Multipath TCP.  In this paper, we introduce a secure scheme against an initial eavesdropper, using asymmetric key exchange.  We optimize the public parameters to overcome two challenges to the use of asymmetric cryptography.  Then we show that compared to previously proposed methods, our scheme has low overhead, and is more secure.  Our approach applies to many weak authentication-based protocols that seek to use asymmetric cryptography.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kim-mptcp-semptcp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kim-mptcp-semptcp-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-kim-mptcp-semptcp-00.pdf' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.amend-mptcp-robe'>
+<front>
+<title>Multipath TCP extension for Robust Session Establishment</title>
+
+<author initials='M' surname='Amend' fullname='Markus Amend'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>Multipath TCP extends the plain, singlepath limited, TCP towards the capability of multipath transmission.  This greatly improves the reliability and performance of TCP communication.  For backwards compatiblity reason the Multipath TCP was designed to setup successfully an inital path first, after which subsequent paths can be added for multipath transmission.  For that reason the Multipath TCP has the same limitations as the plain TCP during connection setup, in case the selected path is not functional.  RobE provides the ability to simultaneously use multiple paths for connection setup.  This document presents with RobE a set of extensions to Multipath TCP to overcome its singlepath limitation during connection initialisation and extends it to a full fledged multipath protocol.  RobE ensures connecitivity if at least one functional path out of a bunch of paths is given and offers beside that the opportunity to significantly improve loading times of Internet services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-amend-mptcp-robe-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-amend-mptcp-robe-00.txt' />
+</reference>

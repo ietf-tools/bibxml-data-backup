@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.walid-mptcp-congestion-control'>
+<front>
+<title>Balanced Linked Adaptation Congestion Control Algorithm for MPTCP</title>
+
+<author initials='A' surname='Walid' fullname='Anwar Walid'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Peng' fullname='Qiuyu Peng'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hwang' fullname='Jaehyun Hwang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Low' fullname='Steven Low'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2014' />
+
+<abstract><t>This document describes the mechanism of Balia, the "Balanced linked adaptation", which is a congestion control algorithm for Multipath TCP (MPTCP).  The recent proposals, LIA and OLIA, suffer from either unfriendliness to Single Path TCP (SPTCP) or unresponsiveness to network changes under certain conditions.  The tradeoff between friendliness and responsiveness is inevitable, but Balia judiciously balances this tradeoff based on a new design framework that allows one to systematically explore the design space.  Balia has been implemented in the Linux kernel and there are plans to make it available for experimentation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-walid-mptcp-congestion-control-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-walid-mptcp-congestion-control-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-walid-mptcp-congestion-control-00.pdf' />
+</reference>

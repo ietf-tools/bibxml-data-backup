@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-appsawg-cbor-merge-patch'>
+<front>
+<title>CBOR Merge Patch</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This specification defines the CBOR merge patch format and processing rules, as an analog to the JSON merge patch format defined in RFC 7396.  The merge patch format is primarily intended for use with the HTTP PATCH method and potential related CoAP methods as a means of describing a set of modifications to a target resource's content.  This specification also defines how a JSON merge patch document is applied to a CBOR data item and vice versa.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-appsawg-cbor-merge-patch-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-appsawg-cbor-merge-patch-00.txt' />
+</reference>

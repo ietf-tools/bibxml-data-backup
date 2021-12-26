@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-curdle-ssh-dh-group-exchange'>
+<front>
+<title>Increase SSH minimum recommended DH modulus size to 2048 bits</title>
+
+<author initials='L' surname='Velvindron' fullname='Loganaden Velvindron'>
+    <organization />
+</author>
+
+<author initials='M' surname='Baushke' fullname='Mark Baushke'>
+    <organization />
+</author>
+
+<date month='June' day='22' year='2017' />
+
+<abstract><t>The Diffie-Hellman (DH) Group Exchange for the Secure Shell (SSH) Transport layer Protocol specifies that servers and clients should support groups with a modulus length of k bits, where the recommended minumum value is 1024 bits.  Recent security research has shown that a minimum value of 1024 bits is insufficient against state-sponsored actors.  As such, this document formally updates the specification such that the minimum recommended value for k is 2048 bits and the group size is 2048 bits at minimum.  This RFC updates RFC4419 which allowed for DH moduli less than 2048 bits.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-curdle-ssh-dh-group-exchange-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-curdle-ssh-dh-group-exchange-04.txt' />
+</reference>

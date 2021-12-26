@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-multisession'>
+<front>
+<title>Multisession BGP</title>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<author initials='C' surname='Appanna' fullname='Chandrashekhar Appanna'>
+    <organization />
+</author>
+
+<date month='January' day='4' year='2007' />
+
+<abstract><t>This specification augments "Multiprotocol Extensions for BGP-4" [MP- BGP] by proposing a mechanism to allow multiple sessions to be used between a given pair of BGP speakers. Each session is used to transport routes for one or more AFI/SAFI. This provides an alternative to the current [MP-BGP] approach of multiplexing routes for all AFI/SAFI onto a single connection. Use of this approach is expected to increase the robustness of the BGP protocol as it is used to support more and more diverse AFI/SAFI.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-multisession-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-multisession-03.txt' />
+</reference>

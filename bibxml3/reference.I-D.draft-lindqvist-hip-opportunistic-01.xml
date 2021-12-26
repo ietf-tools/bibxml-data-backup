@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lindqvist-hip-opportunistic'>
+<front>
+<title>Establishing Host Identity Protocol Opportunistic Mode with TCP Option</title>
+
+<author initials='J' surname='Lindqvist' fullname='Janne Lindqvist'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2006' />
+
+<abstract><t>This document specifies an alternative opportunistic mode for the Host Identity Protocol (HIP). The opportunistic mode is initialized by adding a 128 bit Host Identity Tag (HIT) as a TCP option to a TCP SYN packet. The mode allows a TCP connection to be established directly without a timeout delay in the case the peer does not support HIP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lindqvist-hip-opportunistic-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lindqvist-hip-opportunistic-01.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gundogan-icnrg-ccnlowpan'>
+<front>
+<title>CCN Packet Adaptation to IEEE 802.15.4 Networks</title>
+
+<author initials='C' surname='Gundogan' fullname='Cenk Gundogan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schmidt' fullname='Thomas Schmidt'>
+    <organization />
+</author>
+
+<author initials='M' surname='Waehlisch' fullname='Matthias Waehlisch'>
+    <organization />
+</author>
+
+<author initials='C' surname='Scherb' fullname='Christopher Scherb'>
+    <organization />
+</author>
+
+<author initials='C' surname='Marxer' fullname='Claudio Marxer'>
+    <organization />
+</author>
+
+<author initials='C' surname='Tschudin' fullname='Christian Tschudin'>
+    <organization />
+</author>
+
+<date month='September' day='23' year='2017' />
+
+<abstract><t>Prevalent TLV-based CCN packet formats such as CCNx and NDN are designed to be generic and extensible.  This leads to header verbosity which is not acceptable in constrained environments where small-sized MTU link-layers like IEEE 802.15.4 are deployed.  This document presents an adaptation layer for IEEE 802.15.4 that reduces CCNx and NDN packet header sizes for an increased payload size. Further, a link fragmentation on this adaptation layer is described.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gundogan-icnrg-ccnlowpan-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gundogan-icnrg-ccnlowpan-00.txt' />
+</reference>

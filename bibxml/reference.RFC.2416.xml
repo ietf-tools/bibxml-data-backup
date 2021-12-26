@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC2416' target='https://www.rfc-editor.org/info/rfc2416'>
+<front>
+<title>When TCP Starts Up With Four Packets Into Only Three Buffers</title>
+<author initials='T.' surname='Shepard' fullname='T. Shepard'><organization /></author>
+<author initials='C.' surname='Partridge' fullname='C. Partridge'><organization /></author>
+<date year='1998' month='September' />
+<abstract><t>This memo is to document a simple experiment.  The experiment showed that in the case of a TCP receiver behind a 9600 bps modem link at the edge of a fast Internet where there are only 3 buffers before the modem (and the fourth packet of a four-packet start will surely be dropped), no significant degradation in performance is experienced by a TCP sending with a four-packet start when compared with a normal slow start (which starts with just one packet).  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='2416'/>
+<seriesInfo name='DOI' value='10.17487/RFC2416'/>
+</reference>

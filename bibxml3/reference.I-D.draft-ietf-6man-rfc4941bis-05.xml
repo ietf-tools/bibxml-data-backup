@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-rfc4941bis'>
+<front>
+<title>Privacy Extensions for Stateless Address Autoconfiguration in IPv6</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='S' surname='Krishnan' fullname='Suresh Krishnan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Narten' fullname='Thomas Narten'>
+    <organization />
+</author>
+
+<author initials='R' surname='Draves' fullname='Richard Draves'>
+    <organization />
+</author>
+
+<date month='December' day='10' year='2019' />
+
+<abstract><t>Nodes use IPv6 stateless address autoconfiguration to generate addresses using a combination of locally available information and information advertised by routers.  Addresses are formed by combining network prefixes with an interface identifier.  This document describes an extension that causes nodes to generate global scope addresses with randomized interface identifiers that change over time.  Changing global scope addresses over time makes it more difficult for eavesdroppers and other information collectors to identify when different addresses used in different transactions actually correspond to the same node.  This document formally obsoletes RFC4941.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-rfc4941bis-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-rfc4941bis-05.txt' />
+</reference>

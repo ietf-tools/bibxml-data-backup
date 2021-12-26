@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-krb-wg-pkinit-alg-agility'>
+<front>
+<title>PKINIT Algorithm Agility</title>
+
+<author initials='L' surname='Astrand' fullname='Love Astrand'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhu' fullname='Larry Zhu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wasserman' fullname='Margaret Wasserman'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2012' />
+
+<abstract><t>This document updates PKINIT, as defined in RFC 4556, to remove protocol structures tied to specific cryptographic algorithms.  The PKINIT key derivation function is made negotiable, the digest algorithms for signing the pre-authentication data and the client's X.509 certificates are made discoverable.  These changes provide preemptive protection against vulnerabilities discovered in the future against any specific cryptographic algorithm, and allow incremental deployment of newer algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-krb-wg-pkinit-alg-agility-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-krb-wg-pkinit-alg-agility-06.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.benjamin-extendedcallbackinfo'>
+<front>
+<title>AFS Callback Extensions draft-benjamin-extendedcallbackinfo-00</title>
+
+<author initials='M' surname='Benjamin' fullname='Matthew Benjamin'>
+    <organization />
+</author>
+
+<date month='September' day='23' year='2009' />
+
+<abstract><t>AFS cache-control strategy is callback (invalidate) based. The AFS callback design allows a client to know when an object it has cached is no longer consistent, but the callback notification message itself provides no specific information about the triggering event. This is a protocol inefficiency, as in several scenarios it results in unnecessary round-trips to file servers to verify file status information, file access information, or to fetch file data which has not changed. We propose an extension of the callback mechanism to provide information about the event(s) triggering a callback, in the payload of the callback notification message itself. The proposed mechanism eliminates most or all unnecessary round-trips imposed by the current callback mechanism, and simultaneously allows AFS implementations to (efficiently) provide correct semantics in several scenarios involving multiple writers (ie, where AFS currently provides incorrect semantics).Editorial Note  To provide feedback on this Internet-Draft, join the afs3-standardisation mailing list (afs3-standardization@openafs.org).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-benjamin-extendedcallbackinfo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-benjamin-extendedcallbackinfo-00.txt' />
+</reference>

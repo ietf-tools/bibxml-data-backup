@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-hokelek-rlfap-01.txt'>
+    <title>"Loop-Free IP Fast Reroute Using Local and Remote LFAPs", Ibrahim Hokelek</title>
+    <link>http://www.ietf.org/internet-drafts/draft-hokelek-rlfap-01.txt</link>
+    <description>This draft describes a new loop-free IP fast reroute mechanism which enhances the IP Fast-ReRoute (IPFRR) [1,15] by introducing the concept of pre-computed remote Loop-Free Alternate Paths (rLFAPs) on top of the IPFRR local LFAP. In rLFAP, a router which is adjacent to the failed resource switches over to pre-computed LFAPs, if they exist, immediately after failure detection. Multi-hop neighbors (MNBs) are notified about this remote failure as quickly as possible using fast failure notification mechanism. Upon receipt of failure information, MNBs activate their pre-computed remote LFAPs that they maintain for protecting against remote failures within their multi-hop neighborhoods. In the worst case, where IPFRR results in forming micro-loops, rLFAP completely prevents micro-loops for single link failures and quickly converges to a loop-free path in case of multiple link failures.</description>
+    <dc:date>2008-02-26T08:00:00-00:00</dc:date>
+</item>

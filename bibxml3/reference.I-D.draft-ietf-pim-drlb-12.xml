@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pim-drlb'>
+<front>
+<title>PIM Designated Router Load Balancing</title>
+
+<author initials='Y' surname='Cai' fullname='Yiqun Cai'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ou' fullname='Heidi Ou'>
+    <organization />
+</author>
+
+<author initials='S' surname='Vallepalli' fullname='Sri Vallepalli'>
+    <organization />
+</author>
+
+<author initials='m' surname='mishra' fullname='mankamana mishra'>
+    <organization />
+</author>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<author initials='A' surname='Green' fullname='Andy Green'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2019' />
+
+<abstract><t>On a multi-access network, one of the PIM-SM routers is elected as a Designated Router.  One of the responsibilities of the Designated Router is to track local multicast listeners and forward data to these listeners if the group is operating in PIM-SM.  This document specifies a modification to the PIM-SM protocol that allows more than one of the PIM-SM routers to take on this responsibility so that the forwarding load can be distributed among multiple routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pim-drlb-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-drlb-12.txt' />
+</reference>

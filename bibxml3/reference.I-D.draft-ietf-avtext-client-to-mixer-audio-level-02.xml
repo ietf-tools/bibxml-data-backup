@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtext-client-to-mixer-audio-level'>
+<front>
+<title>A Real-Time Transport Protocol (RTP) Header Extension for Client-to- Mixer Audio Level Indication</title>
+
+<author initials='J' surname='Lennox' fullname='Jonathan Lennox'>
+    <organization />
+</author>
+
+<author initials='E' surname='Ivov' fullname='Emil Ivov'>
+    <organization />
+</author>
+
+<author initials='E' surname='Marocco' fullname='Enrico Marocco'>
+    <organization />
+</author>
+
+<date month='June' day='2' year='2011' />
+
+<abstract><t>This document defines a mechanism by which packets of Real-Time Transport Protocol (RTP) audio streams can indicate, in an RTP header extension, the audio level of the audio sample carried in the RTP packet.  In large conferences, this can reduce the load on an audio mixer or other middlebox which wants to forward only a few of the loudest audio streams, without requiring it to decode and measure every stream that is received.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtext-client-to-mixer-audio-level-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtext-client-to-mixer-audio-level-02.txt' />
+</reference>

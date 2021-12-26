@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-next-hop-capability'>
+<front>
+<title>BGP Next-Hop dependent capabilities</title>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kompella' fullname='Kireeti Kompella'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<date month='October' day='6' year='2020' />
+
+<abstract><t>RFC 5492 advertises the capabilities of the BGP peer.  When the BGP peer is not the same as the BGP Next-Hop, it is useful to also be able to advertise the capability of the BGP Next-Hop, in particular to advertise forwarding plane features.  This document defines a mechanism to advertise such BGP Next Hop dependent Capabilities.  This document defines a new BGP non-transitive attribute to carry Next-Hop Capabilities.  This attribute is guaranteed to be deleted or updated when the BGP Next Hop is changed, in order to reflect the capabilities of the new BGP Next-Hop.  This document also defines a Next-Hop capability to advertise the ability to process the MPLS Entropy Label as an egress LSR for all NLRI advertised in the BGP UPDATE.  It updates RFC 6790 with regard to this BGP signaling.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-next-hop-capability-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-next-hop-capability-06.txt' />
+</reference>

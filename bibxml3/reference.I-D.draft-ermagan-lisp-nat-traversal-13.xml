@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ermagan-lisp-nat-traversal'>
+<front>
+<title>NAT traversal for LISP</title>
+
+<author initials='V' surname='Ermagan' fullname='Vina Ermagan'>
+    <organization />
+</author>
+
+<author initials='D' surname='Farinacci' fullname='Dino Farinacci'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lewis' fullname='Darrel Lewis'>
+    <organization />
+</author>
+
+<author initials='J' surname='Skriver' fullname='Jesper Skriver'>
+    <organization />
+</author>
+
+<author initials='F' surname='Maino' fullname='Fabio Maino'>
+    <organization />
+</author>
+
+<author initials='C' surname='White' fullname='Chris White'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2017' />
+
+<abstract><t>This document describes a mechanism for IPv4 NAT traversal for LISP tunnel routers (xTR) and LISP Mobile Nodes (LISP-MN) behind a NAT device.  A LISP device both detects the NAT and initializes its state.  Forwarding to the LISP device through a NAT is enabled by the LISP Re-encapsulating Tunnel Router (RTR) network element, which acts as an anchor point in the data plane, forwarding traffic from unmodified LISP devices through the NAT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ermagan-lisp-nat-traversal-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ermagan-lisp-nat-traversal-13.txt' />
+</reference>

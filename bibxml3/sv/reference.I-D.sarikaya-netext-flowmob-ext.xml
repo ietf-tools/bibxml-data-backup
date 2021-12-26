@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-netext-flowmob-ext'>
+<front>
+<title>PMIPv6 Multihoming Support Extensions for Flow Mobility</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<date month='September' day='24' year='2012' />
+
+<abstract><t>Base Proxy Mobile IPv6 multihoming support treats each active interface of the Mobile Node separately and creates a different binding cache entry for each interface.  This is similar to Mobile IPv6 restricting only one care-of address to be registered with the home agent and this restriction which did not allow flow mobility between interfaces has been removed by allowing multiple care-of address registration.  In this document we specify a similar solution for Proxy Mobile IPv6 (PMIPv6) to support flow mobility among simultaneously connected interfaces.  Binding cache, binding update list and home network prefix option are slighlty extended to allow indicating the home interface and other interfaces.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-netext-flowmob-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-netext-flowmob-ext-00.txt' />
+</reference>

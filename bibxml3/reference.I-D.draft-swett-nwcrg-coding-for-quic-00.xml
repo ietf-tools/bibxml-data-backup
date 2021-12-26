@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.swett-nwcrg-coding-for-quic'>
+<front>
+<title>Coding for QUIC</title>
+
+<author initials='I' surname='Swett' fullname='Ian Swett'>
+    <organization />
+</author>
+
+<author initials='M' surname='Montpetit' fullname='Marie-Jose Montpetit'>
+    <organization />
+</author>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2018' />
+
+<abstract><t>This document introduces means of integrating loss recovery coding in the proposed QUIC transport protocol.  While no specific code is specified, the document defines how to integrate recent coding research to recover packets lost in QUIC sessions.  This research targets the codes themselves as well as how to use them in real world protocols.  Loss recover should improve the QUIC performance in sessions impacted by loss.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-swett-nwcrg-coding-for-quic-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-swett-nwcrg-coding-for-quic-00.txt' />
+</reference>

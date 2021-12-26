@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dime-congestion-flow-attributes'>
+<front>
+<title>Diameter Congestion and Filter Attributes</title>
+
+<author initials='L' surname='Bertz' fullname='Lyle Bertz'>
+    <organization />
+</author>
+
+<author initials='S' surname='Manning' fullname='Serge Manning'>
+    <organization />
+</author>
+
+<author initials='B' surname='Hirschman' fullname='Brent Hirschman'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2015' />
+
+<abstract><t>This document defines optional Diameter attributes that can be used to help manage networks that use Explicit Congestion Notification (ECN) or Diameter traffic filters.  These new attributes allow for improved data traffic identification, support of ECN and minimize Diameter filter administration.  RFC 5777 defines a Filter-Rule Attribute Value Pair (AVP) that accommodates extensions for classification, conditions and actions. It however, does not support traffic identification for packets using Explicit Congestion Notification as defined in RFC 3168 and does not provide specific actions when the flow(s) described by the Filter- Rule are congested.  Further, a Filter-Rule can describe multiple flows but not the exact number of flows. Flow count and other associated data (e.g. packets) are not captured by Accounting applications, leaving administrators without useful information regarding the effectiveness or appropriateness of the filter definition.  The optional attributes defined in this document are forward and backwards compatible with RFC 5777.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dime-congestion-flow-attributes-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dime-congestion-flow-attributes-02.txt' />
+</reference>

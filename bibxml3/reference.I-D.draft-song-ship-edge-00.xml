@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-ship-edge'>
+<front>
+<title>Using Short Hierarchical IP Addresses at Edge Networks</title>
+
+<author initials='H' surname='Song' fullname='Haoyu Song'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2020' />
+
+<abstract><t>To mitigate the IPv6 header overhead in edge networks, this draft proposes to use short hierarchical addresses excluding the network prefix within edge networks.  An edge network can be organized into a hierarchical architecture containing one or more levels of networks. The border routers for each hierarchical level are responsible for address augmenting and pruning.  Specifically, the top-level border routers convert the internal IP header to and from the standard IPv6 header.  This draft presents an incrementally deployable scheme allowing packet header to be effectively compressed in edge networks without affecting the network interoperability.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-ship-edge-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-ship-edge-00.txt' />
+</reference>

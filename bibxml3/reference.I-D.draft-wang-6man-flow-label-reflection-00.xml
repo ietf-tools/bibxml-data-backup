@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-6man-flow-label-reflection'>
+<front>
+<title>IPv6 Flow Label Reflection</title>
+
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2014' />
+
+<abstract><t>The current definition of the IPv6 Flow Label focuses mainly on how the packet source forms the value of this field and how the forwarder in-path treats it.  In network operations, there are needs to correlate an upstream session and the corresponding downstream session together.  This document propose a flow label reflection mechanism that network devices copy the flow label value from received packets to the corresponding flow label field in return packets.  This mechanism could simplify the network traffic recognition process in network operations and make the policy for both directions of traffic of one session consistent.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-6man-flow-label-reflection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-6man-flow-label-reflection-00.txt' />
+</reference>

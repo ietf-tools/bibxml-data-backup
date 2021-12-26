@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reddy-dots-transport'>
+<front>
+<title>Co-operative DDoS Mitigation</title>
+
+<author initials='T' surname='Reddy' fullname='Tirumaleswar Reddy'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='P' surname='Patil' fullname='Prashanth Patil'>
+    <organization />
+</author>
+
+<author initials='M' surname='Geller' fullname='Mike Geller'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<date month='August' day='8' year='2016' />
+
+<abstract><t>This document specifies a mechanism that a DOTS client can use to signal that a network is under a Distributed Denial-of-Service (DDoS) attack to an upstream DOTS server so that appropriate mitigation actions are undertaken (including, blackhole, drop, rate-limit, or add to watch list) on the suspect traffic.  The document specifies both DOTS signal and data channels.  Happy Eyeballs considerations for the DOTS signal channel are also elaborated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reddy-dots-transport-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reddy-dots-transport-06.txt' />
+</reference>

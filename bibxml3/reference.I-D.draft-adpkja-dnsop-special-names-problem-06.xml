@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.adpkja-dnsop-special-names-problem'>
+<front>
+<title>Problem Statement for the Reservation of Special-Use Domain Names using RFC6761</title>
+
+<author initials='G' surname='Huston' fullname='Geoff Huston'>
+    <organization />
+</author>
+
+<author initials='P' surname='Koch' fullname='Peter Koch'>
+    <organization />
+</author>
+
+<author initials='A' surname='Durand' fullname='Alain Durand'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2016' />
+
+<abstract><t>The dominant protocol for name resolution on the Internet is the Domain Name System (DNS).  However, other protocols exist that are fundamentally different from the DNS, and may or may not share the same namespace.  When an end-user triggers resolution of a name on a system that supports multiple, different protocols or resolution mechanisms, it is desirable that the protocol used is unambiguous, and that requests intended for one protocol are not inadvertently answered using another protocol.  RFC 6761 introduced a framework by which a particular domain name could be acknowledged as being special.  Various challenges have become apparent with this application of the guidance provided in RFC 6761.  This document focuses solely on documenting the specific challenges created by RFC 6761 in the form of a problem statement in order to facilitate further discussions of potential solutions.  In particular, it refrains from proposing or promoting any solution. Also, the current document does not focus on other general issues related to the use of special use domain names.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-adpkja-dnsop-special-names-problem-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-adpkja-dnsop-special-names-problem-06.txt' />
+</reference>

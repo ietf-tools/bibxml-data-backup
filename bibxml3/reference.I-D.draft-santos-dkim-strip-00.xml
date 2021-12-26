@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.santos-dkim-strip'>
+<front>
+<title>DKIM Canonicalization Method: STRIP</title>
+
+<author initials='H' surname='Santos' fullname='Hector Santos'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2006' />
+
+<abstract><t>The DKIM base protocol has offers two digital signature canonicalization (cl4n) methods called "relaxed" and "simple" with low reliability and survivability during in-transient operations. This proposal describes a new STRIP canonicalization algorithm and method to increase the reliability and survivability of the digital signature. In additional, the proposal describe new original body hashing requirements to help secure STRIP c14n security concerns found in a similar but deprecated NOFWS c14n method.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-santos-dkim-strip-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-santos-dkim-strip-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-idms'>
+<front>
+<title>RTCP for inter-destination media synchronization</title>
+
+<author initials='R' surname='Brandenburg' fullname='Ray van Brandenburg'>
+    <organization />
+</author>
+
+<author initials='H' surname='Stokking' fullname='Hans Stokking'>
+    <organization />
+</author>
+
+<author initials='F' surname='Boronat' fullname='Fernando Boronat'>
+    <organization />
+</author>
+
+<author initials='M' surname='Montagud' fullname='Mario Montagud'>
+    <organization />
+</author>
+
+<author initials='K' surname='Gross' fullname='Kevin Gross'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2012' />
+
+<abstract><t>This document gives information on an RTCP Packet Type and RTCP XR Block Type including associated SDP parameters for Inter-Destination Media Synchronization (IDMS).  The RTCP XR Block Type, registered with IANA based on an ETSI specification, is used to collect media playout information from participants in a group playing-out (watching, listening, etc.) a specific RTP media stream.  The RTCP packet type specified by this document is used to distribute a common target playout point to which all the distributed receivers, sharing a media experience, can synchronize.  Typical use cases in which IDMS is usefull are social TV, shared service control (i.e. applications where two or more geographically separated users are watching a media stream together), distance learning, networked video walls, networked loudspeakers, etc.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-idms-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-idms-03.txt' />
+</reference>

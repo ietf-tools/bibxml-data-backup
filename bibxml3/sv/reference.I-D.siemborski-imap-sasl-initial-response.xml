@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.siemborski-imap-sasl-initial-response'>
+<front>
+<title>IMAP Extension for SASL Initial Client Response</title>
+
+<author initials='A' surname='Gulbrandsen' fullname='Arnt Gulbrandsen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Siemborski' fullname='Robert  Siemborski'>
+    <organization />
+</author>
+
+<date month='November' day='26' year='2006' />
+
+<abstract><t>To date, the Internet Message Access Protocol (IMAP) has used a Simple Authentication and Security Layer (SASL) profile which always required at least one complete round trip for an authentication, as it did not support an initial client response argument. This additional round trip at the beginning of the session is undesirable, especially when round trip costs are high. This document defines an extension to IMAP which allows clients and servers to avoid this round trip by allowing an initial client response argument to the IMAP AUTHENTICATE command. This document defines an extension to IMAP which allows clients and servers to avoid this round trip by allowing an initial client response argument to the IMAP AUTHENTICATE command.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-siemborski-imap-sasl-initial-response-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-siemborski-imap-sasl-initial-response-06.txt' />
+</reference>

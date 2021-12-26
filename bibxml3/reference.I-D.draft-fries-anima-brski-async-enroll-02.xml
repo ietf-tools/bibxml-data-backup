@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fries-anima-brski-async-enroll'>
+<front>
+<title>Support of asynchronous Enrollment in BRSKI</title>
+
+<author initials='S' surname='Fries' fullname='Steffen Fries'>
+    <organization />
+</author>
+
+<author initials='H' surname='Brockhaus' fullname='Hendrik Brockhaus'>
+    <organization />
+</author>
+
+<author initials='E' surname='Lear' fullname='Eliot Lear'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>This document discusses an enhancement of automated bootstrapping of a remote secure key infrastructure (BRSKI) to operate in domains featuring no or only timely limited connectivity to backend services offering enrollment functionality, specifically a Public Key Infrastructure (PKI).  In the context of deploying new devices the design of BRSKI allows for online (synchronous object exchange) and offline interactions (asynchronous object exchange) with a manufacturer's authorization service.  For this it utilizes a self- contained voucher to transport the domain credentials as a signed object to establish an initial trust between a pledge and the target deployment domain.  The currently supported enrollment protocol for request and distribution of deployment domain specific device certificates provides only limited support for asynchronous PKI interactions.  This memo motivates the enhancement of supporting self-contained objects for certificate management by using an abstract notation.  This allows off-site operation of PKI services outside the deployment domain of the pledge.  This addresses specifically scenarios, in which the final authorization of certification request of a pledge cannot be made in the deployment domain and is therefore delegated to a operator backend.  The goal is to enable the usage of existing and potentially new PKI protocols supporting self-containment for certificate management.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fries-anima-brski-async-enroll-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fries-anima-brski-async-enroll-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wessels-edns-key-tag'>
+<front>
+<title>The EDNS Key Tag Option</title>
+
+<author initials='D' surname='Wessels' fullname='Duane Wessels'>
+    <organization />
+</author>
+
+<date month='July' day='29' year='2015' />
+
+<abstract><t>The DNS Security Extensions (DNSSEC) were developed to provide origin authentication and integrity protection for DNS data by using digital signatures.  These digital signatures can be verified by building a chain-of-trust starting from a trust anchor and proceeding down to a particular node in the DNS.  This document specifies a way for validating end-system resolvers to signal to a server which keys are referenced in their chain-of-trust.  The extensions allow zone administrators to monitor the progress of rollovers in a DNSSEC- signed zone.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wessels-edns-key-tag-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wessels-edns-key-tag-00.txt' />
+</reference>

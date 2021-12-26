@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sun-mif-address-policy-dhcp6'>
+<front>
+<title>Address Selection Policy Configuration by DHCPv6 Option</title>
+
+<author initials='T' surname='Sun' fullname='Tao Sun'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='X' surname='Duan' fullname='Xiaodong Duan'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>For hosts with multiple interfaces, the problem is how to make it run several applications simultaneously on variant interfaces such as GPRS, Wifi etc. To achieve this, one way is to select appropriate IP address so that the packets can be sent to the corresponding interface for forwarding. RFC 3484 defines a ''policy table'' for default IP address selection. This document extends the DHCPv6 option message so that the policy table can be dynamically updated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sun-mif-address-policy-dhcp6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sun-mif-address-policy-dhcp6-00.txt' />
+</reference>

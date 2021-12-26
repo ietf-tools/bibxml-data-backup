@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schwartz-sip-routing-managment'>
+<front>
+<title>End-to-End Route Management in the Session Initiation Protocol</title>
+
+<author initials='D' surname='Schwartz' fullname='Daniel  Schwartz'>
+    <organization />
+</author>
+
+<author initials='J' surname='Barkan' fullname='Jeremy Barkan'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2006' />
+
+<abstract><t>While much attention has been given in Session Initiation Protocol (SIP) to the process of securing caller identity end-to-end, SIP routing headers (e.g. via, route etc) have not garnered the same attention and have gone largly unchanged since RFC 3261. Since SIP promotes the routing directives to the application layer it is imperative that these decisions not be tampered with by a malicious party. Specifically, Route and Via headers are passed "in the clear" without any security mechanism to insure the integrity of the information. This draft summarizes the problems with the existing</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schwartz-sip-routing-managment-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schwartz-sip-routing-managment-00.txt' />
+</reference>

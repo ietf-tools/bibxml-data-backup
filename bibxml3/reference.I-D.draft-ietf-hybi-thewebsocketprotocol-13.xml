@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hybi-thewebsocketprotocol'>
+<front>
+<title>The WebSocket protocol</title>
+
+<author initials='I' surname='Fette' fullname='Ian Fette'>
+    <organization />
+</author>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2011' />
+
+<abstract><t>The WebSocket protocol enables two-way communication between a client running untrusted code running in a controlled environment to a remote host that has opted-in to communications from that code.  The security model used for this is the Origin-based security model commonly used by Web browsers.  The protocol consists of an opening handshake followed by basic message framing, layered over TCP.  The goal of this technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections (e.g. using XMLHttpRequest or &lt;iframe>s and long polling).  Please send feedback to the hybi@ietf.org mailing list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hybi-thewebsocketprotocol-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hybi-thewebsocketprotocol-13.txt' />
+</reference>

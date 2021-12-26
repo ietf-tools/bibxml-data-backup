@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-hops-capability-discovery'>
+<front>
+<title>Discovering the Capabilities of Flow-Aware Service Functions (a.k.a. Middleboxes): A PCP-based Approach</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2015' />
+
+<abstract><t>This document specifies a solution to discover the capabilities of a flow-aware service function.  The solution relies upon the use of the Port Control Protocol (PCP).  This solution allows for applications to anticipate connectivity failures and to proceed with countermeasures (e.g., create a mapping for incoming connections, discover a mapping lifetime, discover an external IP address, avoid injecting some options in the outgoing packets, etc.).  The propsoed approach allows, for example, to discover whether an upstream flow-aware service function is MPTCP- friendly (that is, it does not strip MPTCP signals) or SCTP- compliant, whether it embeds a firewall function, etc. or a combination thereof.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-hops-capability-discovery-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-hops-capability-discovery-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.knoll-idr-cos-interconnect'>
+<front>
+<title>BGP Class of Service Interconnection</title>
+
+<author initials='T' surname='Knoll' fullname='Thomas Martin Knoll'>
+    <organization />
+</author>
+
+<date month='November' day='9' year='2009' />
+
+<abstract><t>This document focuses on Class of Service Interconnection at inter- domain interconnection points.  It specifies two new transitive attributes, which enable adjacent peers to signal Class of Service Capabilities and certain Class of Service admission control Parameters.  The new "CoS Capability" is deliberately kept simple and denotes the general EF, AF Group BE and LE forwarding support across the advertising AS.  The second "CoS Parameter Attribute" is of variable length and contains a more detailed description of available forwarding behaviours using the PHB id Code encoding.  Each PHB id Code is associated with rate and size based traffic parameters, which will be applied in the ingress AS Border Router for admission control purposes to a given forwarding behaviour.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-knoll-idr-cos-interconnect-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-knoll-idr-cos-interconnect-03.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.murchison-tzdist-tzif'>
+<front>
+<title>The Time Zone Information Format (TZif)</title>
+
+<author initials='A' surname='Olson' fullname='Arthur Olson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Eggert' fullname='Paul Eggert'>
+    <organization />
+</author>
+
+<author initials='K' surname='Murchison' fullname='Ken Murchison'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2018' />
+
+<abstract><t>This document defines the Time Zone Information Format (TZif) for representing and exchanging time zone information, independent of any particular service or protocol.  A MIME media type for this format is also defined.  Open Issues  o  Should we require TZDIST servers to always return a particular format (2 or 3) with/without leap seconds?  Or should we allow the client to choose what they want (via parameters on the MIME type)? E.g. application/tzif+leap; version=3</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-murchison-tzdist-tzif-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-murchison-tzdist-tzif-06.txt' />
+</reference>

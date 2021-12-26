@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-ia-appsubtlv'>
+<front>
+<title>TRILL: Interface Addresses APPsub-TLV</title>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2016' />
+
+<abstract><t>This document specifies a TRILL (Transparent Interconnection of Lots of Links) IS-IS application sub-TLV that enables the reporting by a TRILL switch of sets of addresses. Each set of addresses reports all of the addresses that designate the same interface (port) and also reports the TRILL switch by which that interface is reachable. For example, a 48-bit MAC (Media Access Control) address, IPv4 address, and IPv6 address can be reported as all corresponding to the same interface reachable by a particular TRILL switch. Such information could be used in some cases to synthesize responses to or by-pass the need for the Address Resolution Protocol (ARP), the IPv6 Neighbor Discovery (ND) protocol, or the flooding of unknown MAC addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-ia-appsubtlv-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-ia-appsubtlv-07.txt' />
+</reference>

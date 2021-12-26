@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8658' target='https://www.rfc-editor.org/info/rfc8658'>
+<front>
+<title>RADIUS Attributes for Softwire Mechanisms Based on Address plus Port (A+P)</title>
+<author initials='S.' surname='Jiang' fullname='S. Jiang' role='editor'><organization /></author>
+<author initials='Y.' surname='Fu' fullname='Y. Fu' role='editor'><organization /></author>
+<author initials='C.' surname='Xie' fullname='C. Xie'><organization /></author>
+<author initials='T.' surname='Li' fullname='T. Li'><organization /></author>
+<author initials='M.' surname='Boucadair' fullname='M. Boucadair' role='editor'><organization /></author>
+<date year='2019' month='November' />
+<abstract><t>IPv4-over-IPv6 transition mechanisms provide IPv4 connectivity services over IPv6 native networks during the IPv4/IPv6 coexistence period.  DHCPv6 options have been defined to configure clients for Lightweight 4over6, Mapping of Address and Port with Encapsulation (MAP-E), Mapping of Address and Port using Translation (MAP-T) unicast softwire mechanisms, and multicast softwires.  However, in many networks, configuration information is stored in an Authentication, Authorization, and Accounting (AAA) server, which utilizes the Remote Authentication Dial In User Service (RADIUS) protocol to provide centralized management for users.  When a new transition mechanism is developed, new RADIUS attributes need to be defined correspondingly.</t><t>This document defines new RADIUS attributes to carry softwire configuration parameters based on Address plus Port from a AAA server to a Broadband Network Gateway.  Both unicast and multicast attributes are covered.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8658'/>
+<seriesInfo name='DOI' value='10.17487/RFC8658'/>
+</reference>

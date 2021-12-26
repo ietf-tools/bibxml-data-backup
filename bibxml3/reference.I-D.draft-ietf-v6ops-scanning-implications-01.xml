@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-scanning-implications'>
+<front>
+<title>IPv6 Implications for Network Scanning</title>
+
+<author initials='T' surname='Chown' fullname='Tim Chown'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2006' />
+
+<abstract><t>The 128 bits of IPv6 address space is considerably bigger than the 32 bits of address space of IPv4. In particular, the IPv6 subnets to which hosts attach will by default have 64 bits of host address space. As a result, traditional methods of remote TCP or UDP network scanning to discover open or running services on a host will potentially become far less feasible, due to the larger search space in the subnet. In addition automated attacks, such as those performed by network worms, may be hampered. This document discusses this property of IPv6, and describes related issues for site administrators of IPv6 networks to consider, which may be of importance when planning site address allocation and management strategies. While traditional network scanning probes (whether by individuals or automated via network worms) may become less common, administrators should be aware of other methods attackers may use to discover IPv6 addresses on a target network, and be aware of appropriate measures to mitigate these.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-scanning-implications-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-scanning-implications-01.txt' />
+</reference>

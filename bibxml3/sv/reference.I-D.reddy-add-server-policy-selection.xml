@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reddy-add-server-policy-selection'>
+<front>
+<title>DNS Server Selection: DNS Server Information with Assertion Token</title>
+<author initials='T' surname='Reddy.K' fullname='Tirumaleswar Reddy.K'>
+<organization />
+</author>
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+<organization />
+</author>
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+<organization />
+</author>
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+<organization />
+</author>
+<date year='2021' month='October' day='07' />
+<abstract><t>The document defines a mechanism that is meant to communicate DNS resolver information to DNS clients for use as a criteria for server selection decisions.  Such an information that is cryptographically signed to attest its authenticity is used for the selection of DNS resolvers.  Typically, evaluating the resolver information and the signatory, DNS clients with minimal or no human intervention can select the DNS servers for resolving domain names.</t><t> This assertion is useful for encrypted DNS (e.g., DNS-over-TLS, DNS- over-HTTPS, or DNS-over-QUIC) servers that are either public resolvers or discovered in a local network.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-reddy-add-server-policy-selection-09'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-reddy-add-server-policy-selection-09.txt'/>
+</reference>

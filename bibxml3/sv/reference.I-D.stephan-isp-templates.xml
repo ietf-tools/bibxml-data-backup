@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stephan-isp-templates'>
+<front>
+<title>IPFIX templates for common ISP usages</title>
+
+<author initials='E' surname='Stephan' fullname='Emile Stephan'>
+    <organization />
+</author>
+
+<author initials='E' surname='Moreau' fullname='Eric Moreau'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2005' />
+
+<abstract><t>Flows and packets observations require several levels of aggregations. Currently switchs and routers analyse flows and export flow information using Netflow. Aggregators are starting to use Netflow or IPFIX to collect basic information and to export aggregated information. In this context, this memo presents potential interoperability issues and proposes to standardize a set of templates to facilitate the exchange of flows and measurements information between ISP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stephan-isp-templates-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stephan-isp-templates-01.txt' />
+</reference>

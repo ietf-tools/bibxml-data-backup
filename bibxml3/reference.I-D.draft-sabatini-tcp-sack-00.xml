@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sabatini-tcp-sack'>
+<front>
+<title>Highly Efficient Selective Acknowledgement (SACK) for TCP</title>
+
+<author initials='A' surname='Sabatini' fullname='Anthony Sabatini'>
+    <organization />
+</author>
+
+<date month='August' day='15' year='2012' />
+
+<abstract><t>This memo expands on the Selective Acknowledgement Protocol described in RFC2018 to improve its performance and efficiency while reducing the delay involved in recovering lost segments.  This leads to very reliable and efficient communications regardless of transit delay or high levels of lost segments due to noise or congestion.  It introduces a fundamentally new way of looking at Selective Acknowledgement and uses this concept to improve the performance of the RFC2018 protocol.  This memo proposes an implementation of the improved SACK and discusses its performance and related issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sabatini-tcp-sack-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sabatini-tcp-sack-00.txt' />
+</reference>

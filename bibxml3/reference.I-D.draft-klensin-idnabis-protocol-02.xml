@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.klensin-idnabis-protocol'>
+<front>
+<title>Internationalizing Domain Names in Applications (IDNA): Protocol</title>
+
+<author initials='J' surname='Klensin' fullname='John  Klensin'>
+    <organization />
+</author>
+
+<date month='November' day='18' year='2007' />
+
+<abstract><t>This document supplies the protocol definition for a revised and updated specification for internationalized domain names. The rationale for these changes and relationship to the older specification and some new terminology is provided in other documents. This document specifies a standard method using characters outside the ASCII repertoire in domain names. This document defines internationalized domain names (IDNs) and a mechanism called Internationalizing Domain Names in Applications (IDNA) for handling them in a standard fashion. IDNs use characters drawn from a large subset of the Unicode repertoire, but IDNA allows the non-ASCII characters to be represented using only the ASCII characters already allowed in so-called host names today. This backward-compatible representation is required in existing protocols like DNS, so that IDNs can be introduced with no changes to the existing infrastructure. IDNA is only meant for processing domain names, not free text.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-klensin-idnabis-protocol-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-klensin-idnabis-protocol-02.txt' />
+</reference>

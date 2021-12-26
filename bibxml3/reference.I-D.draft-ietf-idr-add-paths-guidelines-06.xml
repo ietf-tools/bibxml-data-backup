@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-add-paths-guidelines'>
+<front>
+<title>Best Practices for Advertisement of Multiple Paths in IBGP</title>
+
+<author initials='J' surname='Uttaro' fullname='Jim Uttaro'>
+    <organization />
+</author>
+
+<author initials='P' surname='Francois' fullname='Pierre Francois'>
+    <organization />
+</author>
+
+<author initials='R' surname='Fragassi' fullname='Roberto Fragassi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Simpson' fullname='Adam Simpson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Prodosh Mohapatra'>
+    <organization />
+</author>
+
+<date month='January' day='27' year='2014' />
+
+<abstract><t>Add-Paths is a BGP enhancement that allows a BGP router to advertise multiple distinct paths for the same prefix/NLRI. This provides a number of potential benefits, including reduced routing churn, faster convergence and better loadsharing.  This document provides recommendations to implementers of Add-Paths so that network operators have the tools needed to address their specific applications and to manage the scalability impact of Add- Paths. A router implementing Add-Paths may learn many paths for a prefix and must decide which of these to advertise to peers. This document analyses different algorithms for making this selection and provides recommendations based on the target application.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-add-paths-guidelines-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-add-paths-guidelines-06.txt' />
+</reference>

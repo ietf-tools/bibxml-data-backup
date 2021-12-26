@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.levine-smtp-batv'>
+<front>
+<title>Bounce Address Tag Validation (BATV)</title>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+    <organization />
+</author>
+
+<author initials='S' surname='Silberman' fullname='Sam  Silberman'>
+    <organization />
+</author>
+
+<author initials='T' surname='Finch' fullname='Tony Finch'>
+    <organization />
+</author>
+
+<date month='May' day='12' year='2008' />
+
+<abstract><t>The envelope of Internet mail contains an RFC2821.MailFrom command, which may supply an address to be used as the recipient of transmission and delivery notices about the original message. Existing Internet mail permits unauthorized use of addresses in the MailFrom command, causing notices to be sent to unwitting and unwilling recipients.  Bounce Address Tag Validation (BATV) defines an extensible mechanism for validating the MailFrom address.  It also defines an initial use of that mechanism which requires no administrative overhead and no global implementation.  This document is a revision of draft-levine-mass-batv-02.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-levine-smtp-batv-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-levine-smtp-batv-01.txt' />
+</reference>

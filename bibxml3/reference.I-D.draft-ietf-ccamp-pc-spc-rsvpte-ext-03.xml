@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-pc-spc-rsvpte-ext'>
+<front>
+<title>RSVP-TE Signaling Extension For Management Plane To Control Plane LSP  Handover In A GMPLS Enabled Transport Network.</title>
+
+<author initials='D' surname='Caviglia' fullname='Diego Caviglia'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
+    <organization />
+</author>
+
+<author initials='D' surname='Bramanti' fullname='Dino Bramanti'>
+    <organization />
+</author>
+
+<author initials='D' surname='Li' fullname='Dan Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bardalai' fullname='Snigdho Bardalai'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2009' />
+
+<abstract><t>We would like to dedicate this work to our friend and colleague Dino Bramanti, who passed away at the early age of 38.  Dino has been involved in this work since its beginning.  In a transport network scenario, where Data Plane connections controlled either by GMPLS Control Plane (Soft Permanent Connections - SPC) or by Management System (Permanent Connections - PC) may independently coexist, the ability of transforming an existing PC into a SPC and vice versa - without actually affecting Data Plane traffic being carried over it - is a requirement [RFC5493].  This memo provides a minor extension to RSVP-TE [RFC2205], [RFC3471], [RFC3473], [RFC4872] signaling protocol, within GMPLS architecture, to enable such connection ownership transfer and describes the defined procedures.  Failure conditions and subsequent roll back are also defined taking into account that an handover failure MUST NOT impact the already established data plane connections.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-pc-spc-rsvpte-ext-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-pc-spc-rsvpte-ext-03.txt' />
+</reference>

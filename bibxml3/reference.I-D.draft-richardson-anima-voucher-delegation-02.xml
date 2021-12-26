@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.richardson-anima-voucher-delegation'>
+<front>
+<title>Delegated Authority for Bootstrap Voucher Artifacts</title>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yang' fullname='Jie Yang'>
+    <organization />
+</author>
+
+<date month='September' day='18' year='2020' />
+
+<abstract><t>This document describes an extension of the RFC8366 Voucher Artifact in order to support delegation of signing authority.  The initial voucher pins a public identity, and that public indentity can then issue additional vouchers.  This chain of authorization can support permission-less resale of devices, as well as guarding against business failure of the BRSKI [I-D.ietf-anima-bootstrapping-keyinfra] Manufacturer Authorized Signing Authority (MASA).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-richardson-anima-voucher-delegation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-richardson-anima-voucher-delegation-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pan-dnsop-edns-isp-location'>
+<front>
+<title>ISP Location in DNS Queries</title>
+
+<author initials='P' surname='Lanlan' fullname='Pan Lanlan'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fu' fullname='Yu Fu'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>This document describes an Extension Mechanisms for DNS (EDNS0) option that is in active use to carry information about the network that originated a DNS query and the network for which the subsequent response can be cached.  It is inspired by EDNS Client Subnet (ECS) with some privacy considerations, goals to reduce the "guess geolocation of client's IP" work on Authoritative Nameservers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pan-dnsop-edns-isp-location-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pan-dnsop-edns-isp-location-00.txt' />
+</reference>

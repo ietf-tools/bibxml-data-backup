@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-doseta-base'>
+<front>
+<title>DomainKeys Security Tagging (DOSETA)</title>
+
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2011' />
+
+<abstract><t>DomainKeys Security Tagging (DOSETA) is a component mechanism enabling development of security-related services, such as for authentication or encryption; it uses self-certifying keys based on domain names.  The name owner can be any actor involved in the handling of the data, such as the author's organization, a server operator or one of their agents.  The DOSETA Library provides a collection of common capabilities, including canonicalization, parameter tagging, signing and key retrieval.  The DOSETA Signing Template creates a signature of data that is in a "header/content" form.  Defining the meaning of a signature is the responsibility of the service that incorporates DOSETA.  Data security is enforced through the use of cryptographic algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crocker-doseta-base-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crocker-doseta-base-00.txt' />
+</reference>

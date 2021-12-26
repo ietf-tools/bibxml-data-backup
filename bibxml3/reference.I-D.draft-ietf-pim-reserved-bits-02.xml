@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pim-reserved-bits'>
+<front>
+<title>PIM reserved bits and type space extension</title>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<author initials='A' surname='Retana' fullname='Alvaro Retana'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2019' />
+
+<abstract><t>The currently defined PIM version 2 messages share a common message header format.  The common header definition contains eight reserved bits.  This document specifies how these bits may be used by individual message types, and creates a registry containing the per message type usage.  This document also extends the PIM type space by defining three new message types.  For each of the new types, four of the previously reserved bits are used to form an extended type range.  This document Updates RFC7761 and RFC3973 by defining the use of the currently Reserved field in the PIM common header.  This document further updates RFC7761 and RFC3973, along with RFC5015, RFC6754 and RFC8364, by specifying the use of the currently Reserved bits for each PIM message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pim-reserved-bits-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-reserved-bits-02.txt' />
+</reference>

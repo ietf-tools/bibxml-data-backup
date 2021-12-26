@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ppsp-peer-protocol'>
+<front>
+<title>Peer-to-Peer Streaming Peer Protocol (PPSPP)</title>
+
+<author initials='A' surname='Bakker' fullname='A. Bakker'>
+    <organization />
+</author>
+
+<date month='January' day='29' year='2012' />
+
+<abstract><t>The Peer-to-Peer Streaming Peer Protocol (PPSPP) is a peer-to-peer based transport protocol for content dissemination. It can be used for streaming on-demand and live video content, as well as conventional downloading. In PPSPP, the clients consuming the content participate in the dissemination by forwarding the content to other clients via a mesh-like structure.  It is a generic protocol which can run directly on top of UDP, TCP, or as a RTP profile. Features of PPSPP are short time-till-playback and extensibility. Hence, it can use different mechanisms to prevent freeriding, and work with different peer discovery schemes (centralized trackers or Distributed Hash Tables). Depending on the underlying transport protocol, PPSPP can also use different congestion control algorithms, such as LEDBAT, and offer transparent NAT traversal. Finally, PPSPP maintains only a small amount of state per peer and detects malicious modification of content. This documents describes PPSPP and how it satisfies the requirements for the IETF Peer-to-Peer Streaming Protocol (PPSP) Working Group's peer protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ppsp-peer-protocol-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ppsp-peer-protocol-01.txt' />
+</reference>

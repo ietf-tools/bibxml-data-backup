@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.arora-ipsecme-ikev2-alt-tunnel-addresses'>
+<front>
+<title>Alternate Tunnel Addresses for IKEv2</title>
+
+<author initials='J' surname='Arora' fullname='Jitender Arora'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kumar' fullname='Prashant Kumar'>
+    <organization />
+</author>
+
+<date month='April' day='22' year='2010' />
+
+<abstract><t>IKEv2 is a protocol for setting up Virtual Private Network (VPN) tunnels from a remote location to a gateway so that the VPN client can access services in the network behind the gateway. Currently the  IKE SAs and tunnel mode Ipsec SA's are created implicitly between the IP addresses that are used when the IKE_SA is established. These IP addresses are then used as the outer (tunnel header) addresses for tunnel mode IPSEC packets (transport mode IPsec SAs are beyond the scope of this document). This document defines an IKEv2 extension that allows the outer tunnel header addresses for the tunnel mode IPSEC packets to be different than the IKE peer IP addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-arora-ipsecme-ikev2-alt-tunnel-addresses-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-arora-ipsecme-ikev2-alt-tunnel-addresses-00.txt' />
+</reference>

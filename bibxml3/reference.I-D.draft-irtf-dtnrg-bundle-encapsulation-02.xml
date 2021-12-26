@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-bundle-encapsulation'>
+<front>
+<title>Delay-Tolerant Networking Bundle-in-Bundle Encapsulation</title>
+
+<author initials='S' surname='Symington' fullname='Susan Symington'>
+    <organization />
+</author>
+
+<date month='November' day='8' year='2007' />
+
+<abstract><t>This document defines an additional administrative record type to be used with the Bundle Protocol [2] within the context of a Delay- Tolerant Network architecture [5].  This new administrative record type, called a Bundle-in-Bundle Encapsulation Administrative Record, is designed to be used to encapsulate one or more bundles inside of another bundle.  When an administrative record of the bundle-in- bundle encapsulation type is carried as the payload of a bundle, it provides a mechanism for transmitting one or more bundles as part of the payload of another bundle.  This administrative record type is expected to be of general use in DTN.  It may be used, for example, to encapsulate a multicast bundle inside of a unicast bundle, or to encapsulate a bundle with one type of security protection inside of a bundle with a different type of security protection.  This document defines the format and processing of this new bundle-in-bundle encapsulation administrative record type.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-bundle-encapsulation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-encapsulation-02.txt' />
+</reference>

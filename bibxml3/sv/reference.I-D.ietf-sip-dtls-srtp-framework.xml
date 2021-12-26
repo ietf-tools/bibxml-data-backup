@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-dtls-srtp-framework'>
+<front>
+<title>Framework for Establishing an SRTP Security Context using DTLS</title>
+
+<author initials='J' surname='Fischl' fullname='Jason Fischl'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2009' />
+
+<abstract><t>This document specifies how to use the Session Initiation Protocol (SIP) to establish an Secure Real-time Transport Protocol (SRTP) security context using the Datagram Transport Layer Security (DTLS) protocol.  It describes a mechanism of transporting a fingerprint attribute in the Session Description Protocol (SDP) that identifies the key that will be presented during the DTLS handshake.  The key exchange travels along the media path as opposed to the signaling path.  The SIP Identity mechanism can be used to protect the integrity of the fingerprint attribute from modification by intermediate proxies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-dtls-srtp-framework-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-dtls-srtp-framework-07.txt' />
+</reference>

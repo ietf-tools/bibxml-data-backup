@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kouvelas-lisp-reliable-transport'>
+<front>
+<title>LISP Reliable Transport</title>
+
+<author initials='C' surname='Cassar' fullname='Christian Cassar'>
+    <organization />
+</author>
+
+<author initials='I' surname='Kouvelas' fullname='Isidor Kouvelas'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lewis' fullname='Darrel Lewis'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>The communication between LISP ETRs and Map-Servers is based on unreliable UDP message exchange coupled with periodic message transmission in order to maintain soft state.  The drawback of periodic messaging is the constant load imposed on both the ETR and the Map-Server.  New use cases for LISP have increased the amount of state that needs to be communicated with requirements that are not satisfied by the current mechanism.  This document introduces the use of a reliable transport for ETR to Map-Server communication in order to eliminate the periodic messaging overhead, while providing reliability, flow-control and endpoint liveness detection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kouvelas-lisp-reliable-transport-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kouvelas-lisp-reliable-transport-00.txt' />
+</reference>

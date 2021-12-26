@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-addr-select-opt'>
+<front>
+<title>Distributing Address Selection Policy using DHCPv6</title>
+
+<author initials='A' surname='Matsumoto' fullname='Arifumi Matsumoto'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fujisaki' fullname='Tomohiro Fujisaki'>
+    <organization />
+</author>
+
+<author initials='T' surname='Chown' fullname='Tim Chown'>
+    <organization />
+</author>
+
+<date month='January' day='15' year='2013' />
+
+<abstract><t>RFC 6724 defines default address selection mechanisms for IPv6 that allow nodes to select an appropriate address when faced with multiple source and/or destination addresses to choose between.  The RFC 6724 allowed for the future definition of methods to administratively configure the address selection policy information.  This document defines a new DHCPv6 option for such configuration, allowing a site administrator to distribute address selection policy overriding the default address selection parameters and policy table, and thus control the address selection behavior of nodes in their site.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-addr-select-opt-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-addr-select-opt-08.txt' />
+</reference>

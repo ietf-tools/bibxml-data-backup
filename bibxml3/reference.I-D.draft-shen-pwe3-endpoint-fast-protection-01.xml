@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shen-pwe3-endpoint-fast-protection'>
+<front>
+<title>PW Endpoint Fast Failure Protection</title>
+
+<author initials='Y' surname='Shen' fullname='Yimin Shen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Aggarwal' fullname='Rahul Aggarwal'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2012' />
+
+<abstract><t>This document specifies a fast protection mechanism for pseudowires (PWs) against egress attachment circuit (AC) failure, egress PE failure, and switching PE failure.  Designed on the basis of multi- homed CE, PW redundancy, upstream label assignment and context specific label switching, the mechanism enables local repair to be performed immediately upon a failure.  In particular, the router at point of local repair (PLR) can redirect PW traffic to a protector via a bypass LSP in the order of tens of milliseconds, achieving fast protection that is comparable to RSVP fast-reroute.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shen-pwe3-endpoint-fast-protection-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shen-pwe3-endpoint-fast-protection-01.txt' />
+</reference>

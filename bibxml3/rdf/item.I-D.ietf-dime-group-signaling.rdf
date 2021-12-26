@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-dime-group-signaling-13.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-dime-group-signaling-13.txt</link>
+        <title>"Diameter Group Signaling", Mark Jones, Marco Liebsch, Lionel Morand</title>
+        <dc:date>2020-03-09T23:00:00-00:00</dc:date>
+        <description>In large network deployments, a single Diameter node can support over a million concurrent Diameter sessions.  Recent use cases have revealed the need for Diameter nodes to apply the same operation to a large group of Diameter sessions concurrently.  The Diameter base protocol commands operate on a single session so these use cases could result in many thousands of command exchanges to enforce the same operation on each session in the group.  In order to reduce signaling, it would be desirable to enable bulk operations on all (or part of) the sessions managed by a Diameter node using a single or a few command exchanges.  This document specifies the Diameter protocol extensions to achieve this signaling optimization.</description>
+    </item>

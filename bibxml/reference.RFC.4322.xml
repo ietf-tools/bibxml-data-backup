@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4322' target='https://www.rfc-editor.org/info/rfc4322'>
+<front>
+<title>Opportunistic Encryption using the Internet Key Exchange (IKE)</title>
+<author initials='M.' surname='Richardson' fullname='M. Richardson'><organization /></author>
+<author initials='D.H.' surname='Redelmeier' fullname='D.H. Redelmeier'><organization /></author>
+<date year='2005' month='December' />
+<abstract><t>This document describes opportunistic encryption (OE) as designed and implemented by the Linux FreeS/WAN project.  OE uses the Internet Key Exchange (IKE) and IPsec protocols.  The objective is to allow encryption for secure communication without any pre-arrangement specific to the pair of systems involved.  DNS is used to distribute the public keys of each system involved.  This is resistant to passive attacks.  The use of DNS Security (DNSSEC) secures this system against active attackers as well.</t><t>As a result, the administrative overhead is reduced from the square of the number of systems to a linear dependence, and it becomes possible to make secure communication the default even when the partner is not known in advance.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4322'/>
+<seriesInfo name='DOI' value='10.17487/RFC4322'/>
+</reference>

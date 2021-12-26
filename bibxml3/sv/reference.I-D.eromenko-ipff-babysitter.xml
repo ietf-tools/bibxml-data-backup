@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eromenko-ipff-babysitter'>
+<front>
+<title>Intended status: Standards Track A.Eromenko September 2016</title>
+
+<author initials='A' surname='Eromenko' fullname='Alexey Eromenko'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2016' />
+
+<abstract><t>Babysitter is a form of an advanced NAT, mostly for desktop clients. It gives mixed IP-FF and IPv4 clients access to IPv4-only Internet. It is somewhat resembling NAT64 + DNS64 combo, and will aid during transition period.  Assumption: We work on IPv4-only Internet, but we want to implement both IP-FF and IPv4 hosts inside our organization, so nodes can work between themselves with, and take advantage of, IP-FF, but still able to connect to the Internet. If/when this assumption is invalid, and end-to-end IP-FF becomes commonplace, other forms of connection should be used, and babysitter may be disabled.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eromenko-ipff-babysitter-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eromenko-ipff-babysitter-02.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-sdnrg-design-restapi'>
+<front>
+<title>Requirements and Design Patterns for REST Northbound API in SDN</title>
+
+<author initials='l' surname='li.nj.li@huawei.com' fullname='li.nj.li@huawei.com'>
+    <organization />
+</author>
+
+<author initials='W' surname='Zhou' fullname='Wei Zhou'>
+    <organization />
+</author>
+
+<author initials='M' surname='Luo' fullname='Min Luo'>
+    <organization />
+</author>
+
+<author initials='W' surname='Chou' fullname='Wu Chou'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>As stated in ONF SDN Architecture WG Charter [Arc2013], in the SDN architecture, the control and data planes are decoupled, network intelligence and state are logically centralized, and the underlying network infrastructure is abstracted from the applications. As a result, network operators gain programmability, automation, and network control, enabling them to build highly scalable, flexible networks that readily adapt to changing business needs. In this architecture, the Northbound API provides interfaces to the external components where applicable.  As REST architectural style has gained more popularity in implementing loosely-coupled systems, RESTful services are becoming the style of choice for SDN Northbound API and gaining increasingly importance in SDN architecture, for example, the Floodlight [Floodlight] has a Northbound API based on REST.  However, despite the recent advances made on RESTful web services, there is a lack of guidelines for designing RESTful networking protocols and communication web services, especially based on the Resource-Oriented Architecture (ROA) that further refines the REST principles. Many networking protocols that claim to be REST APIs are not hypertext driven as prescribed by REST. This situation can lead to REST networking APIs that are not as scalable, extensible, maintainable, and interoperable as promised by REST.  This document describes the key rules and design patterns for the SDN Northbound API in a truly RESTful manner, based on our experiences with REST API designs in general and SDN Northbound API design in particular. The rules and the design patterns illustrate the solutions to the common API problems in REST API designs, using the network virtualization API of OpenStack as an example.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-sdnrg-design-restapi-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-sdnrg-design-restapi-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.harkins-eap-pwd-prime'>
+<front>
+<title>Improved Extensible Authentication Protocol Using Only a Password</title>
+
+<author initials='D' surname='Harkins' fullname='Dan Harkins'>
+    <organization />
+</author>
+
+<date month='July' day='24' year='2019' />
+
+<abstract><t>Passwords are a popular form of credential for user authentication. EAP-pwd (RFC 5931) is a popular method of performing secure password authenticaiton.  EAP-pwd requires a secret element in a finite cyclic group, unfortunately the technique it uses to derive this secret is open to timing and cache attacks.  This improved version, EAP-pwd', uses a different technique to derive the secret element which is resistant to timing and cache attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-harkins-eap-pwd-prime-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-harkins-eap-pwd-prime-00.txt' />
+</reference>

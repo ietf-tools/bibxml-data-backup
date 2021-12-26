@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.laganier-mext-lone-home-binding'>
+<front>
+<title>Mobile IPv6 Lone Home Binding</title>
+
+<author initials='J' surname='Laganier' fullname='Julien Laganier'>
+    <organization />
+</author>
+
+<author initials='G' surname='Giaretta' fullname='Gerardo Giaretta'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2010' />
+
+<abstract><t>RFC5648 extends MIPv6 with the ability for a Mobile Node to register Multiple Care-of Addresses with its Home Agent and Correspondent Node(s).  RFC 5648 also introduces the notion of a Home Binding that is essentially a binding on the Home Link, where the Care-of Address is set to the Home Address of the Mobile Node.  A Mobile Node uses such a Home Binding together with one or more Multiple Care-of Address binding(s) to be able to use simultaneously both the Home Link and one or more visited link(s).  The description of the Home Binding in a section of RFC 5846 entitled "Returning Home: Simultaneous Home and Visited Link Operation" seems to imply that a Home Binding can only be legitimately created while returning home and maintaining simultaneous bindings on one or more visited link(s). There is however no specific reason to prevent creation of such a Home Binding when the Mobile Node is only attached to the Home Link and does not have any interface attached to a visited link. Moreover, there is a specific use case for the creation of such a Lone Home Binding.  This specification explicits the use case for creation of a Lone Home Binding, and clarifies the protocol behavior of Mobile IPv6 nodes (Mobile Node, Home Agent, Correspondent Node) involved with its creation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-laganier-mext-lone-home-binding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-laganier-mext-lone-home-binding-00.txt' />
+</reference>

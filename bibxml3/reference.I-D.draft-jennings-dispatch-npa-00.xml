@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jennings-dispatch-npa'>
+<front>
+<title>Numeric Provider Alias (NPA)</title>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2010' />
+
+<abstract><t>This draft proposes a modification to draft-lawrence-dispatch-sipforum-provider-alias (PAN).  The PAN draft proposes a mechanism for a phone to take a short numeric identifier that identifies a phone service provider and look it up in DNS to find the address of the configuration server for that service provider.  The problem with PAN is that it requires a specific organization, sipforum.org, to become a registrar for the PAN.  This will add signifiant cost to obtaining them as the expected quantity of PAN is low.  This draft proposes a minor modification to the PAN draft. Instead of using the sipforum as a new registrar, why not just use the registrars that already exist for DNS names.  This ensure a long term stable unique allocation of PAN with the advantages of not having the IETF allocating a monopoly to one particular organization.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jennings-dispatch-npa-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jennings-dispatch-npa-00.txt' />
+</reference>

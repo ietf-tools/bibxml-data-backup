@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuehlewind-tcpm-accurate-ecn'>
+<front>
+<title>More Accurate ECN Feedback in TCP</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='R' surname='Scheffenegger' fullname='Richard Scheffenegger'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2014' />
+
+<abstract><t>Explicit Congestion Notification (ECN) is a mechanism where network nodes can mark IP packets instead of dropping them to indicate incipient congestion to the end-points.  Receivers with an ECN- capable transport protocol feed back this information to the sender. ECN is specified for TCP in such a way that only one feedback signal can be transmitted per Round-Trip Time (RTT).  Recently, new TCP mechanisms like Congestion Exposure (ConEx) or Data Center TCP (DCTCP) need more accurate ECN feedback information whenever more than one marking is received in one RTT.  This document specifies an experimental scheme to provide more than one feedback signal per RTT in the TCP header.  Given TCP header space is scarce, it overloads the three existing ECN-related flags in the TCP header.  Also, to improve robustness it uses 15 more bits if available.  For initial experiments it places these in a TCP option.  However, if the Urgent flag is cleared, zero header overhead could be achieved by reusing the Urgent Pointer opportunistically.  Therefore this document reserves space in the Urgent Pointer to be used if the protocol progresses to the standards track.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuehlewind-tcpm-accurate-ecn-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuehlewind-tcpm-accurate-ecn-03.txt' />
+</reference>

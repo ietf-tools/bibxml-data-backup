@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sonoda-dnsop-lb'>
+<front>
+<title>IP geolocation load balancing Resource Record</title>
+
+<author initials='M' surname='Sonoda' fullname='Manabu Sonoda'>
+    <organization />
+</author>
+
+<date month='September' day='18' year='2018' />
+
+<abstract><t>This document defines a new DNS load balance function that is able to transfer information in zone transfer and not need online signing. DNS base load balance is popular technology.  It provides weight base response and location base response.  It have become an indispensable part of traffic engineering.  However, DNS base load balance can't transfer load balance information in zone transfer and need online singing because it is not standardized.  This document defines a new DNS resource record called "LB".  LB RR provides the balancing information weight, location and target domain name.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sonoda-dnsop-lb-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sonoda-dnsop-lb-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eastlake-trill-ia-appsubtlv'>
+<front>
+<title>TRILL: Interface Addresses APPsub-TLV</title>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2013' />
+
+<abstract><t>This document specifies a TRILL (Transparent Interconnection of Lots of Links) IS-IS application sub-TLV that enables the reporting by a TRILL switch of sets of addresses such that all of the addresses in each set designate the same interface (port). For example, an EUI-48 MAC (Extended Unique Identifier 48-bit, Media Access Control) address, IPv4 address, and IPv6 address can be reported as all corresponding to the same interface. Such information could be use in some cases to synthesize responses to or by-pass the need for the Address Resolution Protocol (ARP), the IPv6 Neighbor Discovery (ND) protocol, or the flooding of unknown MAC addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eastlake-trill-ia-appsubtlv-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eastlake-trill-ia-appsubtlv-03.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-uri-list-subscribe'>
+<front>
+<title>Subscriptions to Request-Contained Resource Lists in the Session Initiation  Protocol (SIP)</title>
+
+<author initials='G' surname='Camarillo' fullname='Gonzalo Camarillo'>
+    <organization />
+</author>
+
+<date month='January' day='26' year='2007' />
+
+<abstract><t>This document specifies a way to create subscription to a list of resources in SIP. This is achieved by including the list of resources in the body of a SUBSCRIBE request. Instead of having a subscriber send a SUBSCRIBE request for each resource individually, the subscriber defines the resource list, subscribes to it, and gets notifications about changes in the resources' state using a single SUBSCRIBE dialog.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-uri-list-subscribe-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-uri-list-subscribe-01.txt' />
+</reference>

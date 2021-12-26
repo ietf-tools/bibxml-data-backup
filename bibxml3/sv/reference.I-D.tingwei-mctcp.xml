@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tingwei-mctcp'>
+<front>
+<title>Congestion-Aware and Robust MultiCast TCP in Software-Defined Networks</title>
+
+<author initials='T' surname='Zhu' fullname='Tingwei Zhu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Wang' fullname='Fang Wang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Feng' fullname='Dan Feng'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Shi' fullname='Qingyu Shi'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Xie' fullname='Yanwen Xie'>
+    <organization />
+</author>
+
+<date month='September' day='28' year='2015' />
+
+<abstract><t>Reliable group communication is required in distributed applications, such as distributed file systems (HDFS, GFS and Ceph), where such group communication is defined by the sender and the group members are small (e.g. three).  However, existing standards for reliable multicast transport are receiver-initiated and suffer from inefficiency in either host-side protocols or multicast routing.  This draft proposes a sender-initiated, efficient, congestion-aware and robust reliable multicast solution in Software-Defined Networks (SDN), called MCTCP (MultiCast TCP).  The main idea behind MCTCP is to manage the multicast groups in a centralized manner, and reactively schedule multicast flows to active and low-utilized links, and it is implemented by extending TCP as the host-side protocol and managing multicast groups in SDN-controller.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tingwei-mctcp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tingwei-mctcp-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-tingwei-mctcp-00.pdf' />
+</reference>

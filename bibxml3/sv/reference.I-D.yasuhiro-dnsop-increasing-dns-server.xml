@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yasuhiro-dnsop-increasing-dns-server'>
+<front>
+<title>An Approach for Increasing Root And TLD DNS Servers</title>
+
+<author initials='Y' surname='Morishita' fullname='Yasuhiro Morishita'>
+    <organization />
+</author>
+
+<date month='July' day='19' year='2004' />
+
+<abstract><t>Currently, it is thought that the maximum number of DNS servers for a zone is 13. In fact, current root and some TLD zones have 13 DNS servers. But this is not enough for DNS stability and robustness especially root and/or TLD server, therefore, IP anycast [Hardie, 2002] is introduced on some root servers. This draft proposes an another approach for increasing of DNS server hosts without changing DNS protocol by using 'multiple-addresses per host' method. And this draft also considers what is the most suitable number of the IP addresses for one DNS server name.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yasuhiro-dnsop-increasing-dns-server-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yasuhiro-dnsop-increasing-dns-server-01.txt' />
+</reference>

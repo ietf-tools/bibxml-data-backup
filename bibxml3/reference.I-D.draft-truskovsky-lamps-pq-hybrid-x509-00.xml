@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.truskovsky-lamps-pq-hybrid-x509'>
+<front>
+<title>Multiple Public-Key Algorithm X.509 Certificates</title>
+
+<author initials='A' surname='Truskovsky' fullname='Alexander Truskovsky'>
+    <organization />
+</author>
+
+<author initials='P' surname='Lafrance' fullname='Philip Lafrance'>
+    <organization />
+</author>
+
+<author initials='D' surname='Geest' fullname='Daniel Van Geest'>
+    <organization />
+</author>
+
+<author initials='S' surname='Fluhrer' fullname='Scott Fluhrer'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kampanakis' fullname='Panos Kampanakis'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ounsworth' fullname='Mike Ounsworth'>
+    <organization />
+</author>
+
+<author initials='S' surname='Mister' fullname='Serge Mister'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2018' />
+
+<abstract><t>This document describes a method of embedding alternative sets of cryptographic materials into X.509v3 digital certificates, X.509v2 Certificate Revocation Lists (CRLs), and PKCS #10 Certificate Signing Requests (CSRs).  The embedded alternative cryptographic materials allow a Public Key Infrastructure (PKI) to use multiple cryptographic algorithms in a single object, and allow it to transition to the new cryptographic algorithms while maintaining backwards compatibility with systems using the existing algorithms.  Three X.509 extensions and three PKCS #10 attributes are defined, and the signing and verification procedures for the alternative cryptographic material contained in the extensions and attributes are detailed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-truskovsky-lamps-pq-hybrid-x509-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-truskovsky-lamps-pq-hybrid-x509-00.txt' />
+</reference>

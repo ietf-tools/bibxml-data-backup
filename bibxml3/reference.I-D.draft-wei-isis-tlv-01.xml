@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wei-isis-tlv'>
+<front>
+<title>New TLV for Purge Packet in ISIS</title>
+
+<author initials='F' surname='Wei' fullname='Fang Wei'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Qin' fullname='Yue Qin'>
+    <organization />
+</author>
+
+<author initials='L' surname='Li' fullname='Lianyuan Li'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenqiang Li'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2010' />
+
+<abstract><t>At present the purge packet does not contain information of the source router generating it.  Thus under the circumstance of purge packet propagation, it is difficult to tracback and locate the source router.  To address the problem, this document proposes to add a new TLV in purge packet to record the system ID of the IS generating it.  This TLV should not be changed in purge packets sent by other routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wei-isis-tlv-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wei-isis-tlv-01.txt' />
+</reference>

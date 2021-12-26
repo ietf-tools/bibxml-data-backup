@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6tisch-minimal-security'>
+<front>
+<title>Minimal Security Framework for 6TiSCH</title>
+
+<author initials='M' surname='Vucinic' fullname='Malisa Vucinic'>
+    <organization />
+</author>
+
+<author initials='J' surname='Simon' fullname='Jonathan Simon'>
+    <organization />
+</author>
+
+<author initials='K' surname='Pister' fullname='Kris Pister'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>This document describes the minimal configuration required for a new device, called "pledge", to securely join a 6TiSCH (IPv6 over the TSCH mode of IEEE 802.15.4e) network.  The entities involved use CoAP (Constrained Application Protocol) and OSCORE (Object Security for Constrained RESTful Environments).  The configuration requires that the pledge and the JRC (join registrar/coordinator, a central entity), share a symmetric key.  How this key is provisioned is out of scope of this document.  The result of the joining process is that the JRC configures the pledge with link-layer keying material and a short link-layer address.  This specification also defines a new Stateless-Proxy CoAP option.  Additional security mechanisms may be added on top of this minimal framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6tisch-minimal-security-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6tisch-minimal-security-04.txt' />
+</reference>

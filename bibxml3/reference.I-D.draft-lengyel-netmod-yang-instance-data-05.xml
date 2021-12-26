@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lengyel-netmod-yang-instance-data'>
+<front>
+<title>YANG Based Instance Data Files Format</title>
+
+<author initials='B' surname='Lengyel' fullname='Balazs Lengyel'>
+    <organization />
+</author>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2018' />
+
+<abstract><t>There is a need to document data defined in YANG models without the need to fetch it from a live YANG server.  Data is often needed already in design time or needed by groups that do not have a live running YANG server available.  This document specifies a standard file format for YANG Based Instance data, that is data that could be stored in a datastore and whose syntax and semantics is defined by YANG models.  Most important use cases foreseen include documenting server capabilities, factory-default settings, or vendor provided default configurations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lengyel-netmod-yang-instance-data-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lengyel-netmod-yang-instance-data-05.txt' />
+</reference>

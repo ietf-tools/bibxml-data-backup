@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.an-savi-yang'>
+<front>
+<title>A Yang Data Model for SAVI Management</title>
+
+<author initials='C' surname='An' fullname='Changqing An'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yang' fullname='Jiahai Yang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bi' fullname='Jun Bi'>
+    <organization />
+</author>
+
+<date month='August' day='10' year='2018' />
+
+<abstract><t>This document contains a specification of YANG modules for the management of SAVI (Source Address Validation Improvements) protocol.  The core SAVI data module ietf-savi serves as a framework for configuring and managing SAVI instance and provides common building blocks.  It is expected to be augmented by additional YANG modules for specific IP address assignment methods.  The other four modules augment the core SAVI data module and define data models for different IP address assignment methods.  Module ietf-savi-fcfs defines module specific for Stateless Address Auto Configuration (SLAAC), module ietf-savi-dhcpv4 and ietf-savi-dhcpv6 define modules specific for Dynamic Host Configuration Protocol version 4 and version 6 (DHCPv4 and DHCPv6), and module ietf-savi- send defines module specific for Secure Neighbor Discovery (SEND).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-an-savi-yang-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-an-savi-yang-04.txt' />
+</reference>

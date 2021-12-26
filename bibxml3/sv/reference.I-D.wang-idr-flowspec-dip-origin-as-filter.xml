@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-idr-flowspec-dip-origin-as-filter'>
+<front>
+<title>Destination-IP-Origin-AS Filter for BGP Flow Specification</title>
+<author initials='H' surname='Wang' fullname='Haibo Wang'>
+<organization />
+</author>
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+<organization />
+</author>
+<author initials='S' surname='Zhuang' fullname='Shunwan Zhuang'>
+<organization />
+</author>
+<date year='2021' month='July' day='12' />
+<abstract><t>BGP Flowspec mechanism (BGP-FS) [RFC8955] [RFC8956]propogates both traffic Flow Specifications and Traffic Filtering Actions by making use of the BGP NLRI and the BGP Extended Community encoding formats. This document specifies a new BGP-FS component type to support AS- level filtering.  The match field is the origin AS number of the destination IP address that is encoded in the Flowspec NLRI.  This function is applied in a single administrative domain.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-wang-idr-flowspec-dip-origin-as-filter-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-wang-idr-flowspec-dip-origin-as-filter-04.txt'/>
+</reference>

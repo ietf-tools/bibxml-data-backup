@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vesely-vhlo'>
+<front>
+<title>Verified-Hello SMTP extension</title>
+
+<author initials='A' surname='Vesely' fullname='Alessandro Vesely'>
+    <organization />
+</author>
+
+<date month='December' day='18' year='2009' />
+
+<abstract><t>This SMTP extension is designed to ease whitelisting.  It provides a VHLO command verb for weak authentication of SMTP clients.  Weakly authenticated clients enjoy an intermediate level of trust: they have no relying privileges, but can attempt to deliver mail to local users, are whitelisted from some filters, and may receive DSNs as needed.  Weak authentication methods are of two kinds: On the one hand the sending domain must be vouched for by a trusted third party (VBR). Short of a "Mythical Global Reputation System", domains within a closed set may still enjoy mutual whitelisting by setting up their own ad-hoc vouching server.  On the other hand, the sending host's affiliation with the mail domain is checked by DNS lookups (MX, PTR, or SPF) or using DKIM "Author Signature".  DNSBLs and Greylisting are also considered.  Servers provide feedback to their clients about which vouching services or authentication methods they require.  That way they have a means of spreading their choices.  This feature is intended for easing rapid diffusion by word of mouth of those reputation system, as well as of popular authentication methods.  A IANA register is defined for extending the set of available methods.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vesely-vhlo-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vesely-vhlo-05.txt' />
+</reference>

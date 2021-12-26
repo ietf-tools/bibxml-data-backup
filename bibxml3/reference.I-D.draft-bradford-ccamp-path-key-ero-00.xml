@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bradford-ccamp-path-key-ero'>
+<front>
+<title>RSVP Extensions for Path Key Support</title>
+
+<author initials='R' surname='Bradford' fullname='Richard Bradford'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2006' />
+
+<abstract><t>Multiprotocol Label Switching (MPLS) Traffic Engineering (TE) Label Switched Paths (LSPs) may be computed by Path Computation Elements (PCEs). Where the TE LSP crosses multiple domains, such as Autonomous Systems (ASs), the path may be computed by multiple PCEs that cooperate, with each responsible for computing a segment of the path. To preserve confidentiality of topology with each AS, the PCE supports a mechanism to hide the contents of a segment of a path, called the Confidential Path Segment (CPS), by encoding the contents as a Path Key Sub-object (PKS). This draft describes the addition of this object to the Explicit Route Object.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bradford-ccamp-path-key-ero-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bradford-ccamp-path-key-ero-00.txt' />
+</reference>

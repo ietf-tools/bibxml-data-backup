@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lisp-architecture'>
+<front>
+<title>An Architectural Perspective on the LISP Location-Identity Separation System</title>
+
+<author initials='J' surname='Chiappa' fullname='J. Chiappa'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>LISP upgrades the architecture of the IPvN internetworking system by separating location and identity, current intermingled in IPvN addresses.  This is a change which has been identified by the IRTF as a critically necessary evolutionary architectural step for the Internet.  In LISP, nodes have both a 'locator' (a name which says _where_ in the network's connectivity structure the node is) and an 'identifier' (a name which serves only to provide a persistent handle for the node).  A node may have more than one locator, or its locator may change over time (e.g. if the node is mobile), but it keeps the same identifier.  This document gives additional architectural insight into LISP, and considers a number of aspects of LISP from a high-level standpoint.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lisp-architecture-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lisp-architecture-00.txt' />
+</reference>

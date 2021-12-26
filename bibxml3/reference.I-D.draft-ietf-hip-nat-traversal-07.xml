@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-nat-traversal'>
+<front>
+<title>Basic HIP Extensions for Traversal of Network Address Translators</title>
+
+<author initials='M' surname='Komu' fullname='Miika  Komu'>
+    <organization />
+</author>
+
+<author initials='T' surname='Henderson' fullname='Tom Henderson'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='J' surname='Melen' fullname='Jan Melen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Keraenen' fullname='Ari Keraenen'>
+    <organization />
+</author>
+
+<date month='June' day='9' year='2009' />
+
+<abstract><t>This document specifies extensions to the Host Identity Protocol (HIP) to facilitate Network Address Translator (NAT) traversal.  The extensions are based on the use of the Interactive Connectivity Establishment (ICE) methodology to discover a working path between two end-hosts, and on standard techniques for encapsulating Encapsulating Security Payload (ESP) packets within the User Datagram Protocol (UDP).  This document also defines elements of procedure for NAT traversal, including the optional use of a HIP relay server. With these extensions HIP is able to work in environments that have NATs and provides a generic NAT traversal solution to higher-layer networking applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-nat-traversal-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-nat-traversal-07.txt' />
+</reference>

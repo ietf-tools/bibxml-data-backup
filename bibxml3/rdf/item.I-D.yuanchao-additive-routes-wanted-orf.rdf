@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-yuanchao-additive-routes-wanted-orf-01.txt'>
+    <title>"Additive-Routes-Wanted Outbound Route Filter for BGP-4", Yuanchao Su</title>
+    <link>http://www.ietf.org/internet-drafts/draft-yuanchao-additive-routes-wanted-orf-01.txt</link>
+    <description>This document describes a solution for overcoming the limitations of existing route reflect mechanism:even there are equal routes,route reflector(RR) would use the nexthop router ID to break tie and only reflect the route with lower router ID to its clients,so RR clients send all the traffic for the destination to only one nexthop which leads to traffic unbalanced in an AS. Additive-Routes-Wanted ORF extends ORF to not only filter BGP routes but also give RR client the ablility to ask RR for additive BGP routes in its BGP database. With the additive routes, RR clients could make inner-AS native IP and VPNV4 load sharing easier.</description>
+    <dc:date>2009-06-28T22:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3846' target='https://www.rfc-editor.org/info/rfc3846'>
+<front>
+<title>Mobile IPv4 Extension for Carrying Network Access Identifiers</title>
+<author initials='F.' surname='Johansson' fullname='F. Johansson'><organization /></author>
+<author initials='T.' surname='Johansson' fullname='T. Johansson'><organization /></author>
+<date year='2004' month='June' />
+<abstract><t>When a mobile node moves between two foreign networks, it has to be re-authenticated.  If the home network has both multiple Authentication Authorization and Accounting (AAA) servers and Home Agents (HAs) in use, the Home AAA server may not have sufficient information to process the re-authentication correctly (i.e., to ensure that the same HA continues to be used).  This document defines a Mobile IP extension that carries identities for the Home AAA and HA servers in the form of Network Access Identifiers (NAIs).  The extension allows a Home Agent to pass its identity (and that of the Home AAA server) to the mobile node, which can then pass it on to the local AAA server when changing its point of attachment.  This extension may also be used in other situations requiring communication of a NAI between Mobile IP nodes.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3846'/>
+<seriesInfo name='DOI' value='10.17487/RFC3846'/>
+</reference>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bt-http-broadcast'>
+<front>
+<title>Upgrading the 100-CONTINUE status for Broadcast in HTTP/1.1 Protocol</title>
+
+<author initials='R' surname='Sankar' fullname='Raji Sankar'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2013' />
+
+<abstract><t>The Hypertext Transfer Protocol -- HTTP/1.1 in RFC 2616 uses the 100-Continue status message with Expect: Continue header to send request body at a later time to the origin server.  This memo explains how to extend this status message to send multiple responses from the origin server to the client for an extended period of time. This achieves the essential function of broadcast from the origin server to the client, without the client waiting for a response to a request.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bt-http-broadcast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bt-http-broadcast-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-bt-http-broadcast-00.pdf' />
+</reference>

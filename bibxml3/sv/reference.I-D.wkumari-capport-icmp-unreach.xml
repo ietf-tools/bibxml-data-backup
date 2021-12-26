@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wkumari-capport-icmp-unreach'>
+<front>
+<title>Captive Portal ICMP Messages</title>
+
+<author initials='D' surname='Bird' fullname='David Bird'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<date month='April' day='1' year='2017' />
+
+<abstract><t>This document defines a new ICMP Type for Captive Portal Messages. The ICMP Type will only be known to clients supporting this specification and provides both generic and flow 5-tuple specific notifications from the Captive Portal NAS.  Further, This document defines a multi-part ICMP extension to ICMP Destination Unreachable messages to signal, not only that the packet was dropped, but that it was dropped due to an Access Policy requiring Captive Portal interaction.  Legacy clients will only be processing the ICMP Destination Unreachable.  [ Editor note: The IETF is currently discussing improvements in captive portal interactions and user experience improvements.  See: https://www.ietf.org/mailman/listinfo/captive-portals ]  [RFC Editor: Please remove this before publication.  This document is being stored in github at https://github.com/wlanmac/draft-wkumari- capport-icmp-unreach . Authors gratefully accept pull requests, and keep the latest (edit buffer) versions there, so commenters can follow along at home.]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wkumari-capport-icmp-unreach-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wkumari-capport-icmp-unreach-02.txt' />
+</reference>

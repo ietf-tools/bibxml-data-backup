@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pmohapat-sidr-pfx-validate'>
+<front>
+<title>BGP Prefix Origin Validation</title>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2009' />
+
+<abstract><t>A BGP route associates an address prefix with a set of autonomous systems (AS) that identify the interdomain path the prefix has traversed in the form of BGP announcements.  This set is represented as the AS_PATH attribute in BGP and starts with the AS that originated the prefix.  To help reduce well-known threats against BGP including prefix hijacking and monkey-in-the-middle attacks, one of the security requirements is the ability to validate the origination AS of BGP routes.  More specifically, one needs to validate that the AS number claiming to originate an address prefix (as derived from the AS_PATH attribute of the BGP route) is in fact authorized.  This document describes a simple validation mechanism to partially satisfy this requirement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pmohapat-sidr-pfx-validate-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pmohapat-sidr-pfx-validate-01.txt' />
+</reference>

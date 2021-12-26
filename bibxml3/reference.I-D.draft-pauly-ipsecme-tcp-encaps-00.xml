@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pauly-ipsecme-tcp-encaps'>
+<front>
+<title>TCP Encapsulation of IKEv2 and IPSec Packets</title>
+
+<author initials='t' surname='tpauly' fullname='tpauly'>
+    <organization />
+</author>
+
+<author initials='S' surname='Touati' fullname='Samy Touati'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2015' />
+
+<abstract><t>This document describes a method to transport IKEv2 and IPSec packets over a TCP connection for traversing network middleboxes that may block IKEv2 negotiation over UDP.  This method, referred to as TCP encapsulation, involves sending all packets for tunnel establishment as well as tunneled packets over a TCP connection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pauly-ipsecme-tcp-encaps-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pauly-ipsecme-tcp-encaps-00.txt' />
+</reference>

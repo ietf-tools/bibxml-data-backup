@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-opsawg-ipfix-bgp-community'>
+<front>
+<title>Export BGP community information in IP Flow Information Export (IPFIX)</title>
+
+<author initials='Z' surname='Li' fullname='Zhenqiang Li'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gu' fullname='Rong Gu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<date month='December' day='17' year='2018' />
+
+<abstract><t>By introducing new Information Elements (IEs), this draft extends the existing BGP-related IEs to enable IP Flow Information Export (IPFIX) to export BGP community information, including BGP standard communities defined in RFC1997, BGP extended communities defined in RFC4360, and BGP large communities defined in RFC8092.  Network traffic information can then be accumulated and analyzed at the BGP community granularity, which represents the traffic of different kinds of customers, services, or geographical regions according to the network operator's BGP community planning.  Network traffic information at the BGP community granularity is useful for network traffic analysis and engineering.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-opsawg-ipfix-bgp-community-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-opsawg-ipfix-bgp-community-12.txt' />
+</reference>

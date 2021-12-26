@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-aero'>
+<front>
+<title>Asymmetric Extended Route Optimization (AERO)</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2011' />
+
+<abstract><t>Nodes attached to link types such as multicast-capable, shared media and non-broadcast multiple access (NBMA), etc. can exchange packets as neighbors on the link.  Each node should therefore be able to discover a trusted neighboring gateway that can provide default routing services to reach off-link destinations, and should also accept redirection messages from the gateway informing it of a different neighbor that is closer to the final destination.  This redirect function can provide a useful route optimization, since the triangular path from the ingress link neighbor, to the gateway, and finally to the egress link neighbor may be considerably longer than the direct path between the neighbors.  However, ordinary redirection may lead to operational issues on certain link types and/or in certain deployment scenarios.  This document therefore introduces an Asymmetric Extended Route Optimization (AERO) capability that addresses the issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-aero-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-aero-04.txt' />
+</reference>

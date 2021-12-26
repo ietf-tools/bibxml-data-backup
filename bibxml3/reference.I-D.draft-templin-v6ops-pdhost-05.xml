@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-v6ops-pdhost'>
+<front>
+<title>IPv6 Prefix Delegation for Hosts</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2017' />
+
+<abstract><t>IPv6 prefixes are typically delegated to requesting routers which then use them to number their downstream-attached links and networks. The requesting router then acts as a router between the downstream- attached hosts and the upstream Internetwork, and can also act as a host under the weak end system model.  This document considers the case when the "requesting router" is actually a simple host which receives a delegated prefix that it can use solely for its own internal multi-addressing purposes under the strong end system model. This method can be applied in a wide variety of use cases to allow ample address availability without impacting link performance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-v6ops-pdhost-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-v6ops-pdhost-05.txt' />
+</reference>

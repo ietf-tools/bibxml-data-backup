@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8209' target='https://www.rfc-editor.org/info/rfc8209'>
+<front>
+<title>A Profile for BGPsec Router Certificates, Certificate Revocation Lists, and Certification Requests</title>
+<author initials='M.' surname='Reynolds' fullname='M. Reynolds'><organization /></author>
+<author initials='S.' surname='Turner' fullname='S. Turner'><organization /></author>
+<author initials='S.' surname='Kent' fullname='S. Kent'><organization /></author>
+<date year='2017' month='September' />
+<abstract><t>This document defines a standard profile for X.509 certificates used to enable validation of Autonomous System (AS) paths in the Border Gateway Protocol (BGP), as part of an extension to that protocol known as BGPsec.  BGP is the standard for inter-domain routing in the Internet; it is the &quot;glue&quot; that holds the Internet together.  BGPsec is being developed as one component of a solution that addresses the requirement to provide security for BGP.  The goal of BGPsec is to provide full AS path validation based on the use of strong cryptographic primitives.  The end entity (EE) certificates specified by this profile are issued to routers within an AS.  Each of these certificates is issued under a Resource Public Key Infrastructure (RPKI) Certification Authority (CA) certificate.  These CA certificates and EE certificates both contain the AS Resource extension. An EE certificate of this type asserts that the router or routers holding the corresponding private key are authorized to emit secure route advertisements on behalf of the AS(es) specified in the certificate.  This document also profiles the format of certification requests and specifies Relying Party (RP) certificate path validation procedures for these EE certificates. This document extends the RPKI; therefore, this document updates the RPKI Resource Certificates Profile (RFC 6487).</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8209'/>
+<seriesInfo name='DOI' value='10.17487/RFC8209'/>
+</reference>

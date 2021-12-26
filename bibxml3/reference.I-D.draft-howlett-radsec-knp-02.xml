@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.howlett-radsec-knp'>
+<front>
+<title>Key Negotiation Protocol (KNP)</title>
+
+<author initials='J' surname='Howlett' fullname='Josh Howlett'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hartman' fullname='Sam Hartman'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2011' />
+
+<abstract><t>The Key Negotiation Protocol enables an untrusting RADIUS client and RADIUS server to derive a key by reference to a mutually trusted actor called the Introducer.  This key may subsequently be used for one of two purposes.  First, it can credential a TLS PSK ciphersuite applied to a RadSec connection between the RADIUS client and RADIUS server; or secondly, to establish a trust relationship between the RADIUS client and a second Introducer that is trusted by the first Introducer.  The composition of these capabilities enables a RADIUS client to establish a RadSec connection with any RADIUS server with whom it shares a direct or indirect trust relationship via one or more Introducers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-howlett-radsec-knp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-howlett-radsec-knp-02.txt' />
+</reference>

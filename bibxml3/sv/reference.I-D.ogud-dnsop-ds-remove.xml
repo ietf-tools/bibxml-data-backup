@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ogud-dnsop-ds-remove'>
+<front>
+<title>Removing DS records from parent via CDS/CDNSKEY</title>
+
+<author initials='Ó' surname='Guðmundsson' fullname='Ólafur Guðmundsson'>
+    <organization />
+</author>
+
+<date month='August' day='25' year='2015' />
+
+<abstract><t>RFC7344 specifies how trust can be maintained in-band between parent and child.  There are two features missing in that specification: initial trust setup and removal of trust anchor.  This document addresses the second omission.  There are many reasons why a domain may want to go unsigned.  Some of them are related to DNS operator changes, others are related to DNSSEC signing system changes.  The inability to turn off DNSSEC via in-band signalling is seen as a liability in some circles.  This document addresses the issue in a sane way.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ogud-dnsop-ds-remove-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ogud-dnsop-ds-remove-00.txt' />
+</reference>

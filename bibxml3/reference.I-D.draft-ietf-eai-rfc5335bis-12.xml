@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-eai-rfc5335bis'>
+<front>
+<title>Internationalized Email Headers</title>
+
+<author initials='A' surname='Yang' fullname='Abel Yang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Steele' fullname='Shawn Steele'>
+    <organization />
+</author>
+
+<author initials='N' surname='Freed' fullname='Ned Freed'>
+    <organization />
+</author>
+
+<date month='September' day='18' year='2011' />
+
+<abstract><t>Internet mail was originally limited to 7-bit ASCII.  MIME added support for the use of 8-bit character sets in body parts, and also defined an encoded-word construct so other character sets could be used in certain header field values.  But full internationalization of electronic mail requires additional enhancements to allow the use of Unicode, including characters outside the ASCII repertoire, in mail addresses as well as direct use of Unicode in header fields like From:, To:, and Subject:, without requiring the use of complex encoded-word constructs.  This document specifies an enhancement to the Internet Message Format that allows use of Unicode in mail addresses and most header field content.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-eai-rfc5335bis-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-eai-rfc5335bis-12.txt' />
+</reference>

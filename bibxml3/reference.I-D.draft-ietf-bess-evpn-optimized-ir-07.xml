@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-optimized-ir'>
+<front>
+<title>Optimized Ingress Replication solution for EVPN</title>
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+<organization />
+</author>
+<author initials='S' surname='Sathappan' fullname='Senthil Sathappan'>
+<organization />
+</author>
+<author initials='W' surname='Lin' fullname='Wen Lin'>
+<organization />
+</author>
+<author initials='M' surname='Katiyar' fullname='Mukul Katiyar'>
+<organization />
+</author>
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+<organization />
+</author>
+<date year='2020' month='July' day='13' />
+<abstract><t>Network Virtualization Overlay (NVO) networks using EVPN as control plane may use Ingress Replication (IR) or PIM (Protocol Independent Multicast) based trees to convey the overlay BUM traffic.  PIM provides an efficient solution to avoid sending multiple copies of the same packet over the same physical link, however it may not always be deployed in the NVO core network.  IR avoids the dependency on PIM in the NVO network core.  While IR provides a simple multicast transport, some NVO networks with demanding multicast applications require a more efficient solution without PIM in the core.  This document describes a solution to optimize the efficiency of IR in NVO networks.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-optimized-ir-07'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-optimized-ir-07.txt'/>
+</reference>

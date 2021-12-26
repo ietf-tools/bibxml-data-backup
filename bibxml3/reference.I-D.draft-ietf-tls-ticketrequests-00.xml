@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-ticketrequests'>
+<front>
+<title>TLS Ticket Requests</title>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='D' surname='Schinazi' fullname='David Schinazi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='January' day='18' year='2019' />
+
+<abstract><t>TLS session tickets enable stateless connection resumption for clients without server-side per-client state.  Servers vend session tickets to clients, at their discretion, upon connection establishment.  Clients store and use tickets when resuming future connections.  Moreover, clients should use tickets at most once for session resumption, especially if such keying material protects early application data.  Single-use tickets bound the number of parallel connections a client may initiate by the number of tickets received from a given server.  To address this limitation, this document describes a mechanism by which clients may specify the desired number of tickets needed for future connections.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-ticketrequests-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-ticketrequests-00.txt' />
+</reference>

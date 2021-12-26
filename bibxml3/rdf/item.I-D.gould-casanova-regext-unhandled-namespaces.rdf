@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-gould-casanova-regext-unhandled-namespaces-02.txt'>
+    <title>"Extensible Provisioning Protocol (EPP) Unhandled Namespaces", James Gould, Martin Casanova</title>
+    <link>http://www.ietf.org/internet-drafts/draft-gould-casanova-regext-unhandled-namespaces-02.txt</link>
+    <description>The Extensible Provisioning Protocol (EPP), as defined in RFC 5730, includes a method for the client and server to determine the objects to be managed during a session and the object extensions to be used during a session.  The services are identified using namespace URIs. How should the server handle service data that needs to be returned in the response when the client does not support the required service namespace URI, which is referred to as an unhandled namespace?  An unhandled namespace is a significant issue for the processing of RFC 5730 poll messages, since poll messages are inserted by the server prior to knowing the supported client services, and the client needs to be capable of processing all poll messages.  This document defines an operational practice that enables the server to return information associated with unhandled namespace URIs that is compliant with the negotiated services defined in RFC 5730.</description>
+    <dc:date>2019-09-24T07:00:00-00:00</dc:date>
+</item>

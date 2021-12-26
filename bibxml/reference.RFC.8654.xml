@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8654' target='https://www.rfc-editor.org/info/rfc8654'>
+<front>
+<title>Extended Message Support for BGP</title>
+<author initials='R.' surname='Bush' fullname='R. Bush'><organization /></author>
+<author initials='K.' surname='Patel' fullname='K. Patel'><organization /></author>
+<author initials='D.' surname='Ward' fullname='D. Ward'><organization /></author>
+<date year='2019' month='October' />
+<abstract><t>The BGP specification (RFC 4271) mandates a maximum BGP message size of 4,096 octets.  As BGP is extended to support new Address Family Identifiers (AFIs), Subsequent AFIs (SAFIs), and other features, there is a need to extend the maximum message size beyond 4,096 octets.  This document updates the BGP specification by extending the maximum message size from 4,096 octets to 65,535 octets for all messages except for OPEN and KEEPALIVE messages.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8654'/>
+<seriesInfo name='DOI' value='10.17487/RFC8654'/>
+</reference>

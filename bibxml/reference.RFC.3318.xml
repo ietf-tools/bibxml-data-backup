@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3318' target='https://www.rfc-editor.org/info/rfc3318'>
+<front>
+<title>Framework Policy Information Base</title>
+<author initials='R.' surname='Sahita' fullname='R. Sahita' role='editor'><organization /></author>
+<author initials='S.' surname='Hahn' fullname='S. Hahn'><organization /></author>
+<author initials='K.' surname='Chan' fullname='K. Chan'><organization /></author>
+<author initials='K.' surname='McCloghrie' fullname='K. McCloghrie'><organization /></author>
+<date year='2003' month='March' />
+<abstract><t>This document defines a set of PRovisioning Classes (PRCs) and textual conventions that are common to all clients that provision policy using Common Open Policy Service (COPS) protocol for Provisioning.</t><t>Structure of Policy Provisioning Information (SPPI) describes a structure for specifying policy information that can then be transmitted to a network device for the purpose of configuring policy at that device.  The model underlying this structure is one of well-defined (PRCs) and instances of these classes (PRIs) residing in a virtual information store called the Policy Information Base (PIB).</t><t>One way to provision policy is by means of the (COPS) protocol with the extensions for provisioning.  This protocol supports multiple clients, each of which may provision policy for a specific policy domain such as QoS, virtual private networks, or security.</t><t>As described in COPS usage for Policy Provisioning (COPS-PR), each client supports a non-overlapping and independent set of PIB modules.  However, some PRovisioning Classes are common to all subject-categories (client-types) and need to be present in each.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3318'/>
+<seriesInfo name='DOI' value='10.17487/RFC3318'/>
+</reference>

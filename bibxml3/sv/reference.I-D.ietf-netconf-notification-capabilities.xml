@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-notification-capabilities'>
+<front>
+<title>YANG Modules describing Capabilities for Systems and Datastore Update Notifications</title>
+<author initials='B' surname='Lengyel' fullname='Balazs Lengyel'>
+<organization />
+</author>
+<author initials='A' surname='Clemm' fullname='Alexander Clemm'>
+<organization />
+</author>
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+<organization />
+</author>
+<date year='2021' month='October' day='15' />
+<abstract><t>This document defines two YANG modules,&quot;ietf-system-capabilities&quot; and &quot;ietf-notification-capabilities&quot;.</t><t> The module &quot;ietf-system-capabilities&quot; provides a placeholder structure that can be used to discover YANG related system capabilities for servers.  The module can be used to report capability information from the server at run time or at implementation time, by making use of the YANG Instance Data File Format.</t><t> The module &quot;ietf-notification-capabilities&quot; augments &quot;ietf-system- capabilities&quot; to specify capabilities related to Subscription to YANG Notifications for Datastore Updates.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-notification-capabilities-21'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-netconf-notification-capabilities-21.txt'/>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.clemm-netmod-mount'>
+<front>
+<title>Mounting YANG-Defined Information from Remote Datastores</title>
+
+<author initials='A' surname='Clemm' fullname='Alex Clemm'>
+    <organization />
+</author>
+
+<author initials='J' surname='Medved' fullname='Jan Medved'>
+    <organization />
+</author>
+
+<author initials='E' surname='Voit' fullname='Eric Voit'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This document introduces capabilities that allow YANG datastores to reference and incorporate information from remote datastores.  This is accomplished by extending YANG with the ability to define mount points that reference data nodes in another YANG subtree, by subsequently allowing those data nodes to be accessed by client applications as if part of an alternative data hierarchy, and by providing the necessary means to manage and administer those mount points.  Two flavors are defined: Alias-Mount allows to mount local subtrees, while Peer-Mount allows subtrees to reside on and be authoritatively owned by a remote server.  YANG-Mount facilitates the development of applications that need to access data that transcends individual network devices while improving network-wide object consistency, or that require an aliasing capability to be able to create overlay structures for YANG data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-clemm-netmod-mount-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-clemm-netmod-mount-04.txt' />
+</reference>

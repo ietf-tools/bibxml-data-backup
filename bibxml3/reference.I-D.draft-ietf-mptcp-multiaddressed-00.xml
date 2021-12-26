@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mptcp-multiaddressed'>
+<front>
+<title>TCP Extensions for Multipath Operation with Multiple Addresses</title>
+
+<author initials='A' surname='Ford' fullname='Alan Ford'>
+    <organization />
+</author>
+
+<author initials='C' surname='Raiciu' fullname='Costin Raiciu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2010' />
+
+<abstract><t>TCP/IP communication is currently restricted to a single path per connection, yet multiple paths often exist between peers.  The simultaneous use of these multiple paths for a TCP/IP session would improve resource usage within the network, and thus improve user experience through higher throughput and improved resilience to network failure.  Multipath TCP provides the ability to simultaneously use multiple paths between peers.  This document presents a set of extensions to traditional TCP to support multipath operation.  The protocol offers the same type of service to applications as TCP - reliable bytestream - and provides the components necessary to establish and use multiple TCP flows across potentially disjoint paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mptcp-multiaddressed-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mptcp-multiaddressed-00.txt' />
+</reference>

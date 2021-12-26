@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schulzrinne-ecrit-psap-callback'>
+<front>
+<title>Marking of Calls initiated by Public Safety Answering Points (PSAPs)</title>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2009' />
+
+<abstract><t>After an emerency call is completed it is possible that the need for further communication between the call-taker and the emergency caller arises.  For example, further assistance may be needed but the communication previously got interrupted.  A call-taker may trigger a callback towards the emergency caller using the contact information provided with the initial emergency call.  This callback would then be treated like any other call.  As a consequence, it may get blocked by authorization policies configured by the person seeking help or may get forwarded to his answering machine.  The current ECRIT framework document addresses callbacks in a limited fashion and thereby covers a few scenarios.  This document discusses shortcomings and raises the question whether additional solution techniques are needed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schulzrinne-ecrit-psap-callback-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schulzrinne-ecrit-psap-callback-00.txt' />
+</reference>

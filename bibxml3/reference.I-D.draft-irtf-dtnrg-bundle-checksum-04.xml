@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-bundle-checksum'>
+<front>
+<title>Checksum Ciphersuites for the Bundle Protocol</title>
+
+<author initials='W' surname='Eddy' fullname='Wesley Eddy'>
+    <organization />
+</author>
+
+<author initials='L' surname='Wood' fullname='Lloyd Wood'>
+    <organization />
+</author>
+
+<author initials='W' surname='Ivancic' fullname='Will Ivancic'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>The Delay-Tolerant Networking Bundle Protocol includes a custody transfer mechanism to provide acknowledgements of receipt for particular bundles.  No checksum is included in the basic DTN Bundle Protocol, however, so at intermediate hops, it is not possible to verify that bundles have been either forwarded or passed through convergence layers without error.  Without assurance that a bundle has been received without errors, the custody transfer receipt cannot guarantee that a correct copy of the bundle has been transferred, and errored bundles are forwarded instead of being discarded.  This document attempts to address the situation by defining new ciphersuites for use within the existing Bundle Security Protocol's Payload Integrity Block (formerly called the Payload Security Block) to provide error-detection functions regardless of an implementation's support for other, more complex, security-providing ciphersuites.  This creates the checksum service needed for error- free reliability, but does so at the expense of divorcing security concerns from the few new reliability-only ciphersuite definitions that are introduced here.  This document discusses in necessary detail the advantages and disadvantages of this approach and the existing constraints that combined to drive this design.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-bundle-checksum-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-checksum-04.txt' />
+</reference>

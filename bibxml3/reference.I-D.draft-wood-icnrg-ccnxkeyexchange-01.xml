@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wood-icnrg-ccnxkeyexchange'>
+<front>
+<title>CCNx Key Exchange Protocol Version 1.0</title>
+
+<author initials='m' surname='marc.mosko@parc.com' fullname='marc.mosko@parc.com'>
+    <organization />
+</author>
+
+<author initials='E' surname='Uzun' fullname='Ersin Uzun'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>This document specifies Version 1.0 of the CCNx Key Exchange (CCNxKE) protocol.  The CCNxKE protocol allows two peers to establish a shared, forward-secure key for secure and confidential communication. The protocol is designed to prevent eavesdropping, tampering, and message forgery between two peers.  It is also designed to minimize the number of rounds required to establish a shared key.  In the worst case, it requires two RTTs between a consumer and producer to establish a shared key.  In the best case, one RTT is required before sending any application data.  This document outlines how to derive the keys used to encrypt traffic.  An annex provides an example peer- to-peer transport protocol for exchanging encrypted CCNx communications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wood-icnrg-ccnxkeyexchange-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wood-icnrg-ccnxkeyexchange-01.txt' />
+</reference>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-detnet-security'>
+<front>
+<title>Deterministic Networking (DetNet) Security Considerations</title>
+
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+    <organization />
+</author>
+
+<author initials='E' surname='Grossman' fullname='Ethan Grossman'>
+    <organization />
+</author>
+
+<author initials='A' surname='Hacker' fullname='Andrew Hacker'>
+    <organization />
+</author>
+
+<author initials='S' surname='Das' fullname='Subir Das'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dowdell' fullname='John Dowdell'>
+    <organization />
+</author>
+
+<author initials='H' surname='Austad' fullname='Henrik Austad'>
+    <organization />
+</author>
+
+<author initials='K' surname='Stanton' fullname='Kevin Stanton'>
+    <organization />
+</author>
+
+<author initials='N' surname='Finn' fullname='Norman Finn'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>A deterministic network is one that can carry data flows for real- time applications with extremely low data loss rates and bounded latency.  Deterministic networks have been successfully deployed in real-time operational technology (OT) applications for some years (for example [ARINC664P7]).  However, such networks are typically isolated from external access, and thus the security threat from external attackers is low.  IETF Deterministic Networking (DetNet) specifies a set of technologies that enable creation of deterministic networks on IP-based networks of potentially wide area (on the scale of a corporate network) potentially bringing the OT network into contact with Information Technology (IT) traffic and security threats that lie outside of a tightly controlled and bounded area (such as the internals of an aircraft).  These DetNet technologies have not previously been deployed together on a wide area IP-based network, and thus can present security considerations that may be new to IP- based wide area network designers.  This draft, intended for use by DetNet network designers, provides insight into these security considerations.  In addition, this draft collects all security- related statements from the various DetNet drafts (Architecture, Use Cases, etc) into a single location Section 7.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-detnet-security-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-detnet-security-01.txt' />
+</reference>

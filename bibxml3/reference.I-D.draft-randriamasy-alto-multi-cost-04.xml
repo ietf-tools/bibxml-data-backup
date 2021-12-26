@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.randriamasy-alto-multi-cost'>
+<front>
+<title>Multi-Cost ALTO</title>
+
+<author initials='S' surname='Randriamasy' fullname='Sabine Randriamasy'>
+    <organization />
+</author>
+
+<author initials='N' surname='Schwan' fullname='Nico Schwan'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2011' />
+
+<abstract><t>IETF is designing a new service called ALTO (Application Layer traffic Optimization) that includes a "Network Map Service", an "Endpoint Cost Service" and an "Endpoint (EP) Ranking Service" and thus incentives for application clients to connect to ISP preferred Endpoints.  These services provide a view of the Network Provider (NP) topology to overlay clients.  The present draft proposes a light way to extend the information provided by the current ALTO protocol.  The purpose is to broaden the possibilities of the Application Clients in two ways.  Firstly it proposes to include information on multiple cost types in a single ALTO transaction, providing a better mapping of the Selected Endpoints to needs of the growing diversity of Content Networking Applications and to the network conditions.  Secondly it proposes new cost types, that are an abstraction of time-sensitive network information as viewed by the Network Provider.  All this also helps producing a more robust choice when multiple Endpoints must be selected.  There are 2 parts in this draft: the first part initiates protocol extensions to support requests on multiple Cost Types in one single transaction.  These first extensions also integrate the discussions within the ALTO Working Group.  The second part proposes use cases motivating further definitions of additional CostTypes and Cost related attributes and capabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-randriamasy-alto-multi-cost-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-randriamasy-alto-multi-cost-04.txt' />
+</reference>

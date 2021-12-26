@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.morton-ippm-twamp-rate'>
+<front>
+<title>TWAMP Burst Rate Measurement Features</title>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<author initials='L' surname='Ciavattone' fullname='Len Ciavattone'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2014' />
+
+<abstract><t>This memo describes two rate-measurement features for the core specification of TWAMP - the Two-Way Active Measurement Protocol: an optional capability where the reflector host responds with a controlled burst of test-session packets (instead of a single packet), and an optional test mode that requires the responder to measure a burst of test packets and communicate the results in truncated packet(s).  Both features add the ability to control packet size in the tested direction, enabling asymmetrical packet size testing.  This draft defines the modes in terms of traditional UDP test packets.  Use of TCP transport instead of UDP may be desirable, but is deferred to other work.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-morton-ippm-twamp-rate-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-morton-ippm-twamp-rate-05.txt' />
+</reference>

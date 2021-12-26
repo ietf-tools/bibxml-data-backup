@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6lo-ap-nd'>
+<front>
+<title>Address Protected Neighbor Discovery for Low-power and Lossy Networks</title>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sethi' fullname='Mohit Sethi'>
+    <organization />
+</author>
+
+<author initials='R' surname='Struik' fullname='Rene Struik'>
+    <organization />
+</author>
+
+<date month='April' day='30' year='2020' />
+
+<abstract><t>This document updates the 6LoWPAN Neighbor Discovery (ND) protocol defined in RFC 6775 and RFC 8505.  The new extension is called Address Protected Neighbor Discovery (AP-ND) and it protects the owner of an address against address theft and impersonation attacks in a low-power and lossy network (LLN).  Nodes supporting this extension compute a cryptographic identifier (Crypto-ID) and use it with one or more of their Registered Addresses.  The Crypto-ID identifies the owner of the Registered Address and can be used to provide proof of ownership of the Registered Addresses.  Once an address is registered with the Crypto-ID and a proof-of-ownership is provided, only the owner of that address can modify the registration information, thereby enforcing Source Address Validation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6lo-ap-nd-23' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6lo-ap-nd-23.txt' />
+</reference>

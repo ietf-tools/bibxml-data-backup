@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.campagna-tls-bike-sike-hybrid'>
+<front>
+<title>BIKE and SIKE Hybrid Key Exchange Cipher Suites for Transport Layer Security (TLS)</title>
+
+<author initials='M' surname='Campagna' fullname='Matt Campagna'>
+    <organization />
+</author>
+
+<author initials='E' surname='Crockett' fullname='Eric Crockett'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2019' />
+
+<abstract><t>This document describes new hybrid key exchange schemes for the Transport Layer Security (TLS) protocol, which are based on combining Elliptic Curve Diffie Hellman (ECDH) with one of the Bit Flipping Key Exchange (BIKE) or the Supersingular Isogeny Key Exchange (SIKE) schemes.  In particular, this document specifies the use of BIKE or SIKE in combination with ECDHE as a hybrid key agreement in a TLS 1.2 handshake, together with the use of ECDSA or RSA for authentication. Hybrid key exchange refers to executing two separate key exchanges and subsequently feeding the two resulting shared secrets into the existing TLS Pseudo Random Function (PRF), in order to derive a master secret.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-campagna-tls-bike-sike-hybrid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-campagna-tls-bike-sike-hybrid-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-campagna-tls-bike-sike-hybrid-00.pdf' />
+</reference>

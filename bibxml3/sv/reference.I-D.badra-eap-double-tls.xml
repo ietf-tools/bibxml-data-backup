@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.badra-eap-double-tls'>
+<front>
+<title>EAP-Double-TLS Authentication Protocol</title>
+
+<author initials='M' surname='Badra' fullname='Mohamad Badra'>
+    <organization />
+</author>
+
+<author initials='P' surname='Urien' fullname='Pascal Urien'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2006' />
+
+<abstract><t>EAP-Double-TLS is an EAP protocol that extends EAP-TLS. In EAP-TLS, a full TLS handshake is used to mutually authenticate a peer and server and to share a secret key. EAP-Double-TLS extends this authentication negotiation by establishing a secure connection based on the use of Pre Shared Keys (PSK). The secure connection may then be used to allow the server and the peer to securely exchange their identity and to update security attributes for next sessions. EAP-Double-TLS allows the peer and the server to establish keying material for use in the data connection between the peer and the authenticator. The keying material is established implicitly between peer and server based on the TLS Pre-Shared-Key handshake.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-badra-eap-double-tls-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-badra-eap-double-tls-05.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hartman-webauth-phishing'>
+<front>
+<title>Requirements for Web Authentication Resistant to Phishing</title>
+
+<author initials='S' surname='Hartman' fullname='Sam Hartman'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2007' />
+
+<abstract><t>This memo proposes requirements for protocols between web identity providers and users and for requirements for protocols between identity providers and relying parties. These requirements minimize the likelihood that criminals will be able to gain the credentials necessary to impersonate a user or be able to fraudulently convince users to disclose personal information. To meet these requirements browsers must change. Websites must never receive information such as passwords that can be used to impersonate the user to third parties. Browsers should perform mutual authentication and flag situations when the target website is not authorized to accept the identity being offered as this is a strong indication of fraud. These requirements may serve as a basis for requirements for preventing fraud in environments other than the web.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hartman-webauth-phishing-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hartman-webauth-phishing-04.txt' />
+</reference>

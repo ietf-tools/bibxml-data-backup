@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mase-manet-autoconf-noaolsr'>
+<front>
+<title>No Overhead Autoconfiguration OLSR</title>
+
+<author initials='K' surname='Mase' fullname='Kenichi Mase'>
+    <organization />
+</author>
+
+<author initials='C' surname='Adjih' fullname='Cedric Adjih'>
+    <organization />
+</author>
+
+<date month='April' day='10' year='2006' />
+
+<abstract><t>This document specifies one method for autoconfiguration for the Optimized Link State Routing (OLSR) protocol for stand-alone ad hoc networks. OLSR is a routing protocol for mobile ad hoc networks, designed for use in multi-hop wireless ad hoc networks ; and as such it specifies how individual nodes can construct routes to each other. To achieve this, it relies on preliminary assignment of unique IP addresses to OLSR interfaces ; hence the task of generating addresses, checking their uniqueness and assigning them to interfaces is defined externally. This document proposes a complementary method, called "No Overhead Autoconfiguration for OLSR" (NOA-OLSR), to perform this task of ensuring uniqueness of addresses which have been generated. It also performs to ensure uniqueness of addresses which have been assigned and used when network merger occurs. This method consists of modifications in the OLSR specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mase-manet-autoconf-noaolsr-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mase-manet-autoconf-noaolsr-01.txt' />
+</reference>

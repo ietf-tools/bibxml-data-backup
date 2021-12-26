@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosenberg-dispatch-ript-inbound'>
+<front>
+<title>RealTime Internet Peering for Single User Endpoints</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<date month='February' day='7' year='2020' />
+
+<abstract><t>The Real-Time Internet Peering for Telephony (RIPT) protocol defines a technique for establishing, terminating and otherwise managing calls between entities in differing administrative domains.  While it can be used for single user devices like an IP phone, it requires the IP phone to have TLS certificates and be publically reachable with a DNS record.  This specification remedies this by extending RIPP to enable clients to receive inbound calls.  It also provides basic single-user features such as forking, call push and pull, third-party call controls, and call appearances.  It describes techniques for resiliency of calls, especially for mobile clients with spotty network connectivity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosenberg-dispatch-ript-inbound-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosenberg-dispatch-ript-inbound-00.txt' />
+</reference>

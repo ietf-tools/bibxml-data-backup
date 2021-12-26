@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sinha-sip-block'>
+<front>
+<title>The SIP BLOCKED Response</title>
+
+<author initials='A' surname='Sinha' fullname='Amardeep Sinha'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sinha' fullname='Sunil Kumar Sinha'>
+    <organization />
+</author>
+
+<date month='August' day='14' year='2006' />
+
+<abstract><t>This document define a new response code, 4XX(BLOCKED), for a Session Initiation Protocol(SIP).This response code can used by User Agent Client(UAC)that it intensely does not want to have session with an incoming request with particular SIP services from particular domain. For example, UAC do not want to establish a session with an incoming request for video conference from particular domain. The existing mechanism in SIP do not provide any such facility to refuse a request based request URI, SIP application, media type and other SIP services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sinha-sip-block-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sinha-sip-block-00.txt' />
+</reference>

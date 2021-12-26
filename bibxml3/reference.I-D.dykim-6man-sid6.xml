@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dykim-6man-sid6'>
+<front>
+<title>Subnet ID Deprecation for IPv6</title>
+
+<author initials='K' surname='Dy' fullname='Kim Dy'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2019' />
+
+<abstract><t>Deprecation of the subnet ID in IPv6 networking is proposed; the subnet ID is set to zero so that all nodes in a site carry the same prefix.  While the procedures for neighbor discovery and duplicate address detection have to be changed, possible simplification gains in IPv6 networking including that of intra-site host- and subnet- mobility might be worth the modification.  Site-external behaviors don't change through this modification, enabling incremental deployment of the proposal.  Sites of manageable sizes for which scalability is not much a critical issue might consider the mode of operation proposed in this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dykim-6man-sid6-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dykim-6man-sid6-01.txt' />
+</reference>

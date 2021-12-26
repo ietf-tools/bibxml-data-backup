@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pp-recursive-authoritative-opportunistic'>
+<front>
+<title>Recursive to Authoritative DNS with Opportunistic Encryption</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<author initials='P' surname='Sood' fullname='Puneet Sood'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2020' />
+
+<abstract><t>This document describes a method for a DNS recursive resolver to use opportunistic encryption when communicating with authoritative servers.  The method here is optional for both the recursive resolver and the authoritative server.  A motivating use case for this method is that more encryption on the Internet is better, and opportunistic encryption is better than no encryption at all.  Nothing in this method prevents use cases that require better encryption.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pp-recursive-authoritative-opportunistic-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pp-recursive-authoritative-opportunistic-00.txt' />
+</reference>

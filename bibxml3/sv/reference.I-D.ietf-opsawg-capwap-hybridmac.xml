@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-opsawg-capwap-hybridmac'>
+<front>
+<title>IEEE 802.11 MAC Profile for CAPWAP</title>
+
+<author initials='C' surname='Shao' fullname='Chunju Shao'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pazhyannur' fullname='Rajesh Pazhyannur'>
+    <organization />
+</author>
+
+<author initials='F' surname='Bari' fullname='Farooq Bari'>
+    <organization />
+</author>
+
+<author initials='R' surname='Zhang' fullname='Rong Zhang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Matsushima' fullname='Satoru Matsushima'>
+    <organization />
+</author>
+
+<date month='December' day='18' year='2014' />
+
+<abstract><t>The CAPWAP protocol binding for IEEE 802.11 defines two MAC (Medium Access Control) modes for IEEE 802.11 WTP (Wireless Transmission Point): Split and Local MAC.  In the Split MAC mode, the partitioning of encryption/decryption functions are not clearly defined.  In the Split MAC mode description, IEEE 802.11 encryption is specified as located in either the AC (Access Controller) or the WTP, with no clear way for the AC to inform the WTP of where the encryption functionality should be located.  This leads to interoperability issues, especially when the AC and WTP come from different vendors. To prevent interoperability issues, this specification defines an IEEE 802.11 MAC profile message element in which each profile specifies an unambiguous division of encryption functionality between the WTP and AC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-opsawg-capwap-hybridmac-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-opsawg-capwap-hybridmac-08.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-monitoring'>
+<front>
+<title>NETCONF Monitoring Schema</title>
+
+<author initials='M' surname='Scott' fullname='Mark Scott'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chisholm' fullname='Sharon Chisholm'>
+    <organization />
+</author>
+
+<date month='February' day='26' year='2008' />
+
+<abstract><t>Today no standard method is defined to monitor the NETCONF protocol, including items such as sessions and subscription information.  As NETCONF adds these and increasing capabilities which can impact configuration management, monitoring becomes increasingly important. This document defines NETCONF content via XML Schema to be used to monitor the Netconf protocol.  It includes information about Netconf sessions, locks, and subscriptions and is intended to facilitate management of a NETCONF server.  In addition this memo defines a mechanism to be able to discover all possible data models (XML Schemas) from a NETCONF server.  This mechanism provides explicit references to supported schema versions and can be performed dynamically throughout a session, unlike capabilities exchange which is performed during session setup only.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-monitoring-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-monitoring-01.txt' />
+</reference>

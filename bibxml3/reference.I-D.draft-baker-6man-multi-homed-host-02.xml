@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.baker-6man-multi-homed-host'>
+<front>
+<title>Host routing in a multi-prefix network</title>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<author initials='B' surname='Carpenter' fullname='Brian Carpenter'>
+    <organization />
+</author>
+
+<date month='August' day='22' year='2015' />
+
+<abstract><t>This note describes expected host behavior in a network that has more than one prefix, each allocated by an upstream network that implements BCP 38 filtering, when the host has multiple routers to choose from.  This may interact with source address selection in a given implementation, but logically follows it - given that the network or host is or appears to be multihomed with PA addresses, the host has elected to use source address in a given prefix, and some but not all neighboring routers are advertising that prefix in their RA PIOs, to which router should a host present its transmission?</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-baker-6man-multi-homed-host-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-baker-6man-multi-homed-host-02.txt' />
+</reference>

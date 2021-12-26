@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-ikev2-null-auth'>
+<front>
+<title>The NULL Authentication Method in IKEv2 Protocol</title>
+
+<author initials='V' surname='Smyslov' fullname='Valery Smyslov'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<date month='March' day='26' year='2015' />
+
+<abstract><t>This document specifies the NULL Authentication method and the ID_NULL Identification Payload ID Type for the IKEv2 Protocol.  This allows two IKE peers to establish single-side authenticated or mutual unauthenticated IKE sessions for those use cases where a peer is unwilling or unable to authenticate or identify itself.  This ensures IKEv2 can be used for Opportunistic Security (also known as Opportunistic Encryption) to defend against Pervasive Monitoring attacks without the need to sacrifice anonymity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-ikev2-null-auth-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-ikev2-null-auth-05.txt' />
+</reference>

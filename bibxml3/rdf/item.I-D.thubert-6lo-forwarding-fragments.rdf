@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-thubert-6lo-forwarding-fragments-08.txt'>
+    <title>"LLN Fragment Forwarding and Recovery", Pascal Thubert, Jonathan Hui</title>
+    <link>http://www.ietf.org/internet-drafts/draft-thubert-6lo-forwarding-fragments-08.txt</link>
+    <description>Considering that an LLN frame can have a MAC payload below 100 bytes, an IPv6 packet might be fragmented into more than 10 fragments at the 6LoWPAN layer.  In a 6LoWPAN mesh-under network, the fragments can be forwarded individually across the mesh, whereas a route-over mesh network, a fragmented 6LoWPAN packet must be reassembled at every hop, which causes latency and congestion.  This draft introduces a simple protocol to forward individual fragments across a route-over mesh network, and, regardless of the type of mesh, recover the loss of individual fragments across the mesh and protect the network against bloat with a minimal flow control.</description>
+    <dc:date>2018-01-16T08:00:00-00:00</dc:date>
+</item>

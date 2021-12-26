@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mornulo-ippm-registry'>
+<front>
+<title>A Registry for Performance Metrics</title>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<author initials='P' surname='Eardley' fullname='Philip Eardley'>
+    <organization />
+</author>
+
+<date month='September' day='30' year='2013' />
+
+<abstract><t>This memo investigates a scheme to organize registry entries, especially those defined in RFCs prepared in the IP Performance Metrics (IPPM) Working Group of the IETF, and applicable to all IETF metrics.  Three aspects make IPPM metric registration difficult: (1) Use of the Type-P notion to allow users to specify their own packet types. (2) Use of flexible input variables, called Parameters in IPPM definitions, some which determine the quantity measured and others which should not be specified until execution of the measurement. (3) Allowing flexibility in choice of statistics to summarize the results on a stream of measurement packets.  Specifically, this memo proposes a way to organize registry entries into columns that are well- defined, permiting consistent development of entries over time. Also, this fosters development of registry entries based on existing reference RFCs for performance metrics, and requires expert review for every entry before IANA action.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mornulo-ippm-registry-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mornulo-ippm-registry-00.txt' />
+</reference>

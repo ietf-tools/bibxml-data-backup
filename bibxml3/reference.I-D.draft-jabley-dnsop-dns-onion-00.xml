@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jabley-dnsop-dns-onion'>
+<front>
+<title>DNS Privacy with a Hint of Onion</title>
+
+<author initials='R' surname='Arends' fullname='Roy Arends'>
+    <organization />
+</author>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<author initials='J' surname='Damas' fullname='Joao Damas'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2014' />
+
+<abstract><t>The Domain Name System (DNS) has no inherent capability to protect the privacy of end users.  The data associated with DNS queries and responses can be observed by intermediate systems, and such observations could provide a source of metadata relating to end user behaviour.  This document describes an approach which separates the data in DNS queries and responses from the identity of the DNS resolver used by DNS clients.  This approach does not address privacy concerns between a stub resolver and a recursive resolver.  This approach imposes no requirement for modification of authority servers, and does not depend upon widespread deployment of DNSSEC signing or validation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jabley-dnsop-dns-onion-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jabley-dnsop-dns-onion-00.txt' />
+</reference>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<referencegroup anchor="BCP153" target="https://www.rfc-editor.org/info/bcp153">
+<!-- reference.RFC.6598.xml -->
+<reference  anchor='RFC6598' target='https://www.rfc-editor.org/info/rfc6598'>
+<front>
+<title>IANA-Reserved IPv4 Prefix for Shared Address Space</title>
+<author initials='J.' surname='Weil' fullname='J. Weil'><organization /></author>
+<author initials='V.' surname='Kuarsingh' fullname='V. Kuarsingh'><organization /></author>
+<author initials='C.' surname='Donley' fullname='C. Donley'><organization /></author>
+<author initials='C.' surname='Liljenstolpe' fullname='C. Liljenstolpe'><organization /></author>
+<author initials='M.' surname='Azinger' fullname='M. Azinger'><organization /></author>
+<date year='2012' month='April' />
+<abstract><t>This document requests the allocation of an IPv4 /10 address block to be used as Shared Address Space to accommodate the needs of Carrier- Grade NAT (CGN) devices.  It is anticipated that Service Providers will use this Shared Address Space to number the interfaces that connect CGN devices to Customer Premises Equipment (CPE).</t><t>Shared Address Space is distinct from RFC 1918 private address space because it is intended for use on Service Provider networks. However, it may be used in a manner similar to RFC 1918 private address space on routing equipment that is able to do address translation across router interfaces when the addresses are identical on two different interfaces.  Details are provided in the text of this document.</t><t>This document details the allocation of an additional special-use IPv4 address block and updates RFC 5735.  This memo documents an  Internet Best Current Practice.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='153'/>
+<seriesInfo name='RFC' value='6598'/>
+<seriesInfo name='DOI' value='10.17487/RFC6598'/>
+</reference>
+<!-- reference.RFC.6890.xml -->
+<reference  anchor='RFC6890' target='https://www.rfc-editor.org/info/rfc6890'>
+<front>
+<title>Special-Purpose IP Address Registries</title>
+<author initials='M.' surname='Cotton' fullname='M. Cotton'><organization /></author>
+<author initials='L.' surname='Vegoda' fullname='L. Vegoda'><organization /></author>
+<author initials='R.' surname='Bonica' fullname='R. Bonica' role='editor'><organization /></author>
+<author initials='B.' surname='Haberman' fullname='B. Haberman'><organization /></author>
+<date year='2013' month='April' />
+<abstract><t>This memo reiterates the assignment of an IPv4 address block (192.0.0.0/24) to IANA.  It also instructs IANA to restructure its IPv4 and IPv6 Special-Purpose Address Registries.  Upon restructuring, the aforementioned registries will record all special-purpose address blocks, maintaining a common set of information regarding each address block.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='153'/>
+<seriesInfo name='RFC' value='6890'/>
+<seriesInfo name='DOI' value='10.17487/RFC6890'/>
+</reference>
+<!-- reference.RFC.8190.xml -->
+<reference  anchor='RFC8190' target='https://www.rfc-editor.org/info/rfc8190'>
+<front>
+<title>Updates to the Special-Purpose IP Address Registries</title>
+<author initials='R.' surname='Bonica' fullname='R. Bonica'><organization /></author>
+<author initials='M.' surname='Cotton' fullname='M. Cotton'><organization /></author>
+<author initials='B.' surname='Haberman' fullname='B. Haberman'><organization /></author>
+<author initials='L.' surname='Vegoda' fullname='L. Vegoda'><organization /></author>
+<date year='2017' month='June' />
+<abstract><t>This memo updates the IANA IPv4 and IPv6 Special-Purpose Address Registries to address issues raised by the definition of a &quot;global&quot; prefix.  It also corrects several errors in registry entries to ensure the integrity of the IANA Special-Purpose Address Registries.</t><t>This memo updates RFC 6890.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='153'/>
+<seriesInfo name='RFC' value='8190'/>
+<seriesInfo name='DOI' value='10.17487/RFC8190'/>
+</reference>
+</referencegroup>

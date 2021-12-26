@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mosko-icnrg-ccnxsemantics'>
+<front>
+<title>CCNx Semantics</title>
+
+<author initials='M' surname='Mosko' fullname='Marc Mosko'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>This document describes the core concepts of the CCNx architecture and presents a minimum network protocol based on two messages: Interest and Content Object.  It specifies the set of mandatory and optional fields within those messages and describes their behavior and interpretation.  This architecture and protocol specification is independent of a specific wire encoding.  The protocol also uses a Control message called an InterestReturn, whereby one system can return an Interest message to the previous hop due to an error condition.  It indicates to the previous hop that the current system will not respond to the Interest.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mosko-icnrg-ccnxsemantics-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mosko-icnrg-ccnxsemantics-01.txt' />
+</reference>

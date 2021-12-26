@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-rfc6555bis'>
+<front>
+<title>Happy Eyeballs Version 2: Better Connectivity Using Concurrency</title>
+
+<author initials='D' surname='Schinazi' fullname='David Schinazi'>
+    <organization />
+</author>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2017' />
+
+<abstract><t>Many communication protocols operated over the modern Internet use host names.  These often resolve to multiple IP addresses, each of which may have different performance and connectivity characteristics.  Since specific addresses or address families (IPv4 or IPv6) may be blocked, broken, or sub-optimal on a network, clients that attempt multiple connections in parallel have a higher chance of establishing a connection sooner.  This document specifies requirements for algorithms that reduce this user-visible delay and provides an example algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-rfc6555bis-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-rfc6555bis-06.txt' />
+</reference>

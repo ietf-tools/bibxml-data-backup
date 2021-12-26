@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-geopriv-held-identity-extensions'>
+<front>
+<title>Use of Device Identity in HTTP-Enabled Location Delivery (HELD)</title>
+
+<author initials='J' surname='Winterbottom' fullname='James Winterbottom'>
+    <organization />
+</author>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2010' />
+
+<abstract><t>When a Location Information Server receives a request for location information (using the locationRequest message), described in the base HTTP Enabled Location Delivery (HELD) specification, it uses the source IP address of the arriving message as a pointer to the location determination process.  This is sufficient in environments where the location of a Device can be determined based on its IP address.  Two additional use cases are addressed by this document.  In the first, location configuration requires additional or alternative identifiers from the source IP address provided in the request.  In the second, an entity other than the Device requests the location of the Device.  This document extends the HELD protocol to allow the location request message to carry Device identifiers.  Privacy and security considerations describe the conditions where requests containing identifiers are permitted.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-geopriv-held-identity-extensions-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-geopriv-held-identity-extensions-03.txt' />
+</reference>

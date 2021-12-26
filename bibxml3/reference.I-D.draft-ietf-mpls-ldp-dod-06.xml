@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-ldp-dod'>
+<front>
+<title>LDP Downstream-on-Demand in Seamless MPLS</title>
+
+<author initials='T' surname='Beckhaus' fullname='Thomas Beckhaus'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='K' surname='Tiruveedhula' fullname='Kishore Tiruveedhula'>
+    <organization />
+</author>
+
+<author initials='M' surname='Konstantynowicz' fullname='Maciek Konstantynowicz'>
+    <organization />
+</author>
+
+<author initials='L' surname='Martini' fullname='Luca Martini'>
+    <organization />
+</author>
+
+<date month='May' day='10' year='2013' />
+
+<abstract><t>Seamless MPLS design enables a single IP/MPLS network to scale over core, metro and access parts of a large packet network infrastructure using standardized IP/MPLS protocols.  One of the key goals of Seamless MPLS is to meet requirements specific to access, including high number of devices, their position in network topology and their compute and memory constraints that limit the amount of state access devices can hold.This can be achieved with LDP Downstream-on-Demand (LDP DoD) label advertisement.  This document describes LDP DoD use cases and lists required LDP DoD procedures in the context of Seamless MPLS design.  In addition, a new optional TLV type in the LDP Label Request message is defined for fast-up convergence.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-ldp-dod-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-ldp-dod-06.txt' />
+</reference>

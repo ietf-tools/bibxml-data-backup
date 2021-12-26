@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6362' target='https://www.rfc-editor.org/info/rfc6362'>
+<front>
+<title>Multiple Attachments for Electronic Data Interchange - Internet Integration (EDIINT)</title>
+<author initials='K.' surname='Meadors' fullname='K. Meadors' role='editor'><organization /></author>
+<date year='2011' month='August' />
+<abstract><t>The Electronic Data Interchange - Internet Integration (EDIINT) AS1, AS2, and AS3 messages were designed specifically for the transport of EDI documents.  Since multiple interchanges could be placed within a single EDI document, there was not a need for sending multiple EDI documents in a single message.  As adoption of EDIINT grew, other uses developed aside from single EDI document transport.  Some transactions required multiple attachments to be interpreted together and stored in a single message.  This Informational RFC describes how multiple documents, including non-EDI payloads, can be attached and transmitted in a single EDIINT transport message.  The attachments are stored within the MIME multipart/related structure.  A minimal list of content-types to be supported as attachments is provided. This document is not an Internet Standards Track specification; it is published for informational purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6362'/>
+<seriesInfo name='DOI' value='10.17487/RFC6362'/>
+</reference>

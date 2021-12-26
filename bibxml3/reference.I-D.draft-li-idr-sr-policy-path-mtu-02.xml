@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-idr-sr-policy-path-mtu'>
+<front>
+<title>Segment Routing Path MTU in BGP</title>
+
+<author initials='C' surname='Li' fullname='Cheng Li'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Zhu' fullname='Yongqing Zhu'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2019' />
+
+<abstract><t>Segment Routing is a source routing paradigm that explicitly indicates the forwarding path for packets at the ingress node.  An SR policy is a set of candidate SR paths consisting of one or more segment lists with necessary path attributes.  However, the path maximum transmission unit (MTU) information for SR path is not available in the SR policy since the SR does not require signaling. This document defines extensions to BGP to distribute path MTU information within SR policies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-idr-sr-policy-path-mtu-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-idr-sr-policy-path-mtu-02.txt' />
+</reference>

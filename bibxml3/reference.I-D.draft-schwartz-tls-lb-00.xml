@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schwartz-tls-lb'>
+<front>
+<title>TLS Metadata for Load Balancers</title>
+
+<author initials='B' surname='Schwartz' fullname='Benjamin Schwartz'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2019' />
+
+<abstract><t>A load balancer that does not terminate TLS may wish to provide some information to the backend server, in addition to forwarding TLS data.  This draft proposes a protocol between load balancers and backends that enables secure, efficient delivery of TLS with additional information.  The need for such a protocol has recently become apparent in the context of split mode ESNI.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schwartz-tls-lb-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schwartz-tls-lb-00.txt' />
+</reference>

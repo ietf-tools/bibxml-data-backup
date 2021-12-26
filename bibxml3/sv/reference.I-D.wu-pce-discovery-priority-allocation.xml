@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-pce-discovery-priority-allocation'>
+<front>
+<title>IGP extension for PCEP transport capability support in the PCE discovery</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2013' />
+
+<abstract><t>[RFC5088][RFC5089] define a method to advertise path computation capabilities using IGP flooding.  OSPF and ISIS are extended to support such capabilities advertisement.  However [RFC5088][RFC5089]don't provide a method to advertise PCEP over TLS support capability.  This document proposes new capability flag bit for PCE-CAP-FLAGS sub- TLV that can be announced as attribute in the IGP advertisement (defined in [RFC5088 ][RFC5089]) to distribute transport support information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-pce-discovery-priority-allocation-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-pce-discovery-priority-allocation-01.txt' />
+</reference>

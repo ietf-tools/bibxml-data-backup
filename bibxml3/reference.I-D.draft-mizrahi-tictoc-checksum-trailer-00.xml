@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mizrahi-tictoc-checksum-trailer'>
+<front>
+<title>UDP Checksum Trailer in Timing Protocols</title>
+
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2011' />
+
+<abstract><t>Various time synchronization and delay measurement protocols are transported over UDP, e.g., PTP, NTP, and OWAMP/TWAMP. These protocols use timestamped packets that often have to be modified by intermediate nodes in the network. In such cases the UDP checksum field must be updated to reflect these modifications. The IEEE 1588 standard suggests to append 2 octets to every protocol message, allowing intermediate nodes to reflect the checksum modification in the last 2 octets rather than in the UDP checksum field. This document generalizes this concept, and defines a UDP Checksum Trailer for NTP and for OWAMP/TWAMP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mizrahi-tictoc-checksum-trailer-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mizrahi-tictoc-checksum-trailer-00.txt' />
+</reference>

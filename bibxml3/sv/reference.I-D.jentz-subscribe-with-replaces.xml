@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jentz-subscribe-with-replaces'>
+<front>
+<title>Subscription Mobility for the Session Initiation Protocol (SIP) using  SUBSCRIBE with Replaces</title>
+
+<author initials='B' surname='Jentz' fullname='Bradley Jentz'>
+    <organization />
+</author>
+
+<date month='June' day='22' year='2006' />
+
+<abstract><t>A device using the Session Initiation Protocol (SIP) may need to perform a handover between networks that results in a corresponding change to the mobile's SIP edge proxy. Alternatively, there may be the need to transfer a SIP dialog from one device to another. In both of these scenarios, the device needs a procedure to allow it to take an existing SIP dialog and logically replace it with a new SIP dialog. An important subset of these dialogs consists of the device's subscription dialogs. This document proposes to extend the SIP SUBSCRIBE method to include the Replaces header field for the purpose of enabling a more robust solution to SIP subscription mobility.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jentz-subscribe-with-replaces-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jentz-subscribe-with-replaces-01.txt' />
+</reference>

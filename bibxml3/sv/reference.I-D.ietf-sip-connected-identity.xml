@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-connected-identity'>
+<front>
+<title>Connected Identity in the Session Initiation Protocol (SIP)</title>
+
+<author initials='J' surname='Elwell' fullname='John Elwell'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2007' />
+
+<abstract><t>This document provides a means for a Session Initiation Protocol (SIP) User Agent (UA) that receives a dialog-forming request to supply its identity to the peer UA by means of a request in the reverse direction and for that identity to be signed by an Authentication Service. Because of retargeting of a dialog-forming request (changing the value of the Request-URI), the UA that receives it (the User Agent Server, UAS) can have a different identity from that in the To header field. The same mechanism can be used to indicate a change of identity during a dialog, e.g., because of some action in the Public Switched Telephone Network (PSTN) behind a gateway. This document normatively updates RFC 3261 (SIP).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-connected-identity-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-connected-identity-05.txt' />
+</reference>

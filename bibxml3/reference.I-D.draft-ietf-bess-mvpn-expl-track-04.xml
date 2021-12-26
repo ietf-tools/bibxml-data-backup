@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-mvpn-expl-track'>
+<front>
+<title>Explicit Tracking with Wild Card Routes in Multicast VPN</title>
+
+<author initials='A' surname='Dolganow' fullname='Andrew Dolganow'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kotalwar' fullname='Jayant Kotalwar'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<date month='January' day='16' year='2018' />
+
+<abstract><t>The MVPN specifications provide procedures to allow a multicast ingress node to invoke "explicit tracking" for a multicast flow or set of flows, thus learning the egress nodes for that flow or set of flows.  However, the specifications are not completely clear about how the explicit tracking procedures work in certain scenarios.  This document provides the necessary clarifications.  It also specifies a new, optimized explicit tracking procedure.  This new procedure allows an ingress node, by sending a single message, to request explicit tracking of each of a set of flows, where the set of flows is specified using a wildcard mechanism.  This document updates RFC6625.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-mvpn-expl-track-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-mvpn-expl-track-04.txt' />
+</reference>

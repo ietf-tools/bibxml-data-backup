@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.arifumi-multi6-sas-policy-dist'>
+<front>
+<title>Source Address Selection Policy Distribution for Multihoming</title>
+
+<author initials='A' surname='Matsumoto' fullname='Arifumi  Matsumoto'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2004' />
+
+<abstract><t>This document describes a method for the distribution of source address selection policy from ISPs to gateway routers for consumers and from the gateways to end nodes. This method is particularly effective when a consumer site has multiple address blocks. Every end node is guided by the policy in selecting an appropriate source address for each destination address and every gateway is guided by the policy in forwarding packets to appropriate next-hop ISPs. This makes it possible for an end node to set a connection up without being concerned about failures of transfer due to ingress filtering by the ISPs, for ISP operators to manage consumers' behavior and networking policy, and for consumers to be provided with networks that are almost automatically robust and reliable.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-arifumi-multi6-sas-policy-dist-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-arifumi-multi6-sas-policy-dist-00.txt' />
+</reference>

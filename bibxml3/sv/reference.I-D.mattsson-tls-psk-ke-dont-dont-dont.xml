@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mattsson-tls-psk-ke-dont-dont-dont'>
+<front>
+<title>Key Exchange Without Forward Secrecy is NOT RECOMMENDED</title>
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+<organization />
+</author>
+<date year='2021' month='May' day='18' />
+<abstract><t>Key exchange without forward secrecy enables passive monitoring. Massive pervasive monitoring attacks relying on key exchange without forward secrecy has been reported, and many more have likely happened without ever being reported.  If key exchange without Diffie-Hellman is used, access to the long-term authentication keys enables a passive attacker to compromise past and future sessions.  Entities can get access to long-term key material in different ways: physical attacks, hacking, social engineering attacks, espionage, or by simply demanding access to keying material with or without a court order. psk_ke does not provide forward secrecy and is NOT RECOMMENDED.  This document sets the IANA registration of psk_ke to NOT RECOMMENDED.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-mattsson-tls-psk-ke-dont-dont-dont-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-mattsson-tls-psk-ke-dont-dont-dont-01.txt'/>
+</reference>

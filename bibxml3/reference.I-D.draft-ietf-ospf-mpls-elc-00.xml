@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-mpls-elc'>
+<front>
+<title>Signaling Entropy Label Capability Using OSPF</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<date month='April' day='20' year='2015' />
+
+<abstract><t>Multi Protocol Label Switching (MPLS) has defined a mechanism to load balance traffic flows using Entropy Labels (EL).  An ingress LSR cannot insert ELs for packets going into a given tunnel unless an egress LSR has indicated via signaling that it can process ELs on that tunnel.  This draft defines a mechanism to signal that capability using OSPF.  This mechanism is useful when the label advertisement is also done via OSPF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-mpls-elc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-mpls-elc-00.txt' />
+</reference>

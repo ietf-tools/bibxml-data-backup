@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-nat-traversal'>
+<front>
+<title>HIP Extensions for the Traversal of Network Address Translators</title>
+
+<author initials='V' surname='Schmitt' fullname='Vivien  Schmitt'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2007' />
+
+<abstract><t>The Host Identity Protocol (HIP) provides a new namespace that can be used for uniquely identifying hosts in public and also in private address realms. Usually, HIP control and data traffic cannot traverse Network Address Translators (NATs), that hinders general deployment. This document specifies NAT traversal extensions for HIP. As HIP is located between network and transport layer, the extensions also provide general-purpose NAT traversal support for all high-layer networking applications that run over HIP. The basic design concepts for these extensions have been adopted from the Interactive Connectivity Establishment (ICE) protocol to HIP. Using the specified extensions, two HIP-capable hosts are able to communicate with each other even when they are in different private address realms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-nat-traversal-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-nat-traversal-02.txt' />
+</reference>

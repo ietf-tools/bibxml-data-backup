@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sheffer-acme-star-request'>
+<front>
+<title>Generating Certificate Requests for Short-Term, Automatically-Renewed (STAR) Certificates</title>
+
+<author initials='Y' surname='Sheffer' fullname='Yaron Sheffer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lopez' fullname='Diego Lopez'>
+    <organization />
+</author>
+
+<author initials='O' surname='Dios' fullname='Oscar de Dios'>
+    <organization />
+</author>
+
+<author initials='A' surname='Pastor' fullname='Antonio Pastor'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2017' />
+
+<abstract><t>This memo proposes a protocol that allows a domain name owner to delegate to a third party (such as a CDN) control over a certificate that bears one or more names in that domain.  Specifically the third party creates a Certificate Signing Request for the domain, which can then be used by the domain owner to request a short term and automatically renewed (STAR) certificate.  This is a component in a solution where a third-party such as a CDN can terminate TLS sessions on behalf of a domain name owner (e.g., a content provider), and the domain owner can cancel this delegation at any time without having to rely on certificate revocation mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sheffer-acme-star-request-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sheffer-acme-star-request-00.txt' />
+</reference>

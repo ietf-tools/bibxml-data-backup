@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-dhcpv4-active-leasequery'>
+<front>
+<title>Active DHCPv4 Lease Query</title>
+
+<author initials='K' surname='Kinnear' fullname='Kim Kinnear'>
+    <organization />
+</author>
+
+<author initials='M' surname='Stapp' fullname='Mark Stapp'>
+    <organization />
+</author>
+
+<author initials='B' surname='Volz' fullname='Bernie Volz'>
+    <organization />
+</author>
+
+<author initials='N' surname='Russell' fullname='Neil Russell'>
+    <organization />
+</author>
+
+<date month='September' day='14' year='2015' />
+
+<abstract><t>The Dynamic Host Configuration Protocol for IPv4 (DHCPv4) has been extended with a Leasequery capability that allows a requestor to request information about DHCPv4 bindings [RFC4388].  That mechanism is limited to queries for individual bindings.  In some situations individual binding queries may not be efficient, or even possible. In addition, continuous update of an external requestor with Leasequery data is sometimes desired.  This document expands on the DHCPv4 Leasequery protocol, and allows for active transfer of near real-time DHCPv4 binding information data via TCP.  This document updates RFC6926, DHCPv4 Bulk Leasequery.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-dhcpv4-active-leasequery-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-dhcpv4-active-leasequery-06.txt' />
+</reference>

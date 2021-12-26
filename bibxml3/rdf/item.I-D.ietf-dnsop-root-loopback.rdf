@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-root-loopback-05.txt'>
+    <title>"Decreasing Access Time to Root Servers by Running One on Loopback", Warren Kumari, Paul Hoffman</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-dnsop-root-loopback-05.txt</link>
+    <description>Some DNS recursive resolvers have longer-than-desired round trip times to the closest DNS root server.  Some DNS recursive resolver operators want to prevent snooping of requests sent to DNS root servers by third parties.  Such resolvers can greatly decrease the round trip time and prevent observation of requests by running a copy of the full root zone on a loopback address (such as 127.0.0.1). This document shows how to start and maintain such a copy of the root zone that does not pose a threat to other users of the DNS, at the cost of adding some operational fragility for the operator.</description>
+    <dc:date>2015-10-01T07:00:00-00:00</dc:date>
+</item>

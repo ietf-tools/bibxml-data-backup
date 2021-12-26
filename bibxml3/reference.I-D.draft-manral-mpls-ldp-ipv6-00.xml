@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.manral-mpls-ldp-ipv6'>
+<front>
+<title>Updates to LDP for IPv6</title>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<author initials='R' surname='Papneja' fullname='Rajiv Papneja'>
+    <organization />
+</author>
+
+<date month='February' day='17' year='2008' />
+
+<abstract><t>LDP is defined in [RFC5036]. LDP (for Label Distribution Protocol) defines procedures for LSRs to distribute labels to support MPLS forwarding along normally routed paths. LDP is a protocol defined for distributing labels. It is the set of procedures and messages by which Label Switched Routers (LSRs) establish Label Switched Paths (LSPs) through a network by mapping network-layer routing information directly to data-link layer switched paths. These LSPs may have an endpoint at a directly attached neighbor (comparable to IP hop-by-hop forwarding), or may have an endpoint at a network egress node, enabling switching via all intermediary nodes. The LDP procedures are defined for both IPv4 and IPv6 networks. This document corrects and clarifies the LDP behavior for IPv6 networks as defined in [RFC5036] for helping in better interoperability between implementations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-manral-mpls-ldp-ipv6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-manral-mpls-ldp-ipv6-00.txt' />
+</reference>

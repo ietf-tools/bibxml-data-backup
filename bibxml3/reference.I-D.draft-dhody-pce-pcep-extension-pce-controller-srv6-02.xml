@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dhody-pce-pcep-extension-pce-controller-srv6'>
+<front>
+<title>PCEP Procedures and Protocol Extensions for Using PCE as a Central Controller (PCECC) for SRv6</title>
+
+<author initials='M' surname='Negi' fullname='Mahendra Negi'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='X' surname='Geng' fullname='Xuesong Geng'>
+    <organization />
+</author>
+
+<date month='August' day='22' year='2019' />
+
+<abstract><t>The Path Computation Element (PCE) is a core component of Software- Defined Networking (SDN) systems.  It can compute optimal paths for traffic across a network and can also update the paths to reflect changes in the network or traffic demands.  PCE was developed to derive paths for MPLS Label Switched Paths (LSPs), which are supplied to the head end of the LSP using the Path Computation Element Communication Protocol (PCEP).  But SDN has a broader applicability than signaled (G)MPLS traffic-engineered (TE) networks, and the PCE may be used to determine paths in a range of use cases.  PCEP has been proposed as a control protocol for use in these environments to allow the PCE to be fully enabled as a central controller.  A PCE-based central controller (PCECC) can simplify the processing of a distributed control plane by blending it with elements of SDN and without necessarily completely replacing it.  This document specifies the procedures and PCEP protocol extensions when a PCE-based controller is also responsible for configuring the forwarding actions on the routers for Segment Routing in IPv6 (SRv6), in addition to computing the SRv6 paths for packet flows and telling the edge routers what instructions to attach to packets as they enter the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dhody-pce-pcep-extension-pce-controller-srv6-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dhody-pce-pcep-extension-pce-controller-srv6-02.txt' />
+</reference>

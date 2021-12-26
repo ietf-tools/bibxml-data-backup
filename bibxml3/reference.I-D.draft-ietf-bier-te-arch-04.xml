@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-te-arch'>
+<front>
+<title>Traffic Engineering for Bit Index Explicit Replication (BIER-TE)</title>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='G' surname='Cauchie' fullname='Gregory Cauchie'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2019' />
+
+<abstract><t>This memo introduces per-packet stateless strict and loose path engineered replication and forwarding for Bit Index Explicit Replication packets ([RFC8279]).  This is called BIER-TE.  BIER-TE leverages the BIER architecture ([RFC8279]) and extends it with a new semantic for bits in the bitstring.  BIER-TE can leverage BIER forwarding engines with little or no changes.  In BIER, the BitPositions (BP) of the packets bitstring indicate BIER Forwarding Egress Routers (BFER), and hop-by-hop forwarding uses a Routing Underlay such as an IGP.  In BIER-TE, BitPositions indicate adjacencies.  The BIFT of each BFR are only populated with BPs that are adjacent to the BFR in the BIER- TE topology.  The BIER-TE topology can consist of layer 2 or remote (route) adjacencies.  The BFR then replicates and forwards BIER packets to those adjacencies.  This results in the aforementioned strict and loose path forwarding.  BIER-TE can co-exist with BIER forwarding in the same domain, for example by using separate sub-domains.  In the absence of routed adjacencies, BIER-TE does not require a BIER routing underlay, and can then be operated without requiring an IGP routing protocol.  BIER-TE operates without explicit in-network tree-building and carries the multicast distribution tree in the packet header.  It can therefore be a good fit to support multicast path steering in Segment Routing (SR) networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-te-arch-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-te-arch-04.txt' />
+</reference>

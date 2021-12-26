@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vkrasnov-tls-jumpstart'>
+<front>
+<title>Transport Layer Security (TLS) Jump Start</title>
+
+<author initials='V' surname='Krasnov' fullname='Vlad Krasnov'>
+    <organization />
+</author>
+
+<date month='May' day='13' year='2015' />
+
+<abstract><t>This document specifies an optional behavior of TLS implementation called Jump Start.  It alters the way the initial Client and Server handshake messages reach their destination, but not the protocol data, and can be implemented unilaterally.  The TLS Jump Start feature leads to a latency reduction of one round trip for all handshakes (on average).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vkrasnov-tls-jumpstart-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vkrasnov-tls-jumpstart-00.txt' />
+</reference>

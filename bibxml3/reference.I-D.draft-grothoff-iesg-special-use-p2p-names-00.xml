@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.grothoff-iesg-special-use-p2p-names'>
+<front>
+<title>Special-Use Domain Names of Peer-to-Peer Name Systems</title>
+
+<author initials='C' surname='Grothoff' fullname='Christian Grothoff'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wachs' fullname='Matthias Wachs'>
+    <organization />
+</author>
+
+<author initials='h' surname='hellekin' fullname='hellekin'>
+    <organization />
+</author>
+
+<author initials='J' surname='Appelbaum' fullname='Jacob Appelbaum'>
+    <organization />
+</author>
+
+<date month='November' day='14' year='2013' />
+
+<abstract><t>Today, the Domain Name System (DNS) is a key service for the Internet.  DNS is primarily used to map human-memorable names to IP addresses, which are used for routing but generally not meaningful for humans.  However, the hierarchical nature of DNS makes it unsuitable for various Peer-to-Peer (P2P) Name Systems.  As compatibility with applications using DNS names is desired, these overlay networks often define alternative pseudo Top-Level Domains (pTLDs) to integrate names from the P2P domain into the DNS hierarchy.  This memo describes common Special-Use Domain Names [RFC6761] pseudo Top-Level DNS Names designed to help harden name resolution security (e.g., [RFC6840][RFC6975]), provide censorship resistance, and protect the users' privacy on the Internet.  In this IESG Approval document we are asking for domain name reservations for five Special-Use Domain Names [RFC6761] TLDs: ".gnu", ".zkey", ".onion", ".exit", and ".i2p".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-grothoff-iesg-special-use-p2p-names-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-grothoff-iesg-special-use-p2p-names-00.txt' />
+</reference>

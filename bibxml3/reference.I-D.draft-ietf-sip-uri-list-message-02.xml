@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-uri-list-message'>
+<front>
+<title>Multiple-Recipient MESSAGE Requests in the Session Initiation Protocol  (SIP)</title>
+
+<author initials='M' surname='Garcia-Martin' fullname='Miguel Garcia-Martin'>
+    <organization />
+</author>
+
+<author initials='G' surname='Camarillo' fullname='Gonzalo Camarillo'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2007' />
+
+<abstract><t>This document specifies a mechanism that allows a SIP User Agent Client (UAC) to request a SIP URI-list (Uniform Resource Identifier list) service to send a SIP MESSAGE request to a set of destinations. The client sends a SIP MESSAGE request that includes the payload along with the URI-list to the MESSAGE URI-list service, which sends a similar MESSAGE request to each of the URIs included in the list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-uri-list-message-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-uri-list-message-02.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-bhatia-karp-ospf-ip-layer-protection-03.txt'>
+    <title>"Security Extension for OSPFv2 when using Manual Key Management", Manav Bhatia, Sam Hartman, Dacheng Zhang</title>
+    <link>http://www.ietf.org/internet-drafts/draft-bhatia-karp-ospf-ip-layer-protection-03.txt</link>
+    <description>The current OSPFv2 cryptographic authentication mechanism as defined in the OSPF standards is vulnerable to both inter-session and intra- session replay attacks when its uses manual keying.  Additionally, the existing cryptographic authentication schemes do not cover the IP header.  This omission can be exploited to carry out various types of attacks.  This draft proposes an authentication scheme based on a challenge- response mechanism that will protect OSPFv2 from both inter and intra replay attacks when its using manual keys for securing its protocol packets.  For comparison, an approach based on making sequence numbers unique is presented.  Later we also describe some changes in the cryptographic hash computation so that we eliminate most attacks that result because of OSPFv2 not protecting the IP header.</description>
+    <dc:date>2011-02-13T23:00:00-00:00</dc:date>
+</item>

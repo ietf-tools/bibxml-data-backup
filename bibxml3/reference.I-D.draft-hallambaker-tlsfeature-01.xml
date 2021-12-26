@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hallambaker-tlsfeature'>
+<front>
+<title>X.509v3 TLS Feature Extension</title>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='April' day='1' year='2013' />
+
+<abstract><t>The purpose of the TLS Feature extension is to prevent downgrade attacks that are not otherwise prevented by the TLS protocol.  In particular, the TLS Feature extension may be used to mandate support for revocation checking features in the TLS protocol such as OCSP stapling.  Informing clients that an OCSP status response will always be stapled permits an immediate failure in the case that the response is not stapled.  This in turn prevents a denial of service attack that might otherwise be possible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hallambaker-tlsfeature-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hallambaker-tlsfeature-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hallambaker-tlsfeature-01.pdf' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.manhoudt-pwe3-tsop'>
+<front>
+<title>Transparent SDH/SONET over Packet</title>
+
+<author initials='G' surname='Manhoudt' fullname='Gert Manhoudt'>
+    <organization />
+</author>
+
+<author initials='S' surname='Roullot' fullname='Stephan Roullot'>
+    <organization />
+</author>
+
+<author initials='K' surname='Wong' fullname='Kin Wong'>
+    <organization />
+</author>
+
+<date month='February' day='8' year='2013' />
+
+<abstract><t>This document describes the Transparent SDH/SONET over Packet (TSoP) mechanism to encapsulate Synchronous Digital Hierarchy (SDH) or Synchronous Optical NETwork (SONET) bit-streams in a packet format, suitable for Pseudowire (PW) transport over a packet switched network (PSN).  The key property of the TSoP  method is that it transports the SDH/SONET client signal in its entirety through the PW, i.e., no use is made of any specific characteristic of the SONET/SDH signal format, other than its bit rate.  The TSoP transparency includes transporting the timing properties of the SDH/SONET client signal. This ensures a maximum of transparency and a minimum of complexity, both in implementation and during operation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-manhoudt-pwe3-tsop-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-manhoudt-pwe3-tsop-02.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-teas-yang-path-computation'>
+<front>
+<title>Yang model for requesting Path Computation</title>
+
+<author initials='I' surname='Busi' fullname='Italo Busi'>
+    <organization />
+</author>
+
+<author initials='S' surname='Belotti' fullname='Sergio Belotti'>
+    <organization />
+</author>
+
+<author initials='V' surname='Lopezalvarez' fullname='Victor Lopezalvarez'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sharma' fullname='Anurag Sharma'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Shi' fullname='Yan Shi'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2020' />
+
+<abstract><t>There are scenarios, typically in a hierarchical SDN context, where the topology information provided by a TE network provider may not be sufficient for its client to perform end-to-end path computation. In these cases the client would need to request the provider to calculate some (partial) feasible paths.  This document defines a YANG data model for an RPC to request path computation. This model complements the solution, defined in RFCXXXX, to configure a TE Tunnel path in "compute-only" mode.  [RFC EDITOR NOTE: Please replace RFC XXXX with the RFC number of draft-ietf-teas-yang-te once it has been published.  Moreover this document describes some use cases where a path computation request, via YANG-based protocols (e.g., NETCONF or RESTCONF), can be needed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-teas-yang-path-computation-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-teas-yang-path-computation-09.txt' />
+</reference>

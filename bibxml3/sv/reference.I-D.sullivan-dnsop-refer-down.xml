@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sullivan-dnsop-refer-down'>
+<front>
+<title>Please See Below: Use Only Downward Referrals in the DNS</title>
+
+<author initials='A' surname='Sullivan' fullname='Andrew Sullivan'>
+    <organization />
+</author>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<date month='November' day='28' year='2017' />
+
+<abstract><t>A server in the Domain Name System can use a mechanism called "referral" to indicate that the server is not authoritative for a given zone, and to redirect the query to another, more appropriate server.  The mechanism was originally specified such that a referral might be to any location in the DNS.  Operational experience indicates dubious value to referrals other than those to zones below the zones for which a server is authoritative.  This memo therefore recommends such referrals and discourages other kinds of referrals.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sullivan-dnsop-refer-down-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sullivan-dnsop-refer-down-00.txt' />
+</reference>

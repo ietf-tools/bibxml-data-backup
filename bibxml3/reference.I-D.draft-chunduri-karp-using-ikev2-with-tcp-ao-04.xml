@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chunduri-karp-using-ikev2-with-tcp-ao'>
+<front>
+<title>A framework for RPs to use IKEv2 KMP</title>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='A' surname='Tian' fullname='Albert Tian'>
+    <organization />
+</author>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>This document describes a mechanism to secure pairwise Routing Protocol associations using the IKEv2 Key Management Protocol (KMP). Most of the pairwise Routing Protocols (RPs) are TCP-based but the framework described here is applicable to other pairwise RPs, which not necessarily use the TCP at transport layer.  A Gatekeeper mechanism is introduced to allow all pairwise RPs to coordinate with IKEv2 Protocol to pass the policy, get the keying material and to maintain the security associations.  The Gatekeeper also allows pairwise RPs which use TCP-AO to coordinate with IKEv2 without fundamental modification to either.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chunduri-karp-using-ikev2-with-tcp-ao-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chunduri-karp-using-ikev2-with-tcp-ao-04.txt' />
+</reference>

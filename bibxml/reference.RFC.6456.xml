@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6456' target='https://www.rfc-editor.org/info/rfc6456'>
+<front>
+<title>Multi-Segment Pseudowires in Passive Optical Networks</title>
+<author initials='H.' surname='Li' fullname='H. Li'><organization /></author>
+<author initials='R.' surname='Zheng' fullname='R. Zheng'><organization /></author>
+<author initials='A.' surname='Farrel' fullname='A. Farrel'><organization /></author>
+<date year='2011' month='November' />
+<abstract><t>This document describes the application of MPLS multi-segment pseudowires (MS-PWs) in a dual-technology environment comprising a Passive Optical Network (PON) and an MPLS Packet Switched Network (PSN).</t><t>PON technology may be used in mobile backhaul networks to support the end segments closest to the aggregation devices.  In these cases, there may be a very large number of pseudowire (PW) Terminating Provider Edge (T-PE) nodes.  The MPLS control plane could be used to provision these end segments, but support for the necessary protocols would complicate the management of the T-PEs and would significantly increase their expense.  Alternatively, static, or management plane, configuration could be used to configure the end segments, but the very large number of such segments in a PON places a very heavy burden on the network manager.</t><t>This document describes how to set up the end segment of an end-to- end MPLS PW over a Gigabit-capable Passive Optical Network (G-PON) or 10 Gigabit-capable Passive Optical Network (XG-PON) using the G-PON and XG-PON management protocol, Optical Network Termination Management and Control Interface (OMCI).  This simplifies and speeds up PW provisioning compared with manual configuration.</t><t>This document also shows how an MS-PW may be constructed from an end segment supported over a PON, and switched to one or more segments supported over an MPLS PSN.  This document is not an Internet Standards  Track specification; it is published for informational purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6456'/>
+<seriesInfo name='DOI' value='10.17487/RFC6456'/>
+</reference>

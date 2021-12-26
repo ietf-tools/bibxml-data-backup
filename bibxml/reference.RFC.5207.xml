@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5207' target='https://www.rfc-editor.org/info/rfc5207'>
+<front>
+<title>NAT and Firewall Traversal Issues of Host Identity Protocol (HIP) Communication</title>
+<author initials='M.' surname='Stiemerling' fullname='M. Stiemerling'><organization /></author>
+<author initials='J.' surname='Quittek' fullname='J. Quittek'><organization /></author>
+<author initials='L.' surname='Eggert' fullname='L. Eggert'><organization /></author>
+<date year='2008' month='April' />
+<abstract><t>The Host Identity Protocol (HIP) changes the way in which two Internet hosts communicate.  One key advantage over other schemes is that HIP does not require modifications to the traditional network- layer functionality of the Internet, i.e., its routers.  In the current Internet, however, many devices other than routers modify the traditional network-layer behavior of the Internet.  These &quot;middleboxes&quot; are intermediary devices that perform functions other than the standard functions of an IP router on the datagram path between source and destination hosts.  Whereas some types of middleboxes may not interfere with HIP at all, others can affect some aspects of HIP communication, and others can render HIP communication impossible.  This document discusses the problems associated with HIP communication across network paths that include specific types of middleboxes, namely, network address translators and firewalls.  It identifies and discusses issues in the current HIP specifications that affect communication across these types of middleboxes.  This document is a product of the IRTF HIP Research Group.  This memo provides  information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5207'/>
+<seriesInfo name='DOI' value='10.17487/RFC5207'/>
+</reference>

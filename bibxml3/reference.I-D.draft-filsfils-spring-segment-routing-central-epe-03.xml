@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.filsfils-spring-segment-routing-central-epe'>
+<front>
+<title>Segment Routing Centralized Egress Peer Engineering</title>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='E' surname='Aries' fullname='Ebben Aries'>
+    <organization />
+</author>
+
+<author initials='s' surname='shaw@fb.com' fullname='shaw@fb.com'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ginsburg' fullname='Daniel Ginsburg'>
+    <organization />
+</author>
+
+<author initials='D' surname='Afanasiev' fullname='Dmitry Afanasiev'>
+    <organization />
+</author>
+
+<date month='January' day='14' year='2015' />
+
+<abstract><t>Segment Routing (SR) leverages source routing.  A node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header.  A segment can represent any instruction topological or service-based.  SR allows to enforce a flow through any topological path and service chain while maintaining per-flow state only at the ingress node of the SR domain.  The Segment Routing architecture can be directly applied to the MPLS dataplane with no change on the forwarding plane.  It requires minor extension to the existing link-state routing protocols.  This document illustrates the application of Segment Routing to solve the Egress Peer Engineering (EPE) requirement.  The SR-based EPE solution allows a centralized (SDN) controller to program any egress peer policy at ingress border routers or at hosts within the domain. This document is on the informational track.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-filsfils-spring-segment-routing-central-epe-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-filsfils-spring-segment-routing-central-epe-03.txt' />
+</reference>

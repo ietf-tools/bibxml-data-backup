@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.geng-iac-caba'>
+<front>
+<title>Efficient Implementation Method for Loop-free Criterion</title>
+
+<author initials='H' surname='Geng' fullname='Haijun Geng'>
+    <organization />
+</author>
+
+<author initials='H' surname='Zhang' fullname='Han Zhang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Shi' fullname='Xingang Shi'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Wang' fullname='Zhiliang Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Yin' fullname='Xia Yin'>
+    <organization />
+</author>
+
+<date month='May' day='12' year='2020' />
+
+<abstract><t>[RFC5286] introduces Loop-Free Criterion (LFC) in detail, which is a technology for local fast rerouting when network failures occur. With LFC, alternate next hops are stored alongside with the default next hops in a routers forwarding table, and can be immediately activated to invoke a loop free repair path in face of link failure. As long as not introducing routing loops, these alternative next hops can also be used for multipath transmission if there are stringent demands on bandwidth or load balancing.  However, in such link state networks, computing loop free alternates typically requires one or more rounds of full shortest path tree computation on a graph, and poses a heavy burden to both the processor load and the memory consumption of a network equipment.  In this document, we describe an efficient Loop-free Criterion (LFC) implementation method which is based on incremental shortest path first (i-SPF), which is suitable for practical deployment in large scale networks.  The computational complexity of the method is independent of the average node degree of the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-geng-iac-caba-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-geng-iac-caba-00.txt' />
+</reference>

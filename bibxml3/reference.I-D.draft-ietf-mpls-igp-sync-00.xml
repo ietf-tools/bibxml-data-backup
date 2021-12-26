@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-igp-sync'>
+<front>
+<title>LDP IGP Synchronization</title>
+
+<author initials='M' surname='Jork' fullname='Markus Jork'>
+    <organization />
+</author>
+
+<date month='September' day='7' year='2007' />
+
+<abstract><t>In networks depending on edge-to-edge establishment of MPLS forwarding paths via LDP, blackholing of traffic can occur in situations where the IGP is operational on a link and thus the link is used for IP forwarding but LDP is not operational on that link for whatever reason.  This document describes a mechanism to avoid traffic loss due to this condition without introducing any protocol changes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-igp-sync-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-igp-sync-00.txt' />
+</reference>

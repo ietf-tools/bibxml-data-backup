@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bierman-netconf-system-monitoring'>
+<front>
+<title>NETCONF System Monitoring</title>
+
+<author initials='A' surname='Bierman' fullname='Andy Bierman'>
+    <organization />
+</author>
+
+<date month='June' day='10' year='2010' />
+
+<abstract><t>The NETCONF protocol provides mechanisms to manipulate configuration datastores.  However, client applications often need to examine system information to determine the appropriate configuration requirements.  In addition, common system events such as a change in system capabilities may impact management applications.  Standard mechanisms are needed to support the monitoring of the managed system supported by a NETCONF server.  This document defines a YANG module for the monitoring of system information, which allows a NETCONF client to identify system properties and receive notifications for system events.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bierman-netconf-system-monitoring-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bierman-netconf-system-monitoring-00.txt' />
+</reference>

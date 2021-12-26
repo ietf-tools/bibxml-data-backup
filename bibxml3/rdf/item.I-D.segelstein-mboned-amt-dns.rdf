@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-segelstein-mboned-amt-dns-00.txt'>
+    <title>"Using Domain Name Services to Enable an AMT Gateway to Discover the Optimal AMT Relay in a Multi-Network SSM Multicast Environment", David Segelstein, Ashley Flavel, Doug Nortz</title>
+    <link>http://www.ietf.org/internet-drafts/draft-segelstein-mboned-amt-dns-00.txt</link>
+    <description>One of the obstacles to implementing AMT Multicast in a multi-network environment is the difficulty an AMT Gateway may have in finding an AMT Relay that is optimal.  Optimal in this context means that the AMT Relay has multicast connectivity to the Source, and its location minimizes the unicast (tunneled) portion of the path to the Gateway. Blind use of the global anycast address specified for AMT Relays in "Automatic IP Multicast Without Explicit Tunnels (AMT)" could result in reaching an AMT Relay that does not have multicast connectivity to the source, which would yield a failure to obtain the multicast content; or it could result in reaching an AMT Relay that is otherwise less than optimal.  This document proposes a method for implementing standard DNS procedures so that an AMT Gateway using normal DNS queries can virtually always find the optimal AMT Relay for a given Source.</description>
+    <dc:date>2011-06-29T22:00:00-00:00</dc:date>
+</item>

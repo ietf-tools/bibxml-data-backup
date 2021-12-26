@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-alto-path-vector'>
+<front>
+<title>ALTO Extension: Path Vector Cost Type</title>
+
+<author initials='G' surname='Bernstein' fullname='Greg Bernstein'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chen' fullname='Shiwei Chen'>
+    <organization />
+</author>
+
+<author initials='K' surname='Gao' fullname='Kai Gao'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='W' surname='Roome' fullname='Wendy Roome'>
+    <organization />
+</author>
+
+<author initials='M' surname='Scharf' fullname='Michael Scharf'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='J. Zhang'>
+    <organization />
+</author>
+
+<date month='December' day='18' year='2017' />
+
+<abstract><t>The Application-Layer Traffic Optimization (ALTO) protocol [RFC7285] has defined several resources and services to provide clients with basic network information.  However, the base ALTO protocol and latest extensions only provide end-to-end metrics, which are insufficient to satisfy the demands of solving more complex network optimization problems.  This document introduces an extension to the base ALTO protocol, namely the path-vector extension, which allows ALTO clients to query information such as capacity regions for a given set of flows.  A non-normative example called multi-flow scheduling is presented to illustrate the limitations of existing ALTO (endpoint) cost maps.  After that, details of the extension are defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-alto-path-vector-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-alto-path-vector-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.swami-tcp-lmdr'>
+<front>
+<title>Lightweight Mobility Detection and Response (LMDR) Algorithm for TCP</title>
+
+<author initials='Y' surname='Swami' fullname='Yogesh Swami'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2006' />
+
+<abstract><t>TCP congestion control is based on the assumption that the end-to-end path of a connection changes only insignificantly after connection establishment. Network layer mobility protocols that change a connection's point of attachment transparently to the transport layer may violate this assumption and cause TCP to make congestion control decisions based on invalid information. This document describes a TCP option that allows a connection endpoint to inform a peer when it changes location. This document also outlines the proper congestion control behavior that should take place in the face of such network layer mobility.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-swami-tcp-lmdr-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-swami-tcp-lmdr-07.txt' />
+</reference>

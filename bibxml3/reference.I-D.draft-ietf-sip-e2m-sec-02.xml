@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-e2m-sec'>
+<front>
+<title>End-to-middle Security in the Session Initiation Protocol (SIP)</title>
+
+<author initials='K' surname='Ono' fullname='Kumiko  Ono'>
+    <organization />
+</author>
+
+<author initials='S' surname='Tachimoto' fullname='Shinya Tachimoto'>
+    <organization />
+</author>
+
+<date month='June' day='26' year='2006' />
+
+<abstract><t>Some services provided by intermediaries depend on their ability to inspect a message body in the Session Initiation Protocol (SIP). When sensitive information is included in the message body, a SIP User Agent (UA) needs to protect it from other intermediaries than those that the UA agreed to disclose it to. This document proposes a mechanism for securing information passed between an end user and intermediaries using S/MIME. It also proposes mechanisms for a UA to discover intermediaries which need to inspect an S/MIME-secured message body, or to receive the message body with data integrity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-e2m-sec-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-e2m-sec-02.txt' />
+</reference>

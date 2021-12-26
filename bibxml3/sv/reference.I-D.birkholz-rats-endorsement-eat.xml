@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birkholz-rats-endorsement-eat'>
+<front>
+<title>A CWT Claims Set Definition for RATS Endorsement Tokens</title>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='M' surname='Eckel' fullname='Michael Eckel'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>An Endorsement is defined by the RATS Architecture as a "secure statement that some entity (typically a manufacturer) vouches for the integrity of an Attester's signing capability".  This documents defines Claims to be used in CBOR Web Tokens in the same fashion attestation Evidence can be represented via Entity Attestation Tokens (EAT).  The defined Claims can be included in Endorsement Tokens. Endorsement Tokens can be provided by a manufacturer or a third party authority to vouch for the capabilities and characteristics of a hardware component a RATS Attester is not capable to create Evidence about.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-birkholz-rats-endorsement-eat-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-birkholz-rats-endorsement-eat-00.txt' />
+</reference>

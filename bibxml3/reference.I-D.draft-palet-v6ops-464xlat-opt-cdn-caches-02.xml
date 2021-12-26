@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.palet-v6ops-464xlat-opt-cdn-caches'>
+<front>
+<title>464XLAT Optimization</title>
+
+<author initials='J' surname='Palet' fullname='Jordi Palet'>
+    <organization />
+</author>
+
+<author initials='A' surname='D&apos;Egidio' fullname='Alejandro D&apos;Egidio'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2019' />
+
+<abstract><t>This document proposes possible solutions to avoid certain drawbacks of IP/ICMP Translation Algorithm (SIIT) when the destinations are available with IPv6.  When SIIT is used as a NAT46 and IPv4-only devices or applications initiate traffic flows to dual-stack CDNs (Content Delivery Networks), Caches or other network resources (in the operator network or Internet), those flows will be translated back to IPv4 by a NAT64.  This is the case for 464XLAT and MAP-T.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-palet-v6ops-464xlat-opt-cdn-caches-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-palet-v6ops-464xlat-opt-cdn-caches-02.txt' />
+</reference>

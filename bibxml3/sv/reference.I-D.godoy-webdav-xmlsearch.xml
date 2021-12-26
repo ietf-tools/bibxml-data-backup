@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.godoy-webdav-xmlsearch'>
+<front>
+<title>A WebDAV Search Grammar for XML Properties</title>
+
+<author initials='R' surname='Godoy' fullname='Roberto Javier Godoy'>
+    <organization />
+</author>
+
+<author initials='H' surname='Minni' fullname='Hugo  Minni'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>This document specifies xml-search, a search grammar for use with the Web Distributed Authoring and Versioning (WebDAV) SEARCH protocol. It extends the DAV:basicsearch grammar with XPath expressions that are evaluated on resources' properties whose values are XML fragments.  The full expression power of XPath may exceed the requirement in simple use cases; therefore, some provisions are made in order to reduce the computational cost of evaluating allowed queries.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-godoy-webdav-xmlsearch-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-godoy-webdav-xmlsearch-02.txt' />
+</reference>

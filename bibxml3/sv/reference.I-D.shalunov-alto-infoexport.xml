@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shalunov-alto-infoexport'>
+<front>
+<title>ALTO Information Export Service</title>
+
+<author initials='S' surname='Shalunov' fullname='Stanislav Shalunov'>
+    <organization />
+</author>
+
+<author initials='R' surname='Penno' fullname='Reinaldo Penno'>
+    <organization />
+</author>
+
+<author initials='R' surname='Woundy' fullname='Richard Woundy'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2008' />
+
+<abstract><t>The ALTO Information Export Service is a simple way to convey ISP routing policy preferences to applications.  Applications that could use this service are those that have a choice in connection endpoints.  Examples of such applications are peer-to-peer and content delivery networks.  Applications already have access to great amount of underlying topology information.  For example, views of the Internet routing table are easily available at looking glass servers and entirely practical to download to every client.  What is missing is the routing policy information -- what does the local ISP actually prefer?  This document describes a very simple mechanism that would allow to export such information to applications.  While such service would primarily be provided by the network, i.e., the local ISP, third parties could also operate this service.1.  Requirements notation</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shalunov-alto-infoexport-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shalunov-alto-infoexport-00.txt' />
+</reference>

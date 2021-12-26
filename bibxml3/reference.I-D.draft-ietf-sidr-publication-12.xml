@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-publication'>
+<front>
+<title>A Publication Protocol for the Resource Public Key Infrastructure (RPKI)</title>
+
+<author initials='S' surname='Weiler' fullname='Samuel Weiler'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sonalker' fullname='Anuja Sonalker'>
+    <organization />
+</author>
+
+<author initials='R' surname='Austein' fullname='Rob Austein'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2017' />
+
+<abstract><t>This document defines a protocol for publishing Resource Public Key Infrastructure (RPKI) objects.  Even though the RPKI will have many participants issuing certificates and creating other objects, it is operationally useful to consolidate the publication of those objects. Even in cases where a certificate issuer runs their own publication repository, it can be useful to run the certificate engine itself on a different machine from the publication repository.  This document defines a protocol which addresses these needs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-publication-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-publication-12.txt' />
+</reference>

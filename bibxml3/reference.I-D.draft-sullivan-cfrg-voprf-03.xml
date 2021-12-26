@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sullivan-cfrg-voprf'>
+<front>
+<title>Oblivious Pseudorandom Functions (OPRFs) using Prime-Order Groups</title>
+
+<author initials='A' surname='Davidson' fullname='Alex Davidson'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sullivan' fullname='Nick Sullivan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>An Oblivious Pseudorandom Function (OPRF) is a two-party protocol for computing the output of a PRF.  One party (the server) holds the PRF secret key, and the other (the client) holds the PRF input.  The 'obliviousness' property ensures that the server does not learn anything about the client's input during the evaluation.  The client should also not learn anything about the server's secret PRF key. Optionally, OPRFs can also satisfy a notion 'verifiability' (VOPRF). In this setting, the client can verify that the server's output is indeed the result of evaluating the underlying PRF with just a public key.  This document specifies OPRF and VOPRF constructions instantiated within prime-order groups, including elliptic curves.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sullivan-cfrg-voprf-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sullivan-cfrg-voprf-03.txt' />
+</reference>

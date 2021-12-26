@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tcpm-syn-op-sis'>
+<front>
+<title>Extended TCP Option Space in the Payload of an Alternative SYN</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2014' />
+
+<abstract><t>This document describes an experimental method to extend the option space for connection parameters within the initial TCP SYN segment at the start of a TCP connection.  In this method the TCP client sends two alternative SYNs: one intended for legacy servers and one intended for upgraded servers.  Once it establishes which type of server has responded, it continues the connection appropriate to that server type and aborts the other.  The SYN intended for upgraded servers includes additional options at the end of the payload.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tcpm-syn-op-sis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tcpm-syn-op-sis-00.txt' />
+</reference>

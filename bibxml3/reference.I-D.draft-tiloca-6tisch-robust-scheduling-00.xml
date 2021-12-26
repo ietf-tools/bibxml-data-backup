@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tiloca-6tisch-robust-scheduling'>
+<front>
+<title>Robust scheduling against selective jamming in 6TiSCH networks</title>
+
+<author initials='M' surname='Tiloca' fullname='Marco Tiloca'>
+    <organization />
+</author>
+
+<author initials='S' surname='Duquennoy' fullname='Simon Duquennoy'>
+    <organization />
+</author>
+
+<author initials='G' surname='Dini' fullname='Gianluca Dini'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2018' />
+
+<abstract><t>This document defines a method to generate robust TSCH schedules in a 6TiSCH (IPv6 over the TSCH mode of IEEE 802.15.4-2015) network, so as to protect network nodes against selective jamming attack.  Network nodes independently compute the new schedule at each slotframe, by altering the one originally available from 6top or alternative protocols, while preserving a consistent and collision-free communication pattern.  This method can be added on top of the minimal security framework for 6TiSCH.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tiloca-6tisch-robust-scheduling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tiloca-6tisch-robust-scheduling-00.txt' />
+</reference>

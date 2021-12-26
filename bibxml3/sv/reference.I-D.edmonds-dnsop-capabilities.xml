@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.edmonds-dnsop-capabilities'>
+<front>
+<title>Signaling DNS Capabilities</title>
+
+<author initials='R' surname='Edmonds' fullname='Robert Edmonds'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2017' />
+
+<abstract><t>This document defines an Extension Mechanisms for DNS (EDNS0) option that allows DNS clients and servers to signal support for DNS protocol capabilities.  Clients and servers that support this option can take advantage of new DNS protocol features when completing a transaction, and by caching the set of capabilities advertised by a DNS server, a DNS client can utilize any mutually supported DNS protocol capability in subsequent queries.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-edmonds-dnsop-capabilities-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-edmonds-dnsop-capabilities-00.txt' />
+</reference>

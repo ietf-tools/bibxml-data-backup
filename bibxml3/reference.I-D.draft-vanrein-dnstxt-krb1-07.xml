@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanrein-dnstxt-krb1'>
+<front>
+<title>Declaring Kerberos Realm Names in DNS (_kerberos TXT)</title>
+
+<author initials='R' surname='Rein' fullname='Rick van Rein'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2016' />
+
+<abstract><t>This specification defines a method to determine Kerberos realm names for services that are known by their DNS name.  Currently, such information can only be found in static mappings or through educated guesses.  DNS can make this process more flexible, provided that DNSSEC is used to assure authenticity of resource records.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanrein-dnstxt-krb1-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanrein-dnstxt-krb1-07.txt' />
+</reference>

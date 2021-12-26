@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5220' target='https://www.rfc-editor.org/info/rfc5220'>
+<front>
+<title>Problem Statement for Default Address Selection in Multi-Prefix Environments: Operational Issues of RFC 3484 Default Rules</title>
+<author initials='A.' surname='Matsumoto' fullname='A. Matsumoto'><organization /></author>
+<author initials='T.' surname='Fujisaki' fullname='T. Fujisaki'><organization /></author>
+<author initials='R.' surname='Hiromi' fullname='R. Hiromi'><organization /></author>
+<author initials='K.' surname='Kanayama' fullname='K. Kanayama'><organization /></author>
+<date year='2008' month='July' />
+<abstract><t>A single physical link can have multiple prefixes assigned to it.  In that environment, end hosts might have multiple IP addresses and be required to use them selectively.  RFC 3484 defines default source and destination address selection rules and is implemented in a variety of OSs.  But, it has been too difficult to use operationally for several reasons.  In some environments where multiple prefixes are assigned on a single physical link, the host using the default address selection rules will experience some trouble in communication.  This document describes the possible problems that end hosts could encounter in an environment with multiple prefixes.  This  memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5220'/>
+<seriesInfo name='DOI' value='10.17487/RFC5220'/>
+</reference>

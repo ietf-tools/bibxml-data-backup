@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-george-dhc-request-retransmission-00.txt'>
+    <title>"DHCPv6 Request Retransmission", Robins George</title>
+    <link>http://www.ietf.org/internet-drafts/draft-george-dhc-request-retransmission-00.txt</link>
+    <description>The DHCP client sends SOLICIT message to get IP address from the server.  If the address pool is empty, all address in the pool have allocated to the clients, the server will return error code. NoAddrsAvail (server has no address available to assign in the IA). Client retransmit the SOLICIT message (section 14 RFC 3315) and may get the same response.  This draft defines a new suboption for the Dynamic Host Configuration Protocol (DHCP) to identify the retry time to sent next SOLICIT message.  Hence, avoid unnecessary retransmit of SOLICIT messages. The suboption carries a value that identifies when an address will be available in the address pool.</description>
+    <dc:date>2012-06-23T22:00:00-00:00</dc:date>
+</item>

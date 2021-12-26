@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-l3vpn-acceptown-community-10.txt'>
+    <title>"BGP ACCEPT_OWN Community Attribute", Jim Uttaro, Pradosh Mohapatra, David Smith, Robert Raszuk, John Scudder</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-l3vpn-acceptown-community-10.txt</link>
+    <description>Under certain conditions it is desirable for a Border Gateway Protocol (BGP) route reflector to be able to modify the Route Target (RT) list of a Virtual Private Network (VPN) route that the route reflector distributes, enabling the route reflector to control how a route originated within one Virtual Routing and Forwarding (VRF) is imported into other VRFs.  This technique works effectively as long as the VRF that exports the route is not on the same Provider Edge (PE) router than the VRF(s) that import the route.  However, due to the constraints of the BGP protocol, it does not work if the two are on the same PE.  This document describes a modification to the BGP protocol allowing this technique to work when the VRFs are on the same PE, and to be used in a standard manner throughout an autonomous system.</description>
+    <dc:date>2015-06-24T07:00:00-00:00</dc:date>
+</item>

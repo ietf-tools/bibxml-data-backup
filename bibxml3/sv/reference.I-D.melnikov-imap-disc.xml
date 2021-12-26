@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melnikov-imap-disc'>
+<front>
+<title>Synchronization operations for disconnected IMAP4 clients</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2004' />
+
+<abstract><t>This document attempts to address some of the issues involved in building a disconnected IMAP4 [IMAP4] client. In particular, it deals with the issues of what might be called the "driver" portion of the synchronization tool: the portion of the code responsible for issuing the correct set of IMAP4 commands to synchronize the disconnected client in the way that is most likely to make the human who uses the disconnected client happy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melnikov-imap-disc-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melnikov-imap-disc-06.txt' />
+</reference>

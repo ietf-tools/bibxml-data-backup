@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-mvpn-evpn-aggregation-label'>
+<front>
+<title>MVPN/EVPN Tunnel Aggregation with Common Labels</title>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='W' surname='Lin' fullname='Wen Lin'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2019' />
+
+<abstract><t>The MVPN specifications allow a single Point-to-Multipoint (P2MP) tunnel to carry traffic of multiple VPNs.  The EVPN specifications allow a single P2MP tunnel to carry traffic of multiple Broadcast Domains (BDs).  These features require the ingress router of the P2MP tunnel to allocate an upstream-assigned MPLS label for each VPN or for each BD.  A packet sent on a P2MP tunnel then carries the label that is mapped to its VPN or BD.  (In some cases, a distinct upstream-assigned is needed for each flow.)  Since each ingress router allocates labels independently, with no coordination among the ingress routers, the egress routers may need to keep track of a large number of labels.  The number of labels may need to be as large (or larger) than the product of the number of ingress routers times the number of VPNs or BDs.  However, the number of labels can be greatly reduced if the association between a label and a VPN or BD is made by provisioning, so that all ingress routers assign the same label to a particular VPN or BD.  New procedures are needed in order to take advantage of such provisioned labels.  These new procedures also apply to Multipoint-to-Multipoint (MP2MP) tunnels.  This document updates RFCs 6514, 7432 and 7582 by specifying the necessary procedures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-mvpn-evpn-aggregation-label-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-mvpn-evpn-aggregation-label-03.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.suram-dynamic-nat-traversal'>
+<front>
+<title>IPsec traversal in Dynamic NAT</title>
+
+<author initials='S' surname='Sekhar' fullname='Suram Sekhar'>
+    <organization />
+</author>
+
+<author initials='J' surname='Vemulapalli' fullname='Jyothi Vemulapalli'>
+    <organization />
+</author>
+
+<author initials='R' surname='Batchu' fullname='Rampullaiah Batchu'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2015' />
+
+<abstract><t>NAT can be enabled on a Security Gateway by administrator at any point of time.  This can be called as Dynamic NAT.  The existing IKEv2 RFC does not address the scenario of NAT being enabled on a security gateway after IKEv2 negotiation.  In such a scenario, traffic sent over the IPsec SA will either be dropped or does not reach the peer security gateway.  This document defines a method to ensure that IPsec traffic flow seamlessly in such a scenario.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-suram-dynamic-nat-traversal-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-suram-dynamic-nat-traversal-00.txt' />
+</reference>

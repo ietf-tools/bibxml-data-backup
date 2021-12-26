@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-opsawg-capwap-hybridmac'>
+<front>
+<title>IEEE 802.11 MAC Profile for CAPWAP</title>
+
+<author initials='C' surname='Shao' fullname='Chunju Shao'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pazhyannur' fullname='Rajesh Pazhyannur'>
+    <organization />
+</author>
+
+<author initials='F' surname='Bari' fullname='Farooq Bari'>
+    <organization />
+</author>
+
+<author initials='R' surname='Zhang' fullname='Rong Zhang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Matsushima' fullname='Satoru Matsushima'>
+    <organization />
+</author>
+
+<date month='May' day='5' year='2014' />
+
+<abstract><t>CAPWAP defines two entities: Wireless Transmission Point (WTP) and Access Controller (AC).  CAPWAP also defines two MAC (Medium Access Control) modes for IEEE 802.11 WTPs: Split and Local MAC . For each MAC mode, CAPWAP describes how the MAC functionality is split between the WTP and AC.  However, certain functions have not been clearly defined.  For example in the Split MAC mode description, the IEEE 802.11 encryption is specified as located in either the AC or the WTP with no clear way for the AC to inform the WTP where it should be. This lack of specification leads to interoperability especially when AC and WTP come from different vendors.  To solve the problem, this specification defines a IEEE 802.11 MAC profile where each profile specifies an unambiguous division of functionality between the WTP and AC.  The IEEE 802.11 MAC profile is used as follows: the WTP informs the AC of the supported profiles during the discovery or join process and the AC configures the WTP with one of the supported profiles while configuring the WLAN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-opsawg-capwap-hybridmac-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-opsawg-capwap-hybridmac-04.txt' />
+</reference>

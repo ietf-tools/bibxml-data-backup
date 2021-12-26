@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.scheffenegger-tcpm-timestamp-negotiation'>
+<front>
+<title>Additional negotiation in the TCP Timestamp Option field during the TCP handshake</title>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>RFC 1323 defines the TSecr field of a SYN packet to be not valid and thus this field will always be zero.  This documents specifies the use of this field to signal and negotiate additional information about the content of the TSopt field as well as the behavior of the receiver.  If the receiver understands this extension, it will use the TSecr field of the SYN/ACK to reply.  Otherwise the receiver will ignore the TSecr field and set a timestamp in the TSecr field as specified in RFC 1323.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-scheffenegger-tcpm-timestamp-negotiation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-scheffenegger-tcpm-timestamp-negotiation-00.txt' />
+</reference>

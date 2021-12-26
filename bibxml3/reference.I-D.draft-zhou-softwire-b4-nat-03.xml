@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhou-softwire-b4-nat'>
+<front>
+<title>Lightweight extension to Dual-Stack lite</title>
+
+<author initials='X' surname='Deng' fullname='Xiaohong Deng'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wu' fullname='Peng Wu'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Sun' fullname='Qiong Sun'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Cathy Zhou'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2011' />
+
+<abstract><t>The dual-stack lite mechanism provide an IPv4 access method over IPv6 ISP network for end users.  Dual-Stack Lite enables an IPv6 provider to share IPv4 addresses among customers by combining IPv4-in-IPv6 tunnel and Carrier Grade NAT technologies.  However, with basic Dual- stack Lite approach, CGN has to maintain active NAT sessions, which requires processing performance, memory size for NAT sessions and log abilities scale with number of sessions from subscribers, and hence result in increasing of CAPEX for operators when traffic increase.  This document propose the lightweight extensions to DS-Lite, which allows offloading NAT translation function from centralized network side (AFTR) to distributed customer equipments (B4), thereby offering flexibilities for ISPs to adjust trade-off between CAPEX (e.g. less performance requirements on AFTR device), OPEX (e.g., easy and fast deployment of Dual-Stack Lite). The ability of easily co-deploying with basic Dual-Stack Lite is essential to lightweight extension to DS-Lite.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhou-softwire-b4-nat-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhou-softwire-b4-nat-03.txt' />
+</reference>

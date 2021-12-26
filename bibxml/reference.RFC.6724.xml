@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6724' target='https://www.rfc-editor.org/info/rfc6724'>
+<front>
+<title>Default Address Selection for Internet Protocol Version 6 (IPv6)</title>
+<author initials='D.' surname='Thaler' fullname='D. Thaler' role='editor'><organization /></author>
+<author initials='R.' surname='Draves' fullname='R. Draves'><organization /></author>
+<author initials='A.' surname='Matsumoto' fullname='A. Matsumoto'><organization /></author>
+<author initials='T.' surname='Chown' fullname='T. Chown'><organization /></author>
+<date year='2012' month='September' />
+<abstract><t>This document describes two algorithms, one for source address selection and one for destination address selection.  The algorithms specify default behavior for all Internet Protocol version 6 (IPv6) implementations.  They do not override choices made by applications or upper-layer protocols, nor do they preclude the development of more advanced mechanisms for address selection.  The two algorithms share a common context, including an optional mechanism for allowing administrators to provide policy that can override the default behavior.  In dual-stack implementations, the destination address selection algorithm can consider both IPv4 and IPv6 addresses -- depending on the available source addresses, the algorithm might prefer IPv6 addresses over IPv4 addresses, or vice versa.</t><t>Default address selection as defined in this specification applies to all IPv6 nodes, including both hosts and routers.  This document obsoletes RFC 3484.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6724'/>
+<seriesInfo name='DOI' value='10.17487/RFC6724'/>
+</reference>

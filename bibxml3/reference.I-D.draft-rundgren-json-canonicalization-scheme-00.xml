@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rundgren-json-canonicalization-scheme'>
+<front>
+<title>JSON Canonicalization Scheme (JCS)</title>
+
+<author initials='A' surname='Rundgren' fullname='Anders Rundgren'>
+    <organization />
+</author>
+
+<date month='May' day='19' year='2018' />
+
+<abstract><t>Cryptographic operations like hashing and signing depend on that the target data does not change during serialization, transport, or parsing.  By applying the rules defined by JCS (JSON Canonicalization Scheme), data provided in the JSON [RFC8259] format can be exchanged "as is", while still being subject to secure cryptographic operations.  JCS achieves this by combining the strict serialization of JSON primitives defined in ECMAScript [ES6] with a platform independent sorting scheme.  The intended audiences of this document are JSON tool vendors, as well as designers of JSON based cryptographic solutions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rundgren-json-canonicalization-scheme-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rundgren-json-canonicalization-scheme-00.txt' />
+</reference>

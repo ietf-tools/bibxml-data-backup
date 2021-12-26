@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-curdle-ssh-kex-sha2'>
+<front>
+<title>Key Exchange (KEX) Method Updates and Recommendations for Secure Shell (SSH)</title>
+
+<author initials='M' surname='Baushke' fullname='Mark Baushke'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2017' />
+
+<abstract><t>This document is intended to update the recommended set of key exchange methods for use in the Secure Shell (SSH) protocol to meet evolving needs for stronger security.  This RFC updates [RFC4253] MUST algorithms.  This RFC also notes that the [IANASSH] has replaced [RFC4250] as the primary reference document for SSH Protocol Assigned Numbers.  This document adds recommendations for adoption of Key Exchange Methods which MUST, SHOULD+, SHOULD, SHOULD-, MAY, SHOULD NOT, and MUST NOT be implemented.  New key exchange methods will use the SHA-2 family of hashes and are drawn from these from [I-D.ietf-curdle-ssh-curves] and new-modp from the [I-D.ietf-curdle-ssh-modp-dh-sha2] and gss-keyex [NEWGSSAPI].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-curdle-ssh-kex-sha2-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-curdle-ssh-kex-sha2-07.txt' />
+</reference>

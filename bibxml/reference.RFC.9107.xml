@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9107' target='https://www.rfc-editor.org/info/rfc9107'>
+<front>
+<title>BGP Optimal Route Reflection (BGP ORR)</title>
+<author initials='R.' surname='Raszuk' fullname='R. Raszuk' role='editor'><organization /></author>
+<author initials='B.' surname='Decraene' fullname='B. Decraene' role='editor'><organization /></author>
+<author initials='C.' surname='Cassar' fullname='C. Cassar'><organization /></author>
+<author initials='E.' surname='Åman' fullname='E. Åman'><organization /></author>
+<author initials='K.' surname='Wang' fullname='K. Wang'><organization /></author>
+<date year='2021' month='August' />
+<abstract><t>This document defines an extension to BGP route reflectors. On route reflectors, BGP route selection is modified in order to choose the best route from the standpoint of their clients, rather than from the standpoint of the route reflectors themselves. Depending on the scaling and precision requirements, route selection can be specific for one client, common for a set of clients, or common for all clients of a route reflector. This solution is particularly applicable in deployments using centralized route reflectors, where choosing the best route based on the route reflector's IGP location is suboptimal. This  facilitates, for example, a &quot;best exit point&quot; policy (&quot;hot potato routing&quot;).</t><t>The solution relies upon all route reflectors learning all paths that are eligible for consideration. BGP route selection is performed in the route reflectors based on the IGP cost from configured locations in the link-state IGP.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9107'/>
+<seriesInfo name='DOI' value='10.17487/RFC9107'/>
+</reference>

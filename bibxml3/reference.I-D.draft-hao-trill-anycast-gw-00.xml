@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hao-trill-anycast-gw'>
+<front>
+<title>TRILL anycast Layer 3 Gateway</title>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2014' />
+
+<abstract><t>This draft mainly describes centralized anycast layer 3 gateway solution in TRILL campus. Comparing to traditional VRRP based active-standby layer 3 gateway solution, this solution can achieve better load balancing and scalability. Anycast nickname, anycast gateway IP and MAC are introduced. It can ensure inter-subnet traffic forwarding in flow-based load balancing mode among all physical layer 3 gateways. To avoid sending duplicated ARP reply message to the end system, ARP master gateway election mechanism is introduced. The election algorithm is described in this draft.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hao-trill-anycast-gw-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hao-trill-anycast-gw-00.txt' />
+</reference>

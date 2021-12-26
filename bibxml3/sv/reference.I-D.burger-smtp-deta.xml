@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.burger-smtp-deta'>
+<front>
+<title>SMTP Service Extension for Detached Operation</title>
+
+<author initials='E' surname='Burger' fullname='Eric Burger'>
+    <organization />
+</author>
+
+<date month='August' day='27' year='2004' />
+
+<abstract><t>The normal operation for the Simple Mail Transfer Protocol (SMTP) is for the submitting device to wait for all processing to complete and for the server to return a positive acknowledgement to the client. However, some devices have very intermittent connectivity, such as wireless mobile terminals. For such devices, a means to have processing continue in the case of a dropped connection is desirable. To this end, this SMTP service extension enables a client to submit a message and reliably detach from the session, indicating to the server to continue in the absence of a connection to the client.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-burger-smtp-deta-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-burger-smtp-deta-00.txt' />
+</reference>

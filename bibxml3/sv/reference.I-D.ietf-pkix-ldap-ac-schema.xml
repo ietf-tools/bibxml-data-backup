@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pkix-ldap-ac-schema'>
+<front>
+<title>Internet X.509 Public Key Infrastructure LDAP Schema for X.509 Attribute  Certificates</title>
+
+<author initials='D' surname='Chadwick' fullname='David Chadwick'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sahalayev' fullname='Mikhail Sahalayev'>
+    <organization />
+</author>
+
+<date month='October' day='28' year='2004' />
+
+<abstract><t>This document describes an LDAP schema for X.509 attribute certificates (ACs). Each AC is broken down into a set of attribute types. These attributes can then be stored in an AC entry. An object class is defined for this AC entry. Each attribute type uses an existing LDAP syntax, so that no new matching rules need to be defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pkix-ldap-ac-schema-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pkix-ldap-ac-schema-02.txt' />
+</reference>

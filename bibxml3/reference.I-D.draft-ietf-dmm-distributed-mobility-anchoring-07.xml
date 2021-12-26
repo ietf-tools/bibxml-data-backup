@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmm-distributed-mobility-anchoring'>
+<front>
+<title>Distributed Mobility Anchoring</title>
+
+<author initials='A' surname='Chan' fullname='Anthony Chan'>
+    <organization />
+</author>
+
+<author initials='X' surname='Wei' fullname='Xinpeng Wei'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lee' fullname='Jong-Hyouk Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jeon' fullname='Seil Jeon'>
+    <organization />
+</author>
+
+<author initials='A' surname='Petrescu' fullname='Alexandre Petrescu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2017' />
+
+<abstract><t>This document defines distributed mobility anchoring in terms of the different configurations, operations and parameters of mobility functions to provide different IP mobility support for the diverse mobility needs in 5G Wireless and beyond.  A network may be configured with distributed mobility anchoring functions according to the needs of mobility support.  In the distributed mobility anchoring environment, multiple anchors are available for mid-session switching of an IP prefix anchor.  To start a new flow or to handle a flow not requiring IP session continuity as a mobile node moves to a new network, the flow can be started or re-started using a new IP address configured from the new IP prefix which is anchored to the new network.  For a flow requiring IP session continuity, the anchoring of the prior IP prefix may be moved to the new network.  The mobility functions and their operations and parameters are general for different configurations.  The mobility signaling may be between anchors and nodes in the network in a network-based mobility solution.  It may also be between the anchors and the mobile node in a host-based solution.  The mobile node may be a host, but may also be a router carrying a network requiring network mobility support.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmm-distributed-mobility-anchoring-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmm-distributed-mobility-anchoring-07.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmm-distributed-mobility-anchoring-07.pdf' />
+</reference>

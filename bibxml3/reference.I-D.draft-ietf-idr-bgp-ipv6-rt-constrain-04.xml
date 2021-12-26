@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-ipv6-rt-constrain'>
+<front>
+<title>IPv6 Extensions for Route Target Distribution</title>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='M' surname='Djernaes' fullname='Martine Djernaes'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<date month='August' day='7' year='2013' />
+
+<abstract><t>The current route target distribution specification described in RFC4684 defines Route Target NLRIs of maximum length of 12 bytes. The IPv6 specific Route Target extended community is defined in [RFC5701] as length of 20 bytes.  Since the current specification only supports prefixes of maximum length of 12 bytes, the lack of an IPv6 specific Route Target reachability information may be a problem when an operator wants to use this application in a pure IPv6 environment.  This document defines an extension that allows BGP to exchange longer length IPv6 Route Target prefixes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-ipv6-rt-constrain-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-ipv6-rt-constrain-04.txt' />
+</reference>

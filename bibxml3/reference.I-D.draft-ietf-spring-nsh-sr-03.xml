@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-spring-nsh-sr'>
+<front>
+<title>Integration of Network Service Header (NSH) and Segment Routing for Service Function Chaining (SFC)</title>
+
+<author initials='J' surname='Guichard' fullname='Jim Guichard'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2020' />
+
+<abstract><t>This document describes two application scenarios where Network Service Header (NSH) and Segment Routing (SR) can be deployed together to support Service Function Chaining (SFC) in an efficient manner while maintaining separation of the service and transport planes as originally intended by the SFC architecture.  In both scenarios, SR is responsible for steering packets between SFFs along a given Service Function Path (SFP) while NSH is responsible for maintaining the integrity of the service plane, the SFC instance context, and any associated metadata.  These application scenarios demonstrate that NSH and SR can work jointly and complement each other leaving the network operator with the flexibility to use whichever transport technology makes sense in specific areas of their network infrastructure, and still maintain an end-to-end service plane using NSH.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-spring-nsh-sr-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-spring-nsh-sr-03.txt' />
+</reference>

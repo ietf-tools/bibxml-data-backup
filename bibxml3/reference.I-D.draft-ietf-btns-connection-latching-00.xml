@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-btns-connection-latching'>
+<front>
+<title>IPsec Channels: Connection Latching</title>
+
+<author initials='N' surname='Williams' fullname='Nicolas Williams'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2006' />
+
+<abstract><t>This document specifies, abstractly, how to interface applications and transport protocols with IPsec so as to create "channels" by "latching" connections to certain IPsec Security Association (SA) parameters for their lifetime. This can be used to protect applications against accidental reconfiguration of IPsec that might expose live packet flows to unintended peers, such as might happen with Better Than Nothing Security (BTNS). Latched connections represent IPsec channels, and as such, allow for channel binding to IPsec.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-btns-connection-latching-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-btns-connection-latching-00.txt' />
+</reference>

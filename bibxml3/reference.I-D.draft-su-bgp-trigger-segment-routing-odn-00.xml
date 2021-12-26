@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.su-bgp-trigger-segment-routing-odn'>
+<front>
+<title>BGP trigger Segment Routing ODN</title>
+
+<author initials='Y' surname='Su' fullname='Yuanchao Su'>
+    <organization />
+</author>
+
+<date month='October' day='1' year='2018' />
+
+<abstract><t>This document defines an extension to the BGP SR Policy NLRI (draft- ietf-idr-segment-routing-te-policy) in order to use BGP to trigger Segment Routing ODN, without using PCEP. The goal is to consolidate the SR Policy provision(BGP-TE), collection(BGP-LS) and ODN-trigger protocol for device to be BGP only, thus remove the need for PCEP and reduce the network complexity and potential bugs cause by different protocol interactions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-su-bgp-trigger-segment-routing-odn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-su-bgp-trigger-segment-routing-odn-00.txt' />
+</reference>

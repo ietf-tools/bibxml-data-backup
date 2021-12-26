@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-ecn-support'>
+<front>
+<title>TRILL: ECN (Explicit Congestion Notification) Support</title>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='February' day='4' year='2018' />
+
+<abstract><t>Explicit congestion notification (ECN) allows a forwarding element to notify downstream devices, including the destination, of the onset of congestion without having to drop packets. This can improve network efficiency through better congestion control without packet drops. This document extends ECN to TRILL switches, including integration with IP ECN, and provides for ECN marking in the TRILL Header Extension Flags Word (see RFC 7179).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-ecn-support-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-ecn-support-05.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lt-6man-sr-listid-encapsulation'>
+<front>
+<title>SPRING IPv6 ListID Encapsulation</title>
+
+<author initials='T' surname='Liao' fullname='Ting Liao'>
+    <organization />
+</author>
+
+<author initials='T' surname='Ao' fullname='Ting Ao'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>Segment Routing allows a node to steer a packet through an ordered list of instructions, called segments.  The ingress node prepends a SR header to a packet containing a set of "segments".  A segment can represent any instruction topological or service-based.  Segment Routing can be applied to the IPv6 architecture, with a new type of routing extension header.  A segment is encoded as an IPv6 address. An ordered list of segments is encoded as an ordered list of IPv6 addresses in the routing extension header.  The segment to process is indicated by a pointer in the routing extension header.  Upon completion of a segment, the pointer is incremented.  This document describes how to decrease the length of the IPv6 list with ListID carried.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lt-6man-sr-listid-encapsulation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lt-6man-sr-listid-encapsulation-00.txt' />
+</reference>

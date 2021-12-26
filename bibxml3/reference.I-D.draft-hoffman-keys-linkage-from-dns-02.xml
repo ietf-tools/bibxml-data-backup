@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-keys-linkage-from-dns'>
+<front>
+<title>Using Secure DNS to Associate Certificates with Domain Names For TLS</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schlyter' fullname='Jakob Schlyter'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='A' surname='Langley' fullname='Adam Langley'>
+    <organization />
+</author>
+
+<date month='September' day='15' year='2010' />
+
+<abstract><t>TLS and DTLS uses certificates for authenticating the server.  Users want their applications to verify that the certificate provided by the TLS server is in fact associated with the domain name they expect.  Instead of trusting a certificate authority to have made this association correctly, the user might instead trust the authoritative DNS server for the domain name to make that association.  This document describes how to use secure DNS to associate the TLS server's certificate with the the intended domain name.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-keys-linkage-from-dns-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-keys-linkage-from-dns-02.txt' />
+</reference>

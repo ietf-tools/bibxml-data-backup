@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yacine-preauth-ipsec'>
+<front>
+<title>MPA using IKEv2 and MOBIKE</title>
+
+<author initials='Y' surname='Mghazli' fullname='Yacine El Mghazli'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2006' />
+
+<abstract><t>This document describes how to achieve media-independent pre- authentication (MPA) in the context of network accesses protected by IPsec. In such environments, access is protected by an IPsec tunnel mode security association (SA) established between a client of the network and an access gateway. This SA normally needs to be established by running an IKE exchange between the two SA endpoints. The duration of this IKE exchange make it impractical to use when the node is mobile and frequently change either its location or its access gateway during a handover. In most case it is expected that real time traffic will be impacted by the handover. This note describes a method that alleviate this issue by leveraging on the IKEv2 Mobility and Multihoming Protocol (MOBIKE). The described method supresses the need to run a full IKE exchange after each handover, thereby greatly reducing the impacts of handovers on real- time traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yacine-preauth-ipsec-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yacine-preauth-ipsec-01.txt' />
+</reference>

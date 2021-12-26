@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gondwana-sieve-mailboxid'>
+<front>
+<title>Sieve Email Filtering: delivery by mailboxid</title>
+
+<author initials='B' surname='Gondwana' fullname='Bron Gondwana'>
+    <organization />
+</author>
+
+<date month='August' day='10' year='2018' />
+
+<abstract><t>The OBJECTID capability of the IMAP protocol (I-D.ietf-extra-imap- objectid) allows clients to identify mailboxes by a unique identifier which survives rename.  In contrast, the Sieve mail filtering language (RFC 5228) currently has no such capability.  This memo defines a Sieve extension that fills this gap: it adds a method for specifying the unique identifier of a mailbox as a target for fileinto rules, and a method for testing the existence of a mailbox by its unique identifier.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gondwana-sieve-mailboxid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gondwana-sieve-mailboxid-00.txt' />
+</reference>

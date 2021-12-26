@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-lisp-ms-assisted-forwarding'>
+<front>
+<title>Mapping System-Assisted Forwarding for Inter-Domain LISP Deployments</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<date month='September' day='17' year='2015' />
+
+<abstract><t>One of the issues with current LISP operation is that some packets are likely to be lost when there is no matching mapping entry maintained by the Ingress Tunnel Router (ITR).  This document proposes a solution to address this issue with a particular focus on LISP deployments at large scale.  This document introduces the concept of Implicit Map-Request and Unsolicited Map-Reply messages.  Also, it describes a solution to disable data gleaning for a given flow at the upstream Egress Tunnel Router (ETR).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-lisp-ms-assisted-forwarding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-lisp-ms-assisted-forwarding-00.txt' />
+</reference>

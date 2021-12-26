@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-bundle-metadata-block'>
+<front>
+<title>Delay-Tolerant Networking Metadata Extension Block</title>
+
+<author initials='S' surname='Symington' fullname='Susan Symington'>
+    <organization />
+</author>
+
+<date month='April' day='3' year='2009' />
+
+<abstract><t>This document defines an extension block that may be used with the Bundle Protocol [refs.DTNBP] within the context of a Delay-Tolerant Network architecture [refs.DTNarch].  This Metadata Extension Block is designed to be used to carry application-level information that DTN nodes can use to make DTN-level processing decisions regarding bundles, such as deciding whether to store a bundle or determining to which nodes to forward a bundle.  The actual metadata that is carried in a metadata block must be formatted according to the metadata type that is identified in the block's metadata type field.  One specific metadata type, for encoding metadata as URIs, is defined in this document.  Other metadata types may be defined in separate documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-bundle-metadata-block-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-metadata-block-03.txt' />
+</reference>

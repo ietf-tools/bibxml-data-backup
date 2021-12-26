@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-dual-stack'>
+<front>
+<title>DHCP: IPv4 and IPv6 Dual-Stack Issues</title>
+
+<author initials='T' surname='Chown' fullname='Tim Chown'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2005' />
+
+<abstract><t>A node may have support for communications using IPv4 and/or IPv6 protocols. Such a node may wish to obtain IPv4 and/or IPv6 configuration settings via the Dynamic Host Configuration Protocol (DHCP). The original version of DHCP [1] designed for IPv4 has now been complemented by a new DHCPv6 [4] for IPv6. This document describes issues identified with dual IP version DHCP interactions, the most important aspect of which is how to handle potential problems in clients processing configuration information received from both DHCPv4 and DHCPv6 servers. The document makes a recommendation on the general strategy on how best to handle such issues, and identifies future work to be undertaken.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-dual-stack-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-dual-stack-04.txt' />
+</reference>

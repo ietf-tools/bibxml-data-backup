@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-v6ops-flow-label-refelction'>
+<front>
+<title>IPv6 Flow Label Reflection Requirement</title>
+
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2014' />
+
+<abstract><t>IPv6 Flow Label field in IPv6 packet header is designed to differentiate the various traffic flow session within network. Current related RFCs(RFC 6437 and RFC 6438 etc.)describe the IPv6 Flow Label generation recommendation and usage in network traffic load balance. But all of these documents focus mainly how the packet source forms the value of this field and how the forwarder in-path treats it. None of the existing documents describes the relation between the flow label from source nodes and its corresponding value in return packet. This draft describes the requirements for flow label reflection between the upstream session and the corresponding downstream session, the benefit of this mirroring mechanism and its influence to the current proposed IPv6 flow label usage. This mechanism is unique to IPv6, and should be exploited to promote the deployment of IPv6 technology in more rapid pace.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-v6ops-flow-label-refelction-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-v6ops-flow-label-refelction-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-yam-rfc4409bis'>
+<front>
+<title>Message Submission for Mail</title>
+
+<author initials='R' surname='Gellens' fullname='Randall Gellens'>
+    <organization />
+</author>
+
+<author initials='J' surname='Klensin' fullname='John Klensin'>
+    <organization />
+</author>
+
+<date month='September' day='2' year='2011' />
+
+<abstract><t>This memo splits message submission from message relay, allowing each service to operate according to its own rules (for security, policy, etc.), and specifies what actions are to be taken by a submission server.  Message relay is unaffected, and continues to use SMTP over port 25.  When conforming to this document, message submission uses the protocol specified here, normally over port 587.  This separation of function offers a number of benefits, including the ability to apply specific security or policy requirements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-yam-rfc4409bis-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-yam-rfc4409bis-03.txt' />
+</reference>

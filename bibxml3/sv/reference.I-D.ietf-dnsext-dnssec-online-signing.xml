@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsext-dnssec-online-signing'>
+<front>
+<title>Minimally Covering NSEC Records and DNSSEC On-line Signing</title>
+
+<author initials='S' surname='Weiler' fullname='Samuel Weiler'>
+    <organization />
+</author>
+
+<author initials='J' surname='Ihren' fullname='Johan Ihren'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2006' />
+
+<abstract><t>This document describes how to construct DNSSEC NSEC resource records that cover a smaller range of names than called for by RFC4034. By generating and signing these records on demand, authoritative name servers can effectively stop the disclosure of zone contents otherwise made possible by walking the chain of NSEC records in a signed zone.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsext-dnssec-online-signing-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsext-dnssec-online-signing-02.txt' />
+</reference>

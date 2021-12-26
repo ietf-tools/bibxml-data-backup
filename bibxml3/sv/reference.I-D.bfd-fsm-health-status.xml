@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bfd-fsm-health-status'>
+<front>
+<title>FSM health status support in BFD</title>
+
+<author initials='P' surname='Perumal' fullname='Palpandi Perumal'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2020' />
+
+<abstract><t>Bidirectional Forwarding Detection operates in different modes. When BFD runs in asynchronous mode requires hello packet needs to be transmitted and received on regular intervals. In software based BFD application, hello packets processing path may be heavy weight which may involve many processing levels to reach BFD application. On a scaled system, processing delay may not be constant at all the time and this processing delay does appear at any point between software path entry point and BFD application. This delay needs to be identified and suppressed otherwise system may end up on false link failure detection. This internet draft deals on this particular case.  Since introducing new Diagnostic bit, it requires to update RFC5880.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bfd-fsm-health-status-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bfd-fsm-health-status-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vogt-mobopts-simple-cba'>
+<front>
+<title>Credit-Based Authorization for Concurrent Reachability Verification</title>
+
+<author initials='C' surname='Vogt' fullname='Christian Vogt'>
+    <organization />
+</author>
+
+<author initials='J' surname='Arkko' fullname='Jari Arkko'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2006' />
+
+<abstract><t>Mobility and multi-homing protocols enable multi-addressed nodes to redirect ongoing communication sessions from one IP address to another. Most of these protocols verify a multi-addressed node's reachability at a claimed new IP address in order to prevent redirection-based flooding attacks. In view of reduced protocol latencies, such verification is preferably performed concurrently, i.e., while packets are already being sent to the new IP address. This document defines Credit-Based Authorization, a technique that facilitates concurrent reachability verification without compromise of security.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vogt-mobopts-simple-cba-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vogt-mobopts-simple-cba-00.txt' />
+</reference>

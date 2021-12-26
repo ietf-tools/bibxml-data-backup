@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanrein-v6ops-6bed4'>
+<front>
+<title>IPv6 Tunneling for Embedded Systems (6bed4)</title>
+
+<author initials='R' surname='Rein' fullname='Rick van Rein'>
+    <organization />
+</author>
+
+<date month='July' day='25' year='2011' />
+
+<abstract><t>Given the limited resources available to a lot of embedded systems, dual-stack solutions are not always feasible for such hosts.  A mechanism that supports a direct transition from IPv4-only to IPv6-only may prove beneficial in getting the smallest hosts to make a transition to IPv6 at a much earlier stage than would otherwise be possible.  This calls for tunnels, but no current tunnel technique appears to be optimal for embedded systems.  This specification details an IPv6 tunneling technique over UDP and IPv4.  The technique is specifically designed to benefit embedded systems, and to work without end user configuration.  The working principle for obtaining a routable IPv6 address is through stateless autoconfiguration from an anycast tunnel service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanrein-v6ops-6bed4-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanrein-v6ops-6bed4-00.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-vanrein-v6ops-6bed4-00.ps' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kerwin-http2-segments'>
+<front>
+<title>HTTP/2 Segments</title>
+
+<author initials='M' surname='Kerwin' fullname='Matthew Kerwin'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2015' />
+
+<abstract><t>This document introduces the concept of "segments" to HTTP/2, and adds a flag to the DATA frame type to allow the expression segments.  A "segment" is a contiguous block of HTTP message data that can be freely split apart and recombined at any time, allowing transmission in multiple HTTP/2 frames across network segments with smaller frame size limits without risk of permanent fragmentation when traversing network segments with much larger limits.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kerwin-http2-segments-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kerwin-http2-segments-02.txt' />
+</reference>

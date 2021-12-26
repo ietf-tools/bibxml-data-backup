@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-i2rs-mpls-ldp-info-model'>
+<front>
+<title>I2RS Information Model for MPLS LDP</title>
+
+<author initials='X' surname='Chen' fullname='Xia Chen'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>The Label Distribution Protocol (LDP) ([RFC5036]) is a protocol defined for distributing labels in MPLS domain.  Traditionally LDP protocol may be managed via CLI, SNMP or NETCONF.  The Interface to the Routing System's (I2RS) Programmatic interface (draft-ietf-i2rs- architecture) provides an alternate way to control the configuration and diagnose the operation of the LDP protocol.  This document specifies an information model for the LDP protocol to facilitate the definition of a standardized data model, which can be used to define interfaces to the LDP from an entity that may even be external to the routing system.  Based on standardized data model and interfaces, use cases of I2RS interface to LDP protocol (draft-chen- i2rs-mpls-ldp-usecases) can be supported.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-i2rs-mpls-ldp-info-model-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-i2rs-mpls-ldp-info-model-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-chen-i2rs-mpls-ldp-info-model-00.pdf' />
+</reference>

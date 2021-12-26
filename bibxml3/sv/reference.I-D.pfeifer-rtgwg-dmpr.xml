@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pfeifer-rtgwg-dmpr'>
+<front>
+<title>Dynamic MultiPath Routing Protocol</title>
+<author initials='H' surname='Pfeifer' fullname='Hagen Pfeifer'>
+<organization />
+</author>
+<author initials='S' surname='Widmann' fullname='Sebastian Widmann'>
+<organization />
+</author>
+<date year='2021' month='November' day='27' />
+<abstract><t>Dynamic MultiPath Routing (DMPR) is a loop free path vector routing protocol with built-in support for policy based multipath routing. It has been designed from scratch to work at both low and high bandwidth networks - even with high packet loss.  The objective was to keep routing overhead low and ensure a deterministic protocol exchange behavior.  DMPR can be used to manage larger networks with characteristics based on BGPv4 with transport and self-configuration properties taken from OSPF/OLSR.  Unlike BGPv4 or OSPF, DMPR does not support higher network separation concepts.  A DMPR network is a flat network in which DMPR nodes have equal tasks.  This also applies to DMPR communication.  Unlike OLSR/OSPF there is no flooding messages (topology broadcast), information are stored, accumulated/compressed and forwarded at each DMPR node.  This feature contributes to the message load being deterministic.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-pfeifer-rtgwg-dmpr-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-pfeifer-rtgwg-dmpr-01.txt'/>
+</reference>

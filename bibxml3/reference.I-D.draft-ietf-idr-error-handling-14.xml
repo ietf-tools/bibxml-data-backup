@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-error-handling'>
+<front>
+<title>Revised Error Handling for BGP UPDATE Messages</title>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<date month='September' day='3' year='2014' />
+
+<abstract><t>According to the base BGP specification, a BGP speaker that receives an UPDATE message containing a malformed attribute is required to reset the session over which the offending attribute was received. This behavior is undesirable as a session reset would impact not only routes with the offending attribute, but also other valid routes exchanged over the session.  This document partially revises the error handling for UPDATE messages, and provides guidelines for the authors of documents defining new attributes.  Finally, it revises the error handling procedures for a number of existing attributes.  This document updates error handling for RFCs 1997, 4271, 4360, 4456, 4760, 5543, 5701, 6368 and 6790.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-error-handling-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-error-handling-14.txt' />
+</reference>

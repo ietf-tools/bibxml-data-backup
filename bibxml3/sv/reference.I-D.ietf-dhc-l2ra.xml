@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-l2ra'>
+<front>
+<title>Layer 2 Relay Agent Information</title>
+
+<author initials='B' surname='Joshi' fullname='Bharat Joshi'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kurapati' fullname='Pavan Kurapati'>
+    <organization />
+</author>
+
+<date month='January' day='25' year='2012' />
+
+<abstract><t>In some networks, DHCP servers rely on Relay Agent Information option appended by Relay Agents for IP address and other parameter assignment policies.  This works fine when end hosts are directly connected to Relay Agents.  In some network configurations, one or more Layer 2 devices may reside between DHCP clients and Relay agent. In these network scenarios, it is difficult to use the Relay Agent Information option for IP address and other parameter assignment policies effectively.  So there is a need for the device that is closest to the end hosts to append a Relay Agent Information option in DHCP messages.  These devices are typically known as Layer 2 Relay Agents.  This document aims to describe the network scenarios where a Layer 2 Relay Agent is in use and also how it handles DHCP messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-l2ra-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-l2ra-06.txt' />
+</reference>

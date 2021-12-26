@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lisp-map-versioning'>
+<front>
+<title>LISP Map-Versioning</title>
+
+<author initials='L' surname='Iannone' fullname='Luigi Iannone'>
+    <organization />
+</author>
+
+<author initials='D' surname='Saucez' fullname='Damien Saucez'>
+    <organization />
+</author>
+
+<author initials='O' surname='Bonaventure' fullname='Olivier Bonaventure'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2011' />
+
+<abstract><t>This document describes the LISP Map-Versioning mechanism, which provides in-packet information about EID-to-RLOC mappings used to encapsulate LISP data packets.  The proposed approach is based on associating a version number to EID-to-RLOC mappings and transport such a version number in the LISP specific header of LISP- encapsulated packets.  LISP Map-Versioning is particularly useful to inform communicating xTRs about modifications of the mappings used to encapsulate packets.  The mechanism is transparent to legacy implementations, since in the LISP-specific header and in the Map Records, bits used for Map-Versioning can be safely ignored by xTRs that do not support the mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lisp-map-versioning-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lisp-map-versioning-01.txt' />
+</reference>

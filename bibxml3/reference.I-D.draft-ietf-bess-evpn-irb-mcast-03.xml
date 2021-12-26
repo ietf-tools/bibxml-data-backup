@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-irb-mcast'>
+<front>
+<title>EVPN Optimized Inter-Subnet Multicast (OISM) Forwarding</title>
+
+<author initials='W' surname='Lin' fullname='Wen Lin'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<date month='August' day='16' year='2019' />
+
+<abstract><t>Ethernet VPN (EVPN) provides a service that allows a single Local Area Network (LAN), comprising a single IP subnet, to be divided into multiple "segments".  Each segment may be located at a different site, and the segments are interconnected by an IP or MPLS backbone. Intra-subnet traffic (either unicast or multicast) always appears to the endusers to be bridged, even when it is actually carried over the IP or MPLS backbone.  When a single "tenant" owns multiple such LANs, EVPN also allows IP unicast traffic to be routed between those LANs. This document specifies new procedures that allow inter-subnet IP multicast traffic to be routed among the LANs of a given tenant, while still making intra-subnet IP multicast traffic appear to be bridged.  These procedures can provide optimal routing of the inter- subnet multicast traffic, and do not require any such traffic to leave a given router and then reenter that same router.  These procedures also accommodate IP multicast traffic that needs to travel to or from systems that are outside the EVPN domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-irb-mcast-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-irb-mcast-03.txt' />
+</reference>

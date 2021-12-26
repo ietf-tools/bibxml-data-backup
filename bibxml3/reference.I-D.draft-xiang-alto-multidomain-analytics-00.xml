@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xiang-alto-multidomain-analytics'>
+<front>
+<title>Unicorn: Resource Orchestration for Large-Scale, Multi-Domain Data Analytics</title>
+
+<author initials='Q' surname='Xiang' fullname='Qiao Xiang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<date month='December' day='17' year='2017' />
+
+<abstract><t>This document presents the design of Unicorn, a multi-domain, geographically-distributed, data-intensive analytics system.  The setting of such a system includes edge science networks, which provide storage and computation resources for collecting, sharing and analyzing extremely large amounts of data, and transit networks, which provide networking resources to connects edge science networks for transmitting large science datasets.  The key design challenge is to accurately discover and represent resource information from different domains.  Unicorn leverages multiple ALTO services, including ALTO-Path Vector, ALTO-Routing State Abstraction, ALTO-Server-Side Event and ALTO-Flow Cost Service to address this challenge.  In particular, Unicorn decomposes the resource discovery into three phases.  The first phase is to identify endpoint resource, e.g., dataset storage location, computation resource location and output storage resource location.  The second phase is to identify the reachability information between the locations of storage and computation resources.  The third phase is to identify the available networking resource connecting different storage and computation resources.  All information collected through these three phases can be used by a logically centralized scheduling system to orchestrate the resources usage.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xiang-alto-multidomain-analytics-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xiang-alto-multidomain-analytics-00.txt' />
+</reference>

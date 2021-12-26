@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidrops-rpkimaxlen'>
+<front>
+<title>The Use of Maxlength in the RPKI</title>
+
+<author initials='Y' surname='Gilad' fullname='Yossi Gilad'>
+    <organization />
+</author>
+
+<author initials='S' surname='Goldberg' fullname='Sharon Goldberg'>
+    <organization />
+</author>
+
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+    <organization />
+</author>
+
+<author initials='J' surname='Snijders' fullname='Job Snijders'>
+    <organization />
+</author>
+
+<author initials='B' surname='Maddison' fullname='Ben Maddison'>
+    <organization />
+</author>
+
+<date month='May' day='9' year='2020' />
+
+<abstract><t>This document recommends ways to reduce forged-origin attack surface by prudently limiting the address space that is included in Route Origin Authorizations (ROAs).  One recommendation is to avoid using the maxLength attribute in ROAs except in some specific cases.  The recommendations complement and extend those in RFC 7115.  The document also discusses creation of ROAs for facilitating Distributed Denial of Service (DDoS) mitigation services.  Considerations related to ROAs and origin validation for the case of destination-based Remote Triggered Black Hole (RTBH) filtering are also highlighted.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidrops-rpkimaxlen-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidrops-rpkimaxlen-04.txt' />
+</reference>

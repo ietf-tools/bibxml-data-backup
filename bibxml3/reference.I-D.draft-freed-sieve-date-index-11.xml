@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.freed-sieve-date-index'>
+<front>
+<title>Sieve Email Filtering: Date and Index Extensions</title>
+
+<author initials='N' surname='Freed' fullname='Ned Freed'>
+    <organization />
+</author>
+
+<date month='April' day='20' year='2008' />
+
+<abstract><t>This document describes the "date" and "index" extensions to the Sieve email filtering language.  The "date" extension gives Sieve the ability to test date and time values in various ways.  The "index" extension provides a means to limit header and address tests to specific instances of header fields when header fields are repeated.  Change History (to be removed prior to publication as an RFC)  Changed usage from Julian Days to Modified Julian Days.  This has the advantage that the number are smaller and day numbers change at midnight rather than at noon. Added the ability to return the day of the week.  Use the term "argument" instead of "parameter" throughout.  Added a "std11" part type as a means to operate on values formatted in the same way as a Date: header field.  Changed the terminology from "part" to "date-part".  Updated reference to 3028bis, corrected miscellaneous typos.  Updated the IANA registration templates.  Added "time" and "date" as possible date-part values with appropriate syntax.  Restricted allowed ISO 8601 formats so that comparisons will be reliable.  Changed the date-part "timezone" to "zone" to make it consistent with the :zone parameter.  Removed the reference to structured header fields in the description of the date test.  Added a paragraph to make it clear that :index counts header fields, not the contents of header fields.  Allow leap seconds.  Added :originalzone parameter to date test.  Added several examples.  Made the specification of :last without :index an error, aligning this specification with editheader.  Added some security considerations text about the impact of currentdate on script analysis.  Updated references to recently published RFCs.  Clarified that date tests must return false for dates that aren't valid according to the calendar system.  Correct erroneous reference to Julian calendar dates - should be Gregorian instead. Clarified that "std11" isn't really intended to be used in comparison operations and added an example of using "std11" to insert a date/ time in a header field.  Added an appendix giving sample code to convert to and from modified Julian date values.  Simplified the requirements for extracting date information from header fields.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-freed-sieve-date-index-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-freed-sieve-date-index-11.txt' />
+</reference>

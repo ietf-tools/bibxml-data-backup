@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ediint-compression'>
+<front>
+<title>CMS - Compressed Data Content within an EDIINT 'AS' Message</title>
+
+<author initials='T' surname='Harding' fullname='Terry Harding'>
+    <organization />
+</author>
+
+<date month='June' day='11' year='2007' />
+
+<abstract><t>The EDIINT(EDI over the INTernet) WG(Working Group) over several years developed the following 'AS'(Applicability Statements): AS1(RFC 3335), AS2(RFC 4130) and AS3(RFC 4823). These 'AS' documents discuss methods for securely transferring EDI(Electronic Data Interchange) and other electronic documents over the internet using different transfer protocols, SMTP(AS1, HTTP(AS2) and FTP(AS3). As more and more companies continue to use AS1, AS2 or AS3 to package their electronic messages, the EDIINT community is starting to see a dramatic increase in the size of files transferred between trading partners. Typical file sizes of 10k or less are no longer the norm as we start to see files larger than several megabytes(>500meg) transferred between trading partners. This document will explain the rules and procedures for utilizing compression(RFC 3274) within an EDIINT 'AS' message. It will also discuss the procedures for building, parsing and computing the MIC(Message Integrity Check) value of a message which is returned in the MDN(Message Disposition Notification) receipt to the originator of the message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ediint-compression-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ediint-compression-08.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidrops-ov-clarify'>
+<front>
+<title>Origin Validation Clarifications</title>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<date month='July' day='25' year='2018' />
+
+<abstract><t>Deployment of RPKI-based BGP origin validation is hampered by, among other things, vendor mis-implementations in two critical areas: which routes are validated and whether policy is applied when not specified by configuration.  This document is meant to clarify possible misunderstandings causing those mis-implementations; and thus updates RFC6811 by clarifying that all prefixes should be marked, and that policy must not be applied without operator configuration"</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidrops-ov-clarify-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidrops-ov-clarify-03.txt' />
+</reference>

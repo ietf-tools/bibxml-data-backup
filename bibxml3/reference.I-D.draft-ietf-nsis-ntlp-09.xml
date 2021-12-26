@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nsis-ntlp'>
+<front>
+<title>GIST: General Internet Signaling Transport</title>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hancock' fullname='Robert  Hancock'>
+    <organization />
+</author>
+
+<date month='February' day='10' year='2006' />
+
+<abstract><t>This document specifies protocol stacks for the routing and transport of per-flow signaling messages along the path taken by that flow through the network. The design uses existing transport and security protocols under a common messaging layer, the General Internet Signaling Transport (GIST), which provides a universal service for diverse signaling applications. GIST does not handle signaling application state itself, but manages its own internal state and the configuration of the underlying transport and security protocols to enable the transfer of messages in both directions along the flow path. The combination of GIST and the lower layer transport and security protocols provides a solution for the base protocol component of the "Next Steps in Signaling" framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nsis-ntlp-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nsis-ntlp-09.txt' />
+</reference>

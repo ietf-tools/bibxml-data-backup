@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-mpls-bfd-enhancement'>
+<front>
+<title>BFD for MPLS LSPs Enhancement</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ning' fullname='So Ning'>
+    <organization />
+</author>
+
+<author initials='V' surname='Hallivuori' fullname='Ville Hallivuori'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2010' />
+
+<abstract><t>This document defines an enhancement to Bi-directional Forwarding Detection (BFD) for MPLS LSPs [MPLS-BFD] that can be used to specify the return path of BFD control packets for a specific BFD session. Specifying co-routed or protected return path increases robustness of BFD failure detection and reduces false positives. This document also defines a way to avoid duplicate BFD sessions currently encountered with Co-routed Bidirectional LSP and Associated Bidirectional LSP. The enhancement halves the BFD sessions over those LSPs, and allows a Co-routed Bidirectional LSPs or Associated Bidirectional LSPs to be protected and switched as a single entity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-mpls-bfd-enhancement-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-mpls-bfd-enhancement-01.txt' />
+</reference>

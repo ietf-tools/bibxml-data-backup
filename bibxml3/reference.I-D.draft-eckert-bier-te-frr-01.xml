@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eckert-bier-te-frr'>
+<front>
+<title>Fast ReRoute (FRR) Extensions for BIER-TE</title>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='G' surname='Cauchie' fullname='Gregory Cauchie'>
+    <organization />
+</author>
+
+<author initials='W' surname='Braun' fullname='Wolfgang Braun'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2017' />
+
+<abstract><t>This document proposes an Fast ReRoute (FRR) extension to the BIER-TE Architecture [I-D.eckert-bier-te-arch].  The FRR procedure has to be supported by the BIER-TE Controller host and the BFRs that are attached to a link/adjacency for which FRR support is required. Thus, the FRR concept can be incrementally deployed in the data plane to only those BFR adjacent to adjacencies for which FRR protection is desired.  The FRR procedure does not require changes to the packet format described in [I-D.ietf-bier-architecture] that is also used for BIER- TE.  Existing BIER-TE tables do not have to be altered.  FRR procedures do require additional forwarding plane logic on the BFR that need to support FRR.  An additional table is needed that carries information about pre- computed backup paths.  This table is used to modify upon detection of failure the bitstring in the BIER header.  To prevent packet duplicates, tunneling mechanisms such as remote adjacencies or BIER- in-BIER encapsulation can be leveraged.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eckert-bier-te-frr-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eckert-bier-te-frr-01.txt' />
+</reference>

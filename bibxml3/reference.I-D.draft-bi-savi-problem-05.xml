@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bi-savi-problem'>
+<front>
+<title>Problem Statement of SAVI Beyond the First Hop</title>
+
+<author initials='J' surname='Bi' fullname='Jun Bi'>
+    <organization />
+</author>
+
+<author initials='B' surname='Liu' fullname='Bingyang Liu'>
+    <organization />
+</author>
+
+<date month='May' day='27' year='2013' />
+
+<abstract><t>IETF Source Address Validation Improvements (SAVI) working group is chartered for source address validation within the first hop from the end hosts, i.e. preventing a node from spoofing the IP source address of another node in the same IP link.  However, since SAVI requires the edge routers or switches to be upgraded, the deployment of SAVI will need a long time.  During this transition period, some source address validation techniques beyond the first hop (SAVI-BF) may be needed to complement SAVI and protect the networks from spoofing based attacks.  In this document, we first propose three desired features of the SAVI-BF techniques.  Then we analyze the problems of the current SAVI-BF technique, ingress filtering.  Finally, we discuss the directions that we can explore to improve SAVI-BF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bi-savi-problem-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bi-savi-problem-05.txt' />
+</reference>

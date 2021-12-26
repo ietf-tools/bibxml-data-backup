@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-avt-retransmission-supression-rtp'>
+<front>
+<title>Proposal for an extension to RTCP for Retransmission Storm Suppression of RTP Stream</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<date month='February' day='21' year='2010' />
+
+<abstract><t>This document extends Receiver Summary Information (RSI) report block to define a new sub-report block for retransmission suppression within the framework of RTP retransmission.  One of initial retransmission requests for the missing packets is RTCP NACK.  This feedback message conveys packet loss events.  Unlike NACK, this new sub-report block, which is referred to as the Retransmission Storm Suppression Report, also carries the information regarding retransmission suppression early indication events to the receiver before the receiver detects an original packet loss and all the packet loss repair methods are applied.  By using Retransmission Suppression together with NACK, the delay for the receiver to recover from the packet loss can be reduced and the risk of increasing network congestion can be mitigated or avoided.  This document also registers a new sub-report block type for Retransmission Storm Suppression within RTP retransmission framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-avt-retransmission-supression-rtp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-avt-retransmission-supression-rtp-00.txt' />
+</reference>

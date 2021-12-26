@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<referencegroup anchor="BCP224" target="https://www.rfc-editor.org/info/bcp224">
+<!-- reference.RFC.8634.xml -->
+<reference  anchor='RFC8634' target='https://www.rfc-editor.org/info/rfc8634'>
+<front>
+<title>BGPsec Router Certificate Rollover</title>
+<author initials='B.' surname='Weis' fullname='B. Weis'><organization /></author>
+<author initials='R.' surname='Gagliano' fullname='R. Gagliano'><organization /></author>
+<author initials='K.' surname='Patel' fullname='K. Patel'><organization /></author>
+<date year='2019' month='August' />
+<abstract><t>Certification Authorities (CAs) within the Resource Public Key Infrastructure (RPKI) manage BGPsec router certificates as well as RPKI certificates.  The rollover of BGPsec router certificates must be carefully performed in order to synchronize the distribution of router public keys with BGPsec UPDATE messages verified with those router public keys.  This document describes a safe rollover process, and it discusses when and why the rollover of BGPsec router certificates is necessary.  When this rollover process is followed, the rollover will be performed without routing information being lost.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='224'/>
+<seriesInfo name='RFC' value='8634'/>
+<seriesInfo name='DOI' value='10.17487/RFC8634'/>
+</reference>
+</referencegroup>

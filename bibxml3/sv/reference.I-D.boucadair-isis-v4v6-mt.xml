@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-isis-v4v6-mt'>
+<front>
+<title>Multi-Topology/Multi-Instance ISIS for IPv4-Embedded IPv6</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohammed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<author initials='D' surname='Cheng' fullname='Dean Cheng'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Yiu Lee'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2010' />
+
+<abstract><t>This document defines two new Multi Topology Routing Identifiers (MT IDs), based on [RFC5120] and two new Instance Identifiers (MI IDs), based on [I-D.ietf-isis-mi], respectively, in the Intermediate System to Intermediate System.  With these identifiers, an IPv4-Embedded IPv6 topology is maintained for both IPv6 unicast and multicast traffic.  The purpose of running separate instances or topologies for IPv4-Embedded IPv6 traffic is to distinguish from the native IPv6 routing topology, and the topology that is used for routing IPv4- Embedded IPv6 datagrams only.  Separate instances/topologies are also meant to prevent any overload of the native IPv6 routing tables by IPv4-Embedded IPv6 routes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-isis-v4v6-mt-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-isis-v4v6-mt-02.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-touch-tcpm-2140bis-06.txt'>
+    <title>"TCP Control Block Interdependence", Joseph Touch, Michael Welzl, Safiqul Islam</title>
+    <link>http://www.ietf.org/internet-drafts/draft-touch-tcpm-2140bis-06.txt</link>
+    <description>This memo updates and replaces RFC 2140's description of interdependent TCP control blocks, in which part of the TCP state is shared among similar concurrent or consecutive connections. TCP state includes a combination of parameters, such as connection state, current round-trip time estimates, congestion control information, and process information. Most of this state is maintained on a per-connection basis in the TCP Control Block (TCB), but implementations can (and do) share certain TCB information across connections to the same host. Such sharing is intended to improve overall transient transport performance, while maintaining backward-compatibility with existing implementations. The sharing described herein is limited to only the TCB initialization and so has no effect on the long-term behavior of TCP after a connection has been established.</description>
+    <dc:date>2019-01-04T08:00:00-00:00</dc:date>
+</item>

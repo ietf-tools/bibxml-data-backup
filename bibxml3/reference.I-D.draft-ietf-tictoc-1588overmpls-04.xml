@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tictoc-1588overmpls'>
+<front>
+<title>Transporting Timing messages over MPLS Networks</title>
+
+<author initials='S' surname='Davari' fullname='Shahram Davari'>
+    <organization />
+</author>
+
+<author initials='A' surname='Oren' fullname='Amit Oren'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='P' surname='Roberts' fullname='Peter Roberts'>
+    <organization />
+</author>
+
+<author initials='L' surname='Montini' fullname='Laurent Montini'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2013' />
+
+<abstract><t>This document defines the method for transporting Timing messages such as PTP and NTP over an MPLS network.  The method allows for the easy identification of these PDUs at the port level to allow for port level processing of these PDUs in both LERs and LSRs.  The basic idea is to transport Timing messages inside dedicated MPLS LSPs.  These LSPs only carry timing messages and possibly Control and Management packets, but they do not carry customer traffic.  Two methods for transporting Timing messages over MPLS are defined. The first method is to transport Timing messages directly over the dedicated MPLS LSP via UDP/IP encapsulation, which is suitable for MPLS networks.  The second method is to transport Timing messages inside a PW via Ethernet encapsulation, which is suitable for both MPLS and MPLS-TP networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tictoc-1588overmpls-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tictoc-1588overmpls-04.txt' />
+</reference>

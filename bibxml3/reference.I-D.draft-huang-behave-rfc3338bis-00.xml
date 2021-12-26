@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huang-behave-rfc3338bis'>
+<front>
+<title>Dual Stack Hosts Using "Bump-in-the-API" (BIA)</title>
+
+<author initials='B' surname='Huang' fullname='Bill Huang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2009' />
+
+<abstract><t>This document describes the "Bump-In-the-API" (BIA) host based protocol translation mechanism that allows applications supporting only one IP address family to communicate with peers that are reachable or supporting only the other address family.  This specification addresses scenarios where a host is provided dual stack, IPv6 only or IPv4 only network connectivity. In the dual stack network case, single address family applications in the host will communicate directly with other hosts using the same address family. In the case of IPv6 only network or IPv6 only destination, IPv4- originated communications have to be be translated into IPv6. IPv6 communications may have to translated similarly to IPv4. Technically, the BIS-enabled host resolves both IPv4 and IPv6 addresses of the destination and behaves according to received responses.  Acknowledgement of previous work  This document is an update to and directly derivative from Seungyun Lee, Myung-Ki Shin, Yong-Jin Kim, Alain Durand, and Erik Nordmark's [RFC3338], which similarly provides a dual stack host means to communicate with other IPv6 host using existing IPv4 appliations.The original document was a product of the NGTRANS working group.  The changes in this document reflect three components:  1. Supporting IPv6 only network connections  2. Supporting IPv4 only network connections  3. Supporting Well Known Prefix  4. Removing Applicability and Disclaimer  The goal of this mechanism is the same as that of the Bump-in-the- stack mechanism, but this mechanism provides the translation method between the IPv4 APIs and IPv6 APIs.  Thus, the goal is simply achieved without IP header translation.  Huang, et al.  Expires April 22, 2010  [page 2]  RFC 3338bis  Dual Stack Hosts Using BIA  October 2009</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-huang-behave-rfc3338bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-huang-behave-rfc3338bis-00.txt' />
+</reference>

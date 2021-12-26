@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l1vpn-bgp-auto-discovery'>
+<front>
+<title>BGP-based Auto-Discovery for L1VPNs</title>
+
+<author initials='H' surname='Ould-Brahim' fullname='Hamid Ould-Brahim'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2006' />
+
+<abstract><t>The purpose of this draft is to define a BGP-based auto- discovery mechanism for layer-1 VPNs. The auto-discovery mechanism for l1vpns allows the provider network devices to dynamically discover the set of PEs having ports attached to CEs member of the same VPN. That information is necessary for completing the signaling phase. One main objective of l1vpn auto-discovery mechanism is to support "single-end provisioning" model, where addition of a new port to a given l1vpn would involve configuration changes only on the PE that has this port and on the CE that is connected to the PE via this port.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l1vpn-bgp-auto-discovery-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l1vpn-bgp-auto-discovery-01.txt' />
+</reference>

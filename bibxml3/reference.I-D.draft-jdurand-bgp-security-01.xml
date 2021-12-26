@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jdurand-bgp-security'>
+<front>
+<title>BGP operations and security</title>
+
+<author initials='J' surname='Durand' fullname='Jerome Durand'>
+    <organization />
+</author>
+
+<author initials='I' surname='Pepelnjak' fullname='Ivan Pepelnjak'>
+    <organization />
+</author>
+
+<author initials='G' surname='Doering' fullname='Gert Doering'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2012' />
+
+<abstract><t>BGP (Border Gateway Protocol) is the protocol used in the internet to exchange routing information between network domains.  This protocol does not directly include mechanisms that control that routes exchanged conform to the various rules defined by the Internet community.  This document intends to summarize most common existing rules and help network administrators applying simply coherent BGP policies.  First it recalls mechanisms that administrators can use to protect the BGP sessions, with TTL and MD5.  Then the document describes the prefix filters that can be used, how some of them can be automated, and where they apply in the BGP network.  Afterwards, applicability of other methods including BGP route flap dampening, limiting maximum prefixes per peering, AS-path filtering and community scrubbing is analyzed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jdurand-bgp-security-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jdurand-bgp-security-01.txt' />
+</reference>

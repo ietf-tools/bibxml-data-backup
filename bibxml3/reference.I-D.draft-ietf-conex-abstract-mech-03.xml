@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-conex-abstract-mech'>
+<front>
+<title>Congestion Exposure (ConEx) Concepts and Abstract Mechanism</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2011' />
+
+<abstract><t>This document describes an abstract mechanism by which senders inform the network about the congestion encountered by packets earlier in the same flow.  Today, the network may signal congestion to the receiver by ECN markings or by dropping packets, and the receiver passes this information back to the sender in transport-layer feedback.  The mechanism to be developed by the ConEx WG will enable the sender to also relay this congestion information back into the network in-band at the IP layer, such that the total level of congestion is visible to all IP devices along the path, where it could, for example, be used to provide input to traffic management.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-conex-abstract-mech-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-conex-abstract-mech-03.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hui-6man-rpl-headers'>
+<front>
+<title>Using RPL Headers Without IP-in-IP</title>
+
+<author initials='J' surname='Hui' fullname='Jonathan Hui'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2010' />
+
+<abstract><t>Routing for Low Power and Lossy Networks (RPL) is a routing protocol designed for Low power and Lossy Networks (LLNs).  RPL includes routing information in IPv6 data plane datagrams to help maintain the routing topology.  When forwarding a datagram into a RPL domain, a RPL router may need to expand the datagram to include routing information in IPv6 Extension headers.  A generic solution has been defined that uses IP-in-IP tunneling to include RPL routing information.  This document describes an alternative to inserting and removing RPL information in datagrams without the use of IP-in-IP tunneling.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hui-6man-rpl-headers-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hui-6man-rpl-headers-00.txt' />
+</reference>

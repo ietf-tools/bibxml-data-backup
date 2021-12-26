@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-west-cookie-incrementalism-01.txt'>
+    <title>"Incrementally Better Cookies", Mike West</title>
+    <link>http://www.ietf.org/internet-drafts/draft-west-cookie-incrementalism-01.txt</link>
+    <description>This document proposes a few changes to cookies inspired by the properties of the HTTP State Tokens mechanism proposed in [I-D.west-http-state-tokens].  First, cookies should be treated as "SameSite=Lax" by default.  Second, cookies that explicitly assert "SameSite=None" in order to enable cross-site delivery should also be marked as "Secure".  Third, same-site should take the scheme of the sites into account.  Fourth, cookies should respect schemes.  Fifth, cookies associated with non-secure schemes should be removed at the end of a user's session.  Sixth, the definition of a session should be tightened.</description>
+    <dc:date>2020-03-15T07:00:00-00:00</dc:date>
+</item>

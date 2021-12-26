@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netmod-sub-intf-vlan-model'>
+<front>
+<title>Sub-interface VLAN YANG Data Models</title>
+
+<author initials='R' surname='Wilton' fullname='Robert Wilton'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ball' fullname='David Ball'>
+    <organization />
+</author>
+
+<author initials='t' surname='tapsingh@cisco.com' fullname='tapsingh@cisco.com'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivaraj' fullname='Selvakumar Sivaraj'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>This document defines YANG modules to add support for classifying traffic received on interfaces as Ethernet/VLAN framed packets to sub-interfaces based on the fields available in the Ethernet/VLAN frame headers.  These modules allow configuration of Layer 3 and Layer 2 sub-interfaces (e.g.  L2VPN attachment circuits) that can interoperate with IETF based forwarding protocols; such as IP and L3VPN services; or L2VPN services like VPWS, VPLS, and EVPN.  The sub-interfaces also interoperate with VLAN tagged traffic orginating from an IEEE 802.1Q compliant bridge.  The model differs from an IEEE 802.1Q bridge model in that the configuration is interface/sub-interface based as opposed to being based on membership of an 802.1Q VLAN bridge.  The YANG data models in this document conforms to the Network Management Datastore Architecture (NMDA) defined in RFC 8342.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netmod-sub-intf-vlan-model-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netmod-sub-intf-vlan-model-07.txt' />
+</reference>

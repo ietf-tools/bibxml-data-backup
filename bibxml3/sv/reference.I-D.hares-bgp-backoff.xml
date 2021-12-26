@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hares-bgp-backoff'>
+<front>
+<title>BGP Peer Restart Backoff Mechanisms</title>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<date month='February' day='11' year='2004' />
+
+<abstract><t>This document describes mechanisms for methods for damping the oscillations of BGP-4 [1] peers by increasing the time between automatic start functions of the BGP peers. The increase of time between automatic start functions will be denoted as a backoff of the automatic start functions by this draft. This draft is an informational RFC which provides a description of mechanisms for back-off of the automatic start function in bgp-4 peer reconnections. This Informational RFC includes descriptions about the back-off mechanisms and how this information is recorded in the BGP-4 MIB version 2 [2]. The expontential back-off mechanism contained in this draft was first recorded in a draft of the bgp-4 specification. The author requests that anyone with information regarding the original authors of that work contact the author. The lack of credit for those authors is based on the author's lack of knowledge the originators of the expotential back-off.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hares-bgp-backoff-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hares-bgp-backoff-01.txt' />
+</reference>

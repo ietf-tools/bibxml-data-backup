@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-ospf-bier-extensions'>
+<front>
+<title>OSPF Extensions for BIER</title>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='N' surname='Kumar' fullname='Nagendra Kumar'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='A' surname='Dolganow' fullname='Andrew Dolganow'>
+    <organization />
+</author>
+
+<author initials='T' surname='Przygienda' fullname='Tony Przygienda'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Aldrin' fullname='Sam Aldrin'>
+    <organization />
+</author>
+
+<date month='October' day='3' year='2017' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) is an architecture that provides multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain multicast related per-flow state.  Neither does BIER require an explicit tree-building protocol for its operation.  A multicast data packet enters a BIER domain at a "Bit-Forwarding Ingress Router" (BFIR), and leaves the BIER domain at one or more "Bit-Forwarding Egress Routers" (BFERs).  The BFIR router adds a BIER header to the packet.  Such header contains a bit-string in which each bit represents exactly one BFER to forward the packet to.  The set of BFERs to which the multicast packet needs to be forwarded is expressed by the according set of bits set in BIER packet header.  This document describes the OSPF protocol extension required for BIER with MPLS encapsulation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-ospf-bier-extensions-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-ospf-bier-extensions-08.txt' />
+</reference>

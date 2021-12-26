@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-addip-sctp'>
+<front>
+<title>Stream Control Transmission Protocol (SCTP) Dynamic Address  Reconfiguration</title>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2007' />
+
+<abstract><t>A local host may have multiple points of attachment to the Internet, giving it a degree of fault tolerance from hardware failures. Stream Control Transmission Protocol (SCTP) [I-D.ietf-tsvwg-2960bis] was developed to take full advantage of such a multi-homed host to provide a fast failover and association survivability in the face of such hardware failures. This document describes an extension to SCTP that will allow an SCTP stack to dynamically add an IP Addresses to an SCTP association, dynamically delete an IP addresses from an SCTP association, and to request to set the primary address the peer will use when sending to an endpoint.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-addip-sctp-22' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-addip-sctp-22.txt' />
+</reference>

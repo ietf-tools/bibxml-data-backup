@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zrelli-krb-xtgsp'>
+<front>
+<title>XTGSP, the Inter-TGS protocol for cross-realm operations in Kerberos.</title>
+
+<author initials='S' surname='Zrelli' fullname='Saber Zrelli'>
+    <organization />
+</author>
+
+<date month='November' day='8' year='2006' />
+
+<abstract><t>The XTGSP protocol defines an extension to the Kerberos protocol. This extension allows a KDC to build a TGS-REP message for services that are not registered in the local realm. Part of the components of the TGS-REP message are obtained from the KDC where the service is registered. The communication between the local KDC and the remote KDC is encrypted using cross-realm keys maintained using the PKINIT extension.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zrelli-krb-xtgsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zrelli-krb-xtgsp-00.txt' />
+</reference>

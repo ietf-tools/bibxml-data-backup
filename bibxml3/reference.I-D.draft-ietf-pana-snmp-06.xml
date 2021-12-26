@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pana-snmp'>
+<front>
+<title>SNMP usage for PAA-EP interface</title>
+
+<author initials='Y' surname='Mghazli' fullname='Yacine Mghazli'>
+    <organization />
+</author>
+
+<date month='June' day='26' year='2006' />
+
+<abstract><t>The PANA Authentication Agent (PAA) does not necessarily act as an Enforcement Point (EP) to prevent unauthorized access or usage of the network. When a PANA Client successfully authenticates itself to the PAA, EP(s) (e.g., access routers) will need to be suitably notified. The PANA working group recommends the use of Simple Network Management Protocol Version 3 (SNMPv3) to deliver the authorization information to one or more EPs when the PAA is separated from EPs. The present document provides the necessary information and extensions needed to use SNMPv3 as the PAA-EP protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pana-snmp-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pana-snmp-06.txt' />
+</reference>

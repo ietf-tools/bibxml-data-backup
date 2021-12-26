@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.manral-rpsec-existing-crypto'>
+<front>
+<title>Issues with existing Cryptographic Protection Methods for Routing  Protocols</title>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2006' />
+
+<abstract><t>Routing protocols often use cryptographic mechanisms to authenticate data being received from a neighboring router has not been modified in transit, and actually originated from the nrighboring router purporting to have originating the data. Most of the cryptographic mechanisms rely on hash algorithms applied to the data in the routing protocol packet, which means the data is transported, in the clear, along with the has signature based on the data itself. These mechanisms rely on the manual configuration of the keys used to seed, or build, these hash based sigantures. This document outlines some of the problems with manual keying of these cryptographic algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-manral-rpsec-existing-crypto-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-manral-rpsec-existing-crypto-03.txt' />
+</reference>

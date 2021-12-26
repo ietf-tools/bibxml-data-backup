@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-pcn-3-in-1-encoding'>
+<front>
+<title>PCN 3-State Encoding Extension in a single DSCP</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2008' />
+
+<abstract><t>Pre-congestion notification (PCN) is a mechanism designed to protect the quality of service of inelastic flows.  It does this by marking packets when traffic load on a link is approaching or has exceeded a threshold below the physical link rate.  This document specifies an extension to the two-state PCN baseline encoding that enables three encoding states to be carried in the IP header without using more than one Diffserv codepoint.  It presupposes a standards action has removed the limit of two encoding states in current tunnelling mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-pcn-3-in-1-encoding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-pcn-3-in-1-encoding-00.txt' />
+</reference>

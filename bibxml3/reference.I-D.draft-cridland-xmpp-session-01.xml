@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cridland-xmpp-session'>
+<front>
+<title>Here Lies Extensible Messaging and Presence Protocol (XMPP) Session Establishment</title>
+
+<author initials='D' surname='Cridland' fullname='Dave Cridland'>
+    <organization />
+</author>
+
+<date month='June' day='10' year='2014' />
+
+<abstract><t>The Extensible Messaging and Presence Protocol (XMPP) historically had a Session Establishment request defined in RFC 3921 which clients were required to perform at the beginning of a session.  RFC 6121 dropped this entirely.  This specification reinstates it as an optional no-op to aid backwards compability, matching commonly deployed workarounds.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cridland-xmpp-session-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cridland-xmpp-session-01.txt' />
+</reference>

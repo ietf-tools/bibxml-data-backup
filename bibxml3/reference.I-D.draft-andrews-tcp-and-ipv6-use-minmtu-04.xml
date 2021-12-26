@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.andrews-tcp-and-ipv6-use-minmtu'>
+<front>
+<title>TCP Fails To Respect IPV6_USE_MIN_MTU</title>
+
+<author initials='M' surname='Andrews' fullname='Mark Andrews'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2015' />
+
+<abstract><t>The IPV6_USE_MIN_MTU socket option directs the IP layer to limit the IPv6 packet size to the minimum required supported MTU from the base IPv6 specification, i.e. 1280 bytes.  Many implementations of TCP running over IPv6 neglect to check the IPV6_USE_MIN_MTU value when performing MSS negotiation and when constructing a TCP segment despite MSS being defined to be the MTU less the IP and TCP header sizes (60 bytes for IPv6).  This leads to oversized IPv6 packets being sent resulting in unintended Path Maximum Transport Unit Discovery (PMTUD) being performed and to fragmented IPv6 packets being sent.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-andrews-tcp-and-ipv6-use-minmtu-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-andrews-tcp-and-ipv6-use-minmtu-04.txt' />
+</reference>

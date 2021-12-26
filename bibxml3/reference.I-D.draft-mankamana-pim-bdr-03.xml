@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mankamana-pim-bdr'>
+<front>
+<title>PIM Backup Designated Router Procedure</title>
+
+<author initials='m' surname='mishra' fullname='mankamana mishra'>
+    <organization />
+</author>
+
+<author initials='J' surname='Goh' fullname='Joseph Goh'>
+    <organization />
+</author>
+
+<author initials='G' surname='Mishra' fullname='Gyan Mishra'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2019' />
+
+<abstract><t>On a multi-access network, one of the PIM routers is elected as a Designated Router (DR).  On the last hop LAN, the PIM DR is responsible for tracking local multicast listeners and forwarding traffic to these listeners if the group is operating in PIM-SM.  In this document, we propose a mechanism to elect backup DR on a shared LAN.  A backup DR on LAN would be useful for faster convergence. This draft introduces the concept of a Backup Designated Router (BDR) and the procedure to implement it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mankamana-pim-bdr-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mankamana-pim-bdr-03.txt' />
+</reference>

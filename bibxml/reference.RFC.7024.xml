@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7024' target='https://www.rfc-editor.org/info/rfc7024'>
+<front>
+<title>Virtual Hub-and-Spoke in BGP/MPLS VPNs</title>
+<author initials='H.' surname='Jeng' fullname='H. Jeng'><organization /></author>
+<author initials='J.' surname='Uttaro' fullname='J. Uttaro'><organization /></author>
+<author initials='L.' surname='Jalil' fullname='L. Jalil'><organization /></author>
+<author initials='B.' surname='Decraene' fullname='B. Decraene'><organization /></author>
+<author initials='Y.' surname='Rekhter' fullname='Y. Rekhter'><organization /></author>
+<author initials='R.' surname='Aggarwal' fullname='R. Aggarwal'><organization /></author>
+<date year='2013' month='October' />
+<abstract><t>With BGP/MPLS Virtual Private Networks (VPNs), providing any-to-any connectivity among sites of a given VPN would require each  Provider Edge (PE) router connected to one or more of these sites  to hold all the routes of that VPN.  The approach described in  this document allows the VPN service provider to reduce the number  of PE routers that have to maintain all these routes by requiring  only a subset of these routers to maintain all these routes.</t><t>Furthermore, when PE routers use ingress replication to carry the multicast traffic of VPN customers, the approach  described in this document may, under certain circumstances,  reduce bandwidth inefficiency associated with ingress replication  and redistribute the replication load among PE routers.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7024'/>
+<seriesInfo name='DOI' value='10.17487/RFC7024'/>
+</reference>

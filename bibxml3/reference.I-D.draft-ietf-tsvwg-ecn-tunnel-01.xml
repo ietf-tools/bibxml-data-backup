@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-ecn-tunnel'>
+<front>
+<title>Layered Encapsulation of Congestion Notification</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2008' />
+
+<abstract><t>This document redefines how the explicit congestion notification (ECN) field of the outer IP header of a tunnel should be constructed. It brings all IP in IP tunnels (v4 or v6) into line with the way IPsec tunnels now construct the ECN field.  It includes a thorough analysis of the reasoning for this change and the implications.  It also gives guidelines on the encapsulation of IP congestion notification by any outer header, whether encapsulated in an IP tunnel or in a lower layer header.  Following these guidelines should help interworking, if the IETF or other standards bodies specify any new encapsulation of congestion notification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-ecn-tunnel-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-ecn-tunnel-01.txt' />
+</reference>

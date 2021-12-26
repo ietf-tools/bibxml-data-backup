@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-split-dns'>
+<front>
+<title>Split DNS Configuration for IKEv2</title>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<date month='November' day='25' year='2018' />
+
+<abstract><t>This document defines two Configuration Payload Attribute Types (INTERNAL_DNS_DOMAIN and INTERNAL_DNSSEC_TA) for the Internet Key Exchange Protocol Version 2 (IKEv2).  These payloads add support for private (internal-only) DNS domains.  These domains are intended to be resolved using non-public DNS servers that are only reachable through the IPsec connection.  DNS resolution for other domains remains unchanged.  These Configuration Payloads only apply to split tunnel configurations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-split-dns-16' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-split-dns-16.txt' />
+</reference>

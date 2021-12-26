@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.despres-softwire-4rd-addmapping'>
+<front>
+<title>Stateless Address Mapping for IPv4 Residual Deployment (4rd)</title>
+
+<author initials='R' surname='Despres' fullname='Remi Despres'>
+    <organization />
+</author>
+
+<author initials='J' surname='Qin' fullname='Jacni Qin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Perreault' fullname='Simon Perreault'>
+    <organization />
+</author>
+
+<author initials='X' surname='Deng' fullname='Xiaohong Deng'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2011' />
+
+<abstract><t>This document specifies a mechanism, the 4rd address mapping, for service providers to offer residual deployment of the IPv4 service across IPv6-only domains.  Ease of operation and scalability are due to this address mapping being stateless (no per customer states). IPv4 address sharing is based on exclusive port sets assigned to customers, these sets being algorithmically derived from bits used as port-set identifiers.  Features include support of shared IPv4 addresses, same routes for IPv4 as for IPv6, and compatibility with both provider aggregatable and provider-independent IPv4 prefixes. The whole 4rd address mapping or part of it can be used combined with various tunneling and double-translation methods.  It can also be used either alone or in parallel with stateful mechanisms used for their flexibility where necessary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-despres-softwire-4rd-addmapping-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-despres-softwire-4rd-addmapping-01.txt' />
+</reference>

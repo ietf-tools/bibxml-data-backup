@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5923' target='https://www.rfc-editor.org/info/rfc5923'>
+<front>
+<title>Connection Reuse in the Session Initiation Protocol (SIP)</title>
+<author initials='V.' surname='Gurbani' fullname='V. Gurbani' role='editor'><organization /></author>
+<author initials='R.' surname='Mahy' fullname='R. Mahy'><organization /></author>
+<author initials='B.' surname='Tate' fullname='B. Tate'><organization /></author>
+<date year='2010' month='June' />
+<abstract><t>This document enables a pair of communicating proxies to reuse a congestion-controlled connection between themselves for sending requests in the forwards and backwards direction.  Because the connection is essentially aliased for requests going in the backwards direction, reuse is predicated upon both the communicating endpoints authenticating themselves using X.509 certificates through Transport Layer Security (TLS).  For this reason, we only consider connection reuse for TLS over TCP and TLS over Stream Control Transmission Protocol (SCTP).  This document also provides guidelines on connection reuse and virtual SIP servers and the interaction of connection reuse and DNS SRV lookups in SIP.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5923'/>
+<seriesInfo name='DOI' value='10.17487/RFC5923'/>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sun-idr-bgp-ls-notification'>
+<front>
+<title>&lt;BGP Support for Fast Link Status Notification></title>
+
+<author initials='M' surname='Sun' fullname='Marcus Sun'>
+    <organization />
+</author>
+
+<author initials='B' surname='Pithawala' fullname='Burjiz Pithawala'>
+    <organization />
+</author>
+
+<author initials='F' surname='Gao' fullname='Feng Gao'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2017' />
+
+<abstract><t>This document describes the use of Border Gateway Protocol (BGP) community. This optional transitive community will instruct router to monitor itself ports . With this community, controller only needs to send route update message once and will get the feedback only if link status changes. In particular this community can help controller get the link status changing notification much faster than current method.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sun-idr-bgp-ls-notification-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sun-idr-bgp-ls-notification-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.roca-fecframe-rs'>
+<front>
+<title>Reed-Solomon Forward Error Correction (FEC) Schemes for FECFRAME</title>
+
+<author initials='V' surname='Roca' fullname='Vincent  Roca'>
+    <organization />
+</author>
+
+<author initials='M' surname='Cunche' fullname='Mathieu Cunche'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lacan' fullname='Jerome Lacan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Bouabdallah' fullname='Amine Bouabdallah'>
+    <organization />
+</author>
+
+<author initials='K' surname='Matsuzono' fullname='Kazuhisa Matsuzono'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>This document describes four fully-specified FEC schemes for Reed- Solomon codes that can be used to protect media streams along the lines defined by the FECFRAME framework.  Reed-Solomon codes belong to the class of Maximum Distance Separable (MDS) codes which means they offer optimal protection against packet erasures.  They are also systematic codes, which means that the source symbols are part of the encoding symbols.  The price to pay is a limit on the maximum source block size, on the maximum number of encoding symbols, and a computational complexity higher than that of sparse parity check based FEC codes.  However, this complexity remains compatible with software codecs.  The first scheme is for Reed-Solomon codes over GF(2^^m), with m in {2..16}, a global FEC encoding and arbitrary packet flows.  The second scheme is for Reed-Solomon codes over GF(2^^m), with m in {2..16}, the general case FEC encoding, and arbitrary packet flows. The third (resp. fourth) scheme is similar to the first (resp. second) scheme, with the exception that it is for a single sequenced flow.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-roca-fecframe-rs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-roca-fecframe-rs-00.txt' />
+</reference>

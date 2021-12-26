@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ramalho-g7110-segments'>
+<front>
+<title>G.711.0 Compression Segments</title>
+
+<author initials='M' surname='Ramalho' fullname='Michael Ramalho'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='M' surname='Perumal' fullname='Muthu Perumal'>
+    <organization />
+</author>
+
+<author initials='N' surname='Harada' fullname='Noboru Harada'>
+    <organization />
+</author>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2012' />
+
+<abstract><t>This document describes use cases for ITU-T Recommendation G.711.0 compression of ITU-T Recommendation G.711 payloads when deployed in transport system segments using the Real-Time Transport Protocol (RTP).  ITU-T Rec. G.711.0 defines a lossless and stateless compression for G.711 packet payloads typically used in IP networks.  Although the use of ITU-T Rec. G.711.0 can be negotiated end-to-end, being lossless and stateless it can also be applied as a compression mechanism "in-the-middle" of an end-to-end ITU-T G.711 negotiated session.  These "in-the-middle" applications of ITU-T Rec. G.711.0 are called "G.711.0 Compression Segments" in this document.  This document outlines considerations and best practices (a.k.a. use cases) for these "G.711.0 compression segments".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ramalho-g7110-segments-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ramalho-g7110-segments-00.txt' />
+</reference>

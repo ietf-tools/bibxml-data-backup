@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mcgrew-iv-gen'>
+<front>
+<title>Generation of Deterministic Initialization Vectors (IVs) and Nonces</title>
+
+<author initials='D' surname='McGrew' fullname='David McGrew'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2011' />
+
+<abstract><t>Many cryptographic algorithms use deterministic IVs, including CTR, GCM, CCM, GMAC.  This type of IV is also called a (deterministic) nonce.  Deterministic IVs must be distinct, for each fixed key, to guarantee the security of the algorithm.  This note describes best practices for the generation of such IVs, and summarizes how they are generated and used in different protocols.  Some problem areas are highlighted, and test considerations are outlined.  This note will be useful to implementers of algorithms using deterministic IVs, and to protocol or system designers using them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mcgrew-iv-gen-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mcgrew-iv-gen-00.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.carpenter-6man-why64'>
+<front>
+<title>Analysis of the 64-bit Boundary in IPv6 Addressing</title>
+
+<author initials='B' surname='Carpenter' fullname='Brian Carpenter'>
+    <organization />
+</author>
+
+<author initials='T' surname='Chown' fullname='Tim Chown'>
+    <organization />
+</author>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<author initials='A' surname='Petrescu' fullname='Alex Petrescu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Yourtchenko' fullname='Andrew Yourtchenko'>
+    <organization />
+</author>
+
+<date month='February' day='5' year='2014' />
+
+<abstract><t>The IPv6 unicast addressing format includes a separation between the prefix used to route packets to a subnet and the interface identifier used to specify a given interface connected to that subnet. Historically the interface identifier has been defined as 64 bits long, leaving 64 bits for the prefix.  This document discusses the reasons for this fixed boundary and the issues involved in treating it as a variable boundary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-carpenter-6man-why64-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-carpenter-6man-why64-01.txt' />
+</reference>

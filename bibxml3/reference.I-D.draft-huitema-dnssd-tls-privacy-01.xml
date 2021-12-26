@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huitema-dnssd-tls-privacy'>
+<front>
+<title>Private Discovery with TLS-ESNI</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kaiser' fullname='Daniel Kaiser'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>DNS-SD (DNS Service Discovery) normally discloses information about both the devices offering services and the devices requesting services.  This information includes host names, network parameters, and possibly a further description of the corresponding service instance.  Especially when mobile devices engage in DNS Service Discovery over Multicast DNS at a public hotspot, a serious privacy problem arises.  We propose to solve this problem by developing a private discovery profile for UDP based transports using TLS, such as DTLS and QUIC. The profile is based on using the Encrypted SNI extension.  We also define a standalone private discovery service, that can be combined with arbitrary applications in the same way as DNS-SD.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-huitema-dnssd-tls-privacy-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-huitema-dnssd-tls-privacy-01.txt' />
+</reference>

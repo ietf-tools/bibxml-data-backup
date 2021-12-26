@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-spfbis-macros-nixed'>
+<front>
+<title>Macros Nixed by Major Providers</title>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<author initials='D' surname='Rand' fullname='David Rand'>
+    <organization />
+</author>
+
+<date month='May' day='28' year='2013' />
+
+<abstract><t>SPF is a popular tool for managing email blocking issues.  It has also helped reduce backscatter related with Non-Delivery Notifications as was intended.  A practically unused feature is the SPF macro capability that SPFbis still in part retains.  This feature greatly diminishes SPF's utility and actually threatens email interchange, especially when used in conjunction with secondary policy layers when also ignored by major providers.  The macro mechanism is also unable to cope with internationalization, and is found in virtually none of the published resource records.  It is counter productive to retain the largely unused and often unsupported macro feature, despite efforts expended to develop the macro language.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-spfbis-macros-nixed-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-spfbis-macros-nixed-01.txt' />
+</reference>

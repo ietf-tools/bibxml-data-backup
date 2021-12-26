@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liang-ospf-flowspec-extensions'>
+<front>
+<title>OSPF Extensions for Flow Specification</title>
+
+<author initials='Q' surname='Liang' fullname='Qiandeng Liang'>
+    <organization />
+</author>
+
+<author initials='J' surname='You' fullname='Jianjie You'>
+    <organization />
+</author>
+
+<date month='September' day='20' year='2014' />
+
+<abstract><t>This document defines a new OSPF flow specification (FlowSpec) Opaque Link State Advertisement (LSA) encoding format that can be used to distribute traffic flow specifications.  Additionally, this document proposes to assign label for the FlowSpec route in order to generate one or more LSPs, which would improve the route lookup performance in the data plane.  For the network not deploying BGP or the internal nodes in an AS, it is expected to extend IGP (Interior Gateway Protocol ) to distribute FlowSpec routes.  One application is to mitigate denial-of-service attacks as close to the attacker as possible, the other is to generate LSPs for the FlowSpec routes in the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liang-ospf-flowspec-extensions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liang-ospf-flowspec-extensions-00.txt' />
+</reference>

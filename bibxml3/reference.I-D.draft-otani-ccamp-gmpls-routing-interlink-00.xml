@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otani-ccamp-gmpls-routing-interlink'>
+<front>
+<title>GMPLS Inter-Domain Routing in support of inter-domain links</title>
+
+<author initials='T' surname='Otani' fullname='Tomohiro  Otani'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2007' />
+
+<abstract><t>This draft states the problem of the current generalized multi- protocol label switching (GMPLS) routing in order to deal with inter- domain TE links for GMPLS inter-domain signaling. Since the GMPLS signaling protocol introduces bi-directional label switched path (LSP) creation mechanism, an ingress node (or a path computation element) searches for the bidirectional route in the traffic engineering database (TED). Considering the GMPLS inter-domain path creation, the TED contains only outgoing TE information of inter- domain links and will not be able to confirm the validity of the route. In order to solve this issue, we describe the GMPLS inter- domain routing requirement and mechanism in support of exchanging of inter-domain TE link information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otani-ccamp-gmpls-routing-interlink-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otani-ccamp-gmpls-routing-interlink-00.txt' />
+</reference>

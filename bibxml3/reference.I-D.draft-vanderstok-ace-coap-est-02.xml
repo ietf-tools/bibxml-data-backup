@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanderstok-ace-coap-est'>
+<front>
+<title>EST over secure CoAP (EST-coaps)</title>
+
+<author initials='S' surname='Kumar' fullname='Sandeep Kumar'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kampanakis' fullname='Panos Kampanakis'>
+    <organization />
+</author>
+
+<author initials='M' surname='Furuhed' fullname='Martin Furuhed'>
+    <organization />
+</author>
+
+<author initials='S' surname='Raza' fullname='Shahid Raza'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2017' />
+
+<abstract><t>Low-resource devices in a Low-power and Lossy Network (LLN) can operate in a mesh network using the IPv6 over Low-power Wireless Personal Area Networks (6LoWPAN) and IEEE 802.15.4 link-layer standards.  Provisioning these devices in a secure manner with keys (often called secure bootstrapping) used to encrypt and authenticate messages, is the subject of Bootstrapping of Remote Secure Key Infrastructures (BRSKI) [I-D.ietf-anima-bootstrapping-keyinfra] and 6tisch Secure Join [I-D.ietf-6tisch-dtsecurity-secure-join]. Enrollment over Secure Transport (EST) [RFC7030], based on TLS and HTTP, is used in BRSKI.  Low-resource devices often use the lightweight Constrained Application Protocol (CoAP) [RFC7252] for message exchanges.  This document defines how low-resource devices are expected to use EST over secure CoAP (EST-coaps) for secure bootstrapping and certificate enrollment. 6LoWPAN fragmentation management and extensions to CoAP registries are needed to enable EST-coaps.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanderstok-ace-coap-est-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-ace-coap-est-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-ace-coap-est-02.pdf' />
+</reference>

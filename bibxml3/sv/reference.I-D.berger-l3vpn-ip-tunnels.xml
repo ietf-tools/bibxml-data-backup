@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.berger-l3vpn-ip-tunnels'>
+<front>
+<title>BGP/IP VPNs: BGP and CE-Based Virtual Private Networks</title>
+
+<author initials='L' surname='Berger' fullname='Lou Berger'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ronald  Bonica'>
+    <organization />
+</author>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2007' />
+
+<abstract><t>This memo describes a routing architecture that is most applicable to Customer Edge (CE)-based Virtual Private Networks (VPNs).  In this architecture, customer devices use BGP to exchange VPN routes with one another. The BGP UPDATES include a new attribute that identifies the endpoint of a tunnel that can be used to reach a particular VPN prefix.  The encapsulation strategy described in this memo is more flexible than that described in RFC 4364. In this architecture, the edge router can encapsulate the original datagram twice, as in RFC 4364. In this case, the inner header provides VPN context and the outer header identifies the tunnel between edge routers. Alternatively, the edge router can encapsulate the original datagram only once, with the tunnel providing both VPN context and identifying a tunnel to the remote edge router.Contents</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-berger-l3vpn-ip-tunnels-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-berger-l3vpn-ip-tunnels-01.txt' />
+</reference>

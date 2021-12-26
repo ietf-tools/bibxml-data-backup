@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.staykov-hu-json-canonical-form'>
+<front>
+<title>JSON Canonical Form</title>
+
+<author initials='G' surname='Staykov' fullname='Georgi Staykov'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hu' fullname='Jeff Hu'>
+    <organization />
+</author>
+
+<date month='November' day='7' year='2012' />
+
+<abstract><t>A single JSON document can have multiple logically equivalent physical representations. While convenient for human interaction, this flexibility is inconvenient for cases where a machine is used to assess the logical equivalence of documents. In cases where logical equivalence is useful, an encoder should produce a canonical form of a JSON document. For example, since digital signatures demand the same physical representation for logically equivalent documents, a canonical physical representation would allow the signature to apply to the logical document. This internet draft has the goal to define a canonical form of JSON documents. Two logically equivalent documents should have same canonical form.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-staykov-hu-json-canonical-form-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-staykov-hu-json-canonical-form-00.txt' />
+</reference>

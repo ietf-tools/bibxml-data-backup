@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.janapath-intarea-traceflow'>
+<front>
+<title>Traceflow</title>
+
+<author initials='B' surname='Venkataswami' fullname='Balaji Venkataswami'>
+    <organization />
+</author>
+
+<author initials='R' surname='Groves' fullname='Richard Groves'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hoose' fullname='Peter Hoose'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2012' />
+
+<abstract><t>This document describes a new OAM protocol - TraceFlow that captures information pertaining to a traffic flow along the path that the flow takes through the network. TraceFlow is ECMP and link-aggregation aware and captures the information about constituent members through which the traffic flow passes. TraceFlow gathers information that is relevant to the flow such as outgoing interface Layer 3 address, Next-hop to which the packet of the flow is forwarded, effect of network policies such as access control lists on the flow. This draft requires the Traceflow protocol to be processed by Layer 3 devices only. Devices such as Layer 2 devices, MPLS LERs/LSRs along the way are passed through without any processing as if in a pass-through mode. IP tunnels such as IP-in-IP, IP-in-GRE mechanisms are expected to pass the Traceflow packets through them using the pass through mode.  For achieving its purpose Traceflow advocates the use of a specific UDP destination port to be assigned from IANA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-janapath-intarea-traceflow-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-janapath-intarea-traceflow-00.txt' />
+</reference>

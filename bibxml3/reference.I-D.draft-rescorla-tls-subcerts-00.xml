@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rescorla-tls-subcerts'>
+<front>
+<title>Delegated Credentials for TLS</title>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='S' surname='Iyengar' fullname='Subodh Iyengar'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sullivan' fullname='Nick Sullivan'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2016' />
+
+<abstract><t>The organizational separation between the operator of a TLS server and the certificate authority that provides it credentials can cause problems, for example when it comes to reducing the lifetime of certificates or supporting new cryptographic algorithms.  This document describes a mechanism to allow TLS server operators to create their own credential delegations without breaking compatibility with clients that do not support this specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rescorla-tls-subcerts-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rescorla-tls-subcerts-00.txt' />
+</reference>

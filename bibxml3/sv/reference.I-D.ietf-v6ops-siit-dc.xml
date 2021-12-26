@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-siit-dc'>
+<front>
+<title>SIIT-DC: Stateless IP/ICMP Translation for IPv6 Data Centre Environments</title>
+
+<author initials='T' surname='Anderson' fullname='Tore Anderson'>
+    <organization />
+</author>
+
+<date month='October' day='12' year='2015' />
+
+<abstract><t>This document describes the use of the Stateless IP/ICMP Translation (SIIT) algorithm in an IPv6 Internet Data Centre (IDC).  In this deployment model, traffic from legacy IPv4-only clients on the Internet is translated to IPv6 upon reaching the IDC operator's network infrastructure.  From that point on, it may be treated the same as traffic from native IPv6 end users.  The IPv6 endpoints may be numbered using arbitrary (non-IPv4-translatable) IPv6 addresses. This facilitates a single-stack IPv6-only network infrastructure, as well as efficient utilisation of public IPv4 addresses.  The primary audience is IDC operators who are deploying IPv6, running out of available IPv4 addresses, and/or feel that dual stack causes undesirable operational complexity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-siit-dc-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-siit-dc-03.txt' />
+</reference>

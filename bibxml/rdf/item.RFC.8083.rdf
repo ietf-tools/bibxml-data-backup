@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc8083.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc8083.txt</link>
+        <title>RFC 8083: Multimedia Congestion Control: Circuit Breakers for Unicast RTP Sessions, C. Perkins, V. Singh</title>
+        <dc:date>2017-03-01T23:00:00-00:00</dc:date>
+        <description>This document does not propose a congestion control algorithm.  It instead defines a minimal set of RTP circuit breakers: conditions under which an RTP sender needs to stop transmitting media data to protect the network from excessive congestion.  It is expected that, in the absence of long-lived excessive congestion, RTP applications running on best-effort IP networks will be able to operate without triggering these circuit breakers.  To avoid triggering the RTP circuit breaker, any Standards Track congestion control algorithms defined for RTP will need to operate within the envelope set by these RTP circuit breaker algorithms. </description>
+    </item>
+

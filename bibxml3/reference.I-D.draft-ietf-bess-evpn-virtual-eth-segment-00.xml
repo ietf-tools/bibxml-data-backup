@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-virtual-eth-segment'>
+<front>
+<title>EVPN Virtual Ethernet Segment</title>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='P' surname='Brissette' fullname='Patrice Brissette'>
+    <organization />
+</author>
+
+<author initials='R' surname='Schell' fullname='Rick Schell'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2018' />
+
+<abstract><t>EVPN and PBB-EVPN introduce a family of solutions for multipoint Ethernet services over MPLS/IP network with many advanced capabilities among which their multi-homing capabilities. These solutions define two types of multi-homing for an Ethernet Segment (ES): 1) Single-Active and 2) All-Active, where an Ethernet Segment is defined as a set of links between the multi-homed device/network and the set of PE devices that they are connected to.  Some Service Providers want to extend the concept of the physical links in an ES to Ethernet Virtual Circuits (EVCs) where many of such EVCs can be aggregated on a single physical External Network-to- Network Interface (ENNI). An ES that consists of a set of EVCs instead of physical links is referred to as a virtual ES (vES). This draft describes the requirements and the extensions needed to support vES in EVPN and PBB-EVPN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-virtual-eth-segment-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-virtual-eth-segment-00.txt' />
+</reference>

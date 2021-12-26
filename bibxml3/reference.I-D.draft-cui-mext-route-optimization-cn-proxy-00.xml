@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cui-mext-route-optimization-cn-proxy'>
+<front>
+<title>Proxy Correspondent Node Operation for Mobile IPv6 Route Optimization</title>
+
+<author initials='X' surname='Cui' fullname='Xiangsong Cui'>
+    <organization />
+</author>
+
+<author initials='A' surname='Makela' fullname='Antti Makela'>
+    <organization />
+</author>
+
+<author initials='P' surname='McCann' fullname='Pete McCann'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2011' />
+
+<abstract><t>Route Optimization is an useful aspect of Mobile IPv6.  In Route Optimization mode Mobile Node (MN) can communicate with Correspondent Node (CN) without the involvement of MN's home agent.  However, there are some limitations to this feature, including that the Mobile Node and the Correspondent Node must both be capable of Route Optimization.  This document introduces a Route Optimization Proxy function used for Route Optimization which can be used to enable Route Optimization between Mobile Node and arbitrary IP node - the Route Optimization functions are delegated to the Proxy.  The Route Optimization Proxy function may be implemented in the access router attached to the CN or any other node present on the path between MN and CN, and the Route Optimization Proxy can conduct RO-related signaling and accomplish the Route Optimization procedure on behalf of the Correspondent Node.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cui-mext-route-optimization-cn-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cui-mext-route-optimization-cn-proxy-00.txt' />
+</reference>

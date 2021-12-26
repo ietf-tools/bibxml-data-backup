@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosen-iptel-dialstring'>
+<front>
+<title>Dialstring parameter for the Session Initiation Protocol URI</title>
+
+<author initials='B' surname='Rosen' fullname='Brian Rosen'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2006' />
+
+<abstract><t>RFC3966 explicitly states that TEL URIs may not represent a dial string. That leaves no way specify a dialstring in a standardized way. Great confusion exists with the SIP URI parameter "user=phone", and specifically, if it can represent a dial string. This memo creates a new value for the user parameter "dialstring", so that one may specify "user=dialstring" to encode a dialstring as a SIP or SIPS URI.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosen-iptel-dialstring-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosen-iptel-dialstring-03.txt' />
+</reference>

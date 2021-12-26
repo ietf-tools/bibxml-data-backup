@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-aqm-codel'>
+<front>
+<title>Controlled Delay Active Queue Management</title>
+
+<author initials='K' surname='Nichols' fullname='Kathleen Nichols'>
+    <organization />
+</author>
+
+<author initials='V' surname='Jacobson' fullname='Van Jacobson'>
+    <organization />
+</author>
+
+<author initials='A' surname='McGregor' fullname='Andrew McGregor'>
+    <organization />
+</author>
+
+<author initials='J' surname='Iyengar' fullname='Janardhan Iyengar'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>This document describes a general framework called CoDel (Controlled Delay) that controls bufferbloat-generated excess delay in modern networking environments.  CoDel consists of an estimator, a setpoint, and a control loop.  It requires no configuration in normal Internet deployments.  CoDel comprises some major technical innovations and has been made available as open source so that the framework can be applied by the community to a range of problems.  It has been implemented in Linux (and available in the Linux distribution) and deployed in some networks at the consumer edge.  In addition, the framework has been successfully applied in other ways.  Note: Code Components extracted from this document must include the license as included with the code in Section 5.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-aqm-codel-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-aqm-codel-05.txt' />
+</reference>

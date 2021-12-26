@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tsou-pcn-racf-applic'>
+<front>
+<title>Applicability Statement for the Use of Pre-Congestion Notification in a  Resource-Controlled Network</title>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2008' />
+
+<abstract><t>This document is written to help coordinate work on pre-congestion notification (PCN) between the IETF PCN Working Group and the ITU-T. It maps the use of PCN into the ITU-T transport control architecture. It examines three scenarios, showing in each, where new requirements are placed on the ITU-T architecture.  In each case, the ITU-T functional entity known as the Transport Resource Control Functional Entity (TRC-FE) is seen as the logical destination for PCN congestion reports and PCN flow termination reports, which it uses to keep track of network status.  As logical entities, instances of the TRC-FE can be present in the ingress nodes, in one or more centralized devices, or in both.  These alternatives define the scenarios examined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tsou-pcn-racf-applic-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tsou-pcn-racf-applic-00.txt' />
+</reference>

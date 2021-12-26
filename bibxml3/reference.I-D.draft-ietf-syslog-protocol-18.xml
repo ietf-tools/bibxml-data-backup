@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-syslog-protocol'>
+<front>
+<title>The syslog Protocol</title>
+
+<author initials='R' surname='Gerhards' fullname='Rainer Gerhards'>
+    <organization />
+</author>
+
+<date month='November' day='22' year='2006' />
+
+<abstract><t>This document describes the syslog protocol, which is used to convey event notification messages. This protocol utilizes a layered architecture, which allows the use of any number of transport protocols for transmission of syslog messages. It also provides a message format that allows vendor-specific extensions to be provided in a structured way. This document has been written with the anticipated original design goals for traditional syslog in mind. The reason for a new layered specification has arisen because standardization efforts for reliable, and secure syslog extensions suffer from the lack of a standards-track and transport independent RFC. Without this document, each other standard needs to define its own syslog packet format and transport mechanism, which over time will introduce subtle compatibility issues. This document tries to provide a foundation that syslog extensions can build on. This layered architecture approach also provides a solid basis that allows code to be written once for each syslog feature rather than once for each transport.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-syslog-protocol-18' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-syslog-protocol-18.txt' />
+</reference>

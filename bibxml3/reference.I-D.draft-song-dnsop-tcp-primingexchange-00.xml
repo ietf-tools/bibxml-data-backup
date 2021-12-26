@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-dnsop-tcp-primingexchange'>
+<front>
+<title>Using TCP by Default in Root Priming Exchange</title>
+
+<author initials='D' surname='Song' fullname='Davey Song'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ma' fullname='Di Ma'>
+    <organization />
+</author>
+
+<date month='November' day='26' year='2014' />
+
+<abstract><t>DNS payload size limitation constrains operational and policy choice for many years.  It is become increasingly notable in IPv6 transition and DNSSEC development, specifically during Priming Exchange process. Given that the load of priming exchange on the root system is relatively low, this memo proposes using TCP by default in Priming Exchange between resolver and root server.  This approach is aiming to treat Priming Exchange as a special process which brings a little change to the current root system and provide solution to the long- term problems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-dnsop-tcp-primingexchange-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-dnsop-tcp-primingexchange-00.txt' />
+</reference>

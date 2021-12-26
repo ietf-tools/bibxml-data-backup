@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.detienne-dmvpn'>
+<front>
+<title>Flexible Dynamic Mesh VPN</title>
+
+<author initials='F' surname='Detienne' fullname='Frederic Detienne'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kumar' fullname='Manish Kumar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sullenberger' fullname='Mike Sullenberger'>
+    <organization />
+</author>
+
+<date month='December' day='20' year='2013' />
+
+<abstract><t>The purpose of a Dynamic Mesh VPN (DMVPN) is to allow IPsec/IKE Security Gateways administrators to configure the devices in a partial mesh (often a simple star topology called Hub-Spokes) and let the Security Gateways establish direct protected tunnels called Shortcut Tunnels.  These Shortcut Tunnels are dynamically created when traffic flows and are protected by IPsec.  To achieve this goal, this document extends NHRP ([RFC2332]) into a routing policy feed and integrates GRE tunneling with IKEv2 and IPsec to provide the necessary cryptographic security.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-detienne-dmvpn-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-detienne-dmvpn-01.txt' />
+</reference>

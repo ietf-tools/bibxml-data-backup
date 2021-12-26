@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-rto-consider'>
+<front>
+<title>Requirements for Time-Based Loss Detection</title>
+
+<author initials='M' surname='Allman' fullname='Mark Allman'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2020' />
+
+<abstract><t>Many protocols must detect packet loss for various reasons (e.g., to ensure reliability using retransmissions or to understand the level of congestion along a network path).  While many mechanisms have been designed to detect loss, protocols ultimately can only count on the passage of time without delivery confirmation to declare a packet "lost".  Each implementation of a time-based loss detection mechanism represents a balance between correctness and timeliness and therefore no implementation suits all situations.  This document provides high-level requirements for time-based loss detectors appropriate for general use in the Internet.  Within the requirements, implementations have latitude to define particulars that best address each situation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-rto-consider-16' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-rto-consider-16.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-alto-path-vector'>
+<front>
+<title>ALTO Extension: Path Vector Cost Type</title>
+
+<author initials='K' surname='Gao' fullname='Kai Gao'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Randriamasy' fullname='Sabine Randriamasy'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='J. Zhang'>
+    <organization />
+</author>
+
+<date month='June' day='18' year='2019' />
+
+<abstract><t>The Application-Layer Traffic Optimization (ALTO) protocol [RFC7285] has defined cost maps and endpoint cost maps to provide basic network information.  However, they provide only scalar (numerical or ordinal) cost mode values, which are insufficient to satisfy the demands of solving more complex network optimization problems.  This document introduces an extension to the base ALTO protocol, namely the path-vector extension, which allows ALTO clients to query information such as the capacity region for a given set of flows (called co-flows).  A non-normative example called co-flow scheduling is presented to illustrate the limitations of existing ALTO endpoint cost maps.  After that, details of the extension are defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-alto-path-vector-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-alto-path-vector-06.txt' />
+</reference>

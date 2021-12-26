@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kucherawy-dmarc-dmarcbis'>
+<front>
+<title>Domain-based Message Authentication, Reporting, and Conformance (DMARC)</title>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<author initials='E' surname='Zwicky' fullname='Elizabeth Zwicky'>
+    <organization />
+</author>
+
+<author initials='T' surname='Wicinski' fullname='Tim Wicinski'>
+    <organization />
+</author>
+
+<date month='April' day='6' year='2020' />
+
+<abstract><t>Domain-based Message Authentication, Reporting, and Conformance (DMARC) is a scalable mechanism by which a mail-originating organization can express domain-level policies and preferences for message validation, disposition, and reporting, that a mail-receiving organization can use to improve mail handling.  Originators of Internet Mail need to be able to associate reliable and authenticated domain identifiers with messages, communicate policies about messages that use those identifiers, and report about mail using those identifiers.  These abilities have several benefits: Receivers can provide feedback to Domain Owners about the use of their domains; this feedback can provide valuable insight about the management of internal operations and the presence of external domain name abuse.  DMARC does not produce or encourage elevated delivery privilege of authenticated email.  DMARC is a mechanism for policy distribution that enables increasingly strict handling of messages that fail authentication checks, ranging from no action, through altered delivery, up to message rejection.  This document obsoletes RFC 7489.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kucherawy-dmarc-dmarcbis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kucherawy-dmarc-dmarcbis-01.txt' />
+</reference>

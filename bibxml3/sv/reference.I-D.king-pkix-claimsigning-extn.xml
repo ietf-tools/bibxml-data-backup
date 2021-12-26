@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.king-pkix-claimsigning-extn'>
+<front>
+<title>claimSigning Extended Key Usage (EKU)</title>
+
+<author initials='C' surname='Louden' fullname='Chris Louden'>
+    <organization />
+</author>
+
+<author initials='D' surname='Silver' fullname='Dave Silver'>
+    <organization />
+</author>
+
+<author initials='M' surname='King' fullname='Matt King'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tebo' fullname='Matt Tebo'>
+    <organization />
+</author>
+
+<author initials='P' surname='Patterson' fullname='Patrick Patterson'>
+    <organization />
+</author>
+
+<author initials='W' surname='Brown' fullname='Wendy Brown'>
+    <organization />
+</author>
+
+<date month='December' day='27' year='2011' />
+
+<abstract><t>This document specifies an Extended Key Usage (EKU) value which indicates that the certificate holder is authorized to sign security tokens to assert claims, or attributes, about a subject.  When a certificate that asserts the claimSigning EKU signs a claim, the owner of the service holding that certificate is asserting that a statement about the subject is true. For example, a IdP secure token service (STS) would use an X.509 certificate containing the claimSigning EKU to sign SAML assertions containing an identifier and attributes about a user. This EKU value would allow for a separation between the designation that a given Identity belongs within a given Federation, and the empowerment of that entity within the federation to sign claims..  This approach allows for greater flexibility for the operators of Federated systems and for Certification Authorities and avoids the overloading of other, already established methods (such as Assurance Level designation via certificatePolicy OID).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-king-pkix-claimsigning-extn-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-king-pkix-claimsigning-extn-03.txt' />
+</reference>

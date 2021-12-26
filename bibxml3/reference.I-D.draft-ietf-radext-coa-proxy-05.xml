@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-radext-coa-proxy'>
+<front>
+<title>Dynamic Authorization Proxying in Remote Authorization Dial-In User Service Protocol (RADIUS)</title>
+
+<author initials='A' surname='DeKok' fullname='Alan DeKok'>
+    <organization />
+</author>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<date month='July' day='30' year='2018' />
+
+<abstract><t>RFC 5176 defines Change of Authorization (CoA) and Disconnect Message (DM) behavior for RADIUS.  Section 3.1 of that document suggests that proxying these messages is possible, but gives no guidance as to how that is done.  This specification corrects that omission for scenarios where networks use Realm-based proxying as defined in [RFC7542].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-radext-coa-proxy-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-radext-coa-proxy-05.txt' />
+</reference>

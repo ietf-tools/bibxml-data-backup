@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dannewitz-ppsp-secure-naming'>
+<front>
+<title>Secure naming structure and p2p application interaction</title>
+
+<author initials='C' surname='Dannewitz' fullname='Christian Dannewitz'>
+    <organization />
+</author>
+
+<author initials='T' surname='Rautio' fullname='Teemu Rautio'>
+    <organization />
+</author>
+
+<author initials='O' surname='Strandberg' fullname='Ove Strandberg'>
+    <organization />
+</author>
+
+<author initials='B' surname='Ohlman' fullname='Borje Ohlman'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2010' />
+
+<abstract><t>Today, each P2P system typically uses its own way to identify data. The lack of a common naming scheme prevents P2P applications from benefiting from available copies of the same data distributed via different P2P system.  In addition, today's P2P naming schemes lack important security aspects that would allow the user to check the data integrity and build trust in data and data publishers.  This is especially important in P2P applications as data is received from untrusted peers.  Providing a generic naming scheme for P2P systems so that multiple P2P systems can use the same data regardless of data location and P2P system increases the efficiency and data availability of the overall data dissemination process.  The proposed secure naming structure provides a potential way to address these challenges with a common naming structure that is flexible enough to support all different needs.  In addition, the secure naming scheme is providing self-certification such that the receiver can verify the data integrity, i.e., that the correct data has been received, without requiring a trusted third party.  It also enables owner authentication to build up trust in (potentially anonymous) data publishers.  The secure naming structure should be beneficial as potential design principle in defining the two protocols identified as objectives in the PPSP charter.  This document enumerates a number of design considerations to impact the design and implementation of the tracker-peer signaling and peer-peer streaming signaling protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dannewitz-ppsp-secure-naming-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dannewitz-ppsp-secure-naming-01.txt' />
+</reference>

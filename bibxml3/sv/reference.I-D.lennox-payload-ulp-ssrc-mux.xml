@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lennox-payload-ulp-ssrc-mux'>
+<front>
+<title>Supporting Source-Multiplexing of the Real-Time Transport Protocol (RTP) Payload for Generic Forward Error Correction</title>
+
+<author initials='J' surname='Lennox' fullname='Jonathan Lennox'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>The Real-Time Transport Protocol (RTP) Payload format for Generic Forward Error Correction (FEC), specified in RFC 5109, forbids transmitting FEC repair flows as separate sources in the same RTP session as the flows being repaired.  This document updates RFC 5109 to lift that restriction, as long as the association between original and repair flows is properly signaled and negotiated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lennox-payload-ulp-ssrc-mux-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lennox-payload-ulp-ssrc-mux-00.txt' />
+</reference>

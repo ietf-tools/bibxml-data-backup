@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.donley-behave-deterministic-cgn'>
+<front>
+<title>Deterministic Address Mapping to Reduce Logging in Carrier Grade NAT Deployments</title>
+
+<author initials='C' surname='Donley' fullname='Chris Donley'>
+    <organization />
+</author>
+
+<author initials='C' surname='Grundemann' fullname='Chris Grundemann'>
+    <organization />
+</author>
+
+<author initials='V' surname='Sarawat' fullname='Vikas Sarawat'>
+    <organization />
+</author>
+
+<author initials='K' surname='Sundaresan' fullname='Karthik Sundaresan'>
+    <organization />
+</author>
+
+<author initials='O' surname='Vautrin' fullname='Olivier Vautrin'>
+    <organization />
+</author>
+
+<date month='December' day='11' year='2014' />
+
+<abstract><t>In some instances, Service Providers have a legal logging requirement to be able to map a subscriber's inside address with the address used on the public Internet (e.g. for abuse response).  Unfortunately, many Carrier Grade NAT logging solutions require active logging of dynamic translations.  Carrier Grade NAT port assignments are often per-connection, but could optionally use port ranges.  Research indicates that per-connection logging is not scalable in many residential broadband services.  This document suggests a way to manage Carrier Grade NAT translations in such a way as to significantly reduce the amount of logging required while providing traceability for abuse response.  IPv6 is, of course, the preferred solution.  While deployment is in progress, service providers are forced by business imperatives to maintain support for IPv4.  This note addresses the IPv4 part of the network when a Carrier Grade NAT solution is in use.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-donley-behave-deterministic-cgn-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-donley-behave-deterministic-cgn-09.txt' />
+</reference>

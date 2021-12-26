@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-rfc4420bis'>
+<front>
+<title>Encoding of Attributes for Multiprotocol Label Switching (MPLS) Label  Switched Path (LSP) Establishment Using RSVP-TE</title>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='D' surname='Papadimitriou' fullname='Dimitri Papadimitriou'>
+    <organization />
+</author>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ayyangar' fullname='Arthi Ayyangar'>
+    <organization />
+</author>
+
+<date month='March' day='15' year='2008' />
+
+<abstract><t>Multiprotocol Label Switching (MPLS) Label Switched Paths (LSPs) may be established using the Resource Reservation Protocol Traffic Engineering (RSVP-TE) extensions.  This protocol includes an object (the SESSION_ATTRIBUTE object) that carries a Flags field used to indicate options and attributes of the LSP.  That Flags field has eight bits allowing for eight options to be set.  Recent proposals in many documents that extend RSVP-TE have suggested uses for each of the previously unused bits.  This document defines a new object for RSVP-TE messages that allows the signaling of further attribute bits and also the carriage of arbitrary attribute parameters to make RSVP-TE easily extensible to support new requirements.  Additionally, this document defines a way to record the attributes applied to the LSP on a hop-by-hop basis.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-rfc4420bis-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-rfc4420bis-02.txt' />
+</reference>

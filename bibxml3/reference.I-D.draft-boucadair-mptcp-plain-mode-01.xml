@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-mptcp-plain-mode'>
+<front>
+<title>An MPTCP Option for Network-Assisted MPTCP Deployments: Plain Transport Mode</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2015' />
+
+<abstract><t>One of the promising deployment scenarios for Multipath TCP (MPTCP) is to enable a Customer Premises Equipment (CPE) that is connected to multiple networks (e.g., DSL, LTE, WLAN) to optimize the usage of its network attachments.  Because of the lack of MPTCP support at the server side, some service providers now consider a "network-assisted mode" that relies upon the activation of a dedicated function called MPTCP Concentrator.  This document focuses on a deployment scheme where the identity of the MPTCP Concentrator(s) is explicitly configured on connected hosts.  This document specifies an MPTCP option that is used to get rid of an encapsulation scheme between the CPE and the MPTCP Concentrator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-mptcp-plain-mode-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-mptcp-plain-mode-01.txt' />
+</reference>

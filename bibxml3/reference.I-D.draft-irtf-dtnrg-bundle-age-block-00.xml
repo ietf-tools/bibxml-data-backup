@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-bundle-age-block'>
+<front>
+<title>DTN Bundle Age Block for Expiration without UTC</title>
+
+<author initials='D' surname='Brown' fullname='Dan Brown'>
+    <organization />
+</author>
+
+<author initials='S' surname='Farrell' fullname='Stephen Farrell'>
+    <organization />
+</author>
+
+<author initials='S' surname='Burleigh' fullname='Scott Burleigh'>
+    <organization />
+</author>
+
+<date month='April' day='28' year='2010' />
+
+<abstract><t>As originally specified, [RFC5050] presumes that any DTN node will have access to accurate real world time.  Experience has shown that there are devices and networks where accurate real world time is difficult or impossible to consistently obtain.  This draft proposes an extension block that contains the current age of a bundle in order to support bundle expiration for nodes and networks that have faulty, intermittent, or no notion of the real world time.  Bundle age may be used to expire bundles by a Bundle Protocol Agent which does not have access to accurate real world time.  The Age must be updated at each hop in order to maintain accuracy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-bundle-age-block-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-age-block-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-age-block-00.pdf' />
+</reference>

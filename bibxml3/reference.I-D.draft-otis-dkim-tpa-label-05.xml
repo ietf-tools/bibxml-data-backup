@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-dkim-tpa-label'>
+<front>
+<title>DKIM Third-Party Authorization Label</title>
+
+<author initials='L' surname='header' fullname='List-ID header'>
+    <organization />
+</author>
+
+<author initials='t' surname='messages' fullname='transmitting messages'>
+    <organization />
+</author>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='Daniel Black'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2010' />
+
+<abstract><t>A third party authorization label (TPA-Label) is a DNS-based extension for DKIM ADSP records that allow domains in the From header to authorize acceptable third-party signatures.  This approach allows autonomous and unilateral authorizations for a range of third-party domains using scalable, individual DNS transactions.  The extended scope of DKIM signing practice assertions supplants more difficult to administer transparent authorization schemes.  Alternatives for facilitating third-party authorizations currently necessitate coordination between two or more domains to synchronously set up selector/key DNS records, DNS zone delegations, and/or a regular exchange of public/private keys.  Checking TPA-Label Resource Records for signing practices may infrequently occur when a message is not compliant with restrictive ADSP policies, where an Author Domain Signature is either missing or invalid.  When a third-party signature is found, TPA-Label Resource Record transactions offer an efficient means for Author Domains to authorize specific third-party signing domains.  Recipients are afforded a method to determine whether authorization exists in situations where other modes of authorization are impractical.  TPA- Label Resource Records permit Author Domains a means to selectively influence message handling, for messages otherwise lacking valid Author Domain signatures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-dkim-tpa-label-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-dkim-tpa-label-05.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.petander-mip6-mbb'>
+<front>
+<title>Improved Binding Management for Make Before Break Handoffs in Mobile IPv6</title>
+
+<author initials='H' surname='Petander' fullname='Henrik Petander'>
+    <organization />
+</author>
+
+<author initials='E' surname='Perera' fullname='Eranga Perera'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2005' />
+
+<abstract><t>Mobile IPv6 binding management has been designed for break-before- make handoffs, which can be performed by hosts equipped with a single interface. However, a Mobile Node may be equipped with multiple interfaces, allowing it to perform Make-Before-Break handoffs by connecting simultaneously to two overlapping access networks during the handoff. In theory these handoffs can be lossless, provided that there is sufficient overlap between the two networks. However, unless Mobile IPv6 bindings are managed carefully Mobile Node and Correspondent Node will have inconsistent binding state during the handoff, which will lead to packet loss. In this draft we propose changes to binding management for lossless make-before-break handoffs. The proposed changes do not affect the interoperability with Mobile IPv6 nodes not implementing these changes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-petander-mip6-mbb-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-petander-mip6-mbb-00.txt' />
+</reference>

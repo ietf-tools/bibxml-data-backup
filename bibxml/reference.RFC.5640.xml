@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5640' target='https://www.rfc-editor.org/info/rfc5640'>
+<front>
+<title>Load-Balancing for Mesh Softwires</title>
+<author initials='C.' surname='Filsfils' fullname='C. Filsfils'><organization /></author>
+<author initials='P.' surname='Mohapatra' fullname='P. Mohapatra'><organization /></author>
+<author initials='C.' surname='Pignataro' fullname='C. Pignataro'><organization /></author>
+<date year='2009' month='August' />
+<abstract><t>Payloads transported over a Softwire mesh service (as defined by BGP Encapsulation Subsequent Address Family Identifier (SAFI) information exchange) often carry a number of identifiable, distinct flows.  It can, in some circumstances, be desirable to distribute these flows over the equal cost multiple paths (ECMPs) that exist in the packet switched network.  Currently, the payload of a packet entering the Softwire can only be interpreted by the ingress and egress routers. Thus, the load-balancing decision of a core router is only based on the encapsulating header, presenting much less entropy than available in the payload or the encapsulated header since the Softwire encapsulation acts in a tunneling fashion.  This document describes a method for achieving comparable load-balancing efficiency in a network carrying Softwire mesh service over Layer Two Tunneling Protocol - Version 3 (L2TPv3) over IP or Generic Routing Encapsulation (GRE) encapsulation to what would be achieved without such encapsulation.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5640'/>
+<seriesInfo name='DOI' value='10.17487/RFC5640'/>
+</reference>

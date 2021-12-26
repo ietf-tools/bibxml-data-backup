@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.froment-sipping-spit-requirements'>
+<front>
+<title>Requirements for Authorization Policies to tackle Spam and Unwanted  Communication for Internet Telephony</title>
+
+<author initials='T' surname='Froment' fullname='Thomas Froment'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2007' />
+
+<abstract><t>Spam over Internet Telephony (SPIT) is one of the foreseen future forms of spamming that SIP open-wide networks may have to handle. SPIT also has more impact on users than email spam since it is more intrusive. Email as a store-and-forward communication mechanism allows for several filtering mechanisms to be applied to the full content before being presented to the user. Session Initiation Protocol (SIP) interaction is, in contrast, real-time communication and therefore does not provide much information prior to the transmission of the content, making it both harder to filter and more annoying to users. The responsibility for filtering, blocking calls, or taking any other preventive action can belong to different elements in the call flow and may depend on various factors. This document discusses the requirements to define authorization policies that should allow end users or other parties to setup anti- SPIT policies for triggering these actions. These policies typically match a particular SIP communication pattern based on a number of attributes. The range of attributes includes information provided, for example, by the SIP protocol itself, by the SIP identity mechanism, by information carried within SAML assertions, reputation systems of social networks and other extensions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-froment-sipping-spit-requirements-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-froment-sipping-spit-requirements-01.txt' />
+</reference>

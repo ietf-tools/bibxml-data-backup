@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-long-lived-connection-ps'>
+<front>
+<title>Problem Statement of Long-lived TCP Connection</title>
+
+<author initials='G' surname='Chen' fullname='Gang Chen'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>This memo describes issues encountered by a long-lived TCP connection.  Long-lived TCP connections are served for several applications, which are quite popularly used in our daily life, such as chat and messaging(MSN, Skype).  Others are computer-to-computer communications, which are also demanding at long-lived TCP connection.  Issues such as network resources consumption happen when there are frequent keepalive message has been transmitted periodically.  Moreover, other issues are occurring during long TCP connection, such as TCP congestion, TCP connection recovery. Depending on raised issues, protocol optimization could be considered to optimize network quality.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-long-lived-connection-ps-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-long-lived-connection-ps-00.txt' />
+</reference>

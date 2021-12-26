@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bournelle-pana-mip6'>
+<front>
+<title>Using PANA in the Mobile IPv6 Integrated Case</title>
+
+<author initials='J' surname='Bournelle' fullname='Julien Bournelle'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2006' />
+
+<abstract><t>A Mobile IPv6 node needs a home address, a home agent address and a security association with its home agent. One of the current challenge is to dynamically provide these information to the Mobile Node. This problem is known as the Mobile IPv6 Bootstrapping problem. A solution for this is to rely on the AAA infrastructure to provide the Home Agent Information to the Network Access server (NAS). Then the Mobile Node uses DHCPv6 to get this information. This document provides a way for the Mobile Node to get the Home Agent information by using the PANA protocol instead of DHCPv6. Before the authentication phase, the PANA Authentication Agent (PAA) indicates to the PANA Client (PaC) that it can provide him with the Home Agent Information. According to the PANA client's response, after the authentication and authorization phase with the AAA infrastructure, the PAA will send this information to the PaC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bournelle-pana-mip6-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bournelle-pana-mip6-01.txt' />
+</reference>

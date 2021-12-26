@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.singh-nvo3-vxlan-router-alert'>
+<front>
+<title>VxLAN Router Alert Option</title>
+
+<author initials='K' surname='Singh' fullname='Kanwar Singh'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jain' fullname='Pradeep Jain'>
+    <organization />
+</author>
+
+<author initials='D' surname='Rio' fullname='Diego Rio'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shekhar' fullname='Ravi Shekhar'>
+    <organization />
+</author>
+
+<author initials='R' surname='Rahman' fullname='Reshad Rahman'>
+    <organization />
+</author>
+
+<date month='September' day='21' year='2015' />
+
+<abstract><t>This proposal describes a new option to achieve a mechanism which alerts VxLAN terminating VTEP to more closely examine the contents of the packet encapsulated under VxLAN header.  This option is useful for case(s) where a given frame encapsulated within a given VXLAN segment responsible for carrying data between two different End Systems contains some control information (e.g OAM information, any control plane protocol packet etc.) that may require special handling/processing by terminating VTEP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-singh-nvo3-vxlan-router-alert-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-singh-nvo3-vxlan-router-alert-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pmohapat-idr-info-safi'>
+<front>
+<title>BGP Encapsulation SAFI and BGP Tunnel Encapsulation Attribute</title>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh  Mohapatra'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2007' />
+
+<abstract><t>This document specifies a new BGP SAFI, Encapsulation SAFI. A BGP update message of this SAFI contains an NLRI which uniquely identifies the BGP speaker that originated the update. The purpose of such an update is to carry attributes that define how encapsulated packets need to be delivered to the sender. For instance, if one BGP speaker needs to use an IP-based encapsulation in order to deliver traffic to a second, the second BGP speaker can use this SAFI to specify information about the encapsulation header that it expects. A BGP tunnel encapsulation attribute is specified for this purpose. Other attributes, including communities and/or extended communities, can also be included.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pmohapat-idr-info-safi-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pmohapat-idr-info-safi-01.txt' />
+</reference>

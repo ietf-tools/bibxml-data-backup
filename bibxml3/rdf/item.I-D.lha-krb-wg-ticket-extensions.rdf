@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-lha-krb-wg-ticket-extensions-02.txt'>
+    <title>"Kerberos ticket extensions", Love Astrand</title>
+    <link>http://www.ietf.org/internet-drafts/draft-lha-krb-wg-ticket-extensions-02.txt</link>
+    <description>The Kerberos protocol does not allow ticket extensions.  This make it harder to deploy features like referrals and PKCROSS.  Since the Kerberos protocol did not specified extensibility for the Ticket structure and the current implementations are aware of the contents of tickets, the extension protocol cannot simply extend the Ticket ASN.1 structure.  Instead, the extension data needs to be hidden inside the ticket.  This protocol defines two methods to add extend the tickets.  The first method requires updated clients and is more in line with the future development of Kerberos.  The second way does not require update client.  To take advantage of this protocol the server (KDC or application server) need to update a well.  The two methods are equivalent and there is a 1-1 mapping between them.</description>
+    <dc:date>2008-09-13T22:00:00-00:00</dc:date>
+</item>

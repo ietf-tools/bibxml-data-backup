@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kunze-pairtree'>
+<front>
+<title>Pairtrees for Object Storage (V0.1)</title>
+
+<author initials='J' surname='Kunze' fullname='John Kunze'>
+    <organization />
+</author>
+
+<author initials='M' surname='Haye' fullname='Martin Haye'>
+    <organization />
+</author>
+
+<author initials='E' surname='Hetzner' fullname='Erik Hetzner'>
+    <organization />
+</author>
+
+<author initials='M' surname='Reyes' fullname='Mark Reyes'>
+    <organization />
+</author>
+
+<date month='June' day='17' year='2008' />
+
+<abstract><t>This document specifies Pairtree, a filesystem hierarchy for holding objects that are located by mapping identifier strings to object directory (or folder) paths two characters at a time.  If an object directory (folder) holds all the files, and nothing but the files, that comprise the object, a "pairtree" can be imported by a system that knows nothing about the nature or structure of the objects but can still deliver any object's files by requested identifier.  The mapping is reversible, so the importing system can also walk the pairtree and reliably enumerate all the contained object identifiers. To the extent that object dependencies are stored inside the pairtree (e.g., fast indexes stored outside contain only derivative data), simple or complex collections built on top of pairtrees can recover from index failures and reconstruct a collection view simply by walking the trees.  Pairtrees have the advantage that many object operations, including backup and restore, can be performed with native operating system tools.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kunze-pairtree-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kunze-pairtree-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vasseur-ccamp-automesh'>
+<front>
+<title>Routing extensions for discovery of Multiprotocol (MPLS) Label Switch Router  (LSR) Traffic Engineering (TE) mesh membership</title>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<date month='September' day='20' year='2005' />
+
+<abstract><t>The set up of a full mesh of MPLS TE LSPs among a set of Label Switch Router (LSR) is common deployment scenario of MPLS Traffic Engineering either for bandwidth optimization, bandwidth guarantees or fast rerouting with MPLS Fast Reroute. Such deployment requires the configuration of potentially a large number of TE LSPs (on the order of the square of the number LSRs). This document specifies IGP (OSPF and IS-IS) traffic engineering extensions so as to provide an automatic discovery of the set of LSRs members of a mesh, leading to an automatic mechanism to set up TE LSP mesh(es) (also referred to as a mesh-group in this document).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vasseur-ccamp-automesh-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vasseur-ccamp-automesh-02.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.brockners-inband-oam-transport'>
+<front>
+<title>Encapsulations for In-band OAM Data</title>
+
+<author initials='F' surname='Brockners' fullname='Frank Brockners'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bhandari' fullname='Shwetha Bhandari'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>In-band operation, administration and maintenance (OAM) records operational and telemetry information in the packet while the packet traverses a path between two points in the network.  In-band OAM is to complement current out-of-band OAM mechanisms based on ICMP or other types of probe packets.  This document outlines how in-band OAM data records can be transported in protocols such as NSH, Segment Routing, VXLAN-GPE, native IPv6 (via extension header), and IPv4. Transport options are currently investigated as part of an implementation study.  This document is intended to only serve informational purposes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-brockners-inband-oam-transport-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-brockners-inband-oam-transport-00.txt' />
+</reference>

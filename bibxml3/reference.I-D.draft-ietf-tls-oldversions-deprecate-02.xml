@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-oldversions-deprecate'>
+<front>
+<title>Deprecating TLSv1.0 and TLSv1.1</title>
+
+<author initials='K' surname='Moriarty' fullname='Kathleen Moriarty'>
+    <organization />
+</author>
+
+<author initials='S' surname='Farrell' fullname='Stephen Farrell'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2019' />
+
+<abstract><t>This document, if approved, formally deprecates Transport Layer Security (TLS) versions 1.0 [RFC2246] and 1.1 [RFC4346] and moves these documents to the historic state.  These versions lack support for current and recommended cipher suites, and various government and industry profiles of applications using TLS now mandate avoiding these old TLS versions.  TLSv1.2 has been the recommended version for IETF protocols since 2008, providing sufficient time to transition away from older versions.  Products having to support older versions increase the attack surface unnecessarily and increase opportunities for misconfigurations.  Supporting these older versions also requires additional effort for library and product maintenance.  This document also deprecates Datagram TLS (DTLS) version 1.0 [RFC6347] (but not DTLS version 1.2, and there is no DTLS version 1.1).  This document updates many RFCs that normatively refer to TLSv1.0 or TLSv1.1 as described herein.  This document also updates RFC 7525 and hence is part of BCP195.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-oldversions-deprecate-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-oldversions-deprecate-02.txt' />
+</reference>

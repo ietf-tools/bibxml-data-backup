@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-464xlat-optimization'>
+<front>
+<title>464XLAT/NAT64 Optimization</title>
+
+<author initials='J' surname='Martinez' fullname='Jordi Martinez'>
+    <organization />
+</author>
+
+<author initials='A' surname='D&apos;Egidio' fullname='Alejandro D&apos;Egidio'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2020' />
+
+<abstract><t>IP/ICMP Translation Algorithm (SIIT) can be used to provide access for IPv4-only devices or applications to IPv4-only or dual-stack destinations over IPv6-only infrastructure.  In that case, the traffic flows are translated twice: first from IPv4 to IPv6 (stateless NAT46 at the ingress point to the IPv6-only infrastructure) and then from IPv6 back to IPv4 (stateful NAT64, at the egress point).  When the destination is IPv6-enabled, the second translation might be avoided.  This document describes a possible optimization to 464XLAT and MAP-T to avoid translating IPv6 flows back to IPv4 if the destination is reachable over IPv6.  The proposed solution would significantly reduce the NAT64 utilization in the operator's network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-464xlat-optimization-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-464xlat-optimization-02.txt' />
+</reference>

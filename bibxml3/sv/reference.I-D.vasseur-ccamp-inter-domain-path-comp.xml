@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vasseur-ccamp-inter-domain-path-comp'>
+<front>
+<title>Inter-domain Traffic Engineering LSP path computation methods</title>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2004' />
+
+<abstract><t>This document specifies two path computation methods for computing inter-domain Traffic Engineering (TE) Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) Label Switched (LSP) paths. In this document a domain is referred to as a collection of network elements within a common sphere of address management or path computational responsibility such as IGP areas and Autonomous Systems. The first path computation method is also called per-domain path computation whereby each entry boundary LSR is responsible for computing the path to the next exit boundary LSR (where for instance a boundary LSR is either an ARB or an ASBR) whereas in the second method a Path Computation Element (PCE)is used to compute an end to end partial or complete path across multiple domains.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vasseur-ccamp-inter-domain-path-comp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vasseur-ccamp-inter-domain-path-comp-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rtgwg-ordered-fib'>
+<front>
+<title>Loop-free convergence using oFIB</title>
+
+<author initials='P' surname='Francois' fullname='Pierre Francois'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>This draft describes a mechanism for use in conjunction with link state routing protocols which prevents the transient loops which would otherwise occur during topology changes.  It does this by correctly sequencing the FIB updates on the routers.  This mechanism can be used in the case of non-urgent link or node shutdowns and restarts or link metric changes.  It can also be used in conjunction with a FRR mechanism which converts a sudden link or node failure into a non-urgent topology change.  This is possible where a complete repair path is provided for all affected destinations.  After a non-urgent topology change, each router computes a rank that defines the time at which it can safely update its FIB.  A method for accelerating this loop-free convergence process by the use of completion messages is also described.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rtgwg-ordered-fib-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-ordered-fib-02.txt' />
+</reference>

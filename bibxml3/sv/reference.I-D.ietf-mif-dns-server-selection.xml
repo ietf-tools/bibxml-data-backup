@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mif-dns-server-selection'>
+<front>
+<title>Improved Recursive DNS Server Selection for Multi-Interfaced Nodes</title>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kato' fullname='Jun-ya Kato'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<date month='August' day='2' year='2012' />
+
+<abstract><t>A multi-interfaced node is connected to multiple networks, some of which might be utilizing private DNS namespaces.  A node commonly receives recursive DNS server configuration information from all connected networks.  Some of the recursive DNS servers might have information about namespaces other servers do not have.  When a multi-interfaced node needs to utilize DNS, the node has to choose which of the recursive DNS servers to use.  This document describes DHCPv4 and DHCPv6 options that can be used to configure nodes with information required to perform informed recursive DNS server selection decisions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mif-dns-server-selection-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mif-dns-server-selection-12.txt' />
+</reference>

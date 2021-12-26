@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-icnrg-icniot'>
+<front>
+<title>Design Considerations for Applying ICN to IoT</title>
+
+<author initials='Y' surname='Zhang' fullname='Yanyong Zhang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Raychadhuri' fullname='Dipankar Raychadhuri'>
+    <organization />
+</author>
+
+<author initials='L' surname='Grieco' fullname='Luigi Grieco'>
+    <organization />
+</author>
+
+<author initials='E' surname='Baccelli' fullname='Emmanuel Baccelli'>
+    <organization />
+</author>
+
+<author initials='J' surname='Burke' fullname='Jeff Burke'>
+    <organization />
+</author>
+
+<author initials='R' surname='Ravindran' fullname='Ravi Ravindran'>
+    <organization />
+</author>
+
+<author initials='G' surname='Wang' fullname='Guoqiang Wang'>
+    <organization />
+</author>
+
+<author initials='B' surname='Ahlgren' fullname='Bengt Ahlgren'>
+    <organization />
+</author>
+
+<author initials='O' surname='Schelen' fullname='Olov Schelen'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2017' />
+
+<abstract><t>The Internet of Things (IoT) promises to connect billions of objects to the Internet.  After deploying many stand-alone IoT systems in different domains, the current trend is to develop a common, "thin waist" of protocols forming a horizontal unified, defragmented IoT platform.  Such a platform will make objects accessible to applications across organizations and domains.  Towards this goal, quite a few proposals have been made to build an application-layer based unified IoT platform on top of today's host-centric Internet. However, there is a fundamental mismatch between the host-centric nature of todays Internet and the information-centric nature of the IoT system.  To address this mismatch, we propose to build a common set of protocols and services, which form an IoT platform, based on the Information Centric Network (ICN) architecture, which we call ICN-IoT.  ICN-IoT leverages the salient features of ICN, and thus provides naming, security, seamless mobility support, scalability, and efficient content and service delivery.  This draft describes representative IoT requirements, ICN challenges and design considerations to realize a unified ICN-IoT framework. Towards this, we first motivate ICN for IoT using specific use case scenarios.  Then taking a general IoT perspective, we discuss the IoT requirements generally applicable to many well known scenarios.  We then discuss how the current application layer unified IoT architecture fails to meet these requirements, followed by discussion on suitability of ICN for IoT.  Though we see most of the IoT requirements can be met by ICN, we discuss specific design challenges ICN has to address to satisfy them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-icnrg-icniot-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-icnrg-icniot-00.txt' />
+</reference>

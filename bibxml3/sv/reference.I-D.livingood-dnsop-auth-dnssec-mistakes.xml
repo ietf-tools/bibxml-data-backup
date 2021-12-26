@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.livingood-dnsop-auth-dnssec-mistakes'>
+<front>
+<title>Responsibility for Authoritative DNS and DNSSEC Mistakes</title>
+
+<author initials='J' surname='Livingood' fullname='Jason Livingood'>
+    <organization />
+</author>
+
+<date month='August' day='13' year='2019' />
+
+<abstract><t>DNS Security Extensions (DNSSEC) validation by recursive DNS resolvers has been deployed at scale.  However, domain signing tools and processes are not yet as mature and reliable as is the case for non-DNSSEC-related domain administration tools and processes.  This sometimes results in DNSSEC-validation failures, for which operators of validating resolvers are often blamed.  This is similar to other, non-DNSSEC-related authoritative DNS errors, for which individual recursive DNS operators are sometimes incorrectly blamed.  This document makes clear that responsibility for any and all authoritative DNS failures rests squarely with authoritative domain name operators, who are the only party that can properly maintain their domain names and rectify associated authoritative DNS errors.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-livingood-dnsop-auth-dnssec-mistakes-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-livingood-dnsop-auth-dnssec-mistakes-05.txt' />
+</reference>

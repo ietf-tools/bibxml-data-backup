@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4462' target='https://www.rfc-editor.org/info/rfc4462'>
+<front>
+<title>Generic Security Service Application Program Interface (GSS-API) Authentication and Key Exchange for the Secure Shell (SSH) Protocol</title>
+<author initials='J.' surname='Hutzelman' fullname='J. Hutzelman'><organization /></author>
+<author initials='J.' surname='Salowey' fullname='J. Salowey'><organization /></author>
+<author initials='J.' surname='Galbraith' fullname='J. Galbraith'><organization /></author>
+<author initials='V.' surname='Welch' fullname='V. Welch'><organization /></author>
+<date year='2006' month='May' />
+<abstract><t>The Secure Shell protocol (SSH) is a protocol for secure remote login and other secure network services over an insecure network.</t><t>The Generic Security Service Application Program Interface (GSS-API) provides security services to callers in a mechanism-independent fashion.</t><t>This memo describes methods for using the GSS-API for authentication and key exchange in SSH.  It defines an SSH user authentication method that uses a specified GSS-API mechanism to authenticate a user, and a family of SSH key exchange methods that use GSS-API to authenticate a Diffie-Hellman key exchange.</t><t>This memo also defines a new host public key algorithm that can be used when no operations are needed using a host's public key, and a new user authentication method that allows an authorization name to be used in conjunction with any authentication that has already occurred as a side-effect of GSS-API-based key exchange.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4462'/>
+<seriesInfo name='DOI' value='10.17487/RFC4462'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-ulp'>
+<front>
+<title>RTP Payload Format for Generic Forward Error Correction</title>
+
+<author initials='A' surname='Li' fullname='Adam Li'>
+    <organization />
+</author>
+
+<date month='January' day='31' year='2007' />
+
+<abstract><t>This document specifies a payload format for generic Forward Error Correction (FEC) for media data encapsulated in RTP. It is based on the exclusive-or (parity) operation. The payload format described in this draft allows end systems to apply protection using various protection lengths and levels, in addition to using various protection group sizes to adapt to different media and channel characteristic. It enables complete recovery of the protected packets or partial recovery of the critical parts of the payload depending on the packet loss situation. This scheme is completely compatible with non-FEC capable hosts, so the receivers in a multicast group that do not implement FEC can still work by simply ignoring the protection data. This specification obsoletes RFC 2733 and RFC 3009. The FEC specified in this document is not backward compatible with RFC 2733 and RFC 3009.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-ulp-21' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-ulp-21.txt' />
+</reference>

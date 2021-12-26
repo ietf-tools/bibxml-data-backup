@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-zhang-idr-upstream-assigned-label-solution-00.txt'>
+    <title>"Upstream Assigned Label Collision Solution", Zheng Zhang, Ying Cheng</title>
+    <link>http://www.ietf.org/internet-drafts/draft-zhang-idr-upstream-assigned-label-solution-00.txt</link>
+    <description>The upstream-assigned label is used to identify the specific multicast flow.  In MVPN technology RFC6513, it says: "This procedure requires each egress PE to support a separate label space for every other PE.  The egress PEs creates a forwarding entry for the upstream-assigned MPLS label, allocated by the ingress PE, in this label space."  In common scenario, the "separate label space" is planned by network administrator in advance.  For the stable network, the method of allocating the separate label space is easy and practicable.  But when the network changes dynamically, it is very hard to allocate the separate label space in advance.  The planned label space is probably insufficient.  That leads to collision when PE uses the common label space to allocate upstream-assigned label.  Therefore we need a flexible solution for the collision of upstream-assigned label in the dynamically changing network.</description>
+    <dc:date>2015-07-06T07:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shin-tls-augpake'>
+<front>
+<title>Augmented Password-Authenticated Key Exchange for Transport Layer Security (TLS)</title>
+
+<author initials='S' surname='Shin' fullname='SeongHan Shin'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kobara' fullname='Kazukuni Kobara'>
+    <organization />
+</author>
+
+<date month='July' day='18' year='2017' />
+
+<abstract><t>This document describes an efficient augmented password-authenticated key exchange (AugPAKE) protocol where a user remembers a low-entropy password and its verifier is registered in the intended server.  In general, the user's password is chosen from a small set of dictionary, making the password susceptible to offline dictionary attacks.  The AugPAKE protocol described here is secure against passive attacks, active attacks and offline dictionary attacks (on the obtained messages with passive/active attacks), and also provides resistance to server compromise (in the context of augmented PAKE security).  Based on the AugPAKE protocol, this document also specifies a new password-only authentication handshake for Transport Layer Security (TLS) protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shin-tls-augpake-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shin-tls-augpake-09.txt' />
+</reference>

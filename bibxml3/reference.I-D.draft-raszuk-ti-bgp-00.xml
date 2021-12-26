@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raszuk-ti-bgp'>
+<front>
+<title>Transport Instance BGP</title>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<date month='May' day='27' year='2009' />
+
+<abstract><t>BGP4 protocol is a well established single standard of an inter- domain Internet routing and non Internet routing information distribution today.  For many applications it is a lso the protocol of choice to disseminate various application based information intra- domain.  It's popularity and it's wide use has been effectively provided by it's reliable transport, session protection as well as loop free build in mechanism.  It has been observed in both intra-domain as well as inter-domain applications that reliable information distribution is an extremely desired tool for many services.  Introduction of Multiprotocol Extensions to BGP even further attracted various sorts of new information to be carried over BGP4.  The observation proves that amount and nature of information carried by BGP increases and diverges from the original goal of interconnection for IP Internet Autonomous Systems at a rather fast pace.  This draft proposes BGP to divide information into two broad categories: Internet routing critical and non Internet routing critical that would also include information carried by BGP which is not related directly to routing.  For the purpose of this document we will refer to the latter case as second BGP instance.  This draft proposes that the current BGP infrastructure will continue to be used to disseminate Internet routing related information while non routing information or private routing data is recommended to be carried by independent transport instance BGP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raszuk-ti-bgp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raszuk-ti-bgp-00.txt' />
+</reference>

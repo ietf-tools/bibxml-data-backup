@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lee-dnsop-recursion-performance-improvement'>
+<front>
+<title>An approach to improve recursion performance</title>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<author initials='H' surname='Li' fullname='Hongtao Li'>
+    <organization />
+</author>
+
+<author initials='H' surname='Zhang' fullname='Haikuo Zhang'>
+    <organization />
+</author>
+
+<author initials='P' surname='Zuo' fullname='Peng Zuo'>
+    <organization />
+</author>
+
+<date month='December' day='11' year='2015' />
+
+<abstract><t>A recursive DNS server generally uses random port numbers to send outbound requests to protect against DNS spoofing attacks.  Due to the limitation of operation system, a process typically can only open numerable file descriptors simultaneously.  This limit reduces recursion performance of resolvers.  This draft offers an approach to improve both recursion performance and security for recursive servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lee-dnsop-recursion-performance-improvement-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lee-dnsop-recursion-performance-improvement-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-lee-dnsop-recursion-performance-improvement-00.pdf' />
+</reference>

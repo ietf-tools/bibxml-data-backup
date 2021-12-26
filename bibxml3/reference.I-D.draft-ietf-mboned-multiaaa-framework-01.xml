@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mboned-multiaaa-framework'>
+<front>
+<title>AAA Framework for Multicasting</title>
+
+<author initials='H' surname='Satou' fullname='Hiroaki Satou'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2006' />
+
+<abstract><t>This memo provides a generalized framework for solution standards to meet the requirements presented in draft-ietf-mboned-maccnt-req- 04.txt, "Requirements for Accounting, Authentication and Authorization in Well Managed IP Multicasting Services". In this framework a user sends a request for multicast data to a network service provider. The network service provider selects the appropriate content provider to send the user's request. The request is sent by the network service provider to the content provider transparently in a way so that the network service provider and content provider do not need to know the corresponding user id for the same user in the other provider's domain. The content provider then responds with an indication of "success" or "failure" to the network provider and in the case of "success", the network provider may delivery the requested data to the user. The network service may base its decision to deliver such data to the user based on its bandwidth management policy. The framework is designed to be flexible and extendible, so it will be possible to implement partially enabled versions as well as fully enabled versions of the model. Also an additional entity may provide transit of requests between network service providers and content providers, either through relaying or tunneling.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mboned-multiaaa-framework-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mboned-multiaaa-framework-01.txt' />
+</reference>

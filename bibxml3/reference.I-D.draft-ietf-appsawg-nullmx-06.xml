@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-appsawg-nullmx'>
+<front>
+<title>A "Null MX" No Service Resource Record for Domains that Accept No Mail</title>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<author initials='M' surname='Delany' fullname='Mark Delany'>
+    <organization />
+</author>
+
+<date month='July' day='25' year='2014' />
+
+<abstract><t>Internet mail determines the address of a receiving server through the DNS, first by looking for an MX record and then by looking for an A/AAAA record as a fallback.  Unfortunately this means that the A/ AAAA record is taken to be mail server address even when that address does not accept mail.  The no service MX RR, informally called null MX, formalizes the existing mechanism by which a domain announces that it accepts no mail, without having to provide a mail server, which permits significant operational efficiencies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-appsawg-nullmx-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-appsawg-nullmx-06.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-isis-te-app'>
+<front>
+<title>IS-IS Application-Specific Link Attributes</title>
+
+<author initials='L' surname='Ginsberg' fullname='Les Ginsberg'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2020' />
+
+<abstract><t>Existing traffic engineering related link attribute advertisements have been defined and are used in RSVP-TE deployments.  Since the original RSVP-TE use case was defined, additional applications (e.g., Segment Routing Policy, Loop Free Alternate) that also make use of the link attribute advertisements have been defined . In cases where multiple applications wish to make use of these link attributes, the current advertisements do not support application-specific values for a given attribute, nor do they support indication of which applications are using the advertised value for a given link.  This document introduces new link attribute advertisements that address both of these shortcomings.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-isis-te-app-19' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-isis-te-app-19.txt' />
+</reference>

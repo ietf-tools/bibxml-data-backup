@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6tisch-6top-sf0'>
+<front>
+<title>6TiSCH 6top Scheduling Function Zero (SF0)</title>
+
+<author initials='D' surname='Dujovne' fullname='Diego Dujovne'>
+    <organization />
+</author>
+
+<author initials='L' surname='Grieco' fullname='Luigi Grieco'>
+    <organization />
+</author>
+
+<author initials='M' surname='Palattella' fullname='Maria Palattella'>
+    <organization />
+</author>
+
+<author initials='N' surname='Accettura' fullname='Nicola Accettura'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>This document defines a Scheduling Function called "Scheduling Function Zero" (SF0).  SF0 dynamically adapts the number of allocated cells between neighbor nodes, based on the amount of currently allocated cells and the neighbor nodes' cell requirements.  Neighbor nodes negotiate in a distributed neighbor-to-neighbor basis the number of cell(s) to be added/deleted.  SF0 uses the 6P signaling messages to add/delete cells in the schedule.  This function selects the candidate cells from the schedule, defines which cells will be added/deleted and triggers the allocation/deallocation process.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6tisch-6top-sf0-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6tisch-6top-sf0-03.txt' />
+</reference>

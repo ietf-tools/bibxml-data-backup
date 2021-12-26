@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mouton-mif-dhcpv6-drlo'>
+<front>
+<title>Default Router List Option for DHCPv6 (DRLO)</title>
+
+<author initials='A' surname='Petrescu' fullname='Alexandru Petrescu'>
+    <organization />
+</author>
+
+<author initials='K' surname='Pentikousis' fullname='Kostas Pentikousis'>
+    <organization />
+</author>
+
+<author initials='C' surname='Janneteau' fullname='Christophe Janneteau'>
+    <organization />
+</author>
+
+<author initials='M' surname='Mouton' fullname='Maximilien Mouton'>
+    <organization />
+</author>
+
+<date month='September' day='19' year='2012' />
+
+<abstract><t>This document specifies an experimental DHCPv6 default route option which provisions static routing information to client nodes.  The option facilitates central configuration of a multi-access client node's default router list with the IPv6 address, MAC address, and lifetime of the route, which is preferred in certain multi-access network environments.  In addition, the DHCP option defined in this document can provide operational simplicity in network coverage extension scenarios using inexpensive (and limited resource) consumer-grade equipment.  Finally, the proposed DHCP option has been implemented and tested in practice; its experimental use points to benefits with respect to reduced signaling and energy consumption compared to existing default route configuration mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mouton-mif-dhcpv6-drlo-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mouton-mif-dhcpv6-drlo-02.txt' />
+</reference>

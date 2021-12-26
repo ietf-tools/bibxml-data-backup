@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-eag-distribution'>
+<front>
+<title>Distribution of Traffic Engineering Extended Admin Groups using BGP-LS</title>
+
+<author initials='Z' surname='Wang' fullname='Zitao Wang'>
+    <organization />
+</author>
+
+<author initials='Q' surname='WU' fullname='Qin WU'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<date month='November' day='21' year='2019' />
+
+<abstract><t>Administrative groups (commonly referred to as "colors" or "link colors") are link attributes that are advertised by link state protocols like IS-IS (Intermediate System to Intermediate System) and OSPF (Open Shortest Path First) and used for traffic engineering. These administrative groups have initially been defined as a fixed- length 32-bit bitmask.  As networks grew and more use-cases were introduced, the 32-bit length was found to be constraining and hence extended administrative groups were introduced in the link state protocols.  The 32-bit administrative groups are already advertised as link attributes in BGP-LS (Border Gateway Protocol Link-State). This document defines extensions to BGP-LS for advertisement of the extended administrative groups.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-eag-distribution-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-eag-distribution-11.txt' />
+</reference>

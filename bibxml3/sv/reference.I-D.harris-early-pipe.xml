@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.harris-early-pipe'>
+<front>
+<title>SMTP Service Extension for Early Pipelining</title>
+
+<author initials='J' surname='Harris' fullname='Jeremy Harris'>
+    <organization />
+</author>
+
+<date month='September' day='13' year='2018' />
+
+<abstract><t>PIPE_CONNECT is an SMTP extension supporting the pipelining of banner, EHLO and one following command or traditionally-pipelined sequence in an SMTP conversation.  It permits a reduction in delivery latency by eliminating a nunmber of network round-trips.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-harris-early-pipe-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-harris-early-pipe-01.txt' />
+</reference>

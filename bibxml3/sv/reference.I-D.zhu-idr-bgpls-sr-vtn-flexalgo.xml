@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhu-idr-bgpls-sr-vtn-flexalgo'>
+<front>
+<title>BGP-LS with Flex-Algo for Segment Routing based Virtual Transport Networks</title>
+<author initials='Y' surname='Zhu' fullname='Yongqing Zhu'>
+<organization />
+</author>
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+<organization />
+</author>
+<author initials='Z' surname='Hu' fullname='Zhibo Hu'>
+<organization />
+</author>
+<date year='2021' month='February' day='22' />
+<abstract><t>Enhanced VPN (VPN+) aims to provide enhanced VPN service to support some application's needs of enhanced isolation and stringent performance requirements.  VPN+ requires integration between the overlay VPN and a particular set of resources in the underlay network.  A Virtual Transport Network (VTN) is a virtual underlay network which has a customized network topology and a set of network resources allocated from the physical network.  A VTN could be used to support one or a group of VPN+ services.</t><t> When Segment Routing is used as the data plane to provide VTNs, each VTN can be allocated with a group of SIDs to identify the topology and resource attributes of network segments in the VTN.  The association between the network topology, the network resource attributes and the SR SIDs may need to be distributed to a centralized network controller.  For network scenarios where each VTN can be identified by a unique Flex-Algo ID, this document describes a mechanism to distribute the information of SR based VTNs using BGP-LS with Flex-Algo.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-zhu-idr-bgpls-sr-vtn-flexalgo-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-zhu-idr-bgpls-sr-vtn-flexalgo-01.txt'/>
+</reference>

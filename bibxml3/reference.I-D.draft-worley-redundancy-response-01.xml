@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.worley-redundancy-response'>
+<front>
+<title>Classifying Response Codes to Support Multiple Path Routing in the Session  Initiation Protocol (SIP)</title>
+
+<author initials='D' surname='Worley' fullname='Dale Worley'>
+    <organization />
+</author>
+
+<date month='June' day='22' year='2007' />
+
+<abstract><t>An increasing number of SIP architectures implement multiple path routing (MPR), which is the providing of more than one path for a call to reach a destination user agent (UA). To implement MPR well, the proxy which forks a request onto the redundant paths needs to be able to determine if a fork that failed reached the destination UA and was rejected by the UA (and so an alternate path should not be tried), or if the fork failed before reaching the UA (and so an alternate path should be attempted). In order that the proxy can distinguish these two situations, response codes should unambiguously identify which of these situations applies. This Internet-Draft begins classifying the current usage of response codes, describes their implications for MPR, and suggests possible improvements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-worley-redundancy-response-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-worley-redundancy-response-01.txt' />
+</reference>

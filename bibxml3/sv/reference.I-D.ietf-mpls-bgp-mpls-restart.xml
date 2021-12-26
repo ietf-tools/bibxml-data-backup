@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-bgp-mpls-restart'>
+<front>
+<title>Graceful Restart Mechanism for BGP with MPLS</title>
+
+<author initials='Y' surname='Rekhter' fullname='Yakov Rekhter'>
+    <organization />
+</author>
+
+<author initials='R' surname='Aggarwal' fullname='Rahul  Aggarwal'>
+    <organization />
+</author>
+
+<date month='August' day='16' year='2005' />
+
+<abstract><t>A mechanism for BGP that helps minimize the negative effects on routing caused by BGP restart has already been developed an is described in a separate document ("Graceful Restart Mechanism for BGP"). This document extends this mechanism to also minimize the negative effects on MPLS forwarding caused by the Label Switching Router's (LSR's) control plane restart, and specifically by the restart of its BGP component when BGP is used to carry MPLS labels and the LSR is capable of preserving the MPLS forwarding state across the restart. The mechanism described in this document is agnostic with respect to the types of the addresses carried in the BGP Network Layer Reachability Information (NLRI) field. As such it works in conjunction with any of the address famililies that could be carried in BGP (e.g., IPv4, IPv6, etc...) The mechanism described in this document is applicable to all LSRs, both those with the ability to preserve their forwarding state during BGP restart and those without (although the latter need to implement only a subset of the mechanism described in this document). Supporting a subset of the mechanism described here by the LSRs that can not preserve their MPLS forwarding state across the restart would not reduce the negative impact on MPLS traffic caused by their control plane restart, but it would minimize the impact if their neighbor(s) are capable of preserving the forwarding state across the restart of their control plane and implement the mechanism described here.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-bgp-mpls-restart-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-bgp-mpls-restart-05.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sakimura-oauth-jpop'>
+<front>
+<title>The OAuth 2.0 Authorization Framework: JWT Pop Token Usage</title>
+
+<author initials='N' surname='Sakimura' fullname='Nat Sakimura'>
+    <organization />
+</author>
+
+<author initials='K' surname='Li' fullname='Kepeng Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bradley' fullname='John Bradley'>
+    <organization />
+</author>
+
+<date month='July' day='22' year='2019' />
+
+<abstract><t>This specification describes how to use JWT POP (Jpop) tokens that were obtained through [POPKD] in HTTP requests to access OAuth 2.0 protected resources.  Only the party in possession of the corresponding cryptographic key for the Jpop token can use it to get access to the associated resources unlike in the case of the bearer token described in [RFC6750] where any party in posession of the access token can access the resource.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sakimura-oauth-jpop-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sakimura-oauth-jpop-05.txt' />
+</reference>

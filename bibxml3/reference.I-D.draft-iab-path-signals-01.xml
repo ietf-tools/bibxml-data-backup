@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iab-path-signals'>
+<front>
+<title>Path Signals</title>
+
+<author initials='T' surname='Hardie' fullname='Ted Hardie'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2018' />
+
+<abstract><t>This document discusses the nature of signals seen by on-path elements, contrasting implicit and explicit signals.  For example, TCP's state mechanics uses a series of well-known messages that are exchanged in the clear.  Because these are visible to network elements on the path between the two nodes setting up the transport connection, they are often used as signals by those network elements. In transports that do not exchange these messages in the clear, on- path network elements lack those signals.  This document recommends that explict signals be used by transports which encrypt their state mechanics.  It also recommends that a signal be exposed to the path only when the signal's originator intends that it be used by the network elements on the path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iab-path-signals-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iab-path-signals-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.white-openfabric'>
+<front>
+<title>IS-IS Support for Openfabric</title>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zandi' fullname='Shawn Zandi'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2018' />
+
+<abstract><t>Spine and leaf topologies are widely used in hyperscale and cloud scale networks.  In most of these networks, configuration is automated, but difficult, and topology information is extracted through broad based connections.  Policy is often integrated into the control plane, as well, making configuration, management, and troubleshooting difficult.  Openfabric is an adaptation of an existing, widely deployed link state protocol, Intermediate System to Intermediate System (IS-IS) that is designed to:  o  Provide a full view of the topology from a single point in the network to simplify operations  o  Minimize configuration of each Intermediate System (IS) (also called a router or switch) in the network  o  Optimize the operation of IS-IS within a spine and leaf fabric to enable scaling  This document begins with an overview of openfabric, including a description of what may be removed from IS-IS to enable scaling.  The document then describes an optimized adjacency formation process; an optimized flooding scheme; some thoughts on the operation of openfabric, metrics, and aggregation; and finally a description of the changes to the IS-IS protocol required for openfabric.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-white-openfabric-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-white-openfabric-06.txt' />
+</reference>

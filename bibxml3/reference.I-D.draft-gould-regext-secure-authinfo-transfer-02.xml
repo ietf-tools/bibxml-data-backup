@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gould-regext-secure-authinfo-transfer'>
+<front>
+<title>Extensible Provisioning Protocol (EPP) Secure Authorization Information for Transfer</title>
+
+<author initials='J' surname='Gould' fullname='James Gould'>
+    <organization />
+</author>
+
+<author initials='R' surname='Wilhelm' fullname='Richard Wilhelm'>
+    <organization />
+</author>
+
+<date month='August' day='5' year='2019' />
+
+<abstract><t>The Extensible Provisioning Protocol (EPP), in RFC 5730, defines the use of authorization information to authorize a transfer.  The authorization information is object-specific and has been defined in the EPP Domain Name Mapping, in RFC 5731, and the EPP Contact Mapping, in RFC 5733, as password-based authorization information. Other authorization mechanisms can be used, but in practice the password-based authorization information has been used at the time of object create, managed with the object update, and used to authorize an object transfer request.  What has not been fully considered is the security of the authorization information that includes the complexity of the authorization information, the time-to-live (TTL) of the authorization information, and where and how the authorization information is stored.  This document defines an operational practice, using the EPP RFCs, that leverages the use of strong random authorization information values that are short-lived, that are not stored by the client, and that are stored using a cryptographic hash by the server to provide for secure authorization information used for transfers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gould-regext-secure-authinfo-transfer-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gould-regext-secure-authinfo-transfer-02.txt' />
+</reference>

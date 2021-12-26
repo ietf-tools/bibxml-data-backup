@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-open-policy'>
+<front>
+<title>Route Leak Prevention using Roles in Update and Open messages</title>
+
+<author initials='A' surname='Azimov' fullname='Alexander Azimov'>
+    <organization />
+</author>
+
+<author initials='E' surname='Bogomazov' fullname='Eugene Bogomazov'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+    <organization />
+</author>
+
+<date month='January' day='1' year='2021' />
+
+<abstract><t>Route leaks are the propagation of BGP prefixes which violate assumptions of BGP topology relationships; e.g. passing a route learned from one lateral peer to another lateral peer or a transit provider, passing a route learned from one transit provider to another transit provider or a lateral peer.  Existing approaches to leak prevention rely on marking routes by operator configuration, with no check that the configuration corresponds to that of the eBGP neighbor, or enforcement that the two eBGP speakers agree on the relationship.  This document enhances BGP OPEN to establish agreement of the (peer, customer, provider, Route Server, Route Server client) relationship of two neighboring eBGP speakers to enforce appropriate configuration on both sides.  Propagated routes are then marked with an Only to Customer (OTC) attribute according to the agreed relationship, allowing both prevention and detection of route leaks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-open-policy-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-open-policy-14.txt' />
+</reference>

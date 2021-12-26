@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8098' target='https://www.rfc-editor.org/info/rfc8098'>
+<front>
+<title>Message Disposition Notification</title>
+<author initials='T.' surname='Hansen' fullname='T. Hansen' role='editor'><organization /></author>
+<author initials='A.' surname='Melnikov' fullname='A. Melnikov' role='editor'><organization /></author>
+<date year='2017' month='February' />
+<abstract><t>This memo defines a MIME content type that may be used by a Mail User Agent (MUA) or electronic mail gateway to report the disposition of a message after it has been successfully delivered to a recipient. This content type is intended to be machine processable.  Additional message header fields are also defined to permit Message Disposition Notifications (MDNs) to be requested by the sender of a message.  The purpose is to extend Internet Mail to support functionality often found in other messaging systems, such as X.400 and the proprietary &quot;LAN-based&quot; systems, and are often referred to as &quot;read receipts,&quot; &quot;acknowledgements,&quot; or &quot;receipt notifications.&quot;  The intention is to do this while respecting privacy concerns, which have often been expressed when such functions have been discussed in the past.</t><t>Because many messages are sent between the Internet and other messaging systems (such as X.400 or the proprietary &quot;LAN-based&quot; systems), the MDN protocol is designed to be useful in a multiprotocol messaging environment.  To this end, the protocol described in this memo provides for the carriage of &quot;foreign&quot; addresses, in addition to those normally used in Internet Mail. Additional attributes may also be defined to support &quot;tunneling&quot; of foreign notifications through Internet Mail.</t><t>This document is an Internet Standard.  It obsoletes RFC 3798 and updates RFC 2046 (message/partial media type handling) and RFC 3461 (Original-Recipient header field generation requirement).</t></abstract>
+</front>
+<seriesInfo name='STD' value='85'/>
+<seriesInfo name='RFC' value='8098'/>
+<seriesInfo name='DOI' value='10.17487/RFC8098'/>
+</reference>

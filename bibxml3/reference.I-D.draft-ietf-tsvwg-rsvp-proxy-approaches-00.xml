@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-rsvp-proxy-approaches'>
+<front>
+<title>RSVP Proxy Approaches</title>
+
+<author initials='F' surname='Faucheur' fullname='Francois Le Faucheur'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2007' />
+
+<abstract><t>RSVP signaling can be used to make end-to-end resource reservations in an IP network in order to guarantee the QoS required by certain flows. With conventional RSVP, both the data sender and receiver of a given flow take part in RSVP signaling. Yet, there are many use cases where resource reservation is required, but the receiver, the sender, or both, is not RSVP-capable. This document presents RSVP Proxy behaviors allowing RSVP routers to perform RSVP signaling on behalf of a receiver or a sender that is not RSVP-capable. This allows resource reservations to be established on parts of the end- to-end path. This document reviews conceptual approaches for deploying RSVP Proxies and discusses how those can synchronize RSVP reservations with application requirements. This document also points out where extensions to RSVP (or to other protocols) may be needed for deployment of a given RSVP Proxy approach. However, such extensions are outside the scope of this document. Finally, practical use cases for RSVP Proxy are described.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-rsvp-proxy-approaches-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-rsvp-proxy-approaches-00.txt' />
+</reference>

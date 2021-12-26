@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jennings-dispatch-rfc4474bis'>
+<front>
+<title>Authenticated Identity Management in the Session Initiation Protocol (SIP)</title>
+
+<author initials='J' surname='Peterson' fullname='Jon Peterson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='May' day='29' year='2013' />
+
+<abstract><t>The existing security mechanisms in the Session Initiation Protocol (SIP) are inadequate for cryptographically assuring the identity of the end users that originate SIP requests, especially in an interdomain context.  This document defines a mechanism for securely identifying originators of SIP messages.  It does so by defining two new SIP header fields, Identity, for conveying a signature used for validating the identity, and Identity-Info, for conveying a reference to the certificate of the signer.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jennings-dispatch-rfc4474bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jennings-dispatch-rfc4474bis-00.txt' />
+</reference>

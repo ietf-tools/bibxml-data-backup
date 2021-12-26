@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.patterson-pkix-attribute-signing-eku'>
+<front>
+<title>attributeSigning extendedKeyUsage value</title>
+
+<author initials='P' surname='Patterson' fullname='Patrick Patterson'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2011' />
+
+<abstract><t>This document specifies a value for the extendedKeyUsage X.509 extension that may be used to create a certificate that would be used to sign attribute assertions.  This allows the differentiation of certificates used to identify a particular server (which would have a serverAuth EKU), from the certificate used by that server to sign attribute assertions, and would easily allow a policy to be developed for issuance of such a certificate to an identity provider.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-patterson-pkix-attribute-signing-eku-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-patterson-pkix-attribute-signing-eku-00.txt' />
+</reference>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-quic-version-negotiation'>
+<front>
+<title>Compatible Version Negotiation for QUIC</title>
+<author initials='D' surname='Schinazi' fullname='David Schinazi'>
+<organization />
+</author>
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+<organization />
+</author>
+<date year='2021' month='October' day='25' />
+<abstract><t>QUIC does not provide a complete version negotiation mechanism but instead only provides a way for the server to indicate that the version the client offered is unacceptable.  This document describes a version negotiation mechanism that allows a client and server to select a mutually supported version.  Optionally, if the original and negotiated version share a compatible first flight format, the negotiation can take place without incurring an extra round trip.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-quic-version-negotiation-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-quic-version-negotiation-05.txt'/>
+</reference>

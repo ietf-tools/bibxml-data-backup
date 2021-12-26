@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hilt-sip-correction-503'>
+<front>
+<title>Essential Correction to the Session Initiation Protocol (SIP) 503 (Service  Unavailable) Response</title>
+
+<author initials='I' surname='Widjaja' fullname='Indra Widjaja'>
+    <organization />
+</author>
+
+<author initials='V' surname='Hilt' fullname='Volker Hilt'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2007' />
+
+<abstract><t>Overload occurs in the Session Initiation Protocol (SIP) when SIP servers have insufficient resources to process all SIP messages they receive. The SIP protocol specified in RFC 3261 provides the 503 (Service Unavailable) response code as a remedy for servers under overload. However, the current definition of 503 (Service Unavailable) has problems and can in fact amplify an overload condition. This document proposes an essential correction to RFC 3261 that avoids these problems and helps SIP servers to better cope with overload.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hilt-sip-correction-503-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hilt-sip-correction-503-01.txt' />
+</reference>

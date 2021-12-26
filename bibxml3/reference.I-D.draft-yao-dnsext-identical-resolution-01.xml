@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yao-dnsext-identical-resolution'>
+<front>
+<title>Problem Statement: DNS Resolution of Aliased Names</title>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Woolf' fullname='Suzanne Woolf'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2010' />
+
+<abstract><t>This document attempts to describe a set of issues that arises from the desire to treat a set or group of names as "aliases" of each other, "bundled," "variants," or "the same," which is problematic in terms of corresponding behavior for DNS labels.  With the emergence of internationalized domain names, among other potential use cases, two or more names that users will regard as having identical meaning will sometimes require corresponding behavior in the DNS.  It's not clear how to accommodate these requirements for behavior of such names in DNS resolution; in particular, it's not clear when they are best accommodated in registry practices for generating names for lookup in the DNS, existing DNS protocol elements and behavior, or some set of protocol elements or behavior not yet defined.  This document attempts to describe some of these cases and the behavior of some of the possible solutions discussed to date.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yao-dnsext-identical-resolution-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yao-dnsext-identical-resolution-01.txt' />
+</reference>

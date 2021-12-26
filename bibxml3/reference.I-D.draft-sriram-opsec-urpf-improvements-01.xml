@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sriram-opsec-urpf-improvements'>
+<front>
+<title>Enhanced Feasible-Path Unicast Reverse Path Filtering</title>
+
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+    <organization />
+</author>
+
+<author initials='D' surname='Montgomery' fullname='Doug Montgomery'>
+    <organization />
+</author>
+
+<date month='May' day='3' year='2017' />
+
+<abstract><t>This document identifies a need for improvement of the unicast Reverse Path Filtering techniques (uRPF) [BCP84] for source address validation (SAV) [BCP38].  The strict uRPF is inflexible about directionality, the loose uRPF is oblivious to directionality, and the current feasible-path uRPF attempts to strike a balance between the two [BCP84].  However, as shown in this draft, the existing feasible-path uRPF still has short comings.  This document proposes an enhanced feasible-path uRPF technique, which aims to be more flexible (in a meaningful way) about directionality than the feasible-path uRPF.  It is expected to alleviate ISPs' concerns about the possibility of disrupting service for their customers, and encourage greater deployment of uRPF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sriram-opsec-urpf-improvements-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sriram-opsec-urpf-improvements-01.txt' />
+</reference>

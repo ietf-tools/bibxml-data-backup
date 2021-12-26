@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hkchu-tcpm-initcwnd'>
+<front>
+<title>Increasing TCP's Initial Window</title>
+
+<author initials='J' surname='Chu' fullname='Jerry Chu'>
+    <organization />
+</author>
+
+<author initials='N' surname='Dukkipati' fullname='Nandita Dukkipati'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
+    <organization />
+</author>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2010' />
+
+<abstract><t>This document proposes an increase in the permitted TCP initial window (IW) from between 2 and 4 segments, as specified in RFC 3390, to 10 segments. It discusses the motivation behind the increase, the advantages and disadvantages of the higher initial window, and presents results from several large scale experiments showing that the higher initial window improves the overall performance of many web services without risking congestion collapse. Finally, it outlines a list of concerns to be addressed in future tests.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hkchu-tcpm-initcwnd-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hkchu-tcpm-initcwnd-01.txt' />
+</reference>

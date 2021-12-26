@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.duke-quic-load-balancers'>
+<front>
+<title>QUIC-LB: Generating Routable QUIC Connection IDs</title>
+
+<author initials='M' surname='Duke' fullname='Martin Duke'>
+    <organization />
+</author>
+
+<date month='May' day='10' year='2019' />
+
+<abstract><t>QUIC connection IDs allow continuation of connections across address/ port 4-tuple changes, and can store routing information for stateless or low-state load balancers.  They also can prevent linkability of connections across deliberate address migration through the use of protected communications between client and server.  This creates issues for load-balancing intermediaries.  This specification standardizes methods for encoding routing information and proposes an optional protocol called QUIC-LB to exchange the parameters of that encoding.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-duke-quic-load-balancers-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-duke-quic-load-balancers-04.txt' />
+</reference>

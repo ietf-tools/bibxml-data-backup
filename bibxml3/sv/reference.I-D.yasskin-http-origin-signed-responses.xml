@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yasskin-http-origin-signed-responses'>
+<front>
+<title>Signed HTTP Exchanges</title>
+
+<author initials='J' surname='Yasskin' fullname='Jeffrey Yasskin'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2020' />
+
+<abstract><t>This document specifies how a server can send an HTTP exchange--a request URL, content negotiation information, and a response--with signatures that vouch for that exchange's authenticity.  These signatures can be verified against an origin's certificate to establish that the exchange is authoritative for an origin even if it was transferred over a connection that isn't.  The signatures can also be used in other ways described in the appendices.  These signatures contain countermeasures against downgrade and protocol-confusion attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yasskin-http-origin-signed-responses-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yasskin-http-origin-signed-responses-09.txt' />
+</reference>

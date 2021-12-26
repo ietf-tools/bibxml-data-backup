@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rundgren-json-canonicalization-scheme'>
+<front>
+<title>JSON Canonicalization Scheme (JCS)</title>
+
+<author initials='A' surname='Rundgren' fullname='Anders Rundgren'>
+    <organization />
+</author>
+
+<author initials='B' surname='Jordan' fullname='Bret Jordan'>
+    <organization />
+</author>
+
+<author initials='S' surname='Erdtman' fullname='Samuel Erdtman'>
+    <organization />
+</author>
+
+<date month='September' day='27' year='2019' />
+
+<abstract><t>Cryptographic operations like hashing and signing need the data to be expressed in an invariant format so that the operations are reliably repeatable.  One way to address this is to create a canonical representation of the data.  Canonicalization also permits data to be exchanged in its original form on the "wire" while cryptographic operations performed on the canonicalized counterpart of the data in the producer and consumer end points, generate consistent results. This document describes the JSON Canonicalization Scheme (JCS).  The JCS specification defines how to create a canonical representation of JSON data by building on the strict serialization methods for JSON primitives defined by ECMAScript, constraining JSON data to the I-JSON subset, and by using deterministic property sorting.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rundgren-json-canonicalization-scheme-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rundgren-json-canonicalization-scheme-12.txt' />
+</reference>

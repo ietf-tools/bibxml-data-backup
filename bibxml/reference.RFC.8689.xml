@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8689' target='https://www.rfc-editor.org/info/rfc8689'>
+<front>
+<title>SMTP Require TLS Option</title>
+<author initials='J.' surname='Fenton' fullname='J. Fenton'><organization /></author>
+<date year='2019' month='November' />
+<abstract><t>The SMTP STARTTLS option, used in negotiating transport-level encryption of SMTP connections, is not as useful from a security standpoint as it might be because of its opportunistic nature; message delivery is, by default, prioritized over security. This document describes an SMTP service extension, REQUIRETLS, and a message header field, TLS-Required. If the REQUIRETLS option or TLS-Required message header field is used when sending a message, it asserts a request on the part of the message sender to override the default negotiation of TLS, either by requiring that TLS be negotiated when the message is relayed or by requesting that recipient-side policy mechanisms such as MTA-STS and DNS-Based Authentication of Named Entities (DANE) be ignored when relaying a message for which security is unimportant.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8689'/>
+<seriesInfo name='DOI' value='10.17487/RFC8689'/>
+</reference>

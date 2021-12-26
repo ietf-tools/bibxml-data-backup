@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rescorla-dtls-in-sdp'>
+<front>
+<title>Piggybacked DTLS Handshakes in SDP</title>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>This document describes a mechanism for embedding DTLS handshake messages in SDP descriptions.  This technique allows implementations to shave a full round-trip off of DTLS-SRTP session establishment, while retaining compatibility with ordinary DTLS-SRTP endpoints.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rescorla-dtls-in-sdp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rescorla-dtls-in-sdp-01.txt' />
+</reference>

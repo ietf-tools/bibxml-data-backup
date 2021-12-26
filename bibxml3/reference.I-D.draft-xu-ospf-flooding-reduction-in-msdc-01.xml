@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-ospf-flooding-reduction-in-msdc'>
+<front>
+<title>OSPF Flooding Reduction in MSDC</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='j' surname='jefftant@gmail.com' fullname='jefftant@gmail.com'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2017' />
+
+<abstract><t>OSPF is commonly used as an underlay routing protocol for MSDC (Massively Scalable Data Center) networks.  For a given OSPF router within the CLOS topology, it would receive multiple copies of exactly the same LSA from multiple OSPF neighbors.  In addition, two OSPF neighbors may send each other the same LSA simultaneously.  The unneccessary link-state information flooding wastes the precious process resource of OSPF routers greatly due to the fact that there are too many OSPF neighbors for each OSPF router within the CLOS topology.  This document proposes some extensions to OSPF so as to reduce the OSPF flooding within MSDC networks greatly.  The reduction of the OSPF flooding is much beneficial to improve the scalability of MSDC networks.  These modifications are applicable to both OSPFv2 and OSPFv3.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-ospf-flooding-reduction-in-msdc-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-ospf-flooding-reduction-in-msdc-01.txt' />
+</reference>

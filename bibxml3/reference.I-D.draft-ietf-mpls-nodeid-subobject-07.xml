@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-nodeid-subobject'>
+<front>
+<title>Definition of an RRO node-id subobject</title>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<date month='December' day='1' year='2005' />
+
+<abstract><t>In the context of MPLS TE Fast Reroute, the Merge Point (MP) address is required at the Point of Local Repair (PLR) in order to select a backup tunnel intersecting a fast reroutable Traffic Engineering Label Switched Path (TE LSP) on a downstream Label Switching Router (LSR). However, existing protocol mechanisms are not sufficient to find an MP address in multi-domain routing networks where a domain is defined as an IGP area or an Autonomous System. Hence, the current MPLS Fast Reroute mechanism cannot be used in order to protect inter-domain TE LSPs from a failure of an ABR (Area Border Router) or ASBR (Autonomous System Border Router) respectively. This document specifies the use of existing Route Record Object (RRO) IPv4 and IPv6 sub-objects (with a new flag defined) thus defining the node-id subobject in order to solve this issue. The MPLS Fast reroute mechanism mentioned in this document refers to the "Facility backup" MPLS TE Fast Reroute method.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-nodeid-subobject-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-nodeid-subobject-07.txt' />
+</reference>

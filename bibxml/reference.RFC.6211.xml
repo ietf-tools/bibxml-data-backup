@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6211' target='https://www.rfc-editor.org/info/rfc6211'>
+<front>
+<title>Cryptographic Message Syntax (CMS) Algorithm Identifier Protection Attribute</title>
+<author initials='J.' surname='Schaad' fullname='J. Schaad'><organization /></author>
+<date year='2011' month='April' />
+<abstract><t>The Cryptographic Message Syntax (CMS), unlike X.509/PKIX certificates, is vulnerable to algorithm substitution attacks.  In an algorithm substitution attack, the attacker changes either the algorithm being used or the parameters of the algorithm in order to change the result of a signature verification process.  In X.509 certificates, the signature algorithm is protected because it is duplicated in the TBSCertificate.signature field with the proviso that the validator is to compare both fields as part of the signature validation process.  This document defines a new attribute that contains a copy of the relevant algorithm identifiers so that they are protected by the signature or authentication process. [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6211'/>
+<seriesInfo name='DOI' value='10.17487/RFC6211'/>
+</reference>

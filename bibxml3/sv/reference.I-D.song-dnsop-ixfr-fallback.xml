@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-dnsop-ixfr-fallback'>
+<front>
+<title>An IXFR Fallback to AXFR Case</title>
+
+<author initials='L' surname='Song' fullname='Linjian Song'>
+    <organization />
+</author>
+
+<date month='May' day='17' year='2016' />
+
+<abstract><t>This memo introduces an IXFR issue observed during a multiple signers experiment conducted in Yeti DNS project.  In the experiment IXFR client is designed to pull the zone from three IXFR servers who used their own key to sign the zone and produce different RRSIG records intentionally.  The configuration of multiple signers cause the failure of IXFR in client side.  REMOVE BEFORE PUBLICATION: The source of the document is currently placed at GitHub [xml-file].  Comments and pull request are welcome.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-dnsop-ixfr-fallback-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-dnsop-ixfr-fallback-01.txt' />
+</reference>

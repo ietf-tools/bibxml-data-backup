@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-pcep-service-aware'>
+<front>
+<title>Extensions to the Path Computation Element Communication Protocol (PCEP) to compute service aware Label Switched Path (LSP).</title>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kumaki' fullname='Kenji Kumaki'>
+    <organization />
+</author>
+
+<date month='October' day='6' year='2015' />
+
+<abstract><t>In certain networks like financial information network (stock/ commodity trading) and enterprises using cloud based applications, Latency (delay), Latency Variation (jitter) and Packet Loss are becoming key requirements for path computation along with other constraints and metrics.  These metrics are associated with the Service Level Agreement (SLA) between customers and service providers.  The Link Bandwidth Utilization (the total bandwidth of a link in current use for the forwarding) is another important factor to consider during path computation.  IGP Traffic Engineering (TE) Metric extensions describes mechanisms with which network performance information is distributed via OSPF and IS-IS respectively.  The Path Computation Element Communication Protocol (PCEP) provides mechanisms for Path Computation Elements (PCEs) to perform path computations in response to Path Computation Clients (PCCs) requests.  This document describes the extension to PCEP to carry Latency, Latency Variation, Packet Loss, and Link Bandwidth Utilization as constraints for end to end path computation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-pcep-service-aware-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-pcep-service-aware-08.txt' />
+</reference>

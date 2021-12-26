@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sadler-ccamp-rsvp-mt-bundled-links'>
+<front>
+<title>Multiplier (MT) support over Bundled Links in RSVP-TE</title>
+
+<author initials='J' surname='Sadler' fullname='Jonathan Sadler'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Shen' fullname='Zuchang Shen'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>When operating a multi-domain network, it is quite common for a domain to have a number of border-nodes that end up with a large number of connections between them using the same path.  While support for LSP stitching has removed the need to maintain the data associated with each end-to-end session (e.g. Sender Template and Session object data) within the domain, the mechanisms used by GMPLS RSVP-TE to support out-of-band signaling still force individual sessions to be used between the border nodes for each connection. This has a negative impact on intermediate nodes, as it increases the amount of RSVP processing and memory required.  This document details a method for GMPLS RSVP-TE to use a common session for an edge-to-edge LSP supporting multiple data-plane connections between border nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sadler-ccamp-rsvp-mt-bundled-links-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sadler-ccamp-rsvp-mt-bundled-links-00.txt' />
+</reference>

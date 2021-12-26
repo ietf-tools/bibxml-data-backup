@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.charny-pcn-single-marking'>
+<front>
+<title>Pre-Congestion Notification Using Single Marking for Admission and  Pre-emption</title>
+
+<author initials='A' surname='Charny' fullname='Anna Charny'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2007' />
+
+<abstract><t>Pre-Congestion Notification [I-D.briscoe-tsvwg-cl-architecture] approach proposes the use of an Admission Control mechanism to limit the amount of real-time PCN traffic to a configured level during the normal operating conditions, and the use of a Pre-emption mechanism to tear-down some of the flows to bring the PCN traffic level down to a desirable amount during unexpected events such as network failures, with the goal of maintaining the QoS assurances to the remaining flows. In [I-D.briscoe-tsvwg-cl-architecture], Admission and Pre- emption use two different markings and two different metering mechanisms in the internal nodes of the PCN region. This draft proposes a mechanism using a single marking and metering for both Admission and Pre-emption, and presents a preliminary analysis of the tradeoffs. A side-effect of this proposal that a different marking and metering Admission mechanism than that proposed in[I-D.briscoe-tsvwg-cl-architecture] may be also feasible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-charny-pcn-single-marking-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-charny-pcn-single-marking-01.txt' />
+</reference>

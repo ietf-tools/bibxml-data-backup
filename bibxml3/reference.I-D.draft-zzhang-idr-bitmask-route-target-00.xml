@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zzhang-idr-bitmask-route-target'>
+<front>
+<title>Bitmask Route Target</title>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sangli' fullname='Srihari Sangli'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2020' />
+
+<abstract><t>This document specifies a new type of Route Target called Bitmask Route Target as a BGP Community Container.  The key element of a Bitmask Route Target is a Bitmask.  Two Bitmask Route Targets are considered equivalent for the purpose of controlling route propagation (via Route Target Constraints) and importation if the result of logical "AND" operation of the Bitmask of the two is non- zero.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zzhang-idr-bitmask-route-target-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zzhang-idr-bitmask-route-target-00.txt' />
+</reference>

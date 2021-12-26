@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-avoid-fragmentation-06.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-dnsop-avoid-fragmentation-06.txt</link>
+        <title>"Fragmentation Avoidance in DNS", Kazunori Fujiwara, Paul Vixie</title>
+        <dc:date>2021-12-23T23:00:00-00:00</dc:date>
+        <description>EDNS0 enables a DNS server to send large responses using UDP and is widely deployed.  Path MTU discovery remains widely undeployed due to security issues, and IP fragmentation has exposed weaknesses in application protocols.  Currently, DNS is known to be the largest user of IP fragmentation.  It is possible to avoid IP fragmentation in DNS by limiting response size where possible, and signaling the need to upgrade from UDP to TCP transport where necessary.  This document proposes to avoid IP fragmentation in DNS.</description>
+    </item>

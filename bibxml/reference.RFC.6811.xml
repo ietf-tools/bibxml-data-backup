@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6811' target='https://www.rfc-editor.org/info/rfc6811'>
+<front>
+<title>BGP Prefix Origin Validation</title>
+<author initials='P.' surname='Mohapatra' fullname='P. Mohapatra'><organization /></author>
+<author initials='J.' surname='Scudder' fullname='J. Scudder'><organization /></author>
+<author initials='D.' surname='Ward' fullname='D. Ward'><organization /></author>
+<author initials='R.' surname='Bush' fullname='R. Bush'><organization /></author>
+<author initials='R.' surname='Austein' fullname='R. Austein'><organization /></author>
+<date year='2013' month='January' />
+<abstract><t>To help reduce well-known threats against BGP including prefix mis- announcing and monkey-in-the-middle attacks, one of the security requirements is the ability to validate the origination Autonomous System (AS) of BGP routes.  More specifically, one needs to validate that the AS number claiming to originate an address prefix (as derived from the AS_PATH attribute of the BGP route) is in fact authorized by the prefix holder to do so.  This document describes a simple validation mechanism to partially satisfy this requirement. [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6811'/>
+<seriesInfo name='DOI' value='10.17487/RFC6811'/>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yiakoumis-network-tokens'>
+<front>
+<title>Network Tokens</title>
+
+<author initials='Y' surname='Yiakoumis' fullname='Yiannis Yiakoumis'>
+    <organization />
+</author>
+
+<author initials='N' surname='McKeown' fullname='Nick McKeown'>
+    <organization />
+</author>
+
+<author initials='F' surname='Sorensen' fullname='Frode Sorensen'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2020' />
+
+<abstract><t>Network tokens is a method for endpoints to explicitly and securely coordinate with networks about how their traffic is treated.  They are inserted by endpoints in existing protocols, interpreted by trusted networks, and may be signed or encrypted to meet security and privacy requirements.  Network tokens provide a means for network operators to expose datapath services (such as a zero-rating service, a user-driven QoS service, or a firewall whitelist), and for end users and application providers to access such services.  Network tokens are inspired and derived by existing security tokens (like JWT and CWT), and borrow several of their core ideas along with security and privacy properties.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yiakoumis-network-tokens-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yiakoumis-network-tokens-00.txt' />
+</reference>

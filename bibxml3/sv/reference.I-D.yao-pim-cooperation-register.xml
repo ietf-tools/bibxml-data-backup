@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yao-pim-cooperation-register'>
+<front>
+<title>Cooperation register mechanism in Anycast RP</title>
+
+<author initials='Y' surname='Chunyan' fullname='Yao Chunyan'>
+    <organization />
+</author>
+
+<author initials='W' surname='Haibo' fullname='Wen Haibo'>
+    <organization />
+</author>
+
+<date month='March' day='20' year='2007' />
+
+<abstract><t>Anycast RP (Rendezvous Point) protocol [N2] is designed to provide load balancing and failover for RP. However, there is no cooperation mechanism among anycast RP members when sending Register-Stop to DR and transferringRegisters among anycast RP members. The former results in the subscribers under some Anycast RP members having multicast service interruption and the latter leads to bandwidth waste among Anycast RP members due to trashy Registers. This specification solves these problems by giving the cooperation mechanism among anycast RP members.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yao-pim-cooperation-register-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yao-pim-cooperation-register-00.txt' />
+</reference>

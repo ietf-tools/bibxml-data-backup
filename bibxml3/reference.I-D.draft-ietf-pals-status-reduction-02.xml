@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pals-status-reduction'>
+<front>
+<title>MPLS LSP PW status refresh reduction for Static Pseudowires</title>
+
+<author initials='L' surname='Martini' fullname='Luca Martini'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<author initials='E' surname='Bellagamba' fullname='Elisa Bellagamba'>
+    <organization />
+</author>
+
+<date month='February' day='12' year='2017' />
+
+<abstract><t>This document describes a method for generating an aggregated pseudowire status message transmitted on a Multi-Protocol Label Switching (MPLS) Label Switched Path (LSP) to indicate the status of one or more pseudowires carried on the LSP.  The method for transmitting the pseudowire (PW) status information is not new, however this protocol extension allows a Service Provider (SP) to reliably monitor the individual PW status while not overwhelming the network with multiple periodic status messages. This is achieved by sending a single cumulative summary status verification message for all the PWs grouped in the same LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pals-status-reduction-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pals-status-reduction-02.txt' />
+</reference>

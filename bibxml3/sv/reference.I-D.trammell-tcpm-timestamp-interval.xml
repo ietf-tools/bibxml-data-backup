@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.trammell-tcpm-timestamp-interval'>
+<front>
+<title>Encoding of Time Intervals for the TCP Timestamp Option</title>
+
+<author initials='R' surname='Scheffenegger' fullname='Richard Scheffenegger'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<author initials='B' surname='Trammell' fullname='Brian Trammell'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2013' />
+
+<abstract><t>The TCP Timestamp option would be useful for additional measurements if it could be assumed that the interval between ticks of the timestamp clock are regular, and if that interval were known.  In practice, many implementations do use a timestamp clock source that has a regular interval.  This draft specifies a compact encoding for exposing the timestamp interval to a receiver, and discusses applications therefor.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-trammell-tcpm-timestamp-interval-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-trammell-tcpm-timestamp-interval-01.txt' />
+</reference>

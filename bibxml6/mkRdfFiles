@@ -1,0 +1,28 @@
+#!/bin/bash
+
+set -u		# error on unset variables
+
+PATH=$PATH:$HOME/xml2rfc/website/rfcs
+
+BIBXML=$1
+
+getname()
+{
+    echo $1 | sed 's/^.*reference[.]\(.*\)[.]xml$/\1/'
+}
+
+{
+
+    mkdir -p $BIBXML/rdf
+
+    for i in $BIBXML/reference.*.xml
+    do
+	name=$( getname $i )
+	rdf=$BIBXML/rdf/item.$name.rdf
+	if [ ! -f "$rdf" -o $i -nt "$rdf" ]
+	then
+	    echo "making $rdf"
+	    mkRdfFromXml -i "$i" -o "$rdf"
+	fi
+    done
+}

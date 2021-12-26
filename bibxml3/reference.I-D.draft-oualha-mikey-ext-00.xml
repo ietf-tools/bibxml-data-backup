@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.oualha-mikey-ext'>
+<front>
+<title>Extending Multimedia Internet KEYing (MIKEY) protocol for use in constrained networks</title>
+
+<author initials='N' surname='Oualha' fullname='Nouha Oualha'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kellil' fullname='Mounir Kellil'>
+    <organization />
+</author>
+
+<author initials='C' surname='Janneteau' fullname='Christophe Janneteau'>
+    <organization />
+</author>
+
+<date month='June' day='24' year='2013' />
+
+<abstract><t>The Multimedia Internet KEYing (MIKEY) protocol is a key management standard defined in RFC 3830 for streaming and real-time applications. In these applications, the MIKEY protocol may be used to provide group key management. With the base protocol, the change of one group member triggers the unicast transmission of a new group key to all members. In the context of an application delivering multicast streams to end-users located at multiple capillary networks, the key update messages may scale in proportion to the number of nodes; thus creating a substantial overhead. This I-D proposes an extension to the MIKEY protocol allowing the management of the group as a set of clusters, but with fewer changes to the RFC 3830 standard. Clustering helps in reducing the communication overhead produced during key update by using unicast mode only with nodes that belong to clusters where group membership changes</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-oualha-mikey-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-oualha-mikey-ext-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.seitz-ace-design-considerations'>
+<front>
+<title>Design Considerations for Security Protocols in Constrained Environments</title>
+
+<author initials='L' surname='Seitz' fullname='Ludwig Seitz'>
+    <organization />
+</author>
+
+<author initials='G' surname='Selander' fullname='Goran Selander'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>Considerable effort has been spent on securing existing Internet standard authentication and authorization protocols such as TLS, Kerberos, and OAuth, among others. It would save a lot of effort if these protocols could be profiled to be feasible for constrained environments, with some easily obtainable security considerations.  However, these protocols were typically not designed with constrained environments in mind, so profiling of an existing protocol may result in a far from optimal solution. Moreover they are not necessarily complying with their original design objectives outside their intended domain of application.  This document examines the impact of typical characteristics of security protocols (e.g. cryptographic calculations, number and size of protocol messages) in a constrained environment.  The goal is to provide decision support when different resource usage optimizations are possible in the adaptation of a security protocol for this setting.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-seitz-ace-design-considerations-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-seitz-ace-design-considerations-00.txt' />
+</reference>

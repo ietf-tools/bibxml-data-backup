@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8350' target='https://www.rfc-editor.org/info/rfc8350'>
+<front>
+<title>Alternate Tunnel Encapsulation for Data Frames in Control and Provisioning of Wireless Access Points (CAPWAP)</title>
+<author initials='R.' surname='Zhang' fullname='R. Zhang'><organization /></author>
+<author initials='R.' surname='Pazhyannur' fullname='R. Pazhyannur'><organization /></author>
+<author initials='S.' surname='Gundavelli' fullname='S. Gundavelli'><organization /></author>
+<author initials='Z.' surname='Cao' fullname='Z. Cao'><organization /></author>
+<author initials='H.' surname='Deng' fullname='H. Deng'><organization /></author>
+<author initials='Z.' surname='Du' fullname='Z. Du'><organization /></author>
+<date year='2018' month='April' />
+<abstract><t>Control and Provisioning of Wireless Access Points (CAPWAP) is a protocol for encapsulating a station's data frames between the Wireless Transmission Point (WTP) and Access Controller (AC). Specifically, the station's IEEE 802.11 data frames can be either locally bridged or tunneled to the AC.  When tunneled, a CAPWAP Data Channel is used for tunneling.  In many deployments, encapsulating data frames to an entity other than the AC (for example, to an Access Router (AR)) is desirable.  Furthermore, it may also be desirable to use different tunnel encapsulation modes between the WTP and the Access Router.  This document defines an extension to the CAPWAP protocol that supports this capability and refers to it as alternate tunnel encapsulation.  The alternate tunnel encapsulation allows 1) the WTP to tunnel non-management data frames to an endpoint different from the AC and 2) the WTP to tunnel using one of many known encapsulation types, such as IP-IP, IP-GRE, or CAPWAP.  The WTP may advertise support for alternate tunnel encapsulation during the discovery and join process, and the AC may select one of the supported alternate tunnel encapsulation types while configuring the WTP.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8350'/>
+<seriesInfo name='DOI' value='10.17487/RFC8350'/>
+</reference>

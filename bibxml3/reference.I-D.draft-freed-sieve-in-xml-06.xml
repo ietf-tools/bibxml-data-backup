@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.freed-sieve-in-xml'>
+<front>
+<title>Sieve Email Filtering: Sieves and display directives in XML</title>
+
+<author initials='N' surname='Freed' fullname='Ned Freed'>
+    <organization />
+</author>
+
+<author initials='S' surname='Vedam' fullname='Srinivas Vedam'>
+    <organization />
+</author>
+
+<date month='August' day='13' year='2009' />
+
+<abstract><t>This document describes a way to represent Sieve email filtering language scripts in XML.  Representing sieves in XML is intended not as an alternate storage format for Sieve but rather as a means to facilitate manipulation of scripts using XML tools.  The XML representation also defines additional elements that have no counterparts in the regular Sieve language.  These elements are intended for use by graphical user interfaces and provide facilities for labeling or grouping sections of a script so they can be displayed more conveniently.  These elements are represented as specially structured comments in regular Sieve format.  Change History (to be removed prior to publication as an RFC  Changed representation of comments in XML to use a comment element.  Update references.  Added an IANA registration of a URN for the Sieve namespace.  Updated XML Schema to allow largely unrestricted use of material in other namespaces.  Add compact Relax NG schema.  Updated example stylesheet to handle material in other namespaces.  Corrected stylesheet handling of &lt;comment> elements.  Added a section defining the structured comment convention.  Moved the examples section to an appendix.  Added text to clarify that the examples in the various appendices are in fact code components and may therefore be reused.  Added a section on validation requirements.  Clarified various editor requirements and trust issues, restricted the use of "*/" in non-Sieve XML content.  Added XML reference.  Added a list of all presently defined controls, explained how unknown controls would be handled.  Added a note about the need to remove quotes and other syntax elements when converting to XML.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-freed-sieve-in-xml-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-freed-sieve-in-xml-06.txt' />
+</reference>

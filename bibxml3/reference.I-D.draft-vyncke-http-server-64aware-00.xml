@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vyncke-http-server-64aware'>
+<front>
+<title>IPv6 Connectivity Check and Redirection by HTTP Servers</title>
+
+<author initials='E' surname='Vyncke' fullname='Eric Vyncke'>
+    <organization />
+</author>
+
+<date month='September' day='17' year='2008' />
+
+<abstract><t>Rather than forcing the client to decide whether IPv4 or IPv6 is more convenient to reach a web server; this document proposes to let the web server check whether there is IPv6 connectivity to the client; then the web server can do a HTTP redirect to the force the client to use IPv6.  This is done easily by a script within the server HTML pages and does not require any change in the client applications or configuration. The client still can control whether he/she wants to enabled IPv6.  This draft could be discussed on the Applications Discuss mailing list, https://www.ietf.org/mailman/listinfo/apps-discuss.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vyncke-http-server-64aware-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vyncke-http-server-64aware-00.txt' />
+</reference>

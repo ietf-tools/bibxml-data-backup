@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.veitch-nfvrg-nfv-nw-optimization'>
+<front>
+<title>Use Cases and Analysis on Integrated NFV and Network Optimization</title>
+
+<author initials='A' surname='Veitch' fullname='Andrew Veitch'>
+    <organization />
+</author>
+
+<date month='November' day='30' year='2016' />
+
+<abstract><t>This is a review of issues related to the optimized deployment of network services, aka service function chains, composed of virtual and physical network functions, where these functions may be instantiated in multiple distributed data centers.  Criteria for optimization are introduced, and use cases are described and expanded, in order to establish the need for coordinated computation of NF deployment sites and the connectivity among them.  Some methods for addressing optimization pain points are described, and potential new requirements of the PCE and PCEP are discussed.  One point to make clear is that the exploration of specific algorithms for NF/VNF placement and path computation is outside the scope of this draft.  We are not looking at computational or optimal greedy search algorithms.  The goals for this draft are 1) to provide justification through use cases for more tightly integrating path and placement computation algorithms, and 2) looking at how some of the optimization requirements might be addressed, mostly through pre- computation and caching, and how these might affect management and orchestration functions and the protocols (e.g.  PCEP) that are used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-veitch-nfvrg-nfv-nw-optimization-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-veitch-nfvrg-nfv-nw-optimization-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-veitch-nfvrg-nfv-nw-optimization-00.pdf' />
+</reference>

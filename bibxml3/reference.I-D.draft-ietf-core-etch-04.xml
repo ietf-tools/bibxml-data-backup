@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-etch'>
+<front>
+<title>Patch and Fetch Methods for Constrained Application Protocol (CoAP)</title>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sehgal' fullname='Anuj Sehgal'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2016' />
+
+<abstract><t>The methods defined in RFC 7252 for the Constrained Application Protocol (CoAP) only allow access to a complete resource, not to parts of a resource.  In case of resources with larger or complex data, or in situations where a resource continuity is required, replacing or requesting the whole resource is undesirable.  Several applications using CoAP will need to perform partial resource accesses.  This specification defines the new CoAP methods, FETCH, PATCH and iPATCH, which are used to access and update parts of a resource.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-etch-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-core-etch-04.txt' />
+</reference>

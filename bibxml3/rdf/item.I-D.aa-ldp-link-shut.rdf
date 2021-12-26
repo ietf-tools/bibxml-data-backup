@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-aa-ldp-link-shut-01.txt'>
+    <title>"LDP behaviour on link-shut scenarios", Anush Mohan, Anup T</title>
+    <link>http://www.ietf.org/internet-drafts/draft-aa-ldp-link-shut-01.txt</link>
+    <description>This document is intended as clarification of LDP behaviour in link- down scenarios.  Base LDP RFC5036 lacks sufficient clarity on what an LDP enabled node should be doing when a link down event is received, and the only LDP adjacency for an LDP peer is over this link. Different vendors have handled this scenario differently, with some immediately resetting tcp session with neighbor and some waiting for igp recovergence instead of reacting directly to link events.  With this document we intend to clarify the expected behaviour explicitly so that any interop issues can be avoided.</description>
+    <dc:date>2019-08-22T07:00:00-00:00</dc:date>
+</item>

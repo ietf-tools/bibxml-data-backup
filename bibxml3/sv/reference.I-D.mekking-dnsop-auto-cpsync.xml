@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mekking-dnsop-auto-cpsync'>
+<front>
+<title>Automated (DNSSEC) Child Parent Synchronization using DNS UPDATE</title>
+
+<author initials='M' surname='Mekking' fullname='Matthijs Mekking'>
+    <organization />
+</author>
+
+<date month='December' day='21' year='2010' />
+
+<abstract><t>This document proposes a way to synchronise existing trust anchors automatically between a child zone and its parent.  The protocol can be used for other Resource Records that are required to delegate from a parent to a child such as NS and glue records.  The synchronization allows for a third party to be involved, thus the protocol is suitable for both cases, whether you have to communicate to the registry or to the registrar.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mekking-dnsop-auto-cpsync-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mekking-dnsop-auto-cpsync-01.txt' />
+</reference>

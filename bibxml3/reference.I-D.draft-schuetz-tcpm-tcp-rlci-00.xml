@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schuetz-tcpm-tcp-rlci'>
+<front>
+<title>TCP Response to Lower-Layer Connectivity-Change Indications</title>
+
+<author initials='S' surname='Schuetz' fullname='Simon Schuetz'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2006' />
+
+<abstract><t>When connectivity characteristics between two hosts change abruptly, TCP can experience significant delays before resuming transmission in an efficient manner or TCP can behave unfairly to competing traffic. This document describes TCP extensions that improve transmission behavior in response to advisory, lower-layer connectivity-change indications. The proposed TCP extensions modify the local behavior of TCP and introduce a new TCP option to signal local connectivity- change indications to remote peers. Performance gains result from a more efficient transmission behavior and are not due to an increased aggressiveness.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schuetz-tcpm-tcp-rlci-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schuetz-tcpm-tcp-rlci-00.txt' />
+</reference>

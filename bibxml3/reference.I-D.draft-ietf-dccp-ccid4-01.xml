@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dccp-ccid4'>
+<front>
+<title>Profile for Datagram Congestion Control Protocol (DCCP) Congestion ID 4:  TCP-Friendly Rate Control for Small Packets (TFRC-SP)</title>
+
+<author initials='S' surname='Floyd' fullname='Sally Floyd'>
+    <organization />
+</author>
+
+<author initials='E' surname='Kohler' fullname='Eddie Kohler'>
+    <organization />
+</author>
+
+<date month='November' day='18' year='2007' />
+
+<abstract><t>This document specifies an experimental profile for Congestion Control Identifier 4, the Small-Packet variant of TCP-Friendly Rate Control (TFRC), in the Datagram Congestion Control Protocol (DCCP). CCID 4 is for experimental use, and uses TFRC-SP [RFC4828], a variant of TFRC designed for applications that send small packets. CCID 4 is considered experimental because TFRC-SP is itself experimental, and is not proposed for widespread deployment in the global Internet at this time. The goal for TFRC-SP is to achieve roughly the same bandwidth in bits per second (bps) as a TCP flow using packets of up to 1500 bytes but experiencing the same level of congestion. CCID 4 is for experimental use for senders that send small packets and would like a TCP-friendly sending rate, possibly with Explicit Congestion Notification (ECN), while minimizing abrupt rate changes. TO BE DELETED BY THE RFC EDITOR UPON PUBLICATION: Changes from draft-ietf-dccp-ccid4-00.txt: * Added that the RFC 4342 errata applies to CCID 4 as well. From email from Leandro Sales. * Added the phrase "If the sender is calculating the loss event rate itself" to a non-normative description in Section 5. Feedback from Gerrit Renker. * Deleted the Send Dropped Packets feature, since it is not used in CCID 4. In CCID 4, the Dropped Packets option is mandatory. Changes from draft-floyd-dccp-ccid4-01.txt: * Title changed to draft-ietf-dccp-ccid4-00.txt. * Incorporated material from draft-kohler-dccp-ccid3-drops-01.txt. * Added a reference to RFC3448bis. * Added a sentence saying that this is Experimental because TFRC-SP is Experimental. * General editing in response to feedback from Gorry. Changes from draft-floyd-dccp-ccid4-00.txt: * Added a subsection describing calculation of the average loss interval in TFRC-SP. * Changed the assumed DCCP-Data header size from 12 bytes to 16 bytes, for 48-bit sequence numbers. Feedback from Ian McDonald. * Added that the CCID4 sender can send two packets in a burst, if limited by OS granularity. From Ian McDonald. * Added that the implementor may track Faster Restart and implement it before an explicit update to the CCID4 RFC. From Ian McDonald. * Added an example to Section 8.4 of when errors can occur in using the Window Counter to detect loss intervals of at most two round-trip times. Changes from draft-floyd-ccid4-00.txt: * Added the Dropped Packets option for reporting the number of packets dropped in a loss interval. * Added examples to Section 8.4 of the receiver incorrectly inferring whether a loss interval was short or not. END OF SECTION TO BE DELETED.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dccp-ccid4-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-ccid4-01.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-ccid4-01.ps' />
+</reference>

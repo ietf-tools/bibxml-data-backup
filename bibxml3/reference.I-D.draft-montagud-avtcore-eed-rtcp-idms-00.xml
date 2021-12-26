@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.montagud-avtcore-eed-rtcp-idms'>
+<front>
+<title>Early Event-Driven (EED) RTCP Feedback for Rapid IDMS</title>
+
+<author initials='M' surname='Montagud' fullname='Mario Montagud'>
+    <organization />
+</author>
+
+<author initials='F' surname='Boronat' fullname='Fernando Boronat'>
+    <organization />
+</author>
+
+<author initials='H' surname='Stokking' fullname='Hans Stokking'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2015' />
+
+<abstract><t>RFC 7272 defines two RTCP messages to enable Inter-Destination Media Synchronization (IDMS).  However, if such RTCP messages are exchanged using the Regular RTCP reporting rules specified in RFC 3550, unacceptable delays can be originated when exchanging the synchronization information conveyed into RTCP packets.  Accordingly, this document proposes Early Event-Driven (EED) RTCP reporting rules and messages to enable higher interactivity, dynamism, flexibility and accuracy when using RTP/RTCP for IDMS.  Such IDMS extensions are targeted at providing faster reaction on dynamic situations, such as out-of-sync situations and channel change delays, as well as a finer granularity for synchronizing media-related events, while still adhering to the RTCP bandwidth bounds specified in RFC 3550. Besides, a new RTP/AVPF transport layer feedback message is proposed to allow the request of re-IDMS setting instructions (e.g., in case of RTCP packet loss) as well as rapid accommodation of latecomers in on-going sessions.  Finally, this document also discusses various situations in which the reporting of Reduced-Size RTCP packets (RFC 3556) can be applicable and beneficial for IDMS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-montagud-avtcore-eed-rtcp-idms-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-montagud-avtcore-eed-rtcp-idms-00.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-montagud-avtcore-eed-rtcp-idms-00.ps' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-montagud-avtcore-eed-rtcp-idms-00.pdf' />
+</reference>

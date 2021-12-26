@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kostur-dhc-loadbv6'>
+<front>
+<title>DHC Load Balancing Algorithm for DHCPv6</title>
+
+<author initials='A' surname='Kostur' fullname='Andre Kostur'>
+    <organization />
+</author>
+
+<date month='September' day='24' year='2012' />
+
+<abstract><t>This document proposes a method of algorithmic load balancing for IPv6 Dynamic Host Configuration Protocol (DHCPv6) traffic.  It enables multiple, cooperating servers to decide which one should service a client, without exchanging any information beyond initial configuration.  The server selection is based on the servers hashing client DHCP Unique Identifiers (DUIDs) when multiple DHCPv6 (DHCPv6) servers are available to service DHCPv6 clients.  The proposed technique provides for efficient server selection when multiple DHCPv6 servers offer services on a network without requiring any changes to existing DHCPv6 clients.  The same method is proposed to select the target server of a DHCPv6 relay.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kostur-dhc-loadbv6-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kostur-dhc-loadbv6-01.txt' />
+</reference>

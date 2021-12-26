@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.winterbottom-geopriv-held-identity-extensions'>
+<front>
+<title>HELD Identity Extensions</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard  Barnes'>
+    <organization />
+</author>
+
+<author initials='J' surname='Winterbottom' fullname='James Winterbottom'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>When a Location Information Server receives a request for location information (using the locationRequest message), described in the base HTTP Enabled Location Delivery (HELD) specification, it uses the source IP address of arriving message as a pointer to the location determination process.  This is sufficient in environments where an Target's location can be determined based on its IP address.  Two additional use cases are addresses by this document.  In the first, the source IP address in the request is not the only identifier for the Target.  In the second, an entity other than the Target requests the Target's location.  This document extends the HELD protocol to allow the location request message to carry additional identifiers assisting the location determination process.  It defines a set of URIs for Target identifiers and an XML containment schema.  This extension is used in conjunction with HELD to provide Target identification, and set of criteria of when to use this extensions are provided.  Examples and usage in HELD message syntax are also shown.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-winterbottom-geopriv-held-identity-extensions-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-winterbottom-geopriv-held-identity-extensions-07.txt' />
+</reference>

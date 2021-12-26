@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-stateful-interdomain'>
+<front>
+<title>PCEP Extension for Stateful Inter-Domain Tunnels</title>
+<author initials='O' surname='Dugeon' fullname='Olivier Dugeon'>
+<organization />
+</author>
+<author initials='J' surname='Meuric' fullname='Julien Meuric'>
+<organization />
+</author>
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+<organization />
+</author>
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
+<organization />
+</author>
+<date year='2021' month='July' day='12' />
+<abstract><t>This document specifies how to use a Backward Recursive or Hierarchical method to derive inter-domain paths in the context of stateful Path Computation Element (PCE).  The mechanism relies on the PCInitiate message to set up independent paths per domain.  Combining these different paths together enables them to be operated as end-to- end inter-domain paths, without the need for a signaling session between inter-domain border routers.  For this purpose, this document defines a new Stitching Label, new Association Type, and a new PCEP communication Protocol (PCEP) Capability.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-stateful-interdomain-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-pce-stateful-interdomain-02.txt'/>
+</reference>

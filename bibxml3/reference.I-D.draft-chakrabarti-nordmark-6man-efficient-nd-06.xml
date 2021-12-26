@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chakrabarti-nordmark-6man-efficient-nd'>
+<front>
+<title>IPv6 Neighbor Discovery Optimizations for Wired and Wireless Networks</title>
+
+<author initials='S' surname='Chakrabarti' fullname='Samita Chakrabarti'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wasserman' fullname='Margaret Wasserman'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2014' />
+
+<abstract><t>IPv6 Neighbor Discovery (RFC 4861 going back to RFC 1970) was defined at a time when link-local multicast was as reliable and with the same network cost (send a packet on a yellow-coax Ethernet) as unicast and where the hosts were assumed to be always on and connected.  Since 1996 we've seen a significant change with both an introduction of wireless networks and battery operated devices, which poses significant challenges for the old assumptions.  We are also seeing datacenter networks where virtual machines are not always on and connected, and scaling of multicast can be challenging.  This specification contains extensions to IPv6 Neighbor Discovery which remove most use of multicast and make sleeping hosts more efficient.  The specification includes a default mixed mode where a link can have an arbitrary mix of hosts and/or routers - some implementing legacy Neighbor Discovery and some implementing the optimizations in this specification.  The optimizations provide incremental benefits to hosts as soon as the first updated routers are deployed on a link.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chakrabarti-nordmark-6man-efficient-nd-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chakrabarti-nordmark-6man-efficient-nd-06.txt' />
+</reference>

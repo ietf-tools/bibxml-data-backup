@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-bier-pce-bier'>
+<front>
+<title>PCEP Extensions for BIER</title>
+
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zheng Zhang'>
+    <organization />
+</author>
+
+<date month='January' day='3' year='2017' />
+
+<abstract><t>Bit Index Explicit Replication (BIER)-TE shares architecture and packet formats with BIER as described in [I-D.ietf-bier-architecture].  BIER-TE forwards and replicates packets based on a BitString in the packet header, but every BitPosition of the BitString of a BIER-TE packet indicates one or more adjacencies.BIER-TE Path can be derived from a Path Computation Element (PCE).  This document specifies extensions to the Path Computation Element Protocol (PCEP) to handle requests and responses for the computation of paths for BIER-TE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-bier-pce-bier-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-bier-pce-bier-02.txt' />
+</reference>

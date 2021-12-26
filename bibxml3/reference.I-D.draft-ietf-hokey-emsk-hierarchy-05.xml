@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hokey-emsk-hierarchy'>
+<front>
+<title>Specification for the Derivation of Root Keys from an Extended Master  Session Key (EMSK)</title>
+
+<author initials='J' surname='Salowey' fullname='Joseph Salowey'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dondeti' fullname='Lakshminath Dondeti'>
+    <organization />
+</author>
+
+<author initials='V' surname='Narayanan' fullname='Vidya Narayanan'>
+    <organization />
+</author>
+
+<author initials='M' surname='Nakhjiri' fullname='Madjid Nakhjiri'>
+    <organization />
+</author>
+
+<date month='April' day='23' year='2008' />
+
+<abstract><t>The Extensible Authentication Protocol (EAP) defined the Extended Master Session Key (EMSK) generation, but reserved it for unspecified future uses.  This memo reserves the EMSK for the sole purpose of deriving root keys.  Root keys are are master keys that can be used for multiple purposes, identified by usage definitions.  This document also specifies a mechanism for avoiding conflicts between root keys by deriving them in a manner that guarantee cryptographic separation.  Finally, this document also defines one such root key usage: domain specific root keys are root keys made available to and used within specific key management domains.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hokey-emsk-hierarchy-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hokey-emsk-hierarchy-05.txt' />
+</reference>

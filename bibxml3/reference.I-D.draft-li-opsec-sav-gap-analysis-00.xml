@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-opsec-sav-gap-analysis'>
+<front>
+<title>Soure Address Validation: Gap Analysis</title>
+
+<author initials='D' surname='Li' fullname='Dan Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Gu' fullname='Yunan Gu'>
+    <organization />
+</author>
+
+<author initials='L' surname='Qin' fullname='Lancheng Qin'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lin' fullname='Tao Lin'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2020' />
+
+<abstract><t>This document identifies scenarios where existing IP spoofing approaches for detection and mitigation don't perform perfectly. Exsiting SAV (source address validation) approaches, either Ingress ACL filtering [RFC2827], unicast Reverse Path Forwarding (uRPF) [RFC3704], Feasible Path uRPF [RFC 3704], or Enhanced Feasible-Path uRPF [RFC8704] has limitations regarding eihter automated implemetation objective or detection accuracy objective (0% false positive and 0% false negative).  This document provides the gap analysis of the exsting SAV approaches, and also provides solution discussions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-opsec-sav-gap-analysis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-opsec-sav-gap-analysis-00.txt' />
+</reference>

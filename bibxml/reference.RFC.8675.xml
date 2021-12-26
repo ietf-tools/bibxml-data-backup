@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8675' target='https://www.rfc-editor.org/info/rfc8675'>
+<front>
+<title>A YANG Data Model for Tunnel Interface Types</title>
+<author initials='M.' surname='Boucadair' fullname='M. Boucadair'><organization /></author>
+<author initials='I.' surname='Farrer' fullname='I. Farrer'><organization /></author>
+<author initials='R.' surname='Asati' fullname='R. Asati'><organization /></author>
+<date year='2019' month='November' />
+<abstract><t>This document specifies the initial version of a YANG module &quot;iana-tunnel-type&quot;, which contains a collection of IANA-maintained YANG identities used as interface types for tunnel interfaces. The module reflects the &quot;tunnelType&quot; registry maintained by IANA. The latest revision of this YANG module can be obtained from the IANA website.</t><t>Tunnel type values are not directly added to the Tunnel Interface Types YANG module; they must instead be added to the &quot;tunnelType&quot; IANA registry. Once a new tunnel type registration is made by IANA for a new tunneling scheme or even an existing one that is not already listed in the current registry (e.g., LISP, NSH), IANA will update the Tunnel Interface Types YANG module accordingly.</t><t>Some of the IETF-defined tunneling techniques are not listed in the current IANA registry. It is not the intent of this document to update the existing IANA registry with a comprehensive list of tunnel technologies. Registrants must follow the IETF registration procedure for interface types whenever a new tunnel type is needed.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8675'/>
+<seriesInfo name='DOI' value='10.17487/RFC8675'/>
+</reference>

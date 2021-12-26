@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.okita-netconf-advertisement'>
+<front>
+<title>NETCONF Configuration Interface Advertisement with WSDL and XSD</title>
+
+<author initials='H' surname='Okita' fullname='Hideki  Okita'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2007' />
+
+<abstract><t>This memo describes a configuration interface advertisement method for NETCONF device developers.  In the proposal, the developers take a configuration interface definition information of target NETCONF devices.  On their development environment, they generate stab classes to control the devices.  The NETCONF device advertises their configuration interface by a WSDL file.  The WSDL file describes message type of each NETCONF operation of the device.  The WSDL file contains XML Schema in its types element and describes definition of the types definition used to configuration data.  By this configuration interface advertisement, Network management System (NMS) developers can improve their development efficiency of the NMS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-okita-netconf-advertisement-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-okita-netconf-advertisement-00.txt' />
+</reference>

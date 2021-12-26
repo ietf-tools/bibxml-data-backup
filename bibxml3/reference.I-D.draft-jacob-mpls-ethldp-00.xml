@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jacob-mpls-ethldp'>
+<front>
+<title>Ethernet LDP( Label Distribution with out IP and routing protocols)</title>
+
+<author initials='s' surname='jacob' fullname='sudhin jacob'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2014' />
+
+<abstract><t>MPLS is the heart and soul of the service provider network. MPLS can carry anydata payload which gives the flexibility to  the service provider to provision new service with any expense. The benefit of this technology is core router need not understand  the full customer route. If the service a layer 2 then thereis no need of vrf, for customer the service provider cloud is like a virtual switch.The protocol used for label distribution is LDP, BGP,RSVP. The most popular protocol for outer label distribution is LDP. LDP has the benefit of adding more TLV to its payload. In this the possibility of using ldp for generating labels for mac address rather for ip address which gives  the benefit to service provider not to run complex routing protocol on core, this does not require ip address. This gives service provider the flexibility to deploy any services, there is no need for changes in network layer when the customer goes for ipv4 to ipv6. This can reduce the CAPEX and OPEX of the customer and reduces the hardware cost too.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jacob-mpls-ethldp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jacob-mpls-ethldp-00.txt' />
+</reference>

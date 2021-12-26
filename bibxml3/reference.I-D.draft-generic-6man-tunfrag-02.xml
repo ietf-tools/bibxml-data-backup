@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.generic-6man-tunfrag'>
+<front>
+<title>IPv6 Source Fragmentation for Link Adaptation Avoidance</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2012' />
+
+<abstract><t>IPv6 intentionally deprecates fragmentation by routers in the network.  Instead, links with restricting MTUs must either drop each too-large packet and return an ICMP Packet Too Big message or perform link-specific fragmentation (also known as "link adaptation") at a layer below IPv6.  This latter category of links is often performance-challenged to accommodate steady-state link-specific fragmentation to the point that it would be highly desirable to push the fragmentation burden back to the IPv6 source.  A common case that exhibits these link characteristics is seen for IPv6-within-IP tunnels.  This document therefore proposes an update to the base IPv6 specification to support link adaptation avoidance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-generic-6man-tunfrag-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-generic-6man-tunfrag-02.txt' />
+</reference>

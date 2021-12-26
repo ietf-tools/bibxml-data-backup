@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hu-spring-segment-routing-proxy-forwarding'>
+<front>
+<title>SR-TE Path Midpoint Protection</title>
+
+<author initials='Z' surname='Hu' fullname='Zhibo Hu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yao' fullname='Junda Yao'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Zhu' fullname='Yongqing Zhu'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2020' />
+
+<abstract><t>Segment Routing Traffic Engineering (SR-TE) supports explicit paths using segment lists containing adjacency-SIDs, node-SIDs and binding- SIDs.  The current SR FRR such as TI-LFA provides fast re-route protection for the failure of a node along a SR-TE path by the direct neighbor or say point of local repair (PLR) to the failure.  However, once the IGP converges, the SR FRR is no longer sufficient to forward traffic of the path around the failure, since the non-neighbors of the failure will no longer have a route to the failed node.  This document describes a mechanism for fast re-route protection against the failure of a SR-TE path after the IGP converges.  It provides fast re-route protection for an adjacency segment, a node segment and a binding segment of the path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hu-spring-segment-routing-proxy-forwarding-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-12.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wilde-atom-profile'>
+<front>
+<title>Profile Support for the Atom Syndication Format</title>
+
+<author initials='E' surname='Wilde' fullname='Erik Wilde'>
+    <organization />
+</author>
+
+<date month='March' day='30' year='2013' />
+
+<abstract><t>The Atom syndication format is a generic XML format for representing collections.  Profiles are one way how Atom feeds can indicate that they support specific extensions.  To make this support visible on the media type level, this specification re-registers the Atom media type, and adds a "profile" media type parameter.  This allows profiles to become visible at the media type level, so that servers as well as clients can indicate support for specific Atom profiles in conversations, for example when communicating via HTTP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wilde-atom-profile-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wilde-atom-profile-00.txt' />
+</reference>

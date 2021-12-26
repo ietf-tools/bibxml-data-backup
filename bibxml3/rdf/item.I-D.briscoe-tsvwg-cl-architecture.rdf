@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-cl-architecture-04.txt'>
+    <title>"An edge-to-edge Deployment Model for Pre-Congestion Notification: Admission  Control over a DiffServ Region", Bob Briscoe</title>
+    <link>http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-cl-architecture-04.txt</link>
+    <description>This document describes a deployment model for pre-congestion notification (PCN) operating in a large DiffServ-based region of the Internet. PCN-based admission control protects the quality of service of existing flows in normal circumstances, whilst if necessary (eg after a large failure) pre-emption of some flows preserves the quality of service of the remaining flows. Each link has a configured- admission-rate and a configured-pre-emption-rate, and a router marks packets that exceed these rates. Hence routers give an early warning of their own potential congestion, before packets need to be dropped. Gateways around the edges of the PCN-region convert measurements of packet rates and their markings into decisions about whether to admit new flows, and (if necessary) into the rate of excess traffic that should be pre-empted. Per-flow admission states are kept at the gateways only, while the PCN markers that are required for all routers operate on the aggregate traffic - hence there is no scalability impact on interior routers.</description>
+    <dc:date>2006-10-25T07:00:00-00:00</dc:date>
+</item>

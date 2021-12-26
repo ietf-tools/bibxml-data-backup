@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sudha-teas-rsvp-preemption-avoidance'>
+<front>
+<title>Avoiding Repeated Preemption of Low-Priority TE LSPs - Recommendations</title>
+
+<author initials='S' surname='Venkataraman' fullname='Sudharsana Venkataraman'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2015' />
+
+<abstract><t>When a high priority LSP is being setup, if there is reservation contention on a link along the path to the destination, any low priority LSP taking the link could get preempted and eventually rerouted.  Low priority LSPs could suffer preemption repeatedly when they are placed in succession on heavily used links that have very less remaining bandwidth. This document describes a solution to avoid repeated preemption of low priority LSPs in the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sudha-teas-rsvp-preemption-avoidance-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sudha-teas-rsvp-preemption-avoidance-00.txt' />
+</reference>

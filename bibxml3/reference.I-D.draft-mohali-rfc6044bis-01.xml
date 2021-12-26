@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mohali-rfc6044bis'>
+<front>
+<title>Mapping and interworking of Diversion information Between Diversion and History-Info Headers in the Session Initiation Protocol (SIP)</title>
+
+<author initials='M' surname='Mohali' fullname='Marianne Mohali'>
+    <organization />
+</author>
+
+<date month='February' day='17' year='2015' />
+
+<abstract><t>Although the SIP History-Info header field is the solution adopted in IETF, the non-standard Diversion header field is nevertheless already implemented and used for conveying call diversion related information in the Session Initiation Protocol (SIP) signaling. On one hand, the non-standard Diversion header field is described, as Historic, in [RFC5806].  On the other hand, the History-Info header field is described in [RFC7044] that obsoletes the original[RFC4244] describing the History-Info header field.  [RFC7044] defines the SIP header field, History-Info, for capturing the history information in requests and new SIP header field parameters for the History-Info and Contact header fields to tag the method by which the target of a request is determined.  [RFC7044] also defines a value for the Privacy header field that directs the anonymization of values in the History-Info header field.  Since the Diversion header field is used in existing network implementations for the transport of call diversion information, its interworking with the SIP History-Info standardized solution is needed.  This document describes a recommended interworking guideline between the Diversion header field and the History-Info header field to handle call diversion information.  In addition, an interworking policy is proposed to manage the headers' coexistence.  This work is intended to enable the migration from non-standard implementations and deployments toward IETF specification-based implementations and deployments. This document obsoletes [RFC6044]that describes the interworking between the Diversion header field [RFC5806] and the obsoleted History-Info header field as defined on [RFC4244].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mohali-rfc6044bis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mohali-rfc6044bis-01.txt' />
+</reference>

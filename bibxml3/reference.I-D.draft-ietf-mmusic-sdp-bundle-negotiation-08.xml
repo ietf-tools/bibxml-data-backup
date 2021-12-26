@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-sdp-bundle-negotiation'>
+<front>
+<title>Negotiating Media Multiplexing Using the Session Description Protocol (SDP)</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='H' surname='Alvestrand' fullname='Harald Alvestrand'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<date month='August' day='22' year='2014' />
+
+<abstract><t>This specification defines a new SDP Grouping Framework extension, "BUNDLE", that can be used with the Session Description Protocol (SDP) Offer/Answer mechanism to negotiate the usage of bundled media, which refers to the usage of a single 5-tuple for sending and receiving media associated with multiple SDP media descriptions ("m=" lines).  This specification also updates sections 5.1, 8.1 and 8.2 of RFC 3264, in order to allow an answerer to in an SDP answer assign a non- zero port value to an "m=" line, even if the offerer in the associated SDP offer had assigned a zero port value to the "m=" line.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-sdp-bundle-negotiation-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-sdp-bundle-negotiation-08.txt' />
+</reference>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6486' target='https://www.rfc-editor.org/info/rfc6486'>
+<front>
+<title>Manifests for the Resource Public Key Infrastructure (RPKI)</title>
+<author initials='R.' surname='Austein' fullname='R. Austein'><organization /></author>
+<author initials='G.' surname='Huston' fullname='G. Huston'><organization /></author>
+<author initials='S.' surname='Kent' fullname='S. Kent'><organization /></author>
+<author initials='M.' surname='Lepinski' fullname='M. Lepinski'><organization /></author>
+<date year='2012' month='February' />
+<abstract><t>This document defines a &quot;manifest&quot; for use in the Resource Public Key Infrastructure (RPKI).  A manifest is a signed object (file) that contains a listing of all the signed objects (files) in the repository publication point (directory) associated with an authority responsible for publishing in the repository.  For each certificate, Certificate Revocation List (CRL), or other type of signed objects issued by the authority that are published at this repository publication point, the manifest contains both the name of the file containing the object and a hash of the file content.  Manifests are intended to enable a relying party (RP) to detect certain forms of attacks against a repository.  Specifically, if an RP checks a manifest's contents against the signed objects retrieved from a repository publication point, then the RP can detect &quot;stale&quot; (valid) data and deletion of signed objects.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6486'/>
+<seriesInfo name='DOI' value='10.17487/RFC6486'/>
+</reference>

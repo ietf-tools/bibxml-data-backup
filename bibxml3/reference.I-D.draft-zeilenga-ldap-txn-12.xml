@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zeilenga-ldap-txn'>
+<front>
+<title>LDAP Transactions</title>
+
+<author initials='K' surname='Zeilenga' fullname='Kurt Zeilenga'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2008' />
+
+<abstract><t>Lightweight Directory Access Protocol (LDAP) update operations, such as Add, Delete, and Modify operations, have atomic, consistency, isolation, durability (ACID) properties.  Each of these update operations act upon an entry.  It is often desirable to update two or more entries in a single unit of interaction, a transaction. Transactions are necessary to support a number of applications including resource provisioning.  This document extends LDAP to support transactions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zeilenga-ldap-txn-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zeilenga-ldap-txn-12.txt' />
+</reference>

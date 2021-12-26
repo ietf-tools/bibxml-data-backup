@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4892' target='https://www.rfc-editor.org/info/rfc4892'>
+<front>
+<title>Requirements for a Mechanism Identifying a Name Server Instance</title>
+<author initials='S.' surname='Woolf' fullname='S. Woolf'><organization /></author>
+<author initials='D.' surname='Conrad' fullname='D. Conrad'><organization /></author>
+<date year='2007' month='June' />
+<abstract><t>With the increased use of DNS anycast, load balancing, and other mechanisms allowing more than one DNS name server to share a single IP address, it is sometimes difficult to tell which of a pool of name servers has answered a particular query.  A standardized mechanism to determine the identity of a name server responding to a particular query would be useful, particularly as a diagnostic aid for administrators.  Existing ad hoc mechanisms for addressing this need have some shortcomings, not the least of which is the lack of prior analysis of exactly how such a mechanism should be designed and deployed.  This document describes the existing convention used in some widely deployed implementations of the DNS protocol, including advantages and disadvantages, and discusses some attributes of an improved mechanism.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4892'/>
+<seriesInfo name='DOI' value='10.17487/RFC4892'/>
+</reference>

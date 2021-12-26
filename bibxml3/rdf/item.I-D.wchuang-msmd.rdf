@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-wchuang-msmd-00.pdf'>
+    <title>"MSMD: Mandatory Secure Mail Delivery", Wei Chuang, Nicolas Lidzborkski, Elie Bursztein</title>
+    <link>http://www.ietf.org/internet-drafts/draft-wchuang-msmd-00.pdf</link>
+    <description>Opportunistic SMTP TLS does not enforce electronic mail delivery using TLS leading to potential loss of privacy and security.  We propose an optional mail header extension "mandatory-secure-mail- delivery:" and SMTP EHLO response extension "MSMD" that indicates mail must be delivered privately using TLS and with integrity using DKIM, and thereby provide a security guarantee to the user.  When mail is sent with the header indicating privacy and integrity and if the receiving party does not support this, the mail is instead bounced.  To protect the mail after delivery, the destination SMTP server must advertise its capabilities as part of the EHLO response, and the sender can choose whether the destination is able to honor the privacy requirements specified on the mail header.</description>
+    <dc:date>2013-10-14T22:00:00-00:00</dc:date>
+</item>

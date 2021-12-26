@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.whittle-ivip-drtm'>
+<front>
+<title>DRTM - Distributed Real Time Mapping for Ivip and LISP</title>
+
+<author initials='R' surname='Whittle' fullname='Robin Whittle'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2010' />
+
+<abstract><t>Distributed Real Time Mapping (DRTM) is intended for Ivip, but may be useful for other Core-Edge Separation solutions to the routing scaling problem, such as LISP.  Companies which operate MABs (Mapped Address Blocks) of "edge" SPI (Scalable PI) address space establish a number of widely dispersed sites from which to operate DITRs (Default ITRs in the DFZ).  These DITRs are required to tunnel packets sent from hosts in networks without ITRs.  DITRs are caching ITRs closely connected to mapping query servers which are sent a real-time feed of mapping updates for all the MABs the site supports.  By making this, or a similar, query server publicly available, caching Map Resolvers (MRs) in nearby ISP networks can resolve the mapping queries of the ITRs in that ISP's network, and in the end-user networks which use this ISP.  The DITR-Site mapping servers securely inform MRs of any changes to mapping which occur during the caching time of the map replies, and the MRs perform the same algorithm and pass the updated mapping to the one or more ITRs which is caching the mapping returned in the original reply.  In this way, the tunneling behaviour of all ITRs the world over is controlled in real-time.  Unlike previous approaches to Ivip's mapping distribution system, there is no need for mapping servers which contain the full database of mapping for all MABs.  Nor is there a need for real-time mapping feeds to ISPs. Since the MABOC companies typically come most of the distance to ISPs all over the world, with their DITR sites, these DITR site query servers are typically close enough and numerous enough to scale well and provide very rapid mapping replies, with little loss of packets. This avoids the "lost and delayed initial packets" problem inherent in global query server systems such as LISP-ALT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-whittle-ivip-drtm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-whittle-ivip-drtm-00.txt' />
+</reference>

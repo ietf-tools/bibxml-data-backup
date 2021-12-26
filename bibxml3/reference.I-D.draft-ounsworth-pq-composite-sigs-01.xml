@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ounsworth-pq-composite-sigs'>
+<front>
+<title>Composite Keys and Signatures For Use In Internet PKI</title>
+
+<author initials='M' surname='Ounsworth' fullname='Mike Ounsworth'>
+    <organization />
+</author>
+
+<author initials='M' surname='Pala' fullname='Massimiliano Pala'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2019' />
+
+<abstract><t>With the widespread adoption of post-quantum cryptography will come the need for an entity to possess multiple public keys on different cryptographic algorithms.  Since the trustworthiness of individual post-quantum algorithms is at question, a multi-key cryptographic operation will need to be performed in such a way that breaking it requires breaking each of the component algorithms individually. This requires defining new structures for holding composite public keys and composite signature data.  This document defines the structures CompositePublicKey, CompositeSignatureValue, and CompositeParams, which are sequences of the respective structure for each component algorithm.  This document also defines algorithms for generating and verifying composite signatures.  This document makes no assumptions about what the component algorithms are, provided that their algorithm identifiers and signature generation and verification algorithms are defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ounsworth-pq-composite-sigs-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ounsworth-pq-composite-sigs-01.txt' />
+</reference>

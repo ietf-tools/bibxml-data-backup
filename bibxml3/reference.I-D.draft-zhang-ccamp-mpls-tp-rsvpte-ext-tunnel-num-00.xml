@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-ccamp-mpls-tp-rsvpte-ext-tunnel-num'>
+<front>
+<title>RSVP-TE Extentions to Exchange MPLS-TP Tunnel Numbers</title>
+
+<author initials='F' surname='Zhang' fullname='Fei Zhang'>
+    <organization />
+</author>
+
+<date month='September' day='15' year='2011' />
+
+<abstract><t>The MPLS Transport Profile (MPLS-TP) identifiers document [I-D.ietf-mpls-tp-identifiers] introduce two tunnel numbers, A1- Tunnel_Num and Z9-Tunnel_Num, which allow a compact format for Maintenance Entity Point Identifier (MEP_ID).  For some Operation, Administration and Maintenance (OAM) functions, such as Connectivity Verification (CV) [I-D.ietf-mpls-tp-cc-cv-rdi], source MEP_ID MUST be inserted in the OAM packets, so that the peer endpoint can compare the received and expected MEP_IDs to judge whether there is a mismatch, which means that the two MEP nodes need to pre-store each other's MEP_IDs.  The specification of setting up co-routed bidirectional LSP is described in the document [RFC3473], which does not introduce the locally configured tunnel number on the tunnel endpoint.  This document defines the Connection object to exchange the tunnel numbers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-ccamp-mpls-tp-rsvpte-ext-tunnel-num-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-ccamp-mpls-tp-rsvpte-ext-tunnel-num-00.txt' />
+</reference>

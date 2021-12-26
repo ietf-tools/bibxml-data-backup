@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rtgwg-yang-key-chain'>
+<front>
+<title>Routing Key Chain YANG Data Model</title>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Qu' fullname='Yingzhen Qu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Yeung' fullname='Derek Yeung'>
+    <organization />
+</author>
+
+<author initials='I' surname='Chen' fullname='Ing-Wher Chen'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<date month='April' day='26' year='2017' />
+
+<abstract><t>This document describes the key chain YANG data model.  Key chains are commonly used for routing protocol authentication and other applications requiring symmetric keys.  A key chain is a list of elements each containing a key string, send lifetime, accept lifetime, and algorithm (authentication or encryption).  By properly overlapping the send and accept lifetimes of multiple key chain elements, key strings and algorithms may be gracefully updated.  By representing them in a YANG data model, key distribution can be automated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rtgwg-yang-key-chain-21' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-yang-key-chain-21.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dulinski-alto-inter-problem-statement'>
+<front>
+<title>Inter-ALTO Communication Problem Statement</title>
+
+<author initials='Z' surname='Dulinski' fullname='Zbigniew Dulinski'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wydrych' fullname='Piotr Wydrych'>
+    <organization />
+</author>
+
+<author initials='R' surname='Stankiewicz' fullname='Rafal Stankiewicz'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>The Application-Layer Traffic Optimization (ALTO) protocol has been standardized in RFC7285 to ease better-than-random overlay connection management.  Due to various reasons, optimization capabilities of ALTO servers are limited by the fact that it may not be possible for an ALTO server to compute costs for source/destination pairs correctly if a source and/or a destination is outside the administrative domain it belongs to.  In other words, an ALTO server may be generally unable to optimize the traffic with only locally available topology information.  Therefore, it is proposed that operators of distinct administrative domains may agree on topology- and policy-related information exchange through a standardized inter-ALTO communication framework. This document provides a rationale for design, standardization, and implementation of the inter-ALTO communication framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dulinski-alto-inter-problem-statement-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dulinski-alto-inter-problem-statement-02.txt' />
+</reference>

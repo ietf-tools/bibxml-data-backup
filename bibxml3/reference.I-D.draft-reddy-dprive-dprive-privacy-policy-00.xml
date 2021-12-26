@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reddy-dprive-dprive-privacy-policy'>
+<front>
+<title>DNS server privacy policy with assertion token</title>
+
+<author initials='R' surname='K' fullname='Reddy K'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<date month='October' day='3' year='2019' />
+
+<abstract><t>Users want to control how their DNS queries are handled by DNS servers so they can configure their system to use DNS servers that comply with their privacy expectations.  This document defines a mechanism for a DNS server to communicate its privacy policy to a DNS client.  This communication is cryptographically signed to attest to its authenticity.  By evaluating the DNS privacy policy and the signatory, the DNS client can choose a DNS server that best supports its desired privacy policies.  The privacy assertion token is particularly useful for DNS-over-TLS and DNS-over-HTTPS servers, both public resolvers and those discovered on the local network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reddy-dprive-dprive-privacy-policy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reddy-dprive-dprive-privacy-policy-00.txt' />
+</reference>

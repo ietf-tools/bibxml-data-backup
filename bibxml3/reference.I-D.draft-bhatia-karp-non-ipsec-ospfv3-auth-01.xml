@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bhatia-karp-non-ipsec-ospfv3-auth'>
+<front>
+<title>Non IPSec Authentication mechanism for OSPFv3</title>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<date month='September' day='27' year='2010' />
+
+<abstract><t>Currently a few routing protocols use IPSec for authenticating their protocol packets. There are known issues with using IPSec with the routing protocols and this draft proposes an alternative Generic Authentication mechanism that can be used so that these protocols do not depend upon IPSec for security. The mechanism introduced in this draft is generic and can be used by any protocol that currently uses IPSec for authentication.  While this mechanism is generic, this draft specifically looks at OSPFv3 and how it can use the mechanism described herein.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bhatia-karp-non-ipsec-ospfv3-auth-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bhatia-karp-non-ipsec-ospfv3-auth-01.txt' />
+</reference>

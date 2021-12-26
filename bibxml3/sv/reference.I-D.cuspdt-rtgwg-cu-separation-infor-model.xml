@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cuspdt-rtgwg-cu-separation-infor-model'>
+<front>
+<title>Information Model of Control-Plane and User-Plane Separation BNG</title>
+
+<author initials='S' surname='Hu' fullname='Shujun Hu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Wang' fullname='Zitao Wang'>
+    <organization />
+</author>
+
+<author initials='V' surname='Lopezalvarez' fullname='Victor Lopezalvarez'>
+    <organization />
+</author>
+
+<author initials='F' surname='Qin' fullname='Fengwei Qin'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenqiang Li'>
+    <organization />
+</author>
+
+<author initials='T' surname='Chua' fullname='Tee Chua'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>To improve network resource utilization and reduce operational expense, the Control-Plane and User-Plane separation concept is defined in Broadband Forum TR-384.  This document describes the information model for the interface between the Control-Plane (CP) and the User-Plane (UP) in the CP/UP separation BNG.  This information model may involve both the control channel interface and the configuration channel interface.  The interface for the control channel allows the Control-Plane to send flow tables to the User- Plane, such as user's information table, user's interface table, and user's QoS table.  And it also allows the User-Plane to report resource and statistics information to the Control-Plane.  The interface for the configuration channel is in charge of the protocol version negotiation between the Control-Plane and User-Plane, the configuration for devices of the Control-Plane and User-Plane, and the reports of User-Plane's capabilities, etc.  The information model defined in this document supports defining a standardized data model. Such a data model can be used to specify an interface to the CU separation BNG.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cuspdt-rtgwg-cu-separation-infor-model-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cuspdt-rtgwg-cu-separation-infor-model-03.txt' />
+</reference>

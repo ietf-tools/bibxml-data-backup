@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.francis-mapped-bgp-design'>
+<front>
+<title>Mapped BGP Design</title>
+
+<author initials='P' surname='Francis' fullname='Paul Francis'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ballani' fullname='Hitesh Ballani'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2008' />
+
+<abstract><t>This draft introduces Mapped-BGP, a routing protocol that uses BGP to distributed tunnel endpoint-to-prefix mappings.  The goal of this draft are to present preliminary concepts and get feedback.  It is not meant to be a fully-formed proposal.  The goals of Mapped-BGP are: 1) to reduce the processing required to run BGP, 2) to speed up inter-domain convergence, 3) to improve the cross-ISP load balancing capabilities of BGP, and where possible, 4) to enable forms of address aggregation like geographical addressing (i.e. for IPv6). Improved address aggregation is unlikely to be very useful for IPv4, because most addresses have already been assigned.  This design takes the position that Mapped BGP is useful even without better aggregation, because 1) FIB size can be reduced through FIB suppression with Virtual Aggregation, and 2) RIB size per se is not the growth bottleneck.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-francis-mapped-bgp-design-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-francis-mapped-bgp-design-00.txt' />
+</reference>

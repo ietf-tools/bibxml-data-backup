@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bonica-lsr-ip-flexalgo'>
+<front>
+<title>IGP Flexible Algorithms (Flexalgo) In IP Networks</title>
+
+<author initials='W' surname='Britto' fullname='William Britto'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kaneriya' fullname='Parag Kaneriya'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shetty' fullname='Rejesh Shetty'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2020' />
+
+<abstract><t>An IGP Flexible Algorithm computes a constraint-based path and maps that path to an identifier.  As currently defined, Flexalgo can only map the paths that it computes to Segment Routing (SR) identifiers. Therefore, Flexalgo cannot be deployed in the absence of SR.  This document extends Flexalgo, so that it can map the paths that it computes to IP addresses.  This allows Flexalgo to be deployed in any IP network, even in the absence of SR.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bonica-lsr-ip-flexalgo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bonica-lsr-ip-flexalgo-00.txt' />
+</reference>

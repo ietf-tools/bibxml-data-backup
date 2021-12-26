@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8770' target='https://www.rfc-editor.org/info/rfc8770'>
+<front>
+<title>Host Router Support for OSPFv2</title>
+<author initials='K.' surname='Patel' fullname='K. Patel'><organization /></author>
+<author initials='P.' surname='Pillay-Esnault' fullname='P. Pillay-Esnault'><organization /></author>
+<author initials='M.' surname='Bhardwaj' fullname='M. Bhardwaj'><organization /></author>
+<author initials='S.' surname='Bayraktar' fullname='S. Bayraktar'><organization /></author>
+<date year='2020' month='April' />
+<abstract><t>The Open Shortest Path First Version 2 (OSPFv2) protocol does not have a mechanism for a node to repel transit traffic if it is on the shortest path.  This document defines a bit called the Host-bit (H-bit). This bit enables a router to advertise that it is a non-transit router.  This document also describes the changes needed to support the H-bit in the domain.  In addition, this document updates RFC 6987 to advertise Type 2 External and Not-So-Stubby Area (NSSA) Link State Advertisements (LSAs) (RFC 3101) with a high cost in order to repel traffic effectively.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8770'/>
+<seriesInfo name='DOI' value='10.17487/RFC8770'/>
+</reference>

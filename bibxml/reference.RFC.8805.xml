@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8805' target='https://www.rfc-editor.org/info/rfc8805'>
+<front>
+<title>A Format for Self-Published IP Geolocation Feeds</title>
+<author initials='E.' surname='Kline' fullname='E. Kline'><organization /></author>
+<author initials='K.' surname='Duleba' fullname='K. Duleba'><organization /></author>
+<author initials='Z.' surname='Szamonek' fullname='Z. Szamonek'><organization /></author>
+<author initials='S.' surname='Moser' fullname='S. Moser'><organization /></author>
+<author initials='W.' surname='Kumari' fullname='W. Kumari'><organization /></author>
+<date year='2020' month='August' />
+<abstract><t>This document records a format whereby a network operator can publish a mapping of IP address prefixes to simplified geolocation information, colloquially termed a &quot;geolocation feed&quot;.  Interested parties can poll and parse these feeds to update or merge with other geolocation data sources and procedures.  This format intentionally only allows specifying coarse-level location.</t><t>Some technical organizations operating networks that move from one conference location to the next have already experimentally published small geolocation feeds.</t><t>This document describes a currently deployed format. At least one consumer (Google) has incorporated these feeds into a geolocation data pipeline, and a significant number of ISPs are using it to inform them where their prefixes should be geolocated.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8805'/>
+<seriesInfo name='DOI' value='10.17487/RFC8805'/>
+</reference>

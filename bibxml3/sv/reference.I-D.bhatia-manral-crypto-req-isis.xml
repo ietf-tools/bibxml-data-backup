@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bhatia-manral-crypto-req-isis'>
+<front>
+<title>Cryptographic Algorithm Implementation Requirements for IS-IS</title>
+
+<author initials='M' surname='Bhatia' fullname='Manav  Bhatia'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2007' />
+
+<abstract><t>IS-IS currently defines two different kinds of authentication schemes: Clear Text password and HMAC-MD5. There has been recently a new draft submitted that adds support for a generic cryptographic authentication scheme, which can make use of different cryptographic algorithms in order to authenticate the IS-IS PDUs. To ensure interoperability between disparate implementations, it is imperative that we specify a set of mandatory-to-implement algorithms to ensure that there is at least one algorithm that all implementations will have available. This document defines the current set of mandatory-to-implement algorithms to be used for the cryptographic authentication for IS-IS as well as specifying the algorithms that should be implemented because they may be promoted to mandatory at some future time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bhatia-manral-crypto-req-isis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bhatia-manral-crypto-req-isis-01.txt' />
+</reference>

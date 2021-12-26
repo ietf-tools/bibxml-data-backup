@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.arkko-mext-rfc3775-altcoa-check'>
+<front>
+<title>Verifying Correctness of Alternate Care-of Address Option</title>
+
+<author initials='J' surname='Arkko' fullname='Jari Arkko'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2008' />
+
+<abstract><t>This document revises the RFC 3775 rules on how Alternate Care-of Address option is processed.  Alternate Care-of Address option is used to carry the current care-of address inside a Mobility Header message.  This is used in addition to the source address in the packet in order to ensure that the care-of address is protected by IPsec ESP, the security mechanism that protects Mobility Header messages.  Unfortunately, RFC 3775 did not require verification that the source address and care-of address are the same.  This document adds that requirement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-arkko-mext-rfc3775-altcoa-check-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-arkko-mext-rfc3775-altcoa-check-00.txt' />
+</reference>

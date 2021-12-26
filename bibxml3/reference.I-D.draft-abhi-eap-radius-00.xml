@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.abhi-eap-radius'>
+<front>
+<title>Secure Communication of EAP - Radius messages</title>
+
+<author initials='A' surname='Singh' fullname='Abhishek Singh'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2008' />
+
+<abstract><t>EAP is used to establish secure communication channel in IKEv2 and in Wireless Security. EAP-TLS, EAP-TTLS, EAP-MD5, EAP-SIM uses radius protocol for communication bewteen radius server and the client. These protocols are used in both Wireless network authentication and in IKEV2 authentication to establish VPN tunnel.  +----------+        +----------+        +----------+ |          |  EAPOL |  EAP     | RADIUS |          | |  EAP     |&lt;------>|  Server  |&lt;------>|  RADIUS  | |  Client  |  EAPOW |          |  (EAP) |  Server  | |          |        |          |        |          | +----------+        +----------+        +----------+  This draft presents the security protocol which can be used to establish the secure communication channel between the radius server and  pass through server. Pass through server is access point in the case of wireless communication and it is gateway in case of IKEV2 authnetication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-abhi-eap-radius-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-abhi-eap-radius-00.txt' />
+</reference>

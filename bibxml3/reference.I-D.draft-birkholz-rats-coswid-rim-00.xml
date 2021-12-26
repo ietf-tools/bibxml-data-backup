@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birkholz-rats-coswid-rim'>
+<front>
+<title>Reference Integrity Measurement Extension for Concise Software Identities</title>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='P' surname='Uiterwijk' fullname='Patrick Uiterwijk'>
+    <organization />
+</author>
+
+<author initials='J' surname='Fitzgerald-McKay' fullname='Jessica Fitzgerald-McKay'>
+    <organization />
+</author>
+
+<author initials='D' surname='Waltermire' fullname='David Waltermire'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>Concise Software Identification (CoSWID) tags identify and describe individual software components, patches, and installation bundles. CoSWID is based on ISO/IEC 19770-2:2015 2:2015 that provides a complementary XML schema definition (XSD) for Software Identification (SWID) tags.  CoSWID supports the same features as the corresponding XML SWID tags.  The CoSWID specification also includes more structured extensibility features and reduces a few of ambiguities that are not explicitly resolved in the ISO XSD.  In this document, these extensibility features (extension points) are used to add attributes to the CoSWID specification.  The new attributes allow for the use of CoSWID as Reference Integrity Measurements (RIM).  There are three set of RIM features defined in this specification. 1.) attributes that support RIM manifests for Measured Boot, 2.) attributes that support package manager managed structures, and 3.) attributes that allow for OID to be used in the description of Reference Integrity Measurements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-birkholz-rats-coswid-rim-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-birkholz-rats-coswid-rim-00.txt' />
+</reference>

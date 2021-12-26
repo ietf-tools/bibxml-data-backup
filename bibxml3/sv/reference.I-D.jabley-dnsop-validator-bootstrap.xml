@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jabley-dnsop-validator-bootstrap'>
+<front>
+<title>Establishing an Appropriate Root Zone DNSSEC Trust Anchor at Startup</title>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<author initials='D' surname='Knight' fullname='Dave Knight'>
+    <organization />
+</author>
+
+<date month='January' day='31' year='2011' />
+
+<abstract><t>Domain Name System Security Extensions (DNSSEC) allow cryptographic signatures to be used to validate responses received from the Domain Name System (DNS).  A DNS client which validates such signatures is known as a validator.  The choice of appropriate root zone trust anchor for a validator is expected to vary over time as the corresponding cryptographic keys used in DNSSEC are changed.  This document provides guidance on how validators might determine an appropriate trust anchor for the root zone to use at start-up, or when other mechanisms intended to allow key rollover to be tolerated gracefully are not available.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jabley-dnsop-validator-bootstrap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jabley-dnsop-validator-bootstrap-00.txt' />
+</reference>

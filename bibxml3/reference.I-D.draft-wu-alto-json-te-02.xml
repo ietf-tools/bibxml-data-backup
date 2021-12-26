@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-alto-json-te'>
+<front>
+<title>ALTO Extensions for Traffic Engineering (TE) performance metrics in JSON format</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2013' />
+
+<abstract><t>Cost metric is a basic concept in Application-Layer Traffic Optimization (ALTO).  It is used in both the Cost Map Service and the Endpoint Cost Service.  However the base protocol defines only a single cost metric, i.e., the generic "routingcost" metric (Sec. 14.2 of ALTO base specification [ALTO]).  In practice, applications may request network information on other cost (including performance) metrics.  In this document, we define five new base metrics which are delay, jitter, pktloss (packet loss), bandwidth and hopcount.  These base metrics are further extended with these nine new metrics linkdelay, linkjitter, linkloss, maxbw (Maximum Bandwidth), maxreservbw (Maximum Reserved Bandwdith), unreservbw (Unreserved Bandwidth), residuebw (Residual Bandwidth), availbw (Available Bandwidth), and utilbw (Utilized Bandwidth).  Also a new parameter anomalousstate is added. These fourteen cost metrics are derived from OSPF-TE and ISIS-TE and can be either used as constraint attribute associated with 'routingcost' cost metric attribute or used as returned Cost metrics in the response, or both and hence provide a relatively comprehensive set of cost metrics for ALTO.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-alto-json-te-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-alto-json-te-02.txt' />
+</reference>

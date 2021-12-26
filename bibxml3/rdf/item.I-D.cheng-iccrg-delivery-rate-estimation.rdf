@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-cheng-iccrg-delivery-rate-estimation-01.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-cheng-iccrg-delivery-rate-estimation-01.txt</link>
+        <title>"Delivery Rate Estimation", Yuchung Cheng, Neal Cardwell, Soheil Yeganeh, Van Jacobson</title>
+        <dc:date>2021-11-07T23:00:00-00:00</dc:date>
+        <description>This document describes a generic algorithm for a transport protocol sender to estimate the current delivery rate of its data.  At a high level, the algorithm estimates the rate at which the network delivered the most recent flight of outbound data packets for a single flow.  In addition, it tracks whether the rate sample was application-limited, meaning the transmission rate was limited by the sending application rather than the congestion control algorithm. This algorithm can be implemented in any transport protocol that supports packet-delivery acknowledgment (thus far, open source implementations are available for TCP [RFC793] and QUIC [RFC9000]).</description>
+    </item>

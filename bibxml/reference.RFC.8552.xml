@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8552' target='https://www.rfc-editor.org/info/rfc8552'>
+<front>
+<title>Scoped Interpretation of DNS Resource Records through &quot;Underscored&quot; Naming of Attribute Leaves</title>
+<author initials='D.' surname='Crocker' fullname='D. Crocker'><organization /></author>
+<date year='2019' month='March' />
+<abstract><t>Formally, any DNS Resource Record (RR) may occur under any domain name.  However, some services use an operational convention for defining specific interpretations of an RRset by locating the records in a DNS branch under the parent domain to which the RRset actually applies.  The top of this subordinate branch is defined by a naming convention that uses a reserved node name, which begins with the underscore character (e.g., &quot;_name&quot;).  The underscored naming construct defines a semantic scope for DNS record types that are associated with the parent domain above the underscored branch.  This specification explores the nature of this DNS usage and defines the &quot;Underscored and Globally Scoped DNS Node Names&quot; registry with IANA. The purpose of this registry is to avoid collisions resulting from the use of the same underscored name for different services.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='222'/>
+<seriesInfo name='RFC' value='8552'/>
+<seriesInfo name='DOI' value='10.17487/RFC8552'/>
+</reference>

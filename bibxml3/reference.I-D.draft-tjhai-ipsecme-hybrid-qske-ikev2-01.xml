@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tjhai-ipsecme-hybrid-qske-ikev2'>
+<front>
+<title>Framework to Integrate Post-quantum Key Exchanges into Internet Key Exchange Protocol Version 2 (IKEv2)</title>
+
+<author initials='C' surname='Tjhai' fullname='C. Tjhai'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tomlinson' fullname='M. Tomlinson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Bartlett' fullname='G. Bartlett'>
+    <organization />
+</author>
+
+<author initials='S' surname='Fluhrer' fullname='S. Fluhrer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Geest' fullname='D. Van Geest'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Z. Zhang'>
+    <organization />
+</author>
+
+<author initials='O' surname='Garcia-Morchon' fullname='O. Garcia-Morchon'>
+    <organization />
+</author>
+
+<date month='January' day='15' year='2018' />
+
+<abstract><t>This document describes how to extend Internet Key Exchange Protocol Version 2 (IKEv2) so that the shared secret exchanged between peers has resistance against quantum computer attacks.  The basic idea is to exchange one or more post quantum key exchange payloads in conjunction with the existing (Elliptic Curve) Diffie-Hellman payload.  This document also addresses the challenge of fragmentation as a result of sending large post quantum key exchange data in the first pair of message of the initial exchange phase.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tjhai-ipsecme-hybrid-qske-ikev2-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tjhai-ipsecme-hybrid-qske-ikev2-01.txt' />
+</reference>

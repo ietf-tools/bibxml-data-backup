@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-avt-retransmission-supression-rtp'>
+<front>
+<title>Proposal for an extension to RTCP Receiver Report for Feedback Storm Suppression</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<date month='June' day='9' year='2010' />
+
+<abstract><t>This document specifies an extension to the RTCP messages defined in the Audio-Visual Profile with Feedback (AVPF) designed to allow intermediate node of the network side to suppress the feedback implosion from the receivers.  An example of feedback implosion is NACK storm, i.e., a large number of RTCP NACK messages used to request retransmission of the missing packets going to the same media sender.  The Feedback Storm Suppression receiver report is used to carry the information regarding feedback suppression early indication events to the receiver before the receiver detects an original packet loss and all the packet loss repair methods are applied and filtering of unnecessary feedback messages when the receivers have already send out packet loss requests.  By using feedback Suppression message together with filter mechanism, the delay for the receiver to recover from the packet loss can be reduced and the risk of increasing network congestion can be mitigated.  This document also registers two new RTCP receiver reports for Feedback Storm Suppression.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-avt-retransmission-supression-rtp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-avt-retransmission-supression-rtp-02.txt' />
+</reference>

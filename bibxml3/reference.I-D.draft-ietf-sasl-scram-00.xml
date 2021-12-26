@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sasl-scram'>
+<front>
+<title>Salted Challenge Response (SCRAM) SASL Mechanism</title>
+
+<author initials='A' surname='Menon-Sen' fullname='Abhijit Menon-Sen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Melnikov' fullname='Alexey  Melnikov'>
+    <organization />
+</author>
+
+<author initials='C' surname='Newman' fullname='Chris Newman'>
+    <organization />
+</author>
+
+<author initials='N' surname='Williams' fullname='Nicolas Williams'>
+    <organization />
+</author>
+
+<date month='May' day='23' year='2009' />
+
+<abstract><t>The secure authentication mechanism most widely deployed and used by Internet application protocols is the transmission of clear-text passwords over a channel protected by Transport Layer Security (TLS). There are some significant security concerns with that mechanism, which could be addressed by the use of a challenge response authentication mechanism protected by TLS.  Unfortunately, the challenge response mechanisms presently on the standards track all fail to meet requirements necessary for widespread deployment, and have had success only in limited use.  This specification describes a family of Simple Authentication and Security Layer (SASL, RFC 4422) authentication mechanisms called the Salted Challenge Response Authentication Mechanism (SCRAM), which addresses the security concerns and meets the deployability requirements.  When used in combination with TLS or an equivalent security layer, a mechanism from this family could improve the status-quo for application protocol authentication and provide a suitable choice for a mandatory-to-implement mechanism for future application protocol standards.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sasl-scram-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sasl-scram-00.txt' />
+</reference>

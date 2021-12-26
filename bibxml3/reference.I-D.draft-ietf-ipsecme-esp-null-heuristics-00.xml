@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-esp-null-heuristics'>
+<front>
+<title>Heuristics for Detecting ESP-NULL packets</title>
+
+<author initials='T' surname='Kivinen' fullname='Tero Kivinen'>
+    <organization />
+</author>
+
+<author initials='D' surname='McDonald' fullname='Daniel McDonald'>
+    <organization />
+</author>
+
+<date month='April' day='16' year='2009' />
+
+<abstract><t>This document describes a heuristic approach for distinguishing ESP- NULL (Encapsulating Security Payload without encryption) packets from encrypted ESP packets.  The reason for using heuristics instead of modifying ESP is to provide a solution that can be used now without updating all end nodes.  With heuristic methods, only the intermediate devices wanting to find ESP-NULL packets need to be updated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-esp-null-heuristics-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-esp-null-heuristics-00.txt' />
+</reference>

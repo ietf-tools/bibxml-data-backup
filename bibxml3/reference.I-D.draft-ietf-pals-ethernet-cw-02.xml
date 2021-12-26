@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pals-ethernet-cw'>
+<front>
+<title>Use of Ethernet Control Word RECOMMENDED</title>
+
+<author initials='S' surname='Bryant' fullname='Stewart Bryant'>
+    <organization />
+</author>
+
+<author initials='A' surname='Malis' fullname='Andrew Malis'>
+    <organization />
+</author>
+
+<author initials='I' surname='Bagdonas' fullname='Ignas Bagdonas'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2018' />
+
+<abstract><t>The pseudowire (PW) encapsulation of Ethernet, as defined in RFC4448, specifies that the use of the control word (CW) is optional.  In the absence of the CW an Ethernet pseudowire packet can be misidentified as an IP packet by a label switching router (LSR).  This in turn may lead to the selection of the wrong equal-cost-multi-path (ECMP) path for the packet, leading in turn to the misordering of packets.  This problem has become more serious due to the deployment of equipment with Ethernet MAC addresses that start with 0x4 or 0x6.  The use of the Ethernet PW CW addresses this problem.  This document recommends the use of the Ethernet pseudowire control word in all but exceptional circumstances.  This document updates RFC4448.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pals-ethernet-cw-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pals-ethernet-cw-02.txt' />
+</reference>

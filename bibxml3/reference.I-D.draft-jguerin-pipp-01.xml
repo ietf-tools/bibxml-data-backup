@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jguerin-pipp'>
+<front>
+<title>Pay It Proper Protocol -- PIPP</title>
+
+<author initials='J' surname='Guerin' fullname='Jon Guerin'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2011' />
+
+<abstract><t>The Pay It Proper Protocol (PIPP) is an application-level network protocol for inter-process communication that defines a universal Turing machine.  PIPP introduces the concept of a sub stream to the traditional network stream allowing instructions and data to be streamed on a single tape.  All processes on a sub stream aware network are programmable against instruction sets allowing for more expressive languages and compilers to be developed.  PIPP is designed to be the universal bootstrapping protocol and instruction format for the Internet until more advanced protocols, compilers and formats are developed.  This RFC defines sub streaming and the PIPP protocol.  A proof of concept has been implemented, and a sample instruction format and some implementation details are also discussed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jguerin-pipp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jguerin-pipp-01.txt' />
+</reference>

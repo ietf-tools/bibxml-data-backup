@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-precis-framework'>
+<front>
+<title>PRECIS Framework: Preparation and Comparison of Internationalized Strings in Application Protocols</title>
+
+<author initials='P' surname='Saint-Andre' fullname='Peter Saint-Andre'>
+    <organization />
+</author>
+
+<author initials='M' surname='Blanchet' fullname='Marc Blanchet'>
+    <organization />
+</author>
+
+<date month='February' day='10' year='2014' />
+
+<abstract><t>Application protocols using Unicode characters in protocol strings need to properly prepare such strings in order to perform valid comparison operations (e.g., for purposes of authentication or authorization).  This document defines a framework enabling application protocols to perform the preparation and comparison of internationalized strings ("PRECIS") in a way that depends on the properties of Unicode characters and thus is agile with respect to versions of Unicode.  As a result, this framework provides a more sustainable approach to the handling of internationalized strings than the previous framework, known as Stringprep (RFC 3454).  This document obsoletes RFC 3454.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-precis-framework-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-precis-framework-14.txt' />
+</reference>

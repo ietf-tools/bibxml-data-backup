@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-tls-cwt'>
+<front>
+<title>Using CBOR Web Tokens (CWTs) in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='M' surname='Brossard' fullname='Mathias Brossard'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>The TLS protocol supports different credentials, including pre-shared keys, raw public keys, and X.509 certificates.  For use with public key cryptography developers have to decide between raw public keys, which require out-of-band agreement and full-fletched X.509 certificates.  For devices where the reduction of code size is important it is desirable to minimize the use of X.509-related libraries.  With the CBOR Web Token (CWT) a structure has been defined that allows CBOR-encoded claims to be protected with CBOR Object Signing and Encryption (COSE).  This document registers a new value to the "TLS Certificate Types" subregistry to allow TLS and DTLS to use CWTs.  Conceptually, CWTs can be seen as a certificate format (when with public key cryptography) or a Kerberos ticket (when used with symmetric key cryptography).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-tls-cwt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-tls-cwt-00.txt' />
+</reference>

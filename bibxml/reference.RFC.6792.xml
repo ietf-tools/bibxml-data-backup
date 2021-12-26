@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6792' target='https://www.rfc-editor.org/info/rfc6792'>
+<front>
+<title>Guidelines for Use of the RTP Monitoring Framework</title>
+<author initials='Q.' surname='Wu' fullname='Q. Wu' role='editor'><organization /></author>
+<author initials='G.' surname='Hunt' fullname='G. Hunt'><organization /></author>
+<author initials='P.' surname='Arden' fullname='P. Arden'><organization /></author>
+<date year='2012' month='November' />
+<abstract><t>This memo proposes an extensible Real-time Transport Protocol (RTP) monitoring framework for extending the RTP Control Protocol (RTCP) with a new RTCP Extended Reports (XR) block type to report new metrics regarding media transmission or reception quality.  In this framework, a new XR block should contain a single metric or a small number of metrics relevant to a single parameter of interest or concern, rather than containing a number of metrics that attempt to provide full coverage of all those parameters of concern to a specific application.  Applications may then &quot;mix and match&quot; to create a set of blocks that cover their set of concerns.  Where possible, a specific block should be designed to be reusable across more than one application, for example, for all of voice, streaming audio, and video.  This document is not an Internet Standards Track  specification; it is published for informational purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6792'/>
+<seriesInfo name='DOI' value='10.17487/RFC6792'/>
+</reference>

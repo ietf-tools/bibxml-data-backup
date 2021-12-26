@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.asmithee-tls-dnssec-downprot'>
+<front>
+<title>TLS Downgrade protection extension for TLS DNSSEC Authentication Chain Extension</title>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<author initials='V' surname='Dukhovni' fullname='Viktor Dukhovni'>
+    <organization />
+</author>
+
+<date month='May' day='15' year='2018' />
+
+<abstract><t>This draft specifies a TLS extension that adds downgrade protection for another TLS extension, [dnssec-chain-extension].  Without the downgrade protection specified in this TLS extension, the only effect of deploying [dnssec-chain-extension] is to reduce TLS security from the standard "WebPKI security" to "WebPKI or DANE, whichever is weaker".  This draft dictates that [dnssec-chain-extension] MUST only be used in combination with this TLS extension, whose only content is a two octet SupportLifetime value.  A value of 0 prohibits the TLS client from unilaterally requiring ongoing use of both TLS extensions based on prior observation of their use (pinning).  A non-zero value is the value in hours for which this TLS extension as well as [dnssec-chain-extension] MUST appear in subsequent TLS handshakes to the same TLS hostname and port.  If this TLS extention or [dnssec-chain-extension] is missing from the TLS handshake within this observed pinning time, the TLS client MUST assume it is under attack and abort the TLS connection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-asmithee-tls-dnssec-downprot-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-asmithee-tls-dnssec-downprot-00.txt' />
+</reference>

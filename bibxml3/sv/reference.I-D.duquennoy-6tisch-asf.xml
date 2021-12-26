@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.duquennoy-6tisch-asf'>
+<front>
+<title>6TiSCH Autonomous Scheduling Function (ASF)</title>
+
+<author initials='S' surname='Duquennoy' fullname='Simon Duquennoy'>
+    <organization />
+</author>
+
+<author initials='X' surname='Vilajosana' fullname='Xavier Vilajosana'>
+    <organization />
+</author>
+
+<author initials='T' surname='Watteyne' fullname='Thomas Watteyne'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2018' />
+
+<abstract><t>This document defines a Scheduling Function called "ASF": the 6TiSCH Autonomous Scheduling Function.  With ASF, nodes maintain their TSCH schedule based on local neighborhood knowledge, without any signaling after association.  Hashes of the nodes' MAC address are used to deterministically derive the [slotOffset,channelOffset] location of cells in the TSCH schedule.  Different traffic types (e.g.  TSCH EB, RPL DIO, UDP etc.) are assigned to distinct slotframes, for isolation and flexible dimensioning.  This approach provides over-provisioned schedules with low maintenance, in pursuit for simplicity rather than optimality.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-duquennoy-6tisch-asf-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-duquennoy-6tisch-asf-01.txt' />
+</reference>

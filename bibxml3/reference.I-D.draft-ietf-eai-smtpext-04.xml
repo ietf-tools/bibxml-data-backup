@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-eai-smtpext'>
+<front>
+<title>SMTP extension for internationalized email address</title>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<author initials='W' surname='Mao' fullname='Wei Mao'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2007' />
+
+<abstract><t>Internationalized email address includes two parts, the local part and the domain part. The ways email addresses are used by protocols are different from the ways domain names are used. The most critical difference is that emails are delivered through a chain of peering clients and servers while domain names are resolved by name servers by looking up their own tables. In addition to this, email transport protocols SMTP and ESMTP provide a negotiation mechanism through which clients can make decisions for further processing. This document specifies the use of SMTP extension for internationalized email address delivery. It also mentions the backward compatible mechanism for downgrade procedure, as specified in an associated specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-eai-smtpext-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-eai-smtpext-04.txt' />
+</reference>

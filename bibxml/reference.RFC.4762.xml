@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4762' target='https://www.rfc-editor.org/info/rfc4762'>
+<front>
+<title>Virtual Private LAN Service (VPLS) Using Label Distribution Protocol (LDP) Signaling</title>
+<author initials='M.' surname='Lasserre' fullname='M. Lasserre' role='editor'><organization /></author>
+<author initials='V.' surname='Kompella' fullname='V. Kompella' role='editor'><organization /></author>
+<date year='2007' month='January' />
+<abstract><t>This document describes a Virtual Private LAN Service (VPLS) solution using pseudowires, a service previously implemented over other tunneling technologies and known as Transparent LAN Services (TLS).  A VPLS creates an emulated LAN segment for a given set of users; i.e., it creates a Layer 2 broadcast domain that is fully capable of learning and forwarding on Ethernet MAC addresses and that is closed to a given set of users.  Multiple VPLS services can be supported from a single Provider Edge (PE) node.</t><t>This document describes the control plane functions of signaling pseudowire labels using Label Distribution Protocol (LDP), extending RFC 4447.  It is agnostic to discovery protocols.  The data plane functions of forwarding are also described, focusing in particular on the learning of MAC addresses.  The encapsulation of VPLS packets is described by RFC 4448.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4762'/>
+<seriesInfo name='DOI' value='10.17487/RFC4762'/>
+</reference>

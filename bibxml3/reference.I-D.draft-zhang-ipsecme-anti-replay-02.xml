@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-ipsecme-anti-replay'>
+<front>
+<title>IPsec anti-replay algorithm without bit-shifting</title>
+
+<author initials='X' surname='Zhang' fullname='Xiangyang Zhang'>
+    <organization />
+</author>
+
+<author initials='T' surname='ZOU)' fullname='Tina Tsou (Ting ZOU)'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2011' />
+
+<abstract><t>This document presents a new method to do anti-replay check and update, which becomes one alternative to the anti-replay algorithm in RFC 4302 and RFC 4303.  The new method will deem the bit-shifting unnecessary.  It will reduce the number of times to slide the window.  In addition, it makes bit-check and bit-update easier as it does not depend on the low index of the sliding window.  It is especially beneficial when the window size is much bigger than 64 bits, for example, 1024 bits.  IPsec employs one anti-replay sliding window protocol to secure against an adversary that can insert the messages inside the network tunnel.  This method still inherits the sliding window protocol, but use one or more redundant bytes to ease the update of sliding window.  The bit-shifting is deemed unnecessary with updating the high and low index of the window, which is especially efficient in case of the big window size.  Thus the method reduces the number of times to update the window.  In addition, the bit location is fixed for one sequence number, thus makes the bit check and update easier and faster.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-ipsecme-anti-replay-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-ipsecme-anti-replay-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-ipsecme-anti-replay-02.pdf' />
+</reference>

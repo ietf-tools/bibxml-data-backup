@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-kitten-channel-bound-flag-04.txt'>
+    <title>"Channel Binding Signalling for the Generic Security Services Application Programming Interface", Robbie Harwood, Nico Williams</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-kitten-channel-bound-flag-04.txt</link>
+    <description>Channel binding is a technique that allows applications to use a secure channel at a lower layer without having to use authentication at that lower layer.  The concept of channel binding comes from the Generic Security Services Application Programming Interface (GSS- API).  It turns out that the semantics commonly implemented are different than those specified in the base GSS-API RFC (RFC2743), and that that specification has a serious bug.  This document addresses both the inconsistency as-implemented and the specification bug.  This Internet-Draft proposes the addition of a "channel bound" return flag for the GSS_Init_sec_context() and GSS_Accept_sec_context() functions.  Two behaviors are specified: a default, safe behavior reflecting existing implementation deployments, and a behavior that is only safe when the application specifically tells the GSS-API that it (the application) supports the new behavior.  Additional API elements related to this are also added, including a new security context establishment API.</description>
+    <dc:date>2019-02-05T08:00:00-00:00</dc:date>
+</item>

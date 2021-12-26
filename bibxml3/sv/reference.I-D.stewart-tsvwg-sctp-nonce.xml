@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stewart-tsvwg-sctp-nonce'>
+<front>
+<title>ECN Nonces for Stream Control Transmission Protocol (SCTP)</title>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<author initials='N' surname='Spring' fullname='Neil Spring'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2010' />
+
+<abstract><t>This document describes the addition of the ECN-nonce RFC 3540 [RFC3540] to the Stream Control Transmission Protocol (SCTP) RFC 2960 [RFC2960].  The ECN-nonce reduces the vulnerability of ECN senders to misbehaving receivers that conceal congestion signals like ECN marks and packet losses.  The ECN-nonce approach is different in SCTP because SCTP uses chunks for extensible protocol features and is selective acknowlegement (SACK)-based; this document describes those differences.  In particular this document describes (1) protocol extensions in the form of a single new parameter for the INIT/ INIT-ACK chunks, and a single bit flag in the SACK chunk, and (2) rules governing the sender and receiver side implementation.  This document outlines a minimum response that an SCTP sender should apply after detecting a misbehaving receiver.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stewart-tsvwg-sctp-nonce-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stewart-tsvwg-sctp-nonce-02.txt' />
+</reference>

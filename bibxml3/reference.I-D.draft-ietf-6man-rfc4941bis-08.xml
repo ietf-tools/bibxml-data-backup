@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-rfc4941bis'>
+<front>
+<title>Temporary Address Extensions for Stateless Address Autoconfiguration in IPv6</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='S' surname='Krishnan' fullname='Suresh Krishnan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Narten' fullname='Thomas Narten'>
+    <organization />
+</author>
+
+<author initials='R' surname='Draves' fullname='Richard Draves'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2020' />
+
+<abstract><t>This document describes an extension that causes nodes to generate global scope addresses with randomized interface identifiers that change over time.  Changing global scope addresses over time limits the window of time during which eavesdroppers and other information collectors may trivially perform address-based network activity correlation when the same address is employed for multiple transactions by the same node.  Additionally, it reduces the window of exposure of a node via an addresses that becomes revealed as a result of active communication.  This document obsoletes RFC4941.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-rfc4941bis-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-rfc4941bis-08.txt' />
+</reference>

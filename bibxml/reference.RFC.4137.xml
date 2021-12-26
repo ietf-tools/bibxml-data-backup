@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4137' target='https://www.rfc-editor.org/info/rfc4137'>
+<front>
+<title>State Machines for Extensible Authentication Protocol (EAP) Peer and Authenticator</title>
+<author initials='J.' surname='Vollbrecht' fullname='J. Vollbrecht'><organization /></author>
+<author initials='P.' surname='Eronen' fullname='P. Eronen'><organization /></author>
+<author initials='N.' surname='Petroni' fullname='N. Petroni'><organization /></author>
+<author initials='Y.' surname='Ohba' fullname='Y. Ohba'><organization /></author>
+<date year='2005' month='August' />
+<abstract><t>This document describes a set of state machines for Extensible Authentication Protocol (EAP) peer, EAP stand-alone authenticator (non-pass-through), EAP backend authenticator (for use on Authentication, Authorization, and Accounting (AAA) servers), and EAP full authenticator (for both local and pass-through).  This set of state machines shows how EAP can be implemented to support deployment in either a peer/authenticator or peer/authenticator/AAA Server environment.  The peer and stand-alone authenticator machines are illustrative of how the EAP protocol defined in RFC 3748 may be implemented.  The backend and full/pass-through authenticators illustrate how EAP/AAA protocol support defined in RFC 3579 may be implemented.  Where there are differences, RFC 3748 and RFC 3579 are authoritative.</t><t>The state machines are based on the EAP &quot;Switch&quot; model.  This model includes events and actions for the interaction between the EAP Switch and EAP methods.  A brief description of the EAP &quot;Switch&quot; model is given in the Introduction section.</t><t>The state machine and associated model are informative only. Implementations may achieve the same results using different methods.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4137'/>
+<seriesInfo name='DOI' value='10.17487/RFC4137'/>
+</reference>

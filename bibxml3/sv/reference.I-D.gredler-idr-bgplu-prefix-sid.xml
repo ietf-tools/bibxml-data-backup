@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gredler-idr-bgplu-prefix-sid'>
+<front>
+<title>Prefix-SID extensions for BGP-LU</title>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>The MPLS source routing paradigm provides path control for both intra- and inter- Autonomous System (AS) traffic.  In most MPLS deployments the ingress of a MPLS tunnel is an IP router. Availability of MPLS forwarding stacks for host operating systems is extending the MPLS perimeter to Hypervisors and Servers.  Recent Data Center designs are using an IGP-less routing paradigm based on massive ECMP multi path using external BGP.  This documents outlines how Hypervisors and Servers may interact with the MPLS control- and data plane using extensions to the BGP labeled unicast protocol (BGP- LU).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gredler-idr-bgplu-prefix-sid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gredler-idr-bgplu-prefix-sid-00.txt' />
+</reference>

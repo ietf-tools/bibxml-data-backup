@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.neumann-rmt-flute-file-aggregation'>
+<front>
+<title>A File Aggregation Scheme for FLUTE</title>
+
+<author initials='C' surname='Neumann' fullname='Christoph Neumann'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2005' />
+
+<abstract><t>This document introduces a logical and physical file aggregation scheme for File Delivery over Unidirectional Transport (FLUTE). The logical file aggregation mechanism is a generalized grouping mechanism, allowing to logically group files. The physical file aggregation scheme allows, additionally to a logical grouping, to more efficiently use Forward Error Correction (FEC) in the context of FLUTE, in particular when dealing with a large number of "small" files. Unlike a solution based on the creation of an archive, the object aggregation scheme (1) avoids the need to perform preliminary transformations on the content and (2) preserves the possibility to extract a subset of the content, which may be critical aspect with some partially reliable broadcasting test cases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-neumann-rmt-flute-file-aggregation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-neumann-rmt-flute-file-aggregation-02.txt' />
+</reference>

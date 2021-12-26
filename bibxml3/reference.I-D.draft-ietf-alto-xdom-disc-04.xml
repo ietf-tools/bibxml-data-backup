@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-alto-xdom-disc'>
+<front>
+<title>Application Layer Traffic Optimization (ALTO) Cross-Domain Server Discovery</title>
+
+<author initials='S' surname='Kiesel' fullname='Sebastian Kiesel'>
+    <organization />
+</author>
+
+<author initials='M' surname='Stiemerling' fullname='Martin Stiemerling'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2018' />
+
+<abstract><t>The goal of Application-Layer Traffic Optimization (ALTO) is to provide guidance to applications that have to select one or several hosts from a set of candidates capable of providing a desired resource.  ALTO is realized by a client-server protocol.  Before an ALTO client can ask for guidance it needs to discover one or more ALTO servers that can provide suitable guidance.  In some deployment scenarios, in particular if the information about the network topology is partitioned and distributed over several ALTO servers, it may be needed to discover an ALTO server outside of the own network domain, in order to get appropriate guidance.  This document details applicable scenarios, itemizes requirements, and specifies a procedure for ALTO cross-domain server discovery.  Technically, the procedure specified in this document takes one IP address or prefix and a U-NAPTR Service Parameter (typically, "ALTO:https") as parameters.  It performs DNS lookups (for NAPTR resource records in the in-addr.arpa. or ip6.arpa. tree) and returns one or more URI(s) of information resources related to that IP address or prefix.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-alto-xdom-disc-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-alto-xdom-disc-04.txt' />
+</reference>

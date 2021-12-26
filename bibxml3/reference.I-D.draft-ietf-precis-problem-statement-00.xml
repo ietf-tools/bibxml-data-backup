@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-precis-problem-statement'>
+<front>
+<title>Stringprep Revision Problem Statement</title>
+
+<author initials='M' surname='Blanchet' fullname='Marc Blanchet'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sullivan' fullname='Andrew Sullivan'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>Using Unicode codepoints in protocol strings that expect comparison with other strings [[anchor1: The WG will need to decide whether "other strings" is too broad.  In particular, what about protocol slots that can take strings other than plain ASCII? --ajs@shinkuro.com]] requires preparation of the string that contains the Unicode codepoints.  Internationalizing Domain Names in Applications (IDNA2003) defined and used Stringprep and Nameprep. Other protocols subsequently defined Stringprep profiles.  A new approach different from Stringprep and Nameprep is used for a revision of IDNA2003 (called IDNA2008).  Other Stringprep profiles need to be similarly updated or a replacement of Stringprep need to be designed.  This document outlines the issues to be faced by those designing a Stringprep replacement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-precis-problem-statement-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-precis-problem-statement-00.txt' />
+</reference>

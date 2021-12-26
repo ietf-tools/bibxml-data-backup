@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dhody-ccamp-rsvp-te-domain-subobjects'>
+<front>
+<title>Domain Subobjects for Resource ReserVation Protocol - Traffic Engineering (RSVP-TE)</title>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='U' surname='Palle' fullname='Udayasree Palle'>
+    <organization />
+</author>
+
+<author initials='V' surname='Kondreddy' fullname='Venugopal Kondreddy'>
+    <organization />
+</author>
+
+<author initials='R' surname='Casellas' fullname='Ramon Casellas'>
+    <organization />
+</author>
+
+<date month='April' day='2' year='2013' />
+
+<abstract><t>The RSVP-TE specification [RFC3209] and the GMPLS extensions to RSVP-TE [RFC3473] allow abstract nodes and resources to be explicitly included in a path setup.  Further Exclude Routes extensions [RFC4874] allow abstract nodes and resources to be explicitly excluded in a path setup.  This document specifies new subobjects to include or exclude domains during path setup where domain is a collection of network elements within a common sphere of address management or path computational responsibility (such as an IGP area or an AS (4-Byte)).  Note that the use of Autonomous Number (AS) (2-Byte) as an abstract node representing domain is already defined in [RFC3209] and [RFC4874].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dhody-ccamp-rsvp-te-domain-subobjects-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dhody-ccamp-rsvp-te-domain-subobjects-01.txt' />
+</reference>

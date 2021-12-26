@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.linus-trans-gossip-ct'>
+<front>
+<title>Gossiping in CT</title>
+
+<author initials='L' surname='Nordberg' fullname='Linus Nordberg'>
+    <organization />
+</author>
+
+<author initials='D' surname='Gillmor' fullname='Daniel Kahn Gillmor'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>This document describes two gossiping mechanisms for Certificate Transparency [RFC6962]; SCT feedback and STH gossip.  In order for HTTPS clients to share SCTs with CT auditors in a privacy-preserving manner they send SCTs to originating HTTP servers which in turn share the SCTs with CT auditors.  CT auditors and monitors share STHs among each other.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-linus-trans-gossip-ct-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-linus-trans-gossip-ct-01.txt' />
+</reference>

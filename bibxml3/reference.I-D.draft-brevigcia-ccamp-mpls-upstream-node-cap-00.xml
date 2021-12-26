@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.brevigcia-ccamp-mpls-upstream-node-cap'>
+<front>
+<title>IGP Routing Protocol Extensions for Discovery of Upstream Label Assignment  Node Capability</title>
+
+<author initials='Y' surname='Brehon' fullname='Yannick Brehon'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2007' />
+
+<abstract><t>This document proposes to extend [TE-NODE-CAP] in order to support additional TE node capabilities in the context of Point-to-MultiPoint (P2MP) LSP routing and fast reroute protection. As for point-to- point LSP, nesting P2MP LSPs into P2MP Tunnels is a desirable traffic-engineering feature. However, nesting P2MP LSPs requires a mechanism to coordinate the label allocation of the inner P2MP LSP between the egress nodes of the P2MP Tunnel as described in [MPLS- UPSTREAM]. To solve this issue, a new label allocation scheme called Upstream Label Assignment (ULA) is defined. Network elements responsible for the route computation of P2MP LSP should be aware of the nodes that support this functionality. For that purpose, we define a new bit flag to the TE Node Capability Descriptor as defined in [TE-NODE-CAP]. The bit flag (U) enables a node to advertise its capability to accept Upstream Label Assignment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-brevigcia-ccamp-mpls-upstream-node-cap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-brevigcia-ccamp-mpls-upstream-node-cap-00.txt' />
+</reference>

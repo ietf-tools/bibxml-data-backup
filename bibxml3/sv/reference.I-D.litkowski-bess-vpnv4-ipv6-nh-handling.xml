@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.litkowski-bess-vpnv4-ipv6-nh-handling'>
+<front>
+<title>Modifying RFC5549 VPNv4 over IPv6 next hop handling procedures</title>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='S' surname='Agrawal' fullname='Swadesh Agrawal'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zhuang' fullname='Shunwan Zhuang'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>RFC4364 and RFC4659 define respectively BGP extensions to provide VPN-IPv4 and VPN-IPv6 services.  When defined RFC5549 has brought up an inconsistency in how the next hop is encoded when a VPN-IPv4 NLRI carries an IPv6 next hop compared to RFC4364 and RFC4659.  For some reasons, existing and deployed implementations of RFC5549 haven't followed the specification and are using an VPN-IPv6 next hop as in RFC4364 and RFC4659.  Moving these implementations to be compliant with RFC5549 may break existing network deployments.  This document proposes a modification of RFC5549 to enable compliancy of these implementations.  These document also proposes additional modifications of RFC5549 to address missing points.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-litkowski-bess-vpnv4-ipv6-nh-handling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-litkowski-bess-vpnv4-ipv6-nh-handling-00.txt' />
+</reference>

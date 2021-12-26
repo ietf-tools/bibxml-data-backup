@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wagner-conex-audit'>
+<front>
+<title>Auditing of Congestion Exposure (ConEx) signals</title>
+
+<author initials='D' surname='Wagner' fullname='David Wagner'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kühlewind' fullname='Mirja Kühlewind'>
+    <organization />
+</author>
+
+<date month='April' day='14' year='2016' />
+
+<abstract><t>Congestion Exposure (ConEx) is a mechanism by which senders inform the network about the congestion encountered by previous packets on the same flow.  Reliable auditing is necessary to provide a strong incentive to declare ConEx information honestly.  This document defines how the signals are handled by an audit and lists requirements for an audit implementation.  This document does not mandate a particular design but identifies state and functions that any auditor element must provide to fulfill the requirements stated in [draft-ietf-conex-abstract-mech].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wagner-conex-audit-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wagner-conex-audit-02.txt' />
+</reference>

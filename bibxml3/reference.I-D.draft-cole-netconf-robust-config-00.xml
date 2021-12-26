@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cole-netconf-robust-config'>
+<front>
+<title>Robust Configuration Management within NETCONF</title>
+
+<author initials='R' surname='Cole' fullname='Robert Cole'>
+    <organization />
+</author>
+
+<author initials='D' surname='Romascanu' fullname='Dan Romascanu'>
+    <organization />
+</author>
+
+<date month='February' day='26' year='2009' />
+
+<abstract><t>The IETF has developed a new configuration management protocol, NETCONF.  NETCONF has defined a capability called ':confirmed-commit' which allows a management application time to build confidence in desired configuration changes prior to the managed device committing to the changes.  However, NETCONF does not define methods to build this confidence in configuration changes, nor does it afford the remote managed device the opportunity to actively participate in the test and evaluation phase of the ':confirmed-commit' capability.  We believe that this capability should be further developed to afford network management applications and managed devices a more robust and resilient configuration management capability, which is of value to commercial enterprise and public networks as well as wireless emergency and military networks.  We explore the alternatives for enhancing this capability within the context of the existing NETCONF protocol, the YANG modeling language and existing related IETF standards.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cole-netconf-robust-config-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cole-netconf-robust-config-00.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.unyte-netconf-udp-pub-channel'>
+<front>
+<title>UDP based Publication Channel for Streaming Telemetry</title>
+
+<author initials='G' surname='Zheng' fullname='Guangying Zheng'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zhou' fullname='Tianran Zhou'>
+    <organization />
+</author>
+
+<author initials='A' surname='Clemm' fullname='Alexander Clemm'>
+    <organization />
+</author>
+
+<author initials='T' surname='Graf' fullname='Thomas Graf'>
+    <organization />
+</author>
+
+<author initials='P' surname='Francois' fullname='Pierre Francois'>
+    <organization />
+</author>
+
+<author initials='P' surname='Lucente' fullname='Paolo Lucente'>
+    <organization />
+</author>
+
+<date month='March' day='30' year='2020' />
+
+<abstract><t>This document describes a UDP-based publication channel for streaming telemetry use to collect data from devices.  A new shim header is proposed to facilitate the distributed data collection mechanism which directly pushes data from line cards to the collector.  Because of the lightweight UDP encapsulation, higher frequency and better transit performance can be achieved.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-unyte-netconf-udp-pub-channel-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-unyte-netconf-udp-pub-channel-01.txt' />
+</reference>

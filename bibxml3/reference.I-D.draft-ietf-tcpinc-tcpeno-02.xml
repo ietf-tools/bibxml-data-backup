@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpinc-tcpeno'>
+<front>
+<title>TCP-ENO: Encryption Negotiation Option</title>
+
+<author initials='A' surname='Bittau' fullname='Andrea Bittau'>
+    <organization />
+</author>
+
+<author initials='D' surname='Boneh' fullname='Dan Boneh'>
+    <organization />
+</author>
+
+<author initials='D' surname='Giffin' fullname='Daniel B. Giffin'>
+    <organization />
+</author>
+
+<author initials='M' surname='Handley' fullname='Mark J. Handley'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mazieres' fullname='David Mazieres'>
+    <organization />
+</author>
+
+<author initials='E' surname='Smith' fullname='Eric W. Smith'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2016' />
+
+<abstract><t>Despite growing adoption of TLS [RFC5246], a significant fraction of TCP traffic on the Internet remains unencrypted.  The persistence of unencrypted traffic can be attributed to at least two factors. First, some legacy protocols lack a signaling mechanism (such as a "STARTTLS" command) by which to convey support for encryption, making incremental deployment impossible.  Second, legacy applications themselves cannot always be upgraded, requiring a way to implement encryption transparently entirely within the transport layer.  The TCP Encryption Negotiation Option (TCP-ENO) addresses both of these problems through a new TCP option kind providing out-of-band, fully backward-compatible negotiation of encryption.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpinc-tcpeno-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpinc-tcpeno-02.txt' />
+</reference>

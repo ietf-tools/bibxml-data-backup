@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-prefix-sid'>
+<front>
+<title>Segment Routing Prefix SID extensions for BGP</title>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sreekantiah' fullname='Arjun Sreekantiah'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<date month='January' day='2' year='2018' />
+
+<abstract><t>Segment Routing (SR) architecture allows a node to steer a packet flow through any topological path and service chain by leveraging source routing.  The ingress node prepends a SR header to a packet containing a set of segment identifiers (SID).  Each SID represents a topological or a service-based instruction.  Per-flow state is maintained only on the ingress node of the SR domain.  This document defines an optional, transitive BGP attribute for announcing BGP Prefix Segment Identifiers (BGP Prefix-SID) information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-prefix-sid-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-prefix-sid-08.txt' />
+</reference>

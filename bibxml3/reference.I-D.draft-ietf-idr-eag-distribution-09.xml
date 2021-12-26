@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-eag-distribution'>
+<front>
+<title>Distribution of MPLS-TE Extended admin Group Using BGP</title>
+
+<author initials='Z' surname='Wang' fullname='Zitao Wang'>
+    <organization />
+</author>
+
+<author initials='Q' surname='WU' fullname='Qin WU'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2019' />
+
+<abstract><t>As MPLS-TE network grows, administrative Groups advertised as a fixed-length 32-bit Bitmask is quite constraining.  "Extended Administrative Group" IGP TE extensions sub-TLV is introduced to provide for additional administrative groups (link colors) beyond the current limit of 32.  This document describes extensions to BGP protocol, that can be used to distribute extended administrative groups in MPLS-TE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-eag-distribution-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-eag-distribution-09.txt' />
+</reference>

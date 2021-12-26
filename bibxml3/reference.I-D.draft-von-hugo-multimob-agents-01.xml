@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.von-hugo-multimob-agents'>
+<front>
+<title>Agent-based multicast support for moving networks (NEMO)</title>
+
+<author initials='D' surname='Hugo' fullname='Dirk von Hugo'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2007' />
+
+<abstract><t>This document describes an approach to support multicast listeners and senders located within a moving IPv6 network (NEMO). A NEMO is built up by at least one Mobile Router (MR) and a set of Mobile Network Nodes (MNNs).  The MR handles all routing related tasks to provide connectivity between the MNNs and an access network  including mobility management.  Correspondingly the MR also subscribes to multicast groups and forwards emerging multicast traffic on behalf of a MNN. For optimised routing of multicast data a hierarchical multicast  agent is introduced as a logical entity providing an anchor to the multicast tree.  In the MR a corresponding functionality is defined which decides on the location of the specific agent to be used for a distinct multicast traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-von-hugo-multimob-agents-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-von-hugo-multimob-agents-01.txt' />
+</reference>

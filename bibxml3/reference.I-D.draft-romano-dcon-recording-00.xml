@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.romano-dcon-recording'>
+<front>
+<title>Session Recording for Conferences using SMIL</title>
+
+<author initials='A' surname='Amirante' fullname='Alessandro Amirante'>
+    <organization />
+</author>
+
+<author initials='T' surname='Castaldi' fullname='Tobia Castaldi'>
+    <organization />
+</author>
+
+<author initials='L' surname='Miniero' fullname='Lorenzo Miniero'>
+    <organization />
+</author>
+
+<author initials='S' surname='Romano' fullname='Simon Romano'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2009' />
+
+<abstract><t>This document deals with session recording, specifically for what concerns recording of multimedia conferences, both centralized and distributed.  Each involved media is recorded separately, and is then properly tagged.  A SMIL [W3C.CR-SMIL3-20080115] metadata is used to put all the separate recordings together and handle their synchronization, as well as the possibly asynchronous opening and closure of media within the context of a conference.  This SMIL metadata can subsequently be used by an interested user by means of a compliant player in order to passively receive a playout of the whole multimedia conference session.  The motivation for this document comes from our experience with our conferencing framework, Meetecho, for which we implemented a recording functionality.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-romano-dcon-recording-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-romano-dcon-recording-00.txt' />
+</reference>

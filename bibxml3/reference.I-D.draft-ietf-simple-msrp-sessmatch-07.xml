@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-msrp-sessmatch'>
+<front>
+<title>Session Matching Update for the Message Session Relay Protocol (MSRP)</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blau' fullname='Staffan Blau'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2010' />
+
+<abstract><t>This document updates the Message Session Relay Protocol (MSRP) session matching procedure of MSRP endpoints.  The update extends the applicability of MSRP peer-to-peer communication to network scenarios where Application Layer Gateway (ALG) functions modify the Session Description Protcoll (SDP) MSRP address information.  The update is backwards compatible.  In the absence of ALGs RFC 4975 compliant MSRP User Agents (UAs) can interwork with MSRP UAs compliant with this specification.  In the presence of ALGs RFC 4975 compliant MSRP UAs can normally not establish MSRP sessions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-msrp-sessmatch-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-msrp-sessmatch-07.txt' />
+</reference>

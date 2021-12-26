@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mboned-cbacc'>
+<front>
+<title>Circuit Breaker Assisted Congestion Control</title>
+
+<author initials='J' surname='Holland' fullname='Jake Holland'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2020' />
+
+<abstract><t>This document specifies Circuit Breaker Assisted Congestion Control (CBACC).  CBACC enables fast-trip Circuit Breakers by publishing rate metadata about multicast channels from senders to intermediate network nodes or receivers.  The circuit breaker behavior is defined as a supplement to receiver driven congestion control systems, to preserve network health if receivers subscribe to a volume of traffic that exceeds capacity policies or capability for a network or receiver.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mboned-cbacc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mboned-cbacc-00.txt' />
+</reference>

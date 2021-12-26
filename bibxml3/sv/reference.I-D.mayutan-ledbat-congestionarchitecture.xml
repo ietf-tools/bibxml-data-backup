@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mayutan-ledbat-congestionarchitecture'>
+<front>
+<title>LEDBAT architecture framework consisting of pluggable components</title>
+
+<author initials='M' surname='Arumaithurai' fullname='Mayutan Arumaithurai'>
+    <organization />
+</author>
+
+<author initials='X' surname='Fu' fullname='Xiaoming Fu'>
+    <organization />
+</author>
+
+<author initials='K' surname='Ramakrishnan' fullname='K. K. Ramakrishnan'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>The Low Extra Delay Background Transport (LEDBAT) working group is considering protocols for an alternative congestion control protocol that enables a delay-insensitive networking application to minimize the extra queueing delay it causes to other applications because of additional queueing at the bottleneck, when these connections carrying traffic for such applications attempt to use the available bandwidth.  This document proposes an architectural framework for LEDBAT congestion control mechanisms, based on existing work on congestion control protocols and the requirements of the LEDBAT working group. The architectural framework consists of a LEDBAT-congestion control (LEDBAT-CC) suite that provides flexibility in utilizing different components for providing congestion control for transport connections carrying delay-insensitive traffic.  The LEDBAT-CC suite of protocols is envisioned to support the multiple alternative mechanisms for bandwidth estimation, congestion detection and indication and end- system flow control to comprise a network friendly congestion avoidance protocol.  This document is inspired by the need to standardize the various components that constitute the network friendly congestion control protocol to avoid having to individually standardize a multitude of distinct and monolithic solutions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mayutan-ledbat-congestionarchitecture-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mayutan-ledbat-congestionarchitecture-00.txt' />
+</reference>

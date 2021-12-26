@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-pim-neighbor-reduction'>
+<front>
+<title>PIM neighbor reduction for transit LAN's.</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cai' fullname='Yiqun Cai'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2010' />
+
+<abstract><t>PIM establishes a neighbor relationship with other routers directly connected to it on startup.  Networks that are LANs or behave like a LAN, potentially create many PIM neighbors depending on how many routers are attached to it.  If such a LAN is also a transit network (no directly connected source or receiver), many of the PIM procedures don't apply.  This proposal describes a procedure to reduce the amount of neighbors established over a transit LAN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-pim-neighbor-reduction-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-pim-neighbor-reduction-01.txt' />
+</reference>

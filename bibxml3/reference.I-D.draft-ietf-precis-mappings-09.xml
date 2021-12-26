@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-precis-mappings'>
+<front>
+<title>Mapping characters for PRECIS classes</title>
+
+<author initials='Y' surname='Yoneya' fullname='Yoshiro Yoneya'>
+    <organization />
+</author>
+
+<author initials='T' surname='Nemoto' fullname='Takahiro Nemoto'>
+    <organization />
+</author>
+
+<date month='April' day='7' year='2015' />
+
+<abstract><t>The framework for preparation and comparison of internationalized strings ("PRECIS") defines several classes of strings for preparation and comparison.  Case mapping is defined because many protocols perform case-sensitive or case-insensitive string comparison and so preparation of the string is mandatory.  The Internationalized Domain Names in Applications (IDNA) and the PRECIS problem statement describes mappings for internationalized strings that are not limited to case, but include width mapping and mapping of delimiters and other specials that can be taken into consideration.  This document provides guidelines for authors of protocol profiles of the PRECIS framework and describes several mappings that can be applied between receiving user input and passing permitted code points to internationalized protocols.  The mappings described here are expected to be applied as an additional mapping and locale-/context- dependent case mapping.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-precis-mappings-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-precis-mappings-09.txt' />
+</reference>

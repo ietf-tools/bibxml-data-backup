@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-lsr-isis-flood-reflection-07.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-lsr-isis-flood-reflection-07.txt</link>
+        <title>"IS-IS Flood Reflection", Tony Przygienda, Chris Bowers, Yiu Lee, Alankar Sharma, Russ White</title>
+        <dc:date>2021-12-09T23:00:00-00:00</dc:date>
+        <description>This document describes a backwards compatible, optional IS-IS extension that allows the creation of IS-IS flood reflection topologies.  Flood reflection allows topologies in which L1 areas provide transit forwarding for L2 using all available L1 nodes internally.  It accomplishes this by creating L2 flood reflection adjacencies within each L1 area.  Those adjacencies are used to flood L2 LSPDUs, and they are used in the L2 SPF computation.  However, they are not used for forwarding within the flood reflection cluster. This arrangement gives the L2 topology significantly better scaling properties.  As additional benefit, only those routers directly participating in flood reflection have to support the feature.  This allows for the incremental deployment of scalable L1 transit areas in an existing network, without the necessity of upgrading other routers in the network.</description>
+    </item>

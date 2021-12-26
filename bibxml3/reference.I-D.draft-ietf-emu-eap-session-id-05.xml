@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-emu-eap-session-id'>
+<front>
+<title>EAP Session-Id Derivation for EAP-SIM, EAP-AKA, and PEAP</title>
+
+<author initials='A' surname='DeKok' fullname='Alan DeKok'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2020' />
+
+<abstract><t>RFC 5247 is updated to define and clarity EAP Session-Id derivation for multiple EAP methods.  The derivation of Session-Id was not given for EAP-SIM or EAP-AKA when using the fast reconnect exchange instead of full authentication.  The derivation of Session-Id for full authentication is clarified for both EAP-SIM and EAP-AKA.  The deriviation of Session-Id for PEAP is also given.  The definition for PEAP follows the definition for other TLS-based EAP methods.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-emu-eap-session-id-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-emu-eap-session-id-05.txt' />
+</reference>

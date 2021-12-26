@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4739' target='https://www.rfc-editor.org/info/rfc4739'>
+<front>
+<title>Multiple Authentication Exchanges in the Internet Key Exchange (IKEv2) Protocol</title>
+<author initials='P.' surname='Eronen' fullname='P. Eronen'><organization /></author>
+<author initials='J.' surname='Korhonen' fullname='J. Korhonen'><organization /></author>
+<date year='2006' month='November' />
+<abstract><t>The Internet Key Exchange (IKEv2) protocol supports several mechanisms for authenticating the parties, including signatures with public-key certificates, shared secrets, and Extensible Authentication Protocol (EAP) methods.  Currently, each endpoint uses only one of these mechanisms to authenticate itself.  This document specifies an extension to IKEv2 that allows the use of multiple authentication exchanges, using either different mechanisms or the same mechanism.  This extension allows, for instance, performing certificate-based authentication of the client host followed by an EAP authentication of the user.  When backend authentication servers are used, they can belong to different administrative domains, such as the network access provider and the service provider.  This memo defines an Experimental Protocol for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4739'/>
+<seriesInfo name='DOI' value='10.17487/RFC4739'/>
+</reference>

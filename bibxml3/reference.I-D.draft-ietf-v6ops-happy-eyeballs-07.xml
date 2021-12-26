@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-happy-eyeballs'>
+<front>
+<title>Happy Eyeballs: Success with Dual-Stack Hosts</title>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='A' surname='Yourtchenko' fullname='Andrew Yourtchenko'>
+    <organization />
+</author>
+
+<date month='December' day='20' year='2011' />
+
+<abstract><t>When a server's IPv4 path and protocol is working but the server's IPv6 path and protocol are not working, a dual-stack client application experiences significant connection delay compared to an IPv4-only client.  This is undesirable because it causes the dual- stack client to have a worse user experience.  This document specifies requirements for algorithms that reduce this user-visible delay, and provides an algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-happy-eyeballs-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-happy-eyeballs-07.txt' />
+</reference>

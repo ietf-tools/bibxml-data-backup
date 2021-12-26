@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.csaszar-ipfrr-fn'>
+<front>
+<title>IP Fast Re-Route with Fast Notification</title>
+
+<author initials='A' surname='Csaszar' fullname='Andras Csaszar'>
+    <organization />
+</author>
+
+<author initials='G' surname='Envedi' fullname='Gabor Sandor Envedi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2011' />
+
+<abstract><t>This document describes a mechanism that provides IP fast reroute (IPFRR) by using a failure notification (FN) to nodes beyond the ones that first detect the failure (i.e. nodes that are directly connected to the failure point). The paths used when IPFRR-FN is active are in most cases identical to those used after Interior Gateway Protocol (IGP) convergence. The proposed mechanism can address all single node and link failures in an area and has been designed to allow traffic recovery traffic to happen quickly (The goal being to recover in under 50msec).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-csaszar-ipfrr-fn-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-csaszar-ipfrr-fn-01.txt' />
+</reference>

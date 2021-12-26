@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-proxy-arp-nd'>
+<front>
+<title>Operational Aspects of Proxy-ARP/ND in EVPN Networks</title>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sathappan' fullname='Senthil Sathappan'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nagaraj' fullname='Kiran Nagaraj'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='G' surname='Hankins' fullname='Greg Hankins'>
+    <organization />
+</author>
+
+<author initials='T' surname='King' fullname='Thomas King'>
+    <organization />
+</author>
+
+<author initials='D' surname='Melzer' fullname='Daniel Melzer'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<date month='April' day='6' year='2017' />
+
+<abstract><t>The MAC/IP Advertisement route specified in [RFC7432] can optionally carry IPv4 and IPv6 addresses associated with a MAC address. Remote PEs can use this information to reply locally (act as proxy) to IPv4 ARP requests and IPv6 Neighbor Solicitation messages (or 'unicast- forward' them to the owner of the MAC) and reduce/suppress the flooding produced by the Address Resolution procedure. This EVPN capability is extremely useful in Internet Exchange Points (IXPs) and Data Centers (DCs) with large broadcast domains, where the amount of ARP/ND flooded traffic causes issues on routers and CEs, as explained in [RFC6820]. This document describes how the [RFC7432] EVPN proxy- ARP/ND function may be implemented to help IXPs and other operators deal with the issues derived from Address Resolution in large broadcast domains.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-proxy-arp-nd-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-proxy-arp-nd-02.txt' />
+</reference>

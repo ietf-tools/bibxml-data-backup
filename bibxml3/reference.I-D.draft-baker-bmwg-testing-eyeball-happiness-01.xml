@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.baker-bmwg-testing-eyeball-happiness'>
+<front>
+<title>Testing Eyeball Happiness</title>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<date month='December' day='3' year='2010' />
+
+<abstract><t>The amount of time it takes to open a session using common transport APIs in dual stack networks and networks with filtering such as proposed in BCP 38 is a barrier to IPv6 deployment.  This note describes a test that can be used to determine whether an application can reliably open sessions quickly in a complex environment such as dual stack (IPv4+IPv6) deployment or IPv6 deployment with multiple prefixes and upstream ingress filtering.  This test is not a test of a specific algorithm, but of the external behavior of the system as a black box.  Any algorithm that has the intended external behavior will be accepted by it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-baker-bmwg-testing-eyeball-happiness-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-baker-bmwg-testing-eyeball-happiness-01.txt' />
+</reference>

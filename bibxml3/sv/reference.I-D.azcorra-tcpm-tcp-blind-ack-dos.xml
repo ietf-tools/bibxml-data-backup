@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.azcorra-tcpm-tcp-blind-ack-dos'>
+<front>
+<title>DoS vulnerability of TCP by acknowledging not received segments</title>
+
+<author initials='A' surname='Azcorra' fullname='Arturo  Azcorra'>
+    <organization />
+</author>
+
+<date month='May' day='25' year='2004' />
+
+<abstract><t>TCP relies in communication peers to implement congestion control by hosts voluntary limiting their own data rate. Nevertheless this assumption introduces unsolved DoS attack opportunities. A DoS attack can be easily performed by a host that acknowledges TCP segments not yet received (maybe even not sent). This document presents and briefly describes the problem, already identified and pointed before, but also shows than it can be easily performed (with very interesting results) and proposes some server-side modifications to TCP stack in order to make this attack more difficult to perform. These modifications do nor cause interoperability issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-azcorra-tcpm-tcp-blind-ack-dos-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-azcorra-tcpm-tcp-blind-ack-dos-01.txt' />
+</reference>

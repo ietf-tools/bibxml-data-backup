@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9103' target='https://www.rfc-editor.org/info/rfc9103'>
+<front>
+<title>DNS Zone Transfer over TLS</title>
+<author initials='W.' surname='Toorop' fullname='W. Toorop'><organization /></author>
+<author initials='S.' surname='Dickinson' fullname='S. Dickinson'><organization /></author>
+<author initials='S.' surname='Sahib' fullname='S. Sahib'><organization /></author>
+<author initials='P.' surname='Aras' fullname='P. Aras'><organization /></author>
+<author initials='A.' surname='Mankin' fullname='A. Mankin'><organization /></author>
+<date year='2021' month='August' />
+<abstract><t>DNS zone transfers are transmitted in cleartext, which gives attackers the opportunity to collect the content of a zone by eavesdropping on network connections. The DNS Transaction Signature (TSIG) mechanism is specified to restrict direct zone transfer to authorized clients only, but it does not add confidentiality. This document specifies the use of TLS, rather than cleartext, to prevent zone content collection via passive monitoring of zone transfers: XFR over TLS (XoT). Additionally, this specification updates RFC 1995 and RFC 5936 with respect to efficient use of TCP connections and RFC 7766 with respect to the recommended number of connections between a client and server for each transport.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9103'/>
+<seriesInfo name='DOI' value='10.17487/RFC9103'/>
+</reference>

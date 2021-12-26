@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.unify-nfvrg-devops'>
+<front>
+<title>DevOps for Software-Defined Telecom Infrastructures</title>
+
+<author initials='C' surname='Meirosu' fullname='Catalin Meirosu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Manzalini' fullname='Antonio Manzalini'>
+    <organization />
+</author>
+
+<author initials='R' surname='Steinert' fullname='Rebecca Steinert'>
+    <organization />
+</author>
+
+<author initials='G' surname='Marchetto' fullname='Guido Marchetto'>
+    <organization />
+</author>
+
+<author initials='I' surname='Papafili' fullname='Ioanna Papafili'>
+    <organization />
+</author>
+
+<author initials='K' surname='Pentikousis' fullname='Kostas Pentikousis'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wright' fullname='Steven Wright'>
+    <organization />
+</author>
+
+<date month='March' day='20' year='2016' />
+
+<abstract><t>Carrier-grade network management was optimized for environments built with monolithic physical nodes and involves significant deployment, integration and maintenance efforts from network service providers. The introduction of virtualization technologies, from the physical layer all the way up to the application layer, however, invalidates several well-established assumptions in this domain. This draft opens the discussion in NFVRG about challenges related to transforming the telecom network infrastructure into an agile, model-driven production environment for communication services. We take inspiration from data center DevOps regarding how to simplify and automate management processes for a telecom service provider software-defined infrastructure (SDI). Among the identified challenges, we consider scalability of observability processes and automated inference of monitoring requirements from logical forwarding graphs, as well as initial placement (and re-placement) of monitoring functionality following changes in flow paths enforced by the controllers. In another category of challenges, verifying correctness of behavior for network functions where flow rules are no longer necessary and sufficient for determining the forwarding state (for example, stateful firewalls or load balancers) is very difficult with current technology. Finally, we introduce challenges associated with operationalizing DevOps principles at scale in software-defined telecom networks in three areas related to key monitoring, verification and troubleshooting processes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-unify-nfvrg-devops-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-unify-nfvrg-devops-04.txt' />
+</reference>

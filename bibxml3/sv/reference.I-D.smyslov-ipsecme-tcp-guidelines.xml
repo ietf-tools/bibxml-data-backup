@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.smyslov-ipsecme-tcp-guidelines'>
+<front>
+<title>Clarifications and Implementation Guidelines for using TCP Encapsulation in IKEv2</title>
+
+<author initials='V' surname='Smyslov' fullname='Valery Smyslov'>
+    <organization />
+</author>
+
+<date month='December' day='17' year='2019' />
+
+<abstract><t>The Internet Key Exchange Protocol version 2 (IKEv2) defined in [RFC7296] uses UDP transport for its messages.  [RFC8229] specifies a way to encapsulate IKEv2 and ESP (Encapsulating Security Payload) messages in TCP, thus making possible to use them in network environments that block UDP traffic.  However, some nuances of using TCP in IKEv2 are not covered by that specification.  This document provides clarifications and implementation guidelines for [RFC8229].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-smyslov-ipsecme-tcp-guidelines-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-smyslov-ipsecme-tcp-guidelines-03.txt' />
+</reference>

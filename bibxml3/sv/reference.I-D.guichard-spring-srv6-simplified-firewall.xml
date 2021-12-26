@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.guichard-spring-srv6-simplified-firewall'>
+<front>
+<title>Simplifying Firewall Rules with Network Programming and SRH Metadata</title>
+
+<author initials='J' surname='Guichard' fullname='Jim Guichard'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='d' surname='daniel.bernier@bell.ca' fullname='daniel.bernier@bell.ca'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='F' surname='Clad' fullname='Francois Clad'>
+    <organization />
+</author>
+
+<author initials='P' surname='Camarillo' fullname='Pablo Camarillo'>
+    <organization />
+</author>
+
+<author initials='A' surname='Abdelsalam' fullname='Ahmed Abdelsalam'>
+    <organization />
+</author>
+
+<date month='April' day='8' year='2020' />
+
+<abstract><t>A clear application of the SRv6 Network Programming model consists in steering, in a stateless manner, packets through a Service Function Chain (SFC).  Each Service Function (SF) is identified by a segment. Each SF can enrich its operation thanks to metadata present in the SRH.  This document describes a practical use-case where the SF is a firewall and the metadata helps to drastically decrease the number of rules that need to be maintained by the operation team.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-guichard-spring-srv6-simplified-firewall-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-guichard-spring-srv6-simplified-firewall-02.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hunt-dnsop-aname'>
+<front>
+<title>Address-specific DNS Name Redirection (ANAME)</title>
+
+<author initials='E' surname='Hunt' fullname='Evan Hunt'>
+    <organization />
+</author>
+
+<author initials='P' surname='Dijk' fullname='Peter van Dijk'>
+    <organization />
+</author>
+
+<author initials='A' surname='Eden' fullname='Anthony Eden'>
+    <organization />
+</author>
+
+<date month='April' day='7' year='2017' />
+
+<abstract><t>This document defines the "ANAME" DNS RR type, to provide similar functionality to CNAME, but only redirects type A and AAAA queries. Unlike CNAME, an ANAME can coexist with other record types.  The ANAME RR allows zone owners to redirect queries for apex domain names in a standards compliant manner.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hunt-dnsop-aname-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hunt-dnsop-aname-00.txt' />
+</reference>

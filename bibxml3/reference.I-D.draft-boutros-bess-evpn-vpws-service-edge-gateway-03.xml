@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boutros-bess-evpn-vpws-service-edge-gateway'>
+<front>
+<title>EVPN-VPWS Service Edge Gateway</title>
+
+<author initials='S' surname='Boutros' fullname='Sami Boutros'>
+    <organization />
+</author>
+
+<author initials='P' surname='Brissette' fullname='Patrice Brissette'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='d' surname='daniel.voyer@bell.ca' fullname='daniel.voyer@bell.ca'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2016' />
+
+<abstract><t>This document describes how a service node can dynamically terminate EVPN virtual private wire transport service (VPWS) from access nodes and offer Layer 2, Layer 3 and Ethernet VPN overlay services to Customer edge devices connected to the access nodes. Service nodes using EVPN will advertise to access nodes the L2, L3 and Ethernet VPN overlay services it can offer for the terminated EVPN VPWS transport service. On an access node an operator can specify the L2 or L3 or Ethernet VPN overlay service needed by the customer edge device connected to the access node that will be transported over the EVPN- VPWS service between access node and service node.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boutros-bess-evpn-vpws-service-edge-gateway-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boutros-bess-evpn-vpws-service-edge-gateway-03.txt' />
+</reference>

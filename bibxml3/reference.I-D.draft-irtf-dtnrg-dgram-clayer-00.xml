@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-dgram-clayer'>
+<front>
+<title>Datagram Convergence Layers for the DTN Bundle and LTP Protocols</title>
+
+<author initials='H' surname='Kruse' fullname='Hans Kruse'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jero' fullname='Samuel Jero'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ostermann' fullname='Shawn Ostermann'>
+    <organization />
+</author>
+
+<date month='September' day='3' year='2012' />
+
+<abstract><t>This document specifies the preferred method for transporting DTN protocol data over the Internet using datagrams.  The specification covers convergence layers for the Bundle Protocol as well as the transportation of LTP segments.  UDP and DCCP are the candidate datagram protocols discussed.  UDP can only be used on a local network, or in cases where the DTN node implements explicit congestion control.  DCCP does address the congestion control problem; however, the availability of implementations is limited.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-dgram-clayer-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-dgram-clayer-00.txt' />
+</reference>

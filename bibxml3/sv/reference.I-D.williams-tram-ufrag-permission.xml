@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.williams-tram-ufrag-permission'>
+<front>
+<title>Ufrag Permissions for Traversal Using Relays around NAT (TURN)</title>
+
+<author initials='B' surname='Williams' fullname='Brandon Williams'>
+    <organization />
+</author>
+
+<author initials='J' surname='Uberti' fullname='Justin Uberti'>
+    <organization />
+</author>
+
+<date month='October' day='14' year='2015' />
+
+<abstract><t>When using a TURN relay, ICE connectivity checks require an explicit permission or channel binding to be established for each peer address to be checked.  This requires the answerer to send its candidate addresses to the offerer via the rendezvous server, which can impose a latency penalty when the rendezvous server is centrally located. This document defines a new type of TURN permission that will allow any ICE connectivity check message that contains the offerer's ufrag value to be accepted on a relay address for delivery over the associated TURN tunnel.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-williams-tram-ufrag-permission-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-williams-tram-ufrag-permission-00.txt' />
+</reference>

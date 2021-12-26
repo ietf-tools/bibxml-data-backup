@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.freeman-message-access-control-req'>
+<front>
+<title>Requirements for Message Access Control</title>
+
+<author initials='T' surname='Freeman' fullname='Trevor Freeman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schaad' fullname='Jim Schaad'>
+    <organization />
+</author>
+
+<author initials='P' surname='Patterson' fullname='Patrick Patterson'>
+    <organization />
+</author>
+
+<date month='May' day='27' year='2011' />
+
+<abstract><t>There are many situations where organizations want to include information which is subject to regulatory or other complex access control policy in email. Regulated information requires some form of robust access control to protect the confidentiality of the information. The Enhanced Security Services for S/MIME [rfc2634] defines an access control mechanism for S/MIME (eSSSecurityLabel). This is a signed attribute of a SignedData object which indicates the access control policy for the message. The fact that this is a signed attribute protects the integrity of the data and the binding of the label to the message but does not protect the confidentiality of the information i.e. at the point where you lean the access control policy to the data you also have access to the data. While the signature provides integrity for the label over the clear text, it is susceptible to unauthorized removal i.e. if you only have SignedData message, any MTA in the mail path can remove a signature layer and therefore remove the access control data.  Encrypting the signed message protects the confidentiality of the data and protects the SignedData from unauthorized removal but this hides the ESS security label.  From a regulatory enforcement perspective this is an extremely weak form of access control because cryptographic access to the data is given before the access check. The correct enforcement of the access check totally depends on the configuration of the recipients email client. Since the cryptographic access is granted before the access checks, there is no significant impediment for a recipient who is unauthorized under the policy to access the data. A stronger enforcement model is needed for regulatory control for email where cryptographic access is only granted after the access check.  There are also many users on the Internet today who have some form of authentication credential but they are not X.509 certificates and who therefore cannot use S/MIME. There are now available, standard based services (e.g. [SAML-overview]) which abstract the specifics of a technology used to authenticate uses from the application itself (S/MIME in this case). Adoption of this abstraction model would enable a broader set of users who have other types to authentication credentials to be able to use S/MIME to secure email. It also allows for new authentication technology to be deployed without impacting the core S/MIME protocol.  This document specifies the requirements for:-</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-freeman-message-access-control-req-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-freeman-message-access-control-req-01.txt' />
+</reference>

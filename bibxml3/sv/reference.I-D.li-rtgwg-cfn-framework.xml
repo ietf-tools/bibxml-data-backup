@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-rtgwg-cfn-framework'>
+<front>
+<title>Framework of Compute First Networking (CFN)</title>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='J' surname='He' fullname='Jianfei(Jeffrey) He'>
+    <organization />
+</author>
+
+<author initials='L' surname='Geng' fullname='Liang Geng'>
+    <organization />
+</author>
+
+<author initials='P' surname='Liu' fullname='Peng Liu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>Compute First Networking (CFN) leverages both computing and networking status to help determine the optimal edge among multiple edge sites with different geographic locations to serve a specific edge computing request. Requests for the same service can be determined and dispatched to different edges based on service requirements, network and computing resource conditions and other factors to achieve better load balancing and system efficiency. The request needs to be dispatched to the selected edge in real time and the subsequent packets from the same flow should be served by the same edge for flow affinity. This document describes a framework of CFN to achieve the desired features.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-rtgwg-cfn-framework-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-rtgwg-cfn-framework-00.txt' />
+</reference>

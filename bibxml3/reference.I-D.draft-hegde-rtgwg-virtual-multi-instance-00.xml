@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hegde-rtgwg-virtual-multi-instance'>
+<front>
+<title>Virtual multi-instancing for link state protocols</title>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='M' surname='Venkatesan' fullname='Mannan Venkatesan'>
+    <organization />
+</author>
+
+<author initials='R' surname='Callon' fullname='Ross Callon'>
+    <organization />
+</author>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2015' />
+
+<abstract><t>In networks with routers of different capabilities, some routers may not be able to participate fully in supporting new features or handling large databases and the associated flooding.  In some cases, these restrictions can cause severe scalability issues for the network in general.  This document proposes virtual multi-instances, a generic mechanism for OSPF and IS-IS, that allows groups of routers in specific topologies to have a reduced database and reduces the topology changes that are seen.  The virtual multi-instances are specified so that no software or protocol changes are required in the restricted routers.  Due to the potential number of virtual multi- instances in a network, the configuration is limited and is not specified per virtual instance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hegde-rtgwg-virtual-multi-instance-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hegde-rtgwg-virtual-multi-instance-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hegde-rtgwg-virtual-multi-instance-00.pdf' />
+</reference>

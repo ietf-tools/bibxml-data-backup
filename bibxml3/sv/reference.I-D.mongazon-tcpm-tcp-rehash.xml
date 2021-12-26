@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mongazon-tcpm-tcp-rehash'>
+<front>
+<title>TCP Rehash</title>
+
+<author initials='B' surname='Mongazon-Cazavet' fullname='Bruno Mongazon-Cazavet'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2010' />
+
+<abstract><t>The present specification describes a light extension of the TCP protocol [RFC793] that allows a TCP transport connection to be maintained operational whenever the underlying IP network address of its end-points changes.  This includes situations where a single- interface host changes its IP address or where a multiple-interface host diverts a connection from one interface to another.  The mechanism used to maintain a transport connection in such situations is based on the capability of both end-points to "Rehash" a TCP connection (rebuild its lookup key) with a new IP address in a fast and reliable manner.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mongazon-tcpm-tcp-rehash-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mongazon-tcpm-tcp-rehash-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mongazon-tcpm-tcp-rehash-00.pdf' />
+</reference>

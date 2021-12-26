@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.biggs-acme-sso'>
+<front>
+<title>Automated Certificate Management Environment (ACME) Extension for Single Sign On Challenges</title>
+<author initials='A' surname='Biggs' fullname='Andrew Biggs'>
+<organization />
+</author>
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+<organization />
+</author>
+<author initials='R' surname='Moynihan' fullname='Rory Moynihan'>
+<organization />
+</author>
+<date year='2021' month='April' day='08' />
+<abstract><t>This document specifies an extension to the ACME protocol [RFC8555] to enable ACME servers to validate a client's control of an email identifier using single sign-on (SSO) technologies.  An extension to the CAA [RFC8659] resource record specification is also defined to provide domain owners a means to declare a set of SSO providers that ACME servers may rely upon when employing SSO for identifier validation on their domain.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-biggs-acme-sso-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-biggs-acme-sso-01.txt'/>
+</reference>

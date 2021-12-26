@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dime-realm-based-redirect'>
+<front>
+<title>Realm-Based Redirection In Diameter</title>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hao' fullname='Ruibing Hao'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<date month='April' day='29' year='2013' />
+
+<abstract><t>The Diameter protocol allows a Diameter redirect agent to specify one or more individual hosts to which a Diameter message may be redirected by an upstream Diameter node.  However, in some circumstances an operator may wish to redirect messages to an alternate domain without specifying individual hosts.  This document specifies a mechanism by which this can be achieved.  New applications may incorporate this capability by reference to the present document.  This memo updates Sections 6.13 and 6.14 of RFC6733 with respect to the usage of the Redirect-Host-Usage and Redirect-Max-Cache-Time AVPs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dime-realm-based-redirect-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dime-realm-based-redirect-08.txt' />
+</reference>

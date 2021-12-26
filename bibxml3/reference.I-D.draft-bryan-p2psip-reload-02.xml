@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bryan-p2psip-reload'>
+<front>
+<title>REsource LOcation And Discovery (RELOAD)</title>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<author initials='B' surname='Lowekamp' fullname='Bruse Lowekamp'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<date month='November' day='18' year='2007' />
+
+<abstract><t>This document defines REsource LOcation And Discovery (RELOAD), a peer-to-peer (P2P) binary signaling protocol for usage on the Internet.  A P2P signaling protocol provides its clients with an abstract hash table service between a set of cooperating peers that form the overlay network.  RELOAD is designed to support a P2P Session Initiation Protocol (P2PSIP) network, but it can be utilized by other applications with similar requirements by defining new usages that specify the data types that must be stored for a particular application, such as location for SIP.  RELOAD defines a security model based on a certificate enrollment service that provides unique identities.  NAT traversal is a fundamental service of the protocol.  This draft represents a concrete proposal for the P2PSIP Peer Protocol.  The protocol described here builds on the lessons and experiences from designing and implementing the dSIP, ASP, and RELOAD protocols and is a merge of features from RELOAD-01 and ASP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bryan-p2psip-reload-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bryan-p2psip-reload-02.txt' />
+</reference>

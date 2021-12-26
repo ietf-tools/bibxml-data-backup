@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.petrescu-ipwave-diaser-checksum'>
+<front>
+<title>The checksum in DIASER/UDP/IP is a XOR without STX</title>
+
+<author initials='A' surname='Petrescu' fullname='Alexandre Petrescu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sarr' fullname='Mariama Sarr'>
+    <organization />
+</author>
+
+<date month='April' day='26' year='2019' />
+
+<abstract><t>This document defines the manner in which to calculate the checksum for the protocol DIASER.  DIASER is a protocol for communication with traffic lights controllers used in France.  DIASER is specified at AFNOR.  The specification misses an instruction on how to compute the 'BCC' checksum ('Byte Character Control').</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-petrescu-ipwave-diaser-checksum-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-petrescu-ipwave-diaser-checksum-00.txt' />
+</reference>

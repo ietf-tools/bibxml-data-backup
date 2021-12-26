@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-anonymity-profile'>
+<front>
+<title>Anonymity profile for DHCP clients</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<author initials='T' surname='Mrugalski' fullname='Tomek Mrugalski'>
+    <organization />
+</author>
+
+<author initials='S' surname='Krishnan' fullname='Suresh Krishnan'>
+    <organization />
+</author>
+
+<date month='January' day='13' year='2016' />
+
+<abstract><t>Some DHCP options carry unique identifiers.  These identifiers can enable device tracking even if the device administrator takes care of randomizing other potential identifications like link-layer addresses or IPv6 addresses.  The anonymity profile is designed for clients that wish to remain anonymous to the visited network.  The profile provides guidelines on the composition of DHCP or DHCPv6 requests, designed to minimize disclosure of identifying information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-anonymity-profile-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-anonymity-profile-05.txt' />
+</reference>

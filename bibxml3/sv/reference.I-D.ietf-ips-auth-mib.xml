@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ips-auth-mib'>
+<front>
+<title>Definitions of Managed Objects for IP Storage User Identity Authorization</title>
+
+<author initials='M' surname='Bakke' fullname='Mark Bakke'>
+    <organization />
+</author>
+
+<author initials='J' surname='Muchow' fullname='Jim Muchow'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2006' />
+
+<abstract><t>This memo defines a portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP based internets. In particular it defines objects for managing user identities and the names, addresses, and credentials required manage access control, for use with various protocols. This draft was motivated by the need for the configuration of authorized user identities for the iSCSI protocol, but has been extended to be useful for other protocols that have similar requirements. It is important to note that this MIB module provides only the set of identities to be used within access lists; it is the responsibility of other MIB modules making use of this one to tie them to their own access lists or other authorization control methods.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ips-auth-mib-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ips-auth-mib-08.txt' />
+</reference>

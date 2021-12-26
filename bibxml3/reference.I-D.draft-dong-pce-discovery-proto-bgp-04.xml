@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dong-pce-discovery-proto-bgp'>
+<front>
+<title>BGP Extensions for Path Computation Element (PCE) Discovery</title>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2016' />
+
+<abstract><t>In networks where Path Computation Element (PCE) is used for centralized path computation, it is desirable for the Path Computation Clients (PCCs) to automatically discover a set of PCEs and select the suitable ones to establish the PCEP session.  RFC 5088 and RFC 5089 define the PCE discovery mechanisms based on Interior Gateway Protocols (IGP).  This document describes several scenarios in which the IGP based PCE discovery mechanisms cannot be used directly.  In such scenarios, BGP might be suitable, thus this document specifies the BGP extensions for PCE discovery.  The BGP based PCE discovery mechanism is complementary to the existing IGP based mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dong-pce-discovery-proto-bgp-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dong-pce-discovery-proto-bgp-04.txt' />
+</reference>

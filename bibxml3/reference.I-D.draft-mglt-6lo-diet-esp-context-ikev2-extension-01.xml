@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-6lo-diet-esp-context-ikev2-extension'>
+<front>
+<title>Diet-ESP Context IKEv2 Extension</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<date month='January' day='8' year='2015' />
+
+<abstract><t>Diet-ESP has been designed for IoT to limit the IPsec ESP overhead in each IPsec packet.  Diet-ESP is based on the standard IPsec ESP, and needs that peers agree on a Diet-ESP Context that defines how standard ESP packets can be compressed before being sent over the wire.  Standard IPsec ESP can be agreed between peers using IKEv2.  However, current IKEv2 does not make possible to negotiate a Diet-ESP Context, and thus to negotiate a Diet-ESP communication.  This draft defines an extension for IKEv2 so peers can agree the Diet-ESP Context, and thus negotiate a Diet-ESP association.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-6lo-diet-esp-context-ikev2-extension-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-6lo-diet-esp-context-ikev2-extension-01.txt' />
+</reference>

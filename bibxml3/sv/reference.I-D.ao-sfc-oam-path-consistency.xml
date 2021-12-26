@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ao-sfc-oam-path-consistency'>
+<front>
+<title>SFC OAM for path consistency</title>
+<author initials='G' surname='Mirsky' fullname='Greg Mirsky'>
+<organization />
+</author>
+<author initials='T' surname='Ao' fullname='Ting Ao'>
+<organization />
+</author>
+<author initials='Z' surname='Chen' fullname='Zhonghua Chen'>
+<organization />
+</author>
+<author initials='K' surname='Leung' fullname='Kent Leung'>
+<organization />
+</author>
+<author initials='G' surname='Mishra' fullname='Gyan Mishra'>
+<organization />
+</author>
+<date year='2021' month='March' day='30' />
+<abstract><t>Service Function Chain (SFC) defines an ordered set of service functions (SFs) to be applied to packets and/or frames and/or flows selected due to classification.  SFC Operation, Administration and Maintenance can monitor the continuity of the SFC, i.e., that all SFC elements are reachable to each other in the downstream direction. But SFC OAM must support verification that the order of traversing these SFs corresponds to the state defined by the SFC control plane or orchestrator, the metric referred to in this document as the path consistency of the SFC.  This document defines a new SFC active OAM method to support SFC consistency check, i.e., verification that all elements of the given SFC are being traversed in the expected order.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ao-sfc-oam-path-consistency-11'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ao-sfc-oam-path-consistency-11.txt'/>
+</reference>

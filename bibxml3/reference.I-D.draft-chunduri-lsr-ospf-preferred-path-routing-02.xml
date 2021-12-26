@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chunduri-lsr-ospf-preferred-path-routing'>
+<front>
+<title>Preferred Path Routing (PPR) in OSPF</title>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Qu' fullname='Yingzhen Qu'>
+    <organization />
+</author>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='L' surname='Contreras' fullname='Luis Contreras'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2019' />
+
+<abstract><t>This document specifies a Preferred Path Routing (PPR), a routing protocol mechanism to simplify the path description of data plane traffic in Segment Routing (SR) deployments with OSPFv2 and OSPFv3 protocols.  PPR aims to mitigate the MTU and data plane processing issues that may result from SR packet overheads; and also supports traffic measurement, accounting statistics and further attribute extensions along the paths.  Preferred Path Routing is achieved through the addition of descriptions to OSPF advertised prefixes, and mapping those to a PPR data-plane identifier.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chunduri-lsr-ospf-preferred-path-routing-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chunduri-lsr-ospf-preferred-path-routing-02.txt' />
+</reference>

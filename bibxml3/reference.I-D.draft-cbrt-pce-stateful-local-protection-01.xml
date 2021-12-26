@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cbrt-pce-stateful-local-protection'>
+<front>
+<title>PCEP Extensions for RSVP-TE Local-Protection with PCE-Stateful</title>
+
+<author initials='C' surname='Barth' fullname='Colby Barth'>
+    <organization />
+</author>
+
+<author initials='R' surname='Torvi' fullname='Raveendra Torvi'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2018' />
+
+<abstract><t>Stateful PCE [RFC8231] can apply global concurrent optimizations to optimize LSP placement.  In a deployment where a PCE is used to compute all the paths, it may be beneficial for the local protection paths to also be computed by the PCE.  This document defines extensions needed for the setup and management of RSVP-TE protection paths by the PCE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cbrt-pce-stateful-local-protection-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cbrt-pce-stateful-local-protection-01.txt' />
+</reference>

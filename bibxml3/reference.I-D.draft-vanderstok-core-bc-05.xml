@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanderstok-core-bc'>
+<front>
+<title>CoAP Utilization for Building Control</title>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<author initials='K' surname='Lynn' fullname='Kerry Lynn'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2011' />
+
+<abstract><t>This draft describes an example use of the RESTful CoAP protocol for building automation and control (BAC) applications such as HVAC and lighting.  A few basic design assumptions are stated first, then URI structure is utilized to define group as well as unicast scope for RESTful operations.  This proposal supports the view that 1) service discovery is complementary to resource discovery and facilitates control network scaling, and 2) building control is likely to move in steps toward all-IP control networks based on the legacy efforts provided by DALI, LON, BACnet, ZigBee, and other standards.  The authority portion of the URI is used to identify a device (group) and the resulting DNS name is bound to a unicast (multicast) address. Group addressing has consequence for the naming convention of the resources of a device.  Naming of URI is building or organization dependent, must be flexible, and SHOULD conform to some local convention.  Naming of resources MUST be standardised preferrable by a building control related organisation.  It is shown that DNS-based service discovery can be used to locate URIs on the scale necessary in large commercial BAC deployments.  The relation of DNS-SD and a Resource Directory is discussed.  Finally, a method is proposed for mapping URIs onto legacy BAC resources, e.g., to discover application-layer gateways, proxies, and their dependent services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanderstok-core-bc-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-core-bc-05.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-core-bc-05.pdf' />
+</reference>

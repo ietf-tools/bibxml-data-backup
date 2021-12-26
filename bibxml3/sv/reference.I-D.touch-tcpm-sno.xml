@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.touch-tcpm-sno'>
+<front>
+<title>The TCP Service Number Option (SNO)</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<date month='July' day='19' year='2018' />
+
+<abstract><t>This document specifies a TCP option for service numbers. The current SYN destination port is used both to indicate the desired service and as a connection demultiplexing field. This option separates those two functions, retaining the current destination port solely for demultiplexing and indicating the service separately in a service number option (SNO). By decoupling these two functions, SNO allows a larger number of concurrent connections for a single service, as might be useful between fixed addresses of proxies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-touch-tcpm-sno-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-touch-tcpm-sno-09.txt' />
+</reference>

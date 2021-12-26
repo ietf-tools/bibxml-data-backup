@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bi-savi-problem'>
+<front>
+<title>Problem Statement of SAVI Beyond the First Hop</title>
+
+<author initials='J' surname='Bi' fullname='Jun Bi'>
+    <organization />
+</author>
+
+<author initials='B' surname='Liu' fullname='Bingyang Liu'>
+    <organization />
+</author>
+
+<date month='January' day='30' year='2012' />
+
+<abstract><t>IETF Source Address Validation Improvements (SAVI) working group is chartered for source address validation within the first hop from the end hosts, i.e. preventing a node from spoofing the IP source address of another node in the same IP link.  For source address validation beyond the first hop (SAVI-BF), Ingress Filtering [BCP38]/[BCP84] is the best current practice.  However Ingress Filtering may drop legitimate packets (false positive) or fail to recognize spoofing packets (false negative) in case of asymmetric routing, which is not rare under SAVI-BF scenario.  This document states the possible scenarios in which Ingress Filtering may have problems (false positive or false negative).  We claim that the reason of the problems is that the routers are lack of sufficient routing information to predict the incoming direction of a packet, since source address validation beyond the first hop should act consistently with the behavior of the routing system.  We also discuss the availability of the needed routing information under different routing environments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bi-savi-problem-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bi-savi-problem-02.txt' />
+</reference>

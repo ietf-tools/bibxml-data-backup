@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhou-mboned-multrans-path-optimization'>
+<front>
+<title>Multicast transition path optimization in IPv4 and IPv6 networks</title>
+
+<author initials='Q' surname='Sun' fullname='Qiong Sun'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Cathy Zhou'>
+    <organization />
+</author>
+
+<date month='February' day='21' year='2013' />
+
+<abstract><t>This document describes a mechanism to optimize the path between the multicast router and multicast source in both IPv4 and IPv6 networks. The basic idea is that when a multicast translation router has an IPv4 path and an IPv6 path to the same multicast data source, and both IPv4 and IPv6 joins are received, only one path is used.  One path is pruned, instead of the same traffic flowing over both v4 and v6 paths.  By adding a metric to the IPv4 path, the multicast translation router can determine which path to receive multicast data: IPv4 path, IPv6 path or both.  Therefore, an optimization path will typically be chosen when an identical v4/v6 traffic flow exists.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhou-mboned-multrans-path-optimization-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhou-mboned-multrans-path-optimization-03.txt' />
+</reference>

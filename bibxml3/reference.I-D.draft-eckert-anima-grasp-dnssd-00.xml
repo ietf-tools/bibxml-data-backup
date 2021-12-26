@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eckert-anima-grasp-dnssd'>
+<front>
+<title>DNS-SD compatible service discovery in GRASP</title>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>DNS Service Discovery (DNS-SD) defines the common framework for applications to announce and discover services.  This includes service names, service instance names, common parameters for selecting a service instance (weight, priority) as well as service specific parameters.  GRASP is intended to also be used for service discovery.  Reinventing service discovery for GRASP with a similar set of fetures would result in duplication of work.  Therefore, this document defines how to use GRASP to announce and discover services in a way that inherits DNS-SD features and also tries to be compatible in spirit as much as possibel while still maintaining the intended simplicity of GRASP.  The goal of this document is to permit defining service and their parameters once and then use that in GRASP, mDNS and (unicast) DNS. Future work can also define DNS-SD &lt;-> GRASP gateway functions.  In support of service discovery, this document also defines name discovery and schemes for reuseable elements in GRASP objectives which are designed to be extensible so that future work that identifies elements required across multiple objectives do not need to define a scheme how to do this.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eckert-anima-grasp-dnssd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eckert-anima-grasp-dnssd-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pauly-dprive-adaptive-dns-privacy'>
+<front>
+<title>Adaptive DNS: Improving Privacy of Name Resolution</title>
+
+<author initials='E' surname='Kinnear' fullname='Eric Kinnear'>
+    <organization />
+</author>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<author initials='P' surname='McManus' fullname='Patrick McManus'>
+    <organization />
+</author>
+
+<date month='October' day='4' year='2019' />
+
+<abstract><t>This document defines an architecture that allows clients to dynamically discover designated resolvers that offer encrypted DNS services, and use them in an adaptive way that improves privacy while co-existing with locally provisioned resolvers.  These resolvers can be used directly when looking up names for which they are designated. These resolvers also provide the ability to proxy encrypted queries, thus hiding the identity of the client requesting resolution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pauly-dprive-adaptive-dns-privacy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pauly-dprive-adaptive-dns-privacy-00.txt' />
+</reference>

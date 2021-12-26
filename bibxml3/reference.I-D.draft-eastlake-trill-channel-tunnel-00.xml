@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eastlake-trill-channel-tunnel'>
+<front>
+<title>TRILL: RBridge Channel Tunnel Protocol</title>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2013' />
+
+<abstract><t>The IETF TRILL (Transparent Interconnection of Lots of Links) protocol includes an optional mechanism, called RBridge Channel, for the transmission of typed messages between TRILL switches in the same campus and between TRILL switches and end stations on the same link. This document specifies optional extensions to RBridge Channel that provides three facilities: (1) A mechanism to send such messages between a TRILL switch and an end station in either direction, or between two end stations, when the two devices are in the same campus but not on the same link; (2) A method to support security facilities for RBridge Channel messages; and (3) A method to tunnel a variety of payload types by encapsulating them in an RBridge Channel message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eastlake-trill-channel-tunnel-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eastlake-trill-channel-tunnel-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jesup-rtp-congestion-reqs'>
+<front>
+<title>Congestion Control Requirements For Real Time Media</title>
+
+<author initials='R' surname='Jesup' fullname='Randell Jesup'>
+    <organization />
+</author>
+
+<author initials='H' surname='Alvestrand' fullname='Harald Alvestrand'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2012' />
+
+<abstract><t>Congestion control is needed for all data transported across the Internet, in order to promote fair usage and prevent congestion collapse.  The requirements for interactive, point-to-point real time multimedia, which needs by low-delay, semi-reliable data delivery, are different from the requirements for bulk transfer like FTP or bursty transfers like Web pages, and the TCP algorithms are not suitable for this traffic.  This document attempts to describe a set of requirements that can be used to evaluate other congestion control mechanisms in order to figure out their fitness for this purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jesup-rtp-congestion-reqs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jesup-rtp-congestion-reqs-00.txt' />
+</reference>

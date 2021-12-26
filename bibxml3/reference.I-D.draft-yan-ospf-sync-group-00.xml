@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yan-ospf-sync-group'>
+<front>
+<title>OSPF Synchronization Group</title>
+
+<author initials='G' surname='Yan' fullname='Gang Yan'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Liu' fullname='Yuanjiao Liu'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhang' fullname='Xudong Zhang'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2014' />
+
+<abstract><t>OSPF is a fundamental component for a routing system.  It depends on the flooding mechanism to advertise and synchronize link-state database among distributed nodes in the network.  As modern networks become larger and more complex, lots of nodes and adjacencies are involved into it.  As a result, massive link-state information are generated and synchronized which is becoming an overhead of the network nowadays.  This document proposes a new design of OSPF database synchronization which is slightly different from the one stated in OSPF.  This new design can help to alleviate the overhead by dividing OSPF routers into independent synchronization groups and forbidding synchronization across the group border.  Since less burden from synchronization, it is possible to accommodate more OSPF routers and adjacencies in the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yan-ospf-sync-group-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yan-ospf-sync-group-00.txt' />
+</reference>

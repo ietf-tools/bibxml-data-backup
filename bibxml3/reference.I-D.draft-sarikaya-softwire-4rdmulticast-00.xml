@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-softwire-4rdmulticast'>
+<front>
+<title>Multicast Support for 4rd</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2011' />
+
+<abstract><t>This memo specifies modifications required to 4rd so that IPv4 hosts can receive multicast data from IPv4 servers over an IPv6 network. In AMT based solution, AMT Gateway at the 4rd Customer Edge router uses AMT protocol to establish a tunnel interface with AMT Relay at the 4rd Border Relay and this tunnel is used to exchange IGMP messages to establish multicast state at AMT Relay so that AMT Relay can tunnel IPv4 multicast data to IPv4 hosts connected to AMT Gateway.  In 4rd Translation Multicast solution, IGMP messages are translated into MLD messages at the CE router which is IGMP/MLD Proxy and sent to the network in IPv6. 4rd Border Relay does the reverse translation and joins IPv4 multicast group for 4rd hosts.  Border Relay as multicast router receives IPv4 multicast data and translates the packet into IPv6 multicast data and sends downstream on the multicast tree.  Member CEs receive multicast data, translate it back to IPv4 and transmit to the hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-softwire-4rdmulticast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-softwire-4rdmulticast-00.txt' />
+</reference>

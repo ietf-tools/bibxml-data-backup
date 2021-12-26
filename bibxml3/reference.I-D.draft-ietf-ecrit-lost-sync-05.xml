@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ecrit-lost-sync'>
+<front>
+<title>Synchronizing Location-to-Service Translation (LoST) Protocol based Service  Boundaries and Mapping Elements</title>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2009' />
+
+<abstract><t>The Location-to-Service Translation (LoST) protocol is an XML-based protocol for mapping service identifiers and geodetic or civic location information to service URIs and service boundaries.  In particular, it can be used to determine the location-appropriate Public Safety Answering Point (PSAP) for emergency services.  The main data structure, the &lt;mapping> element, used for encapsulating information about service boundaries is defined in the LoST protocol specification and circumscribes the region within which all locations map to the same service Uniform Resource Identifier (URI) or set of URIs for a given service.  This document defines an XML protocol to exchange these mappings between two nodes.  This mechanism can be used for bulk exchange of &lt;mapping> elements between two entities.  As such, this document can also be used without the LoST protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ecrit-lost-sync-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ecrit-lost-sync-05.txt' />
+</reference>

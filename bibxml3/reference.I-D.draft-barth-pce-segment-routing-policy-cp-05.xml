@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barth-pce-segment-routing-policy-cp'>
+<front>
+<title>PCEP extension to support Segment Routing Policy Candidate Paths</title>
+
+<author initials='M' surname='Koldychev' fullname='Mike Koldychev'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Barth' fullname='Colby Barth'>
+    <organization />
+</author>
+
+<author initials='C' surname='Li' fullname='Cheng Li'>
+    <organization />
+</author>
+
+<author initials='H' surname='Bidgoli' fullname='Hooman Bidgoli'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2020' />
+
+<abstract><t>This document introduces a mechanism to specify a Segment Routing (SR) policy, as a collection of SR candidate paths.  An SR policy is identified by &lt;headend, color, end-point> tuple.  An SR policy can contain one or more candidate paths where each candidate path is identified in PCEP via an PLSP-ID.  This document proposes extension to PCEP to support association among candidate paths of a given SR policy.  The mechanism proposed in this document is applicable to both MPLS and IPv6 data planes of SR.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-barth-pce-segment-routing-policy-cp-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-barth-pce-segment-routing-policy-cp-05.txt' />
+</reference>

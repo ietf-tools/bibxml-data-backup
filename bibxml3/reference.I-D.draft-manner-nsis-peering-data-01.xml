@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.manner-nsis-peering-data'>
+<front>
+<title>Peering Data for NSIS Signaling Layer Protocols</title>
+
+<author initials='J' surname='Manner' fullname='Jukka Manner'>
+    <organization />
+</author>
+
+<author initials='L' surname='Liuhto' fullname='Lauri  Liuhto'>
+    <organization />
+</author>
+
+<author initials='N' surname='Varis' fullname='Nuutti Varis'>
+    <organization />
+</author>
+
+<author initials='T' surname='Huovila' fullname='Teemu Huovila'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>When an NSLP protocol initiates a signaling session and requests either reliable or secure transport (or both), NSLP data can not be carried within the GIST Query.  Thus the NSLP at the responding node can not have NSLP specific information for peering decisions.  Next generation NSLP protocols may need more information to be able to make right peering decisions.  This draft presents a new Peering Information Object (PIO) for GIST intended to carry NSLP-specific peering data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-manner-nsis-peering-data-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-manner-nsis-peering-data-01.txt' />
+</reference>

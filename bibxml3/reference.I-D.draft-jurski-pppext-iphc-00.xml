@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jurski-pppext-iphc'>
+<front>
+<title>IP Header Compression over PPP</title>
+
+<author initials='J' surname='Jurski' fullname='Janusz Jurski'>
+    <organization />
+</author>
+
+<date month='April' day='4' year='2006' />
+
+<abstract><t>This document extends RFC 3544 (which extended its predecessor, RFC 2509) by specifying additional negotiation options to PPP Control Protocols for IPv4 and IPv6 (see RFC 1332, RFC 2472). The negotiation options specified in RFC 2509 defined an all-or-nothing strategy for applying header compression: peers were assumed to support compression for any combination of headers. RFC 3544 refined that strategy to make it possible to negotiate header compression for only TCP or only non-TCP packets. The current document further refines the strategy by also making it possible to negotiate header compression for only particular combinations of headers or header types.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jurski-pppext-iphc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jurski-pppext-iphc-00.txt' />
+</reference>

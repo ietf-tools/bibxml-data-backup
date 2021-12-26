@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-stime-ntpauth'>
+<front>
+<title>Public-Key Cryptography for the Network Time Protocol Version 2</title>
+
+<author initials='D' surname='Mills' fullname='David  Mills'>
+    <organization />
+</author>
+
+<date month='November' day='5' year='2002' />
+
+<abstract><t>This document describes the Autokey security model for authenticating servers to clients using the Network Time Protocol (NTP) and public key cryptography. its design is based on the premiss that IPSEC schemes cannot be adopted intact, since that would preclude stateless servers and severely compromise timekeeping accuracy. In addition, PKI schemes presume authenticated time values are always available to enforce certificate lifetimes; however, cryptographically verified timestamps require interaction between the timekeeping function and authentication function in ways not yet considered by the IETF. This Document includes the Autokey requirements analysis, design principles and protocol specification. A detailed description of the protocol states, events and transition functions is included. A prototype of the Autokey design based on this document has been implemented, tested and documented in the NTP Version 4 (NTPv4) software distribution for Unix, Windows and VMS at http://www.ntp.org.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-stime-ntpauth-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-stime-ntpauth-04.txt' />
+</reference>

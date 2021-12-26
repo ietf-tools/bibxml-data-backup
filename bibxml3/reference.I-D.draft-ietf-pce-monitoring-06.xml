@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-monitoring'>
+<front>
+<title>A set of monitoring tools for Path Computation Element based Architecture</title>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Ikejiri' fullname='Yuichi Ikejiri'>
+    <organization />
+</author>
+
+<date month='December' day='15' year='2009' />
+
+<abstract><t>A Path Computation Element (PCE) based architecture has been specified for the computation of Traffic Engineering (TE) Label Switched Paths (LSPs) in Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) networks in the context of single or multiple domains (where a domain refers to a collection of network elements within a common sphere of address management or path computational responsibility such as IGP areas and Autonomous Systems).  Path Computation Clients (PCCs) send computation requests to PCEs, and these may forward the requests to and cooperate with other PCEs forming a "path computation chain".  In PCE-based environments, it is thus critical to monitor the state of the path computation chain for troubleshooting and performance monitoring purposes: liveness of each element (PCE) involved in the PCE chain, detection of potential resource contention states and statistics in term of path computation times are examples of such metrics of interest.  This document specifies procedures and extensions to the Path Computation Element Protocol (PCEP) in order to gather such information.  Status of this Memo  This Internet-Draft is submitted to IETF in full conformance with the provisions of BCP 78 and BCP 79.  Internet-Drafts are working documents of the Internet Engineering Task Force (IETF), its areas, and its working groups.  Note that other groups may also distribute working documents as Internet- Drafts.  Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."  The list of current Internet-Drafts can be accessed at http://www.ietf.org/ietf/1id-abstracts.txt.  The list of Internet-Draft Shadow Directories can be accessed at http://www.ietf.org/shadow.html.  This Internet-Draft will expire on June 17, 2010.  Copyright Notice  Copyright (c) 2009 IETF Trust and the persons identified as the document authors.  All rights reserved.  This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the BSD License.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-monitoring-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-monitoring-06.txt' />
+</reference>

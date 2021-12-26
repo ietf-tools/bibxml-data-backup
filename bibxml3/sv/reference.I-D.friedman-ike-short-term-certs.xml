@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.friedman-ike-short-term-certs'>
+<front>
+<title>Short-Term Certificates</title>
+
+<author initials='A' surname='Friedman' fullname='Arik Friedman'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2007' />
+
+<abstract><t>This document describes an extension to IKEv2 that allows an endpoint which has authenticated to a gateway to request a short-term credential, possession of which proves the authentication. This allows it to prove to a security gateway that it was already authenticated by another trusted security gateway, thereby allowing the authentication of the endpoint without user intervention. This credential is a certificate issued by the authenticating gateway for a short period of time, which can be used to authenticate the user with IKE signature based authentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-friedman-ike-short-term-certs-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-friedman-ike-short-term-certs-02.txt' />
+</reference>

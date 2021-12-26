@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.matthews-mmusic-ice-eliminating-duplicates'>
+<front>
+<title>Eliminating Duplicate Connectivity Checks in ICE</title>
+
+<author initials='E' surname='Cooper' fullname='Eric Cooper'>
+    <organization />
+</author>
+
+<author initials='P' surname='Matthews' fullname='Philip  Matthews'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2006' />
+
+<abstract><t>The ICE (Interactive Connectivity Establishment) protocol is designed to find the best possible transmission path between two endpoints in the presence of intervening NAT (Network Address Translation) boxes. It is a very versatile protocol, designed to operate in all possible network topologies. This versatility occasionally results in a large exchange of messages between the two endpoints. This document proposes a modification which reduces the amount of messaging ICE requires, without affecting the effectiveness of ICE. This modification suppresses the transmission of Binding Requests from server-reflexive candidates. The result is increased efficiency due to the suppressed connectivity checks, leading to fewer overall messages and faster discovery of working paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-matthews-mmusic-ice-eliminating-duplicates-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-matthews-mmusic-ice-eliminating-duplicates-00.txt' />
+</reference>

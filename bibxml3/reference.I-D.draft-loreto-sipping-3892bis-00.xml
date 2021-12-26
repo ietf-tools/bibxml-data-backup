@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.loreto-sipping-3892bis'>
+<front>
+<title>Updates to Referred-By in the Session Initiation Protocol (SIP).</title>
+
+<author initials='N' surname='Bishai' fullname='Nadia  Bishai'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<author initials='A' surname='Haruna' fullname='Adamu Haruna'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2008' />
+
+<abstract><t>SIP has a mechanism for conveying the asserted identity of the originator of a request by means of the P-Asserted-Identity header field.  When exploding a SIP MESSAGE request to a pre-defined group URI and when exploding a SIP INVITE request to an ad-hoc group or to a pre-defined group URI, the Referred-By header field in the resulting exploded requests is set to the P-Asserted-Identity header field or to the From header field.  The Referred-By header is only included if the P-Asserted-Identity header field or From header field needs to carry another value, e.g. the URI of a pre-defined group, or a conference focus URI.  Since the P-Asserted-Identity header field may carry up to two values, the Referred-By definition needs to be extended to allow up to two values as well.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-loreto-sipping-3892bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-loreto-sipping-3892bis-00.txt' />
+</reference>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pim-bidir'>
+<front>
+<title>Bi-directional Protocol Independent Multicast (BIDIR-PIM)</title>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2007' />
+
+<abstract><t>This document discusses Bi-directional PIM, a variant of PIM Sparse-Mode that builds bi-directional shared trees connecting multicast sources and receivers. Bi-directional trees are built using a fail-safe Designated Forwarder (DF) election mechanism operating on each link of a multicast topology. With the assistance of the DF, multicast data is natively forwarded from sources to the Rendezvous-Point and hence along the shared tree to receivers without requiring source-specific state. The DF election takes place at RP discovery time and provides the route to the RP thus eliminating the requirement for data-driven protocol events.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pim-bidir-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-bidir-09.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-bidir-09.pdf' />
+</reference>

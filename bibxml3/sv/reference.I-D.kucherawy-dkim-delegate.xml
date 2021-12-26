@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kucherawy-dkim-delegate'>
+<front>
+<title>Delegating DKIM Signing Authority</title>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<author initials='d' surname='dcrocker' fullname='dcrocker'>
+    <organization />
+</author>
+
+<date month='April' day='10' year='2015' />
+
+<abstract><t>DomainKeys Identified Mail (DKIM) permits a handling agent to affix a digital signature to an email message, associating a domain name with that message using cryptographic signing techniques.  The digital signature typically covers most of a message's original portions, although the specific choices for content hashing are at the discretion of the signer.  DKIM signatures survive simply email relaying but typically are invalidated by processing through Mediators, such as mailing lists.  For such cases, the signer needs a way to indicate that a valid signature from some third party was anticipated, and constitutes an acceptable handling of the message. This enables a receiver to conclude that the content is legitimately from that original signer, even though its original signature no longer validates.  This document defines a mechanism for improving the ability to assess DKIM validity for such messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kucherawy-dkim-delegate-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kucherawy-dkim-delegate-02.txt' />
+</reference>

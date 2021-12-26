@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5182' target='https://www.rfc-editor.org/info/rfc5182'>
+<front>
+<title>IMAP Extension for Referencing the Last SEARCH Result</title>
+<author initials='A.' surname='Melnikov' fullname='A. Melnikov'><organization /></author>
+<date year='2008' month='March' />
+<abstract><t>Many IMAP clients use the result of a SEARCH command as the input to perform another operation, for example, fetching the found messages, deleting them, or copying them to another mailbox.</t><t>This can be achieved using standard IMAP operations described in RFC 3501; however, this would be suboptimal.  The server will send the list of found messages to the client; after that, the client will have to parse the list, reformat it, and send it back to the server.  The client can't pipeline the SEARCH command with the subsequent command, and, as a result, the server might not be able to perform some optimizations.</t><t>This document proposes an IMAP extension that allows a client to tell a server to use the result of a SEARCH (or Unique Identifier (UID) SEARCH) command as an input to any subsequent command.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5182'/>
+<seriesInfo name='DOI' value='10.17487/RFC5182'/>
+</reference>

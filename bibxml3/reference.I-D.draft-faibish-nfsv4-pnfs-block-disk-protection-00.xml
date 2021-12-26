@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.faibish-nfsv4-pnfs-block-disk-protection'>
+<front>
+<title>pNFS block disk protection</title>
+
+<author initials='S' surname='Faibish' fullname='Sorin Faibish'>
+    <organization />
+</author>
+
+<author initials='J' surname='Glasgow' fullname='Jason Glasgow'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>Parallel NFS (pNFS) extends Network File Sharing version 4 (NFSv4) to allow client to directly access file data on the storage used by the NFSv4 server.  This ability to bypass the server for data access can increase both performance and parallelism, but requires additional client functionality for data access, some of which is dependent of the class of storage used.  The published protocol for block layout file systems describes how clients can recognize the volumes used for pNFS storage, but only after communicating with the server.  This document proposes a mechanism by which clients can recognize block storage devices used by pNFS file systems, without having to communicate with the server, and therefore allows the clients to limit access to the devices at client boot time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-faibish-nfsv4-pnfs-block-disk-protection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-faibish-nfsv4-pnfs-block-disk-protection-00.txt' />
+</reference>

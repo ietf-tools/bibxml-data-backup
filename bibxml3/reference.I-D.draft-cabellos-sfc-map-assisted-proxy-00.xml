@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cabellos-sfc-map-assisted-proxy'>
+<front>
+<title>Map-Assisted SFC Proxy using LISP</title>
+
+<author initials='A' surname='Cabellos-Aparicio' fullname='Albert Cabellos-Aparicio'>
+    <organization />
+</author>
+
+<author initials='S' surname='Barkai' fullname='Sharon Barkai'>
+    <organization />
+</author>
+
+<author initials='B' surname='Perlman' fullname='Barak Perlman'>
+    <organization />
+</author>
+
+<author initials='V' surname='Ermagan' fullname='Vina Ermagan'>
+    <organization />
+</author>
+
+<author initials='F' surname='Maino' fullname='Fabio Maino'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rodriguez-Natal' fullname='Alberto Rodriguez-Natal'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>This document specifies a map-assisted SFC proxy.  The SFC proxy uses the LISP Mapping System to store the NSH header indexed by 5-tuple, before decapsulating and forwarding the packet to the legacy function.  After the function has processed the packet, the SFC proxy retrieves the NSH header from the Mapping System to SFC encapsulate it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cabellos-sfc-map-assisted-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cabellos-sfc-map-assisted-proxy-00.txt' />
+</reference>

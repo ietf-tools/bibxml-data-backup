@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-prefix-link-attr'>
+<front>
+<title>OSPFv2 Prefix/Link Attribute Advertisement</title>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='r' surname='rjs@rob.sh' fullname='rjs@rob.sh'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<date month='August' day='1' year='2015' />
+
+<abstract><t>OSPFv2 requires functional extension beyond what can readily be done with the fixed-format Link State Advertisements (LSAs) as described in RFC 2328.  This document defines OSPF opaque LSAs based on Type- Length-Value (TLV) tuples that can be used to associate additional attributes with prefixes or links.  Dependent on the application, these prefixes and links may or not be advertised in the fixed-format LSAs.  The OSPF opaque LSAs are optional and fully backward compatible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-prefix-link-attr-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-prefix-link-attr-07.txt' />
+</reference>

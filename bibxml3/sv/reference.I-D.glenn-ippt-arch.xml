@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.glenn-ippt-arch'>
+<front>
+<title>An Architecture for IP Packet Tracing</title>
+
+<author initials='G' surname='Keeni' fullname='Gargi Keeni'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kuwata' fullname='Yoshitaka Kuwata'>
+    <organization />
+</author>
+
+<date month='October' day='28' year='2004' />
+
+<abstract><t>This document presents an architecture for use in tracing packets across the Internet. It envisages a two-tier model wherein at the top level a Packet Tracer Application (PTA) queries relevant Autonomous System (AS) packet tracers (ASPT) with details of the packet to be traced. The PTA constructs the complete path from the responses of the queried ASPTs. At the lower level an ASPT receives queries from a PTA, traces the path of a packet within the AS and sends back the result to the PTA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-glenn-ippt-arch-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-glenn-ippt-arch-01.txt' />
+</reference>

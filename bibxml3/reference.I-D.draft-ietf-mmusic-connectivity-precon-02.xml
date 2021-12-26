@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-connectivity-precon'>
+<front>
+<title>Connectivity Preconditions for Session Description Protocol Media Streams</title>
+
+<author initials='F' surname='Andreasen' fullname='Flemming Andreasen'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2006' />
+
+<abstract><t>This document defines a new connectivity precondition for the Session Description Protocol precondition framework described in RFC 3312 (and its update, RFC4032). A connectivity precondition can be used to delay session establishment or modification until media stream connectivity has been verified successfully. The method of verification may vary depending on the type of transport used for the media. For reliable connection-oriented transports such as TCP verification is achieved by successful connection establishment. For unreliable datagram transports such as UDP, verification involves probing the stream with data or control packets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-connectivity-precon-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-connectivity-precon-02.txt' />
+</reference>

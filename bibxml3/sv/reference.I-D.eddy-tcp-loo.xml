@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eddy-tcp-loo'>
+<front>
+<title>Extending the Space Available for TCP Options</title>
+
+<author initials='W' surname='Eddy' fullname='Wesley Eddy'>
+    <organization />
+</author>
+
+<author initials='A' surname='Langley' fullname='Adam Langley'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2008' />
+
+<abstract><t>This document describes a method for increasing the space available for TCP options.  Two new TCP options (LO and SLO) are detailed which reduce the limitations imposed by the TCP header's Data Offset field. The LO option provides this extension after connection establishment, and the SLO option aids in transmission of lengthy connection initialization and configuration options.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eddy-tcp-loo-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eddy-tcp-loo-04.txt' />
+</reference>

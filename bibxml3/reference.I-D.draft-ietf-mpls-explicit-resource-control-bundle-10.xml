@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-explicit-resource-control-bundle'>
+<front>
+<title>Component Link Recording and Resource Control for TE Links</title>
+
+<author initials='A' surname='Zamfir' fullname='Anca Zamfir'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<author initials='P' surname='Dimitri' fullname='Papadimitriou Dimitri'>
+    <organization />
+</author>
+
+<date month='April' day='27' year='2011' />
+
+<abstract><t>Record Route is a useful administrative tool that has been used extensively by the service providers. However, when TE links are bundled, identification of label resource in Record Route object (RRO) is not sufficient to determine the component link within a TE link that is being used by a given LSP. In other words, when link bundling is used, resource recording requires mechanisms to specify the component link identifier, along with the TE link identifier and Label. As it is not possible to record component link in the RRO, this document defines the extensions to RSVP-TE [RFC3209] and [RFC3473] to specify component link identifiers for resource recording purposes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-explicit-resource-control-bundle-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-explicit-resource-control-bundle-10.txt' />
+</reference>

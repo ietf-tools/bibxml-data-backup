@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-bess-tpe-aided-spe-protection'>
+<front>
+<title>TPE-aided SPE-Protection</title>
+<author initials='Y' surname='Wang' fullname='Yubao Wang'>
+<organization />
+</author>
+<date year='2021' month='January' day='25' />
+<abstract><t>MPLS EVPN SPEs cannot make use of anycast MPLS tunnel (whose egress LSRs are two of these SPEs) because that the two SPEs will re-assign different EVPN labels for the same EVPN prefix.  It will be complicated to static-configure EVPN label for each EVPN prefix.  At the same time, the TPEs should advertise specified signalling to do egress node (TPE) protection.  This document specifies a egress node protection signalling from/among TPE nodes, and TPE (whether it is egress-protected or not) can help the SPEs to do egress protection on the basis of that signalling.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-wang-bess-tpe-aided-spe-protection-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-wang-bess-tpe-aided-spe-protection-00.txt'/>
+</reference>

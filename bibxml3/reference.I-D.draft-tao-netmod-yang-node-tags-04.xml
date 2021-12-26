@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tao-netmod-yang-node-tags'>
+<front>
+<title>Self Explanation Data Object Tags</title>
+
+<author initials='Q' surname='WU' fullname='Qin WU'>
+    <organization />
+</author>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<author initials='L' surname='Geng' fullname='Liang Geng'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Du' fullname='Zongpeng Du'>
+    <organization />
+</author>
+
+<date month='August' day='10' year='2020' />
+
+<abstract><t>This document defines a method to tag data objects associated with operation and management data in YANG Modules.  This YANG data object tagging method can be used to identify characteristics data and correlate data objects from different data sources and provide input, instruction, indication to selection filter and filter queries of operational state on a server during a "pub/sub" service for YANG datastore updates.  When the state of all subscriptions of a particular Subscriber to be fetched is huge, the amount of data to be streamed out to the destination can be greatly reduced and only targeted to the characteristics data.  An extension statement to be used to indicate YANG data node self explanation tags that SHOULD be added by the module implementation automatically (i.e., outside of configuration).  A YANG module [RFC7950] is defined, which augments Module tag model and provides a list of data node entries to allow for adding or removing of data node self explanation tags as well as viewing the set of self explanation tags associated with a YANG module.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tao-netmod-yang-node-tags-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tao-netmod-yang-node-tags-04.txt' />
+</reference>

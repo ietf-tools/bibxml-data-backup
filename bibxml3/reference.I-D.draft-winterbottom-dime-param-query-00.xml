@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.winterbottom-dime-param-query'>
+<front>
+<title>Diameter Parameter Query</title>
+
+<author initials='J' surname='Winterbottom' fullname='James Winterbottom'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bellis' fullname='Ray  Bellis'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>In an emergency services environment a Location Information Server (LIS) receives requests from end hosts, SIP proxies or Public Safety Answering Points (PSAPs).  When receiving these requests a LIS has to perform a location determination procedure that depends on the specific network deployment.  In any case, an interation with other network elements is needed, particularly with AAA servers, that store information about the current attachment of the end host.  This document descirbes a Diameter application, called Diameter Parameter Query, which allows a Location Information Server to interact with a Diameter server to obtain information needed for the location determination procedure.  The style of the described Diameter application offers flexibility for different deployments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-winterbottom-dime-param-query-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-winterbottom-dime-param-query-00.txt' />
+</reference>

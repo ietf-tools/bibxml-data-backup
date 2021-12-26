@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thatcher-ice-network-cost'>
+<front>
+<title>ICE Network Cost: Dynamically selecting ICE candidate pairs based on relative cost of network interfaces</title>
+
+<author initials='P' surname='Thatcher' fullname='Peter Thatcher'>
+    <organization />
+</author>
+
+<author initials='H' surname='Zhang' fullname='Honghai Zhang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Brandstetter' fullname='Taylor Brandstetter'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This document describes an extension to the Interactive Connectivity Establishment (ICE) that enables ICE agents to exchange information about the relative cost of network interfaces and dynamically choose the selected ICE candidate pair based on the cost of both the local and remote network interfaces.  For example, if a cellular network interface has a higher cost than a Wi-Fi network interface, the ICE agents can use that information to prefer candidate pairs with Wi-Fi rather than cellular when possible, and only use cellular when necessary.  This document additionally describes a second piece of information, network ID, that goes along with the network cost and can be used to know when a network interface has changed, even if two network interfaces have the same network cost.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thatcher-ice-network-cost-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thatcher-ice-network-cost-00.txt' />
+</reference>

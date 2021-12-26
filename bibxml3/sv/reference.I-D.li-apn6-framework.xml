@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-apn6-framework'>
+<front>
+<title>Application-aware IPv6 Networking (APN6) Framework</title>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Peng' fullname='Shuping Peng'>
+    <organization />
+</author>
+
+<author initials='D' surname='Voyer' fullname='Daniel Voyer'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='P' surname='Liu' fullname='Peng Liu'>
+    <organization />
+</author>
+
+<author initials='C' surname='Liu' fullname='Chang Liu'>
+    <organization />
+</author>
+
+<author initials='K' surname='Ebisawa' fullname='Kentaro Ebisawa'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Guichard' fullname='Jim Guichard'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2019' />
+
+<abstract><t>A multitude of applications are carried over the network, which have varying needs for network bandwidth, latency, jitter, and packet loss, etc.  Some new emerging applications (e.g. 5G) have very demanding performance requirements.  However, in current networks, the network and applications are decoupled, that is, the network is not aware of the applications' requirements in a fine granularity. Therefore, it is difficult to provide truly fine-granularity traffic operations for the applications and guarantee their SLA requirements.  This document proposes a new framework, named Application-aware IPv6 Networking (APN6), which makes use of IPv6 encapsulation to convey the application characteristic information such as application identification and its network performance requirements into the network to facilitate service provisioning, perform application-level traffic steering and network resource adjustment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-apn6-framework-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-apn6-framework-00.txt' />
+</reference>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dawra-idr-bgp-ls-sr-service-segments'>
+<front>
+<title>BGP-LS Advertisement of Segment Routing Service Segments</title>
+
+<author initials='G' surname='Dawra' fullname='Gaurav Dawra'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='d' surname='daniel.bernier@bell.ca' fullname='daniel.bernier@bell.ca'>
+    <organization />
+</author>
+
+<author initials='J' surname='Uttaro' fullname='Jim Uttaro'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='H' surname='Elmalky' fullname='Hani Elmalky'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Clad' fullname='Francois Clad'>
+    <organization />
+</author>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>BGP Link-State (BGP-LS) enables distribution of topology information from the network to a Path Computation Engine (PCE) or any controller/application in general so it can learn the network topology.  Service functions are deployed as virtualized elements along with network elements or on servers in data centers.  The advertisement of such attached service capabilities along with the network nodes that they are attached to or associated with enable their discovery and for programming of service paths that use these service functions.  Segment Routing (SR) bring in the concept of segments which can be topological or service instructions.  SR Policies enable setup of paths which are a mix of topological and service segments.  This document specifies the extensions to BGP-LS for discovery and advertisement of service segments so as to enable setup of service programming paths using Segment Routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dawra-idr-bgp-ls-sr-service-segments-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dawra-idr-bgp-ls-sr-service-segments-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-dkim-tpa-ssp'>
+<front>
+<title>DKIM Third-Party Authorization for Sender Signer Practices</title>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2007' />
+
+<abstract><t>TPA-SSP (DKIM Third-Party Authorization for Sender Signing Practices) is a DNS-based label prefix mechanism to provide a means to authorize Third-Party signing domains in a scalable fashion. This mechanism eliminates complex coordination of selector/key DNS records, DNS zone delegation, or exchanges of public/private keys otherwise required to facilitate desired authorizations. Checking Sender Signing Practices occurs in common cases where an originating email-address of concern is not within a DKIM signing domain. In which case, the email- address has not been signed, or is signed by a Third-Party domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-dkim-tpa-ssp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-dkim-tpa-ssp-00.txt' />
+</reference>

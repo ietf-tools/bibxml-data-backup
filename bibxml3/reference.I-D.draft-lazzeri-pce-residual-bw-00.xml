@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lazzeri-pce-residual-bw'>
+<front>
+<title>Extensions to the Path Computation Element Protocol (PCEP) for residual path bandwidth support</title>
+
+<author initials='F' surname='Lazzeri' fullname='Francesco Lazzeri'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<date month='May' day='12' year='2017' />
+
+<abstract><t>The ability of a hierarchy of PCEs to compute accurate end-to-end paths across multiple domains is recognized as an important requirement in many applications. This document describes extensions to the PCE Communication Protocol (PCEP) in order to provide new path-related bandwidth metrics, which a PCC, like a H-PCE (either stateful or stateless), can use from an erstwhile path computation to deploy multiple LSPs (having the same end-points and constraints) without additional requests, until either the remaining bandwidth along that path is all allocated or a deployment fails. This information would also be beneficial for implementing abstractions of the domain topology, building the abstract connectivity incrementally, based only on really used constraints, as soon as path computation results are returned.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lazzeri-pce-residual-bw-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lazzeri-pce-residual-bw-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xie-bier-mvpn-mpls-p2mp'>
+<front>
+<title>Multicast VPN Using MPLS P2MP and BIER</title>
+
+<author initials='J' surname='Xie' fullname='Jingrong Xie'>
+    <organization />
+</author>
+
+<author initials='M' surname='McBride' fullname='Mike McBride'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='L' surname='Geng' fullname='Liang Geng'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2018' />
+
+<abstract><t>MVPN is a widely deployed multicast service with mLDP or RSVP-TE P2MP as the P-tunnel.  Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding without requiring intermediate routers to maintain any per-flow state by using a multicast-specific BIER header.  This document introduces a seamless transition mechanism from legacy MVPN using mLDP/RSVP-TE P2MP to MVPN using BIER by combining P2MP and BIER to form a P2MP based BIER as the P-tunnel.  This will leverage the widely supported P2MP capability in both data-plane and control-plane, and will help introducing BIER in existing multicast networks to shift multicast delivery from MVPN using mLDP/RSVP-TE P2MP by two means: It is easier and more efficient for legacy routers to support BIER forwarding on the basis of widely supported P2MP forwarding, and it is more seamless for existing multicast networks to deploy BIER when some routers do not support BIER forwarding.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xie-bier-mvpn-mpls-p2mp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xie-bier-mvpn-mpls-p2mp-02.txt' />
+</reference>

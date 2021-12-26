@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc8182.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc8182.txt</link>
+        <title>RFC 8182: The RPKI Repository Delta Protocol (RRDP), T. Bruijnzeels, O. Muravskiy, B. Weber, R. Austein</title>
+        <dc:date>2017-07-01T23:00:00-00:00</dc:date>
+        <description>In the Resource Public Key Infrastructure (RPKI), Certificate Authorities (CAs) publish certificates, including end-entity certificates, Certificate Revocation Lists (CRLs), and RPKI signed objects to repositories.  Relying Parties retrieve the published information from those repositories.  This document specifies a new RPKI Repository Delta Protocol (RRDP) for this purpose.  RRDP was specifically designed for scaling.  It relies on an Update Notification File which lists the current Snapshot and Delta Files that can be retrieved using HTTPS (HTTP over Transport Layer Security (TLS)), and it enables the use of Content Distribution Networks (CDNs) or other caching infrastructures for the retrieval of these files. </description>
+    </item>
+

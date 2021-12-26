@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fujiwara-dnsop-fragment-attack'>
+<front>
+<title>Measures against cache poisoning attacks using IP fragmentation in DNS</title>
+
+<author initials='K' surname='Fujiwara' fullname='Kazunori Fujiwara'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2019' />
+
+<abstract><t>Researchers proposed DNS cache poisoning attacks using IP fragmentation.  This document shows feasible and adequate measures at full-service resolvers against these attacks.  To protect resolvers from these attacks, avoid fragmentation (limit requestor's UDP payload size to 1220/1232), drop fragmented UDP DNS responses and use TCP at resolver side.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fujiwara-dnsop-fragment-attack-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fujiwara-dnsop-fragment-attack-00.txt' />
+</reference>

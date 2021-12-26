@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-kitten-rfc5653bis'>
+<front>
+<title>Generic Security Service API Version 2: Java Bindings Update</title>
+
+<author initials='M' surname='Upadhyay' fullname='Mayank Upadhyay'>
+    <organization />
+</author>
+
+<author initials='S' surname='Malkani' fullname='Seema Malkani'>
+    <organization />
+</author>
+
+<author initials='W' surname='Weijun' fullname='Wang Weijun'>
+    <organization />
+</author>
+
+<date month='April' day='6' year='2016' />
+
+<abstract><t>The Generic Security Services Application Program Interface (GSS-API) offers application programmers uniform access to security services atop a variety of underlying cryptographic mechanisms.  This document updates the Java bindings for the GSS-API that are specified in "Generic Security Service API Version 2 : Java Bindings Update" (RFC 5653).  This document obsoletes RFC 5653 by adding a new output token field to the GSSException class so that when the initSecContext or acceptSecContext methods of the GSSContext class fails it has a chance to emit an error token which can be sent to the peer for debugging or informational purpose.  The stream-based GSSContext methods are also removed in this version.  The GSS-API is described at a language-independent conceptual level in "Generic Security Service Application Program Interface Version 2, Update 1" (RFC 2743).  The GSS-API allows a caller application to authenticate a principal identity, to delegate rights to a peer, and to apply security services such as confidentiality and integrity on a per-message basis.  Examples of security mechanisms defined for GSS- API are "The Simple Public-Key GSS-API Mechanism" (RFC 2025) and "The Kerberos Version 5 Generic Security Service Application Program Interface (GSS-API) Mechanism: Version 2" (RFC 4121).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-kitten-rfc5653bis-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-kitten-rfc5653bis-03.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hfa-bier-pim-signaling'>
+<front>
+<title>PIM Signaling Through BIER Core</title>
+
+<author initials='H' surname='Bidgoli' fullname='Hooman Bidgoli'>
+    <organization />
+</author>
+
+<author initials='A' surname='Dolganow' fullname='Andrew Dolganow'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kotalwar' fullname='Jayant Kotalwar'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xu' fullname='Fengman Xu'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='m' surname='mishra' fullname='mankamana mishra'>
+    <organization />
+</author>
+
+<date month='February' day='7' year='2018' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) is an architecture that provides multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain multicast related per-flow state.  Neither does BIER require an explicit tree-building protocol for its operation.  A multicast data packet enters a BIER domain at a "Bit-Forwarding Ingress Router" (BFIR), and leaves the BIER domain at one or more "Bit-Forwarding Egress Routers" (BFERs).  The BFIR router adds a BIER header to the packet.  Such header contains a bit-string in which each bit represents exactly one BFER to forward the packet to.  The set of BFERs to which the multicast packet needs to be forwarded is expressed by the according set of bits switched on in BIER packet header.  This document describes the procedure needed for PIM Joins and Prunes to be signaled through a BIER core. Allowing PIM routers to run traditional PIM multicast services through a BIER core.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hfa-bier-pim-signaling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hfa-bier-pim-signaling-01.txt' />
+</reference>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7633' target='https://www.rfc-editor.org/info/rfc7633'>
+<front>
+<title>X.509v3 Transport Layer Security (TLS) Feature Extension</title>
+<author initials='P.' surname='Hallam-Baker' fullname='P. Hallam-Baker'><organization /></author>
+<date year='2015' month='October' />
+<abstract><t>The purpose of the TLS feature extension is to prevent downgrade attacks that are not otherwise prevented by the TLS protocol.  In particular, the TLS feature extension may be used to mandate support for revocation checking features in the TLS protocol such as Online Certificate Status Protocol (OCSP) stapling.  Informing clients that an OCSP status response will always be stapled permits an immediate failure in the case that the response is not stapled.  This in turn prevents a denial-of-service attack that might otherwise be possible.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7633'/>
+<seriesInfo name='DOI' value='10.17487/RFC7633'/>
+</reference>

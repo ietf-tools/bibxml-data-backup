@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-6man-service-aware-ipv6-network'>
+<front>
+<title>Service-aware IPv6 Network</title>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Peng' fullname='Shuping Peng'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>A multitude of applications are carried over the network, which have varying needs for network bandwidth, latency, jitter, and packet loss, etc.  Some applications such as online gaming and live video streaming have very demanding network requirements thereof require special treatments in the network.  However, since the current network is lack of enough information of service requirements of such applications it is difficult to guarantee the SLA or it may take long time to provide such guarantee.  This document proposes the solution to make use of IPv6 extensions header to convey the service requirement information along with the packet to the network to facilitate the service deployment and network resource adjustment to guarantee SLA for applications.  Then it defines the service-aware options which can be used in the different IPv6 extension headers for the purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-6man-service-aware-ipv6-network-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-6man-service-aware-ipv6-network-00.txt' />
+</reference>

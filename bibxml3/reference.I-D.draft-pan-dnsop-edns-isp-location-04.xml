@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pan-dnsop-edns-isp-location'>
+<front>
+<title>ISP Location in DNS Queries</title>
+
+<author initials='P' surname='Lanlan' fullname='Pan Lanlan'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fu' fullname='Yu Fu'>
+    <organization />
+</author>
+
+<date month='March' day='26' year='2018' />
+
+<abstract><t>Nowadays, many Authoritative Nameservers support GeoIP feature, they guess the user's geolocation by the client subnet of EDNS Client Subnet (ECS) or by the source IP address of DNS query, return tailor DNS response based on the user's geolocation.  However, ECS raises some privacy concerns because it leaks client subnet information on the resolution path to the Authoritative Nameserver.  This document is inspired by EDNS Client Subnet (ECS), describes an improved solution for GeoIP-enabled Authoritative Nameservers, defines an EDNS ISP Location (EIL) extension to address the privacy problem of ECS, tries to find the right balance between privacy improvement and user experience optimization.  EIL is defined to convey isp location &lt; COUNTRY, AREA, ISP > information that is relevant to the DNS message.  It will directly provide the same sufficient information for the GeoIP-enabled Authoritative Nameserver as ECS, to decide the response without guessing geolocation of the IP address.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pan-dnsop-edns-isp-location-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pan-dnsop-edns-isp-location-04.txt' />
+</reference>

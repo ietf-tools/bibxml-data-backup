@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.roca-fecframe-ldpc'>
+<front>
+<title>LDPC-Staircase Forward Error Correction (FEC) Schemes for FECFRAME</title>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<author initials='M' surname='Cunche' fullname='Mathieu Cunche'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lacan' fullname='Jerome Lacan'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2009' />
+
+<abstract><t>This document describes two fully-specified FEC schemes for LDPC- Staircase codes that can be used to protect media streams along the lines defined by the FECFRAME framework.  It inherits from RFC5170 the specifications of LDPC-Staircase codes.  More specifically, these codes belong to the well-known class of "Low Density Parity Check" codes.  They are large block FEC codes, in the sense of RFC3453, since they can efficiently deal with a large number of source symbols.  They are also systematic codes, since the source symbols are part of the encoding symbols.  Finally, they can perform close to ideal codes in many use-cases, since decoding is often possible after receiving a small number of encoding symbols in addition to the strict minimum, while keeping very high encoding and decoding throughputs with a software codec.  LDPC-Staircase codes are therefore a good solution for the protection of high bitrate ADU flows, or when several mid-bitrate flows are protected together by a single FECFRAME instance.  They are also a good solution whenever the processing load of a software encoder or decoder must be kept to a minimum.  The first scheme describes the use of LDPC-Staircase codes in a FECFRAME instance in order to protect arbitrary ADU flows.  The second scheme is similar to the first scheme, with the exception that it is for a single sequenced ADU flow.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-roca-fecframe-ldpc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-roca-fecframe-ldpc-00.txt' />
+</reference>

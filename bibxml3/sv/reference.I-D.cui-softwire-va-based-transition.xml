@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cui-softwire-va-based-transition'>
+<front>
+<title>VA-Based IPv6 Transition</title>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wang' fullname='Shengling Wang'>
+    <organization />
+</author>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='X' surname='Li' fullname='Xing Li'>
+    <organization />
+</author>
+
+<date month='May' day='22' year='2009' />
+
+<abstract><t>With the increasing deployment of IPv6 networks, IPv6 transition has become one of the key problems in developing IPv6 networks.  Among various transition scenarios, one is common where connectivity between IPv4 networks is desired across IPv6-only backbone network. In such case, ISP operating the IPv6 backbone will accommodate connectivity and offer transit services for attached IPv4 networks. Softwire WG defined softwire mesh mechanism for both of the IPv4- over-IPv6 scenario and the opposite scenario of IPv6-over-IPv4. Softwire mesh uses automatic softwire tunnels employing multi- protocol BGP extensions for distributing IPv4 routes, where BGP and tunnuls should be configured or setup as a full-mesh architecture. This draft, however, proposed an aggregated, centralized mechanism similar to Virtual Aggregation (VA) mechanism, which can significantly shrink the forwarding information base (FIB) size of Address Family Border Routers (AFBRs), reduce the total amount of routing activity, and provide the IPv6 ISP with an easy way to manage the transit service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cui-softwire-va-based-transition-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cui-softwire-va-based-transition-00.txt' />
+</reference>

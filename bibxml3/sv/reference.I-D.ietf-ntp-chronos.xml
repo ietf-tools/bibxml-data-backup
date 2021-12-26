@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ntp-chronos'>
+<front>
+<title>A Secure Selection and Filtering Mechanism for the Network Time Protocol</title>
+<author initials='N' surname='Schiff' fullname='Neta Schiff'>
+<organization />
+</author>
+<author initials='D' surname='Dolev' fullname='Danny Dolev'>
+<organization />
+</author>
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+<organization />
+</author>
+<author initials='M' surname='Schapira' fullname='Michael Schapira'>
+<organization />
+</author>
+<date year='2021' month='August' day='21' />
+<abstract><t>The Network Time Protocol version 4 (NTPv4), as defined in RFC 5905, is the mechanism used by NTP clients to synchronize with NTP servers across the Internet.  This document specifies an extension to the NTPv4 client, named Chronos, which is used as a &quot;watchdog&quot; alongside NTPv4, and provides improved security against time shifting attacks. Chronos involves changes to the NTP client's system process only and is backwards compatible with NTPv4 servers.  Chronos is also applicable to the emerging NTPv5, since it does not affect the wire protocol.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-ntp-chronos-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-ntp-chronos-03.txt'/>
+</reference>

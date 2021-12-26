@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-disco-proto-ospf'>
+<front>
+<title>OSPF protocol extensions for Path Computation Element (PCE) Discovery</title>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2007' />
+
+<abstract><t>There are various circumstances where it is highly desirable for a Path Computation Client (PCC) to be able to dynamically and automatically discover a set of Path Computation Elements (PCE), along with some of information that can be used for PCE selection. When the PCE is a Label Switching Router (LSR) participating in the Interior Gateway Protocol (IGP), or even a server participating passively in the IGP, a simple and efficient way to discover PCEs consists of using IGP flooding. For that purpose, this document defines extensions to the Open Shortest Path First (OSPF) routing protocol for the advertisement of PCE Discovery information within an OSPF area or within the entire OSPF routing domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-disco-proto-ospf-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-disco-proto-ospf-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mboned-driad-amt-discovery'>
+<front>
+<title>DNS Reverse IP AMT Discovery</title>
+
+<author initials='J' surname='Holland' fullname='Jake Holland'>
+    <organization />
+</author>
+
+<date month='January' day='25' year='2019' />
+
+<abstract><t>This document updates RFC 7450 (AMT) by extending the relay discovery process to use a new DNS resource record for source-specific AMT relay discovery when joining source-specific multicast channels.  A multicast sender configures a reverse IP DNS zone with the new AMTRELAY RR (defined in this document) to advertise a set of relays that can receive and forward multicast traffic from that sender inside a unicast AMT tunnel, in order to transit non-multicast- capable network segments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mboned-driad-amt-discovery-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mboned-driad-amt-discovery-00.txt' />
+</reference>

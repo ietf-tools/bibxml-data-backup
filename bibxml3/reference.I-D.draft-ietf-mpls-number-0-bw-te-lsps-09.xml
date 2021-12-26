@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-number-0-bw-te-lsps'>
+<front>
+<title>A Link-Type sub-TLV to convey the number of Traffic Engineering Label  Switched Paths signalled with zero reserved bandwidth across a link</title>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<author initials='M' surname='Meyer' fullname='Matthew Meyer'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kumaki' fullname='Kenji Kumaki'>
+    <organization />
+</author>
+
+<author initials='A' surname='Bonda' fullname='Alberto Bonda'>
+    <organization />
+</author>
+
+<date month='February' day='6' year='2008' />
+
+<abstract><t>Several Link-type sub-TLVs have been defined for OSPF and IS-IS in the context of Multiprotocol Label Switching (MPLS) Traffic Engineering (TE) in order to advertise some link characteristics such as the available bandwidth, traffic engineering metric, administrative group and so on.  By making statistical assumption about the aggregated traffic carried onto a set of TE Label Switched Paths (LSPs) signalled with zero bandwith (referred to as unconstrained TE LSP in this document), and with the knowledge of the number of unconstrained TE LSPs signalled across a link, algorithms can be designed to load balance (existing or newly configured) unconstrained TE LSP across a set of equal cost paths.  This requires knowledge of the number of unconstrained TE LSPs signalled across a link.  This document specifies a new Link-type Traffic Engineering sub-TLV used to advertise the number of unconstrained TE LSP(s) signalled across a link.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-number-0-bw-te-lsps-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-number-0-bw-te-lsps-09.txt' />
+</reference>

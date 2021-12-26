@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rtgwg-enterprise-pa-multihoming'>
+<front>
+<title>Enterprise Multihoming using Provider-Assigned IPv6 Addresses without Network Prefix Translation: Requirements and Solution</title>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='J' surname='Linkova' fullname='Jen Linkova'>
+    <organization />
+</author>
+
+<date month='May' day='17' year='2019' />
+
+<abstract><t>Connecting an enterprise site to multiple ISPs using provider- assigned addresses is difficult without the use of some form of Network Address Translation (NAT).  Much has been written on this topic over the last 10 to 15 years, but it still remains a problem without a clearly defined or widely implemented solution.  Any multihoming solution without NAT requires hosts at the site to have addresses from each ISP and to select the egress ISP by selecting a source address for outgoing packets.  It also requires routers at the site to take into account those source addresses when forwarding packets out towards the ISPs.  This document attempts to define a complete solution to this problem. It covers the behavior of routers to forward traffic taking into account source address, and it covers the behavior of host to select appropriate source addresses.  It also covers any possible role that routers might play in providing information to hosts to help them select appropriate source addresses.  In the process of exploring potential solutions, this document also makes explicit requirements for how the solution would be expected to behave from the perspective of an enterprise site network administrator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rtgwg-enterprise-pa-multihoming-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-enterprise-pa-multihoming-08.txt' />
+</reference>

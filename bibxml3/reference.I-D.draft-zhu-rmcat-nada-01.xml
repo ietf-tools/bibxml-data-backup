@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhu-rmcat-nada'>
+<front>
+<title>NADA: A Unified Congestion Control Scheme for Real-Time Media</title>
+
+<author initials='X' surname='Zhu' fullname='Xiaoqing Zhu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pan' fullname='Rong Pan'>
+    <organization />
+</author>
+
+<date month='March' day='12' year='2013' />
+
+<abstract><t>This document describes a scheme named network-assisted dynamic adaptation (NADA), a novel congestion control approach for interactive real-time media applications, such as video conferencing. In the proposed scheme, the sender regulates its sending rate based on either implicit or explicit congestion signaling, in a unified approach. The scheme can benefit from explicit congestion notification (ECN) markings from network nodes. It also maintains consistent sender behavior in the absence of such markings, by reacting to queuing delays and packet losses instead.  We present here the overall system architecture, recommended behaviors at the sender and the receiver, as well as expected network node operations. Results from extensive simulation studies of the proposed scheme are available upon request.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhu-rmcat-nada-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhu-rmcat-nada-01.txt' />
+</reference>

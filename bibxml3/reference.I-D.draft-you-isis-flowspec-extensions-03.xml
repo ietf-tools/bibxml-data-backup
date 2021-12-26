@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.you-isis-flowspec-extensions'>
+<front>
+<title>IS-IS Extensions for Flow Specification</title>
+
+<author initials='J' surname='You' fullname='Jianjie You'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='P' surname='Fan' fullname='Peng Fan'>
+    <organization />
+</author>
+
+<date month='December' day='2' year='2015' />
+
+<abstract><t>Dissemination of the Traffic flow information was first introduced in the BGP protocol [RFC5575].  FlowSpec rules are used to distribute traffic filtering rules that are used to filter Denial-of-Service (DoS) attacks.  For the networks that only deploy IS-IS or IS-IS variant, it is required that the IGP is extended to distribute Flow Specification or FlowSpec rules.  This document discusses the use cases for distributing flow specification (FlowSpec) routes using IS-IS.  Furthermore, this document defines a new IS-IS FlowSpec Reachability TLV encoding format that can be used to distribute FlowSpec rules, its validation procedures for imposing the filtering information on the routers, and a capability to indicate the support of FlowSpec functionality.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-you-isis-flowspec-extensions-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-you-isis-flowspec-extensions-03.txt' />
+</reference>

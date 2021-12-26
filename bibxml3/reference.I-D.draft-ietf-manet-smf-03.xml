@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-manet-smf'>
+<front>
+<title>Simplified Multicast Forwarding for MANET</title>
+
+<author initials='J' surname='Macker' fullname='Joseph Macker'>
+    <organization />
+</author>
+
+<date month='October' day='12' year='2006' />
+
+<abstract><t>This document describes the Simplified Multicast Forwarding (SMF) protocol that provides a basic IP multicast forwarding capability suitable for mobile ad-hoc networks (MANET). SMF is designed to have limited applicability as a forwarding mechanism for multicast packets within MANET routing areas. In addition, it provides mechanisms to support interoperability with a connected fixed-infrastructure networks. SMF uses a simplified forwarding mechanism that delivers multicast packets to all MANET multicast receivers within a MANET routing area. The core design does not use receiver specific group information in favor of reduced complexity and state maintenance within the mobile topology. Group-specific extensions may follow in later specifications. The design accounts for the unique nature and behavior of MANET interfaces and takes advantage of efficient relay set algorithms previously designed and applied in the MANET routing control plane. This document describes the SMF forwarding mechanisms in detail, its use with the MANET Neighborhood Discovery Protocol (NHDP), and several efficient relay set algorithms specified for use in conjunction with SMF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-manet-smf-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-manet-smf-03.txt' />
+</reference>

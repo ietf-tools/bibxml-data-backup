@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-t2trg-rel-impl'>
+<front>
+<title>impl-info: A link relation type for disclosing implementation information</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='January' day='28' year='2018' />
+
+<abstract><t>When debugging an interoperability problem, it is often helpful to have information about the implementation version of a peer.  To enable the disclosure of such information, HTTP defines header fields such as Server and User-Agent.  In CoAP, it is rarely appropriate to send information of this kind in every request or response.  Instead, the present specification defines a link relation type, impl-info, that can be used to convey this information via the self-description capabilities of the /.well- known/core resource and the CoRE resource directory.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-t2trg-rel-impl-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-t2trg-rel-impl-00.txt' />
+</reference>

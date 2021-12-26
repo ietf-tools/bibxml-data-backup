@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.faibish-nfsv4-scsi-nvme-layout'>
+<front>
+<title>Using the Parallel NFS (pNFS) SCSI/NVMe Layout</title>
+
+<author initials='S' surname='Faibish' fullname='Sorin Faibish'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<author initials='C' surname='Hellwig' fullname='Christoph Hellwig'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2020' />
+
+<abstract><t>This document explains how to use the Parallel Network File System (pNFS) SCSI NVMe Layout Types with transports using the NVMe over Fabrics protocols. This draft picks the previous SCSI over NVMe draft of C. Hellwig and extended it to support all the types of transport protocols supported by NVMe transport over fabrics additional to the SCSI transport protocol introduced in pNFS SCSI Layout. The proposed transport protocols include support for several transports and fabrics and support the RDMA transports.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-faibish-nfsv4-scsi-nvme-layout-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-faibish-nfsv4-scsi-nvme-layout-00.txt' />
+</reference>

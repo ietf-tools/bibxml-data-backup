@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3581' target='https://www.rfc-editor.org/info/rfc3581'>
+<front>
+<title>An Extension to the Session Initiation Protocol (SIP) for Symmetric Response Routing</title>
+<author initials='J.' surname='Rosenberg' fullname='J. Rosenberg'><organization /></author>
+<author initials='H.' surname='Schulzrinne' fullname='H. Schulzrinne'><organization /></author>
+<date year='2003' month='August' />
+<abstract><t>The Session Initiation Protocol (SIP) operates over UDP and TCP, among others.  When used with UDP, responses to requests are returned to the source address the request came from, and to the port written into the topmost Via header field value of the request.  This behavior is not desirable in many cases, most notably, when the client is behind a Network Address Translator (NAT).  This extension defines a new parameter for the Via header field, called &quot;rport&quot;, that allows a client to request that the server send the response back to the source IP address and port from which the request originated.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3581'/>
+<seriesInfo name='DOI' value='10.17487/RFC3581'/>
+</reference>

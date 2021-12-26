@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-rsvp-te-exclude-route'>
+<front>
+<title>Exclude Routes - Extension to RSVP-TE</title>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<date month='November' day='21' year='2006' />
+
+<abstract><t>The RSVP-TE specification, "RSVP-TE: Extensions to RSVP for LSP Tunnels" (RFC 3209) and GMPLS extensions to RSVP-TE, "Generalized Multi-Protocol Label Switching (GMPLS) Signaling Resource ReserVation Protocol-Traffic Engineering (RSVP-TE) Extensions" (RFC 3473) allow abstract nodes and resources to be explicitly included in a path setup, but not to be explicitly excluded. In some networks where precise explicit paths are not computed at the head end it may be useful to specify and signal abstract nodes and resources that are to be explicitly excluded from routes. These exclusions may apply to the whole path, or to parts of a path between two abstract nodes specified in an explicit path. How Shared Risk Link Groups (SLRGs) can be excluded is also specified in this document. This document specifies ways to communicate route exclusions during path setup using RSVP-TE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-rsvp-te-exclude-route-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-rsvp-te-exclude-route-06.txt' />
+</reference>

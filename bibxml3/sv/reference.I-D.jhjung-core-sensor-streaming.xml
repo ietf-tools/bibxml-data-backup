@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jhjung-core-sensor-streaming'>
+<front>
+<title>CoAP Sensor Streaming Using Buffer Control</title>
+
+<author initials='J' surname='Jung' fullname='Joong-Hwa Jung'>
+    <organization />
+</author>
+
+<author initials='D' surname='Choi' fullname='Dong-Kyu Choi'>
+    <organization />
+</author>
+
+<author initials='S' surname='Koh' fullname='Seok Koh'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>As the Internet of Things (IoT) technology grows with the development of wireless communication and sensors, many people are interested in Constrained Application Protocol (CoAP), which is the representative protocol of the IoT. In addition, attempts have been made to apply CoAP to sensors that support existing real-time streaming services. However, the CoAP is not suitable for services to support streaming services such as smart band and CCTV. To overcome this drawback, there is an extension called CoAP Observe, but streaming services using CoAP Observe imposes a load on the server, which is not suitable for environments where low power devices act as servers, such as data transfer between sensors and gateways. In this specification, we are considering the situation in which the sensor acts as a server, and in this environment, we define one mechanism to provide efficient streaming service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jhjung-core-sensor-streaming-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jhjung-core-sensor-streaming-00.txt' />
+</reference>

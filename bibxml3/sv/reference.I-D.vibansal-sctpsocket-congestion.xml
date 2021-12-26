@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vibansal-sctpsocket-congestion'>
+<front>
+<title>SCTP Sockets API Extension for Congestion Handling</title>
+
+<author initials='V' surname='Bansal' fullname='Vivek Bansal'>
+    <organization />
+</author>
+
+<author initials='R' surname='Ezhirpavai' fullname='R  Ezhirpavai'>
+    <organization />
+</author>
+
+<date month='December' day='7' year='2004' />
+
+<abstract><t>This draft defines extension to the SCTP Socket API draft[1] for Congestion Handling. SCTP Protocol has been widely accepted by the VoIP forum. SIGTRAN protocols (M3UA/SUA/M2UA/M2PA etc) provide procedures for handling congestion notification from the SCTP Stack layer. This draft provides mechanism for SCTP applications to enable/ disable notification of congestion indications over SCTP Socket Interface. This draft suggests notification to application at onset and abatement of congestion.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vibansal-sctpsocket-congestion-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vibansal-sctpsocket-congestion-00.txt' />
+</reference>

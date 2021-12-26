@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6lowpan-hc'>
+<front>
+<title>Compression Format for IPv6 Datagrams in 6LoWPAN Networks</title>
+
+<author initials='J' surname='Hui' fullname='Jonathan Hui'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<date month='December' day='8' year='2008' />
+
+<abstract><t>This document specifies an IPv6 header compression format for IPv6 packet delivery in 6LoWPAN networks.  The compression format relies on shared context information to allow compression of arbitrary prefixes and addresses.  This document specifies an interface to an abstract context database but the content and the management of the database are out of scope.  This document specifies compression of multicast addresses and a framework for compressing next headers. This framework specifies UDP compression and is prepared for additional transports.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6lowpan-hc-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6lowpan-hc-04.txt' />
+</reference>

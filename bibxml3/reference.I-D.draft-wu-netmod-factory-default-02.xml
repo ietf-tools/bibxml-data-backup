@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-netmod-factory-default'>
+<front>
+<title>Factory default Setting</title>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Lengyel' fullname='Balazs Lengyel'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Niu' fullname='Ye Niu'>
+    <organization />
+</author>
+
+<date month='November' day='29' year='2018' />
+
+<abstract><t>This document defines a method to reset a YANG datastore to its factory-default content.  The reset operation may be used e.g. during initial zero-touch configuration or when the existing configuration has major errors, so re-starting the configuration process from scratch is the best option.  A new reset-datastore RPC is defined.  Several methods of documenting the factory-default content are specified.  Optionally a new "factory-default-running" read-only datastore is defined, that contains the data that will be copied over to the running datastore at reset.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-netmod-factory-default-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-netmod-factory-default-02.txt' />
+</reference>

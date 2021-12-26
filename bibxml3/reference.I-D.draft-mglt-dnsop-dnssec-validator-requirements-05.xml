@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-dnsop-dnssec-validator-requirements'>
+<front>
+<title>DNSSEC Validators Requirements</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='y' surname='york@isoc.org' fullname='york@isoc.org'>
+    <organization />
+</author>
+
+<author initials='E' surname='Lewis' fullname='Edward Lewis'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2017' />
+
+<abstract><t>DNSSEC provides data integrity and source authentication to a basic DNS RRset.  Given a RRset, a public key and a signature, a DNSSEC validator checks the signature, time constraints, and other, local, policies.  In case of mismatch the RRSet is considered illegitimate and is rejected.  Accuracy in DNSSEC validation, that is, avoiding false positives and catching true negatives, requires that both the signing process and validation process adhere to the protocol, which begins with external configuration parameters.  This document describes requirements for a validator to be able to perform accurate validation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-dnsop-dnssec-validator-requirements-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-dnsop-dnssec-validator-requirements-05.txt' />
+</reference>

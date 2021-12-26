@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-webdav-redirectref-protocol'>
+<front>
+<title>Web Distributed Authoring and Versioning (WebDAV) Redirect Reference  Resources</title>
+
+<author initials='J' surname='Whitehead' fullname='Jim Whitehead'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2005' />
+
+<abstract><t>This specification defines redirect reference resources. A redirect reference resource is a resource whose default response is an HTTP/1.1 3xx (Redirection) status code (see RFC2616, Section 10.3), redirecting the client to a different resource, the target resource. A redirect reference makes it possible to access the target resource indirectly, through any URI mapped to the redirect reference resource. There are no integrity guarantees associated with redirect reference resources.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-webdav-redirectref-protocol-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-webdav-redirectref-protocol-13.txt' />
+</reference>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7438' target='https://www.rfc-editor.org/info/rfc7438'>
+<front>
+<title>Multipoint LDP (mLDP) In-Band Signaling with Wildcards</title>
+<author initials='IJ.' surname='Wijnands' fullname='IJ. Wijnands' role='editor'><organization /></author>
+<author initials='E.' surname='Rosen' fullname='E. Rosen'><organization /></author>
+<author initials='A.' surname='Gulko' fullname='A. Gulko'><organization /></author>
+<author initials='U.' surname='Joorde' fullname='U. Joorde'><organization /></author>
+<author initials='J.' surname='Tantsura' fullname='J. Tantsura'><organization /></author>
+<date year='2015' month='January' />
+<abstract><t>There are scenarios in which an IP multicast tree traverses an MPLS domain.  In these scenarios, it can be desirable to convert the IP multicast tree &quot;seamlessly&quot; into an MPLS Multipoint Label Switched Path (MP-LSP) when it enters the MPLS domain, and then to convert it back to an IP multicast tree when it exits the MPLS domain.  Previous documents specify procedures that allow certain kinds of IP multicast trees (either Source-Specific Multicast trees or Bidirectional Multicast trees) to be attached to an MPLS Multipoint Label Switched Path (MP-LSP).  However, the previous documents do not specify procedures for attaching IP Any-Source Multicast trees to MP-LSPs, nor do they specify procedures for aggregating multiple IP multicast trees onto a single MP-LSP.  This document specifies the procedures to support these functions.  It does so by defining &quot;wildcard&quot; encodings that make it possible to specify, when setting up an MP- LSP, that a set of IP multicast trees, or a shared IP multicast tree, should be attached to that MP-LSP.  Support for non-bidirectional IP Any-Source Multicast trees is subject to certain applicability restrictions that are discussed in this document.  This document updates RFCs 6826 and 7246.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7438'/>
+<seriesInfo name='DOI' value='10.17487/RFC7438'/>
+</reference>

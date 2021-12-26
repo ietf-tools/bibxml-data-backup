@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-kitten-gssapi-domain-based-names'>
+<front>
+<title>GSS-API Internationalization and Domain-Based Service Names and Name Type</title>
+
+<author initials='N' surname='Williams' fullname='Nicolas Williams'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>This document describes domainname-based service principal names and the corresponding name type for the Generic Security Service Application Programming Interface (GSS-API). Internationalization of the GSS-API is also covered. Domain-based service names are similar to host-based service names, but using a domain name (not necessarily an Internet domain name) in addition to a hostname. The primary purpose of domain-based names is to provide a measure of protection to applications that utilize insecure service discovery protocols. This is achieved by providing a way to name clustered services after the "domain" which they service, thereby allowing their clients to authorize the service's servers based on authentication of their service names.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-kitten-gssapi-domain-based-names-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-kitten-gssapi-domain-based-names-04.txt' />
+</reference>

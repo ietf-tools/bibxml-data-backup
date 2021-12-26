@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kunze-anvl'>
+<front>
+<title>A Name-Value Language (ANVL)</title>
+
+<author initials='J' surname='Kunze' fullname='John Kunze'>
+    <organization />
+</author>
+
+<date month='August' day='29' year='2005' />
+
+<abstract><t>ANVL (A Name-Value Language) is a simple record syntax based on email headers. An ANVL record is a sequence of data elements ending in a blank line. An element consists of a label, a colon, and an optional value, and a long value may be folded (continued) onto the next line by inserting a CRLF and indenting the next line. A value folded across several lines is treated as if the lines were joined on one long line; any line beginning with `#' is treated as a "comment". Example ANVL record: entry: # first draft who: Gilbert, W.S. | Sullivan, Arthur what: The Yeomen of the Guard when/created: 1888</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kunze-anvl-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kunze-anvl-02.txt' />
+</reference>

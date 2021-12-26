@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gruenbacher-nfsv4-file-masks'>
+<front>
+<title>NFSv4 file_masks Attribute</title>
+
+<author initials='A' surname='Gruenbacher' fullname='Andreas Gruenbacher'>
+    <organization />
+</author>
+
+<author initials='J' surname='Fields' fullname='J. Bruce Fields'>
+    <organization />
+</author>
+
+<date month='September' day='24' year='2006' />
+
+<abstract><t>Some NFSv4 servers allow a mode SETATTR to restore ACL permissions which were removed by a previous mode SETATTR. This allows servers to handle mode SETATTRs without destroying the information in ACLs. However, these temporarily masked permissions are not exposed to clients. This proposal adds an optional new file attribute, file_masks, which can be used by clients to see these temporarily masked permissions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gruenbacher-nfsv4-file-masks-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gruenbacher-nfsv4-file-masks-01.txt' />
+</reference>

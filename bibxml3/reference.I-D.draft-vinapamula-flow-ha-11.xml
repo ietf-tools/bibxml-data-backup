@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vinapamula-flow-ha'>
+<front>
+<title>Application-Initiated Flow High Availability Awareness through PCP</title>
+
+<author initials='S' surname='Vinapamula' fullname='Suresh Vinapamula'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivakumar' fullname='Senthil Sivakumar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='T' surname='Reddy' fullname='Tirumaleswar Reddy'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2015' />
+
+<abstract><t>This document specifies a mechanism for a host to signal via Port Control Protocol (PCP) which connections should be protected against network failures.  These connections will be elected to be subject to high availability mechanisms enabled at the network side.  This approach assumes that applications/users have more visibility about sensitive connections rather than any heuristic that can be enabled at the network side to guess which connections should be check-pointed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vinapamula-flow-ha-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vinapamula-flow-ha-11.txt' />
+</reference>

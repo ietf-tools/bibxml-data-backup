@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc8257.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc8257.txt</link>
+        <title>RFC 8257: Data Center TCP (DCTCP): TCP Congestion Control for Data Centers, S. Bensley, D. Thaler, P. Balasubramanian, L. Eggert, G. Judd</title>
+        <dc:date>2017-10-01T23:00:00-00:00</dc:date>
+        <description>This Informational RFC describes Data Center TCP (DCTCP): a TCP congestion control scheme for data-center traffic.  DCTCP extends the Explicit Congestion Notification (ECN) processing to estimate the fraction of bytes that encounter congestion rather than simply detecting that some congestion has occurred.  DCTCP then scales the TCP congestion window based on this estimate.  This method achieves high-burst tolerance, low latency, and high throughput with shallow- buffered switches.  This memo also discusses deployment issues related to the coexistence of DCTCP and conventional TCP, discusses the lack of a negotiating mechanism between sender and receiver, and presents some possible mitigations.  This memo documents DCTCP as currently implemented by several major operating systems.  DCTCP, as described in this specification, is applicable to deployments in controlled environments like data centers, but it must not be deployed over the public Internet without additional measures. </description>
+    </item>
+

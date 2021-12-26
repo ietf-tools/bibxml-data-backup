@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jin-mip4-ha-switch'>
+<front>
+<title>Mobile IPv4 Home Agent Switch Message</title>
+
+<author initials='M' surname='Jin' fullname='Mingye Jin'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2005' />
+
+<abstract><t>RFC 3344 [2] contains no provision to allow a home agent to inform a mobile node that it needs to stop acting as the home agent for the mobile node. Dynamical Home Agent assignment [3] is designed for assigning a optimal home agent for mobile node, not for proactively notifying a mobile node to change it's home agent. This document specifies a new MIP4 control message that can be used between a home agent and mobile node to signal a mobile node that it should acquire a new home agent.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jin-mip4-ha-switch-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jin-mip4-ha-switch-00.txt' />
+</reference>

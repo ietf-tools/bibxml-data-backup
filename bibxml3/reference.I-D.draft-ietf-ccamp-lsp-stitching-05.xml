@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-lsp-stitching'>
+<front>
+<title>Label Switched Path Stitching with Generalized Multiprotocol Label Switching  Traffic Engineering (GMPLS TE)</title>
+
+<author initials='A' surname='Ayyangar' fullname='Arthi Ayyangar'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2007' />
+
+<abstract><t>In certain scenarios, there may be a need to combine together several Generalized Multi-Protocol Label Switching (GMPLS) Label Switched Paths (LSPs) such that a single end-to-end (e2e) LSP is realized and all traffic from one constituent LSP is switched onto the next LSP. We will refer to this as "LSP stitching", the key requirement being that a constituent LSP not be allocated to more than one e2e LSP. The constituent LSPs will be referred to as "LSP segments" (S-LSPs). This document describes extensions to the existing GMPLS signaling protocol (RSVP-TE) to establish e2e LSPs created from from S-LSPs, and describes how the LSPs can be managed using the GMPLS signaling and routing protocols. It may be possible to configure a GMPLS node to switch the traffic from an LSP for which it is the egress, to another LSP for which it is the ingress, without requiring any signaling or routing extensions whatsoever, completely transparent to other nodes. This will also result in LSP stitching in the data plane. However, this document does not cover this scenario of LSP stitching.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-lsp-stitching-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-lsp-stitching-05.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rao-pitfol'>
+<front>
+<title>Personal Information Tagging for Logs (PITFoL)</title>
+
+<author initials='S' surname='Rao' fullname='Sandeep Rao'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sahib' fullname='Shivan Sahib'>
+    <organization />
+</author>
+
+<author initials='R' surname='Guest' fullname='Ryan Guest'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>Software applications typically generate a large amount of log data in the course of their operation in order to help with monitoring, troubleshooting, etc.  However, like all data generated and operated upon by software systems, logs can contain information sensitive to users.  Personal data identification and anonymization in logs is thus crucial to ensure that no personal data is being inadvertently logged and retained which would make the logging application run afoul of laws around storing private information.  This document focuses on exploring mechanisms to specify personal or sensitive data in logs, to enable any server collecting, processing or analyzing logs to identify personal data and thereafter, potentially enforce any redaction.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rao-pitfol-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rao-pitfol-00.txt' />
+</reference>

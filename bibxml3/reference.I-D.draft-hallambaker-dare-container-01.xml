@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hallambaker-dare-container'>
+<front>
+<title>Data At Rest Encryption: DARE Container</title>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2018' />
+
+<abstract><t>This document describes DARE Container, a message and file syntax that allows a sequence of data frames to be represented with cryptographic integrity, signature and encryption enhancements to be constructed in an append only format.  The format supports data integrity checks using digest chains and Merkle trees.  The simplest supports efficient append only write operations and efficient read operations in either the forward or reverse direction.  Support for efficient random-access reads may be provided through the use of binary trees or index records appended to the end of the file.  This document is also available online at http://mathmesh.com/Documents/draft-hallambaker-dare-container.html [1] .</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hallambaker-dare-container-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hallambaker-dare-container-01.txt' />
+</reference>

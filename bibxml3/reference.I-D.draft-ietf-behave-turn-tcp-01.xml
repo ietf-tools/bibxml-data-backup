@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-behave-turn-tcp'>
+<front>
+<title>Traversal Using Relays around NAT (TURN) Extensions for TCP Allocations</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<author initials='R' surname='Mahy' fullname='Rohan Mahy'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2008' />
+
+<abstract><t>This specification defines an extension of Traversal Using Relays around NAT (TURN), a relay protocol for NAT traversal, to allows a TURN client to request TCP allocations, and defines new requests and indications for the TURN server to open and accept TCP connections with the client's peers.  TURN and this extension both purposefully restrict the ways in which the relayed address can be used.  In particular, it prevents users from running general purpose servers from ports obtained from the STUN server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-behave-turn-tcp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-behave-turn-tcp-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melnikov-5162bis'>
+<front>
+<title>IMAP4 Extensions for Quick Mailbox Resynchronization</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<author initials='D' surname='Cridland' fullname='Dave Cridland'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2012' />
+
+<abstract><t>This document defines an IMAP4 extension, which gives an IMAP client the ability to quickly resynchronize any previously opened mailbox as part of the SELECT command, without the need for server-side state or additional client round-trips.  This extension also introduces a new response that allows for a more compact representation of a list of expunged messages (and always includes the Unique Identifiers (UIDs) expunged).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melnikov-5162bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melnikov-5162bis-00.txt' />
+</reference>

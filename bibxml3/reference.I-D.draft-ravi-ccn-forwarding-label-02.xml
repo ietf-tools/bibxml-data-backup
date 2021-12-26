@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ravi-ccn-forwarding-label'>
+<front>
+<title>Forwarding-Label support in CCN Protocol</title>
+
+<author initials='R' surname='Ravindran' fullname='Ravi Ravindran'>
+    <organization />
+</author>
+
+<author initials='A' surname='Chakraborti' fullname='Asit Chakraborti'>
+    <organization />
+</author>
+
+<author initials='a' surname='aytav.azgin' fullname='aytav.azgin'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>The objective of this proposal is to enable ID and Locator namespace split in the CCN protocol that has several applications such as towards Interest routing optimization, mobility, handling indirections in manifests, and routing scalability.  We enable this through the notion of forwarding-label (FL) object, which is an optional hop-by-hop payload in the Interest message with a locator name which identifies a network domain, router, or a host.  Depending on the application and trust context, an FL object can be subjected to policy based actions by the forwarders such as invoking security verification or enabling other service-centric actions such as FL object replacement.  FL object can be inserted by the applications or by the network.  To enable dynamic name resolution FL objects can also be modified in the network by designated points such as the edge routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ravi-ccn-forwarding-label-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ravi-ccn-forwarding-label-02.txt' />
+</reference>

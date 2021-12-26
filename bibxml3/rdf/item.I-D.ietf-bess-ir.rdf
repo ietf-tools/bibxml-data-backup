@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-bess-ir-05.txt'>
+    <title>"Ingress Replication Tunnels in Multicast VPN", Eric Rosen, Karthik Subramanian, Zhaohui Zhang</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-bess-ir-05.txt</link>
+    <description>RFCs 6513, 6514, and other RFCs describe procedures by which a Service Provider may offer Multicast VPN service to its customers. These procedures create point-to-multipoint (P2MP) or multipoint-to- multipoint trees across the Service Provider's backbone.  One type of P2MP tree that may be used is known as an "Ingress Replication (IR) tunnel".  In an IR tunnel, a parent node need not be "directly connected" to its child nodes.  When a parent node has to send a multicast data packet to its child nodes, it does not use layer 2 multicast, IP multicast, or MPLS multicast to do so.  Rather, it makes n individual copies, and then unicasts each copy, through an IP or MPLS unicast tunnel, to exactly one child node.  While the prior MVPN specifications allow the use of IR tunnels, those specifications are not always very clear or explicit about how the MVPN protocol elements and procedures are applied to IR tunnels.  This document updates RFCs 6513 and 6514 by adding additional details that are specific to the use of IR tunnels.</description>
+    <dc:date>2016-08-15T07:00:00-00:00</dc:date>
+</item>

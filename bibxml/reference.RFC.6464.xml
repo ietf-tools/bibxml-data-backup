@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6464' target='https://www.rfc-editor.org/info/rfc6464'>
+<front>
+<title>A Real-time Transport Protocol (RTP) Header Extension for Client-to-Mixer Audio Level Indication</title>
+<author initials='J.' surname='Lennox' fullname='J. Lennox' role='editor'><organization /></author>
+<author initials='E.' surname='Ivov' fullname='E. Ivov'><organization /></author>
+<author initials='E.' surname='Marocco' fullname='E. Marocco'><organization /></author>
+<date year='2011' month='December' />
+<abstract><t>This document defines a mechanism by which packets of Real-time Transport Protocol (RTP) audio streams can indicate, in an RTP header extension, the audio level of the audio sample carried in the RTP packet.  In large conferences, this can reduce the load on an audio mixer or other middlebox that wants to forward only a few of the loudest audio streams, without requiring it to decode and measure every stream that is received.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6464'/>
+<seriesInfo name='DOI' value='10.17487/RFC6464'/>
+</reference>

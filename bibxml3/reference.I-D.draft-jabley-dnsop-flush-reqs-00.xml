@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jabley-dnsop-flush-reqs'>
+<front>
+<title>Requirements for a Mechanism for Remote-Triggered DNS Cache Flushes</title>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2013' />
+
+<abstract><t>Operational calamaties in the DNS happen from time to time, and in many cases problems persist due to DNS caching of bad data.  Lacking any robust mechanism to signal that bad data has been flushed, the operators of DNS authority servers often resort to unauthenticated requests for help being sent to mailing lists, the results of which are frequently unsatisfying to all concerned.  This document aims to present requirements for a more robust mechanism by which authoritative server operators can signal to recursive server operators that bad data has been published, and that targetted cache flushes may be beneficial.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jabley-dnsop-flush-reqs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jabley-dnsop-flush-reqs-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.brown-ec-2y2-x3-x-mod-8-to-91-plus-5'>
+<front>
+<title>Elliptic curve 2y^2=x^3+x over field size 8^91+5</title>
+
+<author initials='D' surname='Brown' fullname='Dan Brown'>
+    <organization />
+</author>
+
+<date month='April' day='13' year='2018' />
+
+<abstract><t>This document specifies a special elliptic curve with complex multiplication (by i) and a compact description (see title).  This curve is recommended for cryptographic use in a strongest-link combination with dissimilar elliptic curves (e.g. NIST P-256, Curve25519, extension-field curves, etc.)  as a defense in depth against an unlikely, unforeseen attack on otherwise preferred elliptic curves.  The curve equation 2y^2=x^3+x is the Montgomery form of a curve y^2=x^3-x in a class of curves y^2=x^3-ax suggested by Miller in the first published paper elliptic curve cryptography, and an endomorphism usable for efficiency, an idea of Koblitz.  The field size 8^91+5 is prime, and is relatively efficient and compactly described for its bit-size (273 bits).  The document specifies some practical details such as: encoding a point (on the curve) into 34 bytes, public key validation, encoding a private key into 34 bytes, and encoding 34 bytes into a point.  The document also provides pseudocode, motivation, and security considerations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-brown-ec-2y2-x3-x-mod-8-to-91-plus-5-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-brown-ec-2y2-x3-x-mod-8-to-91-plus-5-01.txt' />
+</reference>

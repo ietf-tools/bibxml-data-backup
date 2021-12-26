@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moreno-lisp-uberlay'>
+<front>
+<title>Uberlay Interconnection of Multiple LISP overlays</title>
+<author initials='V' surname='Moreno' fullname='Victor Moreno'>
+<organization />
+</author>
+<author initials='D' surname='Farinacci' fullname='Dino Farinacci'>
+<organization />
+</author>
+<author initials='A' surname='AlbertoRodriguezNatal' fullname='AlbertoRodriguezNatal'>
+<organization />
+</author>
+<author initials='M' surname='Portoles-Comeras' fullname='Marc Portoles-Comeras'>
+<organization />
+</author>
+<author initials='F' surname='Maino' fullname='Fabio Maino'>
+<organization />
+</author>
+<author initials='S' surname='Hooda' fullname='Sanjay Hooda'>
+<organization />
+</author>
+<date year='2021' month='July' day='26' />
+<abstract><t>This document describes the use of the Locator/ID Separation Protocol (LISP) to interconnect multiple disparate and independent network overlays by using a transit overlay.  The transit overlay is referred to as the &quot;uberlay&quot; and provides connectivity and control plane abstraction between different overlays.  Each network overlay may use different control and data plane approaches and may be managed by a different organization.  Structuring the network into multiple network overlays enables the interworking of different overlay approaches to data and control plane methods.  The different network overlays are autonomous from a control and data plane perspective, this in turn enables failure survivability across overlay domains. This document specifies the mechanisms and procedures for the distribution of control plane information across overlay sites and in the uberlay as well as the lookup and forwarding procedures for unicast and multicast traffic within and across overlays.  The specification also defines the procedures to support inter-overlay mobility of EIDs and their integration with the intra-overlay EID mobility procedures defined in draft-ietf-lisp-eid-mobility.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-moreno-lisp-uberlay-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-moreno-lisp-uberlay-04.txt'/>
+</reference>

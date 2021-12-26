@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-oauth-device-flow'>
+<front>
+<title>OAuth 2.0 Device Flow for Browserless and Input Constrained Devices</title>
+
+<author initials='W' surname='Denniss' fullname='William Denniss'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bradley' fullname='John Bradley'>
+    <organization />
+</author>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2018' />
+
+<abstract><t>This OAuth 2.0 authorization flow is designed for devices that either lack a browser to perform a user-agent based OAuth flow, or are input-constrained to the extent that requiring the user to input a lot of text (like their credentials to authenticate with the authorization server) is impractical.  It enables OAuth clients on such devices (like smart TVs, media consoles, digital picture frames, and printers) to obtain user authorization to access protected resources without using an on-device user-agent, provided that they have an Internet connection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-oauth-device-flow-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-device-flow-13.txt' />
+</reference>

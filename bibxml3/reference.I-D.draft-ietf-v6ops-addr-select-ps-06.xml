@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-addr-select-ps'>
+<front>
+<title>Problem Statement of Default Address Selection in Multi-prefix Environment:  Operational Issues of RFC3484 Default Rules</title>
+
+<author initials='A' surname='Matsumoto' fullname='Arifumi Matsumoto'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fujisaki' fullname='Tomohiro Fujisaki'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hiromi' fullname='Ruri Hiromi'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kanayama' fullname='Ken-ichi Kanayama'>
+    <organization />
+</author>
+
+<date month='May' day='14' year='2008' />
+
+<abstract><t>A single physical link can have multiple prefixes assigned to it.  In that environment, end hosts might have multiple IP addresses and be required to use them selectively.  RFC 3484 defines default source and destination address selection rules and is implemented in a variety of OS's.  But, it has been too difficult to use operationally for several reasons, In some environment where multiple prefixes are assigned on a single physical link, the host with the default address selection rules will experience some trouble in communication.  This document describes the possible problems that end hosts could encounter in an environment with multiple prefixes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-addr-select-ps-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-addr-select-ps-06.txt' />
+</reference>

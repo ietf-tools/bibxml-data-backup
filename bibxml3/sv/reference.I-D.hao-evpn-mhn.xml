@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hao-evpn-mhn'>
+<front>
+<title>Multi-homed network in EVPN</title>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='P' surname='Xu' fullname='Pei Xu'>
+    <organization />
+</author>
+
+<date month='June' day='14' year='2013' />
+
+<abstract><t>To enhance the reliability, bridged network is normally multi-homed to an EVPN network, there are two categories of mechanisms to avoid the layer 2 traffic loop. The first category does not require the PEs participating in the control protocol of the bridged network, while the second category requires that. [EVPN] described one of the first category mechanisms called  designated forwarder (DF) election to achieve loop avoidance and vlan-based load balancing. This draft mainly focuses on the second category of mechanisms which can achieve intra-vlan MAC-based load balancing. MAC-based VLAN balancing is more applicable than DF election mechanism if all end stations in bridged network are on the same VLAN which can cause traffic congestion in DF link.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hao-evpn-mhn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hao-evpn-mhn-00.txt' />
+</reference>

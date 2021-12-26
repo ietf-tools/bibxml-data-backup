@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dharkins-siv-aes'>
+<front>
+<title>SIV Authenticated Encryption using AES</title>
+
+<author initials='D' surname='Harkins' fullname='Dan Harkins'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>This memo describes SIV, a block cipher mode of operation.  SIV takes a key, a plaintext, and multiple variable-length octet strings which will be authenticated but not encrypted.  It produces a ciphertext having the same length as the plaintext and a synthetic initialization vector.  Depending on how it is used, SIV achieves either the goal of deterministic authenticated-encryption or the goal of nonce-based, misuse-resistant authenticated-encryption.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dharkins-siv-aes-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dharkins-siv-aes-02.txt' />
+</reference>

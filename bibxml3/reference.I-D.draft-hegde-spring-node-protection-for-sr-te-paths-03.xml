@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hegde-spring-node-protection-for-sr-te-paths'>
+<front>
+<title>Node Protection for SR-TE Paths</title>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2018' />
+
+<abstract><t>Segment routing supports the creation of explicit paths using adjacency-sids, node-sids, and binding-sids.  It is important to provide fast reroute (FRR) mechanisms to respond to failures of links and nodes in the Segment-Routed Traffic-Engineered(SR-TE) path.  A point of local repair (PLR) can provide FRR protection against the failure of a link in an SR-TE path by examining only the first (top) label in the SR label stack.  In order to protect against the failure of a node, a PLR may need to examine the second label in the stack as well in order to determine SR-TE path beyond the failed node.  This document specifies how a PLR can use the first and second label in the label stack describing an SR-TE path to provide protection against node failures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hegde-spring-node-protection-for-sr-te-paths-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hegde-spring-node-protection-for-sr-te-paths-03.txt' />
+</reference>

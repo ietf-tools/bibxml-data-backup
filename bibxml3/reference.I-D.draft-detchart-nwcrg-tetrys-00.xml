@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.detchart-nwcrg-tetrys'>
+<front>
+<title>Tetrys, an On-the-Fly Network Coding protocol</title>
+
+<author initials='j' surname='jonathan.detchart@isae.fr' fullname='jonathan.detchart@isae.fr'>
+    <organization />
+</author>
+
+<author initials='E' surname='Lochin' fullname='Emmanuel Lochin'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lacan' fullname='Jerome Lacan'>
+    <organization />
+</author>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>This document describes Tetrys, an On-The-Fly Network Coding (NC) protocol which can be used to transport delay and loss sensitive data over a network.  This protocol can be used for unicast, multicast or anycast communications.  It recovers lost packets by using added coded packets.  Tetrys allows to recover all missing data within a time independent of the RTT and does not rely on a reliable feedback path to transmit data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-detchart-nwcrg-tetrys-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-detchart-nwcrg-tetrys-00.txt' />
+</reference>

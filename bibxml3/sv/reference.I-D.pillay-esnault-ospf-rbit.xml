@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pillay-esnault-ospf-rbit'>
+<front>
+<title>OSPFv2 No Transit Capability</title>
+
+<author initials='P' surname='Pillay-Esnault' fullname='Padma Pillay-Esnault'>
+    <organization />
+</author>
+
+<author initials='M' surname='Barnes' fullname='Michael Barnes'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wells' fullname='Paul Wells'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>Open Shortest Path First for IPv6 incorporates an R-bit in the router Link State Advertisement that controls whether or not other routers will compute transit paths through that node when they perform their Shortest Path First computation.  This is a very useful feature of the protocol which is currently unavailable in Open Shortest Path First Version 2.  This document extends the Open Shortest Path First Version 2 specification by adding a similar capability in a way that can safely coexist with implementations lacking this feature.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pillay-esnault-ospf-rbit-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pillay-esnault-ospf-rbit-00.txt' />
+</reference>

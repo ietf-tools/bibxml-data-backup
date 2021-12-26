@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dong-idr-node-target-ext-comm'>
+<front>
+<title>BGP Extended Community for Identifying the Target Node</title>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zhuang' fullname='Shunwan Zhuang'>
+    <organization />
+</author>
+
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>BGP has been used to distribute different types of routing and policy information in the network.  In some cases, the information distributed may be only intended for one or several particular receiving BGP nodes in the network.  BGP does not have a general mechanism for designating the receiving node of the routing information.  This document defines a new type of BGP extended community called "Node Target".  The mechanism and of using the Node Target extended community to steer BGP route distribution to particular BGP nodes is specified.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dong-idr-node-target-ext-comm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dong-idr-node-target-ext-comm-00.txt' />
+</reference>

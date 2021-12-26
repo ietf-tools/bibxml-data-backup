@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xie-bier-mvpn-mpls-p2mp'>
+<front>
+<title>Multicast VPN Using MPLS P2MP and BIER</title>
+
+<author initials='J' surname='Xie' fullname='Jingrong Xie'>
+    <organization />
+</author>
+
+<author initials='M' surname='McBride' fullname='Mike McBride'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='L' surname='Geng' fullname='Liang Geng'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>The MVPN specifications allow the use of several different kinds of P-tunnel technology, such as mLDP P2MP, RSVP-TE P2MP and PIM SSM.  It is common for such a P-tunnel having a multicast-specific path.  Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding without requiring intermediate routers to maintain any per-flow state by using a multicast-specific BIER header.  [I-D.ietf-bier-mvpn] delivers a solution of MVPN using SPF based BIER defined in [RFC8279].  It can not, however, support a multicast- specific path well, something common in legacy MVPN deployment. [RFC8279] provides a solution to support mid nodes without BIER- capability.  It can not, however, support deployment on a network that has edge nodes without BIER-capability, which is common in some SP-networks.  This document introduces a seamless transition mechanism from legacy MVPN to MVPN using P2MP based BIER while preserving existing features such as multicast-specific PATH and Live-Live protection.  It also introduces a seamless Live-Live protection mechanism by re-using the Entropy field of the BIER header, and two methods to deploy BIER when edge nodes and/or mid nodes don't have BIER-capability.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xie-bier-mvpn-mpls-p2mp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xie-bier-mvpn-mpls-p2mp-01.txt' />
+</reference>

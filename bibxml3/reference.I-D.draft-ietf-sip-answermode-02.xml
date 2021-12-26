@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-answermode'>
+<front>
+<title>Requesting Answering Modes for the Session Initiation Protocol (SIP)</title>
+
+<author initials='D' surname='Willis' fullname='Dean  Willis'>
+    <organization />
+</author>
+
+<author initials='A' surname='Allen' fullname='Andrew Allen'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2007' />
+
+<abstract><t>This document defines two SIP extension header fields and associated option tags that can be used in INVITE requests to convey the requester's preference for user-interface handling related to answering of that request. The first header, "Answer-Mode", expresses a preference as to whether the target node's user interface waits for user input before accepting the request or instead accepts the request without waiting on user input. The second header, "Priv- Answer-Mode" is similar to the first, except that it requests administrative-level access and has consequent additional authentication and authorization requirements. These behaviors have applicability to applications such as Push-to-Talk and to diagnostics like loop-back. Usage of each header field in a response to indicate how the request was handled is also defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-answermode-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-answermode-02.txt' />
+</reference>

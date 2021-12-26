@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dolganow-pwe3-ospf-ms-pw-ext'>
+<front>
+<title>OSPF Extensions for Dynamic Multi-segment Pseudo Wires</title>
+
+<author initials='M' surname='Bocci' fullname='Matthew Bocci'>
+    <organization />
+</author>
+
+<date month='December' day='8' year='2006' />
+
+<abstract><t>Multi-segment pseudo wires have been defined to enable emulated layer 1 and layer 2 services to be delivered from an IP based packet switched network over a sparse mesh of PSN tunnels and PW control protocol adjacencies. MS-PWs can be used to scale PW based networks over both a single AS, or between multiple ASs. However, there is a particular need to be able to automatically route MS-PWs through access and metro PSNs. These networks typically comprise a single AS. This draft proposes extensions to OSPF to enable the automatic advertisement of summarized PW FECs, thus enabling the automatic routing of MS-PWs across an OSPF domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dolganow-pwe3-ospf-ms-pw-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dolganow-pwe3-ospf-ms-pw-ext-00.txt' />
+</reference>

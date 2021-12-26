@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gwock-rmcat-ccfs'>
+<front>
+<title>Congestion Control based on Forward path Status</title>
+
+<author initials='j' surname='jungnam.gwock' fullname='jungnam.gwock'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2019' />
+
+<abstract><t>This document describes CCFS(Congestion Control based on Forward path Status), a rate adaptation scheme for interactive real-time media applications, such as video conferencing. CCFS classifies the forward paths's status as throttled, competing, probing and default which is managed based on estimated parameters - bottleneck bandwidth, queue delay and loss ratio. Considering only forward path status minimizes influence of backward path's network events such as congestion. It is also free from compatibility issues because it defines generalized feedback message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gwock-rmcat-ccfs-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gwock-rmcat-ccfs-01.txt' />
+</reference>

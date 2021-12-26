@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fattore-dmm-n6-cpdp-trafficsteering'>
+<front>
+<title>Control-/Data Plane Aspects for N6 Traffic Steering</title>
+
+<author initials='U' surname='Fattore' fullname='Umberto Fattore'>
+    <organization />
+</author>
+
+<author initials='M' surname='Liebsch' fullname='Marco Liebsch'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>Current standardization effort on the evolution of the mobile communication system reconsiders the mobile data plane protocol.  The IETF DMM Working Group has work that proposes and analyzes various protocols as alternative to the GPRS Tunneling Protocol for User Plane (GTP-U) for an overlay deployment in between the mobile device's assigned data plane anchor and its current radio base station, which are denoted as N9 and N3 interfaces.  In the view of some future deployment and the original intent per the very early DMM WG charter, a mobile device's data plane anchor may be highly distributed and re-selected for optimization throughout a mobile device's communication with one or more correspondent services.  Such re-configuration has impact on the packet routing in between the mobile device's data plane anchor and the one or multiple data networks hosting the services, which is denoted as N6 interface. This draft proposes and discusses a solution to control, setup and maintain traffic treatment policy on the cellular communication system's N6 interface while taking the UE's PDU session settings per the cellular system's control plane, such as QoS and locator information, into account.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fattore-dmm-n6-cpdp-trafficsteering-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fattore-dmm-n6-cpdp-trafficsteering-01.txt' />
+</reference>

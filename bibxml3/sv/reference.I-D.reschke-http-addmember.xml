@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reschke-http-addmember'>
+<front>
+<title>The HTTP ADDMEMBER Method</title>
+
+<author initials='J' surname='Reschke' fullname='Julian Reschke'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2005' />
+
+<abstract><t>Frequently, servers may want to allow resource creation through HTTP, but are not able to support HTTP's PUT method for creating new resources, as resource names are completely controlled by the server. This document proposes a new HTTP method called 'ADDMEMBER' with semantics similar to those of PUT, except for the fact that the server chooses the URI for the newly created resource.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reschke-http-addmember-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reschke-http-addmember-00.txt' />
+</reference>

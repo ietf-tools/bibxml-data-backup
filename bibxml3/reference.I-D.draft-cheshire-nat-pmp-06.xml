@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheshire-nat-pmp'>
+<front>
+<title>NAT Port Mapping Protocol (NAT-PMP)</title>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<author initials='M' surname='Krochmal' fullname='Marc Krochmal'>
+    <organization />
+</author>
+
+<date month='January' day='11' year='2013' />
+
+<abstract><t>This document describes a protocol for automating the process of creating Network Address Translation (NAT) port mappings. Included in the protocol is a method for retrieving the external IPv4 address of a NAT gateway, thus allowing a client to make this external IPv4 address and port known to peers that may wish to communicate with it. From 2005 onwards this protocol was implemented in Apple products including Mac OS X, Bonjour for Windows, and AirPort wireless base stations. In 2012 NAT-PMP was superseded by the IETF Standards-Track Port Control Protocol, which builds on NAT-PMP and uses a compatible packet format, but adds a number of significant enhancements [PCP].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheshire-nat-pmp-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheshire-nat-pmp-06.txt' />
+</reference>

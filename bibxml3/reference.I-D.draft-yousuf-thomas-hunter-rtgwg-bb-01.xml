@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yousuf-thomas-hunter-rtgwg-bb'>
+<front>
+<title>Chrysolite - a backbone bridging solution</title>
+
+<author initials='M' surname='Yousuf' fullname='Mohammad Yousuf'>
+    <organization />
+</author>
+
+<author initials='M' surname='Thomas' fullname='Matthew Thomas'>
+    <organization />
+</author>
+
+<author initials='D' surname='Hunter' fullname='David Hunter'>
+    <organization />
+</author>
+
+<date month='May' day='27' year='2008' />
+
+<abstract><t>Chrysolite is a combination of differing technologies to create a wide area BB (Backbone Bridging) architecture. Each Chrysolite switch has a unique MAC address (C-MAC). A link state protocol provides pairwise shortest paths between the C-MACs (one C-MAC per switch). Each switch's C-MAC symbolically represents 2"24 Network N-MACs (with each N-MAC representing one of the endpoints of a P2P VLAN. Using MAT (MAC Address Translation) and setting the locally administered bit in the Ethernet address, Router MAC addresses attached to an edge Chrysolite switch are translated into the end-to-end N-MAC addresses of the P2P circuit that they are attached to. MAT can also be completely avoided by use of a single packet UNI explained below. ALL of the P2P location information for a packet is located in a SINGLE N-MAC address assigned to each end of the P2P VLAN 'circuits'. Using this UNI or MAT backup means that no encapsulation or special headers are required to provide pair-wise shortest paths between the Chrysolite switches. Configuration is restricted to the single unique C-MAC required per Chrysolite switch, and the recording of unique customer VLANs as they are required. VLANs with differing class of service can be achieved by the use of multiple link state instances and C-MACs on a single Chrysolite switch.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yousuf-thomas-hunter-rtgwg-bb-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yousuf-thomas-hunter-rtgwg-bb-01.txt' />
+</reference>

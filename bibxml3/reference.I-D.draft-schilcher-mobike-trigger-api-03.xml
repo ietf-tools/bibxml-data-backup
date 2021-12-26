@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schilcher-mobike-trigger-api'>
+<front>
+<title>Application Programming Interface to a Trigger Database for MOBIKE</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes  Tschofenig'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2006' />
+
+<abstract><t>MOBIKE is a protocol which adds mobility and multihome support for IKEv2. MOBIKE peers continuously exchange a list of available IP addresses each other. A MOBIKE peer should have some information about the status of each address and interface in order to execute the respective actions. Examples may comprise switching from one address or interface to another. This information, which will be referred as trigger, is distributed over a number of protocol daemons at an end host. To make this information available to a MOBIKE daemon, it is necessary to store it centrally at the host (called trigger database) and to enable the protocols to insert the triggers and to allow MOBIKE to obtain timely information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schilcher-mobike-trigger-api-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schilcher-mobike-trigger-api-03.txt' />
+</reference>

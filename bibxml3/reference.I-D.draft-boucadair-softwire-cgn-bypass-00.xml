@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-softwire-cgn-bypass'>
+<front>
+<title>Procedure to bypass DS-lite AFTR</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohammed Boucadair'>
+    <organization />
+</author>
+
+<date month='December' day='16' year='2009' />
+
+<abstract><t>This document proposes a solution to avoid the use of two stateful CGN (a.k.a., AFTR in [I-D.ietf-softwire-dual-stack-lite]) devices when both participants (a.k.a., B4 element) are located behind different CGN devices.  For this purpose a new IPv6 extension header, called Tunnel Endpoint Extension Header (TEEH), is defined.  The proposed procedure encourages the use of IPv6 between AFTR nodes as a means to avoid the unnecessary crossing of AFTR devices.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-softwire-cgn-bypass-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-softwire-cgn-bypass-00.txt' />
+</reference>

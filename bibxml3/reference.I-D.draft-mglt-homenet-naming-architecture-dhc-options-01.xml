@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-homenet-naming-architecture-dhc-options'>
+<front>
+<title>DHCP Options for Homenet Naming Architecture</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<author initials='C' surname='Griffiths' fullname='Chris Griffiths'>
+    <organization />
+</author>
+
+<author initials='R' surname='Weber' fullname='Ralf Weber'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2014' />
+
+<abstract><t>The home network naming architecture requires a complex naming configuration on the CPE.  This configuration MAY not be handled easily by the average end user.  Furthermore, such misconfiguration MAY result in making home network unreachable.  This document proposes a DHCP options that provide the CPE all necessary parameters to set up the home network naming architecture.  First, this DHCP options provide automatic configuration and avoid most end users' misconfiguration.  Most average end users may not require specific configuration, and their ISP default configuration MAY fully address their needs.  In that case, the naming homenet architecture configuration will be completely transparent to the end users.  Then, saving naming configuration outside the CPE, makes it resilient to change of CPE or CPE upgrades.  Such configuration may also be configured by the end user, via the customer area of their ISP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-homenet-naming-architecture-dhc-options-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-homenet-naming-architecture-dhc-options-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-homenet-naming-architecture-dhc-options-01.pdf' />
+</reference>

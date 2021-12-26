@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-unique-ipv6-prefix-per-host'>
+<front>
+<title>Unique IPv6 Prefix Per Host</title>
+
+<author initials='J' surname='Brzozowski' fullname='John Brzozowski'>
+    <organization />
+</author>
+
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2017' />
+
+<abstract><t>In some IPv6 environments, the need has arisen for hosts to be able to utilize a unique IPv6 prefix, even though the link or media may be shared.  Typically hosts (subscribers) on a shared network, either wired or wireless, such as Ethernet, WiFi, etc., will acquire unique IPv6 addresses from a common IPv6 prefix that is allocated or assigned for use on a specific link.  In most deployments today, IPv6 address assignment from a single IPv6 prefix on a shared network is done by either using IPv6 stateless address auto-configuration (SLAAC) and/or stateful DHCPv6.  While this is still viable and operates as designed, there are some large scale environments where this concept introduces significant performance challenges and implications, specifically related to IPv6 router and neighbor discovery.  This document outlines an approach utilising existing IPv6 protocols to allow hosts to be assigned a unique IPv6 prefix (instead of a unique IPv6 address from a shared IPv6 prefix).  Benefits of unique IPv6 prefix over a unique IPv6 address from the service provider include improved subscriber isolation and enhanced subscriber management.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-unique-ipv6-prefix-per-host-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-unique-ipv6-prefix-per-host-06.txt' />
+</reference>

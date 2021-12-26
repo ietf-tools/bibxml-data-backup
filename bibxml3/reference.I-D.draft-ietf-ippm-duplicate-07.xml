@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ippm-duplicate'>
+<front>
+<title>A One-Way Packet Duplication Metric</title>
+
+<author initials='H' surname='Uijterwaal' fullname='Henk Uijterwaal'>
+    <organization />
+</author>
+
+<date month='January' day='27' year='2009' />
+
+<abstract><t>When a packet is sent from one host to the other, one normally expects that exactly one copy of the packet that was sent arrives at the destination.  It is, however, possible that a packet is either lost or that multiple copies arrive.  In earlier work a metric for packet loss has been defined.  This metric quantifies the case where a packet that is sent, does not arrive at its destination within a reasonable time.  In this memo, a metric for another case is defined: a packet is sent, but multiple copies arrive.  The document also discusses streams and methods to summarize the results of streams.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ippm-duplicate-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ippm-duplicate-07.txt' />
+</reference>

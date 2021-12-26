@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-curdle-cms-eddsa-signatures'>
+<front>
+<title>Use of EdDSA Signatures in the Cryptographic Message Syntax (CMS)</title>
+
+<author initials='R' surname='Housley' fullname='Russ Housley'>
+    <organization />
+</author>
+
+<date month='October' day='12' year='2017' />
+
+<abstract><t>This document specifies the conventions for using Edwards-curve Digital Signature Algorithm (EdDSA) for curve25519 and curve448 in the Cryptographic Message Syntax (CMS).  For each curve, EdDSA defines the PureEdDSA and HashEdDSA modes.  However, the HashEdDSA mode is not used with the CMS.  In addition, no context string is used with the CMS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-curdle-cms-eddsa-signatures-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-curdle-cms-eddsa-signatures-08.txt' />
+</reference>

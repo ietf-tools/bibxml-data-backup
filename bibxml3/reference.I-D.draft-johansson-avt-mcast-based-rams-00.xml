@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.johansson-avt-mcast-based-rams'>
+<front>
+<title>Multicast-Based Rapid Acquisition of Multicast RTP Sessions</title>
+
+<author initials='I' surname='Johansson' fullname='Ingemar  Johansson'>
+    <organization />
+</author>
+
+<date month='April' day='8' year='2009' />
+
+<abstract><t>This document proposes an improvement to the unicast based Rapid Acquisition for Multicast based Streaming discussed in [ID-Versteeg]. The outline of the improvement is to gather up Rapid Acquisition requests for many users and transmit them in dedicated multicast streams.  With this technique the peak load on the retransmission server and on the outgoing link from the retransmission server can be reduced.  For a problem description of the channel change problem in multicast based IPTV the reader is encouraged to read [ID-Versteeg].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-johansson-avt-mcast-based-rams-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-johansson-avt-mcast-based-rams-00.txt' />
+</reference>

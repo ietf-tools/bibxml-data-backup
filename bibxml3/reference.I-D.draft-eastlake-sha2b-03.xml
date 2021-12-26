@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eastlake-sha2b'>
+<front>
+<title>US Secure Hash Algorithms (SHA and SHA based HMAC and HKDF)</title>
+
+<author initials='D' surname='3rd' fullname='Donald Eastlake 3rd'>
+    <organization />
+</author>
+
+<author initials='T' surname='Hansen' fullname='Tony Hansen'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2010' />
+
+<abstract><t>This document is an update of RFC 4634 to fix errata and to add code for an HMAC-based extract-and-expand key derivation function.  The United States of America has adopted a suite of secure hash algorithms (SHAs), including four beyond SHA-1, as part of a Federal Information Processing Standard (FIPS), specifically SHA-224, SHA-256, SHA-384, and SHA-512.  The purpose of this document is to make open source code performing the SHA hash functions conveniently available to the Internet community. The sample code supports input strings of arbitrary bit length. Much of the text herein was adapted by the authors from FIPS 180-2.  As with RFC 4634, code to perform SHA based HMACs is included and, new in this version, code for HKDF (RFC 5869) is included.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eastlake-sha2b-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eastlake-sha2b-03.txt' />
+</reference>

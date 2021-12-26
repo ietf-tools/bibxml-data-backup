@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3437' target='https://www.rfc-editor.org/info/rfc3437'>
+<front>
+<title>Layer-Two Tunneling Protocol Extensions for PPP Link Control Protocol Negotiation</title>
+<author initials='W.' surname='Palter' fullname='W. Palter'><organization /></author>
+<author initials='W.' surname='Townsley' fullname='W. Townsley'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document defines extensions to the Layer Two Tunneling Protocol (L2TP) for enhanced support of link-specific Point to Point Protocol (PPP) options.  PPP endpoints typically have direct access to the common physical media connecting them and thus have detailed knowledge about the media that is in use.  When the L2TP is used, the two PPP peers are no longer directly connected over the same physical media.  Instead, L2TP inserts a virtual connection over some or all of the PPP connection by tunneling PPP frames over a packet switched network such as IP. Under some conditions, an L2TP endpoint may need to negotiate PPP Link Control Protocol (LCP) options at a location which may not have access to all of the media information necessary for proper participation in the LCP negotiation.  This document provides a mechanism for communicating desired LCP options between L2TP endpoints in advance of PPP LCP negotiation at the far end of an L2TP tunnel, as well as a mechanism for communicating the negotiated LCP options back to where the native PPP link resides.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3437'/>
+<seriesInfo name='DOI' value='10.17487/RFC3437'/>
+</reference>

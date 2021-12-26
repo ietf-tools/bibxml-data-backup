@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-opsawg-capwap-cds'>
+<front>
+<title>Separation of CAPWAP Control and Data Plane: Scenarios, Requirements and Solutions</title>
+
+<author initials='R' surname='Zhang' fullname='Rong Zhang'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Cao' fullname='Zehn Cao'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pazhyannur' fullname='Rajesh Pazhyannur'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2013' />
+
+<abstract><t>This document describes the scenarios and requirements of separating CAPWAP Data and Control plane.  This specification provides a CAPWAP extension to allow two distinct AC component: AC-DP (AC-Data Plane) and AC-CP (AC-Control Plane).  AC-DP handles all user payload with the exception of layer 2 management frames between the AC and user such as IEEE 802.11 association, authentication, probe, Action Frame. AC-CP handles all control messages between the WTP and AC.  In addition, the AC-CP wil handle user payload related to layer-2 management frames such as those mentioned above.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-opsawg-capwap-cds-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-opsawg-capwap-cds-00.txt' />
+</reference>

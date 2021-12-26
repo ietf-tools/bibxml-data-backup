@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6238' target='https://www.rfc-editor.org/info/rfc6238'>
+<front>
+<title>TOTP: Time-Based One-Time Password Algorithm</title>
+<author initials='D.' surname='M&apos;Raihi' fullname='D. M&apos;Raihi'><organization /></author>
+<author initials='S.' surname='Machani' fullname='S. Machani'><organization /></author>
+<author initials='M.' surname='Pei' fullname='M. Pei'><organization /></author>
+<author initials='J.' surname='Rydell' fullname='J. Rydell'><organization /></author>
+<date year='2011' month='May' />
+<abstract><t>This document describes an extension of the One-Time Password (OTP) algorithm, namely the HMAC-based One-Time Password (HOTP) algorithm, as defined in RFC 4226, to support the time-based moving factor.  The HOTP algorithm specifies an event-based OTP algorithm, where the moving factor is an event counter.  The present work bases the moving factor on a time value.  A time-based variant of the OTP algorithm provides short-lived OTP values, which are desirable for enhanced security.</t><t>The proposed algorithm can be used across a wide range of network applications, from remote Virtual Private Network (VPN) access and Wi-Fi network logon to transaction-oriented Web applications.  The authors believe that a common and shared algorithm will facilitate adoption of two-factor authentication on the Internet by enabling interoperability across commercial and open-source implementations. This document is not an Internet Standards Track specification; it is published for informational purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6238'/>
+<seriesInfo name='DOI' value='10.17487/RFC6238'/>
+</reference>

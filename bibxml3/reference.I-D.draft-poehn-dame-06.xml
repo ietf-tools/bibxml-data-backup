@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.poehn-dame'>
+<front>
+<title>Integration of Dynamic Automated Metadata Exchange into the SAML 2.0 Web Browser SSO Profile</title>
+
+<author initials='D' surname='Poehn' fullname='Daniela Poehn'>
+    <organization />
+</author>
+
+<author initials='S' surname='Metzger' fullname='Stefan Metzger'>
+    <organization />
+</author>
+
+<author initials='W' surname='Hommel' fullname='Wolfgang Hommel'>
+    <organization />
+</author>
+
+<author initials='M' surname='Grabatin' fullname='Michael Grabatin'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2016' />
+
+<abstract><t>This document specifies the integration of Dynamic Automated Metadata Exchange (DAME) through an intermediate trusted third party into the Security Assertion Markup Language (SAML) 2.0 Web Browser SSO Profile.  The user-triggered, on-demand, and fully automated metadata exchange between identity provider (IDP) and service provider (SP) is intended for scenarios in which the a-priori, e.g., federation-based exchange of SAML metadata is neither practical, scalable nor mandatory for non-technical aspects, such as contract-based trust building between IDP and SP.  The main benefit of DAME is the removal of waiting times for users and manual setup tasks for IDP and SP administrators before users can access the service.  Implementations of DAME can leverage existing metadata repositories, such as REEP, and metadata transfer protocols, such as MD Query.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-poehn-dame-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-poehn-dame-06.txt' />
+</reference>

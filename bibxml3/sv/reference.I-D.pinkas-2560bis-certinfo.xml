@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pinkas-2560bis-certinfo'>
+<front>
+<title>CertInfo single response extension Update to OCSP &lt; draft-pinkas-2560bis-certinfo-00.txt ></title>
+
+<author initials='D' surname='Pinkas' fullname='Denis Pinkas'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2012' />
+
+<abstract><t>OCSP [RFC2560] has been designed to allow an OCSP server to use any kind of trustable information to answer to a client varying from CRLs to an access to a database of issued certificates.  In its original version, OCSP does not allow taking full advantage of an access to a database of issued certificates.  When a database of issued certificates is used by an OCSP server, this document explains how the OCSP server shall respond and how OCSP clients shall react.  The proposal is intended to update 2560bis. It defines a new single extension in a single response, called certInfo.  The extension is non critical.  The meaning of "good", "revoked" and "unknown" are unchanged.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pinkas-2560bis-certinfo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pinkas-2560bis-certinfo-00.txt' />
+</reference>

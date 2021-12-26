@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fu-ipfix-network-security'>
+<front>
+<title>IPFIX Information Elements for inspecting network security issues</title>
+
+<author initials='T' surname='Fu' fullname='Tianfu Fu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Zhang' fullname='Dacheng Zhang'>
+    <organization />
+</author>
+
+<author initials='a' surname='ana.hedanping@huawei.com' fullname='ana.hedanping@huawei.com'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2014' />
+
+<abstract><t>IPFIX protocol has been used to carry Information Elements, which are defined to measure the traffic information and information related to the traffic observation point, traffic metering process and the exporting process.  Network or device status are checked through analysing neccessary observed information.  Although most of the existing Information Elements are useful for network security inspection, they are still not sufficient to determine the reasons behind observed events such as for DDOS attack, ICMP attack, and fragment attack.  To allow administrators making effective and quick response to the attacks, this document extends the standard Information Elements and describes the formats for inspecting network security.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fu-ipfix-network-security-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fu-ipfix-network-security-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.brockners-lisp-sr'>
+<front>
+<title>LISP Extensions for Segment Routing</title>
+
+<author initials='F' surname='Brockners' fullname='Frank Brockners'>
+    <organization />
+</author>
+
+<author initials='C' surname='Systems' fullname='Cisco Systems'>
+    <organization />
+</author>
+
+<author initials='F' surname='Maino' fullname='Fabio Maino'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lewis' fullname='Darrel Lewis'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>Segment Routing (SR) combines source routing and tunneling to steer traffic through the transit network.  The Locator/ID Separation Protocol (LISP) separates IP addresses into Endpoint Identifiers (EIDs) and Routing Locators (RLOCs) and also leverages tunneling mechanisms.  Mapping between EIDs and RLOCs is facilitated by the LISP mapping system.  Combining LISP and SR enables the LISP mapping system to provide SR information to encapsulating routers so that traffic can be steered in the transit network or the list of segments a particular packet traverses is recorded in the packet header.  This document describes extensions required to the Locator/ID Separation Protocol (LISP) to enable a LISP mapping system to communicate list of segment identifiers or the request to record the list of segments a particular packet traverses to the encapsulating router.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-brockners-lisp-sr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-brockners-lisp-sr-00.txt' />
+</reference>

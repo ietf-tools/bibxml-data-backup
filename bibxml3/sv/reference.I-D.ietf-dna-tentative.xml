@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dna-tentative'>
+<front>
+<title>Tentative Options for Link-Layer Addresses in IPv6 Neighbour Discovery</title>
+
+<author initials='G' surname='Daley' fullname='Greg Daley'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>The proposed IPv6 Duplicate Address Detection (DAD) Optimization "Optimistic DAD" defines a set of recoverable procedures which allow a node to make use of an address before DAD completes.  Essentially, Optimistic DAD forbids usage of certain Neighbour Discovery options which could pollute active neighbour cache entries, while an address is tentative.  This document defines a new option and procedures to replace cache polluting options, in a way which is useful to tentative nodes. These procedures are designed to be to backward compatible with existing devices which support IPv6 Neighbour Discovery.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dna-tentative-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dna-tentative-04.txt' />
+</reference>

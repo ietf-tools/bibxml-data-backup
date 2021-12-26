@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dane-openpgpkey'>
+<front>
+<title>Using DANE to Associate OpenPGP public keys with email addresses</title>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<date month='August' day='27' year='2015' />
+
+<abstract><t>OpenPGP is a message format for email (and file) encryption that lacks a standardized lookup mechanism to securely obtain OpenPGP public keys.  This document specifies a method for publishing and locating OpenPGP public keys in DNS for a specific email address using a new OPENPGPKEY DNS Resource Record.  Security is provided via DNSSEC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dane-openpgpkey-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dane-openpgpkey-04.txt' />
+</reference>

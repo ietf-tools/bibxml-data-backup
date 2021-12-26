@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.aguado-opsawg-l3sm-l3nm'>
+<front>
+<title>Layer 3 VPN Network Model</title>
+
+<author initials='A' surname='Aguado' fullname='Alejandro Aguado'>
+    <organization />
+</author>
+
+<author initials='O' surname='Dios' fullname='Oscar de Dios'>
+    <organization />
+</author>
+
+<author initials='V' surname='Lopezalvarez' fullname='Victor Lopezalvarez'>
+    <organization />
+</author>
+
+<author initials='d' surname='daniel.voyer@bell.ca' fullname='daniel.voyer@bell.ca'>
+    <organization />
+</author>
+
+<author initials='L' surname='Munoz' fullname='Luis Munoz'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>RFC 8299 [RFC8299] defines a L3VPN Service Model (L3SM) YANG data model that can be used for communication between customers and network operators.  It assumes that there is a monolithic management system with full control of transport resources.  This approach (that is valid for the customer to network operator conversation) limits the usage of the model to the role of a Customer Service Model, according to the terminology defined in RFC 8309 [RFC8309].  There is a need for a YANG model for use between the entity that interacts directly with the customer (service orchestrator) and the entity in charge of network orchestration and control which, according to RFC 8309 [RFC8309], can be referred as Service Delivery Model.  In some cases, the control of the network is further expanded into per- domain control.  This document uses the L3SM model defined in RFC 8299 [RFC8299], and extends it to facilitate communication between the service orchestrator and transport orchestrator (MSDC), and an MDSC and domain controllers.  The resulting model is called the L3VPN Network Model (L3NM).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-aguado-opsawg-l3sm-l3nm-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-aguado-opsawg-l3sm-l3nm-01.txt' />
+</reference>

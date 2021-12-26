@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-v6ops-dhcpv6-slaac-guidance'>
+<front>
+<title>DHCPv6/SLAAC Interaction Operational Guidance</title>
+
+<author initials='B' surname='Liu' fullname='Bing Liu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<author initials='T' surname='Yang' fullname='Tianle Yang'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>The IPv6 Neighbor Discovery (ND) Protocol [RFC4861] specifies an ICMPv6 Router Advertisement (RA) message.  The RA message contains three flags that indicate which address autoconfiguration mechanisms are available to on-link hosts.  These are the M, O and A flags.  The M, O and A flags are all advisory, not prescriptive.  In [I-D.ietf-v6ops-dhcpv6-slaac-problem], test results show that in several cases the M, O and A flags elicit divergent host behaviors, which might cause some operational problems.  This document aims to provide some operational guidance to eliminate the impact caused by divergent host behaviors as much as possible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-v6ops-dhcpv6-slaac-guidance-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-v6ops-dhcpv6-slaac-guidance-03.txt' />
+</reference>

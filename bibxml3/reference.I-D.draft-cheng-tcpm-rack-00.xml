@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheng-tcpm-rack'>
+<front>
+<title>RACK: a time-based fast loss detection algorithm for TCP</title>
+
+<author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
+    <organization />
+</author>
+
+<author initials='N' surname='Cardwell' fullname='Neal Cardwell'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>This document presents a new TCP loss detection algorithm called RACK ("Recent ACKnowledgment").  RACK uses the notion of time, instead of packet or sequence counts, to detect losses, for modern TCP implementations that can support per-packet timestamps and the selective acknowledgment (SACK) option.  It is intended to replace the conventional DUPACK threshold approach and its variants, as well as other nonstandard approaches.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheng-tcpm-rack-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheng-tcpm-rack-00.txt' />
+</reference>

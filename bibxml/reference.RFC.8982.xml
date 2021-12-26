@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8982' target='https://www.rfc-editor.org/info/rfc8982'>
+<front>
+<title>Registration Data Access Protocol (RDAP) Partial Response</title>
+<author initials='M.' surname='Loffredo' fullname='M. Loffredo'><organization /></author>
+<author initials='M.' surname='Martinelli' fullname='M. Martinelli'><organization /></author>
+<date year='2021' month='February' />
+<abstract><t>The Registration Data Access Protocol (RDAP) does not include capabilities to request partial responses.  Servers will only return full responses that include all of the information that a client is authorized to receive.  A partial response capability that limits the amount of information returned, especially in the case of search queries, could bring benefits to both clients and servers.  This document describes an RDAP query extension that allows clients to specify their preference for obtaining a partial response.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8982'/>
+<seriesInfo name='DOI' value='10.17487/RFC8982'/>
+</reference>

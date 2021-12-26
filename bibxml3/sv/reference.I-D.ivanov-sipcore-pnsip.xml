@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ivanov-sipcore-pnsip'>
+<front>
+<title>Push Notifications in the Session Initiation Protocol (SIP)</title>
+
+<author initials='V' surname='Ivanov' fullname='Viktor Ivanov'>
+    <organization />
+</author>
+
+<date month='April' day='7' year='2016' />
+
+<abstract><t>The Session Initiation Protocol (SIP) allows User Agents to register for inbound requests.  However, the existence of firewalls and Network Address Translators (NATs) prevent servers from reaching the User Agents unless the User Agents keep connections to the server alive.  To keep such connections alive User Agents employ various methods, most of which require constant uptime resulting in high energy cost. This is especially a problem on mobile platforms that operate entirely on battery power.  To resolve these issues many mobile manufacturers have provided a cost effective way of pushing messages to their devices.  This specification defines behaviors for User Agents, registrars and proxy servers that allow a User Agent to provide a Push Notification Configuration to its Registrar.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ivanov-sipcore-pnsip-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ivanov-sipcore-pnsip-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ice-pac'>
+<front>
+<title>Interactive Connectivity Establishment Patiently Awaiting Connectivity (ICE PAC)</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='J' surname='Uberti' fullname='Justin Uberti'>
+    <organization />
+</author>
+
+<date month='April' day='29' year='2020' />
+
+<abstract><t>During the process of establishing peer-to-peer connectivity, ICE agents can encounter situations where they have no candidate pairs to check, and, as a result, conclude that ICE processing has failed. However, because additional candidate pairs can be discovered during ICE processing, declaring failure at this point may be premature. This document discusses when these situations can occur and updates RFC8445 and RFC XXXX by requiring that an ICE agent wait a minimum amount of time before declaring ICE failure, even if there are no candidate pairs left to check.  [RFC EDITOR NOTE: Please replace RFC XXXX with the RFC number of draft-ietf-ice-trickle once it has been published.  Please also indicate that this specification updates RFC XXXX.]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ice-pac-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ice-pac-06.txt' />
+</reference>

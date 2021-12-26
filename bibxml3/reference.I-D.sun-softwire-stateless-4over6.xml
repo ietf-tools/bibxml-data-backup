@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sun-softwire-stateless-4over6'>
+<front>
+<title>Stateless 4over6 in access network</title>
+
+<author initials='Q' surname='Sun' fullname='Qiong Sun'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wu' fullname='Peng Wu'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Cathy Zhou'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Yiu Lee'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2011' />
+
+<abstract><t>This document specifies a stateless 4over6 mechanism which moves the translation function from tunnel concentrator (AFTR) to initiators (B4s).  It is used for service providers offering residual deployment of the IPv4 service across IPv6-only domains.  The concentrator will record the full set of prefix mapping rules independent of the number of subscribers, while the initiator will only keep a single rule of its own sub-domain.  The BNG devices can learn the rule set further, to achieve traffic optimization between initiators.  In this way, it not only achieve scalability and simplicity feature benefits from stateless address mapping, but also keep CPE functions simple. Besides, flexible addressing and scattered IPv4 address blocks can be supported as well.  Traffic optimization can be deployed incrementally when necessary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sun-softwire-stateless-4over6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sun-softwire-stateless-4over6-00.txt' />
+</reference>

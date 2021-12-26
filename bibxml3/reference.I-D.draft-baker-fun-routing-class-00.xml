@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.baker-fun-routing-class'>
+<front>
+<title>Routing a Traffic Class</title>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2011' />
+
+<abstract><t>This note addresses the concept of routing a traffic class.  This has many possible implementations, IGP and BGP, and link state as well as distance vector.  The fundamental impetus is the question raised in RFC 3704 and shim6 of exit routing, the question raised by Mike O'Dell of source/destination routing, and the "fish" problem, raised in many networks, in which distinct traffic classes that could conceivably use the same route predictably use different routes. Instead of handling these as "destination routing with a twist", the paper looks at the matter systemically.  Requirements</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-baker-fun-routing-class-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-baker-fun-routing-class-00.txt' />
+</reference>

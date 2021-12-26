@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kumar-dice-dtls-relay'>
+<front>
+<title>DTLS Relay for Constrained Environments</title>
+
+<author initials='S' surname='Kumar' fullname='Sandeep Kumar'>
+    <organization />
+</author>
+
+<author initials='S' surname='Keoh' fullname='Sye Keoh'>
+    <organization />
+</author>
+
+<author initials='O' surname='Garcia-Morchon' fullname='Oscar Garcia-Morchon'>
+    <organization />
+</author>
+
+<date month='April' day='22' year='2014' />
+
+<abstract><t>The 6LoWPAN and CoAP standards defined for resource-constrained devices are fast emerging as the de-facto protocols for enabling the Internet-of-Things (IoTs).  Security is an important concern in IoTs and the DTLS protocol has been chosen as the preferred method for securing CoAP messages.  DTLS is a point-to-point protocol relying on the IP routing to deliver messages between the client and the server. However in some low-power lossy networks (LLNs) with multi-hop, a new "joining" device may not be initially IP routable until it is authenticated to the network.  This prevents DTLS from being directly useful as an authentication and confidentiality protocol during this stage, requiring other security protocols to be implemented on the device.  These devices being resource-constrained often cannot accommodate more than one security protocol in their code memory.  To overcome this problem and reuse DTLS, we present a DTLS Relay solution for the non-IP routable "joining" device to establish a secure DTLS connection with a DTLS server.  Further we present a stateful and stateless mode of operation for the DTLS Relay.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kumar-dice-dtls-relay-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kumar-dice-dtls-relay-01.txt' />
+</reference>

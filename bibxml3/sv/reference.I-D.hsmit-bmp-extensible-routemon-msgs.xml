@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hsmit-bmp-extensible-routemon-msgs'>
+<front>
+<title>BMP Extensible Route-Monitoring Messages</title>
+
+<author initials='H' surname='Smit' fullname='Henk Smit'>
+    <organization />
+</author>
+
+<date month='July' day='18' year='2018' />
+
+<abstract><t>The BGP Monitoring Protocol (BMP) is defined in RFC7854.  Most of the types of messages in BMP are extensible via the mechanism of TLVs. However, the most important type of message, the route-monitoring message, has a fixed format.  This document proposes a relatively small change to the format of BMP route-monitoring messages.  The new format of route-monitoring messages is no longer fixed-format, but tlv-encoded.  This document also proposes to split the route-monitoring message-type into 3 new message-types.  For Adj-RIB-In, Adj-RIB-Out and Loc-RIB.  This document proposes two types of TLVs to be used in this new format.  A TLV to report the BGP update message itself.  And a flags- field TLV, to report state of the reported routes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hsmit-bmp-extensible-routemon-msgs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hsmit-bmp-extensible-routemon-msgs-00.txt' />
+</reference>

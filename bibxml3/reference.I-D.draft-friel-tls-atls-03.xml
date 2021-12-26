@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.friel-tls-atls'>
+<front>
+<title>Application-Layer TLS</title>
+
+<author initials='O' surname='Friel' fullname='Owen Friel'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='M' surname='Pritikin' fullname='Max Pritikin'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='M' surname='Baugher' fullname='Mark Baugher'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>This document specifies how TLS and DTLS can be used at the application layer for the purpose of establishing secure end-to-end encrypted communication security.  Encodings for carrying TLS and DTLS payloads are specified for HTTP and CoAP to improve interoperability.  While the use of TLS and DTLS is straight forward we present multiple deployment scenarios to illustrate the need for end-to-end application layer encryption and the benefits of reusing a widely deployed and readily available protocol.  Application software architectures for building, and network architectures for deploying application layer TLS are outlined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-friel-tls-atls-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-friel-tls-atls-03.txt' />
+</reference>

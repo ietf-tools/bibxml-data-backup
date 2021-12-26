@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.handley-mptcp-routing'>
+<front>
+<title>Outgoing Packet Routing with MP-TCP</title>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<author initials='C' surname='Raiciu' fullname='Costin Raiciu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>Multipath TCP extends the TCP protocol to allow multiple paths to be used simultaneously for the same TCP connection.  The different paths are typically provided using multiple IP addresses for the same end system, each address taken from a subnet that is routed differently. In this document we describe a set of conventions for how to ensure that outgoing packets are routed in a manner consistent with the network topology and constraints on use of that topology such as those imposed by ingress filtering on IP address prefixes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-handley-mptcp-routing-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-handley-mptcp-routing-00.txt' />
+</reference>

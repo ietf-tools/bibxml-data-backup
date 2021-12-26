@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tsvwg-re-ecn-border-cheat'>
+<front>
+<title>Emulating Border Flow Policing using Re-ECN on Bulk Data</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2006' />
+
+<abstract><t>Scaling per flow admission control to the Internet is a hard problem. A recently proposed approach combines Diffserv and pre-congestion notification (PCN) to provide a service slightly better than Intserv controlled load. It scales to networks of any size, but only if domains trust each other to comply with admission control and rate policing. This memo claims to solve this trust problem without losing scalability. It describes bulk border policing that provides a sufficient emulation of per-flow policing with the help of another recently proposed extension to ECN, involving re-echoing ECN feedback (re-ECN). With only passive bulk measurements at borders, sanctions can be applied against cheating networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tsvwg-re-ecn-border-cheat-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-re-ecn-border-cheat-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pcn-3-state-encoding'>
+<front>
+<title>A PCN encoding using 2 DSCPs to provide 3 or more states</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<date month='February' day='10' year='2010' />
+
+<abstract><t>Pre-congestion notification (PCN) is a mechanism designed to protect the Quality of Service of inelastic flows within a controlled domain. It does this by marking packets when traffic load on a link is approaching or has exceeded a threshold below the physical link rate. This experimental encoding scheme specifies how three encoding states can be carried in the IP header using a combination of two DSCPs and the ECN bits.  The Basic scheme only allows for three encoding states.  The Full scheme provides 6 states, enough for limited end- to-end support for ECN as well.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pcn-3-state-encoding-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pcn-3-state-encoding-01.txt' />
+</reference>

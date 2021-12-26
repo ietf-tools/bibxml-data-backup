@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xiang-alto-unified-representation'>
+<front>
+<title>ALTO Extension: Unified Resource Representation</title>
+
+<author initials='Q' surname='Xiang' fullname='Qiao Xiang'>
+    <organization />
+</author>
+
+<author initials='F' surname='Le' fullname='Franck Le'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2018' />
+
+<abstract><t>The ALTO protocol [RFC7285] provides network information to applications so that applications can make network informed decisions to improve the performance.  However, the base ALTO protocol only provides coarse-grained end-to-end metrics, which are insufficient to satisfy the demands of applications to solve more complex network optimization problems.  The ALTO Path Vector extension [DRAFT-PV] has been introduced to allow ALTO clients to query information such as capacity regions for a given set of flows.  However, the current design of this extension has a limited expressiveness.  The goal of this document is to introduce a unified resource representation service as an extension of ALTO (ALTO-UR), which allows the ALTO clients to query and get the capacity regions of more complex resource information, such as Shared-Risk-Link-Group (SRLG), multi- path routing, multicast and on-demand routing, for a given set of flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xiang-alto-unified-representation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xiang-alto-unified-representation-00.txt' />
+</reference>

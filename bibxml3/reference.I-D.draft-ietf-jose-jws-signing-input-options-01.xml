@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-jose-jws-signing-input-options'>
+<front>
+<title>JWS Unencoded Payload Option</title>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<date month='August' day='9' year='2015' />
+
+<abstract><t>JSON Web Signature (JWS) represents the payload of a JWS as a base64url encoded value and uses this value in the JWS Signature computation.  While this enables arbitrary payloads to be integrity protected, some have described use cases in which the base64url encoding is unnecessary and/or an impediment to adoption, especially when the payload is large and/or detached.  This specification defines a means of accommodating these use cases by defining an option to change the JWS Signing Input computation to not base64url- encode the payload.  This option is intended to broaden the set of use cases for which the use of JWS is a good fit.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-jose-jws-signing-input-options-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-jose-jws-signing-input-options-01.txt' />
+</reference>

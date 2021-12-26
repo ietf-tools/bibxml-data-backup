@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8883' target='https://www.rfc-editor.org/info/rfc8883'>
+<front>
+<title>ICMPv6 Errors for Discarding Packets Due to Processing Limits</title>
+<author initials='T.' surname='Herbert' fullname='T. Herbert'><organization /></author>
+<date year='2020' month='September' />
+<abstract><t>Network nodes may discard packets if they are unable to process protocol headers of packets due to processing constraints or limits. When such packets are dropped, the sender receives no indication, so it cannot take action to address the cause of discarded packets. This specification defines several new ICMPv6 errors that can be sent by a node that discards packets because it is unable to process the protocol headers. A node that receives such an ICMPv6 error may use the information to diagnose packet loss and may modify what it sends in future packets to avoid subsequent packet discards.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8883'/>
+<seriesInfo name='DOI' value='10.17487/RFC8883'/>
+</reference>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chan-netext-distributed-lma'>
+<front>
+<title>Distributed Local Mobility Anchors</title>
+
+<author initials='H' surname='Chan' fullname='H Anthony Chan'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='J' surname='Xiang' fullname='Justin Xiang'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2009' />
+
+<abstract><t>The full functions of a local mobility anchor may be separated into different logical functions: (1) allocation of home network prefixes or home addresses to mobile nodes, (2) location management function which includes managing the IP addresses and locations of the mobile nodes and (3) mobility routing function which includes intercepting and forwarding packets.  Distributed local mobility anchors provides visiting local mobility anchors in different networks with mobility routing function to avoid triangle routing problem in Proxy mobile IP or Mobile IP, but keeps the internetwork location management function at the home local mobility anchors at registered networks.  The needed location information of a mobile node is acquired only when a packet is first sent to the mobile node and are then cached at the visiting local mobility anchor to enable subsequent optimized mobility routing.  Status of this Memo  This Internet-Draft is submitted to IETF in full conformance with the provisions of BCP 78 and BCP 79.  Internet-Drafts are working documents of the Internet Engineering Task Force (IETF), its areas, and its working groups.  Note that other groups may also distribute working documents as Internet- Drafts.  Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."  The list of current Internet-Drafts can be accessed at http://www.ietf.org/ietf/1id-abstracts.txt.  The list of Internet-Draft Shadow Directories can be accessed at http://www.ietf.org/shadow.html. This Internet-Draft will expire on May 16, 2010.  Copyright Notice  Copyright (c) 2009 IETF Trust and the persons identified as the document authors.  All rights reserved.  This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the BSD License.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chan-netext-distributed-lma-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chan-netext-distributed-lma-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-chan-netext-distributed-lma-00.pdf' />
+</reference>

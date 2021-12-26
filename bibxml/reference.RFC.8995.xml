@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8995' target='https://www.rfc-editor.org/info/rfc8995'>
+<front>
+<title>Bootstrapping Remote Secure Key Infrastructure (BRSKI)</title>
+<author initials='M.' surname='Pritikin' fullname='M. Pritikin'><organization /></author>
+<author initials='M.' surname='Richardson' fullname='M. Richardson'><organization /></author>
+<author initials='T.' surname='Eckert' fullname='T. Eckert'><organization /></author>
+<author initials='M.' surname='Behringer' fullname='M. Behringer'><organization /></author>
+<author initials='K.' surname='Watsen' fullname='K. Watsen'><organization /></author>
+<date year='2021' month='May' />
+<abstract><t>This document specifies automated bootstrapping of an Autonomic Control Plane.  To do this, a Secure Key Infrastructure is bootstrapped.  This is done using manufacturer-installed X.509 certificates, in combination with a manufacturer's authorizing service, both online and offline.  We call this process the Bootstrapping Remote Secure Key Infrastructure (BRSKI) protocol. Bootstrapping a new device can occur when using a routable address and a cloud service, only link-local connectivity, or limited/disconnected networks. Support for deployment models with less stringent security requirements is included. Bootstrapping is complete when the cryptographic identity of the new key infrastructure is successfully deployed to the device.  The established secure connection can be used to deploy a locally issued certificate to the device as well.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8995'/>
+<seriesInfo name='DOI' value='10.17487/RFC8995'/>
+</reference>

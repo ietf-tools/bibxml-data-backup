@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gellens-pop-mangle'>
+<front>
+<title>The MIME Mangling (MANGLE) and Macro (MDEF) POP3 Extensions</title>
+
+<author initials='R' surname='Gellens' fullname='Randall  Gellens'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2007' />
+
+<abstract><t>This document describes two extensions to the POP protocol that have been supported for several years by some client and servers. One extension, MANGLE, allows clients to request that MIME body parts be removed or converted to a simpler format, that only selected headers be transmitted, and/or to for the message to be transcoded to a different character set. The other extension, MACRO, allows clients to define macros which are expanded when used, saving repetitive transmissions. These extensions have been useful in at least two situations: they allow clients on constrained devices to avoid downloading body parts which cannot be used on the device, and clients which use the TOP command to "peek" at messages can have the preview transformed into more usable content, as well as avoiding the transmission of undesired headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gellens-pop-mangle-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gellens-pop-mangle-01.txt' />
+</reference>

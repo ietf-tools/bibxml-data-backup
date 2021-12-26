@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.saad-sr-fa-link'>
+<front>
+<title>Segment-Routing over Forwarding Adjacency Links</title>
+
+<author initials='T' surname='Saad' fullname='Tarek Saad'>
+    <organization />
+</author>
+
+<author initials='V' surname='Beeram' fullname='Vishnu Beeram'>
+    <organization />
+</author>
+
+<author initials='C' surname='Barth' fullname='Colby Barth'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>Label Switched Paths (LSPs) set up in Multiprotocol Label Switching (MPLS) networks can be used to form Forwarding Adjacency (FA) links that carry traffic in those networks.  An FA link can be assigned Traffic Engineering (TE) parameters that allow other LSR(s) to include it in their constrained path computation.  FA link(s) can be also assigned Segment-Routing (SR) segments that enable the steering of traffic on to the associated FA link(s).  The TE and SR attributes of an FA link can be advertised using known protocols that carry link state information.  This document elaborates on the usage of FA link(s) and their attributes in SR enabled networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-saad-sr-fa-link-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-saad-sr-fa-link-02.txt' />
+</reference>

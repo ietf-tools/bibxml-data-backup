@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cardwell-iccrg-bbr-congestion-control'>
+<front>
+<title>BBR Congestion Control</title>
+
+<author initials='N' surname='Cardwell' fullname='Neal Cardwell'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
+    <organization />
+</author>
+
+<author initials='S' surname='Yeganeh' fullname='Soheil Yeganeh'>
+    <organization />
+</author>
+
+<author initials='V' surname='Jacobson' fullname='Van Jacobson'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>This document specifies the BBR congestion control algorithm.  BBR uses recent measurements of a transport connection's delivery rate and round-trip time to build an explicit model that includes both the maximum recent bandwidth available to that connection, and its minimum recent round-trip delay.  BBR then uses this model to control both how fast it sends data and the maximum amount of data it allows in flight in the network at any time.  Relative to loss-based congestion control algorithms such as Reno [RFC5681] or CUBIC [draft-ietf-tcpm-cubic], BBR offers substantially higher throughput for bottlenecks with shallow buffers or random losses, and substantially lower queueing delays for bottlenecks with deep buffers (avoiding "bufferbloat").  This algorithm can be implemented in any transport protocol that supports packet-delivery acknowledgment (thus far, open source implementations are available for TCP [RFC793] and QUIC [draft-ietf-quic-transport-00]).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cardwell-iccrg-bbr-congestion-control-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cardwell-iccrg-bbr-congestion-control-00.txt' />
+</reference>

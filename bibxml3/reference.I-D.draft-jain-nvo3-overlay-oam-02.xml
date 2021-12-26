@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jain-nvo3-overlay-oam'>
+<front>
+<title>Generic Overlay OAM and Datapath Failure Detection</title>
+
+<author initials='P' surname='Jain' fullname='Pradeep Jain'>
+    <organization />
+</author>
+
+<author initials='K' surname='Singh' fullname='Kanwar Singh'>
+    <organization />
+</author>
+
+<author initials='F' surname='Balus' fullname='Florin Balus'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='V' surname='Bannai' fullname='Vinay Bannai'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shekhar' fullname='Ravi Shekhar'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lohiya' fullname='Anil Lohiya'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2014' />
+
+<abstract><t>This proposal describes a mechanism that can be used to detect Data Path Failures of various overlay technologies as VXLAN, NVGRE, MPLSoGRE and MPLSoUDP and verifying/sanity of their Control and Data Plane for given Overlay Segment.  This document defines the following for each of the above Overlay Technologies:  o  Encapsulation of OAM Packet, such that it has same Outer and Overlay Header as any End-System's data going over the same Overlay Segment.  o  The mechanism to trace the Underlay that is exercised by any Overlay Segment.  o  Procedure to verify presence of any given Tenant VM or End-System within a given Overlay Segment at Overlay End-Point.  Even though the present proposal addresses Overlay OAM for VXLAN, NVGRE, MPLSoGRE and MPLSoUDP, but the procedures described are generic enough to accommodate OAM for any other Overlay Technology.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jain-nvo3-overlay-oam-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jain-nvo3-overlay-oam-02.txt' />
+</reference>

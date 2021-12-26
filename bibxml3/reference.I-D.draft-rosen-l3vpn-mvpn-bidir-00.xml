@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosen-l3vpn-mvpn-bidir'>
+<front>
+<title>MVPN: Using Bidirectional P-Tunnels</title>
+
+<author initials='A' surname='Boers' fullname='Arjen Boers'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cai' fullname='Yiqun Cai'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<date month='February' day='2' year='2010' />
+
+<abstract><t>The documents specifying multicast support for BGP/MPLS IP VPNs allow customer multicast data to be transported through a service provider's network through a set multicast tunnels.  Such tunnels are advertised by BGP in a BGP attribute known as the "Provider Multicast Service Interface (PMSI) Tunnel Attribute".  The base specifications allow the PMSI Tunnel Attribute to advertise bidirectional multicast distribution trees as "PMSI Tunnels"; however, those document do not provide all the necessary details for doing so.  Those details are provided in this document.  These additional details are also applicable when bidirectional PMSI Tunnels are advertised in the datagram messages known as "S-PMSI Join Messages".  This document also specifies the procedures for assigning customer multicast flows to specific bidirectional PMSI tunnels.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosen-l3vpn-mvpn-bidir-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosen-l3vpn-mvpn-bidir-00.txt' />
+</reference>

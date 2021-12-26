@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moreau-srvloc-dnssec-priming'>
+<front>
+<title>DNSSEC Validation Root Priming Through SLP (DNSSEC-ROOTP)</title>
+
+<author initials='T' surname='Moreau' fullname='Thierry Moreau'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2007' />
+
+<abstract><t>By assigning the SLP (Service Location Protocol, [RFC2608]) UA (User Agent) role to a DNS resolver, the present document opens the door to selective deployment of DNS root nameservice within an administrative domain. This SLP scheme directly addresses the DNS resolver configuration scaling issue. Usage is limited to DNSSEC- enabled root nameservice. Moreover, from the SLP security features, the proposed scheme expands the set of DNS root trust anchor key rollover options. Early DNSSEC support at the rot is made possible with DNSSEC root nameservice substitution, as well as later transparent migration to a unique DNSSEC root.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moreau-srvloc-dnssec-priming-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moreau-srvloc-dnssec-priming-02.txt' />
+</reference>

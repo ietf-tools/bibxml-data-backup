@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shen-mpls-rsvp-setup-protection'>
+<front>
+<title>RSVP Setup Protection</title>
+
+<author initials='Y' surname='Shen' fullname='Yimin Shen'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kamite' fullname='Yuji Kamite'>
+    <organization />
+</author>
+
+<date month='February' day='8' year='2013' />
+
+<abstract><t>RFC 4090 specifies an RSVP facility-backup fast reroute mechanism for protecting established LSPs against link and node failures.  This document extends the mechanism to provide so-called "setup protection" for LSPs during their initial Path message signaling time.  In particular, it enables a router to reroute an LSP via an existing bypass LSP, when there is a failure of the immediate downstream link or node along the desired path.  Therefore, it can be used to reduce LSP setup time in such a situation, or allow LSPs with strict paths to be established successfully when alternative paths are unavailable in the network or unable to be computed by ingress.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shen-mpls-rsvp-setup-protection-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shen-mpls-rsvp-setup-protection-02.txt' />
+</reference>

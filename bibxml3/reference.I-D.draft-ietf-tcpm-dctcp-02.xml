@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-dctcp'>
+<front>
+<title>Datacenter TCP (DCTCP): TCP Congestion Control for Datacenters</title>
+
+<author initials='S' surname='Bensley' fullname='Stephen Bensley'>
+    <organization />
+</author>
+
+<author initials='L' surname='Eggert' fullname='Lars Eggert'>
+    <organization />
+</author>
+
+<author initials='D' surname='Thaler' fullname='Dave Thaler'>
+    <organization />
+</author>
+
+<author initials='P' surname='Balasubramanian' fullname='Praveen Balasubramanian'>
+    <organization />
+</author>
+
+<author initials='G' surname='Judd' fullname='Glenn Judd'>
+    <organization />
+</author>
+
+<date month='July' day='17' year='2016' />
+
+<abstract><t>This informational memo describes Datacenter TCP (DCTCP), an improvement to TCP congestion control for datacenter traffic.  DCTCP uses improved Explicit Congestion Notification (ECN) processing to estimate the fraction of bytes that encounter congestion, rather than simply detecting that some congestion has occurred.  DCTCP then scales the TCP congestion window based on this estimate.  This method achieves high burst tolerance, low latency, and high throughput with shallow-buffered switches.  This memo also discusses deployment issues related to the coexistence of DCTCP and conventional TCP, the lack of a negotiating mechanism between sender and receiver, and presents some possible mitigations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-dctcp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-dctcp-02.txt' />
+</reference>

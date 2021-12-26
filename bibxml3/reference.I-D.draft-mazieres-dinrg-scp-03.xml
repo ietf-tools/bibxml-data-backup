@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mazieres-dinrg-scp'>
+<front>
+<title>The Stellar Consensus Protocol (SCP)</title>
+
+<author initials='N' surname='Barry' fullname='Nicolas Barry'>
+    <organization />
+</author>
+
+<author initials='G' surname='Losa' fullname='Giuliano Losa'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mazieres' fullname='David Mazieres'>
+    <organization />
+</author>
+
+<author initials='J' surname='McCaleb' fullname='Jed McCaleb'>
+    <organization />
+</author>
+
+<author initials='S' surname='Polu' fullname='Stanislas Polu'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2018' />
+
+<abstract><t>SCP is an open Byzantine agreement protocol resistant to Sybil attacks.  It allows Internet infrastructure stakeholders to reach agreement on a series of values without unanimous agreement on what constitutes the set of important stakeholders.  A big differentiator from other Byzantine agreement protocols is that, in SCP, nodes determine the composition of quorums in a decentralized way: each node selects sets of nodes it considers large or important enough to speak for the whole network, and a quorum must contain such a set for each of its members.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mazieres-dinrg-scp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mazieres-dinrg-scp-03.txt' />
+</reference>

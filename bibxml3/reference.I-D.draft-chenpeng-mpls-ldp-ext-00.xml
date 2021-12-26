@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chenpeng-mpls-ldp-ext'>
+<front>
+<title>LDP Extensions for FEC elements sharing label</title>
+
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Peng' fullname='Shaofu Peng'>
+    <organization />
+</author>
+
+<date month='October' day='28' year='2016' />
+
+<abstract><t>Label Distribution Protocol (LDP) is defined in [RFC5036] for distribution of labels inside one MPLS domain.  It defined how to associate a Forwarding Equivalence Class (FEC) with each label it distributes.  A FEC is a list of one or more FEC elements, but it does not describe operations how to achieve one or more FEC element share the same label.  Currently Label resources are getting more and more nervous, and it is necessary to save the label resources.  This document defines extensions to the LDP protocol to achieve one or more FEC element share the same label.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chenpeng-mpls-ldp-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chenpeng-mpls-ldp-ext-00.txt' />
+</reference>

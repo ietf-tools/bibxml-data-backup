@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-dns-attrleaf'>
+<front>
+<title>DNS Scoped Data Through Attribute Leaves</title>
+
+<author initials='D' surname='Crocker' fullname='David Crocker'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2006' />
+
+<abstract><t>Historically, any DNS RR may occur for any name. Recent additions have defined DNS leaf nodes that contain a reserved node name, beginning with an underscore. With the underscore construct, the choice of valid RRs is limited to a defined set. The underscore construct is a basic paradigm modification to the DNS, because it defines a scope-constrained attribute space for the containing domain name. This note defines the nature of this DNS usage and defines the procedures for registering new "underscore names" with IANA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crocker-dns-attrleaf-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crocker-dns-attrleaf-00.txt' />
+</reference>

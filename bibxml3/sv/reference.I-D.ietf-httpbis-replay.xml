@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-httpbis-replay'>
+<front>
+<title>Using Early Data in HTTP</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Nottingham' fullname='Mark Nottingham'>
+    <organization />
+</author>
+
+<author initials='W' surname='Tarreau' fullname='Willy Tarreau'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2018' />
+
+<abstract><t>Using TLS early data creates an exposure to the possibility of a replay attack.  This document defines mechanisms that allow clients to communicate with servers about HTTP requests that are sent in early data.  Techniques are described that use these mechanisms to mitigate the risk of replay.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-httpbis-replay-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-httpbis-replay-04.txt' />
+</reference>

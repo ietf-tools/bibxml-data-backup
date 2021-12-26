@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.talpey-rdma-commit'>
+<front>
+<title>RDMA Extensions for Enhanced Memory Placement</title>
+
+<author initials='T' surname='Talpey' fullname='Tom Talpey'>
+    <organization />
+</author>
+
+<author initials='T' surname='Hurson' fullname='Tony Hurson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Agarwal' fullname='Gaurav Agarwal'>
+    <organization />
+</author>
+
+<author initials='T' surname='Reu' fullname='Tom Reu'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>This document specifies extensions to RDMA (Remote Direct Memory Access) protocols to provide capabilities in support of enhanced remotely-directed data placement on persistent memory-addressable devices.  The extensions include new operations supporting remote commitment to persistence of remotely-managed buffers, which can provide enhanced guarantees and improve performance for low-latency storage applications.  In addition to, and in support of these, extensions to local behaviors are described, which may be used to guide implementation, and to ease adoption.  This document updates RFC5040 (Remote Direct Memory Access Protocol (RDMAP)) and updates RFC7306 (RDMA Protocol Extensions).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-talpey-rdma-commit-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-talpey-rdma-commit-01.txt' />
+</reference>

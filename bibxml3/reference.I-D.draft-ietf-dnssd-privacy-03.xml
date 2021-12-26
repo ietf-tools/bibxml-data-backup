@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnssd-privacy'>
+<front>
+<title>Privacy Extensions for DNS-SD</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kaiser' fullname='Daniel Kaiser'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2017' />
+
+<abstract><t>DNS-SD (DNS Service Discovery) normally discloses information about both the devices offering services and the devices requesting services.  This information includes host names, network parameters, and possibly a further description of the corresponding service instance.  Especially when mobile devices engage in DNS Service Discovery over Multicast DNS at a public hotspot, a serious privacy problem arises.  We propose to solve this problem by a two-stage approach.  In the first stage, hosts discover Private Discovery Service Instances via DNS-SD using special formats to protect their privacy.  These service instances correspond to Private Discovery Servers running on peers. In the second stage, hosts directly query these Private Discovery Servers via DNS-SD over TLS.  A pairwise shared secret necessary to establish these connections is only known to hosts authorized by a pairing system.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnssd-privacy-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnssd-privacy-03.txt' />
+</reference>

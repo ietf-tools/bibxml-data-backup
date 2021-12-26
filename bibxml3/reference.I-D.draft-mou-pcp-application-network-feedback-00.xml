@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mou-pcp-application-network-feedback'>
+<front>
+<title>PCP Extension for Signaling Feedback Information from the End-User Application to the Application Sever and to the Network</title>
+
+<author initials='H' surname='Moustafa' fullname='Hassnaa Moustafa'>
+    <organization />
+</author>
+
+<author initials='D' surname='Moses' fullname='Danny Moses'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2013' />
+
+<abstract><t>Nowadays users consumption style for video and multimedia applications is strongly changing.  Users are heavily counting on wireless and mobile devices for video streaming and interactive video and multimedia applications.  This can be implemented for instance by having more intelligence in the service and the network infrastructure to better suit a differentiated users consumption style.  This can be achieved through having: (i) a knowledge in the network and service platform about the available device and network conditions for the end-user and (ii) a knowledge in the network about the content requirements in terms of devices capabilities and network resources for content stored either in the network or in the application server.  To obtain such knowledge with no need for changing the current infrastructure and in a generalized way to all applications, feedback/notification mechanisms between the end-user application, the network and the service platform is needed to provide information helping the content delivery and adaptation decisions.  This document is investigating such application-agnostic track.  This document extends the Port Control Protocol (PCP) RFC 6887 [RFC6887] to allow: (i) the users application to notify the network and application server about its available resources in terms of devices capabilities and network conditions as well as information about the user (e.g., location, mobility status) and (ii) the application server to notify the network about the requirements of the content it stores in terms of devices and network resources.  A new PCP option, denoted the FEEDBACK, is specified to allow such feedback notification signaling.  This option is used with both PEER and MAP Opcodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mou-pcp-application-network-feedback-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mou-pcp-application-network-feedback-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mou-pcp-application-network-feedback-00.pdf' />
+</reference>

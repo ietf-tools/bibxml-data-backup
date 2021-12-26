@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.saldana-lisp-compress-mux'>
+<front>
+<title>Header compression and multiplexing in LISP</title>
+
+<author initials='J' surname='Saldana' fullname='Jose Saldana'>
+    <organization />
+</author>
+
+<author initials='J' surname='Navajas' fullname='Julian Navajas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mas' fullname='Jose Mas'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2019' />
+
+<abstract><t>When small payloads are transmitted through a packet-switched network, the resulting overhead may result significant.  This is stressed in the case of LISP, where a number of headers have to be added to each packet.  This document proposes a way to send together, into a single packet, a number of small packets, which are in the buffer of a ITR, having the same ETR as destination.  This way, they can share a single LISP header, and therefore bandwidth savings can be obtained, and a reduction in the overall number of packets sent to the network can be achieved.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-saldana-lisp-compress-mux-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-saldana-lisp-compress-mux-06.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-saldana-lisp-compress-mux-06.pdf' />
+</reference>

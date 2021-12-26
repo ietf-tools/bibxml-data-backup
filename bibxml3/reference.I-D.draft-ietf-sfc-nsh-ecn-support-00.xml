@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sfc-nsh-ecn-support'>
+<front>
+<title>Explicit Congestion Notification (ECN) and Congestion Feedback Using the Network Service Header (NSH)</title>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='A' surname='Malis' fullname='Andrew Malis'>
+    <organization />
+</author>
+
+<date month='February' day='8' year='2019' />
+
+<abstract><t>Explicit congestion notification (ECN) allows a forwarding element to notify downstream devices of the onset of congestion without having to drop packets. Coupled with a means to feed back information about congestion to upstream nodes, this can improve network efficiency through better congestion control, frequently without packet drops. This document specifies ECN and congestion feedback support within a Service Function Chaining (SFC) domain through use of the Network Service Header (NSH, RFC 8300) and IP Flow Information Export (IPFIX, draft-ietf-tsvwg-tunnel-congestion-feedback).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sfc-nsh-ecn-support-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sfc-nsh-ecn-support-00.txt' />
+</reference>

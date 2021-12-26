@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-docsis-q-protection'>
+<front>
+<title>Queue Protection to Preserve Low Latency</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='G' surname='White' fullname='Greg White'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>This informational document defines and explains the specification of the queue protection algorithm used in DOCSIS 3.1.  It is believed this algorithm will be useful in scenarios other than DOCSIS.  A shared low latency queue relies on the non-queue-building behaviour of every traffic flow using it.  However, some flows might not take such care, either accidentally or maliciously.  If a queue is about to exceed a threshold level of delay, the queue protection algorithm can rapidly detect the flow(s) most likely to be responsible.  It can then prevent selected packets of these flows (or whole flows) from harming the queuing delay of other traffic in the low latency queue.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-docsis-q-protection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-docsis-q-protection-00.txt' />
+</reference>

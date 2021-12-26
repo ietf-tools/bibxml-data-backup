@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pkix-ldap-pkc-schema'>
+<front>
+<title>Internet X.509 Public Key Infrastructure Lightweight Directory Access  Protocol Schema for X.509 Certificates</title>
+
+<author initials='P' surname='Gietz' fullname='Peter Gietz'>
+    <organization />
+</author>
+
+<author initials='N' surname='Klasen' fullname='Norbert Klasen'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2004' />
+
+<abstract><t>This document describes a Lightweight Directory Access Protocol schema which can be used to implement a certificate store for X.509 certificates. Specifically, two structural object classes for X.509 user and CA certificates are defined. Key fields of a certificate are stored in LDAP attributes so that applications can easily retrieve the certificates needed by using basic LDAP search filters. Multiple certificates for a single entity can be stored and retrieved.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pkix-ldap-pkc-schema-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pkix-ldap-pkc-schema-01.txt' />
+</reference>

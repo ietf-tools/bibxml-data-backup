@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-datagram-plpmtud'>
+<front>
+<title>Packetization Layer Path MTU Discovery for Datagram Transports</title>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<author initials='T' surname='Jones' fullname='Tom Jones'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<author initials='I' surname='Ruengeler' fullname='Irene Ruengeler'>
+    <organization />
+</author>
+
+<author initials='T' surname='Voelker' fullname='Timo Voelker'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2020' />
+
+<abstract><t>This document describes a robust method for Path MTU Discovery (PMTUD) for datagram Packetization Layers (PLs).  It describes an extension to RFC 1191 and RFC 8201, which specifies ICMP-based Path MTU Discovery for IPv4 and IPv6.  The method allows a PL, or a datagram application that uses a PL, to discover whether a network path can support the current size of datagram.  This can be used to detect and reduce the message size when a sender encounters a packet black hole (where packets are discarded).  The method can probe a network path with progressively larger packets to discover whether the maximum packet size can be increased.  This allows a sender to determine an appropriate packet size, providing functionality for datagram transports that is equivalent to the Packetization Layer PMTUD specification for TCP, specified in RFC 4821.  The document updates RFC 4821 to specify the method for datagram PLs, and updates RFC 8085 as the method to use in place of RFC 4821 with UDP datagrams.  Section 7.3 of RFC4960 recommends an endpoint apply the techniques in RFC 4821 on a per-destination-address basis.  RFC 4960, RFC 6951 and RFC 8261 are updated to recommend that SCTP, SCTP encapsulated in UDP and SCTP encapsulated in DTLS use the method specified in this document instead of the method in RFC 4821.  The document also provides implementation notes for incorporating Datagram PMTUD into IETF datagram transports or applications that use datagram transports.  When published, this specification updates RFC 4960, RFC 4821, RFC 8085 and RFC 8261.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-datagram-plpmtud-17' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-datagram-plpmtud-17.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stein-pwe3-pwbonding'>
+<front>
+<title>PW Bonding</title>
+
+<author initials='Y' surname='Stein' fullname='Yaakov Stein'>
+    <organization />
+</author>
+
+<author initials='I' surname='Mendelsohn' fullname='Itai Mendelsohn'>
+    <organization />
+</author>
+
+<author initials='R' surname='Insler' fullname='Ron Insler'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2008' />
+
+<abstract><t>There are times when pseudowires must be transported over physical links with limited bandwidth.  We shall use the term "bonding" (also variously known as inverse multiplexing, link aggregation, trunking, teaming, etc.) to mean an efficient mechanism for separating the PW traffic over several links.  Unlike load balancing and equal cost multipath, bonding makes no assumption that the PW traffic can be decomposed into distinguishable flows, and thus bonding requires delay compensation and packet reordering.  Furthermore, PW bonding can optionally track bandwidth constraints in order to minimize packet loss.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stein-pwe3-pwbonding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stein-pwe3-pwbonding-00.txt' />
+</reference>

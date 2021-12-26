@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-mipshop-fmip-ptp'>
+<front>
+<title>Fast Handovers for Mobile IPv6 Operation on Point-to-Point Links</title>
+
+<author initials='F' surname='Xia' fullname='Frank  Xia'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2007' />
+
+<abstract><t>The FMIPv6 specification currently does not explicitly define the operation over Point-to-Point links. In this document we define FMIPv6 operation over the point-to-point links, especially we propose mechanism for assigning unique prefixes to the MN by the PAR. Three different solutions are proposed. A new access router dynamically assigns a unique prefix called dedicated prefix to any MN that is performing a handover. Alternatively, the previous access router sends an aggregate prefix of a new access router to MN for formulating NCoA, and only when handover takes place, the new access router assigns a dedicated prefix to MN and configures a NCoA for the MN. Lastly, MN is allowed to generate a special NCoA without any specific prefix information, and only when handover takes place, the new access router assigns a dedicated prefix to MN for NCoA formulation. Both reactive and predictive modes of FMIPv6 are explained.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-mipshop-fmip-ptp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-mipshop-fmip-ptp-01.txt' />
+</reference>

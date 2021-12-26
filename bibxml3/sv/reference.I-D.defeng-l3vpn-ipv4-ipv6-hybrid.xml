@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.defeng-l3vpn-ipv4-ipv6-hybrid'>
+<front>
+<title>BGP-MPLS VPN extension for IPv4/IPv6 Hybrid Network</title>
+
+<author initials='D' surname='Li' fullname='Defeng Li'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2004' />
+
+<abstract><t>This document describes some methods which may be used by Service Providers to provide Virtual Private Networks for some scenarios where the Service Provider's network or Customer's network is comprised of part of IPv4 network and part of IPv6 network.These situations can't be avoided during the process of IPv4 transition to IPv6, e.g. IPv6 backbone network for IPv4-IPv6 hybrid VPN sites,or IPv4 backbone network for IPv4-IPv6 hybrid VPN sites,or IPv4-IPv6 hybrid backbone network for IPv4-IPv6 hybrid VPN sites.This proposal continue to use the concepts described in the Internet draft 'BGP/MPLS VPN'[2547bis],such as RD,VRF,Route Target and some mechanisms. In BGP/MPLS VPN, MPLS is used to forward packets over the backbone, and "Multiprotocol BGP" is used for distributing VPN routes over the service provider backbone.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-defeng-l3vpn-ipv4-ipv6-hybrid-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-defeng-l3vpn-ipv4-ipv6-hybrid-01.txt' />
+</reference>

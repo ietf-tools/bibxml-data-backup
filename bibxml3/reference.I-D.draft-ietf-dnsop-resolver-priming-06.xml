@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-resolver-priming'>
+<front>
+<title>Initializing a DNS Resolver with Priming Queries</title>
+
+<author initials='P' surname='Koch' fullname='Peter Koch'>
+    <organization />
+</author>
+
+<author initials='M' surname='Larson' fullname='M. Larson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='January' day='13' year='2016' />
+
+<abstract><t>This document describes the queries a DNS resolver can emit to initialize its cache.  The result is that the resolver gets both a current NS RRSet for the root zone and the necessary address information for reaching the root servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-resolver-priming-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-resolver-priming-06.txt' />
+</reference>

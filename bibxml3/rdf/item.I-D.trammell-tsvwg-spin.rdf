@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-trammell-tsvwg-spin-00.txt'>
+    <title>"A Transport-Independent Explicit Signal for Hybrid RTT Measurement", Brian Trammell</title>
+    <link>http://www.ietf.org/internet-drafts/draft-trammell-tsvwg-spin-00.txt</link>
+    <description>This document defines an explicit per-flow transport-layer signal for hybrid measurement of end-to-end RTT.  This signal consists of three bits: a spin bit, which oscillates once per end-to-end RTT, and a two-bit Valid Edge Counter (VEC), which compensates for loss and reordering of the spin bit to increase fidelity of the signal in less than ideal network conditions.  It describes the algorithm for generating the signal, approaches for observing it to passively measure end-to-end latency, and proposes methods for adding it to a variety of IETF transport protocols.</description>
+    <dc:date>2018-07-02T07:00:00-00:00</dc:date>
+</item>

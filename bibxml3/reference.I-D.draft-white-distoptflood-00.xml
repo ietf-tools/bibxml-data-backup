@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.white-distoptflood'>
+<front>
+<title>IS-IS Optimal Distributed Flooding for Dense Topologies</title>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zandi' fullname='Shawn Zandi'>
+    <organization />
+</author>
+
+<date month='March' day='31' year='2019' />
+
+<abstract><t>Dense topologies, such as data center fabrics based on the Clos and butterfly fabric topologies.  Flooding mechanisms designed for sparse topologies, when used in these dense topologies, can result in slower convergence times and higher resource utilization.  The modifications to the flooding mechanism in the Intermediate System to Intermediate System (IS-IS) link state protocol described in this document reduce resource utilization to a minimum, while increaseing convergence performance in dense topologies.  Note that a Clos fabric is used as the primary example of a desne flooding topology throughout this document.  However, the flooding optimizations described in this document apply to any dense topology.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-white-distoptflood-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-white-distoptflood-00.txt' />
+</reference>

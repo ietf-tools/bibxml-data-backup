@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mptcp-threat'>
+<front>
+<title>Threat Analysis for Multi-addressed/Multi-path TCP</title>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<date month='March' day='29' year='2010' />
+
+<abstract><t>Multi-addresses/Multi-path TCP (MPTCP for short) describes the extensions proposed for TCP so that each endpoint of a given TCP connection can use multiple IP addresses to exchange data (instead of a single IP address per endpoint as currently defined).  Such extensions enable the exchange of segments using different source- destination address pairs, resulting in the capability of using multiple paths in a significant number of scenarios.  In particular, some level of multihoming and mobility support can be achieved through these extensions.  However, the support for multiple IP addresses per endpoint may have implications on the security of the resulting MPTCP protocol.  This note includes a threat analysis for MPTCP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mptcp-threat-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mptcp-threat-02.txt' />
+</reference>

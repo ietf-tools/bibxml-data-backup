@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-behave-dns-a64'>
+<front>
+<title>A64: DNS Resource Record for IPv4-mapped IPv6 Address</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohammed Boucadair'>
+    <organization />
+</author>
+
+<author initials='E' surname='Burgey' fullname='Eric Burgey'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2009' />
+
+<abstract><t>In this context of IPv4-IPv6 interconnection, several solutions have been proposed.  Some of these solutions require the definition of a new IPv4-mapped IPv6 address [I-D.ietf-behave-address-format] which is used to represent an IPv4-only host in an IPv6 realms and the definition of a new mechanism called DNS64 for synthesizing a AAAA record, representing an IPv4-mapped IPv6 address in the DNS system, from the A record representing the IPv4 address of the IPv4-only host [I-D.ietf-behave-dns64].  This IPv4-mapped IPv6 address, when managed by a translator, is to be considered as "fake" address in a DNS system since it is not necessarily assigned to any host's interface qualified by the associated name.  This document defines a new DNS record type and query type to identify IPv4-mapped IPv6 address [I-D.ietf-behave-address-format] from native IPv6 ones.  The new record type and query type aim at helping the remote party to enforce its policies and avoid NAT64 boxes when possible.  Native addresses are to be preferred.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-behave-dns-a64-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-behave-dns-a64-00.txt' />
+</reference>

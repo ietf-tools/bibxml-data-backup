@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmarc-arc-protocol'>
+<front>
+<title>Authenticated Received Chain (ARC) Protocol</title>
+
+<author initials='K' surname='Andersen' fullname='Kurt Andersen'>
+    <organization />
+</author>
+
+<author initials='B' surname='Long' fullname='Brandon Long'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jones' fullname='Steven Jones'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<date month='July' day='21' year='2017' />
+
+<abstract><t>The Authenticated Received Chain (ARC) protocol creates a mechanism whereby a series of handlers of a message can conduct authentication of a message as it passes among them on the way to its destination, and record the status of that authentication at each step along the handling path, for use by the final recipient in making choices about the disposition of the message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmarc-arc-protocol-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmarc-arc-protocol-08.txt' />
+</reference>

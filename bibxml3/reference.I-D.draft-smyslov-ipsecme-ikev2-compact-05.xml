@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.smyslov-ipsecme-ikev2-compact'>
+<front>
+<title>Compact Format of IKEv2 Payloads</title>
+
+<author initials='V' surname='Smyslov' fullname='Valery Smyslov'>
+    <organization />
+</author>
+
+<date month='April' day='3' year='2019' />
+
+<abstract><t>This document describes a method for reducing the size of the Internet Key Exchange version 2 (IKEv2) messages by using an alternative format for IKE payloads.  Standard format of many IKE payloads contains a lot of redundancy.  This document takes advantage of this fact and specifies a way to eliminate some redundancy by using denser encoding.  Reducing size of IKEv2 messages is desirable for low power consumption battery powered devices.  It also helps to avoid IP fragmentation of IKEv2 messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-smyslov-ipsecme-ikev2-compact-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-smyslov-ipsecme-ikev2-compact-05.txt' />
+</reference>

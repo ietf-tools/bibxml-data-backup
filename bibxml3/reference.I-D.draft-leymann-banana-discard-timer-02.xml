@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.leymann-banana-discard-timer'>
+<front>
+<title>BANdwidth Aggregation for interNet Access (BANANA) Discard Timer Features for Bonding Tunnel Method</title>
+
+<author initials='N' surname='Leymann' fullname='Nicolai Leymann'>
+    <organization />
+</author>
+
+<author initials='C' surname='Heidemann' fullname='Cornelius Heidemann'>
+    <organization />
+</author>
+
+<author initials='J' surname='Shen' fullname='Jun Shen'>
+    <organization />
+</author>
+
+<author initials='L' surname='Geng' fullname='Liang Geng'>
+    <organization />
+</author>
+
+<author initials='L' surname='Chen' fullname='Lihao Chen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<author initials='M' surname='Cullen' fullname='Margaret Cullen'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2017' />
+
+<abstract><t>Various tunnel based methods have been developed to realize BANdwidth Aggregation for interNet Access (BANANA). At the egress point of bonding tunnels, packets that have been delivered through different tunnels are reordered in a bonding reordering buffer. Along each tunnel, network devices may set aside buffers, which are referred as tunnel buffers, to cache packets as well. This document exposes that a time boundary, which is referred as "Discard Timer", imposed on tunnel buffers could improve the throughput and reliability of the bonding tunnels.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-leymann-banana-discard-timer-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-leymann-banana-discard-timer-02.txt' />
+</reference>

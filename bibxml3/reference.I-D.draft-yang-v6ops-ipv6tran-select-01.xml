@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yang-v6ops-ipv6tran-select'>
+<front>
+<title>IPv6 Transition Technologies Selection using DHCP/DHCPv6</title>
+
+<author initials='T' surname='Yang' fullname='Tianle Yang'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Ma' fullname='Qiongfang Ma'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2013' />
+
+<abstract><t>Nowadays, many IPv6 transition technologies has been proposed, such as Dual-Stack, DS-Lite, 6rd and so on.  An CPE may support some of them instead of only one.  But ISPs usually deploy just an unique transition technology in an area, for example, under a BRAS/SR or in a MAN.  So they must control all the CPEs to ues the exact transition tech through the CPEs' management system or configuring them before issuing to the customers.  Another question is that if subscriber buy a new CPE from supermarket to substitute the one received from the ISP, he may not access internet because of the wrong configuration.  To solve these problems,this document defines a new DHCP/DHCPv6 option named TRAN_TYPE which can control CPEs to select the appropriate IPv6 transition technology which ISP deployed instend of the CPEs' default configration.  This method can also solve the configurating problem when various CPEs work together without a uniform configuration in advance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yang-v6ops-ipv6tran-select-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yang-v6ops-ipv6tran-select-01.txt' />
+</reference>

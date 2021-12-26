@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tram-stun-path-data'>
+<front>
+<title>Discovery of path characteristics using STUN</title>
+
+<author initials='T' surname='Reddy' fullname='Tirumaleswar Reddy'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='P' surname='Martinsen' fullname='Paal-Erik Martinsen'>
+    <organization />
+</author>
+
+<author initials='V' surname='Singh' fullname='Varun Singh'>
+    <organization />
+</author>
+
+<date month='April' day='7' year='2015' />
+
+<abstract><t>A host with multiple interfaces needs to choose the best interface for communication.  Oftentimes, this decision is based on a static configuration and does not consider the path characteristics, which may affect the user experience.  This document describes a mechanism for an endpoint to discover the path characteristics using Session Traversal Utilities for NAT (STUN) messages.  The measurement information can then be used to influence the endpoint's Interactive Connectivity Establishment (ICE) candidate pair selection algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tram-stun-path-data-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tram-stun-path-data-01.txt' />
+</reference>

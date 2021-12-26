@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipping-dialogusage'>
+<front>
+<title>Multiple Dialog Usages in the Session Initiation Protocol</title>
+
+<author initials='R' surname='Sparks' fullname='Robert Sparks'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2007' />
+
+<abstract><t>Several methods in the Session Initiation Protocol can create an association between endpoints known as a dialog. Some of these methods can also create a different, but related, association within an existing dialog. These multiple associations, or dialog usages, require carefully coordinated processing as they have independent life-cycles, but share common dialog state. Processing multiple dialog usages correctly is not completely understood. What is understood is difficult to implement. This memo argues that multiple dialog usages should be avoided. It discusses alternatives to their use and clarifies essential behavior for elements that cannot currently avoid them. This is an informative document and makes no normative statements of any kind.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipping-dialogusage-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipping-dialogusage-06.txt' />
+</reference>

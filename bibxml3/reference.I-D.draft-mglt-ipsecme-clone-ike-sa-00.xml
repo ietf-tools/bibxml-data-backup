@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-ipsecme-clone-ike-sa'>
+<front>
+<title>Clone IKE SA Extension</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2014' />
+
+<abstract><t>This document considers a VPN End User setting a VPN with a security gateway where at least one of the peer has multiple interfaces.  With the current IKEv2, the outer IP addresses of the VPN are determined by those used by IKEv2 channel.  As a result using multiple interfaces requires to set an IKEv2 channel on each interface, or on each paths if both the VPN Client and the security gateway have multiple interfaces.  Setting multiple IKEv2 channel involves multiple authentications which MAY each require multiple round trips and delay the VPN establishment.  In addition multiple authentications unnecessarily load the VPN client and the authentication infrastructure.  This document presents the Clone IKE_SA extension, where an additional IKEv2 channel is derived from an already authenticated IKEv2 channel.  The newly created IKEv2 channel is set without the IKEv2 authentication exchange.  The newly created IKEv2 channel can then be assigned to another interface using MOBIKE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-ipsecme-clone-ike-sa-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-ipsecme-clone-ike-sa-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-ipsecme-clone-ike-sa-00.pdf' />
+</reference>

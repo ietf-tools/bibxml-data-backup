@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pim-join-attributes'>
+<front>
+<title>The PIM Join Attribute Format</title>
+
+<author initials='A' surname='Boers' fullname='A Boers'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2008' />
+
+<abstract><t>A Protocol Independent Multicast (PIM) Join message sent by a given node identifies one or more multicast distribution trees that that node wishes to join.  Each tree is identified by a multicast group address and a source address, which is possibly a "wild card".  Under certain conditions it can be useful, when joining a tree, to specify additional information related to the construction of the tree. However, there is up to now no way to do so.  This document describes a modification of the Join message that allows a node to associate attributes with a particular tree.  The attributes are encoded in Type-Length-Value format.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pim-join-attributes-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-join-attributes-04.txt' />
+</reference>

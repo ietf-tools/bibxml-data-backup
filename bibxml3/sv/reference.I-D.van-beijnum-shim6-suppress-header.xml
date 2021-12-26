@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.van-beijnum-shim6-suppress-header'>
+<front>
+<title>Suppressing the Shim6 Header</title>
+
+<author initials='I' surname='Beijnum' fullname='Iljitsch van Beijnum'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2006' />
+
+<abstract><t>The shim6 protocol defines a header that contains a "context tag" that identifies packets as belonging to a certain shim6 context that exists between two hosts. It has been suggested that this shim6 header is inserted between the IPv6 header and the upper layer protocol such as TCP in all packets where the shim layer has rewritten the source and/or destination address. This document considers the suppression of this header in situations where packets can be successfully demultiplexed by the receiver without it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-van-beijnum-shim6-suppress-header-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-van-beijnum-shim6-suppress-header-00.txt' />
+</reference>

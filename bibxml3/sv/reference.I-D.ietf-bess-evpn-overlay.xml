@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-overlay'>
+<front>
+<title>A Network Virtualization Overlay Solution using EVPN</title>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bitar' fullname='Nabil Bitar'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shekhar' fullname='Ravi Shekhar'>
+    <organization />
+</author>
+
+<author initials='J' surname='Uttaro' fullname='Jim Uttaro'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2018' />
+
+<abstract><t>This document specifies how Ethernet VPN (EVPN) can be used as a Network Virtualization Overlay (NVO) solution and explores the various tunnel encapsulation options over IP  and their impact on the EVPN control-plane and procedures. In particular, the following encapsulation options are analyzed: Virtual Extensible LAN (VXLAN), Network Virtualization using Generic Routing Encapsulation (NVGRE), and MPLS over Generic Routing Encapsulation (GRE). This specification is also applicable to Generic Network Virtualization Encapsulation (GENEVE) encapsulation; however, some incremental work is required which will be covered in a separate document. This document also specifies new multi-homing procedures for split-horizon filtering and mass-withdraw. It also specifies EVPN route constructions for VXLAN/NVGRE encapsulations and Autonomous System Boundary Router (ASBR) procedures for multi-homing of Network Virtualization (NV) Edge devices.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-overlay-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-overlay-12.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.morton-tsvwg-codel-approx-fair'>
+<front>
+<title>Controlled Delay Approximate Fairness AQM</title>
+
+<author initials='J' surname='Morton' fullname='Jonathan Morton'>
+    <organization />
+</author>
+
+<author initials='P' surname='Heist' fullname='Peter Heist'>
+    <organization />
+</author>
+
+<date month='February' day='19' year='2020' />
+
+<abstract><t>This note presents CodelAF, or Controlled Delay Approximate Fairness in full, as an alternative to single-queue AQM or Fair Queue implementations in the low-cost or high-speed network hardware spaces.  It builds on the seminal work in Codel [RFC8289], and guides multiple competing flows towards similar throughputs by differential congestion signalling, whilst requiring only a single FIFO queue.  It may also be combined with CNQ [I-D.morton-tsvwg-cheap-nasty-queueing] to provide a latency optimisation for sparse flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-morton-tsvwg-codel-approx-fair-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-morton-tsvwg-codel-approx-fair-00.txt' />
+</reference>

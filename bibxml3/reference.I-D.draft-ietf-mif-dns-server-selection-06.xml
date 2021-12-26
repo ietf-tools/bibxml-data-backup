@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mif-dns-server-selection'>
+<front>
+<title>Improved DNS Server Selection for Multi-Interfaced Nodes</title>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kato' fullname='Jun-ya Kato'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2011' />
+
+<abstract><t>A multi-interfaced node is connected to multiple networks, some of which may be utilizing private DNS namespaces.  A node commonly receives DNS server configuration information from all connected networks.  Some of the DNS servers may have information about namespaces other servers do not have.  When a multi-interfaced node needs to utilize DNS, the node has to choose which of the servers to contact to.  This document describes DHCPv4 and DHCPv6 options that can be used to configure nodes with information required to perform informed DNS server selection decisions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mif-dns-server-selection-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mif-dns-server-selection-06.txt' />
+</reference>

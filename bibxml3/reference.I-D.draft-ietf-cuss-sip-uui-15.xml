@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-cuss-sip-uui'>
+<front>
+<title>A Mechanism for Transporting User to User Call Control Information in SIP</title>
+
+<author initials='A' surname='Johnston' fullname='Alan Johnston'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rafferty' fullname='James Rafferty'>
+    <organization />
+</author>
+
+<date month='April' day='2' year='2014' />
+
+<abstract><t>There is a class of applications which benefit from using SIP to exchange User to User Information (UUI) data during session establishment.  This information, known as call control UUI data, is a small piece of data inserted by an application initiating the session, and utilized by an application accepting the session.  The syntax and semantics for the UUI data used by a specific application. This UUI data is opaque to SIP and its function is unrelated to any basic SIP function.  This document defines a new SIP header field, User-to-User, to transport UUI data, along with an extension mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-cuss-sip-uui-15' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-cuss-sip-uui-15.txt' />
+</reference>

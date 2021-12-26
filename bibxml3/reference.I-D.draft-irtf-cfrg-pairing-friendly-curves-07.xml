@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-cfrg-pairing-friendly-curves'>
+<front>
+<title>Pairing-Friendly Curves</title>
+
+<author initials='Y' surname='Sakemi' fullname='Yumi Sakemi'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kobayashi' fullname='Tetsutaro Kobayashi'>
+    <organization />
+</author>
+
+<author initials='T' surname='Saito' fullname='Tsunekazu Saito'>
+    <organization />
+</author>
+
+<author initials='R' surname='Wahby' fullname='Riad Wahby'>
+    <organization />
+</author>
+
+<date month='June' day='18' year='2020' />
+
+<abstract><t>Pairing-based cryptography, a subfield of elliptic curve cryptography, has received attention due to its flexible and practical functionality.  Pairings are special maps defined using elliptic curves and it can be applied to construct several cryptographic protocols such as identity-based encryption, attribute- based encryption, and so on.  At CRYPTO 2016, Kim and Barbulescu proposed an efficient number field sieve algorithm named exTNFS for the discrete logarithm problem in a finite field.  Several types of pairing-friendly curves such as Barreto-Naehrig curves are affected by the attack.  In particular, a Barreto-Naehrig curve with a 254-bit characteristic was adopted by a lot of cryptographic libraries as a parameter of 128-bit security, however, it ensures no more than the 100-bit security level due to the effect of the attack.  In this memo, we list the security levels of certain pairing-friendly curves, and motivate our choices of curves.  First, we summarize the adoption status of pairing-friendly curves in standards, libraries and applications, and classify them in the 128-bit, 192-bit, and 256-bit security levels.  Then, from the viewpoints of "security" and "widely used", we select the recommended pairing-friendly curves considering exTNFS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-cfrg-pairing-friendly-curves-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-pairing-friendly-curves-07.txt' />
+</reference>

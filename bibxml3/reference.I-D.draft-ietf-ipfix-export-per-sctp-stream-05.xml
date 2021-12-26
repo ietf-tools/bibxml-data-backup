@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipfix-export-per-sctp-stream'>
+<front>
+<title>IPFIX Export per SCTP Stream</title>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<author initials='P' surname='Aitken' fullname='Paul Aitken'>
+    <organization />
+</author>
+
+<author initials='A' surname='Johnson' fullname='Andrew Johnson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Muenz' fullname='Gerhard Muenz'>
+    <organization />
+</author>
+
+<date month='November' day='18' year='2009' />
+
+<abstract><t>This document specifies an extension to the specifications in RFC5101, IP Flow Information Export (IPFIX), when using the Partial Reliability extension of SCTP (PR-SCTP, Partial Reliability Stream Control Transmission Protocol). When implemented at both the Exporting and Collecting Processes, this method offers several advantages such as the ability to calculate Data Record losses for PR-SCTP, immediate export of Template Withdrawal Messages, immediate reuse of Template IDs within an SCTP stream, reduced likelihood of Data Record loss, and reduced demands on the Collecting Process.  When implemented in only the Collecting or Exporting Process then normal IPFIX behavior will be seen without these additional benefits.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipfix-export-per-sctp-stream-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipfix-export-per-sctp-stream-05.txt' />
+</reference>

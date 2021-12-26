@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-rfc4960-bis'>
+<front>
+<title>Stream Control Transmission Protocol</title>
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+<organization />
+</author>
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+<organization />
+</author>
+<author initials='K' surname='Nielsen' fullname='Karen Nielsen'>
+<organization />
+</author>
+<date year='2021' month='November' day='08' />
+<abstract><t>This document obsoletes RFC 4960, if approved.  It describes the Stream Control Transmission Protocol (SCTP) and incorporates the specification of the chunk flags registry from RFC 6096 and the specification of the I bit of DATA chunks from RFC 7053.  Therefore, RFC 6096 and RFC 7053 are also obsoleted by this document, if approved.</t><t> SCTP was originally designed to transport Public Switched Telephone Network (PSTN) signaling messages over IP networks.  It is also suited to be used for other applications, for example WebRTC.</t><t> SCTP is a reliable transport protocol operating on top of a connectionless packet network such as IP.  It offers the following services to its users:</t><t> *  acknowledged error-free non-duplicated transfer of user data,</t><t> *  data fragmentation to conform to discovered path maximum transmission unit (PMTU) size,</t><t> *  sequenced delivery of user messages within multiple streams, with an option for order-of-arrival delivery of individual user messages,</t><t> *  optional bundling of multiple user messages into a single SCTP packet, and</t><t> *  network-level fault tolerance through supporting of multi-homing at either or both ends of an association.</t><t> The design of SCTP includes appropriate congestion avoidance behavior and resistance to flooding and masquerade attacks.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-rfc4960-bis-17'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-tsvwg-rfc4960-bis-17.txt'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-6man-slaac-renum'>
+<front>
+<title>Reaction of Stateless Address Autoconfiguration (SLAAC) to Renumbering Events</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zorz' fullname='Jan Zorz'>
+    <organization />
+</author>
+
+<date month='January' day='31' year='2019' />
+
+<abstract><t>A very common IPv6 deployment scenario is that in which a CPE employs DHCPv6 Prefix Delegation to obtain an IPv6 prefix, and at least one prefix from within the leased prefix is advertised on a local network via SLAAC.  In scenarios where e.g. the CPE crashes and reboots, nodes on the local network continue using outdated prefixes which result in connectivity problems.  This document analyzes this problem scenario, and proposes workarounds.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-6man-slaac-renum-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-6man-slaac-renum-00.txt' />
+</reference>

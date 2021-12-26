@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.allan-spme-smp-fmwk'>
+<front>
+<title>A framework for the use of SPMEs for shared mesh protection</title>
+
+<author initials='D' surname='Allan' fullname='David Allan'>
+    <organization />
+</author>
+
+<author initials='G' surname='Mirsky' fullname='Greg Mirsky'>
+    <organization />
+</author>
+
+<date month='November' day='15' year='2011' />
+
+<abstract><t>Shared mesh protection allows a set of diversely routed paths with diverse endpoints to collectively oversubcribe protection resources. Under normal conditions no single failure will result in the capacity of the associated protection resources to be exhausted.  When multiple failures occur such that more than one path in the set of paths utilizing shared protection resources is affected, the necessity arises of pre-empting traffic on the basis of business priority rather than application priority.  This memo describes the use of SPMEs and TC marking as a means of indicating business priority for shared mesh protection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-allan-spme-smp-fmwk-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-allan-spme-smp-fmwk-00.txt' />
+</reference>

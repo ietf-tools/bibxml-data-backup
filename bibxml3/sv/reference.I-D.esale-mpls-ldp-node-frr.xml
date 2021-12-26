@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.esale-mpls-ldp-node-frr'>
+<front>
+<title>Fast Reroute for Node Protection in LDP-based LSPs</title>
+
+<author initials='S' surname='Esale' fullname='Santosh Esale'>
+    <organization />
+</author>
+
+<author initials='R' surname='Torvi' fullname='Raveendra Torvi'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>This document describes procedures to support node protection for unicast Label Switched Paths (LSPs) established by Label Distribution Protocol (LDP).  In order to protect a node N, the Point of Local Repair (PLR) of N must discover the Merge Points (MPs) of node N such that traffic can be redirected to them in case of node N failure. Redirecting the traffic around the failed node N depends on existing point-to-point LSPs originated from the PLR to the MPs while bypassing the protected node N.  The procedures described in this document are topology independent in a sense that they provide node protection in any topology so long as there is a alternate path in the network that avoids the protected node.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-esale-mpls-ldp-node-frr-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-esale-mpls-ldp-node-frr-05.txt' />
+</reference>

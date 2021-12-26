@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hares-i2rs-bgp-compare-yang'>
+<front>
+<title>Comparison of I2RS and Config BGP Yang Modules</title>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>This document contains a comparison of two BGP yang models: draft- zhdankin-netmod-bgp-cfg-01 and draft-wang-i2rs-bgp-dm.  The yang model in draft-zhdankin-netmod-bgp-cfg-01 is a model focused on configuration.  The yang model in draft-wang-i2rs-bgp-dm-00 is focused on the status and ephemeral state changes needed for the I2RS interface.  The conclusion of comparison is that there little overlap except the definitions of common bgp structures.  The draft-wang- i2rs-bgp-dm-00 is necessary to fulfil a majority of the requirement drawn from the BGP use cases in the I2RS use cases (draft-i2rs-hares- usecase-reqs-summary).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hares-i2rs-bgp-compare-yang-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hares-i2rs-bgp-compare-yang-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hares-i2rs-bgp-compare-yang-01.pdf' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ayyangar-ccamp-lsp-stitching-00.txt'>
+    <title>"LSP Stitching with Generalized MPLS TE", Arthi Ayyangar, JP Vasseur</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ayyangar-ccamp-lsp-stitching-00.txt</link>
+    <description>In certain scenarios, there may be a need to combine together two different Generalized Multi-Protocol Label Switching (GMPLS) Label Switched Paths (LSPs) such that in the data plane, a single end-to-end (e2e) LSP is achieved and all traffic from one LSP is switched onto the other LSP. We will refer to this as "LSP stitching". This document covers cases where: a) the node performing the stitching does not require configuration of every LSP pair to be stitched together b) the node performing the stitching is not the egress of any of the LSPs c) LSP stitching not only results in an end-to-end LSP in the data plane, but there is also a corresponding end-to-end LSP (RSVP session) in the control plane. It might be possible to configure a GMPLS node to switch the traffic from an LSP for which it is the egress, to another LSP for which it is the ingress, without requiring any signaling or routing extensions whatsoever, completely transparent to other nodes. This will also result in LSP stitching in the data plane. However, this document does not cover this scenario of LSP stitching.</description>
+    <dc:date>2005-02-14T08:00:00-00:00</dc:date>
+</item>

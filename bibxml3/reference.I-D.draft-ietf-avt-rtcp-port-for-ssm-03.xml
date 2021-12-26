@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rtcp-port-for-ssm'>
+<front>
+<title>RTP Control Protocol (RTCP) Port for Source-Specific Multicast (SSM) Sessions</title>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2010' />
+
+<abstract><t>The Session Description Protocol (SDP) has an attribute that allows RTP applications to specify an address and a port associated with the RTP Control Protocol (RTCP) traffic.  In RTP-based source-specific multicast (SSM) sessions, the same attribute is used to designate the address and the RTCP port of the Feedback Target in the SDP description.  However, the RTCP port associated with the SSM session itself cannot be specified by the same attribute to avoid ambiguity, and thus, is required to be derived from the "m=" line of the media description.  Deriving the RTCP port from the "m=" line imposes an unnecessary restriction.  This document removes this restriction by introducing a new SDP attribute.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rtcp-port-for-ssm-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rtcp-port-for-ssm-03.txt' />
+</reference>

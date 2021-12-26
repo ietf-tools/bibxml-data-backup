@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.scharf-tsvwg-quick-start-flow-control'>
+<front>
+<title>Avoiding Interactions of Quick-Start TCP and Flow Control</title>
+
+<author initials='M' surname='Scharf' fullname='Michael Scharf'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2007' />
+
+<abstract><t>This document describes methods to avoid interactions between the flow control of the Transmission Control Protocol (TCP) and the Quick-Start TCP extension. Quick-Start is an optional TCP congestion control mechanism that allows hosts to determine an allowed sending rate from feedback of routers along the path. With Quick-Start, data transfers can start with a potentially large congestion window. In order to fully utilize the data rate determined by Quick-Start, the sending host must not be limited by the TCP flow control, i. e., the amount of free buffer space advertised by the receive window. There are two potential interactions between Quick-Start and the TCP flow control: First, receivers might not provide sufficiently large buffer space after connection setup, or they may implement buffer allocation strategies that implicitly assume the slow-start behavior on the sender side. This document therefore provides guidelines for buffer allocation in hosts supporting the Quick-Start extension. Second, the TCP receive window scaling mechanism interferes with Quick-Start when being used in the initial three-way handshake connection setup. This document describes a simple solution to overcome this problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-scharf-tsvwg-quick-start-flow-control-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-scharf-tsvwg-quick-start-flow-control-00.txt' />
+</reference>

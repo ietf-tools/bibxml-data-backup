@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-te-arch'>
+<front>
+<title>Traffic Engineering for Bit Index Explicit Replication (BIER-TE)</title>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='G' surname='Cauchie' fullname='Gregory Cauchie'>
+    <organization />
+</author>
+
+<author initials='W' surname='Braun' fullname='Wolfgang Braun'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<date month='May' day='14' year='2019' />
+
+<abstract><t>This document proposes an architecture for BIER-TE: Traffic Engineering for Bit Index Explicit Replication (BIER).  BIER-TE shares part of its architecture with BIER as described in [RFC8279].  It also proposes to share the packet format with BIER.  BIER-TE forwards and replicates packets like BIER based on a BitString in the packet header but it does not require an IGP.  It does support traffic engineering by explicit hop-by-hop forwarding and loose hop forwarding of packets.  It does support Fast ReRoute (FRR) for link and node protection and incremental deployment. Because BIER-TE like BIER operates without explicit in-network tree- building but also supports traffic engineering, it is more similar to SR than RSVP-TE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-te-arch-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-te-arch-02.txt' />
+</reference>

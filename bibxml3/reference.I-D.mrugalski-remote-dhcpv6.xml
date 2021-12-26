@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mrugalski-remote-dhcpv6'>
+<front>
+<title>Remote DHCPv6 Autoconfiguration</title>
+
+<author initials='T' surname='Mrugalski' fullname='Tomasz Mrugalski'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2010' />
+
+<abstract><t>This document describes remote autoconfiguration mechanism, an extension to DHCPv6 protocol.  Every time a node attaches to a new link, it must renew or obtain new address and parameters, using DHCPv6 protocol.  For mobile nodes it is beneficial to obtain address and other configuration parameters remotely, before actually attaching to destination link.  This document defines mechanism using remote configuration and new options required to remotely discover destination DHCPv6 servers.  Remote unicast communication with DHCPv6 servers is also defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mrugalski-remote-dhcpv6-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mrugalski-remote-dhcpv6-01.txt' />
+</reference>

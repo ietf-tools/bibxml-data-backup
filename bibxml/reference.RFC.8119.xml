@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8119' target='https://www.rfc-editor.org/info/rfc8119'>
+<front>
+<title>SIP &quot;cause&quot; URI Parameter for Service Number Translation</title>
+<author initials='M.' surname='Mohali' fullname='M. Mohali'><organization /></author>
+<author initials='M.' surname='Barnes' fullname='M. Barnes'><organization /></author>
+<date year='2017' month='March' />
+<abstract><t>RFC 4458 (regarding SIP URIs for applications) defines a &quot;cause&quot; URI parameter, which may appear in the Request-URI of a SIP request, that is used to indicate a reason why the request arrived to the User Agent Server (UAS) receiving the message.  This document updates RFC 4458 by creating a new predefined value for the &quot;cause&quot; URI parameter to cover service number translation for cases of retargeting due to specific service action leading to the translation of a called service access number.  This document also provides guidance, which was missing in RFC 4458, for using the &quot;cause&quot; URI parameter within the History-Info header field, since this use is mandatory in some IP networks' implementations.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8119'/>
+<seriesInfo name='DOI' value='10.17487/RFC8119'/>
+</reference>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7040' target='https://www.rfc-editor.org/info/rfc7040'>
+<front>
+<title>Public IPv4-over-IPv6 Access Network</title>
+<author initials='Y.' surname='Cui' fullname='Y. Cui'><organization /></author>
+<author initials='J.' surname='Wu' fullname='J. Wu'><organization /></author>
+<author initials='P.' surname='Wu' fullname='P. Wu'><organization /></author>
+<author initials='O.' surname='Vautrin' fullname='O. Vautrin'><organization /></author>
+<author initials='Y.' surname='Lee' fullname='Y. Lee'><organization /></author>
+<date year='2013' month='November' />
+<abstract><t>This document describes a mechanism called Public 4over6, which is designed to provide IPv4 Internet connectivity over an IPv6 access network using global IPv4 addresses.  Public 4over6 was developed in the IETF and is in use in some existing deployments but is not recommended for new deployments.  Future deployments of similar scenarios should use Lightweight 4over6.  Public 4over6 follows the Hub and Spoke softwire model and uses an IPv4-in-IPv6 tunnel to forward IPv4 packets over an IPv6 access network.  The bidirectionality of the IPv4 communication is achieved by explicitly allocating global non-shared IPv4 addresses to end users and by maintaining IPv4-IPv6 address binding on the border relay.  Public 4over6 aims to provide uninterrupted IPv4 services to users, like Internet Content Providers (ICPs), etc., while an operator makes the access network transition to an IPv6-only access network.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7040'/>
+<seriesInfo name='DOI' value='10.17487/RFC7040'/>
+</reference>

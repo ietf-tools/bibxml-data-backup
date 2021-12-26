@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thomson-http-nice'>
+<front>
+<title>Marking HTTP Requests as Unimportant</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<date month='November' day='10' year='2014' />
+
+<abstract><t>An HTTP "Nice" header field is defined.  "Nice" marks a request as low priority.  Gateways can choose to discard or delay the request, or provide a response from cache rather than forwarding it to an origin server.  This enables constrained origin servers, such as those that rely on battery power, to avoid expending limited resources on serving requests.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thomson-http-nice-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thomson-http-nice-02.txt' />
+</reference>

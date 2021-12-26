@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pcn-signaling-requirements'>
+<front>
+<title>Requirements for Signaling of (Pre-) Congestion Information in a DiffServ Domain</title>
+
+<author initials='G' surname='Karagiannis' fullname='Georgios Karagiannis'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<author initials='K' surname='Chan' fullname='Kwok Chan'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='P' surname='Eardley' fullname='Philip Eardley'>
+    <organization />
+</author>
+
+<date month='April' day='5' year='2011' />
+
+<abstract><t>Precongestion notification (PCN) is a means for protecting quality of service for inelastic traffic admitted to a Diffserv domain. The overall PCN architecture is described in RFC 5559. This memo describes the requirements for the signaling applied within the PCN domain: (1) PCN-feedback-information is carried from the PCN-egress- node to the decision point;(2) the decision point may ask the PCN- ingress-node to measure, and report back, the rate of PCN-traffic between this pair of PCN-boundary-nodes. The decision point may be either collocated with the PCN-ingress-node or a centralized node (in the latter case, (2) is not required). The signaling requirements pertain in particular to two edge behaviours, "controlled load (CL)" and "single marking (SM)" [draft-ietf-pcn-cl-edge-behaviour-08], [draft-ietf-pcn-sm-edge-behaviour-05].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pcn-signaling-requirements-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pcn-signaling-requirements-03.txt' />
+</reference>

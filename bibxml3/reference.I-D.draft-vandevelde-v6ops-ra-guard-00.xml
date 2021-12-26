@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vandevelde-v6ops-ra-guard'>
+<front>
+<title>IPv6 RA-Guard</title>
+
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+    <organization />
+</author>
+
+<author initials='E' surname='Levy-Abegnoli' fullname='Eric Levy-Abegnoli'>
+    <organization />
+</author>
+
+<author initials='C' surname='Popoviciu' fullname='Chip Popoviciu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mohacsi' fullname='Janos Mohacsi'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2007' />
+
+<abstract><t>When using IPv6 within a single L2 network segment it is assumed that for good network behavior, the available routers attached to the segment are valid routers. A rogue Router Advertisement (RA) [1] however could be sent by accident by a misconfigured network device, or on purpose by malicious devices. This document proposes a solution to reduce the threat of rogue RAs by enabling layer 2 devices to provide forward RAs received over designated ports.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vandevelde-v6ops-ra-guard-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vandevelde-v6ops-ra-guard-00.txt' />
+</reference>

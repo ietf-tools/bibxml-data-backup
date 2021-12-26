@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmm-fpc-cpdp'>
+<front>
+<title>Protocol for Forwarding Policy Configuration (FPC) in DMM</title>
+
+<author initials='M' surname='Liebsch' fullname='Marco Liebsch'>
+    <organization />
+</author>
+
+<author initials='S' surname='Matsushima' fullname='Satoru Matsushima'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<author initials='D' surname='Moses' fullname='Danny Moses'>
+    <organization />
+</author>
+
+<author initials='L' surname='Bertz' fullname='Lyle Bertz'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This specification supports the separation of the Control-Plane for mobility- and session management from the Data-Plane.  The protocol semantics abstract the configuration of Data-Plane nodes and applies it between a Client function, which is used by an application of the mobility Control-Plane, and an Agent function, which is associated with the configuration of Data-Plane nodes, according to the Data- Plane rules issued by the mobility Control-Plane.  The scope of the rules comprises traffic description and treatment of packets in terms of encapsulation, IP address re-writing and QoS.  Additional protocol semantics are described to support the maintenance of the Data-Plane path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmm-fpc-cpdp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmm-fpc-cpdp-03.txt' />
+</reference>

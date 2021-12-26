@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.voit-netconf-restconf-yang-push'>
+<front>
+<title>Restconf subscription and HTTP push for YANG datastores</title>
+
+<author initials='E' surname='Voit' fullname='Eric Voit'>
+    <organization />
+</author>
+
+<author initials='A' surname='Clemm' fullname='Alex Clemm'>
+    <organization />
+</author>
+
+<author initials='A' surname='Tripathy' fullname='Ambika Tripathy'>
+    <organization />
+</author>
+
+<author initials='E' surname='Einar' fullname='Einar'>
+    <organization />
+</author>
+
+<author initials='A' surname='Prieto' fullname='Alberto Prieto'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2015' />
+
+<abstract><t>This document defines Restconf subscription and push mechanisms to continuously stream information from YANG datastores over HTTP. These mechanisms allow client applications or operations support systems to request custom sets of updates from a YANG datastore. This document also specifies how to stream updates over HTTP without Restconf.  In either case, updates are pushed by a datastore to a receiver per a subscription policy, without requiring continuous requests.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-voit-netconf-restconf-yang-push-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-voit-netconf-restconf-yang-push-01.txt' />
+</reference>

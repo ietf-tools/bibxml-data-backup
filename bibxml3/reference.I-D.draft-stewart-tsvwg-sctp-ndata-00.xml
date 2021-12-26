@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stewart-tsvwg-sctp-ndata'>
+<front>
+<title>A New Data Chunk for Stream Control Transmission Protocol</title>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>This document describes an extension to Stream Control Transmission Protocol (SCTP) which adds a new data chunk to SCTP.  This new chunk is designed to follow closely the existing DATA chunk but incorporates a new field in the header, the Fragmentation Sequence Number (FSN).  This new field is used for the purposes of fragmentation of large messages without causing head of line blocking.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stewart-tsvwg-sctp-ndata-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stewart-tsvwg-sctp-ndata-00.txt' />
+</reference>

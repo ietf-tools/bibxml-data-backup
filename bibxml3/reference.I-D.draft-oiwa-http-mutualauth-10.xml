@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.oiwa-http-mutualauth'>
+<front>
+<title>Mutual Authentication Protocol for HTTP</title>
+
+<author initials='Y' surname='Oiwa' fullname='Yutaka Oiwa'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2011' />
+
+<abstract><t>This document specifies a mutual authentication method for the Hyper- text Transport Protocol (HTTP).  This method provides a true mutual authentication between an HTTP client and an HTTP server using password-based authentication.  Unlike the Basic and Digest authentication methods, the Mutual authentication method specified in this document assures the user that the server truly knows the user's encrypted password.  This prevents common phishing attacks: a phishing attacker controlling a fake website cannot convince a user that he authenticated to the genuine website.  Furthermore, even when a user authenticates to an illegitimate server, the server cannot gain any information about the user's password.  The Mutual authentication method is designed as an extension to the HTTP protocol, and is intended to replace the existing authentication methods used in HTTP (the Basic method, Digest method, and authentication using HTML forms).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-oiwa-http-mutualauth-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-oiwa-http-mutualauth-10.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-oiwa-http-mutualauth-10.pdf' />
+</reference>

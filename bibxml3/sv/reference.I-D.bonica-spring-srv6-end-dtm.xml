@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bonica-spring-srv6-end-dtm'>
+<front>
+<title>SR-MPLS / SRv6 Transport Interworking</title>
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+<organization />
+</author>
+<author initials='P' surname='Kaneriya' fullname='Parag Kaneriya'>
+<organization />
+</author>
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+<organization />
+</author>
+<author initials='S' surname='Peng' fullname='Shaofu Peng'>
+<organization />
+</author>
+<author initials='G' surname='Mirsky' fullname='Greg Mirsky'>
+<organization />
+</author>
+<author initials='Z' surname='Zhang' fullname='Zheng Zhang'>
+<organization />
+</author>
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+<organization />
+</author>
+<date year='2021' month='July' day='12' />
+<abstract><t>This document describes procedures for interworking between an SR- MPLS transit domain and an SRv6 transit domain.  Each domain contains Provider Edge (PE) and Provider (P) routers.  Area Border Routers (ABR) provide connectivity between domains.</t><t> The procedures described in this document require the ABR to carry a route to each PE router.  However, they do not required the ABR to carry service (i.e., customer) routes.  In that respect, these procedures resemble L3VPN Interprovider Option C.</t><t> Procedures described in this document support interworking for global IPv4 and IPv6 service prefixes.  They do not support interworking for VPN services prefixes where the SR-MPLS domain uses MPLS service labels.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-bonica-spring-srv6-end-dtm-06'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-bonica-spring-srv6-end-dtm-06.txt'/>
+</reference>

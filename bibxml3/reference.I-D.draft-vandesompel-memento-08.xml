@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vandesompel-memento'>
+<front>
+<title>HTTP framework for time-based access to resource states -- Memento</title>
+
+<author initials='H' surname='Sompel' fullname='Herbert Van de Sompel'>
+    <organization />
+</author>
+
+<author initials='M' surname='Nelson' fullname='Michael Nelson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Sanderson' fullname='Robert Sanderson'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2013' />
+
+<abstract><t>The HTTP-based Memento framework bridges the present and past Web. It facilitates obtaining representations of prior states of a given resource by introducing datetime negotiation and TimeMaps.  Datetime negotiation is a variation on content negotiation that leverages the given resource's URI and a user agent's preferred datetime.  TimeMaps are lists that enumerate URIs of resources that encapsulate prior states of the given resource.  The framework also facilitates recognizing a resource that encapsulates a frozen prior state of another resource.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vandesompel-memento-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vandesompel-memento-08.txt' />
+</reference>

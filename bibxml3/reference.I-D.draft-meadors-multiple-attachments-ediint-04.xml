@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.meadors-multiple-attachments-ediint'>
+<front>
+<title>Multiple Attachments for EDI-INT</title>
+
+<author initials='K' surname='Meadors' fullname='Kyle Meadors'>
+    <organization />
+</author>
+
+<date month='August' day='13' year='2007' />
+
+<abstract><t>The EDIINT AS1, AS2 and AS3 message were designed specifically for the transport of EDI documents. Since multiple interchanges could be placed within a single EDI document, there was not a need for sending multiple EDI documents in a single message. As adoption of EDI-INT grew, other uses developed aside from single EDI document transport. Some transactions required multiple attachments to be interpreted together and stored in a single message. This informational draft describes how multiple documents, including non-EDI payloads, can be attached and transmitted in a single EDI-INT transport message. The attachments are stored within the MIME Multipart/Related structure. A minimal list of content-types to be supported as attachments is provided.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-meadors-multiple-attachments-ediint-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-meadors-multiple-attachments-ediint-04.txt' />
+</reference>

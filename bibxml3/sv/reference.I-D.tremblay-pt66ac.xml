@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tremblay-pt66ac'>
+<front>
+<title>Addressing bit compression for stateless IPv6 prefix translation</title>
+
+<author initials='J' surname='Tremblay' fullname='Jean-Francois Tremblay'>
+    <organization />
+</author>
+
+<author initials='S' surname='Beuker' fullname='Scott Beuker'>
+    <organization />
+</author>
+
+<date month='November' day='25' year='2010' />
+
+<abstract><t>This document describes a method to extend IPv6 prefix translation [NAT66] to statelessly translate between IPv6 prefixes of differing lengths.  This technique, called PT66 addressing bit compression (PT66-AC), provides a way to map a shorter prefix (such as the fixed [6to4] prefix) to a longer global unicast prefix, while avoiding stateful translation.  The difference between the prefix lengths is compensated for by removing an unused string of subnetting bits, as specified, from the addresses within the shorter prefix.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tremblay-pt66ac-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tremblay-pt66ac-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.flinck-mobile-throughput-guidance'>
+<front>
+<title>Mobile Throughput Guidance Signaling Protocol</title>
+
+<author initials='A' surname='Jain' fullname='Ankur Jain'>
+    <organization />
+</author>
+
+<author initials='A' surname='Terzis' fullname='Andreas Terzis'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sprecher' fullname='Nurit Sprecher'>
+    <organization />
+</author>
+
+<author initials='P' surname='Szilagyi' fullname='Peter Szilagyi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Flinck' fullname='Hannu Flinck'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2014' />
+
+<abstract><t>The behaviour of the Transmission Control Protocol (TCP), which assumes that network congestion is the primary cause for packet loss and high delay, can lead to inefficient use of a cellular network's resources and degrade application performance.  The root cause for this inefficiency is that TCP has difficulty adapting to the rapidly varying network conditions.  In cellular networks, the bandwidth available for end devices can vary by an order of magnitude over a few seconds due to changes in the underlying radio channel conditions, as devices move, as well as changes in system load as other devices enter and leave the network.  This document proposes a mechanism and protocol elements that can be used to assist TCP in cellular networks, ensuring high utilization and high service delivery performance.  The document describes the applicability of the proposed mechanism for video delivery over cellular networks; it also presents test results.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-flinck-mobile-throughput-guidance-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-flinck-mobile-throughput-guidance-00.txt' />
+</reference>

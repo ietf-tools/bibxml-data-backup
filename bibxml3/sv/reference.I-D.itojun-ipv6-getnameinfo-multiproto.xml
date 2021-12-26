@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.itojun-ipv6-getnameinfo-multiproto'>
+<front>
+<title>Multiple protocol support in getnameinfo API</title>
+
+<author initials='J' surname='Hagino' fullname='Jun-ichiro Hagino'>
+    <organization />
+</author>
+
+<date month='December' day='21' year='2004' />
+
+<abstract><t>IPv6 basic API [Gilligan, 2003] defines protocol-independent API for address-to-string conversion, i.e. getnameinfo(3). Current specification, however, assumes that there are two transport-layer protocols - TCP (SOCK_STREAM) and UDP (SOCK_DGRAM), specifically in port number-to-service name conversion. The assumption prohibits getnameinfo(3) from supporting other transport-layer protocols, such as SCTP or DCCP. This document proposes a backward-compatible update to getnameinfo(3) specification to allow the use of other transport-layer protocol in port number-to-service name conversion. This document does not define any new (wire-level) protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-itojun-ipv6-getnameinfo-multiproto-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-itojun-ipv6-getnameinfo-multiproto-02.txt' />
+</reference>

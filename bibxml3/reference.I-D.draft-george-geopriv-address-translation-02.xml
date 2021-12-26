@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.george-geopriv-address-translation'>
+<front>
+<title>Geodetic-Civic Address Translation Protocol</title>
+
+<author initials='R' surname='George' fullname='Robins George'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Sun' fullname='Qian Sun'>
+    <organization />
+</author>
+
+<author initials='C' surname='Reed' fullname='Carl Reed'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2009' />
+
+<abstract><t>This document explains how to map a geodetic datum to a civic address and vice versa.  Server accepts an HTTP POST with one form of user specified location addresses and return whatever other form it has.  [Open Issue : re-frame this draft as more about the inclusion of a &lt;presence> element in a HELD request, rather than about geocoding specifically, since there are other applications.  E.g., we might provide a rough location in our request to help the server provide us with GPS assistance data.]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-george-geopriv-address-translation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-george-geopriv-address-translation-02.txt' />
+</reference>

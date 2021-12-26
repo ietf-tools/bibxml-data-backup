@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.babiarz-pcn-3sm'>
+<front>
+<title>Three State PCN Marking</title>
+
+<author initials='J' surname='Babiarz' fullname='Jozef Babiarz'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2007' />
+
+<abstract><t>This document proposes metering and marking mechanisms for PCN- enabled nodes to label packets with pre-congestion information. The marker marks all PCN packets with an admission-stop (AS) codepoint if the PCN traffic rate on a link exceeds its admissible rate (AR) and when it exceeds its supportable rate (SR), it marks some of those packets exceeding SR with an excess-traffic (ET) codepoint. The flows with ET-marked packets will be terminated until the aggregate PCN traffic on the path decreases below its SR. This document proposes metering and marking mechanisms for these objectives.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-babiarz-pcn-3sm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-babiarz-pcn-3sm-00.txt' />
+</reference>

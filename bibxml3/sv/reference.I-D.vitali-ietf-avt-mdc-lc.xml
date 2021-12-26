@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vitali-ietf-avt-mdc-lc'>
+<front>
+<title>Standard-compatible Multiple-Description Coding (MDC) and Layered Coding  (LC) of Audio/Video Streams</title>
+
+<author initials='A' surname='Vitali' fullname='Andrea Vitali'>
+    <organization />
+</author>
+
+<author initials='M' surname='Fumagalli' fullname='Marco Fumagalli'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2005' />
+
+<abstract><t>This document specifies an efficient way to ensure erasure resilient, scalable transmission of encoded multimedia sources via RTP using standard-compatible Multiple Description Coding (MDC) and Layered Coding (LC) together with interleaving, thus allowing a graceful degradation of the application quality with increasing packet loss rate and decreasing bandwidth/throughput on the network. This document describes what information needs to be communicated out-of-band to use a specific MDC/LC scheme and what information is needed in RTP packets to identify what description/layer they carry. Definitions for SDP and MIME are provided.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vitali-ietf-avt-mdc-lc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vitali-ietf-avt-mdc-lc-00.txt' />
+</reference>

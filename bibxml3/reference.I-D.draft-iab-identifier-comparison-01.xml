@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iab-identifier-comparison'>
+<front>
+<title>Issues in Identifier Comparison for Security Purposes</title>
+
+<author initials='D' surname='Thaler' fullname='Dave Thaler'>
+    <organization />
+</author>
+
+<date month='March' day='12' year='2012' />
+
+<abstract><t>Identifiers such as hostnames, URIs/IRIs, and email addresses are often used in security contexts to identify security principals and resources.  In such contexts, an identifier supplied via some protocol is often compared against some policy to make security decisions such as whether the principal may access the resource, what level of authentication or encryption is required, etc.  If the parties involved in a security decision use different algorithms to compare identifiers, then failure scenarios ranging from denial of service to elevation of privilege can result.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iab-identifier-comparison-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iab-identifier-comparison-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bellis-dns-recursive-discovery'>
+<front>
+<title>DNS Proxy Bypass by Recursive DNS Discovery and LOCAL.ARPA</title>
+
+<author initials='R' surname='Bellis' fullname='Ray Bellis'>
+    <organization />
+</author>
+
+<author initials='A' surname='Bligh' fullname='Alex Bligh'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wijngaards' fullname='Wouter Wijngaards'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2009' />
+
+<abstract><t>This document describes a method for a DNS client resolver to discover the IP addresses of the upstream recursive DNS resolvers and hence bypass the local DNS proxy.  It also directs IANA to reserve the "LOCAL.ARPA" domain name and to create a registry for well known sub-domains of that domain name, such sub-domains being reserved for use within any network's administrative boundary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bellis-dns-recursive-discovery-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bellis-dns-recursive-discovery-00.txt' />
+</reference>

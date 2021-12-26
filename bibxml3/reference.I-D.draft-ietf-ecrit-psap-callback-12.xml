@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ecrit-psap-callback'>
+<front>
+<title>Public Safety Answering Point (PSAP) Callback</title>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='M' surname='Patel' fullname='Milan Patel'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2013' />
+
+<abstract><t>After an emergency call is completed (either prematurely terminated by the emergency caller or normally by the call taker) it is possible that the call taker feels the need for further communication.  For example, the call may have been dropped by accident without the call taker having sufficient information about the current situation of a wounded person.  A call taker may trigger a callback towards the emergency caller using the contact information provided with the initial emergency call.  This callback could, under certain circumstances, be treated like any other call and as a consequence it may get blocked by authorization policies or may get forwarded to an answering machine.  The IETF emergency services architecture specification already offers a solution approach for allowing PSAP callbacks to bypass authorization policies to reach the caller without unnecessary delays.  Unfortunately, the specified mechanism only supports limited scenarios.  This document discusses shortcomings of the current mechanisms and illustrates additional scenarios where better-than- normal call treatment behavior would be desirable.  A solution based on a new header field value, called "psap-callback", for the SIP Priority header field is specified to accomplish the PSAP callback marking.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ecrit-psap-callback-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ecrit-psap-callback-12.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.baker-ipv6-ospf-dst-src-routing'>
+<front>
+<title>IPv6 Source/Destination Routing using OSPFv3</title>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<date month='May' day='2' year='2013' />
+
+<abstract><t>This note describes the changes necessary for OSPFv3 to route classes of IPv6 traffic that are defined by an IPv6 source prefix and a destination prefix.  This implies not simply routing "to a destination", but "traffic going to that destination AND coming from a specified source".  It may be combined with other qualifying attributes, such as "traffic going to that destination AND using a specified flow label AND from a specified source prefix".  The obvious application is egress routing, as required for a multihomed entity with a provider-allocated prefix from each of several upstream networks.  Traffic within the network could be source/destination routed as well, or could be routed from "any prefix", ::/0.  If traffic is routed from the relevant PA prefixes but in fact has a source address that is in none of them, the traffic in effect has no route.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-baker-ipv6-ospf-dst-src-routing-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-baker-ipv6-ospf-dst-src-routing-01.txt' />
+</reference>

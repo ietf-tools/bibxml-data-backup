@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wkumari-long-headers'>
+<front>
+<title>Operational Issues Associated With Long IPv6 Extension Header Chains</title>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jaeggli' fullname='Joel Jaeggli'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2013' />
+
+<abstract><t>This document explains why IPv6 header chain length affects the cost of ASIC-based packet forwarding.  It also explains why some network service providers discard packets with exceptionally long header chains.  Finally, it identifies a reasonable header chain length. While a network service provider can enforce any filtering policy that supports its security model, a network service provider should not discard IPv6 packets based solely upon header chain length if the header chain is not longer than the value specified herein.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wkumari-long-headers-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wkumari-long-headers-01.txt' />
+</reference>

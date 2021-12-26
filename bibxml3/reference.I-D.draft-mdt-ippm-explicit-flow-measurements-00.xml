@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mdt-ippm-explicit-flow-measurements'>
+<front>
+<title>Explicit Flow Measurements Techniques</title>
+
+<author initials='M' surname='Cociglio' fullname='Mauro Cociglio'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ferrieux' fullname='Alexandre Ferrieux'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fioccola' fullname='Giuseppe Fioccola'>
+    <organization />
+</author>
+
+<author initials='I' surname='Lubashev' fullname='Igor Lubashev'>
+    <organization />
+</author>
+
+<author initials='F' surname='Bulgarella' fullname='Fabio Bulgarella'>
+    <organization />
+</author>
+
+<author initials='I' surname='Hamchaoui' fullname='Isabelle Hamchaoui'>
+    <organization />
+</author>
+
+<author initials='M' surname='Nilo' fullname='Massimo Nilo'>
+    <organization />
+</author>
+
+<author initials='R' surname='Sisto' fullname='Riccardo Sisto'>
+    <organization />
+</author>
+
+<author initials='D' surname='Tikhonov' fullname='Dmitri Tikhonov'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>This document describes protocol independent methods called Explicit Flow Measurement Techniques that employ few marking bits, inside the header of each packet, for loss and delay measurement.  The endpoints, marking the traffic, signal these metrics to intermediate observers allowing them to measure connection performance, and to locate the network segment where impairments happen.  Different alternatives are considered within this document.  These signaling methods apply to all protocols but they are especially valuable when applied to protocols that encrypt transport header and do not allow traditional methods for delay and loss detection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mdt-ippm-explicit-flow-measurements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mdt-ippm-explicit-flow-measurements-00.txt' />
+</reference>

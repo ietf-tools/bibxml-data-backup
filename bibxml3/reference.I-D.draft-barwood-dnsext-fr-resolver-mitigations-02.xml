@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barwood-dnsext-fr-resolver-mitigations'>
+<front>
+<title>Resolver side mitigations</title>
+
+<author initials='G' surname='Barwood' fullname='George Barwood'>
+    <organization />
+</author>
+
+<date month='September' day='28' year='2008' />
+
+<abstract><t>Describes mitigations against spoofing attacks on DNS, as follows:  (1) Prepending a random nonce to the question where a referral is  probable.  (2) Repeating the query, including techniques for handling  non-deterministic responses.  (3) Estimating the entropy available, taking into account  (a) Observed packets with incorrect IDs.  (b) Records where the owner name does not match the question.  (c) The previous content of the cache.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-barwood-dnsext-fr-resolver-mitigations-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-barwood-dnsext-fr-resolver-mitigations-02.txt' />
+</reference>

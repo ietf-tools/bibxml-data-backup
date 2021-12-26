@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hellstrom-avtcore-multi-party-rtt-source'>
+<front>
+<title>Indicating source of multi-party Real-time text</title>
+
+<author initials='G' surname='Hellstrom' fullname='Gunnar Hellstrom'>
+    <organization />
+</author>
+
+<date month='February' day='26' year='2020' />
+
+<abstract><t>Real-time text mixers need to identify the source of each transmitted text chunk so that it can be presented in suitable grouping with other text from the same source.  An enhancement for RFC 4103 real- time text is provided, suitable for a centralized conference model that enables source identification, and provision of text mixers and conference-enabled participants.  The mechanism builds on use of the CSRC list in the RTP packet.  A capability exchange is specified so that it can be verified that a participant can handle the multi-party coded real-time text stream.  The capability is indicated by a format parameter "rtp-mix".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hellstrom-avtcore-multi-party-rtt-source-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hellstrom-avtcore-multi-party-rtt-source-00.txt' />
+</reference>

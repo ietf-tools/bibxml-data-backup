@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6826' target='https://www.rfc-editor.org/info/rfc6826'>
+<front>
+<title>Multipoint LDP In-Band Signaling for Point-to-Multipoint and Multipoint-to-Multipoint Label Switched Paths</title>
+<author initials='IJ.' surname='Wijnands' fullname='IJ. Wijnands' role='editor'><organization /></author>
+<author initials='T.' surname='Eckert' fullname='T. Eckert'><organization /></author>
+<author initials='N.' surname='Leymann' fullname='N. Leymann'><organization /></author>
+<author initials='M.' surname='Napierala' fullname='M. Napierala'><organization /></author>
+<date year='2013' month='January' />
+<abstract><t>Consider an IP multicast tree, constructed by Protocol Independent Multicast (PIM), that needs to pass through an MPLS domain in which Multipoint LDP (mLDP) point-to-multipoint and/or multipoint-to-multipoint Labels Switched Paths (LSPs) can be created. The part of the IP multicast tree that traverses the MPLS domain can be instantiated as a multipoint LSP.  When a PIM Join message is received at the border of the MPLS domain, information from that message is encoded into mLDP messages.  When the mLDP messages reach the border of the next IP domain, the encoded information is used to generate PIM messages that can be sent through the IP domain.  The result is an IP multicast tree consisting of a set of IP multicast sub-trees that are spliced together with a multipoint LSP.  This document describes procedures regarding how IP multicast trees are spliced together with multipoint LSPs.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6826'/>
+<seriesInfo name='DOI' value='10.17487/RFC6826'/>
+</reference>

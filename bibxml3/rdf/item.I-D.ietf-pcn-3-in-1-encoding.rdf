@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-pcn-3-in-1-encoding-11.txt'>
+    <title>"Encoding 3 PCN-States in the IP header using a single DSCP", Bob Briscoe, Toby Moncaster, Michael Menth</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-pcn-3-in-1-encoding-11.txt</link>
+    <description>The objective of Pre-Congestion Notification (PCN) is to protect the quality of service (QoS) of inelastic flows within a Diffserv domain. The overall rate of the PCN-traffic is metered on every link in the PCN domain, and PCN-packets are appropriately marked when certain configured rates are exceeded.  Egress nodes pass information about these PCN-marks to decision points which then decide whether to admit or block new flow requests or to terminate some already-admitted flows during serious pre-congestion.  This document specifies how PCN-marks are to be encoded into the IP header by re-using the Explicit Congestion Notification (ECN) codepoints within a PCN-domain.  The PCN wire protocol for non-IP protocol headers will need to be defined elsewhere.  Nonetheless, this document clarifies the PCN encoding for MPLS in an informational Appendix.  The encoding for IP provides for up to three different PCN marking states using a single DSCP: Not-marked (NM), Threshold-marked (ThM) and Excess-traffic-marked (ETM).  Hence, it is called the 3-in-1 PCN encoding.  This document obsoletes RFC5696.</description>
+    <dc:date>2012-04-19T22:00:00-00:00</dc:date>
+</item>

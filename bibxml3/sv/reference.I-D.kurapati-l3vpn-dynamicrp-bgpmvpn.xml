@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kurapati-l3vpn-dynamicrp-bgpmvpn'>
+<front>
+<title>Dynamic RP encodings in BGP based MVPNs</title>
+
+<author initials='P' surname='Kurapati' fullname='Pavan Kurapati'>
+    <organization />
+</author>
+
+<author initials='M' surname='Rodrigues' fullname='Marco Rodrigues'>
+    <organization />
+</author>
+
+<author initials='K' surname='Windisch' fullname='Kurt Windisch'>
+    <organization />
+</author>
+
+<author initials='S' surname='Asif' fullname='Saud Asif'>
+    <organization />
+</author>
+
+<date month='May' day='24' year='2013' />
+
+<abstract><t>PIM Group-to-RP mappings are distributed dynamically using protocols such as BSR or Auto-RP.  The BGP-MVPN specification provides for this information to be encapsulated in an I-PMSI or S-PMSI provider tunnel between the PEs in an MVPN environment.  Since this is control information, it is desirable to signal this information in BGP between PEs, similar to carrying other customer control state such as C-Multicast routes.  This document specifies the mechanisms and procedures to carry bootstrap information via BGP to provide true control and data plane separation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kurapati-l3vpn-dynamicrp-bgpmvpn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kurapati-l3vpn-dynamicrp-bgpmvpn-00.txt' />
+</reference>

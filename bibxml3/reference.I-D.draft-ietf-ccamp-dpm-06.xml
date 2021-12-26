@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-dpm'>
+<front>
+<title>Label Switched Path (LSP) Data Path Delay Metrics in Generalized MPLS/ MPLS-TE Networks</title>
+
+<author initials='W' surname='Sun' fullname='Weiqiang Sun'>
+    <organization />
+</author>
+
+<author initials='G' surname='Zhang' fullname='Guoying Zhang'>
+    <organization />
+</author>
+
+<date month='June' day='8' year='2012' />
+
+<abstract><t>When setting up a label switched path (LSP) in Generalized MPLS and MPLS/TE networks, the completion of the signaling process does not necessarily mean that the cross connection along the LSP have been programmed accordingly and in a timely manner.  Meanwhile, the completion of signaling process may be used by applications as indication that data path has become usable.  The existence of this delay and the possible failure of cross connection programming, if not properly treated, will result in data loss or even application failure.  Characterization of this performance can thus help designers to improve the application model and to build more robust applications.  This document defines a series of performance metrics to evaluate the connectivity of data path in the signaling process.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-dpm-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-dpm-06.txt' />
+</reference>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tian-bupt-inwt-mechanism-policy'>
+<front>
+<title>In-band Network-Wide Telemetry</title>
+
+<author initials='T' surname='Pan' fullname='Tian Pan'>
+    <organization />
+</author>
+
+<author initials='M' surname='Gao' fullname='Minglan Gao'>
+    <organization />
+</author>
+
+<author initials='E' surname='Song' fullname='Enge Song'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Bian' fullname='Zizheng Bian'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lin' fullname='Xingchen Lin'>
+    <organization />
+</author>
+
+<date month='April' day='28' year='2020' />
+
+<abstract><t>This document describes INT-path, a cost-effective network-wide telemetry framework based on INT(In-band Network Telemetry), by decoupling the network monitoring system into a routing mechanism and a routing path generation policy.  INT-path embed SR(Source Routing) into INT probes to allow specifying the route that the probe packet takes through the network.  Above this probing path control mechanism, an Euler trail-based path planning policy is developed to generate non-overlapped INT paths that cover the entire network with a minimum path member, reducing the overall telemetry overhead.  INT- path is very suitable for deployment in data center networks thanks to their symmetric topologies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tian-bupt-inwt-mechanism-policy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tian-bupt-inwt-mechanism-policy-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-tian-bupt-inwt-mechanism-policy-00.pdf' />
+</reference>

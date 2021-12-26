@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-6man-udpchecksums-08.txt'>
+    <title>"IPv6 and UDP Checksums for Tunneled Packets", Marshall Eubanks, Phil Chimento, Magnus Westerlund</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-6man-udpchecksums-08.txt</link>
+    <description>This document provides an update of the Internet Protocol version 6 (IPv6) specification (RFC2460) to improve the performance in the use case where a tunnel protocol uses UDP with IPv6 to tunnel packets. The performance improvement is obtained by relaxing the IPv6 UDP checksum requirement for any suitable tunnel protocol where header information is protected on the "inner" packet being carried.  This relaxation removes the overhead associated with the computation of UDP checksums on IPv6 packets used to carry tunnel protocols.  The specification describes how the IPv6 UDP checksum requirement can be relaxed for the situation where the encapsulated packet itself contains a checksum.  The limitations and risks of this approach are described, and restrictions specified on the use of the method.</description>
+    <dc:date>2013-02-20T23:00:00-00:00</dc:date>
+</item>

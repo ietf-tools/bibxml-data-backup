@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.polk-mmusic-dscp-attribute'>
+<front>
+<title>Configuring the Differentiated Services Codepoint of Session Description  Protocol Established Media Streams</title>
+
+<author initials='J' surname='Polk' fullname='James Polk'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2007' />
+
+<abstract><t>The offer/answer model for SDP currently is without a mechanism for dynamic configuration of the Differentiated Services Codepoint to use for the media streams endpoints establish. Endpoints in more controlled environments, typically bounded within a domain, require intermediary servers to notify them what specific DSCP a media stream should be set to, as granular as at the media stream level, when more than one stream is in a session description, or changed to, based on dynamic network conditions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-polk-mmusic-dscp-attribute-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-polk-mmusic-dscp-attribute-01.txt' />
+</reference>

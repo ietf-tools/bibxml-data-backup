@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.atlas-icmp-unnumbered'>
+<front>
+<title>Extending ICMP to Identify the Receiving Interface</title>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ronald  Bonica'>
+    <organization />
+</author>
+
+<author initials='N' surname='Systems' fullname='Nuova Systems'>
+    <organization />
+</author>
+
+<author initials='N' surname='Shen' fullname='Naiming Shen'>
+    <organization />
+</author>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2008' />
+
+<abstract><t>This memo defines ICMP extensions, using ICMP multi-part messages, through which a router or host can explicitly identify the interface  upon which an undeliverable datagram anrrived. The incoming interface can be identified by ifIndex, name, and/or address, as already used in MIBs and by OSPF.  The extensions defined herein are particularly useful when troubleshooting networks with unnumbered interfaces, parallel interfaces and/or asymmetric routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-atlas-icmp-unnumbered-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-atlas-icmp-unnumbered-05.txt' />
+</reference>

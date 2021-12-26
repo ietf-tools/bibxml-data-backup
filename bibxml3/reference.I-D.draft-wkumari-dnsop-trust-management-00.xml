@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wkumari-dnsop-trust-management'>
+<front>
+<title>Simplified Updates of DNS Security (DNSSEC) Trust Anchors</title>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2015' />
+
+<abstract><t>This document describes a simple means for automated updating of DNSSEC trust anchors.  This mechanism allows the trust anchor maintainer to monitor the progress of the migration to the new trust anchor, and so predict the effect before decommissioning the existing trust anchor.  It is primarily aimed at the root DNSSEC trust anchor, but should be applicable to trust anchors elsewhere in the DNS as well.  [ Ed note - informal summary: One of the big issues with rolling the root key is that it is unclear who all is using RFC5011, who all has successfully fetched and installed the new key, and, most importantly, who all will die when the old key is revoked.  A secondary problem is that the response sizes suddenly increase, potentially blowing the MTU limit.  This document describes a method that is basically CDS, but for the root key (or any other trust anchor).  Unlike the CDS record though, this record lives at a special name - by querying for this name, the recursive exposes its list of TAs to the auth server (signalling upstream) . This allows the TA maintainer to predict how many, and who all will break.  It also allows the pre-publication of a key before using it, and so avoids the need to double response sizes...]  [ Ed note: Text inside square brackets ([]) is additional background information, answers to frequently asked questions, general musings, etc.  They will be removed before publication.]  [ This document is being collaborated on in Github at: https://github.com/wkumari/draft-wkumari-dnsop-trust-management.  The most recent version of the document, open issues, etc should all be available here.  The authors (gratefully) accept pull requests ]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wkumari-dnsop-trust-management-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wkumari-dnsop-trust-management-00.txt' />
+</reference>

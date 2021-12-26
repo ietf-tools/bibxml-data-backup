@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc6659.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc6659.txt</link>
+        <title>RFC 6659: Considerations for Deploying the Rapid Acquisition of Multicast RTP Sessions (RAMS) Method, A. Begen</title>
+        <dc:date>2012-07-01T23:00:00-00:00</dc:date>
+        <description>The Rapid Acquisition of Multicast RTP Sessions (RAMS) solution is a method based on RTP and the RTP Control Protocol (RTCP) that enables an RTP receiver to rapidly acquire and start consuming the RTP multicast data.  Upon a request from the RTP receiver, an auxiliary unicast RTP retransmission session is set up between a retransmission server and the RTP receiver, over which the reference information about the new multicast stream the RTP receiver is about to join is transmitted at an accelerated rate.  This often precedes, but may also accompany, the multicast stream itself.  When there is only one multicast stream to be acquired, the RAMS solution works in a straightforward manner.  However, when there are two or more multicast streams to be acquired from the same or different multicast RTP sessions, care should be taken to configure each RAMS session appropriately.  This document provides example scenarios and discusses how the RAMS solution could be used in such scenarios. This document is not an Internet Standards Track specification; it is published for informational purposes. </description>
+    </item>
+

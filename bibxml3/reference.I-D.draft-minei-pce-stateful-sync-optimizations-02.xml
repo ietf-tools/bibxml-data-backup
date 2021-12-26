@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.minei-pce-stateful-sync-optimizations'>
+<front>
+<title>Optimizations of Label Switched Path State Synchronization Procedures for a Stateful PCE</title>
+
+<author initials='E' surname='Crabbe' fullname='Edward Crabbe'>
+    <organization />
+</author>
+
+<author initials='J' surname='Medved' fullname='Jan Medved'>
+    <organization />
+</author>
+
+<author initials='I' surname='Minei' fullname='Ina Minei'>
+    <organization />
+</author>
+
+<author initials='R' surname='Varga' fullname='Robert Varga'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhang' fullname='Xian Zhang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2014' />
+
+<abstract><t>A stateful Path Computation Element (PCE) has access to not only the information disseminated by the network's Interior Gateway Protocol (IGP), but also the set of active paths and their reserved resources for its computation.  The additional Label Switched Path (LSP) state information allows the PCE to compute constrained paths while considering individual LSPs and their interactions.  This requires a reliable state synchronization mechanism between the PCE and the network, PCE and path computation clients (PCCs), and between cooperating PCEs.  The basic mechanism for state synchronization is part of the stateful PCE specification.  This draft presents motivations for optimizations to the base state synchronization procedure and specifies the required Path Computation Element Communication Protocol (PCEP) extensions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-minei-pce-stateful-sync-optimizations-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-minei-pce-stateful-sync-optimizations-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cao-mpls-te-p2mp-head-protection'>
+<front>
+<title>Head Node Protection Extensions to RSVP-TE for LSP Tunnels</title>
+
+<author initials='W' surname='Cao' fullname='Wei Cao'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach  Chen'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2007' />
+
+<abstract><t>Protection methods for RSVP-TE P2MP LSP have been discussed by [TE- FRR]([RFC4090]) and [P2MP-TE-Bypass], but there are no solutions to protect RSVP-TE P2MP head node. This document discusses the scenario for RSVP-TE P2MP LSP head node failure protection and describes the protection procedures. RSVP-TE extension for such protection is also described. To protect the head node, a backup head node must be appointed and take the responsibility to forward the traffic to downstream LSRs of the protected head node. Generally, the backup head node is not on the path of protected LSP. Similar to [TE-FRR] there are two methods can apply: one-to-one backup and facility backup and facility backup. Only one-to-one backup is described in details, facility backup will be discussed in future version of this draft.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cao-mpls-te-p2mp-head-protection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cao-mpls-te-p2mp-head-protection-00.txt' />
+</reference>

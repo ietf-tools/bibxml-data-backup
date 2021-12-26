@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shore-tls-dnssec-chain-extension'>
+<front>
+<title>A DANE Record and DNSSEC Authentication Chain Extension for TLS</title>
+
+<author initials='M' surname='Shore' fullname='Melinda Shore'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='S' surname='Huque' fullname='Shumon Huque'>
+    <organization />
+</author>
+
+<author initials='W' surname='Toorop' fullname='Willem Toorop'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>This draft describes a new TLS extension for transport of a DNS record set serialized with the DNSSEC signatures needed to authenticate that record set.  The intent of this proposal is to allow TLS clients to perform DANE authentication of a TLS server certificate without needing to perform additional DNS record lookups. It will typically not be used for general DNSSEC validation of TLS endpoint names.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shore-tls-dnssec-chain-extension-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shore-tls-dnssec-chain-extension-01.txt' />
+</reference>

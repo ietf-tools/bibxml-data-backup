@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l3vpn-mvpn-mldp-nlri'>
+<front>
+<title>Encoding mLDP FECs in the NLRI of BGP MCAST-VPN Routes</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='U' surname='Joorde' fullname='Uwe Joorde'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>Many service providers offer "BGP/MPLS IP VPN" service to their customers.  Existing IETF standards specify the procedures and protocols that a service provider uses in order to offer this service to customers who have IP unicast and IP multicast traffic in their VPNs.  It is also desirable to be able to support customers who have MPLS multicast traffic in their VPNs.  This document specifies the procedures and protocol extensions that are needed to support customers who use the Multicast Extensions to Label Distribution Protocol (mLDP) as the control protocol for their MPLS multicast traffic.  Existing standards do provide some support for customers who use mLDP, but only under a restrictive set of circumstances. This document generalizes the existing support to include all cases where the customer uses mLDP, without any restrictions.  This document updates RFC 6514.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l3vpn-mvpn-mldp-nlri-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l3vpn-mvpn-mldp-nlri-07.txt' />
+</reference>

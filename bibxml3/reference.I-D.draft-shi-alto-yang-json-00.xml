@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shi-alto-yang-json'>
+<front>
+<title>Modeling JSON Messages Using YANG</title>
+
+<author initials='X' surname='Shi' fullname='Xiao Shi'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Y. Yang'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>JavaScript Object Notation (JSON) has been a popular choice as the message encoding for many network protocols.  Meanwhile, there are broad interests in the networking community to use the YANG data modeling language [RFC6020] to define data store and protocol messages, so that one can use YANG related tools such as the OpenDayLight Controller.  Although YANG itself is XML based, there have been efforts to model JSON content using YANG [draft-ietf-netmod-yang-json-01]  This document explores the conditions under which the messages of a JSON based protocol can have a syntactically equivalent and hence interoperable YANG model.  In particular, this document shows that any JSON protocol message with stand-alone non-object JSON values, certain JSON arrays of elements of mixed types, or non-keyword keys in key-value pairs cannot have a syntactically equivalent YANG model. It also applies these conditions to the ALTO and CDNi protocol messages as examples.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shi-alto-yang-json-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shi-alto-yang-json-00.txt' />
+</reference>

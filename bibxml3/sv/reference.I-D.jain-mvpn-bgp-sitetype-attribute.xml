@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jain-mvpn-bgp-sitetype-attribute'>
+<front>
+<title>BGP Extension for MVPN Site-Type Attribute</title>
+
+<author initials='P' surname='Jain' fullname='Pradeep Jain'>
+    <organization />
+</author>
+
+<author initials='G' surname='RemaDevi' fullname='Geetha RemaDevi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kotalwar' fullname='Jayant Kotalwar'>
+    <organization />
+</author>
+
+<author initials='G' surname='Birajdar' fullname='Girish Birajdar'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='Jeffrey Zhang'>
+    <organization />
+</author>
+
+<date month='May' day='15' year='2013' />
+
+<abstract><t>This document defines a new BGP attribute in BGP based multicast VPN, that allows a MVPN PE router to inform the rest of MVPN PE routers whether it is a sender site/receiver site and there by avoid all other PEs from setting up P-tunnels to the sender site PE.  This would reduce control plane states in the network and allow efficient network bandwidth utilization .</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jain-mvpn-bgp-sitetype-attribute-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jain-mvpn-bgp-sitetype-attribute-00.txt' />
+</reference>

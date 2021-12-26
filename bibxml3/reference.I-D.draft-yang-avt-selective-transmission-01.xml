@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yang-avt-selective-transmission'>
+<front>
+<title>RTP Extension Header for Selective Transmission</title>
+
+<author initials='P' surname='Yang' fullname='Peilin Yang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Hu' fullname='Yinliang Hu'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2010' />
+
+<abstract><t>When network congestion occurs or dynamic transient burst stream transfers on a bandwidth constrained network, it is easy to cause bursts of consecutive packet loss.  Video streams are very vulnerable to packet loss because of motion compensation predictive coding at the decoder.  In this document, we describe a method of using selective transmission to decrease the effect of random drop to video stream when necessary.  At the same time, this document describes a method to avoid retransmission request due to selective transmission.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yang-avt-selective-transmission-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yang-avt-selective-transmission-01.txt' />
+</reference>

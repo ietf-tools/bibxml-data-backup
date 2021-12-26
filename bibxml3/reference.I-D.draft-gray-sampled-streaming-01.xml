@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gray-sampled-streaming'>
+<front>
+<title>Sampled Traffic Streaming</title>
+
+<author initials='A' surname='Gray' fullname='Andrew Gray'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2019' />
+
+<abstract><t>This document standardizes the means of requesting a sampled capture stream from a router, receiving details about the resulting data flow, and the structure of the data flow itself.  This is specifically tailored to having various hardware ASICs be able to perform this operation as quickly as possible, by allowing communication of the specific bit formats of headers applied to the packet flow, in a way that enhances interoperability between sources and sinks.  Historically, NetFlow and its ilk have been used for these use cases, however the growth in hardware forward speeds is far outpacing the growth in CPU speeds, and the CPU-heavy parts of NetFlow is resulting in a reduction of sampling rates that include all of the fields provided by NetFlow that require CPU lookups.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gray-sampled-streaming-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gray-sampled-streaming-01.txt' />
+</reference>

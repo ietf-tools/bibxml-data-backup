@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.auge-dmm-hicn-mobility-deployment-options'>
+<front>
+<title>Anchorless mobility management through hICN (hICN-AMM): Deployment options</title>
+
+<author initials='J' surname='Auge' fullname='Jordan Auge'>
+    <organization />
+</author>
+
+<author initials='G' surname='Carofiglio' fullname='Giovanna Carofiglio'>
+    <organization />
+</author>
+
+<author initials='L' surname='Muscariello' fullname='Luca Muscariello'>
+    <organization />
+</author>
+
+<author initials='M' surname='Papalini' fullname='Michele Papalini'>
+    <organization />
+</author>
+
+<date month='January' day='6' year='2020' />
+
+<abstract><t>A novel mobility management approach is described in [I-D.auge-dmm-hicn-mobility], that leverages routable location- independent identifiers (IDs) and an Information-Centric Networking (ICN) communication model integrated in IPv6, also referred to as Hybrid ICN (hICN) [I-D.muscariello-intarea-hicn].  Such approach belongs to the category of pure ID-based mobility management schemes whose objective is (i) to overcome the limitations of traditional locator-based solutions like Mobile IP, (ii) to remove the need for a global mapping system as the one required by locator- identifier separation solutions like LISP [I-D.ietf-lisp-introduction] or ILA [I-D.herbert-intarea-ila].  ID-based networking as proposed by ICN architectures allows to disentangle forwarding operations from changes of network location, hence removing tunnels and user plane or control plane anchors.  In virtue of its anchorless property, we denote this approach as hICN- AMM (hICN Anchorless Mobility Management) hereinafter.  This document discusses hICN-AMM deployment options and related tradeoffs in terms of cost/benefits.  Particular attention is devoted to the insertion in the recently proposed 5G Service Based Architecture under study at 3GPP where an hICN-AMM solution might present a more efficient alternative to the traditional tunnel-based mobility architecture through GTP-U.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-auge-dmm-hicn-mobility-deployment-options-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-auge-dmm-hicn-mobility-deployment-options-03.txt' />
+</reference>

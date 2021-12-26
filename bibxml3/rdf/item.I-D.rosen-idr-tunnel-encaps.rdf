@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-rosen-idr-tunnel-encaps-03.txt'>
+    <title>"Using the BGP Tunnel Encapsulation Attribute without the BGP Encapsulation SAFI", Eric Rosen, Keyur Patel, Gunter Van de Velde</title>
+    <link>http://www.ietf.org/internet-drafts/draft-rosen-idr-tunnel-encaps-03.txt</link>
+    <description>RFC 5512 defines a BGP Path Attribute known as the "Tunnel Encapsulation Attribute".  This attribute allows one to specify a set of tunnels.  For each such tunnel, the attribute can provide additional information used to create a tunnel and the corresponding encapsulation header, and can also provide information that aids in choosing whether a particular packet is to be sent through a particular tunnel.  RFC 5512 states that the attribute is only carried in BGP UPDATEs that have the "Encapsulation Subsequent Address Family (Encapsulation SAFI)".  This document updates RFC 5512 by deprecating the Encapsulation SAFI (which has never been used),and by specifying semantics for the attribute when it is carried in UPDATEs of certain other SAFIs.  This document also extends the attribute by enabling it to carry additional information needed to create the encapsulation headers additional tunnel types not mentioned in RFC 5512.  Finally, this document also extends the attribute by allowing it to specify a remote tunnel endpoint address for each tunnel.</description>
+    <dc:date>2015-08-06T07:00:00-00:00</dc:date>
+</item>

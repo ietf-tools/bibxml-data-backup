@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hong-nsis-pbs-nslp'>
+<front>
+<title>PBS NSLP: Network Traffic Authorization</title>
+
+<author initials='S' surname='Hong' fullname='Se Gi Hong'>
+    <organization />
+</author>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>This document describes the NSIS Signaling Layer protocol (NSLP) for network traffic authorization in the Internet.  This NSLP aims to prevent Denial-of-Service (DoS) attacks and other forms of unauthorized traffic, the Permission-Based Sending (PBS) NSLP.  In the PBS NSLP, a receiver grants a sender a permission that gives the sender the authority to send data.  Signaling installs and maintains the permission state of routers for a data flow.  The PBS NSLP has a detection algorithm, the PBS Detection Algorithm (PDA), that monitors attacks.  To authenticate packets, the PBS NSLP requests a sender to use an existing security protocol, the IPsec Authentication Header (AH).  This allows routers to drop bogus packets by using an IP packet filter.  To avoid a compromised router that drops legitimate packets, the PBS NSLP triggers the sender to change the data flow path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hong-nsis-pbs-nslp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hong-nsis-pbs-nslp-00.txt' />
+</reference>

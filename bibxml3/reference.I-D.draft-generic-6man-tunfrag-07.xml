@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.generic-6man-tunfrag'>
+<front>
+<title>IPv6 Path MTU Updates</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='January' day='14' year='2013' />
+
+<abstract><t>IPv6 intentionally deprecates fragmentation by routers in the network.  Instead, links with restricting Maximum Transmission Units (MTUs) must either drop each too-large packet and return an ICMPv6 Packet Too Big (PTB) message or perform link-specific fragmentation and reassembly (also known as "link adaptation") at a layer below IPv6.  This latter category of links is often performance-challenged to accommodate steady-state link adaptation.  A common case that exhibits these link characteristics is seen for IPv6-in-IP tunnels. Additionally, IPv6 nodes can avoid path MTU discovery issues even when no link adaptation is necessary by performing a small amount of fragmentation and/or by probing the path as necessary.  This document therefore proposes an update to the base IPv6 specification to better accommodate path MTU issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-generic-6man-tunfrag-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-generic-6man-tunfrag-07.txt' />
+</reference>

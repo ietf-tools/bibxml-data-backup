@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iijima-netconf-websocket-ps'>
+<front>
+<title>NETCONF Notification over WebSocket</title>
+
+<author initials='I' surname='Tomoyuki' fullname='Iijima Tomoyuki'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Atarashi' fullname='Yoshifumi Atarashi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Higuchi' fullname='Hidemitsu Higuchi'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2011' />
+
+<abstract><t>This memo proposes transporting NETCONF Notification over WebSocket protocol[I-D.ietf-hybi-thewebsocketprotocol].  RFC5277[RFC5277] specifies that NETCONF Notification must be sent over SSH, BEEP, SSL and console from an NETCONF server to NETCONF clients.  When NETCONF Notification was defined, this transport mapping was a reasonable decision.  Bi-directional capability is necessary for transporting NETCONF Notification.  But at present, WebSocket protocol, which is based on HTTP and has a bi-directional capability, is available. This memo describes the way in which NETCONF Notification is sent over WebSocket protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iijima-netconf-websocket-ps-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iijima-netconf-websocket-ps-00.txt' />
+</reference>

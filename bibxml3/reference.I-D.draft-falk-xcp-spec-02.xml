@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.falk-xcp-spec'>
+<front>
+<title>Specification for the Explicit Control Protocol (XCP)</title>
+
+<author initials='A' surname='Falk' fullname='Aaron Falk'>
+    <organization />
+</author>
+
+<date month='November' day='8' year='2006' />
+
+<abstract><t>This document contains an initial specification for the Explicit Control Protocol (XCP), an experimental congestion control protocol. XCP is designed to deliver the highest possible end-to-end throughput over a broad range of network infrastructure, including links with very large bandwidth-delay products, which are not well served by the current control algorithms. XCP is potentially applicable to any transport protocol, although initial testing has applied it to TCP in particular. XCP routers are required to perform a small calculation on congestion state carried in each data packet. XCP routers also periodically recalculate the local parameters required to provide fairness. On the other hand, there is no per-flow congestion state in XCP routers. This version specification (-02) includes protocol changes that move per-packet divisions from the router to the sender.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-falk-xcp-spec-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-falk-xcp-spec-02.txt' />
+</reference>

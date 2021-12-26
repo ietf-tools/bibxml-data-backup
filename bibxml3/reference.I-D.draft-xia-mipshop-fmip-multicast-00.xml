@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-mipshop-fmip-multicast'>
+<front>
+<title>FMIPv6 extension for Multicast Handover</title>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2006' />
+
+<abstract><t>The document proposes an extension to FMIPv6 to enable fast multicast handover. The mobile node in the foreign link being visited uses its care-of address(CoA) to join multicast groups via a local multicast router. During handover, PAR sends MN's MLD state to NAR which helps NAR establish the multicast delivery trees in advance. PAR also tunnels all multicast traffic to NAR which buffers them to be delivered after the handover is completed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-mipshop-fmip-multicast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-mipshop-fmip-multicast-00.txt' />
+</reference>

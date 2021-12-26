@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-ltp'>
+<front>
+<title>Licklider Transmission Protocol - Specification</title>
+
+<author initials='M' surname='Ramadas' fullname='Manikantan Ramadas'>
+    <organization />
+</author>
+
+<author initials='S' surname='Burleigh' fullname='Scott  Burleigh'>
+    <organization />
+</author>
+
+<author initials='S' surname='Farrell' fullname='Stephen Farrell'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2008' />
+
+<abstract><t>This document describes the Licklider Transmission Protocol (LTP), designed to provide retransmission-based reliability over links characterized by extremely long message round-trip times (RTTs) and/or frequent interruptions in connectivity.  Since communication across interplanetary space is the most prominent example of this sort of environment, LTP is principally aimed at supporting "long- haul" reliable transmission in interplanetary space, but it has applications in other environments as well.  LTP does Automatic Repeat reQuest (ARQ) of data transmissions by soliciting selective-acknowledgment reception reports.  It is stateful, and has no negotiation or handshakes.  In an Interplanetary Internet setting deploying the Bundle protocol that is being developed by the Delay Tolerant Networking Research Group, LTP is intended to serve as a reliable "convergence layer" protocol operating in pairwise fashion between adjacent Interplanetary Internet nodes that are in direct RF communication. In that operational scenario, and potentially in some other deployments of the Bundle Protocol, LTP runs directly over a data- link layer protocol; when this is the case, forward error correction coding and/or checksum mechanisms in the underlying data-link layer protocol must assure the integrity of the data passed between the communicating entities.  Since no mechanisms for flow control or congestion control are included in the design of LTP, this protocol is not intended or appropriate for ubiquitous deployment in the global Internet.  When LTP is run over UDP, it must only be used for software development or in private local area networks. When LTP is not run over UDP, it must be run directly over a protocol, (nominally a link- layer protocol), that meets the requirements specified in section 5.  This document is a product of the Delay Tolerant Networking Research Group and has been reviewed by that group.  No objections to its publication as an RFC were raised.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-ltp-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-ltp-10.txt' />
+</reference>

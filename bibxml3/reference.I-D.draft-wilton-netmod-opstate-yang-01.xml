@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wilton-netmod-opstate-yang'>
+<front>
+<title>"With-config-state" Capability for NETCONF/RESTCONF</title>
+
+<author initials='R' surname='Wilton' fullname='Robert Wilton'>
+    <organization />
+</author>
+
+<date month='November' day='30' year='2015' />
+
+<abstract><t>This document proposes a possible alternative solution for handling applied configuration state in YANG as described in draft-openconfig- netmod-opstate-01.  The proposed solution, roughly modelled on the with-defaults NETCONF/RESTCONF capability, aims to meet the key requirements set out in draft-openconfig-netmod-opstate-01 without the need for YANG module authors to explicitly duplicate configuration nodes in both configuration and operational containers. This draft does not address the issue of co-location of configuration and operational state for interfaces, nor does it provide a NETCONF mechanism to retrieve operational data separately from configuration data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wilton-netmod-opstate-yang-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wilton-netmod-opstate-yang-01.txt' />
+</reference>

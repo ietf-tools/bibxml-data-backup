@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-softwire-4over6'>
+<front>
+<title>4over6 Transit Solution using IP Encapsulation and MP-BGP Extensions</title>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='X' surname='Li' fullname='Xing Li'>
+    <organization />
+</author>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='C' surname='Metz' fullname='Chris Metz'>
+    <organization />
+</author>
+
+<date month='April' day='14' year='2009' />
+
+<abstract><t>The emerging and growing deployment of IPv6 networks, in particular IPv6 backbone networks, will introduce cases where connectivity with IPv4 networks is desired.  In one such case, an Internet Service Provider (ISP) operating an IPv6 backbone network will accomodate connectivity and offer transit services for attached legacy IPv4 networks and applications.  This is accomplished through the use of IPv4-over-IPv6 (4over6) tunnels established between dual-stack IPv4/ IPv6 edge routers.  Along with the growth of IPv6 backbones networks and the corresponding increase in the number of attached IPv4 networks, the complexity of the interconnection tunnel topology will severely increase to support the IPv4 transit service across the backbone.  The manual configuration mechanism for a potentially large number of IPv4-over-IPv6 tunnels will cause an insufferable operational burden.  This document addresses this problem and presents a mechanism for the automatic discovery and creation of 4over6 tunnels employing multi-protocol BGP extensions.  The mechanisms described in this document have been implemented, tested and deployed on the CNGI-CERNET2 IPv6 testbed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-softwire-4over6-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-softwire-4over6-02.txt' />
+</reference>

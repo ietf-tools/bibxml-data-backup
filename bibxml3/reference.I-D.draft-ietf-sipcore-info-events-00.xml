@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipcore-info-events'>
+<front>
+<title>Session Initiation Protocol (SIP) INFO Method and Package Framework</title>
+
+<author initials='E' surname='Burger' fullname='Eric  Burger'>
+    <organization />
+</author>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2009' />
+
+<abstract><t>This document provides new semantics for the SIP INFO method of RFC 2976.  These new semantics defined here are fully backwards compatible with the old semantics.  Core to the new semantics is a mechanism for defining, negotiating and exchanging Info Packages that use the INFO method.  Applications that need to exchange session- related information within a SIP INVITE-created session, also known as application level information, use these INFO requests.  This draft addresses issues and open items from RFC 2976 and replaces it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipcore-info-events-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipcore-info-events-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipcore-info-events-00.pdf' />
+</reference>

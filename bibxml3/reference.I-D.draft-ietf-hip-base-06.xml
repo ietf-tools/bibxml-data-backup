@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-base'>
+<front>
+<title>Host Identity Protocol</title>
+
+<author initials='R' surname='Moskowitz' fullname='Robert Moskowitz'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2006' />
+
+<abstract><t>This memo specifies the details of the Host Identity Protocol (HIP). HIP allows consenting hosts to securely establish and maintain shared IP-layer state, allowing separation of the identifier and locator roles of IP addresses, thereby enabling continuity of communications across IP address changes. HIP is based on a Sigma-compliant Diffie- Hellman key exchange, using public-key identifiers from a new Host Identity name space for mutual peer authentication. The protocol is designed to be resistant to Denial-of-Service (DoS) and Man-in-the- middle (MitM) attacks, and when used together with another suitable security protocol, such as Encapsulated Security Payload (ESP), it provides integrity protection and optional encryption for upper layer protocols, suchs as TCP and UDP. Discussion related to this document is going on at the IETF HIP Working Group mailing list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-base-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-base-06.txt' />
+</reference>

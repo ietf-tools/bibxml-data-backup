@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-mglt-homenet-dnssec-validator-dhc-options-02.txt'>
+    <title>"DNSSEC Validators DHCP Options", Daniel Migault</title>
+    <link>http://www.ietf.org/internet-drafts/draft-mglt-homenet-dnssec-validator-dhc-options-02.txt</link>
+    <description>DNSSEC provides data integrity and authentication for DNSSEC validators.  However, without valid trust anchor(s) and an acceptable value for the current time, DNSSEC validation cannot be performed. As a result, there are multiple cases where DNSSEC validation MUST NOT be performed.  In addition, this list of exceptions is expected to become larger over time.  Considering an increasing number of cases where DNSSEC is disabled adds complexity to the DNSSEC validator implementations and increases the vectors that disable security.  This document assumes that DNSSEC adoption by end devices requires that end devices MUST be able to support a DNSSEC validation always set.  This MUST be valid today as well as in the future.  This document describes DHCP Options to provision the DHCP Client with valid trust anchors and time so DNSSEC validation can be performed.</description>
+    <dc:date>2013-10-20T22:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2vpn-vpls-ldp'>
+<front>
+<title>Virtual Private LAN Services Using LDP</title>
+
+<author initials='M' surname='Lasserre' fullname='Marc Lasserre'>
+    <organization />
+</author>
+
+<author initials='V' surname='Kompella' fullname='Vach Kompella'>
+    <organization />
+</author>
+
+<date month='June' day='5' year='2006' />
+
+<abstract><t>This document describes a Virtual Private LAN Service (VPLS) solution using pseudo-wires, a service previously implemented over other tunneling technologies and known as Transparent LAN Services (TLS). A VPLS creates an emulated LAN segment for a given set of users, i.e., it creates a Layer 2 broadcast domain that is fully capable of learning and forwarding on Ethernet MAC addresses that is closed to a given set of users. Multiple VPLS services can be supported from a single PE node. This document describes the control plane functions of signaling pseudo-wire labels using LDP [RFC3036], extending [RFC4447]. It is agnostic to discovery protocols. The data plane functions of forwarding are also described, focusing, in particular, on the learning of MAC addresses. The encapsulation of VPLS packets is described by [RFC4448].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2vpn-vpls-ldp-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2vpn-vpls-ldp-09.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lopez-pce-hpce-ted'>
+<front>
+<title>Traffic Engineering Database dissemination for Hierarchical PCE scenarios</title>
+
+<author initials='V' surname='Lopez' fullname='Victor Lopez'>
+    <organization />
+</author>
+
+<author initials='O' surname='Dios' fullname='Oscar Gonzalez de Dios'>
+    <organization />
+</author>
+
+<author initials='D' surname='King' fullname='Daniel King'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2014' />
+
+<abstract><t>The PCE architecture is well-defined and may be used to compute the optimal path for LSPS across domains in MPLS-TE and GMPLS networks. The Hierarchical Path Computation Element (H-PCE) [RFC6805] was developed to provide an optimal path when the sequence of domains is not known in advance.  The procedure and mechanism for populating the Traffic Engineering Database (TED) with domain topology and link information used in H-PCE-based path computations is open to interpretation.  This informational document describes how topology dissemination mechanisms may be used to provide TE information between Parent and Child PCEs (within the H-PCE context).  In particular, it describes how BGP-LS might be used to provide inter- domain connectivity.  This document is not intended to define new extensions, it demonstrates how existing procedures and mechanisms may be used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lopez-pce-hpce-ted-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lopez-pce-hpce-ted-02.txt' />
+</reference>

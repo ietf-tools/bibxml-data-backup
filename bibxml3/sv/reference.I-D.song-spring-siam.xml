@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-spring-siam'>
+<front>
+<title>SRv6 In-situ Active Measurement</title>
+<author initials='H' surname='Song' fullname='Haoyu Song'>
+<organization />
+</author>
+<author initials='T' surname='Pan' fullname='Tian Pan'>
+<organization />
+</author>
+<date year='2021' month='December' day='06' />
+<abstract><t>This draft describes a data-plane in-band active measurement method for SRv6.  A packet containing an SRH uses a flag bit to indicate it is an active probing packet.  The measurement information, such as the IOAM header and data, is encapsulated in UDP payload.  The probing packet originates from a segment source node and terminates at a configured segment endpoint node.  Each segment node on the path, when detecting the flag, parses the UDP header and the payload. In case of IOAM, the node adds data to the IOAM node data fields. The method avoids the performance and encapsulation issues for applying IOAM as well as other measurement techniques in SRv6 networks.  Multiple applications can be supported by the method.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-song-spring-siam-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-song-spring-siam-02.txt'/>
+</reference>

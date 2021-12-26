@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tiloca-core-oscore-discovery'>
+<front>
+<title>Discovery of OSCORE Groups with the CoRE Resource Directory</title>
+
+<author initials='M' surname='Tiloca' fullname='Marco Tiloca'>
+    <organization />
+</author>
+
+<author initials='C' surname='Amsuess' fullname='Christian Amsuess'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stok' fullname='Peter van der Stok'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>Group communication over the Constrained Application Protocol (CoAP) can be secured by means of Object Security for Constrained RESTful Environments (OSCORE).  At deployment time, devices may not know the exact OSCORE groups to join, the respective Group Manager, or other information required to perform the joining process.  This document describes how CoAP endpoints can use the CoRE Resource Directory to discover OSCORE groups and acquire information to join them through their respective Group Manager.  A same OSCORE group may protect multiple application groups, which are separately announced in the Resource Directory as sets of endpoints sharing a pool of resources. This approach is consistent with, but not limited to, the joining of OSCORE groups based on the ACE framework for Authentication and Authorization in constrained environments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tiloca-core-oscore-discovery-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tiloca-core-oscore-discovery-02.txt' />
+</reference>

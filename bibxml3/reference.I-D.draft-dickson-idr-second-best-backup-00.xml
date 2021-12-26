@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dickson-idr-second-best-backup'>
+<front>
+<title>Enhanced BGP Capabilities for Exchanging Second-best and Back-up Paths</title>
+
+<author initials='B' surname='Dickson' fullname='Brian Dickson'>
+    <organization />
+</author>
+
+<date month='February' day='5' year='2008' />
+
+<abstract><t>This Internet Draft describes an enhanced way to exchange prefix information, to permit multiple copies of a prefix with different paths to be announced and withdrawn.  This negotiated capability provides faster local (inter-AS) and global (intra-AS) convergence, reduces path-hunting, improves route- reflector behaviour, including eliminating both persistent oscillations and BGP "wedgies".  Additional prefix instances have new optional transtive BGP attributes, to control path selection.  Withdrawl of prefixes will require path attributes.  Benefits are seen both when deployed intra-AS, and on inter-AS peering.Author's Note  This Internet Draft is intended to result in this draft or a related draft(s) being placed on the Standards Track for idr.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dickson-idr-second-best-backup-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dickson-idr-second-best-backup-00.txt' />
+</reference>

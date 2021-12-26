@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bashandy-idr-bgp-repair-label'>
+<front>
+<title>Scalable, Loop-Free BGP FRR using Repair Label</title>
+
+<author initials='A' surname='Bashandy' fullname='Ahmed Bashandy'>
+    <organization />
+</author>
+
+<author initials='B' surname='Pithawala' fullname='Burjiz Pithawala'>
+    <organization />
+</author>
+
+<author initials='J' surname='Heitz' fullname='Jakob Heitz'>
+    <organization />
+</author>
+
+<date month='May' day='1' year='2012' />
+
+<abstract><t>Consider a BGP free core scenario. Suppose the provider edge BGP speakers PE1, PE2,..., PEn know about a prefix P/m via the external routers CE1, CE2,..., CEm.  If the PE router PEi loses connectivity to the primary path, it is desirable to immediately restore traffic by rerouting packets arriving from the core to PEi and destined to the prefix P/m to one of the other PE routers that advertised P/m, say PEj, until BGP re-converges. However if the loss of connectivity of PEi to the primary path also resulted in the loss of connectivity between PEj and CEj, rerouting a packet before the control plane converges may result in a loop. In this document, we propose using a repair label for traffic restoration while avoiding loops. We propose advertising the "repair" label through BGP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bashandy-idr-bgp-repair-label-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bashandy-idr-bgp-repair-label-04.txt' />
+</reference>

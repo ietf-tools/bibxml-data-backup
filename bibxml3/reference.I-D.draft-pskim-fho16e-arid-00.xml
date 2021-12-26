@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pskim-fho16e-arid'>
+<front>
+<title>Fast Handover for Mobile IPv6 Based IEEE802.16e Wireless Networks</title>
+
+<author initials='P' surname='Kim' fullname='Pyungsoo  Kim'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2006' />
+
+<abstract><t>This draft proposes a new fast handover mechanism for Mobile IPv6 based IEEE 802.16e wireless networks. To implement the proposed mechanism, the IEEE 802.16e neighbor advertisement message, named MOB_NBR-ADV, sent periodically by a serving base station (BS) is assumed to be defined newly by adding a specific subfield to the available reserved field. In addition, Router Information Request/Reply messages used in the network layer are defined newly. The proposed mechanism provides the faster acquisition of new access router's network information than the existing one, which might be advantageous for the low handover latency. In addition, the proposed mechanism might reduce amount of traffic in comparison with the existing one, which might be remarkable when there are many mobile nodes that are now connecting to the current access router (AR). Moreover, in the proposed mechanism, a mobile node can know whether it changes AR or BS, which can remove redundant traffic of the existing one.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pskim-fho16e-arid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pskim-fho16e-arid-00.txt' />
+</reference>

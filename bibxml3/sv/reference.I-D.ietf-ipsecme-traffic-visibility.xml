@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-traffic-visibility'>
+<front>
+<title>Wrapped ESP for Traffic Visibility</title>
+
+<author initials='K' surname='Grewal' fullname='Ken Grewal'>
+    <organization />
+</author>
+
+<author initials='G' surname='Montenegro' fullname='Gabriel Montenegro'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<date month='January' day='20' year='2010' />
+
+<abstract><t>This document describes the Wrapped Encapsulating Security Payload (WESP) protocol, which builds on the Encapsulating Security Payload (ESP) [RFC4303], and is designed to allow intermediate devices to (1) ascertain if data confidentiality is being employed within ESP and if not, (2) inspect the IPsec packets for network monitoring and access control functions. Currently in the IPsec ESP standard, there is no deterministic way to differentiate between encrypted and unencrypted payloads by simply examining a packet. This poses certain challenges to the intermediate devices that need to deep inspect the packet before making a decision on what should be done with that packet (Inspect and/or Allow/Drop). The mechanism described in this document can be used to easily disambiguate integrity-only ESP from ESP-encrypted packets, without compromising on the security provided by ESP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-traffic-visibility-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-traffic-visibility-12.txt' />
+</reference>

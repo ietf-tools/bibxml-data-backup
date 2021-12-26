@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.filsfils-spring-srv6-net-pgm-insertion'>
+<front>
+<title>SRv6 NET-PGM extension: Insertion</title>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='P' surname='Camarillo' fullname='Pablo Camarillo'>
+    <organization />
+</author>
+
+<author initials='J' surname='Leddy' fullname='John Leddy'>
+    <organization />
+</author>
+
+<author initials='D' surname='Voyer' fullname='Daniel Voyer'>
+    <organization />
+</author>
+
+<author initials='S' surname='Matsushima' fullname='Satoru Matsushima'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>Traffic traversing an SR domain is encapsulated in an outer IPv6 header for its journey through the SR domain.  To implement transport services strictly within the SR domain, the SR domain may require insertion or deletion of an SRH after the outer IPv6 header of the SR domain.  Any segment within the SRH is strictly contained within the SR domain.  This document extends SRv6 Network Programming [I-D.ietf-spring-srv6-network-programming] with new SR endpoint and transit behaviors to be performed only within the SR domain in any packet owned by the domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-filsfils-spring-srv6-net-pgm-insertion-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-filsfils-spring-srv6-net-pgm-insertion-03.txt' />
+</reference>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6957' target='https://www.rfc-editor.org/info/rfc6957'>
+<front>
+<title>Duplicate Address Detection Proxy</title>
+<author initials='F.' surname='Costa' fullname='F. Costa'><organization /></author>
+<author initials='J-M.' surname='Combes' fullname='J-M. Combes' role='editor'><organization /></author>
+<author initials='X.' surname='Pougnard' fullname='X. Pougnard'><organization /></author>
+<author initials='H.' surname='Li' fullname='H. Li'><organization /></author>
+<date year='2013' month='June' />
+<abstract><t>The document describes a proxy-based mechanism allowing the use of Duplicate Address Detection (DAD) by IPv6 nodes in a point-to-multipoint architecture with a &quot;split-horizon&quot; forwarding scheme, primarily deployed for Digital Subscriber Line (DSL) and Fiber access architectures.  Based on the DAD signaling, the first-hop router stores in a Binding Table all known IPv6 addresses used on a point-to-multipoint domain (e.g., VLAN).  When a node performs DAD for an address already used by another node, the first-hop router defends the address rather than the device using the address.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6957'/>
+<seriesInfo name='DOI' value='10.17487/RFC6957'/>
+</reference>

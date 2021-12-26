@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ippm-model-based-metrics'>
+<front>
+<title>Model Based Bulk Performance Metrics</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>We introduce a new class of model based metrics designed to determine if an end-to-end Internet path can meet predefined transport performance targets by applying a suite of IP diagnostic tests to successive subpaths.  The subpath-at-a-time tests are designed to accurately detect if any subpath will prevent the full end-to-end path from meeting the specified target performance.  Each IP diagnostic test consists of a precomputed traffic pattern and a statistical criteria for evaluating packet delivery.  The IP diagnostics tests are based on traffic patterns that are precomputed to mimic TCP or other transport protocol over a long path but are independent of the actual details of the subpath under test. Likewise the success criteria depends on the target performance and not the actual performance of the subpath.  This makes the measurements open loop, eliminating nearly all of the difficulties encountered by traditional bulk transport metrics.  This document does not fully define diagnostic tests, but provides a framework for designing suites of diagnostics tests that are tailored the confirming the target performance.  By making the tests open loop, we eliminate standards congestion control equilibrium behavior, which otherwise causes every measured parameter to be sensitive to every component of the system.  As an open loop test, various measurable properties become independent, and potentially subject to an algebra enabling several important new uses.  Interim DRAFT Formatted: Fri Feb 14 14:07:33 PST 2014</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ippm-model-based-metrics-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ippm-model-based-metrics-02.txt' />
+</reference>

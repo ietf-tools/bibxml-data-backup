@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7618' target='https://www.rfc-editor.org/info/rfc7618'>
+<front>
+<title>Dynamic Allocation of Shared IPv4 Addresses</title>
+<author initials='Y.' surname='Cui' fullname='Y. Cui'><organization /></author>
+<author initials='Q.' surname='Sun' fullname='Q. Sun'><organization /></author>
+<author initials='I.' surname='Farrer' fullname='I. Farrer'><organization /></author>
+<author initials='Y.' surname='Lee' fullname='Y. Lee'><organization /></author>
+<author initials='Q.' surname='Sun' fullname='Q. Sun'><organization /></author>
+<author initials='M.' surname='Boucadair' fullname='M. Boucadair'><organization /></author>
+<date year='2015' month='August' />
+<abstract><t>This memo describes the dynamic allocation of shared IPv4 addresses to clients using DHCPv4.  Address sharing allows a single IPv4 address to be allocated to multiple active clients simultaneously, with each client being differentiated by a unique set of transport- layer source port numbers.  The necessary changes to existing DHCPv4 client and server behavior are described, and a new DHCPv4 option for provisioning clients with shared IPv4 addresses is included.</t><t>Due to the nature of IP address sharing, some limitations to its applicability are necessary.  This memo describes these limitations and recommends suitable architectures and technologies where address sharing may be utilized.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7618'/>
+<seriesInfo name='DOI' value='10.17487/RFC7618'/>
+</reference>

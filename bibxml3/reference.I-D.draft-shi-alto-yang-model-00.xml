@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shi-alto-yang-model'>
+<front>
+<title>A YANG Data Model for Base ALTO Data and Services</title>
+
+<author initials='X' surname='Shi' fullname='Xiao Shi'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Y. Yang'>
+    <organization />
+</author>
+
+<author initials='M' surname='Scharf' fullname='Michael Scharf'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>The Application-Layer Traffic Optimization (ALTO) protocol [RFC7285] defines a set of network information services, including the network- map service, the cost-map service, the filtered map services, the endpoint property service, and the endpoint cost service.  A meta service, called the information resource directory (IRD) service, allows an ALTO server to provide ALTO clients with meta information (e.g., the access URI) about each resource and service it provides. [RFC7285] uses a RESTful design and encodes client request parameters and server responses using JSON.  One may consider that most of these services are based on data maintained at an ALTO server.  Hence, in this document, we explore how one may use the data modeling language YANG [RFC6020] to specify the services defined in [RFC7285].  We first define two YANG models for RPC specification and data instance description of of ALTO services.  We then discuss the "standard operations" defined in NETCONF/RESTCONF to evaluate potential integration.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shi-alto-yang-model-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shi-alto-yang-model-00.txt' />
+</reference>

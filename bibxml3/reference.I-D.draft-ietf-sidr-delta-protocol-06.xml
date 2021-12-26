@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-delta-protocol'>
+<front>
+<title>RPKI Repository Delta Protocol</title>
+
+<author initials='T' surname='Bruijnzeels' fullname='Tim Bruijnzeels'>
+    <organization />
+</author>
+
+<author initials='O' surname='Muravskiy' fullname='Oleg Muravskiy'>
+    <organization />
+</author>
+
+<author initials='B' surname='Weber' fullname='Bryan Weber'>
+    <organization />
+</author>
+
+<author initials='R' surname='Austein' fullname='Rob Austein'>
+    <organization />
+</author>
+
+<date month='February' day='10' year='2017' />
+
+<abstract><t>In the Resource Public Key Infrastructure (RPKI), certificate authorities publish certificates, including end entity certificates, Certificate Revocation Lists (CRL), and RPKI signed objects to repositories.  Relying Parties (RP) retrieve the published information from those repositories.  This document specifies a protocol which provides relying parties with a mechanism to query a repository for incremental updates using the HTTP Over TLS (HTTPS) [RFC2818] protocol, thus enabling the RP to keep its state in sync with the repository using a secure transport channel.  This document updates [RFC6480], [RFC6481], and [RFC7730], to remove the dependency on [rsync] as the only mandatory RPKI repository distribution mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-delta-protocol-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-delta-protocol-06.txt' />
+</reference>

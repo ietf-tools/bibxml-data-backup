@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.roux-fecframe-repacketization'>
+<front>
+<title>Benefits of re-packetization for FEC based protection of multimedia streams</title>
+
+<author initials='P' surname='Roux' fullname='Pierre Roux'>
+    <organization />
+</author>
+
+<author initials='C' surname='Janneteau' fullname='Christophe Janneteau'>
+    <organization />
+</author>
+
+<author initials='K' surname='Mounir' fullname='Kellil Mounir'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2010' />
+
+<abstract><t>This document addresses the subject of FEC-based protection of multimedia streams. It is proposed to apply re-packetization on the application source stream data units in order to get a constant data unit size within each block. A reverse packetization operation should also be applied in the receiver in order to provide the application consumer with original application data units. By avoiding any padding in the process of repair packet production, this proposal brings a significant performance enhancement which is evaluated by simulation. The proposed re-packetization operations can be used without requiring change to the FEC framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-roux-fecframe-repacketization-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-roux-fecframe-repacketization-00.txt' />
+</reference>

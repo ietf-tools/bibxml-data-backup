@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.geib-spring-oam-opt'>
+<front>
+<title>An MPLS SR OAM option reducing the number of end-to-end path validations</title>
+<author initials='R' surname='Geib' fullname='Ruediger Geib'>
+<organization />
+</author>
+<date year='2020' month='October' day='29' />
+<abstract><t>MPLS traceroute implementations validate dataplane connectivity and isolate faults by sending messages along every end-to-end Label Switched Path (LSP) combination between a source and a destination node.  This requires a growing number of path validations in networks with a high number of equal cost paths between origin and destination.  Segment Routing (SR) introduces MPLS topology awareness combined with Source Routing.  By this combination, SR can be used to implement an MPLS traceroute option lowering the total number of LSP validations as compared to commodity MPLS traceroute.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-geib-spring-oam-opt-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-geib-spring-oam-opt-00.txt'/>
+</reference>

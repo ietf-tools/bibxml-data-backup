@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.srose-dkim-ecc'>
+<front>
+<title>Defining Elliptic Curve Cryptography Algorithms for use with DKIM</title>
+
+<author initials='S' surname='Rose' fullname='Scott Rose'>
+    <organization />
+</author>
+
+<date month='April' day='6' year='2017' />
+
+<abstract><t>DomainKeys Identified Mail (DKIM) uses digital signature to associate a message with a given sending domain.  Currently, there is only one cryptography algorithm defined for use with DKIM (RSA).  This document defines four new elliptic curve cryptography algorithms for use with DKIM.  This will allow for algorithm agility if a weakness is found in RSA, and allows for smaller key length to provide the same digital signature strength.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-srose-dkim-ecc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-srose-dkim-ecc-00.txt' />
+</reference>

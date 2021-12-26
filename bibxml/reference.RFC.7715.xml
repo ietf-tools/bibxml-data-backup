@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7715' target='https://www.rfc-editor.org/info/rfc7715'>
+<front>
+<title>Multipoint LDP (mLDP) Node Protection</title>
+<author initials='IJ.' surname='Wijnands' fullname='IJ. Wijnands' role='editor'><organization /></author>
+<author initials='K.' surname='Raza' fullname='K. Raza'><organization /></author>
+<author initials='A.' surname='Atlas' fullname='A. Atlas'><organization /></author>
+<author initials='J.' surname='Tantsura' fullname='J. Tantsura'><organization /></author>
+<author initials='Q.' surname='Zhao' fullname='Q. Zhao'><organization /></author>
+<date year='2016' month='January' />
+<abstract><t>This document describes procedures to support node protection for Point-to-Multipoint and Multipoint-to-Multipoint Label Switched Paths (P2MP and MP2MP LSPs) that have been built by the Multipoint Label Distribution Protocol (mLDP).  In order to protect a node N, the Point of Local Repair (PLR) Label Switching Router (LSR) of N must learn the Merge Point (MPT) LSR(s) of node N such that traffic can be redirected to them in case node N fails.  Redirecting the traffic around the failed node N depends on existing Point-to-Point (P2P) Label Switched Paths (LSPs).  The pre-established LSPs originate from the PLR LSR and terminate on the MPT LSRs while bypassing LSR N.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7715'/>
+<seriesInfo name='DOI' value='10.17487/RFC7715'/>
+</reference>

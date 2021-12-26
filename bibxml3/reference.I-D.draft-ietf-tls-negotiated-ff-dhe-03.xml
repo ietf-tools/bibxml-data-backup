@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-negotiated-ff-dhe'>
+<front>
+<title>Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for TLS</title>
+
+<author initials='D' surname='Gillmor' fullname='Daniel Gillmor'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2014' />
+
+<abstract><t>Traditional finite-field-based Diffie-Hellman (DH) key exchange during the TLS handshake suffers from a number of security, interoperability, and efficiency shortcomings.  These shortcomings arise from lack of clarity about which DH group parameters TLS servers should offer and clients should accept.  This document offers a solution to these shortcomings for compatible peers by using a section of the TLS "EC Named Curve Registry" to establish common finite-field DH parameters with known structure and a mechanism for peers to negotiate support for these groups.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-negotiated-ff-dhe-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-negotiated-ff-dhe-03.txt' />
+</reference>

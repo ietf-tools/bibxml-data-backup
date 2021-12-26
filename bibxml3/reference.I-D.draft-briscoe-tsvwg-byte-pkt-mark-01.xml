@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tsvwg-byte-pkt-mark'>
+<front>
+<title>Byte and Packet Congestion Notification</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>This memo concerns dropping or marking packets using active queue management (AQM) such as random early detection (RED) or pre- congestion notification (PCN).  It answers the question of whether to take packet size into account when network equipment writes congestion notification, or when transports read it.  The primary conclusion is that the variant of RED that gives lower drop probability to smaller packets (byte-mode packet drop) should not be used because it creates a perverse incentive for transports to use tiny segments, consequently also opening up a DoS vulnerability. TCP's lack of attention to packet size and its sensitivity to loss of SYNs and ACKs should be fixed in TCP, not by reverse engineering network forwarding to fix transport protocols.  Nonetheless raw drop- tail is just as vulnerable to gaming by small packets, so AQM itself should not be turned off.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tsvwg-byte-pkt-mark-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-byte-pkt-mark-01.txt' />
+</reference>

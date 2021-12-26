@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gundogan-icnrg-ccnx-timetlv'>
+<front>
+<title>An Alternative Delta Time encoding for CCNx using Interval Time from RFC5497</title>
+
+<author initials='C' surname='Gundogan' fullname='Cenk Gundogan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schmidt' fullname='Thomas Schmidt'>
+    <organization />
+</author>
+
+<author initials='D' surname='Oran' fullname='David Oran'>
+    <organization />
+</author>
+
+<author initials='M' surname='Waehlisch' fullname='Matthias Waehlisch'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>CCNx utilizes Delta Time for a number of functions.  When using CCNx in environments with constrained nodes and/or bandwidth constrained networks, it is valuable to have a compressed representation of delta time.  In order to do so, either accuracy or dynamic range has to be sacrificed.  Since the current uses of delta time do not require both simultaneously, one can consider a logarithmic encoding such as that specified in RFC5497.  This document updates _CCNx messages in TLV Format_ (RFC8609) to specify this alternative encoding.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gundogan-icnrg-ccnx-timetlv-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gundogan-icnrg-ccnx-timetlv-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-ospf-v4v6-ospfv3-mt'>
+<front>
+<title>Multi-Topology OSPFv3 for IPv4-mapped IPv6</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohammed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian  Jacquenet'>
+    <organization />
+</author>
+
+<author initials='D' surname='Cheng' fullname='Dean Cheng'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Yiu Lee'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>This memo defines two new Multi Topology Routing Identifiers (MT IDs) in OSPFv3 [RFC2740]).  These new MT-OSPFv3 [I-D.ietf-ospf-mt-ospfv3] topologies are meant to convey routing information which is restricted to IPv4-mapped IPv6 addresses [I-D.ietf-behave-address-format].  The ultimate goal of instantiating dedicated topologies for IPv4-mapped IPv6 is to isolate the native IPv6 routing table from the IPv4 and to prevent from being overloaded by IPv4-mapped one.  This isolation is motivated also from an operational perspective to enforce specific engineering policies for each topology.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-ospf-v4v6-ospfv3-mt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-ospf-v4v6-ospfv3-mt-00.txt' />
+</reference>

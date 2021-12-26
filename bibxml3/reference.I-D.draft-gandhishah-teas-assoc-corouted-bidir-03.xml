@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gandhishah-teas-assoc-corouted-bidir'>
+<front>
+<title>Fast Reroute Procedures For Associated Co-routed Bidirectional Label Switched Paths (LSPs)</title>
+
+<author initials='R' surname='Gandhi' fullname='Rakesh Gandhi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Shah' fullname='Himanshu Shah'>
+    <organization />
+</author>
+
+<author initials='J' surname='Whittaker' fullname='Jeremy Whittaker'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2017' />
+
+<abstract><t>Resource Reservation Protocol (RSVP) association signaling can be used to bind two unidirectional LSPs into an associated bidirectional LSP.  In packet transport networks, there are requirements where the reverse unidirectional LSP of an associated bidirectional LSP needs to follow the same path as its forward unidirectional LSP.  In addition, the associated bidirectional LSP needs to maintain co-routed-ness even after a failure event in the network.  This document describes fast reroute procedures for associated bidirectional LSPs that ensure the traffic flows on a co-routed path after a failure event for single-sided provisioning model.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gandhishah-teas-assoc-corouted-bidir-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gandhishah-teas-assoc-corouted-bidir-03.txt' />
+</reference>

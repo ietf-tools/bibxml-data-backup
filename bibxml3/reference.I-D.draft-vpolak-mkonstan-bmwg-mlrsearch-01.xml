@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vpolak-mkonstan-bmwg-mlrsearch'>
+<front>
+<title>Multiple Loss Ratio Search for Packet Throughput (MLRsearch)</title>
+
+<author initials='M' surname='Konstantynowicz' fullname='Maciek Konstantynowicz'>
+    <organization />
+</author>
+
+<author initials='V' surname='Polak' fullname='Vratko Polak'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2019' />
+
+<abstract><t>This document proposes changes to [RFC2544], specifically to packet throughput search methodology, by defining a new search algorithm referred to as Multiple Loss Ratio search (MLRsearch for short). Instead of relying on binary search with pre-set starting offered load, it proposes a novel approach discovering the starting point in the initial phase, and then searching for packet throughput based on defined packet loss ratio (PLR) input criteria and defined final trial duration time.  One of the key design principles behind MLRsearch is minimizing the total test duration and searching for multiple packet throughput rates (each with a corresponding PLR) concurrently, instead of doing it sequentially.  The main motivation behind MLRsearch is the new set of challenges and requirements posed by NFV (Network Function Virtualization), specifically software based implementations of NFV data planes. Using [RFC2544] in the experience of the authors yields often not repetitive and not replicable end results due to a large number of factors that are out of scope for this draft.  MLRsearch aims to address this challenge and define a common (standard?) way to evaluate NFV packet throughput performance that takes into account varying characteristics of NFV systems under test.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vpolak-mkonstan-bmwg-mlrsearch-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vpolak-mkonstan-bmwg-mlrsearch-01.txt' />
+</reference>

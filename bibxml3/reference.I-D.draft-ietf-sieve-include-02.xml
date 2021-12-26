@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sieve-include'>
+<front>
+<title>Sieve Email Filtering: Include Extension</title>
+
+<author initials='C' surname='Daboo' fullname='Cyrus Daboo'>
+    <organization />
+</author>
+
+<author initials='A' surname='Stone' fullname='Aaron Stone'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2009' />
+
+<abstract><t>The Sieve Email Filtering "include" extension permits users to include one Sieve script inside another.  This can make managing large scripts or multiple sets of scripts much easier, and allows a site and its users to build up libraries of scripts.  Users are able to include their own personal scripts or site-wide scripts.  Change History (to be removed prior to publication as an RFC)  Changes from ietf-01 to ietf-02: a.  Require that script names must be constant strings, not subject  to variable expansion. b.  Try the phrase immediate script instead of current script. c.  Clarify that "global 'varname'" and "global.varname" refer to the  same variable. d.  Drop the requirement the global keywords come after require and  before anything else.  Changes from ietf-00 to ietf-01: a.  Replaced import/export with global. b.  Added :once modifier to include. c.  Added global namespace to see if it holds water.  Changes from daboo-06 to ietf-00: a.  None  Changes from -05 to -06: a.  Aaron Stone joins as author. b.  Removed | characters from the script examples. c.  Updated draft references to published RFCs.  Changes from -04 to -05: a.  Fixed examples. b.  Relaxed requirement that imported/exported variables be set  before being used.  Changes from -03 to -04: a.  Fixed missing 2119 definitions. b.  Defined interaction with variables through use of import and  export commands.  Changes from -02 to -03: a.  Refreshing expired draft (updated for nits). b.  Syntax -> Usage. c.  Updated to 3028bis reference.  Changes from -01 to -02: a.  Minor formatting changes only - refreshing expired draft.  Changes from -00 to -01: a.  Added IPR boiler plate. b.  Re-ordered sections at start to conform to RFC style. c.  Moved recursion comment into General Considerations section. d.  Switched to using optional parameter to indicate personal vs  global. e.  Explicitly state that an error occurs when a missing script is  included.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sieve-include-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sieve-include-02.txt' />
+</reference>

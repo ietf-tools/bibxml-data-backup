@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gredler-rtgwg-igp-label-advertisement'>
+<front>
+<title>Advertising MPLS labels in IGPs</title>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='S' surname='Amante' fullname='Shane Amante'>
+    <organization />
+</author>
+
+<author initials='T' surname='Scholl' fullname='Tom Scholl'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<date month='April' day='5' year='2013' />
+
+<abstract><t>Historically MPLS label distribution was driven by session oriented protocols.  In order to obtain a particular routers label binding for a given destination FEC one needs to have first an established session with that node.  This document describes a mechanism to distribute FEC/label mappings through flooding protocols.  Flooding protocols publish their objects for an unknown set of receivers, therefore one can efficiently scale label distribution for use cases where the receiver of label information is not directly connected.  Application of this technique are found in the field of backup (LFA) computation, Label switched path stitching, egress protection, traffic engineering and egress ASBR link selection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gredler-rtgwg-igp-label-advertisement-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gredler-rtgwg-igp-label-advertisement-03.txt' />
+</reference>

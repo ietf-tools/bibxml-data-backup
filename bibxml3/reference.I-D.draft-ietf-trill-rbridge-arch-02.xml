@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-rbridge-arch'>
+<front>
+<title>The Architecture of an RBridge Solution to TRILL</title>
+
+<author initials='E' surname='Gray' fullname='Eric Gray'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2007' />
+
+<abstract><t>RBridges are link layer (L2) devices that use routing protocols as a control plane. They combine several of the benefits of the link layer with network layer routing benefits. RBridges use existing link state routing (without requiring configuration) to improve RBridge to RBridge aggregate throughput. RBridges also provide support for IP multicast and IP address resolution optimizations. They are intended to be applicable to similar L2 network sizes as conventional bridges and are intended to be backward compatible with those bridges as both ingress/egress and transit. They also support VLANs (although this generally requires configuration) and otherwise attempt to retain as much 'plug and play' as is already available in existing bridges. This document proposes an RBridge system as a solution to the TRILL problem. It also defines the RBridge architecture, defines its terminology, and describes basic components and desired behavior. One or more separate documents specify the protocols and mechanisms that satisfy the architecture presented herein.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-rbridge-arch-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-rbridge-arch-02.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-channel-tunnel'>
+<front>
+<title>TRILL: RBridge Channel Header Extension</title>
+
+<author initials='D' surname='3rd' fullname='Donald E. Eastlake 3rd'>
+    <organization />
+</author>
+
+<author initials='M' surname='Umair' fullname='Mohammed Umair'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2016' />
+
+<abstract><t>The IETF TRILL (Transparent Interconnection of Lots of Links) protocol includes an optional mechanism (specified in RFC 7178) called RBridge Channel for the transmission of typed messages between TRILL switches in the same campus and the transmission of such messages between TRILL switches and end stations on the same link. This document specifies extensions to the RBridge Channel protocol header to support two features as follows: (1) a standard method to tunnel payloads whose type can be indicated by Ethertype through encapsulation in RBridge Channel messages; and (2) a method to support security facilities for RBridge Channel messages. This document updates RFC 7178.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-channel-tunnel-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-channel-tunnel-10.txt' />
+</reference>

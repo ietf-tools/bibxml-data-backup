@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-6man-hbh-header-handling-03.txt'>
+    <title>"IPv6 Hop-by-Hop Options Extension Header", Fred Baker, Ron Bonica</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-6man-hbh-header-handling-03.txt</link>
+    <description>This document clarifies requirements for IPv6 routers with respect to the Hop-by-Hop (HBH) Options Extension Header.  These requirements are applicable to all IPv6 routers, regardless of whether they maintain a strict separation between forwarding and control plane hardware.  In this respect, this document updates RFC 2460 and RFC 7045.  This document also describes forwarding plane procedures for processing the HBH Options Extension Header.  These procedures are applicable to implementations that maintain a strict separation between forwarding and control plane implementations.  The procedures described herein satisfy the above mentioned requirements by processing HBH Options on the forwarding plane to the greatest degree possible.  If a packet containing HBH Options must be dispatched to the control plane, it is rate limited before dispatching.  In order to comply with the requirements of this specification, implementations may execute the procedures described herein or any other procedures that result in compliant behavior.</description>
+    <dc:date>2016-03-16T07:00:00-00:00</dc:date>
+</item>

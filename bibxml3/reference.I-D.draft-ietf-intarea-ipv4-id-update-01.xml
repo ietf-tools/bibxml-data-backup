@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-intarea-ipv4-id-update'>
+<front>
+<title>Updated Specification of the IPv4 ID Field</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2010' />
+
+<abstract><t>The IPv4 Identification (ID) field enables fragmentation and reassembly, and as currently specified is required to be unique within the maximum lifetime on all datagrams. If enforced, this uniqueness requirement would limit all connections to 6.4 Mbps. Because this is obviously not the case, it is clear that existing systems violate the current specification. This document updates the specification of the IPv4 ID field to more closely reflect current practice and to more closely match IPv6 so that the field is defined only when a datagram is actually fragmented. It also discusses the impact of these changes on how datagrams are used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-intarea-ipv4-id-update-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-intarea-ipv4-id-update-01.txt' />
+</reference>

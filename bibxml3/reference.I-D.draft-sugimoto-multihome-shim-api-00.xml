@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sugimoto-multihome-shim-api'>
+<front>
+<title>Socket Application Program Interface (API) for Multihoming Shim</title>
+
+<author initials='M' surname='Komu' fullname='Miika  Komu'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2006' />
+
+<abstract><t>This document specifies a socket API for the multihoming shim layer. The API aims to enable interactions between the applications and the multihoming shim layer for advanced locator management and also for accessing to information about failure detection and path exploration. This document is based on an assumption that a multhomed host is equipped with a 'shim' layer which essentially maintains mappings between identifiers and locators at the IP layer. SHIM6 and HIP are examples of this shim layer. Hence, the API can be commonly used by SHIM6 and HIP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sugimoto-multihome-shim-api-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sugimoto-multihome-shim-api-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.badra-tls-identity-protection'>
+<front>
+<title>SCSV for TLS Client Credential Protection</title>
+
+<author initials='M' surname='Badra' fullname='Mohamad Badra'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2011' />
+
+<abstract><t>This document defines a special Signaling Cipher Suite Value (SCSV) "TLS_IDENTITY_PROTECTION_SCSV", with code point {XxXX, XxXX}.  This SCSV is not a true cipher suite (it does not correspond to any valid set of algorithms) and cannot be negotiated.  By negotiating this ciphersuite, the TLS clients will be able to determine for themselves when, how, to what extent and for what purpose information about them is communicated to others.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-badra-tls-identity-protection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-badra-tls-identity-protection-00.txt' />
+</reference>

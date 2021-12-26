@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yong-tsvwg-udp-encap-4-ip-tunneling'>
+<front>
+<title>Generic UDP Encapsulation for IP Tunneling</title>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<author initials='K' surname='Building' fullname='KuiKe Building'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>This document describes a method for encapsulating the layer protocols within UDP at an IP network edge such that the payload protocol can be identified from the destination port value. The mechanism also allows for the source port to be used as the entropy field for the purpose of load balancing in environments such as Equal Cost Multipath (ECMP) in the underlying IP network.  Application of this technique is focused on tunneling payload network flows across IP networks in environments where load- balancing is required. No changes to the underlying IP network or the payload networks are required.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yong-tsvwg-udp-encap-4-ip-tunneling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yong-tsvwg-udp-encap-4-ip-tunneling-01.txt' />
+</reference>

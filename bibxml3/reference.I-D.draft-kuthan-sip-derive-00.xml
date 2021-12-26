@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuthan-sip-derive'>
+<front>
+<title>Dialog Event foR Identity VErification</title>
+
+<author initials='J' surname='Kuthan' fullname='J Kuthan'>
+    <organization />
+</author>
+
+<author initials='D' surname='Sisalem' fullname='Dorgham Sisalem'>
+    <organization />
+</author>
+
+<author initials='R' surname='Coeffic' fullname='Raphael  Coeffic'>
+    <organization />
+</author>
+
+<author initials='V' surname='Pascual' fullname='Victor Pascual'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2008' />
+
+<abstract><t>This document provides a simple mechanism to prevent an attacker from presenting a forged "From" header field.  It offers an end-to-end identity assumption which does not require any previous association or trust relationship between administrative domains or the UAs.  The UAS verifies the "From" header by subscribing to the Dialog Event package [RFC 4235] at the AOR in the "From" header field.  If the entity calling is registered under this AOR, it will confirm that it is calling by sending some valid dialog state.  In this case, the identity of the caller is considered to be verified.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuthan-sip-derive-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuthan-sip-derive-00.txt' />
+</reference>

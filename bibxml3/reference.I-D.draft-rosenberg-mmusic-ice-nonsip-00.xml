@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosenberg-mmusic-ice-nonsip'>
+<front>
+<title>NICE: Non Session Initiation Protocol (SIP) usage of Interactive  Connectivity Establishment (ICE)</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2008' />
+
+<abstract><t>Interative Connectivity Establishment (ICE) has been specified as a NAT traversal mechanism for protocols based on the offer/answer exchange model.  In practice, only the Session Initiation Protocol (SIP) has been based on the offer/answer model.  This document defines a SIP independent subset of ICE, called NICE, which can be used with any protocol wishing to establish a direct host-to-host relationship through NAT.  Protocol specifications need only reference this document, and include the object defined here in their messages, in order to achieve NAT traversal.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosenberg-mmusic-ice-nonsip-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosenberg-mmusic-ice-nonsip-00.txt' />
+</reference>

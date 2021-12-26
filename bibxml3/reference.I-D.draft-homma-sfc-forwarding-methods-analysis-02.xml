@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.homma-sfc-forwarding-methods-analysis'>
+<front>
+<title>Analysis on Forwarding Methods for Service Chaining</title>
+
+<author initials='S' surname='Homma' fullname='Shunsuke Homma'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kengo' fullname='Kengo'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lopez' fullname='Diego Lopez'>
+    <organization />
+</author>
+
+<author initials='M' surname='Stiemerling' fullname='Martin Stiemerling'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dolson' fullname='David Dolson'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gorbunov' fullname='Alexey Gorbunov'>
+    <organization />
+</author>
+
+<author initials='N' surname='Leymann' fullname='Nicolai Leymann'>
+    <organization />
+</author>
+
+<date month='June' day='8' year='2015' />
+
+<abstract><t>Some working groups of the IETF and other Standards Developing Organizations are now discussing use cases of a technology that enables data packets to traverse appropriate service functions located remotely through networks.  This is called Service Chaining in this document.  (Also, in Network Functions Virtualisation (NFV), a subject that forwarding packets to required service functions in appropriate order is called VNF Forwarding Graph.)  This draft does not focus only on SFC method, and thus, use the term "Service Chaining."  SFC may be one of approaches to realize Service Chaining. There are several Service Chaining methods to forward data packets to service functions, and the applicable methods will vary depending on the service requirements of individual networks.  This document presents the results of analyzing packet forwarding methods and path selection patterns for achieving Service Chaining. For forwarding data packets to the appropriate service functions, distribution of route information and steering data packets following the route information, are required.  Examples of route information are packet identifier and the routing configurations based on the identifier.  Also, forwarding functions are required to decide the path according to the route information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-homma-sfc-forwarding-methods-analysis-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-homma-sfc-forwarding-methods-analysis-02.txt' />
+</reference>

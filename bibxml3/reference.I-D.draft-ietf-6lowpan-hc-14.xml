@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6lowpan-hc'>
+<front>
+<title>Compression Format for IPv6 Datagrams in Low Power and Lossy Networks (6LoWPAN)</title>
+
+<author initials='J' surname='Hui' fullname='Jonathan Hui'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2011' />
+
+<abstract><t>This document updates RFC 4944, "Transmission of IPv6 Packets over IEEE 802.15.4 Networks".  This document specifies an IPv6 header compression format for IPv6 packet delivery in Low Power and Lossy Networks (6LoWPANs).  The compression format relies on shared context to allow compression of arbitrary prefixes.  How the information is maintained in that shared context is out of scope.  This document specifies compression of multicast addresses and a framework for compressing next headers.  UDP header compression is specified within this framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6lowpan-hc-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6lowpan-hc-14.txt' />
+</reference>

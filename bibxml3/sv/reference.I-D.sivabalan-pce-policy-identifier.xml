@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sivabalan-pce-policy-identifier'>
+<front>
+<title>Conveying policies associated with traffic engineering paths over PCEP session</title>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hardwick' fullname='Jonathan Hardwick'>
+    <organization />
+</author>
+
+<date month='October' day='7' year='2015' />
+
+<abstract><t>This document describes a simple extension to the Path Computation Element (PCE) Communication Protocol (PCEP) using which a PCEP speaker can enforce one or more policies on the other PCEP speaker. A policy is represented by a numeric value which can be interpreted only by the receiving PCEP speaker.  Using the proposed extension, a path computation client (PCC) can signal one or more policies that must be taken into consideration by a PCE during path computation. Similarly, when initiating or updating a path, a stateful PCE can signal one or more policies (e.g., traffic steering rules) that a PCC is expected to apply to the path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sivabalan-pce-policy-identifier-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sivabalan-pce-policy-identifier-00.txt' />
+</reference>

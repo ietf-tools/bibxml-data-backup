@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-thubert-lowpan-simple-fragment-recovery-00.txt'>
+    <title>"LoWPAN simple fragment Recovery", Pascal Thubert</title>
+    <link>http://www.ietf.org/internet-drafts/draft-thubert-lowpan-simple-fragment-recovery-00.txt</link>
+    <description>Considering that 6LoWPAN packets can be as large as 2K bytes and that an 802.15.4 frame with security will carry in the order of 80 bytes of effective payload, a packet might end up fragmented into as many as 25 fragments at the 6LoWPAN shim layer.  If a single one of those fragments is lost in transmission, all fragments must be resent, further contributing to the congestion that might have caused the initial packet loss.  This draft introduces a simple protocol to recover individual fragments between 6LoWPAN endpoints.</description>
+    <dc:date>2008-02-07T08:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.erdtman-jose-cleartext-jws'>
+<front>
+<title>Cleartext JSON Web Signature (JWS)</title>
+
+<author initials='S' surname='Erdtman' fullname='Samuel Erdtman'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rundgren' fullname='Anders Rundgren'>
+    <organization />
+</author>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2018' />
+
+<abstract><t>Cleartext JSON Web Signature (JWS) is a means of signing JSON objects directly without representing the JSON to be signed in a non-JSON representation, such as base64url-encoded JSON.  The signature and information about the signature is added to the JSON object when it is signed.  The signature calculation for signing the JSON object uses the JSON canonicalization defined by [I-D.rundgren-json-canonicalization-scheme].  Cleartext JWS builds on the JWS, JWA, and JWK specifications, reusing data structures and semantics from these specifications, where applicable.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-erdtman-jose-cleartext-jws-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-erdtman-jose-cleartext-jws-01.txt' />
+</reference>

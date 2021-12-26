@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mccallum-kitten-krb-spake-preauth'>
+<front>
+<title>SPAKE Pre-Authentication</title>
+
+<author initials='N' surname='McCallum' fullname='Nathaniel McCallum'>
+    <organization />
+</author>
+
+<date month='April' day='24' year='2015' />
+
+<abstract><t>This document defines a new password authenticated key exchange based pre-authentication mechanism for performing Kerberos authentication. This mechanism has three goals.  First, it makes Kerberos pre- authentication more resilient against time synchronization errors by removing the need to transfer an encrypted timestamp.  Second, it increases the security of the Kerberos pre-authentication exchange by making offline brute-force attacks impossible.  Third, it enables the use of secure second factor authentication without FAST by utilizing the existing trust relationship established by the shared first factor.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mccallum-kitten-krb-spake-preauth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mccallum-kitten-krb-spake-preauth-00.txt' />
+</reference>

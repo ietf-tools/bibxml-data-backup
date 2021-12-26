@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6tisch-6top-protocol'>
+<front>
+<title>6top Protocol (6P)</title>
+
+<author initials='Q' surname='Wang' fullname='Qin Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Vilajosana' fullname='Xavier Vilajosana'>
+    <organization />
+</author>
+
+<author initials='T' surname='Watteyne' fullname='Thomas Watteyne'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>This document defines the 6top Protocol (6P), which enables distributed scheduling in 6TiSCH networks.  6P allows neighbor nodes to add/delete TSCH cells to one another.  6P is part of the 6TiSCH Operation Sublayer (6top), the next higher layer to the IEEE Std 802.15.4 TSCH medium access control layer.  The 6P layer terminates the 6top Protocol defined in this document, and runs one of more 6top Scheduling Function(s).  A 6top Scheduling Function (SF) decides when to add/delete cells, and triggers 6P Transactions.  This document lists the requirements for an SF, but leaves the definition of SFs out of scope.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6tisch-6top-protocol-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6tisch-6top-protocol-10.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pioxfolks-6man-pio-exclusive-bit'>
+<front>
+<title>IPv6 Router Advertisement Prefix Information Option eXclusive Flag</title>
+
+<author initials='E' surname='Kline' fullname='Erik Kline'>
+    <organization />
+</author>
+
+<author initials='M' surname='Abrahamsson' fullname='Mikael Abrahamsson'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2017' />
+
+<abstract><t>This document defines a new control bit in the IPv6 RA PIO flags octet that indicates that the node receiving this RA is the exclusive receiver of all traffic destined to any address within that prefix.  Termed the eXclusive flag (or "X flag"), nodes that recognize this can perform some optimizations to save time and traffic (e.g. disable ND and DAD for addresses within this prefix) and more immediately pursue the benefits of being provided multiple addresses (vis. [RFC7934] section 3).  Additionally, network infrastructure nodes (routers, switches) can benefit by minimizing the number of {link layer, IP} address pairs required to offer network connectivity (vis. [RFC7934] section 9.3).  Use of the X flag is backward compatible with existing IPv6 standards compliant implementations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pioxfolks-6man-pio-exclusive-bit-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pioxfolks-6man-pio-exclusive-bit-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-rlc-fec-scheme'>
+<front>
+<title>Sliding Window Random Linear Code (RLC) Forward Erasure Correction (FEC) Schemes for FECFRAME</title>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<author initials='B' surname='Teibi' fullname='Belkacem Teibi'>
+    <organization />
+</author>
+
+<date month='May' day='17' year='2018' />
+
+<abstract><t>This document describes two fully-specified Forward Erasure Correction (FEC) Schemes for Sliding Window Random Linear Codes (RLC), one for RLC over GF(2) (binary case), a second one for RLC over GF(2^^8), both of them with the possibility of controlling the code density.  They can protect arbitrary media streams along the lines defined by FECFRAME extended to sliding window FEC codes. These sliding window FEC codes rely on an encoding window that slides over the source symbols, generating new repair symbols whenever needed.  Compared to block FEC codes, these sliding window FEC codes offer key advantages with real-time flows in terms of reduced FEC- related latency while often providing improved packet erasure recovery capabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-rlc-fec-scheme-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-rlc-fec-scheme-04.txt' />
+</reference>

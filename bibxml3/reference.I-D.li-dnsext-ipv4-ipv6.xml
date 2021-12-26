@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-dnsext-ipv4-ipv6'>
+<front>
+<title>DNS Extensions to Support IPv4 and IPv6</title>
+
+<author initials='L' surname='Li' fullname='Lianyuan Li'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenqiang Li'>
+    <organization />
+</author>
+
+<author initials='X' surname='Duan' fullname='Xiaodong Duan'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>In the DNS architecture, two kinds of record types for maintaining host's IP addresses are supported: one is A type which records IPv4 and AAAA for IPv6 addresses. This document defines a new TYPE, which is mainly used in queries in order to get both IPv4 and IPv6 addresses. The main advantage is to avoid sending several requests in order to resolve the location of a given resource. A single request may be sufficient. The proposed solution does not require the definition of any new record type.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-dnsext-ipv4-ipv6-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-dnsext-ipv4-ipv6-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tsvwg-byte-pkt-mark'>
+<front>
+<title>Byte and Packet Congestion Notification</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='June' day='18' year='2007' />
+
+<abstract><t>This memo was written to clarify how (and whether) to take packet size into account when notifying congestion using active queue management (AQM) such as random early detection (RED). The scope includes resource congestion by bytes and by packet processing, even though the latter is less common. It answers the question of whether packet size should be taken into account when network equipment writes congestion notification, or when transports read it. The primary conclusion is that RED's byte-mode packet drop should not be used because it creates a perverse incentive for transports to use tiny segments. TCP's lack of attention to packet size should be fixed in TCP, not by reverse engineering network forwarding to fix transport protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tsvwg-byte-pkt-mark-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-byte-pkt-mark-00.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-sidr-delta-protocol-08.txt'>
+    <title>"RPKI Repository Delta Protocol (RRDP)", Tim Bruijnzeels, Oleg Muravskiy, Bryan Weber, Rob Austein</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-sidr-delta-protocol-08.txt</link>
+    <description>In the Resource Public Key Infrastructure (RPKI), Certificate Authorities publish certificates, including end entity certificates, Certificate Revocation Lists (CRL), and RPKI signed objects to repositories.  Relying Parties retrieve the published information from those repositories.  This document specifies a new RPKI Repository Delta Protocol (RRDP) for this purpose.  RRDP was specifically designed for scaling.  It relies on a notification file which lists the current snapshot and delta files that can be retrieved using HTTP over TLS (HTTPS), and enables to use of CDNs or other caching infrastructure for the retrieval of these files.</description>
+    <dc:date>2017-03-13T07:00:00-00:00</dc:date>
+</item>

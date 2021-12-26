@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.park-oauth-revoke'>
+<front>
+<title>The OAuth 2.0 Risk notification and Token Revocation from Resource Server</title>
+
+<author initials='d' surname='ddukki86@ssu.ac.kr' fullname='ddukki86@ssu.ac.kr'>
+    <organization />
+</author>
+
+<author initials='M' surname='Park' fullname='Minho Park'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jung' fullname='Souhwan Jung'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2015' />
+
+<abstract><t>This document proposes the revocation of an access token in the case that a client uses the access token illegally or maliciously. Contrast to the existing revocation defined in RFC7009, the proposed revocation is initiated by a resource server when the abnormal behaviors of a client such as too many DB queries are detected. The revocation process after revocation initiation is based on RFC7009.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-park-oauth-revoke-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-park-oauth-revoke-00.txt' />
+</reference>

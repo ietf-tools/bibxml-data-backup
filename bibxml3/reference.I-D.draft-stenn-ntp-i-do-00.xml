@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stenn-ntp-i-do'>
+<front>
+<title>Network Time Protocol I-Do Extension Field</title>
+
+<author initials='H' surname='Stenn' fullname='H. Stenn'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2016' />
+
+<abstract><t>The first implementation of NTPv4 was released in 2003.  NTPv4 is defined by RFC 5905 [RFC5905].  It contains a public-key security protocol, autokey, which is defined by RFC 5906 [RFC5906].  Until very recently, autokey has been the only defined "user" of NTP packet Extension Fields.  New proposals for extension fields are being written and there is currently no convenient way to learn if a remote instance of NTP supports any extension fields or not.  This proposal contains a method to tell a remote instance of NTP what we support, and ask what they support.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stenn-ntp-i-do-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stenn-ntp-i-do-00.txt' />
+</reference>

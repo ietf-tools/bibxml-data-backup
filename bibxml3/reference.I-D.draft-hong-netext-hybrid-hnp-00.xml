@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hong-netext-hybrid-hnp'>
+<front>
+<title>Hybrid home network prefix for multihoming in PMIPv6</title>
+
+<author initials='Y' surname='Hong' fullname='Yong-Geun Hong'>
+    <organization />
+</author>
+
+<author initials='J' surname='Youn' fullname='Joo-Sang Youn'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>Proxy Mobile IPv6 (PMIPv6) supports multihoming where a mobile node can connect to a PMIPv6 domain through multiple interfaces for simultaneous access.  However, for an inter-technology handoff, PMIPv6 does not allow simultaneous access since all the home network prefixes associated with one interface are associated with another interface of a mobile node.  In this document, we propose a hybrid home network prefix assignment (HHNPA) scheme where both the static prefix model and the dynamic prefix model are used for simultaneous access.  The static prefix model is used within the general PMIPv6 domain.  On the other hand, the dynamic prefix model is employed for inter-technology handoff.  That is, for IP session continuity during inter-technology handoff, a dynamic prefix model is used on both interfaces.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hong-netext-hybrid-hnp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hong-netext-hybrid-hnp-00.txt' />
+</reference>

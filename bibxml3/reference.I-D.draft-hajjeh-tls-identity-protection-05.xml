@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hajjeh-tls-identity-protection'>
+<front>
+<title>Credential Protection Ciphersuites for Transport Layer Security (TLS)</title>
+
+<author initials='I' surname='Hajjeh' fullname='Ibrahim Hajjeh'>
+    <organization />
+</author>
+
+<date month='April' day='2' year='2008' />
+
+<abstract><t>The Transport Layer Security (TLS) supports three authentication modes: authentication of both parties, server authentication with an unauthenticated client, and total anonymity.  For each mode, TLS specifies a set of cipher suites.  Whenever the server is  authenticated, the channel is secure against man-in-the-middle attacks, but completely anonymous sessions are inherently vulnerable to such attacks.  The authentication is usually based on either preshared keys or public key certificates.  If a public key certificate is used to authenticate the TLS client during the TLS Handshake, the TLS client credentials are sent in clear text over the wire.  Thus, any observer can determine the credentials used by the client, learn who is reaching the network, when, and from where, and hence correlate the client credentials to the connection location.  This document defines a set of cipher suites to add client credential protection to the TLS protocol.  This is useful especially if TLS is used in wireless environments or to secure remote access.  By negotiating one of the ciphersuites described in this document, the TLS clients will be able to determine for themselves when, how, to what extent and for what purpose information about them is communicated to others.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hajjeh-tls-identity-protection-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hajjeh-tls-identity-protection-05.txt' />
+</reference>

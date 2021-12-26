@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dawkins-hip-checksum-coverage'>
+<front>
+<title>Proposed Host Identity Protocol (HIP) Checksum Coverage</title>
+
+<author initials='X' surname='Jiang' fullname='XingFeng Jiang'>
+    <organization />
+</author>
+
+<author initials='P' surname='Matthews' fullname='Philip Matthews'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dawkins' fullname='Spencer Dawkins'>
+    <organization />
+</author>
+
+<date month='November' day='10' year='2007' />
+
+<abstract><t>This specification suggests two changes to the Host Identity Protocol (HIP) checksum calculation.  Specifically, only the HIP header and payload fields would be included in the checksum calculation, and the CRC32c algorithm would be used to compute the checksum.  The HIP version number would be incremented if these suggestions are accepted, to reflect a different checksum algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dawkins-hip-checksum-coverage-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dawkins-hip-checksum-coverage-00.txt' />
+</reference>

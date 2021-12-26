@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raggarwa-l2vpn-p2mp-pw'>
+<front>
+<title>BGP based Virtual Private Multicast Service Auto-Discovery and Signaling</title>
+
+<author initials='R' surname='Aggarwal' fullname='Rahul Aggarwal'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kamite' fullname='Yuji Kamite'>
+    <organization />
+</author>
+
+<author initials='F' surname='JOUNAY' fullname='Frederic JOUNAY'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2009' />
+
+<abstract><t>A Point-to-Multipoint (P2MP) Pseudowire (PW) is a mechanism that emulates the essential attributes of a unidirectional P2MP Telecommunications service such as P2MP ATM over a Packet Switched Network (PSN). One of the applicabilities of a P2MP PW is to deliver a Layer 2 multicast service, that carries multicast frames (encoded using Layer 2 or IP mechanisms) from a multicast source to one or more multicast receivers.  [RFC4664] describes a number of different ways in which sets of PWs may be combined together into "Provider Provisioned Layer 2 VPNs" (L2 PPVPNs, or L2VPNs), resulting in a number of different kinds of L2VPN. P2MP PWs enable a L2VPN to provide a Virtual Private Multicast Service (VPMS), which may be in addition to the Virtual Private Wire Service (VPWS) offered by the L2VPN. A VPMS is a L2VPN service that provides point-to-multipoint connectivity traffic to customers.  VPMS framework and requirements are described in [VPLS-REQ].  One of the VPMS requirements is auto-discovery. This document describes how procedures outlined in [VPLS-MCAST] can be used for auto-discovery (A-D) in VPMS using BGP. This document also describes BGP based procedures for P2MP PW signaling for VPMS that may be used when BGP is used for VPMS auto-discovery.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raggarwa-l2vpn-p2mp-pw-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raggarwa-l2vpn-p2mp-pw-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pp-dnsop-authinfo'>
+<front>
+<title>Reporting Information from DNS Authoritative Servers</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<author initials='P' surname='Sood' fullname='Puneet Sood'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2020' />
+
+<abstract><t>This document defines a new DNS RRtype, AUTHINFO, that is used by authoritative servers to publish information about themselves.  This information can be useful because a recursive resolver can determine an authoritative server's capabilities, such as whether an authoritative server supports the EDNS(0) client subnet extension.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pp-dnsop-authinfo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pp-dnsop-authinfo-00.txt' />
+</reference>

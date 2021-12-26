@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tsvwg-cl-architecture'>
+<front>
+<title>A Framework for Admission Control over DiffServ using Pre-Congestion  Notification</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2006' />
+
+<abstract><t>This document describes a framework to achieve an end-to-end Controlled Load (CL) service without the scalability problems of previous approaches. Flow admission control and if necessary flow pre-emption preserve the CL service to admitted flows. But interior routers within a large DiffServ-based region of the Internet do not require flow state or signalling. They only have to give early warning of their own congestion by bulk packet marking using new pre- congestion notification marking. Gateways around the edges of the region convert measurements of this packet granularity marking into admission control and pre-emption functions at flow granularity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tsvwg-cl-architecture-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-cl-architecture-02.txt' />
+</reference>

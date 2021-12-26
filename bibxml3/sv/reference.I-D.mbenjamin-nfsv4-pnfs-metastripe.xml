@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mbenjamin-nfsv4-pnfs-metastripe'>
+<front>
+<title>pNFS Metadata Striping</title>
+
+<author initials='M' surname='Benjamin' fullname='Matt Benjamin'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bodley' fullname='Casey Bodley'>
+    <organization />
+</author>
+
+<author initials='A' surname='Emerson' fullname='Adam Emerson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Ersani' fullname='Pranoop Ersani'>
+    <organization />
+</author>
+
+<author initials='P' surname='Honeyman' fullname='Peter Honeyman'>
+    <organization />
+</author>
+
+<date month='July' day='24' year='2014' />
+
+<abstract><t>This Internet-Draft describes a means to add metadata striping to pNFS.  The text of this draft is substantially based on prior drafts by Eisler, M., with some departures.  The current draft attempts to define a somewhat lighter-weight protocol, in particular, seeks to permit striping for "filehandle only" operations such as LOCK and OPEN + CLAIM_FH, without clients having to obtain metadata layouts on regular files.  We gratefully acknowledge the primary contributions of Mike Eisler, Pranoop Ersani, and others.  Internet Draft Comments  Comments regarding this draft are solicited.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mbenjamin-nfsv4-pnfs-metastripe-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mbenjamin-nfsv4-pnfs-metastripe-03.txt' />
+</reference>

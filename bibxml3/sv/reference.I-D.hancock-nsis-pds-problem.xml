@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hancock-nsis-pds-problem'>
+<front>
+<title>A Problem Statement for Partly-Decoupled Signalling in NSIS</title>
+
+<author initials='R' surname='Hancock' fullname='Robert  Hancock'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2006' />
+
+<abstract><t>The NSIS working group is currently developing a protocol suite for signalling which manipulates network state related to data flows. The protocol design incorporates the constraint that the signalling protocol will be processed on the nodes which also handle the data flows themselves ("path-coupled signalling"). This document discusses a particular deployment mode for GIST (the common lower layer of the NSIS protocol suite) which relaxes this constraint, allowing the signalling and data paths to be partially decoupled, without sacrificing the integration with routing (e.g. sensitivity to route changes) which is intrinsically provided by the baseline path- coupled solution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hancock-nsis-pds-problem-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hancock-nsis-pds-problem-04.txt' />
+</reference>

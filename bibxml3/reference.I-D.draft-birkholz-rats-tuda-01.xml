@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birkholz-rats-tuda'>
+<front>
+<title>Time-Based Uni-Directional Attestation</title>
+
+<author initials='A' surname='Fuchs' fullname='Andreas Fuchs'>
+    <organization />
+</author>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='I' surname='McDonald' fullname='Ira McDonald'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='September' day='11' year='2019' />
+
+<abstract><t>This documents defines the method and bindings used to conduct Time- based Uni-Directional Attestation (TUDA) between two RATS (Remote ATtestation procedureS) Principals over the Internet.  TUDA does not require a challenge-response handshake and thereby does not rely on the conveyance of a nonce to prove freshness of remote attestation Evidence.  Conversely, TUDA enables the creation of Secure Audit Logs that can constitute Evidence about current and past operational states of an Attester.  As a prerequisite for TUDA, every RATS Principal requires access to a trusted and synchronized time-source. Per default, in TUDA this is a Time Stamp Authority (TSA) issuing signed Time Stamp Tokens (TST).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-birkholz-rats-tuda-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-birkholz-rats-tuda-01.txt' />
+</reference>

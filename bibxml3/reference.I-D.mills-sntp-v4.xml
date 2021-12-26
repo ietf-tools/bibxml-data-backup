@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mills-sntp-v4'>
+<front>
+<title>Simple Network Time Protocol (SNTP) Version 4 for IPv4, IPv6 and OSI</title>
+
+<author initials='D' surname='Mills' fullname='David  Mills'>
+    <organization />
+</author>
+
+<date month='September' day='17' year='2003' />
+
+<abstract><t>This memorandum describes the Simple Network Time Protocol (SNTP) Version 4, which is a subset of the Network Time Protocol (NTP) used to synchronize computer clocks in the Internet. SNTP can be used when the ultimate performance of the full NTP implementation described in RFC-1305 is not needed or justified. SNTP Version 4 clarifies certain design features of NTP which allow operation in a simple, stateless remote-procedure call (RPC) mode with accuracy and reliability expectations similar to the UDP/TIME protocol described in RFC-868. The only significant protocol change in SNTP Version 4 is a modified header interpretation to accommodate Internet Protocol Version 6 (IPv6) (RFC-1883) and OSI (RFC-1629) addressing. However, SNTP Version 4 includes an anycast mode and a public-key based authentication scheme designed specifically for broadcast and anycast applications. The authentication scheme extension is described in another RFC. Until a definitive specification is published, these extensions should be considered provisional. In addition, this memo introduces the kiss-o'-death message, which can be used by servers to suppress client requests as circumstances require. This memorandum obsoletes RFC-1769, which describes SNTP Version 3, and RFC-2030, which describes SNTP Version 4.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mills-sntp-v4-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mills-sntp-v4-00.txt' />
+</reference>

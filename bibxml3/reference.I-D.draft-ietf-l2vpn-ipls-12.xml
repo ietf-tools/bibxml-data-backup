@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2vpn-ipls'>
+<front>
+<title>IP-Only LAN Service (IPLS)</title>
+
+<author initials='H' surname='Shah' fullname='Himanshu Shah'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='F' surname='Faucheur' fullname='Francois Le Faucheur'>
+    <organization />
+</author>
+
+<author initials='G' surname='Heron' fullname='Giles Heron'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>A Virtual Private LAN Service (VPLS) [VPLS] is used to interconnect systems across a wide-area or metropolitan-area network, making it appear that they are on a private LAN.  The systems which are interconnected may themselves be LAN switches.  If, however, they are IP hosts or IP routers, certain simplifications to the operation of the VPLS are possible.  We call this simplified type of VPLS an "IP-only LAN Service" (IPLS).  In an IPLS, as in a VPLS, LAN interfaces are run in promiscuous mode, and frames are forwarded based on their destination MAC addresses.  However, the maintenance of the MAC forwarding tables is done via signaling, rather than via the MAC address learning procedures specified in [IEEE 802.1D]. This draft specifies the protocol extensions and procedures for support of the IPLS service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2vpn-ipls-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2vpn-ipls-12.txt' />
+</reference>

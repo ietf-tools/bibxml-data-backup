@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raiciu-mptcp-congestion'>
+<front>
+<title>Coupled Multipath-Aware Congestion Control</title>
+
+<author initials='C' surname='Raiciu' fullname='Costin Raiciu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wischik' fullname='Damon Wischik'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>Often endpoints are connected by multiple paths, but communications are usually restricted to a single path per socket.  Resource usage   within the network would be more efficient were it possible for these multiple paths to be used concurrently.  The use of multiple paths simultaneously, specifically within a Multipath TCP protocol, necessitates the development of new congestion control algorithms.  If existing algorithms such as TCP New Reno were run independently on each path, the multipath flow would take more than its fair share if there was a common bottleneck. Further, it is desirable that a source with multiple paths available will transfer more traffic using the least congested of the paths, hence achieving resource pooling.  This would increase the overall utilization of the network and also its robustness to failure.  This document presents a congestion control algorithm which couples the congestion control algorithms running on different subflows by linking their increase functions, and dynamically controls the overall aggresiveness of the multipath flow.  The result is a practical algorithm that is fair to TCP at bottlenecks while moving traffic away from congested links.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raiciu-mptcp-congestion-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raiciu-mptcp-congestion-00.txt' />
+</reference>

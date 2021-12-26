@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8094' target='https://www.rfc-editor.org/info/rfc8094'>
+<front>
+<title>DNS over Datagram Transport Layer Security (DTLS)</title>
+<author initials='T.' surname='Reddy' fullname='T. Reddy'><organization /></author>
+<author initials='D.' surname='Wing' fullname='D. Wing'><organization /></author>
+<author initials='P.' surname='Patil' fullname='P. Patil'><organization /></author>
+<date year='2017' month='February' />
+<abstract><t>DNS queries and responses are visible to network elements on the path between the DNS client and its server.  These queries and responses can contain privacy-sensitive information, which is valuable to protect.</t><t>This document proposes the use of Datagram Transport Layer Security (DTLS) for DNS, to protect against passive listeners and certain active attacks.  As latency is critical for DNS, this proposal also discusses mechanisms to reduce DTLS round trips and reduce the DTLS handshake size.  The proposed mechanism runs over port 853.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8094'/>
+<seriesInfo name='DOI' value='10.17487/RFC8094'/>
+</reference>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sajassi-bess-evpn-ac-aware-bundling'>
+<front>
+<title>AC-Aware Bundling Service Interface in EVPN</title>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='m' surname='mishra' fullname='mankamana mishra'>
+    <organization />
+</author>
+
+<author initials='S' surname='Thoria' fullname='Samir Thoria'>
+    <organization />
+</author>
+
+<author initials='P' surname='Brissette' fullname='Patrice Brissette'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>EVPN provides an extensible and flexible multi-homing VPN solution over an MPLS/IP network for intra-subnet connectivity among Tenant Systems and End Devices that can be physical or virtual.  EVPN multihoming with IRB is one of the common deployment scenarios. There are deployments which requires capability to have multiple subnets designated with multiple VLAN IDs in single bridge domain.  RFC7432 defines three different type of service interface which serve different requirements but none of them address the requirement to be able to support multiple subnets within single bridge domain.  In this draft we define new service interface type to support multiple subnets in single bridge domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sajassi-bess-evpn-ac-aware-bundling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sajassi-bess-evpn-ac-aware-bundling-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-sajassi-bess-evpn-ac-aware-bundling-00.pdf' />
+</reference>

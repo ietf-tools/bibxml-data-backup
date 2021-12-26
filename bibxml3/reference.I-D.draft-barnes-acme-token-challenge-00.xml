@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barnes-acme-token-challenge'>
+<front>
+<title>ACME Token Identifier and Challenges</title>
+
+<author initials='M' surname='Barnes' fullname='Mary Barnes'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>This document specifies an identifier and challenge type required to enable the Automated Certificate Management Environment (ACME) to issue certificates using a token for the challenge response.  This token is issued by a administrative authority with whom the Certification Authority (CA) has a trust relationship.  The entity requesting a certificate also has a relationship with the administrative authority, such that the administrative authority assigns a unique code to the entity.  This entity code is included as part of the token that the administrative authority issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-barnes-acme-token-challenge-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-barnes-acme-token-challenge-00.txt' />
+</reference>

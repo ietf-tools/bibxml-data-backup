@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-decnodder-dhc-rai-unicast-01.txt'>
+    <title>"Unicast Address Sub-Option", Stefaan De Cnodder, Patrick Mensch</title>
+    <link>http://www.ietf.org/internet-drafts/draft-decnodder-dhc-rai-unicast-01.txt</link>
+    <description>In some network topologies, it is preferred to have a trusted network element between the DHCP client and the L3 relay agent that adds the DHCP relay-agent-information option but does not set the giaddr field. They operate in Layer 2 mode and hence act as trusted Layer 2 relay agents. The replies from the server are broadcasted by the L3 relay agents to these L2 relay agents which must be avoided. This document defines a new sub-option for the relay-agent-information option. With this sub-option, the L3 relay agent will always unicast the messages towards the trusted layer 2 DHCP relay agent with a hardware address that is known in the network. The new sub-option is called the "unicast-address" sub-option.</description>
+    <dc:date>2006-08-21T07:00:00-00:00</dc:date>
+</item>

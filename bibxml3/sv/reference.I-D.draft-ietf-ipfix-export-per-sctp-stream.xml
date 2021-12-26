@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.draft-ietf-ipfix-export-per-sctp-stream'>
+<front>
+<title>IPFIX Export per SCTP Stream</title>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<author initials='P' surname='Aitken' fullname='Paul Aitken'>
+    <organization />
+</author>
+
+<author initials='A' surname='Johnson' fullname='Andrew Johnson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Muenz' fullname='Gerhard Muenz'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2008' />
+
+<abstract><t>This document specifies an improvement to the use of SCTP as specified in the IPFIX specifications in order to be able to deduce the Data Record loss per Template Record in case of partially-reliable SCTP export.  This specification offers several extra advantages: immediate export of the Template Withdrawal Message, immediate reuse of Template ID within a stream, and the Collecting Process's job is easier.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-draft-ietf-ipfix-export-per-sctp-stream-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-draft-ietf-ipfix-export-per-sctp-stream-00.txt' />
+</reference>

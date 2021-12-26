@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pala-composite-crypto'>
+<front>
+<title>Composite Public Keys and Signatures</title>
+
+<author initials='M' surname='Pala' fullname='Massimiliano Pala'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2019' />
+
+<abstract><t>PKIs are used to provide scalability and ease key management.  One type of PKIs that is predominant for securing communications and data is based on the X.509 standard.  Since the security of PKIs, ultimately, depends on the security of the cryptographic building blocks that are used for authentication and encryption, the standards community made algorithm agility a priority.  Algorithm agility, in particular, enables upgrading to newly available algorithms when needed.  The CompositeCrypto (i.e., CompositeKey and CompositeSignature structures) described in this document provides an additional tool that enables the use of multiple algorithms to authenticate data without the need to use multiple certificates and more complex data structures.  This document provide the description of the definition and encoding rules for CompositeKey and CompositeSignature.  A description of how to use these structures in main PKIX objects (e.g., X.509 certificates, CRLs, OCSP responses, etc.) is also provided.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pala-composite-crypto-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pala-composite-crypto-03.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-van-beijnum-1e-mp-tcp-00.txt'>
+    <title>"One-ended multipath TCP", Iljitsch van Beijnum</title>
+    <link>http://www.ietf.org/internet-drafts/draft-van-beijnum-1e-mp-tcp-00.txt</link>
+    <description>Normal TCP/IP operation is for the routing system to select a best path that remains stable for some time, and for TCP to adjust to the properties of this path to optimize throughput.  A multipath TCP would be able to either use capacity on multiple paths, or dynamically find the best performing path, and therefore reach higher throughput.  By adapting to the properties of several paths through the usual congestion control algorithms, a multipath TCP shifts its traffic to less congested paths, leaving more capacity available for traffic that can't move to another path on more congested paths.  And when a path fails, this can be detected and worked around by TCP much more quickly than by waiting for the routing system to repair the failure.  This memo specifies a multipath TCP that is implemented on the sending host only, without requiring modifications on the receiving host.</description>
+    <dc:date>2009-05-05T22:00:00-00:00</dc:date>
+</item>

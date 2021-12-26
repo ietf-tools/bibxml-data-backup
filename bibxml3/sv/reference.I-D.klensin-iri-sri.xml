@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.klensin-iri-sri'>
+<front>
+<title>An XML-based Simple Resource Identifier</title>
+
+<author initials='J' surname='Klensin' fullname='John Klensin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Moonesamy' fullname='S Moonesamy'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2012' />
+
+<abstract><t>While the URI specification has been widely deployed, it has long been recognized that many valid URIs, especially those that contain extensive information in the "tail" are unsuitable for user presentation, especially for internationalized environments.  IRIs have been proposed as a solution for that problem but inherit (and are constrained by) the complex and sometimes method-dependent syntax model of URIs as well as positional and ordering assumptions that make them more difficult to localize than is desirable.  This specification illustrates a way to define an "above URI" model for a localization-friendly simple reference identifier (SRI) that explicitly identifies fields and is more appropriate than IRIs to support localization.  The current version is intended simply to initiate a discussion.  In particular, while it is written to use an XML element syntax model, variations using JSON or some other system with explicitly-labeled data fields might be as, or more, appropriate.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-klensin-iri-sri-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-klensin-iri-sri-00.txt' />
+</reference>

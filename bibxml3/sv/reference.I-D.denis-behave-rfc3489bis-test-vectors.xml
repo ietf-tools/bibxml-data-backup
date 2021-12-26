@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.denis-behave-rfc3489bis-test-vectors'>
+<front>
+<title>Test vectors for RFC3489bis</title>
+
+<author initials='R' surname='Denis-Courmont' fullname='Remi Denis-Courmont'>
+    <organization />
+</author>
+
+<date month='September' day='21' year='2007' />
+
+<abstract><t>This document includes test vectors for the MESSAGE-INTEGRITY and FINGERPRINT attributes of the STUN protocol.Table of Contents 1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . 3 2. Test vectors . . . . . . . . . . . . . . . . . . . . . . . . . 3 2.1. Sample request . . . . . . . . . . . . . . . . . . . . . . 3 2.2. Sample IPv4 response . . . . . . . . . . . . . . . . . . . 4 2.3. Sample IPv6 response . . . . . . . . . . . . . . . . . . . 5 3. Security Considerations . . . . . . . . . . . . . . . . . . . . 5 4. IANA Considerations . . . . . . . . . . . . . . . . . . . . . . 5 5. Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . 5 6. Normative References . . . . . . . . . . . . . . . . . . . . . 6 Appendix A. Source code for test vectors . . . . . . . . . . . . . 61. Introduction The Session Traversal Utilities for NAT (STUN)[I-D.ietf-behave-rfc3489bis] protocol defines two different hashes that may be included in messages exchanged by peers implementing that protocol: FINGERPRINT attribute: a 32-bits Circular Redundancy Check. MESSAGE-INTEGRITY attribute: a HMAC-SHA1 authentication code. This document documents sample properly-formatted STUN messages including these hashes, for the sake of testing implementations of the STUN protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-denis-behave-rfc3489bis-test-vectors-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-denis-behave-rfc3489bis-test-vectors-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.praba-l2vpn-vpls-mcast-emul'>
+<front>
+<title>Multicast Emulation over VPLS</title>
+
+<author initials='P' surname='Ts' fullname='Prabakaran Ts'>
+    <organization />
+</author>
+
+<author initials='M' surname='As' fullname='Musthafa As'>
+    <organization />
+</author>
+
+<date month='March' day='30' year='2005' />
+
+<abstract><t>In Virtual Private LAN Service (VPLS), the PE devices provide a logical interconnect such that CE devices belonging to a specific VPLS instance appear to be connected by a single LAN. A VPLS solution performs replication for multicast traffic at the ingress PE devices. When replicated at the ingress PE, multicast traffic wastes bandwidth when 1. Multicast traffic is sent to sites with no members, and 2. Pseudo wires to different sites go through a shared path. This document addresses the above cases by using LDP signaling to emulate Multicast operation over VPLS with out using IGMP and PIM snooping as described in [VPLS-MCAST].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-praba-l2vpn-vpls-mcast-emul-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-praba-l2vpn-vpls-mcast-emul-01.txt' />
+</reference>

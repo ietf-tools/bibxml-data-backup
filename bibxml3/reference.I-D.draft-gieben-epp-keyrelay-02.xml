@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gieben-epp-keyrelay'>
+<front>
+<title>Key Relay Mapping for the Extensible Provisioning Protocol</title>
+
+<author initials='R' surname='Gieben' fullname='R. Gieben'>
+    <organization />
+</author>
+
+<author initials='M' surname='Groeneweg' fullname='M. Groeneweg'>
+    <organization />
+</author>
+
+<author initials='R' surname='Ribbers' fullname='Rik Ribbers'>
+    <organization />
+</author>
+
+<author initials='A' surname='Verschuren' fullname='Antoin Verschuren'>
+    <organization />
+</author>
+
+<date month='April' day='3' year='2013' />
+
+<abstract><t>This document describes an Extensible Provisioning Protocol (EPP) extension mapping for the purpose of relaying DNSSEC key material from one DNS operator to another, by using the administrative registration channel through the registrant, registrar and registry. The mapping introduces "&lt;keyrelay>" as a new command in EPP.  This command will help facilitate changing the DNS operator of a domain while keeping the DNSSEC chain of trust intact.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gieben-epp-keyrelay-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gieben-epp-keyrelay-02.txt' />
+</reference>

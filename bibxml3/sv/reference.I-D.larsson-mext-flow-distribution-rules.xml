@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.larsson-mext-flow-distribution-rules'>
+<front>
+<title>Flow Distribution Rule Language for Multi-Access Nodes</title>
+
+<author initials='C' surname='Larsson' fullname='Conny Larsson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Eriksson' fullname='Michael Eriksson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Mitsuya' fullname='Koshiro Mitsuya'>
+    <organization />
+</author>
+
+<author initials='K' surname='Tasaka' fullname='Kazuyuki Tasaka'>
+    <organization />
+</author>
+
+<author initials='R' surname='Kuntz' fullname='Romain Kuntz'>
+    <organization />
+</author>
+
+<date month='February' day='24' year='2009' />
+
+<abstract><t>This document defines an OS independent rule language as a mean to define and perform per flow path selection for a multi-homed node. Per flow path selection is typically needed when there exist multiple network interfaces, each with different network characteristics, and an application has specific performance requirements for a data flow that makes one network interface more suitable than another.  The flow distribution rule set is used by the node itself but also exchanged with other nodes that needs to know about the multi-homed node's capability of receiving data on multiple network interfaces. This document does not define how the rule set is transferred between nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-larsson-mext-flow-distribution-rules-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-larsson-mext-flow-distribution-rules-02.txt' />
+</reference>

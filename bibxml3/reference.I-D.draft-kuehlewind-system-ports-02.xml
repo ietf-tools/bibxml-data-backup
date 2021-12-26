@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuehlewind-system-ports'>
+<front>
+<title>Reassignment of System Ports to the IESG</title>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>In the IANA Service Name and Transport Protocol Port Number Registry a large number of System Ports is currently assigned to individuals or companies who have registered the port for the use with a certain protocol before RFC6335 was published.  For some of these ports, RFCs exist that describe the respective protocol; for others, RFCs are under development that define, re-define, or assign the protocol used for the respective port, e.g. in case of so-far unused UDP ports that have been registered together with the respective TCP port.  In these cases the IESG has the change control about the protocol used on the port (as described in an RFC) but does not have the change control about the port usage itself.  Currently, to transfer the change control to the IESG, the original assignee has to be contacted to initialize this transfer.  As it is not always possible to get in touch with the original assignee, e.g. because of out-dated contact information or more severe reasons, and the current practice of case- by-case changes does not scale well, this document instructs IANA to perform actions with the goal to reassigns all System Ports to the IESG that have been assigned to individuals prior to the publication of RFC6335.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuehlewind-system-ports-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuehlewind-system-ports-02.txt' />
+</reference>

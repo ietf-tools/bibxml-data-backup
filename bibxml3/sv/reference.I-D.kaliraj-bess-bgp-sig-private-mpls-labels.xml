@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaliraj-bess-bgp-sig-private-mpls-labels'>
+<front>
+<title>BGP signalled MPLS-namespaces</title>
+<author initials='K' surname='Vairavakkalai' fullname='Kaliraj Vairavakkalai'>
+<organization />
+</author>
+<author initials='J' surname='Jeganathan' fullname='Jeyananth Jeganathan'>
+<organization />
+</author>
+<date year='2021' month='July' day='12' />
+<abstract><t>The MPLS-forwarding-layer in a core network is a shared resource. The MPLS FIB at nodes in this layer contains labels that are dynamically allocated and locally significant at that node.</t><t> For some usecases like upstream-label-allocation, it is useful to be able to create virtual private MPLS-forwarding-layers over this shared MPLS-forwarding-layer.  This allows installing deterministic private label-values in the private-FIBs created at nodes participating in this private MPLS forwarding-layer, while preserving the &quot;locally significant&quot; nature of the underlying shared 'public' MPLS-forwarding-layer.</t><t> This specification describes the procedures to create such virtual private MPLS-forwarding layers (private MPLS-planes) using a new BGP family.  And gives a few example use-cases on how this private forwarding-layers can be used.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-kaliraj-bess-bgp-sig-private-mpls-labels-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-kaliraj-bess-bgp-sig-private-mpls-labels-03.txt'/>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-pcep-flowspec'>
+<front>
+<title>PCEP Extension for Flow Specification</title>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2020' />
+
+<abstract><t>The Path Computation Element (PCE) is a functional component capable of selecting paths through a traffic engineering network.  These paths may be supplied in response to requests for computation, or may be unsolicited instructions issued by the PCE to network elements. Both approaches use the PCE Communication Protocol (PCEP) to convey the details of the computed path.  Traffic flows may be categorized and described using "Flow Specifications".  RFC XXXX defines the Flow Specification and describes how Flow Specification Components are used to describe traffic flows.  RFC XXXX also defines how Flow Specifications may be distributed in BGP to allow specific traffic flows to be associated with routes.  This document specifies a set of extensions to PCEP to support dissemination of Flow Specifications.  This allows a PCE to indicate what traffic should be placed on each path that it is aware of.  RFC Editor Note: Please replace XXXX in the Abstract with the RFC number assigned to draft-ietf-idr-rfc5575bis when it is published. Please remove this note.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-pcep-flowspec-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-pcep-flowspec-08.txt' />
+</reference>

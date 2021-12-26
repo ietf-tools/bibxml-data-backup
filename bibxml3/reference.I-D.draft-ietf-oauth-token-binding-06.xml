@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-oauth-token-binding'>
+<front>
+<title>OAuth 2.0 Token Binding</title>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<author initials='B' surname='Campbell' fullname='Brian Campbell'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bradley' fullname='John Bradley'>
+    <organization />
+</author>
+
+<author initials='W' surname='Denniss' fullname='William Denniss'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2018' />
+
+<abstract><t>This specification enables OAuth 2.0 implementations to apply Token Binding to Access Tokens, Authorization Codes, Refresh Tokens, JWT Authorization Grants, and JWT Client Authentication.  This cryptographically binds these tokens to a client's Token Binding key pair, possession of which is proven on the TLS connections over which the tokens are intended to be used.  This use of Token Binding protects these tokens from man-in-the-middle and token export and replay attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-oauth-token-binding-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-token-binding-06.txt' />
+</reference>

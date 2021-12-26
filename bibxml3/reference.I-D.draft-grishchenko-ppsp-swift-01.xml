@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.grishchenko-ppsp-swift'>
+<front>
+<title>The Generic Multiparty Transport Protocol (swift)</title>
+
+<author initials='V' surname='Grishchenko' fullname='Victor Grishchenko'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2010' />
+
+<abstract><t>The swift is a generic multiparty (swarming) transport protocol.  The TCP, today's dominating transport protocol, is connection/ conversation-oriented. But traffic-wise, the currently dominating usecase is content dissemination. There is a multitude of incompatible approaches to resolve that discrepancy above/below the transport layer: peer-to-peer, CDN, caches, mirrors, multicast, etc. The swift aims at creating a single unified content-centric transport protocol serving as a lingua-franca of content distribution. To implement that ultimate data cloud model, the protocol has to unify use cases of data download, video-on-demand and live streaming. It must work in the settings of client-server, peer-to-peer, CDN or peer-assisted networks, effectively blending those architectures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-grishchenko-ppsp-swift-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-grishchenko-ppsp-swift-01.txt' />
+</reference>

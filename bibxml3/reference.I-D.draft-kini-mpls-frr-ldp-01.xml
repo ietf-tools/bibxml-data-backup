@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kini-mpls-frr-ldp'>
+<front>
+<title>MPLS Fast Re-route using extensions to LDP</title>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='S' surname='Narayanan' fullname='Srikanth Narayanan'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2011' />
+
+<abstract><t>LDP is widely deployed in MPLS networks to signal LSPs. Since LDP establishes LSPs along IGP routed paths, its failure recovery is gated by IGP's re-convergence. Mechanisms such as IPFRR and RSVP-TE based FRR have been used to provide faster re-route for LDP LSPs. However these techniques have significant complexity and/or may not have full coverage. In this document we describe a method to perform fast re-route of LDP LSPs. The goal is to have recovery characteristics similar to the methods in [RSVP-TE-FRR] without depending on additional protocols but at the same time provide full coverage.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kini-mpls-frr-ldp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kini-mpls-frr-ldp-01.txt' />
+</reference>

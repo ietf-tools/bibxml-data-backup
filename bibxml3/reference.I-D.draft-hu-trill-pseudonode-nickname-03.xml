@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hu-trill-pseudonode-nickname'>
+<front>
+<title>RBridge: Pseudo-Nickname</title>
+
+<author initials='Z' surname='Corporation' fullname='ZTE Corporation'>
+    <organization />
+</author>
+
+<author initials='T' surname='Senevirathne' fullname='Tissa Senevirathne'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<author initials='f' surname='hu' fullname='fangwei hu'>
+    <organization />
+</author>
+
+<date month='August' day='26' year='2012' />
+
+<abstract><t>At the edg of TRILL campus, some RBridges provide end-station services to their attached end stations; these RBridges are called edge RBridges.  To avoid potential frame duplication or loops in TRILL campus, only one edge RBridge is permitted to provide such services in a VLAN at all times to its attached end stations even they are also attached to other edge RBridges.  However, in some application scenarios, for example in Link Aggregation Group (LAG), more than one edge RBridge is required to provide such services to an end station even in a VLAN to improve resiliency and maximize the available network bandwidth, which causes the flip-flopping of the egress RBridge nickname for such an end station in remote RBridges' forwarding tables.  In this document, the concept of Virtual RBridge, along with its pseudo-nickname, is introduced to address the above problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hu-trill-pseudonode-nickname-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hu-trill-pseudonode-nickname-03.txt' />
+</reference>

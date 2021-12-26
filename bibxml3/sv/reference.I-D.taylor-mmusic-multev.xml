@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.taylor-mmusic-multev'>
+<front>
+<title>Signalling the Ability To Understand Packing of Multiple Telephony Events  Into One RTP Packet</title>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<date month='January' day='5' year='2007' />
+
+<abstract><t>Section 2.5.1.5 of RFC 4733 specifies how an implementation of the telephony-event payload type can pack multiple short-duration event reports into one RTP packet. Because this capability was added to RFC 4733 in a fashion which is not backward compatible with RFC 2833, it is desirable that a sender have the means to determine whether the receiver understands such packets. This memo specifies a new SDP attribute, a=multev, to indicate that capability.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-taylor-mmusic-multev-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-taylor-mmusic-multev-00.txt' />
+</reference>

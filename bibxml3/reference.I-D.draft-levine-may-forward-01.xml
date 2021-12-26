@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.levine-may-forward'>
+<front>
+<title>A DKIM Profile to Enable Message Forwarding</title>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<date month='May' day='2' year='2014' />
+
+<abstract><t>Some mail systems have been observed to use authentication schemes the domain name in the From: header as a security key, in combination with DKIM, an approach works poorly in connection with forwarders that edit messages.  This document describes a profile of DKIM intended to improve interoperation of DKIM with such schemes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-levine-may-forward-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-levine-may-forward-01.txt' />
+</reference>

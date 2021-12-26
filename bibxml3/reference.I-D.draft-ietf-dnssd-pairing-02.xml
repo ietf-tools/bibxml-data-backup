@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnssd-pairing'>
+<front>
+<title>Device Pairing Using Short Authentication Strings</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kaiser' fullname='Daniel Kaiser'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>This document proposes a device pairing mechanism that establishes a relationship between two devices by agreeing on a secret and manually verifying the secret's authenticity using an SAS (short authentication string).  Pairing has to be performed only once per pair of devices, as for a re-discovery at any later point in time, the exchanged secret can be used for mutual authentication.  The proposed pairing method is suited for each application area where human operated devices need to establish a relation that allows configurationless and privacy preserving re-discovery at any later point in time.  Since privacy preserving applications are the main suitors, we especially care about privacy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnssd-pairing-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnssd-pairing-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ramki-igmp-ssm-ranges'>
+<front>
+<title>Source specific multicast range distribution for L2 multicast networks</title>
+
+<author initials='R' surname='Sundaram' fullname='Ramakrishnan Sundaram'>
+    <organization />
+</author>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>In an IGMP snooping multicast network with version 3 (v3) enabled on the routers, when a v2 join/leave is received for a multicast group the router operates on V2 compatible mode.  For SSM ranges a (*,G)v2 or v3 report should be ignored by the router/switch.  The IGMP snooping switches may not have knowledge about the user configured SSM range in the network to correctly discard/ignore the v2 join/ leave.  Accepting (*,G) v2 or v3 will cause SSM operations to fail. This draft discusses distribution of SSM ranges in the L2 multicast network so that L2 snooping switches can learn about the configured SSM ranges and discard any (*,G) v2/v3 reports for the said ranges.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ramki-igmp-ssm-ranges-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ramki-igmp-ssm-ranges-00.txt' />
+</reference>

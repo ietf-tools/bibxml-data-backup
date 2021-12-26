@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-bgp-ls-bier-ext'>
+<front>
+<title>BGP Link-State extensions for BIER</title>
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+<organization />
+</author>
+<author initials='Z' surname='Zhang' fullname='Zheng Zhang'>
+<organization />
+</author>
+<author initials='V' surname='Govindan' fullname='Vengada Govindan'>
+<organization />
+</author>
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+<organization />
+</author>
+<date year='2021' month='August' day='03' />
+<abstract><t>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a &quot;BIER domain&quot; without requiring intermediate routers to maintain any multicast related per- flow state.  BIER also does not require any explicit tree-building protocol for its operation.  A multicast data packet enters a BIER domain at a &quot;Bit-Forwarding Ingress Router&quot; (BFIR), and leaves the BIER domain at one or more &quot;Bit-Forwarding Egress Routers&quot; (BFERs). The BFIR router adds a BIER header to the packet.  The BIER header contains a bitstring in which each bit represents exactly one BFER to forward the packet to.  The set of BFERs to which the multicast packet needs to be forwarded is expressed by setting the bits that correspond to those routers in the BIER header.</t><t> BGP Link-State (BGP-LS) enables the collection of various topology informations from the network, and the topology informations are used by the controller to calculate the fowarding tables and then propagate them onto the BFRs(instead of having each node to calculate on its own) and that can be for both inter-as and intra-as situations.</t><t> This document specifies extensions to the BGP Link-state address- family in order to advertise the BIER informations.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-bgp-ls-bier-ext-11'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-bier-bgp-ls-bier-ext-11.txt'/>
+</reference>

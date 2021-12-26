@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.okita-ops-vnetmodel'>
+<front>
+<title>Virtual Network Management Information Model</title>
+
+<author initials='H' surname='Okita' fullname='Hideki Okita'>
+    <organization />
+</author>
+
+<author initials='M' surname='Yoshizawa' fullname='Masahiro Yoshizawa'>
+    <organization />
+</author>
+
+<author initials='T' surname='Suzuki' fullname='Toshiaki Suzuki'>
+    <organization />
+</author>
+
+<author initials='T' surname='Iijima' fullname='Tomoyuki Iijima'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2012' />
+
+<abstract><t>Virtual switches on server virtualization platforms cause a problem in managing networks in data center and between data centers containing several hundred switches.  Accordingly, a management information model for the networks containing virtual switches is proposed.  The proposed model consists of a physical layer (which represents connections between physical switches) and a virtual layer (which represents connections between virtual switches).  These layers also represent the association of the virtual switch with the corresponding physical switch.  This document also provides implementation examples of proposed information model in XML and Yang.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-okita-ops-vnetmodel-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-okita-ops-vnetmodel-06.txt' />
+</reference>

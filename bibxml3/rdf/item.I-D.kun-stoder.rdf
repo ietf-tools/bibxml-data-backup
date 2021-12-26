@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-kun-stoder-00.txt'>
+    <title>"STODER: A Reliable TCP Spurious Timeout Detection Algorithm using  Repacketization", Qian Zhang</title>
+    <link>http://www.ietf.org/internet-drafts/draft-kun-stoder-00.txt</link>
+    <description>Spurious timeouts are not rare events in wireless wide-area network, e.g. GPRS or EDGE. It has been reported that spurious timeouts greatly decrease TCP's performance in many aspects. It is not only because of the unnecessary retransmission of the last window of data, but also the congestion control is falsely triggered. Existing proposals of detecting spurious timeouts either require additional information on each data packet, e.g., the timestamps option, or heuristically deduce spurious timeouts. These approaches need heuristic feedbacks from the receiver, and hence are vulnerable to misbehaving receivers. In this document, a novel algorithm that reliably detects spurious TCP retransmission timeouts, called STODER, is presented. STODER is a TCP sender algorithm and does not require any information attached on data packets. STODER exploits TCP repacketization to detect false retransmission and is well protected against malicious receivers. Therefore, a more aggressive response algorithm can be safely applied along with the STODER algorithm.</description>
+    <dc:date>2004-09-07T07:00:00-00:00</dc:date>
+</item>

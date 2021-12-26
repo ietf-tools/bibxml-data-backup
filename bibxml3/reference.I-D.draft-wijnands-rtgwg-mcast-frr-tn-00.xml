@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-rtgwg-mcast-frr-tn'>
+<front>
+<title>Tree Notification to Improve Multicast Fast Reroute</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='A' surname='Csaszar' fullname='Andras Csaszar'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>This draft proposes using dataplane triggered notifications in order to support multicast fast reroute methods in various ways.  Sending such notifications down the tree can be used to trigger fail-over in nodes not adjacent to the failure.  Sending such dataplane notification up the tree can help to activate pre-built standby backup tree segments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-rtgwg-mcast-frr-tn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-rtgwg-mcast-frr-tn-00.txt' />
+</reference>

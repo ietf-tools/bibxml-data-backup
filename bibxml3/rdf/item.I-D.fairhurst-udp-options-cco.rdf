@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-fairhurst-udp-options-cco-00.txt'>
+    <title>"Checksum Compensation Options for UDP Options", Gorry Fairhurst, Tom Jones, Raffaele Zullo</title>
+    <link>http://www.ietf.org/internet-drafts/draft-fairhurst-udp-options-cco-00.txt</link>
+    <description>This document describes a robust method for calculating checksums for use with UDP Options.  The new method proposes an alternative checksum calculation for coverage of the option space.  This is based on the IP checksum calculation, but uses an updated pseudoheader. The new method only checks the option portion of a UDP packet, but creates a checksum that compensates for the range of IP and UDP chekcsum validation methods that have been deployed, in this way the new method enhances the proability of NAPT traversal for packets that carry UDP-Options.</description>
+    <dc:date>2018-10-19T07:00:00-00:00</dc:date>
+</item>

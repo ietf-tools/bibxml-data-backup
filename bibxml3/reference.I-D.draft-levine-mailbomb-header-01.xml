@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.levine-mailbomb-header'>
+<front>
+<title>A Message Header to Identify Subscription Form Mail</title>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2017' />
+
+<abstract><t>Many organizations have web forms that provoke an e-mail confirmation to the e-mail address provided in the form.  Malicious entities do bulk form submissions with forged addresses, resulting in mail floods to the holders of those addresses.  This document defines a message header to identify mail sent in response to web forms, so that recipient mail systems can better recognize and mitigate the mail floods.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-levine-mailbomb-header-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-levine-mailbomb-header-01.txt' />
+</reference>

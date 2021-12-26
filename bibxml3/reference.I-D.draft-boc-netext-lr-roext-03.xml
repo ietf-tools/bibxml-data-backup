@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boc-netext-lr-roext'>
+<front>
+<title>RO Extensions for PMIPv6-LR (ROEXT)</title>
+
+<author initials='M' surname='Boc' fullname='Michael Boc'>
+    <organization />
+</author>
+
+<author initials='C' surname='Janneteau' fullname='Christophe Janneteau'>
+    <organization />
+</author>
+
+<author initials='A' surname='Petrescu' fullname='Alexandru Petrescu'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>The communication path between two Hosts within a Proxy Mobile IPv6 domain is artificially long - it involves the LMA, even if straight paths exist (under same MAG, or MAG-to-MAG).  Localized Routing PMIPv6-LR concepts developped by NETEXT WG make use of LRI/LRA messages to achieve optimized MAG-to-MAG straight paths.  This may prove inconvenient for the network operator, in that it may loose ability to control traffic (LMA control point is skipped).  In this draft we present a middle-ground solution.  It employs new Intermediary Anchors (IAs) in the paths between MAGs and offers points of control of traffic useful for QoS and lawful interception.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boc-netext-lr-roext-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boc-netext-lr-roext-03.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sullivan-cfrg-voprf'>
+<front>
+<title>Elliptic Curve Verifiable Oblivious Pseudorandom Functions (ECVOPRFs)</title>
+
+<author initials='A' surname='Davidson' fullname='Alex Davidson'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sullivan' fullname='Nick Sullivan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2018' />
+
+<abstract><t>A Verifiable Oblivious Pseudorandom Function (VOPRF) is a two-party protocol for computing the output of a PRF that is symmetrically verifiable.  In summary, the PRF key holder learns nothing of the input while simultaneously providing proof that its private key was used during execution.  VOPRFs are useful for computing one-time unlinkable tokens that are verifiable by secret key holders.  This document specifies a VOPRF construction based on Elliptic Curves.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sullivan-cfrg-voprf-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sullivan-cfrg-voprf-01.txt' />
+</reference>

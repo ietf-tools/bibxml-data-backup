@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.korhonen-mext-mip6-altsec'>
+<front>
+<title>Security architecture for Mobile IPv6 using TLS</title>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<author initials='B' surname='Patil' fullname='Basavaraj Patil'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kroeselberg' fullname='Dirk Kroeselberg'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2009' />
+
+<abstract><t>Mobile IPv6 signaling between the mobile node and home agent is secured using IPsec.  The security association between a mobile node and the home agent is established using IKEv1 or IKEv2.  The security model specified for Mobile IPv6 requires interaction between the Mobile IPv6 protocol module and the IKE/IPsec module of the IP stack. Implementation and deployment concerns exist with such a security architecture.  This document proposes an alternate security framework, which relies on Transport Layer Security for establishing keying material and obtaining bootstrapping parameters required for protecting Mobile IPv6 signaling and data traffic between the mobile node and home agent.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-korhonen-mext-mip6-altsec-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-korhonen-mext-mip6-altsec-02.txt' />
+</reference>

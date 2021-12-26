@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hybi-websocket-perframe-compression'>
+<front>
+<title>WebSocket Per-frame Compression</title>
+
+<author initials='T' surname='Yoshino' fullname='Takeshi Yoshino'>
+    <organization />
+</author>
+
+<date month='April' day='2' year='2012' />
+
+<abstract><t>This specification defines a general scheme to add per-frame compression functionality to the WebSocket Protocol using its extension mechanism, and one specific compression extension using DEFLATE.  In this scheme, the "Application data" part of WebSocket data frames is compressed using specified compression algorithm, and one reserved bit in the WebSocket frame header is allocated to control application of compression for each frame.  Please send feedback to the hybi@ietf.org mailing list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hybi-websocket-perframe-compression-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hybi-websocket-perframe-compression-00.txt' />
+</reference>

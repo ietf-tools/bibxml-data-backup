@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.narayanan-rtg-router-alert-extension'>
+<front>
+<title>IP Router Alert Option Extension</title>
+
+<author initials='A' surname='Narayanan' fullname='Ashok Narayanan'>
+    <organization />
+</author>
+
+<author initials='F' surname='Faucheur' fullname='Francois Le Faucheur'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ward' fullname='David Ward'>
+    <organization />
+</author>
+
+<author initials='R' surname='Rahman' fullname='Reshad Rahman'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>The IP Router Alert Option is an IP option that alerts transit routers to more closely examine the contents of an IP packet.  RSVP, PGM and IGMP are some of the protocols which make use of the IP Router Alert option.  The current specification for the IP Router Alert Option does not define mechanisms to facilitate discriminating across different users of Router Alert.  As a result, networks using router Alert may have more secuity exposure than necessary and/or may unnecessarily block some transit Router Alert packets.  This document describes new rules for the IP Router-Alert Option that aid routers to process these packets more selectively.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-narayanan-rtg-router-alert-extension-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-narayanan-rtg-router-alert-extension-00.txt' />
+</reference>

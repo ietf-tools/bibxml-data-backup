@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-deprecate-atomfrag-generation'>
+<front>
+<title>Deprecation of the Generation of IPv6 Atomic Fragments</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='S' surname='LIU' fullname='Shucheng LIU'>
+    <organization />
+</author>
+
+<author initials='T' surname='Anderson' fullname='Tore Anderson'>
+    <organization />
+</author>
+
+<date month='November' day='26' year='2015' />
+
+<abstract><t>RFC2460 requires that when a host receives an ICMPv6 "Packet Too Big" message reporting an MTU smaller than 1280 bytes, the host includes a Fragment Header in all subsequent packets sent to that destination, without reducing the assumed Path-MTU.  The simplicity with which ICMPv6 "Packet Too Big" messages can be forged, coupled with the widespread filtering of IPv6 fragments, results in an attack vector that can be leveraged for Denial of Service purposes.  This document briefly discusses the aforementioned attack vector, and why the aforementioned functionality is undesirable.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-deprecate-atomfrag-generation-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-deprecate-atomfrag-generation-04.txt' />
+</reference>

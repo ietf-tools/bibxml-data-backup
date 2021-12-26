@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-te-arch'>
+<front>
+<title>Tree Engineering for Bit Index Explicit Replication (BIER-TE)</title>
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+<organization />
+</author>
+<author initials='G' surname='Cauchie' fullname='Gregory Cauchie'>
+<organization />
+</author>
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+<organization />
+</author>
+<date year='2021' month='November' day='15' />
+<abstract><t>This memo describes per-packet stateless strict and loose path steered replication and forwarding for Bit Index Explicit Replication packets (RFC8279).  It is called BIER Tree Engineering (BIER-TE) and is intended to be used as the path steering mechanism for Traffic Engineering with BIER.</t><t> BIER-TE introduces a new semantic for bit positions (BP) that indicate adjacencies, as opposed to (non-TE) BIER in which BPs indicate Bit-Forwarding Egress Routers (BFER).  BIER-TE can leverage BIER forwarding engines with little changes.  Co-existence of BIER and BIER-TE forwarding in the same domain is possible, for example by using separate BIER sub-domains (SDs).  Except for the optional routed adjacencies, BIER-TE does not require a BIER routing underlay, and can therefore operate without depending on an Interior Gateway Routing protocol (IGP).</t><t> As it operates on the same per-packet stateless forwarding principles, BIER-TE can also be a good fit to support multicast path steering in Segment Routing (SR) networks.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-te-arch-11'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-bier-te-arch-11.txt'/>
+</reference>

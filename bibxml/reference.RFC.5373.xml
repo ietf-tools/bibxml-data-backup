@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5373' target='https://www.rfc-editor.org/info/rfc5373'>
+<front>
+<title>Requesting Answering Modes for the Session Initiation Protocol (SIP)</title>
+<author initials='D.' surname='Willis' fullname='D. Willis' role='editor'><organization /></author>
+<author initials='A.' surname='Allen' fullname='A. Allen'><organization /></author>
+<date year='2008' month='November' />
+<abstract><t>This document extends SIP with two header fields and associated option tags that can be used in INVITE requests to convey the requester's preference for user-interface handling related to answering of that request.  The first header, &quot;Answer-Mode&quot;, expresses a preference as to whether the target node's user interface waits for user input before accepting the request or, instead, accepts the request without waiting on user input.  The second header, &quot;Priv-Answer-Mode&quot;, is similar to the first, except that it requests administrative-level access and has consequent additional authentication and authorization requirements.  These behaviors have applicability to applications such as push-to-talk and to diagnostics like loop-back.  Usage of each header field in a response to indicate how the request was handled is also defined.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5373'/>
+<seriesInfo name='DOI' value='10.17487/RFC5373'/>
+</reference>

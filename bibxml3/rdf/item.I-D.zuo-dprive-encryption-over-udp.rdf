@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-zuo-dprive-encryption-over-udp-00.txt'>
+    <title>"Approach on encrypting DNS message over UDP", Peng Zuo, Hongtao Li, Ning, XiaoDong Lee, Guangqing Deng, Jiankang Yao, Nan Wang</title>
+    <link>http://www.ietf.org/internet-drafts/draft-zuo-dprive-encryption-over-udp-00.txt</link>
+    <description>This document offers an approach to encrypt DNS queries and responses between the stub resolver and the recursive server over UDP to protect user privacy.  The public key of the recursive server is distributed to the stub resolver through the Certificate Authority infrastructure, and the public key of the stub resolver is sent to the recursive server together with the DNS query where the public key is inserted to the additional section of the DNS query.  Then the recursive server encrypts the DNS responses sent to the stub resolver with the public key of that stub resolver, and similarly the DNS query sent to the recursive server is encrypted by the stub resolver with the public key of that recursive server and thus the user privacy is protected.</description>
+    <dc:date>2015-07-02T07:00:00-00:00</dc:date>
+</item>

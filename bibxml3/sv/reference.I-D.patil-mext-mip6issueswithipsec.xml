@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.patil-mext-mip6issueswithipsec'>
+<front>
+<title>Problems with the use of IPsec as the security protocol for Mobile IPv6</title>
+
+<author initials='B' surname='Patil' fullname='Basavaraj Patil'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Charles Perkins'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='D' surname='Premec' fullname='Domagoj Premec'>
+    <organization />
+</author>
+
+<date month='October' day='10' year='2011' />
+
+<abstract><t>Mobile IPv6 as specified in RFC3775 relies on IPsec for securing the signaling messages and user plane traffic between the mobile node and home agent.  An IPsec SA between the mobile node and the home agent provides security for the mobility signaling.  Use of IPsec for securing the data traffic between the mobile node and home agent is optional.  This document analyses the implications of the design decision to mandate IPsec as the default security protocol for Mobile IPv6 and consequently Dual-stack Mobile IPv6 and recommends revisiting this decision in view of the experience gained from implementation and adoption in other standards bodies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-patil-mext-mip6issueswithipsec-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-patil-mext-mip6issueswithipsec-04.txt' />
+</reference>

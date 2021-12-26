@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.klatsky-sipcore-ipv6-impact-ipv4'>
+<front>
+<title>Interoperability Impacts of IPv6 Interworking with Existing IPv4 SIP Implementations</title>
+
+<author initials='C' surname='Klatsky' fullname='Carl Klatsky'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shekh-Yusef' fullname='Rifaat Shekh-Yusef'>
+    <organization />
+</author>
+
+<author initials='A' surname='Hutton' fullname='Andrew Hutton'>
+    <organization />
+</author>
+
+<author initials='G' surname='Salgueiro' fullname='Gonzalo Salgueiro'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2014' />
+
+<abstract><t>This document captures potential impacts to IPv4 SIP implementations when interworking with IPv6 SIP implementations.  Although some amount of interworking translation will occur at the network and application layers, an IPv4 SIP application may still encounter a SIP message with some IPv6 values in it, resulting in unforeseen error conditions.  Such potential scenarios will be identified in this document so that SIP application developers can define solutions to handle these cases.  Note, this document is not intended to be an exhaustive list, rather to provide an overview of some of the more commonly encountered potential scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-klatsky-sipcore-ipv6-impact-ipv4-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-klatsky-sipcore-ipv6-impact-ipv4-00.txt' />
+</reference>

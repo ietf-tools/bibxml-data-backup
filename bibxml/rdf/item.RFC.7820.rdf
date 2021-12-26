@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc7820.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc7820.txt</link>
+        <title>RFC 7820: UDP Checksum Complement in the One-Way Active Measurement Protocol (OWAMP) and Two-Way Active Measurement Protocol (TWAMP), T. Mizrahi</title>
+        <dc:date>2016-03-01T23:00:00-00:00</dc:date>
+        <description>The One-Way Active Measurement Protocol (OWAMP) and the Two-Way Active Measurement Protocol (TWAMP) are used for performance monitoring in IP networks.  Delay measurement is performed in these protocols by using timestamped test packets.  Some implementations use hardware-based timestamping engines that integrate the accurate transmission time into every outgoing OWAMP/TWAMP test packet during transmission.  Since these packets are transported over UDP, the UDP Checksum field is then updated to reflect this modification.  This document proposes to use the last 2 octets of every test packet as a Checksum Complement, allowing timestamping engines to reflect the checksum modification in the last 2 octets rather than in the UDP Checksum field.  The behavior defined in this document is completely interoperable with existing OWAMP/TWAMP implementations. </description>
+    </item>
+

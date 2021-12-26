@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7076' target='https://www.rfc-editor.org/info/rfc7076'>
+<front>
+<title>P6R's Secure Shell Public Key Subsystem</title>
+<author initials='M.' surname='Joseph' fullname='M. Joseph'><organization /></author>
+<author initials='J.' surname='Susoy' fullname='J. Susoy'><organization /></author>
+<date year='2013' month='November' />
+<abstract><t>The Secure Shell (SSH) Public Key Subsystem protocol defines a key distribution protocol that is limited to provisioning an SSH server with a user's public keys.  This document describes a new protocol that builds on the protocol defined in RFC 4819 to allow the provisioning of keys and certificates to a server using the SSH transport.</t><t>The new protocol allows the calling client to organize keys and certificates in different namespaces on a server.  These namespaces can be used by the server to allow a client to configure any application running on the server (e.g., SSH, Key Management Interoperability Protocol (KMIP), Simple Network Management Protocol (SNMP)).</t><t>The new protocol provides a server-independent mechanism for clients to add public keys, remove public keys, add certificates, remove certificates, and list the current set of keys and certificates known by the server by namespace (e.g., list all public keys in the SSH namespace).</t><t>Rights to manage keys and certificates in a particular namespace are specific and limited to the authorized user and are defined as part of the server's implementation.  The described protocol is backward compatible to version 2 defined by RFC 4819.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7076'/>
+<seriesInfo name='DOI' value='10.17487/RFC7076'/>
+</reference>

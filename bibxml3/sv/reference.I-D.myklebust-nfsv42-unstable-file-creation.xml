@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.myklebust-nfsv42-unstable-file-creation'>
+<front>
+<title>NFS Version 4 Minor Version 2 unstable file creation and attribute update improvements</title>
+
+<author initials='T' surname='Myklebust' fullname='Trond Myklebust'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2010' />
+
+<abstract><t>This document describes an extension to the NFSv4 protocol to allow clients to create and write files with greater efficiency.  The first proposal allows the server to defer creating the file on stable storage when replying to an OPEN call.  The aim is to improve server efficiency and scalability by reducing the number of required disk accesses when writing a file from scratch.  The second proposal allows the server to share information about the implementation of its change attribute with the client.  The aim is to improve the client's ability to determine the order in which parallel updates to the same file were processed.Keywords</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-myklebust-nfsv42-unstable-file-creation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-myklebust-nfsv42-unstable-file-creation-00.txt' />
+</reference>

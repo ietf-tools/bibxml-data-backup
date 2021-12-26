@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jason-fsp'>
+<front>
+<title>Flexible Session Protocol</title>
+
+<author initials='J' surname='Gao' fullname='Jason Gao'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>FSP is a connection-oriented transport layer protocol that provides mobility, multihoming and multipath support by introducing the concept of 'upper layer thread ID', which was firstly suggested in [Gao2002].  Authencity of an FSP packet is protected by some algorithm that requires a shared key. The upper layer thread ID is assigned roughly the same semantics as the Security Parameter Index (SPI) in MOBIKE [RFC4555] to index the key. The key is either a weak one agreed by the FSP participants, or cryptographically established and installed by the upper layer application.  FSP facilitates such key installation by introducing the concept of transmit transaction, which makes it flexible for the application layer protocols to adopt new establishment algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jason-fsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jason-fsp-00.txt' />
+</reference>

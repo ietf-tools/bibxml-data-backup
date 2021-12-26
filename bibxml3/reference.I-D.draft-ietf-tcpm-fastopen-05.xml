@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-fastopen'>
+<front>
+<title>TCP Fast Open</title>
+
+<author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
+    <organization />
+</author>
+
+<author initials='J' surname='Chu' fullname='Jerry Chu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Radhakrishnan' fullname='Sivasankar Radhakrishnan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Jain' fullname='Arvind Jain'>
+    <organization />
+</author>
+
+<date month='October' day='14' year='2013' />
+
+<abstract><t>TCP Fast Open (TFO) allows data to be carried in the SYN and SYN-ACK packets and consumed by the receiving end during the initial connection handshake, thus saving up to one full round trip time (RTT) compared to the standard TCP, which requires a three-way handshake (3WHS) to complete before data can be exchanged. However TFO deviates from the standard TCP semantics; the data in the SYN could be replayed to an application in some rare circumstances. Applications should not use TFO unless they can tolerate this issue detailed in the Applicability section.  Terminology</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-fastopen-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-fastopen-05.txt' />
+</reference>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5712' target='https://www.rfc-editor.org/info/rfc5712'>
+<front>
+<title>MPLS Traffic Engineering Soft Preemption</title>
+<author initials='M.' surname='Meyer' fullname='M. Meyer' role='editor'><organization /></author>
+<author initials='JP.' surname='Vasseur' fullname='JP. Vasseur' role='editor'><organization /></author>
+<date year='2010' month='January' />
+<abstract><t>This document specifies Multiprotocol Label Switching (MPLS) Traffic Engineering Soft Preemption, a suite of protocol modifications extending the concept of preemption with the goal of reducing or eliminating traffic disruption of preempted Traffic Engineering Label Switched Paths (TE LSPs).  Initially, MPLS RSVP-TE was defined with support for only immediate TE LSP displacement upon preemption.  The utilization of a reroute request notification helps more gracefully mitigate the reroute process of preempted TE LSP.  For the brief period soft preemption is activated, reservations (though not necessarily traffic levels) are in effect under-provisioned until the TE LSP(s) can be rerouted.  For this reason, the feature is primarily, but not exclusively, interesting in MPLS-enabled IP networks with Differentiated Services and Traffic Engineering capabilities.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5712'/>
+<seriesInfo name='DOI' value='10.17487/RFC5712'/>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gieben-resolver-application-interface'>
+<front>
+<title>DNSSEC Resolver Interface to Applications</title>
+
+<author initials='R' surname='Gieben' fullname='R Gieben'>
+    <organization />
+</author>
+
+<author initials='G' surname='Guette' fullname='Gilles Guette'>
+    <organization />
+</author>
+
+<author initials='O' surname='Courtay' fullname='Olivier  Courtay'>
+    <organization />
+</author>
+
+<date month='April' day='20' year='2004' />
+
+<abstract><t>This document describes an interface between a DNSSEC aware resolver and an application. This interface will define which kind of information a DNSSEC aware resolver is able to send back to an application. The basic question we want to answer is: 'What does an application want to know from a secure aware resolver?'. In Section 4 we define an error bit array. The secure aware resolver will set specific bits in the array. With the added information in the error array, the application can have extra control on what to do with bogus data. When something goes wrong during the secure resolving process the application may also want to know where in the DNS tree this happened. With a simple error array one can not convey this information. A possibility might be to give the application the owner name of the DNS node where the validation failed. This document is written in the hope that it will lead to a discussion within the IETF on the resolver-application interaction(s).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gieben-resolver-application-interface-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gieben-resolver-application-interface-00.txt' />
+</reference>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-use-cases'>
+<front>
+<title>BIER Use Cases</title>
+
+<author initials='N' surname='Nainar' fullname='Nagendra Nainar'>
+    <organization />
+</author>
+
+<author initials='R' surname='Asati' fullname='Rajiv Asati'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Dolganow' fullname='Andrew Dolganow'>
+    <organization />
+</author>
+
+<author initials='T' surname='Przygienda' fullname='Tony Przygienda'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gulko' fullname='Arkadiy Gulko'>
+    <organization />
+</author>
+
+<author initials='D' surname='Robinson' fullname='Dom Robinson'>
+    <organization />
+</author>
+
+<author initials='V' surname='Arya' fullname='Vishal Arya'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bestler' fullname='Caitlin Bestler'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2020' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain any multicast related per- flow state.  BIER also does not require any explicit tree-building protocol for its operation.  A multicast data packet enters a BIER domain at a "Bit-Forwarding Ingress Router" (BFIR), and leaves the BIER domain at one or more "Bit-Forwarding Egress Routers" (BFERs). The BFIR router adds a BIER header to the packet.  The BIER header contains a bit-string in which each bit represents exactly one BFER to forward the packet to.  The set of BFERs to which the multicast packet needs to be forwarded is expressed by setting the bits that correspond to those routers in the BIER header.  This document describes some of the use cases for BIER.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-use-cases-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-use-cases-12.txt' />
+</reference>

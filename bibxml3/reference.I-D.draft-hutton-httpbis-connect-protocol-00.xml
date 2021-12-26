@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hutton-httpbis-connect-protocol'>
+<front>
+<title>HTTP Connect - Tunnel Protocol For WebRTC</title>
+
+<author initials='A' surname='Hutton' fullname='Andrew Hutton'>
+    <organization />
+</author>
+
+<author initials='J' surname='Uberti' fullname='Justin Uberti'>
+    <organization />
+</author>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2014' />
+
+<abstract><t>This document describes a mechanism to enable HTTP Clients to provide an indication within a HTTP Connect request as to which protocol will be used within the tunnel established to the Server identified by the target resource.  The tunneled protocol is declared using the Tunnel- Protocol HTTP Request header field.  Label usage relating to the use of HTTP Connect by WebRTC clients (e.g. turn, webrtc) are described in this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hutton-httpbis-connect-protocol-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hutton-httpbis-connect-protocol-00.txt' />
+</reference>

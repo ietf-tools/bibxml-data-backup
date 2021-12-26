@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-west-let-localhost-be-localhost-06.txt'>
+    <title>"Let 'localhost' be localhost.", Mike West</title>
+    <link>http://www.ietf.org/internet-drafts/draft-west-let-localhost-be-localhost-06.txt</link>
+    <description>This document updates RFC6761 with the goal of ensuring that "localhost" can be safely relied upon as a name for the local host's loopback interface.  To that end, stub resolvers are required to resolve localhost names to loopback addresses.  Recursive DNS servers are required to return "NXDOMAIN" when queried for localhost names, making non-conformant stub resolvers more likely to fail and produce problem reports that result in updates.  Together, these requirements would allow applications and specifications to join regular users in drawing the common-sense conclusions that "localhost" means "localhost", and doesn't resolve to somewhere else on the network.</description>
+    <dc:date>2017-08-31T07:00:00-00:00</dc:date>
+</item>

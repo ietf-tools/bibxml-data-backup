@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wood-dtnrg-saratoga'>
+<front>
+<title>Saratoga: A Convergence Layer for Delay-Tolerant Networking</title>
+
+<author initials='L' surname='Wood' fullname='Lloyd Wood'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2007' />
+
+<abstract><t>Saratoga is a simple, lightweight UDP-based transport protocol intended for use in moving files between immediately neighbouring peers which have sporadic, intermittent connectivity using dedicated IP links. Saratoga focuses on high link utilization for fast file transfers. Loss recovery is implemented via a simple ARQ mechanism. Saratoga is proposed for use as a convergence layer by Delay-Tolerant Networking for deep-space and ad-hoc networking scenarios. Saratoga is not intended for use over shared paths, so transport congestion control is unnecessary, although it could be optionally implemented at the sender to provide rate control of packet output. Saratoga is in continuous operational use by the IP-based Disaster Monitoring Constellation satellites in Low Earth Orbit (LEO) for mission-critical transfer of remote-sensing imagery.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wood-dtnrg-saratoga-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wood-dtnrg-saratoga-01.txt' />
+</reference>

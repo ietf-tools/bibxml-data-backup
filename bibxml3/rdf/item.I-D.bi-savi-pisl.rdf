@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-bi-savi-pisl-00.txt'>
+    <title>"Prevent IP Spoofing Based On Link State Database (pisl)", Jun Bi, Baobao Zhang, Bingyang Liu, Fred Baker</title>
+    <link>http://www.ietf.org/internet-drafts/draft-bi-savi-pisl-00.txt</link>
+    <description>The Internet is suffering from severe DoS and DDoS attacks, and IP spoofing is one common used method to do DoS and DDoS attacks.  IP spoofing refers to that attackers send packets with forged source IP addresses.  In this memo, we propose one new approach of preventing IP spoofing, which we name PISL.  The PISL-enabled router generates the incoming table for source addresses using link state database, which exists in two most widely used intra-domain protocols:  OSPF and IS-IS.  In this memo, we only describe PISL in the OSPF environment.  The PISL-enabled router determines that a packet is spoofed if the packet arrives at an invalid incoming interface.  PISL only uses the existing information and does not impose new control messages, so it is easy to be deployed.  We have conducted simple simulation, which shows the high effectiveness of PISL:  even if PISL is only deployed in 10% of all OSPF routers in a network, 80%~99% of spoofing cases in the network can be detected.  Requirements</description>
+    <dc:date>2012-05-30T22:00:00-00:00</dc:date>
+</item>

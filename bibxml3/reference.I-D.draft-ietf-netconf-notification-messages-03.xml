@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-notification-messages'>
+<front>
+<title>Notification Message Headers and Bundles</title>
+
+<author initials='E' surname='Voit' fullname='Eric Voit'>
+    <organization />
+</author>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='A' surname='Bierman' fullname='Andy Bierman'>
+    <organization />
+</author>
+
+<author initials='A' surname='Clemm' fullname='Alexander Clemm'>
+    <organization />
+</author>
+
+<author initials='T' surname='Jenkins' fullname='Tim Jenkins'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2018' />
+
+<abstract><t>This document defines a new notification message format, using yang- data.  Included are:  o  a new notification mechanism and encoding to replace the one way operation of RFC-5277  o  a set of common, transport agnostic message header objects.  o  how to bundle multiple event records into a single notification message.  o  how to ensure these new capabilities are only used with capable receivers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-notification-messages-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-notification-messages-03.txt' />
+</reference>

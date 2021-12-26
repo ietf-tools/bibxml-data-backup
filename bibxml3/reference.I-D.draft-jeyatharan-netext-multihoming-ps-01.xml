@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jeyatharan-netext-multihoming-ps'>
+<front>
+<title>Multihoming Problem Statement in NetLMM</title>
+
+<author initials='M' surname='Jeyatharan' fullname='Mohana Jeyatharan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Ng' fullname='Chan-Wah Ng'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2009' />
+
+<abstract><t>The Proxy Mobile Internet Protocol version 6 (PMIPv6) supports multihoming whereby a mobile node (1) gets assigned prefixes by the local mobility anchor which are associated with an interface of a mobile node and are managed by the PMIPv6 elements as a single IP mobility session, and (2) can connect to a Proxy Mobile IPv6 domain through multiple interfaces for simultaneous access and get assigned a different set of prefix(es) per interface, since being each interface managed via an independent mobility session.  However, PMIPv6 needs multihoming enhancements such that it needs the ability to instantiate additional IP mobility sessions associated with an already active interface or a secondary interface of the mobile node which has an established IP mobility session at a local mobility anchor (LMA), the ability to selectively share home network prefix(es) across access technology types and extended support for multiple IP mobility sessions in a scenario where multiple interfaces of the mobile node are connected to a single mobile access gateway (MAG).  This memo highlights such required enhancements to PMIPv6 multihoming with respect to improved operations and extended applicability to different deployment scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jeyatharan-netext-multihoming-ps-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jeyatharan-netext-multihoming-ps-01.txt' />
+</reference>

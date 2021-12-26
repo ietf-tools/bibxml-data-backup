@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-pcep-flowspec'>
+<front>
+<title>PCEP Extension for Flow Specification</title>
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+<organization />
+</author>
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+<organization />
+</author>
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+<organization />
+</author>
+<date year='2021' month='October' day='14' />
+<abstract><t>The Path Computation Element (PCE) is a functional component capable of selecting paths through a traffic engineering network.  These paths may be supplied in response to requests for computation, or may be unsolicited requests issued by the PCE to network elements.  Both approaches use the PCE Communication Protocol (PCEP) to convey the details of the computed path.</t><t> Traffic flows may be categorized and described using &quot;Flow Specifications&quot;.  RFC 8955 defines the Flow Specification and describes how Flow Specification Components are used to describe traffic flows.  RFC 8955 also defines how Flow Specifications may be distributed in BGP to allow specific traffic flows to be associated with routes.</t><t> This document specifies a set of extensions to PCEP to support dissemination of Flow Specifications.  This allows a PCE to indicate what traffic should be placed on each path that it is aware of.</t><t> The extensions defined in this document include the creation, update, and withdrawal of Flow Specifications via PCEP, and can be applied to tunnels initiated by the PCE or to tunnels where control is delegated to the PCE by the PCC.  Furthermore, a PCC requesting a new path can include Flow Specifications in the request to indicate the purpose of the tunnel allowing the PCE to factor this into the path computation.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-pcep-flowspec-13'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-pce-pcep-flowspec-13.txt'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bfd-large-packets'>
+<front>
+<title>BFD Encapsulated in Large Packets</title>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<author initials='A' surname='Fu' fullname='Albert Fu'>
+    <organization />
+</author>
+
+<date month='November' day='1' year='2019' />
+
+<abstract><t>The Bidirectional Forwarding Detection (BFD) protocol is commonly used to verify connectivity between two systems.  BFD packets are typically very small.  It is desirable in some circumstances to know that not only is the path between two systems reachable, but also that it is capable of carrying a payload of a particular size.  This document discusses thoughts on how to implement such a mechanism using BFD in Asynchronous mode.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bfd-large-packets-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bfd-large-packets-02.txt' />
+</reference>

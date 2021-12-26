@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hao-idr-flowspec-redirect-tunnel'>
+<front>
+<title>BGP Flow-Spec Redirect to Tunnel Action</title>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<date month='March' day='18' year='2016' />
+
+<abstract><t>This draft defines a new flow-spec action, Redirect-to-Tunnel, and a new sub-TLV for Redirect-to-Tunnel extended community. A BGP UPDATE for a flow-spec NLRI can contain the extended community. When activated, the corresponding flow packets will be encapsulated and carried via a tunnel. The redirect tunnel information is encoded in BGP Path Attribute or extended community [TUNNELENCAPS][MPP] that is carried in the BGP flow-spec UPDATE. The draft expends the tunnel encapsulation attribute [TUNNELENCAPS] to apply to flow-spec SAFI, i.e., 133 and 134.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hao-idr-flowspec-redirect-tunnel-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hao-idr-flowspec-redirect-tunnel-01.txt' />
+</reference>

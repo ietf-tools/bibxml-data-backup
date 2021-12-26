@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-ospf-dbex-opt-02.txt'>
+    <title>"OSPF Database Exchange Summary List Optimization", Richard Ogier</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-ospf-dbex-opt-02.txt</link>
+    <description>This document describes a backward compatible optimization for the Database Exchange process in OSPFv2 and OSPFv3.  In this optimization, a router does not list an LSA in Database Description packets sent to a neighbor, if the same or a more recent instance of the LSA was listed in a Database Description packet already received from the neighbor.  This optimization reduces Database Description overhead by about 50% in large networks.  This optimization does not affect synchronization, since it only omits unnecessary information from Database Description packets.</description>
+    <dc:date>2007-12-11T08:00:00-00:00</dc:date>
+</item>

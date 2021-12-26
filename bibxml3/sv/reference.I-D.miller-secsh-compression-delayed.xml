@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.miller-secsh-compression-delayed'>
+<front>
+<title>Delayed compression the SSH Transport Layer Protocol</title>
+
+<author initials='M' surname='Friedl' fullname='Markus Friedl'>
+    <organization />
+</author>
+
+<author initials='D' surname='Miller' fullname='Damien  Miller'>
+    <organization />
+</author>
+
+<date month='November' day='26' year='2006' />
+
+<abstract><t>This memo describes a new compression method for the SSH protocol. This new method uses the same zlib compression algorithm as the existing method described in the core SSH drafts but delays the start of compression until after user authentication has completed. This eliminates the risk of a bug in compression libraries resulting in a pre-authentication compromise of an SSH server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-miller-secsh-compression-delayed-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-miller-secsh-compression-delayed-00.txt' />
+</reference>

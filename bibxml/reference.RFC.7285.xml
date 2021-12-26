@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7285' target='https://www.rfc-editor.org/info/rfc7285'>
+<front>
+<title>Application-Layer Traffic Optimization (ALTO) Protocol</title>
+<author initials='R.' surname='Alimi' fullname='R. Alimi' role='editor'><organization /></author>
+<author initials='R.' surname='Penno' fullname='R. Penno' role='editor'><organization /></author>
+<author initials='Y.' surname='Yang' fullname='Y. Yang' role='editor'><organization /></author>
+<author initials='S.' surname='Kiesel' fullname='S. Kiesel'><organization /></author>
+<author initials='S.' surname='Previdi' fullname='S. Previdi'><organization /></author>
+<author initials='W.' surname='Roome' fullname='W. Roome'><organization /></author>
+<author initials='S.' surname='Shalunov' fullname='S. Shalunov'><organization /></author>
+<author initials='R.' surname='Woundy' fullname='R. Woundy'><organization /></author>
+<date year='2014' month='September' />
+<abstract><t>Applications using the Internet already have access to some topology information of Internet Service Provider (ISP) networks.  For example, views to Internet routing tables at Looking Glass servers are available and can be practically downloaded to many network application clients.  What is missing is knowledge of the underlying network topologies from the point of view of ISPs.  In other words, what an ISP prefers in terms of traffic optimization -- and a way to distribute it.</t><t>The Application-Layer Traffic Optimization (ALTO) services defined in this document provide network information (e.g., basic network location structure and preferences of network paths) with the goal of modifying network resource consumption patterns while maintaining or improving application performance.  The basic information of ALTO is based on abstract maps of a network.  These maps provide a simplified view, yet enough information about a network for applications to effectively utilize them.  Additional services are built on top of the maps.</t><t>This document describes a protocol implementing the ALTO services. Although the ALTO services would primarily be provided by ISPs, other entities, such as content service providers, could also provide ALTO services.  Applications that could use the ALTO services are those that have a choice to which end points to connect.  Examples of such applications are peer-to-peer (P2P) and content delivery networks.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7285'/>
+<seriesInfo name='DOI' value='10.17487/RFC7285'/>
+</reference>

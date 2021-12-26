@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dekok-radext-dtls'>
+<front>
+<title>DTLS as a Transport Layer for RADIUS</title>
+
+<author initials='A' surname='DeKok' fullname='Alan DeKok'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2007' />
+
+<abstract><t>The RADIUS protocol [RFC2865] has limited support for protocol level authentication and encryption. RADIUS packets contain attributes sent "in the clear", although some attributes can have "hidden" content. Packets may be replayed verbatim by an attacker, and the client-server authentication could be better. This document proposes DTLS as the solution to these problems, and details how this proposal is backwards-compatible wih existing RADIUS solutions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dekok-radext-dtls-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dekok-radext-dtls-00.txt' />
+</reference>

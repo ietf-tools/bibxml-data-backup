@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rizzo-6lo-6legacy'>
+<front>
+<title>IPv6 mapping to non-IP protocols</title>
+
+<author initials='G' surname='Rizzo' fullname='Gianluca Rizzo'>
+    <organization />
+</author>
+
+<author initials='A' surname='Jara' fullname='Antonio Jara'>
+    <organization />
+</author>
+
+<author initials='A' surname='Olivieri' fullname='Alex Olivieri'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Bocchi' fullname='Yann Bocchi'>
+    <organization />
+</author>
+
+<author initials='M' surname='Palattella' fullname='Maria Palattella'>
+    <organization />
+</author>
+
+<author initials='L' surname='Ladid' fullname='Latif Ladid'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ziegler' fullname='Sebastien Ziegler'>
+    <organization />
+</author>
+
+<author initials='C' surname='Crettaz' fullname='Cedric Crettaz'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2015' />
+
+<abstract><t>IPv6 is an important enabler of the Internet of Things, since it provides an addressing space large enough to encompass a vast and ubiquitous set of sensors and devices, allowing them to interconnect and interact seamlessly.  To date, an important fraction of those devices is based on networking technologies other than IP.  An important problem to solve in order to include them into an IPv6-based Internet of Things, is to define a mechanism for assigning an IPv6 address to each of them, in a way which avoids conflicts and protocol aliasing.  The only existing proposal for such a mapping leaves many problems unsolved and it is nowadays inadequate to cope with the new scenarios which the Internet of Things presents.  This document defines a mechanism, 6TONon-IP, for assigning automatically an IPv6 address to devices which do not support IPv6 or IPv4, in a way which minimizes the chances of address conflicts, and of frequent configuration changes due to instability of connection among devices.  Such a mapping mechanism enables stateless autoconfiguration for legacy technology devices, allowing them to interconnect through the Internet and to fully integrate into a world wide scale, IPv6-based IoT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rizzo-6lo-6legacy-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rizzo-6lo-6legacy-03.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-rizzo-6lo-6legacy-03.pdf' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaplan-sip-secure-call-id'>
+<front>
+<title>A Secure Call-ID for the Session Initiation Protocol (SIP)</title>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>Many SIP devices generate Call-ID values which contain their system IP Address, due to examples and normative text in RFC 3261.  This  Kaplan  Expires September 1, 2009  [page 1]  SIP Secure Call-ID  March 2009  has led to some middleboxes, such as SBC's, to change the Call-ID for security reasons.  This draft updates RFC 3261 to require SIP User Agents to generate benign Call-IDs, in such a manner that they can be detected as secure and not need to be changed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kaplan-sip-secure-call-id-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kaplan-sip-secure-call-id-00.txt' />
+</reference>

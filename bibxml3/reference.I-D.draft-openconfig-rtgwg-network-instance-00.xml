@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.openconfig-rtgwg-network-instance'>
+<front>
+<title>A Data Model for Network Instances in Service Provider Networks</title>
+
+<author initials='r' surname='rjs@rob.sh' fullname='rjs@rob.sh'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>This document defines a YANG data model for configuring and managing forwarding instances on a network device - focused primarily on deployments in service provider networks.  The model is vendor- neutral and based on operational requirements expressed by operators. A 'network instance' is defined to be a discrete forwarding table on a network element, which contains Layer 3 and/or Layer 2 forwarding entries.  Each network instance may instantiate its own sets of protocols which control installation of forwarding entries into one or more tables (which may be Layer 2 FIBs, or Layer 3 RIBs).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-openconfig-rtgwg-network-instance-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-openconfig-rtgwg-network-instance-00.txt' />
+</reference>

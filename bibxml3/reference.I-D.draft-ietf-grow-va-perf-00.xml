@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-grow-va-perf'>
+<front>
+<title>Performance of Virtual Aggregation</title>
+
+<author initials='H' surname='Ballani' fullname='Hitesh Ballani'>
+    <organization />
+</author>
+
+<author initials='P' surname='Francis' fullname='Paul Francis'>
+    <organization />
+</author>
+
+<author initials='D' surname='Jen' fullname='Dan Jen'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhang' fullname='Lixia Zhang'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2009' />
+
+<abstract><t>The document "FIB Suppression with Virtual Aggregation" [I-D.francis-intra-va] describes how router FIB size may be reduced. This approach entails a trade-off between path-length and load versus FIB size.  It also has the potential to reduce convergence time. This document describes the results of several studies that examine these characteristics.  The results of a study for a Tier-1 ISP with a relatively sophisticated deployment of VA, shows that FIB size could be reduced ten times or more with a worst-case latency penalty of 4ms and a worst-case load increase of &lt;1.5%.  Another study, examining a much simpler style of VA deployment, also for a Tier-1 ISP, shows that FIB size can be reduced by four times (in routers serving as APRs), and more than 10 times in other routers.  Here, worst-case latency increase was 16 ms, though this is almost certainly an over-estimate, both because traceroute was used to make the measurement, and because popular prefixes were not considered.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-grow-va-perf-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-grow-va-perf-00.txt' />
+</reference>

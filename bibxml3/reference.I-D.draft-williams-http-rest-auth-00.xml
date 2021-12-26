@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.williams-http-rest-auth'>
+<front>
+<title>RESTful Authentication Pattern for the HyperText Transport Protocol (HTTP)</title>
+
+<author initials='N' surname='Williams' fullname='Nico Williams'>
+    <organization />
+</author>
+
+<date month='August' day='11' year='2012' />
+
+<abstract><t>This document proposes a "RESTful" pattern of authentication for HTTP/1.0, 1.1, and 2.0.  The existing 401 status code and WWW- Authenticate header are used to indicate that authentication is required and for negotiation purposes.  The client POSTs an initial authentication message to an indicated login URI, and reply messages are returned as new representations of a session resource named by a session URI.  This approach has a number of benefits: it can be implemented with or without help from the HTTP stack, it can be universally implemented on the server side using the Common Information Gateway (CGI) and FastCGI, it results in a session Uniform Resource Identifier (URI) that can be DELETEd to logout, it is completely orthogonal to any HTTP "routers" and proxies, and it naturally (i.e., without changing HTTP) handles multi-legged authentication mechanisms.  Among other features supported are: channel binding, an optional round trip optimization for challenge/response mechanisms, somecryptographic protection options for clients that don't use Transport Layer Security (TLS), stronger authentication of servers/ services to users (where authentication mechanisms provide that) and more.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-williams-http-rest-auth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-williams-http-rest-auth-00.txt' />
+</reference>

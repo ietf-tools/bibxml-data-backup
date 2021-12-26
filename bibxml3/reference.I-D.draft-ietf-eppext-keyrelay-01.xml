@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-eppext-keyrelay'>
+<front>
+<title>Relay Extension for the Extensible Provisioning Protocol</title>
+
+<author initials='M' surname='Groeneweg' fullname='M. Groeneweg'>
+    <organization />
+</author>
+
+<author initials='A' surname='Verschuren' fullname='Antoin Verschuren'>
+    <organization />
+</author>
+
+<date month='January' day='8' year='2015' />
+
+<abstract><t>This document describes a generic Extensible Provisioning Protocol (EPP) extension for the purpose of relaying data between registrars.  Furthermore, this document describes a specific implementation for relaying DNSSEC key material between DNS operators (by means of their respective registrars), to facilitate the change of DNS operator, while keeping the DNSSEC chain of trust intact.  This I-D introduces a new generic command &lt;relay> and an element &lt;relayData>.  For the specific implementation of relaying DNSSEC key material it introduces an extension of the &lt;relayData> with a &lt;keyRelayData> element.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-eppext-keyrelay-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-eppext-keyrelay-01.txt' />
+</reference>

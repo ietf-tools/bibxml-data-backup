@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lpwan-coap-static-context-hc'>
+<front>
+<title>LPWAN Static Context Header Compression (SCHC) for CoAP</title>
+
+<author initials='A' surname='Minaburo' fullname='Ana Minaburo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Toutain' fullname='Laurent Toutain'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2017' />
+
+<abstract><t>This draft discusses the way SCHC header compression can be applied to CoAP headers in an LPWAN flow regarding the generated traffic. CoAP protocol differs from IPv6 and UDP protocols because the CoAP Header has a flexible header due to variable options.  Another important difference is the asymmetric format in the header information used in the request and the response packets.  This draft shows that the Client and the Server do not uses the same fields and how the SCHC header compression can be used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lpwan-coap-static-context-hc-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lpwan-coap-static-context-hc-01.txt' />
+</reference>

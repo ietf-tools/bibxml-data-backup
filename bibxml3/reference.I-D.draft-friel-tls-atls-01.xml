@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.friel-tls-atls'>
+<front>
+<title>Application-Layer TLS</title>
+
+<author initials='O' surname='Friel' fullname='Owen Friel'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='M' surname='Pritikin' fullname='Max Pritikin'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='M' surname='Baugher' fullname='Mark Baugher'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2018' />
+
+<abstract><t>This document specifies how TLS sessions can be established at the application layer over untrusted transport between clients and services for the purposes of establishing secure end-to-end encrypted communications channels.  Transport layer encodings for application layer TLS records are specified for HTTP and CoAP transport. Explicit identification of application layer TLS packets enables middleboxes to provide transport services and enforce suitable transport policies for these payloads, without requiring access to the unencrypted payload content.  Multiple scenarios are presented identifying the need for end-to-end application layer encryption between clients and services, and the benefits of reusing the well- defined TLS protocol, and a standard TLS stack, to accomplish this are described.  Application software architectures for building, and network architectures for deploying application layer TLS are outlined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-friel-tls-atls-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-friel-tls-atls-01.txt' />
+</reference>

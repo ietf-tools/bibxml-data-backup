@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-native-api'>
+<front>
+<title>Native Application Programming Interfaces (APIs) for Host Identity Protocol  (HIP)</title>
+
+<author initials='M' surname='Komu' fullname='Miika Komu'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>This document defines extensions to the current sockets API for Host Identity Protocol (HIP).  The extensions focus on the initial discovery of public-key based identifiers.  Using the extensions, the application can verify that the identifier is a Host Identity Tag (HIT) and it can require the system resolver to return only HITs from DNS.  The application can also to explicitly allow more relaxed security models where the communication can be non-HIP based in the absence of a peer identifiers, or that the application allows peer identity to be discovered after initial contact directly with the peer.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-native-api-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-native-api-03.txt' />
+</reference>

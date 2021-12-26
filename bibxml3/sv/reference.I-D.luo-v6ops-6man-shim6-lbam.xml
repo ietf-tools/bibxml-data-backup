@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.luo-v6ops-6man-shim6-lbam'>
+<front>
+<title>Load Balancing based on IPv6 Anycast and pseudo-Mobility</title>
+
+<author initials='W' surname='Luo' fullname='Wanming Luo'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<author initials='W' surname='Mao' fullname='Wei Mao'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wang' fullname='Mei Wang'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2009' />
+
+<abstract><t>Load balancing is a key factor for both IPv4 to IPv6 transition mechnisms, e.g.NAT-PT or Tunnel broker, and Multihoming to improve their scalability and Robustness.  In fact, that is a method, by which IP packet can be distributed across a pool of servers, instead of directing to a single server.Load balancing has been widely used by NAT, Web service and FTP service.  However, current load balancing software and implementations have problems such as poor scalability, inability to balance session flow, long latency time and topological constraint on server pool.  This document describes a method using pseudo-anycast and pseudo- mobility based on Mobile IPv6 to implement load balancing in session level in IPv6 network, by which those problems above can be solved. Futhermore, this method only need little modification to Mobile IPv6 in the servers' and agent's side; as for the general users, it need not any modification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-luo-v6ops-6man-shim6-lbam-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-luo-v6ops-6man-shim6-lbam-01.txt' />
+</reference>

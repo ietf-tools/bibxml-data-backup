@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-manet-smf'>
+<front>
+<title>Simplified Multicast Forwarding for MANET</title>
+
+<author initials='J' surname='Macker' fullname='Joseph Macker'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2007' />
+
+<abstract><t>This document describes the Simplified Multicast Forwarding (SMF) protocol. SMF provides a basic IP multicast forwarding capability suitable for mobile ad-hoc networks (MANET). SMF applicability is limited to providing multicast forwarding within MANET routing regions. SMF specifies mechanisms to provide temporally unique multicast packet identification for the purpose of enabling MANET- specific duplicate packet detection (DPD). SMF also specifies the operation of DPD maintenance and checking for both sequence-based and hash-based methods. For IPv6, a hop-by-hop option header is specified that assists in the overall DPD process. The optional operation of intermediate devices, called taggers, is also specified and relates to potential use with multiple border routers. SMF is designed to take advantage of reduced relay sets for efficient MANET multicast forwarding and the document describes use and interaction with a number of approaches. Pseudocode and additional educed relay set discussion is provided in the Appendices. Basic issues relating to the operation of multicast MANET border routers are discussed but ongoing work in this area remains and is beyond the scope of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-manet-smf-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-manet-smf-05.txt' />
+</reference>

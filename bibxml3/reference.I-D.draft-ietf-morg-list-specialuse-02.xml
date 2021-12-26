@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-morg-list-specialuse'>
+<front>
+<title>IMAP LIST extension for special-use mailboxes</title>
+
+<author initials='B' surname='Leiba' fullname='Barry Leiba'>
+    <organization />
+</author>
+
+<author initials='J' surname='Nicolson' fullname='Jamie Nicolson'>
+    <organization />
+</author>
+
+<date month='June' day='18' year='2010' />
+
+<abstract><t>Some IMAP message stores include special-use mailboxes, such as those used to hold draft messages or sent messages.  Many mail clients allow users to specify where draft or sent messages should be put, but configuring them requires that the user know which mailboxes the server has set aside for these purposes.  This extension adds new mailbox flags that a server MAY include in IMAP LIST command responses to identify special-use mailboxes to the client, easing configuration.  Note  A revised version of this draft document will be submitted to the RFC editor as a Proposed Standard for the Internet Community.  Discussion and suggestions for improvement are requested, and should be sent to morg@ietf.org.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-morg-list-specialuse-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-morg-list-specialuse-02.txt' />
+</reference>

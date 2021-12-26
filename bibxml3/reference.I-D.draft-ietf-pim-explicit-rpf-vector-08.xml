@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pim-explicit-rpf-vector'>
+<front>
+<title>Explicit RPF Vector</title>
+
+<author initials='J' surname='Asghar' fullname='Javed Asghar'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='S' surname='Krishnaswamy' fullname='Sowmya Krishnaswamy'>
+    <organization />
+</author>
+
+<author initials='A' surname='Karan' fullname='Apoorva Karan'>
+    <organization />
+</author>
+
+<author initials='V' surname='Arya' fullname='Vishal Arya'>
+    <organization />
+</author>
+
+<date month='February' day='2' year='2016' />
+
+<abstract><t>The PIM Reverse Path Forwarding (RPF) Vector TLV defined in RFC 5496 can be included in a PIM Join Attribute such that the RPF neighbor is selected based on the unicast reachability of the RPF Vector instead of the Source or Randezvous Point associated with the multicast tree.  This document defines a new RPF Vector Attribute type such that an explicit RPF neighbor list can be encoded in the PIM Join Attribute, bypassing the unicast route lookup.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pim-explicit-rpf-vector-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-explicit-rpf-vector-08.txt' />
+</reference>

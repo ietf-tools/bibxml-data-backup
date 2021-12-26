@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sudhaakar-6tisch-coap'>
+<front>
+<title>6TiSCH Resource Management and Interaction using CoAP</title>
+
+<author initials='R' surname='Sudhaakar' fullname='Raghuram Sudhaakar'>
+    <organization />
+</author>
+
+<author initials='P' surname='Zand' fullname='Pouria Zand'>
+    <organization />
+</author>
+
+<date month='March' day='29' year='2014' />
+
+<abstract><t>The [IEEE802154e] standardizes the TSCH mode of operation and defines the mechanisms for layer 2 communication between conforming devices. 6top defines a set of commands to monitor and manage the TSCH schedule.  To realize the full functionality of sensor networks and allow their adoption and use in real applications we need additional mechanisms.  Specifically, we need to define how to interact with 6top, control and modify schedules, monitor parameters etc.  Higher layers monitoring and management entities are then able to use these capabilities to create feedback loops.  Although, there have been many custom implementations of such feedback loops between the routing, transport and MAC layers in sensor network deployments, there has been a lack of standards based approaches.  The goal of the memo is to define the messaging between monitoring and management entities and the 6top layer and a mapping to the 6top commands.  The document also presents a particular implementation of the generic data model specified in [I-D.wang-6tisch-6top-interface] based on CoAP and CBOR.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sudhaakar-6tisch-coap-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sudhaakar-6tisch-coap-01.txt' />
+</reference>

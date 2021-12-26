@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nsis-qspec'>
+<front>
+<title>QoS NSLP QSPEC Template</title>
+
+<author initials='J' surname='Ash' fullname='Jerry Ash'>
+    <organization />
+</author>
+
+<date month='October' day='9' year='2006' />
+
+<abstract><t>The QoS NSLP protocol is used to signal QoS reservations and is independent of a specific QoS model (QOSM) such as IntServ or DiffServ. Rather, all information specific to a QOSM is encapsulated in a separate object, the QSPEC. This document defines a template for the QSPEC, which contains both the QoS description and QSPEC control information. The QSPEC format is defined, as are a number of QSPEC parameters. The QSPEC-1 parameters provide a common language to be re-used in several QOSMs. QSPEC-2 parameters aim to ensure the extensibility of QoS NSLP to other QOSMs in the future. To a certain extent QSPEC parameters ensure interoperability of QOSMs. The node initiating the NSIS signaling adds an Initiator QSPEC that must not be removed, thereby ensuring the intention of the NSIS initiator is preserved along the signaling path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nsis-qspec-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nsis-qspec-12.txt' />
+</reference>

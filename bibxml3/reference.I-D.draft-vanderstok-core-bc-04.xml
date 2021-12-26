@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanderstok-core-bc'>
+<front>
+<title>CoAP Utilization for Building Control</title>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<author initials='K' surname='Lynn' fullname='Kerry Lynn'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2011' />
+
+<abstract><t>This draft describes an example use of the RESTful CoAP protocol for building automation and control (BAC) applications such as HVAC and lighting.  A few basic design assumptions are stated first, then URI structure is utilized to define group as well as unicast scope for RESTful operations.  The authority portion of the URI is used to identify a device (group) and the resulting DNS name is bound to a unicast (multicast) address. Naming is building or organization dependent, must be flexible, and does not require standardization efforts but SHOULD conform to some uniform convention.  It is shown that DNS-based service discovery can be used to locate URIs on the scale necessary in large commercial BAC deployments. Finally, a method is proposed for mapping URIs onto legacy BAC resources, e.g., to facilitate application-layer gateways.  This proposal supports the view that 1) service discovery is complementary to resource discovery and facilitates control network scaling, and 2) building control is likely to move in steps toward all-IP control networks based on the legacy efforts provided by DALI, LON, BACnet, ZigBee, and other standards,</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanderstok-core-bc-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-core-bc-04.txt' />
+</reference>

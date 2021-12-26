@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zia-route'>
+<front>
+<title>Real-time Transport Object delivery over Unidirectional Transport (ROUTE)</title>
+
+<author initials='W' surname='Zia' fullname='Waqar Zia'>
+    <organization />
+</author>
+
+<author initials='T' surname='Stockhammer' fullname='Thomas Stockhammer'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2020' />
+
+<abstract><t>The Real-time Transport Object delivery over Unidirectional Transport protocol (ROUTE Protocol) is specified for robust delivery of application objects, including application objects with real-time delivery constraints, to receivers over a unidirectional transport. Application objects consist of data that has meaning to applications that use the ROUTE Protocol for delivery of data to receivers, for example, it can be a file, or a DASH or HLS segment, a WAV audio clip, etc. The ROUTE Protocol also supports low-latency streaming applications.  The ROUTE Protocol is suitable for unicast, broadcast, and multicast transport. Therefore, it can be run over IP/UDP including multicast IP. ROUTE Protocol can leverage the features of the underlying protocol layer, e.g. to provide security it can leverage IP security protocols such as IPSec.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zia-route-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zia-route-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rescorla-stir-fallback'>
+<front>
+<title>Secure Caller-ID Fallback Mode</title>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2013' />
+
+<abstract><t>A major challenge with RFC 4474-style identity assertions has been that SIP operates in highly mediated and interworked environments. SIP requests may pass through gateways, policy enforcement devices or other entities that receive SIP requests and effectively act as user agents, re-initiating a request.  In these circumstances, intermediaries may recreate the fields protected by the RFC4474 signature, making end-to end integrity impossible.  This document describes a mechanism for two compliant endpoints to exchange authentication data even in the face of intermediaries which remove all additional call signaling meta-data or which translate from SIP into protocols incapable of understanding identity meta-data (e.g., where one side is the PSTN).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rescorla-stir-fallback-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rescorla-stir-fallback-00.txt' />
+</reference>

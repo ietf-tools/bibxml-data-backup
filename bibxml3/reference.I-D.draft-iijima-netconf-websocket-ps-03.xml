@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iijima-netconf-websocket-ps'>
+<front>
+<title>NETCONF over WebSocket</title>
+
+<author initials='T' surname='Iijima' fullname='Tomoyuki Iijima'>
+    <organization />
+</author>
+
+<author initials='H' surname='Kimura' fullname='Hiroyasu Kimura'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Atarashi' fullname='Yoshifumi Atarashi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Higuchi' fullname='Hidemitsu Higuchi'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2012' />
+
+<abstract><t>This memo proposes a way of transporting NETCONF over WebSocket protocol.  Web-based systems are increasing with the advancement of Web technologies and emergence of cloud computing.  Management systems that support browser-based interface are also getting common. It's natural to expect network devices to have browser-based managemaent interface.  Currently, however, few network management protocols support being transported over HTTP.  NETCONF[RFC6241] was defined to be sent over SOAP/HTTPS[RFC4743].  But, it falls short of fulfilling NETCONF specification in that it can't provide NETCONF notification[RFC5277] because of HTTP's lack of bi-directional capabilty.  At present, WebSocket protocol, the update of HTTP with bi-directional capability, is available[RFC6455].  This memo describes the way NETCONF is sent over WebSocket protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iijima-netconf-websocket-ps-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iijima-netconf-websocket-ps-03.txt' />
+</reference>

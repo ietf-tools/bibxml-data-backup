@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kang-ace-secure-configuration'>
+<front>
+<title>Security Key configuration for resource constrained devices</title>
+
+<author initials='N' surname='Kang' fullname='Namhi Kang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Choi' fullname='Jaeduck Choi'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jung' fullname='Seung Jung'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jung' fullname='Souhwan Jung'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kim' fullname='Young-Han Kim'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2014' />
+
+<abstract><t>This document presents a secure method to configure/reconfigure a key for a resource constrained node when it initially joins to network that is currently in operation. The method is suited for a scenario, where resource constrained nodes are interconnected with each other and thus form a network called Internet of Things. It is assumed that communications for all nodes are based on TCP/IP protocols and the nodes use the constrained application protocol (CoAP). The presented method does not cover all operations of secure bootstrapping for IoT networks, but it is intended to securely support self-reconfiguration of the pre-installed temporary key of joined node.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kang-ace-secure-configuration-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kang-ace-secure-configuration-00.txt' />
+</reference>

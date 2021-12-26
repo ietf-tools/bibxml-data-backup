@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-crankback-06.txt'>
+    <title>"Crankback Signaling Extensions for MPLS and GMPLS RSVP-TE", Adrian Farrel</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-ccamp-crankback-06.txt</link>
+    <description>In a distributed, constraint-based routing environment, the information used to compute a path may be out of date. This means that Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) Traffic Engineered (TE) Label Switched Path (LSP) setup requests may be blocked by links or nodes without sufficient resources. Crankback is a scheme whereby setup failure information is returned from the point of failure to allow new setup attempts to be made avoiding the blocked resources. Crankback can also be applied to LSP recovery to indicate the location of the failed link or node. This document specifies crankback signaling extensions for use in MPLS signaling using RSVP-TE as defined in "RSVP-TE: Extensions to RSVP for LSP Tunnels", RFC3209, and GMPLS signaling as defined in "Generalized Multi-Protocol Label Switching (GMPLS) Signaling Functional Description", RFC3473. These extensions mean that the LSP setup request can be retried on an alternate path that detours around blocked links or nodes. This offers significant improvements in the successful setup and recovery ratios for LSPs, especially in situations where a large number of setup requests are triggered at the same time.</description>
+    <dc:date>2007-01-17T23:00:00-00:00</dc:date>
+</item>

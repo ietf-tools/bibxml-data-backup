@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-anima-stable-connectivity'>
+<front>
+<title>Using Autonomic Control Plane for Stable Connectivity of Network OAM</title>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='M' surname='Behringer' fullname='Michael Behringer'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2017' />
+
+<abstract><t>OAM (Operations, Administration and Maintenance - as per BCP161, [RFC6291]) processes for data networks are often subject to the problem of circular dependencies when relying on connectivity provided by the network to be managed for the OAM purposes. Provisioning during device/network bring up tends to be far less easy to automate than service provisioning later on, changes in core network functions impacting reachability may not be easy to be automated either because of ongoing connectivity requirements for the OAM, and widely used OAM protocols are not secure enough to be carried across the network without security concerns.  This document describes how to integrate OAM with the autonomic control plane (ACP) in Autonomic Networks (AN) to provide stable and secure connectivity for conducting OAM.  This connectivity is not subject to aforementioned circular dependencies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-anima-stable-connectivity-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-anima-stable-connectivity-04.txt' />
+</reference>

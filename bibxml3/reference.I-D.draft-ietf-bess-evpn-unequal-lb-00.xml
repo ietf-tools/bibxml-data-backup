@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-unequal-lb'>
+<front>
+<title>Weighted Multi-Path Procedures for EVPN All-Active Multi-Homing</title>
+
+<author initials='N' surname='Malhotra' fullname='Neeraj Malhotra'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lingala' fullname='Avinash Lingala'>
+    <organization />
+</author>
+
+<author initials='S' surname='Thoria' fullname='Samir Thoria'>
+    <organization />
+</author>
+
+<date month='September' day='19' year='2018' />
+
+<abstract><t>In an EVPN-IRB based network overlay, EVPN LAG enables all-active multi-homing for a host or CE device connected to two or more PEs via a LAG bundle, such that bridged and routed traffic from remote PEs can be equally load balanced (ECMPed) across the multi-homing PEs. This document defines extensions to EVPN procedures to optimally handle unequal access bandwidth distribution across a set of multi- homing PEs in order to:  o provide greater flexibility, with respect to adding or removing individual PE-CE links within the access LAG  o handle PE-CE LAG member link failures that can result in unequal PE-CE access bandwidth across a set of multi-homing PEs</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-unequal-lb-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-unequal-lb-00.txt' />
+</reference>

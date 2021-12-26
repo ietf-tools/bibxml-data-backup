@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-grow-bmp-tlv'>
+<front>
+<title>TLV support for BMP Route Monitoring and Peer Down Messages</title>
+
+<author initials='P' surname='Lucente' fullname='Paolo Lucente'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Gu' fullname='Yunan Gu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Smit' fullname='Henk Smit'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2019' />
+
+<abstract><t>Most of the message types defined by the BGP Monitoring Protocol (BMP) do provision for optional trailing data; however Route Monitoring message (to provide a snapshot of the monitored Routing Information Base) and Peer Down message (to indicate that a peering session was terminated) do not.  Supporting optional data in TLV format across all BMP message types allows for an homogeneous and extensible surface that would be useful for the most different use- cases that need to convey additional data to a BMP station.  While this document does not want to cover any specific utilization scenario, it defines a simple way to support optional TLV data in all message types.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-grow-bmp-tlv-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-grow-bmp-tlv-01.txt' />
+</reference>

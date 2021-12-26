@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dukhovni-smtp-opportunistic-tls'>
+<front>
+<title>SMTP security via opportunistic DANE TLS</title>
+
+<author initials='V' surname='Dukhovni' fullname='Viktor Dukhovni'>
+    <organization />
+</author>
+
+<author initials='W' surname='Hardaker' fullname='Wesley Hardaker'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>This memo describes a protocol for opportunistic TLS security based on the DANE TLSA DNS record.  The design goal is an incremental transition of the Internet email backbone (MTA to MTA SMTP traffic) from today's unauthenticated and unencrypted connections to TLS encrypted and authenticated delivery when the client is DANE TLSA aware and the server domain publishes DANE TLSA records for its MX hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dukhovni-smtp-opportunistic-tls-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dukhovni-smtp-opportunistic-tls-01.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birkholz-rats-uccs'>
+<front>
+<title>A CBOR Tag for Unprotected CWT Claims Sets</title>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='J' surname='O&apos;Donoghue' fullname='Jeremy O&apos;Donoghue'>
+    <organization />
+</author>
+
+<author initials='N' surname='Cam-Winget' fullname='Nancy Cam-Winget'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2020' />
+
+<abstract><t>CBOR Web Token (CWT, RFC 8392) Claims Sets sometimes do not need the protection afforded by wrapping them into COSE, as is required for a true CWT.  This specification defines a CBOR tag for such unprotected CWT Claims Sets (UCCS) and discusses conditions for its proper use.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-birkholz-rats-uccs-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-birkholz-rats-uccs-01.txt' />
+</reference>

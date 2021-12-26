@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mathis-tcpm-tcp-laminar'>
+<front>
+<title>Laminar TCP and the case for refactoring TCP congestion control</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>The primary state variables used by all TCP congestion control algorithms, cwnd and ssthresh, are heavily overloaded, carrying different semantics in different states.  This leads to excess implementation complexity and poorly defined behaviors under some combinations of events, such as application stalls during loss recovery.  We propose a new framework for TCP congestion control, and to recast current standard algorithms to use new state variables. This new framework will not generally change the behavior of any of the primary congestion control algorithms when they are invoked in isolation.  It will permit new algorithms with better behaviors in many corner cases, such as when two distinct primary algorithms are invoked concurrently.  It will also foster the creation of new algorithms to address some events that are poorly treated by today's standards.  For the vast majority of traditional algorithms the transformation to the new state variables is completely straightforward.  However, the resulting implementation is likely to technically be in violation of existing TCP standards, even if it is fully compliant with their principles and intent.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mathis-tcpm-tcp-laminar-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mathis-tcpm-tcp-laminar-01.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sajassi-l2vpn-pbb-vpls-multicast'>
+<front>
+<title>Multicast Pruning in Provider Backbone Bridged VPLS</title>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan  Fang'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bitar' fullname='Nabil Bitar'>
+    <organization />
+</author>
+
+<author initials='R' surname='Zhang' fullname='Raymond Zhang'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>The scalability of H-VPLS (either with MPLS or Ethernet access network) can be improved by incorporating Provider Backbone Bridge (PBB) functionality in VPLS access. The ingress replication of PBB multicast traffic can be further improved by replicating such traffic over a subset of PWs for which there are receivers interested in that PBB multicast group.  This document discusses the use of BGP for distribution of PBB multicast addresses (e.g., auto-discovery of these addresses) and applying multicast pruning to a VPLS instance for efficient ingress replication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sajassi-l2vpn-pbb-vpls-multicast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sajassi-l2vpn-pbb-vpls-multicast-00.txt' />
+</reference>

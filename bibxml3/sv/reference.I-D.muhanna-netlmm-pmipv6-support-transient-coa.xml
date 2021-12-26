@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.muhanna-netlmm-pmipv6-support-transient-coa'>
+<front>
+<title>Proxy MIPv6 Support of Transient Registration</title>
+
+<author initials='A' surname='Muhanna' fullname='Ahmad Muhanna'>
+    <organization />
+</author>
+
+<author initials='S' surname='Krishnan' fullname='Suresh  Krishnan'>
+    <organization />
+</author>
+
+<author initials='K' surname='Leung' fullname='Kent Leung'>
+    <organization />
+</author>
+
+<author initials='B' surname='Patil' fullname='Basavaraj Patil'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>In order for the local mobility anchor to receive and forward uplink traffic for a mobile node, Proxy Mobile IPv6 base protocol mandates the LMA to have an active BCE with a registered proxy CoA that is the other end of the tunnel between the LMA and MAG.  In some systems and during active inter-MAG handoff with traffic that is sensitive to delay and packet loss, the LMA is required to forward uplink traffic for the mobile node from the target MAG without completely switching the tunnel from the source MAG.  This document specifies a mechanism which allows the target MAG to perform transient registration for a new proxy CoA and the LMA to create a transient BCE for the same mobile node for a specified period of time while maintaining the original mobile node's BCE which reference the old pCoA at the source MAG.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-muhanna-netlmm-pmipv6-support-transient-coa-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-muhanna-netlmm-pmipv6-support-transient-coa-01.txt' />
+</reference>

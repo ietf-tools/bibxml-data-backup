@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bhattacharyya-dice-less-on-coap'>
+<front>
+<title>Lightweight Establishment of Secure Session (LESS) on CoAP</title>
+
+<author initials='A' surname='Bhattacharyya' fullname='Abhijan Bhattacharyya'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bandyopadhyay' fullname='Soma Bandyopadhyay'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ukil' fullname='Arijit Ukil'>
+    <organization />
+</author>
+
+<author initials='T' surname='Bose' fullname='Tulika Bose'>
+    <organization />
+</author>
+
+<author initials='A' surname='Pal' fullname='Arpan Pal'>
+    <organization />
+</author>
+
+<date month='April' day='17' year='2015' />
+
+<abstract><t>This draft presents an experimental work proposing a lightweight secure session establishment scheme to mutually authenticate two endpoints and share the session key. It works on symmetric cryptosystem with pre-shared secret between the endpoints during provisioning. The main algorithm is proposed as a generic concept. This draft further describes how the generic concept can be modeled as simple CoAP request/response pairs. Thus the proposed scheme enables CoAP with inherent security which might be useful for object security without requiring any secure transport. Still further, this draft demonstrates how the scheme could be integrated with the record encryption mechanism of DTLS-PSK. It reuses the DTLS session parameter structure without any modification. Thus channel security for the whole application message can be provided. So the scheme is a cross-layer mechanism such that the session establishment is performed in CoAP and channel encryption is performed in the transport layer reusing only the record encryption mechanism of DTLS-PSK. The scheme uses all standard encryption libraries. The lightweight nature and performance improvement is demonstrated with some supporting comparative results.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bhattacharyya-dice-less-on-coap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bhattacharyya-dice-less-on-coap-00.txt' />
+</reference>

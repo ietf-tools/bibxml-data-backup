@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoeper-hokey-arch-design'>
+<front>
+<title>HOKEY Architecture Design</title>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hoeper' fullname='Katrin Hoeper'>
+    <organization />
+</author>
+
+<author initials='S' surname='Decugis' fullname='Sebastien Decugis'>
+    <organization />
+</author>
+
+<author initials='G' surname='Zorn' fullname='Glen Zorn'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>HOKEY seeks to minimize handover delay due to authentication when a peer moves from one point of attachment to another.  Work has progressed on two different approaches to reducing handover delay: early authentication, and reuse of cryptographic material generated during an initial authentication to save time during re- authentication.  A starting assumption is that the mobile host or "peer" is initially authenticated using EAP, and the source of keying material used to authenticate the peer is an EAP authentication server in the peer's home network.  This document describes the HOKEY architecture.  Specifically, it describes design objectives for the architecture, main components of the HOKEY architecture, HOKEY deployment scenarios in the wireless environment, and the message flows that must pass between the architectural components in those various scenarios.  Other documents describe the protocol(s) needed to implement the message flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoeper-hokey-arch-design-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoeper-hokey-arch-design-02.txt' />
+</reference>

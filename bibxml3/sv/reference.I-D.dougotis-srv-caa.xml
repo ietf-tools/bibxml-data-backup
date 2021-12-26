@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dougotis-srv-caa'>
+<front>
+<title>DNS Extension for SRV-Client Address Authorization (SRV-CAA)</title>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<date month='May' day='17' year='2004' />
+
+<abstract><t>Typical use of DNS records enables resolving a server address, but this record extension authorizes clients to initiate a specific protocol. This document simply extends definitions for fields of a DNS SRV record as defined in [RFC2782] and appends '_c' to the label in the Proto field. This extension enables administrative control of a domain referenced by a client as it enables verification of permitted client addresses. This record extension is useful to authorize a client for a specific protocol and possibly useful for confirming veracity of a return path also referenced by a client. Although an in-addr.arpa IP address reverse DNS query may assert a domain, the domain referenced within client identification may be an alias and thus not match. In addition, specific protocol authorization for the client can not be deduced and reverse DNS information is optional, typically administered separately or not delegated, and thus often providing information of limited value.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dougotis-srv-caa-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dougotis-srv-caa-00.txt' />
+</reference>

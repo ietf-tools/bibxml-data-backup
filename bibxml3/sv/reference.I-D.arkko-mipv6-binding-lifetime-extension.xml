@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.arkko-mipv6-binding-lifetime-extension'>
+<front>
+<title>Credit-Based Authorization for Binding Lifetime Extension</title>
+
+<author initials='J' surname='Arkko' fullname='Jari Arkko'>
+    <organization />
+</author>
+
+<author initials='C' surname='Vogt' fullname='Christian Vogt'>
+    <organization />
+</author>
+
+<date month='May' day='21' year='2004' />
+
+<abstract><t>Mobile IPv6 return routability mechanisms require home and care-of address keygen tokens to be used to authorize a binding update to correspondent nodes. The current rules dictate that such authorization be performed every seven minutes, using tokens at most three and half minutes old. This requirement results in an average signaling traffic of around 7 bits per second when the hosts are not moving around. This traffic load by itself is neglible, but can be problematic for hosts in standby mode. We present a secure and lightweight extension of return routability that can reduce this signaling load to around 0.1 bits per second, and require hosts to wake up much less frequently.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-arkko-mipv6-binding-lifetime-extension-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-arkko-mipv6-binding-lifetime-extension-00.txt' />
+</reference>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8217' target='https://www.rfc-editor.org/info/rfc8217'>
+<front>
+<title>Clarifications for When to Use the name-addr Production in SIP Messages</title>
+<author initials='R.' surname='Sparks' fullname='R. Sparks'><organization /></author>
+<date year='2017' month='August' />
+<abstract><t>RFC 3261 constrained several SIP header fields whose grammar contains the &quot;name-addr / addr-spec&quot; alternative to use name-addr when certain characters appear.  Unfortunately, it expressed the constraints with prose copied into each header field definition, and at least one header field was missed.  Further, the constraint has not been copied into documents defining extension headers whose grammar contains the alternative.</t><t>This document updates RFC 3261 to state the constraint generically and clarifies that the constraint applies to all SIP header fields where there is a choice between using name-addr or addr-spec.  It also updates the RFCs that define extension SIP header fields using the alternative to clarify that the constraint applies (RFCs 3325, 3515, 3892, 4508, 5002, 5318, 5360, and 5502).</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8217'/>
+<seriesInfo name='DOI' value='10.17487/RFC8217'/>
+</reference>

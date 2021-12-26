@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2vpn-pbb-vpls-pe-model'>
+<front>
+<title>Extensions to VPLS PE model for Provider Backbone Bridging</title>
+
+<author initials='F' surname='Balus' fullname='Florin Balus'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bocci' fullname='Matthew Bocci'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bitar' fullname='Nabil Bitar'>
+    <organization />
+</author>
+
+<author initials='R' surname='Zhang' fullname='Raymond Zhang'>
+    <organization />
+</author>
+
+<date month='August' day='29' year='2012' />
+
+<abstract><t>IEEE 802.1ah standard [IEEE802.1ah], also known as Provider Backbone Bridges (PBB) defines an architecture and bridge protocols for interconnection of multiple Provider Bridge Networks (PBNs). PBB was defined in IEEE as a connectionless technology based on multipoint VLAN tunnels. MSTP is used as the core control plane for loop avoidance and load balancing. As a result, the coverage of the solution is limited by STP scale in the core of large service provider networks. PBB on the other hand can be used to attain better scalability in terms of number of customer MAC addresses and number of service instances that can be supported.  Virtual Private LAN Service (VPLS) [RFC4664] provides a framework for extending Ethernet LAN services, using MPLS tunneling capabilities, through a routed MPLS backbone without running (M)STP across the backbone. As a result, VPLS has been deployed on a large scale in service provider networks.  This draft discusses extensions to the VPLS PE model required to incorporate desirable PBB components while maintaining the Service Provider fit of the initial model.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2vpn-pbb-vpls-pe-model-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2vpn-pbb-vpls-pe-model-05.txt' />
+</reference>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pals-congcons'>
+<front>
+<title>Pseudowire Congestion Considerations</title>
+
+<author initials='Y' surname='Stein' fullname='Yaakov Stein'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='April' day='21' year='2016' />
+
+<abstract><t>Pseudowires (PWs) have become a common mechanism for tunneling traffic, and may be found in unmanaged scenarios competing for network resources both with other PWs and with non-PW traffic, such as TCP/IP flows.  It is thus worthwhile specifying under what conditions such competition is acceptable, i.e., the PW traffic does not significantly harm other traffic or contribute more than it should to congestion.  We conclude that PWs transporting responsive traffic behave as desired without the need for additional mechanisms. For inelastic PWs (such as TDM PWs) we derive a bound under which such PWs consume no more network capacity than a TCP flow.  For TDM PWs, we find that the level of congestion at which the PW can no longer deliver acceptable TDM service is never significantly greater, and typically much lower, than this bound.  Therefore, as long as the PW is shut down when it can no longer deliver acceptable TDM service, it will never do significantly more harm than even a single TCP flow. If the TDM service does not automatically shut down, a mechanism to block persistently unacceptable TDM pseudowires is required.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pals-congcons-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pals-congcons-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pals-congcons-02.pdf' />
+</reference>

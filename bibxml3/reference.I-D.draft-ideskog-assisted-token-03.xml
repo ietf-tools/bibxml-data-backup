@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ideskog-assisted-token'>
+<front>
+<title>OAuth 2.0 Assisted Token</title>
+
+<author initials='J' surname='Ideskog' fullname='Jacob Ideskog'>
+    <organization />
+</author>
+
+<author initials='T' surname='Spencer' fullname='Travis Spencer'>
+    <organization />
+</author>
+
+<date month='January' day='4' year='2021' />
+
+<abstract><t>This document extends the OAuth 2.0 framework to include an additional authorization flow for single page applications called the assisted token flow.  It enables OAuth clients written in scripting languages, like JavaScript, to request user authorization using a simplified method compared to other flows.  Communication does not rely on redirection of the user agent, but instead leverages HTML's iframe element, child windows, and the postMessage interface.  This communication is done using an additional endpoint, the assisted token endpoint.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ideskog-assisted-token-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ideskog-assisted-token-03.txt' />
+</reference>

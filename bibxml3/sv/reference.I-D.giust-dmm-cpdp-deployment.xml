@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.giust-dmm-cpdp-deployment'>
+<front>
+<title>Deployment of Control-/Data-Plane separation in DMM</title>
+
+<author initials='F' surname='Giust' fullname='Fabio Giust'>
+    <organization />
+</author>
+
+<author initials='M' surname='Liebsch' fullname='Marco Liebsch'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>The DMM working group is currently looking at solutions for mobility management based on control and data plane separation.  In this context, the network entities in charge for the mobility control function are separated from the data plane nodes, responsible mainly for, but not limited to, data packet forwarding.  This vision allows for the design of different interaction methods between the mobility control function and the data plane nodes.  One of such mechanisms being currently discussed devises an SDN-based abstraction layer between control and data planes, embodied by an SDN Network Controller.  This latter interfaces to the mobility control function through a north-bound interface (NBI), and programs the underneath infrastructure through a south-bound interface (SBI), e.g., OpenFlow.  This draft describes multiple deployment scenarios for NBI and SBI interworking, given that multiple network controllers could be deployed in order to meet performance requirements e.g., related to latency.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-giust-dmm-cpdp-deployment-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-giust-dmm-cpdp-deployment-00.txt' />
+</reference>

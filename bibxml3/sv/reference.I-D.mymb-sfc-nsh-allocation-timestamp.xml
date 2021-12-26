@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mymb-sfc-nsh-allocation-timestamp'>
+<front>
+<title>Network Service Header (NSH) Fixed-Length Context Header Allocation: Timestamp</title>
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+<organization />
+</author>
+<author initials='I' surname='Yerushalmi' fullname='Ilan Yerushalmi'>
+<organization />
+</author>
+<author initials='D' surname='Melman' fullname='David Melman'>
+<organization />
+</author>
+<author initials='R' surname='Browne' fullname='Rory Browne'>
+<organization />
+</author>
+<date year='2021' month='December' day='20' />
+<abstract><t>The Network Service Header (NSH) specification defines two possible methods of including metadata (MD): MD Type 0x1 and MD Type 0x2.  MD Type 0x1 uses a fixed-length Context Header.  The allocation of this Context Header, i.e., its structure and semantics, has not been standardized.  This memo presents an allocation for the fixed Context Headers of NSH, which incorporates the packet's timestamp, a sequence number, and a source interface identifier.</t><t> Although the allocation that is presented in this document has not been standardized by the IETF it has been implemented in silicon by several manufacturers and is published here to allow other interoperable implementations and to facilitate debugging if it is seen in the network.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-mymb-sfc-nsh-allocation-timestamp-12'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-mymb-sfc-nsh-allocation-timestamp-12.txt'/>
+</reference>

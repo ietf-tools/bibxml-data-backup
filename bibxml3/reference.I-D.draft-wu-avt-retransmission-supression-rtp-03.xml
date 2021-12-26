@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-avt-retransmission-supression-rtp'>
+<front>
+<title>RTCP Report Extension for Feedback Suppression</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<date month='October' day='8' year='2010' />
+
+<abstract><t>This document specifies an extension to the RTCP feedback messages defined in the Audio-Visual Profile with Feedback (AVPF).  This extension allows an intermediate node in the network (such as an RTP translator) inform downstream receivers that sending a feedback message concerning a specified set of RTP messages may be unnecessary, or even harmful.  For example, in a source-specific multicast session with large fan-out, packet loss close to the media or distribution source of the session is detected as a loss by a large number of receivers.  The RTCP NACK messages used to request retransmission of the missing packets are all addressed to the media sender, or a designated feedback target.  This may result in a phenomenon known variously as a "NACK implosion" or "feedback storm". The Feedback Suppression message defined herein is used to notify receivers that packet loss was detected and that the sender of the report will either proactively recover, or no recovery is possible. Receivers respond to receipt of a feedback suppression message by not sending a feedback message (e.g. a NACK) that they otherwise would, This in turn reduces load on both the feedback target and on the network.  This document registers two new RTCP messages for Feedback Suppression.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-avt-retransmission-supression-rtp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-avt-retransmission-supression-rtp-03.txt' />
+</reference>

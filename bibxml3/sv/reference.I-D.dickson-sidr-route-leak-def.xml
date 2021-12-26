@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dickson-sidr-route-leak-def'>
+<front>
+<title>Route Leaks -- Definitions</title>
+
+<author initials='B' surname='Dickson' fullname='Brian Dickson'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2012' />
+
+<abstract><t>The Border Gateway Protocol, version 4, (BGP4) provides the means to advertise reachability for IP prefixes.  This reachability information is propagated in a peer-to-peer topology.  Routes may be announced to neighbors, contrary to the receiver's local peering policy.  If that occurs, those routes may then be propagated indiscriminantly, once they have been accepted.  This document considers the situations that can lead to routes being leaked, and tries to find acceptable definitions for describing these scenarios.  The purpose of these definitions is to facilitate analysis of what a route leak is, and what the scope of the problem space for route leaks is.  This, in turn, is intended to inform a requirements document for detection of (and prevention of) route leaks.  And finally, the definitions and requirements are intended to allow proposed solutions which meet these criteria, and to facilitate evaluation of proposed solutions.  The ultimate goal is to "solve the route leaks problem".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dickson-sidr-route-leak-def-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dickson-sidr-route-leak-def-03.txt' />
+</reference>

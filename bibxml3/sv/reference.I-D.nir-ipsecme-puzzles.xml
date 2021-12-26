@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nir-ipsecme-puzzles'>
+<front>
+<title>Protecting Internet Key Exchange (IKE) Implementations from Denial of Service Attacks through Client Puzzles</title>
+
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+    <organization />
+</author>
+
+<date month='April' day='30' year='2014' />
+
+<abstract><t>This document describes an enhancement to the Stateless Cookie mechanism described in RFC 5996.  Whereas the original mechanism prevents denial-of-service (DoS) attacks that use multiple spoofed source addresses, the mechanism here is effective against a distributed denial of service attack (DDoS), where the attackers use their own source address.  This is accomplished by requiring proof of work by the Initiator before allocating resources at the Responder.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nir-ipsecme-puzzles-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nir-ipsecme-puzzles-00.txt' />
+</reference>

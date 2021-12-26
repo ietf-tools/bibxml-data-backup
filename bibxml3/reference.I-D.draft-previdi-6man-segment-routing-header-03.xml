@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.previdi-6man-segment-routing-header'>
+<front>
+<title>IPv6 Segment Routing Header (SRH)</title>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='B' surname='Field' fullname='Brian Field'>
+    <organization />
+</author>
+
+<author initials='I' surname='Leung' fullname='Ida Leung'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2014' />
+
+<abstract><t>Segment Routing (SR) allows a node to steer a packet through a controlled set of instructions, called segments, by prepending a SR header to the packet.  A segment can represent any instruction, topological or service-based.  SR allows to enforce a flow through any path (topological, or application/service based) while maintaining per-flow state only at the ingress node to the SR domain.  Segment Routing can be applied to the IPv6 data plane with the addition of a new type of Routing Extension Header.  This draft describes the Segment Routing Extension Header Type and how it is used by SR capable nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-previdi-6man-segment-routing-header-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-previdi-6man-segment-routing-header-03.txt' />
+</reference>

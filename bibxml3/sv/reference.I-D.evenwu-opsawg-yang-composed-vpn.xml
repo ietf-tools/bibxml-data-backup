@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.evenwu-opsawg-yang-composed-vpn'>
+<front>
+<title>YANG Data Model for Composed VPN Service Delivery</title>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<author initials='W' surname='Bo' fullname='Wu Bo'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cheng' fullname='Ying Cheng'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2019' />
+
+<abstract><t>This document defines a YANG data model that can be used by a network operator to configure a VPN service that spans multiple administrative domains and that is constructed from component VPNs in each of those administrative domains.  The component VPNs may be L2VPN or L3VPN or a mixture of the two.  This model is intended to be instantiated at the management system to deliver the end to end service (i.e., performing service provision and activation functions at different levels through a unified interface).  The model is not a configuration model to be used directly on network elements.  This model provides an abstracted common view of VPN service configuration components segmented at different layer and administrative domain.  It is up to a management system to take this as an input and generate specific configurations models to configure the different network elements within each administrative domain to deliver the service.  How configuration of network elements is done is out of scope of the document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-evenwu-opsawg-yang-composed-vpn-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-evenwu-opsawg-yang-composed-vpn-03.txt' />
+</reference>

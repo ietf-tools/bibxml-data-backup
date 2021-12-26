@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-enum-unused'>
+<front>
+<title>IANA Registration for Enumservice UNUSED</title>
+
+<author initials='R' surname='Stastny' fullname='Richard Stastny'>
+    <organization />
+</author>
+
+<author initials='L' surname='Conroy' fullname='Lawrence Conroy'>
+    <organization />
+</author>
+
+<author initials='J' surname='Reid' fullname='Jim Reid'>
+    <organization />
+</author>
+
+<date month='March' day='29' year='2008' />
+
+<abstract><t>This document registers the Enumservice "unused" using the URI scheme "http:" as per the IANA registration process defined in the ENUM specification, RFC 3761.  This Enumservice may be used to indicate that the E.164 number (or E.164 number range) tied to the domain in which the enclosing NAPTR is published is not allocated or assigned for communications service.  When such an indication is provided, an ENUM client can detect calls that will fail "early".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-enum-unused-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-enum-unused-04.txt' />
+</reference>

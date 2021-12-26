@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.herbert-remotecsumoffload'>
+<front>
+<title>Remote checksum offload for encapsulation</title>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<date month='August' day='26' year='2014' />
+
+<abstract><t>This specification describes remote checksum offload for encapsulation, which is a mechanism that provides checksum offload of encapsulated packets using rudimentary offload capabilities found in most Network Interface Card (NIC) devices. The outer header checksum (e.g. that in UDP or GRE) is enabled in packets and, with some additional meta information, a receiver is able to deduce the checksum to be set for an inner encapsulated packet. Effectively this offloads the computation of the inner checksum. Enabling the outer checksum in encapsulation has the additional advantage that it covers more of the packet than the inner checksum including the encapsulation headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-herbert-remotecsumoffload-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-herbert-remotecsumoffload-00.txt' />
+</reference>

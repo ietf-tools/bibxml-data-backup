@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lsr-ospf-l2bundles'>
+<front>
+<title>Advertising L2 Bundle Member Link Attributes in OSPF</title>
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+<organization />
+</author>
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+<organization />
+</author>
+<date year='2021' month='October' day='22' />
+<abstract><t>There are deployments where the Layer 3 interface on which OSPF operates is a Layer 2 interface bundle.  Existing OSPF advertisements only support advertising link attributes of the Layer 3 interface. If entities external to OSPF wish to control traffic flows on the individual physical links which comprise the Layer 2 interface bundle link attribute information about the bundle members is required.</t><t> This document introduces the ability for OSPF to advertise the link attributes of layer 2 (L2) Bundle members.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-lsr-ospf-l2bundles-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-lsr-ospf-l2bundles-02.txt'/>
+</reference>

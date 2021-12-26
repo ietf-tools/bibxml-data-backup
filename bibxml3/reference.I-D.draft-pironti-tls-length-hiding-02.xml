@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pironti-tls-length-hiding'>
+<front>
+<title>Length Hiding Padding for the Transport Layer Security Protocol</title>
+
+<author initials='A' surname='Pironti' fullname='Alfredo Pironti'>
+    <organization />
+</author>
+
+<author initials='N' surname='Mavrogiannopoulos' fullname='Nikos Mavrogiannopoulos'>
+    <organization />
+</author>
+
+<date month='September' day='11' year='2013' />
+
+<abstract><t>This memo proposes length hiding methods of operation for the TLS protocol.  It defines a TLS extension to allow arbitrary amount of padding in any TLS ciphersuite, and it presents guidelines and a reference implementation of record fragmentation and padding so that the length of the exchanged messages is effectively concealed within a given range of lengths.  The latter guidelines also apply to the standard TLS padding allowed by the TLS block ciphers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pironti-tls-length-hiding-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pironti-tls-length-hiding-02.txt' />
+</reference>

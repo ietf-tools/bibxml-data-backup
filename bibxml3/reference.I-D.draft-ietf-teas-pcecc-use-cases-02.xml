@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-teas-pcecc-use-cases'>
+<front>
+<title>The Use Cases for Path Computation Element (PCE) as a Central Controller (PCECC).</title>
+
+<author initials='Q' surname='Zhao' fullname='Quintin Zhao'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='B' surname='Khasanov' fullname='Boris Khasanov'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ke' fullname='Zekung Ke'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Chao Zhou'>
+    <organization />
+</author>
+
+<author initials='T' surname='Communications' fullname='Telus Communications'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rachitskiy' fullname='Artem Rachitskiy'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gulida' fullname='Anton Gulida'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2018' />
+
+<abstract><t>The Path Computation Element (PCE) is a core component of Software- Defined Networking (SDN) systems.  It can compute optimal paths for traffic across a network and can also update the paths to reflect changes in the network or traffic demands.  PCE was developed to derive paths for MPLS Label Switched Paths (LSPs), which are supplied to the head end of the LSP using the Path Computation Element Communication Protocol (PCEP).  SDN has a broader applicability than signaled MPLS traffic-engineered (TE) networks, and the PCE may be used to determine paths in a range of use cases including static LSPs, segment routing, Service Function Chaining (SFC), and most forms of a routed or switched network.  It is, therefore, reasonable to consider PCEP as a control protocol for use in these environments to allow the PCE to be fully enabled as a central controller.  This document describes general considerations for PCECC deployment and examines its applicability and benefits, as well as its challenges and limitations, through a number of use cases.  PCEP extensions required for stateful PCE usage are covered in separate documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-teas-pcecc-use-cases-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-teas-pcecc-use-cases-02.txt' />
+</reference>

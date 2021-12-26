@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-mipshop-fmip-ptp'>
+<front>
+<title>Fast Handovers for Mobile IPv6 Operation on Point-to-Point Links</title>
+
+<author initials='F' surname='Xia' fullname='Frank  Xia'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2007' />
+
+<abstract><t>FMIPv6 standard currently assumes that the mobile nodes are connected to the access routers using a shared link and does not define the operation over Point-to-Point links. In this document we define FMIPv6 operation over the Point-to-Point links. A PAR advertises PrRtAdv including one or more aggregate prefixes of a NAR to an MN; The MN formulates it's provisional NCoAs with the aggregate prefix(es); The MN initiates FMIPv6 procedure including the provisional NCoAs. Once detecting provisional NCoAs of the MN, the NAR assigns a unique prefix called the dedicated prefix to MN and the MN configures it's final NCoAs. Both reactive and predictive modes of FMIPv6 are explained.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-mipshop-fmip-ptp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-mipshop-fmip-ptp-00.txt' />
+</reference>

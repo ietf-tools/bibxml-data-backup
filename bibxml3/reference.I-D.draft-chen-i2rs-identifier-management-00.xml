@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-i2rs-identifier-management'>
+<front>
+<title>Identifier Management for I2RS Protocol</title>
+
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+    <organization />
+</author>
+
+<author initials='F' surname='Feng' fullname='Frank Feng'>
+    <organization />
+</author>
+
+<date month='March' day='22' year='2015' />
+
+<abstract><t>An I2RS Agent may communicate with multiple clients.  Two (or more) client may attempt to manipulate the same piece of data on the I2RS Agent.  In order to solve this collision, the proposal is to have a simple priority associated with each I2RS Client.  In addition, if the hold timer for an I2RS session expires, the I2RS Agent should delete the I2RS data associated with the I2RS Client. In order to delete the related I2RS data correctly, it is important to identify the client on the I2RS Agent.  This document describes how to deploy identifier and priority associated with each I2RS Client based on [I-D.ietf-i2rs-architecture].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-i2rs-identifier-management-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-i2rs-identifier-management-00.txt' />
+</reference>

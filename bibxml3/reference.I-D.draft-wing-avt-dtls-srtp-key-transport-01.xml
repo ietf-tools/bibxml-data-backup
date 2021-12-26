@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wing-avt-dtls-srtp-key-transport'>
+<front>
+<title>Datagram TLS Secure RTP (DTLS-SRTP) Key Transport</title>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2008' />
+
+<abstract><t>The existing DTLS-SRTP specification allows SRTP keys to be established between a pair of SRTP endpoints.  However, when there are more than two participants in an RTP session, DTLS-SRTP is unable to provide a single key for all of the participants.  This existing limitation of DTLS-SRTP prevents deploying DTLS-SRTP in certain scenarios.  This document describes an extension to DTLS-SRTP which transports SRTP keying material from one DTLS-SRTP peer to another, so the same SRTP keying material can be used by multiple DTLS-SRTP peers.  This extension reduces (and often eliminates) the need to key each SRTP session individually, allowing deployment of several DTLS-SRTP scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wing-avt-dtls-srtp-key-transport-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wing-avt-dtls-srtp-key-transport-01.txt' />
+</reference>

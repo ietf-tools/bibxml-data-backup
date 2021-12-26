@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.manjuldtv-ospf-sequence-number'>
+<front>
+<title>OSPF LSA sequence number generation</title>
+
+<author initials='M' surname='Khandelwal' fullname='Manjul Khandelwal'>
+    <organization />
+</author>
+
+<author initials='R' surname='Desetti' fullname='Ramakrishna Desetti'>
+    <organization />
+</author>
+
+<date month='May' day='9' year='2016' />
+
+<abstract><t>The mechanism for LS sequence number generation as specified in RFC 2328 and RFC 5340 is completely predictable.  This makes it prone to certain security attacks which exploit the predictable nature of LS sequence numbers.  This draft updates the RFC 2328 to make LS sequence number generation an implementation choice rather than a fixed increment by 1 for successive LSAs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-manjuldtv-ospf-sequence-number-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-manjuldtv-ospf-sequence-number-00.txt' />
+</reference>

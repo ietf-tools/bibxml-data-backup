@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kampanakis-curdle-pq-ssh'>
+<front>
+<title>Post-quantum public key algorithms for the Secure Shell (SSH) protocol</title>
+<author initials='P' surname='Kampanakis' fullname='Panos Kampanakis'>
+<organization />
+</author>
+<author initials='D' surname='Steblia' fullname='Douglas Steblia'>
+<organization />
+</author>
+<author initials='M' surname='Friedl' fullname='Markus Friedl'>
+<organization />
+</author>
+<author initials='T' surname='Hansen' fullname='Torben Hansen'>
+<organization />
+</author>
+<author initials='D' surname='Sikeridis' fullname='Dimitrios Sikeridis'>
+<organization />
+</author>
+<date year='2020' month='October' day='21' />
+<abstract><t>This document defines hybrid key exchange methods based on classical ECDH key exchange and post-quantum key encapsulation schemes.  These methods are defined for use in the SSH Transport Layer Protocol.  It also defines post-quantum public key authentication methods based on post-quantum signature schemes.  These methods are defined for use in the SSH Authentication Protocol.</t><t> Note</t><t> EDNOTE: The goal of this draft is to start the standardization of PQ algorithms in SSH early to mitigate the potential record-and-harvest later with a quantum computer attacks.  This draft is not expected to be finalized before the NIST PQ Project has standardized PQ algorithms.  After NIST has standardized then this document will replace TBD1, TBD3 with the appropriate algorithms and parameters before proceeding to ratification.</t><t> EDNOTE: Discussion of this work is encouraged to happen on the IETF WG Mailing List or in the GitHub repository which contains the draft: https://github.com/csosto-pk/pq-ssh/issues .</t><t> *Change Log* [EDNOTE: Remove befor publicaton].</t><t> draft-kampanakis-curdle-pq-ssh-00 *  Initial draft</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-kampanakis-curdle-pq-ssh-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-kampanakis-curdle-pq-ssh-00.txt'/>
+</reference>

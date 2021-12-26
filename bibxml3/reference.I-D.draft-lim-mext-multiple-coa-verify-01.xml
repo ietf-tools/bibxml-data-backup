@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lim-mext-multiple-coa-verify'>
+<front>
+<title>Verification of Care-of Addresses in Multiple Bindings Registration</title>
+
+<author initials='B' surname='Lim' fullname='Benjamin Lim'>
+    <organization />
+</author>
+
+<author initials='C' surname='Ng' fullname='Chan-Wah Ng'>
+    <organization />
+</author>
+
+<author initials='K' surname='Aso' fullname='Keigo Aso'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2008' />
+
+<abstract><t>Using multiple care-of address registration, there is a possibility that a malicious mobile node could create multiple care-of address bindings that does not belong to the mobile node at its home agent. The home agent would accept these bindings without verifying them due to the trust relationship it has with the mobile node.  With these bindings, the mobile node can launch attacks by asking the home agent to flood the victims of these care-of addresses with useless packets. To mitigate such a problem, this memo introduces a verification mechanism that the home agent would use in order to verify the care-of addresses for the mobile node before using them for packet routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lim-mext-multiple-coa-verify-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lim-mext-multiple-coa-verify-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.scholl-idr-advisory'>
+<front>
+<title>BGP Advisory Message</title>
+
+<author initials='T' surname='Scholl' fullname='Tom Scholl'>
+    <organization />
+</author>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>The BGP routing protocol is used with external as well as internal neighbors to propagate route advertisements.  In the case of external BGP sessions, there is typically a demarcation of administrative responsibility between the two entities.  Provisioning, maintenance and administrative actions are communicated via off-line methods such as email or telephone calls.  While these methods have been used for many years, it can be troublesome for an operator to correlate a BGP- related event in the network with a notice that was transmitted in email.  This document proposes a new BGP message type, the Advisory message, which can be used to convey advisory information to a BGP speaker's peer.  A capability is used to ensure that the recipient of the Advisory message is capable of supporting it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-scholl-idr-advisory-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-scholl-idr-advisory-00.txt' />
+</reference>

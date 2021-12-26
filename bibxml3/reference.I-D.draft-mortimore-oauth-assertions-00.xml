@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mortimore-oauth-assertions'>
+<front>
+<title>OAuth 2.0 Assertion Profile</title>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<author initials='B' surname='Campbell' fullname='Brian Campbell'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Goland' fullname='Yaron Goland'>
+    <organization />
+</author>
+
+<date month='June' day='18' year='2011' />
+
+<abstract><t>This specification provides a general framework for the use of assertions as client credentials and/or authorization grants with OAuth 2.0.  It includes a generic mechanism for transporting assertions during interactions with a token endpoint, as wells as rules for the content and processing of those assertions.  The intent is to provide an enhanced security profile by using derived values such as signatures or HMACs, as well as facilitate the use of OAuth 2.0 in client-server integration scenarios where the end-user may not be present.  This specification only defines abstract messsage flow and assertion content.  Actual use requires implementation of a companion protocol binding specification.  Additional profile documents provide standard representations in formats such as SAML and JWT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mortimore-oauth-assertions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mortimore-oauth-assertions-00.txt' />
+</reference>

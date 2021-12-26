@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-association-diversity'>
+<front>
+<title>Path Computation Element Communication Protocol (PCEP) Extension for LSP Diversity Constraint Signaling</title>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Barth' fullname='Colby Barth'>
+    <organization />
+</author>
+
+<author initials='M' surname='Negi' fullname='Mahendra Negi'>
+    <organization />
+</author>
+
+<date month='August' day='16' year='2019' />
+
+<abstract><t>This document introduces a simple mechanism to associate a group of Label Switched Paths (LSPs) via an extension to the Path Computation Element (PCE) communication Protocol (PCEP) with the purpose of computing diverse paths for those LSPs.  The proposed extension allows a Path Computation Client (PCC) to advertise to a PCE that a particular LSP belongs to a disjoint-group, thus the PCE knows that the LSPs in the same group need to be disjoint from each other.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-association-diversity-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-association-diversity-09.txt' />
+</reference>

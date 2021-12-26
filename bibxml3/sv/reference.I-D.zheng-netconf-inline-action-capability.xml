@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zheng-netconf-inline-action-capability'>
+<front>
+<title>Inline Action Capability for NETCONF</title>
+
+<author initials='G' surname='Zheng' fullname='Guangying Zheng'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2018' />
+
+<abstract><t>NETCONF provides mechanism to install configuration of network devices.  In many cases, it is required that the same configuration repeats on many interfaces.  In the absence of protocol semantics for performing operations with group-specific scope, this results in either a significant amount of signaling traffic and configuration template applying on a periodic basis or large packet size between a given network management system and a network devices.  This document defines optimizations to the NETCONF protocol operations for performing operations with group-specific scope with the use of a group identifier.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zheng-netconf-inline-action-capability-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zheng-netconf-inline-action-capability-02.txt' />
+</reference>

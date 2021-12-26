@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ladas-manet-cmlv2'>
+<front>
+<title>ChaMeLeon Version 2 (CMLv2): A multipath hybrid routing protocol</title>
+
+<author initials='A' surname='Ladas' fullname='Alexandros Ladas'>
+    <organization />
+</author>
+
+<author initials='N' surname='Weerasinghe' fullname='Nuwan Weerasinghe'>
+    <organization />
+</author>
+
+<author initials='C' surname='Politis' fullname='Christos Politis'>
+    <organization />
+</author>
+
+<author initials='O' surname='Adigun' fullname='Olayinka Adigun'>
+    <organization />
+</author>
+
+<author initials='O' surname='Adigun' fullname='Olayinka Adigun'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>This document describes the ChaMeLeon Version 2 (CMLv2) routing protocol designed for Mobile Ad hoc Networks (MANETs). CMLv2 is a multi-path, hybrid routing protocol operating within a defined area denoted as the Critical Area (CA). The main concept behind CMLv2 is the adaptability of its routing mechanisms towards changes in the physical and logical state of a MANET. For autonomous communications, there is a likelihood that the network size will vary whenever more devices join or leave the network. In addition, battery depletion of lightweight mobile communication devices will stipulate another reason for changes in the network size. Hence, CMLv2 adapts its routing behavior according to changes in the network size within a pre-defined CA. For small networks, CMLv2 routes data proactively using the Optimized Link State Routing version v2 (OLSRv2) protocol whereas for larger networks it utilizes the reactive Ad hoc On-Demand Distance Vector Version 2 (AODVv2) Routing protocol. These transitions occur via the oscillation phase, which is maintained from CMLv1. CMLv2 creates multi-path routes  for nodes with disjoint paths thereby increasing the reliability of the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ladas-manet-cmlv2-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ladas-manet-cmlv2-00.txt' />
+</reference>

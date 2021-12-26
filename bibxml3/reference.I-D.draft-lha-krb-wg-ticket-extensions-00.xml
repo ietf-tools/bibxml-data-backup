@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lha-krb-wg-ticket-extensions'>
+<front>
+<title>Kerberos ticket extensions</title>
+
+<author initials='L' surname='Astrand' fullname='Love Astrand'>
+    <organization />
+</author>
+
+<date month='August' day='13' year='2008' />
+
+<abstract><t>The Kerberos protocol does not allow ticket extensions.  This make it harder to deploy features like referrals and PKCROSS.  Since the Kerberos protocol did not specified extensibility for the Ticket structure and the current implementations are aware of the contents of tickets, the extension protocol cannot simply extend the Ticket ASN.1 structure.  Instead, the extension data needs to be hidden inside the ticket.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lha-krb-wg-ticket-extensions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lha-krb-wg-ticket-extensions-00.txt' />
+</reference>

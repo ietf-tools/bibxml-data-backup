@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-dkim-tpa-ssp'>
+<front>
+<title>DKIM Third-Party Authorization for Sender Signer Practices</title>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>TPA-SSP (DKIM Third-Party Authorization for Sender Signing Practices) is a DNS-based label prefix mechanism for authorizing Third-Party domains.  This mechanism allows a first-party domain to autonomously authorize a range of third-party domains in a scalable, individual DNS transaction.  This authorization can extend the scope of DKIM-SSP policy assertions and eliminate more difficult to administer mechanisms.  Alternatives for facilitating third-party authorizations currently necessitate coordination between two domains by setting up selector/key DNS records, DNS zone delegations, or the regular exchange of public/private keys.  Checking Sender Signing Practices occurs when a From header email- address is not within the domain of a valid DKIM signature.  When a Third-Party signature is found, TPA-SSP offers an efficient means for the email address domain within the From header to specifically authorize other third-party signing domains.  The scope of the authorization may also assert identity authentication for Sender and Resent-* headers for email-addresses within the signing domain. Identity authentication within the From header domain may be asserted by the scope of the authorization, even when signed by a Third-Party domain.  In addition, the RFC2821.MailFrom domain can authorize domains for controlling DSNs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-dkim-tpa-ssp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-dkim-tpa-ssp-02.txt' />
+</reference>

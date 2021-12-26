@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.romascanu-diameter-cmd-iana'>
+<front>
+<title>Updated IANA Considerations for Diameter Command Code Allocations</title>
+
+<author initials='D' surname='Romascanu' fullname='Dan Romascanu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='June' day='2' year='2009' />
+
+<abstract><t>The Diameter Base specification, described in RFC 3588, provides a number of ways to extend Diameter, with new Diameter commands, i.e. messages used by Diameter applications, and applications as the most extensive enhancements.  RFC 3588 illustrates the conditions that lead to the need to define a new Diameter application or a new command code.  Depending on the scope of the Diameter extension IETF actions are necessary.  Although defining new Diameter applications does not require IETF consensus, defining new Diameter commands requires IETF consensus per RFC 3588.  This has lead to questionable design decisions by other Standards Development Organizations which chose to define new applications on existing commands rather than asking for assignment of new command codes for the pure purpose of avoiding bringing their specifications to the IETF.  In some cases interoperability problems were causes as an effect of the poor design caused by overloading existing commands.  This document aligns the extensibility rules of Diameter application with the Diameter commands offering ways to delegate work on Diameter to other SDOs to extend Diameter in a way that does not lead to poor design choices.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-romascanu-diameter-cmd-iana-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-romascanu-diameter-cmd-iana-00.txt' />
+</reference>

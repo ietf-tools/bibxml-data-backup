@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ubillos-name-based-sockets'>
+<front>
+<title>Name Based Sockets</title>
+
+<author initials='J' surname='Ubillos' fullname='Javier Ubillos'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ming' fullname='Zhongxing Ming'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2010' />
+
+<abstract><t>This memo defines the name based sockets.  Name based sockets allow the application developer to refer to remote hosts (and it self) by name only, passing on all IP (locator) management to the operating system.  Applications are thus relieved of re-implementing features such as multi-homing, mobility, NAT traversal, IPv6/IPv4 interoperability and address management in general.  The operating system can in turn re-use the same solutions for a whole set of guest applications.  Name based sockets aims to provide a whole set of features without adding new indirection layers, new delays or other dependences while maintaining transparent backwards compatibility.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ubillos-name-based-sockets-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ubillos-name-based-sockets-01.txt' />
+</reference>

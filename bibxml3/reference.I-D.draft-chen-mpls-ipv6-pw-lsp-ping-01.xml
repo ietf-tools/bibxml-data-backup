@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-mpls-ipv6-pw-lsp-ping'>
+<front>
+<title>Label Switched Path (LSP) Ping for IPv6 Pseudowire FECs</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='P' surname='Pan' fullname='Ping Pan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='R' surname='Asati' fullname='Rajiv Asati'>
+    <organization />
+</author>
+
+<date month='August' day='16' year='2011' />
+
+<abstract><t>Multi-Protocol Label Switching (MPLS) Label Switched Path (LSP) Ping and Traceroute mechanisms are commonly used to detect and isolate data plane failures in all MPLS LSPs including Pseudowire (PW) LSPs. The PW LSP Ping and Traceroute elements, however, are not specified for IPv6 address usage.  Specifically, the Pseudowire FEC sub-TLVs for the Target FEC Stack in the LSP Ping and Traceroute mechanism are implicitly defined only for IPv4 Provider Edge (PEs) routers, and are not applicable for the case where PEs use IPv6 addresses.  There is, additionally, a degree of potential ambiguity in the specification of these sub-TLVs since the address family is not explicitly specified but it is to be inferred from the sub-TLV length.  This document updates RFC4379 to explicitly constraint these existing PW FEC sub-TLVs for IPv4 LDP sessions, and extends Pseudowire LSP Ping to the IPv6 scenario where an IPv6 LDP session is used to signal the Pseudowire (i.e., where the Sender's and Receiver's IP addresses are IPv6 addresses.)  This is done by defining two new LSP Ping sub- TLVs for IPv6 Pseudowire FECs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-mpls-ipv6-pw-lsp-ping-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-mpls-ipv6-pw-lsp-ping-01.txt' />
+</reference>

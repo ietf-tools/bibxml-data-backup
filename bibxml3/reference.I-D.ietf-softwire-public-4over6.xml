@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-softwire-public-4over6'>
+<front>
+<title>Public IPv4 over IPv6 Access Network</title>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wu' fullname='Peng Wu'>
+    <organization />
+</author>
+
+<author initials='O' surname='Vautrin' fullname='Olivier Vautrin'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Yiu Lee'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2013' />
+
+<abstract><t>This document describes a mechanism called Public 4over6 which is designed to provide IPv4 Internet connectivity over an IPv6 access network using global IPv4 addresses.  Public 4over6 was developed in the IETF and is in use in some existing deployments, but is not recommended for new deployments.  Future deployments of similar scenarios should use Lightweight 4over6.  Public 4over6 follows the Hub and Spoke softwire model, and uses an IPv4-in-IPv6 tunnel to forward IPv4 packets over IPv6 access network.  The bi-directionality of the IPv4 communication is achieved by explicitly allocating global non-shared IPv4 addresses to end users, as well as maintaining IPv4- IPv6 address binding on the border relay.  Public 4over6 aims to provide uninterrupted IPv4 services to users, like Internet Content Providers, etc., while an operator makes the transition of the access network to an IPv6-only access network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-softwire-public-4over6-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-softwire-public-4over6-10.txt' />
+</reference>

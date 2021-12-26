@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bortzmeyer-dname-root'>
+<front>
+<title>Using DNAME in the DNS root zone for sinking of special-use TLDs</title>
+
+<author initials='S' surname='Bortzmeyer' fullname='Stephane Bortzmeyer'>
+    <organization />
+</author>
+
+<date month='January' day='16' year='2018' />
+
+<abstract><t>This documents asks IANA to add DNAME records in the DNS root zone for TLDs which are in the Special-Use Domain Names registry, in order to ensure they receive an appropriate reply (NXDOMAIN) and that the root nameservers are not too bothered by them.  REMOVE BEFORE PUBLICATION: there is no obvious place to discuss this document.  May be the IETF DNSOP (DNS Operations) group, through its mailing list (the author reads it).  Or may AS112 operators mailing lists?  The source of the document, as well as a list of open issues, is currently kept at Github [1].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bortzmeyer-dname-root-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bortzmeyer-dname-root-04.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-isis-v4v6-mt'>
+<front>
+<title>Multi-Topology IS-IS for IPv4-mapped IPv6</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohammed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<author initials='D' surname='Cheng' fullname='Dean Cheng'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Yiu Lee'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2009' />
+
+<abstract><t>This memo defines two new Multi Topology Routing Identifiers (MT IDs) to be used by the Intermediate System to Intermediate System (M-ISIS, [RFC5120]) routing protocol within a Multi-Topology (MT) context. These new M-ISIS topologies are meant to convey routing information which is specific to IPv4-mapped IPv6 addresses [I-D.ietf-behave-address-format].  The goal of running separate instances for IPv4-mapped IPv6 routes is to isolate the IPv6 routing table from the IPv4 routing table, and to avoid any overload due to the population of the table by IPv4-mapped IPv6 routes.  This isolation is motivated also from an operational perspective to enforce specific routing policies for each topology.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-isis-v4v6-mt-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-isis-v4v6-mt-01.txt' />
+</reference>

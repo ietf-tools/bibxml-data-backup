@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vijay-somen-pce-bgp-interas-te-path'>
+<front>
+<title>A BGP based method to compute inter-AS Traffic engineering Label Switched  Paths with PCE</title>
+
+<author initials='C' surname='Vijayanand' fullname='C Vijayanand'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bhattacharya' fullname='Somen Bhattacharya'>
+    <organization />
+</author>
+
+<date month='December' day='1' year='2006' />
+
+<abstract><t>The ability to compute an optimal path for setting up Traffic engineering Label Switched Paths spanning multiple autonomous systems managed by different operators has been a key requirement in MPLS and GMPLS networks. This document specifies a method of computing inter-AS paths consisting of a list of ASes to be traversed and a list of FA-LSPs to be traversed in each AS. The method described here uses BGP running in the PCEs of each AS to distribute the inter-AS connectivity information and the FA-LSPs in each AS to its neighbors to facilitate the construction of an inter- AS topology graph which can be used for computing inter-AS paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vijay-somen-pce-bgp-interas-te-path-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vijay-somen-pce-bgp-interas-te-path-00.txt' />
+</reference>

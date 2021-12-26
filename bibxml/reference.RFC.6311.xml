@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6311' target='https://www.rfc-editor.org/info/rfc6311'>
+<front>
+<title>Protocol Support for High Availability of IKEv2/IPsec</title>
+<author initials='R.' surname='Singh' fullname='R. Singh' role='editor'><organization /></author>
+<author initials='G.' surname='Kalyani' fullname='G. Kalyani'><organization /></author>
+<author initials='Y.' surname='Nir' fullname='Y. Nir'><organization /></author>
+<author initials='Y.' surname='Sheffer' fullname='Y. Sheffer'><organization /></author>
+<author initials='D.' surname='Zhang' fullname='D. Zhang'><organization /></author>
+<date year='2011' month='July' />
+<abstract><t>The IPsec protocol suite is widely used for business-critical network traffic.  In order to make IPsec deployments highly available, more scalable, and failure-resistant, they are often implemented as IPsec High Availability (HA) clusters.  However, there are many issues in IPsec HA clustering, and in particular in Internet Key Exchange Protocol version 2 (IKEv2) clustering.  An earlier document, &quot;IPsec Cluster Problem Statement&quot;, enumerates the issues encountered in the IKEv2/IPsec HA cluster environment.  This document resolves these issues with the least possible change to the protocol.</t><t>This document defines an extension to the IKEv2 protocol to solve the main issues of &quot;IPsec Cluster Problem Statement&quot; in the commonly deployed hot standby cluster, and provides implementation advice for other issues.  The main issues solved are the synchronization of IKEv2 Message ID counters, and of IPsec replay counters.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6311'/>
+<seriesInfo name='DOI' value='10.17487/RFC6311'/>
+</reference>

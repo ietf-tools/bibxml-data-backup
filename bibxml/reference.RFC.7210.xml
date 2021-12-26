@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7210' target='https://www.rfc-editor.org/info/rfc7210'>
+<front>
+<title>Database of Long-Lived Symmetric Cryptographic Keys</title>
+<author initials='R.' surname='Housley' fullname='R. Housley'><organization /></author>
+<author initials='T.' surname='Polk' fullname='T. Polk'><organization /></author>
+<author initials='S.' surname='Hartman' fullname='S. Hartman'><organization /></author>
+<author initials='D.' surname='Zhang' fullname='D. Zhang'><organization /></author>
+<date year='2014' month='April' />
+<abstract><t>This document specifies the information contained in a conceptual database of long-lived cryptographic keys used by many different routing protocols for message security.  The database is designed to support both manual and automated key management.  In addition to describing the schema for the database, this document describes the operations that can be performed on the database as well as the requirements for the routing protocols that wish to use the database.  In many typical scenarios, the protocols do not directly use the long-lived key, but rather a key derivation function is used to derive a short-lived key from a long-lived key.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7210'/>
+<seriesInfo name='DOI' value='10.17487/RFC7210'/>
+</reference>

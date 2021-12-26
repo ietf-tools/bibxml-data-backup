@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-tcp-nonce'>
+<front>
+<title>Robust ECN Signaling with Nonces</title>
+
+<author initials='D' surname='Wetherall' fullname='David Wetherall'>
+    <organization />
+</author>
+
+<author initials='N' surname='Spring' fullname='Neil Spring'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ely' fullname='David Ely'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2002' />
+
+<abstract><t>This note describes the ECN-nonce, an optional addition to ECN that protects against accidental or malicious concealment of marked packets from the TCP sender. It improves the robustness of congestion control by preventing receivers from exploiting ECN to gain an unfair share of network bandwidth. The ECN-nonce uses the two ECT codepoints in the ECN field of the IP header, and requires a flag in the TCP header. It is computationally efficient for both routers and hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-tcp-nonce-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-tcp-nonce-04.txt' />
+</reference>

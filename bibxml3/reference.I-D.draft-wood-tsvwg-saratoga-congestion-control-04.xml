@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wood-tsvwg-saratoga-congestion-control'>
+<front>
+<title>Congestion control for the Saratoga protocol</title>
+
+<author initials='L' surname='Wood' fullname='Lloyd Wood'>
+    <organization />
+</author>
+
+<author initials='W' surname='Eddy' fullname='Wesley Eddy'>
+    <organization />
+</author>
+
+<author initials='W' surname='Ivancic' fullname='Will Ivancic'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2013' />
+
+<abstract><t>Saratoga is a data transfer protocol designed to carry potentially large volumes of data over difficult network paths, often including only a single high-rate link and only one application flow.  As the requirements for use vary across deployment environments, the base Saratoga specification only assumes that an implementation will be able to clock packets out at a configurable rate, and beyond this specifies no inherent or particular congestion-control behaviour. The design of Saratoga deliberately supports the integration of congestion-control algorithms without modification to the base protocol.  This document describes how congestion control can be supported in the Saratoga transfer protocol.  Saratoga is intended for use in private networks, where its use is engineered as a single flow to fill a link.  However, as Saratoga is implemented over UDP, it can be multiplexed, and can be run across the public Internet, in which case congestion control in accordance with the UDP Guidelines becomes necessary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wood-tsvwg-saratoga-congestion-control-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wood-tsvwg-saratoga-congestion-control-04.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ford-mptcp-multiaddressed'>
+<front>
+<title>TCP Extensions for Multipath Operation with Multiple Addresses</title>
+
+<author initials='A' surname='Ford' fullname='Alan Ford'>
+    <organization />
+</author>
+
+<author initials='C' surname='Raiciu' fullname='Costin Raiciu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<author initials='S' surname='Barre' fullname='Sebastien Barre'>
+    <organization />
+</author>
+
+<date month='May' day='7' year='2009' />
+
+<abstract><t>Often endpoints are connected by multiple paths, but the nature of TCP/IP restricts communications to a single path per socket. Resource usage within the network would be more efficient were these multiple paths able to be used concurrently.  This should enhance user experience through higher throughput and improved resilience to network failure.  This document presents extensions to TCP in order to transparently provide this multi-path functionality at the transport layer, if at least one endpoint is multi-addressed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ford-mptcp-multiaddressed-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ford-mptcp-multiaddressed-00.txt' />
+</reference>

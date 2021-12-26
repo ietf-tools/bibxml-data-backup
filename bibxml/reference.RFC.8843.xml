@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8843' target='https://www.rfc-editor.org/info/rfc8843'>
+<front>
+<title>Negotiating Media Multiplexing Using the Session Description Protocol (SDP)</title>
+<author initials='C.' surname='Holmberg' fullname='C. Holmberg'><organization /></author>
+<author initials='H.' surname='Alvestrand' fullname='H. Alvestrand'><organization /></author>
+<author initials='C.' surname='Jennings' fullname='C. Jennings'><organization /></author>
+<date year='2021' month='January' />
+<abstract><t>This specification defines a new Session Description Protocol (SDP) Grouping Framework extension called 'BUNDLE'. The extension can be used with the SDP offer/answer mechanism to negotiate the usage of a single transport (5-tuple) for sending and receiving media described by multiple SDP media descriptions (&quot;m=&quot; sections). Such transport is referred to as a BUNDLE transport, and the media is referred to as bundled media. The &quot;m=&quot; sections that use the BUNDLE transport form a BUNDLE group. </t><t>This specification defines a new RTP Control Protocol (RTCP) Source Description (SDES) item and a new RTP header extension.</t><t>This specification updates RFCs 3264, 5888, and 7941.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8843'/>
+<seriesInfo name='DOI' value='10.17487/RFC8843'/>
+</reference>

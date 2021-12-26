@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gomez-lpwan-fragmentation-header'>
+<front>
+<title>LPWAN Fragmentation Header</title>
+
+<author initials='C' surname='Gomez' fullname='Carles Gomez'>
+    <organization />
+</author>
+
+<author initials='J' surname='Paradells' fullname='Josep Paradells'>
+    <organization />
+</author>
+
+<author initials='J' surname='Crowcroft' fullname='Jon Crowcroft'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2016' />
+
+<abstract><t>LPWAN technologies are characterized by a very limited data unit and/ or payload size, often one order of magnitude below the one in IEEE 802.15.4.  However, many such technologies do not support layer 2 fragmentation.  The 6LoWPAN fragmentation header defined in RFC 4944 represents very high overhead for LPWAN technologies, and it even does not support transporting IPv6 datagrams that require fragmentation over layer 2 technologies of a maximum payload size below 13 bytes.  This specification defines an optimized fragmentation header for LPWAN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gomez-lpwan-fragmentation-header-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gomez-lpwan-fragmentation-header-03.txt' />
+</reference>

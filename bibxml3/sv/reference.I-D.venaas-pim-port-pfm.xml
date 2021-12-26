@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.venaas-pim-port-pfm'>
+<front>
+<title>PIM Flooding Protocol over Reliable Transport</title>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<author initials='B' surname='Ganesh' fullname='Balaji Ganesh'>
+    <organization />
+</author>
+
+<author initials='K' surname='Thiruvenkatasamy' fullname='Kesavan Thiruvenkatasamy'>
+    <organization />
+</author>
+
+<author initials='R' surname='Sundaram' fullname='Ramakrishnan Sundaram'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>The PIM Flooding Protocol (PFM) defined in RFC8364 relies on sending periodic updates as it does not provide for any reliability.  If a message is lost, the information will be provided in the next periodic update.  This document extends the Reliable Transport Mechanism for PIM in RFC6559 to allow for sending PFM messages.  This significantly reduces the PFM signaling by not requiring frequent periodic updates, and it provides for retransmission, allowing for quick recovery when an IP packet is dropped.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-venaas-pim-port-pfm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-venaas-pim-port-pfm-00.txt' />
+</reference>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6833' target='https://www.rfc-editor.org/info/rfc6833'>
+<front>
+<title>Locator/ID Separation Protocol (LISP) Map-Server Interface</title>
+<author initials='V.' surname='Fuller' fullname='V. Fuller'><organization /></author>
+<author initials='D.' surname='Farinacci' fullname='D. Farinacci'><organization /></author>
+<date year='2013' month='January' />
+<abstract><t>This document describes the Mapping Service for the Locator/ID Separation Protocol (LISP), implemented by two new types of LISP- speaking devices -- the LISP Map-Resolver and LISP Map-Server -- that provides a simplified &quot;front end&quot; for one or more Endpoint ID to Routing Locator mapping databases.</t><t>By using this service interface and communicating with Map-Resolvers and Map-Servers, LISP Ingress Tunnel Routers and Egress Tunnel Routers are not dependent on the details of mapping database systems, which facilitates experimentation with different database designs. Since these devices implement the &quot;edge&quot; of the LISP infrastructure, connect directly to LISP-capable Internet end sites, and comprise the bulk of LISP-speaking devices, reducing their implementation and operational complexity should also reduce the overall cost and effort of deploying LISP.  This document defines an Experimental Protocol  for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6833'/>
+<seriesInfo name='DOI' value='10.17487/RFC6833'/>
+</reference>

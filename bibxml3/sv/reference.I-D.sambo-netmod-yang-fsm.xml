@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sambo-netmod-yang-fsm'>
+<front>
+<title>YANG model for finite state machine</title>
+
+<author initials='N' surname='Sambo' fullname='Nicola Sambo'>
+    <organization />
+</author>
+
+<author initials='P' surname='Castoldi' fullname='Piero Castoldi'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fioccola' fullname='Giuseppe Fioccola'>
+    <organization />
+</author>
+
+<author initials='F' surname='Cugini' fullname='Filippo Cugini'>
+    <organization />
+</author>
+
+<author initials='H' surname='Song' fullname='Haoyu Song'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zhou' fullname='Tianran Zhou'>
+    <organization />
+</author>
+
+<date month='May' day='21' year='2019' />
+
+<abstract><t>Network operators and service providers are facing the challenge of deploying systems from different vendors while looking for a trade- off among transmission performance, network device reuse, and capital expenditure without the need of being tied to single vendor equipment.  The deployment and operation of more dynamic and programmable network infrastructures can be driven by adopting model- driven and software-defined control and management paradigms.  In this context, YANG enables to compile a set of consistent vendor- neutral data models for networks and components based on actual operational needs emerging from heterogeneous use cases.  This document proposes YANG models to describe events, operations, and finite state machine of YANG-defined network elements.  The proposed models can be applied in several use cases: i) in the context of optical networks to pre-instruct data plane devices (e.g., an optical transponder) on the actions to be performed (e.g., code adaptation) in case some events, such as physical layer degradations, occur; ii) in general data networks, network telemetry applications can define and embed custom data probes into data plane devices.  A probe in many cases can be modeled as an FSM; iii) the monitoring of packet loss and delay through a network clustering approach; iv) for re- routing in optical networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sambo-netmod-yang-fsm-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sambo-netmod-yang-fsm-05.txt' />
+</reference>

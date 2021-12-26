@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaplan-dispatch-sip-205-response'>
+<front>
+<title>Session Initiation Protocol (SIP) Success Response Code for Indication of Alternate Target Answerer</title>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<date month='July' day='29' year='2013' />
+
+<abstract><t>This document defines a new Session Initiation Protocol (SIP) response, 205 Alternate Answerer, that a SIP User Agent Server (UAS) can use to indicate to the User Agent Client (UAC) that the UAS is answering the request for which it was not the intended target. This is useful for cases where the UAC might wish to perform different actions based on such knowledge, such as terminate the dialog or re-attempt the request in a different way.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kaplan-dispatch-sip-205-response-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kaplan-dispatch-sip-205-response-00.txt' />
+</reference>

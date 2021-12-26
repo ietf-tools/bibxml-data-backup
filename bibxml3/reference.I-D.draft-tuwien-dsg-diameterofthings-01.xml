@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tuwien-dsg-diameterofthings'>
+<front>
+<title>Diameter of Things (DoT): A Protocol for Real-time Telemetry of IoT Applications</title>
+
+<author initials='S' surname='Soheil' fullname='Soheil'>
+    <organization />
+</author>
+
+<author initials='S' surname='Mahdizadeh' fullname='Samira Mahdizadeh'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dustdar' fullname='Schahram Dustdar'>
+    <organization />
+</author>
+
+<author initials='N' surname='Behinaein' fullname='Negar Behinaein'>
+    <organization />
+</author>
+
+<author initials='R' surname='Rahimzadeh' fullname='Rabee Rahimzadeh'>
+    <organization />
+</author>
+
+<date month='September' day='21' year='2015' />
+
+<abstract><t>The Diameter of Things (DoT) protocol is intended to provide a real- time metering framework for IoT applications in resource-constraint gateways. Respecting resource capacity constraints on edge devices establishes a firm requirement for a lightweight protocol in support of fine-grained telemetry of IoT deployment units. Such metering capability is needed when lack of resources among competing applications dictates our schedule and credit allocation. In response to these findings, the authors offer the DoT protocol that can be incorporated to implement real-time metering of IoT services for prepaid subscribers as well as Pay-per-use economic models. The DoT employs mechanisms to handle the composite application resource usage units consumed/charged against a single user balance. Such charging methods come in two models of time-based and event-based patterns. The former is used for scenarios where the charged units are continuously consumed while the latter is typically used when units are implicit invocation events. The DoT-enabled platform performs a chained metering transaction on a graph of dependent IoT microservices, collects the emitted usage data, then generates billable artifacts from the chain of metering tokens. Finally it permits micropayments to take place in parallel.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tuwien-dsg-diameterofthings-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tuwien-dsg-diameterofthings-01.txt' />
+</reference>

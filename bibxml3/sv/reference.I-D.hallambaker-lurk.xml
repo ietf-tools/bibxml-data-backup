@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hallambaker-lurk'>
+<front>
+<title>Limited Use of Remote Keys, Protocol and Reference.</title>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='April' day='4' year='2016' />
+
+<abstract><t>The Limited Use of Remote Keys (LURK) BOF has been scheduled with the objective of discussing approaches to mitigating security risks to TLS private keys.  In particular in situations where a Content Delivery Network (CDN) is used to deliver content and thus the party that is being authenticated is not the party that the user is attempting to authenticate.  Three classes of solution are considered, short term credentials, a remote service offering to perform private key operations and a remote service that is further constrained through the use of some form of threshold approach.  A JSON/HTTP protocol implementing the second and third protocol is demonstrated and documented.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hallambaker-lurk-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hallambaker-lurk-02.txt' />
+</reference>

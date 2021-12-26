@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-savi-transition'>
+<front>
+<title>A General Framework of Source Address Validation and Traceback for IPv4/IPv6 Transition Scenarios</title>
+
+<author initials='D' surname='Hui' fullname='DENG Hui'>
+    <organization />
+</author>
+
+<author initials='G' surname='Hu' fullname='Guangwu Hu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bi' fullname='Jun Bi'>
+    <organization />
+</author>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Shi' fullname='Fan Shi'>
+    <organization />
+</author>
+
+<date month='May' day='9' year='2018' />
+
+<abstract><t>SAVI (Source Address Validation Improvement) is an excellent mechanism for anti-IP-spoofing, which was advocated by IETF but only focused on single-stack or simple network scenarios right now. To the best of our knowledge, existing studies have not paid attention to the IPv4/IPv6 transition scenarios. However, since IPv4/IPv6 transition schemes are plenty and various, one solution cannot meet all requirements of them. In this draft, we present a SAVI-based general framework for IP source address validation and traceback in the IPv4/IPv6 transition scenarios, which achieve this by extracting out essential and mutual properties from these schemes, and forming sub-solutions for each property. When one transition scheme is composed from various properties, its IP source address validation and traceback solution is directly comprised by the corresponding sub-solutions. Thus, the most exciting advantage of this framework is that it is a once-and-for-all solution no matter how transition schemes change. Till now, this proposal was approved by China Communications Standards Association (CCSA), and we will actively promote it to apply real network scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-savi-transition-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-savi-transition-13.txt' />
+</reference>

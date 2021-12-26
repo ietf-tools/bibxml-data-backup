@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wkumari-dnsop-omniscient-as112'>
+<front>
+<title>Omniscient AS112 Servers</title>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='W' surname='Sotomayor' fullname='William Sotomayor'>
+    <organization />
+</author>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bellis' fullname='Ray Bellis'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2013' />
+
+<abstract><t>The AS112 Project loosely coordinates Domain Name System (DNS) servers to which DNS zones corresponding to private use addresses are delegated.  Queries for names within those zones have no useful responses in a global context.  The purpose of this project is to reduce the load of such junk queries on the authoritative name servers that would otherwise receive them, and instead direct the load to name servers operated within the AS112 project.  Due to the loosely-coordinated nature of the project, adding and dropping zones from the AS112 servers is difficult.  This document proposes a mechanism by which AS112 name servers could answer authoritatively for all possible zones.  This eliminates the add/drop problem, changing it to a matter of delegation within the DNS and requiring no operational changes on the servers themselves.  This document updates RFC 6304.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wkumari-dnsop-omniscient-as112-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wkumari-dnsop-omniscient-as112-03.txt' />
+</reference>

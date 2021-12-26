@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-multicast-http-response'>
+<front>
+<title>Applicability of BIER Multicast Overlay for Adaptive Streaming Services</title>
+
+<author initials='D' surname='Trossen' fullname='Dirk Trossen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rahman' fullname='Akbar Rahman'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wang' fullname='Chonggang Wang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2019' />
+
+<abstract><t>HTTP Level multicast, using BIER, is described as a use case in the BIER Use cases document.  HTTP Level Multicast is used in today's video streaming and delivery services such as HLS, AR/VR etc., generally realized over IP Multicast as well as other use cases such as software update delivery.  A realization of "HTTP Multicast" over "IP Multicast" is described for the video delivery use case.  IP multicast is commonly used for IPTV services.  DVB and BBF is also developing a reference architecture for IP Multicast service.  A few problems with IPMC, such as waste of transmission bandwidth, increase in signaling when there are few users are described.  Realization over BIER, through a BIER Multicast Overlay Layer, is described as an alternative.  How BIER Multicast Overlay operation improves over IP Multicast, such as reduction in signaling, dynamic creation of multicast groups to reduce signaling and bandwidth wastage is described.  We conclude with few next steps.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-multicast-http-response-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-multicast-http-response-01.txt' />
+</reference>

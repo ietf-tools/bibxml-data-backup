@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.morton-bmwg-imix-genome'>
+<front>
+<title>IMIX Genome: Specification of variable packet sizes for additional testing</title>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<date month='October' day='6' year='2010' />
+
+<abstract><t>Benchmarking Methodologies have always relied on test conditions with constant packet sizes, with the goal of understanding what network device capability has been tested.  Constant packets sizes differ significantly from the conditions encountered in operational deployment, and so additional tests are sometimes conducted with a mixture of packet sizes, or "IMIX".  The mixture of sizes a networking device will encounter is highly variable and depends on many factors.  An IMIX suited for one networking device and deployment will not be appropriate for another.  However, the mix of sizes may be known and the tester may be asked to augment the fixed size tests.  To address this need, and the additional goal of repeatable test conditions, this draft proposes a way to specify the exact repeating sequence of packet sizes from the usual set of fixed sizes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-morton-bmwg-imix-genome-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-morton-bmwg-imix-genome-00.txt' />
+</reference>

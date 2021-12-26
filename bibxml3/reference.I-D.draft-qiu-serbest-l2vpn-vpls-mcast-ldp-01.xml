@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.qiu-serbest-l2vpn-vpls-mcast-ldp'>
+<front>
+<title>Multicast State Distribution between VPLS PE routers Using LDP</title>
+
+<author initials='R' surname='Qiu' fullname='Ray Qiu'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2006' />
+
+<abstract><t>In Virtual Private LAN Service (VPLS), as also in IEEE Bridged Networks, the switches simply flood multicast traffic on all ports in the LAN by default. Multicast Snooping can be used to avoid the unnecessary flooding as defined in [MAGMA-SNOOP] and [PIM-SNOOP]. When the number of Pseudo Wires (PWs) and refresh messages increases dramatically, it is desirable to reduce the messages exchanged between VPLS PE routers to improve scalability. This document describes the procedures and recommendations for using LDP for distributing Multicast state information between VPLS PE routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-qiu-serbest-l2vpn-vpls-mcast-ldp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-qiu-serbest-l2vpn-vpls-mcast-ldp-01.txt' />
+</reference>

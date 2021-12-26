@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ogud-iana-protocol-maintenance-words'>
+<front>
+<title>Definitions for expressing standards requirements in IANA registries.</title>
+
+<author initials='O' surname='Gudmundsson' fullname='Olafur Gudmundsson'>
+    <organization />
+</author>
+
+<author initials='S' surname='Rose' fullname='Scott Rose'>
+    <organization />
+</author>
+
+<date month='January' day='27' year='2010' />
+
+<abstract><t>RFC 2119 defines words that are used in IETF standards documents to indicate standards compliance.  These words are fine for defining new protocols, but there are certain deficiencies in using them when it comes to protocol maintainability.  Protocols are maintained by either updating the core specifications or via changes in protocol registries.  For example, security functionality in protocols often relies upon cryptographic algorithms that are defined in external documents. Cryptographic algorithms have a limited life span, and new algorithms regularly phased in to replace older algorithms.  This document proposes standard terms to use in protocol registries and possibly in standards track and informational documents to indicate the life cycle support of protocol features and operations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ogud-iana-protocol-maintenance-words-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ogud-iana-protocol-maintenance-words-03.txt' />
+</reference>

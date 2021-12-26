@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hu-trill-rbridge-esadi'>
+<front>
+<title>TRILL: The ESADI Protocol</title>
+
+<author initials='Z' surname='Corporation' fullname='ZTE Corporation'>
+    <organization />
+</author>
+
+<author initials='f' surname='hu' fullname='fangwei hu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2012' />
+
+<abstract><t>The IETF TRILL (TRansparent Interconnection of Lots of Links) protocol provides least cost pair-wise data forwarding without configuration in multi-hop networks with arbitrary topologies and safe forwarding even during periods of temporary loops. TRILL supports the multi-pathing of both unicast and multicast traffic. TRILL accomplishes this by using the IS-IS (Intermediate System to Intermediate System) link state routing protocol and encapsulating traffic using a header that includes a hop count.  The ESADI (End System Address Distribution Information) protocol is a VLAN (Virtual Local Area Network) scoped way that RBridge can communicate end station addresses to each other.  An RBridge announcing VLAN-x connectivity (normally a VLAN-x forwarder) and running the TRILL ESADI protocol can receive remote address information and/or transmit local address information for VLAN-x to other such RBridges.  This document updates RFC 6325, particularly the documentation of the ESADI protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hu-trill-rbridge-esadi-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hu-trill-rbridge-esadi-02.txt' />
+</reference>

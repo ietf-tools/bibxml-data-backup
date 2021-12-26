@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nfsv4-xattrs'>
+<front>
+<title>File System Extended Attributes in NFSv4</title>
+
+<author initials='M' surname='Naik' fullname='Manoj Naik'>
+    <organization />
+</author>
+
+<author initials='M' surname='Eshel' fullname='Marc Eshel'>
+    <organization />
+</author>
+
+<date month='September' day='7' year='2016' />
+
+<abstract><t>This document proposes an OPTIONAL feature extending the NFSv4 protocol which allows extended attributes (hereinafter also referred to as xattrs) to be interrogated and manipulated using NFSv4.  An xattr is a file system feature that allows opaque metadata, not interpreted by the file system, to be associated with files and directories.  Such support is present in many modern local file systems.  New file attributes are proposed to allow clients to query the server for xattr support, and new operations to get and set xattrs on file system objects are provided.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nfsv4-xattrs-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nfsv4-xattrs-03.txt' />
+</reference>

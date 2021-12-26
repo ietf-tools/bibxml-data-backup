@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ecrit-additional-data'>
+<front>
+<title>Additional Data related to an Emergency Call</title>
+
+<author initials='B' surname='Rosen' fullname='Brian Rosen'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='R' surname='Marshall' fullname='Roger Marshall'>
+    <organization />
+</author>
+
+<author initials='R' surname='Randy' fullname='Randy'>
+    <organization />
+</author>
+
+<date month='May' day='28' year='2013' />
+
+<abstract><t>When an emergency call is sent to a Public Safety Answering Point (PSAP), the device that sends it, as well as any application service provider in the path of the call, or access network provider through which the call originated may have information about the call or the caller which the PSAP may be able to use.  This document describes data structures and a mechanism to convey such data to the PSAP.  The mechanism uses a Uniform Resource Identifier (URI), which may point to either an external resource or an object in the body of the SIP message.  The mechanism thus allows the data to be passed by reference (when the URI points to an external resource) or by value (when it points into the body of the message).  This follows the tradition of prior emergency services standardization work where data can be conveyed by value within the call signaling (i.e., in body of the SIP message) and also by reference.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ecrit-additional-data-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ecrit-additional-data-09.txt' />
+</reference>

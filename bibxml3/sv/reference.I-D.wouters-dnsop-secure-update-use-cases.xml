@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wouters-dnsop-secure-update-use-cases'>
+<front>
+<title>Secure parent-child DNS update use cases</title>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2012' />
+
+<abstract><t>DNS zone administrators occasionally need to update data published by a parent zone, such as NS and DS records.  Traditionally these updates have happened out-of-band: through DNS registrar interfaces, EPP, websites, or manually by operators.  Some updates could also be done using DNS Dynamic Update [RFC2136].  The IETF's DNSOP working group is considering proposing additional mechanisms for such updates, possibly leveraging DNSSEC for authentication.  This document presents some use cases to drive this design work.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wouters-dnsop-secure-update-use-cases-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wouters-dnsop-secure-update-use-cases-00.txt' />
+</reference>

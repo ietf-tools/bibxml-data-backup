@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lee-dnsop-scalingroot'>
+<front>
+<title>How to scale the DNS root system?</title>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<author initials='P' surname='Vixie' fullname='Paul Vixie'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Yan' fullname='Zhiwei Yan'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2014' />
+
+<abstract><t>In Domain Name System (DNS), 13 root servers are deployed in order to provide the entrance of domain name resolution and they are denoted by 13 letters. From 2000 or so, the anycast technology has been adopted to extend the number of root servers with the explosive development of Internet. To date, 11 of the 13 letters are hosted at multiple sites, and the root zone is served at about 380 sites around the globe. However, increasing mirror sites is not a perfect solution to scale the DNS root servers because the geographical distribution of the current 13 root servers is uneven and only increasing mirror sites cannot solve the efficiency and scalability issues caused by that. Then we propose a new DNS root system in this draft based on the widely deployed Domain Name System Security Extensions (DNSSEC). The proposed architecture is scalable and secure enough to meet the current and future needs to scale the DNS root system in an easy-deployment way.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lee-dnsop-scalingroot-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lee-dnsop-scalingroot-00.txt' />
+</reference>

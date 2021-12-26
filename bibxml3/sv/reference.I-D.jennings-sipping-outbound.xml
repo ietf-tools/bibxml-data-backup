@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jennings-sipping-outbound'>
+<front>
+<title>SIP Conventions for UAs with Outbound Only Connections</title>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<author initials='A' surname='Hawrylyshen' fullname='Alan Hawrylyshen'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2005' />
+
+<abstract><t>Often with SIP a request can only be routed over an existing connection or flow, such as when there is a firewall or network address translation (NAT) device in the network path. TLS is also affected when the user agent (UA) does not have a certificate suitable for mutual TLS authentication. This draft addresses how user agents and proxies need to behave to work in these environments. This work shows how existing SIP mechanisms can be used to allow the UA to register multiple times over different connections or flows and the proxies can use the instance-id in the contact header to identify that the multiple flows go to the same UA. It can then choose which flow to use to route requests to this UA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jennings-sipping-outbound-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jennings-sipping-outbound-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zheng-l3vpn-pm-analysis'>
+<front>
+<title>Performance Monitoring Analysis for L3VPN</title>
+
+<author initials='L' surname='Zheng' fullname='Lianshu Zheng'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>To perform the measurement of packet loss, delay and other metrics on a particular VPN flow, the egress PE need to tell to which specific ingress VRF a packet belongs.  But for L3VPN, multipoint-to-point or multipoint-to-multipoint (MP2MP) network model applies, flow identifying is a big challenge.  This document summarizes the current performance monitoring mechanisms for MPLS networks, and analyzes the challenge for L3VPN performance monitoring.  This document also discuss the key points need to be taken in consideration when designing L3VPN performance monitoring mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zheng-l3vpn-pm-analysis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zheng-l3vpn-pm-analysis-00.txt' />
+</reference>

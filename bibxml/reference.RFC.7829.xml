@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7829' target='https://www.rfc-editor.org/info/rfc7829'>
+<front>
+<title>SCTP-PF: A Quick Failover Algorithm for the Stream Control Transmission Protocol</title>
+<author initials='Y.' surname='Nishida' fullname='Y. Nishida'><organization /></author>
+<author initials='P.' surname='Natarajan' fullname='P. Natarajan'><organization /></author>
+<author initials='A.' surname='Caro' fullname='A. Caro'><organization /></author>
+<author initials='P.' surname='Amer' fullname='P. Amer'><organization /></author>
+<author initials='K.' surname='Nielsen' fullname='K. Nielsen'><organization /></author>
+<date year='2016' month='April' />
+<abstract><t>The Stream Control Transmission Protocol (SCTP) supports multihoming. However, when the failover operation specified in RFC 4960 is followed, there can be significant delay and performance degradation in the data transfer path failover.  This document specifies a quick failover algorithm and introduces the SCTP Potentially Failed (SCTP-PF) destination state in SCTP Path Management.</t><t>This document also specifies a dormant state operation of SCTP that is required to be followed by an SCTP-PF implementation, but it may equally well be applied by a standard SCTP implementation, as described in RFC 4960.</t><t>Additionally, this document introduces an alternative switchback operation mode called &quot;Primary Path Switchover&quot; that will be beneficial in certain situations.  This mode of operation applies to both a standard SCTP implementation and an SCTP-PF implementation.</t><t>The procedures defined in the document require only minimal modifications to the specification in RFC 4960.  The procedures are sender-side only and do not impact the SCTP receiver.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7829'/>
+<seriesInfo name='DOI' value='10.17487/RFC7829'/>
+</reference>

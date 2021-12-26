@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jinchoi-dna-cpl'>
+<front>
+<title>DNA with unmodified routers: Prefix list based approach</title>
+
+<author initials='J' surname='Choi' fullname='JinHyeock Choi'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2004' />
+
+<abstract><t>Upon establishing a new link-layer connection, a host determines whether a link change has occurred to examine the validity of its IP configuration. This draft presents a way to robustly check for link change without assuming changes to the routers. Each link can be uniquely identified by the set of prefixes assigned to it. We propose that, at each attached link, the host generates the complete prefix list, that is, the prefix list contains all the prefixes on the link, and when it receives a hint that indicates a possible link change, it detects the identity of the currently attached link by consulting the existing prefix list. This memo describes how to generate the complete prefix list and to robustly detect the link identity even in the presence of packet losses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jinchoi-dna-cpl-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jinchoi-dna-cpl-01.txt' />
+</reference>

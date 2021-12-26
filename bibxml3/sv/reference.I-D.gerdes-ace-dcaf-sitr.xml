@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gerdes-ace-dcaf-sitr'>
+<front>
+<title>Server-Initiated Ticket Request</title>
+
+<author initials='S' surname='Gerdes' fullname='Stefanie Gerdes'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>The Delegated CoAP Authorization Framework (DCAF) defines how constrained devices can securely obtain security associations and authorization information from their respective less constrained devices, the Authorization Managers.  In DCAF a constrained client requests an authorization ticket from the Server Authorization Manager (SAM) by contacting its own Client Authorization Manager (CAM).  However, there may be cases where this approach is not applicable, e.g., because the client is not able to reach Authorization Managers in the Internet.  Specifically for these situations, this document defines the Server- Initiated Ticket Request (SITR) that specifies how a constrained server can request authorization tokens and securely obtain security associations and authorization information for mutual authenticated authorization with the client.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gerdes-ace-dcaf-sitr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gerdes-ace-dcaf-sitr-00.txt' />
+</reference>

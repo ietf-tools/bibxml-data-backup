@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2vpn-vpls-ldp-mac-opt'>
+<front>
+<title>LDP Extensions for Optimized MAC Address Withdrawal in H-VPLS</title>
+
+<author initials='P' surname='Dutta' fullname='Pranjal Dutta'>
+    <organization />
+</author>
+
+<author initials='F' surname='Balus' fullname='Florin Balus'>
+    <organization />
+</author>
+
+<author initials='G' surname='Calvignac' fullname='Geraldine Calvignac'>
+    <organization />
+</author>
+
+<author initials='O' surname='Stokes' fullname='Olen Stokes'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2010' />
+
+<abstract><t>[RFC4762] describes a mechanism to remove or unlearn MAC addresses that have been dynamically learned in a VPLS Instance for faster convergence on topology change. The procedure also removes MAC addresses in the VPLS that do not require relearning due to such topology change.  This document defines an enhancement to the MAC Address Withdrawal procedure with empty MAC List [RFC4762], which enables a Provider Edge(PE) device to remove only the MAC addresses that need to be relearned.  Additional extensions are specified to provide the same functionality for the PBB-VPLS combination specified in [PBB-VPLS Model].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2vpn-vpls-ldp-mac-opt-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2vpn-vpls-ldp-mac-opt-02.txt' />
+</reference>

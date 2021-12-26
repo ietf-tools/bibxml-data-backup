@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zi-pwe3-link-aggr-member-status'>
+<front>
+<title>Link Aggregation Member Interface Status Signal</title>
+
+<author initials='Z' surname='Kang' fullname='Zi Kang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jun' fullname='Liu Jun'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2005' />
+
+<abstract><t>Link Aggregation can be used as Attachment Circuit (AC) of the PWE3 service. Link Aggregation is treated as a single interface. But changes in the the member interface may affect use of the aggregated link. This draft suggests a method to signal the status of the member interface of Link Aggregation AC to remote Provider Edge (PE) device. With this status information, the remote PE can decide to discard traffic over bandwidth, avoid congestion at local PE and avoid wasted bandwidth of the Packet Switched Network (PSN). This mechanism is required in PWE3 applications because pseudo-wires provide layer 1/layer 2 services, carrying traffic that may not respond to loss events by executing congestion avoidance</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zi-pwe3-link-aggr-member-status-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zi-pwe3-link-aggr-member-status-00.txt' />
+</reference>

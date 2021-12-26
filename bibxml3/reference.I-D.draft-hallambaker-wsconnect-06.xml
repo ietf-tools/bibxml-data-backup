@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hallambaker-wsconnect'>
+<front>
+<title>Service Connection Service (SXS)</title>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='May' day='5' year='2014' />
+
+<abstract><t>Service Connection Service (SXS) is a JSON/REST Web Service that may be used to establish and maintain a 'connection binding' of a device to an account held with a Web Service Provider. Multiple connection bindings may be established under the same account to support multiple devices and/or multiple users of a single device. A connection binding permits a device to securely connect to one or more services offered by the Web Service Provider with support for protocol and protocol version agilty and fault tollerance.  The protocol is presented as a HTTP/JSON Web Service and uses the HTTP session continuation mechanism for authentication of transaction messages and supports negotiation of a HTTP session continuation mechanism context for the established endpoint connections.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hallambaker-wsconnect-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hallambaker-wsconnect-06.txt' />
+</reference>

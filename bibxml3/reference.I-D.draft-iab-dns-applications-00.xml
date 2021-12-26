@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iab-dns-applications'>
+<front>
+<title>Architectural Considerations on Application Features in the DNS</title>
+
+<author initials='O' surname='Kolkman' fullname='Olaf Kolkman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Peterson' fullname='Jon Peterson'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='B' surname='Aboba' fullname='Bernard Aboba'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>While the principal purpose of the Domain Name System (DNS) is to translate Internet domain names to IP addresses, over time a number of Internet applications have integrated supplemental features into the DNS to support their operations.  Many of these features assist in locating the appropriate service in a domain, or in transforming intermediary identifiers into names that the DNS can process. Proposals to piggyback more sophisticated application behavior on top of the DNS, however, have raised questions about the propriety of instantiating some features in the DNS, especially those with security sensitivities.  This document explores the architectural consequences of installing application features in the DNS, and provides guidance for future work in this area.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iab-dns-applications-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iab-dns-applications-00.txt' />
+</reference>

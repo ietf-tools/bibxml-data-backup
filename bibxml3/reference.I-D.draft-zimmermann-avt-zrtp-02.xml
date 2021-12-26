@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zimmermann-avt-zrtp'>
+<front>
+<title>ZRTP: Extensions to RTP for Diffie-Hellman Key Agreement for SRTP</title>
+
+<author initials='P' surname='Zimmermann' fullname='Philip  Zimmermann'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2006' />
+
+<abstract><t>This document defines ZRTP, RTP (Real-time Transport Protocol) header extensions for a Diffie-Hellman exchange to agree on a session key and parameters for establishing Secure RTP (SRTP) sessions. The ZRTP protocol is completely self-contained in RTP and does not require support in the signaling protocol or assume a Public Key Infrastructure (PKI) infrastructure. For the media session, ZRTP provides confidentiality, protection against Man in the Middle (MitM) attacks, and, in cases where a secret is available from the signaling protocol, authentication. ZRTP can utilize three Session Description Protocol (SDP) attributes to provide discovery and authentication through the signaling channel.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zimmermann-avt-zrtp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zimmermann-avt-zrtp-02.txt' />
+</reference>

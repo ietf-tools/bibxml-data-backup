@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.herbert-transports-over-udp'>
+<front>
+<title>Transport layer protocols over UDP</title>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2016' />
+
+<abstract><t>This specification defines a mechanism to encapsulate layer 4 transport protocols over UDP. Such encapsulation facilitates deployment of alternate transport protocols or transport protocol features on the Internet. DTLS can be employed to encrypt the encapsulated transport header in a packet thus minimizing the exposure of transport layer information to the network and so promoting the end-to-end networking principle. Transport connection identification can be disassociated from network location (IP addresses) to provide connection persistence for mobility and across state eviction in NAT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-herbert-transports-over-udp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-herbert-transports-over-udp-01.txt' />
+</reference>

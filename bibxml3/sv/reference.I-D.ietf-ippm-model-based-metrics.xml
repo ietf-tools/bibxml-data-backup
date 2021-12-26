@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ippm-model-based-metrics'>
+<front>
+<title>Model Based Metrics for Bulk Transport Capacity</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<date month='September' day='15' year='2017' />
+
+<abstract><t>We introduce a new class of Model Based Metrics designed to assess if a complete Internet path can be expected to meet a predefined Target Transport Performance by applying a suite of IP diagnostic tests to successive subpaths.  The subpath-at-a-time tests can be robustly applied to critical infrastructure, such as network interconnections or even individual devices, to accurately detect if any part of the infrastructure will prevent paths traversing it from meeting the Target Transport Performance.  Model Based Metrics rely on mathematical models to specify a Targeted Suite of IP Diagnostic tests, designed to assess whether common transport protocols can be expected to meet a predetermined Target Transport Performance over an Internet path.  For Bulk Transport Capacity the IP diagnostics are built using test streams and statistical criteria for evaluating the packet transfer that mimic TCP over the complete path.  The temporal structure of the test stream (bursts, etc) mimic TCP or other transport protocol carrying bulk data over a long path.  However they are constructed to be independent of the details of the subpath under test, end systems or applications.  Likewise the success criteria evaluates the packet transfer statistics of the subpath against criteria determined by protocol performance models applied to the Target Transport Performance of the complete path.  The success criteria also does not depend on the details of the subpath, end systems or application.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ippm-model-based-metrics-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ippm-model-based-metrics-12.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nakhjiri-dime-mip6-nsi'>
+<front>
+<title>A Network Service Identifier for separation of Mobile IPv6 service  authorization from Mobile node authentication</title>
+
+<author initials='M' surname='Nakhjiri' fullname='Madjid Nakhjiri'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wan' fullname='Changsheng Wan'>
+    <organization />
+</author>
+
+<date month='January' day='19' year='2007' />
+
+<abstract><t>Dime working group is designing a procedure for bootstrapping Mobile IPv6 using Diameter. In order to reduce the complexity of Diameter Mobile IPv6 application, the process of Mobile IPv6 service authorization is being separated from the initial mobile node authentication. This This allows for outsourcing the authentication process to another application such as Diameter EAP[RFC4072] . The process can have security considerations, if the authorizing server does not have a clear assurance that the MN has actually been authenticated before, especially if the authorizing server is different from the authenticating server. In this document we provide a procedure and number of extensions to Mobile IPv6 and Diameter signaling to address those considerations. Specifically a new Network Service Identifier (NSI) is defined to assist the interaction between the authorizing and authenticating procedures and servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nakhjiri-dime-mip6-nsi-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nakhjiri-dime-mip6-nsi-00.txt' />
+</reference>

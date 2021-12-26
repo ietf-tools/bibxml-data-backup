@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc0951.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc0951.txt</link>
+        <title>RFC 0951: Bootstrap Protocol, W.J. Croft, J. Gilmore</title>
+        <dc:date>1985-09-01T23:00:00-00:00</dc:date>
+        <description>This RFC describes an IP/UDP bootstrap protocol (BOOTP) which allows a    diskless client machine to discover its own IP address, the address of a    server host, and the name of a file to be loaded into memory and    executed.  The bootstrap operation can be thought of as consisting of    TWO PHASES.  This RFC describes the first phase, which could be labeled    `address determination and bootfile selection'.  After this address and    filename information is obtained, control passes to the second phase of    the bootstrap where a file transfer occurs.  The file transfer will    typically use the TFTP protocol, since it is intended that both phases    reside in PROM on the client.  However BOOTP could also work with other    protocols such as SFTP or FTP.  This RFC suggests a proposed protocol    for the ARPA-Internet community, and requests discussion and suggestions    for improvements. </description>
+    </item>
+

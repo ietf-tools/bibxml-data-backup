@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dna-protocol'>
+<front>
+<title>Detecting Network Attachment in IPv6 Networks (DNAv6)</title>
+
+<author initials='J' surname='Kempf' fullname='James Kempf'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2007' />
+
+<abstract><t>Efficient detection of network attachment in IPv6 needs the following three components: a method for hosts to detect link change in the presence of unmodified (non-DNAv6) routers, a method for the host to query routers on the link to identify the link (Link Identification) and a method for the routers on the link to consistently respond to such a query with minimal delay (Fast RA). Solving the link identification based strictly on RFC 2461 is difficult because of the flexibility offered to routers in terms of prefixes advertised in a router advertisement (RA) message. Similarly, the random delay in responding to router solicitation messages imposed by RFC 2461 makes it difficult to receive an RA quickly. In this memo, a mechanism that requires the hosts to monitor all the prefixes advertised on the link and use it for link identification in the presence of non-DNAv6 routers is presented. A more efficient link-identification mechanism requiring the DNAv6 routers to monitor the link for advertised prefixes to assist the hosts in link identification combined with a fast router advertisement mechanism that selects the order of response for the router deterministicly is also presented.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dna-protocol-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dna-protocol-04.txt' />
+</reference>

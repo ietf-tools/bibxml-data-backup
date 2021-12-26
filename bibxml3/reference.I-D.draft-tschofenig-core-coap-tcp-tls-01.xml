@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-core-coap-tcp-tls'>
+<front>
+<title>A TCP and TLS Transport for the Constrained Application Protocol (CoAP)</title>
+
+<author initials='S' surname='Lemay' fullname='Simon Lemay'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Technologies' fullname='Zebra Technologies'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='September' day='4' year='2014' />
+
+<abstract><t>The Hypertext Transfer Protocol (HTTP) has been designed with TCP as an underlying transport protocol.  The Constrained Application Protocol (CoAP), which has been inspired by HTTP, has on the other hand been defined to make use of UDP.  Reliable delivery, a simple congestion control mechanism, and flow control had been added to the CoAP protocol.  UDP is a good choice for networks that do not perform any form of filtering and firewalling.  There are, however, many deployment environments where UDP is either firewalled or subject to deep packet inspection.  These environments make the use of CoAP brittle.  This document defines the use of CoAP over TCP as well as CoAP over TLS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-core-coap-tcp-tls-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-core-coap-tcp-tls-01.txt' />
+</reference>

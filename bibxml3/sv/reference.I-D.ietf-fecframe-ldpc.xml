@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-fecframe-ldpc'>
+<front>
+<title>Simple LDPC-Staircase Forward Error Correction (FEC) Scheme for FECFRAME</title>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<author initials='M' surname='Cunche' fullname='Mathieu Cunche'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lacan' fullname='Jerome Lacan'>
+    <organization />
+</author>
+
+<date month='October' day='9' year='2012' />
+
+<abstract><t>This document describes a fully-specified simple FEC scheme for LDPC- Staircase codes that can be used to protect media streams along the lines defined by the FECFRAME framework.  These codes have many interesting properties: they are systematic codes, they perform close to ideal codes in many use-cases and they also feature very high encoding and decoding throughputs.  LDPC-Staircase codes are therefore a good solution to protect a single high bitrate source flow, or to protect globally several mid-rate flows within a single FECFRAME instance.  They are also a good solution whenever the processing load of a software encoder or decoder must be kept to a minimum.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-fecframe-ldpc-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-fecframe-ldpc-04.txt' />
+</reference>

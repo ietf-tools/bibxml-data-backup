@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsext-tkey-renewal-mode'>
+<front>
+<title>TKEY Secret Key Renewal Mode</title>
+
+<author initials='Y' surname='Kamite' fullname='Y Kamite'>
+    <organization />
+</author>
+
+<author initials='M' surname='Nakayama' fullname='Masaya Nakayama'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2004' />
+
+<abstract><t>This document defines a new mode in TKEY and proposes an atomic method for changing secret keys used for TSIG periodically. Originally, TKEY provides methods of setting up shared secrets other than manual exchange, but it cannot control timing of key renewal very well though it can add or delete shared keys separately. This proposal is a systematical key renewal procedure intended for preventing signing DNS messages with old and non-safe keys permanently.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsext-tkey-renewal-mode-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsext-tkey-renewal-mode-05.txt' />
+</reference>

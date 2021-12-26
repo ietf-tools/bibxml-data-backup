@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-trust-anchors'>
+<front>
+<title>A YANG Data Model for a Truststore</title>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<date month='November' day='20' year='2019' />
+
+<abstract><t>This document defines a YANG 1.1 data model for configuring global sets of X.509 certificates, SSH host-keys, raw public keys, and PSKs (pairwise-symmetric or pre-shared keys) that can be referenced by other data models for trust.  While the SSH host-keys are uniquely for the SSH protocol, certificates, raw public keys, and PSKs may have multiple uses, including authenticating protocol peers and verifying signatures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-trust-anchors-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-trust-anchors-08.txt' />
+</reference>

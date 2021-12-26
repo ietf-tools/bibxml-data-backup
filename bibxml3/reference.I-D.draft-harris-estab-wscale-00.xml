@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.harris-estab-wscale'>
+<front>
+<title>WSCALE options in established TCP connections</title>
+
+<author initials='J' surname='Harris' fullname='Jeremy Harris'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>The TCP Window Scale option modifies the interpretation of packets in a flow but is transmitted only at the start of the connection.  As such there is a problem for observability and fault-finding, since a packet capture by a third party may miss the start of a relevant connection.  This document describes the use of TCP options to provide the scale values during a connection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-harris-estab-wscale-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-harris-estab-wscale-00.txt' />
+</reference>

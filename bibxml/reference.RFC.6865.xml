@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6865' target='https://www.rfc-editor.org/info/rfc6865'>
+<front>
+<title>Simple Reed-Solomon Forward Error Correction (FEC) Scheme for FECFRAME</title>
+<author initials='V.' surname='Roca' fullname='V. Roca'><organization /></author>
+<author initials='M.' surname='Cunche' fullname='M. Cunche'><organization /></author>
+<author initials='J.' surname='Lacan' fullname='J. Lacan'><organization /></author>
+<author initials='A.' surname='Bouabdallah' fullname='A. Bouabdallah'><organization /></author>
+<author initials='K.' surname='Matsuzono' fullname='K. Matsuzono'><organization /></author>
+<date year='2013' month='February' />
+<abstract><t>This document describes a fully-specified simple Forward Error Correction (FEC) scheme for Reed-Solomon codes over the finite field (also known as the Galois Field) GF(2^^m), with 2 &lt;= m &lt;= 16, that can be used to protect arbitrary media streams along the lines defined by FECFRAME.  The Reed-Solomon codes considered have attractive properties, since they offer optimal protection against packet erasures and the source symbols are part of the encoding symbols, which can greatly simplify decoding.  However, the price to pay is a limit on the maximum source block size, on the maximum number of encoding symbols, and a computational complexity higher than that of the Low-Density Parity Check (LDPC) codes, for instance.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6865'/>
+<seriesInfo name='DOI' value='10.17487/RFC6865'/>
+</reference>

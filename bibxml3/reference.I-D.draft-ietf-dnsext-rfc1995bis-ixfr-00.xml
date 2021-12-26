@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsext-rfc1995bis-ixfr'>
+<front>
+<title>DNS Incremental Zone Transfer Protocol (IXFR)</title>
+
+<author initials='A' surname='Hoenes' fullname='Alfred Hoenes'>
+    <organization />
+</author>
+
+<author initials='O' surname='Sury' fullname='Ondrej Sury'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kerr' fullname='Shane Kerr'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2012' />
+
+<abstract><t>The standard means within the Domain Name System protocol for maintaining coherence among a zone's authoritative name servers consists of three mechanisms.  Incremental Zone Transfer (IXFR) is one of the mechanisms and originally was defined in RFC 1995.  This document aims to provide a more detailed and up-to-date specification of the IXFR mechanism and to align it with the current specification of the primary zone transfer mechanism, AXFR, given in RFC 5936.  Further, based on operational experience, this document juxtaposes to the original IXFR query a new query type, IXFR-ONLY, that will likely be preferred over IXFR in specific deployments.  This document obsoletes and replaces RFC 1995.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsext-rfc1995bis-ixfr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsext-rfc1995bis-ixfr-00.txt' />
+</reference>

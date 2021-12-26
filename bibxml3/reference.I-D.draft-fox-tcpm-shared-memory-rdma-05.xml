@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fox-tcpm-shared-memory-rdma'>
+<front>
+<title>Shared Memory Communications over RDMA</title>
+
+<author initials='M' surname='Fox' fullname='Mike Fox'>
+    <organization />
+</author>
+
+<author initials='C' surname='Kassimis' fullname='Constantinos Kassimis'>
+    <organization />
+</author>
+
+<author initials='J' surname='Stevens' fullname='Jerry Stevens'>
+    <organization />
+</author>
+
+<date month='October' day='1' year='2014' />
+
+<abstract><t>This document describes the Shared Memory Communications over RDMA (SMC-R) protocol.  This protocol provides RDMA communications to TCP endpoints in a manner that is transparent to socket applications.  It further provides for dynamic discovery of partner RDMA capabilities and dynamic setup of RDMA connections, transparent high availability and load balancing when redundant RDMA network paths are available, and it maintains many of the traditional TCP/IP qualities of service such as filtering that enterprise users demand, as well as TCP socket semantics such as urgent data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fox-tcpm-shared-memory-rdma-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fox-tcpm-shared-memory-rdma-05.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yizhou-trill-tree-selection'>
+<front>
+<title>VLAN based Tree Selection for Multi-destination Frames</title>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='N' surname='Nimmu' fullname='Naveen Nimmu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chatterjee' fullname='Somnath Chatterjee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Rajagopalan' fullname='Sunny Rajagopalan'>
+    <organization />
+</author>
+
+<date month='January' day='14' year='2013' />
+
+<abstract><t>TRILL uses the distribution trees to deliver multi-destination frames. Multiple trees can be used by an ingress RBridge for different flow based on VLAN and/or multicast group. Different ingress RBridges may choose different distribution trees for the same VLAN and/or multicast group traffic. Distribution trees are normally pruned based on VLAN.  For any RBridge RBn, if RBn has downstream receivers of VLAN x in a distribution tree t, there will be an entry of (t, x, port list) in the multicast forwarding table on RBn. If there are n trees and m VLANs, the multicast forwarding table size on RBn is typically n*m entries. The value of m is up to 4096 and n is the total number of distribution trees in the campus. If fine grained labeling is implemented or finer granularity filtering such as VLAN plus L2/L3 multicast address is used for pruning, the multicast forwarding table size further increases dramatically. TRILL multicast forwarding table size is limited by hardware and L3 multicasting may share the same table with it in hardware implementations. Therefore multicast table entry is a precious resource. This document specifies a VLAN based tree selection mechanism to reduce the TRILL multicast forwarding table size on RBridge.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yizhou-trill-tree-selection-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yizhou-trill-tree-selection-02.txt' />
+</reference>

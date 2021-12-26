@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-httpbis-message-signatures'>
+<front>
+<title>Signing HTTP Messages</title>
+
+<author initials='A' surname='Backman' fullname='Annabelle Backman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Richer' fullname='Justin Richer'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sporny' fullname='Manu Sporny'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2020' />
+
+<abstract><t>This document describes a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over content within an HTTP message.  This mechanism supports use cases where the full HTTP message may not be known to the signer, and where the message may be transformed (e.g., by intermediaries) before reaching the verifier.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-httpbis-message-signatures-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-httpbis-message-signatures-01.txt' />
+</reference>

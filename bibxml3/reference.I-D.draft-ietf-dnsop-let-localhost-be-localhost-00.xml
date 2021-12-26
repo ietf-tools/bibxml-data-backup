@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-let-localhost-be-localhost'>
+<front>
+<title>Let 'localhost' be localhost.</title>
+
+<author initials='M' surname='West' fullname='Mike West'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2017' />
+
+<abstract><t>This document updates RFC6761 with the goal of ensuring that "localhost" can be safely relied upon as a name for the local host's loopback interface.  To that end, stub resolvers are required to resolve localhost names to loopback addresses.  Recursive DNS servers are required to return "NXDOMAIN" when queried for localhost names, making non-conformant stub resolvers more likely to fail and produce problem reports that result in updates.  Together, these requirements would allow applications and specifications to join regular users in drawing the common-sense conclusions that "localhost" means "localhost", and doesn't resolve to somewhere else on the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-let-localhost-be-localhost-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-let-localhost-be-localhost-00.txt' />
+</reference>

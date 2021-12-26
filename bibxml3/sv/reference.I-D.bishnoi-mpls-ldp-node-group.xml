@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bishnoi-mpls-ldp-node-group'>
+<front>
+<title>LDP Node and FEC group</title>
+
+<author initials='S' surname='Bishnoi' fullname='Sandeep Bishnoi'>
+    <organization />
+</author>
+
+<author initials='P' surname='Dutta' fullname='Pranjal Dutta'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>[RFC5036] and [MLDP] describes the Label Distribution Protocol (LDP) for setup of point-to-point (P2P), point to multi-point (P2MP) and multipoint-to-multipoint (MP2MP) Label Switched Paths (LSPs). Upstream node selection for P2MP/MP2MP LSP and label map propagation for P2P is based on route availability and local policy. If multiple paths are available then there is no method for selection of certain preferred nodes. A new method is defined in this document that can optionally be used as a tiebreaker among multiple available paths in upstream node selection. This method provides a mechanism to guide traffic via specific set of nodes in a network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bishnoi-mpls-ldp-node-group-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bishnoi-mpls-ldp-node-group-00.txt' />
+</reference>

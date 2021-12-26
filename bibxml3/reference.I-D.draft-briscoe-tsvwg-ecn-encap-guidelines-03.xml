@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tsvwg-ecn-encap-guidelines'>
+<front>
+<title>Guidelines for Adding Congestion Notification to Protocols that Encapsulate IP</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kaippallimalil' fullname='John Kaippallimalil'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thaler' fullname='Patricia Thaler'>
+    <organization />
+</author>
+
+<date month='September' day='17' year='2013' />
+
+<abstract><t>The purpose of this document is to guide the design of congestion notification in any lower layer or tunnelling protocol that encapsulates IP.  The aim is for explicit congestion signals to propagate consistently from lower layer protocols into IP.  Then the IP internetwork layer can act as a portability layer to carry congestion notification from non-IP-aware congested nodes up to the transport layer (L4).  Following these guidelines should assure interworking between new lower layer congestion notification mechanisms, whether specified by the IETF or other standards bodies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tsvwg-ecn-encap-guidelines-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-ecn-encap-guidelines-03.txt' />
+</reference>

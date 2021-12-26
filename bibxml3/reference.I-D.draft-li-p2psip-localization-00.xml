@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-p2psip-localization'>
+<front>
+<title>Traffic localization for RELOAD</title>
+
+<author initials='G' surname='Li' fullname='Gang Li'>
+    <organization />
+</author>
+
+<author initials='L' surname='Le' fullname='Lifeng Le'>
+    <organization />
+</author>
+
+<author initials='N' surname='Zhou' fullname='Naibao Zhou'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2009' />
+
+<abstract><t>This document describes the traffic problems due to randomly distributed data storage in P2PSIP overlay, identifies the traffic localization requirements, and then proposes an overlay construction and data storage mechanism to implement traffic localization for REsource LOcation And Discovery (RELOAD). Specifically, it's proposed to add location indicator to the Peer node ID, for example, the beginning 5 bit hash ID stands for the peer location, and user data with the location indication shall be possible to be stored in local peer, thus to achieve traffic localization, reduce backbone network traffic, and improve the efficiency and QoS of the whole network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-p2psip-localization-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-p2psip-localization-00.txt' />
+</reference>

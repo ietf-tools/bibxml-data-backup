@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-mif-api-extension'>
+<front>
+<title>Socket API Extension for Multiple Connection Support</title>
+
+<author initials='D' surname='Liu' fullname='Dapeng Liu'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Cao' fullname='Zhen Cao'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2010' />
+
+<abstract><t>The Socket API is the de facto standard of network API for many UNIX- like and non-UNIX OSes.  Many APIs that are exported to the user space is either direct use or encapsulates the Socket API.  The Socket API has been extended to support IPv6.  Recently, multiple interfaces or multiple connection capable devices become more and more common.  But due to the limitation of the default route of the host and other issues such as DNS selection etc prevent the utilization of multiple interfaces/connections benefit.  Moreover, there is no API level support for the application developer to utilize the benefit of the host's multiple interfaces/connections. Starting with the requirement of MIF API extension, this document introduces a new set of APIs to support multiple interfaces/ connections.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-mif-api-extension-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-mif-api-extension-02.txt' />
+</reference>

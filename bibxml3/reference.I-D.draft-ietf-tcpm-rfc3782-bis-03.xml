@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-rfc3782-bis'>
+<front>
+<title>The NewReno Modification to TCP's Fast Recovery Algorithm</title>
+
+<author initials='T' surname='Henderson' fullname='Tom Henderson'>
+    <organization />
+</author>
+
+<author initials='S' surname='Floyd' fullname='Sally Floyd'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gurtov' fullname='Andrei Gurtov'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Nishida' fullname='Yoshifumi Nishida'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2011' />
+
+<abstract><t>RFC 5681 documents the following four intertwined TCP congestion control algorithms: slow start, congestion avoidance, fast retransmit, and fast recovery.  RFC 5681 explicitly allows certain modifications of these algorithms, including modifications that use the TCP Selective Acknowledgement (SACK) option (RFC 2883), and modifications that respond to "partial acknowledgments" (ACKs which cover new data, but not all the data outstanding when loss was detected) in the absence of SACK.  This document describes a specific algorithm for responding to partial acknowledgments, referred to as NewReno.  This response to partial acknowledgments was first proposed by Janey Hoe.  This document obsoletes RFC 3782.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-rfc3782-bis-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-rfc3782-bis-03.txt' />
+</reference>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-pcep-extension-pce-controller-sr'>
+<front>
+<title>PCEP Procedures and Protocol Extensions for Using PCE as a Central Controller (PCECC) for Segment Routing (SR) MPLS Segment Identifier (SID) Allocation and Distribution.</title>
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+<organization />
+</author>
+<author initials='S' surname='Peng' fullname='Shuping Peng'>
+<organization />
+</author>
+<author initials='M' surname='Negi' fullname='Mahendra Negi'>
+<organization />
+</author>
+<author initials='Q' surname='Zhao' fullname='Quintin Zhao'>
+<organization />
+</author>
+<author initials='C' surname='Zhou' fullname='Chao Zhou'>
+<organization />
+</author>
+<date year='2021' month='September' day='30' />
+<abstract><t>The Path Computation Element (PCE) is a core component of Software- Defined Networking (SDN) systems.</t><t> A PCE-based Central Controller (PCECC) can simplify the processing of a distributed control plane by blending it with elements of SDN and without necessarily completely replacing it.  Thus, the LSP can be calculated/set up/initiated and the label forwarding entries can also be downloaded through a centralized PCE server to each network device along the path while leveraging the existing PCE technologies as much as possible.</t><t> This document specifies the procedures and PCEP extensions when a PCE-based controller is also responsible for configuring the forwarding actions on the routers, in addition to computing the paths for packet flows in a segment routing (SR) network and telling the edge routers what instructions to attach to packets as they enter the network.  PCECC is further enhanced for SR-MPLS SID (Segment Identifier) allocation and distribution.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-pcep-extension-pce-controller-sr-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-pce-pcep-extension-pce-controller-sr-03.txt'/>
+</reference>

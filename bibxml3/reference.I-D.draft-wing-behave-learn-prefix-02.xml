@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wing-behave-learn-prefix'>
+<front>
+<title>Learning the IPv6 Prefix of an IPv6/IPv4 Translator</title>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='X' surname='Wang' fullname='Xuewei Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<date month='May' day='11' year='2009' />
+
+<abstract><t>Some IPv6 applications obtain IPv4 address literals and want to communicate with those IPv4 hosts through an IPv6/IPv4 translator. The IPv6 application can send an IPv6 packet through the translator if it knows the IPv6 prefix of the IPv6/IPv4 translator.  In many IPv6/IPv4 translation deployments, that IPv6 prefix is not fixed; rather, the prefix is chosen by the network operator.  This specification provides three methods for a host to learn the IPv6 prefix of its IPv6/IPv4 translator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wing-behave-learn-prefix-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wing-behave-learn-prefix-02.txt' />
+</reference>

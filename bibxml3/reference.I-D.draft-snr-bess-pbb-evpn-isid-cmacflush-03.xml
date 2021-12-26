@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.snr-bess-pbb-evpn-isid-cmacflush'>
+<front>
+<title>PBB-EVPN ISID-based CMAC-Flush</title>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sathappan' fullname='Senthil Sathappan'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nagaraj' fullname='Kiran Nagaraj'>
+    <organization />
+</author>
+
+<author initials='M' surname='Miyake' fullname='Masahiro Miyake'>
+    <organization />
+</author>
+
+<author initials='T' surname='Matsuda' fullname='Taku Matsuda'>
+    <organization />
+</author>
+
+<date month='January' day='15' year='2018' />
+
+<abstract><t>RFC7623 defines how Provider Backbone Bridging (PBB) can be combined with Ethernet VPN (EVPN) to deploy ELAN services in very large MPLS networks. RFC7623 also describes how Single-Active Multi-homing and per-ISID Load-Balancing can be provided to access devices and aggregation networks. In order to speed up the network convergence in case of failures on Single-Active Multi-Homed Ethernet Segments, RFC7623 defines a CMAC-Flush mechanism that works for different Ethernet Segment BMAC address allocation models. This document complements those CMAC-Flush procedures for cases in which no PBB- EVPN Ethernet Segments are defined (ESI 0) and an ISID-based CMAC- Flush granularity is desired.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-snr-bess-pbb-evpn-isid-cmacflush-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-snr-bess-pbb-evpn-isid-cmacflush-03.txt' />
+</reference>

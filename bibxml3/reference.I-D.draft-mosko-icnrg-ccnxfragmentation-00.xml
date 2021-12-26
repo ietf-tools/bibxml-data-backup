@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mosko-icnrg-ccnxfragmentation'>
+<front>
+<title>CCNx End-To-End Fragmentation</title>
+
+<author initials='M' surname='Mosko' fullname='Marc Mosko'>
+    <organization />
+</author>
+
+<date month='January' day='9' year='2015' />
+
+<abstract><t>This document specifies an end to-end fragmentation protocol for breaking a Content Object into several smaller pieces in order to fit within a network MTU.  The fragmentation protocol does not provide a secure binding of the fragments to the original object.  This is left to the receiving endpoint.  Midpoints may only serve fragments from their cache if they have assembled and verified the complete Content Object.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mosko-icnrg-ccnxfragmentation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mosko-icnrg-ccnxfragmentation-00.txt' />
+</reference>

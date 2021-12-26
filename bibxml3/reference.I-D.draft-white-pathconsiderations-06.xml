@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.white-pathconsiderations'>
+<front>
+<title>Considerations in Validating the Path in BGP</title>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<date month='May' day='17' year='2006' />
+
+<abstract><t>A good deal of thought has gone into, and is currently being given to, validating the path to a destination advertised by BGP. The purpose of this work is to explain the issues in validating a BGP AS Path, in the expectation that it will help in the evaluation of schemes seeking to improve path validation. The first section defines at least some of the types of questions a BGP speaker receiving an update from a peer not in the local autonomous system (AS) could ask about the information within the routing update. The sections following examine the answers to these questions in consideration of specific deployments of BGP. The examples given in this draft are intended to distill deployments down to their most critical components, making the examples easier to understand and consider. In many situations, the specific path taken in the example may not be relevant, but that does not nullify the principles considered in each example. It has been suggested that these examples are "red herrings," because they do not illustrate actual problems with specific policies. On the contrary, these examples are powerful because they are simple. Any topology in which one of these example topologies is a subtopology will exhibit the characteristics explained in this draft. Rather than focusing on a specific topology, then dismissing that single topology as a "corner case," this draft shows the basic issues with assertions about the AS Path attribute within BGP. These generalized issues can then be applied to more specific cases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-white-pathconsiderations-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-white-pathconsiderations-06.txt' />
+</reference>

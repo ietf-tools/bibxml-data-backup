@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-httpbis-minimal-unauth-enc'>
+<front>
+<title>Minimal Unauthenticated Encryption (MUE) for HTTP/2</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='December' day='3' year='2013' />
+
+<abstract><t>HTTP/2 can be run under TLS as a transport if the origin for the request is an https: URL.  There is a desire to encrypt much more web traffic than just the traffic that is already encrypted with TLS. This document proposes a method to establish unauthenticated encryption within normal HTTP/2 flows to prevent passive surveillance using as few as zero additional round trips.  The method described here is definitely less robust than normal TLS and is thus not offered as an alternative to TLS for https: URLs; it is only offered as a fast way within HTTP/2 to cause unauthenticated encryption.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-httpbis-minimal-unauth-enc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-httpbis-minimal-unauth-enc-00.txt' />
+</reference>

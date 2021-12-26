@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pornin-deterministic-dsa'>
+<front>
+<title>Deterministic Usage of DSA and ECDSA Digital Signature Algorithms</title>
+
+<author initials='T' surname='Pornin' fullname='Thomas Pornin'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2011' />
+
+<abstract><t>This document defines a deterministic digital signature generation procedure.  Such signatures are compatible with standard DSA and ECDSA digital signatures, and can be processed with unmodified verifiers, which need not be aware of the procedure described therein.  Deterministic signatures retain the cryptographic security features associated with digital signatures, but can be more easily implemented in various environments since they do not need access to a source of high quality randomness.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pornin-deterministic-dsa-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pornin-deterministic-dsa-00.txt' />
+</reference>

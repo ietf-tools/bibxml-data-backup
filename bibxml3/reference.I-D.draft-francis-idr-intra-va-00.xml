@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.francis-idr-intra-va'>
+<front>
+<title>Intra-Domain Virtual Aggregation</title>
+
+<author initials='P' surname='Francis' fullname='Paul Francis'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2008' />
+
+<abstract><t>Virtual Aggregation (VA) is a technique for shrinking the DFZ FIB size in routers (both IPv4 and IPv6).  This allows ISPs to extend the lifetime of existing routers, and allows router vendors to build FIBs with much less concern about the growth of the DFZ routing table.  VA does not shrink the size of the RIB.  VA may be deployed autonomously by an ISP (cooperation between ISPs is not required).  While VA can be deployed without changes to existing routers, doing so requires significant new management tasks.  This document describes changes to routers and BGP that greatly simplify the operation of VA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-francis-idr-intra-va-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-francis-idr-intra-va-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mipshop-pfmipv6'>
+<front>
+<title>Fast Handovers for Proxy Mobile IPv6</title>
+
+<author initials='H' surname='Yokota' fullname='Hidetoshi Yokota'>
+    <organization />
+</author>
+
+<author initials='K' surname='Chowdhury' fullname='Kuntal Chowdhury'>
+    <organization />
+</author>
+
+<author initials='R' surname='Koodli' fullname='Rajeev Koodli'>
+    <organization />
+</author>
+
+<author initials='B' surname='Patil' fullname='Basavaraj Patil'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='December' day='28' year='2009' />
+
+<abstract><t>Mobile IPv6 (MIPv6) [RFC3775] provides a mobile node with IP mobility when it performs a handover from one access router to another and fast handovers for Mobile IPv6 (FMIPv6) [RFC5568] are specified to enhance the handover performance in terms of latency and packet loss. While MIPv6 (and FMIPv6 as well) requires the participation of the mobile node in the mobility-related signaling, Proxy Mobile IPv6 (PMIPv6) [RFC5213] provides IP mobility to mobile nodes that either have or do not have MIPv6 functionality without such involvement. Nevertheless, the basic performance of PMIPv6 in terms of handover latency and packet loss is considered not any different from that of MIPv6.  When the fast handover is considered in such an environment, several modifications are needed to FMIPv6 to adapt to the network-based mobility management.  This document specifies the usage of Fast Mobile IPv6 (FMIPv6) when Proxy Mobile IPv6 is used as the mobility management protocol.  Necessary extensions are specified for FMIPv6 to support the scenario when the mobile node does not have IP mobility functionality and hence is not involved with either MIPv6 or FMIPv6 operations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mipshop-pfmipv6-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mipshop-pfmipv6-12.txt' />
+</reference>

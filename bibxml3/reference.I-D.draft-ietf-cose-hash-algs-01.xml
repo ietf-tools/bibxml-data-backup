@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-cose-hash-algs'>
+<front>
+<title>CBOR Object Signing and Encryption (COSE): Hash Algorithms</title>
+
+<author initials='J' surname='Schaad' fullname='Jim Schaad'>
+    <organization />
+</author>
+
+<date month='June' day='10' year='2019' />
+
+<abstract><t>The CBOR Object Signing and Encryption (COSE) syntax RFC 8152 does not define any direct methods for using hash algorithms.  There are however circumstances where hash algorithms are used: Indirect signatures, where the hash of one or more external contents are signed, or thumbprints, for identification of X.509 certificates or other objects.  This document defines a set of hash algorithms that are identified by COSE Algorithm Identifiers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-cose-hash-algs-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-cose-hash-algs-01.txt' />
+</reference>

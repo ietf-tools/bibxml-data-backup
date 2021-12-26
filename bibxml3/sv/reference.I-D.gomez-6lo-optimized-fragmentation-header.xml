@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gomez-6lo-optimized-fragmentation-header'>
+<front>
+<title>Optimized 6LoWPAN Fragmentation Header</title>
+
+<author initials='C' surname='Gomez' fullname='Carles Gomez'>
+    <organization />
+</author>
+
+<author initials='J' surname='Paradells' fullname='Josep Paradells'>
+    <organization />
+</author>
+
+<author initials='J' surname='Crowcroft' fullname='Jon Crowcroft'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2016' />
+
+<abstract><t>RFC 4944 specifies 6LoWPAN fragmentation, in order to support the IPv6 MTU requirement over IEEE 802.15.4-2003 networks.  The 6LoWPAN fragmentation header format comprises a 4-byte format for the first fragment, and a 5-byte format for subsequent fragments.  This specification defines a more efficient 3-byte, optimized 6LoWPAN fragmentation header for all fragments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gomez-6lo-optimized-fragmentation-header-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gomez-6lo-optimized-fragmentation-header-00.txt' />
+</reference>

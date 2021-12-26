@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.martinbeckman-ietf-ipv6-amp-ipv6hcamp'>
+<front>
+<title>IPv6 Header Compression via Addressing Mitigation Protocol (IPv6 AMP)</title>
+
+<author initials='M' surname='Beckman' fullname='Martin Beckman'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2007' />
+
+<abstract><t>This document outlines a methodology for IPv6 Header Compression via mapping the source and destination addresses into a flow label value per address pair sessions with a specific traffic class field value to identify the packet as “address-less” compressed header. The resultant headers, sans addresses shrink from 320 bits to 64 bits. This mapping is locally specific to the router port and the connecting hosts/router ports. Specifically written for use on low bandwidth links (less than T1 or 1.544Mbps), IPv6 AMP’s applicability goes to integration of cellular/WiFi appliances and will be critical for tactical uses for military and first responder applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-martinbeckman-ietf-ipv6-amp-ipv6hcamp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-martinbeckman-ietf-ipv6-amp-ipv6hcamp-01.txt' />
+</reference>

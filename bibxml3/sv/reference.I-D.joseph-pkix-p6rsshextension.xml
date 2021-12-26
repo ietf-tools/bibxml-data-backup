@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.joseph-pkix-p6rsshextension'>
+<front>
+<title>P6R's Secure Shell Public Key Subsystem</title>
+
+<author initials='M' surname='Joseph' fullname='Mark Joseph'>
+    <organization />
+</author>
+
+<author initials='J' surname='Susoy' fullname='Jim Susoy'>
+    <organization />
+</author>
+
+<date month='September' day='30' year='2013' />
+
+<abstract><t>The Secure Shell Public Key Subsystem protocol defines a key distribution protocol to provision an SSH server with user's public keys.  However, that protocol is limited to provisioning an SSH server. This document describes a new protocol that builds on the protocol defined in RFC 4819 to allow the provisioning of keys and certificates to a server using the SSH transport.  The new protocol allows the calling client to organize keys and certificates in different namespaces on a server.  These namespaces can be used by the server to allow a client to configure any application running on the server (e.g., SSH, KMIP, SNMP).  The new protocol provides a server-independent mechanism for clients to add public keys, remove public keys, add certificates, remove certificates, and list the current set of keys and certificates known by the server by namespace (e.g., list all public keys in the SSH namespace).  Rights to manage keys and certificates in a specific namespace are specific and limited to the authorized user and are defined as part of the server's implementation.   The described protocol is backward compatible to version 2 defined by RFC 4819.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-joseph-pkix-p6rsshextension-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-joseph-pkix-p6rsshextension-04.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tcs-coap-no-response-option'>
+<front>
+<title>CoAP option for no server-response</title>
+
+<author initials='A' surname='Bhattacharyya' fullname='Abhijan Bhattacharyya'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bandyopadhyay' fullname='Soma Bandyopadhyay'>
+    <organization />
+</author>
+
+<author initials='A' surname='Pal' fullname='Arpan Pal'>
+    <organization />
+</author>
+
+<date month='August' day='29' year='2013' />
+
+<abstract><t>The server end-point does not respond with acknowledgment (ACK) in non-confirmable(NON)mode of CoAP. However, the server responds the client with a status code indicating "the result of the attempt to understand and satisfy the request". But there may be typical scenarios, while updating resources in NON mode, where any kind of response from the server may be considered redundant. Thus, in this case, the transaction becomes completely open-loop with no reverse path from the server to the client. This kind of exchange may be useful in constrained systems looking for maximized throughput with minimized resource consumption. This draft introduces a header option: 'No-Resp' to suppress any response from the server and discusses an exemplary but practical use case which actually motivated this proposition based on real experience.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tcs-coap-no-response-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tcs-coap-no-response-option-00.txt' />
+</reference>

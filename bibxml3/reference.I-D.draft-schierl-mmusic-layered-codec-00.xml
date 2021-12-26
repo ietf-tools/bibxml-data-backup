@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schierl-mmusic-layered-codec'>
+<front>
+<title>Signaling media decoding dependency</title>
+
+<author initials='T' surname='Schierl' fullname='Thomas Schierl'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2006' />
+
+<abstract><t>This memo defines semantics that allows for signaling decoding dependency of different media descriptions with the same media type in the Session Description Protocol (SDP). This is e.g. required if media data as result of a layered media coding process is separated and carried in different transport streams. Therefore a new grouping type "DDP" - decoding dependency is defined to be used with the Grouping of Media Lines in the Session Description Protocol (RFC 3388); further an attribute is specified describing the relationship of media streams of a "DDP" group. Additionally attributes for description of the media properties are defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schierl-mmusic-layered-codec-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schierl-mmusic-layered-codec-00.txt' />
+</reference>

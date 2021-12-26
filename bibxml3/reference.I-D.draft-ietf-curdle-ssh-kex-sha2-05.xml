@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-curdle-ssh-kex-sha2'>
+<front>
+<title>Key Exchange (KEX) Method Updates and Recommendations for Secure Shell (SSH)</title>
+
+<author initials='M' surname='Baushke' fullname='Mark Baushke'>
+    <organization />
+</author>
+
+<date month='September' day='20' year='2016' />
+
+<abstract><t>This document adds recommendations for adoption of ssh-curves from the [I-D.ietf-curdle-ssh-curves] and new-modp from the [I-D.ietf-curdle-ssh-modp-dh-sha2], and deprecates some previously specified Key Exchange Method algorithm names for the Secure Shell (SSH) protocol.  It also updates [RFC4253], [RFC4419], [RFC4462], and [RFC5656] by specifying the set key exchange algorithms that currently exist and which ones MUST, SHOULD, MAY, and SHOULD NOT be implemented.  New key exchange methods use the SHA-2 family of hashes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-curdle-ssh-kex-sha2-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-curdle-ssh-kex-sha2-05.txt' />
+</reference>

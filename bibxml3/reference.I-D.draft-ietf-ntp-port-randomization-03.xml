@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ntp-port-randomization'>
+<front>
+<title>Port Randomization in the Network Time Protocol Version 4</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='G' surname='Gont' fullname='Guillermo Gont'>
+    <organization />
+</author>
+
+<author initials='M' surname='Lichvar' fullname='Miroslav Lichvar'>
+    <organization />
+</author>
+
+<date month='May' day='29' year='2020' />
+
+<abstract><t>The Network Time Protocol can operate in several modes.  Some of these modes are based on the receipt of unsolicited packets, and therefore require the use of a service/well-known port as the local port number.  However, in the case of NTP modes where the use of a service/well-known port is not required, employing such well-known/ service port unnecessarily increases the ability of attackers to perform blind/off-path attacks.  This document formally updates RFC5905, recommending the use of port randomization for those modes where use of the NTP service port is not required.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ntp-port-randomization-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ntp-port-randomization-03.txt' />
+</reference>

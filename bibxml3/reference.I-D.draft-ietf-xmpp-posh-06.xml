@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-xmpp-posh'>
+<front>
+<title>PKIX over Secure HTTP (POSH)</title>
+
+<author initials='M' surname='Miller' fullname='Matthew Miller'>
+    <organization />
+</author>
+
+<author initials='P' surname='Saint-Andre' fullname='Peter Saint-Andre'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2015' />
+
+<abstract><t>Experience has shown that it is difficult to deploy proper PKIX certificates for TLS in multi-tenant environments.  As a result, domains hosted in such environments often deploy applications using certificates that identify the hosting service, not the hosted domain.  Such deployments force end users and peer services to accept a certificate with an improper identifier, resulting in degraded security.  This document defines two methods that make it easier to deploy certificates for proper server identity checking in non-HTTP application protocols.  While these methods were developed for use in the Extensible Messaging and Presence Protocol (XMPP) as a Domain Name Association (DNA) prooftype, they might also be usable in other non-HTTP application protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-xmpp-posh-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-xmpp-posh-06.txt' />
+</reference>

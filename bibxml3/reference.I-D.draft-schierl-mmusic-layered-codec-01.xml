@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schierl-mmusic-layered-codec'>
+<front>
+<title>Signaling of layered and multi description media in Session Description  Protocol (SDP)</title>
+
+<author initials='T' surname='Schierl' fullname='Thomas Schierl'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2006' />
+
+<abstract><t>This memo defines semantics that allow for signaling decoding dependency of different media descriptions with the same media type in the Session Description Protocol (SDP). This is required, for example, if media data is separated and transported in different network streams as a result of the use of a layered media coding process. A new grouping type "DDP" -- decoding dependency -- is defined, to be used in conjunction with RFC 3388 entitled "Grouping of Media Lines in the Session Description Protocol". In addition, an attribute is specified describing the relationship of the media streams in a "DDP" group. Finally, this memo defines SDP semantics indicating SSRC multiplexing for media sessions in case RTP is used as the protocol for media transport.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schierl-mmusic-layered-codec-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schierl-mmusic-layered-codec-01.txt' />
+</reference>

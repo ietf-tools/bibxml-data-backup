@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bonica-6man-unrecognized-opt'>
+<front>
+<title>The IPv6 Probe Option</title>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<author initials='J' surname='Leddy' fullname='John Leddy'>
+    <organization />
+</author>
+
+<date month='August' day='9' year='2018' />
+
+<abstract><t>This document defines a new IPv6 option, called the Probe option. The Probe option elicits an ICMPv6 Parameter Problem message from all nodes that process it.  When a node sends a packet that contains the Probe option and receives an ICMPv6 Parameter Problem message in response, it has verified the network's ability to convey packets that contain the Probe option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bonica-6man-unrecognized-opt-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bonica-6man-unrecognized-opt-03.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-mpls-return-path-specified-lsp-ping'>
+<front>
+<title>Return Path Specified LSP Ping</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='X' surname='Guo' fullname='Xinchun Guo'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cao' fullname='Wei Cao'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ning' fullname='So Ning'>
+    <organization />
+</author>
+
+<author initials='F' surname='JOUNAY' fullname='Frederic JOUNAY'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2009' />
+
+<abstract><t>This document defines extensions to LSP Ping [RFC 4379] to enable the return path(s) of an echo reply message, so that it can be specified when sending an echo request message to perform LSP failure detection, and the echo reply message is extended to detect the return path(s). This capability could improve the reliability of echo reply and allows failure detection of a Bidirectional LSP or two unidirectional LSPs being performed by one message, resulting in operational saving.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-mpls-return-path-specified-lsp-ping-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-mpls-return-path-specified-lsp-ping-00.txt' />
+</reference>

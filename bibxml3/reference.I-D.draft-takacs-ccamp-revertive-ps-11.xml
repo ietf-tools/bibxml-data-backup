@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.takacs-ccamp-revertive-ps'>
+<front>
+<title>RSVP-TE Recovery Extension for data plane initiated reversion, and protection timer signaling</title>
+
+<author initials='A' surname='Takacs' fullname='Attila Takacs'>
+    <organization />
+</author>
+
+<author initials='F' surname='Fondelli' fullname='Francesco Fondelli'>
+    <organization />
+</author>
+
+<author initials='B' surname='Tremblay' fullname='Benoit Tremblay'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>RSVP-TE recovery extensions are specified in [RFC4872] and [RFC4873].  Currently recovery signaling does not support the request for revertive protection and recovery timers values. This document extends the PROTECTION Object format allowing sub-TLVs, and defines two sub-TLVs to carry wait-to-restore and hold-off intervals.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-takacs-ccamp-revertive-ps-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-takacs-ccamp-revertive-ps-11.txt' />
+</reference>

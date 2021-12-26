@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kitamura-ipv6-ephemeral-address'>
+<front>
+<title>IPv6 Ephemeral Addresses</title>
+
+<author initials='H' surname='Kitamura' fullname='Hiroshi Kitamura'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ata' fullname='Shingo Ata'>
+    <organization />
+</author>
+
+<author initials='M' surname='Murata' fullname='Masayuki Murata'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2009' />
+
+<abstract><t>This document describes a new address type that is called "Ephemeral Addresses". Ephemeral Addresses are designed to be used as clients' source addresses of TCP / UDP sessions. An idea Ephemeral Addresses is simple enough. They are achieved by deriving existing "ephemeral ports" specifications. In other words, they are achieved by naturally upgrading their concept from the port space to the address space. Since Ephemeral Addresses functions are implemented only in the kernel side of the OS, we can use the Ephemeral Addresses functions in current exiting enormous client applications without modifying them. Ephemeral Addresses functions can contribute to various types of security enhancements that include privacy protections etc.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kitamura-ipv6-ephemeral-address-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kitamura-ipv6-ephemeral-address-01.txt' />
+</reference>

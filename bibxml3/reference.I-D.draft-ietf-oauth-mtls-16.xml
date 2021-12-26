@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-oauth-mtls'>
+<front>
+<title>OAuth 2.0 Mutual TLS Client Authentication and Certificate-Bound Access Tokens</title>
+
+<author initials='B' surname='Campbell' fullname='Brian Campbell'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bradley' fullname='John Bradley'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sakimura' fullname='Nat Sakimura'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lodderstedt' fullname='Torsten Lodderstedt'>
+    <organization />
+</author>
+
+<date month='August' day='13' year='2019' />
+
+<abstract><t>This document describes OAuth client authentication and certificate- bound access and refresh tokens using mutual Transport Layer Security (TLS) authentication with X.509 certificates.  OAuth clients are provided a mechanism for authentication to the authorization server using mutual TLS, based on either self-signed certificates or public key infrastructure (PKI).  OAuth authorization servers are provided a mechanism for binding access tokens to a client's mutual TLS certificate, and OAuth protected resources are provided a method for ensuring that such an access token presented to it was issued to the client presenting the token.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-oauth-mtls-16' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-mtls-16.txt' />
+</reference>

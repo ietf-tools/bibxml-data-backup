@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-csv-csa'>
+<front>
+<title>Client SMTP Authorization (CSA)</title>
+
+<author initials='D' surname='Crocker' fullname='David Crocker'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2005' />
+
+<abstract><t>Internet operation has typically required no public mechanism for announcing restriction or permission of particular hosts to operate clients or servers for particular services on behalf of particular domains. What is missing is an open, interoperable means by which a trusted agency can announce authorization for a host to operate a service. The current specification supports this capability for sending SMTP clients. Specifically, is a sending SMTP client permitted to act as a client MTA? Has a separate authority given it permission to perform this service? Client SMTP Authorization (CSA) specifies a DNS-based record that states whether an associated host has permission to operate as a client MTA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crocker-csv-csa-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crocker-csv-csa-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lisp-alt'>
+<front>
+<title>LISP Alternative Topology (LISP+ALT)</title>
+
+<author initials='V' surname='Fuller' fullname='Vince Fuller'>
+    <organization />
+</author>
+
+<author initials='D' surname='Farinacci' fullname='Dino Farinacci'>
+    <organization />
+</author>
+
+<author initials='D' surname='Meyer' fullname='Dave Meyer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lewis' fullname='Darrel Lewis'>
+    <organization />
+</author>
+
+<date month='September' day='19' year='2011' />
+
+<abstract><t>This document describes a simple distributed index system to be used by a Locator/ID Separation Protocol (LISP) Ingress Tunnel Router (ITR) or Map Resolver (MR) to find the Egress Tunnel Router (ETR) which holds the mapping information for a particular Endpoint Identifier (EID).  The MR can then query that ETR to obtain the actual mapping information, which consists of a list of Routing Locators (RLOCs) for the EID.  Termed the Alternative Logical Topology (ALT), the index is built as an overlay network on the public Internet using the Border Gateway Protocol (BGP) and the Generic Routing Encapsulation (GRE).  Using these proven protocols, the ALT can be built and deployed relatively quickly without any changes to the existing routing infrastructure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lisp-alt-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lisp-alt-09.txt' />
+</reference>

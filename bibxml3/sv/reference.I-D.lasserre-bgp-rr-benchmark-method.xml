@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lasserre-bgp-rr-benchmark-method'>
+<front>
+<title>BGP RR Benchmarking Methodology</title>
+
+<author initials='G' surname='Lasserre' fullname='Gregory Lasserre'>
+    <organization />
+</author>
+
+<author initials='J' surname='Cumming' fullname='James Cumming'>
+    <organization />
+</author>
+
+<author initials='C' surname='Rossenhoevel' fullname='Carsten Rossenhoevel'>
+    <organization />
+</author>
+
+<author initials='G' surname='Gaulon' fullname='Guillaume Gaulon'>
+    <organization />
+</author>
+
+<date month='September' day='20' year='2016' />
+
+<abstract><t>BGP is commonly used with network operators in order to distribute routing information for both infrastructure routes as well as service routing information.  BGP is used due to its ability to handle high amounts of prefixes and paths information coupled with administrative attributes, such as communities, in a reliable and scalable manner.  A route-reflector is a key network component of BGP as it propose an alternative to internal border gateway protocol (iBGP) fully-meshed peering requirement.  By acting as a concentration point it learns, process, and reflect prefixes from and to all its iBGP Peers also referred as route-reflector clients, and is a key element of such networks performances.  As today networks grow in terms of size and offered services, this translates into more prefixes to be handled by BGP Route-Reflectors, and there is a demand by service providers to be able to benchmark this key function in a realistic and consistent manner.  This document covers how to provide an accurate BGP route-reflector benchmark.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lasserre-bgp-rr-benchmark-method-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lasserre-bgp-rr-benchmark-method-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.smirnov-ospf-dive'>
+<front>
+<title>OSPF for large-scale networks with regular topologies</title>
+
+<author initials='A' surname='Smirnov' fullname='Anton Smirnov'>
+    <organization />
+</author>
+
+<date month='April' day='10' year='2015' />
+
+<abstract><t>Many popular topologies for large-scale networks have highly regular structure with distinctive design pattern.  Examples of such topologies include hub-and-spoke (also known as "star") common in enterprise WAN networks, fat-tree and Clos topologies common in datacenters.  For number of reasons in such large-scale networks distance-vector protocols perform better than OSPF.  On the other hand network backbones have no highly regular topology pattern and there OSPF outperforms distance-vector protocols.  As a result large- scale networks frequently employ different routing protocols in different regions of the network, complicating network operations.  This document proposes OSPF extensions to improve scalability of routing for large-scale networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-smirnov-ospf-dive-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-smirnov-ospf-dive-01.txt' />
+</reference>

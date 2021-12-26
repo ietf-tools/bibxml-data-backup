@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mathis-tcpm-rfc6937bis'>
+<front>
+<title>Proportional Rate Reduction for TCP</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<author initials='N' surname='Dukkipati' fullname='Nandita Dukkipati'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
+    <organization />
+</author>
+
+<date month='November' day='1' year='2020' />
+
+<abstract><t>This document updates the Proportional Rate Reduction (PRR) algorithm described as experimental in RFC 6937 to standards track.  PRR potentially replaces the Fast Recovery and Rate-Halving algorithms. All of these algorithms regulate the amount of data sent by TCP or other transport protocol during loss recovery.  PRR more accurately regulates the actual flight size through recovery such that at the end of recovery it will be as close as possible to the ssthresh, as determined by the congestion control algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mathis-tcpm-rfc6937bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mathis-tcpm-rfc6937bis-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-radext-populating-eapidentity'>
+<front>
+<title>Considerations regarding the correct use of EAP-Response/Identity</title>
+
+<author initials='S' surname='Winter' fullname='Stefan Winter'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>There are some subtle considerations for an EAP peer regarding the content of the EAP-Response/Identity packet when authenticating with EAP to an EAP server.  This document describes two such considerations and suggests workarounds to the associated problems. One of these workarounds is a new requirement for EAP peers that the use of UTF-8 is required for the content of EAP-Response/Identity (which updates RFC3748).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-radext-populating-eapidentity-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-radext-populating-eapidentity-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lee-icnrg-domainbasedrouting'>
+<front>
+<title>Scalable Domain-based Routing Scheme</title>
+
+<author initials='J' surname='Lee' fullname='Joo-Chul Lee'>
+    <organization />
+</author>
+
+<author initials='W' surname='Lim' fullname='Wan-Seon Lim'>
+    <organization />
+</author>
+
+<author initials='W' surname='Chun' fullname='Woo-Jik Chun'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2014' />
+
+<abstract><t>This memo describes a scalable routing scheme for ICN regardless of the underlying network protocols. When Lookup-By-Name routing (LBNR) is used the first thing to do is name to locator resolution. Once the locator is acquired, discovery and delivery steps are carried out based on the network protocol of the locator. However, if the requestor and contents server are in heterogeneous networks discovery and delivery step could not be carried out smoothly. To let this happen seamlessly we propose scalable routing scheme based on hierarchically-organized domain structure. This scheme is independent of underlying network protocols and is more scalable thanks to the abstraction of location spaces. Internet is projected as spaces (i.e. domains) which have hierarchical relationship among them, and each node which belongs to a domain can be reached through "locator" which is a concatenation of "domain IDs".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lee-icnrg-domainbasedrouting-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lee-icnrg-domainbasedrouting-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chakrabarti-nordmark-energy-aware-nd'>
+<front>
+<title>Energy Aware IPv6 Neighbor Discovery Optimizations</title>
+
+<author initials='S' surname='Chakrabarti' fullname='Samita Chakrabarti'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wasserman' fullname='Margaret Wasserman'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2011' />
+
+<abstract><t>IPv6 Neighbor Discovery (RFC 4861) protocol has been designed for neighbor's address resolution, unreachability detection, address autoconfiguration, router advertisement and solicitation.  With the progress of Internet adoption on various industries including home, wireless and machine-to-machine communications, there is a desire for optimizing legacy IPv6 Neighbor Discovery protocol for energy- efficient networks and nodes.  Research indicates that often networked- nodes require more energy than stand-alone nodes because a node's energy usage depends on network messages it receives and responds.  While reducing energy consumption is essential for battery operated nodes in some machines, saving energy actually a cost factor in business in general as the explosion of more device usage is leading to usage of more servers and network infrastructure in all sectors of the society and business.  This document describes a method of optimizations by reducing periodic multicast messages, frequent Neighbor Solicitation messages and discusses interoperability with legacy IPv6 nodes.  This document also addresses the ND denial of service issues by introducing node Registration procedure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chakrabarti-nordmark-energy-aware-nd-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chakrabarti-nordmark-energy-aware-nd-01.txt' />
+</reference>

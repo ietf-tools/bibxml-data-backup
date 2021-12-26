@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ota-dhc-auth-chap'>
+<front>
+<title>CHAP-based Authentication for DHCPv6</title>
+
+<author initials='M' surname='Ota' fullname='Masazumi Ota'>
+    <organization />
+</author>
+
+<author initials='M' surname='Yanagiya' fullname='Mayumi Yanagiya'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2005' />
+
+<abstract><t>In delayed authentication in DHCPv6[RFC3315], the hardware identifier is used to select the key, and the key is exchanged between the server and the client in advance. Therefore, when a user tries to use a new device, it is necessary to add key information to the new device and DHCPv6 servers. In this document, we propose a procedure for introducing CHAP[RFC1994] into the DHCPv6 authentication procedure. This procedure allows the client get the host configuration information related to the user and exchanges a secret key to use in later sequence.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ota-dhc-auth-chap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ota-dhc-auth-chap-00.txt' />
+</reference>

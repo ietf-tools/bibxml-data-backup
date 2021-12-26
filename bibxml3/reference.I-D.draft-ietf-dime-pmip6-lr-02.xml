@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dime-pmip6-lr'>
+<front>
+<title>Diameter Support for Proxy Mobile IPv6 Localized Routing</title>
+
+<author initials='G' surname='Zorn' fullname='Glen Zorn'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Liebsch' fullname='Marco Liebsch'>
+    <organization />
+</author>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<date month='November' day='23' year='2010' />
+
+<abstract><t>In Proxy Mobile IPv6, packets received from a Mobile Node (MN) by the Mobile Access Gateway (MAG) to which it is attached are typically tunneled to a Local Mobility Anchor (LMA) for routing.  The term "localized routing" refers to a method by which packets are routed directly by the MAG without involving the LMA.  In order to establish a localized routing session between two Mobile Access Gateways in a Proxy Mobile IPv6 domain, two tasks must be accomplished:  1.  The usage of localized routing must be authorized for both MAGs  and  2.  The address of the MAG to which the Correspondent Node (CN) is  attached must be ascertained  This document specifies how to accomplish these tasks using the Diameter protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dime-pmip6-lr-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dime-pmip6-lr-02.txt' />
+</reference>

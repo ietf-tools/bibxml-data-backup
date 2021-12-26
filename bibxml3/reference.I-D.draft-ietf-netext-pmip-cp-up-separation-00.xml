@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netext-pmip-cp-up-separation'>
+<front>
+<title>Separation of Control and User Plane for Proxy Mobile IPv6</title>
+
+<author initials='R' surname='Wakikawa' fullname='Ryuji Wakikawa'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Charles Perkins'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pazhyannur' fullname='Rajesh Pazhyannur'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2013' />
+
+<abstract><t>This document describes splitting of Control Plane (CP) and User Plane (UP) for a Proxy Mobile IPv6 based network infrastructure. Existing specifications allow a MAG to perform splitting of its control and user plane using Alternate Care of address mobility option for IPv6, or Alternate IPv4 Care of Address option for IPv4. However, the current specification does not have semantics for allowing the LMA to perform such functional split.  To realize this requirement, this specification defines a mobility option that enables a local mobility anchor to provide an alternate LMA address to be used for the bi-directional tunnel between the MAG and LMA. With this extension, a local mobility anchor will be able to use an IP address for its user plane which is different than what is used for the control plane.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netext-pmip-cp-up-separation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netext-pmip-cp-up-separation-00.txt' />
+</reference>

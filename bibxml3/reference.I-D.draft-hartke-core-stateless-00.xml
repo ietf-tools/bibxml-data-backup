@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hartke-core-stateless'>
+<front>
+<title>Extended Tokens and Stateless Clients in the Constrained Application Protocol (CoAP)</title>
+
+<author initials='K' surname='Hartke' fullname='Klaus Hartke'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2018' />
+
+<abstract><t>This document provides considerations for alleviating CoAP clients and intermediaries of maintaining per-request state.  Additionally, it introduces a new, optional CoAP protocol extension for extended tokens.  [[The present draft presents two alternative variants for extending CoAP with extended tokens.  Variant A makes use of the unused values in the TKL field of the CoAP header.  Variant B duplicates the functionality of the token field of the CoAP header in a new CoAP option, "Extended-Token".  The considerations for stateless clients making use of either variant are the same.]]  This document updates RFCs 7252 and 8323 (if Variant A).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hartke-core-stateless-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hartke-core-stateless-00.txt' />
+</reference>

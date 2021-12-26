@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.atlas-rift-pgp'>
+<front>
+<title>Policy Guided Prefixes with Routing In Fat Trees</title>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>In a fat tree, it can be sometimes desirable to guide traffic to particular destinations or keep specific flows to certain paths.  In RIFT, this traffic steering/engineering is done by using policy- guided prefixes with their associated communities.  Routes based on policy-guided prefixes are preferred over regular routes.  Any node can originate a policy-guided prefix and advertise it in both north and south directions, and the calculation in both directions are distance vector based.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-atlas-rift-pgp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-atlas-rift-pgp-00.txt' />
+</reference>

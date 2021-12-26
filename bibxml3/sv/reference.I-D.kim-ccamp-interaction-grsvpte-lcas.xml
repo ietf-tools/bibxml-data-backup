@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kim-ccamp-interaction-grsvpte-lcas'>
+<front>
+<title>Interaction between GMPLS RSVP-TE and LCAS</title>
+
+<author initials='Y' surname='Kim' fullname='Young Hwa Kim'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2004' />
+
+<abstract><t>This document describes interaction aspects between a signaling protocol and the LCAS. The signaling protocol handled by IETF could be GMPLS RSVP-TE. GMPLS CR-LDP requires further study for this draft. The LCAS protocol handled by ITU-T is a protocol that is used to change the bandwidth capacity of a virtual concatenated signal used by transport networks (i.e. SDH and OTN), which should be initiated only in a unidirection by EMS or NMS systems. However, the GMPLS signaling protocol have a feature of being capable of controlling bi- directional connections on a LSP. In current, there is no interaction between the signaling protocol and the LCAS. In this document, when a signaling protocol such as the GMPLS RSVP-TE and the LCAS are used together within a single node and a bi-directional connection is required on the same route, relevant requirements and encoding methods are identified.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kim-ccamp-interaction-grsvpte-lcas-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kim-ccamp-interaction-grsvpte-lcas-01.txt' />
+</reference>

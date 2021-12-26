@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tsou-behave-natx4-log-reduction'>
+<front>
+<title>Port Management To Reduce Logging In Large-Scale NATs</title>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='W' surname='Li' fullname='Weibo Li'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<author initials='J' surname='Huang' fullname='Jing Huang'>
+    <organization />
+</author>
+
+<date month='November' day='1' year='2015' />
+
+<abstract><t>Various IPv6 transition strategies require the introduction of large- scale NATs (e.g.  AFTR, NAT64) to share the limited supply of IPv4 addresses available in the network until transition is complete. There has recently been debate over how to manage the sharing of ports between different subscribers sharing the same IPv4 address. One factor in the discussion is the operational requirement to log the assignment of transport addresses to subscribers.  It has been argued that dynamic assignment of individual ports between subscribers requires the generation of an excessive volume of logs. This document suggests a way to achieve dynamic port sharing while keeping log volumes low.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tsou-behave-natx4-log-reduction-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tsou-behave-natx4-log-reduction-06.txt' />
+</reference>

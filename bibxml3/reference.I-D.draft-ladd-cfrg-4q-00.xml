@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ladd-cfrg-4q'>
+<front>
+<title>Curve4Q</title>
+
+<author initials='W' surname='Ladd' fullname='Watson Ladd'>
+    <organization />
+</author>
+
+<author initials='P' surname='Longa' fullname='Patrick Longa'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2016' />
+
+<abstract><t>This document specifies a twisted Edwards curve that takes advantage of arithmetic over the field GF(2^127-1) and two endomorphisms to achieve the speediest Diffie-Hellman key agreements over a group of order approximately 2^246, which provides around 128 bits of security.  Curve4Q implementations are more than two times faster than those of Curve25519 and, when not using endomorphisms, are between 1.2 and 1.6 times faster.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ladd-cfrg-4q-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ladd-cfrg-4q-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.renker-tsvwg-udplite-mib'>
+<front>
+<title>MIB for the UDP-Lite protocol</title>
+
+<author initials='G' surname='Renker' fullname='Gerrit Renker'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2006' />
+
+<abstract><t>This document specifies a Management Information Base (MIB) for the Lightweight User Datagram Protocol (UDP-Lite, RFC 3828). It defines a set of new MIB entities to characterise the behaviour and performance of the transport layer entities using UDP-Lite. UDP-Lite resembles UDP (RFC 768), but differs from the semantics of UDP by the addition a single (socket) option. This adds the capability for variable-length data checksum coverage that can benefit a class of applications which prefer delivery of corrupted datagram payload data in preference to discarding the datagram.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-renker-tsvwg-udplite-mib-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-renker-tsvwg-udplite-mib-00.txt' />
+</reference>

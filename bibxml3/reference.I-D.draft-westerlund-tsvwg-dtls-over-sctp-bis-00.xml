@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.westerlund-tsvwg-dtls-over-sctp-bis'>
+<front>
+<title>Datagram Transport Layer Security (DTLS) over Stream Control Transmission Protocol (SCTP)</title>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Porfiri' fullname='Claudio Porfiri'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<date month='January' day='15' year='2021' />
+
+<abstract><t>This document describes a proposed update for the usage of the Datagram Transport Layer Security (DTLS) protocol to protect user messages sent over the Stream Control Transmission Protocol (SCTP).  DTLS over SCTP provides mutual authentication, confidentiality, integrity protection, and replay protection for applications that use SCTP as their transport protocol and allows client/server applications to communicate in a way that is designed to give communications privacy and to prevent eavesdropping and detect tampering or message forgery.  Applications using DTLS over SCTP can use almost all transport features provided by SCTP and its extensions.  This document intend to obsolete RFC 6083 and removes the 16 kB limitation on user message size by defining a secure user message fragmentation so that multiple DTLS records can be used to protect a single user message.  It further updates the DTLS versions to use, as well as the HMAC algorithms for SCTP-AUTH, and simplifies the implementation by some stricter requirements on the establishment procedures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-westerlund-tsvwg-dtls-over-sctp-bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-westerlund-tsvwg-dtls-over-sctp-bis-00.txt' />
+</reference>

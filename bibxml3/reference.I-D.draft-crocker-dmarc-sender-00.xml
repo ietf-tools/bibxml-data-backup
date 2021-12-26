@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-dmarc-sender'>
+<front>
+<title>DMARC Use of the RFC5322.Sender Header Field</title>
+
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2020' />
+
+<abstract><t>Internet mail defines the RFC5322.From field to indicate the author of the message's content and the RFC5322.Sender field to indicate who initially handled the message.  The RFC5322.Sender field is optional, if it has the same information as the RFC5322.From field.  That is, when the RFC5322.Sender field is absent, the RFC5322.From field has conflated semantics, with both a handling identifier and a content creator identifier.  This was not a problem, until development of stringent protections on use of the RFC5322.From field.  It has prompted Mediators, such as mailing lists, to modify the RFC5322.From field, to circumvent mail rejection caused by those protections.  This affects end-to-end behavior of email, between the author and the final recipients, because mail from the same author is not treated the same, depending on what path it followed.  In effect, the RFC5322.From field has become dominated by its role as a handling identifier.  The current specification augments use of the RFC5322.From field, by enhancing DMARC to use the RFC5322.Sender field.  This preserves the utility of RFC5322.From field while also preserving the utility of DMARC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crocker-dmarc-sender-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crocker-dmarc-sender-00.txt' />
+</reference>

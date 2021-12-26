@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lennox-avt-h264-source-fmtp'>
+<front>
+<title>Source-Specific Media Format Parameters for H.264 and H.264 SVC</title>
+
+<author initials='J' surname='Lennox' fullname='Jonathan  Lennox'>
+    <organization />
+</author>
+
+<date month='November' day='11' year='2007' />
+
+<abstract><t>When used in the Session Description Protocol Offer/Answer model, several of the media format parameters for the H.264 video format, and for its Scalabile Video Codec (SVC) extension, describe characterics of the stream an endpoint is prepared to send, not of streams it is prepared to receive.  If an endpoint wishes to send multiple streams, these parameters may be incompatible.  This document defines how such media format parameters may be given on a per-source basis, using SDP source-specific fmtp attributes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lennox-avt-h264-source-fmtp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lennox-avt-h264-source-fmtp-00.txt' />
+</reference>

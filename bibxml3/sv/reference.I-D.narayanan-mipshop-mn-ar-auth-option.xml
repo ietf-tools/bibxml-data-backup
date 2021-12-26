@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.narayanan-mipshop-mn-ar-auth-option'>
+<front>
+<title>Mobile Node-Access Router Authentication Option</title>
+
+<author initials='N' surname='Venkitaraman' fullname='Narayanan Venkitaraman'>
+    <organization />
+</author>
+
+<author initials='V' surname='Narayanan' fullname='Vidya Narayanan'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2005' />
+
+<abstract><t>FMIPv6 [4] requires signalling messages to be exchanged between a mobile node and its access router. For secure interaction, these messages must be authenticated using a security association between the access router and the mobile node. To enable the mobile node and the access router unambiguously identify the correct security association this document extends the mobility header authentication option by defining a subtype to indicate a mobile node - access router SPI. Also, this option can be used in signaling messages used to derive handover keys between the MN and AR, as described in HK_AAA [5]. The idea here is to re-use the existing mobility option for authentication and only define an additional sub-type for MN-AR authentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-narayanan-mipshop-mn-ar-auth-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-narayanan-mipshop-mn-ar-auth-option-00.txt' />
+</reference>

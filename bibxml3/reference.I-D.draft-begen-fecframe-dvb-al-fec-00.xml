@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.begen-fecframe-dvb-al-fec'>
+<front>
+<title>DVB Application-Layer Hybrid FEC Protection</title>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='T' surname='Stockhammer' fullname='Thomas Stockhammer'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>This document describes the Application-layer Forward Error Correction (FEC) protocol that was developed by the Digital Video Broadcasting (DVB) consortium for the protection of media streams over IP networks.  The DVB AL-FEC protocol uses two layers for FEC protection.  The first (base) layer is based on the 1-D interleaved parity code.  The second (enhancement) layer is based on the Raptor code.  Since both of these codes have already been specified in separate documents, the current document does not define the details of these codes but provides the references to the respective specifications.  By offering a layered approach, the DVB AL-FEC offers a good protection against both bursty and random packet losses at a cost of decent complexity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-begen-fecframe-dvb-al-fec-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-begen-fecframe-dvb-al-fec-00.txt' />
+</reference>

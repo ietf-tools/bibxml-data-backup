@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raszuk-ext-failure-propagation'>
+<front>
+<title>External failure propagation</title>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2005' />
+
+<abstract><t>The current BGP specification calls for sending prefix based routing information when a BGP peer fails to all other peers so that they could converge using the new information. Certain network events could be communicated to BGP speakers in an aggregated fashion. This not only minimizes control plane traffic but more importantly reduces the time to react to these events by the The current BGP specification calls for sending prefix based routing information when a BGP peer fails to all other peers so that they could converge using the new information. Certain network events could be communicated to BGP speakers in an aggregated fashion. This not only minimizes control plane traffic but more importantly reduces the time to react to these events by the</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raszuk-ext-failure-propagation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raszuk-ext-failure-propagation-00.txt' />
+</reference>

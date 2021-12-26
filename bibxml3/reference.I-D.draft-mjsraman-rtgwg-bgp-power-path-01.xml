@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mjsraman-rtgwg-bgp-power-path'>
+<front>
+<title>Reducing Power Consumption using BGP path selection</title>
+
+<author initials='S' surname='Raman' fullname='Shankar Raman'>
+    <organization />
+</author>
+
+<author initials='B' surname='Venkat' fullname='Balaji Venkat'>
+    <organization />
+</author>
+
+<author initials='G' surname='Raina' fullname='Gaurav Raina'>
+    <organization />
+</author>
+
+<author initials='V' surname='Srini' fullname='Vasan Srini'>
+    <organization />
+</author>
+
+<date month='May' day='2' year='2012' />
+
+<abstract><t>In this paper, we propose a framework to reduce the aggregate power consumption of the Internet using a collaborative approach between Autonomous Systems (AS). We identify the low-power paths among the AS and then use suitable modifications to the BGP path selection algorithm to route the packets along the paths. Such low-power paths can be identified by using the consumed-power-to-available-bandwidth (PWR) ratio as an additional parameter in the BGP Path Selection Algorithm. For re-routing the data traffic through these low-power paths, the power based best path is selected and advertised as per the modified algorithm proposed in this document. Extensions to the Border Gateway Protocol (BGP) can be used to disseminate the PWR ratio metric among the AS thereby creating a collaborative approach to reduce the power consumption. The feasibility of our approaches is illustrated by applying our algorithm to a subset of the Internet. The techniques proposed in this paper for the Inter-AS power reduction require minimal modifications to the existing features of the Internet. The proposed techniques can be extended to other levels of Internet hierarchy, such as Intra-AS paths, through suitable modifications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mjsraman-rtgwg-bgp-power-path-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mjsraman-rtgwg-bgp-power-path-01.txt' />
+</reference>

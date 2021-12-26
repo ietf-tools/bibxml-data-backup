@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-grow-bmp-local-rib'>
+<front>
+<title>Support for Local RIB in BGP Monitoring Protocol (BMP)</title>
+
+<author initials='T' surname='Evens' fullname='Tim Evens'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bayraktar' fullname='Serpil Bayraktar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bhardwaj' fullname='Manish Bhardwaj'>
+    <organization />
+</author>
+
+<author initials='P' surname='Lucente' fullname='Paolo Lucente'>
+    <organization />
+</author>
+
+<date month='March' day='24' year='2019' />
+
+<abstract><t>The BGP Monitoring Protocol (BMP) defines access to the Adj-RIB-In and locally originated routes (e.g. routes distributed into BGP from protocols such as static) but not access to the BGP instance Loc-RIB. This document updates the BGP Monitoring Protocol (BMP) RFC 7854 by adding access to the BGP instance Local-RIB, as defined in RFC 4271 the routes that have been selected by the local BGP speaker's Decision Process.  These are the routes over all peers, locally originated, and after best-path selection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-grow-bmp-local-rib-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-grow-bmp-local-rib-03.txt' />
+</reference>

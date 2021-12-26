@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8682' target='https://www.rfc-editor.org/info/rfc8682'>
+<front>
+<title>TinyMT32 Pseudorandom Number Generator (PRNG)</title>
+<author initials='M.' surname='Saito' fullname='M. Saito'><organization /></author>
+<author initials='M.' surname='Matsumoto' fullname='M. Matsumoto'><organization /></author>
+<author initials='V.' surname='Roca' fullname='V. Roca' role='editor'><organization /></author>
+<author initials='E.' surname='Baccelli' fullname='E. Baccelli'><organization /></author>
+<date year='2020' month='January' />
+<abstract><t>This document describes the TinyMT32 Pseudorandom Number Generator (PRNG), which produces 32-bit pseudorandom unsigned integers and aims at having a simple-to-use and deterministic solution. This PRNG is a small-sized variant of the Mersenne Twister (MT) PRNG. The main advantage of TinyMT32 over MT is the use of a small internal state, compatible with most target platforms that include embedded devices, while keeping reasonably good randomness that represents a significant improvement compared to the Park-Miller Linear Congruential PRNG. However, neither the TinyMT nor MT PRNG is meant to be used for cryptographic applications.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8682'/>
+<seriesInfo name='DOI' value='10.17487/RFC8682'/>
+</reference>

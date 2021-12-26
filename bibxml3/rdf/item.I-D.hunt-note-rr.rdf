@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-hunt-note-rr-02.txt'>
+    <title>"A DNS Resource Record for Confidential Comments (NOTE RR)", Evan Hunt, Dan Mahoney</title>
+    <link>http://www.ietf.org/internet-drafts/draft-hunt-note-rr-02.txt</link>
+    <description>While the DNS zone master file format has always allowed comments, there is no existing mechanism to preserve comments once the zone has been loaded into memory or converted to a binary representation. This note proposes a new RR type "NOTE", to be allocated from the Covert-RR type range proposed in [I-D.krecicki-dns-covert], so that confidential comments can be stored alongside zone data, and included in zone transfers when Covert semantics are supported by the secondary.</description>
+    <dc:date>2019-07-06T07:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8736' target='https://www.rfc-editor.org/info/rfc8736'>
+<front>
+<title>PIM Message Type Space Extension and Reserved Bits</title>
+<author initials='S.' surname='Venaas' fullname='S. Venaas'><organization /></author>
+<author initials='A.' surname='Retana' fullname='A. Retana'><organization /></author>
+<date year='2020' month='February' />
+<abstract><t>The PIM version 2 messages share a common message header format. The common header definition contains eight reserved bits. This document specifies how these bits may be used by individual message types and creates a registry containing the per-message-type usage. This document also extends the PIM type space by defining three new message types. For each of the new types, four of the previously reserved bits are used to form an extended type range.</t><t>This document updates RFCs 7761 and 3973 by defining the use of the currently Reserved field in the PIM common header. This document further updates RFCs 7761 and 3973, along with RFCs 5015, 5059, 6754, and 8364, by specifying the use of the currently reserved bits for each PIM message.</t><t>This document obsoletes RFC 6166.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8736'/>
+<seriesInfo name='DOI' value='10.17487/RFC8736'/>
+</reference>

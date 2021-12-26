@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moncaster-congestion-exposure-problem'>
+<front>
+<title>The Need for Congestion Exposure in the Internet</title>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<author initials='A' surname='Burness' fullname='Anne-Louise  Burness'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='J' surname='Araujo' fullname='Joao Araujo'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blake' fullname='Steven Blake'>
+    <organization />
+</author>
+
+<author initials='R' surname='Woundy' fullname='Richard Woundy'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2009' />
+
+<abstract><t>The success of the Internet is largely down to the ability to share capacity amongst all users while avoiding congestion collapse. However this relies on the cooperation of all end users to work efficiently - even if everyone uses TCP, a minority of users can command a large share of the network.  To mitigate the growth in this problem over recent years, some ISPs have imposed various controls on traffic using a range of proprietary approaches.  These controls set ISPs in conflict with their customers and with some regulators.  The root of the problem lies in the fact the ISPs are unable to see the most important information about the traffic - namely the amount of congestion that traffic is going to cause in the network.  We propose congestion exposure as a possible solution.  This allows packets to carry an accurate prediction of the congestion they expect to cause downstream.  This memo sets out the motivations for congestion exposure and introduces a strawman protocol designed to achieve congestion exposure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moncaster-congestion-exposure-problem-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moncaster-congestion-exposure-problem-02.txt' />
+</reference>

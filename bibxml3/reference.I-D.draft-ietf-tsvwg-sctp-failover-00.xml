@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-sctp-failover'>
+<front>
+<title>Quick Failover Algorithm in SCTP</title>
+
+<author initials='Y' surname='Nishida' fullname='Yoshifumi Nishida'>
+    <organization />
+</author>
+
+<author initials='P' surname='Natarajan' fullname='Preethi Natarajan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Caro' fullname='Armando Caro'>
+    <organization />
+</author>
+
+<date month='November' day='6' year='2012' />
+
+<abstract><t>One of the major advantages in SCTP is supporting multi-homing communication.  If a multi-homed end-point has redundant network connections, SCTP sessions can have a good chance to survive from network failures by migrating inactive network to active one. However, if we follow the SCTP standard, there can be significant delay for the network migration.  During this migration period, SCTP cannot transmit much data to the destination.  This issue drastically impairs the usability of SCTP in some situations.  This memo describes the issue of SCTP failover mechanism and discuss its solutions which require minimal modification to the current standard.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-sctp-failover-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-failover-00.txt' />
+</reference>

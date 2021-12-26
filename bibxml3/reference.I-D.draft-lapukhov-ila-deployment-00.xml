@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lapukhov-ila-deployment'>
+<front>
+<title>Deploying Identifier-Locator Addressing (ILA) in datacenter</title>
+
+<author initials='P' surname='Lapukhov' fullname='Petr Lapukhov'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>Identifier-Locator Addressing defined in [I-D.herbert-nvo3-ila] proposes using locator-identifier split in IPv6 address to realize workload mobility and network virtualization.  This document describes how ILA can be implemented in datacenter using BGP as the control-plane protocol.  In general, ILA could be built upon different control planes, and BGP is one particular instantiation. BGP is a well-known protocol, sufficient for small to medium size deployments, on scale of few millions of mappings.  Defining more generic and scalable control plane is outside of scope of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lapukhov-ila-deployment-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lapukhov-ila-deployment-00.txt' />
+</reference>

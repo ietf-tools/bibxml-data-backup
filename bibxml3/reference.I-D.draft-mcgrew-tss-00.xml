@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mcgrew-tss'>
+<front>
+<title>Threshold Secret Sharing</title>
+
+<author initials='D' surname='McGrew' fullname='David McGrew'>
+    <organization />
+</author>
+
+<author initials='P' surname='Patnala' fullname='Praveen Patnala'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2008' />
+
+<abstract><t>Threshold secret sharing (TSS) provides a way to generate N shares from a value, so that any M of those shares can be used to reconstruct the original value, but any M-1 shares provide no information about that value.  This method can provide shared access control on key material and other secrets that must be strongly protected.  This note defines a threshold secret sharing method based on polynomial interpolation in GF(256) and a format for the storage and transmission of shares.  It also provides usage guidance, describes how to test an implementation, and supplies test cases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mcgrew-tss-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mcgrew-tss-00.txt' />
+</reference>

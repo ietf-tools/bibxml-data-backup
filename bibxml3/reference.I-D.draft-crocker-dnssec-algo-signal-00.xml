@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-dnssec-algo-signal'>
+<front>
+<title>Signaling Cryptographic Algorithm Understanding in DNSSEC</title>
+
+<author initials='S' surname='Crocker' fullname='Steve Crocker'>
+    <organization />
+</author>
+
+<author initials='S' surname='Rose' fullname='Scott Rose'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2008' />
+
+<abstract><t>The DNS Security Extensions (DNSSEC) was developed to provide origin authentication and integrity protection for DNS data by using digital signatures.  These digital signatures can be generated using different algorithms.  Each digital signature added to a response increases the size of the response, which could result in the response message being truncated.  This draft sets out to specify a way for clients to signal to a server which cryptographic algorithms they prefer in a DNSSEC response by defining an EDNS option to list a client's preferred algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crocker-dnssec-algo-signal-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crocker-dnssec-algo-signal-00.txt' />
+</reference>

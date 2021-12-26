@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.baker-ipv6-ospf-dst-src-routing'>
+<front>
+<title>IPv6 Source/Destination Routing using OSPFv3</title>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<date month='February' day='17' year='2013' />
+
+<abstract><t>This note describes the changes necessary for OSPFv3 to route classes of IPv6 traffic that are defined by a source prefix and a destination prefix.  This implies not routing "to a destination", but "traffic matching a classification tuple".  The obvious application is egress routing - routing traffic using a given prefix to an upstream network that will not drop traffic using that prefix using BCP 38 filters.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-baker-ipv6-ospf-dst-src-routing-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-baker-ipv6-ospf-dst-src-routing-00.txt' />
+</reference>

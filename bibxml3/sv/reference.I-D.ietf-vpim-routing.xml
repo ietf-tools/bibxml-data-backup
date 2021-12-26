@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-vpim-routing'>
+<front>
+<title>Voice Message Routing Service</title>
+
+<author initials='G' surname='Vaudreuil' fullname='Gregory Vaudreuil'>
+    <organization />
+</author>
+
+<date month='April' day='8' year='2005' />
+
+<abstract><t>Voice messaging is traditionally addressed using telephone number addressing. This document describes two techniques for routing voice messages based on a telephone number. The complete service uses the VPIM Directory service to lookup a VPIM email address with a telephone number and confirm that the address is both valid and the associated with the intended recipient. However this service will take time become widely deployed in the nearest term. This document also describes a basic send-and-pray service useful simply to route and deliver messages using only the ENUM telephone number resolution service and the existing DNS mail routing facilies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-vpim-routing-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-vpim-routing-10.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-isis-segment-routing-msd'>
+<front>
+<title>Signaling MSD (Maximum SID Depth) using IS-IS</title>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='S' surname='Aldrin' fullname='Sam Aldrin'>
+    <organization />
+</author>
+
+<author initials='L' surname='Ginsberg' fullname='Les Ginsberg'>
+    <organization />
+</author>
+
+<date month='January' day='5' year='2018' />
+
+<abstract><t>This document proposes a way to signal Maximum SID Depth (MSD) supported by a node and/or link granularity by an IS-IS Router.  In a Segment Routing (SR) enabled network a centralized controller that programs SR tunnels needs to know the MSD supported by the head-end at node and/or link granularity to impose the SID stack of an appropriate depth.  MSD is relevant to the head-end of a SR tunnel or Binding-SID anchor node where Binding-SID expansions might result in creation of a new SID stack.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-isis-segment-routing-msd-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-isis-segment-routing-msd-08.txt' />
+</reference>

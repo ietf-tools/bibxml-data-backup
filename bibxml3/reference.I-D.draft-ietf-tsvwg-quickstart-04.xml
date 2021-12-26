@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-quickstart'>
+<front>
+<title>Quick-Start for TCP and IP</title>
+
+<author initials='S' surname='Floyd' fullname='Sally Floyd'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2006' />
+
+<abstract><t>This document specifies an optional Quick-Start mechanism for transport protocols, in cooperation with routers, to determine an allowed sending rate at the start and at times in the middle of a data transfer (e.g., after an idle period). While Quick-Start is designed to be used by a range of transport protocols, in this document we only specify its use with TCP. Quick-Start is designed to allow connections to use higher sending rates when there is significant unused bandwidth along the path and the sender and all of the routers along the path approve the Quick-Start Request. As this document describes, environments where Quick-Start requests would not be approved include paths with routers, IP tunnels, MPLS paths, and the like that do not support Quick-Start, or paths with routers or middleboxes that drop packets containing IP options. Quick-Start requests could be difficult to approve over paths that include multi-access layer-two networks. This document also describes environments where the Quick-Start process could fail with false positives, with the sender incorrectly assuming that the Quick-Start request had been approved by all of the routers along the path. As a result of these concerns, and as a result of the difficulties and seeming absence of motivation for routers such as core routers to deploy Quick-Start, Quick-Start is being proposed as a mechanism that could be of use in controlled environments, and not as a mechanism that would be intended or appropriate for ubiquitous deployment in the global Internet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-quickstart-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-quickstart-04.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-quickstart-04.ps' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.daley-ipv6-preempt-nd'>
+<front>
+<title>Preempting IPv6 Neighbour Discovery</title>
+
+<author initials='G' surname='Daley' fullname='Greg Daley'>
+    <organization />
+</author>
+
+<date month='June' day='17' year='2004' />
+
+<abstract><t>In certain circumstances, a host knows that it will be receiving data at an IP address for which its neighbours have no neighbour cache entry. Where the expected packets are required to be received promptly, or there is significant chance of packet loss in a neighbour discovery exchange from the peer to the host, it may be advantageous to install a neighbour cache entry on the peer before it is required. This document proposes a mechanism whereby hosts can choose to preemptively populate their peer's neighbour cache to forestall later neighbour discovery exchanges.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-daley-ipv6-preempt-nd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-daley-ipv6-preempt-nd-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-rsvp-dste'>
+<front>
+<title>Aggregation of RSVP Reservations over MPLS TE/DS-TE Tunnels</title>
+
+<author initials='F' surname='Faucheur' fullname='Francois Le  Faucheur'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2006' />
+
+<abstract><t>RFC 3175 specifies aggregation of RSVP end-to-end reservations over aggregate RSVP reservations. This document specifies aggregation of RSVP end-to-end reservations over MPLS Traffic Engineering (TE) tunnels or MPLS Diffserv-aware MPLS Traffic Engineering (DS-TE) Tunnels. This approach is based on RFC 3175 and simply modifies the corresponding procedures for operations over MPLS TE tunnels instead of aggregate RSVP reservations. This approach can be used to achieve admission control of a very large number of flows in a scalable manner since the devices in the core of the network are unaware of the end-to-end RSVP reservations and are only aware of the MPLS TE tunnels.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-rsvp-dste-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-rsvp-dste-03.txt' />
+</reference>

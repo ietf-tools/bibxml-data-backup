@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lapuh-network-smlt'>
+<front>
+<title>Split Multi-link Trunking (SMLT)</title>
+
+<author initials='R' surname='Lapuh' fullname='Roger Lapuh'>
+    <organization />
+</author>
+
+<date month='November' day='16' year='2007' />
+
+<abstract><t>This document describes Split Multi-link Trunking (SMLT) for bridged and routed networks. SMLT enables topologies with upstream node redundancy for increased reliability of Layer 2 link aggregation subnetworks based on [IEEE 802.3ad] and router redundancy based on VRRP [RFC3768].  SMLT is an improvement over Multi-Link Trunking (MLT), a method of link aggregation that allows multiple Ethernet links to be aggregated together, and handled as a single logical trunk. MLT can be realized via many different link aggregation mechanisms. Several methods of MLT are in use today; one example is [IEEE 802.3ad].  SMLT is MLT with links of a link-aggregation group connected to ports on two different devices (e.g. SMLT client and aggregation device). Unlike MLT, at least one end of a link-aggregated group is dual-homed to two different SMLT aggregation devices. In many cases those devices act as bridges (switches) as well as L3 routers (Routing Switches). These two redundant SMLT aggregation devices can share one or more VRRP routing instances; for that SMLT-VRRP extends the VRRP functionality to an active-active router concept, where both SMLT aggregation device route traffic for a common VRRP-ID, thus load balancing traffic not only for L2 but also for L3.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lapuh-network-smlt-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lapuh-network-smlt-07.txt' />
+</reference>

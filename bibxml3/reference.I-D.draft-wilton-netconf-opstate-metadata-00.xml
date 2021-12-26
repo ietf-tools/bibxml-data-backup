@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wilton-netconf-opstate-metadata'>
+<front>
+<title>Refined YANG datastores with Meta-data</title>
+
+<author initials='R' surname='Wilton' fullname='Robert Wilton'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2016' />
+
+<abstract><t>draft-wilton-netmod-refined-datastores defines refined YANG datastore definitions to provide an explicit Operational State Datastore and a clean separation between the 'intended configuration' for a device and the 'applied configuration' that is in effect on a device.  This draft builds on draft-wilton-netmod-refined-datastores by describing a YANG Metadata based extension that can be used by protocols such as NETCONF and RESTCONF to allow the key information from the various operational state related datatstores to be made available without requiring the client to explicitly read and monitor each abstract datastore separately.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wilton-netconf-opstate-metadata-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wilton-netconf-opstate-metadata-00.txt' />
+</reference>

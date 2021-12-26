@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bittau-tcpinc-tcpcrypt'>
+<front>
+<title>Cryptographic protection of TCP Streams (tcpcrypt)</title>
+
+<author initials='A' surname='Bittau' fullname='Andrea Bittau'>
+    <organization />
+</author>
+
+<author initials='D' surname='Boneh' fullname='Dan Boneh'>
+    <organization />
+</author>
+
+<author initials='D' surname='Giffin' fullname='Daniel Giffin'>
+    <organization />
+</author>
+
+<author initials='M' surname='Hamburg' fullname='Mike Hamburg'>
+    <organization />
+</author>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mazieres' fullname='David Mazieres'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Slack' fullname='Quinn Slack'>
+    <organization />
+</author>
+
+<date month='April' day='23' year='2015' />
+
+<abstract><t>This document presents tcpcrypt, a TCP extension for cryptographically protecting TCP connections.  Tcpcrypt maintains the confidentiality of data transmitted in TCP connections against a passive eavesdropper.  Additionally, applications that perform authentication can obtain end-to-end confidentiality and integrity guarantees by tying authentication to tcpcrypt Session ID values.  The extension defines a new TCP option, CRYPT, which is designed to provide compatible interworking with TCPs that do not implement tcpcrypt.  The CRYPT option allows hosts to negotiate the use of tcpcrypt and establish shared, secret encryption keys.  These keys are then used with an authenticated-encryption mode to protect both the confidentiality and the integrity of transmitted application data.  Tcpcrypt is designed to require relatively low overhead, particularly at servers, so as to be useful even in the case of servers accepting many TCP connections per second.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bittau-tcpinc-tcpcrypt-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bittau-tcpinc-tcpcrypt-02.txt' />
+</reference>

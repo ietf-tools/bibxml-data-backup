@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-rfc5206-bis'>
+<front>
+<title>Host Mobility with the Host Identity Protocol</title>
+
+<author initials='T' surname='Henderson' fullname='Thomas Henderson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Vogt' fullname='Christian Vogt'>
+    <organization />
+</author>
+
+<author initials='J' surname='Arkko' fullname='Jari Arkko'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2016' />
+
+<abstract><t>This document defines a mobility extension to the Host Identity Protocol (HIP).  Specifically, this document defines a "LOCATOR_SET" parameter for HIP messages that allows for a HIP host to notify peers about alternate addresses at which it may be reached.  This document also defines how the parameter can be used to preserve communications across a change to the IP address used by one or both peer hosts. The same LOCATOR_SET parameter can also be used to support end-host multihoming, but the procedures are out of scope for this document and are specified elsewhere.  This document obsoletes RFC 5206.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-rfc5206-bis-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-rfc5206-bis-13.txt' />
+</reference>

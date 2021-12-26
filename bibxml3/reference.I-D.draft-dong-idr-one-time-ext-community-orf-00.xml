@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dong-idr-one-time-ext-community-orf'>
+<front>
+<title>One-time Extended Community Based Outbound Route Filter for BGP-4</title>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Zeng' fullname='Qing Zeng'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shakir' fullname='Rob Shakir'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='J' surname='Heitz' fullname='Jakob Heitz'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>This document defines a new Outbound Router Filter (ORF) type for BGP, termed "One-time Extended Community Outbound Route Filter", which would allow a BGP speaker to send to its BGP peer a route refresh request with a set of extended-community-based filters to make the peer re-advertise only the specific routes matching the filters to the speaker. This ORF-type enables a BGP speaker to refresh some specific routes without requiring its peer to re- advertise the whole Adj-RIB-Out, which makes the route refresh operation more efficient and reduces the impact on network stability. This filter does not change the outbound route filters on BGP peers and should only be used for one-time filtering.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dong-idr-one-time-ext-community-orf-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dong-idr-one-time-ext-community-orf-00.txt' />
+</reference>

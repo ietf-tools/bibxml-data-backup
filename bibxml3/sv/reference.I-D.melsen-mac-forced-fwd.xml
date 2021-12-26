@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melsen-mac-forced-fwd'>
+<front>
+<title>MAC-Forced Forwarding: A Method for Traffic Separation on an Ethernet Access  Network</title>
+
+<author initials='T' surname='Melsen' fullname='Torben Melsen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blake' fullname='Steven Blake'>
+    <organization />
+</author>
+
+<date month='February' day='3' year='2006' />
+
+<abstract><t>This document describes a mechanism to ensure layer-2 separation of LAN stations accessing an v4IPv4 gateway over a bridged Ethernet segment. The mechanism - called "MAC-Forced Forwarding" - implements an ARP proxy function that prohibits MAC address resolution between hosts located within the same IPv4 subnet but at different customer premises, and in effect directs all upstream traffic to an IPv4 gateway. The IPv4 gateway provides IP-layer connectivity between these same hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melsen-mac-forced-fwd-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melsen-mac-forced-fwd-04.txt' />
+</reference>

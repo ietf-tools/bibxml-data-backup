@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8547' target='https://www.rfc-editor.org/info/rfc8547'>
+<front>
+<title>TCP-ENO: Encryption Negotiation Option</title>
+<author initials='A.' surname='Bittau' fullname='A. Bittau'><organization /></author>
+<author initials='D.' surname='Giffin' fullname='D. Giffin'><organization /></author>
+<author initials='M.' surname='Handley' fullname='M. Handley'><organization /></author>
+<author initials='D.' surname='Mazieres' fullname='D. Mazieres'><organization /></author>
+<author initials='E.' surname='Smith' fullname='E. Smith'><organization /></author>
+<date year='2019' month='May' />
+<abstract><t>Despite growing adoption of TLS, a significant fraction of TCP traffic on the Internet remains unencrypted.  The persistence of unencrypted traffic can be attributed to at least two factors. First, some legacy protocols lack a signaling mechanism (such as a STARTTLS command) by which to convey support for encryption, thus making incremental deployment impossible.  Second, legacy applications themselves cannot always be upgraded and therefore require a way to implement encryption transparently entirely within the transport layer.  The TCP Encryption Negotiation Option (TCP-ENO) addresses both of these problems through a new TCP option kind providing out-of-band, fully backward-compatible negotiation of encryption.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8547'/>
+<seriesInfo name='DOI' value='10.17487/RFC8547'/>
+</reference>

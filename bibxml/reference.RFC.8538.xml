@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8538' target='https://www.rfc-editor.org/info/rfc8538'>
+<front>
+<title>Notification Message Support for BGP Graceful Restart</title>
+<author initials='K.' surname='Patel' fullname='K. Patel'><organization /></author>
+<author initials='R.' surname='Fernando' fullname='R. Fernando'><organization /></author>
+<author initials='J.' surname='Scudder' fullname='J. Scudder'><organization /></author>
+<author initials='J.' surname='Haas' fullname='J. Haas'><organization /></author>
+<date year='2019' month='March' />
+<abstract><t>The BGP Graceful Restart mechanism defined in RFC 4724 limits the usage of BGP Graceful Restart to BGP messages other than BGP NOTIFICATION messages.  This document updates RFC 4724 by defining an extension that permits the Graceful Restart procedures to be performed when the BGP speaker receives a BGP NOTIFICATION message or the Hold Time expires.  This document also defines a new subcode for BGP Cease NOTIFICATION messages; this new subcode requests a full session restart instead of a Graceful Restart.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8538'/>
+<seriesInfo name='DOI' value='10.17487/RFC8538'/>
+</reference>

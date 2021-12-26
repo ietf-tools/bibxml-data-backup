@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheshire-pcp-unsupp-family'>
+<front>
+<title>Update to the PCP specification</title>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2013' />
+
+<abstract><t>The Port Control Protocol allows clients to request mappings in NAT gateways and firewalls.  This document specifies the PCP UNSUPP_FAMILY error code, which enables PCP servers to inform clients when the requested external address family is not supported.  This document also removes the requirement for the PCP server to validate the mapping nonce, which proved to be unhelpful in practice.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheshire-pcp-unsupp-family-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheshire-pcp-unsupp-family-03.txt' />
+</reference>

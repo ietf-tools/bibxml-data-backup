@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-mpls-elc'>
+<front>
+<title>Signaling Entropy Label Capability and Readable Label-stack Depth Using OSPF</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<date month='January' day='3' year='2018' />
+
+<abstract><t>Multiprotocol Label Switching (MPLS) has defined a mechanism to load balance traffic flows using Entropy Labels (EL).  An ingress Label Switching Router (LSR) cannot insert ELs for packets going into a given tunnel unless an egress LSR has indicated via signaling that it has the capability of processing ELs, referred to as Entropy Label Capability (ELC), on that tunnel.  In addition, it would be useful for ingress LSRs to know each LSR's capability of reading the maximum label stack depth, referred to as Readable Label-stack Depth (RLD), in the cases where stacked LSPs are used for whatever reasons.  This document defines mechanisms to signal these two capabilities using OSPF.  These mechanisms are useful when the label advertisement is also done via OSPF.  In addition, this document introduces the Router Non-OSPF Functional Capabilities TLV for advertising OSPF router's actual non-OSPF functional capabilities.  ELC is one of such non-OSPF functional capabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-mpls-elc-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-mpls-elc-05.txt' />
+</reference>

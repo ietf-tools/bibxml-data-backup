@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yang-alto-path-vector'>
+<front>
+<title>ALTO Extension: Abstract Path Vector as a Cost Mode</title>
+
+<author initials='G' surname='Bernstein' fullname='Greg Bernstein'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='W' surname='Roome' fullname='Wendy Roome'>
+    <organization />
+</author>
+
+<author initials='M' surname='Scharf' fullname='Michael Scharf'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>The Application-Layer Traffic Optimization (ALTO) Service has defined network and cost maps to provide basic network information, where the cost maps allow only scalar (numerical or ordinal) cost mode values. This document introduces a new cost mode called path-vector to allow ALTO clients to better distinguish cost information.  This document starts with a non-normative use case called multi-flow scheduling to illustrate that ALTO cost maps without path vectors cannot provide sufficient information.  This document then defines path-vector as a new cost mode.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yang-alto-path-vector-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yang-alto-path-vector-01.txt' />
+</reference>

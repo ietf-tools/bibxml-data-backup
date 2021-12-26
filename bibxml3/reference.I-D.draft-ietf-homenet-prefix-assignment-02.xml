@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-homenet-prefix-assignment'>
+<front>
+<title>Distributed Prefix Assignment Algorithm</title>
+
+<author initials='P' surname='Pfister' fullname='Pierre Pfister'>
+    <organization />
+</author>
+
+<author initials='B' surname='Paterson' fullname='Benjamin Paterson'>
+    <organization />
+</author>
+
+<author initials='J' surname='Arkko' fullname='Jari Arkko'>
+    <organization />
+</author>
+
+<date month='January' day='5' year='2015' />
+
+<abstract><t>This document specifies a distributed algorithm for automatic prefix assignment.  Given a set of delegated prefixes, it ensures at most one prefix is assigned from each delegated prefix to each link. Nodes may assign available prefixes to the links they are directly connected to, or for other private purposes.  The algorithm eventually converges and ensures that all assigned prefixes do not overlap.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-homenet-prefix-assignment-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-homenet-prefix-assignment-02.txt' />
+</reference>

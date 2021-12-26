@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shane-review-dns-over-http'>
+<front>
+<title>A review of implementation DNS over port 80/443</title>
+
+<author initials='S' surname='Kerr' fullname='Shane Kerr'>
+    <organization />
+</author>
+
+<author initials='D' surname='Song' fullname='Davey Song'>
+    <organization />
+</author>
+
+<author initials='R' surname='Wan' fullname='Runxia Wan'>
+    <organization />
+</author>
+
+<date month='December' day='7' year='2015' />
+
+<abstract><t>The default DNS transport uses UDP on port 53.  There are many motivations why users or operators may prefer to avoid sending DNS traffic in this way.  A common solution is to use port 80 or 443; with plain TCP, TLS-encrypted TCP, or full HTTP(S).  This memo reviews the possible approaches and delivers some useful information for developers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shane-review-dns-over-http-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shane-review-dns-over-http-00.txt' />
+</reference>

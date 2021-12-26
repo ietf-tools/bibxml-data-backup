@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.friel-acme-subdomains'>
+<front>
+<title>ACME for Subdomains</title>
+
+<author initials='O' surname='Friel' fullname='Owen Friel'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='T' surname='Hollebeek' fullname='Tim Hollebeek'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<date month='October' day='9' year='2020' />
+
+<abstract><t>This document outlines how ACME can be used by a client to obtain a certificate for a subdomain identifier from a certification authority.  The client has fulfilled a challenge against a parent domain but does not need to fulfil a challenge against the explicit subdomain as certificate policy allows issuance of the subdomain certificate without explicit subdomain ownership proof.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-friel-acme-subdomains-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-friel-acme-subdomains-03.txt' />
+</reference>

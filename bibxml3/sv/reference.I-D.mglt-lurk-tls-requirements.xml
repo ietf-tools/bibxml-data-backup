@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-lurk-tls-requirements'>
+<front>
+<title>Authentication Model and Security Requirements for the TLS/DTLS Content Provider Edge Server Split Use Case</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='K' surname='Ma' fullname='Kevin J. Ma'>
+    <organization />
+</author>
+
+<date month='January' day='19' year='2016' />
+
+<abstract><t>In the TLS/DTLS Content provider Edge Server Split use case, a TLS Client uses TLS/DTLS to authenticates the Content Provider while establishing a TLS/DTLS session with the Edge Server.  Such authentication scheme is designated as Split Authentication in this document.  In most cases, the Edge Server does not even belong to the Content Provider, but instead to a third party like, for example, a Content Delivery Network.  As a result, the Content Provider and the Edge Server must be able to interact and/or share some information. Interactions and shared information constitutes a split authentication model varies with the authentication method involved in the TLS session.  For each TLS/DTLS authentication method, the document provides the associated split authentication model that makes possible a split authentication.  The split authentication model is associated to security requirements and an analysis to show it does not introduce any weakness compared to the standard TLS authentication model.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-lurk-tls-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-lurk-tls-requirements-00.txt' />
+</reference>

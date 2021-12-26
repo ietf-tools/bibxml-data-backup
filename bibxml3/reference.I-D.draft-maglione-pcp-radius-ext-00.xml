@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.maglione-pcp-radius-ext'>
+<front>
+<title>RADIUS Extensions for Port Control Protocol</title>
+
+<author initials='R' surname='Maglione' fullname='Roberta Maglione'>
+    <organization />
+</author>
+
+<author initials='D' surname='Cheng' fullname='Dean Cheng'>
+    <organization />
+</author>
+
+<date month='January' day='5' year='2011' />
+
+<abstract><t>Port Control Protocol (PCP) provides a mechanism to pre-configure a port on a NAT device, a firewall, etc., so that IP packets of applications initiated from network side can be "port forwarded" to the correct user.  PCP is a client-server protocol and the PCP client needs to be provisioned with the FQDN of the server.  In a broadband network, customer information is usually stored on a RADIUS server and DHC protocol is used to populate user's configuration information.  This memo proposes a new RADIUS attribute to carry the FQDN of a PCP server, such that while the PCP server information is configured on a RADIUS server, the information can be conveyed to NAS via RADIUS protocol, and the co-located DHCP/DHCPv6 server can then populate the information to PCP client.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-maglione-pcp-radius-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-maglione-pcp-radius-ext-00.txt' />
+</reference>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8577' target='https://www.rfc-editor.org/info/rfc8577'>
+<front>
+<title>Signaling RSVP-TE Tunnels on a Shared MPLS Forwarding Plane</title>
+<author initials='H.' surname='Sitaraman' fullname='H. Sitaraman'><organization /></author>
+<author initials='V.' surname='Beeram' fullname='V. Beeram'><organization /></author>
+<author initials='T.' surname='Parikh' fullname='T. Parikh'><organization /></author>
+<author initials='T.' surname='Saad' fullname='T. Saad'><organization /></author>
+<date year='2019' month='April' />
+<abstract><t>As the scale of MPLS RSVP-TE networks has grown, the number of Label Switched Paths (LSPs) supported by individual network elements has increased.  Various implementation recommendations have been proposed to manage the resulting increase in the amount of control-plane state information.</t><t>However, those changes have had no effect on the number of labels that a transit Label Switching Router (LSR) has to support in the forwarding plane.  That number is governed by the number of LSPs transiting or terminated at the LSR and is directly related to the total LSP state in the control plane.</t><t>This document defines a mechanism to prevent the maximum size of the label space limit on an LSR from being a constraint to control-plane scaling on that node.  It introduces the notion of preinstalled 'per-TE link labels' that can be shared by MPLS RSVP-TE LSPs that traverse these TE links.  This approach significantly reduces the forwarding-plane state required to support a large number of LSPs. This couples the feature benefits of the RSVP-TE control plane with the simplicity of the Segment Routing (SR) MPLS forwarding plane.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8577'/>
+<seriesInfo name='DOI' value='10.17487/RFC8577'/>
+</reference>

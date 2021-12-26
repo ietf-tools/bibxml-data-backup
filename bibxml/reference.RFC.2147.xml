@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC2147' target='https://www.rfc-editor.org/info/rfc2147'>
+<front>
+<title>TCP and UDP over IPv6 Jumbograms</title>
+<author initials='D.' surname='Borman' fullname='D. Borman'><organization /></author>
+<date year='1997' month='May' />
+<abstract><t>IPv6 supports datagrams larger than 65535 bytes long, often referred to as jumbograms, through use of the Jumbo Payload hop-by-hop option.  The UDP protocol has a 16-bit length field that keeps it from being able to make use of jumbograms, and though TCP does not have a length field, both the MSS option and the Urgent field are constrained by 16-bits. This document describes some simple changes that can be made to allow TCP and UDP to make use of IPv6 jumbograms.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='2147'/>
+<seriesInfo name='DOI' value='10.17487/RFC2147'/>
+</reference>

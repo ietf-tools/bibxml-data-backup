@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-rtgwg-mcast-frr-tn'>
+<front>
+<title>Tree Notification to Improve Multicast Fast Reroute</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='L' surname='Ghein' fullname='Luc De Ghein'>
+    <organization />
+</author>
+
+<author initials='G' surname='Envedi' fullname='Gabor Envedi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Csaszar' fullname='Andras Csaszar'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2014' />
+
+<abstract><t>This draft proposes dataplane triggered Tree Notifications to support multicast fast reroute for PIM and mLDP.  These Tree Notifications are initiated by a node detecting the failure to a Repair Node downstream.  A Repair Node is a node that has a pre-built backup path that can circumvent the failure.  Using this mechanism, a Repair Node has the ability to learn about non-local failures quickly without having to wait for the IGP to convergence.  This draft also covers an optional method to avoid bandwidth usage on the pre-built backup path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-rtgwg-mcast-frr-tn-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-rtgwg-mcast-frr-tn-02.txt' />
+</reference>

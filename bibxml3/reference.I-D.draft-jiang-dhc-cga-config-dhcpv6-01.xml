@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jiang-dhc-cga-config-dhcpv6'>
+<front>
+<title>Configuring Cryptographically Generated Addresses (CGA) using DHCPv6</title>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Xia' fullname='Zhongqi Xia'>
+    <organization />
+</author>
+
+<date month='August' day='24' year='2010' />
+
+<abstract><t>A Cryptographically Generated Address is an IPv6 addresses binding with a public/private key pair. However, the current CGA specifications are lack of procedures to enable proper management of CGA generation. Administrators should be able to configure parameters used to generate CGA. The Dynamic Host Configuration Protocol for IPv6 (DHCPv6), which enables network management to dynamically configure hosts, can be used in the CGA configuration. This document defines the process using DHCPv6 to configure CGA in detail, include configuration CGA parameters and that a DHCPv6 server grants the CGA usage. Two new DHCPv6 options are defined accordingly.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jiang-dhc-cga-config-dhcpv6-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jiang-dhc-cga-config-dhcpv6-01.txt' />
+</reference>

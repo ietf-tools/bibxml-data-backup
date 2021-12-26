@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-monami6-multiplecoa'>
+<front>
+<title>Multiple Care-of Addresses Registration</title>
+
+<author initials='R' surname='Wakikawa' fullname='Ryuji Wakikawa'>
+    <organization />
+</author>
+
+<author initials='T' surname='Ernst' fullname='Thierry Ernst'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nagami' fullname='Kenichi Nagami'>
+    <organization />
+</author>
+
+<author initials='V' surname='Devarapalli' fullname='Vijay Devarapalli'>
+    <organization />
+</author>
+
+<date month='January' day='27' year='2008' />
+
+<abstract><t>According to the current Mobile IPv6 specification, a mobile node may have several care-of addresses, but only one, termed the primary care-of address, can be registered with its home agent and the correspondent nodes.  However, for matters of cost, bandwidth, delay, etc, it is useful for the mobile node to get Internet access through multiple access media simultaneously, in which case multiple active IPv6 care-of addresses would be assigned to the mobile node.  We thus propose Mobile IPv6 extensions designed to register multiple care-of addresses bound to a single Home Address instead of the sole primary care-of address.  For doing so, a new identification number must be carried in each binding for the receiver to distinguish between the bindings corresponding to the same Home Address.  Those extensions are targeted to NEMO (Network Mobility) Basic Support as well as to Mobile IPv6.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-monami6-multiplecoa-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-monami6-multiplecoa-05.txt' />
+</reference>

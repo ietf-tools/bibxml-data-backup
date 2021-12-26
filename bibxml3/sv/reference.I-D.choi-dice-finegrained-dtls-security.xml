@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.choi-dice-finegrained-dtls-security'>
+<front>
+<title>Fine-grained Support of Security Services for Constrained Devices using DTLS</title>
+
+<author initials='J' surname='Choi' fullname='Jaeduck Choi'>
+    <organization />
+</author>
+
+<author initials='G' surname='Lee' fullname='Gunhee Lee'>
+    <organization />
+</author>
+
+<author initials='N' surname='Kang' fullname='Namhi Kang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jung' fullname='Seung Jung'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jung' fullname='Souhwan Jung'>
+    <organization />
+</author>
+
+<date month='March' day='24' year='2015' />
+
+<abstract><t>This document proposes a method that can selectively apply application data encryption to the DTLS record layer. The CoAP used for resource-constrained devices defines the use of DTLS as a basic security mechanism, and CoAP standard specifies the use of AES_CCM that provides data integrity and confidentiality as a cipher suite for DTLS. However, not all CoAP messages require both data integrity and confidentiality. For example, in case of CoAP messages that include information for turning a light off at home or in a building, or simple ACK information, encryption might not be necessary because such information might not be useful to attackers. Furthermore, from the perspective of effective resource use of resource-constrained devices, reducing the computation load required to perform data encryption every time is necessary. This document describes the methods for CoAP nodes to establish DTLS security channels using the AES_CCM cipher suite, and to selectively apply the encryption function in the DTLS record layer by considering sensitivity to application data leakage.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-choi-dice-finegrained-dtls-security-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-choi-dice-finegrained-dtls-security-01.txt' />
+</reference>

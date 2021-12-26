@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yoneya-idn-app-guideline'>
+<front>
+<title>IDN aware application implementation guideline</title>
+
+<author initials='Y' surname='Yoneya' fullname='Yoshiro Yoneya'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2005' />
+
+<abstract><t>Since IDN Standards [RFC3490-3492] were published, some of gTLDs and ccTLDs began IDN registration and resolution service. Furthermore, many major Web browsers became IDN aware. IDNs seem to be popularized soon. Meanwhile, IDN introduces huge number of characters which can represent domain name, so it increases human misreading of domain name with similar looking characters. This issue was discussed deeply during IDN standardization and service development, and as a result, JET Guideline [RFC3743] and ICANN IDN Guideline [ICANN-IDN] was published. Even if TLD registries comply such guidelines, bad-faith guys may use IDNs to deceive human eyes with similar looking characters. To protect users from such deceiver, implementation guideline for how to handle IDNs at the User Interface level is important. This document is intended to be such guideline for application implementers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yoneya-idn-app-guideline-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yoneya-idn-app-guideline-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.abarth-origin'>
+<front>
+<title>The HTTP Sec-From Header</title>
+
+<author initials='A' surname='Barth' fullname='Adam Barth'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jackson' fullname='Collin Jackson'>
+    <organization />
+</author>
+
+<author initials='I' surname='Hickson' fullname='Ian Hickson'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2009' />
+
+<abstract><t>This document defines the HTTP Sec-From header.  The Sec-From header is added by the user agent to describe the security contexts that caused the user agent to initiate an HTTP request.  HTTP servers can use the Sec-From header to mitigate against Cross-Site Request Forgery (CSRF) vulnerabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-abarth-origin-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-abarth-origin-02.txt' />
+</reference>

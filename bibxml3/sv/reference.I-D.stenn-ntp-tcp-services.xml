@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stenn-ntp-tcp-services'>
+<front>
+<title>Network Time Protocol: TCP Services</title>
+
+<author initials='H' surname='Stenn' fullname='Harlan Stenn'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mills' fullname='David Mills'>
+    <organization />
+</author>
+
+<author initials='P' surname='Prindeville' fullname='Philip Prindeville'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2018' />
+
+<abstract><t>NTP was assigned port number 123 in 1985, in RFC 960.  Traditionally, it has only used the UDP port as while UDP is useful for time synchronization, TCP is not suitable for time synchronization.  UDP packet have length limits, and there are rate limits imposed by the protocol specification.  Between the UDP packet length and rate limits, some other mechanism must be provided for efficient exchange of larger data packets.  A TCP connection can be used for these uses. Additionally, we can perform better authentication and authorization checks using a TCP connection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stenn-ntp-tcp-services-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stenn-ntp-tcp-services-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chan-pcn-encoding-comparison'>
+<front>
+<title>Pre-Congestion Notification Encoding Comparison</title>
+
+<author initials='K' surname='Chan' fullname='Kwok Ho Chan'>
+    <organization />
+</author>
+
+<author initials='G' surname='Karagiannis' fullname='Georgios  Karagiannis'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>DiffServ mechanisms have been developed to support Quality of Service (QoS). However, the level of assurance that can be provided with DiffServ without substantial over-provisioning is limited. Pre- Congestion Notification (PCN) investigates the use of per-flow admission control to provide the required service guarantees for the admitted traffic. While admission control will protect the QoS under normal operating conditions, an additional flow termination mechanism is necessary in the times of heavy congestion (e.g. caused by route changes due to link or node failure). Encoding and their transport are required to carry the congestion and pre-congestion information from the congestion and pre-congestion points to the decision points. This document provides a survey of several encoding methods, using comparisons amongst them as a way to explain their strengths and weaknesses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chan-pcn-encoding-comparison-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chan-pcn-encoding-comparison-01.txt' />
+</reference>

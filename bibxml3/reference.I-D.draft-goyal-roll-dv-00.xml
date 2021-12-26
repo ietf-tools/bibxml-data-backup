@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.goyal-roll-dv'>
+<front>
+<title>A Distance Vector Protocol for Routing Over Low Power and Lossy Networks</title>
+
+<author initials='M' surname='Goyal' fullname='Mukul Goyal'>
+    <organization />
+</author>
+
+<date month='June' day='26' year='2009' />
+
+<abstract><t>This draft describes a distance vector protocol for routing over low power and lossy networks.  In this protocol, each node periodically advertises its minimum hop distance and "current" end-to-end reliability of reaching a destination in the network via local broadcast of Hello messages.  One Hello message may contain several such advertisements.  The inter-Hello time period is determined using an adaptive scheme designed to speed up routing convergence to both good and bad news while avoiding unnecessary transmissions.  A node maintains hop distance and end-to-end reliability information for a subset of its neighbors and for a subset of destinations in the network.  For each such destination, the node also maintains the set of neighbors that it would use to forward packets going to that destination.  These neighbors are selected such that they are closest to the destination in terms of hops among neighbors that satisfy a certain minimum reliability criterion.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-goyal-roll-dv-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-goyal-roll-dv-00.txt' />
+</reference>

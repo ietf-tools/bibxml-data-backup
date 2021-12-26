@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cui-softwire-dhcp-over-tunnel'>
+<front>
+<title>DHCPv4 Behavior over IP-IP tunnel</title>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wu' fullname='Peng Wu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2011' />
+
+<abstract><t>This document analyzes the scenario in which DHCPv4 interaction is performed over IP-IP tunnel, and proposes methods to keep DHCP working under such situation.  The main issue is encapsulation of DHCP packets on server side, and there are both in-protocol and out- of-protocol solutions for this issue.  The in-protocol solution is to have DHCP carrying the encapsulation address information, and the out-of-protocol solution is to have the DHCP server keeping track of the address mapping by inspecting DHCP packets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cui-softwire-dhcp-over-tunnel-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cui-softwire-dhcp-over-tunnel-01.txt' />
+</reference>

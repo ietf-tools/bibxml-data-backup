@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hao-trill-dup-avoidance-active-active'>
+<front>
+<title>Frame Duplication Avoidance For TRILL Active-Active Access</title>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Hu' fullname='Zhibo Hu'>
+    <organization />
+</author>
+
+<date month='December' day='3' year='2013' />
+
+<abstract><t>The problems in active-active connection to TRILL campus was introduced in [TRILL-Active-PS]. Frame duplication was a well recognized issue in that scenario. This draft proposes a Designated Forwarder (DF) mechanism to solve the issue of frame duplications. The basic idea is to elect one RBridge per VLAN from an edge group to be responsible for egressing the multicast frames. An edge group is a group of edge RBridges that a CE is multi-homed to in active- active mode. TRILL protocol extension for DF election is described in this draft.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hao-trill-dup-avoidance-active-active-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hao-trill-dup-avoidance-active-active-00.txt' />
+</reference>

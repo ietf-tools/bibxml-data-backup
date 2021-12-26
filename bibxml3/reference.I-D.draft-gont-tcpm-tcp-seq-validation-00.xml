@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-tcpm-tcp-seq-validation'>
+<front>
+<title>On the Validation of TCP Sequence Numbers</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='D' surname='Borman' fullname='David Borman'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2013' />
+
+<abstract><t>When TCP receives packets that lie outside of the receive window, the corresponding packets are dropped and either an ACK, RST or no response is generated due to the out-of-window packet, with no further processing of the packet.  Most of the time, this works just fine and TCP remains stable, especially when a TCP connection has unidirectional data flow.  However, there are three scenarios in which packets that are outside of the receive window should still have their ACK field processed, or else a packet war will take place. The aforementioned issues have affected a number of popular TCP implementations, typically leading to connection failures, system crashes, or other undesirable behaviors.  This document describes the three scenarios in which the aforementioned issues might arise, and formally updates RFC 793 such that these potential problems are mitigated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-tcpm-tcp-seq-validation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-tcpm-tcp-seq-validation-00.txt' />
+</reference>

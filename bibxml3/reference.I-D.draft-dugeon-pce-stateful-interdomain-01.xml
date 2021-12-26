@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dugeon-pce-stateful-interdomain'>
+<front>
+<title>PCEP Extension for Stateful Inter-Domain Tunnels</title>
+
+<author initials='O' surname='Dugeon' fullname='Olivier Dugeon'>
+    <organization />
+</author>
+
+<author initials='J' surname='Meuric' fullname='Julien Meuric'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2018' />
+
+<abstract><t>This document proposes to combine a Backward Recursive or Hierarchical method in Stateful PCE with PCInitiate message to setup independent paths per domain, and combine these different paths together in order to operate them as end-to-end inter-domain paths without the need of signaling session between AS border routers.  A new Stitching Label is defined and new LSP-TYPE code points are considered for that purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dugeon-pce-stateful-interdomain-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dugeon-pce-stateful-interdomain-01.txt' />
+</reference>

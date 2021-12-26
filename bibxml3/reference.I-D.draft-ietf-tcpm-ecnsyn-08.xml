@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-ecnsyn'>
+<front>
+<title>Adding Explicit Congestion Notification (ECN) Capability to TCP's SYN/ACK  Packets</title>
+
+<author initials='S' surname='Floyd' fullname='Sally Floyd'>
+    <organization />
+</author>
+
+<date month='April' day='2' year='2009' />
+
+<abstract><t>The proposal in this document is experimental.  While it may be deployed in the current Internet, it does not represent a consensus that this is the best possible mechanism for the use of ECN in TCP SYN/ACK packets.  This draft describes an optional, experimental modification to RFC 3168 to allow TCP SYN/ACK packets to be ECN-Capable.  For TCP, RFC 3168 only specifies setting an ECN-Capable codepoint on data packets, and not on SYN and SYN/ACK packets.  However, because of the high cost to the TCP transfer of having a SYN/ACK packet dropped, with the resulting retransmit timeout, this document describes the use of ECN for the SYN/ACK packet itself, when sent in response to a SYN packet with the two ECN flags set in the TCP header, indicating a willingness to use ECN.  Setting the initial TCP SYN/ACK packet as ECN-Capable can be of great benefit to the TCP connection, avoiding the severe penalty of a retransmit timeout for a connection that has not yet started placing a load on the network.  The TCP responder (the sender of the SYN/ACK packet) must reply to a report of an ECN- marked SYN/ACK packet by resending a SYN/ACK packet that is not ECN- Capable.  If the resent SYN/ACK packet is acknowledged, then the TCP responder reduces its initial congestion window from two, three, or four segments to one segment, thereby reducing the subsequent load from that connection on the network.  If instead the SYN/ACK packet is dropped, or for some other reason the TCP responder does not receive an acknowledgement in the specified time, the TCP responder follows TCP standards for a dropped SYN/ACK packet (setting the retransmit timer).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-ecnsyn-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-ecnsyn-08.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-ecnsyn-08.pdf' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.brandenburg-avt-rtcp-for-idms'>
+<front>
+<title>RTCP XR Block Type for inter-destination media synchronization</title>
+
+<author initials='H' surname='Stokking' fullname='Hans Stokking'>
+    <organization />
+</author>
+
+<author initials='O' surname='Deventer' fullname='Oskar van Deventer'>
+    <organization />
+</author>
+
+<author initials='O' surname='Niamut' fullname='Omar Niamut'>
+    <organization />
+</author>
+
+<author initials='F' surname='Walraven' fullname='Fabian Walraven'>
+    <organization />
+</author>
+
+<author initials='R' surname='Brandenburg' fullname='Ray Brandenburg'>
+    <organization />
+</author>
+
+<author initials='I' surname='Vaishnavi' fullname='Ishan Vaishnavi'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2010' />
+
+<abstract><t>This document specifies an RTCP XR Block Type for inter-destination media synchronization (IDMS). The RTCP Block Type is used to collect information on media play-out time of a specific RTP media stream, and to distribute a summary of the collected information. This information can be used to synchronize the play-out of media such as audio, video and/or subtitles among multiple devices.  This document also specifies the associated SDP parameter. The SDP parameter is used to signal the use of the RTCP XR block for inter- destination media synchronization.  Typical applications for inter-destination media synchronization are social TV, watching apart together and shared service control. Each of these applications has two or more geographically separated users watching a media stream on respective devices. RTCP-XR is intended as a signaling mechanism to enable various media synchronization algorithms amongst users. The presented RTCP-XR specification for IDMS is independent of the used synchronization algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-brandenburg-avt-rtcp-for-idms-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-brandenburg-avt-rtcp-for-idms-01.txt' />
+</reference>

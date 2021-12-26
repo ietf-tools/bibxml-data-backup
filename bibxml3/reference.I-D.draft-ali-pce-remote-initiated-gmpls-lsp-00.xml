@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ali-pce-remote-initiated-gmpls-lsp'>
+<front>
+<title>Path Computation Element Communication Protocol (PCEP) Extensions for remote-initiated GMPLS LSP Setup</title>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='R' surname='Varga' fullname='Robert Varga'>
+    <organization />
+</author>
+
+<author initials='V' surname='Lopez' fullname='Victor Lopez'>
+    <organization />
+</author>
+
+<author initials='O' surname='Dios' fullname='Oscar de Dios'>
+    <organization />
+</author>
+
+<date month='January' day='31' year='2013' />
+
+<abstract><t>PCEP Extensions for PCE-initiated LSP Setup in a Stateful PCE Model draft [I-D. draft-crabbe-pce-pce-initiated-lsp] specifies procedures that can be used for creation and deletion of PCE- initiated LSPs under the active stateful PCE model. However, this specification is focused on MPLS networks, and does not cover remote instantiation of GMPLS paths.  This document complements PCEP Extensions for PCE-initiated LSP Setup in a Stateful PCE Model draft by addressing the extensions required for GMPLS applications, for example for OTN and WSON networks.  When active stateful PCE is used for managing PCE-initiated LSP, PCC may not be aware of the intended usage of the LSP (e.g., in a multi-layer network). PCEP Extensions for PCE-initiated LSP Setup in a Stateful PCE Model draft does not address this requirement. This draft also addresses the requirement to specify on how PCC should use the PCEP initiated LSPs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ali-pce-remote-initiated-gmpls-lsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ali-pce-remote-initiated-gmpls-lsp-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ali-pce-remote-initiated-gmpls-lsp-00.pdf' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reddy-add-server-policy-selection'>
+<front>
+<title>DNS Server Selection: DNS Server Information with Assertion Token</title>
+
+<author initials='T' surname='Reddy.K' fullname='Tirumaleswar Reddy.K'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<date month='June' day='18' year='2020' />
+
+<abstract><t>The document defines a mechanism that allows communication of DNS resolver information to DNS clients for use in server selection decisions.  In particular, the document defines a mechanism for a DNS server to communicate its filtering policy and privacy statement URL to DNS clients.  This information is cryptographically signed to attest its authenticity.  Such information is used for the selection of DNS resolvers.  Typically, evaluating the DNS privacy statement, filtering policy, and the signatory, DNS clients with minimum human intervention can select the DNS server that best supports the user's desired privacy and filtering policy.  This assertion is useful for encrypted DNS (e.g., DNS-over-TLS and DNS-over-HTTPS) servers that are either public resolvers or are discovered in a local network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reddy-add-server-policy-selection-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reddy-add-server-policy-selection-03.txt' />
+</reference>

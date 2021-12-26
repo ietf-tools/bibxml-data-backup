@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hegde-mpls-spring-epe-oam'>
+<front>
+<title>Label Switched Path (LSP) Ping/Traceroute for Segment Routing (SR) Egress Peer engineering Segment Identifiers (SIDs) with MPLS Data Planes</title>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='K' surname='Arora' fullname='Kapil Arora'>
+    <organization />
+</author>
+
+<author initials='M' surname='Srivastava' fullname='Mukul Srivastava'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2019' />
+
+<abstract><t>Egress Peer Engineering is an application of Segment Routing to solve the problem of egress peer selection.  The SR-based BGP-EPE solution allows a centralized (Software Defined Network, SDN)controller to program any egress peer.  The EPE solution requires a node to program PeerNodeSID, PeerAdjSID, PeerSetSID as described in [I-D.ietf-spring-segment-routing-central-epe].  This document provides new sub-TLVs for EPE SIDs that would be used in Target stack TLV (Type 1) as defined in [RFC8029] for the EPE SIDs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hegde-mpls-spring-epe-oam-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hegde-mpls-spring-epe-oam-02.txt' />
+</reference>

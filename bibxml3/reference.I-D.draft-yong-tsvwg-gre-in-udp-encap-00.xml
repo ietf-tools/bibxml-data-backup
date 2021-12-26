@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yong-tsvwg-gre-in-udp-encap'>
+<front>
+<title>Generic UDP Encapsulation for IP Tunneling</title>
+
+<author initials='E' surname='Crabbe' fullname='Edward Crabbe'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<author initials='K' surname='Building' fullname='KuiKe Building'>
+    <organization />
+</author>
+
+<date month='June' day='4' year='2013' />
+
+<abstract><t>This document describes a method of encapsulating arbitrary protocols within UDP and GRE headers.  In this encapsulation, the source UDP port may be used as an entropy field for purposes of load balancing while the payload protocol may be identified by the GRE Protocol Type.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yong-tsvwg-gre-in-udp-encap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yong-tsvwg-gre-in-udp-encap-00.txt' />
+</reference>

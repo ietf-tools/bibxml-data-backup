@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.davie-ecn-mpls'>
+<front>
+<title>Explicit Congestion Marking in MPLS</title>
+
+<author initials='B' surname='Davie' fullname='Bruce Davie'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2006' />
+
+<abstract><t>RFC 3270 defines how to support the Diffserv arhitecture in MPLS networks, including how to encode Diffserv Code Points (DSCPs) in an MPLS header. DSCPs may be encoded in the EXP field, while other uses of that field are not precluded. RFC3270 makes no statement about how Explicit Congestion Notification (ECN) marking might be encoded in the MPLS header. This draft defines how an operator might define some of the EXP codepoints for explicit congestion notification, without precluding other uses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-davie-ecn-mpls-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-davie-ecn-mpls-00.txt' />
+</reference>

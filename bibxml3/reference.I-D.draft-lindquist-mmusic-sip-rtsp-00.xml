@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lindquist-mmusic-sip-rtsp'>
+<front>
+<title>SIP/SDP Overlap with RTSP</title>
+
+<author initials='J' surname='Lindquist' fullname='Jan Lindquist'>
+    <organization />
+</author>
+
+<author initials='J' surname='Maenpaa' fullname='Jouni Maenpaa'>
+    <organization />
+</author>
+
+<author initials='P' surname='Rajagopal' fullname='Priya Rajagopal'>
+    <organization />
+</author>
+
+<author initials='X' surname='Marjou' fullname='Xavier Marjou'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2009' />
+
+<abstract><t>The Session Initiation Protocol (SIP) is widely used for establishing multimedia sessions, whereas the Real Time Streaming Protocol (RTSP) is a protocol for use in streaming media systems.  RTSP has a dual role: it establishes a media session for the delivery of streaming media as well as controls the streaming session once it has been set up.  Since RTSP is also used for session establishment, there exists an overlap between the functionality provided by SIP and RTSP.  In this document, we analyze a model in which SIP and the SDP offer/ answer model are used to set up a streaming session with an RTSP control channel and one or more media delivery streams.  Such a model is beneficial since it allows the reuse of current architecture and functionality (e.g., authentication, charging, and QoS) established around SIP also for RTSP-based streaming.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lindquist-mmusic-sip-rtsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lindquist-mmusic-sip-rtsp-00.txt' />
+</reference>

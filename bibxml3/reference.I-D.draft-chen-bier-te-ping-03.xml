@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-bier-te-ping'>
+<front>
+<title>BIER-TE Ping and Trace</title>
+
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Peng' fullname='Shaofu Peng'>
+    <organization />
+</author>
+
+<date month='December' day='11' year='2017' />
+
+<abstract><t>Bit Index Explicit Replication (BIER)-TE shares architecture and packet formats with BIER as described in [I-D.ietf-bier-architecture].  BIER-TE forwards and replicates packets based on a BitString in the packet header, but every BitPosition of the BitString of a BIER-TE packet indicates one or more adjacencies.  This document describes the mechanism and basic BIER-TE OAM packet format that can be used to perform Ping and Traceroute on BIER-TE network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-bier-te-ping-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-bier-te-ping-03.txt' />
+</reference>

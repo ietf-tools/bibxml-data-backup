@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dkim-overview'>
+<front>
+<title>DomainKeys Identified Mail (DKIM) Message Signing Service Overview</title>
+
+<author initials='T' surname='Hansen' fullname='Tony  Hansen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='June' day='11' year='2007' />
+
+<abstract><t>DomainKeys Identified Mail (DKIM) associates a "responsible" identity with a message and provides a means of verifying that the association is legitimate.[I-D.ietf-dkim-base]. DKIM defines a domain-level authentication framework for email using public-key cryptography and key server technology. This permits verifying the source or intermediary for a message, as well as the contents of messages. The ultimate goal of this framework is to permit a signing domain to assert responsibility for a message, thus proving and protecting the identity associated with the message and the integrity of the messages itself, while retaining the functionality of Internet email as it is known today. Such protection of email identity, may assist in the global control of "spam" and "phishing". This document provides an overview of DKIM and describes how it can fit into a messaging service, how it relates to other IETF message signature technologies. It also includes implementation and migration considerations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dkim-overview-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dkim-overview-05.txt' />
+</reference>

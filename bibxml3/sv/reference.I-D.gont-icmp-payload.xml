@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-icmp-payload'>
+<front>
+<title>Increasing the payload of ICMP error messages</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='August' day='3' year='2004' />
+
+<abstract><t>The original ICMP specification states that when a packet elicits an ICMP error message, the IP header plus the next 64 bits of the original datagram must be returned in the payload of the ICMP error message. This imposes a constraint on the design of transport-layer protocols, which are forced to include all the relevant information needed to identify an instance of communication in the first 64 bits of their protocol header. It also limits the amount of data from the original packet available to the transport-layer when acting on the ICMP error message. Including only the first 64 bits of the original datagram's payload may also not be enough to demultiplex ICMP error messages if IP is being used to tunnel some other network-layer protocol. This document proposes to increase the amount of data of the original datagram to be included in the payload of ICMP error messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-icmp-payload-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-icmp-payload-00.txt' />
+</reference>

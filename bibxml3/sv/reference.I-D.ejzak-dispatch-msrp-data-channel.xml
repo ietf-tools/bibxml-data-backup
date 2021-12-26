@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ejzak-dispatch-msrp-data-channel'>
+<front>
+<title>MSRP over WebRTC data channels</title>
+
+<author initials='R' surname='Ejzak' fullname='Richard Ejzak'>
+    <organization />
+</author>
+
+<author initials='J' surname='Marcon' fullname='Jerome Marcon'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2013' />
+
+<abstract><t>This document specifies how the Message Session Relay Protocol (MSRP) can be instantiated as a WebRTC data channel sub-protocol, using the the SDP offer/answer exchange-based external negotiation defined in [I-D.ejzak-dispatch-webrtc-data-channel-sdpneg].  Two network configurations are documented: a WebRTC end-to-end configuration (connecting two MSRP over data channel endpoints), and a gateway configuration (connecting an MSRP over data channel endpoint with an MSRP over TCP endpoint).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ejzak-dispatch-msrp-data-channel-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ejzak-dispatch-msrp-data-channel-00.txt' />
+</reference>

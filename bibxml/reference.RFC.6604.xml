@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6604' target='https://www.rfc-editor.org/info/rfc6604'>
+<front>
+<title>xNAME RCODE and Status Bits Clarification</title>
+<author initials='D.' surname='Eastlake 3rd' fullname='D. Eastlake 3rd'><organization /></author>
+<date year='2012' month='April' />
+<abstract><t>The Domain Name System (DNS) has long provided means, such as the CNAME (Canonical Name), whereby a DNS query can be redirected to a different name.  A DNS response header has an RCODE (Response Code) field, used for indicating errors, and response status bits.  This document clarifies, in the case of such redirected queries, how the RCODE and status bits correspond to the initial query cycle (where the CNAME or the like was detected) and subsequent or final query cycles.   [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6604'/>
+<seriesInfo name='DOI' value='10.17487/RFC6604'/>
+</reference>

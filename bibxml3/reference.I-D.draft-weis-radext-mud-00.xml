@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.weis-radext-mud'>
+<front>
+<title>RADIUS Extensions for Manufacturer Usage Description</title>
+
+<author initials='B' surname='Weis' fullname='Brian Weis'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2016' />
+
+<abstract><t>A Manufacturer Usage Description (MUD) is a file describing the expected use of a class of devices, usually an Internet of Things class of devices.  It is prepared by a manufacturer and placed on a generally available web server, and is addressable via a Uniform Resource Identifier (URI).  The URI is often included in a discovery protocol (e.g., DNS, LLDP).  A Network Access Server (NAS) in the path of the discovery protocol can collect and forward the URI to a RADIUS server, which processes the URI.  This draft defines the RADIUS extension needed for the NAS to forward the URI to the RADIUS server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-weis-radext-mud-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-weis-radext-mud-00.txt' />
+</reference>

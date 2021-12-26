@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tanaka-pce-stateful-pce-data-ctrl'>
+<front>
+<title>Stateful PCE Extensions for Data Plane Switchover and Balancing</title>
+
+<author initials='Y' surname='Tanaka' fullname='Yosuke Tanaka'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kamite' fullname='Yuji Kamite'>
+    <organization />
+</author>
+
+<author initials='I' surname='Minei' fullname='Ina Minei'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>Stateful PCE (Path Computation Element) and its corresponding protocol extensions provide a mechanism that enables PCE to do stateful control of MPLS Traffic Engineering Label Switched Paths (TE LSP).  One application that stateful PCE can realize is data traffic reoptimization.  Data traffic traversed in a LSP can be switched to another PCE-initiated LSP.  Moreover, data traffic can also be balanced to multiple PCE-initiated LSPs using stateful PCE.  This document specifies the extensions to Path Computation Element Protocol (PCEP) that allow a stateful PCE to do switchover and balancing of data traffic with PCE-initiated LSPs.  This document also specifies the usage and handling of stateful PCEP (PCE Communication Protocol) messages and the expected behavior of PCC as the RSVP-TE headend.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tanaka-pce-stateful-pce-data-ctrl-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tanaka-pce-stateful-pce-data-ctrl-00.txt' />
+</reference>

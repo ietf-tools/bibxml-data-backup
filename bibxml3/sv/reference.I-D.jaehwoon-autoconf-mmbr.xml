@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jaehwoon-autoconf-mmbr'>
+<front>
+<title>Address Autoconfiguration for MANET with Multiple MBRs</title>
+
+<author initials='J' surname='Lee' fullname='Jaehwoon Lee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ahn' fullname='Sanghyun Ahn'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kim' fullname='Younghan Kim'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2010' />
+
+<abstract><t>In order to allow the subordinate MANET to be connected to the external network, the MANET border router (MBR) has been defined. For providing scalability and reliability to the subordinate MANET, multiple MBRs may be deployed. One of the issues on the subordinate MANET with multiple MBRs is which network prefixes are to be advertised by MBRs. In the case when MBRs advertise different network prefixes, if a MANET node changes its default MBR to a new one, the node may have to transmit packets via non-optimal paths to keep using the existing connection to the previous MBR, or change its address by using the network prefix information from the new MBR. In the former case, the MANET node may not communicate with the MBR due to MANET partitioning. In the latter case, on-going sessions can be terminated because of the address change. In this draft, we define a PMIPv6 based address autoconfiguration mechanism that enables MANET nodes to operate properly when all MBRs advertise the same network prefix in the subordinate MANET.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jaehwoon-autoconf-mmbr-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jaehwoon-autoconf-mmbr-02.txt' />
+</reference>

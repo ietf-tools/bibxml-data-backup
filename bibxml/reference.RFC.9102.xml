@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9102' target='https://www.rfc-editor.org/info/rfc9102'>
+<front>
+<title>TLS DNSSEC Chain Extension</title>
+<author initials='V.' surname='Dukhovni' fullname='V. Dukhovni'><organization /></author>
+<author initials='S.' surname='Huque' fullname='S. Huque'><organization /></author>
+<author initials='W.' surname='Toorop' fullname='W. Toorop'><organization /></author>
+<author initials='P.' surname='Wouters' fullname='P. Wouters'><organization /></author>
+<author initials='M.' surname='Shore' fullname='M. Shore'><organization /></author>
+<date year='2021' month='August' />
+<abstract><t>This document describes an experimental TLS extension for the in-band transport of the complete set of records that can be validated by DNSSEC and that are needed to perform DNS-Based Authentication of Named Entities (DANE) of a TLS server. This extension obviates the need to perform separate, out-of-band DNS lookups.  When the requisite DNS records do not exist, the extension conveys a denial-of-existence proof that can be validated.</t><t>This experimental extension is developed outside the IETF and is published here to guide implementation of the extension and to ensure interoperability among implementations.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9102'/>
+<seriesInfo name='DOI' value='10.17487/RFC9102'/>
+</reference>

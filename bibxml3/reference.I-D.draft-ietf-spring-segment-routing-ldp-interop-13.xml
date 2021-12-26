@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-spring-segment-routing-ldp-interop'>
+<front>
+<title>Segment Routing interworking with LDP</title>
+
+<author initials='A' surname='Bashandy' fullname='Ahmed Bashandy'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2018' />
+
+<abstract><t>A Segment Routing (SR) node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header.  A segment can represent any instruction, topological or service-based.  SR allows to enforce a flow through any topological path while maintaining per-flow state only at the ingress node to the SR domain.  The Segment Routing architecture can be directly applied to the MPLS data plane with no change in the forwarding plane.  This document describes how Segment Routing operates in a network where LDP is deployed and in the case where SR-capable and non-SR-capable nodes coexist.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-spring-segment-routing-ldp-interop-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-spring-segment-routing-ldp-interop-13.txt' />
+</reference>

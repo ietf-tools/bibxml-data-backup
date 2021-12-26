@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ninan-spring-mpls-inter-as-oam'>
+<front>
+<title>PMS/Head-end based MPLS Ping and Traceroute in Inter-AS SR Networks</title>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='K' surname='Arora' fullname='Kapil Arora'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ninan' fullname='Samson Ninan'>
+    <organization />
+</author>
+
+<author initials='M' surname='Srivastava' fullname='Mukul Srivastava'>
+    <organization />
+</author>
+
+<author initials='N' surname='Kumar' fullname='Nagendra Kumar'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>Segment Routing (SR) architecture leverages source routing and tunneling paradigms and can be directly applied to the use of a Multiprotocol Label Switching (MPLS) data plane.  Segment Routing also provides an easy and efficient way to provide inter connectivity in a large scale network as described in [RFC8604].  [RFC8287] illustrates the problem and defines extensions to perform LSP Ping and Traceroute for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifiers (SIDs) with an MPLS data plane.  It is useful to have the LSP Ping and traceroute procedures when an SR end-to-end path spans across multiple ASes.  This document describes mechanisms to facilitae LSP ping and traceroute in inter-AS SR networks in an efficient manner with simple OAM protocol extension which uses dataplane forwarding alone for sending Echo-Reply.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ninan-spring-mpls-inter-as-oam-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ninan-spring-mpls-inter-as-oam-02.txt' />
+</reference>

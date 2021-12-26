@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-mpls-ipv6-pw-lsp-ping'>
+<front>
+<title>Label Switched Path (LSP) Ping for IPv6 Pseudowire FECs</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='P' surname='Pan' fullname='Ping Pan'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<date month='August' day='4' year='2011' />
+
+<abstract><t>The Pseudowire FEC sub-TLVs for the Target FEC Stack in the LSP Ping mechanism are implicitly defined for IPv4 Provider Edge (PEs) routers.  There is, however, a degree of potential ambiguity in the specification of these sub-TLVs since the address family is not specified but could be inferred from the length.  This document updates RFC4379 to explicitly constraint these sub-TLVs for IPv4 LDP sessions, and extends Pseudowire LSP Ping to the IPv6 scenario where an IPv6 LDP session is used to signal the Pseudowire (i.e., where the Sender's and Receiver's IP addresses are IPv6 addresses.)  This is done by defining two new LSP Ping sub-TLVs for IPv6 Pseudowire FECs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-mpls-ipv6-pw-lsp-ping-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-mpls-ipv6-pw-lsp-ping-00.txt' />
+</reference>

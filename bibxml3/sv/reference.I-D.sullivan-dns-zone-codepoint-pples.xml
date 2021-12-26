@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sullivan-dns-zone-codepoint-pples'>
+<front>
+<title>Principles for Unicode Code Point Inclusion in Labels in the DNS Root</title>
+
+<author initials='A' surname='Sullivan' fullname='Andrew Sullivan'>
+    <organization />
+</author>
+
+<author initials='D' surname='Thaler' fullname='Dave Thaler'>
+    <organization />
+</author>
+
+<author initials='O' surname='Kolkman' fullname='Olaf Kolkman'>
+    <organization />
+</author>
+
+<date month='June' day='5' year='2012' />
+
+<abstract><t>Traditionally, the management of the DNS root zone permitted only "alphabetic" labels.  As long as the root zone included only ASCII characters, and as long as there was only one form of a label, the restriction plainly meant that only the letters A-Z and a-z were permitted.  The advent of internationalized labels using IDNA2008 presents some complications for the restriction.  One of the complications is the meaning of the term "alphabetic" when applied to the Unicode code points in U-labels.  This memo presents a set of principles that can be used to determine whether a Unicode code point may be wisely included in the repertoire of permissible code points in a U-label in a zone.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sullivan-dns-zone-codepoint-pples-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sullivan-dns-zone-codepoint-pples-00.txt' />
+</reference>

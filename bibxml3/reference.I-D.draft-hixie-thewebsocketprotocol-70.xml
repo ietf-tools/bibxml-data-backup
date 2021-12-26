@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hixie-thewebsocketprotocol'>
+<front>
+<title>The Web Socket protocol</title>
+
+<author initials='I' surname='Hickson' fullname='Ian Hickson'>
+    <organization />
+</author>
+
+<date month='January' day='31' year='2010' />
+
+<abstract><t>The Web Socket protocol enables two-way communication between a user agent running untrusted code running in a controlled environment to a remote host that has opted-in to communications from that code.  The security model used for this is the Origin-based security model commonly used by Web browsers.  The protocol consists of an initial handshake followed by basic message framing, layered over TCP.  The goal of this technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections (e.g. using XMLHttpRequest or &lt;iframe>s and long polling).Author's note  This document is automatically generated from the same source document as the HTML5 specification.  [HTML5]  Please send feedback to either the hybi@ietf.org list or the whatwg@whatwg.org list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hixie-thewebsocketprotocol-70' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hixie-thewebsocketprotocol-70.txt' />
+</reference>

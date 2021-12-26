@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosen-l2vpn-mesh-failure'>
+<front>
+<title>Detecting and Reacting to Failures of the Full Mesh in IPLS and VPLS</title>
+
+<author initials='E' surname='Rosen' fullname='Eric  Rosen'>
+    <organization />
+</author>
+
+<date month='September' day='30' year='2004' />
+
+<abstract><t>Certain L2VPN architectures [IPLS, VPLS] rely on there being a full mesh of pseudowires [PWE3-ARCH] among a set of entities. This mesh is used to provide a 'LAN-like' service among the entities. If one or more of these pseudowires is absent, so that there is not really a full mesh, various higher layers (from routing to bridge control protocols) that expect a LAN-like service may fail to work as expected. Therefore it is desirable to have procedures that enable the pseudowire endpoints to determine automatically whether there is really a full mesh or not. It is also desirable to have procedures that cause the L2VPNs to adapt to pseudowire failures. This document proposes a set of procedures to meet these goals. Detailed protocol encodings are not present, but will be added in future versions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosen-l2vpn-mesh-failure-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosen-l2vpn-mesh-failure-02.txt' />
+</reference>

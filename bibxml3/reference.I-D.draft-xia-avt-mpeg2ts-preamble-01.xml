@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-avt-mpeg2ts-preamble'>
+<front>
+<title>Preamble Acquisition of MPEG2-TS Multicast Sessions</title>
+
+<author initials='P' surname='Yang' fullname='Peilin Yang'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='X' surname='Wu' fullname='Xingfen Wu'>
+    <organization />
+</author>
+
+<date month='December' day='10' year='2009' />
+
+<abstract><t>The ITU-T Rec. H.222.0 | ISO/IEC 13818-1 Transport Stream (MPEG2-TS) addresses the combining of one or more elementary streams of video and audio, as well as other data, into single or multiple streams which are suitable for storage or transmission.  The necessary and sufficient information contained in the Program Specific Information(PSI) tables to demultiplex and present programs must be acquired before a RTP receiver can process any data received in MPEG2-TS.  In this document, a Retransmission Server is specified to deliver MPEG2-TS preamble prior to unicast burst RTP packets.  The Retransmission Server caches raw RTP packets with MPEG2-TS preamble information, and sends them to the RTP receiver which initiates rapid acquisition of MPEG2-TS multicast sessions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-avt-mpeg2ts-preamble-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-avt-mpeg2ts-preamble-01.txt' />
+</reference>

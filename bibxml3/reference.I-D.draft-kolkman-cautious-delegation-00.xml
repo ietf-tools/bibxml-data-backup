@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kolkman-cautious-delegation'>
+<front>
+<title>A Procedure for Cautious Delegation of a DNS Name</title>
+
+<author initials='O' surname='Kolkman' fullname='Olaf Kolkman'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sullivan' fullname='Andrew Sullivan'>
+    <organization />
+</author>
+
+<date month='May' day='2' year='2013' />
+
+<abstract><t>Sometimes, a DNS name is known to be in use in the wild even though it was never properly delegated.  This situation appears particularly, but not only, true in certain domains near the root of the tree: people have independently used those non-existent top-level domains as private namespaces.  If those names are to be delegated in the public DNS, prudence demands that collisions between the private uses and the public use be minimized.  At the same time, the public use should not be prohibited on the grounds of what is, after all, "hijacking" of a name space.  We outline a procedure to minimize harm while permitting delegation to proceed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kolkman-cautious-delegation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kolkman-cautious-delegation-00.txt' />
+</reference>

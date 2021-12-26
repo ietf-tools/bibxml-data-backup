@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-homenet-front-end-naming-delegation'>
+<front>
+<title>Outsourcing Home Network Authoritative Naming Service</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='R' surname='Weber' fullname='Ralf Weber'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hunter' fullname='Ray Hunter'>
+    <organization />
+</author>
+
+<author initials='C' surname='Griffiths' fullname='Chris Griffiths'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2015' />
+
+<abstract><t>RFC7368 'IPv6 Home Networking Architecture Principles' section 3.7 describes architecture principles related to naming and service discovery in residential home networks.  Customer Edge Routers and other Customer Premises Equipment (CPEs) are designed to provide IP connectivity to home networks.  Most CPEs assign IP addresses to the nodes of the home network which makes them good candidates for hosting the naming service.  IPv6 provides global connectivity, and nodes from the home network will be reachable from the global Internet.  As a result, the naming service is expected to be exposed on the Internet.  However, CPEs have not been designed to host such a naming service exposed on the Internet.  Running a naming service visible on the Internet may expose the CPEs to resource exhaustion and other attacks, which could make the home network unreachable, and most probably would also affect the internal communications of the home network.  In addition, regular end users may not understand, or possess the necessary skills to be able to perform, DNSSEC management and configuration.  Misconfiguration may also result in naming service disruption, thus these end users may prefer to rely on third party name service providers.  This document describes a homenet naming architecture, where the CPEs manage the DNS zones associated with its own home network, and outsource elements of the naming service (possibly including DNSSEC management) to a third party running on the Internet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-homenet-front-end-naming-delegation-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-homenet-front-end-naming-delegation-03.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-aanchal4-ntp-mac-03.txt'>
+    <title>"Message Authentication Codes for the Network Time Protocol", Aanchal Malhotra, Sharon Goldberg</title>
+    <link>http://www.ietf.org/internet-drafts/draft-aanchal4-ntp-mac-03.txt</link>
+    <description>The Network Time Protocol (NTP) RFC 5905 [RFC5905] uses a message authentication code (MAC) to cryptographically authenticate its UDP packets.  Currently, NTP packets are authenticated by appending a 128-bit key to the NTP data, and hashing the result with MD5 to obtain a 128-bit tag.  However, as discussed in [BCK] and [RFC6151], this is not a secure MAC.  As such, this draft considers different secure MAC algorithms for use with NTP, evaluates their performance, and recommends the use of CMAC-AES [RFC4493].  We also suggest deprecating the use of MD5 as defined in [RFC5905] for authenticating NTP packets.</description>
+    <dc:date>2016-10-26T07:00:00-00:00</dc:date>
+</item>

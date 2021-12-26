@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-intarea-v4-uid-header-option'>
+<front>
+<title>IPv4 Header Option For User Identification In CGN Scenario</title>
+
+<author initials='Y' surname='Wu' fullname='Youming Wu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ji' fullname='Hui Ji'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Chen' fullname='Qi Chen'>
+    <organization />
+</author>
+
+<author initials='T' surname='ZOU)' fullname='Tina Tsou (Ting ZOU)'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>In some application scenarios, it is necessary to be able to identify an user when CGN is deployed.  This document defines a new IPv4 header option for host identification, which contains NAT mapping information, e.g. the internal source IP address before translation. Each time a NAT device performs translation on an IP packet, NAT mapping information will be added in the IP header.  With the NAT mapping information, it will be easy to identify a host.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-intarea-v4-uid-header-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-intarea-v4-uid-header-option-00.txt' />
+</reference>

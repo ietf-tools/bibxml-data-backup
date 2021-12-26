@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ace-cbor-web-token'>
+<front>
+<title>CBOR Web Token (CWT)</title>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<author initials='E' surname='Wahlstroem' fullname='Erik Wahlstroem'>
+    <organization />
+</author>
+
+<author initials='S' surname='Erdtman' fullname='Samuel Erdtman'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>CBOR Web Token (CWT) is a compact means of representing claims to be transferred between two parties.  The claims in a CWT are encoded in the Concise Binary Object Representation (CBOR) and CBOR Object Signing and Encryption (COSE) is used for added application layer security protection.  A claim is a piece of information asserted about a subject and is represented as a name/value pair consisting of a claim name and a claim value.  CWT is derived from JSON Web Token (JWT) but uses CBOR rather than JSON.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ace-cbor-web-token-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ace-cbor-web-token-13.txt' />
+</reference>

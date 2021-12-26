@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cakulev-ikev2-psk-diameter'>
+<front>
+<title>Diameter IKEv2: Support for Interaction between IKEv2 Server and Diameter Server</title>
+
+<author initials='V' surname='Cakulev' fullname='Violeta Cakulev'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lior' fullname='Avi Lior'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2009' />
+
+<abstract><t>Internet Key Exchange is a component of IPsec used for performing mutual authentication as well as establishing and maintaining security associations (SAs) between two parties such as a user and a network entity.  Internet Key Exchange v2 (IKEv2) protocol allows several different mechanisms for authenticating a user, namely the Extensible Authentication Protocol, certificates, and pre-shared secrets.  To authenticate and/or authorize the user, the network element such as the Access Gateway may need to dynamically bootstrap a security association based on interaction with the Diameter server. This document specifies the interaction between the Access Gateway and Diameter server for the IKEv2 based on pre-shared secrets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cakulev-ikev2-psk-diameter-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cakulev-ikev2-psk-diameter-00.txt' />
+</reference>

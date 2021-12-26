@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dekok-emu-eap-session-id'>
+<front>
+<title>EAP Session-Id Derivation</title>
+
+<author initials='A' surname='DeKok' fullname='Alan DeKok'>
+    <organization />
+</author>
+
+<date month='July' day='23' year='2019' />
+
+<abstract><t>EAP Session-Id derivation has not been defined for EAP-SIM, EAP-AKA, and EAP-AKA' when using the fast re-authentication exchange instead of full authentication.  This document updates [RFC5247] to define those derivations for EAP-SIM, and EAP-AKA.  Since [AKAP] defines the Session-ID for EAP-AKA', the definition for EAP-AKA' is not included here.  [RFC5247] also does not define Session-Id derivation for PEAP. A definition is given here which follows the definition for other TLS-based EAP methods.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dekok-emu-eap-session-id-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dekok-emu-eap-session-id-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eastlake-dnsext-xnamercode'>
+<front>
+<title>xNAME RCODE and Status Bits Clarification</title>
+
+<author initials='D' surname='3rd' fullname='Donald Eastlake 3rd'>
+    <organization />
+</author>
+
+<date month='June' day='5' year='2010' />
+
+<abstract><t>The Domain Name System (DNS) has long provided means, such as CNAME (Canonical Name), where a query can be redirected to a different name. A DNS response header has an RCODE (Response Code) field, used for indicating errors, and response status bits. This document clarifies, in the case of such redirected queries, how the RCODE and status bits correspond to the initial query cycle (where the CNAME or the like was detected) and subsequent or final query cycles.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eastlake-dnsext-xnamercode-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eastlake-dnsext-xnamercode-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dkim-pkix'>
+<front>
+<title>Use of PKIX Certificates in DKIM</title>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2005' />
+
+<abstract><t>This document describes a mechanism for using X.509v3 certificates that comply with the PKIX profile with Domain Keys Identified Mail (DKIM). An email signer MAY inform potential relying parties that a key described in a DKIM key record has a corresponding PKIX certificate or certificate path by means of an attribute in the key record that provides the URL of the certificate data. An email verifier MAY choose to make use of this information in deciding the disposition of the signed email message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dkim-pkix-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dkim-pkix-00.txt' />
+</reference>

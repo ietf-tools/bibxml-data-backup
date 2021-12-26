@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.add-location-to-ipv6-header'>
+<front>
+<title>Enhancing Location Based IP Services</title>
+
+<author initials='A' surname='Salih' fullname='Ammar Salih'>
+    <organization />
+</author>
+
+<date month='May' day='17' year='2013' />
+
+<abstract><t>This document describes IP-LOC, a proposed extension to IPv6 header which suggests adding optional geo-location field, in order to enhance existing geo-location based IP service as well as adding new ones.  The current method of determining geo-location of IP traffic is through RIR (Regional Internet Registry) database, this information is not very accurate as it depends on how the ISP registers its IP subnets, that is normally done in a country/city format.  It also assumes that in the future, GPS capability could be added to the router itself (just like smart phones) and packet marking and classification based on geo-location will be required.  QoS, firewall and routing based on geo-location might also be required in the future when mobile routers move from one geo-location to another, which has a different policy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-add-location-to-ipv6-header-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-add-location-to-ipv6-header-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.finn-detnet-architecture'>
+<front>
+<title>Deterministic Networking Architecture</title>
+
+<author initials='N' surname='Finn' fullname='Norman Finn'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>Deterministic Networking (DetNet) provides a capability to carry specified unicast or multicast data streams for real-time applications with extremely low data loss rates and maximum latency. Techniques used include: 1) reserving data plane resources for individual (or aggregated) DetNet streams in some or all of the relay systems (bridges or routers) along the path of the stream; 2) providing fixed paths for DetNet streams that do not rapidly change with the network topology; and 3) sequentializing, replicating, and eliminating duplicate packets at various points to ensure the availability of at least one path.  The capabilities can be managed by configuration, or by manual or automatic network management.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-finn-detnet-architecture-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-finn-detnet-architecture-00.txt' />
+</reference>

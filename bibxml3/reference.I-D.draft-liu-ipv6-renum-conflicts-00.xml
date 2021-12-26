@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-ipv6-renum-conflicts'>
+<front>
+<title>SLAAC/DHCPv6 conflicts diagnostic during site renumbering</title>
+
+<author initials='B' surname='Liu' fullname='Bing Liu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>While an IPv6 site is being renumbered, both DHCPv6 and ND may be used to reconfigure the host addresses. This may cause potential address configuration conflicts during renumbering procedure. The issue mainly include two situations: a) Address configuration method conflict, which means a host receives a new prefix comes from another address configuration protocol. b) Address prefix conflict, a host receives both DHCPv6 and ND address configuration messages which assign different address prefixes. This documents analyzes the conflict issues and proposes a conflict report mechanism for hosts to report the conflicts to DHCPv6 servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-ipv6-renum-conflicts-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-ipv6-renum-conflicts-00.txt' />
+</reference>

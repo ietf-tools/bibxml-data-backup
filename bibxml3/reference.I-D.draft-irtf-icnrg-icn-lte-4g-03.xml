@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-icnrg-icn-lte-4g'>
+<front>
+<title>Native Deployment of ICN in LTE, 4G Mobile Networks</title>
+
+<author initials='P' surname='suthar' fullname='Prakash suthar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Stolic' fullname='Milan Stolic'>
+    <organization />
+</author>
+
+<author initials='A' surname='Jangam' fullname='Anil Jangam'>
+    <organization />
+</author>
+
+<author initials='D' surname='Trossen' fullname='Dirk Trossen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Ravindran' fullname='Ravi Ravindran'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2019' />
+
+<abstract><t>LTE, 4G mobile networks use IP based transport for control plane to establish the data session and user plane for actual data delivery. In existing architecture, IP transport used in user plane is not optimized for data transport, which leads to an inefficient data delivery.  IP unicast routing from server to clients is used for delivery of multimedia content to User Equipment (UE), where each user gets a separate stream.  From bandwidth and routing perspective this approach is inefficient.  Multicast and broadcast technologies have emerged recently for mobile networks, but their deployments are very limited or at an experimental stage due to complex architecture and radio spectrum issues.  ICN is a rapidly emerging technology with built-in features for efficient multimedia data delivery, however majority of the work is focused on fixed networks.  The main focus of this draft is on native deployment of ICN in cellular mobile networks by using ICN in 3GPP protocol stack.  ICN has an inherent capability for multicast, anchorless mobility, security and it is optimized for data delivery using local caching at the edge.  The proposed approaches in this draft allow ICN to be enabled natively over the current LTE stack comprising of PDCP/RLC/MAC/PHY or in a dual stack mode (along with IP) help optimize the mobile networks by leveraging the inherent benefits of ICN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-icnrg-icn-lte-4g-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-icnrg-icn-lte-4g-03.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-clue-datachannel'>
+<front>
+<title>CLUE Protocol Data Channel</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<date month='November' day='27' year='2014' />
+
+<abstract><t>This document defines how to use the WebRTC Data Channel mechanism in order to realize a data channel, referred to as a CLUE data channel, for transporting CLUE protocol messages between two CLUE entities.  The document defines how to describe the SCTPoDTLS association used to realize the CLUE data channel using SDP, and defines usage of two mechanisms for establishing a CLUE data channel: the Data Channel Establishment Protocol (DCEP) and the SDP-based "SCTP over DTLS" data channel negotiation mechanism.  Details and procedures associated with the CLUE protocol, and the SDP Offer/Answer procedures for negotiating usage of a CLUE data channel, are outside the scope of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-clue-datachannel-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-clue-datachannel-05.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tao-netmod-yang-node-tags'>
+<front>
+<title>YANG Data Node Self Explanation Tags</title>
+
+<author initials='R' surname='Tao' fullname='Ran Tao'>
+    <organization />
+</author>
+
+<author initials='Q' surname='WU' fullname='Qin WU'>
+    <organization />
+</author>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<author initials='L' surname='Geng' fullname='Liang Geng'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Du' fullname='Zongpeng Du'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2020' />
+
+<abstract><t>This document defines a method to tag data node associated with telemetry data in YANG Modules.  This YANG data node tagging method can be used to provide input, instruction, indication to selection filter and filter queries of operational state on a server during a "pub/sub" service for YANG datastore updates and provide multiple dimensional network visibility analysis when the state of all subscriptions of a particular Subscriber to be fetched is huge, so that the amount of data to be streamed out to the destination can be greatly reduced and only targeted to the characteristics data.  An extension statement to be used to indicate YANG data node self explanation tags that SHOULD be added by the module implementation automatically (i.e., outside of configuration).  A YANG module [RFC7950] is defined, which augments Module tag model and provides a list of data node entries to allow for adding or removing of data node self explanation tags as well as viewing the set of self explanation tags associated with a YANG module.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tao-netmod-yang-node-tags-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tao-netmod-yang-node-tags-02.txt' />
+</reference>

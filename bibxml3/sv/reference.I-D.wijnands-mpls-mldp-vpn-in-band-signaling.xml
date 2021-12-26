@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-mpls-mldp-vpn-in-band-signaling'>
+<front>
+<title>Multipoint Label Distribution Protocol In-Band Signaling in a VPN Context</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='N' surname='Leymann' fullname='Nicolai Leymann'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hitchen' fullname='Paul Hitchen'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<date month='October' day='7' year='2011' />
+
+<abstract><t>Sometimes an IP multicast distribution tree (MDT) traverses both MPLS-enabled and non-MPLS-enabled regions of a network.  Typically the MDT begins and ends in non-MPLS regions, but travels through an MPLS region.  In such cases, it can be useful to begin building the MDT as a pure IP MDT, then convert it to an MPLS Multipoint LSP (Label Switched Path) when it enters an MPLS-enabled region, and then convert it back to a pure IP MDT when it enters a non-MPLS-enabled region.  [I-D.ietf-mpls-mldp-in-band-signaling] specifies the procedures for building such a hybrid MDT, using Protocol Independent Multicast (PIM) as the control protocol in the non-MPLS region of the network, and using Multipoint Extensions to Label Distribution Protocol (mLDP) in the MPLS region.  This document extends those procedures so that they will work when the links between the MPLS and non-MPLS regions are [RFC4364] interfaces.  While these procedures do not provide a good general multicast VPN solution, they are useful in certain specific situations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-mpls-mldp-vpn-in-band-signaling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-mpls-mldp-vpn-in-band-signaling-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mattsson-cose-cbor-cert-compress'>
+<front>
+<title>CBOR Object Signing and Encryption (COSE): Headers for Carrying CBOR Compressed Certificates</title>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Selander' fullname='Goeran Selander'>
+    <organization />
+</author>
+
+<author initials='S' surname='Raza' fullname='Shahid Raza'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hoglund' fullname='Joel Hoglund'>
+    <organization />
+</author>
+
+<author initials='M' surname='Furuhed' fullname='Martin Furuhed'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>Certificate chains often take up the majority of the bytes transmitted in COSE message that carry certificates.  Large messages can cause problems, particularly in constrained IoT environments. RFC 7925 defines a certificate profile for constrained IoT.  General purpose compression algorithms can in many cases not compress RFC 7925 profiled certificates at all.  By using the fact that the certificates are profiled, the CBOR certificate compression algorithms can in many cases compress RFC 7925 profiled certificates with over 50%. This document specifies the CBOR certificate compression algorithm for use with COSE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mattsson-cose-cbor-cert-compress-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mattsson-cose-cbor-cert-compress-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-lisp-triggered-map-request'>
+<front>
+<title>Triggered LISP Map-Request for Inter-Domain LISP Deployments</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<date month='September' day='17' year='2015' />
+
+<abstract><t>It is commonly acknowledged that one of the issues raised by the current Locator/ID Separation Protocol (LISP) design is that some packets are likely to be lost in specific situations such as the absence of a mapping entry in the mapping cache maintained by an ITR. This issue is usually referred to as the "first packet loss" problem.  This document specifies a new LISP capability called Triggered Map- Request which aims at addressing the "first packet loss" issue. Also, it proposes to extend the LISP mapping entries with names instead of achieving RLOC resolution based upon EID prefixes only.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-lisp-triggered-map-request-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-lisp-triggered-map-request-00.txt' />
+</reference>

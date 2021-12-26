@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.smundra-avt-rtp-red-non-audio'>
+<front>
+<title>A RTP Payload for Redundant Non-Audio Data</title>
+
+<author initials='S' surname='Mundra' fullname='Satish Mundra'>
+    <organization />
+</author>
+
+<date month='June' day='9' year='2004' />
+
+<abstract><t>This document specifies an RTP payload format for encoding redundant non-audio data for use with RFC 2198 redundancy scheme. The primary motivation for the payload format described herein is accurate loss detection and sequencing, and to make the redundancy mechanism independent of clock rate being used for non-audio data. It is hoped that use of this payload format will simplify the implementation of RFC 2198 redundancy mechanism for non-audio data and may improve efficiency of redundancy mechanism if RTCP extended reports (XR) were available to RTP senders.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-smundra-avt-rtp-red-non-audio-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-smundra-avt-rtp-red-non-audio-00.txt' />
+</reference>

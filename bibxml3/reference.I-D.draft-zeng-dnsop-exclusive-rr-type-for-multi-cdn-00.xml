@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zeng-dnsop-exclusive-rr-type-for-multi-cdn'>
+<front>
+<title>Exclusive RR type for multi-CDN support</title>
+
+<author initials='Y' surname='Zeng' fullname='Yu Zeng'>
+    <organization />
+</author>
+
+<author initials='H' surname='Zhang' fullname='Haikuo Zhang'>
+    <organization />
+</author>
+
+<author initials='N' surname='Wang' fullname='Nan Wang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<date month='July' day='24' year='2017' />
+
+<abstract><t>With the boom of Multi-CDN services, more enterprises tend to apply Multi-CDN service to deliver better end user experience to online global audiences.  However, the current Multi-CDN strategy has some defects.  Different Multi-CDN providers have various implementations of CDN balancing, yet there is no such unified DNS protocol because that multiple CNAMEs violates DNS standards.  Some Multi-CDN implementations MAY have extra lookups for CDN redirection which causes longer query latency.  This document aims to provide an exclusive DNS RR type CDNNAME(CDN name) for Multi-CDN implementation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zeng-dnsop-exclusive-rr-type-for-multi-cdn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zeng-dnsop-exclusive-rr-type-for-multi-cdn-00.txt' />
+</reference>

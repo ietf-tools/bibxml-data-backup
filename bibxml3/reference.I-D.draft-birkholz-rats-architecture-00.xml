@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birkholz-rats-architecture'>
+<front>
+<title>Architecture and Reference Terminology for Remote Attestation Procedures</title>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wiseman' fullname='Monty Wiseman'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='N' surname='Smith' fullname='Ned Smith'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2018' />
+
+<abstract><t>Remote ATtestation ProcedureS (RATS), such as Remote Integrity VERification (RIVER), the creation of Entity Attestation Tokens (EAT), software integrity Measurement And ATtestation (MAAT), or the attestation of device characteristics, in general, are based on specific operations and qualities provided by hardware and software. The RATS architecture maps corresponding functions and operation capabilities to specific RATS roles.  The goal is to enable an appropriate conveyance of believable evidence about device health or trusted claims about device capabilities via network protocols.  The flows of data between these roles depend on the composition of RATS roles and their location with respect to devices or services.  The RATS architecture provides these roles as building blocks to enable suitable composition, while remaining hardware-agnostic.  This flexibility is intended to address a significant majority of use cases or usage scenarios in the domain of RATS.  Examples include, but are not limited to: financial transactions, voting machines, critical safety systems, network equipment health, or trustworthy end-user device management.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-birkholz-rats-architecture-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-birkholz-rats-architecture-00.txt' />
+</reference>

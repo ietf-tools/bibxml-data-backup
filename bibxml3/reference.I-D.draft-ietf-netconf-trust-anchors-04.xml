@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-trust-anchors'>
+<front>
+<title>YANG Data Model for Global Trust Anchors</title>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<date month='April' day='29' year='2019' />
+
+<abstract><t>This document defines a YANG 1.1 data model for configuring global sets of X.509 certificates and SSH host-keys that can be referenced by other data models for trust.  While the SSH host-keys are uniquely for the SSH protocol, the X.509 certificates may have multiple uses, including authenticating protocol peers and verifying signatures.  Editorial Note (To be removed by RFC Editor)  This draft contains many placeholder values that need to be replaced with finalized values at the time of publication.  This note summarizes all of the substitutions that are needed.  No other RFC Editor instructions are specified elsewhere in this document.  Artwork in this document contains shorthand references to drafts in progress.  Please apply the following replacements:  o  "XXXX" --> the assigned RFC value for this draft  o  "YYYY" --> the assigned RFC value for draft-ietf-netconf-crypto- types  Artwork in this document contains placeholder values for the date of publication of this draft.  Please apply the following replacement:  o  "2019-04-29" --> the publication date of this draft  The following Appendix section is to be removed prior to publication:  o  Appendix A.  Change Log</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-trust-anchors-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-trust-anchors-04.txt' />
+</reference>

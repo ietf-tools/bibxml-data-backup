@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moncaster-conex-problem'>
+<front>
+<title>The Need for Congestion Exposure in the Internet</title>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<author initials='A' surname='Burness' fullname='Anne-Louise Burness'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='J' surname='Araujo' fullname='Joao Araujo'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blake' fullname='Steven Blake'>
+    <organization />
+</author>
+
+<author initials='R' surname='Woundy' fullname='Richard Woundy'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>Today's Internet is a product of its history.  TCP is the main transport protocol responsible for sharing out bandwidth and preventing a recurrence of congestion collapse while packet drop is the primary signal of congestion at bottlenecks.  Since packet drop (and increased delay) impacts all their customers negatively, network operators would like to be able to distinguish between overly aggressive congestion control and a confluence of many low-bandwidth, low-impact flows.  But they are unable to see the actual congestion signal and thus, they have to implement bandwidth and/or usage limits based on the only information they can see or measure (the contents of the packet headers and the rate of the traffic).  Such measures don't solve the packet-drop problems effectively and are leading to calls for government regulation (which also won't solve the problem).  We propose congestion exposure as a possible solution.  This allows packets to carry an accurate prediction of the congestion they expect to cause downstream thus allowing it to be visible to ISPs and network operators.  This memo sets out the motivations for congestion exposure and introduces a strawman protocol designed to achieve congestion exposure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moncaster-conex-problem-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moncaster-conex-problem-00.txt' />
+</reference>

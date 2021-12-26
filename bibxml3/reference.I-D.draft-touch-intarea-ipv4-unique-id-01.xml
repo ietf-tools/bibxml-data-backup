@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.touch-intarea-ipv4-unique-id'>
+<front>
+<title>IPv4 ID Uniqueness Requirements</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2009' />
+
+<abstract><t>The IPv4 Identification (ID) field enables fragmentation and reassembly, but is required and must be unique within the maximum segment lifetime on all packets. If implemented as required, this uniqueness would limit all connections to 6.4 Mbps; since this is ubiquitously not the case, it is clear that existing systems violate the current requirement. This document updates the requirements for the IP ID field to more closely reflect current practice, and to more closely match IPv6, in which the field is defined only when a packet is actually fragmented. Even when fragmented, this document recommends that the ID field uniqueness consider the reordering context, rather than an arbitrary, unenforced upper bound on segment lifetime.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-touch-intarea-ipv4-unique-id-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-touch-intarea-ipv4-unique-id-01.txt' />
+</reference>

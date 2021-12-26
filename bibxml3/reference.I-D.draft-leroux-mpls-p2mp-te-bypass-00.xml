@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.leroux-mpls-p2mp-te-bypass'>
+<front>
+<title>P2MP MPLS-TE Fast Reroute with P2MP Bypass Tunnels</title>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<author initials='R' surname='Aggarwal' fullname='Rahul Aggarwal'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2006' />
+
+<abstract><t>This document defines procedures for fast reroute protection of point-to-multipoint (P2MP) MPLS-TE LSPs, with point-to-multipoint bypass tunnels. During branch node failure the traffic on a protected P2MP TE-LSP is tunneled within a P2MP bypass tunnel towards the set of Merge Points. To avoid data duplication, the backup label is assigned by the PLR following the RSVP-TE upstream label assignment procedure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-leroux-mpls-p2mp-te-bypass-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-leroux-mpls-p2mp-te-bypass-00.txt' />
+</reference>

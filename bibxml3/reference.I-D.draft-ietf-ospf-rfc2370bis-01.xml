@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-rfc2370bis'>
+<front>
+<title>The OSPF Opaque LSA Option</title>
+
+<author initials='L' surname='Berger' fullname='Lou Berger'>
+    <organization />
+</author>
+
+<date month='June' day='4' year='2007' />
+
+<abstract><t>This document defines enhancements to the OSPF protocol to support a new class of link-state advertisements (LSA) called Opaque LSAs. Opaque LSAs provide a generalized mechanism to allow for the future extensibility of OSPF. Opaque LSAs consist of a standard LSA header followed by application-specific information. The information field may be used directly by OSPF or by other applications. Standard OSPF link-state database flooding mechanisms are used to distribute Opaque LSAs to all or some limited portion of the OSPF topology. This document replaces RFC 2370 and adds to it a mechanism to enable an OSPF router to validate AS-scope opaque LSAs originated outside of the router's OSPF area.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-rfc2370bis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-rfc2370bis-01.txt' />
+</reference>

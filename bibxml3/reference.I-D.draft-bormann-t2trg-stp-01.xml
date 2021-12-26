@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-t2trg-stp'>
+<front>
+<title>The Series Transfer Pattern (STP)</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hartke' fullname='Klaus Hartke'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2018' />
+
+<abstract><t>Many applications make use of Series of data items, i.e., an array of data items where new items can be added over time.  Where such Series are to be made available using REST protocols such as CoAP or HTTP, the Series has to be mapped into a structure of one or more resources and a protocol for a client to obtain the Series and to learn about new items.  Various protocols have been standardized that make Series-shaped data available, with rather different properties and objectives.  The present document is an attempt to extract a common underlying pattern and to define media types and an access scheme that can be used right away for further protocols that provide Series-shaped data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-t2trg-stp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-t2trg-stp-01.txt' />
+</reference>

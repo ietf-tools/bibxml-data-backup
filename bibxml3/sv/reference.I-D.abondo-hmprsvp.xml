@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.abondo-hmprsvp'>
+<front>
+<title>Hierarchical Proxy Mobile Ressource Reservation Protocol</title>
+
+<author initials='C' surname='Abondo' fullname='Charles Abondo'>
+    <organization />
+</author>
+
+<author initials='S' surname='Pierre' fullname='Samuel Pierre'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2004' />
+
+<abstract><t>This document defines a resource reservation protocol Hierarchical Proxy Mobile Resource Reservation Protocol (HPMRSVP). This protocol is based on the hierarchical architecture HMIPv6 and used a modified version of FHMIPv6 to handle the handover. During a session, the resource reservation between two mobile nodes is limited to the access network. Furthermore, when a handover occurs, resources are uniquely reserved to the target access point before the handover is completed. The proposed protocol allows to reduce delays and packet loss. In addition, management of refresh messages is moved to the access router, which holds the refresh reservation state for the duration of the session on behalf of the mobile unit. The access network thereby becomes responsible for upholding the session, which optimizes the utilization of the radio link.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-abondo-hmprsvp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-abondo-hmprsvp-00.txt' />
+</reference>

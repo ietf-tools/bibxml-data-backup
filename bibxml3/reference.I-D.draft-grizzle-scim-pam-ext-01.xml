@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.grizzle-scim-pam-ext'>
+<front>
+<title>SCIM Extension for Privileged Access Management</title>
+
+<author initials='K' surname='Grizzle' fullname='Kelly Grizzle'>
+    <organization />
+</author>
+
+<author initials='B' surname='Yoder' fullname='Benjamin Yoder'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jones' fullname='Jason Jones'>
+    <organization />
+</author>
+
+<author initials='P' surname='Lieberman' fullname='Philip Lieberman'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nunez' fullname='Edward Nunez'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2017' />
+
+<abstract><t>The System for Cross-domain Identity Management (SCIM) specification [RFC7643] provides schemas that represent common identity information about users and groups.  Privileged Access Management (PAM) software typically makes use of common user and group models - as well as defining additional constructs - to provide fine-grained authorization and management for privileged access.  This document contains a SCIM 2.0 extension for Privileged Access Management, which includes extensions to the core User and Group objects, and new resource types and schemas for standard Privileged Access Management constructs.  This extension is intended to provide greater interoperability between PAM software and clients, a common language for PAM concepts, and a baseline that can be further extended to support more complex PAM requirements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-grizzle-scim-pam-ext-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-grizzle-scim-pam-ext-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lucente-grow-bmp-tlv-ebit'>
+<front>
+<title>Support for Enterprise-specific TLVs in the BGP Monitoring Protocol</title>
+
+<author initials='P' surname='Lucente' fullname='Paolo Lucente'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Gu' fullname='Yunan Gu'>
+    <organization />
+</author>
+
+<date month='May' day='5' year='2020' />
+
+<abstract><t>Message types defined by the BGP Monitoring Protocol (BMP) do provision for optional trailing data in TLV - Type, Length, Value - format; however the space for Type value is unique and governed by IANA.  To allow the usage of vendor-specific TLVs, a mechanism to define per-vendor Type values is required.  With this document we want to introduce an Enterprise Bit, or E-bit, for such purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lucente-grow-bmp-tlv-ebit-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lucente-grow-bmp-tlv-ebit-01.txt' />
+</reference>

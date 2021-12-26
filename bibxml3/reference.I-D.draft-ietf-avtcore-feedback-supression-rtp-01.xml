@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-feedback-supression-rtp'>
+<front>
+<title>RTCP Extension for Feedback Suppression Indication</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<date month='April' day='15' year='2011' />
+
+<abstract><t>In a large RTP session using the RTCP feedback mechanism defined in RFC 4585, a media source or middlebox may experience transient overload if some event causes a large number of receivers to send feedback at once.  This feedback implosion can be mitigated if the device suffering from overload can send a third party loss report message to the receivers to inhibit further feedback.  This memo defines RTCP extensions for third party loss report, to suppress NACK and FIR feedback requests.  It also defines associated SDP signaling.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-feedback-supression-rtp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-feedback-supression-rtp-01.txt' />
+</reference>

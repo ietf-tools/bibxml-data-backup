@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.despres-sam'>
+<front>
+<title>Stateless Address Mappings (SAMs) IPv6 &amp; extended IPv4 via local routing  domains - possibly multihomed</title>
+
+<author initials='R' surname='Despres' fullname='Remi Despres'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>Stateless Address Mapping (SAM) is a generic technique to achieve global IPv4 or IPv6 connectivity across local domains where routing is in a different address space.  To cope with the IPv4 address shortage, it supports an extension of IPv4 addresses with dynamic- port prefixes.  For multi-homed routing domains, it ensures that source addresses that cross domain borders are always routable in the reverse direction (Reverse Path Forwarding).  SAM can be used alone as an alternative to NATs, to improve scalability and end-to-end network transparency, or in combination with NATs, to cover a wider range of IPv4-IPv6 coexistence scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-despres-sam-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-despres-sam-01.txt' />
+</reference>

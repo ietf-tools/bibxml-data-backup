@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bambenek-doubleflux'>
+<front>
+<title>Double Flux Defense in the DNS Protocol</title>
+
+<author initials='J' surname='Bambenek' fullname='John Bambenek'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2008' />
+
+<abstract><t>The memo provides information and proposed standards for developers of applications based on the DNS protocol and for administrators of servers and networks. It proposes new standards for DNS and DNSSEC implementations that would prevent abuse of the DNS protocol such as those seen by "Double Flux" service networks. Specifically, this document recommends that all resource records for NS records with Time-To-Live (TTL) settings under 24 hours be dropped as potentially malicious records designed to attack users. This document would update RFCs 1123, 1912, 2181 and 2535.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bambenek-doubleflux-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bambenek-doubleflux-00.txt' />
+</reference>

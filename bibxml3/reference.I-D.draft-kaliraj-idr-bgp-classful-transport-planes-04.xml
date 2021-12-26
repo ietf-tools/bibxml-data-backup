@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaliraj-idr-bgp-classful-transport-planes'>
+<front>
+<title>BGP Classful Transport Planes</title>
+
+<author initials='K' surname='Vairavakkalai' fullname='Kaliraj Vairavakkalai'>
+    <organization />
+</author>
+
+<author initials='N' surname='Venkataraman' fullname='Natrajan Venkataraman'>
+    <organization />
+</author>
+
+<author initials='B' surname='Rajagopalan' fullname='Balaji Rajagopalan'>
+    <organization />
+</author>
+
+<author initials='G' surname='Mishra' fullname='Gyan Mishra'>
+    <organization />
+</author>
+
+<date month='December' day='30' year='2020' />
+
+<abstract><t>This document specifies a mechanism, referred to as "service mapping", to express association of overlay routes with underlay routes satisfying a certain SLA, using BGP.  The document describes a framework for classifying underlay routes into transport classes, and mapping service routes to specific transport class.  The transport class maps to a desired SLA.  It specifies BGP protocol procedures that enable dissimination of such service mapping information that may span multiple co-operating administrative domains.  These domains may be administetered by the same provider or closely co-ordinating provider networks.  It makes it possible to advertise multiple tunnels to the same destination address, thus avoiding need of multiple loopbacks on the egress node.  A new BGP transport layer address family (SAFI 76) is defined for this purpose that uses RFC-4364 technology and follows RFC-8277 NLRI encoding.  This new address family is called "BGP Classful Transport", aka BGP CT.  It carries transport prefixes across tunnel domain boundaries (e.g. in Inter-AS Option-C networks), parallel to BGP LU (SAFI 4) . It dissiminates "Transport class" information for the transport prefixes across the participating domains, which is not possible with BGP LU. This makes the end-to-end network a "Transport Class" aware tunneled network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kaliraj-idr-bgp-classful-transport-planes-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kaliraj-idr-bgp-classful-transport-planes-04.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ali-spring-bfd-sr-policy'>
+<front>
+<title>Bidirectional Forwarding Detection (BFD) for Segment Routing Policies for Traffic Engineering</title>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<date month='October' day='9' year='2018' />
+
+<abstract><t>Segment Routing (SR) allows a headend node to steer a packet flow along any path using a segment list which is referred to as a SR Policy.  Intermediate per-flow states are eliminated thanks to source routing.  The header of a packet steered in an SR Policy is augmented with the ordered list of segments associated with that SR Policy. Bidirectional Forwarding Detection (BFD) is used to monitor different kinds of paths between node.  BFD mechanisms can be also used to monitor the availability of the path indicated by a SR Policy and to detect any failures.  Seamless BFD (SBFD) extensions provide a simplified mechanism which is suitable for monitoring of paths that are setup dynamically and on a large scale.  This document describes the use of Seamless BFD (SBFD) mechanism to monitor the SR Policies that are used for Traffic Engineering (TE) in SR deployments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ali-spring-bfd-sr-policy-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ali-spring-bfd-sr-policy-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-mobopts-l2-abstractions'>
+<front>
+<title>Unified L2 Abstractions for L3-Driven Fast Handover</title>
+
+<author initials='F' surname='Teraoka' fullname='Fumio Teraoka'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2006' />
+
+<abstract><t>This draft proposes unified L2 abstractions for L3-driven fast handovers. For efficient network communication, it is vital for a protocol layer to know or utilize other layer's information such as a form of L2 triggers. However, each protocol layer is basically designed independently. Since each protocol layer is also implemented independently in current operating systems, it is very hard to exchange control information between protocol layers. To solve the problem, this draft defines nine kinds of L2 abstractions in the form of "primitive" to achieve fast handovers in the network layer. This mechanism is called "L3-driven fast handovers" because the network layer initiates L2 and L3 handovers by using the "primitives".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-mobopts-l2-abstractions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-mobopts-l2-abstractions-00.txt' />
+</reference>

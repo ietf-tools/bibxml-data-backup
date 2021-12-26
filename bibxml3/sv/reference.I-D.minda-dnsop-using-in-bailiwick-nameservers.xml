@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.minda-dnsop-using-in-bailiwick-nameservers'>
+<front>
+<title>Using In-Bailiwick Namesevers in .ARPA</title>
+
+<author initials='M' surname='Minda' fullname='Masato Minda'>
+    <organization />
+</author>
+
+<date month='July' day='19' year='2005' />
+
+<abstract><t>Many People know that reverse DNS lookup of IN-ADDR.ARAP zone is slow. People supposed to be the case is issue of LAME delegation. But this is not correct. There are two reasons. One is glulessness and the other is BIND 8 on caching nameserver. Most of nameservers in ARPA zone are out-of-bailiwick names and this causes gluelessness This document explains the problem with gluelessness, the problem with old BIND implementations and suggests recommended way to configure nameservers in .ARPA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-minda-dnsop-using-in-bailiwick-nameservers-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-minda-dnsop-using-in-bailiwick-nameservers-01.txt' />
+</reference>

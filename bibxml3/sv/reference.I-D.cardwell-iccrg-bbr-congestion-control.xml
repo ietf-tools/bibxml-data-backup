@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cardwell-iccrg-bbr-congestion-control'>
+<front>
+<title>BBR Congestion Control</title>
+<author initials='N' surname='Cardwell' fullname='Neal Cardwell'>
+<organization />
+</author>
+<author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
+<organization />
+</author>
+<author initials='S' surname='Yeganeh' fullname='Soheil Yeganeh'>
+<organization />
+</author>
+<author initials='I' surname='Swett' fullname='Ian Swett'>
+<organization />
+</author>
+<author initials='V' surname='Van Jacobson' fullname='Van Jacobson'>
+<organization />
+</author>
+<date year='2021' month='November' day='07' />
+<abstract><t>This document specifies the BBR congestion control algorithm.  BBR (&quot;Bottleneck Bandwidth and Round-trip propagation time&quot;) uses recent measurements of a transport connection's delivery rate, round-trip time, and packet loss rate to build an explicit model of the network path.  BBR then uses this model to control both how fast it sends data and the maximum volume of data it allows in flight in the network at any time.  Relative to loss-based congestion control algorithms such as Reno [RFC5681] or CUBIC [RFC8312], BBR offers substantially higher throughput for bottlenecks with shallow buffers or random losses, and substantially lower queueing delays for bottlenecks with deep buffers (avoiding &quot;bufferbloat&quot;).  BBR can be implemented in any transport protocol that supports packet-delivery acknowledgment.  Thus far, open source implementations are available for TCP [RFC793] and QUIC [RFC9000].  This document specifies version 2 of the BBR algorithm, also sometimes referred to as BBRv2 or bbr2.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-cardwell-iccrg-bbr-congestion-control-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-cardwell-iccrg-bbr-congestion-control-01.txt'/>
+</reference>

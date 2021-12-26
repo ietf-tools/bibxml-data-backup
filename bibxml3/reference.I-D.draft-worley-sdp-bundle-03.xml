@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.worley-sdp-bundle'>
+<front>
+<title>Kumquat: A Generic Bundle Mechanism for the Session Description Protocol (SDP)</title>
+
+<author initials='D' surname='Worley' fullname='Dale Worley'>
+    <organization />
+</author>
+
+<date month='February' day='24' year='2013' />
+
+<abstract><t>This document defines a generic bundle mechanism for the Session Description Protocol (SDP) by which the media described by a number of media descriptions ("m= lines") are multiplexed and transmitted over a single transport association.  The transport association is described by an additional media description, allowing SDP attributes to be applied to the aggregate, independently of attributes applied to the constituents.  In offer/answer usage, the bundle mechanism is backward compatible with SDP processors that do not understand the mechanism.  The mechanism is designed to be compatible with the limitations of the existing Internet infrastructure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-worley-sdp-bundle-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-worley-sdp-bundle-03.txt' />
+</reference>

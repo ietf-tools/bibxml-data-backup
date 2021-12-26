@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-geopriv-relative-location'>
+<front>
+<title>Relative Location Representation</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='B' surname='Rosen' fullname='Brian Rosen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Stanley' fullname='Dorothy Stanley'>
+    <organization />
+</author>
+
+<author initials='G' surname='Bajko' fullname='Gabor Bajko'>
+    <organization />
+</author>
+
+<author initials='A' surname='Thomson' fullname='Allan Thomson'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>This document defines an extension to PIDF-LO (RFC4119) for the expression of location information that is defined relative to a reference point.  The reference point may be expressed as a geodetic or civic location, and the relative offset may be one of several shapes.  Optionally, a reference to a secondary document (such as a map image) can be included, along with the relationship of the map coordinate system to the reference/offset coordinate system to allow display of the map with the reference point and the relative offset. Also included in this document is a Type/Length/Value (TLV) representation of the relative location for use in other protocols that use TLVs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-geopriv-relative-location-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-geopriv-relative-location-03.txt' />
+</reference>

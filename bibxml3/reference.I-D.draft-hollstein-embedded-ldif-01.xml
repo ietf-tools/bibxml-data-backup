@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hollstein-embedded-ldif'>
+<front>
+<title>The Embedded LDAP Data Interchange Format (EMLDIF)</title>
+
+<author initials='C' surname='Hollstein' fullname='Christian Hollstein'>
+    <organization />
+</author>
+
+<date month='November' day='22' year='2013' />
+
+<abstract><t>RFC2849 and EXLDIF specify how LDAP operations can be represented in a text file. Client implementations may use this data to send sequences of requests to a LDAP server. This document specifies how values from the server's response can be propagated, displayed and used for decision taking in procedural logic. It enables EXLDIF with algorithmic behavior. The general method is to use EXLDIF embedded in a high level programming language like C/C++, Java and others.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hollstein-embedded-ldif-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hollstein-embedded-ldif-01.txt' />
+</reference>

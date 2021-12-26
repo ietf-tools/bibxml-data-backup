@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.landau-acme-caa'>
+<front>
+<title>ACME Account Key Binding via CAA Records</title>
+
+<author initials='H' surname='Landau' fullname='Hugo Landau'>
+    <organization />
+</author>
+
+<date month='April' day='21' year='2016' />
+
+<abstract><t>The ACME protocol provides a means for hosts to automatically request and obtain X.509 certificates from certificate authorities. Certification authorities which implement ACME may also choose to implement the CAA DNS record, which allows a domain to communicate issuance policy to CAs.  The CAA specification alone allows a domain to define policy with CA-level granularity.  However, the CAA specification also provides facilities for extension to admit more granular, CA-specific policy.  This specification defines such a parameter.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-landau-acme-caa-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-landau-acme-caa-00.txt' />
+</reference>

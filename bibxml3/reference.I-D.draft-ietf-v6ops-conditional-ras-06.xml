@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-conditional-ras'>
+<front>
+<title>Using Conditional Router Advertisements for Enterprise Multihoming</title>
+
+<author initials='J' surname='Linkova' fullname='Jen Linkova'>
+    <organization />
+</author>
+
+<author initials='m' surname='mstucchi@ripe.net' fullname='mstucchi@ripe.net'>
+    <organization />
+</author>
+
+<date month='August' day='1' year='2018' />
+
+<abstract><t>This document discusses the most common scenarios of connecting an enterprise network to multiple ISPs using an address space assigned by an ISP and how the approach proposed in the "ietf-rtgwg- enterprise-pa-multihoming" draft could be applied in those scenarios. The problem of enterprise multihoming without address translation of any form has not been solved yet as it requires both the network to select the correct egress ISP based on the packet source address and hosts to select the correct source address based on the desired egress ISP for that traffic.  The "ietf-rtgwg-enterprise-pa- multihoming" document proposes a solution to this problem by introducing a new routing functionality (Source Address Dependent Routing) to solve the uplink selection issue and using Router Advertisements to influence the host source address selection.  While the above-mentioned document focuses on solving the general problem and on covering various complex use cases, this document adopts the approach proposed in the "ietf-rtgwg-enterprise-pa-multihoming" draft to provide a solution for a limited number of common use cases.  In particular, the focus is on scenarios where an enterprise network has two Internet uplinks used either in primary/backup mode or simultaneously and hosts in that network might not yet properly support multihoming as described in RFC8028.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-conditional-ras-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-conditional-ras-06.txt' />
+</reference>

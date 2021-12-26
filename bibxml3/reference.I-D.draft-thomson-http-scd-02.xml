@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thomson-http-scd'>
+<front>
+<title>An Architecture for Secure Content Delegation using HTTP</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Eriksson' fullname='Goran Eriksson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2016' />
+
+<abstract><t>An architecture is described for content distribution using a secondary server that might be operated with reduced privileges. This architecture allows a primary server to delegate the responsibility for delivery of the payload of an HTTP response to a secondary server.  The secondary server is unable to modify this content.  The content is encrypted, which in some cases will prevent the secondary server from learning about the content.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thomson-http-scd-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thomson-http-scd-02.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mls-protocol'>
+<front>
+<title>The Messaging Layer Security (MLS) Protocol</title>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='B' surname='Beurdouche' fullname='Benjamin Beurdouche'>
+    <organization />
+</author>
+
+<author initials='J' surname='Millican' fullname='Jon Millican'>
+    <organization />
+</author>
+
+<author initials='E' surname='Omara' fullname='Emad Omara'>
+    <organization />
+</author>
+
+<author initials='K' surname='Cohn-Gordon' fullname='Katriel Cohn-Gordon'>
+    <organization />
+</author>
+
+<author initials='R' surname='Robert' fullname='Raphael Robert'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2019' />
+
+<abstract><t>Messaging applications are increasingly making use of end-to-end security mechanisms to ensure that messages are only accessible to the communicating endpoints, and not to any servers involved in delivering messages.  Establishing keys to provide such protections is challenging for group chat settings, in which more than two clients need to agree on a key but may not be online at the same time.  In this document, we specify a key establishment protocol that provides efficient asynchronous group key establishment with forward secrecy and post-compromise security for groups in size ranging from two to thousands.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mls-protocol-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mls-protocol-08.txt' />
+</reference>

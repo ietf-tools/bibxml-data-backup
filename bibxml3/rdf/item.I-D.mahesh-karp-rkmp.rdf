@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-mahesh-karp-rkmp-06.txt'>
+    <title>"Negotiation for Keying Pairwise Routing Protocols in IKEv2", Mahesh Jethanandani, Brian Weis, Keyur Patel, Dacheng Zhang, Sam Hartman, Uma Chunduri, Albert Tian, Joseph Touch</title>
+    <link>http://www.ietf.org/internet-drafts/draft-mahesh-karp-rkmp-06.txt</link>
+    <description>This document describes a mechanism to secure the routing protocols which use unicast to transport their signaling messages.  Most of such routing protocols are TCP-based (e.g., BGP and LDP), and the TCP Authentication Option (TCP-AO) is primarily employed for securing the signaling messages of these routing protocols.  There are also two exceptions: BFD which is over UDP or MPLS, and RSVP-TE which is over IP (but employs an integrated approach to protecting the signaling messages instead of using IPsec).  The proposed mechanism secures pairwise TCP-based Routing Protocol (RP) associations, BFD associations and RSVP-TE associations using the IKEv2 Key Management Protocol (KMP) integrated with TCP-AO, BFD, and RSVP-TE respectively. Included are extensions to IKEv2 and its Security Associations to enable its key negotiation to support TCP-AO, BFD, and RSVP-TE.</description>
+    <dc:date>2018-07-21T07:00:00-00:00</dc:date>
+</item>

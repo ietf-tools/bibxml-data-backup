@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gandhishah-teas-assoc-corouted-bidir'>
+<front>
+<title>Fast Reroute Procedures For Associated Co-routed Bidirectional Label Switched Paths (LSPs)</title>
+
+<author initials='R' surname='Gandhi' fullname='Rakesh Gandhi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Shah' fullname='Himanshu Shah'>
+    <organization />
+</author>
+
+<author initials='J' surname='Whittaker' fullname='Jeremy Whittaker'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2016' />
+
+<abstract><t>In packet transport networks, there are requirements where reverse unidirectional LSP of a bidirectional LSP needs to follow the same path as its forward unidirectional LSP.  The bidirectional LSP needs to maintain co-routed-ness even after a failure event in the network. This document describes RSVP signaling to unambiguously bind two co- routed point-to-point LSPs into an associated co-routed bidirectional LSP.  Fast-reroute procedures are defined to ensure that the traffic flows on the co-routed path after a failure event.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gandhishah-teas-assoc-corouted-bidir-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gandhishah-teas-assoc-corouted-bidir-02.txt' />
+</reference>

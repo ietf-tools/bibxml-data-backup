@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bannister-dbis-automounter'>
+<front>
+<title>Directory-Based Information Services: Automounter</title>
+
+<author initials='M' surname='Bannister' fullname='Mark Bannister'>
+    <organization />
+</author>
+
+<date month='December' day='3' year='2014' />
+
+<abstract><t>This document extends Directory-Based Information Services (DBIS) described in [draft-bannister-dbis-mapping-00] to support the automount database.  The automount database schema SHALL be backwards compatible with the Network Information Service [NIS] but stored within [X.500] entries so that they may be resolved with the Lightweight Directory Access Protocol [RFC4510].  An automount database contains information about file system mount- points that are to be mapped by the automounter.  This document describes configuration maps [draft-bannister-dbis- mapping-00] for the automount database, and database entries referenced by those maps.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bannister-dbis-automounter-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bannister-dbis-automounter-03.txt' />
+</reference>

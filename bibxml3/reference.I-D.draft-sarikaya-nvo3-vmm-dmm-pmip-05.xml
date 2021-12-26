@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-nvo3-vmm-dmm-pmip'>
+<front>
+<title>Virtual Machine Mobility Protocol for Overlay Networks</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='B' surname='Khasnabish' fullname='Bhumip Khasnabish'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='January' day='30' year='2015' />
+
+<abstract><t>This document specifies a virtual machine mobility protocol in data centers built with overlay-based network virtualization approach. The protocol is based on the virtual machine sending a gratuitous Address Resolution Protocol request in IPv4 and unsolicited neighbor advertisement message in IPv6 which are broadcast or sent to all nodes after moving to the new Network Virtualization Edge.  These messages enable the Network Virtualization Edges update their virtual machine MAC address to the tunnel endpoint tables.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-nvo3-vmm-dmm-pmip-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-nvo3-vmm-dmm-pmip-05.txt' />
+</reference>

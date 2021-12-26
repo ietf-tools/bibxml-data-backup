@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yao-dnsop-smallzone-junk-query'>
+<front>
+<title>A Mechanism to Reduce the junky queries to Authoritative Name Servers Serving Small Size Zones</title>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>Some zones are small, public and stable, but very important.  They might deal with millions of queries every day.  But many of the queries are junky.  For examples, many queries DNS root servers receive are junky.  The queried junky names are not in the root, but the root servers have to waste a lot of resources to deal with them. It has been an obstacle to increase the performance of DNS root query.  In order to save the resource caused by the DNS junky queries, this document proposes a new mechanism by aggressive use of the owner name list of the DNS zone.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yao-dnsop-smallzone-junk-query-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yao-dnsop-smallzone-junk-query-00.txt' />
+</reference>

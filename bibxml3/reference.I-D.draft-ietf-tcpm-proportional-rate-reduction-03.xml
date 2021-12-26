@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-proportional-rate-reduction'>
+<front>
+<title>Proportional Rate Reduction for TCP</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<author initials='N' surname='Dukkipati' fullname='Nandita Dukkipati'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2012' />
+
+<abstract><t>This document describes an experimental algorithm, Proportional Rate Reduction (PPR) to improve the accuracy of the amount of data sent by TCP during loss recovery.  Standard Congestion Control requires that TCP and other protocols reduce their congestion window in response to losses.  This window reduction naturally occurs in the same round trip as the data retransmissions to repair the losses, and is implemented by choosing not to transmit any data in response to some ACKs arriving from the receiver.  Two widely deployed algorithms are used to implement this window reduction: Fast Recovery and Rate Halving.  Both algorithms are needlessly fragile under a number of conditions, particularly when there is a burst of losses such that the number of ACKs returning to the sender is small.  Proportional Rate Reduction minimizes these excess window adjustments such that at the end of recovery the actual window size will be as close as possible to ssthresh, the window size determined by the congestion control algorithm.  It is patterned after Rate Halving, but using the fraction that is appropriate for target window chosen by the congestion control algorithm.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-proportional-rate-reduction-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-proportional-rate-reduction-03.txt' />
+</reference>

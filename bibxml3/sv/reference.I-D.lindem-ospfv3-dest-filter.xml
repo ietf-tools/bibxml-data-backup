@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lindem-ospfv3-dest-filter'>
+<front>
+<title>OSPFv3 Destination Address Filter</title>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2004' />
+
+<abstract><t>OSPFv2 has been criticized for it vulnerability to Denial of Service (DOS) attacks. With OSPFv3, it is a simple matter to filter on the destination address at an implementation dependent level in order to limit the scope of DOS attacks to directly attached routers. Unlike hop limit checking mechanisms, it is compatible with the existing OSPFv3 behavior. However, this level of protection will preclude the deployment of virtual links in topologies where the filtering is applied.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lindem-ospfv3-dest-filter-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lindem-ospfv3-dest-filter-03.txt' />
+</reference>

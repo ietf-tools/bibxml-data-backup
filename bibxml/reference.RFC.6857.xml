@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6857' target='https://www.rfc-editor.org/info/rfc6857'>
+<front>
+<title>Post-Delivery Message Downgrading for Internationalized Email Messages</title>
+<author initials='K.' surname='Fujiwara' fullname='K. Fujiwara'><organization /></author>
+<date year='2013' month='March' />
+<abstract><t>The Email Address Internationalization (SMTPUTF8) extension to SMTP allows Unicode characters encoded in UTF-8 and outside the ASCII repertoire in mail header fields.  Upgraded POP and IMAP servers support internationalized messages.  If a POP or IMAP client does not support Email Address Internationalization, a POP or IMAP server cannot deliver internationalized messages to the client and cannot remove the message.  To avoid that situation, this document describes a mechanism for converting internationalized messages into the traditional message format.  As part of the conversion process, message elements that require internationalized treatment are recoded or removed, and receivers are able to recognize that they received messages containing such elements, even if they cannot process the internationalized elements.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6857'/>
+<seriesInfo name='DOI' value='10.17487/RFC6857'/>
+</reference>

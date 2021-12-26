@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pim-drlb'>
+<front>
+<title>Protocol Independent Multicast DR Load Balancing</title>
+
+<author initials='Y' surname='Cai' fullname='Yiqun Cai'>
+    <organization />
+</author>
+
+<author initials='S' surname='Vallepalli' fullname='Sri Vallepalli'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ou' fullname='Heidi Ou'>
+    <organization />
+</author>
+
+<author initials='A' surname='Green' fullname='Andy Green'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2012' />
+
+<abstract><t>On a multi-access network such as an Ethernet, one of the PIM routers is elected as a Designated Router (DR).  The PIM DR has two roles in the PIM protocol.  On the first hop network, the PIM DR is responsible for registering an active source to the RP if the group is operated in PIM SM.  On the last hop network, the PIM DR is responsible for tracking local multicast listeners and forwarding traffic to these listeners if the group is operated in PIM SM/SSM/DM. In this document, we propose a modification to the PIM protocol that allows more than one of these last hop routers to be selected so that the forwarding load can be distributed to and handled among these routers.  A router responsible for forwarding for a particular group is called a Group Designated Router (GDR).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pim-drlb-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-drlb-01.txt' />
+</reference>

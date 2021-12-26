@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.byrne-opsec-udp-advisory'>
+<front>
+<title>Advisory Guidelines for UDP Deployment</title>
+
+<author initials='C' surname='Byrne' fullname='Cameron Byrne'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kleberg' fullname='Jason Kleberg'>
+    <organization />
+</author>
+
+<date month='July' day='20' year='2015' />
+
+<abstract><t>User Datagram Protocol (UDP) is commonly used as a volumetric attack transport on the internet.  Some network operators experience surges of UDP attack traffic that are multiple orders of magnitude above the baseline traffic rate for UDP.  Application developers should be advised that UDP is being rate-limited on a bits-per-second and packet-per-second basis by network operators to enforce known good baseline traffic levels for UDP. UDP has been abused to such an extent that legitimate use may become collateral damage and application and protocol developers should avoid using UDP as a transport when possible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-byrne-opsec-udp-advisory-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-byrne-opsec-udp-advisory-00.txt' />
+</reference>

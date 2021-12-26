@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-nsec-aggressiveuse'>
+<front>
+<title>Aggressive use of NSEC/NSEC3</title>
+
+<author initials='K' surname='Fujiwara' fullname='Kazunori Fujiwara'>
+    <organization />
+</author>
+
+<author initials='A' surname='Kato' fullname='Akira Kato'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<date month='December' day='13' year='2016' />
+
+<abstract><t>The DNS relies upon caching to scale; however, the cache lookup generally requires an exact match.  This document specifies the use of NSEC/NSEC3 resource records to allow DNSSEC validating resolvers to generate negative answers within a range, and positive answers from wildcards.  This increases performance / decreases latency, decreases resource utilization on both authoritative and recursive servers, and also increases privacy.  It may also help increase resilience to certain DoS attacks in some circumstances.  This document updates RFC4035 by allowing validating resolvers to generate negative answers based upon NSEC/NSEC3 records (and positive answers in the presence of wildcards).  [ Ed note: Text inside square brackets ([]) is additional background information, answers to frequently asked questions, general musings, etc.  They will be removed before publication.This document is being collaborated on in Github at: https://github.com/wkumari/draft-ietf- dnsop-nsec-aggressiveuse.  The most recent version of the document, open issues, etc should all be available here.  The authors (gratefully) accept pull requests.]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-nsec-aggressiveuse-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-nsec-aggressiveuse-07.txt' />
+</reference>

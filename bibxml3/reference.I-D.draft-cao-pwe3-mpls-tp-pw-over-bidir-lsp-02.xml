@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cao-pwe3-mpls-tp-pw-over-bidir-lsp'>
+<front>
+<title>LDP extensions for Explicit Pseudowire to transport LSP mapping</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cao' fullname='Wei Cao'>
+    <organization />
+</author>
+
+<author initials='A' surname='Takacs' fullname='Attila Takacs'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2011' />
+
+<abstract><t>A bidirectional Pseudowire (PW) service currently uses two unidirectional PWs each carried over a unidirectional LSP. Each end point of a PW or segment of multi-segment PW (MS-PW) independently selects the LSP to use to carry the PW for which it is the head end.  Some transport services may require that bidirectional PW traffic follows the same paths through the network in both directions. Therefore, PWs may be required to use LSP with congruent paths. Bidirectional LSPs or co-routed associated unidirectional LSPs allow this service to be provided.  This document specifies some extensions to LDP that allow both ends of a PW (or segment of a MS-PW) to select and bind to the same bidirectional LSP or use unidirectional LSPs with congruent paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cao-pwe3-mpls-tp-pw-over-bidir-lsp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cao-pwe3-mpls-tp-pw-over-bidir-lsp-02.txt' />
+</reference>

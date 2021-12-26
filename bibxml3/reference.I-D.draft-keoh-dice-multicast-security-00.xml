@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.keoh-dice-multicast-security'>
+<front>
+<title>DTLS-based Multicast Security for Low-Power and Lossy Networks (LLNs)</title>
+
+<author initials='S' surname='Keoh' fullname='Sye Keoh'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kumar' fullname='Sandeep Kumar'>
+    <organization />
+</author>
+
+<author initials='O' surname='Garcia-Morchon' fullname='Oscar Garcia-Morchon'>
+    <organization />
+</author>
+
+<author initials='E' surname='Dijk' fullname='Esko Dijk'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2013' />
+
+<abstract><t>Wireless IP-based systems will be increasingly used for building control systems in the future where wireless devices interconnect with each other, forming low-power and lossy networks (LLNs).  The CoAP/6LoWPAN standards are emerging as the de-facto protocols in this area for resource-constrained devices.  Both multicast and security are key needs in these networks.  This draft presents a method for securing multicast communication in LLNs based on the DTLS which is already available in CoAP devices.  This draft deals with the adaptation of the DTLS record layer to protect multicast group communication, assuming that all group member devices are already configured with the group security association.  The DTLS record layer implementation is used to encrypt and provide authentication to multicast messages using the group keying material before sending the message via IP multicast to the group.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-keoh-dice-multicast-security-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-keoh-dice-multicast-security-00.txt' />
+</reference>

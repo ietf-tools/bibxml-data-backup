@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5837' target='https://www.rfc-editor.org/info/rfc5837'>
+<front>
+<title>Extending ICMP for Interface and Next-Hop Identification</title>
+<author initials='A.' surname='Atlas' fullname='A. Atlas' role='editor'><organization /></author>
+<author initials='R.' surname='Bonica' fullname='R. Bonica' role='editor'><organization /></author>
+<author initials='C.' surname='Pignataro' fullname='C. Pignataro' role='editor'><organization /></author>
+<author initials='N.' surname='Shen' fullname='N. Shen'><organization /></author>
+<author initials='JR.' surname='Rivers' fullname='JR. Rivers'><organization /></author>
+<date year='2010' month='April' />
+<abstract><t>This memo defines a data structure that can be appended to selected ICMP messages.  The ICMP extension defined herein can be used to identify any combination of the following: the IP interface upon which a datagram arrived, the sub-IP component of an IP interface upon which a datagram arrived, the IP interface through which the datagram would have been forwarded had it been forwardable, and the IP next hop to which the datagram would have been forwarded.</t><t>Devices can use this ICMP extension to identify interfaces and their components by any combination of the following: ifIndex, IPv4 address, IPv6 address, name, and MTU.  ICMP-aware devices can use these extensions to identify both numbered and unnumbered interfaces.   [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5837'/>
+<seriesInfo name='DOI' value='10.17487/RFC5837'/>
+</reference>

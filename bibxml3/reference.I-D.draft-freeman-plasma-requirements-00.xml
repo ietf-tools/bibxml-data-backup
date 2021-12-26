@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.freeman-plasma-requirements'>
+<front>
+<title>Requirements for Message Access Control</title>
+
+<author initials='T' surname='Freeman' fullname='Trevor Freeman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schaad' fullname='Jim Schaad'>
+    <organization />
+</author>
+
+<author initials='P' surname='Patterson' fullname='Patrick Patterson'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2012' />
+
+<abstract><t>There are many situations where organizations want to protect information with robust access control, either for implementation of intellectual property right protections, enforcement of information contractual confidentiality agreements or because of externally imposed legal regulations.  The Enhanced Security Services (ESS) for S/MIME defines an access control mechanism which is enforced by the recipient's client after decryption of the message. The ESS mechanism therefore is dependent on the correct access policy configuration of every recipient's client. This mechanism also provides full access to the data to all recipients prior to the access control check, this is considered to be inadequate for due to the difficulty in demonstrating policy compliance.  This document lays out the deficiencies of the current ESS security label, and presents requirements for new model for doing access control to messages where the access check is performed prior to message content decryption. This new model also does not require policy configuration on the client to simplify deployment and compliance verification.  The proposed model additionally provides a method where non-X.509 certificate credentials can be used for encryption/decryption of S/MIME messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-freeman-plasma-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-freeman-plasma-requirements-00.txt' />
+</reference>

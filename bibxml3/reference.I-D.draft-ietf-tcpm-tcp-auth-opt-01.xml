@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-tcp-auth-opt'>
+<front>
+<title>The TCP Authentication Option</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mankin' fullname='Allison Mankin'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ronald Bonica'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2008' />
+
+<abstract><t>This document specifies a TCP Authentication Option (TCP-AO) which is intended to replace the TCP MD5 Signature option of RFC-2385 (TCP MD5). TCP-AO specifies the use of stronger Message Authentication Codes (MACs) and provides more details on the association of security associations with TCP connections. TCP-AO assumes an external, out- of-band mechanism (manual or via a separate protocol) for session key establishment, parameter negotiation, and rekeying, replicating the  separation of key management and key use as in the IPsec suite. The result is intended to be a simple modification to support current infrastructure uses of TCP MD5, such as to protect BGP and LDP, and to support a larger set of MACs with minimal other system and operational changes. TCP-AO uses a new option identifier, even though it is intended to be mutually exclusive with TCP MD5 on a given TCP connection. It supports IPv6, and is fully compatible with requirements under development for an update to TCP MD5.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-tcp-auth-opt-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-tcp-auth-opt-01.txt' />
+</reference>

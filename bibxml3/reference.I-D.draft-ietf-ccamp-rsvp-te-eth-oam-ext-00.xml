@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-rsvp-te-eth-oam-ext'>
+<front>
+<title>GMPLS RSVP-TE Extensions for Ethernet OAM Configuration</title>
+
+<author initials='A' surname='Takacs' fullname='Attila Takacs'>
+    <organization />
+</author>
+
+<author initials='B' surname='Gero' fullname='Balazs Gero'>
+    <organization />
+</author>
+
+<author initials='D' surname='Fedyk' fullname='Don Fedyk'>
+    <organization />
+</author>
+
+<author initials='D' surname='Mohan' fullname='Dinesh Mohan'>
+    <organization />
+</author>
+
+<date month='December' day='23' year='2008' />
+
+<abstract><t>The GMPLS controlled Ethernet Label Switching (GELS) work is extending GMPLS RSVP-TE to support the establishment of Ethernet LSPs.  IEEE Ethernet Connectivity Fault Management (CFM) specifies an adjunct OAM flow to check connectivity in Ethernet networks.  CFM can be also used with Ethernet LSPs for fault detection and triggering recovery mechanisms.  The ITU-T Y.1731 specification builds on CFM and specifies additional OAM mechanisms, including Performance Monitoring, for Ethernet networks.  This document specifies extensions of GMPLS RSVP-TE to support the setup of the associated Ethernet OAM (CFM and Y.1731) entities adding a technology specific TLV to [OAM-CONF-FWK].Changes from previous version  Technology independent extensions were moved to a separate framework document leaving only the Ethernet specific extensions in this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-rsvp-te-eth-oam-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-rsvp-te-eth-oam-ext-00.txt' />
+</reference>

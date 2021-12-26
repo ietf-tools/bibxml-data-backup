@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melnikov-sieve-external-lists'>
+<front>
+<title>Sieve Extension: Externally Stored Lists</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2007' />
+
+<abstract><t>Sieve scripting language can be used for implementing of whitelisting, blacklisting and personal distribution lists. Currently this requires that all members of such lists be hardcoded in the script itself. Whenever a member of such list is added or deleted, the script needs to be updated and possibly uploaded to a mail server. This document defines a Sieve extension for accessing externally stored mailing lists, i.e. list whose members are stored externally to the script, for example in LDAP (RFC 4510), ACAP (RFC 2244) or a relational database.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melnikov-sieve-external-lists-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melnikov-sieve-external-lists-00.txt' />
+</reference>

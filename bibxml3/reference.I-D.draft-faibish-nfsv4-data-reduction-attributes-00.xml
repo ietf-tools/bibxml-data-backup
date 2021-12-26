@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.faibish-nfsv4-data-reduction-attributes'>
+<front>
+<title>Support for Data Reduction Attributes in nfsv4 Version 2</title>
+
+<author initials='S' surname='Faibish' fullname='Sorin Faibish'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<author initials='P' surname='Shilane' fullname='Philip Shilane'>
+    <organization />
+</author>
+
+<date month='August' day='5' year='2019' />
+
+<abstract><t>This document proposes extending NFSv4 operations to enable file extended attributes or xattr to be used in the protocol to provide information about the data reduction properties of files. New xattrs are proposed to allow the client application to communicate to the NFSv4 server data reduction attributes associated with files and directories using opaque metadata, not interpreted by the file system, but communicated to the Block Storage data reduction engines. Corresponding new file attributes are proposed to allow clients and client applications to query the server for data reduction xattr support and allow to get and set data reduction xattrs on files and directories. Such data reduction metadata is used as hints to the file server about what type of data reduction to apply. The proposed data reduction attributes include achievable ratios for compression and deduplication plus whether each data reduction technique applies to the file.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-faibish-nfsv4-data-reduction-attributes-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-faibish-nfsv4-data-reduction-attributes-00.txt' />
+</reference>

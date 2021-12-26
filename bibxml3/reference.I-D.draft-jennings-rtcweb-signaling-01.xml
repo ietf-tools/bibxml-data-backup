@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jennings-rtcweb-signaling'>
+<front>
+<title>RTCWeb Offer/Answer Protocol (ROAP)</title>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<author initials='R' surname='Jesup' fullname='Randell Jesup'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2011' />
+
+<abstract><t>This document describes an protocol used to negotiate media between browsers or other compatible devices.  This protocol provides the state machinery needed to implement the offer/answer model (RFC 3264), and defines the semantics and necessary attributes of messages that must be exchanged.  The protocol uses an abstract transport in that it does not actually define how these messages are exchanged. Rather, such exchanges are handled through web-based transports like HTTP or WebSockets.  The protocol focuses solely on media negotiation and does not handle call control, call processing, or other functions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jennings-rtcweb-signaling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jennings-rtcweb-signaling-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-jennings-rtcweb-signaling-01.pdf' />
+</reference>

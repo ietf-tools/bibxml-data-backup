@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-cached-info'>
+<front>
+<title>Transport Layer Security (TLS) Cached Information Extension</title>
+
+<author initials='S' surname='Santesson' fullname='Stefan Santesson'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='September' day='12' year='2012' />
+
+<abstract><t>Transport Layer Security (TLS) handshakes often include fairly static information, such as the server certificate and a list of trusted Certification Authorities (CAs).  This information can be of considerable size, particularly if the server certificate is bundled with a complete certificate path (including all intermediary certificates up to the trust anchor public key).  This document defines an extension that omits the exchange of already available information.  The TLS client informs a server of cached information, for example from a previous TLS handshake, allowing the server to omit the already available information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-cached-info-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-cached-info-13.txt' />
+</reference>

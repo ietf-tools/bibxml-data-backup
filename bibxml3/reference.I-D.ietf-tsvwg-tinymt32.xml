@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-tinymt32'>
+<front>
+<title>TinyMT32 Pseudo Random Number Generator (PRNG)</title>
+
+<author initials='M' surname='Saito' fullname='Mutsuo Saito'>
+    <organization />
+</author>
+
+<author initials='M' surname='Matsumoto' fullname='Makoto Matsumoto'>
+    <organization />
+</author>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<author initials='E' surname='Baccelli' fullname='Emmanuel Baccelli'>
+    <organization />
+</author>
+
+<date month='June' day='17' year='2019' />
+
+<abstract><t>This document describes the TinyMT32 Pseudo Random Number Generator (PRNG) that produces 32-bit pseudo-random unsigned integers and aims at having a simple-to-use and deterministic solution.  This PRNG is a small-sized variant of Mersenne Twister (MT) PRNG.  The main advantage of TinyMT32 over MT is the use of a small internal state, compatible with most target platforms that include embedded devices, while keeping a reasonably good randomness that represents a sigificant improvement compared to the Park-Miller Linear Congruential PRNG.  However, neither the TinyMT nor MT PRNG are meant to be used for cryptographic applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-tinymt32-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-tinymt32-06.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netmod-artwork-folding'>
+<front>
+<title>Handling Long Lines in Inclusions in Internet-Drafts and RFCs</title>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2019' />
+
+<abstract><t>This document introduces a simple and yet time-proven strategy for handling long lines in inclusions in drafts using a backslash ('\') character where line-folding has occurred.  The strategy works on any text-based content, but is primarily intended for a structured sequence of lines, such as would be referenced by the &lt;sourcecode> element defined in Section 2.48 of RFC 7991, rather than for two- dimensional imagery, such as would be referenced by the &lt;artwork> element defined in Section 2.5 of RFC 7991.  The approach produces consistent results, regardless of the content, that is both self- documenting and enables automated reconstitution of the original content.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netmod-artwork-folding-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netmod-artwork-folding-01.txt' />
+</reference>

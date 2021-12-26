@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.brockners-inband-oam-data'>
+<front>
+<title>Data Formats for In-band OAM</title>
+
+<author initials='F' surname='Brockners' fullname='Frank Brockners'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bhandari' fullname='Shwetha Bhandari'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>In-band operation, administration and maintenance (OAM) records operational and telemetry information in the packet while the packet traverses a path between two points in the network.  This document discusses the data types and data formats for in-band OAM data records.  In-band OAM data records can be embedded into a variety of transports such as NSH, Segment Routing, VXLAN-GPE, native IPv6 (via extension header), or IPv4.  In-band OAM is to complement current out-of-band OAM mechanisms based on ICMP or other types of probe packets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-brockners-inband-oam-data-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-brockners-inband-oam-data-00.txt' />
+</reference>

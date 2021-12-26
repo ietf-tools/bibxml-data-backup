@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schulzrinne-ecrit-unauthenticated-access'>
+<front>
+<title>Extensions to the Emergency Services Architecture for dealing with  Unauthenticated and Unauthorized Devices</title>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<date month='August' day='23' year='2007' />
+
+<abstract><t>The IETF emergency services architecture assumes that access to a network has already happened using the traditional network access authentication procedures or that no authentication for network access is needed (e.g., in case of public hotspots). Subsequent protocol interactions, such as obtaining location information, learning the address of the Public Safety Answering Point (PSAP) and the emergency call itself are largely decoupled from the underlying network access procedures. There are, however, cases where a device is not in possession of credentials for network access, does not have a VoIP provider, or where the credentials are available but became invalid due to various reasons (e.g., credit exhaustion, expired accounts, etc.). This document provides a problem statement, introduces terminology and describes an extension for the base IETF emergency services architecture.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schulzrinne-ecrit-unauthenticated-access-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schulzrinne-ecrit-unauthenticated-access-00.txt' />
+</reference>

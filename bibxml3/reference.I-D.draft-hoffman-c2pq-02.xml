@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-c2pq'>
+<front>
+<title>The Transition from Classical to Post-Quantum Cryptography</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='August' day='14' year='2017' />
+
+<abstract><t>Quantum computing is the study of computers that use quantum features in calculations.  For over 20 years, it has been known that if very large, specialized quantum computers could be built, they could have a devastating effect on asymmetric classical cryptographic algorithms such as RSA and elliptic curve signatures and key exchange, as well as (but in smaller scale) on symmetric cryptographic algorithms such as block ciphers, MACs, and hash functions.  There has already been a great deal of study on how to create algorithms that will resist large, specialized quantum computers, but so far, the properties of those algorithms make them onerous to adopt before they are needed.  Small quantum computers are being built today, but it is still far from clear when large, specialized quantum computers will be built that can recover private or secret keys in classical algorithms at the key sizes commonly used today.  It is important to be able to predict when large, specialized quantum computers usable for cryptanalysis will be possible so that organization can change to post-quantum cryptographic algorithms well before they are needed.  This document describes quantum computing, how it might be used to attack classical cryptographic algorithms, and possibly how to predict when large, specialized quantum computers will become feasible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-c2pq-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-c2pq-02.txt' />
+</reference>

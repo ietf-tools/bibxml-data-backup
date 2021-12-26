@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.morton-tsvwg-sce'>
+<front>
+<title>The Some Congestion Experienced ECN Codepoint</title>
+
+<author initials='J' surname='Morton' fullname='Jonathan Morton'>
+    <organization />
+</author>
+
+<author initials='R' surname='Grimes' fullname='Rodney Grimes'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>This memo reclassifies ECT(1) to be an early notification of congestion on ECT(0) marked packets, which can be used by AQM algorithms and transports as an earlier signal of congestion than CE. It is a simple, transparent, and backward compatible upgrade to existing IETF-approved AQMs, RFC3168, and nearly all congestion control algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-morton-tsvwg-sce-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-morton-tsvwg-sce-01.txt' />
+</reference>

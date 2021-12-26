@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-predictable-fragment-id'>
+<front>
+<title>Security Implications of Predictable Fragment Identification Values</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='March' day='22' year='2013' />
+
+<abstract><t>IPv6 specifies the Fragment Header, which is employed for the fragmentation and reassembly mechanisms.  The Fragment Header contains an "Identification" field which, together with the IPv6 Source Address and the IPv6 Destination Address of the packet, identifies fragments that correspond to the same original datagram, such that they can be reassembled together at the receiving host. The only requirement for setting the "Identification" value is that it must be different than that of any other fragmented packet sent recently with the same Source Address and Destination Address.  Some implementations simply use a global counter for setting the Fragment Identification field, thus leading to predictable values.  This document analyzes the security implications of predictable Identification values, and updates RFC 2460 specifying additional requirements for setting the Fragment Identification, such that the aforementioned security implications are mitigated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-predictable-fragment-id-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-predictable-fragment-id-00.txt' />
+</reference>

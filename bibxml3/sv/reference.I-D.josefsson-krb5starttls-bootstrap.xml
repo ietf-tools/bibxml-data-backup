@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josefsson-krb5starttls-bootstrap'>
+<front>
+<title>Deriving Keys From TLS for Kerberos V5</title>
+
+<author initials='S' surname='Josefsson' fullname='Simon Josefsson'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2009' />
+
+<abstract><t>This document describes how clients can use the Kerberos V5 over TLS protocol together with its long term key to 1) avoid having to validate the server certificate, 2) securely learn a KDC's server certificate, and 3) learn the trust anchors used by the KDC.  We also describe how the Kerberos V5 over TLS protocol can be used to 4) avoid the need for a long term shared key between the client and the KDC by instead using TLS client authentication.  These goals are achieved by introducing a new Kerberos V5 pre- authentication type that modify how the Kerberos V5 reply key is derived.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josefsson-krb5starttls-bootstrap-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josefsson-krb5starttls-bootstrap-02.txt' />
+</reference>

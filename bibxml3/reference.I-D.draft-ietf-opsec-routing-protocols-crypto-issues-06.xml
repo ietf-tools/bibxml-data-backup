@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-opsec-routing-protocols-crypto-issues'>
+<front>
+<title>Issues with existing Cryptographic Protection Methods for Routing Protocols</title>
+
+<author initials='J' surname='Jaeggli' fullname='Joel Jaeggli'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<date month='June' day='9' year='2010' />
+
+<abstract><t>Routing protocols have over time been extended to use cryptographic mechanisms to validate data being received from a neighboring router to ensure that:  o It has not been modified in transit. o Actually originated from an authorized neighboring router.  The cryptographic mechanisms defined to date and described in this document rely on a digest produced with a hash algorithm applied to the payload encapsulated in the routing protocol packet.  This document outlines some of the limitations of the current mechanism, problems with manual keying of these cryptographic algorithms, and possible vectors for the exploitation of these limitations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-opsec-routing-protocols-crypto-issues-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-opsec-routing-protocols-crypto-issues-06.txt' />
+</reference>

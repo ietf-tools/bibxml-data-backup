@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xie-l3sm-l2vpn-service-model'>
+<front>
+<title>YANG Data Model for L2VPN service</title>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Zhang' fullname='Dacheng Zhang'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>This document provides an example of service yang data model for layer 2 provider provisioned VPN service.  Unlike L3VPN, L2VPN doesn't provide L3 interface to customer using IP infrastructure or doesn't provide IP connectivity between pairs of customer sites. Therefore straight augment the l3vpn model with l2vpn parameters may not be appropriate.  However [draft-ietf-l3sm-l3vpn-service-model] has defined a lot of reusable groupings such as operational- requirements, customer-location-info, site-diversity ,site- availability,etc.  In this document, we reuse these common groupings and add some l2vpn parameters to develop the l2vpn service model.  Similar to the l3vpn service model, this model provides an abstracted view of the Layer 2 service configuration components.  It will be up to a management system to take this as an input and use specific configurations models to configure the different network elements to deliver the service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xie-l3sm-l2vpn-service-model-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xie-l3sm-l2vpn-service-model-00.txt' />
+</reference>

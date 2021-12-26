@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhao-http-acl'>
+<front>
+<title>Hypertext Transfer Protocol: Access Control List</title>
+
+<author initials='Y' surname='Zhao' fullname='Yongming Zhao'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Min' fullname='Qinghuan Min'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xiang' fullname='XiXi Xiang'>
+    <organization />
+</author>
+
+<author initials='R' surname='Chen' fullname='Rui Chen'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2014' />
+
+<abstract><t>In current Internet, HTTP/1.1 or HTTP/2 protocol has limited methods to control resource access. Usually it's achieved by modifying the configuration of the cache and proxy to enforce the access control rules. When original server's access control list (ACL) is updated, a reconfiguration of cache and proxy systems on the chain is required for the change to take effect, which always impacts the network stability. This document introduces a new access control mechanism, which introduces a new header field to dynamically control resource access.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhao-http-acl-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhao-http-acl-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-zhao-http-acl-00.pdf' />
+</reference>

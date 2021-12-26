@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wen-pim-improved-register'>
+<front>
+<title>Improved Register Procedure in PIM-SM</title>
+
+<author initials='H' surname='Wen' fullname='Haibo Wen'>
+    <organization />
+</author>
+
+<author initials='C' surname='Yao' fullname='Chunyan Yao'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2007' />
+
+<abstract><t>In [PIM-SM], Register procedure needs to be triggered by multicast packets in the data-plane/forwarding-plane. The dependences of the control-plane on the data-plane/forwarding-plane to build control- plane state does not scale well. And also the encapsulation at the Designated Router and decapsulation at the Rendezvous Point are relatively expensive operations for routers. To solve the above- mentioned problems, this document proposes new mechanisms to make a clear separation of the control-plane and the data-plane/fowarding- plane for PIM register procedure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wen-pim-improved-register-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wen-pim-improved-register-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-relay-server-security'>
+<front>
+<title>Security of Messages Exchanged Between Servers and Relay Agents</title>
+
+<author initials='B' surname='Volz' fullname='Bernie Volz'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Pal' fullname='Yogendra Pal'>
+    <organization />
+</author>
+
+<date month='March' day='29' year='2017' />
+
+<abstract><t>The Dynamic Host Configuration Protocol for IPv4 (DHCPv4) has no guidance for how to secure messages exchanged between servers and relay agents.  The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) states that IPsec should be used to secure messages exchanged between servers and relay agents, but does not require encryption.  And, with recent concerns about pervasive monitoring and other attacks, it is appropriate to require securing relay to relay and relay to server communication for DHCPv6 and relay to server communication for DHCPv4.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-relay-server-security-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-relay-server-security-04.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-session-signal'>
+<front>
+<title>DNS Stateful Operations</title>
+
+<author initials='R' surname='Bellis' fullname='Ray Bellis'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dickinson' fullname='John Dickinson'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dickinson' fullname='Sara Dickinson'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<author initials='T' surname='Pusateri' fullname='Tom Pusateri'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>This document defines a new DNS OPCODE for DNS Stateful Operations (DSO).  DSO messages communicate operations within persistent stateful sessions, using type-length-value (TLV) syntax.  Three TLVs are defined that manage session timeouts, termination, and encryption padding, and a framework is defined for extensions to enable new stateful operations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-session-signal-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-session-signal-06.txt' />
+</reference>

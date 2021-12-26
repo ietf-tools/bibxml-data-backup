@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bannister-dbis-devices'>
+<front>
+<title>Directory-Based Information Services: Devices</title>
+
+<author initials='M' surname='Bannister' fullname='Mark Bannister'>
+    <organization />
+</author>
+
+<date month='December' day='3' year='2014' />
+
+<abstract><t>This document extends Directory-Based Information Services (DBIS) described in [draft-bannister-dbis-mapping-00] to support ethers and bootparams databases.  The database schemas SHALL be backwards compatible with the Network Information Service [NIS] but stored within [X.500] entries so that they may be resolved with the Lightweight Directory Access Protocol [RFC4510].  An ethers database maps 48-bit Ethernet addresses to IP addresses or host names, and bootparams maps hosts to boot-time kernel parameters.  This document describes LDAP object classes and attributes required to extend hosts entries [draft-bannister-dbis-hosts-00] to support parameters for ethers and bootparams maps.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bannister-dbis-devices-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bannister-dbis-devices-03.txt' />
+</reference>

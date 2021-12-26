@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.even-avtcore-priority-markings'>
+<front>
+<title>Frame Priority Marking RTP Header Extension</title>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<author initials='O' surname='Idan' fullname='Ofer Idan'>
+    <organization />
+</author>
+
+<date month='August' day='27' year='2017' />
+
+<abstract><t>This document updates the Frame Marking RTP header extension in draft-ietf-avtext-framemarking-14 used to convey information about video frames that is critical for error recovery and packet forwarding in RTP middle-boxes or network nodes.  The flags for frame marking for non-scalable streams include the D bit to mark a frame that can be discarded, and still provide a decodable media stream. There is also the I bit for frames that can be decoded independent of prior frames, e.g. intra-frame.  This memo adds priority values for the non-scalable streams droppable frames</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-even-avtcore-priority-markings-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-even-avtcore-priority-markings-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-even-avtcore-priority-markings-00.pdf' />
+</reference>

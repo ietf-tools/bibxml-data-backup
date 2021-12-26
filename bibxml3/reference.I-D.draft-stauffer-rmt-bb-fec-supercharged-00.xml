@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stauffer-rmt-bb-fec-supercharged'>
+<front>
+<title>Supercharged Codes</title>
+
+<author initials='E' surname='Stauffer' fullname='Erik Stauffer'>
+    <organization />
+</author>
+
+<author initials='B' surname='Shen' fullname='BZ Shen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chakraborty' fullname='Soumen Chakraborty'>
+    <organization />
+</author>
+
+<author initials='D' surname='Tujkovic' fullname='Djordje Tujkovic'>
+    <organization />
+</author>
+
+<author initials='J' surname='Huang' fullname='Jing Huang'>
+    <organization />
+</author>
+
+<author initials='K' surname='Rath' fullname='Kamlesh Rath'>
+    <organization />
+</author>
+
+<date month='May' day='15' year='2012' />
+
+<abstract><t>This document describes a fully-specified FEC scheme for the Supercharged forward error correction code.  Supercharged codes are designed for use on the erasure channel.  Coding for the erasure channel commonly arises for data transmission over the internet, where lower layers either successfully deliver packets or fail to deliver them.  Coding is required to insure that data is not lost, even if packets are lost at the lower layers.  Error free reception is important for multimedia applications, such as streaming, where it may not be possible to correct an error in time by any other means.  Coding insures that lost packets can be recovered.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stauffer-rmt-bb-fec-supercharged-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stauffer-rmt-bb-fec-supercharged-00.txt' />
+</reference>

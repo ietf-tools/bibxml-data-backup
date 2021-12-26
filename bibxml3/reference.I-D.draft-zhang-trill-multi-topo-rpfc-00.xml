@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-trill-multi-topo-rpfc'>
+<front>
+<title>Reverse Path Forwarding Check under Multiple Topology TRILL</title>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<date month='January' day='30' year='2012' />
+
+<abstract><t>Multi-homing (RBridge Aggregation) is a promising approach to increase the reliability and access bandwidth of TRILL edge. Active- active forwarding in multi-homing allows multiple RBridges forward data frames for VLAN-x on a LAN link, which creates the possibility that multicast frames from a specific ingress RBridge may arrive at multiple incoming ports of a remote RBridge. This violates the Reverse Path Forwarding Check and multicast frames arrives at unexpected incoming ports will be discarded by this RBridge. This document makes use of multiple topology TRILL to solve this problem. Multiple topology TRILL provides physical separation of traffic from different members of aggregation. Multicast frames from aggregation members comply with the Reverse Path Forwarding Check per topology.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-trill-multi-topo-rpfc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-trill-multi-topo-rpfc-00.txt' />
+</reference>

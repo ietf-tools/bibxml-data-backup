@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-liu-ican-01.txt'>
+    <title>"Instant Congestion Assessment Network (iCAN) for Traffic Engineering", Joanna Dang, Bing Liu, Guangming Yang, Kyungtae Lee</title>
+    <link>http://www.ietf.org/internet-drafts/draft-liu-ican-01.txt</link>
+    <description>This draft proposes a new technology named iCAN (instant Congestion Assessment Network), which represents a set of mechanisms running directly on network nodes.  These mechanisms allow the nodes adjusting the flows' paths based on real-time measurement of the candidate paths.  The measurement is to reflect the congestion situation of each path, so that the nodes could decide which flows need to be switched from a path to another.  This is something that current TE technologies can hardly achieve. In current TE, the paths are usually planned in a certralized controller, which is far from the data plane, thus neither be able to assess the real-time congestion situation of each path, nor able to assure the data plane always go as expected (especially in SRv6 scenarios).  In a result, traditional TE is not able to adjust the flow paths in real-time to fit for the change of traffic instantly.  iCAN can work with traditional TE perfectly: the controller plans multi-path transmission in relatively long period (e.g. minutes), and iCAN does the flow path optimization in a much shorter interval (e.g. milliseconds).</description>
+    <dc:date>2019-11-04T08:00:00-00:00</dc:date>
+</item>

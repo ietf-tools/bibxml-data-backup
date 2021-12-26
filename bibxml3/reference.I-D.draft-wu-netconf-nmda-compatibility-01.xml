@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-netconf-nmda-compatibility'>
+<front>
+<title>NMDA protocol operation Backwards-Compatibility with Legacy Devices</title>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='C' surname='Feng' fullname='Chong Feng'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2019' />
+
+<abstract><t>NMDA architectural framework eliminates the need to duplicate data structures to provide separate configuration and operational state sections and uses different datastores and new protocol operations to distinct configuration from operation state.  However when non-NMDA clients communicate with NMDA aware server, it is not clear whether the NMDA aware server can use existing operation to return the same results with &lt;rpc-reply> as non-NMDA-aware server does.  This document identifies some of the major challenges, and provides solutions that are able to mitigate those challenges and smooth the migration towards NMDA deployment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-netconf-nmda-compatibility-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-netconf-nmda-compatibility-01.txt' />
+</reference>

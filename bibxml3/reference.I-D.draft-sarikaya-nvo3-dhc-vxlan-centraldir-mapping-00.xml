@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-nvo3-dhc-vxlan-centraldir-mapping'>
+<front>
+<title>Central Directory Approach for Mapping VTEP IP Address to VM MAC/IP address in VXLAN</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>This document proposes a central database for the address resolution and neighbor discovery protocols in Virtual eXtensible Local Area Network or VXLAN environments.  An entry is added to the database when a virtual machine is created and an IP address is assigned. When a hosted Virtual Machine makes an ARP/ND Request, the source Virtual VXLAN tunnel end point, after searching the central database, sends Virtual Machine's address resolution and neighbor discovery replies in unicast to the hosted Virtual machine.  The document also defines DHCPv4/v6 options for DHCPv4/v6 ARP/ND Directory Server IP Address and VXLAN Network Identifier.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-nvo3-dhc-vxlan-centraldir-mapping-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-nvo3-dhc-vxlan-centraldir-mapping-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hotz-kx509'>
+<front>
+<title>KX509 Kerberized Certificate Issuance Protocol in Use in 2012</title>
+
+<author initials='H' surname='Hotz' fullname='Henry Hotz'>
+    <organization />
+</author>
+
+<author initials='R' surname='Allbery' fullname='Russ Allbery'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2012' />
+
+<abstract><t>This document describes a protocol, called kx509, for using Kerberos tickets to acquire X.509 certificates.  These certificates may be used for many of the same purposes as X.509 certificates acquired by other means, but if a Kerberos infrastructure already exists then the overhead of using kx509 may be much less.  While not standardized, this protocol is already in use at several large organizations, and certificates issued with this protocol are recognized by the International Grid Trust Federation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hotz-kx509-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hotz-kx509-05.txt' />
+</reference>

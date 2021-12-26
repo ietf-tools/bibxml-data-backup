@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-ipv6-multihoming-without-ipv6nat'>
+<front>
+<title>IPv6 Multihoming without Network Address Translation</title>
+
+<author initials='S' surname='Matsushima' fullname='Satoru Matsushima'>
+    <organization />
+</author>
+
+<author initials='T' surname='Okimoto' fullname='Tadahisa Okimoto'>
+    <organization />
+</author>
+
+<author initials='O' surname='Troan' fullname='Ole Troan'>
+    <organization />
+</author>
+
+<author initials='D' surname='Miles' fullname='David Miles'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='February' day='21' year='2012' />
+
+<abstract><t>Network Address and Port Translation (NAPT) works well for conserving global addresses and addressing multihoming requirements, because an IPv4 NAPT router implements three functions: source address selection, next-hop resolution and optionally DNS resolution.  For IPv6 hosts one approach could be the use of NPTv6.  However, NAT should be avoided, if at all possible, to permit transparent end-to- end connectivity.  In this document, we analyze the use cases of multihoming.  We also describe functional requirements and possible solutions for multihoming without the use of NAT in IPv6 for hosts and small IPv6 networks that would otherwise be unable to meet minimum IPv6 allocation criteria.  We conclude that DHCPv6 based solutions are suitable to solve the multihoming issues, described in this document, while NPTv6 may be required as an intermediate solution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-ipv6-multihoming-without-ipv6nat-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-ipv6-multihoming-without-ipv6nat-04.txt' />
+</reference>

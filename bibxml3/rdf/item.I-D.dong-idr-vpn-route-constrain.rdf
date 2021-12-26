@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-dong-idr-vpn-route-constrain-02.txt'>
+    <title>"Constrained Route Distribution for BGP based Virtual Private Networks(VPNs)", Zhenqiang Li, Jie Dong, Hui Ni, Mach Chen, Guiyan Liu</title>
+    <link>http://www.ietf.org/internet-drafts/draft-dong-idr-vpn-route-constrain-02.txt</link>
+    <description>There are some problems with current RT-Constrain mechanism defined in RFC 4684. Firstly, the IPv6 address specific Route Target defined in [RFC5701] cannot be accommodated in current RT membership NLRI. Secondly, the distribution of RT-Constrain information cannot build correct VPN distribution graph when hierarchical route reflection (RR) is  used.  Thirdly,  current  RT-Constrain  mechanism  is  used  for filtering of all kinds of VPN services and can result in imprecise VPN route distribution when multiple VPN services are deployed in the network.  This document describes the above problems in detail and proposes solutions for these problems. A generalized RT-Constrain mechanism is defined to accommodate the IPv6 address specific Route Target and to precisely control propagation of different kinds of VPN routing information. The proposed solution avoids unnecessary advertising and receiving of VPN routes when multiple VPN services are deployed. This document also proposes modifications of advertisement rules of RT- Constrain information to ensure the integrity of VPN distribution graph.</description>
+    <dc:date>2010-09-26T22:00:00-00:00</dc:date>
+</item>

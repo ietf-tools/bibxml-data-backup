@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-idr-custom-decision-08.txt'>
+    <title>"BGP Custom Decision Process", Alvaro Retana, Russ White</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-idr-custom-decision-08.txt</link>
+    <description>The BGP specification describes a Decision Process for selecting the best route.  This process uses a series of steps, made up of path attributes and other values, to first determine the Degree of Preference of a route and later as tie breakers.  While existing mechanisms may achieve some of the same results described in this document, they can only do so through extensive configuration such as matching communities to explicit policy and/or route preference configurations present on each BGP speaker within their administrative domain (autonomous system).  Implementing some specific fine grained policies through such mechanisms is cumbersome, if even possible.  This document defines a new Extended Community, called the Cost Community, which may be used as part of the Decision Process.  The end result is a local Custom Decision Process.</description>
+    <dc:date>2017-02-03T08:00:00-00:00</dc:date>
+</item>

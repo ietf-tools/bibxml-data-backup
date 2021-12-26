@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-bgp-multicast-controller'>
+<front>
+<title>Controller Based BGP Multicast Signaling</title>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='D' surname='Pacella' fullname='Dante Pacella'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gulko' fullname='Arkadiy Gulko'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2020' />
+
+<abstract><t>This document specifies a way that one or more centralized controllers can use BGP to set up a multicast distribution tree in a network.  In the case of labeled tree, the labels are assigned by the controllers either from the controllers' local label spaces, or from a common Segment Routing Global Block (SRGB), or from each routers Segment Routing Local Block (SRLB) that the controllers learn.  In case of labeled unidirectional tree and label allocation from the common SRGB or from the controllers' local spaces, a single common label can be used for all routers on the tree to send and receive traffic with.  Since the controllers calculate the trees, they can use sophisticated algorithms and constraints to achieve traffic engineering.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-bgp-multicast-controller-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-bgp-multicast-controller-05.txt' />
+</reference>

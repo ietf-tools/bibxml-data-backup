@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pcn-psdm-encoding'>
+<front>
+<title>PCN Encoding for Packet-Specific Dual Marking (PSDM Encoding)</title>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='J' surname='Babiarz' fullname='Jozef Babiarz'>
+    <organization />
+</author>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2010' />
+
+<abstract><t>Pre-congestion notification (PCN) is a link-specific and load- dependent packet re-marking mechanism and provides in Differentiated Services networks feedback to egress nodes about load conditions within the domain.  It is used to support admission control and flow termination decision in a simple way.  This document proposes how PCN marks can be encoded into the IP header for packet-specific dual marking (PSDM).  PSDM encoding provides three different codepoints: not-ETM, not-ThM, and PM.  Excess-traffic-marking may re-mark not- ETM-packets to PM and threshold-marking may re-mark not-ThM-packets to PM.  Status  This memo is posted as an Internet-Draft with an intent to eventually be published as an experimental RFC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pcn-psdm-encoding-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pcn-psdm-encoding-01.txt' />
+</reference>

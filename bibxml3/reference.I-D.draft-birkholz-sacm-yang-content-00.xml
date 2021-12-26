@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birkholz-sacm-yang-content'>
+<front>
+<title>YANG subscribed notifications via SACM Statements</title>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='N' surname='Cam-Winget' fullname='Nancy Cam-Winget'>
+    <organization />
+</author>
+
+<date month='July' day='19' year='2017' />
+
+<abstract><t>This document summarizes the data model designed at the IETF 99 Hackathon and is intended to grow in to a definition of general XML SACM statements (and later JSON and CBOR, respectively) for virtually every kind of Content Element (e.g. software identifiers, assessment guidance/results, ECA Policy rules, VDD, etc.).  The SACM Statement data structure is based on the Information Element (IE) definitions provided by the SACM Information Model.  The initial Content Element type transferred are YANG Subscribed Notification acquired via YANG push.  In combination with the Origin Metadata Annotation defined in draft-ietf-netmod-revised-datastores the data model defined in this document will ultimately be able to express collected endpoint characteristics, imperative guidance that define and orchestrate assessment instructions, and also the declarative guidance for endpoint attributes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-birkholz-sacm-yang-content-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-birkholz-sacm-yang-content-00.txt' />
+</reference>

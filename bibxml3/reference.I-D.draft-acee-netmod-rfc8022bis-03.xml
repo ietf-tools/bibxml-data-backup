@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.acee-netmod-rfc8022bis'>
+<front>
+<title>A YANG Data Model for Routing Management (NDMA Version)</title>
+
+<author initials='L' surname='Lhotka' fullname='Ladislav Lhotka'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Qu' fullname='Yingzhen Qu'>
+    <organization />
+</author>
+
+<date month='October' day='6' year='2017' />
+
+<abstract><t>This document contains a specification of three YANG modules and one submodule.  Together they form the core routing data model that serves as a framework for configuring and managing a routing subsystem.  It is expected that these modules will be augmented by additional YANG modules defining data models for control-plane protocols, route filters, and other functions.  The core routing data model provides common building blocks for such extensions -- routes, Routing Information Bases (RIBs), and control-plane protocols.  This version of these YANG modules uses new names for these YANG models.  The main difference from the first version is that this version fully conforms to the Network Management Datastore Architecture (NMDA).  Consequently, this document obsoletes RFC 8022. Deprecated versions of the prior YANG modules are provided as the NDMA conpliant modules will replace the prior modules.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-acee-netmod-rfc8022bis-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-acee-netmod-rfc8022bis-03.txt' />
+</reference>

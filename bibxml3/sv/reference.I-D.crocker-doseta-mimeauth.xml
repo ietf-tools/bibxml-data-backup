@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crocker-doseta-mimeauth'>
+<front>
+<title>MIME Content Authentication using DOSETA (MIMEAUTH)</title>
+
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2011' />
+
+<abstract><t>MIME is a method of packaging and labeling aggregations of data; it is used both for email and the Web. Many usage scenarios would benefit by having an objective method of assessing the validity of MIME data, based on an authenticated identity.  MIMEAUTH leverages technology developed for DKIM to provide such a method.  Its use can be extended to cover specific header-fields of a containing email message or World Wide Web HTTP content.  Existing authentication mechanisms have achieved only limited success due to challenges with administration and use.  MIMEAUTH has very low administration and use overhead, through self-certifying keys in the DNS and a labeling method that can be transparent to end-users.  For relayed and mediated sequences, MIMEAUTH can be implemented within a service and therefore can be transparent to end-system software.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crocker-doseta-mimeauth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crocker-doseta-mimeauth-00.txt' />
+</reference>

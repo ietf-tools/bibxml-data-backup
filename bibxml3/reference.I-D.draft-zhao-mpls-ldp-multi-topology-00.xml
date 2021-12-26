@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhao-mpls-ldp-multi-topology'>
+<front>
+<title>LDP Extension for Multi Topology Support</title>
+
+<author initials='Q' surname='Zhao' fullname='Quintin Zhao'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Chao Zhou'>
+    <organization />
+</author>
+
+<author initials='L' surname='Li' fullname='Lianyuan Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ning' fullname='So Ning'>
+    <organization />
+</author>
+
+<author initials='R' surname='Torvi' fullname='Raveendra Torvi'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2010' />
+
+<abstract><t>Multi-Topology (MT) routing is supported in IP through extension of IGP protocols, such as OSPF and IS-IS.  Each route computed by OSPF or IS-IS is associated with a specific topology.  Label Distribution Protocol (LDP) is used to distribute labels for FECs advertised by routing protocols.  It is a natural requirement to extend LDP in order to make LDP be aware of MT and thus take advantage of MT based routing.  This document describes options to extend the existing MPLS signalling protocol (LDP) for creating and maintaining Label Switching Paths (LSPs) in a Multi-Topology enviroment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhao-mpls-ldp-multi-topology-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhao-mpls-ldp-multi-topology-00.txt' />
+</reference>

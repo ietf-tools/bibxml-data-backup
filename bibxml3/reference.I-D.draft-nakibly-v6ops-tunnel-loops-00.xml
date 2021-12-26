@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nakibly-v6ops-tunnel-loops'>
+<front>
+<title>Routing Loops using ISATAP and 6to4: Problem Statement and Proposed Solutions</title>
+
+<author initials='G' surname='Nakibly' fullname='Gabi Nakibly'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>This document is concerned with security vulnerabilities in the ISATAP and 6to4 tunnels.  These vulnerabilities allow an attacker to take advantage of inconsistencies between a tunnel's overlay IPv6 routing state and the native IPv6 routing state.  The attacks form routing loops which can be abused as a vehicle for traffic amplification to facilitate DoS attacks.  We describe these security vulnerabilities and the attacks which exploit them.  We further recommend on solutions to remove the vulnerabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nakibly-v6ops-tunnel-loops-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nakibly-v6ops-tunnel-loops-00.txt' />
+</reference>

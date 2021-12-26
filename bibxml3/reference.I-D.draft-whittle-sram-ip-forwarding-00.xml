@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.whittle-sram-ip-forwarding'>
+<front>
+<title>SRAM-based IP Forwarding Eliminates the Need for Route Aggregation</title>
+
+<author initials='R' surname='Whittle' fullname='Robin  Whittle'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2007' />
+
+<abstract><t>I propose a simple, low-cost, low-power, Static RAM (SRAM) based architecture for the Forwarding Information Base (FIB) function of transit and border routers in the Default Free Zone (DFZ) of the Internet. This will provide direct hardware forwarding irrespective of the size of the "global BGP routing table", within the current IPv4 convention of limiting advertised prefixes to no longer than /24. Routers with this or a similar architecture provide the only elegant hardware solution to the problem of route disaggregation, which is unavoidable due to increasing numbers of ISPs and end-users who need to advertise their prefixes on topologically diverse parts of the network, for purposes including multihoming and traffic engineering. Router hardware limitations with respect to route disaggregation could also be eliminated for IPv6 by adding further SRAMs, provided the existing 2000::/3 global unicast allocations are reallocated to a smaller range, for instance 2000::/10. This would provide for Provider Independent /32 allocations to 4 million ISPs and multihomed end-users. Each /32 assignment could be advertised as up to eight /35 prefixes - each of which provides 8192 /48 user networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-whittle-sram-ip-forwarding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-whittle-sram-ip-forwarding-00.txt' />
+</reference>

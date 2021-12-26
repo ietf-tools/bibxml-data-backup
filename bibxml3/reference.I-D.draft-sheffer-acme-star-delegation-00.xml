@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sheffer-acme-star-delegation'>
+<front>
+<title>An ACME Profile for Generating Delegated STAR Certificates</title>
+
+<author initials='Y' surname='Sheffer' fullname='Yaron Sheffer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lopez' fullname='Diego Lopez'>
+    <organization />
+</author>
+
+<author initials='A' surname='Pastor' fullname='Antonio Pastor'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2018' />
+
+<abstract><t>This memo proposes a profile of the ACME protocol that allows the owner of an identifier (e.g., a domain name) to delegate to a third party access to a certificate associated with said identifier.  A primary use case is that of a CDN (the third party) terminating TLS sessions on behalf of a content provider (the owner of a domain name).  The presented mechanism allows the owner of the identifier to retain control over the delegation and revoke it at any time by cancelling the associated STAR certificate renewal with the ACME CA. Another key property of this mechanism is it does not require any modification to the deployed TLS ecosystem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sheffer-acme-star-delegation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sheffer-acme-star-delegation-00.txt' />
+</reference>

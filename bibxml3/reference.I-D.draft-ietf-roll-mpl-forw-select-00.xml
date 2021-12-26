@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-roll-mpl-forw-select'>
+<front>
+<title>MPL Forwarder Select (MPLFS)</title>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sangi' fullname='Abdur Sangi'>
+    <organization />
+</author>
+
+<date month='December' day='7' year='2016' />
+
+<abstract><t>This document describes a Forwarder Selection (MPLFS) protocol for the Multicast Protocol for Low-Power and lossy Networks (MPL) to reduce the density of forwarders such that the number of forwarded messages is reduced.  The protocol uses Trickle to distribute link-local information about the identity of the neighbours of the nodes that have MPL-enabled interfaces.  In the end-state all nodes are connected to a minimum number, N_DUPLICATE, of forwarders, where N_DUPLICATE is application dependent, and there is a path between any two forwarders.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-roll-mpl-forw-select-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-roll-mpl-forw-select-00.txt' />
+</reference>

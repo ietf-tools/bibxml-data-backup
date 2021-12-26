@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vijay-dhc-dhcpv6-mcast-reconf'>
+<front>
+<title>Multicast Reconfiguration Protocol for Stateless DHCPv6</title>
+
+<author initials='a' surname='Vijayabhaskar' fullname='a Vijayabhaskar'>
+    <organization />
+</author>
+
+<date month='October' day='6' year='2004' />
+
+<abstract><t>Stateless DHCPv6 [DHCPv6Light] is a light-weight DHCPv6 [DHCPv6] protocol in which the server manages only the service parameters like DNS server addresses, NTP server addresses etc., and hence there is no need to maintain the state of the clients, perhaps, it doesn't need to store any information about the clients at all. So, a renumbering event or change in some of the configuration parameters cannot be notified to the clients by the stateless DHCPv6 server. This specification provides a solution for this.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vijay-dhc-dhcpv6-mcast-reconf-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vijay-dhc-dhcpv6-mcast-reconf-01.txt' />
+</reference>

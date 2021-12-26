@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-partial-pidf-format'>
+<front>
+<title>Presence Information Data format (PIDF) Extension for Partial Presence</title>
+
+<author initials='M' surname='Lonnfors' fullname='Mikko Lonnfors'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2006' />
+
+<abstract><t>The Presence Information Document Format (PIDF) specifies the baseline XML based format for describing presence information. One of the characteristic of the PIDF is that the document always needs to carry all presence information available for the presentity. In some environments where low bandwidth and high latency links can exist it is often beneficial to limit the amount of transported information over the network. This document introduces a new MIME type which enables transporting of either only the changed parts or the full PIDF based presence information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-partial-pidf-format-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-partial-pidf-format-06.txt' />
+</reference>

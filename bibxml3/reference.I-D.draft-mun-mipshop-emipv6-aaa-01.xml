@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mun-mipshop-emipv6-aaa'>
+<front>
+<title>An Enhanced Mobile IPv6 Handover for Roaming between Administrative Domains  Based on AAA</title>
+
+<author initials='Y' surname='Mun' fullname='Youngsong Mun'>
+    <organization />
+</author>
+
+<date month='December' day='27' year='2006' />
+
+<abstract><t>When Mobile IPv6 (MIPv6) is deployed in commercial network, a mobile node needs AAA services for authentication, authorization and accounting. MIPv6, however, does not provide any mean to authenticate mobile nodes that are roaming in different domains, although visited networks will need to check whether access of mobile nodes should be authorized or not. Hence schemes which support both AAA services and mobility have been emerged. These schemes enable access of the mobile node to be authorized by visited networks through AAA as well as to perform a home registration during AAA procedure. However, they introduce lots of signal messages and long handover latency during handover, since Route Optimization mode for MIPv6 is performed using Return Routability procedure. Especially, the long handover latency is a critical problem in real-time communication such as voice over IP (VoIP). To solve these problems, we propose an optimized scheme which performs Route Optimization mode using the AAA infrastructure between the home agent and a correspondent node instead of Return Routability procedure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mun-mipshop-emipv6-aaa-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mun-mipshop-emipv6-aaa-01.txt' />
+</reference>

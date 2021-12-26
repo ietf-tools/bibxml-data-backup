@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-shim6-multihome-shim-api'>
+<front>
+<title>Socket Application Program Interface (API) for Multihoming Shim</title>
+
+<author initials='M' surname='Komu' fullname='Miika Komu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<author initials='K' surname='Slavov' fullname='Kristian Slavov'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sugimoto' fullname='Shinta Sugimoto'>
+    <organization />
+</author>
+
+<date month='February' day='21' year='2010' />
+
+<abstract><t>This document specifies sockets API extensions for the multihoming shim layer.  The API aims to enable interactions between applications and the multihoming shim layer for advanced locator management, and access to information about failure detection and path exploration.  This document is based on an assumption that a multihomed host is equipped with a conceptual sub-layer (hereafter "shim") inside the IP layer that maintains mappings between identifiers and locators. Examples of the shim are SHIM6 and HIP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-shim6-multihome-shim-api-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-shim6-multihome-shim-api-13.txt' />
+</reference>

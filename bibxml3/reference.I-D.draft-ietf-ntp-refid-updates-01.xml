@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ntp-refid-updates'>
+<front>
+<title>Network Time Protocol REFID Updates</title>
+
+<author initials='H' surname='Stenn' fullname='Harlan Stenn'>
+    <organization />
+</author>
+
+<author initials='S' surname='Goldberg' fullname='Sharon Goldberg'>
+    <organization />
+</author>
+
+<date month='November' day='30' year='2017' />
+
+<abstract><t>RFC 5905 [RFC5905], section 7.3, "Packet Header Variables", defines the value of the REFID, the system peer for the responding host.  In the past, for IPv4 associations the IPv4 address is used, and for IPv6 associations the first four octets of the MD5 hash of the IPv6 are used.  There are at least three shortcomings to this approach, and this proposal will address the three so noted.  One is that knowledge of the system peer is "abusable" information and should not be generally available.  The second is that the four octet hash of the IPv6 address looks very much like an IPv4 address, and this is confusing.  The third is that a growing number of low-stratum servers want to offer leap-smeared time to their clients, and there is no obvious way to know if a server is offering accurate time or leap- smeared time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ntp-refid-updates-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ntp-refid-updates-01.txt' />
+</reference>

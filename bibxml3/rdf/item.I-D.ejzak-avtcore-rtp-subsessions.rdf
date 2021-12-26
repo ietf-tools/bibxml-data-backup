@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ejzak-avtcore-rtp-subsessions-02.txt'>
+    <title>"Media multiplexing with Real-time Transport Protocol (RTP) subsessions", Richard Ejzak</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ejzak-avtcore-rtp-subsessions-02.txt</link>
+    <description>This document describes a means of multiplexing RTP streams having different media types within a single transport connection and a means of representing this multiplexing option in SDP so that network nodes can easily identify groups of RTP streams and their associated RTCP packets for differential treatment as necessary.  This mechanism can be used to complement the BUNDLE multiplexing scheme, which uses the grouping framework to identify all media lines associated with a single transport connection, but provides no means for network nodes to group RTP streams and their RTCP packets for differential treatment.  RTP subsessions is an alternative to the SHIM multiplexing proposal; it clearly partitions packets associated with different media lines without changing the format of individual RTP and RTCP packets, but it does not maintain a completely independent SSRC space for each media line, as does SHIM.  RTP subsessions avoid SSRC conflicts by construction and can be used in all RTP topologies in which all systems implement RTP subsessions, although SSRC mapping might be needed when forwarding RTP streams from an unpartitioned RTP session into an RTP subsession.</description>
+    <dc:date>2012-10-21T22:00:00-00:00</dc:date>
+</item>

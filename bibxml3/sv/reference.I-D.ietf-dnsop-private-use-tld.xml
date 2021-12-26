@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-private-use-tld'>
+<front>
+<title>Top-level Domains for Private Internets</title>
+<author initials='R' surname='Arends' fullname='Roy Arends'>
+<organization />
+</author>
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+<organization />
+</author>
+<author initials='E' surname='Lisse' fullname='Eberhard Lisse'>
+<organization />
+</author>
+<date year='2021' month='April' day='10' />
+<abstract><t>There are no defined private-use namespaces in the Domain Name System (DNS).  For a domain name to be considered private-use, it needs to be future-proof in that its top-level domain will never be delegated from the root zone.  The lack of a private-use namespace has led to locally configured namespaces with a top-level domain that is not future proof.</t><t> The DNS needs an equivalent of the facilities provided by BCP 5 (RFC 1918) for private internets, i.e. a range of short, semantic-free top-level domains that can be used in private internets without the risk of being globally delegated from the root zone.</t><t> This document describes a particular set of code points which, by virtue of the way they have been designated in the ISO 3166 standard, are thought to be plausible choices for the implementation of private namespaces that are anchored in top-level domains.</t><t> The ISO 3166 standard is used for the definition of eligible designations for country-code top-level Domains.  This standard is maintained by the ISO 3166 Maintenance Agency.  The ISO 3166 standard includes a set of user-assigned code elements that can be used by those who need to add further names to their local applications.</t><t> Because of the rules set out by ISO in their standard, it is extremely unlikely that these user-assigned code elements would ever conflict with delegations in the root zone under current practices.</t><t> In order to avoid the operational and security consequences of collisions between private and global use of these code elements as top-level domains, this document specifies that such top-level domains should never be deployed in the global namespace, and reserves them accordingly in the Special-Use Names Registry [RFC6761].</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-private-use-tld-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-dnsop-private-use-tld-01.txt'/>
+</reference>

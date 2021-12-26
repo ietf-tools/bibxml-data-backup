@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lsr-flex-algo'>
+<front>
+<title>IGP Flexible Algorithm</title>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gulko' fullname='Arkadiy Gulko'>
+    <organization />
+</author>
+
+<date month='September' day='10' year='2020' />
+
+<abstract><t>IGP protocols traditionally compute best paths over the network based on the IGP metric assigned to the links.  Many network deployments use RSVP-TE based or Segment Routing based Traffic Engineering to steer traffic over a path that is computed using different metrics or constraints than the shortest IGP path.  This document proposes a solution that allows IGPs themselves to compute constraint-based paths over the network.  This document also specifies a way of using Segment Routing (SR) Prefix-SIDs and SRv6 locators to steer packets along the constraint-based paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lsr-flex-algo-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lsr-flex-algo-11.txt' />
+</reference>

@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-lpwan-coap-static-context-hc-19.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-lpwan-coap-static-context-hc-19.txt</link>
+        <title>"LPWAN Static Context Header Compression (SCHC) for CoAP", Ana Minaburo, Laurent Toutain, Ricardo Andreasen</title>
+        <dc:date>2021-03-08T23:00:00-00:00</dc:date>
+        <description>This draft defines how to compress the Constrained Application Protocol (CoAP) using the Static Context Header Compression (SCHC). SCHC is a header compression mechanism adapted for Constrained Devices.  SCHC uses a static description of the header to reduce the header's redundancy and size.  While RFC 8724 describes the SCHC compression and fragmentation framework, and its application for IPv6/UDP headers, this document applies SCHC for CoAP headers.  The CoAP header structure differs from IPv6 and UDP since CoAP uses a flexible header with a variable number of options, themselves of variable length.  The CoAP protocol messages format is asymmetric: the request messages have a header format different from the one in the response messages.  This specification gives guidance on applying SCHC to flexible headers and how to leverage the asymmetry for more efficient compression Rules.</description>
+    </item>

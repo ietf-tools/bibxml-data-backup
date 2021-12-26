@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.janardhan-naveen-rtgwg-equalcostroutes-rip'>
+<front>
+<title>Equal cost routes support for RIP/RIPNG</title>
+
+<author initials='J' surname='Kulkarni' fullname='Janardhan Kulkarni'>
+    <organization />
+</author>
+
+<author initials='N' surname='Anand' fullname='Naveen Anand'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2007' />
+
+<abstract><t>RIP v2 as described in RFC 2453 and RIPNG as described in RFC 2080, do not support learning multiple equal cost routes to a destination through different neighbors.But in today’s internet it is very common to have topologies where there are more than one route to a destination. This document describes the modifications to the RIP/RIPNG protocols to handle this scenario and describes how to apply the split horizon and poison reverse for such routes. It is simple, light and is compatible with the implementations which do not support this feature.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-janardhan-naveen-rtgwg-equalcostroutes-rip-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-janardhan-naveen-rtgwg-equalcostroutes-rip-00.txt' />
+</reference>

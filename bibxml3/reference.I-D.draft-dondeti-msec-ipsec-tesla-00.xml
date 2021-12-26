@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dondeti-msec-ipsec-tesla'>
+<front>
+<title>The Use of Timed Efficient Stream Loss-Tolerant Authentication (TESLA) in  IPsec</title>
+
+<author initials='L' surname='Dondeti' fullname='Lakshminath Dondeti'>
+    <organization />
+</author>
+
+<author initials='R' surname='Canetti' fullname='Ran Canetti'>
+    <organization />
+</author>
+
+<date month='June' day='22' year='2006' />
+
+<abstract><t>This document specifies Timed Efficient Stream Loss-tolerant Authentication (TESLA), a secure source authentication mechanism for multicast or broadcast data streams. RFC 4082 introduces and describes TESLA in detail, and this document specifies the format of the TESLA authentication field as it is used with IPsec ESP. In addition to the source authentication using TESLA there may be a message authentication code for group authentication to protect against DoS attacks. The proposed addition to ESP combines group- secrecy, group-authentication, and source-authentication transforms in an ESP packet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dondeti-msec-ipsec-tesla-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dondeti-msec-ipsec-tesla-00.txt' />
+</reference>

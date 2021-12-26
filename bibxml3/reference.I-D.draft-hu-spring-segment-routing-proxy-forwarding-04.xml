@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hu-spring-segment-routing-proxy-forwarding'>
+<front>
+<title>SR-TE Path Midpoint Protection</title>
+
+<author initials='Z' surname='Hu' fullname='Zhibo Hu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yao' fullname='Junda Yao'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Zhu' fullname='Yongqing Zhu'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>Segment Routing Traffic Engineering (SR-TE) supports the creation of explicit paths using segment lists containing adjacency-sids, node- sids, anycast-sids, and binding-sids.  When the segment list defining an SR-TE path contains a node-sid, and the node fails, the network may no longer be able to properly forward traffic on that SR-TE path. [I-D.bashandy-rtgwg-segment-routing-ti-lfa] and [I-D.hegde-spring-node-protection-for-sr-te-paths] describe a mechanism that allows local repair actions on the direct neighbors of the failed node to temporarily route traffic to the node immediately following the failed node on the SR-TE path segment list.  However, once the IGP shortest paths have converged, the local repair mechanism is no longer sufficient to continue forwarding traffic using the original segment list of the SR-TE path, since the non- neighbors of the failed node will no longer have a route to reach the failed node.  This document describes a mechanism that allows traffic to continue to be forwarded on an SR-TE path for an extended period of time after the failure of a node used in the path's segment list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hu-spring-segment-routing-proxy-forwarding-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-04.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-traffic-visibility'>
+<front>
+<title>Wrapped ESP for Traffic Visibility</title>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='K' surname='Grewal' fullname='Ken Grewal'>
+    <organization />
+</author>
+
+<author initials='G' surname='Montenegro' fullname='Gabriel  Montenegro'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2009' />
+
+<abstract><t>This document describes the Wrapped Encapsulating Security Payload (WESP) protocol, which builds on top of Encapsulating Security Payload (ESP) [RFC4303] and is designed to allow intermediate devices to ascertain if ESP-NULL [RFC2410] is being employed and hence inspect the IPsec packets for network monitoring and access control functions.  Currently in the IPsec standard, there is no way to differentiate between ESP encryption and ESP NULL encryption by simply examining a packet. This poses certain challenges to the intermediate devices that need to deep inspect the packet before making a decision on what should be done with that packet (Inspect and/or Allow/Drop). The mechanism described in this document can be used to easily disambiguate ESP-NULL from ESP encrypted packets, without compromising on the security provided by ESP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-traffic-visibility-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-traffic-visibility-03.txt' />
+</reference>

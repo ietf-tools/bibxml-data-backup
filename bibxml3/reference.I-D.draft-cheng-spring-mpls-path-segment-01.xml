@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheng-spring-mpls-path-segment'>
+<front>
+<title>Path Segment in MPLS Based Sement Routing Network</title>
+
+<author initials='W' surname='Cheng' fullname='Weiqiang Cheng'>
+    <organization />
+</author>
+
+<author initials='L' surname='Wang' fullname='Lei Wang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Li' fullname='Han Li'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Zigler' fullname='Royi Zigler'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zhan' fullname='Shuangping Zhan'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>An SR path is identified by an SR segment list, one or partial segments of the list cannot uniquely identify the SR path.  This document introduces the concept of Path Segment that is used to identify an SR path.  When used, it is inserted at the ingress node of the SR path and immediately follows the last segment of the SR path.  The Path Segment will not be popped off until it reaches the egress of the SR path, it can be used by the egress node to implement end-2-end SR path protection or performance measurement (PM) (especially for measuring packet loss of real traffic) of an SR path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheng-spring-mpls-path-segment-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheng-spring-mpls-path-segment-01.txt' />
+</reference>

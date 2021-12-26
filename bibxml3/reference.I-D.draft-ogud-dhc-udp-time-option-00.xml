@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ogud-dhc-udp-time-option'>
+<front>
+<title>Providing Time over DHCP for devices w/o reliable clock upon boot</title>
+
+<author initials='O' surname='Gudmundsson' fullname='Olafur Gudmundsson'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2013' />
+
+<abstract><t>Many small inexpensive computing devices like home routers, Rasberry Pi etc. do not have a battery thus the systems have no idea what the current time is upon boot.  Number of modern services take Time Synchronization for granted, but operating systems do not allow the start of these services to be deferred until after accurate clock has been confirmed.  NTP provides accurate fine grain clock synchronization but in order for NTP to succeed DNS needs work.  DNSSEC resolvers will fail if system clock is off by more than little bit.  This draft proposes a mechanism to offer "reasonable" current time to devices upon boot via DHCP .</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ogud-dhc-udp-time-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ogud-dhc-udp-time-option-00.txt' />
+</reference>

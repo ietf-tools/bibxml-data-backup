@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ms-emu-eaptlscert'>
+<front>
+<title>Handling Large Certificates and Long Certificate Chains in EAP-TLS</title>
+
+<author initials='M' surname='Sethi' fullname='Mohit Sethi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>Extensible Authentication Protocol (EAP) provides support for multiple authentication methods.  EAP-Transport Layer Security (EAP- TLS) provides means for key derivation and strong mutual authentication with certificates.  However, certificates can often be relatively large in size.  The certificate chain to the root-of-trust can also be long when multiple intermediate Certification Authorities (CAs) are involved.  This implies that EAP-TLS authentication needs to be fragmented into many smaller packets for transportation over the lower-layer.  Such fragmentation can not only negatively affect the latency, but also results in implementation challenges.  For example, many authenticator (access point) implementations will drop an EAP session if it hasn't finished after 40 - 50 packets.  This can result in failed authentication even when the two communicating parties have the correct credentials for mutual authentication. Moreover, there are no mechanisms available to easily recover from such situations.  This memo looks at the problem in detail and discusses the solutions available to overcome these deployment challenges.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ms-emu-eaptlscert-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ms-emu-eaptlscert-01.txt' />
+</reference>

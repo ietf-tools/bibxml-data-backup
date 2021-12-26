@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-pppext-pppoe-mtu-1500-00.txt'>
+    <title>"Accommodating an MTU of 1500 in PPPoE", John Fitzgibbon</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-pppext-pppoe-mtu-1500-00.txt</link>
+    <description>Point-to-Point Protocol Over Ethernet, (PPPoE), as described in RFC 2516, mandates a maximum negotiated MRU of 1492. This memo proposes relaxing that restriction to allow a maximum negotiated MRU of 1500. This can be achieved by treating the PPPoE Header and Protocol ID as part of the Ethernet Header, taking advantage of the fact that most network devices have buffers for the Ethernet Header and Payload that are at least 1522 octets in size. To aid backward compatability, the proposal recommends testing the link with MRU-sized Echo-Request packets if an MRU greater than 1492 has been assumed or negotiated.</description>
+    <dc:date>2005-01-28T08:00:00-00:00</dc:date>
+</item>

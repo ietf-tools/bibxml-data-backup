@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.litkowski-idr-flowspec-interfaceset'>
+<front>
+<title>Applying BGP flowspec rules on a specific interface set</title>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='A' surname='Simpson' fullname='Adam Simpson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<date month='December' day='22' year='2014' />
+
+<abstract><t>BGP Flow-spec is an extension to BGP that allows for the dissemination of traffic flow specification rules.  The primary application of this extension is DDoS mitigation where the flowspec rules are applied in most cases to all peering routers of the network.  This document will present another use case of BGP Flow-spec where flow specifications are used to maintain some access control lists at network boundary.  BGP Flowspec is a very efficient distributing machinery that can help in saving OPEX while deploying/updating ACLs. This new application requires flow specification rules to be applied only on a specific subset of interfaces and in a specific direction.  The current specification of BGP Flow-spec does not detail where the flow specification rules need to be applied.  This document presents a new interface-set flowspec action that will be used in complement of other actions (marking, rate-limiting ...). The purpose of this extension is to inform remote routers on where to apply the flow specification.  This extension can also be used in a DDoS mitigation context where a provider wants to apply the filtering only on specific peers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-litkowski-idr-flowspec-interfaceset-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-litkowski-idr-flowspec-interfaceset-01.txt' />
+</reference>

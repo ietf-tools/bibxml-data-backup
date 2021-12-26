@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.minto-2547-egress-node-fast-protection'>
+<front>
+<title>2547 egress PE Fast Failure Protection</title>
+
+<author initials='J' surname='Jeganathan' fullname='Jeyananth Jeganathan'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<date month='July' day='29' year='2013' />
+
+<abstract><t>This document specifies a fast-protection mechanism for protecting [RFC2547] based VPN service against egress node failure.  This mechanism enables local repair to be performed immediately upon a egress node failure.  In particular, the routers upstream to egress node could redirect VPN traffic to a protector (a new role) to repair in the order of tens of milliseconds, achieving fast protection that is comparable to MPLS fast reroute.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-minto-2547-egress-node-fast-protection-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-minto-2547-egress-node-fast-protection-02.txt' />
+</reference>

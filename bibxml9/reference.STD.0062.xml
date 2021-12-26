@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<referencegroup anchor="STD62" target="https://www.rfc-editor.org/info/std62">
+<!-- reference.RFC.3411.xml -->
+<reference  anchor='RFC3411' target='https://www.rfc-editor.org/info/rfc3411'>
+<front>
+<title>An Architecture for Describing Simple Network Management Protocol (SNMP) Management Frameworks</title>
+<author initials='D.' surname='Harrington' fullname='D. Harrington'><organization /></author>
+<author initials='R.' surname='Presuhn' fullname='R. Presuhn'><organization /></author>
+<author initials='B.' surname='Wijnen' fullname='B. Wijnen'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document describes an architecture for describing Simple Network Management Protocol (SNMP) Management Frameworks.  The architecture is designed to be modular to allow the evolution of the SNMP protocol standards over time.  The major portions of the architecture are an SNMP engine containing a Message Processing Subsystem, a Security Subsystem and an Access Control Subsystem, and possibly multiple SNMP applications which provide specific functional processing of management data.  This document obsoletes RFC 2571.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='62'/>
+<seriesInfo name='RFC' value='3411'/>
+<seriesInfo name='DOI' value='10.17487/RFC3411'/>
+</reference>
+<!-- reference.RFC.3412.xml -->
+<reference  anchor='RFC3412' target='https://www.rfc-editor.org/info/rfc3412'>
+<front>
+<title>Message Processing and Dispatching for the Simple Network Management Protocol (SNMP)</title>
+<author initials='J.' surname='Case' fullname='J. Case'><organization /></author>
+<author initials='D.' surname='Harrington' fullname='D. Harrington'><organization /></author>
+<author initials='R.' surname='Presuhn' fullname='R. Presuhn'><organization /></author>
+<author initials='B.' surname='Wijnen' fullname='B. Wijnen'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document describes the Message Processing and Dispatching for Simple Network Management Protocol (SNMP) messages within the SNMP architecture.  It defines the procedures for dispatching potentially multiple versions of SNMP messages to the proper SNMP Message Processing Models, and for dispatching PDUs to SNMP applications.  This document also describes one Message Processing Model - the SNMPv3 Message Processing Model.  This document obsoletes RFC 2572. [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='62'/>
+<seriesInfo name='RFC' value='3412'/>
+<seriesInfo name='DOI' value='10.17487/RFC3412'/>
+</reference>
+<!-- reference.RFC.3413.xml -->
+<reference  anchor='RFC3413' target='https://www.rfc-editor.org/info/rfc3413'>
+<front>
+<title>Simple Network Management Protocol (SNMP) Applications</title>
+<author initials='D.' surname='Levi' fullname='D. Levi'><organization /></author>
+<author initials='P.' surname='Meyer' fullname='P. Meyer'><organization /></author>
+<author initials='B.' surname='Stewart' fullname='B. Stewart'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document describes five types of Simple Network Management Protocol (SNMP) applications which make use of an SNMP engine as described in STD 62, RFC 3411.  The types of application described are Command Generators, Command Responders, Notification Originators, Notification Receivers, and Proxy Forwarders. This document also defines Management Information Base (MIB) modules for specifying targets of management operations, for notification filtering, and for proxy forwarding.  This document obsoletes RFC 2573.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='62'/>
+<seriesInfo name='RFC' value='3413'/>
+<seriesInfo name='DOI' value='10.17487/RFC3413'/>
+</reference>
+<!-- reference.RFC.3414.xml -->
+<reference  anchor='RFC3414' target='https://www.rfc-editor.org/info/rfc3414'>
+<front>
+<title>User-based Security Model (USM) for version 3 of the Simple Network Management Protocol (SNMPv3)</title>
+<author initials='U.' surname='Blumenthal' fullname='U. Blumenthal'><organization /></author>
+<author initials='B.' surname='Wijnen' fullname='B. Wijnen'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document describes the User-based Security Model (USM) for Simple Network Management Protocol (SNMP) version 3 for use in the SNMP architecture.  It defines the Elements of Procedure for providing SNMP message level security.  This document also includes a Management Information Base (MIB) for remotely monitoring/managing the configuration parameters for this Security Model.  This document obsoletes RFC 2574.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='62'/>
+<seriesInfo name='RFC' value='3414'/>
+<seriesInfo name='DOI' value='10.17487/RFC3414'/>
+</reference>
+<!-- reference.RFC.3415.xml -->
+<reference  anchor='RFC3415' target='https://www.rfc-editor.org/info/rfc3415'>
+<front>
+<title>View-based Access Control Model (VACM) for the Simple Network Management Protocol (SNMP)</title>
+<author initials='B.' surname='Wijnen' fullname='B. Wijnen'><organization /></author>
+<author initials='R.' surname='Presuhn' fullname='R. Presuhn'><organization /></author>
+<author initials='K.' surname='McCloghrie' fullname='K. McCloghrie'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document describes the View-based Access Control Model (VACM) for use in the Simple Network Management Protocol (SNMP) architecture.  It defines the Elements of Procedure for controlling access to management information.  This document also includes a Management Information Base (MIB) for remotely managing the configuration parameters for the View- based Access Control Model.  This document obsoletes RFC 2575. [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='62'/>
+<seriesInfo name='RFC' value='3415'/>
+<seriesInfo name='DOI' value='10.17487/RFC3415'/>
+</reference>
+<!-- reference.RFC.3416.xml -->
+<reference  anchor='RFC3416' target='https://www.rfc-editor.org/info/rfc3416'>
+<front>
+<title>Version 2 of the Protocol Operations for the Simple Network Management Protocol (SNMP)</title>
+<author initials='R.' surname='Presuhn' fullname='R. Presuhn' role='editor'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document defines version 2 of the protocol operations for the Simple Network Management Protocol (SNMP).  It defines the syntax and elements of procedure for sending, receiving, and processing SNMP PDUs. This document obsoletes RFC 1905.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='62'/>
+<seriesInfo name='RFC' value='3416'/>
+<seriesInfo name='DOI' value='10.17487/RFC3416'/>
+</reference>
+<!-- reference.RFC.3417.xml -->
+<reference  anchor='RFC3417' target='https://www.rfc-editor.org/info/rfc3417'>
+<front>
+<title>Transport Mappings for the Simple Network Management Protocol (SNMP)</title>
+<author initials='R.' surname='Presuhn' fullname='R. Presuhn' role='editor'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document defines the transport of Simple Network Management Protocol (SNMP) messages over various protocols.  This document obsoletes RFC 1906.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='62'/>
+<seriesInfo name='RFC' value='3417'/>
+<seriesInfo name='DOI' value='10.17487/RFC3417'/>
+</reference>
+<!-- reference.RFC.3418.xml -->
+<reference  anchor='RFC3418' target='https://www.rfc-editor.org/info/rfc3418'>
+<front>
+<title>Management Information Base (MIB) for the Simple Network Management Protocol (SNMP)</title>
+<author initials='R.' surname='Presuhn' fullname='R. Presuhn' role='editor'><organization /></author>
+<date year='2002' month='December' />
+<abstract><t>This document defines managed objects which describe the behavior of a Simple Network Management Protocol (SNMP) entity.  This document obsoletes RFC 1907, Management Information Base for Version 2 of the Simple Network Management Protocol (SNMPv2).  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='62'/>
+<seriesInfo name='RFC' value='3418'/>
+<seriesInfo name='DOI' value='10.17487/RFC3418'/>
+</reference>
+</referencegroup>

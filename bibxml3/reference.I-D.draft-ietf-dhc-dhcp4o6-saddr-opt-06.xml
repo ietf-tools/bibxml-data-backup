@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-dhcp4o6-saddr-opt'>
+<front>
+<title>Softwire Provisioning using DHCPv4 Over DHCPv6</title>
+
+<author initials='I' surname='Farrer' fullname='Ian Farrer'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Sun' fullname='Qi Sun'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='L' surname='Sun' fullname='Linhui Sun'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2018' />
+
+<abstract><t>DHCPv4 over DHCPv6 (RFC7341) is a mechanism for dynamically configuring IPv4 over an IPv6-only network.  For DHCPv4 over DHCPv6 (DHCP 4o6) to function with some IPv4-over-IPv6 softwire mechanisms and deployment scenarios (e.g., RFC7596 or RFC7597), the operator needs to know the IPv6 address that the client will use as the s ource of IPv4-in-IPv6 softwire tunnel.  This address, in conjunction with the client's IPv4 address, and (in some deployments) the Port Set ID are used to create a binding table entry in the operator's softwire tunnel concentrator.  This memo defines a DHCPv6 option to convey IPv6 parameters for establishing the softwire tunnel and a DHCPv4 option (to be used only with DHCP 4o6) to communicate the source tunnel IPv6 address between the DHCP 4o6 client and server. It is designed to work in conjunction with the IPv4 address allocation process.  DHCPv6 Options for Configuration of Softwire Address and Port-Mapped Clients (RFC7598) describes a deterministic DHCPv6 based mechanism for provisioning softwires.  This document updates "DHCPv6 Options for Configuration of Softwire Address and Port-Mapped Clients" (RFC7598), allowing OPTION_S46_BR (90) to be enumerated in the DHCPv6 client's Option Request Option (ORO) request and appear directly within subsequent messages sent by the DHCPv6 server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-dhcp4o6-saddr-opt-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-dhcp4o6-saddr-opt-06.txt' />
+</reference>

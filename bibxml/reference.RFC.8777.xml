@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8777' target='https://www.rfc-editor.org/info/rfc8777'>
+<front>
+<title>DNS Reverse IP Automatic Multicast Tunneling (AMT) Discovery</title>
+<author initials='J.' surname='Holland' fullname='J. Holland'><organization /></author>
+<date year='2020' month='April' />
+<abstract><t>This document updates RFC 7450, &quot;Automatic Multicast Tunneling&quot; (or AMT), by modifying the relay discovery process.  A new DNS resource record named AMTRELAY is defined for publishing AMT relays for source-specific multicast channels.  The reverse IP DNS zone for a multicast sender's IP address is configured to use AMTRELAY resource records to advertise a set of AMT relays that can receive and forward multicast traffic from that sender over an AMT tunnel.  Other extensions and clarifications to the relay discovery process are also defined.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8777'/>
+<seriesInfo name='DOI' value='10.17487/RFC8777'/>
+</reference>

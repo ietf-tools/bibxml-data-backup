@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-mizrahi-ntp-checksum-trailer-02.txt'>
+    <title>"Using UDP Checksum Trailers in the Network Time Protocol (NTP)", Tal Mizrahi</title>
+    <link>http://www.ietf.org/internet-drafts/draft-mizrahi-ntp-checksum-trailer-02.txt</link>
+    <description>The Network Time Protocol (NTP) allows clients to synchronize to a time server using timestamped protocol messages. To faciliate accurate timestamping, some implementations use hardware-based timestamping engines that integrate the accurate transmission time into every outgoing NTP packet during transmission. Since these packets are transported over UDP, the UDP checksum field is then updated to reflect this modification. This document proposes an extension field that includes a 2-octet Checksum Trailer, allowing timestamping engines to reflect the checksum modification in the last 2 octets of the packet rather than in the UDP checksum field. The behavior defined in this document is interoperable with existing NTP implementations.</description>
+    <dc:date>2014-04-15T07:00:00-00:00</dc:date>
+</item>

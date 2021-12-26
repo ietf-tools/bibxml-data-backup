@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9031' target='https://www.rfc-editor.org/info/rfc9031'>
+<front>
+<title>Constrained Join Protocol (CoJP) for 6TiSCH</title>
+<author initials='M.' surname='Vučinić' fullname='M. Vučinić' role='editor'><organization /></author>
+<author initials='J.' surname='Simon' fullname='J. Simon'><organization /></author>
+<author initials='K.' surname='Pister' fullname='K. Pister'><organization /></author>
+<author initials='M.' surname='Richardson' fullname='M. Richardson'><organization /></author>
+<date year='2021' month='May' />
+<abstract><t>This document describes the minimal framework required for a new device, called a &quot;pledge&quot;, to securely join a 6TiSCH (IPv6 over the Time-Slotted Channel Hopping mode of IEEE 802.15.4) network. The framework requires that the pledge and the JRC (Join Registrar/Coordinator, a central entity), share a symmetric key. How this key is provisioned is out of scope of this document. Through a single CoAP (Constrained Application Protocol) request-response exchange secured by OSCORE (Object Security for Constrained RESTful Environments), the pledge requests admission into the network, and the JRC configures it with link-layer keying material and other parameters. The JRC may at any time update the parameters through another request-response exchange secured by OSCORE. This specification defines the Constrained Join Protocol and its CBOR (Concise Binary Object Representation) data structures, and it describes how to configure the rest of the 6TiSCH communication stack for this join process to occur in a secure manner. Additional security mechanisms may be added on top of this minimal framework.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9031'/>
+<seriesInfo name='DOI' value='10.17487/RFC9031'/>
+</reference>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mongazon-emu-ip-modes-eap'>
+<front>
+<title>IP Connectivity modes Hint for EAP</title>
+
+<author initials='B' surname='Mongazon-Cazavet' fullname='Bruno Mongazon-Cazavet'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Mghazli' fullname='Yacine Mghazli'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2010' />
+
+<abstract><t>The Extensible Authentication Protocol (EAP) is defined in [RFC3748]. This document defines a mechanism that allows an access network to provide IP connectivity modes hints to an EAP peer -- the end of the link that responds to the authenticator.  The purpose is to allow the EAP peer in executing in a reliable and efficient manner the IP connectivity step as soon as the authentication phase completes. This is useful in situations where a peer and the networks it visits support various IP connectivity modes.  Without the hint, such a peer might fail or take some time to select a valid IP connectivity mode on the visited network.  With the help of the hint, a visited network provides the peer with a list of supported IP connectivity modes and allows it to execute successfully the convenient IP connectivity as soon as the authentication is complete.  The hint is particularly useful when users are performing vertical handovers through different network technologies such as wireless ones.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mongazon-emu-ip-modes-eap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mongazon-emu-ip-modes-eap-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mongazon-emu-ip-modes-eap-00.pdf' />
+</reference>

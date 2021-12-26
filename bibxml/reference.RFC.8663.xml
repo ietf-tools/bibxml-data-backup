@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8663' target='https://www.rfc-editor.org/info/rfc8663'>
+<front>
+<title>MPLS Segment Routing over IP</title>
+<author initials='X.' surname='Xu' fullname='X. Xu'><organization /></author>
+<author initials='S.' surname='Bryant' fullname='S. Bryant'><organization /></author>
+<author initials='A.' surname='Farrel' fullname='A. Farrel'><organization /></author>
+<author initials='S.' surname='Hassan' fullname='S. Hassan'><organization /></author>
+<author initials='W.' surname='Henderickx' fullname='W. Henderickx'><organization /></author>
+<author initials='Z.' surname='Li' fullname='Z. Li'><organization /></author>
+<date year='2019' month='December' />
+<abstract><t>MPLS Segment Routing (SR-MPLS) is a method of source routing a packet through an MPLS data plane by imposing a stack of MPLS labels on the packet to specify the path together with any packet-specific instructions to be executed on it.  SR-MPLS can be leveraged to realize a source-routing mechanism across MPLS, IPv4, and IPv6 data planes by using an MPLS label stack as a source-routing instruction set while making no changes to SR-MPLS specifications and interworking with SR-MPLS implementations.</t><t>This document describes how SR-MPLS-capable routers and IP-only routers can seamlessly coexist and interoperate through the use of SR-MPLS label stacks and IP encapsulation/tunneling such as MPLS-over-UDP as defined in RFC 7510.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8663'/>
+<seriesInfo name='DOI' value='10.17487/RFC8663'/>
+</reference>

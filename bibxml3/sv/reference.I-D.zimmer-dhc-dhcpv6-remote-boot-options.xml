@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zimmer-dhc-dhcpv6-remote-boot-options'>
+<front>
+<title>DHCPv6 Remote Boot Options</title>
+
+<author initials='V' surname='Zimmer' fullname='Vincent Zimmer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Thaler' fullname='Dave Thaler'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>This document describes a means by which to support network boot of a bare-metal platform utilizing a pre-boot execution environment, such as the Unified Extensible Firmware Interface [UEFI22].   The problem being addressed is that the PXE [PXE21] and UEFI Specifications [UEFI22] only describe how to ascertain boot configuration options using DHCPv4 [RFC2131], not for DHCPv6 [RFC3315].  Similarly, iSCSI boot [RFC4173] does not specify how to discover boot device information in an DHCPv6 environment.   This document will describe    how to ascertain this boot information in an IPv6 environment utilizing options in the DHCPv6 hand-off [RFC3315].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zimmer-dhc-dhcpv6-remote-boot-options-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zimmer-dhc-dhcpv6-remote-boot-options-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pettersen-tls-ext-multiple-ocsp'>
+<front>
+<title>Adding Multiple TLS Certificate Status Extension requests</title>
+
+<author initials='Y' surname='Pettersen' fullname='Yngve Pettersen'>
+    <organization />
+</author>
+
+<date month='October' day='16' year='2009' />
+
+<abstract><t>This document introduces a replacement of the TLS Certificate Status Extension to allow clients to specify and support multiple certificate status methods.  Also being introduced is a new OCSP based method that servers can use to provide status information not just about the server's own certificate, but also the status of intermediate certificates in the chain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pettersen-tls-ext-multiple-ocsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pettersen-tls-ext-multiple-ocsp-00.txt' />
+</reference>

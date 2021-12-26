@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bajko-mip6-rrtfw'>
+<front>
+<title>Firewall friendly Return-Routability Test (RRT) for Mobile IPv6</title>
+
+<author initials='G' surname='Bajko' fullname='Gabor  Bajko'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>This document defines a slightly modified Return Routability Test (RRT) for MIPv6 [RFC3775]. The herein defined RRT mechanism is intended for CoA exchanges between the MN and the CN. Once the MN and CN find out their peers' valid addresses, an additional mechanism, defined in [I-D.tschofenig-mip6-ice], will be used to run connectivity checks to figure out which of the address pairs have connectivity and, if needed, open the required pinholes in the firewalls as described in [4]. The defined mechanism is intended to work with current firewalls without requiring any support from them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bajko-mip6-rrtfw-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bajko-mip6-rrtfw-03.txt' />
+</reference>

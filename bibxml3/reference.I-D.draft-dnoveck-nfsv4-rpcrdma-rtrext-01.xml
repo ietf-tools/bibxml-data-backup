@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dnoveck-nfsv4-rpcrdma-rtrext'>
+<front>
+<title>RPC-over-RDMA Extensions to Reduce Internode Round-trips</title>
+
+<author initials='D' surname='Noveck' fullname='David Noveck'>
+    <organization />
+</author>
+
+<date month='December' day='3' year='2016' />
+
+<abstract><t>It is expected that a future version of the RPC-over-RDMA transport will allow protocol extensions to be defined.  This would provide for the specification of OPTIONAL features allowing participants who implement such features to cooperate as specified by that extension, while still interoperating with participants who do not support that extension.  A particular extension is described herein, whose purpose is to reduce the latency due to inter-node round-trips needed to effect operations which involve direct data placement or which transfer RPC messages longer than the fixed inline buffer size limit.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dnoveck-nfsv4-rpcrdma-rtrext-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dnoveck-nfsv4-rpcrdma-rtrext-01.txt' />
+</reference>

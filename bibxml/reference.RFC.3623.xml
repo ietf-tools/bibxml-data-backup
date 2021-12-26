@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3623' target='https://www.rfc-editor.org/info/rfc3623'>
+<front>
+<title>Graceful OSPF Restart</title>
+<author initials='J.' surname='Moy' fullname='J. Moy'><organization /></author>
+<author initials='P.' surname='Pillay-Esnault' fullname='P. Pillay-Esnault'><organization /></author>
+<author initials='A.' surname='Lindem' fullname='A. Lindem'><organization /></author>
+<date year='2003' month='November' />
+<abstract><t>This memo documents an enhancement to the OSPF routing protocol, whereby an OSPF router can stay on the forwarding path even as its OSPF software is restarted.  This is called &quot;graceful restart&quot; or &quot;non-stop forwarding&quot;.  A restarting router may not be capable of adjusting its forwarding in a timely manner when the network topology changes.  In order to avoid the possible resulting routing loops, the procedure in this memo automatically reverts to a normal OSPF restart when such a topology change is detected, or when one or more of the restarting router's neighbors do not support the enhancements in this memo.  Proper network operation during a graceful restart makes assumptions upon the operating environment of the restarting router; these assumptions are also documented.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3623'/>
+<seriesInfo name='DOI' value='10.17487/RFC3623'/>
+</reference>

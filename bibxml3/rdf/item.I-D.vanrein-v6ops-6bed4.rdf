@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-vanrein-v6ops-6bed4-01.ps'>
+    <title>"6bed4: Peer-to-Peer IPv6 on Any Internetwork", Rick van Rein</title>
+    <link>http://www.ietf.org/internet-drafts/draft-vanrein-v6ops-6bed4-01.ps</link>
+    <description>The intention of 6bed4 is to support IPv6-only applications, even on IPv4-only networks.  A specific area of concern is that of peer-to- peer protocols such as SIP or document exchange during a chat session.  Such protocols are designed to run in any environment, which means that they cannot rely on IPv6 for themselves, or their peers.  The 6bed4 tunnel mechanism ensures that IPv6 can be assumed on all peers, without a need to configure it explicitly.  The 6bed4 mechanism is meant as a fallback mechanism for IPv6 connectivity on networks that do not support it natively, by running a tunnel over UDP and IPv4.  The IPv4 address is used to support traceability of the traffic originator, which means that no user account or other configuration is needed.  The tunnel mechanism builds on existing IPv6 mechanisms; it employs Stateless Address Autoconfiguration [RFC4862] to setup an IPv6 address on a 6bed4 Peer, and Neighbor Discovery [RFC4861] to find the most direct route to a remote 6bed4 Peer.</description>
+    <dc:date>2012-03-10T23:00:00-00:00</dc:date>
+</item>

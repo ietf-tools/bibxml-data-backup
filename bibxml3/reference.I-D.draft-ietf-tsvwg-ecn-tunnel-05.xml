@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-ecn-tunnel'>
+<front>
+<title>Tunnelling of Explicit Congestion Notification</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='December' day='18' year='2009' />
+
+<abstract><t>This document redefines how the explicit congestion notification (ECN) field of the IP header should be constructed on entry to and exit from any IP in IP tunnel.  On encapsulation it updates RFC3168 to bring all IP in IP tunnels (v4 or v6) into line with RFC4301 IPsec ECN processing.  On decapsulation it updates both RFC3168 and RFC4301 to add new behaviours for previously unused combinations of inner and outer header.  The new rules ensure the ECN field is correctly propagated across a tunnel whether it is used to signal one or two severity levels of congestion, whereas before only one severity level was supported.  Tunnel endpoints can be updated in any order without affecting pre-existing uses of the ECN field (backward compatible). Nonetheless, operators wanting to support two severity levels (e.g. for pre-congestion notification--PCN) can require compliance with this new specification.  A thorough analysis of the reasoning for these changes and the implications is included.  In the unlikely event that the new rules do not meet a specific need, RFC4774 gives guidance on designing alternate ECN semantics and this document extends that to include tunnelling issues.  Status of This Memo  This Internet-Draft is submitted to IETF in full conformance with the provisions of BCP 78 and BCP 79.  Internet-Drafts are working documents of the Internet Engineering Task Force (IETF), its areas, and its working groups.  Note that other groups may also distribute working documents as Internet- Drafts.  Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time.  It is inappropriate to use Internet-Drafts as reference material or to cite them other than as "work in progress."  The list of current Internet-Drafts can be accessed at http://www.ietf.org/ietf/1id-abstracts.txt.  The list of Internet-Draft Shadow Directories can be accessed at http://www.ietf.org/shadow.html.  This Internet-Draft will expire on June 21, 2010.  Copyright Notice  Copyright (c) 2009 IETF Trust and the persons identified as the document authors.  All rights reserved.  This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document.  Please review these documents carefully, as they describe your rights and restrictions with respect to this document.  Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the BSD License.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-ecn-tunnel-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-ecn-tunnel-05.txt' />
+</reference>

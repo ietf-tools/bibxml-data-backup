@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.quigley-label-format-registry'>
+<front>
+<title>Registry Specification for Mandatory Access Control(MAC) Security Label Formats</title>
+
+<author initials='D' surname='Quigley' fullname='David Quigley'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lu' fullname='Jarrett Lu'>
+    <organization />
+</author>
+
+<author initials='T' surname='Haynes' fullname='Tom Haynes'>
+    <organization />
+</author>
+
+<date month='April' day='17' year='2014' />
+
+<abstract><t>In the past Mandatory Access Control (MAC) systems have used very rigid policies which were hardcoded into the particular protocol and platform.  As MAC systems are more widely deployed additional flexibility in mechanism and policy is required.  Where traditional trusted systems implemented Multi-Level Security (MLS) and integrity models, modern systems have expanded to include technologies such as type enforcement.  Due to the wide range of policies and mechanisms it has proven through past efforts to be virtually impossible to accomodate all parties in one security label format and model.  To allow multiple MAC mechanisms and label formats in a network, this document proposes a registry of label format specifications.  This registry contains several identifiers to accomodate both integer and string preferences and associates those identifiers with an extensive document outlining the exact syntax and use of the particular label format.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-quigley-label-format-registry-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-quigley-label-format-registry-02.txt' />
+</reference>

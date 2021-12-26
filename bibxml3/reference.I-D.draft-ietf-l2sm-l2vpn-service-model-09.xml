@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2sm-l2vpn-service-model'>
+<front>
+<title>A YANG Data Model for L2VPN Service Delivery</title>
+
+<author initials='B' surname='Wen' fullname='Bin Wen'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fioccola' fullname='Giuseppe Fioccola'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<date month='April' day='3' year='2018' />
+
+<abstract><t>This document defines a YANG data model that can be used to configure a Layer 2 Provider Provisioned VPN service.  This model is intended to be instantiated at management system to deliver the overall service.  This model is not a configuration model to be used directly on network elements, but provides an abstracted view of the Layer 2 VPN service configuration components.  It is up to a management system to take this as an input and generate specific configurations models to configure the different network elements to deliver the service.  How configuration of network elements is done is out of scope of the document.  The YANG model in this document includes support for point-to-point Virtual Private Wire Services (VPWS) and multipoint Virtual Private LAN services (VPLS) that use Pseudowires signaled using the Label Distribution Protocol (LDP) and the Border Gateway Protocol (BGP) as described in RFC4761 and RFC6624.  The YANG model in this document conforms to the Network Management Datastore Architecture defined in I-D.ietf-netmod-revised-datastores.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2sm-l2vpn-service-model-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2sm-l2vpn-service-model-09.txt' />
+</reference>

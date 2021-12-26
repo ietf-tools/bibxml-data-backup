@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.trammell-plus-spec'>
+<front>
+<title>Path Layer UDP Substrate Specification</title>
+
+<author initials='B' surname='Trammell' fullname='Brian Trammell'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>This document specifies a common Path Layer UDP Substrate (PLUS) wire image for encrypted transport protocols carried over UDP.  The base PLUS header carries information for driving a minimal state machine at middleboxes described in [I-D.trammell-plus-statefulness], and provides optional exposure of additional information to devices along the path using the mechanism described in [I-D.trammell-plus-abstract-mech].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-trammell-plus-spec-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-trammell-plus-spec-01.txt' />
+</reference>

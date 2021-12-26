@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sijeon-multimob-direct-routing-pmip6'>
+<front>
+<title>PMIPv6 Multicasting Support using Native Infrastructure</title>
+
+<author initials='S' surname='Jeon' fullname='Seil Jeon'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Kim' fullname='Younghan Kim'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>To support IP multicasting in PMIPv6 domain, [I-D.ietf-multimob- pmipv6-base-solution] has been determined as a base solution. This solution requires all the LMA to forward multicast packets to MAG via PMIPv6 tunnel. This approach creates a tunnel convergence problem. To resolve the issue, the current MULTIMOB WG charter is trying to draw a solution about how to separate multicasting routing from a mobility anchor. As an effective solution, we propose the direct routing approach that makes the direct connection between MAG and multicast router. The advantages of the proposed direct routing solution are compared with the base solution and dedicated LMA approach. This draft is derived and revised from [I-D.sijeon-multimob-mms-pmip6] as re-chartered MULTIMOB WG description.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sijeon-multimob-direct-routing-pmip6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sijeon-multimob-direct-routing-pmip6-00.txt' />
+</reference>

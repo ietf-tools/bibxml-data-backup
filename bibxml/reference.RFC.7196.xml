@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7196' target='https://www.rfc-editor.org/info/rfc7196'>
+<front>
+<title>Making Route Flap Damping Usable</title>
+<author initials='C.' surname='Pelsser' fullname='C. Pelsser'><organization /></author>
+<author initials='R.' surname='Bush' fullname='R. Bush'><organization /></author>
+<author initials='K.' surname='Patel' fullname='K. Patel'><organization /></author>
+<author initials='P.' surname='Mohapatra' fullname='P. Mohapatra'><organization /></author>
+<author initials='O.' surname='Maennel' fullname='O. Maennel'><organization /></author>
+<date year='2014' month='May' />
+<abstract><t>Route Flap Damping (RFD) was first proposed to reduce BGP churn in routers.  Unfortunately, RFD was found to severely penalize sites for being well connected because topological richness amplifies the number of update messages exchanged.  Many operators have turned RFD off.  Based on experimental measurement, this document recommends adjusting a few RFD algorithmic constants and limits in order to reduce the high risks with RFD.  The result is damping a non-trivial amount of long-term churn without penalizing well-behaved prefixes' normal convergence process.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7196'/>
+<seriesInfo name='DOI' value='10.17487/RFC7196'/>
+</reference>

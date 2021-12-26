@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.meyerzuselhausen-oauth-iss-auth-resp'>
+<front>
+<title>OAuth 2.0 Authorization Server Issuer Identifier in Authorization Response</title>
+
+<author initials='K' surname='Selhausen' fullname='Karsten zu Selhausen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Fett' fullname='Daniel Fett'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2020' />
+
+<abstract><t>This document specifies a new parameter "iss" that is used to explicitly include the issuer identifier of the authorization server in the authorization response of an OAuth authorization flow.  If implemented correctly, the "iss" parameter serves as an effective countermeasure to "mix-up attacks".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-meyerzuselhausen-oauth-iss-auth-resp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-meyerzuselhausen-oauth-iss-auth-resp-02.txt' />
+</reference>

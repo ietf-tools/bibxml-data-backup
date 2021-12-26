@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.marques-l3vpn-end-system'>
+<front>
+<title>End-system support for BGP-signaled IP/VPNs.</title>
+
+<author initials='P' surname='Marques' fullname='Pedro Marques'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='P' surname='Pan' fullname='Ping Pan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Shukla' fullname='Amit Shukla'>
+    <organization />
+</author>
+
+<date month='December' day='14' year='2011' />
+
+<abstract><t>Network Service Providers often use BGP/MPLS IP VPNs [RFC4364] as the control plane for overlay networks.  That solution has proven to scale to large number of VPNs and attachment points and is one familiar to network equipment software.  There is a significant interest in the industry in building overlay networks in which end-systems are themselves the direct participant, along with network equipment such as service appliances.  This document proposes an extension of the BGP IP VPN model to serve as the signaling protocol for host-based overlay networks along with an XMPP interface that provides a bridge between the software concepts familiar to end-points and those familiar to network equipment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-marques-l3vpn-end-system-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-marques-l3vpn-end-system-03.txt' />
+</reference>

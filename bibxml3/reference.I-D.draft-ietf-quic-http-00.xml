@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-quic-http'>
+<front>
+<title>Hypertext Transfer Protocol (HTTP) over QUIC</title>
+
+<author initials='M' surname='Bishop' fullname='Mike Bishop'>
+    <organization />
+</author>
+
+<date month='November' day='28' year='2016' />
+
+<abstract><t>The QUIC transport protocol has several features that are desirable in a transport for HTTP/2, such as stream multiplexing, per-stream flow control, and low-latency connection establishment.  This document describes a mapping of HTTP/2 semantics over QUIC. Specifically, this document identifies HTTP/2 features that are subsumed by QUIC, and describes how the other features can be implemented atop QUIC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-quic-http-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-quic-http-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-attrleaf'>
+<front>
+<title>DNS Scoped Data Through Global '_Underscore' Naming of Attribute Leaves</title>
+
+<author initials='D' surname='Crocker' fullname='Dave Crocker'>
+    <organization />
+</author>
+
+<date month='March' day='29' year='2017' />
+
+<abstract><t>Formally, any DNS "RR" may occur for any domain name.  However some services have defined an operational convention that applies to DNS leaf nodes that have a reserved node name, beginning with an underscore.  The underscore construct is used to define a semantic scope for DNS records that are associated with the parent domain. This specification explores the nature of this DNS usage and defines the "DNS Global Underscore Scoped Entry Registry" registry with IANA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-attrleaf-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-attrleaf-02.txt' />
+</reference>

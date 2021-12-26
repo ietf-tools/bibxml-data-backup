@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gai-perlman-trill-encap'>
+<front>
+<title>An encapsulation for TRILL</title>
+
+<author initials='S' surname='Gai' fullname='Silvano Gai'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2006' />
+
+<abstract><t>A new layer of encapsulation is required with RBridges. A previous Internet Draft [2] (draft-bryant-perlman-trill-pwe-encap-00) proposes an encapsulation header that contains a Nickname, a flag, TTL and CoS. This document introduces additional fields, and gives arguments for their usefulness. As a result the encapsulation header needs to be expanded and will no longer be able to be in MPLS format. The WG will need to decide on the tradeoffs between this additional functionality, and compatibility with an existing (MPLS) format.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gai-perlman-trill-encap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gai-perlman-trill-encap-00.txt' />
+</reference>

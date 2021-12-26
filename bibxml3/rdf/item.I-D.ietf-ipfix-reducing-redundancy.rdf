@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-ipfix-reducing-redundancy-04.txt'>
+    <title>"Reducing Redundancy in IP Flow Information Export (IPFIX) and Packet  Sampling (PSAMP) Reports", Elisa Boschi</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-ipfix-reducing-redundancy-04.txt</link>
+    <description>This document describes a bandwidth saving method for exporting flow or packet information using the IP Flow Information Export (IPFIX) protocol.  As the Packet Sampling (PSAMP) protocol is based on IPFIX, these considerations are valid for PSAMP exports as well. This method works by separating information common to several flow records from information specific to an individual flow record. Common flow information is exported only once in a data record defined by an option template, while the rest of the specific flow information is associated with the common information via a unique identifier.</description>
+    <dc:date>2007-05-20T22:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-oam-ipv6-rao'>
+<front>
+<title>IPv6 Router Alert Option for MPLS OAM</title>
+
+<author initials='K' surname='Raza' fullname='Kamran Raza'>
+    <organization />
+</author>
+
+<author initials='N' surname='Akiya' fullname='Nobo Akiya'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<date month='February' day='4' year='2015' />
+
+<abstract><t>RFC 4379 defines the MPLS LSP Ping/Traceroute mechanism, in which the Router Alert Option MUST be set in the IP header of the MPLS Echo Request messages, and may conditionally be set in the IP header of the MPLS Echo Reply messages depending on the Reply Mode used.  While a generic "Router shall examine packet" Option Value is used for the IPv4 Router Alert Option (RAO), there is no generic Router Alert Option Value defined for IPv6 that can be used.  This document allocates a new generic IPv6 Router Alert Option Value that can be used by MPLS OAM tools, including the MPLS Echo Request and MPLS Echo Reply messages for MPLS in IPv6 environments.  Consequently, it updates RFC 4379.  The initial motivation to request an IPv6 Router Alert Option (RAO) Value for MPLS OAM comes from MPLS LSP Ping/Traceroute.  However, this Value is applicable to all MPLS OAM and not limited to MPLS LSP Ping/Traceroute.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-oam-ipv6-rao-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-oam-ipv6-rao-03.txt' />
+</reference>

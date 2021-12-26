@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nvo3-vmm'>
+<front>
+<title>Virtual Machine Mobility Solutions for L2 and L3 Overlay Networks</title>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='B' surname='Khasnabish' fullname='Bhumip Khasnabish'>
+    <organization />
+</author>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dikshit' fullname='Saumya Dikshit'>
+    <organization />
+</author>
+
+<date month='April' day='1' year='2020' />
+
+<abstract><t>This document describes virtual machine mobility solutions commonly used in data centers built with overlay-based network. This document is intended for describing the solutions and the impact of moving VMs (or applications) from one Rack to another connected by the Overlay networks.  For layer 2, it is based on using an NVA (Network Virtualization Authority) - NVE (Network Virtualization Edge) protocol to update ARP (Address Resolution Protocol) table or neighbor cache entries after a VM (virtual machine) moves from an Old NVE to a New NVE. For Layer 3, it is based on address and connection migration after the move.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nvo3-vmm-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nvo3-vmm-14.txt' />
+</reference>

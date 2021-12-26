@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-softwire-dslite-radius-ext'>
+<front>
+<title>RADIUS Extensions for Dual-Stack Lite</title>
+
+<author initials='R' surname='Maglione' fullname='Roberta Maglione'>
+    <organization />
+</author>
+
+<author initials='A' surname='Durand' fullname='Alain Durand'>
+    <organization />
+</author>
+
+<date month='December' day='29' year='2010' />
+
+<abstract><t>Dual-Stack Lite is a solution to offer both IPv4 and IPv6 connectivity to customers which are addressed only with an IPv6 prefix.  DS-Lite requires to pre-configure the AFTR tunnel information on the B4 element.  In many networks, the customer profile information may be stored in AAA servers while client configurations are mainly provided through DHC protocol.  This document specifies one new RADIUS attribute to carry Dual-Stack Lite Address Family Transition Router (AFTR) name; the RADIUS attribute is defined based on the equivalent DHCPv6 option already specified in draft-ietf-softwire-ds-lite-tunnel-option.  This RADIUS attribute is meant to be used between the RADIUS Server and the NAS, it is not intended to be used directly between the B4 element and the RADIUS Server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-softwire-dslite-radius-ext-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-softwire-dslite-radius-ext-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dkg-dprive-demux-dns-http'>
+<front>
+<title>Demultiplexing Streamed DNS from HTTP</title>
+
+<author initials='D' surname='Gillmor' fullname='Daniel Gillmor'>
+    <organization />
+</author>
+
+<date month='April' day='24' year='2017' />
+
+<abstract><t>DNS over TCP and traditional HTTP are both stream-oriented, client- speaks-first protocols.  They can both be run over a stream-based security protocol like TLS.  A server accepting a stream-based client can distinguish between a valid stream of DNS queries and valid stream of HTTP requests by simple observation of the first few octets sent by the client.  This can be done without any external demultiplexing mechanism like TCP port number or ALPN.  Implicit multiplexing of the two protocols over a single listening port can be useful for obscuring the presence of DNS queries from a network observer, which makes it relevant for DNS privacy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dkg-dprive-demux-dns-http-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dkg-dprive-demux-dns-http-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bannister-dbis-hosts'>
+<front>
+<title>Directory-Based Information Services: Hosts, Networks and Services</title>
+
+<author initials='M' surname='Bannister' fullname='Mark Bannister'>
+    <organization />
+</author>
+
+<date month='August' day='15' year='2013' />
+
+<abstract><t>This document extends Directory-Based Information Services (DBIS) described in [draft-bannister-dbis-mapping-00] to support hosts, networks, netmasks, protocols, rpc and services databases.  The database schemas SHALL be backwards compatible with the Network Information Service [NIS] but stored within [X.500] entries so that they may be resolved with the Lightweight Directory Access Protocol [RFC4510].  A hosts database maps hostnames to IP addresses, networks map network names to network numbers, netmasks map network numbers to netmasks, protocols map network protocol names to protocol numbers, rpc maps Remote Procedure Call [RFC1057] program names to RPC program numbers and services map network service names to port numbers and protocols.  This document describes configuration maps [draft-bannister-dbis- mapping-00] for hosts, networks, protocols, rpc and services, and database entries referenced by those maps.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bannister-dbis-hosts-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bannister-dbis-hosts-00.txt' />
+</reference>

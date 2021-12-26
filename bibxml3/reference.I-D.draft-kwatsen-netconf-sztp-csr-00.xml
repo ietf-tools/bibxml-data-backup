@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kwatsen-netconf-sztp-csr'>
+<front>
+<title>Conveying a Certificate Signing Request (CSR) in a Secure Zero Touch Provisioning (SZTP) Bootstrapping Request</title>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Housley' fullname='Russ Housley'>
+    <organization />
+</author>
+
+<author initials='S' surname='Turner' fullname='Sean Turner'>
+    <organization />
+</author>
+
+<date month='June' day='9' year='2020' />
+
+<abstract><t>This draft extends the "get-bootstrapping-data" RPC defined in RFC 8572 to include an optional certificate signing request (CSR), enabling a bootstrapping device to additionally obtain an identity certificate (e.g., an LDevID, from IEEE 802.1AR) as part of the "onboarding information" response provided in the RPC-reply.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kwatsen-netconf-sztp-csr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kwatsen-netconf-sztp-csr-00.txt' />
+</reference>

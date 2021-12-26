@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thomson-hybi-http-timeout'>
+<front>
+<title>Hypertext Transfer Protocol (HTTP) Timeouts</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<author initials='G' surname='Wilkins' fullname='Greg Wilkins'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2011' />
+
+<abstract><t>A Request-Timeout header is defined for Hypertext Transfer Protocol (HTTP).  This end-to-end header informs an origin server and any intermediaries of the maximum time that a client will await a response to its request.  A server can use this header to ensure that a timely response is generated.  This also identifies requests as being potentially long-lived, and allows for better resource allocation for these requests.  A Connection-Timeout header is defined for HTTP.  This hop-by-hop header informs the entity at the other end of a connection of the maximum time that an idle connection is kept open.  This header improves reliability by providing better information about the idle connection management policy of HTTP hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thomson-hybi-http-timeout-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thomson-hybi-http-timeout-00.txt' />
+</reference>

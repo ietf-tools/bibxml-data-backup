@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-opsec-igp-crypto-requirements'>
+<front>
+<title>Cryptographic Authentication Algorithm Implementation Best Practices for Routing Protocols</title>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='January' day='30' year='2010' />
+
+<abstract><t>The routing protocols Open Shortest Path First version 2 (OSPFv2) [RFC2328], Intermediate System to Intermediate System (IS-IS) [ISO] [RFC1195] and Routing Information Protocol (RIP) [RFC2453] currently define Clear Text and MD5 (Message Digest 5) [RFC1321] methods for authenticating protocol packets. Recently effort has been made to add support for the SHA (Secure Hash Algorithm) family of hash functions for the purpose of authenticating routing protocol packets for RIP [RFC4822], IS-IS [RFC5310] and OSPF [RFC5709].  To encourage interoperability between disparate implementations, it is imperative that we specify the expected minimal set of algorithms thereby ensuring that there is at least one algorithm that all implementations will have in common.  This document examines the current set of available algorithms with interoperability and effective cryptographic authentication protection being the principle considerations. Cryptographic authentication of these routing protocols requires the availability of the same algorithms in disparate implementations. It is desirable that newly specified algorithms should be implemented and available in routing protocol implementations because they may be promoted to requirements at some future time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-opsec-igp-crypto-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-opsec-igp-crypto-requirements-00.txt' />
+</reference>

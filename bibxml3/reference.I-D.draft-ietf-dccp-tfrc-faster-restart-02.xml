@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dccp-tfrc-faster-restart'>
+<front>
+<title>Faster Restart for TCP Friendly Rate Control (TFRC)</title>
+
+<author initials='E' surname='Kohler' fullname='Eddie Kohler'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2007' />
+
+<abstract><t>TCP-Friendly Rate Control (TFRC) is a congestion control mechanism for unicast flows operating in a best-effort Internet environment [RFC3448]. This document introduces Faster Restart, an optional mechanism for safely improving the behavior of interactive flows that use TFRC. Faster Restart is proposed for use with both the default TFRC and with the small packet variant of TFRC [TFRCSP]. We present Faster Restart in general terms as a congestion control mechanism, and further describe how to implement Faster Restart in Datagram Congestion Control Protocol (DCCP) Congestion Control IDs 3 and 4 [RFC4342], [CCID4].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dccp-tfrc-faster-restart-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-tfrc-faster-restart-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-tfrc-faster-restart-02.pdf' />
+</reference>

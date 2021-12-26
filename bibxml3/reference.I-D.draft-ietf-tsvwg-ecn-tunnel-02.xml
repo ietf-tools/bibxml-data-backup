@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-ecn-tunnel'>
+<front>
+<title>Tunnelling of Explicit Congestion Notification</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='March' day='24' year='2009' />
+
+<abstract><t>This document redefines how the explicit congestion notification (ECN) field of the IP header should be constructed on entry to and exit from any IP in IP tunnel.  On encapsulation it brings all IP in IP tunnels (v4 or v6) into line with the way RFC4301 IPsec tunnels now construct the ECN field.  On decapsulation it redefines how the ECN field in the forwarded IP header should be calculated for two previously invalid combinations of incoming inner and outer headers, in order that these combinations may be usefully employed in future standards actions.  It includes a thorough analysis of the reasoning for these changes and the implications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-ecn-tunnel-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-ecn-tunnel-02.txt' />
+</reference>

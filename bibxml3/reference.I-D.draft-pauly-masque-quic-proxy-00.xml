@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pauly-masque-quic-proxy'>
+<front>
+<title>QUIC-Aware Proxying Using CONNECT-UDP</title>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='D' surname='Schinazi' fullname='David Schinazi'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2020' />
+
+<abstract><t>This document defines an extension to the CONNECT-UDP HTTP method that adds specific optimizations for QUIC connections that are proxied.  This extension allows a proxy to reuse UDP 4-tuples for multiple connections.  It also defines a mode of proxying in which QUIC short header packets can be forwarded through the proxy rather than being re-encapsulated and re-encrypted.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pauly-masque-quic-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pauly-masque-quic-proxy-00.txt' />
+</reference>

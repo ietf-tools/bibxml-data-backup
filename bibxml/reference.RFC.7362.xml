@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7362' target='https://www.rfc-editor.org/info/rfc7362'>
+<front>
+<title>Latching: Hosted NAT Traversal (HNT) for Media in Real-Time Communication</title>
+<author initials='E.' surname='Ivov' fullname='E. Ivov'><organization /></author>
+<author initials='H.' surname='Kaplan' fullname='H. Kaplan'><organization /></author>
+<author initials='D.' surname='Wing' fullname='D. Wing'><organization /></author>
+<date year='2014' month='September' />
+<abstract><t>This document describes the behavior of signaling intermediaries in Real-Time Communication (RTC) deployments, sometimes referred to as Session Border Controllers (SBCs), when performing Hosted NAT Traversal (HNT).  HNT is a set of mechanisms, such as media relaying and latching, that such intermediaries use to enable other RTC devices behind NATs to communicate with each other.</t><t>This document is non-normative and is only written to explain HNT in order to provide a reference to the Internet community and an informative description to manufacturers and users.</t><t>Latching, which is one of the HNT components, has a number of security issues covered here.  Because of those, and unless all security considerations explained here are taken into account and solved, the IETF advises against use of the latching mechanism over the Internet and recommends other solutions, such as the Interactive Connectivity Establishment (ICE) protocol.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7362'/>
+<seriesInfo name='DOI' value='10.17487/RFC7362'/>
+</reference>

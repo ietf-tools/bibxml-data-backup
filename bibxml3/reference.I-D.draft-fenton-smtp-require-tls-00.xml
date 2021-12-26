@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fenton-smtp-require-tls'>
+<front>
+<title>SMTP Require TLS Option</title>
+
+<author initials='J' surname='Fenton' fullname='Jim Fenton'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2016' />
+
+<abstract><t>The SMTP STARTTLS option, used in negotiating transport-level encryption of SMTP connections, is not as useful from a security standpoint as it might be because of its opportunistic nature; message delivery is prioritized over security.  This document describes a complementary option, REQUIRETLS, which causes message delivery to fail if a TLS connection with the required security characteristics cannot be negotiated with the next hop MTA or if that MTA does not also support REQUIRETLS.  Message originators may therefore expect transport security for messages sent with this option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fenton-smtp-require-tls-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fenton-smtp-require-tls-00.txt' />
+</reference>

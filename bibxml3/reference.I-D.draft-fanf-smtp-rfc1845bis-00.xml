@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fanf-smtp-rfc1845bis'>
+<front>
+<title>SMTP service extensions for transaction checkpointing</title>
+
+<author initials='T' surname='Finch' fullname='Tony Finch'>
+    <organization />
+</author>
+
+<date month='January' day='25' year='2007' />
+
+<abstract><t>This memo describes the SMTP service extension for checkpoint/resume, which allows a client to recover from a lost connection to the server without having to repeat all of the commands and message content sent prior to the interruption, and with less risk of duplicated messages. Checkpoint/resume is based on, and fixes a number of problems with, the SMTP service extension for checkpoint/restart [RFC1845].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fanf-smtp-rfc1845bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fanf-smtp-rfc1845bis-00.txt' />
+</reference>

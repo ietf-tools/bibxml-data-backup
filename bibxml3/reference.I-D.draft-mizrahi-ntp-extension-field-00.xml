@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mizrahi-ntp-extension-field'>
+<front>
+<title>Using NTP Extension Field without Authentication</title>
+
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>The Network Time Protocol Version 4 (NTPv4) defines the optional usage of extension fields. An extension field is an optional field that resides at the end of the NTP header, and can be used to add optional capabilities or additional information that is not conveyed in the standard NTP header. The current definition of extension fields in NTPv4 is somewhat ambiguous regarding the connection between extension fields and the presence of a Message Authentication Code (MAC). This draft clarifies the usage of extension fields in the presence and in the absence of a MAC, while maintaining interoperability with existing implementations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mizrahi-ntp-extension-field-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mizrahi-ntp-extension-field-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.martinsen-tram-turnbandwidthprobe'>
+<front>
+<title>Traversal Using Relays around NAT (TURN) Bandwidth Probe</title>
+
+<author initials='P' surname='Martinsen' fullname='Paal-Erik Martinsen'>
+    <organization />
+</author>
+
+<author initials='T' surname='Andersen' fullname='Trond Andersen'>
+    <organization />
+</author>
+
+<author initials='G' surname='Salgueiro' fullname='Gonzalo Salgueiro'>
+    <organization />
+</author>
+
+<author initials='M' surname='Petit-Huguenin' fullname='Marc Petit-Huguenin'>
+    <organization />
+</author>
+
+<date month='May' day='29' year='2015' />
+
+<abstract><t>Performing pre-call probing to discover a reasonable value for the available bandwidth, is useful information that can be utilized by bandwidth sensitive or bandwidth intensive network devices (e.g., video encoders).  The method described herein is intended to produce an initial bandwidth value.  Applications using this mechanism should also employ appropriate rate adaptation techniques.  In addition to bandwidth, latency and bufferbloat can also be measured.  No modification is needed on the server side.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-martinsen-tram-turnbandwidthprobe-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-martinsen-tram-turnbandwidthprobe-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.smirnov-ospf-xaf-te'>
+<front>
+<title>OSPF Routing with Cross-Address Family MPLS Traffic Engineering Tunnels</title>
+
+<author initials='A' surname='Smirnov' fullname='Anton Smirnov'>
+    <organization />
+</author>
+
+<author initials='A' surname='Retana' fullname='Alvaro Retana'>
+    <organization />
+</author>
+
+<author initials='M' surname='Barnes' fullname='Michael Barnes'>
+    <organization />
+</author>
+
+<date month='April' day='18' year='2016' />
+
+<abstract><t>When using Traffic Engineering (TE) in a dual-stack IPv4/IPv6 network the Multiprotocol Label Switching (MPLS) TE Label Switched Paths (LSP) infrastructure may be duplicated, even if the destination IPv4 and IPv6 addresses belong to the same remote router.  In order to achieve an integrated MPLS TE LSP infrastructure, OSPF routes must be computed over MPLS TE tunnels created using information propagated in another OSPF instance.  This is solved by advertising cross-address family (X-AF) OSPF TE information.  This document describes an update to RFC5786 that allows for the easy identification of a router's local X-AF IP addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-smirnov-ospf-xaf-te-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-smirnov-ospf-xaf-te-05.txt' />
+</reference>

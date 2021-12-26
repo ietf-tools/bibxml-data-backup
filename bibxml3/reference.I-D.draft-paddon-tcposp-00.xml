@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.paddon-tcposp'>
+<front>
+<title>TCP Opportunistic Security (OPSEC) Option</title>
+
+<author initials='M' surname='Paddon' fullname='Michael Paddon'>
+    <organization />
+</author>
+
+<author initials='G' surname='Rose' fullname='Greg Rose'>
+    <organization />
+</author>
+
+<date month='April' day='17' year='2009' />
+
+<abstract><t>The TCP Opportunistic Security (OPSEC) option enables cooperating peers to opportunistically negotiate the use of an end to end security protocol on a per connection basis.  The negotiated protocol is used to transparently secure application data for the life of the connection, providing protection against all passive and some active attacks.  Security protocols may operate anonymously or make opportunistic use of available key material.  Backwards compatibility with non-OPSEC-aware hosts is maintained, thereby permitting incremental deployment of this mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-paddon-tcposp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-paddon-tcposp-00.txt' />
+</reference>

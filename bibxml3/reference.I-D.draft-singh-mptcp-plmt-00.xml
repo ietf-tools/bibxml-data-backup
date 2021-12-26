@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.singh-mptcp-plmt'>
+<front>
+<title>PayLoad Multi-connection Transport using Multiple Addresses</title>
+
+<author initials='A' surname='Singh' fullname='Amanpreet Singh'>
+    <organization />
+</author>
+
+<author initials='M' surname='Scharf' fullname='Michael Scharf'>
+    <organization />
+</author>
+
+<date month='August' day='6' year='2010' />
+
+<abstract><t>The single path transport provided by the Transmission Control Protocol (TCP) can be extended to a multipath transport session for multi-homed end hosts by coupling several TCP connections over multiple interfaces of the end hosts. Payload Multi-connection Transport (PLMT) is a multipath protocol variant that encodes all the control/signaling information in the payload of TCP connections and therefore requires no additional TCP options. PLMT allows for the simultaneous use of the multiple connections over potentially disjoint paths while being mostly backward compatible to single path transport of TCP. PLMT operates as an additional protocol layer between the network stack and the application layer. This document describes PLMT as an example for a multipath mechanism that could possibly be realized entirely in the user-space of an operating system.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-singh-mptcp-plmt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-singh-mptcp-plmt-00.txt' />
+</reference>

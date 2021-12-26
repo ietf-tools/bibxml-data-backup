@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-icnrg-container-resolution-system'>
+<front>
+<title>Container Resolution System in ICN</title>
+
+<author initials='R' surname='Wang' fullname='Rong Wang'>
+    <organization />
+</author>
+
+<author initials='C' surname='Yao' fullname='Chunfeng Yao'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Yan' fullname='Zhefeng Yan'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>We illustrate the architecture and mechanism of container resolution system, and to the protocol of resolving containers in ICN. The fundamental characters are:1)Use Interest and Data packet as the communication primitives, 2)Every routing node has FIB, CS, PIT tables to do packet routing and caching. Current NDN/CCN architecture does not require a resolution system. The routing is totally based on prefixes of content names, which causes scalability and mobility issues described in [Cisco-Name]. This draft addresses the aforementioned issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-icnrg-container-resolution-system-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-icnrg-container-resolution-system-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-wang-icnrg-container-resolution-system-00.pdf' />
+</reference>

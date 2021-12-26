@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-apparea-bpack'>
+<front>
+<title>The binarypack JSON-like representation format</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2012' />
+
+<abstract><t>JSON (RFC 4627) is an extremely successful format for the representation of structured information, supporting Boolean values, numbers, strings, arrays, and tables.  Recently, a number of applications have started to look for binary representation formats that solve a similar problem.  In particular, constrained node networks can benefit from such a binary representation format.  A very successful binary representation that is otherwise comparable to JSON is MessagePack.  Recently, a slight modification of MessagePack has been defined that allows for distinguishing UTF-8 strings from binary data.  This draft, as an independent effort, documents the resulting BinaryPack format.  The current version -00 of this document is an early draft that is intended to spark further discussion.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-apparea-bpack-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-apparea-bpack-00.txt' />
+</reference>

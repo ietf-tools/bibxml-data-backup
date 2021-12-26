@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-behave-turn'>
+<front>
+<title>Obtaining Relay Addresses from Simple Traversal of UDP Through NAT (STUN)</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2006' />
+
+<abstract><t>This specification defines a usage of the Simple Traversal of UDP Through NAT (STUN) Protocol for asking the STUN server to relay packets towards a client. This usage is useful for elements behind NATs whose mapping behavior is address and port dependent. The extension purposefully restricts the ways in which the relayed address can be used. In particular, it prevents users from running well general purpose servers from ports obtained from the STUN server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-behave-turn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-behave-turn-00.txt' />
+</reference>

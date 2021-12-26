@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rescorla-avtcore-random-cname'>
+<front>
+<title>Random algorithm for RTP CNAME generation</title>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2012' />
+
+<abstract><t>RFC 6222 describes a number of mechanisms for generating a unique CNAME Unfortunately, these algorithms are rather complicated and also produce CNAMEs which in some cases are potentially linkable over multiple RTCP sessions even if a new CNAME is generated for each session.  This document specifies a replacement algorithm for the algorithm in Section 5 which does not have this limitation and is also simpler to implement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rescorla-avtcore-random-cname-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rescorla-avtcore-random-cname-00.txt' />
+</reference>

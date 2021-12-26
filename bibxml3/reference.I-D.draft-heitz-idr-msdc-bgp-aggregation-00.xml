@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.heitz-idr-msdc-bgp-aggregation'>
+<front>
+<title>Aggregating BGP routes in Massive Scale Data Centers</title>
+
+<author initials='J' surname='Heitz' fullname='Jakob Heitz'>
+    <organization />
+</author>
+
+<author initials='D' surname='Rao' fullname='Dhananjaya Rao'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>A design for a fabric of switches to connect up to one million servers in a data center is described.  At that scale, it is impractical for every switch to maintain knowledge about every other switch and every other link in the fabric.  Aggregation of routes is an excellent way to scale such a fabric.  However, aggregation presents some problems under link failures or switch failures.  This design solves those problems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-heitz-idr-msdc-bgp-aggregation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-heitz-idr-msdc-bgp-aggregation-00.txt' />
+</reference>

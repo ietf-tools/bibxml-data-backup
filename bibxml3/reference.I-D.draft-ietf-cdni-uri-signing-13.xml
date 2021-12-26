@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-cdni-uri-signing'>
+<front>
+<title>URI Signing for CDN Interconnection (CDNI)</title>
+
+<author initials='R' surname='Brandenburg' fullname='Ray van Brandenburg'>
+    <organization />
+</author>
+
+<author initials='K' surname='Leung' fullname='Kent Leung'>
+    <organization />
+</author>
+
+<author initials='P' surname='Sorber' fullname='Phil Sorber'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>This document describes how the concept of URI signing supports the content access control requirements of CDNI and proposes a URI signing method as a JSON Web Token (JWT) [RFC7519] profile.  The proposed URI signing method specifies the information needed to be included in the URI to transmit the signed JWT as well as the claims needed by the signed JWT to authorize a UA.  The mechanism described can be used both in CDNI and single CDN scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-cdni-uri-signing-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-cdni-uri-signing-13.txt' />
+</reference>

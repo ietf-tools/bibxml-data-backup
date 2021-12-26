@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-lsp-ping-reply-mode-simple'>
+<front>
+<title>Label Switched Path (LSP) Ping/Traceroute Reply Mode Simplification</title>
+
+<author initials='N' surname='Akiya' fullname='Nobo Akiya'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='L' surname='Andersson' fullname='Loa Andersson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<date month='October' day='9' year='2015' />
+
+<abstract><t>The Multiprotocol Label Switching (MPLS) Label Switched Path (LSP) Ping and Traceroute use the Reply Mode field to signal the method to be used in the MPLS echo reply.  This document updates the procedures for the "Reply via Specified Path" Reply Mode, the value of this Reply Mode is 5.  The update creates a simple way to indicate that the Reverse LSP should be used as return path.  This document also adds an optional TLV which can carry ordered list of Reply Mode values.  This document updates RFC7110.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-lsp-ping-reply-mode-simple-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-lsp-ping-reply-mode-simple-05.txt' />
+</reference>

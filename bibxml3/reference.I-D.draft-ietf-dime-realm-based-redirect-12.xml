@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dime-realm-based-redirect'>
+<front>
+<title>Realm-Based Redirection In Diameter</title>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hao' fullname='Ruibing Hao'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<date month='September' day='4' year='2013' />
+
+<abstract><t>Message redirection is a basic capability provided by the Diameter base protocol.  In its conventional form, message redirection is performed by an application-independent "redirect agent", which returns one or more individual hosts to the message sender as possible destinations of the redirected message.  However, in some circumstances an operator may wish to redirect messages to an alternate domain without specifying individual hosts. This document specifies an application-specific mechanism by which that can be achieved when S-NAPTR is not used for dynamic peer discovery.  New applications may incorporate this capability by reference to the present document.  Because the redirection mechanism is application-specific, it must be performed by a Diameter server or proxy rather than a basic redirect agent as defined in the Diameter base protocol.  A new term, "Realm- based Redirect Server", is introduced in this document to differentiate the application-specific nature of realm-based redirection from the conventional Diameter redirection performed by a basic redirect agent.  This memo updates Sections 6.13 and 6.14 of RFC6733 with respect to the usage of the Redirect-Host-Usage and Redirect-Max-Cache-Time AVPs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dime-realm-based-redirect-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dime-realm-based-redirect-12.txt' />
+</reference>

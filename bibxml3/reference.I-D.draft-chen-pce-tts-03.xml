@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-pce-tts'>
+<front>
+<title>Extensions to PCEP for Temporal LSP</title>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='X' surname='Liu' fullname='Xufeng Liu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Toy' fullname='Mehmet Toy'>
+    <organization />
+</author>
+
+<author initials='V' surname='Liu' fullname='Vic Liu'>
+    <organization />
+</author>
+
+<author initials='L' surname='Liu' fullname='Lei Liu'>
+    <organization />
+</author>
+
+<author initials='K' surname='Pithewan' fullname='Khuzema Pithewan'>
+    <organization />
+</author>
+
+<date month='March' day='18' year='2016' />
+
+<abstract><t>For existing MPLS LSP tunnel services, it is hard for LSP tunnels to be booked in advance.  In addition, once an LSP tunnel is set up, it is assumed to consume a certain amount of resources such as link bandwidth forever.  Temporal LSP tunnel services (TTS) provides an easy way for us to book temporal LSP tunnels in advance.  More importantly, a temporal LSP is an LSP with one or more time intervals and it is assumed to consume the resources and carry traffic only in these time intervals.  This document specifies extensions to PCEP for computing a path for a temporal LSP, initiating and maintaining a temporal LSP with a sequence of time intervals, during each of which the LSP carries traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-pce-tts-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-pce-tts-03.txt' />
+</reference>

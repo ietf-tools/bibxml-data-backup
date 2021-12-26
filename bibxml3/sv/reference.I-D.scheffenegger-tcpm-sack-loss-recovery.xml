@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.scheffenegger-tcpm-sack-loss-recovery'>
+<front>
+<title>Improving SACK-based loss recovery for TCP</title>
+
+<author initials='R' surname='Scheffenegger' fullname='Richard Scheffenegger'>
+    <organization />
+</author>
+
+<date month='November' day='15' year='2010' />
+
+<abstract><t>This note clarifies the behavior of TCP SACK while doing loss recovery close to the end-of-stream.  This allows TCP SACK to never exhibit worse loss recovery characteristics than TCP NewReno under identical circumstances.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-scheffenegger-tcpm-sack-loss-recovery-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-scheffenegger-tcpm-sack-loss-recovery-00.txt' />
+</reference>

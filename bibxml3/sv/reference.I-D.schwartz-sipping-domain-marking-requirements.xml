@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schwartz-sipping-domain-marking-requirements'>
+<front>
+<title>Requirements for domain marking for the purpose of Upstream Traffic  Characterization</title>
+
+<author initials='D' surname='Schwartz' fullname='David Schwartz'>
+    <organization />
+</author>
+
+<author initials='D' surname='Besprosvan' fullname='Diego Besprosvan'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2007' />
+
+<abstract><t>SIP as defined in RFC 3261 [1] defines a Via header as a construct to be used for upstream response routing and for downstream assistance in loop detection.  There is an increasing need on downstream administrative domains (ADs) to gain visibility into all the ADs in its upstream path.  The information needed is not IP based as internal architectures at upstream ADs is of no consequence to downstream ADs.  Logical domain marking, however, is desperately needed for any traffic analysis to occur at the receiving side. Gathering AD information from Via headers is non obvious and in many instances nearly impossible.  This documents identifies the requirements for addressing this issue.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schwartz-sipping-domain-marking-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schwartz-sipping-domain-marking-requirements-00.txt' />
+</reference>

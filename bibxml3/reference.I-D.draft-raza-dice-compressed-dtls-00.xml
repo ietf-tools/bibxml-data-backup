@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raza-dice-compressed-dtls'>
+<front>
+<title>Compression of Record and Handshake Headers for Constrained Environments</title>
+
+<author initials='S' surname='Raza' fullname='Shahid Raza'>
+    <organization />
+</author>
+
+<author initials='H' surname='Shafagh' fullname='Hossein Shafagh'>
+    <organization />
+</author>
+
+<author initials='O' surname='Dupont' fullname='Olivier Dupont'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2014' />
+
+<abstract><t>This document describes header compression mechanisms for the Datagram Transport Layer Security (DTLS) [RFC6347] based on the encoding scheme standardized in [RFC6282]. The DTLS Record Header (RH), Handshake Header (HH), and optionally handshake message headers are compressed using Next Header Compression (NHC) defined in [RFC6282]. This document neither invalidates any encoding schemes proposed in 6LoWPAN [RFC6282] nor compromises the end-to-end security properties provided by DTLS. This document aims to increase the applicability of DTLS and, thus, CoAPs [draft-ietf-core-coap-18] in constrained environments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raza-dice-compressed-dtls-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raza-dice-compressed-dtls-00.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-raza-dice-compressed-dtls-00.ps' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-raza-dice-compressed-dtls-00.pdf' />
+</reference>

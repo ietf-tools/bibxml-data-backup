@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-rats-psa-token'>
+<front>
+<title>Arm's Platform Security Architecture (PSA) Attestation Token</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='S' surname='Frost' fullname='Simon Frost'>
+    <organization />
+</author>
+
+<author initials='M' surname='Brossard' fullname='Mathias Brossard'>
+    <organization />
+</author>
+
+<author initials='A' surname='Shaw' fullname='Adrian Shaw'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2020' />
+
+<abstract><t>The Platform Security Architecture (PSA) is a family of hardware and firmware security specifications, as well as open-source reference implementations, to help device makers and chip manufacturers build best-practice security into products.  Devices that are PSA compliant are able to produce attestation tokens as described in this memo, which are the basis for a number of different protocols, including secure provisioning and network access control.  This document specifies the PSA attestation token structure and semantics.  At its core, the CWT (COSE Web Token) format is used and populated with a set of claims in a way similar to EAT (Entity Attestation Token).  This specification describes what claims are used by PSA compliant systems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-rats-psa-token-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-rats-psa-token-05.txt' />
+</reference>

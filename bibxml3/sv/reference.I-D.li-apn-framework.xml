@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-apn-framework'>
+<front>
+<title>Application-aware Networking (APN) Framework</title>
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+<organization />
+</author>
+<author initials='S' surname='Peng' fullname='Shuping Peng'>
+<organization />
+</author>
+<author initials='D' surname='Voyer' fullname='Dan Voyer'>
+<organization />
+</author>
+<author initials='C' surname='Li' fullname='Cong Li'>
+<organization />
+</author>
+<author initials='P' surname='Liu' fullname='Peng Liu'>
+<organization />
+</author>
+<author initials='C' surname='Cao' fullname='Chang Cao'>
+<organization />
+</author>
+<author initials='G' surname='Mishra' fullname='Gyan Mishra'>
+<organization />
+</author>
+<author initials='K' surname='Ebisawa' fullname='Kentaro Ebisawa'>
+<organization />
+</author>
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+<organization />
+</author>
+<author initials='J' surname='Guichard' fullname='Jim Guichard'>
+<organization />
+</author>
+<date year='2021' month='October' day='25' />
+<abstract><t>A multitude of applications are carried over the network, which have varying needs for network bandwidth, latency, jitter, and packet loss, etc.  Some new emerging applications have very demanding performance requirements.  However, in current networks, the network and applications are decoupled, that is, the network is not aware of the applications' requirements in a fine granularity.  Therefore, it is difficult to provide truly fine-granularity traffic operations for the applications and guarantee their SLA requirements.</t><t> This document proposes a new framework, named Application-aware Networking (APN), where application-aware information (i.e.  APN attribute) including APN identification (ID) and/or APN parameters (e.g.  network performance requirements) is encapsulated at network edge devices and carried in packets traversing an APN domain in order to facilitate service provisioning, perform fine-granularity traffic steering and network resource adjustment.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-li-apn-framework-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-li-apn-framework-04.txt'/>
+</reference>

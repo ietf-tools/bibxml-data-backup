@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bryant-mpls-unified-ip-sr'>
+<front>
+<title>A Unified Approach to IP Segment Routing</title>
+
+<author initials='S' surname='Bryant' fullname='Stewart Bryant'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2017' />
+
+<abstract><t>Segment routing is a new and powerful forwarding paradigm that allows packets to be steered through a network on paths other than the shortest path derived from the routing protocol.  The approach uses information encoded in the packet header and does not make use of a signaling protocol to pre-install paths in the network.  Two different encapsulations have been defined to enable segment routing in an MPLS network and in an IPv6 network.  While acknowledging that there is a strong need to support segment routing in both environments, this document defines a converged, unified approach to segment routing that enables a single mechanism to be applied in both types of network.  The resulting approach is also applicable to IPv4 networks without the need for any changes to the IPv4 specification.  This document makes no changes to the segment routing architecture and builds on existing protocol mechanisms such as the encapsulation of MPLS within UDP defined in RFC 7510.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bryant-mpls-unified-ip-sr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bryant-mpls-unified-ip-sr-00.txt' />
+</reference>

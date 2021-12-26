@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-mldp-in-band-signaling'>
+<front>
+<title>mLDP based in-band signaling for Point-to-Multipoint and Multipoint-to- Multipoint Label Switched Paths</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='N' surname='Leymann' fullname='Nicolai Leymann'>
+    <organization />
+</author>
+
+<author initials='M' surname='Napierala' fullname='Maria Napierala'>
+    <organization />
+</author>
+
+<date month='February' day='26' year='2010' />
+
+<abstract><t>Suppose an IP multicast tree, constructed by Protocol Independent Multicast (PIM), needs to pass through an MPLS domain in which Multipoint LDP (mLDP) Point-to-Multipoint and/or Multipoint-to- Multipoint Labels Switched Paths (LSPs) can be created.  The part of the IP multicast tree that traverses the MPLS domain can be instantiated as a multipoint LSP.  When a PIM Join message is received at the border of the MPLS domain, information from that message is encoded into mLDP messages.  When the mLDP messages are received at the border of the next IP domain, the encoded information is used to generate PIM messages that can be sent through the IP domain.  The result is an IP multicast tree consisting of a set of IP multicast sub-trees that are spliced together with a multipoint LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-mldp-in-band-signaling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-mldp-in-band-signaling-01.txt' />
+</reference>

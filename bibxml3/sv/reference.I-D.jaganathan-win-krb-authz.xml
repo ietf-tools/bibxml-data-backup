@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jaganathan-win-krb-authz'>
+<front>
+<title>Windows Authorization Data in Kerberos Tickets</title>
+
+<author initials='K' surname='Jaganathan' fullname='Karthik Jaganathan'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2005' />
+
+<abstract><t>Microsoft Windows 2000 includes operating system specific data in the Kerberos V5 authorization data field that is used for access control. This data is used to create an NT access token. The access token is used by the system to enforce access checking when attempting to access objects. This document describes the structure of the Windows 2000 specific authorization data that is carried in that field for use by servers in performing access control.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jaganathan-win-krb-authz-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jaganathan-win-krb-authz-00.txt' />
+</reference>

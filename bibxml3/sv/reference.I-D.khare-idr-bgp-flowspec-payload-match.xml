@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.khare-idr-bgp-flowspec-payload-match'>
+<front>
+<title>BGP FlowSpec Payload Matching</title>
+<author initials='A' surname='Khare' fullname='Anurag Khare'>
+<organization />
+</author>
+<author initials='P' surname='BERGEON' fullname='Philippe BERGEON'>
+<organization />
+</author>
+<author initials='V' surname='Kestur' fullname='Vijay Kestur'>
+<organization />
+</author>
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+<organization />
+</author>
+<author initials='K' surname='Kasavchenko' fullname='Kirill Kasavchenko'>
+<organization />
+</author>
+<date year='2021' month='March' day='07' />
+<abstract><t>The rise in frequency, volume, and pernicious effects of DDoS attacks has elevated them from fare for the specialist to generalist press. Numerous reports detail the taxonomy of DDoS attacks, the varying motivations of their attackers, as well as the resulting impact for their targets ranging from internet or business services to network infrastrutures.</t><t> BGP FlowSpec (RFC 5575, &quot;Dissemination of Flow Specification Rules&quot;) can be used to rapidly disseminate filtering rules to mitigate (distributed) denial-of-service (DoS) attacks.  Operators can use existing FlowSpec components to match typical n-tuple criteria in pre-defined packet header fields such as IP protocol, IP prefix or port number.  Recent enhancements to IP Router forwarding plane filter implementations also allow matches at arbitrary locations within the packet header or payload.  This capability can be used to essentially match a signature for the attack traffic and can be combined with traditional n-tuple filter criteria to mitigate volumetric DDoS attacks and reduce false positive to a minimum.</t><t> To support this new filtering capability we define a new FlowSpec component, &quot;Flexible Match Conditions&quot;, with similar matching semantics to those of existing components.  This component will allow the operator to define a new match condition using a combination of offset and pattern values.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-khare-idr-bgp-flowspec-payload-match-08'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-khare-idr-bgp-flowspec-payload-match-08.txt'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.whittle-ivip-db-fast-push'>
+<front>
+<title>Ivip Mapping Database Fast Push</title>
+
+<author initials='R' surname='Whittle' fullname='Robin Whittle'>
+    <organization />
+</author>
+
+<date month='January' day='13' year='2010' />
+
+<abstract><t>From the base of draft-whittle-ivip-arch-03 and later, this ID describes in greater detail Ivip's fast-push mapping distribution system.  This accepts mapping changes from end-user networks or organizations they authorise to make these changes.  The mapping changes are handled by RUAS (Root Update Authorization Server) companies who collectively run a small set of Launch servers and a global network of Replicator servers.  Each second, the Launch servers send sets of packets with mapping updates to a larger number of level 0 Replicators, each of which gets at least two feeds of these mapping updates from different Launch servers.  Each Level 1 Replicator fans out the mapping changes to multiple Level 2 Replicators, which also receive at least two feeds from upstream Level 1 Replicators.  In this way, within a fraction of a second, the mapping changes are fanned out securely and reliably to full database query servers (QSDs) in ISPs and some end-user networks all over the Net. Additionally, QSDs can download missing packets and snapshots of segments of the mapping database.  A WAG of 4 billion mapping changes a year gives a raw data rate for IPv6 mapping changes of only 32kbps. TTR mobility only involves mapping changes if the MN moves a large distance, such as 1000km.  Multihoming service restoration updates would be infrequent.  Mapping changes for TE could be numerous depending on cost.  It is hard to imagine a scenario where mapping changes would present significant difficulties in terms of bandwidth or in terms of the capacity of QSDs to handle them.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-whittle-ivip-db-fast-push-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-whittle-ivip-db-fast-push-02.txt' />
+</reference>

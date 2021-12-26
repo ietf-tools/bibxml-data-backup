@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.galikunze-ccamp-dwdm-if-snmp-mib'>
+<front>
+<title>An SNMP MIB extension to RFC3591 to manage optical interface parameters of "G.698.2 single channel" in DWDM applications</title>
+
+<author initials='G' surname='Galimberti' fullname='Gabriele Galimberti'>
+    <organization />
+</author>
+
+<author initials='R' surname='Kunze' fullname='Ruediger Kunze'>
+    <organization />
+</author>
+
+<author initials='D' surname='Hiremagalur' fullname='Dharini Hiremagalur'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='G' surname='Ratterree' fullname='Gary Ratterree'>
+    <organization />
+</author>
+
+<date month='March' day='17' year='2016' />
+
+<abstract><t>This memo defines a module of the Management Information Base (MIB) used by Simple Network Management Protocol (SNMP) in TCP/IP- based internet.  In particular, it defines objects for managing single channel optical interface parameters of DWDM applications, using the approach specified in G.698.2 [ITU.G698.2] .  This interface, described in ITU-T G.872, G.709 and G.798, is one type of OTN multi- vendor Intra-Domain Interface (IaDI).  This RFC is an extension of RFC3591 to support the optical parameters specified in ITU-T G.698.2 and application identifiers specified in ITU-T G.874.1 [ITU.G874.1]. Note that G.874.1 encompasses vendor-specific codes, which if used would make the interface a single vendor IaDI and could still be managed.  The MIB module defined in this memo can be used for Optical Parameters monitoring and/or configuration of the endpoints of the multi-vendor IaDI based on the Black Link approach.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-galikunze-ccamp-dwdm-if-snmp-mib-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-galikunze-ccamp-dwdm-if-snmp-mib-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-sealopt'>
+<front>
+<title>The SEAL IPv6 Destination Option</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='January' day='13' year='2012' />
+
+<abstract><t>The Subnetwork Encapsulation and Adaptation Layer (SEAL) provides a mid-layer header designed for the encapsulation of an inner network layer packet within outer network layer headers.  SEAL also supports a transport mode of operation, where the inner payload corresponds to an ordinary transport layer payload.  However, SEAL can also provide benefit when used as an IPv6 destination option that contains a digital signature inserted by the source.  The source can thereafter use the signature to verify that any ICMPv6 messages received actually came from a router on the path, while destinations that share a secret key with the source can verify the signature to ensure data origin authentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-sealopt-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-sealopt-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kitamura-ipv6-zoneid-free'>
+<front>
+<title>Free from Using Zone Identifier for IPv6 Link-Local Address</title>
+
+<author initials='H' surname='Kitamura' fullname='Hiroshi Kitamura'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ata' fullname='Shingo Ata'>
+    <organization />
+</author>
+
+<author initials='M' surname='Murata' fullname='Masayuki Murata'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2013' />
+
+<abstract><t>This document describes how end users can become free from using zone identifiers for IPv6 link-local addresses.  When users deal with IPv6 link-local addresses, it is thought that it is mandatory thing to specify accompanied zone identifiers. For end users, however, it is troublesome and nuisance thing to do it. Because it is very hard for normal end users to find appropriate zone identifiers for this purpose.  From another viewpoint, the usage of IPv6 link-local addresses accompanied with zone identifiers is quite different from the usage of traditional global addresses, many problems are caused and new specifications are required to fix these problems.  This document explores and describes a new mechanism that makes end users free from using zone identifiers for IPv6 link-local addresses. In order to achieve the mechanism, a new notion table that is called "Link-Local Route Cache" is introduced.  This method is upper compatible with the current mechanism and harmless to the existing communications. By adding small improvement to neighbor discovery implementation, "Link-Local Route Cache" is easily implemented.  With this method, end users will be released from using nuisance zone identifiers for IPv6 link-local addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kitamura-ipv6-zoneid-free-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kitamura-ipv6-zoneid-free-00.txt' />
+</reference>

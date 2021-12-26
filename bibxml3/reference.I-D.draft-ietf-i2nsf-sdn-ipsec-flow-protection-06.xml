@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-i2nsf-sdn-ipsec-flow-protection'>
+<front>
+<title>Software-Defined Networking (SDN)-based IPsec Flow Protection</title>
+
+<author initials='R' surname='Lopez' fullname='Rafael Lopez'>
+    <organization />
+</author>
+
+<author initials='G' surname='Lopez-Millan' fullname='Gabriel Lopez-Millan'>
+    <organization />
+</author>
+
+<author initials='F' surname='Pereniguez-Garcia' fullname='Fernando Pereniguez-Garcia'>
+    <organization />
+</author>
+
+<date month='July' day='29' year='2019' />
+
+<abstract><t>This document describes how providing IPsec-based flow protection by means of a Software-Defined Network (SDN) controller (aka.  Security Controller) and establishes the requirements to support this service. It considers two main well-known scenarios in IPsec: (i) gateway-to- gateway and (ii) host-to-host.  The SDN-based service described in this document allows the distribution and monitoring of IPsec information from a Security Controller to one or several flow-based Network Security Function (NSF).  The NSFs implement IPsec to protect data traffic between network resources.  The document focuses on the NSF Facing Interface by providing models for configuration and state data required to allow the Security Controller to configure the IPsec databases (SPD, SAD, PAD) and IKEv2 to establish Security Associations with a reduced intervention of the network administrator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-i2nsf-sdn-ipsec-flow-protection-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-i2nsf-sdn-ipsec-flow-protection-06.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fossati-core-publish-option'>
+<front>
+<title>Publish Option for CoAP</title>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<author initials='P' surname='Giacomin' fullname='Pierpaolo Giacomin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2013' />
+
+<abstract><t>This memo defines the Publish Option for the Constrained Application Protocol (CoAP).  This Option is used by a CoAP Endpoint to control the authority delegation of one of its resources to another Endpoint. All the phases of the authority delegation process (setup, renewal, cancellation) are controlled by a simple RESTful protocol.  This memo also introduces the 'proxies' Web Linking relation type, to be used by a CoAP Proxy to explicitly advertise the resources that it can serve from its cache, or by forwarding the Client request upstream (either to the origin, or to another Proxy).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fossati-core-publish-option-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fossati-core-publish-option-02.txt' />
+</reference>

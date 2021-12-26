@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-straw-b2bua-stun'>
+<front>
+<title>Session Traversal Utilities for NAT (STUN) Message Handling for Session Initiation Protocol (SIP) Back-to-Back User Agents (B2BUAs)</title>
+
+<author initials='R' surname='R' fullname='Ram R'>
+    <organization />
+</author>
+
+<author initials='T' surname='Reddy' fullname='Tirumaleswar Reddy'>
+    <organization />
+</author>
+
+<author initials='G' surname='Salgueiro' fullname='Gonzalo Salgueiro'>
+    <organization />
+</author>
+
+<date month='September' day='30' year='2014' />
+
+<abstract><t>Session Initiation Protocol (SIP) Back-to-Back User Agents (B2BUAs) are often designed to be on the media path, rather than just intercepting signaling.  This means that B2BUAs often act on the media path leading to separate media legs that the B2BUA correlates and bridges together.  When acting on the media path, B2BUAs are likely to receive Session Traversal Utilities for NAT (STUN) packets as part of Interactive Connectivity Establishment (ICE) processing. It is critical that B2BUAs handle these STUN messages properly.  This document defines behavior for a B2BUA performing ICE processing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-straw-b2bua-stun-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-straw-b2bua-stun-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-optimal-route-reflection'>
+<front>
+<title>BGP Optimal Route Reflection (BGP-ORR)</title>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='C' surname='Cassar' fullname='Christian Cassar'>
+    <organization />
+</author>
+
+<author initials='E' surname='Aman' fullname='Erik Aman'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='K' surname='Wang' fullname='Kevin Wang'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2020' />
+
+<abstract><t>This document defines an extension to BGP route reflectors.  On route reflectors, BGP route selection is modified in order to choose the best path for their clients standpoint, rather than from the route reflectors standpoint.  Multiple type of granularity are proposed, from a per client BGP route selection or to a per peer group, depending on the scaling and precision requirements on route selection.  This solution is particularly applicable in deployments using centralized route reflectors, where choosing the best route based on the Route Reflector IGP location is suboptimal.  This facilitates, for example, best exit point policy (hot potato routing).  The solution relies upon all route reflectors learning all paths which are eligible for consideration.  Best path selection is performed in each route reflector based on the IGP cost from a selected location in the link state IGP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-optimal-route-reflection-21' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-optimal-route-reflection-21.txt' />
+</reference>

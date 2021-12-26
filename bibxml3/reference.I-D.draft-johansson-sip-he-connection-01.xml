@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.johansson-sip-he-connection'>
+<front>
+<title>Setting up a SIP (Session Initiation Protocol) connection in a dual stack network using connection oriented transports</title>
+
+<author initials='O' surname='Johansson' fullname='Olle Johansson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Salgueiro' fullname='Gonzalo Salgueiro'>
+    <organization />
+</author>
+
+<author initials='D' surname='Worley' fullname='Dale Worley'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2016' />
+
+<abstract><t>The Session Initiation Protocol (SIP) supports multiple transports running both over IPv4 and IPv6 protocols.  In more and more cases, a SIP user agent (UA) is connected to multiple network interfaces.  In these cases setting up a connection from a dual stack client to a dual stack server may suffer from the issues described in RFC 6555 [RFC6555] - Happy Eyeballs - significant delays in the process of setting up a working flow to a server.  This negatively affects user experience.  This document builds on RFC 6555 and explains how a RFC3261 [RFC3261] compliant SIP implementation can quickly set up working flows to a given hostname (located by using DNS NAPTR and SRV lookups) in a dual stack network using connection oriented transport protocols.  A solution for connectionless transport protocols is discussed in a separate document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-johansson-sip-he-connection-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-johansson-sip-he-connection-01.txt' />
+</reference>

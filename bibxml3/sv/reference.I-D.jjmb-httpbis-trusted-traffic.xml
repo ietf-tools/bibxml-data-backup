@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jjmb-httpbis-trusted-traffic'>
+<front>
+<title>Trusted Traffic</title>
+
+<author initials='J' surname='Brzozowski' fullname='John Brzozowski'>
+    <organization />
+</author>
+
+<author initials='K' surname='Beevers' fullname='Kris Beevers'>
+    <organization />
+</author>
+
+<author initials='J' surname='Cariello' fullname='James Cariello'>
+    <organization />
+</author>
+
+<author initials='J' surname='Colton' fullname='John Colton'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jacob' fullname='Lutz Jacob'>
+    <organization />
+</author>
+
+<author initials='J' surname='Leddy' fullname='John Leddy'>
+    <organization />
+</author>
+
+<author initials='J' surname='Shaul' fullname='Josh Shaul'>
+    <organization />
+</author>
+
+<author initials='L' surname='Steinberg' fullname='Lou Steinberg'>
+    <organization />
+</author>
+
+<date month='May' day='22' year='2018' />
+
+<abstract><t>Current methods for managing traffic through content inspection tend to process all sessions similarly.  Internet traffic examples like DDoS mitigation require all data to pass through one of a limited number of scrubbing centers, which create both natural choke points and the potential for widespread collateral damage should a center become overloaded.  Similar issues exist with email SPAM and malware filtering, traffic shaping, etc.  We propose a method to utilize existing HTTP and HTTPS protocols that enables destinations to temporarily confer trust on sources, and for trusted traffic to be routed and processed differently from untrusted traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jjmb-httpbis-trusted-traffic-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jjmb-httpbis-trusted-traffic-00.txt' />
+</reference>

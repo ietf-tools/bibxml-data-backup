@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.swett-nwcrg-coding-for-quic'>
+<front>
+<title>Coding for QUIC</title>
+
+<author initials='I' surname='Swett' fullname='Ian Swett'>
+    <organization />
+</author>
+
+<author initials='M' surname='Montpetit' fullname='Marie-Jose Montpetit'>
+    <organization />
+</author>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<date month='February' day='4' year='2019' />
+
+<abstract><t>This document focusses on the integration of FEC coding in the QUIC transport protocol, in order to recover from packet losses.  This document does not specify any FEC code but defines mechanisms to negotiate and integrate FEC Schemes in QUIC.  By using proactive loss recovery, it is expected to improve QUIC performance in sessions impacted by packet losses.  More precisely it is expected to improve QUIC performance with real-time sessions (since FEC coding makes packet loss recovery insensitive to the round trip time), with multicast sessions (since the same repair packet can recover several different losses at several receivers), and with multipath sessions (since repair packets add diversity).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-swett-nwcrg-coding-for-quic-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-swett-nwcrg-coding-for-quic-02.txt' />
+</reference>

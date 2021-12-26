@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gao-alto-fcs'>
+<front>
+<title>ALTO Extension: Flow-based Cost Query</title>
+
+<author initials='J' surname='Zhang' fullname='J. Zhang'>
+    <organization />
+</author>
+
+<author initials='K' surname='Gao' fullname='Kai Gao'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wang' fullname='Junzhuo Wang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Y. Yang'>
+    <organization />
+</author>
+
+<date month='March' day='16' year='2020' />
+
+<abstract><t>ALTO cost maps and endpoint cost services map a source-destination pair into a cost value.  However, current filter specifications, which define the set of source-destination pairs in an ALTO query, have two limitations: 1) Only very limited address types are supported (IPv4 and IPv6), which is not sufficient to uniquely identify a flow in networks with fine-grained routing, such as the emerging Software Defined Networks; 2) The base ALTO protocol only defines filters enumerating all sources and all destinations, leading to redundant information in the response; 3) Cannot distinguish transmission types of flows in the query, which makes the server hard to respond the accurate resource consumption.  To address these three issues, this document extends the base ALTO protocol with a more fine-grained filter type which allows ALTO clients to select only the concerned source-destination pairs and announce the flow-specific information like data transmission type, and a more expressive address space which allows ALTO clients to make queries beyond the limited IP addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gao-alto-fcs-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gao-alto-fcs-07.txt' />
+</reference>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8368' target='https://www.rfc-editor.org/info/rfc8368'>
+<front>
+<title>Using an Autonomic Control Plane for Stable Connectivity of Network Operations, Administration, and Maintenance (OAM)</title>
+<author initials='T.' surname='Eckert' fullname='T. Eckert' role='editor'><organization /></author>
+<author initials='M.' surname='Behringer' fullname='M. Behringer'><organization /></author>
+<date year='2018' month='May' />
+<abstract><t>Operations, Administration, and Maintenance (OAM), as per BCP 161, for data networks is often subject to the problem of circular dependencies when relying on connectivity provided by the network to be managed for the OAM purposes.</t><t>Provisioning while bringing up devices and networks tends to be more difficult to automate than service provisioning later on.  Changes in core network functions impacting reachability cannot be automated because of ongoing connectivity requirements for the OAM equipment itself, and widely used OAM protocols are not secure enough to be carried across the network without security concerns.</t><t>This document describes how to integrate OAM processes with an autonomic control plane in order to provide stable and secure connectivity for those OAM processes.  This connectivity is not subject to the aforementioned circular dependencies.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8368'/>
+<seriesInfo name='DOI' value='10.17487/RFC8368'/>
+</reference>

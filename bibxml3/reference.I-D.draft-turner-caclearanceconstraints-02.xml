@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.turner-caclearanceconstraints'>
+<front>
+<title>Clearance Attribute and Authority Clearance Constraints Certificate  Extension</title>
+
+<author initials='S' surname='Turner' fullname='Sean Turner'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chokhani' fullname='Santosh Chokhani'>
+    <organization />
+</author>
+
+<date month='November' day='1' year='2008' />
+
+<abstract><t>This document defines the syntax and semantics for the Clearance attribute and the Authority Clearance Constraints extension in X.509 certificates.  The Clearance attribute is used to indicate the clearance held by the subject.  The Clearance attribute may appear in the subject directory attributes extension of a public key certificate or in the attributes field of an attribute certificate. The Authority Clearance Constraints certificate extension values in a Trust Anchor (TA), CA public key certificates, and an Attribute Authority (AA) public key certificate in a public key certification path constrain the effective Clearance of the subject.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-turner-caclearanceconstraints-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-turner-caclearanceconstraints-02.txt' />
+</reference>

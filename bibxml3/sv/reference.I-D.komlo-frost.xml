@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.komlo-frost'>
+<front>
+<title>FROST: Flexible Round-Optimized Schnorr Threshold Signatures</title>
+
+<author initials='C' surname='Komlo' fullname='Chelsea Komlo'>
+    <organization />
+</author>
+
+<author initials='I' surname='Goldberg' fullname='Ian Goldberg'>
+    <organization />
+</author>
+
+<date month='August' day='7' year='2020' />
+
+<abstract><t>Unlike signatures in a single-party setting, threshold signatures require cooperation among a threshold number of signers each holding a share of a common private key.  Consequently, generating signatures in a threshold setting imposes overhead due to network rounds among signers, proving costly when secret shares are stored on network- limited devices or when coordination occurs over unreliable networks. This draft describes FROST, a Flexible Round-Optimized Schnorr Threshold signature scheme that reduces network overhead during signing operations while employing a novel technique to protect against forgery attacks applicable to similar schemes in the literature.  FROST improves upon the state of the art in Schnorr threshold signature protocols, as it can safely perform signing operations in a single round without limiting concurrency of signing operations, yet allows for true threshold signing, as only a threshold number of participants are required for signing operations. FROST can be used as either a two-round protocol where signers send and receive two messages in total, or optimized to a single-round signing protocol with a pre-processing stage.  FROST achieves its efficiency improvements in part by allowing the protocol to abort in the presence of a misbehaving participant (who is then identified and excluded from future operations)--a reasonable model for practical deployment scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-komlo-frost-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-komlo-frost-00.txt' />
+</reference>

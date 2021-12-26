@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hain-ipv6-edit'>
+<front>
+<title>IPv6 Edge Domain Implicit Tunnel (EDIT)</title>
+
+<author initials='T' surname='Hain' fullname='Tony Hain'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>There will be IPv4-only applications that remain in use as network managers begin deploying IPv6-only networks, or turning off IPv4 in the exiting dual-stack networks.  These applications require a dual-   stack capable host operating system, but that OS may find that the local network has not provided on-link IPv4 provisioning or routing support for the resulting packets. Skepticism that this situation will exist is widespread; because it is easy to ignore the costs someone else will incur and focus on the local situation. Taking the system level viewpoint, that skepticism makes no sense when it is widely acknowledged that people will resist replacing something that is working, particularly when the reason it might artificially stop is due to 'someone else's problem'.  The reality of IPv4-only applications persisting in an IPv6-only provisioned network is specifically ignored by RFC 4038.  This document deals with the situation by defining a new tunneling type for use within the edge or leaf network to the border where it interconnects with an IPv4 routing domain.  The draft is being discussed on the ipv6@ietf.org list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hain-ipv6-edit-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hain-ipv6-edit-00.txt' />
+</reference>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7961' target='https://www.rfc-editor.org/info/rfc7961'>
+<front>
+<title>Transparent Interconnection of Lots of Links (TRILL): Interface Addresses APPsub-TLV</title>
+<author initials='D.' surname='Eastlake 3rd' fullname='D. Eastlake 3rd'><organization /></author>
+<author initials='L.' surname='Yizhou' fullname='L. Yizhou'><organization /></author>
+<date year='2016' month='August' />
+<abstract><t>This document specifies a TRILL (Transparent Interconnection of Lots of Links) IS-IS application sub-TLV that enables the reporting by a TRILL switch of sets of addresses.  Each set of addresses reports all of the addresses that designate the same interface (port) and also reports the TRILL switch by which that interface is reachable.  For example, a 48-bit MAC (Media Access Control) address, IPv4 address, and IPv6 address can be reported as all corresponding to the same interface reachable by a particular TRILL switch.  Such information could be used in some cases to synthesize responses to, or bypass the need for, the Address Resolution Protocol (ARP), the IPv6 Neighbor Discovery (ND) protocol, or the flooding of unknown MAC addresses.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7961'/>
+<seriesInfo name='DOI' value='10.17487/RFC7961'/>
+</reference>

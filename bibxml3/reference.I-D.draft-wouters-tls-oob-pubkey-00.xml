@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wouters-tls-oob-pubkey'>
+<front>
+<title>TLS Extension for out-of-band public key validation</title>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<author initials='J' surname='Gilmore' fullname='John Gilmore'>
+    <organization />
+</author>
+
+<author initials='S' surname='Weiler' fullname='Samuel Weiler'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2011' />
+
+<abstract><t>This document specifies a new TLS extension as well as modified TLS client and TLS server behaviour when public keys are authenticated out-of-band to the current TLS connection.  It is a companion document for RFC 5246, "The Transport Layer Security (TLS) Protocol Version 1.2".  The new extension specified is "oob_pubkey_list" which can be used when the TLS client is already in possession of a validated public key of the TLS server before it starts the TLS handshake.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wouters-tls-oob-pubkey-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wouters-tls-oob-pubkey-00.txt' />
+</reference>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6290' target='https://www.rfc-editor.org/info/rfc6290'>
+<front>
+<title>A Quick Crash Detection Method for the Internet Key Exchange Protocol (IKE)</title>
+<author initials='Y.' surname='Nir' fullname='Y. Nir' role='editor'><organization /></author>
+<author initials='D.' surname='Wierbowski' fullname='D. Wierbowski'><organization /></author>
+<author initials='F.' surname='Detienne' fullname='F. Detienne'><organization /></author>
+<author initials='P.' surname='Sethi' fullname='P. Sethi'><organization /></author>
+<date year='2011' month='June' />
+<abstract><t>This document describes an extension to the Internet Key Exchange Protocol version 2 (IKEv2) that allows for faster detection of Security Association (SA) desynchronization using a saved token.</t><t>When an IPsec tunnel between two IKEv2 peers is disconnected due to a restart of one peer, it can take as much as several minutes for the other peer to discover that the reboot has occurred, thus delaying recovery.  In this text, we propose an extension to the protocol that allows for recovery immediately following the restart.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6290'/>
+<seriesInfo name='DOI' value='10.17487/RFC6290'/>
+</reference>

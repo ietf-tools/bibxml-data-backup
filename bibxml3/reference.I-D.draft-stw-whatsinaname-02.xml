@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stw-whatsinaname'>
+<front>
+<title>Some Considerations on the Use of Domain Names Outside of the Global Public Domain Name System</title>
+
+<author initials='S' surname='Woolf' fullname='Suzanne Woolf'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>From time to time, networking protocols need to be able to name things used within the protocol, and resolve the names created or referenced.  It's common for protocol designers to attempt to use domain names as the starting point for their systems of names, and the DNS protocol as the starting point for name resolution.  Such re- use of DNS naming and resolution conventions can cause issues if not carefully defined and handled, as applications and infrastructure in the modern Internet tend to assume that a "domain name" is an identifier that follows certain composition and allocation rules and is to be resolved by DNS protocol in the global default scope.  This document acknowledges this class of extensions to the shared domain namespace and considers a framework for the properties a naming and resolution convention should have in the internet protocol environment, including the avoidance of collision with other uses of the namespace.  Depending to the answers to the suggested questions, the answer may be that domain names will not meet the constraints at hand.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stw-whatsinaname-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stw-whatsinaname-02.txt' />
+</reference>

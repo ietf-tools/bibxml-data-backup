@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaduk-afs3-rxkad-k5-kdf'>
+<front>
+<title>krb5 based key derivation for rxkad</title>
+
+<author initials='B' surname='Kaduk' fullname='Benjamin Kaduk'>
+    <organization />
+</author>
+
+<date month='March' day='12' year='2014' />
+
+<abstract><t>This document describes two extensions to the rxkad security class for the RX RPC protocol, rxkad-k5 and rxkad-kdf. rxkad currently relies on the Kerberos Key Distribution Center to support single-DES encryption types, which are increasingly disabled by default in Kerberos implementations.  This document provides a framework for rxkad to support long-term service keys with strong enctypes (rxkad-k5), and a key derivation procedure to allow Kerberos session keys with strong enctypes to be used with rxkad (rxkad-kdf).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kaduk-afs3-rxkad-k5-kdf-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kaduk-afs3-rxkad-k5-kdf-00.txt' />
+</reference>

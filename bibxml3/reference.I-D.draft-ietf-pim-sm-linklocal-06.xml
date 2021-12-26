@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pim-sm-linklocal'>
+<front>
+<title>Authentication and Confidentiality in PIM-SM Link-local Messages</title>
+
+<author initials='W' surname='Atwood' fullname='William  Atwood'>
+    <organization />
+</author>
+
+<author initials='S' surname='Islam' fullname='Salekul Islam'>
+    <organization />
+</author>
+
+<author initials='M' surname='Siami' fullname='Maziar Siami'>
+    <organization />
+</author>
+
+<date month='February' day='4' year='2009' />
+
+<abstract><t>RFC 4601 mandates the use of IPsec to ensure authentication of the link-local messages in the Protocol Independent Multicast - Sparse Mode (PIM-SM) routing protocol.  This document specifies mechanisms to authenticate the PIM-SM link local messages using the IP security (IPsec) Encapsulating Security Payload (ESP) or (optionally) the Authentication Header (AH).  It specifies optional mechanisms to provide confidentiality using the ESP.  Manual keying is specified as the mandatory and default group key management solution.  To deal with issues of scalability and security that exist with manual keying, an optional support for automated group key management mechanism is provided.  However, the procedures for implementing automated group key management are left to other documents.  This document updates RFC 4601.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pim-sm-linklocal-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-sm-linklocal-06.txt' />
+</reference>

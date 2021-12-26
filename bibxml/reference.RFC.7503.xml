@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7503' target='https://www.rfc-editor.org/info/rfc7503'>
+<front>
+<title>OSPFv3 Autoconfiguration</title>
+<author initials='A.' surname='Lindem' fullname='A. Lindem'><organization /></author>
+<author initials='J.' surname='Arkko' fullname='J. Arkko'><organization /></author>
+<date year='2015' month='April' />
+<abstract><t>OSPFv3 is a candidate for deployments in environments where autoconfiguration is a requirement.  One such environment is the IPv6 home network where users expect to simply plug in a router and have it automatically use OSPFv3 for intra-domain routing.  This document describes the necessary mechanisms for OSPFv3 to be self-configuring. This document updates RFC 5340 by relaxing the HelloInterval/ RouterDeadInterval checking during OSPFv3 adjacency formation and adding hysteresis to the update of self-originated Link State Advertisements (LSAs).</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7503'/>
+<seriesInfo name='DOI' value='10.17487/RFC7503'/>
+</reference>

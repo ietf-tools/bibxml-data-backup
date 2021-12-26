@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-p2psip-sip'>
+<front>
+<title>A SIP Usage for RELOAD</title>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<author initials='B' surname='Lowekamp' fullname='Bruce Lowekamp'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<author initials='S' surname='Baset' fullname='Salman Baset'>
+    <organization />
+</author>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schmidt' fullname='Thomas Schmidt'>
+    <organization />
+</author>
+
+<date month='April' day='7' year='2016' />
+
+<abstract><t>This document defines a SIP Usage for REsource LOcation And Discovery (RELOAD).  The SIP Usage provides the functionality of a SIP proxy or registrar in a fully-distributed system and includes a lookup service for Address of Records (AORs) stored in the overlay.  It also defines Globally Routable User Agent URIs (GRUUs) that allow the registrations to map an AOR to a specific node reachable through the overlay.  After such initial contact of a peer, the RELOAD AppAttach method is used to establish a direct connection between nodes through which SIP messages are exchanged.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-p2psip-sip-18' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-p2psip-sip-18.txt' />
+</reference>

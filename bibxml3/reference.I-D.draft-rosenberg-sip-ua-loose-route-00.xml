@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosenberg-sip-ua-loose-route'>
+<front>
+<title>Applying Loose Routing to Session Initiation Protocol (SIP) User Agents  (UA)</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2006' />
+
+<abstract><t>A key part of the behavior of the Session Initiation Protocol (SIP) is that SIP proxies rewrite the Request-URI as a request moves throughout the network. Over the years, experience has shown this to be problematic. It makes it difficult to use Request URI for service invocation, complicates emergency services, makes it more complex to support aliases, and so on. Architecturally, it confounds the concepts of address and route. This document proposes to change this through a new mechanism called UA loose routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosenberg-sip-ua-loose-route-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosenberg-sip-ua-loose-route-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ash-gcac-algorithm-spec'>
+<front>
+<title>Generic Connection Admission Control (GCAC) Algorithm Specification for IP/MPLS Networks</title>
+
+<author initials='G' surname='Ash' fullname='Gerald Ash'>
+    <organization />
+</author>
+
+<author initials='D' surname='McDysan' fullname='Dave McDysan'>
+    <organization />
+</author>
+
+<date month='September' day='20' year='2011' />
+
+<abstract><t>This document presents a generic connection admission control (GCAC) reference model and algorithm for IP/MPLS-based networks.  Service provider (SP) IP/MPLS networks need an MPLS GCAC mechanism, for example, to reject voice over Internet Protocol (VoIP) calls when additional calls would adversely affect calls already in progress. Without MPLS GCAC, connections on congested links will suffer degraded quality.  The MPLS GCAC algorithm can be optionally implemented in vendor equipment and deployed by service providers. MPLS GCAC interoperates between vendor equipment and across multiple service provider domains.  The MPLS GCAC algorithm uses available standard mechanisms for MPLS based networks, such as RSVP, DSTE, PCE, NSIS, DiffServ, and OSPF.  The MPLS GCAC algorithm does not include aspects of CAC that might be considered vendor proprietary implementations, such as detailed path selection mechanisms.  MPLS GCAC functions are implemented in a distributed manner to deliver the objective QoS for specified QoS constraints.  The objective is that the source is able to compute a source route with high likelihood that MPLS GCAC via elements along the selected path will in fact admit the request.  In some cases (e.g., multiple AS) this objective cannot always be met, but the document summarizes methods that partially meet this objective.  MPLS GCAC is applicable to any service or flow that must meet an objective QoS (delay, jitter, packet loss rate) for a specified quantity of traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ash-gcac-algorithm-spec-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ash-gcac-algorithm-spec-02.txt' />
+</reference>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ace-aif'>
+<front>
+<title>An Authorization Information Format (AIF) for ACE</title>
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+<organization />
+</author>
+<date year='2021' month='June' day='24' />
+<abstract><t>Constrained Devices as they are used in the &quot;Internet of Things&quot; need security.  One important element of this security is that devices in the Internet of Things need to be able to decide which operations requested of them should be considered authorized, need to ascertain that the authorization to request the operation does apply to the actual requester, and need to ascertain that other devices they place requests on are the ones they intended.</t><t> To transfer detailed authorization information from an authorization manager (such as an ACE-OAuth Authorization Server) to a device, a compact representation format is needed.  This document provides a suggestion for such a format, the Authorization Information Format (AIF).  AIF is defined both as a general structure that can be used for many different applications and as a specific refinement that describes REST resources (potentially dynamically created) and the permissions on them.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-ace-aif-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-ace-aif-03.txt'/>
+</reference>

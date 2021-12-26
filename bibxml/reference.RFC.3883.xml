@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3883' target='https://www.rfc-editor.org/info/rfc3883'>
+<front>
+<title>Detecting Inactive Neighbors over OSPF Demand Circuits (DC)</title>
+<author initials='S.' surname='Rao' fullname='S. Rao'><organization /></author>
+<author initials='A.' surname='Zinin' fullname='A. Zinin'><organization /></author>
+<author initials='A.' surname='Roy' fullname='A. Roy'><organization /></author>
+<date year='2004' month='October' />
+<abstract><t>OSPF is a link-state intra-domain routing protocol used in IP networks.  OSPF behavior over demand circuits (DC) is optimized in RFC 1793 to minimize the amount of overhead traffic.  A part of the OSPF demand circuit extensions is the Hello suppression mechanism.  This technique allows a demand circuit to go down when no interesting traffic is going through the link.  However, it also introduces a problem, where it becomes impossible to detect an OSPF-inactive neighbor over such a link.  This memo introduces a new mechanism called &quot;neighbor probing&quot; to address the above problem.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3883'/>
+<seriesInfo name='DOI' value='10.17487/RFC3883'/>
+</reference>

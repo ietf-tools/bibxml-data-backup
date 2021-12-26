@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-tunnel-encaps'>
+<front>
+<title>The BGP Tunnel Encapsulation Attribute</title>
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+<organization />
+</author>
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+<organization />
+</author>
+<author initials='S' surname='Sangli' fullname='Srihari Sangli'>
+<organization />
+</author>
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+<organization />
+</author>
+<date year='2021' month='January' day='07' />
+<abstract><t>This document defines a BGP Path Attribute known as the &quot;Tunnel Encapsulation Attribute&quot;, which can be used with BGP UPDATEs of various SAFIs to provide information needed to create tunnels and their corresponding encapsulation headers.  It provides encodings for a number of Tunnel Types along with procedures for choosing between alternate tunnels and routing packets into tunnels.</t><t> This document obsoletes RFC 5512, which provided an earlier definition of the Tunnel Encapsulation Attribute.  RFC 5512 was never deployed in production.  Since RFC 5566 relies on RFC 5512, it is likewise obsoleted.  This document updates RFC 5640 by indicating that the Load-Balancing Block sub-TLV may be included in any Tunnel Encapsulation Attribute where load balancing is desired.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-tunnel-encaps-22'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-idr-tunnel-encaps-22.txt'/>
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.agv-rtgwg-spring-segment-routing-mrt'>
+<front>
+<title>Maximally Redundant Trees in Segment Routing</title>
+
+<author initials='a' surname='anil.ietf@gmail.com' fullname='anil.ietf@gmail.com'>
+    <organization />
+</author>
+
+<author initials='G' surname='Agrawal' fullname='Gaurav Agrawal'>
+    <organization />
+</author>
+
+<author initials='V' surname='KumarS' fullname='Vinod KumarS'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<date month='August' day='29' year='2016' />
+
+<abstract><t>[RFC7812] defines an architecture for IP/LDP Fast Reroute using Maximally Redundant Trees (MRT-FRR).  This document extends the use of MRT to provide link and node protection for networks that use segment routing.  This document makes use of the inherent support in segment routing for associating segments with different algorithms for computing next hops to reach prefixes.  It assigns new Segment Routing Algorithms values corresponding to the MRT-Red and MRT-Blue next-hop computations defined in [RFC7811].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-agv-rtgwg-spring-segment-routing-mrt-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-agv-rtgwg-spring-segment-routing-mrt-03.txt' />
+</reference>

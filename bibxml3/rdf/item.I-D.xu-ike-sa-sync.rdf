@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-xu-ike-sa-sync-01.txt'>
+    <title>"IKEv2 SA Synchronization for session resumption", Yan Xu, Peng Yang, Yuanchen Ma, Hui Deng, Hui Deng</title>
+    <link>http://www.ietf.org/internet-drafts/draft-xu-ike-sa-sync-01.txt</link>
+    <description>It will take a long time and mass computation to do session resumption among IKE/IPsec gateways possibly maintaining huge numbers of IKEv2/IPsec SAs, when the serving gateway fails or over-loaded. The major reason is that the prcocedure of IKEv2 SA re-establishment will incur a time-consuming computation especially in the Diffie- Hellman exchange.  In this draft, a new IKE security associations synchronization solution is proposed to do fast IKE SA session resumption by directly transferring the indexed IKE SA (named stub) from old gateway to new gateway, wherein the most expensive Diffie- Hellman calculation can be avoided.  Without some time-consuming IKEv2 exchanges, the huge amount of IKE/IPsec SA session resumption procedures can be finished in a short time.</description>
+    <dc:date>2008-10-06T22:00:00-00:00</dc:date>
+</item>

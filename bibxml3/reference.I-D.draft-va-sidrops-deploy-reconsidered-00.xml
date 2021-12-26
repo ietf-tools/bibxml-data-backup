@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.va-sidrops-deploy-reconsidered'>
+<front>
+<title>Deployment of Reconsidered Validation in the Resource Public Key Infrastructure (RPKI)</title>
+
+<author initials='G' surname='Michaelson' fullname='George Michaelson'>
+    <organization />
+</author>
+
+<author initials='T' surname='Bruijnzeels' fullname='Tim Bruijnzeels'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2018' />
+
+<abstract><t>This document defines a deployment model for reconsidered validation [RFC8360] in the Resource Public Key Infrastructure (RPKI).  It stipulates that Relying Parties in the RPKI MUST support reconsidered validation by 1 July TBD-Year, and that Certificate Authorities MAY use the reconsidered validation OIDs in CA certificates that they issue from this date.  Furthermore Certificate Authorities should monitor whether the set of resources in CA certificate they receive has shrunk, and make adjustments in the CA certificates and/or other RPKI objects when appropriate.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-va-sidrops-deploy-reconsidered-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-va-sidrops-deploy-reconsidered-00.txt' />
+</reference>

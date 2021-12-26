@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc3892.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc3892.txt</link>
+        <title>RFC 3892: The Session Initiation Protocol (SIP) Referred-By Mechanism, R. Sparks</title>
+        <dc:date>2004-09-01T23:00:00-00:00</dc:date>
+        <description>The Session Initiation Protocol (SIP) REFER method provides a mechanism where one party (the referrer) gives a second party (the referee) an arbitrary URI to reference.  If that URI is a SIP URI, the referee will send a SIP request, often an INVITE, to that URI (the refer target).  This document extends the REFER method, allowing the referrer to provide information about the REFER request to the refer target using the referee as an intermediary.  This information includes the identity of the referrer and the URI to which the referrer referred.  The mechanism utilizes S/MIME to help protect this information from a malicious intermediary.  This protection is optional, but a recipient may refuse to accept a request unless it is present.  [STANDARDS-TRACK] </description>
+    </item>
+

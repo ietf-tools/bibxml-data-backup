@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.menth-pcn-marked-signaling-ac'>
+<front>
+<title>Admission Control Using PCN-Marked Signaling</title>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='R' surname='Geib' fullname='Ruediger Geib'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2011' />
+
+<abstract><t>Pre-congestion notification (PCN) is a means for protecting quality of service for inelastic traffic admitted to a Diffserv domain.  The overall PCN architecture is described in RFC5559.  This memo is one of a series describing possible boundary node behaviours for a PCN domain.  This document proposes an admission control method.  It assumes that PCN nodes perform threshold-marking configured with the PCN- admissible-rate on any link.  The PCN marking state of an initial signaling message of a flow is used to determine whether the flow should be admitted or blocked.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-menth-pcn-marked-signaling-ac-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-menth-pcn-marked-signaling-ac-00.txt' />
+</reference>

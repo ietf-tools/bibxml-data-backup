@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rohc-rfc3095bis-rohcv2-profiles'>
+<front>
+<title>RObust Header Compression Version 2 (ROHCv2): Profiles for RTP, UDP, IP, ESP  and UDP Lite</title>
+
+<author initials='G' surname='Pelletier' fullname='Ghyslain Pelletier'>
+    <organization />
+</author>
+
+<author initials='K' surname='Sandlund' fullname='Kristofer Sandlund'>
+    <organization />
+</author>
+
+<date month='March' day='19' year='2008' />
+
+<abstract><t>This document specifies ROHC (Robust Header Compression) profiles that efficiently compress RTP/UDP/IP (Real-Time Transport Protocol, User Datagram Protocol, Internet Protocol), RTP/UDP-Lite/IP (User Datagram Protocol Lite), UDP/IP, UDP-Lite/IP, IP and ESP/IP (Encapsulating Security Payload) headers.  This specification defines a second version of the profiles found in RFC 3095, RFC 3843 and RFC 4019; it supersedes their definition, but does not obsolete them.  The ROHCv2 profiles introduce a number of simplifications to the rules and algorithms that govern the behavior of the compression endpoints.  It also defines robustness mechanisms that may be used by a compressor implementation to increase the probability of decompression success when packets can be lost and/or reordered on the ROHC channel.  Finally, the ROHCv2 profiles define its own specific set of header formats, using the ROHC formal notation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rohc-rfc3095bis-rohcv2-profiles-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rohc-rfc3095bis-rohcv2-profiles-06.txt' />
+</reference>

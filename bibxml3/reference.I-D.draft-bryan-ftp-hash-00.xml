@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bryan-ftp-hash'>
+<front>
+<title>FTP Extensions for Cryptographic Hashes</title>
+
+<author initials='A' surname='Bryan' fullname='Anthony Bryan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kosse' fullname='Tim Kosse'>
+    <organization />
+</author>
+
+<date month='March' day='22' year='2010' />
+
+<abstract><t>The specification for the File Transfer Protocol does not include methods to obtain cryptographic hashes of files.  Cryptographic hashes can be used to identify files and verify intregrity. Unfortunately, because of the desire for this feature, multiple commands that are not formally specified have been implemented in FTP applications leading to non-interoperability and confusion.  This specification documents an optional command where FTP clients can request the cryptographic hash of a file from a FTP server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bryan-ftp-hash-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bryan-ftp-hash-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-trill-aggregation'>
+<front>
+<title>Problem Statement: TRILL Active/Active Edge</title>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<date month='August' day='21' year='2013' />
+
+<abstract><t>This document specifies TRILL active/active edge which allows multiple RBridges concurrently forward data frames of the same VLAN on links bundled by a Multi-Chassis Link Aggregation Group. With this kind of connection, end nodes may increase the bandwidth and reliability of the access at the edge of TRILL campuses. It's required that no loop or duplication is caused by this new connection type. Besides this basic requirement, this document outlines other potential issues associated with TRILL active/active edge and investigates how these issues may be addressed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-trill-aggregation-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-trill-aggregation-04.txt' />
+</reference>

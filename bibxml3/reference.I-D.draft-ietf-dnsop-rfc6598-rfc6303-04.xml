@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-rfc6598-rfc6303'>
+<front>
+<title>Add 100.64.0.0/10 prefixes to IPv4 Locally-Served DNS Zones Registry.</title>
+
+<author initials='M' surname='Andrews' fullname='Mark Andrews'>
+    <organization />
+</author>
+
+<date month='October' day='10' year='2015' />
+
+<abstract><t>RFC6598 specified that: "Reverse DNS queries for Shared Address Space addresses [100.64.0.0/10] MUST NOT be forwarded to the global DNS infrastructure."  This document formally directs IANA to add the associated zones to the "IPv4 Locally-Served DNS Zones Registry" to prevent such queries accidently leaking to the global DNS infrastructure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-rfc6598-rfc6303-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-rfc6598-rfc6303-04.txt' />
+</reference>

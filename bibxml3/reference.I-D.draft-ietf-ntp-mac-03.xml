@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ntp-mac'>
+<front>
+<title>Message Authentication Code for the Network Time Protocol</title>
+
+<author initials='A' surname='Malhotra' fullname='Aanchal Malhotra'>
+    <organization />
+</author>
+
+<author initials='S' surname='Goldberg' fullname='Sharon Goldberg'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>RFC 5905 [RFC5905] states that Network Time Protocol (NTP) packets should be authenticated by appending a 128-bit key to the NTP data, and hashing the result with MD5 to obtain a 128-bit tag.  This document deprecates MD5-based authentication, which is considered to be too weak, and recommends the use of AES-CMAC [RFC4493] as a replacement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ntp-mac-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ntp-mac-03.txt' />
+</reference>

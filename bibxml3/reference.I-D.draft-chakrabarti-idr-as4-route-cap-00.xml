@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chakrabarti-idr-as4-route-cap'>
+<front>
+<title>AS4-specific RD/RT/SOO Capability exchange</title>
+
+<author initials='S' surname='Chakrabarti' fullname='Samita Chakrabarti'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>RFC 4893 defines BGP support for four-octet AS number space for handling AS_PATH attributes and "My ASN" value in BGP OPEN messages. Foue-Octet AS specific Extended Community attribute formats are defined in draft-rekhter-as4octet-ext-community-03.txt.  However, an implementation compliant to RFC 4893 does not necessarily provide support for 4-Octet Route-distinguisher, Route-target or Site-of- origin in the BGP-MPLS-VPN.  Thus BGP capability exchange for extended AS number attribute does not cover the BGP-MPLS-VPN AS4- specific route-attributes and route-distinguishers.  This document proposes an optional BGP capability exchange between the Provider Edge (PE) routers in order to communicate the intention of handling 4-Octet or 2-Octet exteneded AS-specific Route-targets or Site-of- Origins or being able to handle and inteprete the 4-Octet route- distinguishers correctly.  This capability parameter will be part of OPEN message during the BGP session initiation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chakrabarti-idr-as4-route-cap-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chakrabarti-idr-as4-route-cap-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-webpush-vapid'>
+<front>
+<title>Voluntary Application Server Identification for Web Push</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Beverloo' fullname='Peter Beverloo'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2016' />
+
+<abstract><t>An application server can voluntarily identify itself to a push service using the described technique.  This identification information can be used by the push service to attribute requests that are made by the same application server to a single entity. This can used to reduce the secrecy for push subscription URLs by being able to restrict subscriptions to a specific application server.  An application server is further able to include additional information that the operator of a push service can use to contact the operator of the application server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-webpush-vapid-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-webpush-vapid-01.txt' />
+</reference>

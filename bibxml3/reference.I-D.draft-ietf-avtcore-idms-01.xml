@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-idms'>
+<front>
+<title>RTCP for inter-destination media synchronization</title>
+
+<author initials='R' surname='Brandenburg' fullname='Ray van Brandenburg'>
+    <organization />
+</author>
+
+<author initials='H' surname='Stokking' fullname='Hans Stokking'>
+    <organization />
+</author>
+
+<author initials='O' surname='Deventer' fullname='Oskar van Deventer'>
+    <organization />
+</author>
+
+<author initials='O' surname='Niamut' fullname='Omar Niamut'>
+    <organization />
+</author>
+
+<author initials='F' surname='Walraven' fullname='Fabian Walraven'>
+    <organization />
+</author>
+
+<author initials='I' surname='Vaishnavi' fullname='Ishan Vaishnavi'>
+    <organization />
+</author>
+
+<author initials='F' surname='Boronat' fullname='Fernando Boronat'>
+    <organization />
+</author>
+
+<author initials='M' surname='Montagud' fullname='Mario Montagud'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2011' />
+
+<abstract><t>This document gives information on an RTCP Packet Type and RTCP XR Block Type including associated SDP parameters for inter-destination media synchronization (IDMS). The RTCP XR Block Type, registered with IANA based on an ETSI specification, is used to collect media play- out information from participants in a group playing-out (watching, listening, etc.) a specific RTP media stream. The RTCP packet type specified by this document is used to distribute a summary of the collected information so that the participants can synchronize play- out.  Typical applications for IDMS are social TV, shared service control (i.e. applications where two or more geographically separated users are watching a media stream together), distance learning, network quiz shows, multi-playing online games, etc.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-idms-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-idms-01.txt' />
+</reference>

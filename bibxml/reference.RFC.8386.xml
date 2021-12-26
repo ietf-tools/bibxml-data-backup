@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8386' target='https://www.rfc-editor.org/info/rfc8386'>
+<front>
+<title>Privacy Considerations for Protocols Relying on IP Broadcast or Multicast</title>
+<author initials='R.' surname='Winter' fullname='R. Winter'><organization /></author>
+<author initials='M.' surname='Faath' fullname='M. Faath'><organization /></author>
+<author initials='F.' surname='Weisshaar' fullname='F. Weisshaar'><organization /></author>
+<date year='2018' month='May' />
+<abstract><t>A number of application-layer protocols make use of IP broadcast or multicast messages for functions such as local service discovery or name resolution.  Some of these functions can only be implemented efficiently using such mechanisms.  When using broadcast or multicast messages, a passive observer in the same broadcast or multicast domain can trivially record these messages and analyze their content. Therefore, designers of protocols that make use of broadcast or multicast messages need to take special care when designing their protocols.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8386'/>
+<seriesInfo name='DOI' value='10.17487/RFC8386'/>
+</reference>

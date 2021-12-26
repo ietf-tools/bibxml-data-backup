@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.taylor-manet-dlep-dsa'>
+<front>
+<title>DLEP Destination Service Announcement</title>
+
+<author initials='R' surname='Taylor' fullname='Rick Taylor'>
+    <organization />
+</author>
+
+<date month='July' day='24' year='2017' />
+
+<abstract><t>When using the Dynamic Link Exchange Protocol (DLEP) [RFC8175] to bootstrap neighbour discovery for routing protocols there is no indication in the core DLEP protocol of the services of the router announced at a destination.  This forces an implementation to either rely on a priori configuration or use heuristic probing of well-known ports to discover potential routing peers.  This document defines an extension to DLEP to enable a router to advertise its active services to its peer modem, allowing a connected remote modem to announce the services of a router in a DLEP destination message to its peer, removing the need for service discovery between routing peers.  The mechanism is designed to be sufficiently generic to allow the advertisement of network services beyond routing protocols, enabling the fast bootstrapping of other protocols such as messaging protocols or header compression.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-taylor-manet-dlep-dsa-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-taylor-manet-dlep-dsa-01.txt' />
+</reference>

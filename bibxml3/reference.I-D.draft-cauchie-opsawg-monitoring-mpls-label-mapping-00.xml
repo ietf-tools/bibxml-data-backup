@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cauchie-opsawg-monitoring-mpls-label-mapping'>
+<front>
+<title>A method to monitor MPLS label mappings</title>
+
+<author initials='G' surname='Cauchie' fullname='Gregory Cauchie'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>Because one MPLS label only identifies one single flow on a link between two MPLS routers, information related to one MPLS label is exchanged only between (physically and logically) neighbour routers. In other words, MPLS label have a link-local significance on which two neighbour routers have previously agreed on.  It is therefore not a trivial task for a network operator to know where a flow is going as it implies to retreive the MPLS labels mappings on each hops in order to get a complete view of end-to-end LSP paths.  This taks is even harder when it comes to get the MPLS label mappings over time in a purpose of monitoring and/or troubleshooting network services.  This document thus defines a new method to monitor MPLS label mappings that collects and stores MPLS labels mapping information so as to offer to one IP/MPLS network operator a reliable and clear view of its network LSPs end-to-end establishment over time while minimising the impact on network convergence and router CPU.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cauchie-opsawg-monitoring-mpls-label-mapping-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cauchie-opsawg-monitoring-mpls-label-mapping-00.txt' />
+</reference>

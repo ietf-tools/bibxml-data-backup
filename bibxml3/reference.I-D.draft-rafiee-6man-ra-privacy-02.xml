@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rafiee-6man-ra-privacy'>
+<front>
+<title>Router Advertisement based privacy extension in IPv6 autoconfiguration</title>
+
+<author initials='H' surname='Hosnieh' fullname='Hosnieh'>
+    <organization />
+</author>
+
+<author initials='C' surname='Meinel' fullname='Christoph Meinel'>
+    <organization />
+</author>
+
+<date month='May' day='14' year='2013' />
+
+<abstract><t>Privacy is an important issue concerning many governments and users with its importance becoming more evident every day. Nodes might change their IP addresses frequently in order to avoid being tracked by attackers. This frequent IP address change also helps in the prevention of information being leaked by nodes. In IPv6 networks there is currently one solution to maintain the privacy of nodes when IPv6 StateLess Address AutoConfiguration (SLAAC) (RFC 4662) is used. Unfortunately there are some problems associated with this solution which entails the use of the Privacy Extension (RFC 4941). Some of these problems are not generating a new Interface ID (IID) after changing the router prefix, the fact that nodes may use an IID that was generated based on a MAC address and use this in their response, the act of cutting the current connections to other nodes if the max lifetime of the old IID has elapsed, and a need to have stable storage for generating a randomized IID. The RFC also gives no explanation as to how to use CGA in its randomizing solution when stable storage is not available. The purpose of this document is to address these issues and to update the current RFC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rafiee-6man-ra-privacy-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rafiee-6man-ra-privacy-02.txt' />
+</reference>

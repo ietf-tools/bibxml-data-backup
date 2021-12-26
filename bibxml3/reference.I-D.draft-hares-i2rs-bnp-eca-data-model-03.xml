@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hares-i2rs-bnp-eca-data-model'>
+<front>
+<title>An Information Model for Basic Network Policy and Filter Rules</title>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<date month='January' day='4' year='2016' />
+
+<abstract><t>This document contains the Basic Network Policy and Filters (BNP IM) Data Model which provides a policy model that support an ordered list of match-condition-action (aka event-condition-action (ECA)) for multiple layers (interface, L1-L4, application) and other factors (size of packet, time of day).  The actions allow for setting actions (QOS and other), decapsulation, encapsulation, plus forwarding actions.  The policy model can be used with the I2RS filter-based RIB.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hares-i2rs-bnp-eca-data-model-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hares-i2rs-bnp-eca-data-model-03.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hares-i2rs-bnp-eca-data-model-03.pdf' />
+</reference>

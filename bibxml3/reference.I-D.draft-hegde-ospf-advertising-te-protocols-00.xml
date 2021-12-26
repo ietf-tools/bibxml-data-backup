@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hegde-ospf-advertising-te-protocols'>
+<front>
+<title>Advertising TE protocols in OSPF</title>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>This document defines a mechanism to indicate which traffic engineering protocols are enabled on a link in OSPF.  It does so by introducing a new Traffic-Engineering Protocol sub-TLV for the Link TLV in the OSPFv2 TE Opaque LSA.  This document also describes mechanisms to address backward compatibility issues for routers that have not yet been upgraded to software that understands this new sub- TLV.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hegde-ospf-advertising-te-protocols-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hegde-ospf-advertising-te-protocols-00.txt' />
+</reference>

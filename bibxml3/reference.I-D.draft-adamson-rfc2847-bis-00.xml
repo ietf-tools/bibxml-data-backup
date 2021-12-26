@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.adamson-rfc2847-bis'>
+<front>
+<title>Low Infrastructure Public Key Mechanisms: SPKM-3 and LIPKEY</title>
+
+<author initials='W' surname='Adamson' fullname='William  Adamson'>
+    <organization />
+</author>
+
+<date month='March' day='31' year='2006' />
+
+<abstract><t>This memorandum describes a method whereby one can use GSS-API [RFC2078] to supply a public-key based secure channel between a client and a server without the need for an external Public Key Infrastructure for certificate verification. The method leverages the existing Simple Public Key Mechanism (SPKM), and is specified as two separate GSS-API mechanisms, SPKM-3 and LIPKEY, with LIPKEY layered above SPKM-3. SPKM-3 describes a method for creation of the secure channel using mutual authentication where both a user and server authenticate with public-key certificates [RFC3280]. SPKM-3 also describes a method for creation of the secure channel where only the server authenticates with a public-key certificate, and the user is anonymous. LIPKEY then uses the SPKM-3 anonymous secure channel to authenticate a user with a password, completing the mutual authentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-adamson-rfc2847-bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-adamson-rfc2847-bis-00.txt' />
+</reference>

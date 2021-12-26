@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chan-dmm-architecture'>
+<front>
+<title>A architecture of distributed mobility management using mip and pmip</title>
+
+<author initials='A' surname='Chan' fullname='Anthony Chan'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2012' />
+
+<abstract><t>This draft proposes a distributed architecture of mobility management in terms of abstracted logical functions.  Mobility management functions are abstracted into different logical functions: (1) allocation of home network prefixes or home addresses to mobile nodes; (2) location management which includes managing the IP addresses and locations of the mobile nodes; and (3) mobility routing which includes intercepting and forwarding packets.  A distributed architecture can be contructed by providing the mobility routing functions in multiple networks in the data plane and a distributed database is used to host the location management function.  This generalized architecture enables different distributed mobility designs using primarily the existing mobility protocols (MIP and PMIP) and their extensions.  Several existing distributed mobility management proposals are briefly reviewed using this framework.  It is expected that the different proposals, when expressed in terms of the generalized framework of logical functions, can interwork with each other as well as with the existing hierarchical deployments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chan-dmm-architecture-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chan-dmm-architecture-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-chan-dmm-architecture-00.pdf' />
+</reference>

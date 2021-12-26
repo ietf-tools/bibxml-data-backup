@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-idr-bgp-ls-ifit-node-capability'>
+<front>
+<title>Extensions to BGP-LS for Advertising In-situ Flow Information Telemetry (IFIT) Node Capability</title>
+
+<author initials='Y' surname='Wang' fullname='Yali Wang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zhou' fullname='Tianran Zhou'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pang' fullname='Ran Pang'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2020' />
+
+<abstract><t>This document defines a way for a Border Gateway Protocol Link-State (BGP-LS) speaker to announce In-situ Flow Information Telemetry (IFIT) node capabilities of routers to BGP-LS consumer (e.g. a centralized controller).  In this document, IFIT Node Capability TLV is defined as a new Node Attribute TLV that is encoded in the BGP-LS attribute with Node NLRIs [RFC7752].  Such advertisements enable a centralized controller that can leverage this information in determining whether a particular IFIT Option type can be supported in a given network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-idr-bgp-ls-ifit-node-capability-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-idr-bgp-ls-ifit-node-capability-03.txt' />
+</reference>

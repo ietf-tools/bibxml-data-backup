@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wconner-blake2sigs'>
+<front>
+<title>BLAKE2 Algorithms and Identifiers for use in the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</title>
+
+<author initials='W' surname='Conner' fullname='William Conner'>
+    <organization />
+</author>
+
+<author initials='A' surname='Langley' fullname='Adam Langley'>
+    <organization />
+</author>
+
+<author initials='R' surname='Sleevi' fullname='Ryan Sleevi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Popov' fullname='Andrei Popov'>
+    <organization />
+</author>
+
+<date month='April' day='14' year='2017' />
+
+<abstract><t>This document describes the conventions for using the BLAKE2b-512 hash function with each of the following signature algorithms: RSA Public-Key Cryptography Standards #1 version 1.5 (RSA PKCS#1 v1.5), RSA Probabilistic Signature Scheme (RSASSA-PSS), RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP), Elliptic Curve Digital Signature Algorithm (ECDSA), and Edwards-curve Digital Signature Algorithm (EdDSA).  This specification applies to the Internet X.509 Public Key Infrastructure (PKI) when digital signatures are used to sign certificates and certificate revocation lists (CRLs).  This document also specifies the object identifiers (OIDs) for the combinations of the BLAKE2b-512 hash function with the aforementioned signature algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wconner-blake2sigs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wconner-blake2sigs-00.txt' />
+</reference>

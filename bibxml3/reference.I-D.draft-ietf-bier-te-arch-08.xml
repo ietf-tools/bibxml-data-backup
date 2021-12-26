@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-te-arch'>
+<front>
+<title>Tree Engineering for Bit Index Explicit Replication (BIER-TE)</title>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='G' surname='Cauchie' fullname='Gregory Cauchie'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>This memo introduces per-packet stateless strict and loose path steered replication and forwarding for Bit Index Explicit Replication packets (RFC8279).  This is called BIER Tree Engineering (BIER-TE). BIER-TE can be used as a path steering mechanism in future Traffic Engineering solutions for BIER (BIER-TE).  BIER-TE leverages RFC8279 and extends it with a new semantic for bits in the bitstring.  BIER-TE can leverage BIER forwarding engines with little or no changes.  In BIER, the BitPositions (BP) of the packets bitstring indicate BIER Forwarding Egress Routers (BFER), and hop-by-hop forwarding uses a Routing Underlay such as an IGP.  In BIER-TE, BitPositions indicate adjacencies.  The BIFT of each BFR are only populated with BPs that are adjacent to the BFR in the BIER- TE topology.  The BIER-TE topology can consist of layer 2 or remote (routed) adjacencies.  The BFR then replicates and forwards BIER packets to those adjacencies.  This results in the aforementioned strict and loose path steering and replications.  BIER-TE can co-exist with BIER forwarding in the same domain, for example by using separate BIER sub-domains.  In the absence of routed adjacencies, BIER-TE does not require a BIER routing underlay, and can then be operated without requiring an Interior Gateway Routing protocol (IGP).  BIER-TE operates without explicit in-network tree-state and carries the multicast distribution tree in the packet header.  It can therefore be a good fit to support multicast path steering in Segment Routing (SR) networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-te-arch-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-te-arch-08.txt' />
+</reference>

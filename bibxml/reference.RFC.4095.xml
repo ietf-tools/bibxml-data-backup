@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4095' target='https://www.rfc-editor.org/info/rfc4095'>
+<front>
+<title>Attaching Meaning to Solicitation Class Keywords</title>
+<author initials='C.' surname='Malamud' fullname='C. Malamud'><organization /></author>
+<date year='2005' month='May' />
+<abstract><t>This document proposes a mechanism for finding a URI associated with a solicitation class keyword, which is defined in RFC 3865, the No Soliciting SMTP Service Extension.  Solicitation class keywords are simple labels consisting of a domain name that has been reversed, such as &quot;org.example.adv&quot;.  These solicitation class keywords are inserted in selected header fields or used in the ESMTP service extension, including a new \%&quot;No-Solicit:&quot; header, which can contain one or more solicitation class keywords inserted by the sender.</t><t>This document specifies an application based on the Dynamic Delegation Discovery System (DDDS) described in RFC 3401 and related documents. An algorithm is specified to associate a solicitation class keyword with a URI which contains further information about the meaning and usage of that solicitation class keyword.  For example, the registrant of the &quot;example.org&quot; domain could use this mechanism to create a URI which contains detailed information about the &quot;org.example.adv&quot; solicitation class keyword.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4095'/>
+<seriesInfo name='DOI' value='10.17487/RFC4095'/>
+</reference>

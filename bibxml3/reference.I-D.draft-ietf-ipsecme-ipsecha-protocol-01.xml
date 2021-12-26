@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-ipsecha-protocol'>
+<front>
+<title>Protocol Support for High Availability IKEv2/IPsec</title>
+
+<author initials='R' surname='Jenwar' fullname='Rajeshwar Jenwar'>
+    <organization />
+</author>
+
+<author initials='K' surname='Garigipati' fullname='Kalyani Garigipati'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+    <organization />
+</author>
+
+<author initials='D' surname='Zhang' fullname='Dacheng Zhang'>
+    <organization />
+</author>
+
+<date month='October' day='10' year='2010' />
+
+<abstract><t>IKEv2 and IPsec protocols are widely used for deploying VPN.  In order to make such VPN highly available, more scalable and failure- prone, these VPNs are implemented as IKEv2/IPsec Highly Available (HA) cluster.  But there are many issues in IKEv2/IPsec HA cluster. The draft "IPsec Cluster Problem Statement" enumerates all the issues encountered in IKEv2/IPsec HA cluster environment.  This document proposes an extension to IKEv2 protocol to solve main issues of "IPsec Cluster Problem Statement" in Hot Standby cluster and gives implementation advice for other issues.  The main issues to be solved are: o  IKEv2 Message Id synchronization : This is done by syncing up  expected send and receive message Id values with the peer and  updating the values at the newly active cluster member after the  failover. o  IPsec Replay Counter synchronization : This is done by syncing up  bumped up outgoing SA replay counters values with peer and  updating the values at the newly active cluster member after the  failover.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-ipsecha-protocol-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-ipsecha-protocol-01.txt' />
+</reference>

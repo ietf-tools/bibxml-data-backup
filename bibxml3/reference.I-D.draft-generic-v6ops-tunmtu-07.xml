@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.generic-v6ops-tunmtu'>
+<front>
+<title>Generic Tunnel MTU Determination</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2012' />
+
+<abstract><t>The Maximum Transmission Unit (MTU) for popular IP-within-IP tunnels is currently recommended to be set to 1500 (or less) minus the length of the encapsulation headers when static MTU determination is used. This requires the tunnel ingress to either fragment any IP packet larger than the MTU or drop the packet and return an ICMP Packet Too Big (PTB) message.  Concerns for operational issues with Path MTU Discovery (PMTUD) point to the possibility of MTU-related black holes when a packet is dropped due to an MTU restriction.  The current "Internet cell size" is effectively 1500 bytes (i.e., the minimum MTU configured by the vast majority of links in the Internet) and should therefore also be the minimum MTU assigned to tunnels, but the desired end state is full accommodation of MTU diversity.  This document therefore presents a method to boost the tunnel MTU to larger values.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-generic-v6ops-tunmtu-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-generic-v6ops-tunmtu-07.txt' />
+</reference>

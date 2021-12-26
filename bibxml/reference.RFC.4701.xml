@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4701' target='https://www.rfc-editor.org/info/rfc4701'>
+<front>
+<title>A DNS Resource Record (RR) for Encoding Dynamic Host Configuration Protocol (DHCP) Information (DHCID RR)</title>
+<author initials='M.' surname='Stapp' fullname='M. Stapp'><organization /></author>
+<author initials='T.' surname='Lemon' fullname='T. Lemon'><organization /></author>
+<author initials='A.' surname='Gustafsson' fullname='A. Gustafsson'><organization /></author>
+<date year='2006' month='October' />
+<abstract><t>It is possible for Dynamic Host Configuration Protocol (DHCP) clients to attempt to update the same DNS Fully Qualified Domain Name (FQDN) or to update a DNS FQDN that has been added to the DNS for another purpose as they obtain DHCP leases.  Whether the DHCP server or the clients themselves perform the DNS updates, conflicts can arise.  To resolve such conflicts, RFC 4703 proposes storing client identifiers in the DNS to unambiguously associate domain names with the DHCP clients to which they refer.  This memo defines a distinct Resource Record (RR) type for this purpose for use by DHCP clients and servers: the &quot;DHCID&quot; RR.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4701'/>
+<seriesInfo name='DOI' value='10.17487/RFC4701'/>
+</reference>

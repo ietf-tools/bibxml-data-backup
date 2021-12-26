@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zrelli-krb-xkdcp'>
+<front>
+<title>XKDCP, the Inter-KDC protocol for cross-realm operations in Kerberos.</title>
+
+<author initials='S' surname='Zrelli' fullname='Saber Zrelli'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2006' />
+
+<abstract><t>This memo proposes protocol extensions to the Kerberos protocol specification. The extension (hereafter called XKDCP) offers a new cross-realm protocol for Kerberos. The XKDCP extension defines a protocol between Kerberos Key Distribution Centers (KDCs) that allows a KDC to build credentials even when the client or the requested service is not registered in the KDC's database (but registered in another KDC's database). The XKDCP extension defines two protocols: XTGSP (Inter Ticket Granting Service Protocol) and XASP (Inter Authentication Service Protocol). The XTGSP protocol can be used in remote access scenarios to allow the local KDC to deliver credentials for services located in remote realms. On the other hand, the XASP protocol can be used in case of cross-realm roaming scenarios to allow the visited KDC to deliver credentials for roaming users.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zrelli-krb-xkdcp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zrelli-krb-xkdcp-00.txt' />
+</reference>

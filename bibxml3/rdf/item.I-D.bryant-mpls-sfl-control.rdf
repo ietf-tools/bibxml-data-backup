@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-bryant-mpls-sfl-control-09.txt'>
+    <title>"A Simple Control Protocol for MPLS SFLs", Stewart Bryant, George Swallow, Siva Sivabalan</title>
+    <link>http://www.ietf.org/internet-drafts/draft-bryant-mpls-sfl-control-09.txt</link>
+    <description>In draft-ietf-mpls-sfl-framework the concept of MPLS synonymous flow labels (SFL) was introduced.  This document describes a simple control protocol that runs over an associated control header to request, withdraw, and extend the lifetime of such labels.  It is not the only control protocol that moght be used to support SFL, but it has the benefit of being able to be used without modifying of the existing MPLS control prodocols.  The existance of this design is not intended to restrict the ability to enhance an existing MPLS control protocol to add a similar capability.  A Querier MUST wait a configured time (suggested wait of 60 seconds) before re-attempting a Withdraw request.  No more than three Withdraw requests SHOULD be made.  These restricctions are to prevent overloading the control plane of the actioning router.</description>
+    <dc:date>2020-12-07T08:00:00-00:00</dc:date>
+</item>

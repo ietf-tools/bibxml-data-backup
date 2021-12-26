@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-avt-mpeg2ts-preamble'>
+<front>
+<title>Preamble Acquisition of MPEG-TS Multicast Sessions</title>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2009' />
+
+<abstract><t>MPEG2-TS is a container format that describes the schema of the audio, video content and the in-band control information.  The format information called MPEG2-TS preamble must be acquired before a RTP receiver processed any data received in MPEG2-TS.  In this document, a Retransmission Server is specified to deliver MPEG2-TS preamble prior to unicast RTP packets.  The Retransmission Server caches raw RTP packets with MPEG2-TS preamble information, and sends them to the RTP receiver which initiates rapid acquisition of MPEG2-TS multicast sessions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-avt-mpeg2ts-preamble-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-avt-mpeg2ts-preamble-00.txt' />
+</reference>

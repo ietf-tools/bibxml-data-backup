@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.goyal-ospf-lsacorr'>
+<front>
+<title>LSA Correlation to Schedule Routing Table Calculations</title>
+
+<author initials='M' surname='Goyal' fullname='Mukul Goyal'>
+    <organization />
+</author>
+
+<author initials='G' surname='Choudhury' fullname='G  Choudhury'>
+    <organization />
+</author>
+
+<author initials='A' surname='Shaikh' fullname='Aman Shaikh'>
+    <organization />
+</author>
+
+<author initials='K' surname='Trivedi' fullname='Kishor Trivedi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Hosseini' fullname='Hossein Hosseini'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2008' />
+
+<abstract><t>OSPF requires a router to recalculate its routing table whenever it receives a new router or network LSA.  However, a topology change, such as a router down event, may cause a number of new LSAs to be generated.  These LSAs may arrive at a router at different times.  In order to avoid several routing table calculations in quick succession in such cases, commercial routers enforce a hold time between successive routing table calculations.  The hold time based schemes, while limiting the number of routing table calculations, may also cause undesirable delays in convergence to the topology change.  This ID describes an alternate approach to schedule routing table calculations, called LSA Correlation.  Rather than using individual LSAs as triggers for routing table calculations, LSA Correlation scheme correlates the information in the LSAs to identify the topology change.  A routing table calculation can be performed when the topology change has been identified, which could span multiple LSAs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-goyal-ospf-lsacorr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-goyal-ospf-lsacorr-00.txt' />
+</reference>

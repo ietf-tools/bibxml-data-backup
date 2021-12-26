@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.elvey-refuse-sieve'>
+<front>
+<title>The SIEVE mail filtering language – refuse extension</title>
+
+<author initials='M' surname='Elvey' fullname='Matthew Elvey'>
+    <organization />
+</author>
+
+<author initials='A' surname='Melnikov' fullname='Alexey  Melnikov'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2004' />
+
+<abstract><t>This memo defines the SIEVE mail filtering language [SIEVE] "refuse" extension. A Joe-job is a spam run forged to appear as though it came from an innocent party, who is then generally flooded by the bounces, MDNs and messages with complaints. With the Sieve "reject" action, MDNs contribute to the flood of Joe-job spam to victims of Joe-jobs; SMTP level refusals usually don't. With "refuse", Sieve gains the ability to simply not accept an email during the SMTP transaction (instead of accepting it and then sending an MDN [MDN] back to the alleged sender using "reject").</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-elvey-refuse-sieve-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-elvey-refuse-sieve-02.txt' />
+</reference>

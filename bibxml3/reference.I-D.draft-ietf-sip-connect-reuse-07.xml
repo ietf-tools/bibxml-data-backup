@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-connect-reuse'>
+<front>
+<title>Connection Reuse in the Session Initiation Protocol (SIP)</title>
+
+<author initials='R' surname='Mahy' fullname='Rohan Mahy'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2006' />
+
+<abstract><t>When SIP entities use a connection oriented protocol to send a request, they typically originate their connections from an ephemeral port. The SIP protocol includes mechanisms which ensure that responses to a request, and new requests sent in the original direction reuse an existing connection. However, new requests sent in the opposite direction are unlikely to reuse the existing connection. For TLS transports, this will frequently cause a pair of SIP entities to use one connection for requests sent in each direction, resulting in potential scaling and performance problems. This document proposes that a TLS connection, once opened, can be used to send requests in either direction. Unfortunately, TCP connections cannot be shared in the same manner due to the risk of service hijacking. This document proposes an alternate way to perform TCP connection reuse.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-connect-reuse-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-connect-reuse-07.txt' />
+</reference>

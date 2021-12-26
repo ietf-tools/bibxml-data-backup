@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.housley-rfc-and-id-signatures'>
+<front>
+<title>Digital Signatures on RFC and Internet-Draft Documents</title>
+
+<author initials='R' surname='Housley' fullname='Russ Housley'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2016' />
+
+<abstract><t>This document specifies the conventions for digital signatures on RFCs and Internet-Draft documents.  For most file types, the Cryptographic Message Syntax (CMS) is used to create a detached signature, which is stored in a separate companion file so that no existing utilities are impacted by the addition of the digital signature.  For Portable Document Format (PDF) files types, embedded signatures are supported.  This document (once approved) obsoletes RFC 5485.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-housley-rfc-and-id-signatures-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-housley-rfc-and-id-signatures-00.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-wang-bess-evpn-context-label-04.txt'>
+    <title>"Context Label for MPLS EVPN", Yubao Wang, Bing Song</title>
+    <link>http://www.ietf.org/internet-drafts/draft-wang-bess-evpn-context-label-04.txt</link>
+    <description>EVPN is designed to provide a better VPLS service than [RFC4761] and [RFC4762], and EVPN indeed introduced many new features which couldn't be achieved in those old VPLS implementions.  But EVPN didn't inherit all features of old VPLS, and a few issues arises for EVPN only.  Some of these issues can be imputed to the MP2P nature of EVPN labels.  The PW label in old VPLS is a label for P2P VC, so it contains more context than a identifier in dataplane for it's VSI instance.But the EVPN label just identifies it's VSI instnace and it can't stand for the ingress PE in dataplane.  So the following issues arises with MPLS EVPN service:  *  MPLS EVPN statistics can't be done per ingress PE.  *  MPLS EVPN can't support hub/spoke use case which the spoke PE can</description>
+    <dc:date>2020-08-20T07:00:00-00:00</dc:date>
+</item>

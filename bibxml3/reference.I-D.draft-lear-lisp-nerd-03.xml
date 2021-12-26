@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lear-lisp-nerd'>
+<front>
+<title>NERD: A Not-so-novel EID to RLOC Database</title>
+
+<author initials='E' surname='Lear' fullname='Eliot Lear'>
+    <organization />
+</author>
+
+<date month='January' day='23' year='2008' />
+
+<abstract><t>LISP is a protocol to encapsulate IP packets in order to allow end sites to multihome without injecting routes from one end of the Internet to another.  This memo specifies a database and a method to transport the mapping of EIDs to RLOCs to routers in a reliable, scalable, and secure manner.  Our analysis concludes that transport of of all EID/RLOC mappings scales well to at least 10^8 entries, and that use of DNS or any approach that queries for mappings has substantial operational concerns.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lear-lisp-nerd-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lear-lisp-nerd-03.txt' />
+</reference>

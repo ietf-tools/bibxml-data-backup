@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jabley-dnsop-anycast-mapping'>
+<front>
+<title>A Summary of Various Mechanisms Deployed at L-Root for the Identification of Anycast Nodes</title>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<date month='June' day='24' year='2013' />
+
+<abstract><t>Anycast is a deployment technique commonly employed for authoritative-only servers in the Domain Name System (DNS).  L-Root, one of the thirteen root servers, is deployed in this fashion.  Various techniques have been used to map deployed anycast infrastructure externally, i.e. without reference to inside knowledge about where and how such infrastructure has been deployed. Motivations for performing such measurement exercises include operational troubleshooting and infrastructure risk assessment.  In the specific case of L-Root, the ability to measure and map anycast infrastructure using the techniques mentioned in this document is provided for reasons of operational transparency.  This document describes all facilities deployed at L-Root to facilitate mapping of its infrastructure and serves as documentation for L-Root as a measurable service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jabley-dnsop-anycast-mapping-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jabley-dnsop-anycast-mapping-02.txt' />
+</reference>

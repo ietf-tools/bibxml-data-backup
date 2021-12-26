@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-safruti-httpbis-connection-reuse-01.txt'>
+    <title>"Connection Reuse for Multiple Hostnames and for Fast Redirect", Ido Safruti</title>
+    <link>http://www.ietf.org/internet-drafts/draft-safruti-httpbis-connection-reuse-01.txt</link>
+    <description>This document describes a suggested enhancement to HTTP, in which a user-agent and a server can use a single connection to exchange requests/responses for multiple requested hostnames for which the server is authorized to serve.  This enhancement suggests that user- agents will prefer to re-use an existing connection if it can be used to other hosts, and presents methods for a server to announce hosts that are served by it, as well as a mechanism for the user-agent to validate that the server is indeed trusted to serve this hosts.  This is highly relevant when the server is actually a surrogate (like in a case of a CDN server), or in multi-hosts hosting environments, where the same server serves multiple hostnames/domains and can improve performance by the reuse of established and already optimized connections.</description>
+    <dc:date>2012-06-14T22:00:00-00:00</dc:date>
+</item>

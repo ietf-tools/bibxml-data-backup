@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-cpe-slaac-renum'>
+<front>
+<title>Improving the Reaction of Customer Edge Routers to Renumbering Events</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zorz' fullname='Jan Zorz'>
+    <organization />
+</author>
+
+<author initials='R' surname='Patterson' fullname='Richard Patterson'>
+    <organization />
+</author>
+
+<date month='February' day='19' year='2020' />
+
+<abstract><t>In scenarios where network configuration information related to IPv6 prefixes becomes invalid without any explicit signaling of that condition (such as when a Customer Edge Router crashes and reboots without knowledge of the previously-employed prefixes), hosts on the local network will continue using stale prefixes for an unacceptably long period of time, thus resulting in connectivity problems.  This document specifies improvements to Customer Edge Routers that help mitigate the aforementioned problem for typical residential and small office scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-cpe-slaac-renum-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-cpe-slaac-renum-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-subcerts'>
+<front>
+<title>Delegated Credentials for TLS</title>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='S' surname='Iyengar' fullname='Subodh Iyengar'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sullivan' fullname='Nick Sullivan'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>The organizational separation between the operator of a TLS endpoint and the certification authority can create limitations.  For example, the lifetime of certificates, how they may be used, and the algorithms they support are ultimately determined by the certification authority.  This document describes a mechanism by which operators may delegate their own credentials for use in TLS, without breaking compatibility with peers that do not support this specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-subcerts-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-subcerts-07.txt' />
+</reference>

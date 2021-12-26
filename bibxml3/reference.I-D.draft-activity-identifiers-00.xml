@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.activity-identifiers'>
+<front>
+<title>Hypertext Transfer Protocol (HTTP/1.1): Activity Identifiers</title>
+
+<author initials='S' surname='Perham' fullname='Scott Perham'>
+    <organization />
+</author>
+
+<date month='March' day='18' year='2016' />
+
+<abstract><t>It is very common that implementers of HTTP severs require the ability to associate an identifier to an HTTP request and or response, this can be for a number of reasons which could include checking for duplicate requests, allowing the caller of an API to maintain a record of their interaction with the server or to track client/server requests through a disparate system of services. In any case, the implementer will quite often use a custom HTTP header and either assign a value itself or require the caller to supply the value. This document outlines a consistent storage mechanism for this identifier by way of a standard HTTP header and a new status code for when a mandated identifier is omitted. The purpose is to create better consistency for clients of third-party HTTP servers and HTTP based APIs by introducing this standard request and response header.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-activity-identifiers-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-activity-identifiers-00.txt' />
+</reference>

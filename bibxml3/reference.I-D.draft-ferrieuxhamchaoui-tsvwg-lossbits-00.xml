@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ferrieuxhamchaoui-tsvwg-lossbits'>
+<front>
+<title>Packet Loss Signaling for Encrypted Protocols</title>
+
+<author initials='A' surname='Ferrieux' fullname='Alexandre Ferrieux'>
+    <organization />
+</author>
+
+<author initials='I' surname='Hamchaoui' fullname='Isabelle Hamchaoui'>
+    <organization />
+</author>
+
+<author initials='I' surname='Lubashev' fullname='Igor Lubashev'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>This document describes a protocol-independent method that employs two bits to allow endpoints to signal packet loss in a way that can be used by network devices to measure and locate the source of the loss.  The signaling method applies to all protocols with a protocol- specific way to identify packet loss.  The method is especially valuable when applied to protocols that encrypt transport header and do not allow an alternative method for loss detection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ferrieuxhamchaoui-tsvwg-lossbits-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ferrieuxhamchaoui-tsvwg-lossbits-00.txt' />
+</reference>

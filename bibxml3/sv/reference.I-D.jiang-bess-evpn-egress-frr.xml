@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jiang-bess-evpn-egress-frr'>
+<front>
+<title>EVPN Egress Fast ReRoute</title>
+
+<author initials='H' surname='Jiang' fullname='He Jiang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Li' fullname='Xianmin Li'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhou' fullname='Zhe Zhou'>
+    <organization />
+</author>
+
+<author initials='H' surname='Qu' fullname='Haifeng Qu'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2020' />
+
+<abstract><t>Ethernet Virtual Private Network (EVPN) multi-homing accommodates load balance, link/node redundancy and fast convergence.  Once link failure happens, egress traffic can be fast rerouted to multi-homed peer(s) to reach CE.  However, this fast reroute brings transient loops among multi-homed peers.  This document specifies a fast reroute approach with loop prevention.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jiang-bess-evpn-egress-frr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jiang-bess-evpn-egress-frr-00.txt' />
+</reference>

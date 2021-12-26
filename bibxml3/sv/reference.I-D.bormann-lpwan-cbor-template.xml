@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-lpwan-cbor-template'>
+<front>
+<title>Concise Binary Object Representation (CBOR) Tag for CBOR Templates</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='January' day='16' year='2018' />
+
+<abstract><t>The Concise Binary Object Representation (CBOR, RFC 7049) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.  The present document makes use of this extensibility to define a CBOR tag for a variable within a CBOR data item, which then could be filled in by a separate process (e.g., from another CBOR data item).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-lpwan-cbor-template-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-lpwan-cbor-template-02.txt' />
+</reference>

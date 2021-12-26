@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-feedback-supression-rtp-17.txt'>
+    <title>"RTCP Extension for Third-party Loss Report", Wenson Wu, Frank Xia, Roni Even</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-avtcore-feedback-supression-rtp-17.txt</link>
+    <description>In a large RTP session using the RTP Control Protocol (RTCP) feedback mechanism defined in RFC 4585, a feedback target may experience transient overload if some event causes a large number of receivers to send feedback at once.  This overload is usually avoided by ensuring that feedback reports are forwarded to all receivers, allowing them to avoid sending duplicate feedback reports.  However, there are cases where it is not recommended to forward feedback reports, and this may allow feedback implosion.  This memo discusses these cases and defines a new RTCP third-party loss report that can be used to inform receivers that the feedback target is aware of some loss event, allowing them to suppress feedback.  Associated SDP signaling is also defined.</description>
+    <dc:date>2012-04-12T22:00:00-00:00</dc:date>
+</item>

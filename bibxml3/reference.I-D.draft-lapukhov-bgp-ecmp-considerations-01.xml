@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lapukhov-bgp-ecmp-considerations'>
+<front>
+<title>Equal-Cost Multipath Considerations for BGP</title>
+
+<author initials='P' surname='Lapukhov' fullname='Petr Lapukhov'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>BGP routing protocol defined in ([RFC4271]) employs tie-breaking logic to elect single best path among multiple possible.  At the same time, it has been common in all practical BGP implementations to allow for "equal-cost multipath" (ECMP) path election and programming of multiple next-hops in routing tables.  This documents provides some common considerations for the ECMP logic, with the intent of providing common reference on otherwise unstandardized feature.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lapukhov-bgp-ecmp-considerations-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lapukhov-bgp-ecmp-considerations-01.txt' />
+</reference>

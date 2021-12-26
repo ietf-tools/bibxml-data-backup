@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ikpark-core-shim'>
+<front>
+<title>Shim Header for CoAP Transfer over non-TCP/IP Networks</title>
+
+<author initials='I' surname='Park' fullname='Ilkyun Park'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ko' fullname='Seok-Kap Ko'>
+    <organization />
+</author>
+
+<author initials='S' surname='Oh' fullname='Seung-Hun Oh'>
+    <organization />
+</author>
+
+<author initials='B' surname='Lee' fullname='Byoung-Tak Lee'>
+    <organization />
+</author>
+
+<author initials='N' surname='Kang' fullname='Namhi Kang'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2013' />
+
+<abstract><t>This document defines shim header for the transfer of CoAP messages over non-TCP/IP constrained networks. In this environment, IP and UDP or TCP are not used, so that additional shim header as a container for addresses of sender/receiver and the length of CoAP header and its payload is required.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ikpark-core-shim-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ikpark-core-shim-01.txt' />
+</reference>

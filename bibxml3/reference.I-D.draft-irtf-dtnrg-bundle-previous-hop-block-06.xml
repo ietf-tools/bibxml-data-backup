@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-dtnrg-bundle-previous-hop-block'>
+<front>
+<title>Delay-Tolerant Networking Previous Hop Insertion Block</title>
+
+<author initials='S' surname='Symington' fullname='Susan Symington'>
+    <organization />
+</author>
+
+<date month='March' day='24' year='2009' />
+
+<abstract><t>This document defines an extension block that may be used with the Bundle Protocol [refs.DTNBP] within the context of a Delay-Tolerant Network architecture [refs.DTNarch].  This Previous Hop Insertion Block is designed to be inserted by a forwarding node to provide its endpoint ID (EID) to the next-hop receiving node.  Knowledge of the EID of a previous-hop node may be required in some circumstances to support certain routing protocols (e.g., flood routing).  The Previous Hop Insertion block is always removed from the bundle by the receiving node so that it's duration within the bundle lasts for exactly one hop.  This document defines the format and processing of this Previous Hop Insertion Block.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-dtnrg-bundle-previous-hop-block-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-dtnrg-bundle-previous-hop-block-06.txt' />
+</reference>

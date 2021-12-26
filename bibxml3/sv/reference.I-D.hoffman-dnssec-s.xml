@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-dnssec-s'>
+<front>
+<title>Session-baseed Authentication for DNS: DNSSEC-S</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<author initials='M' surname='Larson' fullname='Matt Larson'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2017' />
+
+<abstract><t>DNSSEC as defined in RFCs 4033, 4034, and 4035 is based on authenticated messages.  That design has allowed DNSSEC to be deployed at the upper levels of the DNS tree, but operational issues with message-based authentication has caused lower levels fo the DNS tree to mostly forego DNSSEC.  This document extends DNSSEC with a second type of authentication, based on session authentication from TLS, that is easier to deploy by some (but certainly not all) authoritative DNS servers.  The goal is to have many more zones be DNSSEC-enabled.  Note that this document does _not_ replace current DNSSEC.  A validating resolver needs to implement all of traditional DNSSEC, and might also implement the protocol defined here.  A server might protect the contents of DNS zones for which it is authoritative with traditional DNSSEC, with the protocol defined here, or both.  The protocol defined here is only useful for some authoritative servers, and is explicitly not useful for others.  *** Notice for -00 ***  This -00 draft is meant to engender discussion, particularly to find out if there is a good use case for this proposal.  This draft is definitely not considered ready for consideration in an IETF WG.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-dnssec-s-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-dnssec-s-00.txt' />
+</reference>

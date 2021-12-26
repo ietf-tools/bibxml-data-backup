@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmarc-eaiauth'>
+<front>
+<title>E-mail Authentication for Internationalized Mail</title>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2019' />
+
+<abstract><t>SPF (RFC7208), DKIM (RFC6376), and DMARC (RFC7489) enable a domain owner to publish e-mail authentication and policy information in the DNS.  In internationalized e-mail, domain names can occur both as U-labels and A-labels.  The Authentication-Results header reports the result of authentication checks made with SPF, DKIM, DMARC, and other schemes.  This specification updates the SPF, DKIM, and DMARC specifications to clarify which form of internationalized domain names to use in those specifications, and when creating Authentication-Results headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmarc-eaiauth-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmarc-eaiauth-02.txt' />
+</reference>

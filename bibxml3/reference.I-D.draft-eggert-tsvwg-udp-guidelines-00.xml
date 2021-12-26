@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eggert-tsvwg-udp-guidelines'>
+<front>
+<title>UDP Usage Guidelines for Application Designers</title>
+
+<author initials='L' surname='Eggert' fullname='Lars Eggert'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2007' />
+
+<abstract><t>The User Datagram Protocol (UDP) provides a minimal, message-passing transport that has no inherent congestion control mechanisms. Because congestion control is critical to the stable operation of the Internet, applications and upper-layer protocols that choose to use UDP as a transport must employ mechanisms to prevent congestion collapse and establish some degree of fairness with concurrent traffic. This document provides guidelines on the use of UDP for the designers of such applications and upper-layer protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eggert-tsvwg-udp-guidelines-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eggert-tsvwg-udp-guidelines-00.txt' />
+</reference>

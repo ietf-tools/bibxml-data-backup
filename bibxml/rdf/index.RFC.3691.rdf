@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc3691.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc3691.txt</link>
+        <title>RFC 3691: Internet Message Access Protocol (IMAP) UNSELECT command, A. Melnikov</title>
+        <dc:date>2004-02-01T23:00:00-00:00</dc:date>
+        <description>This document defines an UNSELECT command that can be used to close the current mailbox in an Internet Message Access Protocol - version 4 (IMAP4) session without expunging it.  Certain types of IMAP clients need to release resources associated with the selected mailbox without selecting a different mailbox.  While IMAP4 provides this functionality (via a SELECT command with a nonexistent mailbox name or reselecting the same mailbox with EXAMINE command), a more clean solution is desirable.  [STANDARDS-TRACK] </description>
+    </item>
+

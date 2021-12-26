@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-adj'>
+<front>
+<title>RBridges: Adjacency</title>
+
+<author initials='D' surname='3rd' fullname='Donald Eastlake 3rd'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ghanwani' fullname='Anoop Ghanwani'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dutt' fullname='Dinesh Dutt'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='February' day='7' year='2011' />
+
+<abstract><t>The IETF TRILL protocol provides optimal pair-wise data forwarding without configuration, safe forwarding even during periods of temporary loops, and support for multipathing of both unicast and multicast traffic. TRILL accomplishes this by using IS-IS link state routing and by encapsulating traffic using a header that includes a hop count. Devices that implement TRILL are called RBridges.  TRILL supports multi-access LAN links that can have multiple end stations and RBridges attached. This document describes the TRILL LAN Hello protocol used on such links as regards adjacency, designated RBridge selection, and MTU procedures, with state machines. There is no change for IS-IS point-to-point Hellos used on links configured as point-to-point in TRILL.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-adj-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-adj-02.txt' />
+</reference>

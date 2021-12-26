@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanrein-tls-symmetry'>
+<front>
+<title>Symmetry for Transport Layer Security</title>
+
+<author initials='R' surname='Rein' fullname='Rick van Rein'>
+    <organization />
+</author>
+
+<date month='September' day='5' year='2015' />
+
+<abstract><t>TLS connections can be run over various transports, and can in turn carry many application protocols.  All current transports and at least some application protocols are capable of running between symmetric end points, in what could be called peer-to-peer mode, but the use of TLS introduces a requirement to always assign a client and server role, thus enforcing asymmetry and complicating symmetric peer-to-peer protocols.  This specification defines a TLS Extension to remedy that stringency of TLS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanrein-tls-symmetry-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanrein-tls-symmetry-00.txt' />
+</reference>

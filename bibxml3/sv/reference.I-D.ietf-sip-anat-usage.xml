@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-anat-usage'>
+<front>
+<title>Usage of the Session Description Protocol (SDP) Alternative Network Address  Types (ANAT) Semantics in the Session Initiation Protocol (SIP)</title>
+
+<author initials='G' surname='Camarillo' fullname='Gonzalo Camarillo'>
+    <organization />
+</author>
+
+<date month='June' day='21' year='2004' />
+
+<abstract><t>This document describes how to use the ANAT semantics of the SDP grouping framework in SIP. In particular, we define the sdp-anat SIP option-tag. This SIP option-tag ensures that SDP session descriptions using ANAT are only handled by SIP entities with ANAT support. To justify the need for such a SIP option-tag, we describe what could possibly happen if an ANAT-unaware SIP entity tried to handle media lines grouped with ANAT.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-anat-usage-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-anat-usage-00.txt' />
+</reference>

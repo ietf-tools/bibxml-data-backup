@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schinazi-httpbis-doh-preference-hints'>
+<front>
+<title>DoH Preference Hints for HTTP</title>
+
+<author initials='D' surname='Schinazi' fullname='David Schinazi'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sullivan' fullname='Nick Sullivan'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kipp' fullname='Jesse Kipp'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>When using a publicly available DNS-over-HTTPS (DoH) server, some clients may suffer poor performance when the authoritative DNS server is located far from the DoH server.  For example, a publicly available DoH server provided by a Content Delivery Network (CDN) should be able to resolve names hosted by that CDN with good performance but might take longer to resolve names provided by other CDNs, or might provide suboptimal results if that CDN is using DNS- based load balancing and returns different address records depending or where the DNS query originated from.  This document attempts to lessen these issues by allowing the web server to indicate to the client which DoH server can best resolve its addresses.  This document defines an HTTP header field that enables web host operators to inform user agents of the preferred DoH servers to use for subsequent DNS lookups for the host's domain.  Discussion of this work is encouraged to happen on the ADD IETF mailing list add@ietf.org or on the GitHub repository which contains the draft: https://github.com/DavidSchinazi/draft-httpbis-doh- preference-hints.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schinazi-httpbis-doh-preference-hints-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schinazi-httpbis-doh-preference-hints-02.txt' />
+</reference>

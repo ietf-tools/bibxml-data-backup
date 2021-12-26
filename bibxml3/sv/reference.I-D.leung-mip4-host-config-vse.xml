@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.leung-mip4-host-config-vse'>
+<front>
+<title>Mobile IPv4 Host Configuration Vendor Specific Extensions</title>
+
+<author initials='K' surname='Leung' fullname='Kent Leung'>
+    <organization />
+</author>
+
+<date month='February' day='11' year='2005' />
+
+<abstract><t>An IP device requires basic host configuration to be able to communicate. For example, the IP address on the interface and the DNS server for a hostname to IP address lookup. This information is configured statically or obtained dynamically using Dynamic Host Configuration Protocol (DHCP) or Point-to- Point Protocol/IP Control Protocol (PPP/IPCP). However, both DHCP and PPP/IPCP provides host configuration based on the access network. In Mobile IPv4, the registration process boots up a Mobile Node at an access network, also known as foreign network. The information to configure the host needs to be based on the home network. This document describes the extensions used to provide the base host configuration in the Registration Request and Reply messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-leung-mip4-host-config-vse-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-leung-mip4-host-config-vse-00.txt' />
+</reference>

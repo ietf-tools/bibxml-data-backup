@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.clt-dmm-tn-aware-mobility'>
+<front>
+<title>Transport Network aware Mobility for 5G</title>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='R' surname='Li' fullname='Renwei Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bhaskaran' fullname='Sridhar Bhaskaran'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kaippallimalil' fullname='John Kaippallimalil'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='L' surname='Contreras' fullname='Luis Contreras'>
+    <organization />
+</author>
+
+<author initials='P' surname='Muley' fullname='Praveen Muley'>
+    <organization />
+</author>
+
+<date month='September' day='28' year='2020' />
+
+<abstract><t>This document specifies a framework and mapping from slices in 5G mobile systems to transport slices in IP and Layer 2 transport networks.  Slices in 5G systems are characterized by latency bounds, reservation guarantees, jitter, data rates, availability, mobility speed, usage density, criticality and priority should be mapped to transport slice characteristics that include bandwidth, latency and criteria such as isolation, directionality and disjoint routes. Mobile slice criteria need to be mapped to the appropriate transport slice and capabilities offered in backhaul, midhaul and fronthaul connectivity segments between radio side network functions and user plane function (gateway).  This document describes how mobile network functions map its slice criteria to identifiers in IP packets that transport segments use to grant transport layer services.  This is based on mapping between mobile and IP transport underlays (IPv6, MPLS, IPv4, Segment Routing).  Applicability of this framework and a new transport network underlay routing mechanism, Preferred Path Routing (PPR), which brings slice properties and works with any underlying transport (L2, IPv4, SR and MPLS) is also discussed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-clt-dmm-tn-aware-mobility-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-clt-dmm-tn-aware-mobility-07.txt' />
+</reference>

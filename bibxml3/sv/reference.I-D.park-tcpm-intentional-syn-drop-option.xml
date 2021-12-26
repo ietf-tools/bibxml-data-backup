@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.park-tcpm-intentional-syn-drop-option'>
+<front>
+<title>Intentional SYN Drop for mitigation against SYN flooding attacks</title>
+
+<author initials='S' surname='Ahn' fullname='Sungwon Ahn'>
+    <organization />
+</author>
+
+<author initials='M' surname='Park' fullname='Minho Park'>
+    <organization />
+</author>
+
+<date month='December' day='4' year='2018' />
+
+<abstract><t>This document proposes an option to mitigate SYN flooding attacks, called Intentional SYN Drop (ISD).  This option can mitigate the SYN flooding attack by intentionally dropping the first SYN.  It also includes a connection management mechanism to detect intelligent attackers who mimic normal clients.  Therefore, it can effectively mitigate the SYN flooding DDoS attack.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-park-tcpm-intentional-syn-drop-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-park-tcpm-intentional-syn-drop-option-00.txt' />
+</reference>

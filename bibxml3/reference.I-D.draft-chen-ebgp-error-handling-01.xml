@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-ebgp-error-handling'>
+<front>
+<title>Revised Error Handling for BGP Updates from External Neighbors</title>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<date month='September' day='30' year='2011' />
+
+<abstract><t>In this document we partially revise the error handling of an UPDATE message from an external BGP neighbor.  The essence of the revision is to avoid resetting an external BGP session by using the "treat-as- withdraw" approach when the entire NLRI field of a malformed UPDATE message can be parsed successfully.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-ebgp-error-handling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-ebgp-error-handling-01.txt' />
+</reference>

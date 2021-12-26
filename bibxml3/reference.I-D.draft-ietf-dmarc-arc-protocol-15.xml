@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmarc-arc-protocol'>
+<front>
+<title>Authenticated Received Chain (ARC) Protocol</title>
+
+<author initials='K' surname='Andersen' fullname='Kurt Andersen'>
+    <organization />
+</author>
+
+<author initials='B' surname='Long' fullname='Brandon Long'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blank' fullname='Seth Blank'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<author initials='T' surname='Draegen' fullname='Tim Draegen'>
+    <organization />
+</author>
+
+<date month='June' day='24' year='2018' />
+
+<abstract><t>The Authenticated Received Chain (ARC) protocol allows Internet Mail Handlers to attach assertions of message authentication state to individual messages.  As messages traverse ARC-enabled Internet Mail Handlers, additional ARC assertions can be attached to messages to form ordered sets of ARC assertions that represent authentication state along each step of message handling paths.  ARC-enabled Internet Mail Handlers can process sets of ARC assertions to inform message disposition decisions, to identify Internet Mail Handlers that might break existing authentication mechanisms, and to convey original authentication state across trust boundaries.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmarc-arc-protocol-15' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmarc-arc-protocol-15.txt' />
+</reference>

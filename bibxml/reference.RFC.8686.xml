@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8686' target='https://www.rfc-editor.org/info/rfc8686'>
+<front>
+<title>Application-Layer Traffic Optimization (ALTO) Cross-Domain Server Discovery</title>
+<author initials='S.' surname='Kiesel' fullname='S. Kiesel'><organization /></author>
+<author initials='M.' surname='Stiemerling' fullname='M. Stiemerling'><organization /></author>
+<date year='2020' month='February' />
+<abstract><t>The goal of Application-Layer Traffic Optimization (ALTO) is to provide guidance to applications that have to select one or several hosts from a set of candidates capable of providing a desired resource.  ALTO is realized by a client-server protocol.  Before an ALTO client can ask for guidance, it needs to discover one or more ALTO servers that can provide suitable guidance.</t><t>In some deployment scenarios, in particular if the information about the network topology is partitioned and distributed over several ALTO servers, it may be necessary to discover an ALTO server outside of the ALTO client's own network domain, in order to get appropriate guidance.  This document details applicable scenarios, itemizes requirements, and specifies a procedure for ALTO cross-domain server discovery.</t><t>Technically, the procedure specified in this document takes one IP address or prefix and a U-NAPTR Service Parameter (typically, &quot;ALTO:https&quot;) as parameters. It performs DNS lookups (for NAPTR resource records in the &quot;in-addr.arpa.&quot; or &quot;ip6.arpa.&quot; trees) and returns one or more URIs of information resources related to that IP address or prefix.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8686'/>
+<seriesInfo name='DOI' value='10.17487/RFC8686'/>
+</reference>

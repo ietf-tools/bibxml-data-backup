@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-server-model'>
+<front>
+<title>NETCONF Server and RESTCONF Server Configuration Models</title>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schönwälder' fullname='Jürgen Schönwälder'>
+    <organization />
+</author>
+
+<date month='March' day='16' year='2016' />
+
+<abstract><t>This draft defines a NETCONF server configuration data model and a RESTCONF server configuration data model.  These data models enable configuration of the NETCONF and RESTCONF services themselves, including which transports are supported, what ports the servers listen on, call-home parameters, client authentication, and related parameters.  Editorial Note (To be removed by RFC Editor)  This draft contains many placeholder values that need to be replaced with finalized values at the time of publication.  This note summarizes all of the substitutions that are needed.  Please note that no other RFC Editor instructions are specified anywhere else in this document.  This document contains references to other drafts in progress, both in the Normative References section, as well as in body text throughout.  Please update the following references to reflect their final RFC assignments:  o  draft-ietf-netconf-restconf  o  draft-ietf-netconf-call-home  o  draft-ietf-rtgwg-yang-key-chain  Artwork in this document contains shorthand references to drafts in progress.  Please apply the following replacements:  o  "VVVV" --> the assigned RFC value for this draft  o  "XXXX" --> the assigned RFC value for draft-ietf-netconf-restconf  o  "YYYY" --> the assigned RFC value for draft-ietf-netconf-call-home Artwork in this document contains placeholder values for ports pending IANA assignment from "draft-ietf-netconf-call-home".  Please apply the following replacements:  o  "7777" --> the assigned port value for "netconf-ch-ssh"  o  "8888" --> the assigned port value for "netconf-ch-tls"  o  "9999" --> the assigned port value for "restconf-ch-tls"  Artwork in this document contains placeholder values for the date of publication of this draft.  Please apply the following replacement:  o  "2016-03-16" --> the publication date of this draft  The following two Appendix sections are to be removed prior to publication:  o  Appendix A.  Change Log  o  Appendix B.  Open Issues  Artwork in the document contains a temporary YANG containers that need to be removed.  o  The "listening-ssh-server" container listed at the end of the artwork in Section 4.2.3 needs to be removed.  Please remove the ten lines starting with "container listening-ssh-server {" and ending with "}".  o  The "listening-tls-server" container listed at the end of the artwork in Section 4.3.3 needs to be removed.  Please remove the ten lines starting with "container listening-tls-server {" and ending with "}".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-server-model-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-server-model-09.txt' />
+</reference>

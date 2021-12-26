@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.qian-mptcp-predict'>
+<front>
+<title>Predictable Multipath TCP (MPTCP) extension</title>
+
+<author initials='Q' surname='Wu' fullname='Qian Wu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Li' fullname='Hewu Li'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Zhang' fullname='Qi Zhang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Liu' fullname='Jun Liu'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2019' />
+
+<abstract><t>Multipath TCP (MPTCP) adds the capability of using multiple paths to a regular TCP session, which is quite suitable for integrated network scenarios where multiple paths almost always exist.  However, link handover and link on-off switching happen frequently in network systems that integrate different systems (especially the systems that continually move), which defeats the quality of MPTCP connections. Information about the link handover and on-off switching in above- mentioned scenarios can be predicted in advance, but MPTCP is not capable of utilizing the prediction information.  This document suggests MPTCP be extended with the capacity of obtaining and utilizing the prediction information.  Furthermore, the document describes one possible way to enhance MPTCP with prediction information, which proposes a modified MPTCP scheduler utilizing link on-off prediction information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-qian-mptcp-predict-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-qian-mptcp-predict-00.txt' />
+</reference>

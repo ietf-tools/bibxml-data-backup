@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-trytls'>
+<front>
+<title>Optimistic Encryption using TLS Signaling in the DNS</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2013' />
+
+<abstract><t>Many Internet servers offer content in two transports: unencrypted, and encrypted with TLS.  A user who accesses some content with a URL that indicates unencrypted (such as "http:") might prefer to get the content encrypted but doesn't bother to change the URL to indicate this.  This proposal allows Internet clients, particularly web clients and mail user agents, to do a DNS lookup to see whether they might expect content for a particular host to also be available under TLS.  Using the DNS for this is much faster than attempting a TLS session that might time out or take many round trips in order to discover that the content is not available.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-trytls-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-trytls-01.txt' />
+</reference>

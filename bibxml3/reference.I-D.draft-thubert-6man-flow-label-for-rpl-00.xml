@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thubert-6man-flow-label-for-rpl'>
+<front>
+<title>The IPv6 Flow Label within a RPL domain</title>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<date month='April' day='17' year='2014' />
+
+<abstract><t>This document present how the Flow Label can be used inside a RPL domain as a replacement to the RPL option and provides rules for the root to set and reset the Flow Label when forwarding between the inside of RPL domain and the larger Internet, in both direction. This new operation saves 44 bits in each frame, and an eventual IP- in-IP encapsulation within the RPL domain that is required for all packets that reach outside of the RPL domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thubert-6man-flow-label-for-rpl-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thubert-6man-flow-label-for-rpl-00.txt' />
+</reference>

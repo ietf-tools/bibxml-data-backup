@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5663' target='https://www.rfc-editor.org/info/rfc5663'>
+<front>
+<title>Parallel NFS (pNFS) Block/Volume Layout</title>
+<author initials='D.' surname='Black' fullname='D. Black'><organization /></author>
+<author initials='S.' surname='Fridella' fullname='S. Fridella'><organization /></author>
+<author initials='J.' surname='Glasgow' fullname='J. Glasgow'><organization /></author>
+<date year='2010' month='January' />
+<abstract><t>Parallel NFS (pNFS) extends Network File Sharing version 4 (NFSv4) to allow clients to directly access file data on the storage used by the NFSv4 server.  This ability to bypass the server for data access can increase both performance and parallelism, but requires additional client functionality for data access, some of which is dependent on the class of storage used.  The main pNFS operations document specifies storage-class-independent extensions to NFS; this document specifies the additional extensions (primarily data structures) for use of pNFS with block- and volume-based storage.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5663'/>
+<seriesInfo name='DOI' value='10.17487/RFC5663'/>
+</reference>

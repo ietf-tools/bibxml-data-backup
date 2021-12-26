@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6937' target='https://www.rfc-editor.org/info/rfc6937'>
+<front>
+<title>Proportional Rate Reduction for TCP</title>
+<author initials='M.' surname='Mathis' fullname='M. Mathis'><organization /></author>
+<author initials='N.' surname='Dukkipati' fullname='N. Dukkipati'><organization /></author>
+<author initials='Y.' surname='Cheng' fullname='Y. Cheng'><organization /></author>
+<date year='2013' month='May' />
+<abstract><t>This document describes an experimental Proportional Rate Reduction (PRR) algorithm as an alternative to the widely deployed Fast Recovery and Rate-Halving algorithms.  These algorithms determine the amount of data sent by TCP during loss recovery.  PRR minimizes excess window adjustments, and the actual window size at the end of recovery will be as close as possible to the ssthresh, as determined by the congestion control algorithm.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6937'/>
+<seriesInfo name='DOI' value='10.17487/RFC6937'/>
+</reference>

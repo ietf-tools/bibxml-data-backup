@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc8078.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc8078.txt</link>
+        <title>RFC 8078: Managing DS Records from the Parent via CDS/CDNSKEY, O. Gudmundsson, P. Wouters</title>
+        <dc:date>2017-03-01T23:00:00-00:00</dc:date>
+        <description>It is preferable that operators collaborate on the transfer or move of a domain.  The best method is to perform a Key Signing Key (KSK) plus Zone Signing Key (ZSK) rollover.  If that is not possible, the method using an unsigned intermediate state described in this document can be used to move the domain between two parties.  This leaves the domain temporarily unsigned and vulnerable to DNS spoofing, but that is preferred over the alternative of validation failures due to a mismatched DS and DNSKEY record. </description>
+    </item>
+

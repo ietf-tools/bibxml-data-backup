@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rtp-retransmission'>
+<front>
+<title>RTP Retransmission Payload Format</title>
+
+<author initials='J' surname='Rey' fullname='Jose Rey'>
+    <organization />
+</author>
+
+<date month='September' day='15' year='2005' />
+
+<abstract><t>RTP retransmission is an effective packet loss recovery technique for real-time applications with relaxed delay bounds. This document describes an RTP payload format for performing retransmissions. Retransmitted RTP packets are sent in a separate stream from the original RTP stream. It is assumed that feedback from receivers to senders is available. In particular, it is assumed that RTCP feedback as defined in the extended RTP profile for RTCP-based feedback (denoted RTP/AVPF), is available in this memo.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rtp-retransmission-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rtp-retransmission-12.txt' />
+</reference>

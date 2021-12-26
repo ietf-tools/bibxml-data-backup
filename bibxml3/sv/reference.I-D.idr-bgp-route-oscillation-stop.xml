@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.idr-bgp-route-oscillation-stop'>
+<front>
+<title>BGP Persistent Route Oscillation Solutions</title>
+
+<author initials='D' surname='Walton' fullname='Daniel Walton'>
+    <organization />
+</author>
+
+<author initials='A' surname='Retana' fullname='Alvaro Retana'>
+    <organization />
+</author>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<date month='January' day='6' year='2015' />
+
+<abstract><t>In this document we present two sets of paths for an address prefix that can be advertised by a BGP route reflector or confederation ASBR to eliminate the MED-induced route oscillations in a network.  The first set involves all the available paths, and would achieve the same routing consistency as the full IBGP mesh.  The second set, which is a subset of the first one, involves the neighbor-AS based Group Best Paths, and would be sufficient to eliminate the MED- induced route oscillations (subject to certain commonly adopted topological constrains).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-idr-bgp-route-oscillation-stop-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-idr-bgp-route-oscillation-stop-00.txt' />
+</reference>

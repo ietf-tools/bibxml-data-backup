@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hellwig-nfsv4-rdma-layout'>
+<front>
+<title>Parallel NFS (pNFS) RDMA Layout</title>
+
+<author initials='C' surname='Hellwig' fullname='Christoph Hellwig'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2017' />
+
+<abstract><t>The Parallel Network File System (pNFS) allows a separation between the metadata (onto a metadata server) and data (onto a storage device) for a file.  The RDMA Layout Type is defined in this document as an extension to pNFS to allow the use of RDMA Verbs operations to access remote storage, with a special focus on accessing byte addressable persistent memory.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hellwig-nfsv4-rdma-layout-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hellwig-nfsv4-rdma-layout-00.txt' />
+</reference>

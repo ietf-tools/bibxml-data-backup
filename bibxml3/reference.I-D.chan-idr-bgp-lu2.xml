@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chan-idr-bgp-lu2'>
+<front>
+<title>Color Operation with BGP Label Unicast</title>
+<author initials='L' surname='Chan' fullname='Louis Chan'>
+<organization />
+</author>
+<date year='2021' month='August' day='26' />
+<abstract><t>This document specifies how to carry colored path advertisement via an enhancement    to the existing protocol BGP Label Unicast. It would allow backward compatibility with RFC8277.</t><t> The targeted solution is to use stack of labels advertised via BGP Label Unicast    2.0 for end to end traffic steering across multiple IGP domains. The operation is    similar to Segment Routing.</t><t> This proposed protocol will convey the necessary reachability information to the    ingress PE node to construct an end to end path.</t><t> Another two problems addressed here are the interworking with Flex-Algo, and the    MPLS label space limit problem.</t><t> Please note that there is a major change of protocol format starting from version    01 draft. Except the optional BGP capability code, these rest of BGP attributes used in this draft are defined in previous RFC or in use today in other scenario.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-chan-idr-bgp-lu2-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-chan-idr-bgp-lu2-04.txt'/>
+</reference>

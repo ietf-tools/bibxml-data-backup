@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ucarion-jddf'>
+<front>
+<title>JSON Data Definition Format (JDDF)</title>
+
+<author initials='U' surname='Carion' fullname='Ulysse Carion'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2019' />
+
+<abstract><t>This document proposes a format, called JSON Data Definition Format (JDDF), for describing the shape of JavaScript Object Notation (JSON) messages.  Its main goals are to enable code generation from schemas as well as portable validation with standardized error indicators. To this end, JDDF is strategically limited to be no more expressive than the type systems of mainstream programming languages.  This strategic limitation, as well as the decision to make JDDF schemas be JSON documents, also makes tooling atop of JDDF easier to build.  This document does not have IETF consensus and is presented here to facilitate experimentation with the concept of JDDF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ucarion-jddf-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ucarion-jddf-03.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.johansson-avt-rtp-shim'>
+<front>
+<title>VoIP Shim for RTP Payload Formats</title>
+
+<author initials='I' surname='Johansson' fullname='Ingemar Johansson'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2006' />
+
+<abstract><t>This document provides a general mechanism to provide with compact and efficient inband signaling mechanisms for VoIP applications using the RTP (Real-Time Transport Protocol). It provides the option to include a few additional inband signaling bytes in between the RTP header and the RTP payload. The intention of using Shim is to enable a fast inband signaling channel that can be used for adaptation purposes. The intention of the proposed inband signaling is that it should act as a wrapper around the actual payload. For instance if the payload is AMR-NB (RFC 3267), shim will encapsulate the payload in a fashion similar to RCF2198. In order to distinguish this encapsulated payload from a "normal" payload, necessary attributes are specified in SDP. The main application is for two party teleconferencing but the presented mechanism can be used for multi party teleconferencing applications as well. The name Shim is to refer to the "little thing something that one put in between". The name Shim is to refer to the "little thing something that one put in between".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-johansson-avt-rtp-shim-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-johansson-avt-rtp-shim-01.txt' />
+</reference>

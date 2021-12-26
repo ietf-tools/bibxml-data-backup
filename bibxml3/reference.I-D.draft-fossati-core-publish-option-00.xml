@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fossati-core-publish-option'>
+<front>
+<title>Publish Option for CoAP</title>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<author initials='P' surname='Giacomin' fullname='Pierpaolo Giacomin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2012' />
+
+<abstract><t>This memo defines the Publish Option for the Constrained Application Protocol (CoAP).  The Publish Option is used by a sleepy node to temporarily delegate the authority of one of its resources to another, always on, node which is typically a proxy but doesn't need to be necessarily.  The sleepy node is given a simple RESTful messaging protocol that enables the setup, renew and removal of the authority transfer.  The whole process is driven by the (sleepy) origin, which may actually never need to listen or to keep any state.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fossati-core-publish-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fossati-core-publish-option-00.txt' />
+</reference>

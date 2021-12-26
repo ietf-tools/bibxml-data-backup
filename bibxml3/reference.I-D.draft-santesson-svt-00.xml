@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.santesson-svt'>
+<front>
+<title>Signature Validation Token</title>
+<author initials='S' surname='Santesson' fullname='Stefan Santesson'>
+<organization />
+</author>
+<author initials='R' surname='Housley' fullname='Russ Housley'>
+<organization />
+</author>
+<date year='2020' month='October' day='21' />
+<abstract><t>Electronic signatures have a limited lifespan with respect to the time period that they can be validated and determined to be authentic.  The Signature Validation Token (SVT) defined in this specification provides evidence that asserts the validity of an electronic signature.  The SVT is provided by a trusted authority, which asserts that a particular signature was successfully validated according to defined procedures at a certain time.  Any future validation of that electronic signature can be satisfied by validating the SVT without any need to also validate the original electronic signature or the associated digital certificates.  SVT supports electronic signatures in CMS, XML, and PDF documents.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-santesson-svt-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-santesson-svt-00.txt'/>
+</reference>

@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-mh-split-horizon-02.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-mh-split-horizon-02.txt</link>
+        <title>"EVPN Multi-Homing Extensions for Split Horizon Filtering", Jorge Rabadan, Kiran Nagaraj, Wen Lin, Ali Sajassi</title>
+        <dc:date>2021-10-15T23:00:00-00:00</dc:date>
+        <description>Ethernet Virtual Private Network (EVPN) is commonly used along with Network Virtualization Overlay (NVO) tunnels.  The EVPN multi-homing procedures may be different depending on the NVO tunnel type used in the EVPN Broadcast Domain.  In particular, there are two multi-homing Split Horizon procedures to avoid looped frames on the multi-homed CE: ESI Label based and Local Bias.  ESI Label based Split Horizon is used for MPLSoX tunnels, E.g., MPLSoUDP, whereas Local Bias is used for others, E.g., VXLAN tunnels.  The current specifications do not allow the operator to decide which Split Horizon procedure to use for tunnel encapsulations that could support both.  Examples of tunnels that may support both procedures are MPLSoGRE, MPLSoUDP, GENEVE or SRv6.  This document extends the EVPN Multi-Homing procedures so that an operator can decide the Split Horizon procedure for a given NVO tunnel depending on their own requirements.</description>
+    </item>

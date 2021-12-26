@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.patil-paws-problem-stmt'>
+<front>
+<title>Protocol to Access White Space database: Problem statement and Requirements</title>
+
+<author initials='B' surname='Patil' fullname='Basavaraj Patil'>
+    <organization />
+</author>
+
+<author initials='S' surname='Probasco' fullname='Scott Probasco'>
+    <organization />
+</author>
+
+<author initials='G' surname='Bajko' fullname='Gabor Bajko'>
+    <organization />
+</author>
+
+<author initials='B' surname='Rosen' fullname='Brian Rosen'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2011' />
+
+<abstract><t>Governments around the world continue to search for new pieces of radio spectrum which can be used by the expanding wireless communications industry to provide more services in the usable spectrum.  The concept of allowing secondary transmissions (licensed or unlicensed) in frequencies occupied by a primary user is a technique to "unlock" existing spectrum for new use.  An obvious requirement is that these secondary transmissions do not interfere with the primary use of the spectrum.  One interesting observation is that often, in a given physical location, the primary user(s) may not be using the entire band allocated to them.  The available spectrum for a secondary use would then depend on the location of the secondary user.  The fundamental issue is how to determine for a specific location and specific time, if any of the primary spectrum is available for secondary use.  Academia and Industry have studied multiple cognitive radio mechanisms for use in such a scenario.  One simple mechanism is to use a geospatial database that records the primary users occupation, and require the secondary users to check the database prior to selecting what part of the spectrum they use. Such databases could be available on the Internet for query by secondary users.  This document discusses the requirements and the problems that need to be addressed for enabling the use of white space spectrum by obtaining information from such a database.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-patil-paws-problem-stmt-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-patil-paws-problem-stmt-01.txt' />
+</reference>

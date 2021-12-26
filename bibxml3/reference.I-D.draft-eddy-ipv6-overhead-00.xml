@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eddy-ipv6-overhead'>
+<front>
+<title>Comparison of IPv4 and IPv6 Header Overhead</title>
+
+<author initials='W' surname='Eddy' fullname='Wesley Eddy'>
+    <organization />
+</author>
+
+<date month='May' day='8' year='2006' />
+
+<abstract><t>This document provides an analysis and comparison of IPv4 and IPv6 header sizes under various circumstances. The goal of this document is to provide hard evidence for use in frequent discussions regarding transition, where header overhead comes up as an issue used to portray IPv6 depolyment as untenable. The results show that for links that are not fully utilized, the IPv6 overhead would only add a few percent to their load over what IPv4 implies, while for congested links, we note that header compression techniques for IPv6 are at least as effective as those for IPv4. This demonstrates that the header overhead argument against IPv6 is misinformed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eddy-ipv6-overhead-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eddy-ipv6-overhead-00.txt' />
+</reference>

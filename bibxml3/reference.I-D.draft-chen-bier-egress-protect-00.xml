@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-bier-egress-protect'>
+<front>
+<title>BIER Egress Protection</title>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+    <organization />
+</author>
+
+<author initials='G' surname='Mishra' fullname='Gyan Mishra'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fan' fullname='Yanhe Fan'>
+    <organization />
+</author>
+
+<author initials='L' surname='Liu' fullname='Lei Liu'>
+    <organization />
+</author>
+
+<author initials='X' surname='Liu' fullname='Xufeng Liu'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>This document describes a mechanism for fast protection against the failure of an egress node of a "Bit Index Explicit Replication" (BIER) domain.  It does not have any per-flow state in the core of the domain.  For a multicast packet to an egress node of the domain, when the egress node fails, its upstream hop as a PLR sends the packet to the egress' backup node once the PLR detects the failure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-bier-egress-protect-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-bier-egress-protect-00.txt' />
+</reference>

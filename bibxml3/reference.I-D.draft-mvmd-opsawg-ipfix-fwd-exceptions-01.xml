@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mvmd-opsawg-ipfix-fwd-exceptions'>
+<front>
+<title>IP Flow Information Export (IPFIX) Information Elements Extension for Forwarding Exceptions</title>
+
+<author initials='V' surname='Munukutla' fullname='Venkata Munukutla'>
+    <organization />
+</author>
+
+<author initials='S' surname='Vaid' fullname='Shivam Vaid'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mahale' fullname='Aditya Mahale'>
+    <organization />
+</author>
+
+<author initials='D' surname='Patel' fullname='Devang Patel'>
+    <organization />
+</author>
+
+<date month='January' day='26' year='2021' />
+
+<abstract><t>This draft proposes couple of new Forwarding exceptions related Information Elements (IEs) and Templates for the IP Flow Information Export (IPFIX) protocol.  These new Information Elements and Exception Template can be used to export information about any forwarding errors in a network.  This essential information is adequate to correlate packet drops to any control plane entity and map it to an impacted service.  Once exceptions are correlated to a particular entity, an action can be assigned to mitigate such problems essentially enabling self-driving networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mvmd-opsawg-ipfix-fwd-exceptions-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mvmd-opsawg-ipfix-fwd-exceptions-01.txt' />
+</reference>

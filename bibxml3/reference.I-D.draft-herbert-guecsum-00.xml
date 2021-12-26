@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.herbert-guecsum'>
+<front>
+<title>Checksum option for Generic UDP Encapsulation</title>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<date month='November' day='26' year='2014' />
+
+<abstract><t>This specification defines the Generic UDP Encapsulation (GUE) checksum and an associated header option. This checksum covers the GUE header, IP addresses, UDP ports, and optionally all or part of the encapsulated payload. It provides verification of protocol header elements, and is particularly relevant in the case where the UDP checksum is set to zero.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-herbert-guecsum-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-herbert-guecsum-00.txt' />
+</reference>

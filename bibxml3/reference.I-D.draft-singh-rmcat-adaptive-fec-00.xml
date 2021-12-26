@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.singh-rmcat-adaptive-fec'>
+<front>
+<title>Congestion Control Using FEC for Conversational Media</title>
+
+<author initials='V' surname='Singh' fullname='Varun Singh'>
+    <organization />
+</author>
+
+<author initials='M' surname='Nagy' fullname='Marcin Nagy'>
+    <organization />
+</author>
+
+<author initials='J' surname='Ott' fullname='Joerg Ott'>
+    <organization />
+</author>
+
+<author initials='L' surname='Eggert' fullname='Lars Eggert'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2014' />
+
+<abstract><t>This document describes a new mechanism for conversational multimedia flows.  The proposed mechanism uses Forward Error Correction (FEC) encoded RTP packets (redundant packets) along side the media packets to probe for available network capacity.  A straightforward interpretation is, the sending endpoint increases the transmission rate by keeping the media rate constant but increases the amount of FEC.  If no losses and discards occur, the endpoint can then increase the media rate.  If losses occur, the redundant FEC packets help in recovering the lost packets.  Consequently, the endpoint can vary the FEC bit rate to conservatively (by a small amount) or aggressively (by a large amount) probe for available network capacity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-singh-rmcat-adaptive-fec-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-singh-rmcat-adaptive-fec-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-singh-rmcat-adaptive-fec-00.pdf' />
+</reference>

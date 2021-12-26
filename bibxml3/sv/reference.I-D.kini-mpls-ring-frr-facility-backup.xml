@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kini-mpls-ring-frr-facility-backup'>
+<front>
+<title>Efficient Fast Re-route (FRR) using Facility backup in ring topology</title>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='A' surname='Liu' fullname='Autumn Liu'>
+    <organization />
+</author>
+
+<date month='January' day='13' year='2011' />
+
+<abstract><t>Fast Re-route (FRR) using facility backup is a widely deployed MPLS protection mechanism that can protect against link and node failure. It provides a fast protection switch mechanism to minimize traffic loss (typically sub 50msec) if the node that detects the failure locally, does the repair by re-routing the protected traffic to go over the backup tunnel. A direct application of this mechanism to a ring topology results in an inefficient use of link bandwidth that could also result in degraded service. This document describes a mechanism to do it without such problems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kini-mpls-ring-frr-facility-backup-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kini-mpls-ring-frr-facility-backup-02.txt' />
+</reference>

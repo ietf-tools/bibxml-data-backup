@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.woodworth-bulk-rr'>
+<front>
+<title>BULK DNS Resource Records</title>
+
+<author initials='j' surname='john.woodworth@centurylink.com' fullname='john.woodworth@centurylink.com'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ballew' fullname='Dean Ballew'>
+    <organization />
+</author>
+
+<author initials='S' surname='Raghavan' fullname='Shashwath Raghavan'>
+    <organization />
+</author>
+
+<date month='February' day='8' year='2017' />
+
+<abstract><t>The BULK DNS resource record type defines a method of pattern based creation of DNS resource records to be used in place of NXDOMAIN errors which would normally be returned.  These records are currently restricted to registered DNS resource record types A, AAAA, PTR and CNAME.  The key benefit of the BULK resource record type is the simplification of maintaining "generic" record assignments which would otherwise be too many to manage or require scripts or proprietary methods as bind's $GENERATE.  This document updates RFCs 2308, 4033, 4034 and 4035.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-woodworth-bulk-rr-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-woodworth-bulk-rr-04.txt' />
+</reference>

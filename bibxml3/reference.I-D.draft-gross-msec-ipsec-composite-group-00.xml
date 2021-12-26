@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gross-msec-ipsec-composite-group'>
+<front>
+<title>Multicast IP Security Composite Cryptographic Groups</title>
+
+<author initials='G' surname='Gross' fullname='George Gross'>
+    <organization />
+</author>
+
+<date month='June' day='8' year='2006' />
+
+<abstract><t>The Multicast IP Security extension architecture [Weis] implicitly assumes a basic group endpoint population that shares homogeneous cryptographic capabilities and security policies. In practice, large- scale cryptographic groups may contain a heterogeneous endpoint population that can not be accommodated by that basic multicast IPsec architecture. For example, some endpoints may not have been upgraded to handle the successor algorithm for one that is being retired (e.g. SHA1 transition to SHA-ng). This document defines the "composite cryptographic group" IP security architecture capability. A composite cryptographic group allows multicast IPsec applications to transparently interact with the single logical group that is formed by the union of one or more basic cryptographic groups.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gross-msec-ipsec-composite-group-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gross-msec-ipsec-composite-group-00.txt' />
+</reference>

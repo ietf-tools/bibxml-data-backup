@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cardenas-dff'>
+<front>
+<title>Depth-First Forwarding in Unreliable Networks</title>
+
+<author initials='U' surname='Herberg' fullname='Ulrich Herberg'>
+    <organization />
+</author>
+
+<author initials='A' surname='Cardenas' fullname='Alvaro Cardenas'>
+    <organization />
+</author>
+
+<author initials='T' surname='Iwao' fullname='Tadashige Iwao'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cespedes' fullname='Sandra Cespedes'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2011' />
+
+<abstract><t>This document describes the Depth-First Forwarding (DFF) protocol for IPv6 networks based on the LoWPAN adaptation layer.  The protocol is a mesh-under data forwarding mechanism that increases reliability of data delivery.  DFF forwards data packets using a network-wide "depth-first search" for the Final Destination of the packet.  DFF may be used in conjunction with a mesh-under routing protocol, which provides "hints" for DFF in which order to try to send the packet to the neighbors discovered by the neighborhood discovery mechanism.  In that case, DFF can be used as local repair mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cardenas-dff-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cardenas-dff-03.txt' />
+</reference>

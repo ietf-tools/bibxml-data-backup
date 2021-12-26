@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-ra-guard'>
+<front>
+<title>IPv6 RA-Guard</title>
+
+<author initials='E' surname='Levy-Abegnoli' fullname='Eric Levy-Abegnoli'>
+    <organization />
+</author>
+
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+    <organization />
+</author>
+
+<author initials='C' surname='Popoviciu' fullname='Chip Popoviciu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mohacsi' fullname='Janos Mohacsi'>
+    <organization />
+</author>
+
+<date month='May' day='28' year='2009' />
+
+<abstract><t>It is particularly easy to experience "rogue" routers on an unsecured link [reference4].  Devices acting as a rougue router may send illegitimate RAs.  Section 6 of SeND [RFC3971] provides a full solution to this problem, by enabling routers certification.  This solution does, however, require all nodes on an L2 network segment to support SeND, as well as it carries some deployment challenges.  End- nodes must be provisioned with certificate anchors.  The solution works better when end-nodes have access to a Certificate Revocation List server, and to a Network Time Protocol server, both typically off-link, which brings some bootstrap issues.  When using IPv6 within a single L2 network segment it is possible and sometimes desirable to enable layer 2 devices to drop rogue RAs before they reach end-nodes.  In order to distinguish valid from rogue RAs, the L2 devices can use a spectrum of criterias, from a static scheme that blocks RAs received on un-trusted ports, or from un-trusted sources, to a more dynamic scheme that uses SeND to challenge RA sources.  This document reviews various techniques applicable on the L2 devices to reduce the threat of rogue RAs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-ra-guard-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-ra-guard-03.txt' />
+</reference>

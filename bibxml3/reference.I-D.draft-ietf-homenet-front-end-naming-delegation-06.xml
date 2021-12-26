@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-homenet-front-end-naming-delegation'>
+<front>
+<title>Outsourcing Home Network Authoritative Naming Service</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='R' surname='Weber' fullname='Ralf Weber'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hunter' fullname='Ray Hunter'>
+    <organization />
+</author>
+
+<author initials='C' surname='Griffiths' fullname='Chris Griffiths'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2017' />
+
+<abstract><t>Designation of services and devices of a home network is not user friendly, and mechanisms should enable a user to designate services and devices inside a home network using names.  In order to enable internal communications while the home network experiments Internet connectivity shortage, the naming service should be hosted on a device inside the home network.  On the other hand, home networks devices have not been designed to handle heavy loads. As a result, hosting the naming service on such home network device, visible on the Internet exposes this device to resource exhaustion and other attacks, which could make the home network unreachable, and most probably would also affect the internal communications of the home network.  As result, home networks may prefer not serving the naming service for the Internet, but instead prefer outsourcing it to a third party. This document describes a mechanisms that enables the Home Network Authority (HNA) to outsource the naming service to the Outsourcing Infrastructure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-homenet-front-end-naming-delegation-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-homenet-front-end-naming-delegation-06.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-imapapnd-rfc2088bis'>
+<front>
+<title>IMAP4 non-synchronizing literals</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='February' day='5' year='2016' />
+
+<abstract><t>The Internet Message Access Protocol (RFC 3501) contains the "literal" syntactic construct for communicating strings.  When sending a literal from client to server, IMAP requires the client to wait for the server to send a command continuation request between sending the octet count and the string data.  This document specifies an alternate form of literal which does not require this network round trip.  This document specifies 2 IMAP extensions: LITERAL+ and LITERAL-. The former allows the alternate form of literals in all IMAP command. The latter is the same as LITERAL+, but disallow the alternate form of literals unless they are 4096 bytes or less.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-imapapnd-rfc2088bis-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-imapapnd-rfc2088bis-02.txt' />
+</reference>

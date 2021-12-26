@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.purkayastha-sfc-service-indirection'>
+<front>
+<title>Alternative Handling of Dynamic Chaining and Service Indirection</title>
+
+<author initials='D' surname='Purkayastha' fullname='Debashish Purkayastha'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rahman' fullname='Akbar Rahman'>
+    <organization />
+</author>
+
+<author initials='D' surname='Trossen' fullname='Dirk Trossen'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Despotovic' fullname='Zoran Despotovic'>
+    <organization />
+</author>
+
+<author initials='R' surname='Khalili' fullname='Ramin Khalili'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2017' />
+
+<abstract><t>Many stringent requirements are imposed on today's network, such as low latency, high availability and reliability in order to support several use cases such as IoT, Gaming, Content distribution, Robotics etc.  Networks need to be flexible and dynamic in terms of allocation of services and resources.  Network Operators should be able to reconfigure the composition of a service and steer users towards new service end points as users move or resource availability changes. SFC allows network operators to easily create and reconfigure service function chains dynamically in response to changing network requirements.  We discuss a use case where Service Function Chain can adapt or self-organize as demanded by the network condition without requiring SPI re-classification.  This can be achieved, for example, by decoupling the service consumer and service endpoint by a new service function proposed in this draft.  We describe few requirements for this service function to enable dynamic switching between consumer and end point.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-purkayastha-sfc-service-indirection-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-purkayastha-sfc-service-indirection-01.txt' />
+</reference>

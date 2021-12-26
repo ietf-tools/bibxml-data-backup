@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-pce-dns-pce-discovery'>
+<front>
+<title>Path Computation Element (PCE) Discovery using Domain Name System(DNS)</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='D' surname='King' fullname='Daniel King'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lopez' fullname='Diego Lopez'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='May' day='8' year='2014' />
+
+<abstract><t>Discovery of the Path Computation Element (PCE) within an IGP area or routing domain is possible using OSPF [RFC5088] and IS-IS [RFC5089]. However, it has been established that in certain deployment scenarios PCEs may not wish, or be able to participate within the IGP process. In those scenarios, it is beneficial for the Path Computation Client (PCC) (or other PCE) to discover PCEs via an alternative mechanism to those proposed in [RFC5088] and [RFC5089].  This document specifies the requirements, use cases, procedures and extensions to support PCE discovery along with certain relevant information type and capability discovery via DNS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-pce-dns-pce-discovery-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-pce-dns-pce-discovery-06.txt' />
+</reference>

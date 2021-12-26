@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bgmp-spec'>
+<front>
+<title>Border Gateway Multicast Protocol (BGMP): Protocol Specification</title>
+
+<author initials='D' surname='Thaler' fullname='Dave  Thaler'>
+    <organization />
+</author>
+
+<date month='January' day='20' year='2004' />
+
+<abstract><t>This document describes BGMP, a protocol for inter-domain multicast routing. BGMP builds shared trees for active multicast groups, and optionally allows receiver domains to build source-specific, inter- domain, distribution branches where needed. BGMP natively supports 'source-specific multicast' (SSM). To also support 'any-source multicast' (ASM), BGMP requires that each multicast group be associated with a single root (in BGMP it is referred to as the root domain). It requires that different ranges of the class D space are associated (e.g., with Unicast-Prefix-Based Multicast addressing) with different domains. Each of these domains then becomes the root of the shared domain-trees for all groups in its range. Multicast participants will generally receive better multicast service if the session initiator's address allocator selects addresses from its own domain's part of the space, thereby causing the root domain to be local to at least one of the session participants.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bgmp-spec-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bgmp-spec-06.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tiloca-core-groupcomm-proxy'>
+<front>
+<title>Proxy Operations for CoAP Group Communication</title>
+
+<author initials='M' surname='Tiloca' fullname='Marco Tiloca'>
+    <organization />
+</author>
+
+<author initials='E' surname='Dijk' fullname='Esko Dijk'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>This document specifies the operations performed by a forward-proxy, when using the Constrained Application Protocol (CoAP) in group communication scenarios.  Proxy operations involve the processing of individual responses from servers, as reply to a single request sent by the client over unicast to the proxy, and then distributed by the proxy over IP multicast to the servers.  When receiving the different responses via the proxy, the client is able to distinguish them and their originator servers, by acquiring their addressing information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tiloca-core-groupcomm-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tiloca-core-groupcomm-proxy-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mmm-bfd-on-lags'>
+<front>
+<title>Bidirectional Forwarding Detection (BFD) on Link Aggregation Group (LAG) Interfaces</title>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Wang' fullname='Zuliang Wang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Guo' fullname='Liang Guo'>
+    <organization />
+</author>
+
+<author initials='M' surname='Binderberger' fullname='Marc Binderberger'>
+    <organization />
+</author>
+
+<date month='December' day='13' year='2011' />
+
+<abstract><t>This document proposes a mechanism to run BFD on Link Aggregation Group (LAG) interfaces.  It does so by running an independent BFD session on every LAG member link.  A dedicated well-known multicast IP address for both IPv4 and IPv6 is introduced as the destination IP address of the BFD packets when running BFD on the member links of the LAG.  There is currently no standard that describes how BFD should run on LAG interfaces.  As a result multiple non-interoperable BFD implementations for LAG interfaces exist.  This draft provides a short overview as a context for the new proposed mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mmm-bfd-on-lags-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mmm-bfd-on-lags-00.txt' />
+</reference>

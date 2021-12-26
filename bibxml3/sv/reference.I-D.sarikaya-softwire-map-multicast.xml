@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-softwire-map-multicast'>
+<front>
+<title>Multicast Support for Mapping of Address and Port Protocol and Light Weight 4over6</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ji' fullname='Hui Ji'>
+    <organization />
+</author>
+
+<date month='June' day='8' year='2015' />
+
+<abstract><t>This memo specifies multicast component for MAP and Light Weight 4over6 so that IPv4 hosts can receive multicast data from IPv4 servers over an IPv6 network.  The solution developed is based on translation.  In the Translation Multicast solution for MAP (MAP-E and MAP-T) and lw4o6, IGMP messages are translated into MLD messages and sent to the network in IPv6.  MAP Border Relay/lwAFTR does the reverse translation and joins IPv4 multicast group for the hosts. Border Relay/lwAFTR as multicast router receives IPv4 multicast data and translates the packet into IPv6 multicast data and sends downstream on the multicast tree.  Member CEs/lwB4s receive multicast data, translate it back to IPv4 and transmit to the hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-softwire-map-multicast-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-softwire-map-multicast-04.txt' />
+</reference>

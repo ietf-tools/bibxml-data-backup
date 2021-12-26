@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kelly-ipsec-ciph-sha2'>
+<front>
+<title>Using HMAC-SHA-256 With IPsec</title>
+
+<author initials='S' surname='Kelly' fullname='Scott Kelly'>
+    <organization />
+</author>
+
+<author initials='S' surname='Frankel' fullname='Sheila Frankel'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2006' />
+
+<abstract><t>This specification describes the use of the SHA-256 algorithm in conjunction with HMAC as a data origin authentication and integrity verification mechanism for the IPsec AH, ESP, and IKEv2 protocols, and also as a PRF for IKEv2. Two output truncation lengths are specified for data origin authentication and integrity verification usage, with the corresponding algorithms designated as HMAC-SHA-256- 128 and HMAC-SHA-256-192. No truncation is specified for PRF usage, and the resulting algorithm is designated as HMAC-SHA-PRF-256.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kelly-ipsec-ciph-sha2-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kelly-ipsec-ciph-sha2-00.txt' />
+</reference>

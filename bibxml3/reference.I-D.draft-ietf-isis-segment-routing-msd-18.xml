@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-isis-segment-routing-msd'>
+<front>
+<title>Signaling MSD (Maximum SID Depth) using IS-IS</title>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='S' surname='Aldrin' fullname='Sam Aldrin'>
+    <organization />
+</author>
+
+<author initials='L' surname='Ginsberg' fullname='Les Ginsberg'>
+    <organization />
+</author>
+
+<date month='October' day='4' year='2018' />
+
+<abstract><t>This document defines a way for an Intermediate System to Intermediate System (IS-IS) router to advertise multiple types of supported Maximum SID Depths (MSDs) at node and/or link granularity. Such advertisements allow entities (e.g., centralized controllers) to determine whether a particular SID (Segment ID) stack can be supported in a given network.  This document only defines one type of MSD (Base MPLS Imposition), but defines an encoding that can support other MSD types.  This document focuses on MSD use in a Segment Routing enabled network, but MSD may also be useful when Segment Routing is not enabled.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-isis-segment-routing-msd-18' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-isis-segment-routing-msd-18.txt' />
+</reference>

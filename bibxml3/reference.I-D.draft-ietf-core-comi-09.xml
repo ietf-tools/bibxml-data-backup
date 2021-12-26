@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-comi'>
+<front>
+<title>CoAP Management Interface</title>
+
+<author initials='M' surname='Veillette' fullname='Michel Veillette'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stok' fullname='Peter van der Stok'>
+    <organization />
+</author>
+
+<author initials='A' surname='Pelov' fullname='Alexander Pelov'>
+    <organization />
+</author>
+
+<author initials='A' surname='Bierman' fullname='Andy Bierman'>
+    <organization />
+</author>
+
+<author initials='I' surname='Petrov' fullname='Ivaylo Petrov'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>This document describes a network management interface for constrained devices and networks, called CoAP Management Interface (CoMI).  The Constrained Application Protocol (CoAP) is used to access datastore and data node resources specified in YANG, or SMIv2 converted to YANG.  CoMI uses the YANG to CBOR mapping and converts YANG identifier strings to numeric identifiers for payload size reduction.  The complete solution composed of CoMI, [I-D.ietf-core-yang-cbor] and [I-D.ietf-core-sid] is called CORECONF. CORECONF extends the set of YANG based protocols, NETCONF and RESTCONF, with the capability to manage constrained devices and networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-comi-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-core-comi-09.txt' />
+</reference>

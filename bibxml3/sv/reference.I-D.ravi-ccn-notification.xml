@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ravi-ccn-notification'>
+<front>
+<title>Support for Notifications in CCN</title>
+
+<author initials='R' surname='Ravindran' fullname='Ravi Ravindran'>
+    <organization />
+</author>
+
+<author initials='A' surname='Chakraborti' fullname='Asit Chakraborti'>
+    <organization />
+</author>
+
+<author initials='S' surname='Amin' fullname='Syed Amin'>
+    <organization />
+</author>
+
+<author initials='m' surname='marc.mosko@parc.com' fullname='marc.mosko@parc.com'>
+    <organization />
+</author>
+
+<author initials='I' surname='Solis' fullname='Ignacio Solis'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This draft proposes a new packet primitive called Notification for CCN.  Notification is a PUSH primitive and can be unicast or multicast to multiple listening points.  Notifications do not expect a Content Object response hence only requires the use of FIB state in the CCN forwarder.  Emulating Notification as a PULL has performance and forwarding implications.  The draft proposes a new fixed header primitive called Notification and a CCN message encoding using Content Object primitive to transport Notifications.  These discussions are presented in the context of CCNx1.0 [1] proposal.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ravi-ccn-notification-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ravi-ccn-notification-01.txt' />
+</reference>

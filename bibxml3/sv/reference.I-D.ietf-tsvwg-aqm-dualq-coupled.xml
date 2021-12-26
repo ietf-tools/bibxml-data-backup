@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-aqm-dualq-coupled'>
+<front>
+<title>DualQ Coupled AQMs for Low Latency, Low Loss and Scalable Throughput (L4S)</title>
+<author initials='K' surname='Schepper' fullname='Koen De Schepper'>
+<organization />
+</author>
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+<organization />
+</author>
+<author initials='G' surname='White' fullname='Greg White'>
+<organization />
+</author>
+<date year='2021' month='December' day='24' />
+<abstract><t>This specification defines a framework for coupling the Active Queue Management (AQM) algorithms in two queues intended for flows with different responses to congestion.  This provides a way for the Internet to transition from the scaling problems of standard TCP Reno-friendly ('Classic') congestion controls to the family of 'Scalable' congestion controls.  These are designed for consistently very Low queuing Latency, very Low congestion Loss and Scaling of per-flow throughput (L4S) by using Explicit Congestion Notification (ECN) in a modified way.  Until the Coupled DualQ, these L4S senders could only be deployed where a clean-slate environment could be arranged, such as in private data centres.  The coupling acts like a semi-permeable membrane: isolating the sub-millisecond average queuing delay and zero congestion loss of L4S from Classic latency and loss; but pooling the capacity between any combination of Scalable and Classic flows with roughly equivalent throughput per flow.  The DualQ achieves this indirectly, without having to inspect transport layer flow identifiers and without compromising the performance of the Classic traffic, relative to a single queue.  The DualQ design has low complexity and requires no configuration for the public Internet.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-aqm-dualq-coupled-20'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-tsvwg-aqm-dualq-coupled-20.txt'/>
+</reference>

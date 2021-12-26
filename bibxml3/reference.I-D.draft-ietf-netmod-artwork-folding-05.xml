@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netmod-artwork-folding'>
+<front>
+<title>Handling Long Lines in Inclusions in Internet-Drafts and RFCs</title>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2019' />
+
+<abstract><t>This document defines two strategies for handling long lines in width-bounded text content.  One strategy is based on the historic use of a single backslash ('\') character to indicate where line- folding has occurred, with the continuation occurring with the first non-space (' ') character on the next line.  The second strategy extends the first strategy by adding a second backslash character to identify where the continuation begins and thereby able to handle cases not supported by the first strategy.  Both strategies use a self-describing header enabling automated reconstitution of the original content.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netmod-artwork-folding-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netmod-artwork-folding-05.txt' />
+</reference>

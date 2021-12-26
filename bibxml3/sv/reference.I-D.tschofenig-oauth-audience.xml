@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-oauth-audience'>
+<front>
+<title>OAuth 2.0: Audience Information</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>The OAuth 2.0 Bearer Token specification allows any party in possession of a bearer token to get access to the associated resources (without demonstrating possession of a cryptographic key). To prevent misuse, two important security assumptions must hold: bearer tokens must be protected from disclosure in storage and in transport and the access token must only be valid for use with a specific resource server (the audience) and with a specific scope.  This document defines a new header that is used by the client to indicate what resource server, as the intended recipient, it wants to access.  This information is subsequently also communicated by the authorization server securely to the resource server, for example within the audience field of the access token.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-oauth-audience-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-oauth-audience-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bajko-mip6-rrtfw'>
+<front>
+<title>Firewall friendly RTT for MIPv6</title>
+
+<author initials='G' surname='Bajko' fullname='Gabor Bajko'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2006' />
+
+<abstract><t>Firewalls represent an integral part of today's IP networks, currently based on IPv4 technology. Deployment of IPv6 is under way, and firewall vendors will need to deploy firewalls which will be able to handle IPv6 packets, including its many extensions. Mobile IPv6, standardized in RFC3775, specifies a number of extensions and procedures to IPv6, which do not work when firewalls are on the data communication path [1]. This document defines a slightly modified Return Routability Test (RRT) for MIPv6 [2]. The new method is firewall friendly and allows a mobile node to send Binding Update message to its correspondent node (so that Route Optimization can be applied) and ensures that the CN receives the Binding Update, even when either the mobile node, the CN, or both are located behind firewalls.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bajko-mip6-rrtfw-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bajko-mip6-rrtfw-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheng-lisp-shdht'>
+<front>
+<title>LISP Single-Hop DHT Mapping Overlay</title>
+
+<author initials='L' surname='Cheng' fullname='Li Cheng'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wang' fullname='Jun Wang'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>This draft specifies the LISP Single-Hop Distributed Hash Table Mapping Overlay (LISP-SHDHT), a distributed mapping database which embodies SHDHT Nodes to maintain (Key, value) pairs for LISP (Locator/ID Separation Protocol)-like architecture, wherein every (key value) pair is according to an EID(Endpoint ID)-to-RLOC(Routing Locator) mapping information entry.  According to this strategy, EID is hashed to be a unique Resource ID which is used for locating destiny DHT Node who maintains mapping entry for the particular EID. Furthermore, adaptive hash space partition method is adopted to solve the load balance problem on SHDHT Nodes which is common on traditional DHT planes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheng-lisp-shdht-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheng-lisp-shdht-01.txt' />
+</reference>

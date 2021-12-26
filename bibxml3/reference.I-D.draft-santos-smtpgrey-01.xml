@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.santos-smtpgrey'>
+<front>
+<title>SMTP Service Extension for Greylisting Operations</title>
+
+<author initials='E' surname='Harris' fullname='Evan Harris'>
+    <organization />
+</author>
+
+<author initials='H' surname='Santos' fullname='Hector Santos'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2011' />
+
+<abstract><t>GREYLIST is a SMTP extension to formalize the widely supported Greylisting mail filtering method and to help support SMTP rejected transports by following a new formal structured 4yz server temporary rejection response by including a "retry=time-delay" tag string which SMTP clients can use to optimize the rescheduling of the mail delivery attempts.  With adoption, network overhead reduction in wasteful mail delivery attempts will be realized.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-santos-smtpgrey-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-santos-smtpgrey-01.txt' />
+</reference>

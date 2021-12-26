@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huitema-quic-mpath-option'>
+<front>
+<title>QUIC Multipath Negotiation Option</title>
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+<organization />
+</author>
+<date year='2020' month='October' day='20' />
+<abstract><t>The initial version of QUIC provides support for path migration.  In this draft, we argue that there is a very small distance between supporting path migration and supporting simulatneous traffic on multipath.  Instead of using an implicit algorithm to discard unused paths, we propose a simple option to allow explicit management of active and inactive paths.  Once paths are explicitly managed, pretty much all other requirements for multipath support can be met by appropriate algorithms for scheduling transmissions on specific paths.  These algorithms can be implemented on the sender side, and do not require specific extensions, except maybe a measurement of one way delays.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-huitema-quic-mpath-option-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-huitema-quic-mpath-option-00.txt'/>
+</reference>

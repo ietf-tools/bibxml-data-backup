@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wkumari-dnsop-hammer'>
+<front>
+<title>Highly Automated Method for Maintaining Expiring Records</title>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='R' surname='Arends' fullname='Roy Arends'>
+    <organization />
+</author>
+
+<author initials='S' surname='Woolf' fullname='Suzanne Woolf'>
+    <organization />
+</author>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2017' />
+
+<abstract><t>This document describes a simple DNS cache optimization which keeps the most popular Resource Records set (RRset) in the DNS cache: Highly Automated Method for Maintaining Expiring Records (HAMMER).  The principle is that popular RRset in the cache are fetched, that is to say resolved before their TTL expires and flushed.  By fetching RRset before they are being queried by an end user, that is to say prefetched, HAMMER is expected to improve the quality of experience of the end users as well as to optimize the resources involved in large DNSSEC resolving platforms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wkumari-dnsop-hammer-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wkumari-dnsop-hammer-03.txt' />
+</reference>

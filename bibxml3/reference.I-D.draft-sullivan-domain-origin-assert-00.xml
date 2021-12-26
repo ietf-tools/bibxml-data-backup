@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sullivan-domain-origin-assert'>
+<front>
+<title>Asserting Administrative Boundaries of Origin Using DNS Zones</title>
+
+<author initials='A' surname='Sullivan' fullname='Andrew Sullivan'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2012' />
+
+<abstract><t>Some clients on the Internet make inferences about the administrative relationships among servers on the Internet based on the domain names of those servers.  Examples include decisions about acceptance of cookies and about cross-document information sharing in ECMAScript DOM.  Perhaps unfortunately, real administrative boundaries in the DNS are not possible to detect, and therefore these inferences can go wrong in several ways.  Mitigation strategies deployed so far will not scale.  The solution to this is to provide a way to make an explicit assertion about the relationships between different domain names.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sullivan-domain-origin-assert-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sullivan-domain-origin-assert-00.txt' />
+</reference>

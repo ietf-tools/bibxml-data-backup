@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kumaki-murai-ccamp-rsvp-te-l3vpn'>
+<front>
+<title>Support for RSVP-TE in L3VPNs</title>
+
+<author initials='K' surname='Kumaki' fullname='Kenji Kumaki'>
+    <organization />
+</author>
+
+<author initials='T' surname='Murai' fullname='Tomoki Murai'>
+    <organization />
+</author>
+
+<author initials='T' surname='Yamagata' fullname='Tomohiro Yamagata'>
+    <organization />
+</author>
+
+<author initials='C' surname='Sasaki' fullname='Chikara Sasaki'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2010' />
+
+<abstract><t>IP Virtual Private Networks (VPNs) provide connectivity between sites across an IP backbone. These VPNs can be supported using BGP/MPLS and the connections can be created by using MPLS Traffic Engineered (TE) Label Switched Paths (LSPs).  New RSVP-TE extensions are required to support multiple MPLS-TE based BGP/MPLS IP-VPNs that are interconnected via the same Provider Edge (PE) routers. These extensions are necessary so that RSVP control messages from the Customer Edge (CE) equipment, such as Path messages and Resv messages, are appropriately handled by the PE routers. This document defines the procedure and objects that enable a PE router to distinguish between BGP/MPLS IP-VPNs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kumaki-murai-ccamp-rsvp-te-l3vpn-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kumaki-murai-ccamp-rsvp-te-l3vpn-03.txt' />
+</reference>

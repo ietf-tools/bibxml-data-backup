@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dugeon-pce-ted-reqs'>
+<front>
+<title>Path Computation Element (PCE) Database Requirements</title>
+
+<author initials='O' surname='Dugeon' fullname='Olivier Dugeon'>
+    <organization />
+</author>
+
+<author initials='J' surname='Meuric' fullname='Julien Meuric'>
+    <organization />
+</author>
+
+<author initials='R' surname='Douville' fullname='Richard Douville'>
+    <organization />
+</author>
+
+<author initials='R' surname='Casellas' fullname='Ramon Casellas'>
+    <organization />
+</author>
+
+<author initials='O' surname='Dios' fullname='Oscar de Dios'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>The Path Computation Element (PCE) working group (WG) has produced a set of RFCs to standardize the behavior of the Path Computation Element as a tool to help MPLS-TE and GMPLS LSP tunnels placement. In the PCE architecture, a main assumption has been done concerning the information that the PCE needs to perform its computation.  In a fist approach, the PCE embeds a Traffic Engineering Database (TED) containing all pertinent and suitable information regarding the network that is in the scope of a PCE.  Nevertheless, the TED requirements as well as the TED information have not yet been formalized.  In addition, some recent RFC (like the Backward Recursive Path Computation procedure or PCE Hierarchy) or WG draft (like draft-ietf-pce-stateful-pce ...) suffer from a lack of information in the TED, leading to a non optimal result or to some difficulties to deploy them.  This memo tries to identify some Database, at large, requirements for the PCE.  It is split in two main sections: the identification of the specific information to be stored in the PCE Database and how it may be populated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dugeon-pce-ted-reqs-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dugeon-pce-ted-reqs-03.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stewart-tsvwg-sctp-ndata'>
+<front>
+<title>A New Data Chunk for Stream Control Transmission Protocol</title>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<author initials='R' surname='Seggelmann' fullname='Robin Seggelmann'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2013' />
+
+<abstract><t>The Stream Control Transmission Protocol (SCTP) is a message oriented transport protocol supporting arbitrary large user messages. However, the sender can not interleave different user messages which which causes head of line blocking at the sender side.  To overcome this limitation, this document adds a new data chunk to SCTP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stewart-tsvwg-sctp-ndata-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stewart-tsvwg-sctp-ndata-03.txt' />
+</reference>

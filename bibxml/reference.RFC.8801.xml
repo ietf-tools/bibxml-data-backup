@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8801' target='https://www.rfc-editor.org/info/rfc8801'>
+<front>
+<title>Discovering Provisioning Domain Names and Data</title>
+<author initials='P.' surname='Pfister' fullname='P. Pfister'><organization /></author>
+<author initials='É.' surname='Vyncke' fullname='É. Vyncke'><organization /></author>
+<author initials='T.' surname='Pauly' fullname='T. Pauly'><organization /></author>
+<author initials='D.' surname='Schinazi' fullname='D. Schinazi'><organization /></author>
+<author initials='W.' surname='Shao' fullname='W. Shao'><organization /></author>
+<date year='2020' month='July' />
+<abstract><t>Provisioning Domains (PvDs) are defined as consistent sets of network configuration information. PvDs allows hosts to manage connections to multiple networks and interfaces simultaneously, such as when a home router provides connectivity through both a broadband and cellular network provider.</t><t>This document defines a mechanism for explicitly identifying PvDs through a Router Advertisement (RA) option. This RA option announces a PvD identifier, which hosts can compare to differentiate between PvDs. The option can directly carry some information about a PvD and can optionally point to PvD Additional Information that can be retrieved using HTTP over TLS.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8801'/>
+<seriesInfo name='DOI' value='10.17487/RFC8801'/>
+</reference>

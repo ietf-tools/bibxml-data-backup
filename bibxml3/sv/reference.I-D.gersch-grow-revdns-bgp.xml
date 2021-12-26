@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gersch-grow-revdns-bgp'>
+<front>
+<title>DNS Resource Records for Authorized Routing Information</title>
+
+<author initials='J' surname='Gersch' fullname='Joe Gersch'>
+    <organization />
+</author>
+
+<author initials='D' surname='Massey' fullname='Dan Massey'>
+    <organization />
+</author>
+
+<author initials='C' surname='Olschanowsky' fullname='Cathie Olschanowsky'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhang' fullname='Lixia Zhang'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>This draft discusses the use of two DNS record types for storing BGP routing information in the reverse DNS.  The RLOCK record allows prefix owners to indicate whether the DNS is being used to publish routing data.  The SRO record allows operators to indicate whether an IPv4 or IPv6 prefix ought to appear in global routing tables and identifies authorized origin Autonomous System Number(s) for that prefix.  The resulting published data can be used in a variety of contexts from routing security to address ownership.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gersch-grow-revdns-bgp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gersch-grow-revdns-bgp-02.txt' />
+</reference>

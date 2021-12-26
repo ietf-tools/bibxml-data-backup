@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-pcep-svec-list'>
+<front>
+<title>The use of SVEC (Synchronization VECtor) list for Synchronized dependent  path computations</title>
+
+<author initials='I' surname='Nishioka' fullname='Itaru Nishioka'>
+    <organization />
+</author>
+
+<author initials='D' surname='King' fullname='Daniel King'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2009' />
+
+<abstract><t>A Path Computation Element (PCE) performing dependent path computations, for instance calculating a diverse working and protected path do not share common network points, would need to synchronize the computations in order to increase the probability of meeting the working and protected path disjoint objective and network resource optimization objective. When a PCE computes multiple sets of dependent path computation requests concurrently, it is required to use Synchronization VECtor (SVEC) list for association among the sets of dependent path computation requests. SVEC is also applicable to end-to-end diverse path computation across multiple domains. This document describes the usage of SVECs in the SVEC list and diverse path computation guideline, for the synchronized computation of dependent paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-pcep-svec-list-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-pcep-svec-list-01.txt' />
+</reference>

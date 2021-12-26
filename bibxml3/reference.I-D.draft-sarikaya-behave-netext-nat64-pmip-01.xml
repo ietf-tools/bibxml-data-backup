@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-behave-netext-nat64-pmip'>
+<front>
+<title>NAT64 for Proxy Mobile IPv6</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='January' day='25' year='2011' />
+
+<abstract><t>This memo specifies modifications required to Mobile Access Gateway and Local Mobility Anchor to integrate NAT64 with Proxy Mobile IP so that mobile nodes (MN) receiving network-based mobility management using Proxy Mobile IPv6 (PMIPv6) can communicate with IPv4 only servers.  The protocol is based on local mobility anchors maintaining a table similar to NAT64 and linking it to the binding cache.  The changes include better keepalive management in order to preserve battery on the mobile node as well as multicast support for NAT64 integrated into the current multicast support scheme in Proxy Mobile IPv6 so that IPv6 only mobile nodes can receive multicast data from IPv4 only content providers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-behave-netext-nat64-pmip-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-behave-netext-nat64-pmip-01.txt' />
+</reference>

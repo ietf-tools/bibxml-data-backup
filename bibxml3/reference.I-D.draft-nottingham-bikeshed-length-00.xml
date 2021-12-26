@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nottingham-bikeshed-length'>
+<front>
+<title>Advisory Content-Length for HTTP</title>
+
+<author initials='M' surname='Nottingham' fullname='Mark Nottingham'>
+    <organization />
+</author>
+
+<date month='March' day='17' year='2020' />
+
+<abstract><t>The HTTP Content-Length header field is overloaded with (at least) two duties: message delimitation in HTTP/1, and metadata about the length of an incoming request body to the software handling it.  This causes confusion, and sometimes problems.  This document proposes a new header to untangle these semantics (at least partially).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nottingham-bikeshed-length-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nottingham-bikeshed-length-00.txt' />
+</reference>

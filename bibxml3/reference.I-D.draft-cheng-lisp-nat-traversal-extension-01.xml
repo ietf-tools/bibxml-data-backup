@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheng-lisp-nat-traversal-extension'>
+<front>
+<title>Extension to LISP NAT Traversal Proposal</title>
+
+<author initials='L' surname='Cheng' fullname='Li Cheng'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wang' fullname='Jun Wang'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>This draft specifies several special NAT traversal scenarios when two or more LISP Sites/MNs which locate behind the same NAT equipment communicate with each other.  When these LISP Sites/MNs communicate with each other, it may cause routing latency and will increase re- encapsulation load on Re-encapsulating Tunnel Routers(RTRs) based on existing LISP-NAT strategy.  In this draft, we give detail descriptions of these scenarios.  Also we propose some suggestions to solve the problems.  According to our strategy, a new kind of message is used for RTRs to send relative information of Corresponding Sites/MNs to xTRs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheng-lisp-nat-traversal-extension-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheng-lisp-nat-traversal-extension-01.txt' />
+</reference>

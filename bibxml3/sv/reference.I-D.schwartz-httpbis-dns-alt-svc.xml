@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schwartz-httpbis-dns-alt-svc'>
+<front>
+<title>Finding HTTP Alternative Services via the Domain Name Service</title>
+
+<author initials='B' surname='Schwartz' fullname='Benjamin Schwartz'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bishop' fullname='Mike Bishop'>
+    <organization />
+</author>
+
+<date month='April' day='23' year='2018' />
+
+<abstract><t>The HTTP Alternative Services (Alt-Svc) mechanism allows an HTTP origin to be served from multiple network endpoints, and over multiple protocols.  However, the client must first contact the origin server, in order to learn of the alternative services.  This draft proposes a straightforward mapping of Alt-Svc into DNS, allowing clients to learn of these services before their first contact with the origin.  This arrangement offers potential benefits to both performance and privacy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schwartz-httpbis-dns-alt-svc-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schwartz-httpbis-dns-alt-svc-02.txt' />
+</reference>

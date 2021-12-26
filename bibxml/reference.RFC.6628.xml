@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6628' target='https://www.rfc-editor.org/info/rfc6628'>
+<front>
+<title>Efficient Augmented Password-Only Authentication and Key Exchange for IKEv2</title>
+<author initials='S.' surname='Shin' fullname='S. Shin'><organization /></author>
+<author initials='K.' surname='Kobara' fullname='K. Kobara'><organization /></author>
+<date year='2012' month='June' />
+<abstract><t>This document describes an efficient augmented password-only authentication and key exchange (AugPAKE) protocol where a user remembers a low-entropy password and its verifier is registered in the intended server.  In general, the user password is chosen from a small set of dictionary words that allows an attacker to perform exhaustive searches (i.e., off-line dictionary attacks).  The AugPAKE protocol described here is secure against passive attacks, active attacks, and off-line dictionary attacks (on the obtained messages with passive/active attacks), and also provides resistance to server compromise (in the context of augmented PAKE security).  In addition, this document describes how the AugPAKE protocol is integrated into the Internet Key Exchange Protocol version 2 (IKEv2).  This document defines an Experimental Protocol for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6628'/>
+<seriesInfo name='DOI' value='10.17487/RFC6628'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xue-dhc-dynamic-gre'>
+<front>
+<title>Dynamic Stateless GRE Tunnel</title>
+
+<author initials='L' surname='Xue' fullname='Li Xue'>
+    <organization />
+</author>
+
+<author initials='D' surname='Guo' fullname='Dayong Guo'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>Generic Routing Encapsulation (GRE) is regarded as a popular encapsulation tunnel technology because of simpleness and easy implementation.  When a node tries to encapsulate the user traffic in a GRE tunnel, it needs to first obtain the IP address of some destination node to decapsulate the GRE packets.  According to the information of destination node, a node can setup the GRE tunnel connection.  In practice, the IP address of decapsulation node of GRE tunnel may be manually configured on the GRE encapsulation side. This configuration introduces efficiency issues for operators, especially, in the scenarios where there are large amount of GRE tunnels needed.  This work proposes an approach to configure the GRE tunnel dynamically.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xue-dhc-dynamic-gre-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xue-dhc-dynamic-gre-01.txt' />
+</reference>

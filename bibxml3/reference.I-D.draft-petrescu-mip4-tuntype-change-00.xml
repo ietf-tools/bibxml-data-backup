@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.petrescu-mip4-tuntype-change'>
+<front>
+<title>Tunnel Type Change for Mobile IPv4 (TTC)</title>
+
+<author initials='A' surname='Petrescu' fullname='Alexandru Petrescu'>
+    <organization />
+</author>
+
+<author initials='C' surname='Janneteau' fullname='Christophe Janneteau'>
+    <organization />
+</author>
+
+<author initials='N' surname='Demailly' fullname='Nicolas Demailly'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>The protocol Mobile IPv4 may use a number of encapsulation methods between an MN and its HA.  The UDP method is used to perform NAT Traversal (if a NAT sits between MN and HA) whereas IP-in-IP method may be used if there is no NAT (CoA is a publicly routable address). Although these methods are individually specified, a mechanism for changing between one to another is not, which may lead to incoherent implementations.  This draft briefly presents the scenario of a MN performing a handover between private space (NAT) and public space (non-NAT), the implementation problem (type of tunnel can not be changed dynamically), and some potential solutions as textual modifications, better implementations, or protocol extensions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-petrescu-mip4-tuntype-change-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-petrescu-mip4-tuntype-change-00.txt' />
+</reference>

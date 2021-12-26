@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-addr-select-req'>
+<front>
+<title>Requirements for distributing RFC3484 address selection policy</title>
+
+<author initials='A' surname='Matsumoto' fullname='Arifumi  Matsumoto'>
+    <organization />
+</author>
+
+<date month='November' day='10' year='2006' />
+
+<abstract><t>RFC3484 defines source and destination address selection algorithms that are commonly deployed in current popular OSs. Meanwhile, there is a possibility to provide multiple addresses in one physical network. In such a multi-prefix environment, end-hosts could encounter some troubles in the communication because of default use of the RFC3484 mechanism. Therefore, extending various rules beyond the default use of the RFC3484 mechanism should be considered. We propose a concept of distribution of address selection policy to an end-host as a solution to these possible problems. In this document, we describe detailed requirements of address selection policy distribution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-addr-select-req-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-addr-select-req-00.txt' />
+</reference>

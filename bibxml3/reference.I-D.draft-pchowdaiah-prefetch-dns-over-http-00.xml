@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pchowdaiah-prefetch-dns-over-http'>
+<front>
+<title>Method to pre-fetch Domain Names at HTTP Proxy Servers</title>
+
+<author initials='p' surname='pchowdaiah@gmail.com' fullname='pchowdaiah@gmail.com'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2017' />
+
+<abstract><t>This specification offers an approach for augmenting domain name resolution times by intercepting HTTP responses at HTTP Proxy servers and triggering DNS queries to the servers in lieu of user requests and returning responses without an explicit requests from clients. This functionality can be achieved by multiple approaches at HTTP and Domain Name System [DNS] Protocols, this document specifies approach that shall be employed at HTTP protocol [RFC 2616]. Methods/approaches pertaining to DNS shall be documented in [draft- pchowdaiah-dns-without-explicit-query.txt].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pchowdaiah-prefetch-dns-over-http-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pchowdaiah-prefetch-dns-over-http-00.txt' />
+</reference>

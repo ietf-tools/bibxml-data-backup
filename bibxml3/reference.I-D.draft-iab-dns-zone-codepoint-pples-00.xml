@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iab-dns-zone-codepoint-pples'>
+<front>
+<title>Principles for Unicode Code Point Inclusion in Labels in the DNS</title>
+
+<author initials='A' surname='Sullivan' fullname='Andrew Sullivan'>
+    <organization />
+</author>
+
+<author initials='D' surname='Thaler' fullname='Dave Thaler'>
+    <organization />
+</author>
+
+<author initials='J' surname='Klensin' fullname='John Klensin'>
+    <organization />
+</author>
+
+<author initials='O' surname='Kolkman' fullname='Olaf Kolkman'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2012' />
+
+<abstract><t>IDNA makes available to DNS zone administrators a very wide range of Unicode code points.  Most operators of zones should probably not permit registration of U-labels using the entire range.  This is especially true of zones that accept registrations from outside parties, including (and most importantly) the root.  It is unfortunately not possible to generate algorithms to determine whether a code point is intrinsically safe to permit.  This memo presents a set of principles that can be used to guide the decision of whether a Unicode code point may be wisely included in the repertoire of permissible code points in a U-label in a zone.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iab-dns-zone-codepoint-pples-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iab-dns-zone-codepoint-pples-00.txt' />
+</reference>

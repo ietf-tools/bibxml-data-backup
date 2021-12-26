@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-iro-update'>
+<front>
+<title>Update to Include Route Object (IRO) specification in Path Computation Element communication Protocol (PCEP)</title>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2016' />
+
+<abstract><t>The Path Computation Element Communication Protocol (PCEP) provides for communications between a Path Computation Client (PCC) and a PCE, or between two PCEs.  RFC 5440 defines the Include Route Object (IRO) to specify network elements to be traversed in the computed path. The specification did not specify if the IRO contains an ordered or un-ordered list of sub-objects.  During recent discussions, it was determined that there was a need to define a standard representation to ensure interoperability.  An informal survey was conducted to determine the state of current and planned implementations with respect to IRO ordering and the handling of an attribute of the IRO's sub-object, the Loose hop bit (L bit).  This document updates RFC 5440 regarding the IRO specification, based on the survey conclusion and recommendation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-iro-update-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-iro-update-06.txt' />
+</reference>

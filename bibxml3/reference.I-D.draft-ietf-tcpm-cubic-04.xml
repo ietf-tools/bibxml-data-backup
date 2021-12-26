@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-cubic'>
+<front>
+<title>CUBIC for Fast Long-Distance Networks</title>
+
+<author initials='I' surname='Rhee' fullname='Injong Rhee'>
+    <organization />
+</author>
+
+<author initials='L' surname='Xu' fullname='Lisong Xu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ha' fullname='Sangtae Ha'>
+    <organization />
+</author>
+
+<author initials='A' surname='Zimmermann' fullname='Alexander Zimmermann'>
+    <organization />
+</author>
+
+<author initials='L' surname='Eggert' fullname='Lars Eggert'>
+    <organization />
+</author>
+
+<author initials='R' surname='Scheffenegger' fullname='Richard Scheffenegger'>
+    <organization />
+</author>
+
+<date month='February' day='4' year='2017' />
+
+<abstract><t>CUBIC is an extension to the current TCP standards.  The protocol differs from the current TCP standards only in the congestion window adjustment function in the sender side.  In particular, it uses a cubic function instead of a linear window increase function of the current TCP standards to improve scalability and stability under fast and long distance networks.  CUBIC and its predecessor algorithm have been adopted as default by Linux and have been used for many years. This document provides a specification of CUBIC to enable third party implementation and to solicit the community feedback through experimentation on the performance of CUBIC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-cubic-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-cubic-04.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-cubic-04.pdf' />
+</reference>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-icnrg-flic'>
+<front>
+<title>File-Like ICN Collections (FLIC)</title>
+<author initials='C' surname='Tschudin' fullname='Christian Tschudin'>
+<organization />
+</author>
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+<organization />
+</author>
+<author initials='M' surname='Mosko' fullname='Marc Mosko'>
+<organization />
+</author>
+<author initials='D' surname='Oran' fullname='David Oran'>
+<organization />
+</author>
+<date year='2021' month='November' day='07' />
+<abstract><t>This document describes a simple &quot;index table&quot; data structure and its associated ICN data objects for organizing a set of primitive ICN data objects into a large, File-Like ICN Collection (FLIC).  At the core of this collection is a _manifest_ which acts as the collection's root node.  The manifest contains an index table with pointers, each pointer being a hash value pointing to either a final data block or another index table node.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-irtf-icnrg-flic-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-irtf-icnrg-flic-03.txt'/>
+</reference>

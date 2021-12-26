@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bfd-mpls'>
+<front>
+<title>BFD For MPLS LSPs</title>
+
+<author initials='R' surname='Aggarwal' fullname='Rahul Aggarwal'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kompella' fullname='Kireeti Kompella'>
+    <organization />
+</author>
+
+<author initials='T' surname='Nadeau' fullname='Thomas Nadeau'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George  Swallow'>
+    <organization />
+</author>
+
+<date month='June' day='17' year='2008' />
+
+<abstract><t>One desirable application of Bi-directional Forwarding Detection (BFD) is to detect a Multi Protocol Label Switched (MPLS) Label Switched Path (LSP) data plane failure. LSP-Ping is an existing mechanism for detecting MPLS data plane failures and for verifying the MPLS LSP data plane against the control plane. BFD can be used for the former, but not for the latter. However the control plane processing required for BFD control packets is relatively smaller than the processing required for LSP-Ping messages. A combination of LSP-Ping and BFD can be used to provide faster data plane failure detection and/or make it possible to provide such detection on a greater number of LSPs. This document describes the applicability of BFD in relation to LSP-Ping for this application. It also describes procedures for using BFD in this environment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bfd-mpls-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bfd-mpls-06.txt' />
+</reference>

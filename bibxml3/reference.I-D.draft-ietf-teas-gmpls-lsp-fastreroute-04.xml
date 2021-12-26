@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-teas-gmpls-lsp-fastreroute'>
+<front>
+<title>Extensions to Resource Reservation Protocol For Fast Reroute of Traffic Engineering GMPLS LSPs</title>
+
+<author initials='M' surname='Taillon' fullname='Mike Taillon'>
+    <organization />
+</author>
+
+<author initials='T' surname='Saad' fullname='Tarek Saad'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gandhi' fullname='Rakesh Gandhi'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jin' fullname='Lizhong Jin'>
+    <organization />
+</author>
+
+<date month='January' day='26' year='2016' />
+
+<abstract><t>This document defines Resource Reservation Protocol - Traffic Engineering (RSVP-TE) signaling extensions to support Fast Reroute (FRR) of Packet Switched Capable (PSC) Generalized Multi-Protocol Label Switching (GMPLS) Label Switched Paths (LSPs).  These signaling extensions allow the coordination of bidirectional bypass tunnel assignment protecting a common facility in both forward and reverse directions of a co-routed bidirectional LSP.  In addition, these extensions enable the re-direction of bidirectional traffic and signaling onto bypass tunnels that ensure co-routedness of data and signaling paths in the forward and reverse directions after FRR to avoid RSVP soft-state timeout.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-teas-gmpls-lsp-fastreroute-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-teas-gmpls-lsp-fastreroute-04.txt' />
+</reference>

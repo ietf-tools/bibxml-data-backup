@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kazuho-httpbis-priority'>
+<front>
+<title>Extensible Prioritization Scheme for HTTP</title>
+
+<author initials='K' surname='Oku' fullname='Kazuho Oku'>
+    <organization />
+</author>
+
+<author initials='L' surname='Pardue' fullname='Lucas Pardue'>
+    <organization />
+</author>
+
+<date month='November' day='20' year='2019' />
+
+<abstract><t>This document describes a scheme for prioritizing HTTP responses. This scheme expresses the priority of each HTTP response using absolute values, rather than as a relative relationship between a group of HTTP responses.  This document defines the Priority header field for communicating the initial priority in an HTTP version-independent manner, as well as HTTP/2 and HTTP/3 frames for reprioritizing the responses.  These share a common format structure that is designed to provide future extensibility.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kazuho-httpbis-priority-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kazuho-httpbis-priority-04.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ncrsht-mpls-unique-and-consistent-label-ldp'>
+<front>
+<title>Unique and Consistent Label LDP</title>
+
+<author initials='N' surname='Chawla' fullname='Nipun Chawla'>
+    <organization />
+</author>
+
+<author initials='R' surname='Setia' fullname='Rajat Setia'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tambakuwala' fullname='Himanshu Tambakuwala'>
+    <organization />
+</author>
+
+<date month='March' day='26' year='2015' />
+
+<abstract><t>This document describes a mechanism to extend LDP control plane with path control feature, improved remote LFA support and allow easier monitoring of labelled packet flows in a LDP signaled MPLS network. The mechanism introduces a method in LDP to propagate a label for loopback address of a router such that each label identifies a LDP speaking router in the network. The method enhances the scope of unique label for loopback address of each LDP speaking router in a network from a platform or an interface level to an autonomous system.  The procedures described in this mechanism apply to all LDP speaking routers running with ordered downstream unsolicited label distribution. Extending these procedures to independent or downstream on demand label distribution is a case of further study and thus beyond the scope of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ncrsht-mpls-unique-and-consistent-label-ldp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ncrsht-mpls-unique-and-consistent-label-ldp-00.txt' />
+</reference>

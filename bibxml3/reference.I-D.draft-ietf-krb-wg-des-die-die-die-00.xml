@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-krb-wg-des-die-die-die'>
+<front>
+<title>Deprecate DES support for Kerberos</title>
+
+<author initials='L' surname='Astrand' fullname='Love Astrand'>
+    <organization />
+</author>
+
+<author initials='T' surname='Yu' fullname='Tom Yu'>
+    <organization />
+</author>
+
+<date month='February' day='3' year='2012' />
+
+<abstract><t>The Kerberos 5 network authentication protocol originally used the Data Encryption Standard (DES) for encryption.  Almost 30 years it introduced the first DES standard, the National Institute of Standards and Technology (NIST) finally withdrew the DES standard in 2005, reflecting a long-established consensus that DES no longer provides adequate security.  In 2006, it cost less than EUR 10,000 to build a machine to brute force DES keys in an average of 8.7 days. By 2008, it was possible to buy commercial hardware that breaks DES keys in less than a day on average.  DES is long past its sell-by date.  Accordingly, this document updates RFC1964, RFC4120, and RFC4121 to deprecate the use of DES in Kerberos.  Because the original Kerberos 5 specification, RFC1510 (obsoleted by RFC 4120), supports only DES, this document also reclassifies RFC1510 as Historic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-krb-wg-des-die-die-die-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-krb-wg-des-die-die-die-00.txt' />
+</reference>

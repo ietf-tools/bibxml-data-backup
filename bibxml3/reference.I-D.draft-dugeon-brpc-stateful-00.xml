@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dugeon-brpc-stateful'>
+<front>
+<title>A Backward Recursive PCE-initiated inter-domain LSP Setup</title>
+
+<author initials='O' surname='Dugeon' fullname='Olivier Dugeon'>
+    <organization />
+</author>
+
+<author initials='J' surname='Meuric' fullname='Julien Meuric'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>The Path Computation Element (PCE) working group (WG) has produced a set of RFCs to standardize the behavior of the Path Computation Element as a tool to help MPLS-TE, GMPLS LSP tunnels and Segment Routing paths placement.  This also include the ability to compute inter-domain LSPs or Segment Routing path following a distributed or hierarchical approach.  In complement to the original stateless mode, a stateful mode has been added.  In particular, the new PCInitiate message allows a PCE to directly ask a PCC to setup an MPLS-TE, GMPLS LSP tunnels or a Segment Routing path.  However, once computed, the inter-domain LSPs or Segment Routing path are hard to setup in the underlying network.  Especially, in operational network, RSVP-TE signaling is not enable between BGP border routers.  But, such RSVP- TE signaling is mandatory to setup contiguous LSP tunnels or to stitch or nest independent LSP tunnels to form the end-to-end inter- domain LSP tunnels.  This draft propose to combine a Backward Recursive method with PCInitiate message to setup independent LSP tunnels per domain and stitch or nest the different LSP tunnels to setup end-to-end inter-domain LSP tunnels without the need of inter- domain signaling between BGP border routers.  A new Stitching Label definition and new LSP-TYPE code points are proposed for that purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dugeon-brpc-stateful-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dugeon-brpc-stateful-00.txt' />
+</reference>

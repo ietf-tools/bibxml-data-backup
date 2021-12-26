@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.myers-ipsec-ikev2-oscp'>
+<front>
+<title>OCSP Extensions to IKEv2</title>
+
+<author initials='M' surname='Myers' fullname='Michael Myers'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2005' />
+
+<abstract><t>While IKEv2 supports public key based authentication (PKI), the corresponding use of in-band CRLs is problematic due to unbounded CRL size. The size of an OCSP response is however well-bounded and small. This document defines two extensions to IKEv2 which enable the use of OCSP for in-band signaling of certificate revocation status. Two new content encodings are defined for use in the CERTREQ and CERT payloads: OCSP Responder Hash and OCSP Response. An OCSP Responder Hash CERTREQ payload triggers transmission of an OCSP Response CERT payload.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-myers-ipsec-ikev2-oscp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-myers-ipsec-ikev2-oscp-02.txt' />
+</reference>

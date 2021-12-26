@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8853' target='https://www.rfc-editor.org/info/rfc8853'>
+<front>
+<title>Using Simulcast in Session Description Protocol (SDP) and RTP Sessions</title>
+<author initials='B.' surname='Burman' fullname='B. Burman'><organization /></author>
+<author initials='M.' surname='Westerlund' fullname='M. Westerlund'><organization /></author>
+<author initials='S.' surname='Nandakumar' fullname='S. Nandakumar'><organization /></author>
+<author initials='M.' surname='Zanaty' fullname='M. Zanaty'><organization /></author>
+<date year='2021' month='January' />
+<abstract><t>In some application scenarios, it may be desirable to send multiple differently encoded versions of the same media source in different RTP streams. This is called simulcast. This document describes how to accomplish simulcast in RTP and how to signal it in the Session Description Protocol (SDP).  The described solution uses an RTP/RTCP identification method to identify RTP streams belonging to the same media source and makes an extension to SDP to indicate that those RTP streams are different simulcast formats of that media source. The SDP extension consists of a new media-level SDP attribute that expresses capability to send and/or receive simulcast RTP streams.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8853'/>
+<seriesInfo name='DOI' value='10.17487/RFC8853'/>
+</reference>

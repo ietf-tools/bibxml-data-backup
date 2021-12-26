@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.andersen-arc'>
+<front>
+<title>Authenticated Received Chain (ARC)</title>
+
+<author initials='N' surname='None' fullname='None'>
+    <organization />
+</author>
+
+<author initials='K' surname='Andersen' fullname='Kurt Andersen'>
+    <organization />
+</author>
+
+<author initials='J' surname='JohnRG' fullname='JohnRG'>
+    <organization />
+</author>
+
+<author initials='B' surname='Long' fullname='Brandon Long'>
+    <organization />
+</author>
+
+<author initials='J' surname='Adams' fullname='J. Adams'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jones' fullname='Steven Jones'>
+    <organization />
+</author>
+
+<date month='February' day='8' year='2016' />
+
+<abstract><t>Authenticated Received Chain (ARC) permits an organization which is creating or handling email to indicate their involvement with the handling process by adding a cryptographically signed header (or headers) in a manner analagous to that of DomainKeys Identified Mail (DKIM).  Assertion of responsibility is validated through a cryptographic signature and by querying the Signer's domain directly to retrieve the appropriate public key.  Changes in the message which may break DKIM, may be tracked through the ARC set of headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-andersen-arc-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-andersen-arc-02.txt' />
+</reference>

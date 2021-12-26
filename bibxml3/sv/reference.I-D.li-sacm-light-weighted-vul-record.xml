@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-sacm-light-weighted-vul-record'>
+<front>
+<title>light weithted vul record</title>
+<author initials='J' surname='Li' fullname='Jiang Li'>
+<organization />
+</author>
+<author initials='J' surname='Fu' fullname='Jun Fu'>
+<organization />
+</author>
+<author initials='X' surname='Li' fullname='Xiaoxiao Li'>
+<organization />
+</author>
+<author initials='Y' surname='Cheng' fullname='Yexia Cheng'>
+<organization />
+</author>
+<date year='2020' month='November' day='01' />
+<abstract><t>Vulnerability information will be recorded in risk detection and scanning.  If a vulnerability is detected in a host during one scan, a record will be generated and added to the database, together with a time-stamp when the vulnerability is detected.  If risk detection is carried out periodically, a series of records will be generated for each detection, until vulnerability is fixed.  At present, a common way to record vulnerabilities is a vulnerability--a detection--a record, a vulnerability--N detections--N records(N&gt;1).In this way, the number of vulnerability records is related to the rounds of detection.  In the case that the number of existing vulnerabilities remains unchanged, more frequent vulnerabilities are scanned, more records are recorded In this document, a light weighted vulnerability recording method is proposed.  To make that, in the whole life cycle of a vulnerability, only one record is generated after multiple detections.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-li-sacm-light-weighted-vul-record-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-li-sacm-light-weighted-vul-record-00.txt'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-sni-encryption'>
+<front>
+<title>Issues and Requirements for SNI Encryption in TLS</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rescorla' fullname='Eric Rescorla'>
+    <organization />
+</author>
+
+<date month='November' day='22' year='2018' />
+
+<abstract><t>This draft describes the general problem of encryption of the Server Name Identification (SNI) parameter.  The proposed solutions hide a Hidden Service behind a Fronting Service, only disclosing the SNI of the Fronting Service to external observers.  The draft lists known attacks against SNI encryption, discusses the current "co-tenancy fronting" solution, and presents requirements for future TLS layer solutions.  In practice, it may well be that no solution can meet every requirement, and that practical solutions will have to make some compromises.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-sni-encryption-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-sni-encryption-04.txt' />
+</reference>

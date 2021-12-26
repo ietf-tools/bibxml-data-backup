@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nygren-httpbis-httpssvc'>
+<front>
+<title>HTTPSSVC service location and parameter specification via the DNS (DNS HTTPSSVC)</title>
+
+<author initials='B' surname='Schwartz' fullname='Benjamin Schwartz'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bishop' fullname='Mike Bishop'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nygren' fullname='Erik Nygren'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2019' />
+
+<abstract><t>This document specifies an "HTTPSSVC" DNS resource record type to facilitate the lookup of information needed to make connections for HTTPS URIs.  The HTTPSSVC DNS RR mechanism allows an HTTPS origin hostname to be served from multiple network services, each with associated parameters (such as transport protocol and keying material for encrypting TLS SNI).  It also provides a solution for the inability of the DNS to allow a CNAME to be placed at the apex of a domain name.  Finally, it provides a way to indicate that the origin supports HTTPS without having to resort to redirects, allowing clients to remove HTTP from the bootstrapping process.  By allowing this information to be bootstrapped in the DNS, it allows for clients to learn of alternative services before their first contact with the origin.  This arrangement offers potential benefits to both performance and privacy.  TO BE REMOVED: This proposal is inspired by and based on recent DNS usage proposals such as ALTSVC, ANAME, and ESNIKEYS (as well as long standing desires to have SRV or a functional equivalent implemented for HTTP).  These proposals each provide an important function but are potentially incompatible with each other, such as when an origin is load-balanced across multiple hosting providers (multi-CDN). Furthermore, these each add potential cases for adding additional record lookups in-addition to AAAA/A lookups.  This design attempts to provide a unified framework that encompasses the key functionality of these proposals, as well as providing some extensibility for addressing similar future challenges.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nygren-httpbis-httpssvc-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nygren-httpbis-httpssvc-01.txt' />
+</reference>

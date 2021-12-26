@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hares-i2rs-bnp-info-model'>
+<front>
+<title>An Information Model for Basic Network Policy</title>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<date month='September' day='26' year='2014' />
+
+<abstract><t>This document contains three information Models: Basic Network Policy (BNP IM).  ACLs do not provide all the policy support required by BGP, Policy Based Routing (PBR), SFC Topology Information Model (SF- Topo IM), Service Forwarding Chaing IM (SFC IM), and and flow specification filtering.  The BNP IM has the following top-down levels of Policy Hierarchy: Policy Set, Policy Group, Policy Rule, and conditional actions within the policy rule (conditional match and Actions).  These can be used in PBR-RIB or BGP to provide an ordered set of policy rules grouped with a Policy Group via operators (AND, OR, etc.) and ordered by a combination of priority and precedence. The Policy is an ordered set of Policy Groups.  The BNP IM is based on the concept of an extensible information model for representing policies.  This concept is also found in the Policy Core Information Model (PCIM) (RFC3060) and the Quality of Service (QoS) Policy Information Model (QPIM)(RFC3644) and policy based routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hares-i2rs-bnp-info-model-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hares-i2rs-bnp-info-model-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hares-i2rs-bnp-info-model-00.pdf' />
+</reference>

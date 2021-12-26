@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yousuf-thomas-hunter-rtgwg-bb'>
+<front>
+<title>Chrysolite - a backbone bridging solution</title>
+
+<author initials='M' surname='Yousuf' fullname='Mohammad Yousuf'>
+    <organization />
+</author>
+
+<author initials='M' surname='Thomas' fullname='Matthew Thomas'>
+    <organization />
+</author>
+
+<author initials='D' surname='Hunter' fullname='David Hunter'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2008' />
+
+<abstract><t>Chrysolite is a combination of differing technologies to create a wide area switched Ethernet solution. Each Chrysolite switch has a unique MAC address (N-MAC). A link state protocol provides pairwise shortest paths between the N-MACs (one N-MAC per switch).  Customers connect to the Chrysolite cloud using Ethernet connections. By setting the locally administered bit in the Ethernet address used to connect to the Chrysolite cloud, customers can directly encapsulate traffic into assigned source and destination C-MAC (MAC) addresses.  Each of these C-MAC addresses specifies a unique customer 'VLAN circuit'. This proves end to end paths across the Chrysolite cloud without requiring any special headers, MAC in MAC or Q-in-Q encapsulation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yousuf-thomas-hunter-rtgwg-bb-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yousuf-thomas-hunter-rtgwg-bb-02.txt' />
+</reference>

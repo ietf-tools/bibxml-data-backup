@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4090' target='https://www.rfc-editor.org/info/rfc4090'>
+<front>
+<title>Fast Reroute Extensions to RSVP-TE for LSP Tunnels</title>
+<author initials='P.' surname='Pan' fullname='P. Pan' role='editor'><organization /></author>
+<author initials='G.' surname='Swallow' fullname='G. Swallow' role='editor'><organization /></author>
+<author initials='A.' surname='Atlas' fullname='A. Atlas' role='editor'><organization /></author>
+<date year='2005' month='May' />
+<abstract><t>This document defines RSVP-TE extensions to establish backup label-switched path (LSP) tunnels for local repair of LSP tunnels.  These mechanisms enable the re-direction of traffic onto backup LSP tunnels in 10s of milliseconds, in the event of a failure.</t><t>Two methods are defined here.  The one-to-one backup method creates detour LSPs for each protected LSP at each potential point of local repair.  The facility backup method creates a bypass tunnel to protect a potential failure point; by taking advantage of MPLS label stacking, this bypass tunnel can protect a set of LSPs that have similar backup constraints.  Both methods can be used to protect links and nodes during network failure.  The described behavior and extensions to RSVP allow nodes to implement either method or both and to interoperate in a mixed network.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4090'/>
+<seriesInfo name='DOI' value='10.17487/RFC4090'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.westerlund-avtcore-rtp-simulcast'>
+<front>
+<title>Using Simulcast in RTP Sessions</title>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<author initials='S' surname='Nandakumar' fullname='Suhas Nandakumar'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2013' />
+
+<abstract><t>In some application scenarios it may be desirable to send multiple differently encoded versions of the same Media Source in independent Source Packet Streams.  This is called Simulcast.  This document discusses the best way of accomplishing Simulcast in RTP and how to signal it in SDP.  A solution is defined by making three extensions to SDP, and using RTP/RTCP identification methods to relate RTP Source Packet Streams.  The first SDP extension consists of two new session level SDP attributes that express capability to send or receive Simulcast Source Packet Streams, respectively.  The second SDP extension introduces an SDP media level attribute that groups and identifies a selected set of media level parameters for a specific direction, called a media configuration.  The third SDP extension describes how to group such media configurations on SDP session or media level for Simulcast purposes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-westerlund-avtcore-rtp-simulcast-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-westerlund-avtcore-rtp-simulcast-03.txt' />
+</reference>

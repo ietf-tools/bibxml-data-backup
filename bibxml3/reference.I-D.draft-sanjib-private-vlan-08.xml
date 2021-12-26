@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sanjib-private-vlan'>
+<front>
+<title>Cisco Systems' Private VLANs: Scalable Security in a Multi-Client  Environment</title>
+
+<author initials='S' surname='HomChaudhuri' fullname='Sanjib HomChaudhuri'>
+    <organization />
+</author>
+
+<author initials='M' surname='Foschiano' fullname='Marco Foschiano'>
+    <organization />
+</author>
+
+<date month='June' day='18' year='2007' />
+
+<abstract><t>A VLAN is a broadcast domain. Within such domain, devices can establish direct communication with one another at Layer 2. If untrusted devices are introduced into a VLAN, security issues may arise because trusted and untrusted devices end up sharing the same broadcast domain. The traditional solution to this kind of problem is to assign a separate VLAN to each user concerned about Layer 2 security issues. That however is not always a scalable solution.  This document describes a mechanism to achieve device isolation through the application of special Layer 2 forwarding constraints. Such mechanism allows end devices to share the same IP subnet while being Layer 2 isolated, which in turn allows network designers to employ larger subnets and so reduce the address management overhead.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sanjib-private-vlan-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sanjib-private-vlan-08.txt' />
+</reference>

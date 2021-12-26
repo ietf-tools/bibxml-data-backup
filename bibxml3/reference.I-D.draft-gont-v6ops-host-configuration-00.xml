@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-v6ops-host-configuration'>
+<front>
+<title>On the Dynamic/Automatic Configuration of IPv6 Hosts</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='G' surname='Doering' fullname='Gert Doering'>
+    <organization />
+</author>
+
+<author initials='M' surname='Corbo' fullname='Madelen Corbo'>
+    <organization />
+</author>
+
+<author initials='G' surname='Gont' fullname='Guillermo Gont'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2017' />
+
+<abstract><t>IPv6 has two different mechanisms for dynamic/automatic host configuration: SLAAC and DHCPv6.  These two mechanisms allow for the configuration of IPv6 addresses and a number of network parameters. While there is overlap in the parameters that can be configured via these two protocols, different implementations support only subsets of such parameters with either mechanism, or have no support for DHCPv6 at all.  This document analyzes a problem that arises from this situation, and mandates that all host implementations support RFC 6105 (DNS options for SLAAC) and the stateless DHCPv6 functionality in RFC 3315.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-v6ops-host-configuration-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-v6ops-host-configuration-00.txt' />
+</reference>

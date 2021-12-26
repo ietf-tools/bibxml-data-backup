@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dhody-pce-pcep-service-aware'>
+<front>
+<title>Extensions to the Path Computation Element Communication Protocol (PCEP) to compute service aware Label Switched Path (LSP).</title>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='June' day='7' year='2012' />
+
+<abstract><t>In certain networks like financial information network (stock/ commodity trading) and enterprises using cloud based applications, Latency (delay), Latency-Variation (jitter) and Packet loss is becoming a key requirement for path computation along with other constraints and metrics.  Latency, Latency-Variation and Packet Loss is associated with the Service Level Agreement (SLA) between customers and service providers.  [MPLS-DELAY-FWK] describes MPLS architecture to allow Latency (delay), Latency-Variation (jitter) and Packet loss as properties. [OSPF-TE-EXPRESS] and [ISIS-TE-EXPRESS] describes mechanisms with which network performance information is distributed via OSPF and ISIS respectively.  This document describes the extension to PCEP to carry Latency, Latency-Variation and Loss as constraints for end to end path computation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dhody-pce-pcep-service-aware-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dhody-pce-pcep-service-aware-03.txt' />
+</reference>

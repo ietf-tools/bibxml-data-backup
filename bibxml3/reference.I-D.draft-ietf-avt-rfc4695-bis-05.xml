@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rfc4695-bis'>
+<front>
+<title>RTP Payload Format for MIDI</title>
+
+<author initials='J' surname='Lazzaro' fullname='John Lazzaro'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wawrzynek' fullname='John Wawrzynek'>
+    <organization />
+</author>
+
+<date month='February' day='3' year='2009' />
+
+<abstract><t>This memo describes a Real-time Transport Protocol (RTP) payload format for the MIDI (Musical Instrument Digital Interface) command language.  The format encodes all commands that may legally appear on a MIDI 1.0 DIN cable.  The format is suitable for interactive applications (such as network musical performance) and content- delivery applications (such as file streaming).  The format may be used over unicast and multicast UDP and TCP, and it defines tools for graceful recovery from packet loss.  Stream behavior, including the MIDI rendering method, may be customized during session setup.  The format also serves as a mode for the mpeg4-generic format, to support the MPEG 4 Audio Object Types for General MIDI, Downloadable Sounds Level 2, and Structured Audio.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rfc4695-bis-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rfc4695-bis-05.txt' />
+</reference>

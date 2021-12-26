@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schaller-dnsop-lnp'>
+<front>
+<title>Local Naming Protocol -- LNP (v.1.0)</title>
+
+<author initials='C' surname='Schaller' fullname='Christian Schaller'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2019' />
+
+<abstract><t>The Local (or Lightweight) Naming Protocol (LNP) is an application- level protocol for local area networks. It is a distributed, stateless protocol which intents in resolving hostnames to ip addresses without the need of any Domain Name Server. In private local area networks, ip addressses are often dynamically allocated through DHCP. The LNP can be seen as a DNS extension, which uses broadcast udp messages (similar to ARP on IP-MAC-level) to request ip addresses for hosts with a given host- or domain-name. Thus it will be possible in dynamic local area networks to access ip-based services on hosts by their hostnames, without further management.  Comments are solicited and should be addressed to the working group's mailing list at dnsop@ietf.org and/or the author(s).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schaller-dnsop-lnp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schaller-dnsop-lnp-00.txt' />
+</reference>

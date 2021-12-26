@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-entropy-lsp-ping'>
+<front>
+<title>Label Switched Path (LSP) and Pseudowire (PW) Ping/Trace over MPLS Network using Entropy Labels (EL)</title>
+
+<author initials='N' surname='Akiya' fullname='Nobo Akiya'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='A' surname='Malis' fullname='Andrew Malis'>
+    <organization />
+</author>
+
+<author initials='S' surname='Aldrin' fullname='Sam Aldrin'>
+    <organization />
+</author>
+
+<date month='January' day='4' year='2016' />
+
+<abstract><t>The Multiprotocol Label Switching (MPLS) Label Switched Path (LSP) Ping and Traceroute are used to exercise specific paths of Equal-Cost Multipath (ECMP).  When LSP is signaled to use Entropy Label (EL) described in RFC 6790, the ability for LSP Ping and Traceroute operation to discover and exercise ECMP paths has been lost in scenarios which LSRs apply deviating load balance techniques.  One such scenario is when some LSRs apply EL based load balancing while other LSRs apply non-EL based load balancing (ex: IP).  Another scenario is when EL based LSP is stitched with another LSP which can be EL based or non-EL based.  This document extends the MPLS LSP Ping and Traceroute mechanisms to restore the ability of exercising specific paths of ECMP over LSP which make use of the Entropy Label.  This document updates RFC 4379, RFC 6424, and RFC 6790.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-entropy-lsp-ping-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-entropy-lsp-ping-02.txt' />
+</reference>

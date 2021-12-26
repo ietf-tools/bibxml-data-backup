@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dna-goals'>
+<front>
+<title>Goals of Detecting Network Attachment in IPv6</title>
+
+<author initials='J' surname='Choi' fullname='JinHyeock Choi'>
+    <organization />
+</author>
+
+<date month='December' day='27' year='2004' />
+
+<abstract><t>At the time a host establishes a new link-layer connection, it may or may not have a valid IP configuration for Internet connectivity. The host may check for link change, i.e. determine whether a link change has occurred, and then, based on the result, it can automatically decide whether its IP configuration is still valid or not. During link identity detection, the host may also collect necessary information to initiate a new IP configuration for the case that the IP subnet has changed. In this memo, this procedure is called Detecting Network Attachment (DNA). DNA schemes should be precise, sufficiently fast, secure and of limited signaling.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dna-goals-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dna-goals-04.txt' />
+</reference>

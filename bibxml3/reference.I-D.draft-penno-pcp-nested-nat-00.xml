@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.penno-pcp-nested-nat'>
+<front>
+<title>PCP Support for Nested NAT Environments</title>
+
+<author initials='R' surname='Penno' fullname='Reinaldo Penno'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='P' surname='Selkirk' fullname='Paul Selkirk'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2011' />
+
+<abstract><t>Nested NATs or multi-layer NATs are already widely deployed.  They are characterized by two or more NAT devices in the path of packets from the subscriber to the Internet.  Moreover, NAT devices current deployed are PCP unaware and It is assumed that NAT aware PCP devices will take a long time to be rolled out.  Therefore in order to lower the adoption barrier of PCP and make it work for current deployed networks, this draft proposes a few mechanisms for PCP enabled clients to work through nested NATs with varying level of PCP protocol support.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-penno-pcp-nested-nat-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-penno-pcp-nested-nat-00.txt' />
+</reference>

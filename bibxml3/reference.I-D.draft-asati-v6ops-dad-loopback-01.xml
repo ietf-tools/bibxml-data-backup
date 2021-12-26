@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.asati-v6ops-dad-loopback'>
+<front>
+<title>IPv6 DAD Enhancements for handling Layer1 Loopbacks</title>
+
+<author initials='R' surname='Asati' fullname='Rajiv Asati'>
+    <organization />
+</author>
+
+<author initials='E' surname='Dart' fullname='Eli Dart'>
+    <organization />
+</author>
+
+<date month='October' day='4' year='2011' />
+
+<abstract><t>It is a common practice to install a (soft or hard) loopback on a circuit interface for various purposes (e.g. circuit turn-up test). However, this practice results in disabling IPv6 on an interface even after the loopback is removed, due to the way IPv6 duplicate address detection is performed.  This document describes a mechanism to allow IPv6 to self-heal after such a loopback is placed &amp; removed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-asati-v6ops-dad-loopback-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-asati-v6ops-dad-loopback-01.txt' />
+</reference>

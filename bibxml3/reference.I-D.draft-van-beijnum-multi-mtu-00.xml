@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.van-beijnum-multi-mtu'>
+<front>
+<title>IPv6 Extensions for Multi-MTU Subnets</title>
+
+<author initials='I' surname='Beijnum' fullname='Iljitsch van Beijnum'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2007' />
+
+<abstract><t>In the early days of the internet, many different link types with many different maximum packet sizes were in use. For point-to-point or point-to-multipoint links, there are still some other link types (PPP, ATM, Packet over SONET), but shared subnets are almost exclusively implemented as ethernets. Even though the relevant standards madate a 1500 byte maximum packet size for ethernet, more and more ethernet equipment is capable of handling packets bigger than 1500 bytes. However, since this capability isn't standardized, it's seldom used today, despite the potential performance benefits of using larger packets. This document specifies a mechanism to negotiate per-neighbor maximum packet sizes so that nodes on a shared subnet may use the maximum mutually supported packet size between them without being limited by nodes with smaller maximum sizes on the same subnet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-van-beijnum-multi-mtu-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-van-beijnum-multi-mtu-00.txt' />
+</reference>

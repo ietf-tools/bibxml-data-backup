@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.egge-netvc-cfl'>
+<front>
+<title>Chroma From Luma Intra Prediction for NETVC</title>
+
+<author initials='N' surname='Egge' fullname='Nathan Egge'>
+    <organization />
+</author>
+
+<author initials='L' surname='Trudeau' fullname='Luc Trudeau'>
+    <organization />
+</author>
+
+<author initials='D' surname='Barr' fullname='David Barr'>
+    <organization />
+</author>
+
+<date month='November' day='14' year='2017' />
+
+<abstract><t>Chroma from luma (CfL) prediction is a new and promising chroma-only intra predictor that models chroma pixels as a linear function of the coincident reconstructed luma pixels.  In this document, we propose the CfL predictor adopted in Alliance Video 1 (AV1) to the NETVC working group.  The proposed CfL distinguishes itself from prior art not only by reducing decoder complexity, but also by producing more accurate predictions.  On average, CfL reduces the BD-rate, when measured with CIEDE2000, by 5% for still images and 2% for video sequences.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-egge-netvc-cfl-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-egge-netvc-cfl-01.txt' />
+</reference>

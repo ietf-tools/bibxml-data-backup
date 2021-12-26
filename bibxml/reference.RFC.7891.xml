@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7891' target='https://www.rfc-editor.org/info/rfc7891'>
+<front>
+<title>Explicit Reverse Path Forwarding (RPF) Vector</title>
+<author initials='J.' surname='Asghar' fullname='J. Asghar'><organization /></author>
+<author initials='IJ.' surname='Wijnands' fullname='IJ. Wijnands' role='editor'><organization /></author>
+<author initials='S.' surname='Krishnaswamy' fullname='S. Krishnaswamy'><organization /></author>
+<author initials='A.' surname='Karan' fullname='A. Karan'><organization /></author>
+<author initials='V.' surname='Arya' fullname='V. Arya'><organization /></author>
+<date year='2016' month='June' />
+<abstract><t>The PIM Reverse Path Forwarding (RPF) Vector TLV defined in RFC 5496 can be included in a PIM Join Attribute such that the RPF neighbor is selected based on the unicast reachability of the RPF Vector instead of the source or Rendezvous Point associated with the multicast tree.</t><t>This document defines a new RPF Vector Attribute type such that an explicit RPF neighbor list can be encoded in the PIM Join Attribute, thus bypassing the unicast route lookup.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7891'/>
+<seriesInfo name='DOI' value='10.17487/RFC7891'/>
+</reference>

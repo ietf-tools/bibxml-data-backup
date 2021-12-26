@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jeong-eman-network-proxy-protocol'>
+<front>
+<title>Network Proxy Protocol</title>
+
+<author initials='S' surname='Jeong' fullname='Sangjin Jeong'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>In the current Internet, it is implicitly assumed that a network node is always active so that it can receive the incoming packets at any time.  Current networking services and applications are commonly designed to be fully available at all times with minimal response times.  This assumption keeps network nodes from entering sleeping mode in order to reduce energy consumption.  Further, during sleeping mode, network nodes may not immediately respond to the incoming packets or even lose them.  If network nodes are allowed to go into a sleeping mode, they can effectively reduce energy consumption during idle period.  Network proxy allows to delegate network node's traffic processing to an external system within a network, so that the nodes maintain network presence during their sleep.  This document describes communication mechanism between network nodes and proxy in order to accelerate the wider deployment of network proxy mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jeong-eman-network-proxy-protocol-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jeong-eman-network-proxy-protocol-02.txt' />
+</reference>

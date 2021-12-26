@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eggert-tcpm-tcp-abort-timeout-option'>
+<front>
+<title>TCP Abort Timeout Option</title>
+
+<author initials='L' surname='Eggert' fullname='L Eggert'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2004' />
+
+<abstract><t>The TCP Abort Timeout Option allows conforming TCP implementations to exchange requests for individual, per-connection abort timeouts. The TCP abort timeout controls how long transmitted data may remain unacknowledged before a connection is aborted. TCP implementations typically use a single, system-wide timeout value. Using individual, per-connection timeouts allows established TCP connections to survive extended periods of disconnection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eggert-tcpm-tcp-abort-timeout-option-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eggert-tcpm-tcp-abort-timeout-option-01.txt' />
+</reference>

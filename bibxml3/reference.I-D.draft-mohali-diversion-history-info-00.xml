@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mohali-diversion-history-info'>
+<front>
+<title>Mapping and interworking of Diversion information Between Diversion and  History-Info Headers in the Session Initiation Protocol (SIP)</title>
+
+<author initials='M' surname='Mohali' fullname='Marianne Mohali'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2008' />
+
+<abstract><t>Both History-Info and Diversion headers are able to transport diverting information in Session Initiation Protocol (SIP) signaling. This document proposes a way to map call forwarding information contained in a Diversion header into a History-Info header and vice versa.  In addition, an interworking policy is proposed to manage the headers coexistence. Prior to existence of [RFC4244] describing the History-Info header, there was a draft introducing a header named Diversion for the transport of diversion information. Since the Diversion header is used in many existing networks implementations and it is not standardized for transport of diversion information, a mapping with the standardized History-Info header is needed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mohali-diversion-history-info-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mohali-diversion-history-info-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-opsec-protect-control-plane'>
+<front>
+<title>Protecting The Router Control Plane</title>
+
+<author initials='D' surname='Dugal' fullname='David Dugal'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='R' surname='Dunn' fullname='Rodney Dunn'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2010' />
+
+<abstract><t>This memo provides a method for protecting a router's control plane from undesired or malicious traffic.  In this approach, all legitimate router control plane traffic is identified.  Once legitimate traffic has been identified, a filter is deployed in the router's forwarding plane.  That filter prevents traffic not specifically identified as legitimate from reaching the router's control plane or rate limited to an acceptable level.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-opsec-protect-control-plane-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-opsec-protect-control-plane-00.txt' />
+</reference>

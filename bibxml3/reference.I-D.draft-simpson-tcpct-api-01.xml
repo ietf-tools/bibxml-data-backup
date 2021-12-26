@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.simpson-tcpct-api'>
+<front>
+<title>TCP Cookie Transactions (TCPCT) Sockets Application Program Interface (API)</title>
+
+<author initials='W' surname='Simpson' fullname='William Simpson'>
+    <organization />
+</author>
+
+<date month='January' day='3' year='2011' />
+
+<abstract><t>TCP Cookie Transactions (TCPCT) deter spoofing of connections and prevent resource exhaustion, eliminating Responder (server) state during the initial handshake.  The Initiator (client) has sole responsibility for ensuring required delays between connections.  The cookie exchange may carry data, limited to inhibit amplification and reflection denial of service attacks.  This document provides a sockets Application Program Interface (API) to support "basic" and "advanced" TCPCT applications.  TCP/IP applications written using the sockets API have enjoyed a high degree of portability.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-simpson-tcpct-api-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-simpson-tcpct-api-01.txt' />
+</reference>

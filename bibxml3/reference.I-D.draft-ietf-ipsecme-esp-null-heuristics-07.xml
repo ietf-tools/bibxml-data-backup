@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-esp-null-heuristics'>
+<front>
+<title>Heuristics for Detecting ESP-NULL packets</title>
+
+<author initials='T' surname='Kivinen' fullname='Tero Kivinen'>
+    <organization />
+</author>
+
+<author initials='D' surname='McDonald' fullname='Daniel McDonald'>
+    <organization />
+</author>
+
+<date month='March' day='22' year='2010' />
+
+<abstract><t>This document describes a set of heuristics for distinguishing IPsec ESP-NULL (Encapsulating Security Payload without encryption) packets from encrypted ESP packets.  These heuristics can be used on intermediate devices, like traffic analyzers, and deep inspection engines, to quickly decide whether given packet flow is encrypted or not, i.e. whether it can be inspected or not.  Use of these heuristics does not require any changes made on existing RFC4303 compliant IPsec hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-esp-null-heuristics-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-esp-null-heuristics-07.txt' />
+</reference>

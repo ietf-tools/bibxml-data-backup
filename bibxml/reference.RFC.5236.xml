@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5236' target='https://www.rfc-editor.org/info/rfc5236'>
+<front>
+<title>Improved Packet Reordering Metrics</title>
+<author initials='A.' surname='Jayasumana' fullname='A. Jayasumana'><organization /></author>
+<author initials='N.' surname='Piratla' fullname='N. Piratla'><organization /></author>
+<author initials='T.' surname='Banka' fullname='T. Banka'><organization /></author>
+<author initials='A.' surname='Bare' fullname='A. Bare'><organization /></author>
+<author initials='R.' surname='Whitner' fullname='R. Whitner'><organization /></author>
+<date year='2008' month='June' />
+<abstract><t>This document presents two improved metrics for packet reordering, namely, Reorder Density (RD) and Reorder Buffer-occupancy Density (RBD).  A threshold is used to clearly define when a packet is considered lost, to bound computational complexity at O(N), and to keep the memory requirement for evaluation independent of N, where N is the length of the packet sequence.  RD is a comprehensive metric that captures the characteristics of reordering, while RBD evaluates the sequences from the point of view of recovery from reordering.</t><t>These metrics are simple to compute yet comprehensive in their characterization of packet reordering.  The measures are robust and orthogonal to packet loss and duplication.  This memo provides  information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5236'/>
+<seriesInfo name='DOI' value='10.17487/RFC5236'/>
+</reference>

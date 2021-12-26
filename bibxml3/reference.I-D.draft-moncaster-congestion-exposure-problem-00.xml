@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moncaster-congestion-exposure-problem'>
+<front>
+<title>The Nede for Congestion Exposure in the Internet</title>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<author initials='A' surname='Burness' fullname='Anne-Louise  Burness'>
+    <organization />
+</author>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blake' fullname='Steven Blake'>
+    <organization />
+</author>
+
+<author initials='R' surname='Woundy' fullname='Richard Woundy'>
+    <organization />
+</author>
+
+<date month='September' day='30' year='2009' />
+
+<abstract><t>Over the past decades, TCP's congestion control algorithm has allowed the Internet to grow enormously whilst saving it from congestion collapse.  However, TCP is applied on a voluntary base with bandwidth shared among flows instead of users.  This causes problems, especially at peak times when the network becomes saturated, and this leads some ISPs to police traffic to alleviate congestion.  However, since congestion on the downstream path of a flow is not visible, these approaches are blind to the true impact of the traffic being policed and are not effective enough.  We propose congestion exposure as a possible solution.  This means that a flow reveals an estimate of the congestion it causes on its remaining downstream path.  Congestion exposure gives many benfits including meaningful policing at network ingresses, congestion-based accounting between ISPs, fairer bandwidth sharing among users, increased trust in the congestion-responsiveness of end-systems, and possibly congestion-dependent load balancing and routing.  In short congestion exposure leads to a more efficient and fairer Internet. This document motivates the need for congestion exposure and illustrates its usefulness in different use cases.  Therefore, actions should be taken to implement a simple form of congestion exposure in the Internet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moncaster-congestion-exposure-problem-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moncaster-congestion-exposure-problem-00.txt' />
+</reference>

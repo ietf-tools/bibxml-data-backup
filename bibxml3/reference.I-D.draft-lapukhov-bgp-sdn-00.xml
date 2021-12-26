@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lapukhov-bgp-sdn'>
+<front>
+<title>Centralized Routing Control in BGP Networks Using Link-State Abstraction</title>
+
+<author initials='P' surname='Lapukhov' fullname='Petr Lapukhov'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nkposong' fullname='Edet Nkposong'>
+    <organization />
+</author>
+
+<date month='September' day='1' year='2013' />
+
+<abstract><t>Some operators deploy networks consisting of multiple BGP Autonomous- Systems (ASNs) under the same administrative control.  There are also implementations which use only one routing protocol, namely BGP, as in [I-D.lapukhov-bgp-routing-large-dc], for example.  In such designs, inter-AS traffic engineering is commonly implemented using BGP policies, by configuring multiple routers at the ASN boundaries. This distributed policy model is difficult to manage and scale due to its dependency on complex routing policies and the need to develop and maintain a model for per-prefix path preference signaling.  One example of such models could be standard BGP community-based (see [RFC1997]) signaling, which requires careful documentation and consistent configuration.  Furthermore, automating such policy configuration changes for the purpose of centralized management requires additional efforts and is dependent on a particular vendor's configuration management (CLI extensions, NetConf [RFC6241] etc).  This document proposes a method for inter-AS traffic engineering for use with the kind of deployment scenarios outlined above.  No protocol changes or additional features are required to implement this method.  The key to the proposed methodology is a new software entity called "BGP Controller" - a special purpose application that peers with all eBGP speakers in the managed network.  This controller constructs live state of the underlying BGP ASN graph and presents multi-topology view of this graph via a simple API to third-party applications interested in performing network traffic engineering. An example application could be an operational tool used to drain traffic from network devices.  In response to changes in the logical network topology proposed by these applications, the controller computes new routing tables, and pushes them down to the network devices via the established BGP sessions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lapukhov-bgp-sdn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lapukhov-bgp-sdn-00.txt' />
+</reference>

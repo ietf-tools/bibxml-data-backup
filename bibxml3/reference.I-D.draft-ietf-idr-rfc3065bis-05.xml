@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-rfc3065bis'>
+<front>
+<title>Autonomous System Confederations for BGP</title>
+
+<author initials='P' surname='Traina' fullname='Paul Traina'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2005' />
+
+<abstract><t>The Border Gateway Protocol (BGP) is an inter-autonomous system routing protocol designed for Transmission Control Protocol/Internet Protocol (TCP/IP) networks. BGP requires that all BGP speakers within a single autonomous system (AS) must be fully meshed. This represents a serious scaling problem that has been well documented in a number of proposals. This document describes an extension to BGP which may be used to create a confederation of autonomous systems that is represented as a single autonomous system to BGP peers external to the confederation, thereby removing the "full mesh" requirement. The intention of this extension is to aid in policy administration and reduce the management complexity of maintaining a large autonomous system.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-rfc3065bis-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-rfc3065bis-05.txt' />
+</reference>

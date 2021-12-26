@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsext-newzone-notify'>
+<front>
+<title>A mechanism for synchronization across name servers on zone creation</title>
+
+<author initials='C' surname='Wang' fullname='Cindy Wang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jin' fullname='Jian Jin'>
+    <organization />
+</author>
+
+<author initials='F' surname='Han' fullname='Feng Han'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<date month='February' day='7' year='2010' />
+
+<abstract><t>This memo describes the NEWZONE_NOTIFY opcode for DNS, by which a primary master server advises a set of slave servers that there is a zone has been created and that a query should be initiated to discover the new zone data.  This draft also specifies a mechanism for the slave servers to achieve authenticated synchronization of zone data as well as zone synchronization information with the primary when a zone is created on the primary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsext-newzone-notify-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsext-newzone-notify-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipcore-dns-dual-stack'>
+<front>
+<title>Locating Session Initiation Protocol (SIP) Servers in a Dual-Stack IP Network</title>
+
+<author initials='G' surname='Salgueiro' fullname='Gonzalo Salgueiro'>
+    <organization />
+</author>
+
+<author initials='V' surname='Gurbani' fullname='Vijay Gurbani'>
+    <organization />
+</author>
+
+<date month='February' day='2' year='2015' />
+
+<abstract><t>RFC 3263 defines how a Session Initiation Protocol (SIP) implementation, given a SIP Uniform Resource Identifier (URI), should locate the next hop SIP server using Domain Name System (DNS) procedures.  As SIP networks increasingly transition from IPv4-only to dual-stack, a quality user experience must be ensured for dual- stack SIP implementations.  This document supplements the DNS procedures described in RFC 3263 for dual-stack SIP implementations and ensures that they properly align to the optimizations detailed by Happy Eyeballs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipcore-dns-dual-stack-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipcore-dns-dual-stack-02.txt' />
+</reference>

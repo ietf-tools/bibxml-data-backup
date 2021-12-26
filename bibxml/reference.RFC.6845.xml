@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6845' target='https://www.rfc-editor.org/info/rfc6845'>
+<front>
+<title>OSPF Hybrid Broadcast and Point-to-Multipoint Interface Type</title>
+<author initials='N.' surname='Sheth' fullname='N. Sheth'><organization /></author>
+<author initials='L.' surname='Wang' fullname='L. Wang'><organization /></author>
+<author initials='J.' surname='Zhang' fullname='J. Zhang'><organization /></author>
+<date year='2013' month='January' />
+<abstract><t>This document describes a mechanism to model a broadcast network as a hybrid of broadcast and point-to-multipoint networks for purposes of OSPF operation.  Neighbor discovery and maintenance as well as Link State Advertisement (LSA) database synchronization are performed using the broadcast model, but the network is represented using the point-to-multipoint model in the router-LSAs of the routers connected to it.  This allows an accurate representation of the cost of communication between different routers on the network, while maintaining the network efficiency of broadcast operation.  This approach is relatively simple and requires minimal changes to OSPF.</t><t>This document updates both OSPFv2 (RFC 2328) and OSPFv3 (RFC 5340).   [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6845'/>
+<seriesInfo name='DOI' value='10.17487/RFC6845'/>
+</reference>

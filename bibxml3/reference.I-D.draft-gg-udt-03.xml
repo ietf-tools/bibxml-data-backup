@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gg-udt'>
+<front>
+<title>UDT: UDP-based Data Transfer Protocol</title>
+
+<author initials='Y' surname='Gu' fullname='Yunhong Gu'>
+    <organization />
+</author>
+
+<date month='April' day='12' year='2010' />
+
+<abstract><t>This document describes UDT, or the UDP based Data Transfer protocol. UDT is designed to be an alternative data transfer protocol for the situations when TCP does not work well. One of the most common cases, and also the original motivation of UDT, is to overcome TCP's inefficiency in high bandwidth-delay product (BDP) networks. Another important target use scenario is to allow networking researchers, students, and application developers to easily implement and deploy new data transfer algorithms and protocols. Furthermore, UDT can also be used to better support firewall traversing.  UDT is completely built on top of UDP. However, UDT is connection oriented, unicast, and duplex. It supports both reliable data streaming and partial reliable messaging. The congestion control module is an open framework that can be used to implement and/or deploy different control algorithms. UDT also has a native/default control algorithm based on AIMD rate control.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gg-udt-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gg-udt-03.txt' />
+</reference>

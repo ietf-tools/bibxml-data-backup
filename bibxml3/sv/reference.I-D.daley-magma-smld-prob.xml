@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.daley-magma-smld-prob'>
+<front>
+<title>Trust Models and Security in Multicast Listener Discovery</title>
+
+<author initials='G' surname='Daley' fullname='Greg Daley'>
+    <organization />
+</author>
+
+<author initials='G' surname='Kurup' fullname='Gopi  Kurup'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2004' />
+
+<abstract><t>The Multicast Listener Discovery (MLD) is used by IPv6 routers to discover the presence of multicast listeners (i.e. nodes that wish to receive multicast packets) on their directly attached links, and to discover which multicast addresses are of interest to those neighbouring nodes. The existing protocol specification (MLDv2) discusses the effects of on-link forgery of MLD packets but provides no protection from on-link attacks. By taking advantage of or abusing Multicast Listener Discovery, bogus devices may cause incorrect state and disruption to multicast or unicast packet delivery. This memo considers the trust models for the MLD protocols, and their interaction as well as their interaction with link-layer and multicast proxy devices. It provides a security and threat analysis for each model.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-daley-magma-smld-prob-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-daley-magma-smld-prob-00.txt' />
+</reference>

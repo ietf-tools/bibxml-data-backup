@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.begen-avt-rapid-sync-rtcp-xr'>
+<front>
+<title>Rapid Multicast Synchronization Report Block Type for RTCP XR</title>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2009' />
+
+<abstract><t>In most RTP-based multicast applications, the RTP source sends inter- related data.  Due to the dependency in the multicast data, randomly joining RTP receivers may not be able to start usefully consuming the data upon joining the multicast session, thus, they often experience a random synchronization delay.  In order to reduce this delay, an auxiliary unicast RTP session that facilitates rapid synchronization with the multicast session may be used between a retransmission server and RTP receivers.  Yet, due to various random components pertaining to the RTP data and networking infrastructure, the performance of rapid synchronization may vary.  For quality reporting and diagnostics, it is important to collect detailed information from the RTP receivers about their rapid synchronization experiences. This document addresses this issue by defining a new report block type, called Rapid Multicast Synchronization Report Block, within the framework of RTP Control Protocol (RTCP) Extended Reports (XR).  This document also defines the necessary signaling of the new report block type in the Session Description Protocol (SDP).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-begen-avt-rapid-sync-rtcp-xr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-begen-avt-rapid-sync-rtcp-xr-00.txt' />
+</reference>

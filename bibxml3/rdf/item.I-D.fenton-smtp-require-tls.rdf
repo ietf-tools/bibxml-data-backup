@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-fenton-smtp-require-tls-03.pdf'>
+    <title>"SMTP Require TLS Option", Jim Fenton</title>
+    <link>http://www.ietf.org/internet-drafts/draft-fenton-smtp-require-tls-03.pdf</link>
+    <description>The SMTP STARTTLS option, used in negotiating transport-level encryption of SMTP connections, is not as useful from a security standpoint as it might be because of its opportunistic nature; message delivery is prioritized over security.  This document describes a complementary SMTP service extension, REQUIRETLS.  If the REQUIRETLS option is used when sending a message, it asserts a request on the part of the message sender to override the default negotiation of TLS, either by requiring that TLS be negotiated when the message is relayed, or by requesting that policy mechanisms such as SMTP STS and DANE be ignored when relaying a high priority message.</description>
+    <dc:date>2017-02-13T08:00:00-00:00</dc:date>
+</item>

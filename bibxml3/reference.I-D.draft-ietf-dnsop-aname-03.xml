@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-aname'>
+<front>
+<title>Address-specific DNS aliases (ANAME)</title>
+
+<author initials='T' surname='Finch' fullname='Tony Finch'>
+    <organization />
+</author>
+
+<author initials='E' surname='Hunt' fullname='Evan Hunt'>
+    <organization />
+</author>
+
+<author initials='P' surname='Dijk' fullname='Peter van Dijk'>
+    <organization />
+</author>
+
+<author initials='A' surname='Eden' fullname='Anthony Eden'>
+    <organization />
+</author>
+
+<author initials='W' surname='Mekking' fullname='Willem Mekking'>
+    <organization />
+</author>
+
+<date month='April' day='15' year='2019' />
+
+<abstract><t>This document defines the "ANAME" DNS RR type, to provide similar functionality to CNAME, but only for type A and AAAA queries.  Unlike CNAME, an ANAME can coexist with other record types.  The ANAME RR allows zone owners to make an apex domain name into an alias in a standards compliant manner.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-aname-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-aname-03.txt' />
+</reference>

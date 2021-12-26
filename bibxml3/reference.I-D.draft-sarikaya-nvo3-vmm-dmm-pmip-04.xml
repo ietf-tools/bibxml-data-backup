@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-nvo3-vmm-dmm-pmip'>
+<front>
+<title>Virtual Machine Mobility Protocol Using Distributed Registrations</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='B' surname='Khasnabish' fullname='Bhumip Khasnabish'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2014' />
+
+<abstract><t>This document specifies a new IP level protocol for seamless virtual machine mobility in data centers.  Source network virtualization edge registers the newly created virtual machine with the centrally available management node.  When the virtual machine moves to the destination network virtualization edge, the destination network virtualization edge updates the virtual machine record in the management node.  Management node sends registration message to all previous source network virtualization edges in order to direct the ongoing traffic to the destination network virtualization edge.  Hot, warm and and cold virtual machine mobility and intra data center and inter data center virtual machine mobility solutions are presented.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-nvo3-vmm-dmm-pmip-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-nvo3-vmm-dmm-pmip-04.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-avt-proxy-rapid-acquisition'>
+<front>
+<title>Network-based Rapid Acquisition of Multicast RTP Sessions</title>
+
+<author initials='J' surname='Xia' fullname='Jinwei Xia'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Asaeda' fullname='Hitoshi Asaeda'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>This document describes a network-based rapid acquisition mechanism which reduces acquisition delay for an RTP receiver without supporting any rapid acquisition related functionality.  The network is responsible for managing rapid acquisition on behalf of the RTP receiver, including detecting SFGMP message specified in [RFC4605] from the RTP receiver and launching the required rapid acquisition signaling instead of the RTP receiver.  This network-based rapid acquisition of multicast RTP session in this document is referred to as Proxy Rapid Acquisition of Multicast Sessions (PRAMS).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-avt-proxy-rapid-acquisition-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-avt-proxy-rapid-acquisition-00.txt' />
+</reference>

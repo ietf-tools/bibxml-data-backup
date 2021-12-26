@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-detnet-architecture'>
+<front>
+<title>Deterministic Networking Architecture</title>
+
+<author initials='N' surname='Finn' fullname='Norman Finn'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='B' surname='Varga' fullname='Balazs Varga'>
+    <organization />
+</author>
+
+<author initials='J' surname='Farkas' fullname='Janos Farkas'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2019' />
+
+<abstract><t>This document provides the overall architecture for Deterministic Networking (DetNet), which provides a capability to carry specified unicast or multicast data flows for real-time applications with extremely low data loss rates and bounded latency within a network domain.  Techniques used include: 1) reserving data plane resources for individual (or aggregated) DetNet flows in some or all of the intermediate nodes along the path of the flow; 2) providing explicit routes for DetNet flows that do not immediately change with the network topology; and 3) distributing data from DetNet flow packets over time and/or space to ensure delivery of each packet's data in spite of the loss of a path.  DetNet operates at the IP layer and delivers service over lower layer technologies such as MPLS and IEEE 802.1 Time-Sensitive Networking (TSN).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-detnet-architecture-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-detnet-architecture-12.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-detnet-architecture-12.pdf' />
+</reference>

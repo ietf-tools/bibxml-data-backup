@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rtcp-feedback'>
+<front>
+<title>Extended RTP Profile for RTCP-based Feedback(RTP/AVPF)</title>
+
+<author initials='J' surname='Ott' fullname='Joerg Ott'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wenger' fullname='Stephan  Wenger'>
+    <organization />
+</author>
+
+<date month='August' day='11' year='2004' />
+
+<abstract><t>Real-time media streams that use RTP are, to some degree, resilient against packet losses. Receivers may use the base mechanisms of RTCP to report packet reception statistics and thus allow a sender to adapt its transmission behavior in the mid-term as sole means for feedback and feedback-based error repair (besides a few codec- specific mechanisms). This document defines an extension to the Audio-visual Profile (AVP) that enables receivers to provide, statistically, more immediate feedback to the senders and thus allow for short-term adaptation and efficient feedback-based repair mechanisms to be implemented. This early feedback profile (AVPF) maintains the AVP bandwidth constraints for RTCP and preserves scalability to large groups.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rtcp-feedback-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rtcp-feedback-11.txt' />
+</reference>

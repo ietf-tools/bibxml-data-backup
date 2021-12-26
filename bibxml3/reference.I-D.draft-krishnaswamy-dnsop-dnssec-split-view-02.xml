@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.krishnaswamy-dnsop-dnssec-split-view'>
+<front>
+<title>Split-View DNSSEC Operational Practices</title>
+
+<author initials='S' surname='Krishnaswamy' fullname='Suresh Krishnaswamy'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2006' />
+
+<abstract><t>The security extensions to the Domain Name System (DNSSEC) allow for integrity protection, whereby it is possible to make a determination of the verity of data returned from the Domain Name System in response to a query. Current operation of the Domain Name System also allows for the creation of multiple views of data, where the answer returned in response to a query is dependent on the origin of the query. Data integrity and the ability to return possibly conflicting values as in split-views may be construed to be mutually conflicting goals; but this apparent dichotomy is resolvable in practice through proper configuration. This document provides recommendations for correctly configuring the split-view DNSSEC environment in a typical enterprise network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-krishnaswamy-dnsop-dnssec-split-view-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-krishnaswamy-dnsop-dnssec-split-view-02.txt' />
+</reference>

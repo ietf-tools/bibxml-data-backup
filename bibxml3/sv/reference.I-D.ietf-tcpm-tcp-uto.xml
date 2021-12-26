@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-tcp-uto'>
+<front>
+<title>TCP User Timeout Option</title>
+
+<author initials='L' surname='Eggert' fullname='Lars Eggert'>
+    <organization />
+</author>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='January' day='22' year='2009' />
+
+<abstract><t>The TCP user timeout controls how long transmitted data may remain unacknowledged before a connection is forcefully closed.  It is a local, per-connection parameter.  This document specifies a new TCP option - the TCP User Timeout Option - that allows one end of a TCP connection to advertise its current user timeout value.  This information provides advice to the other end of the TCP connection to adapt its user timeout accordingly.  Increasing the user timeouts on both ends of a TCP connection allows it to survive extended periods without end-to-end connectivity.  Decreasing the user timeouts allows busy servers to explicitly notify their clients that they will maintain the connection state only for a short time without connectivity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-tcp-uto-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-tcp-uto-11.txt' />
+</reference>

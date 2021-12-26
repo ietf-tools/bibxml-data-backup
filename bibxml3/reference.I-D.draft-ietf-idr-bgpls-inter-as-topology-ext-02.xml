@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgpls-inter-as-topology-ext'>
+<front>
+<title>BGP-LS Extension for Inter-AS Topology Retrieval</title>
+
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ma' fullname='Shaowen Ma'>
+    <organization />
+</author>
+
+<date month='April' day='7' year='2019' />
+
+<abstract><t>This document describes the process to build BGP-LS key parameters in multi-domain scenario, defines one new BGP-LS NLRI type(Stub Link NLRI) and some new inter-AS TE related TLVs for BGP-LS to let SDN controller retrieve the network topology automatically under various environments.  Such process and extension can enable the network operator to collect the interconnect information between different domains and then calculate the overall network topology automatically based on the information provided by BGP-LS protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgpls-inter-as-topology-ext-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgpls-inter-as-topology-ext-02.txt' />
+</reference>

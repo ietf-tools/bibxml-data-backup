@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.srisuresh-ospf-te'>
+<front>
+<title>OSPF-xTE: An experimental extension to OSPF for Traffic Engineering</title>
+
+<author initials='P' surname='Srisuresh' fullname='Pyda  Srisuresh'>
+    <organization />
+</author>
+
+<author initials='P' surname='Joseph' fullname='Paul Joseph'>
+    <organization />
+</author>
+
+<date month='January' day='3' year='2005' />
+
+<abstract><t>This document defines OSPF-xTE, an experimental traffic engineering (TE) extension to the link-state routing protocol OSPF. OSPF-xTE defines new TE LSAs to disseminate TE metrics within an autonomous System (AS), which may consist of multiple areas. Further, When an AS consists of TE and non-TE nodes, OSPF-xTE ensures that Non-TE nodes in the AS are uneffected by the TE LSAs. OSPF-xTE generates a stand-alone TE Link State Database (TE-LSDB), distinct from the native OSPF LSDB, for computation of TE circuit paths. OSPF-xTE is versatile and extendible to non-packet networks such as SONET/TDM and optical networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-srisuresh-ospf-te-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-srisuresh-ospf-te-07.txt' />
+</reference>

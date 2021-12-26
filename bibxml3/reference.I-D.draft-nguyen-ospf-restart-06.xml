@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nguyen-ospf-restart'>
+<front>
+<title>OSPF Restart Signaling</title>
+
+<author initials='A' surname='Zinin' fullname='Alex Zinin'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2006' />
+
+<abstract><t>Abstract OSPF is a link-state intra-domain routing protocol used in IP networks. Routers find new and detect unreachable neighbors via Hello subprotocol. Hello OSPF packets are also used to ensure two- way connectivity within time. When a router restarts its OSPF software, it may not know its neighbors. If such a router sends a hello packet on an interface, its neighbors are going to reset the adjacency, which may not be desirable in certain conditions. This memo describes a vendor specific mechanism that allows OSPF routers to inform their neighbors about the restart process. Note that this mechanism requires support from neighboring routers. The mechanism described in this document was proposed before Graceful OSPF Restart [RFC3623] came into existence. It is implemented/ supported by at least one major vendor and is currently deployed in the field. The purpose of this document is to capture the details of this mechanism for public use. This mechanism is not an IETF standard.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nguyen-ospf-restart-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nguyen-ospf-restart-06.txt' />
+</reference>

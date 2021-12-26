@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hu-bess-l2vpn-service-yang'>
+<front>
+<title>L2VPN Service YANG Model</title>
+
+<author initials='f' surname='hu' fullname='fangwei hu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yao' fullname='Jie Yao'>
+    <organization />
+</author>
+
+<date month='March' day='17' year='2016' />
+
+<abstract><t>This document defines a YANG data model that can be used to deliver a Layer 2 Provider Provisioned VPN service.  These services include Virtual Private Wire Service (VPWS) and Virtual Private LAN service (VPLS).  This model is intended to be instantiated at management system to deliver the L2VPN service, and is not a configuration model to be used directly on network elements.  This model provides an abstracted view of the Layer 2 VPN service configuration components.  It will be up to a management system(orchestrator) to take this as an input and use specific configurations models to configure the different network elements to deliver the service.  It is called as north bound L2VPN Service YANG data model.  How configuration of network elements is out of scope of the document, and is defined in document[I-D.shah-bess-l2vpn-yang].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hu-bess-l2vpn-service-yang-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hu-bess-l2vpn-service-yang-00.txt' />
+</reference>

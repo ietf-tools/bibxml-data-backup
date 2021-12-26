@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wolf-ecrit-lost-servicelistboundary'>
+<front>
+<title>Location-to-Service Translation Protocol (LoST) Extension:  ServiceListBoundary</title>
+
+<author initials='K' surname='Wolf' fullname='Karl Wolf'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2009' />
+
+<abstract><t>LoST maps service identifiers and location information to service contact URIs.  If a LoST client wants to discover available services for a particular location, it will perform a &lt;listServicesByLocation> query to the LoST server.  However, the response from the LoST server does not provide information about the geographical region for which the returned service list is valid.  Therefore, this document proposes a ServiceListBoundary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wolf-ecrit-lost-servicelistboundary-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wolf-ecrit-lost-servicelistboundary-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kothari-vrrp-graceful-failover'>
+<front>
+<title>VRRP Graceful Failover</title>
+
+<author initials='A' surname='Kothari' fullname='Anurag Kothari'>
+    <organization />
+</author>
+
+<date month='August' day='2' year='2013' />
+
+<abstract><t>This memo defines the use of priority zero in VRRP to failover from the Master router to one of the Backup routers either by operator input (i.e. manual failover) or automatically (e.g. on uplink interface going down). The procedure tries to be graceful (i.e. minimize outage) wherever possible. It is especially helpful in cases where preemption is disabled to avoid unnecessary churn.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kothari-vrrp-graceful-failover-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kothari-vrrp-graceful-failover-00.txt' />
+</reference>

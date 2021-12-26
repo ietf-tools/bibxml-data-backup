@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kunze-ark'>
+<front>
+<title>The ARK Identifier Scheme</title>
+
+<author initials='J' surname='Kunze' fullname='John Kunze'>
+    <organization />
+</author>
+
+<author initials='E' surname='Bermes' fullname='Emmanuelle Bermes'>
+    <organization />
+</author>
+
+<date month='December' day='18' year='2020' />
+
+<abstract><t>The ARK (Archival Resource Key) naming scheme is designed to facilitate the high-quality and persistent identification of information objects.  A founding principle of the ARK is that persistence is purely a matter of service and is neither inherent in an object nor conferred on it by a particular naming syntax.  The best that an identifier can do is to lead users to the services that support robust reference.  The term ARK itself refers both to the scheme and to any single identifier that conforms to it.  An ARK has five components:  [https://NMA/]ark:[/]NAAN/Name[Qualifier]  an optional and mutable Name Mapping Authority (usually a hostname), the "ark:" label, the Name Assigning Authority Number (NAAN), the assigned Name, and an optional and possibly mutable Qualifier supported by the NMA.  The NAAN and Name together form the immutable persistent identifier for the object independent of the URL hostname. An ARK is a special kind of URL that connects users to three things: the named object, its metadata, and the provider's promise about its persistence.  When entered into the location field of a Web browser, the ARK leads the user to the named object.  That same ARK, inflected by appending `?info', returns a metadata record that is both human- and machine-readable.  The returned record contains core metadata and a commitment statement from the current provider.  Tools exist for minting, binding, and resolving ARKs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kunze-ark-25' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kunze-ark-25.txt' />
+</reference>

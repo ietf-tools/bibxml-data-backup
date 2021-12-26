@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.paasch-mptcp-syncookies'>
+<front>
+<title>Making Multipath TCP robust for stateless webservers</title>
+
+<author initials='C' surname='Paasch' fullname='Christoph Paasch'>
+    <organization />
+</author>
+
+<author initials='A' surname='Biswas' fullname='Anumita Biswas'>
+    <organization />
+</author>
+
+<author initials='D' surname='Haas' fullname='Darren Haas'>
+    <organization />
+</author>
+
+<date month='September' day='3' year='2015' />
+
+<abstract><t>This document proposes a modification of the MPTCP handshake that allows it to work efficiently with stateless servers.  We first identify the issues around stateless connection establishment using SYN-cookies.  Further, we suggest an extension to Multipath TCP to overcome these issues and discuss alternatives.  As a side-effect, the proposed modification to the handshake opens the door to reduce the size of the MP_CAPABLE option in the SYN. This reduces the growing pressure on the TCP-option space in the SYN- segment, giving space for future extensions to TCP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-paasch-mptcp-syncookies-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-paasch-mptcp-syncookies-01.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-paasch-mptcp-syncookies-01.ps' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-paasch-mptcp-syncookies-01.pdf' />
+</reference>

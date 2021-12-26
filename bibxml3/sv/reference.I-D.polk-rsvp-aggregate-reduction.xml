@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.polk-rsvp-aggregate-reduction'>
+<front>
+<title>RSVP Extension for Bandwidth Reduction of an Aggregate</title>
+
+<author initials='J' surname='Polk' fullname='James Polk'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2004' />
+
+<abstract><t>This document proposes an extension to the Resource Reservation Protocol (RSVP) that allows an aggregated reservation to be partially preempted. Currently, when a higher priority reservation request arrives and sufficient bandwidth is unavailable to meet that request, a lower priority aggregated reservation may be preempted in whole, whether or not the entire bandwidth is required. This document describes a method where the lower priority aggregated reservation is preempted only to the extent to which its bandwidth is required for the higher priority request. This allows the aggregator to fail only a portion of the individual sessions that is aggregated and allow the rest of the sessions to continue unaffected.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-polk-rsvp-aggregate-reduction-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-polk-rsvp-aggregate-reduction-00.txt' />
+</reference>

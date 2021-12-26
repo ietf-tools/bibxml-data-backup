@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schwartz-sipping-nsr-code'>
+<front>
+<title>No Service To This Number Reject Code</title>
+
+<author initials='D' surname='Schwartz' fullname='David Schwartz'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2008' />
+
+<abstract><t>The Session Initiation Protocol (SIP) allows for users to make calls using telephone numbers embedded in either "sip" [RFC3261] or "tel" [RFC3966] URIs.  Either way, the telephone number (TN) itself is not restricted and can represent an entity in the public telephone network, an entity in a private telephone network or an entity on the Internet.  This TN resolution ambiguity highlights the difference between the LUF and LRF functions defined in [I-D.draft-ietf-speermint-terminology] and underscores the need for more precise SIP error rejection codes.  SIP has no way to indicate to the calling UAC that the reason for call rejection is due to the fact that this number does not exist in the requested domain or realm but it does exist in the public telephone network for instance.  Such an indication is useful to allow the call to be retried at a different context (i.e. the public PSTN in this case) with possibly better results.  This specification defines a new SIP response code for this purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schwartz-sipping-nsr-code-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schwartz-sipping-nsr-code-00.txt' />
+</reference>

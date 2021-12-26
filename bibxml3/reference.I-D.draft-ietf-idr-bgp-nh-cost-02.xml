@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-nh-cost'>
+<front>
+<title>Carrying next-hop cost information in BGP</title>
+
+<author initials='I' surname='Varlashkin' fullname='Ilya Varlashkin'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bhardwaj' fullname='Manish Bhardwaj'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bayraktar' fullname='Serpil Bayraktar'>
+    <organization />
+</author>
+
+<date month='May' day='16' year='2015' />
+
+<abstract><t>BGPLS provides a mechanism by which Link state and traffic engineering information can be collected from internal networks and shared with external network routers using BGP.  BGPLS defines a new Address Family to exchange this information using BGP.  BGP Optimal Route Reflection (ORR) provides a mechanism for a centralized BGP Route Reflector to acheive requirements of a Hot Potato Routing as described in Section 11 of [RFC4456].  Optimal Route Reflection requires BGP ORR to overwrite the default IGP location placement of the route reflector; which is used for determining cost to the nexthop contained in the path.  This draft augments BGPLS and defines a new extensions to exchange cost information to next-hops for the purpose of calculating best path from a peer perspective rather than local BGP speaker own perspective.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-nh-cost-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-nh-cost-02.txt' />
+</reference>

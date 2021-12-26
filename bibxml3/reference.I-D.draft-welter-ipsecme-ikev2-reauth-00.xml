@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.welter-ipsecme-ikev2-reauth'>
+<front>
+<title>Reauthentication Extension for IKEv2</title>
+
+<author initials='K' surname='Welter' fullname='Keith Welter'>
+    <organization />
+</author>
+
+<date month='September' day='28' year='2010' />
+
+<abstract><t>This document extends the Internet Key Exchange (IKEv2) Protocol document [IKEv2].  IKEv2 reauthentication does not scale well when an IKE SA has multiple Child SAs because each Child SA of the IKE SA to be reauthenticated must be renegotiated.  In addition, reauthentication is susceptible to the same kinds of exchange collisions as those that may occur during rekeying.  This document describes a mechanism to detect reauthentication and avoid renegotiating the Child SAs.  In addition, this document describes proper handling of exchange collisions that may occur during reauthentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-welter-ipsecme-ikev2-reauth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-welter-ipsecme-ikev2-reauth-00.txt' />
+</reference>

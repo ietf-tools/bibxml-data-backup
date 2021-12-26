@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-i2rs-protocol-security-requirements'>
+<front>
+<title>I2RS Security Related Requirements</title>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='J' surname='Halpern' fullname='Joel Halpern'>
+    <organization />
+</author>
+
+<date month='September' day='27' year='2016' />
+
+<abstract><t>This presents security-related requirements for the I2RS protocol which provides a new interface to the routing system described in the I2RS architecture document (RFC7921).  The I2RS protocol is a re-use protocol implemented by re-using portions of existing IETF protocols and adding new features to these protocols.  The I2RS protocol re- uses security features of a secure transport (E.g.  TLS, SSH, DTLS) such as encryption, message integrity, mutual peer authentication, and replay protection.  The new I2RS features to consider from a security perspective are: a priority mechanism to handle multi-headed write transactions, an opaque secondary identifier which identifies an application using the I2RS client, and an extremely constrained read-only non-secure transport.  This document provides the detailed requirements for these security features.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-i2rs-protocol-security-requirements-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-i2rs-protocol-security-requirements-14.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-i2rs-protocol-security-requirements-14.pdf' />
+</reference>

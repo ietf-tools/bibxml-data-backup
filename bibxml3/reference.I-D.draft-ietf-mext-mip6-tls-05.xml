@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mext-mip6-tls'>
+<front>
+<title>Transport Layer Security-based Mobile IPv6 Security Framework for Mobile Node to Home Agent Communication</title>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<author initials='B' surname='Patil' fullname='Basavaraj Patil'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kroeselberg' fullname='Dirk Kroeselberg'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2012' />
+
+<abstract><t>Mobile IPv6 signaling between a mobile node and its home agent is secured using IPsec.  The security association between a mobile node and the home agent is established using IKEv1 or IKEv2.  The security model specified for Mobile IPv6, which relies on IKE/IPsec, requires interaction between the Mobile IPv6 protocol component and the IKE/ IPsec module of the IP stack.  This document proposes an alternate security framework for Mobile IPv6 and Dual-Stack Mobile IPv6, which relies on Transport Layer Security for establishing keying material and other bootstrapping parameters required to protect Mobile IPv6 signaling and data traffic between the mobile node and home agent.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mext-mip6-tls-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mext-mip6-tls-05.txt' />
+</reference>

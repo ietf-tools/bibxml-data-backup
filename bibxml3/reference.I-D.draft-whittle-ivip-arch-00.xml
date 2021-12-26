@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.whittle-ivip-arch'>
+<front>
+<title>Ivip (Internet Vastly Improved Plumbing) Architecture</title>
+
+<author initials='R' surname='Whittle' fullname='Robin Whittle'>
+    <organization />
+</author>
+
+<date month='July' day='24' year='2007' />
+
+<abstract><t>Ivip (Internet Vastly Improved Plumbing) is a proposed global system of routers and either collection of databases which control the tunneling of some of these routers. Database changes affect all Ingress Tunnel Routers (ITRs) within a few seconds, controlling which Egress Tunnel Router (ETR) they tunnel each packet to, depending on the packet's destination address. The ETR used by a host with an Ivip-mapped address is typically located in the same network as this destination host. The ETR decapsulates packets and forwards them to the destination host. A second type of ETR known as a Translating Tunnel Router (TTR) is used for mobile-IP, with the mobile node creating two-way tunnels to one or more nearby TTRs. Ivip enables a subset of IPv4 and IPv6 address space to be portable (used via any ISP which has an ETR) and to be suitable for multihoming (connection to the Net via two or more ISPs) - without involving BGP and without requiring any changes to host operating systems or applications. This is a form of "locator-ID separation" and is based on some principles derived from LISP (Locator/ID Separation Protocol). IP addresses in the subset of address space which is subject to being tunneled by ITRs are known as Destination Identifiers (DIDs). ITRs and ETRs are located on ordinary BGP Reachable IP (BRIP) addresses. The databases and ITRs map DID addresses to an ETR's BRIP address with a granularity of a single IPv4 address or a /64 prefix for IPv6. These two granularities are 256 and 64k times finer than is typically possible with BGP. This proposal is intended to resolve many of the problems discussed in the October 2006 Amsterdam IAB Routing and Addressing Workshop (RAWS). Ivip's primary goals include the more efficient utilisation of IPv4 space and enabling millions of end- users to achieve portability and multihoming without involving BGP, without fuelling the growth of the global BGP routing table, and without requiring these end users to have ASNs or to acquire conventional prefixes of PI (Provider Independent) BGP reachable address space.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-whittle-ivip-arch-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-whittle-ivip-arch-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.akiya-bfd-intervals'>
+<front>
+<title>Standardized interval support in BFD</title>
+
+<author initials='N' surname='Akiya' fullname='Nobo Akiya'>
+    <organization />
+</author>
+
+<author initials='M' surname='Binderberger' fullname='Marc Binderberger'>
+    <organization />
+</author>
+
+<date month='June' day='4' year='2012' />
+
+<abstract><t>This document defines a set of interval values that we call "Standard intervals".  Values of this set must be supported for transmitting BFD control packets and for calculating the detection time in the receive direction when the value is equal or larger than the fastest, i.e. lowest, interval a particular BFD implementation supports.  This solves the problem of finding an interval value that both BFD speakers can support while allowing a simplified implementation as seen for hardware-based BFD.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-akiya-bfd-intervals-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-akiya-bfd-intervals-02.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ace-mqtt-tls-profile'>
+<front>
+<title>MQTT-TLS profile of ACE</title>
+
+<author initials='C' surname='Sengul' fullname='Cigdem Sengul'>
+    <organization />
+</author>
+
+<author initials='A' surname='Kirby' fullname='Anthony Kirby'>
+    <organization />
+</author>
+
+<author initials='P' surname='Fremantle' fullname='Paul Fremantle'>
+    <organization />
+</author>
+
+<date month='May' day='28' year='2020' />
+
+<abstract><t>This document specifies a profile for the ACE (Authentication and Authorization for Constrained Environments) framework to enable authorization in an MQTT-based publish-subscribe messaging system. Proof-of-possession keys, bound to OAuth2.0 access tokens, are used to authenticate and authorize MQTT Clients.  The protocol relies on TLS for confidentiality and MQTT server (broker) authentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ace-mqtt-tls-profile-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ace-mqtt-tls-profile-05.txt' />
+</reference>

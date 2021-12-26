@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipcore-sip-token-authnz'>
+<front>
+<title>Third-Party Token-based Authentication and Authorization for Session Initiation Protocol (SIP)</title>
+
+<author initials='R' surname='Shekh-Yusef' fullname='Rifaat Shekh-Yusef'>
+    <organization />
+</author>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='V' surname='Pascual' fullname='Victor Pascual'>
+    <organization />
+</author>
+
+<date month='May' day='5' year='2020' />
+
+<abstract><t>This document defines the "Bearer" authentication scheme for the Session Initiation Protocol (SIP), and a mechanism by which user authentication and SIP registration authorization is delegated to a third party, using the OAuth 2.0 framework and OpenID Connect Core 1.0.  This document updates RFC 3261 to provide guidance on how a SIP User Agent Client (UAC) responds to a SIP 401/407 response that contains multiple WWW-Authenticate/Proxy-Authenticate header fields.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipcore-sip-token-authnz-15' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipcore-sip-token-authnz-15.txt' />
+</reference>

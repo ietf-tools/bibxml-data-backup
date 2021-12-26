@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6226' target='https://www.rfc-editor.org/info/rfc6226'>
+<front>
+<title>PIM Group-to-Rendezvous-Point Mapping</title>
+<author initials='B.' surname='Joshi' fullname='B. Joshi'><organization /></author>
+<author initials='A.' surname='Kessler' fullname='A. Kessler'><organization /></author>
+<author initials='D.' surname='McWalter' fullname='D. McWalter'><organization /></author>
+<date year='2011' month='May' />
+<abstract><t>Each Protocol Independent Multicast - Sparse Mode (PIM-SM) router in a PIM domain that supports Any Source Multicast (ASM) maintains Group-to-RP mappings that are used to identify a Rendezvous Point (RP) for a specific multicast group.  PIM-SM has defined an algorithm to choose a RP from the Group-to-RP mappings learned using various mechanisms.  This algorithm does not consider the PIM mode and the mechanism through which a Group-to-RP mapping was learned.</t><t>This document defines a standard algorithm to deterministically choose between several Group-to-RP mappings for a specific group. This document first explains the requirements to extend the Group-to-RP mapping algorithm and then proposes the new algorithm.   [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6226'/>
+<seriesInfo name='DOI' value='10.17487/RFC6226'/>
+</reference>

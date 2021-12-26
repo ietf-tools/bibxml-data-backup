@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jennings-core-transitive-trust-enrollment'>
+<front>
+<title>Transitive Trust Enrollment for Constrained Devices</title>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<date month='October' day='13' year='2012' />
+
+<abstract><t>This document provides a sketch of a rendezvous protocol that allows constrained internet devices such as sensors to securely connect into a system that uses them.  The solution is based on the idea that each device will be manufactured with a one time password that can be used by the customer to tell the device which controller to enroll with, and the device will be manufactured to contact a given Transfer Server that is used to tell the device which system to connect to. The administrator of the device will be able to get this one time password from the device using a QR code, and then will be able to use that one time password to inform a Transfer Server which system the device should connect to.  The device will contact the Transfer Agent, get this information, and then connect to the appropriate system.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jennings-core-transitive-trust-enrollment-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jennings-core-transitive-trust-enrollment-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-jennings-core-transitive-trust-enrollment-01.pdf' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-dhcpv4-over-ipv6'>
+<front>
+<title>DHCPv4 over IPv6 Transport</title>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wu' fullname='Peng Wu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<date month='September' day='16' year='2012' />
+
+<abstract><t>In IPv6 networks, there remains a need to provide IPv4 service for some residual devices.  This document describes a mechanism for allocating IPv4 addresses to such devices, using DHCPv4 with an IPv6 transport.  It is done by putting a special relay agent function (Client Relay Agent) on the client side, as well as extending the behavior of the server; in the case where DHCP server only supports IPv4 transport, a relay agent is extended to support IPv6 transport (IPv6-Transport Relay Agent) and relay DHCP traffic for the server, with a new Relay Agent Information sub-option added to carry the IPv6 address of the Client Relay Agent.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-dhcpv4-over-ipv6-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-dhcpv4-over-ipv6-05.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stenn-ntp-ipv6-refid-hash'>
+<front>
+<title>Network Time Protocol IPv6 REFID Hash</title>
+
+<author initials='H' surname='Stenn' fullname='Harlan Stenn'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2016' />
+
+<abstract><t>RFC 5905 [RFC5905], section 7.3, "Packet Header Variables", defines the value to be used as the REFID for network associations.  For IPv4 associations the IPv4 address is used, and for IPv6 associations four octets of the MD5 hash of the IPv6 are used.  Often, the REFID is simplistically and incorrectly used to identify upstream servers. While this works in an IPv4 network, it doesn't work for IPv6 associations and may have other problems in an environment with mixed use of IPv4 and IPv6.  Specifically, the NTP Project has received a report where the generated IPv6 hash decoded to the IPv4 address of a different machine on the system peer's network.  This proposal offers a way for a system to generate a REFID for a system peer that communicates over IPv6 that does not conflict with a valid IPv4-based REFID.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stenn-ntp-ipv6-refid-hash-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stenn-ntp-ipv6-refid-hash-00.txt' />
+</reference>

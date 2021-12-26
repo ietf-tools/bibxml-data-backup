@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.muhanna-netext-mobility-session-suspend'>
+<front>
+<title>Mobility Session Suspend Support in PMIPv6</title>
+
+<author initials='A' surname='Muhanna' fullname='Ahmad Muhanna'>
+    <organization />
+</author>
+
+<author initials='V' surname='Devarapalli' fullname='Vijay Devarapalli'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<author initials='S' surname='Thalanany' fullname='Sebastian Thalanany'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2010' />
+
+<abstract><t>This specification defines a new extension to Proxy Mobile IPv6 for suspending a mobility session by using a new Mobility Session Suspend option.  This option is used by the mobile access gateway in the Proxy Binding Update to request the local mobility anchor to suspend a specific mobile node mobility session.  When the local mobility anchor successfully processes the Proxy Binding Update, the local mobility anchor suspends the delivery of the downlink traffic to the specified mobile node mobility session.  The mobile access gateway sends another Proxy Binding Update with the mobility session suspend option and the suspend flag cleared to indicate to the local mobility anchor to resume sending the downlink traffic for the mobile node mobility session.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-muhanna-netext-mobility-session-suspend-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-muhanna-netext-mobility-session-suspend-01.txt' />
+</reference>

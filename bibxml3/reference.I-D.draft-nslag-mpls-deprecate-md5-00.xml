@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nslag-mpls-deprecate-md5'>
+<front>
+<title>Deprecating MD5 for LDP</title>
+
+<author initials='L' surname='Andersson' fullname='Loa Andersson'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bryant' fullname='Stewart Bryant'>
+    <organization />
+</author>
+
+<author initials='N' surname='Leymann' fullname='Nicolai Leymann'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2018' />
+
+<abstract><t>When the MPLS Label Distribution Protocol (LDP) was specified circa 1999, there were very strong requirements that LDP should use a cryptographic hash function to sign LDP protocol messages.  MD5 was widely used at that time, and was the obvious choices.  However, even when this decision was being taken there were concerns as to whether MD5 was a strong enough signing option.  This discussion was briefly reflected in section 5.1 of RFC 5036 [RFC5036] (and also in RFC 3036 [RFC3036]).  Over time it has been shown that MD5 can be compromised.  Thus, there is a concern shared in the security community and the working groups responsible for the development of the LDP protocol that LDP is no longer adequately secured.  This document deprecates MD5 as the signing method for LDP messages. The document also selects a future method to secure LDP messages - the choice is TCP-AO.  In addition, we specify that the TBD cryptographic mechanism is to be the default TCP-AO security method.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nslag-mpls-deprecate-md5-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nslag-mpls-deprecate-md5-00.txt' />
+</reference>

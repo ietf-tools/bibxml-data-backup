@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-acme-star'>
+<front>
+<title>Support for Short-Term, Automatically-Renewed (STAR) Certificates in Automated Certificate Management Environment (ACME)</title>
+
+<author initials='Y' surname='Sheffer' fullname='Yaron Sheffer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lopez' fullname='Diego Lopez'>
+    <organization />
+</author>
+
+<author initials='O' surname='Dios' fullname='Oscar de Dios'>
+    <organization />
+</author>
+
+<author initials='A' surname='Pastor' fullname='Antonio Pastor'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2019' />
+
+<abstract><t>Public-key certificates need to be revoked when they are compromised, that is, when the associated private key is exposed to an unauthorized entity.  However the revocation process is often unreliable.  An alternative to revocation is issuing a sequence of certificates, each with a short validity period, and terminating this sequence upon compromise.  This memo proposes an ACME extension to enable the issuance of short-term and automatically renewed (STAR) X.509 certificates.  [RFC Editor: please remove before publication]  While the draft is being developed, the editor's version can be found at https://github.com/yaronf/I-D/tree/master/STAR.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-acme-star-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-acme-star-05.txt' />
+</reference>

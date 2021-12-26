@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5337' target='https://www.rfc-editor.org/info/rfc5337'>
+<front>
+<title>Internationalized Delivery Status and Disposition Notifications</title>
+<author initials='C.' surname='Newman' fullname='C. Newman'><organization /></author>
+<author initials='A.' surname='Melnikov' fullname='A. Melnikov' role='editor'><organization /></author>
+<date year='2008' month='September' />
+<abstract><t>Delivery status notifications (DSNs) are critical to the correct operation of an email system.  However, the existing Draft Standards (RFC 3461, RFC 3462, RFC 3464) are presently limited to US-ASCII text in the machine-readable portions of the protocol.  This specification adds a new address type for international email addresses so an original recipient address with non-US-ASCII characters can be correctly preserved even after downgrading.  This also provides updated content return media types for delivery status notifications and message disposition notifications to support use of the new address type.</t><t>This document experimentally extends RFC 3461, RFC 3464, and RFC 3798.  This memo defines an Experimental Protocol for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5337'/>
+<seriesInfo name='DOI' value='10.17487/RFC5337'/>
+</reference>

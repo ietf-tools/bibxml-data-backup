@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josefsson-sasl-external-channel'>
+<front>
+<title>SASL Mechanism Family for External Authentication: EXTERNAL-*</title>
+
+<author initials='S' surname='Josefsson' fullname='Simon  Josefsson'>
+    <organization />
+</author>
+
+<date month='April' day='18' year='2009' />
+
+<abstract><t>This document describes a way to perform client authentication in the Simple Authentication and Security Layer (SASL) framework by referring to the client authentication provided by an external security layer.  We specify a SASL mechanism family EXTERNAL-* and one instance EXTERNAL-TLS that rely on the Transport Layer Security (TLS) protocol.  This mechanism differs to the existing EXTERNAL mechanism by alleviating the a priori assumptions that servers and clients needs somehow negotiate out of band which secure channel that is intended.  This document also discuss the implementation of authorization decisions.  See &lt;http://josefsson.org/external-channel/> for more information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josefsson-sasl-external-channel-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josefsson-sasl-external-channel-03.txt' />
+</reference>

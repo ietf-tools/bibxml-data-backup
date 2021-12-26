@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huitema-multi6-hosts'>
+<front>
+<title>Host-Centric IPv6 Multihoming</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<author initials='R' surname='Draves' fullname='Richard Draves'>
+    <organization />
+</author>
+
+<date month='February' day='11' year='2004' />
+
+<abstract><t>A way to solve the issue of site multihoming is to have a separate site prefix for each connection of the site, and to derive as many addresses for each hosts. This approach to multi-homing, which we call Host-Centric IPv6 Multihoming, has the advantage of minimal impact on the inter-domain routing fabric, since each site prefix can be aggregated within the larger prefix of a specific provider; however, it opens a number of issues, which we will discuss in this memo, including the problem created by the interaction between ingress filtering and multihoming, which we analyze in detail. We then propose a set of specific solutions that enable host centric multihoming, and we review how these solutions meet the requirements of IPv6 site multihoming.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-huitema-multi6-hosts-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-huitema-multi6-hosts-03.txt' />
+</reference>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8104' target='https://www.rfc-editor.org/info/rfc8104'>
+<front>
+<title>Pseudowire (PW) Endpoint Fast Failure Protection</title>
+<author initials='Y.' surname='Shen' fullname='Y. Shen'><organization /></author>
+<author initials='R.' surname='Aggarwal' fullname='R. Aggarwal'><organization /></author>
+<author initials='W.' surname='Henderickx' fullname='W. Henderickx'><organization /></author>
+<author initials='Y.' surname='Jiang' fullname='Y. Jiang'><organization /></author>
+<date year='2017' month='March' />
+<abstract><t>This document specifies a fast mechanism for protecting pseudowires (PWs) transported by IP/MPLS tunnels against egress endpoint failures, including egress attachment circuit (AC) failure, egress provider edge (PE) failure, multi-segment PW terminating PE failure, and multi-segment PW switching PE failure.  Operating on the basis of multihomed customer edge (CE), redundant PWs, upstream label assignment, and context-specific label switching, the mechanism enables local repair to be performed by the router upstream adjacent to a failure.  The router can restore a PW in the order of tens of milliseconds, by rerouting traffic around the failure to a protector through a pre-established bypass tunnel.  Therefore, the mechanism can be used to reduce traffic loss before global repair reacts to the failure and the network converges on the topology changes due to the failure.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8104'/>
+<seriesInfo name='DOI' value='10.17487/RFC8104'/>
+</reference>

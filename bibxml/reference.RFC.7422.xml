@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7422' target='https://www.rfc-editor.org/info/rfc7422'>
+<front>
+<title>Deterministic Address Mapping to Reduce Logging in Carrier-Grade NAT Deployments</title>
+<author initials='C.' surname='Donley' fullname='C. Donley'><organization /></author>
+<author initials='C.' surname='Grundemann' fullname='C. Grundemann'><organization /></author>
+<author initials='V.' surname='Sarawat' fullname='V. Sarawat'><organization /></author>
+<author initials='K.' surname='Sundaresan' fullname='K. Sundaresan'><organization /></author>
+<author initials='O.' surname='Vautrin' fullname='O. Vautrin'><organization /></author>
+<date year='2014' month='December' />
+<abstract><t>In some instances, Service Providers (SPs) have a legal logging requirement to be able to map a subscriber's inside address with the address used on the public Internet (e.g., for abuse response). Unfortunately, many logging solutions for Carrier-Grade NATs (CGNs) require active logging of dynamic translations.  CGN port assignments are often per connection, but they could optionally use port ranges. Research indicates that per-connection logging is not scalable in many residential broadband services.  This document suggests a way to manage CGN translations in such a way as to significantly reduce the amount of logging required while providing traceability for abuse response.  IPv6 is, of course, the preferred solution.  While deployment is in progress, SPs are forced by business imperatives to maintain support for IPv4.  This note addresses the IPv4 part of the network when a CGN solution is in use.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7422'/>
+<seriesInfo name='DOI' value='10.17487/RFC7422'/>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mavrogiannopoulos-tls-cid'>
+<front>
+<title>Datagram Transport Transport Layer Security (DTLS) Transport-Agnostic Security Association Extension</title>
+
+<author initials='N' surname='Mavrogiannopoulos' fullname='Nikos Mavrogiannopoulos'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='November' day='13' year='2016' />
+
+<abstract><t>This memo proposes a new Datagram Transport Transport Layer Security (DTLS) extension that provides the ability to negotiate, during handshake, a transport independent identifier that is unique per security association.  This identifier effectively decouples the DTLS session from the underlying transport protocol, allowing the same security association to be migrated across different instances of the same transport, or to a completely different transport.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mavrogiannopoulos-tls-cid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mavrogiannopoulos-tls-cid-00.txt' />
+</reference>

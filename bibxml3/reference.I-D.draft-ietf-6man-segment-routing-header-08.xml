@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-segment-routing-header'>
+<front>
+<title>IPv6 Segment Routing Header (SRH)</title>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='K' surname='Raza' fullname='Kamran Raza'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dukes' fullname='Darren Dukes'>
+    <organization />
+</author>
+
+<author initials='J' surname='Leddy' fullname='John Leddy'>
+    <organization />
+</author>
+
+<author initials='B' surname='Field' fullname='Brian Field'>
+    <organization />
+</author>
+
+<author initials='d' surname='daniel.voyer@bell.ca' fullname='daniel.voyer@bell.ca'>
+    <organization />
+</author>
+
+<author initials='d' surname='daniel.bernier@bell.ca' fullname='daniel.bernier@bell.ca'>
+    <organization />
+</author>
+
+<author initials='S' surname='Matsushima' fullname='Satoru Matsushima'>
+    <organization />
+</author>
+
+<author initials='I' surname='Leung' fullname='Ida Leung'>
+    <organization />
+</author>
+
+<author initials='J' surname='Linkova' fullname='J. Linkova'>
+    <organization />
+</author>
+
+<author initials='E' surname='Aries' fullname='Ebben Aries'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kosugi' fullname='Tomoya Kosugi'>
+    <organization />
+</author>
+
+<author initials='E' surname='Vyncke' fullname='Eric Vyncke'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lebrun' fullname='David Lebrun'>
+    <organization />
+</author>
+
+<author initials='D' surname='Steinberg' fullname='Dirk Steinberg'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<date month='January' day='20' year='2018' />
+
+<abstract><t>Segment Routing (SR) allows a node to steer a packet through a controlled set of instructions, called segments, by prepending an SR header to the packet.  A segment can represent any instruction, topological or service-based.  SR allows to enforce a flow through any path (topological, or application/service based) while maintaining per-flow state only at the ingress node to the SR domain.  Segment Routing can be applied to the IPv6 data plane with the addition of a new type of Routing Extension Header.  This draft describes the Segment Routing Extension Header Type and how it is used by SR capable nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-segment-routing-header-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-segment-routing-header-08.txt' />
+</reference>

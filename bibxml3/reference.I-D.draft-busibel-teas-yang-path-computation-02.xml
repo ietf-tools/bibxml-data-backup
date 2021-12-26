@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.busibel-teas-yang-path-computation'>
+<front>
+<title>Yang model for requesting Path Computation</title>
+
+<author initials='I' surname='Busi' fullname='Italo Busi'>
+    <organization />
+</author>
+
+<author initials='S' surname='Belotti' fullname='Sergio Belotti'>
+    <organization />
+</author>
+
+<author initials='V' surname='Lopezalvarez' fullname='Victor Lopezalvarez'>
+    <organization />
+</author>
+
+<author initials='O' surname='Dios' fullname='Oscar de Dios'>
+    <organization />
+</author>
+
+<author initials='a' surname='ansharma@infinera.com' fullname='ansharma@infinera.com'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Shi' fullname='Yan Shi'>
+    <organization />
+</author>
+
+<author initials='R' surname='Vilata' fullname='Ricard Vilata'>
+    <organization />
+</author>
+
+<author initials='K' surname='Sethuraman' fullname='Karthik Sethuraman'>
+    <organization />
+</author>
+
+<author initials='M' surname='Scharf' fullname='Michael Scharf'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2017' />
+
+<abstract><t>There are scenarios, typically in a hierarchical SDN context, in which an orchestrator may not have detailed information to be able to perform an end-to-end path computation and would need to request lower layer/domain controllers to calculate some (partial) feasible paths.  Multiple protocol solutions can be used for communication between different controller hierarchical levels. This document assumes that the controllers are communicating using YANG-based protocols (e.g., NETCONF or RESTCONF).  This document describes some use cases where a path computation request, via YANG-based protocols (e.g., NETCONF or RESTCONF), can be needed.  This document also proposes a yang model for a stateless RPC which complements the stateful solution defined in [TE-TUNNEL].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-busibel-teas-yang-path-computation-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-busibel-teas-yang-path-computation-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-busibel-teas-yang-path-computation-02.pdf' />
+</reference>

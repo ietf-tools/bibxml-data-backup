@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.babu-serv-cert-trans-from-proxy'>
+<front>
+<title>TLS extension for Proxies to transfer Server certificate</title>
+
+<author initials='B' surname='Neelam' fullname='Babu Neelam'>
+    <organization />
+</author>
+
+<date month='August' day='23' year='2007' />
+
+<abstract><t>Intercepting transparent proxies splice the client-Server connection into two connections: Client-Proxy connection, Proxy-server connection. On Client-Proxy connection, proxy sends it's certificate to the client. As client is generally (in such a scenario) pre-configured to accept proxy's certificate, client accepts and proceeds further with the connection. On Proxy-Server connection, server sends its certificate to the proxy. Proxy typically doesn't possess the information (like MX domain name in case of SMTP) required to validate the certificate. The certificate validation is at times very complex &amp; hence it is better to offload this reponsibility to the original client itself.  This document addresses this issue by extending TLS to let proxy send server's certificate to the client for validation and suggests how client can indicate certificate validation result to the proxy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-babu-serv-cert-trans-from-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-babu-serv-cert-trans-from-proxy-00.txt' />
+</reference>

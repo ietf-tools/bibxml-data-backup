@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.giacomin-core-sleepy-option'>
+<front>
+<title>Sleepy Option for CoAP</title>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<author initials='P' surname='Giacomin' fullname='Pierpaolo Giacomin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Loreto' fullname='Salvatore Loreto'>
+    <organization />
+</author>
+
+<author initials='M' surname='Rossini' fullname='Mirko Rossini'>
+    <organization />
+</author>
+
+<date month='February' day='29' year='2012' />
+
+<abstract><t>This memo defines a framework for allowing asynchronous communication between sleepy sensors mediated by a supporting Proxy node.  The Proxy acts as a store-and-forward agent that handles requests on behalf of a sleepy client, and buffers responses coming from the target origin until the requesting client wakes up and get the computation results.  A new CoAP option, Sleepy, is defined to initiate and control the asynchronous exchange.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-giacomin-core-sleepy-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-giacomin-core-sleepy-option-00.txt' />
+</reference>

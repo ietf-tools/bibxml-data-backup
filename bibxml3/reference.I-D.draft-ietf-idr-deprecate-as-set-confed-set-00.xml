@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-deprecate-as-set-confed-set'>
+<front>
+<title>Deprecation of AS_SET and AS_CONFED_SET in BGP</title>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+    <organization />
+</author>
+
+<date month='September' day='3' year='2019' />
+
+<abstract><t>BCP 172 (i.e., RFC 6472) recommends not using AS_SET and AS_CONFED_SET in Border Gateway Protocol (BGP).  This document updates RFC 4271 and proscribes the use of the AS_SET and AS_CONFED_SET types of path segments in the AS_PATH.  This is done to simplify the design and implementation of BGP and to make the semantics of the originator of a route clearer.  This will also simplify the design, implementation, and deployment of various BGP security mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-deprecate-as-set-confed-set-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-deprecate-as-set-confed-set-00.txt' />
+</reference>

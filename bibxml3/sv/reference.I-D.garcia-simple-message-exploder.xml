@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.garcia-simple-message-exploder'>
+<front>
+<title>Multiple recipient MESSAGE requests in the Session Initiation Protocol  (SIP)</title>
+
+<author initials='M' surname='Garcia-Martin' fullname='Miguel Garcia-Martin'>
+    <organization />
+</author>
+
+<author initials='G' surname='Camarillo' fullname='Gonzalo Camarillo'>
+    <organization />
+</author>
+
+<date month='April' day='6' year='2004' />
+
+<abstract><t>This document specifies how to request a MESSAGE exploder to send a copy of a MESSAGE to a set of destinations. The client sends a SIP MESSAGE request with a URI list to the MESSAGE exploder, which sends a similar MESSAGE request to each of URIs included in the list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-garcia-simple-message-exploder-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-garcia-simple-message-exploder-00.txt' />
+</reference>

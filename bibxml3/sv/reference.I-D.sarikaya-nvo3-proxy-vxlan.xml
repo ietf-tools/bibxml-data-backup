@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-nvo3-proxy-vxlan'>
+<front>
+<title>Virtual eXtensible Local Area Network over IEEE 802.1Qbg</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2014' />
+
+<abstract><t>In data centers there is interest in offloading network functions to the switches in order to keep the server focused on computation not networking.  IEEE 802.1Qbg or Virtual Ethernet Port Aggregator (VEPA) at the hypervisor simply forces each frame sent out to the external switch regardless of destination.  In this case, the eXtensible Local Area Network operation or proxying at a higher level switch is needed.  Communication functions of the eXtensible Local Area Network are moved above to the Top of Rack switches which is called Proxy VXLAN.  Proxy VXLAN is a Network Virtualization Edge that does VXLAN encapsulation/decapsulation.  Proxy VXLAN also takes part in virtual machine creation, virtual machine operation and virtual machine mobility.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-nvo3-proxy-vxlan-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-nvo3-proxy-vxlan-00.txt' />
+</reference>

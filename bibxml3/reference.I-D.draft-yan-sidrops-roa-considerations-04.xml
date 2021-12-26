@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yan-sidrops-roa-considerations'>
+<front>
+<title>Problem Statement and Considerations for ROAs issued with Multiple Prefixes</title>
+
+<author initials='Z' surname='Yan' fullname='Zhiwei Yan'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<author initials='G' surname='Geng' fullname='Guanggang Geng'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<date month='March' day='29' year='2020' />
+
+<abstract><t>The address space holder needs to issue an ROA object when it authorizes one or more ASes to originate routes to multiple prefixes. During the process of ROA issuance, the address space holder needs to specify an origin AS for a list of IP prefixes.  Besides, the address space holder has a free choice to put multiple prefixes into a single ROA or issue separate ROAs for each prefix based on the current specification.  This memo analyzes and presents some operational problems which may be caused by the misconfigurations of ROAs containing multiple IP prefixes.  Some suggestions and considerations also have been proposed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yan-sidrops-roa-considerations-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yan-sidrops-roa-considerations-04.txt' />
+</reference>

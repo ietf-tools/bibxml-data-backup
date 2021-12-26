@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dolson-plus-middlebox-benefits'>
+<front>
+<title>Beneficial Functions of Middleboxes</title>
+
+<author initials='D' surname='Dolson' fullname='David Dolson'>
+    <organization />
+</author>
+
+<author initials='J' surname='Snellman' fullname='Juho Snellman'>
+    <organization />
+</author>
+
+<date month='January' day='31' year='2017' />
+
+<abstract><t>At IETF97, at a meeting regarding the Path Layer UDP Substrate (PLUS) protocol, a request was made for documentation about the benefits that might be provided by permitting middleboxes to have some visibility to transport-layer information.  This document summarizes benefits provided to the Internet by middleboxes -- intermediary devices that provide functions apart from normal IP routing between a source and destination host [RFC3234].  RFC3234 defines a taxonomy of middleboxes and issues in the internet circa 2002.  Most of those middleboxes utilized or modified application-layer data.  This document will focus primarily on devices that observe and act on information found in the transport layer, most commonly TCP at this time.  A primary goal of this document is to provide information to working groups developing new transport protocols, in particular the PLUS and QUIC working groups, to aid understanding of what might be gained or lost by design decisions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dolson-plus-middlebox-benefits-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dolson-plus-middlebox-benefits-01.txt' />
+</reference>

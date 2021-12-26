@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.madi-dnsop-udp4dns'>
+<front>
+<title>UDP payload size for DNS messages</title>
+
+<author initials='D' surname='Ma' fullname='Di Ma'>
+    <organization />
+</author>
+
+<author initials='D' surname='Song' fullname='Davey Song'>
+    <organization />
+</author>
+
+<date month='August' day='28' year='2015' />
+
+<abstract><t>The classic 512-bytes UDP payload for transporting DNS messages is an embedded dependence on IPv4.  As the Internet infrastructure is evolving to IPv6, the very constraint stemming from IPv4 can be removed by the virtue of that IPv6 mandates a MTU of 1280 bytes. This document specifies a new minimum size of UDP packet to carry DNS message, making DNS implementations going forward more adaptive to both applications based on the Internet and infrastructures supporting the Internet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-madi-dnsop-udp4dns-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-madi-dnsop-udp4dns-00.txt' />
+</reference>

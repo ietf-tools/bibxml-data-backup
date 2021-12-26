@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-6man-app-aware-ipv6-network'>
+<front>
+<title>Application-aware IPv6 Networking</title>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Peng' fullname='Shuping Peng'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='L' surname='Cong' fullname='Li Cong'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>A multitude of applications are carried over the network, which have varying needs for network bandwidth, latency, jitter, and packet loss, etc.  Some applications such as online gaming and live video streaming have very demanding network requirements thereof require special treatments in the network.  However, in current networks, the network and applications are decoupled, that is, the network is not aware of the applications' requirements in a finer granularity. Therefore, it is difficult to provide truly fine-granular traffic operations for the applications and guarantee their SLA requirements.  This document proposes a new framework, named Application-aware IPv6 Networking, and also the solution to guarantee SLA for applications, which makes use of IPv6 extensions header in order to convey the application related information including its requirements along with the packet to the network so to facilitate the service deployment and network resources adjustment.  Then, it defines the application-aware options which can be used in the different IPv6 extension headers for the purpose.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-6man-app-aware-ipv6-network-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-6man-app-aware-ipv6-network-00.txt' />
+</reference>

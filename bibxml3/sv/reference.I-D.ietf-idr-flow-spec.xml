@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-flow-spec'>
+<front>
+<title>Dissemination of flow specification rules</title>
+
+<author initials='P' surname='Marques' fullname='Pedro Roque Marques'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sheth' fullname='Nischal  Sheth'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='B' surname='Greene' fullname='Barry Greene'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mauch' fullname='Jared Mauch'>
+    <organization />
+</author>
+
+<author initials='D' surname='McPherson' fullname='Danny McPherson'>
+    <organization />
+</author>
+
+<date month='May' day='26' year='2009' />
+
+<abstract><t>This document defines a new BGP NLRI encoding format that can be used to distribute traffic flow specifications.  This allows the routing system to propagate information regarding more-specific components of the traffic aggregate defined by an IP destination prefix.  Additionally it defines two applications of that encoding format. One that can be used to automate inter-domain coordination of traffic filtering, such as what is required in order to mitigate (distributed) denial of service attacks.  And a second application to traffic filtering in the context of a BGP/MPLS VPN service.  The information is carried via the Border Gateway Protocol (BGP), thereby reusing protocol algorithms, operational experience and administrative processes such as inter-provider peering agreements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-flow-spec-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-flow-spec-09.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtext-framemarking'>
+<front>
+<title>Frame Marking RTP Header Extension</title>
+
+<author initials='E' surname='Berger' fullname='Espen Berger'>
+    <organization />
+</author>
+
+<author initials='S' surname='Nandakumar' fullname='Suhas Nandakumar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zanaty' fullname='Mo Zanaty'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>This document describes a Frame Marking RTP header extension used to convey information about video frames that is critical for error recovery and packet forwarding in RTP middleboxes or network nodes. It is most useful when media is encrypted, and essential when the middlebox or node has no access to the media encryption keys.  It is also useful for codec-agnostic processing of encrypted or unencrypted media, while it also supports extensions for codec-specific information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtext-framemarking-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtext-framemarking-00.txt' />
+</reference>

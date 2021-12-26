@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rmt-bb-tfmcc'>
+<front>
+<title>TCP-Friendly Multicast Congestion Control (TFMCC): Protocol Specification</title>
+
+<author initials='J' surname='Widmer' fullname='Joerg Widmer'>
+    <organization />
+</author>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<date month='May' day='9' year='2006' />
+
+<abstract><t>This document specifies TCP-Friendly Multicast Congestion Control (TFMCC). TFMCC is a congestion control mechanism for multicast transmissions in a best-effort Internet environment. It is a single-rate congestion control scheme, where the sending rate is adapted to the receiver experiencing the worst network conditions. TFMCC is reasonably fair when competing for bandwidth with TCP flows and has a relatively low variation of throughput over time, making it suitable for applications such as streaming media where a relatively smooth sending rate is of importance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rmt-bb-tfmcc-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rmt-bb-tfmcc-07.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rmt-bb-tfmcc-07.ps' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.svshah-interdomain-sla-exchange'>
+<front>
+<title>Inter-domain SLA Exchange</title>
+
+<author initials='S' surname='Shah' fullname='Shitanshu Shah'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bajaj' fullname='Sandeep Bajaj'>
+    <organization />
+</author>
+
+<date month='May' day='29' year='2012' />
+
+<abstract><t>Network administrators typically provision QoS policies for their application traffic (such as voice, video etc) based on SLAs with their providers and translating those SLAs to vendor specific provisioning language.  Both learning of SLA, either thru SLA documents or via some other out of band method, and translating them to vendor specific provisioning language is a complex, many times manual, process and prone to errors.  This draft proposes an in-band method of SLA signaling which can help to simplify some of the complexities.  An optional transitive BGP attribute proposed in this document intends to signal SLA details in-band, across administrative boundaries (considered as Autonomous Systems (AS)), and thus simplify/speed-up some of the complex tasks.  Though the use-case with the proposed attribute is explicitly defined in this document, purpose of this attribute is not limited to this use-case only.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-svshah-interdomain-sla-exchange-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-svshah-interdomain-sla-exchange-00.txt' />
+</reference>

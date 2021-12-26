@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boschi-ipfix-reducing-redundancy'>
+<front>
+<title>Reducing redundancy in IPFIX and PSAMP reports</title>
+
+<author initials='E' surname='Boschi' fullname='Elisa Boschi'>
+    <organization />
+</author>
+
+<author initials='L' surname='Mark' fullname='Lutz Mark'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2006' />
+
+<abstract><t>This document describes a bandwidth saving methodology for exporting flow or packet information using the IP Flow Information Export (IPFIX) protocol. Being the PSAMP protocol based on IPFIX, these considerations are valid for PSAMP exports as well. The main idea is to separate the export of information common to several flows (or packets) and the specific flow (or packet) information, using two different records. The association between the records is kept using unique Identifiers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boschi-ipfix-reducing-redundancy-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boschi-ipfix-reducing-redundancy-01.txt' />
+</reference>

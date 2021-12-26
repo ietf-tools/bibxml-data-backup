@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-idr-decoupling'>
+<front>
+<title>Secure Extension of BGP by Decoupling Path Propagation and Adoption</title>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<author initials='B' surname='Liu' fullname='Bin Liu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Zhang' fullname='Dacheng Zhang'>
+    <organization />
+</author>
+
+<author initials='B' surname='Zhang' fullname='Beichuan Zhang'>
+    <organization />
+</author>
+
+<author initials='B' surname='Zhang' fullname='Beichuan Zhang'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2011' />
+
+<abstract><t>This draft proposes a novel mitigation scheme to protect the inter- domain data delivery during false routing announcements. A new path attribute is defined to Decouple propagation of a path and adoption of a path for data forwarding in BGP (DBGP). DBGP does not use suspicious paths for data forwarding, but still propagates them in the routing system to facilitate attack detection. It can extensively protect data delivery from routing announcements of false sub- prefixes, false origins, false nodes and false links, and works well with ongoing attack detection and prevention systems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-idr-decoupling-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-idr-decoupling-03.txt' />
+</reference>

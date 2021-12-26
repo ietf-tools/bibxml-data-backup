@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mccallum-kitten-krb-service-discovery'>
+<front>
+<title>Kerberos Service Discovery using DNS</title>
+
+<author initials='N' surname='McCallum' fullname='Nathaniel McCallum'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2015' />
+
+<abstract><t>This document proposes defines a new mechanism for discovering Kerberos services using DNS.  This new mechanism extends the mechanism already defined in Kerberos V5 [RFC4120] and has four goals.  First, reduce the number of DNS queries required to discover a Kerberos KDC.  Second, provide DNS administrators more control over client behavior.  Third, provide support for discovery of the MS- KKDCP transport.  Fourth, define a discovery procedure for Kerberos password services.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mccallum-kitten-krb-service-discovery-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mccallum-kitten-krb-service-discovery-00.txt' />
+</reference>

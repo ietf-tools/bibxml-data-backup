@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-jung-sipping-authentication-spit-00.txt'>
+    <title>"Authentication between the Inbound Proxy and the UAS for Protecting SPIT in  the Session Initiation Protocol (SIP)", Souhwan Jung</title>
+    <link>http://www.ietf.org/internet-drafts/draft-jung-sipping-authentication-spit-00.txt</link>
+    <description>This memo proposes to add a digest message authentication scheme between the inbound proxy and the UAS for protecting SPIT. Spammers can directly send SIP calls (such as call spam and IM spam) to the UAS using P2P call signaling. For rejecting the SPIT, the UAS should be able to verify that the SIP messages are forwarded by the proxy server, not directly from spammers. By applying the message digest scheme similar to the HTTP digest, the UAS processes the request after assuring that the INVITE message comes through the inbound proxy server. The main advantage of this scheme is to protect SPIT by adding a very simple message authentication scheme between the proxy server and the UAS.</description>
+    <dc:date>2006-10-17T07:00:00-00:00</dc:date>
+</item>

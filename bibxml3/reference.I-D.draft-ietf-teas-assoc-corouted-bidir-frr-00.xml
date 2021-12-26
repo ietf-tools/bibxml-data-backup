@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-teas-assoc-corouted-bidir-frr'>
+<front>
+<title>Fast Reroute Procedures For Associated Bidirectional Label Switched Paths (LSPs)</title>
+
+<author initials='R' surname='Gandhi' fullname='Rakesh Gandhi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Shah' fullname='Himanshu Shah'>
+    <organization />
+</author>
+
+<author initials='J' surname='Whittaker' fullname='Jeremy Whittaker'>
+    <organization />
+</author>
+
+<date month='May' day='21' year='2017' />
+
+<abstract><t>Resource Reservation Protocol (RSVP) association signaling can be used to bind two unidirectional LSPs into an associated bidirectional LSP.  When an associated bidirectional LSP is co-routed, the reverse LSP follows the same path as its forward LSP.  This document describes Fast Reroute (FRR) procedures for both single-sided and double-sided provisioned associated bidirectional LSPs.  The FRR procedures are applicable to co-routed and non co-routed LSPs.  For co-routed LSPs, the FRR procedures can ensure that traffic flows on co-routed paths in the forward and reverse directions after a failure event.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-teas-assoc-corouted-bidir-frr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-teas-assoc-corouted-bidir-frr-00.txt' />
+</reference>

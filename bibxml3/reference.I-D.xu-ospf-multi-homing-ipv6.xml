@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-ospf-multi-homing-ipv6'>
+<front>
+<title>Extending OSPFv3 to Support Multi-homing</title>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Yang' fullname='Shu Yang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2015' />
+
+<abstract><t>Traditionally, routing protocols make routing decisions solely based on destination IP addresses, packets towards the same destination will be delivered to the same next hop no matter where they come from.  These protocols work well with simple networks that have only one egress router.  However, in the multi-homing scenario, packets may be dropped if forwarded only based on destination addresses.  This document defines enhancements to the OSPFv3 protocol that allow simple and flexible operations, with which packets will be routed towards the corresponding upstream ISPs based on both destination and source addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-ospf-multi-homing-ipv6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-ospf-multi-homing-ipv6-00.txt' />
+</reference>

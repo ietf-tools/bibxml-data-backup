@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-kitten-krb-spake-preauth'>
+<front>
+<title>SPAKE Pre-Authentication</title>
+
+<author initials='N' surname='McCallum' fullname='Nathaniel McCallum'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sorce' fullname='Simo Sorce'>
+    <organization />
+</author>
+
+<author initials='R' surname='Harwood' fullname='Robbie Harwood'>
+    <organization />
+</author>
+
+<author initials='G' surname='Hudson' fullname='Greg Hudson'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2018' />
+
+<abstract><t>This document defines a new pre-authentication mechanism for the Kerberos protocol that uses a password authenticated key exchange. This document has three goals.  First, increase the security of Kerberos pre-authentication exchanges by making offline brute-force attacks infeasible.  Second, enable the use of second factor authentication without relying on FAST.  This is achieved using the existing trust relationship established by the shared first factor. Third, make Kerberos pre-authentication more resilient against time synchronization errors by removing the need to transfer an encrypted timestamp from the client.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-kitten-krb-spake-preauth-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-kitten-krb-spake-preauth-04.txt' />
+</reference>

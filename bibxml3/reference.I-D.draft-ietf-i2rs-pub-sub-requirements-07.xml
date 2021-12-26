@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-i2rs-pub-sub-requirements'>
+<front>
+<title>Requirements for Subscription to YANG Datastores</title>
+
+<author initials='E' surname='Voit' fullname='Eric Voit'>
+    <organization />
+</author>
+
+<author initials='A' surname='Clemm' fullname='Alex Clemm'>
+    <organization />
+</author>
+
+<author initials='A' surname='Prieto' fullname='Alberto Prieto'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2016' />
+
+<abstract><t>This document provides requirements for a service that allows client applications to subscribe to updates of a YANG datastore.  Based on criteria negotiated as part of a subscription, updates will be pushed to targeted recipients.  Such a capability eliminates the need for periodic polling of YANG datastores by applications and fills a functional gap in existing YANG transports (i.e.  Netconf and Restconf).  Such a service can be summarized as a "pub/sub" service for YANG datastore updates.  Beyond a set of basic requirements for the service, various refinements are addressed.  These refinements include: periodicity of object updates, filtering out of objects underneath a requested a subtree, and delivery QoS guarantees.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-i2rs-pub-sub-requirements-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-i2rs-pub-sub-requirements-07.txt' />
+</reference>

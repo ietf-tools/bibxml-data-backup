@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pettersen-cache-context'>
+<front>
+<title>A context mechanism for controlling caching of HTTP responses</title>
+
+<author initials='Y' surname='Pettersen' fullname='Yngve  Pettersen'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2007' />
+
+<abstract><t>A common problem for sensitive web services is informing the client, in a reliable fashion, when a password protected resource is no longer valid because the user is logged out of the service. This is, in particular, considered a potential security problem by some sensitive services, such as online banking, when the user navigates the client's history list, which is supposed to display the resource as it was when it was loaded, not as it is at some later point in time. This document presents a method for collecting such sensitive resources into a group, a Cache Context, which permits the server to invalidate all the resources belonging in the group either by direct action, or according to some expiration policy. The context can be configured to invalidate not just the resources, but also specific cookies, HTTP authentication credentials and HTTP over TLS session information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pettersen-cache-context-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pettersen-cache-context-00.txt' />
+</reference>

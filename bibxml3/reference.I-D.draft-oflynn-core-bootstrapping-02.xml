@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.oflynn-core-bootstrapping'>
+<front>
+<title>Security Bootstrapping of Resource-Constrained Devices</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Ohba' fullname='Yoshihiro Ohba'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Cao' fullname='Zhen Cao'>
+    <organization />
+</author>
+
+<author initials='R' surname='Cragie' fullname='Robert Cragie'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2010' />
+
+<abstract><t>The Internet of Things is marching its way towards completion.  Nodes can use standards from the 6LoWPAN and ROLL WG to achieve IP connectivity.  IEEE Standards ensure connectivity at lower layers for resource-constrained devices.  Yet a central problem remains at a more basic layer without a suitable answer: how to initially configure the network.  Without configuration the network never advances beyond a large box of nodes.  Current solutions tend to be specific to a certain vendor, node type, or application.  This document outlines exactly what problems are faced in solving this problem.  General problems faced in any low-power wireless network are outlined first; followed by how these apply to bootstrapping.  A selection of currently proposed techniques is presented.  From these a more generic approach is presented, which can solve the problem for a wide range of situations.  An emphasis is on performing this bootstrapping in a secure manner. This document does not cover operation of the network securely.  This document does provide the basis for allowing the network to operate securely however, by providing standard methods for key exchanges and authentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-oflynn-core-bootstrapping-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-oflynn-core-bootstrapping-02.txt' />
+</reference>

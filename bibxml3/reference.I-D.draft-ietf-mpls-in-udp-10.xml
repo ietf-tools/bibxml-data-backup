@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-in-udp'>
+<front>
+<title>Encapsulating MPLS in UDP</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sheth' fullname='Nischal Sheth'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<author initials='R' surname='Callon' fullname='Ross Callon'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<date month='January' day='14' year='2015' />
+
+<abstract><t>This document specifies an IP-based encapsulation for MPLS, called MPLS-in-UDP (User Datagram Protocol) for situations where UDP encapsulation is preferred to direct use of MPLS, e.g., to enable UDP-based ECMP (Equal Cost Multi-Pathing) or link aggregation.  The MPLS-in-UDP encapsulation technology must only be deployed within a single network (with a single network operator) or networks of an adjacent set of co-operating network operators where traffic is managed to avoid congestion, rather than over the Internet where congestion control is required.  Usage restrictions apply to MPLS-in- UDP usage for traffic that is not congestion controlled and to UDP zero checksum usage with IPv6.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-in-udp-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-in-udp-10.txt' />
+</reference>

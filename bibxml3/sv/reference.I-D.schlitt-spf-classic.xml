@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schlitt-spf-classic'>
+<front>
+<title>Sender Policy Framework (SPF) for Authorizing Use of Domains in E-MAIL,  version 1</title>
+
+<author initials='W' surname='Schlitt' fullname='Wayne Schlitt'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wong' fullname='Meng Weng Wong'>
+    <organization />
+</author>
+
+<date month='June' day='7' year='2005' />
+
+<abstract><t>E-mail on the Internet can be forged in a number of ways. In particular, existing protocols place no restriction on what a sending host can use as the reverse-path of a message or the domain given on the SMTP HELO/EHLO commands. This document describes version 1 of the SPF protocol, whereby a domain may explicitly authorize the hosts that are allowed to use its domain name, and a receiving host may check such authorization.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schlitt-spf-classic-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schlitt-spf-classic-02.txt' />
+</reference>

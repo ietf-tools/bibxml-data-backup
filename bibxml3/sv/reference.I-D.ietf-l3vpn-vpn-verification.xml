@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l3vpn-vpn-verification'>
+<front>
+<title>Layer-3 VPN Import/Export Verification</title>
+
+<author initials='M' surname='Behringer' fullname='Michael Behringer'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2005' />
+
+<abstract><t>Configuration errors on Provider Edge (PE) routers in Layer-3 VPN networks based on [RFC2547] can lead to security breaches of the connected VPNs. For example, the PE router could be mistakenly configured such that a connected Customer Edge (CE) router belongs to an incorrect VPN. Here we propose a scheme that verifies local and remote routing information received by the PE router before it installs new VPN routes into the Virtual Routing &amp; Forwarding Instance (VRF). The proposed changes affect only the PE routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l3vpn-vpn-verification-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l3vpn-vpn-verification-00.txt' />
+</reference>

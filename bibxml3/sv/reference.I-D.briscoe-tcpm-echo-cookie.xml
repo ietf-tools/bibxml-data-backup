@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tcpm-echo-cookie'>
+<front>
+<title>The Echo Cookie TCP Option</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>This document specifies a TCP Option called EchoCookie.  It provides a single field that a TCP server can use to store opaque cookie data 'in flight' rather than in memory.  As new TCP options are defined, they can require that implementations support the EchoCookie option. Then if a server's SYN queue is under pressure from a SYN flooding attack, it can ask clients to echo its connection state in their acknowledgement.  This facility is similar to the classic SYN Cookie, but it provides enough space for connection state associated with TCP options.  In contrast, the classic location for a SYN Cookie only provides enough space for a degraded encoding of the Maximum Segment Size (MSS) TCP option and no others.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tcpm-echo-cookie-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tcpm-echo-cookie-00.txt' />
+</reference>

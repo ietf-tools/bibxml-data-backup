@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sandbakken-xcon-bfcp-udp'>
+<front>
+<title>Binary Floor Control Protocol over UDP</title>
+
+<author initials='G' surname='Sandbakken' fullname='Geir Arne Sandbakken'>
+    <organization />
+</author>
+
+<author initials='T' surname='Andersen' fullname='Trond  Andersen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Heggestad' fullname='Alfred Heggestad'>
+    <organization />
+</author>
+
+<date month='October' day='10' year='2007' />
+
+<abstract><t>This memo extends the Binary Floor Control Protocol enabling it to use UDP as a transport.  In order to use an unreliable transport mechanism this draft utilizes the existing transaction model in BFCP to achieve reliability.  Each request now has an appropriate response to complete the transaction.  It also defines a keep alive behavior needed to keep NAT bindings open.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sandbakken-xcon-bfcp-udp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sandbakken-xcon-bfcp-udp-00.txt' />
+</reference>

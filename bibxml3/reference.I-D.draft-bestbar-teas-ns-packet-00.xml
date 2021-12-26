@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bestbar-teas-ns-packet'>
+<front>
+<title>Realizing Network Slices in IP/MPLS Networks</title>
+
+<author initials='T' surname='Saad' fullname='Tarek Saad'>
+    <organization />
+</author>
+
+<author initials='V' surname='Beeram' fullname='Vishnu Beeram'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2020' />
+
+<abstract><t>Network slicing provides the ability to partition a physical network into multiple isolated logical networks of varying sizes, structures, and functions so that each slice can be dedicated to specific services or customers.  Network slices need to operate in parallel with varying degrees of isolation while providing slice elasticity in terms of network resource allocation.  The Differentiated Service (Diffserv) model allows for carrying multiple services on top of a single physical network by relying on compliant nodes to apply specific forwarding treatments on to packets that carry the respective Diffserv code point.  This document proposes a solution based on the Diffserv model to realize network slicing in IP/MPLS networks.  The proposed solution is agnostic to the path control technology used in the network slicing domain and allows service differentiation of traffic within a given network slice.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bestbar-teas-ns-packet-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bestbar-teas-ns-packet-00.txt' />
+</reference>

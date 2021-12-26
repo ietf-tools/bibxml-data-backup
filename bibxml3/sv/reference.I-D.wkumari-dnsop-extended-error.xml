@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wkumari-dnsop-extended-error'>
+<front>
+<title>Extended DNS Errors</title>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='E' surname='Hunt' fullname='Evan Hunt'>
+    <organization />
+</author>
+
+<author initials='R' surname='Arends' fullname='Roy Arends'>
+    <organization />
+</author>
+
+<author initials='W' surname='Hardaker' fullname='Wes Hardaker'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lawrence' fullname='David Lawrence'>
+    <organization />
+</author>
+
+<date month='July' day='17' year='2017' />
+
+<abstract><t>This document defines an extensible method to return additional information about the cause of DNS errors.  The primary use case is to extend SERVFAIL to provide additional information about the cause of DNS and DNSSEC failures.  [ Open question: The document currently defines a registry for errors.  It has also been suggested that the option also carry human readable (text) messages, to allow the server admin to provide additional debugging information (e.g: "example.com pointed their NS at us.  No idea why...", "We don't provide recursive DNS to 192.0.2.0.  Please stop asking...", "Have you tried Acme Anvil and DNS?  We do DNS right..." (!).  Please let us know if you think text is needed, or if a 16bit FCFS registry is expressive enough. ]  [ Open question: This document discusses extended *errors*, but it has been suggested that this could be used to also annotate *non- error* messages.  The authors do not think that this is a good idea, but could be persuaded otherwise. ]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wkumari-dnsop-extended-error-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wkumari-dnsop-extended-error-02.txt' />
+</reference>

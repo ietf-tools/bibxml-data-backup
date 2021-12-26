@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-opsawg-capwap-alt-tunnel'>
+<front>
+<title>Alternate Tunnel Encapsulation for Data Frames in CAPWAP</title>
+
+<author initials='R' surname='Zhang' fullname='Rong Zhang'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Cao' fullname='Zehn Cao'>
+    <organization />
+</author>
+
+<author initials='D' surname='Hui' fullname='DENG Hui'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pazhyannur' fullname='Rajesh Pazhyannur'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<author initials='L' surname='Xue' fullname='Li Xue'>
+    <organization />
+</author>
+
+<date month='April' day='26' year='2015' />
+
+<abstract><t>Control And Provisioning of Wireless Access Points (CAPWAP) defines a specification to encapsulate a station's data frames between the Wireless Transmission Point (WTP) and Access Controller (AC). Specifically, the station's IEEE 802.11 data frames can be either locally bridged or tunneled to the AC.  When tunneled, a CAPWAP data channel is used for tunneling.  In many deployments encapsulating data frames to an entity other than the AC (for example to an Access Router (AR)) is desirable.  Further, it may also be desirable to use different tunnel encapsulations to carry the stations' data frames. This document provides a specification for this and refers to it as Alternate tunnel encapsulation.  The Alternate tunnel encapsulation allows 1) the WTP to tunnel non-management data frames to an endpoint different from the AC and 2) the WTP to tunnel using one of many known encapsulation types such as IP-IP, IP-GRE, CAPWAP.  The WTP may advertise support for Alternate tunnel encapsulation during the discovery or join process and AC may select one of the supported Alternate Tunnel encapsulation types while configuring the WTP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-opsawg-capwap-alt-tunnel-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-opsawg-capwap-alt-tunnel-05.txt' />
+</reference>

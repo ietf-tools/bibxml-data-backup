@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-softwire-map-multicast'>
+<front>
+<title>Multicast Support for Mapping of Address and Port Protocol</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<date month='February' day='5' year='2014' />
+
+<abstract><t>This memo specifies MAP-E's multicast component so that IPv4 hosts can receive multicast data from IPv4 servers over an IPv6 network. In the encapsulation solution for encapsulation variant of Mapping of Address and Port (MAP), MAP-E, IGMP Proxy at the MAP-E Customer Edge router uses IPv4-in-IPv6 tunnel established by MAP-E to exchange IGMP messages to establish multicast state at MAP-E Border Relay so that MAP-E Border Relay can tunnel IPv4 multicast data to IPv4 hosts connected to MAP-E Customer Edge device.  In the Translation Multicast solution for the translation variant of MAP, MAP-T and 4rd, IGMP messages are translated into MLD messages at the CE router which is IGMP/MLD Proxy and sent to the network in IPv6.  MAP-T/4rd Border Relay does the reverse translation and joins IPv4 multicast group for MAP-T/4rd hosts.  Border Relay as multicast router receives IPv4 multicast data and translates the packet into IPv6 multicast data and sends downstream on the multicast tree.  Member CEs receive multicast data, translate it back to IPv4 and transmit to the hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-softwire-map-multicast-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-softwire-map-multicast-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.williams-http-accept-auth-and-redirect'>
+<front>
+<title>Accept-Auth HTTP Header for 3xx/401 Negotiation, and Redirect Authentication Scheme</title>
+
+<author initials='N' surname='Williams' fullname='Nico Williams'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2020' />
+
+<abstract><t>The Hyper-Text Transport Protocol (HTTP) offers several authentication chemes, but many sites use redirection-based protocols to authenticate users.  Some servers are faced with a connundrum, having to choose between two mutually-exclusive options: redirect responses or 401 (authentication required) responses without knowing which the user-agent is most likely to support.  This document specifies a new HTTP request header, "Accept-Auth", that user-agents may use to indicate their authentication capabilities, including support (or not) for chasing redirects.  Also specified is a new HTTP authentication scheme named Redirect, operating via 3xx or 401 responses at the server's choice.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-williams-http-accept-auth-and-redirect-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-williams-http-accept-auth-and-redirect-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rapid-acquisition-for-rtp'>
+<front>
+<title>Unicast-Based Rapid Acquisition of Multicast RTP Sessions</title>
+
+<author initials='B' surname='Steeg' fullname='Bill Ver Steeg'>
+    <organization />
+</author>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='T' surname='Caenegem' fullname='Tom Van Caenegem'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Vax' fullname='Zeev Vax'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2009' />
+
+<abstract><t>When an RTP receiver joins a primary multicast session, it may need to acquire and parse certain Reference Information before it can process any data sent in the multicast session.  Depending on the join time, length of the Reference Information repetition interval, size of the Reference Information as well as the application and transport properties, the time lag before an RTP receiver can usefully consume the multicast data, which we refer to as the Acquisition Delay, varies and may be large.  This is an undesirable phenomenon for receivers that frequently switch among different multicast sessions, such as video broadcasts.  In this document, we describe a method using the existing RTP and RTCP protocol machinery that reduces the acquisition delay.  In this method, an auxiliary unicast RTP session carrying the Reference Information to the receiver precedes/accompanies the primary multicast stream.  This unicast RTP flow may be transmitted at a faster than natural rate to further accelerate the acquisition.  The motivating use case for this capability is multicast applications that carry real-time compressed audio and video.  However, the proposed method can also be used in other types of multicast applications where the acquisition delay is long enough to be a problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rapid-acquisition-for-rtp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rapid-acquisition-for-rtp-01.txt' />
+</reference>

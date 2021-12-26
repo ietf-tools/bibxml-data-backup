@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-rangi'>
+<front>
+<title>Routing Architecture for the Next Generation Internet (RANGI)</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='O' surname='Drive' fullname='One Drive'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>IRTF Routing Research Group (RRG) is exploring a new routing and addressing architecture to meet the challenges that current Internet is facing, especially in  terms of routing scalability. This internet draft describes a new routing and addressing architecture, called Routing Architecture for the Next Generation Internet (RANGI) as a solution to the problems of scalability, mobility, multihoming, and traffic engineering. RANGI is a hybrid proposal that combines and  enhances the ideas from several proposals particularly those based on identifier/locator split approach. It introduces a hierarchical and cryptographic host identifier and adopts a hierarchical routing mechanism to support routing across multiple independent address spaces. To allow smooth transition from IPv4  to IPv6, it adopts an IPv6 address with an IPv4 embedded in the last four bytes as  locator. This also simplifies renumbering in case of change of service providers.  RANGI allows traffic engineering by allowing border routers to overwrite the  source addresses. It allows policy control on ID to address translation by having  a hierarchical resolution mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-rangi-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-rangi-00.txt' />
+</reference>

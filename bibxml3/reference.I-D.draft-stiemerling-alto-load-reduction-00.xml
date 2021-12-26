@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stiemerling-alto-load-reduction'>
+<front>
+<title>ALTO Server Load Reduction</title>
+
+<author initials='M' surname='Stiemerling' fullname='Martin Stiemerling'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kiesel' fullname='Sebastian Kiesel'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>Traffic localization for peer-to-peer applications is currently discussed by the IETF ALTO working group.  The protocol specification itself is discussed and some issues about load reduction for ALTO/P4P servers are also discussed, but mainly on the transport level (i.e., caching of traffic localization data) and some data aggregation by using macros that comprise a number of IP prefixes.  However, there are no considerations about reducing the query load to the ALTO server.  This memo aims at giving informational guidance to P2P applications implementers on how reduce the query load for ALTO.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stiemerling-alto-load-reduction-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stiemerling-alto-load-reduction-00.txt' />
+</reference>

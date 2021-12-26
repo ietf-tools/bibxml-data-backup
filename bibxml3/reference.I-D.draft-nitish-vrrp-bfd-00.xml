@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nitish-vrrp-bfd'>
+<front>
+<title>Fast failure detection using peer learning in VRRP with BFD</title>
+
+<author initials='N' surname='Gupta' fullname='Nitish Gupta'>
+    <organization />
+</author>
+
+<author initials='A' surname='Dogra' fullname='Aditya Dogra'>
+    <organization />
+</author>
+
+<author initials='C' surname='Docherty' fullname='Colin Docherty'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2015' />
+
+<abstract><t>This draft presents an enhanced failure detection mechanism to detect the failure of VRRP Master router on the LAN using a peer learning mode.  Typically the VRRP protocol is able to perform the transparent fail-over detection within a time period of 3 seconds with default fail-over timers.  Real-time protocols (voice/video/real-time transactional) require a maximum network disruption in the order of 150ms for traffic on the network.  A failure detection and fail-over time of 150ms on conventionally configured VRRP protocol is extremely aggressive and may impact the reliability and performance of the network.  A more efficient mechanism for real-time failure detection can be enabled in VRRP protocol by building a peer table, using a new VRRP Advert packet type.  This will help in forming a mesh of BFD sessions.  Once the BFD sessions are created, VRRP can receive faster notification of failures, without the overhead of increased VRRP protocol Advert messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nitish-vrrp-bfd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nitish-vrrp-bfd-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.decnodder-dhc-rai-unicast'>
+<front>
+<title>Unicast Address Sub-Option</title>
+
+<author initials='S' surname='Cnodder' fullname='Stefaan De Cnodder'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mensch' fullname='Patrick Mensch'>
+    <organization />
+</author>
+
+<date month='December' day='2' year='2005' />
+
+<abstract><t>In some network topologies, it is preferred to have a trusted network element between the DHCP client and the DHCP relay agent that adds the DHCP relay-agent-information option but does not set the giaddr field. This document defines a new sub-option for the relay-agent- information option. With this sub-option, the DHCP relay agent will always unicast the messages towards the trusted layer 2 DHCP relay agent with a MAC address that is known in the network. The new sub- option is called the "unicast-address" sub-option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-decnodder-dhc-rai-unicast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-decnodder-dhc-rai-unicast-00.txt' />
+</reference>

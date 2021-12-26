@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hr-idr-rfc5575bis'>
+<front>
+<title>Dissemination of Flow Specification Rules</title>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='D' surname='McPherson' fullname='Danny McPherson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Loibl' fullname='Christoph Loibl'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bacher' fullname='Martin Bacher'>
+    <organization />
+</author>
+
+<date month='November' day='16' year='2016' />
+
+<abstract><t>This document updates RFC5575 which defines a Border Gateway Protocol Network Layer Reachability Information (BGP NLRI) encoding format that can be used to distribute traffic flow specifications.  This allows the routing system to propagate information regarding more specific components of the traffic aggregate defined by an IP destination prefix.  This draft specifies IPv4 traffic flow specifications via a BGP NLRI which carries traffic flow specification filter, and an Extended community value which encodes actions a routing system can take if the packet matches the traffic flow filters.  The flow filters and the actions are processed in a fixed order.  Other drafts specify IPv6, MPLS addresses, L2VPN addresses, and NV03 encapsulation of IP addresses.  This document updates RFC5575 to correct unclear specifications in the flow filters and to provide rules for actions which interfere (e.g. redirection of traffic and flow filtering).  Applications which use the bgp flow specification are: 1) application which automate of inter-domain coordination of traffic filtering, such as what is required in order to mitigate (distributed) denial- of-service attacks; 2) application which control traffic filtering in the context of a BGP/MPLS VPN service, and 3) applications with centralized control of traffic in a SDN or NFV context.  Some of deployments of these three applications can be handled by the strict ordering of the BGP NLRI traffic flow filters, and the strict actions encoded in the Extended Community Flow Specification actions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hr-idr-rfc5575bis-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hr-idr-rfc5575bis-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hr-idr-rfc5575bis-02.pdf' />
+</reference>

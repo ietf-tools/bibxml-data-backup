@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.andersdotter-rrm-for-rtt-in-quic'>
+<front>
+<title>An Investigation into Randomized Response Mechanisms in RTT Measurements for QUIC</title>
+
+<author initials='A' surname='Andersdotter' fullname='Amelia Andersdotter'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sahib' fullname='Shivan Sahib'>
+    <organization />
+</author>
+
+<date month='August' day='14' year='2020' />
+
+<abstract><t>The latency spin bit is an optional feature included in the QUIC transport protocol, as standardized by the Internet Engineering Task Force (IETF).  It enables passive, on-path observations for estimation of latency.  This document presents the results of an inquiry into the potential of using randomized response mechanisms (RRM) to reduce privacy loss in latency measurements.  It concludes that RRM could be used to introduce choice for clients in preserving privacy in latency measurements.  But the trade-offs, especially since the latency spin bit is already optional, do not favour RRM.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-andersdotter-rrm-for-rtt-in-quic-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-andersdotter-rrm-for-rtt-in-quic-01.txt' />
+</reference>

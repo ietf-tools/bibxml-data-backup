@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-registered-wide-bgp-communities'>
+<front>
+<title>Registered Wide BGP Community Values</title>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<date month='November' day='22' year='2015' />
+
+<abstract><t>Communicating various routing policies via route tagging plays an important role in external BGP peering relations.  The most common tool used today to attach various information about routes is realized with the use of BGP communities.  Such information is important for the peering AS to perform some mutually agreed actions without the need to maintain a separate offline database for each pair of prefix and an associated with it requested set of action entries.  This document proposes to establish a new IANA maintained registry of most commonly used Wide BGP Communities by network operators.  Such public registry will allow for easy refernece and clear interpretation of the actions associated with received community values.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-registered-wide-bgp-communities-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-registered-wide-bgp-communities-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jaganathan-rc4-hmac'>
+<front>
+<title>The RC4-HMAC Kerberos Encryption Types Used by Microsoft Windows</title>
+
+<author initials='K' surname='Jaganathan' fullname='Karthik  Jaganathan'>
+    <organization />
+</author>
+
+<date month='August' day='3' year='2006' />
+
+<abstract><t>The Microsoft Windows 2000 implementation of Kerberos introduces a new encryption type based on the RC4 encryption algorithm and using an MD5 HMAC for checksum. This is offered as an alternative to using the existing DES based encryption types. The RC4-HMAC encryption types are used to ease upgrade of existing Windows NT environments, provide strong crypto (128-bit key lengths), and provide exportable (meet United States government export restriction requirements) encryption. This document describes the implementation of those encryption types.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jaganathan-rc4-hmac-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jaganathan-rc4-hmac-03.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.peng-lsr-algorithm-related-adjacency-sid'>
+<front>
+<title>Algorithm Related IGP-Adjacency SID Advertisement</title>
+
+<author initials='S' surname='Peng' fullname='Shaofu Peng'>
+    <organization />
+</author>
+
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+    <organization />
+</author>
+
+<date month='September' day='26' year='2020' />
+
+<abstract><t>Segment Routing architecture supports the use of multiple routing algorithms, i.e, different constraint-based shortest-path calculations can be supported.  There are two standard algorithms: SPF and Strict-SPF, defined in Segment Routing architecture.  There are also other user defined algorithms according to Flex-algo applicaiton.  However, an algorithm identifier is often included as part of a Prefix-SID advertisement, that maybe not satisfy some scenarios where multiple algorithm share the same link resource. This document complement that the algorithm identifier can be also included as part of a Adjacency-SID advertisement</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-peng-lsr-algorithm-related-adjacency-sid-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-peng-lsr-algorithm-related-adjacency-sid-01.txt' />
+</reference>

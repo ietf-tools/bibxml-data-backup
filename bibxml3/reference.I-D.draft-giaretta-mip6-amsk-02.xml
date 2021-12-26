@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.giaretta-mip6-amsk'>
+<front>
+<title>Application Master Session Key (AMSK) for Mobile IPv6</title>
+
+<author initials='G' surname='Giaretta' fullname='Gerardo Giaretta'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2006' />
+
+<abstract><t>The Extensible Authentication Protocol (EAP) defines an extensible framework for performing network access authentication. Most EAP authentication algorithms, also known as "methods", export keying material that can be used with lower layer ciphersuites. It can be useful to leverage this keying material to derive usage specific keys that can be used to authenticate users or protect information exchange by other applications or services.For this purpose [10] proposes to derive root keys for each usage application and, then, child keys to actual be used. This document defines how to generate a Usage Specific Root Key (USRK) and a series of Application Master Session Keys (AMSKs) specific to Mobile IPv6 service. These AMSKs can be used by Mobile Node and Home Agent to bootstrap Mobile IPv6 protocol operation. This document defines how to generate Application Master Session Keys (AMSKs) specific to Mobile IPv6. These AMSKs can be used by Mobile Node and Home Agent to bootstrap Mobile IPv6 protocol operation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-giaretta-mip6-amsk-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-giaretta-mip6-amsk-02.txt' />
+</reference>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmarc-psd'>
+<front>
+<title>Experimental DMARC Extension For Public Suffix Domains</title>
+<author initials='S' surname='Kitterman' fullname='Scott Kitterman'>
+<organization />
+</author>
+<author initials='T' surname='Wicinski' fullname='Tim Wicinski'>
+<organization />
+</author>
+<date year='2021' month='June' day='14' />
+<abstract><t>Domain-based Message Authentication, Reporting, and Conformance (DMARC) permits a domain-controlling organization to express domain- level policies and preferences for message validation, disposition, and reporting, which a mail-receiving organization can use to improve mail handling.</t><t> DMARC distinguishes the portion of a name that is a Public Suffix Domain (PSD), below which organizational domain names are created. The basic DMARC capability allows organizational domains to specify policies that apply to their subdomains, but it does not give that capability to PSDs.  This document describes an extension to DMARC to fully enable DMARC functionality for PSDs.</t><t> Some implementations of DMARC consider a PSD to be ineligible for DMARC enforcement.  This specification addresses that case.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmarc-psd-15'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-dmarc-psd-15.txt'/>
+</reference>

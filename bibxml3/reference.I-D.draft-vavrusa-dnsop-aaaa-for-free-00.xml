@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vavrusa-dnsop-aaaa-for-free'>
+<front>
+<title>Providing AAAA records for free with QTYPE=A</title>
+
+<author initials='m' surname='marek@vavrusa.com' fullname='marek@vavrusa.com'>
+    <organization />
+</author>
+
+<author initials='Ó' surname='Guðmundsson' fullname='Ólafur Guðmundsson'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>This document enables DNS servers to include AAAA addresses in the answer section for DNS queries with QTYPE=A in order to reduce the number of resolver round-trips during address lookups, and also provides guidance for recursive DNS servers in accepting such records.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vavrusa-dnsop-aaaa-for-free-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vavrusa-dnsop-aaaa-for-free-00.txt' />
+</reference>

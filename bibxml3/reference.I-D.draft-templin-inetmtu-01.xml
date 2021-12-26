@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-inetmtu'>
+<front>
+<title>Packetization Layer Path MTU Discovery for IP/*/IPv4 Tunnels</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2007' />
+
+<abstract><t>The nominal Maximum Transmission Unit (MTU) of the Internet has become 1500 bytes, but existing IP/*/IPv4 tunneling mechanisms impose an encapsulation overhead that can reduce the effective path MTU to smaller values. Additionally, existing IP/*/IPv4 tunneling mechanisms are limited in their ability to discover and utilize larger MTUs. This document specifies new mechanisms for conveying packets over IP/*/IPv4 tunnels that address these issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-inetmtu-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-inetmtu-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-dc'>
+<front>
+<title>Detecting Inactive Neighbors over OSPF Demand Circuits</title>
+
+<author initials='S' surname='Rao' fullname='Sira Rao'>
+    <organization />
+</author>
+
+<author initials='A' surname='Zinin' fullname='Alex  Zinin'>
+    <organization />
+</author>
+
+<author initials='A' surname='Roy' fullname='Abhay Roy'>
+    <organization />
+</author>
+
+<date month='February' day='5' year='2004' />
+
+<abstract><t>OSPF is a link-state intra-domain routing protocol used in IP networks. OSPF behavior over demand circuits is optimized in RFC1793 to minimize the amount of overhead traffic. A part of OSPF demand circuit extensions is the Hello suppression mechanism. This technique allows a demand circuit to go down when no interesting traffic is going through the link. However, it also introduces a problem, where it becomes impossible to detect a OSPF-inactive neighbor over such a link. This memo introduces a new mechanism called</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-dc-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-dc-07.txt' />
+</reference>

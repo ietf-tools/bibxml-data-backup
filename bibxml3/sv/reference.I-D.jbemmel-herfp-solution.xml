@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jbemmel-herfp-solution'>
+<front>
+<title>A solution for the HERFP caused by forked SIP INVITE requests</title>
+
+<author initials='J' surname='Bemmel' fullname='Jeroen van  Bemmel'>
+    <organization />
+</author>
+
+<date month='September' day='2' year='2005' />
+
+<abstract><t>This document describes a solution to the Heterogeneous Error Response Forking Problem (HERFP), a situation in which a UAC remains unaware of elements that are responding to its INVITE with a 'repairable' error response, because a forking proxy in the signalling path only forwards what it considers the 'best' final response. This issue may cause communication establishment to be delayed or even fail. To address this issue this document proposes a new method [preliminarily called 'FIX'] to be used by a forking proxy that detects a HERFP to notify the UAC of a repairable error.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jbemmel-herfp-solution-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jbemmel-herfp-solution-00.txt' />
+</reference>

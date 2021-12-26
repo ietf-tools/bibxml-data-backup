@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-srtp-encrypted-header-ext'>
+<front>
+<title>Encryption of Header Extensions in the Secure Real-Time Transport Protocol (SRTP)</title>
+
+<author initials='J' surname='Lennox' fullname='Jonathan Lennox'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>The Secure Real-Time Transport Protocol (SRTP) provides authentication, but not encryption, of the headers of Real-Time Transport Protocol (RTP) packets.  However, RTP header extensions may carry sensitive information for which participants in multimedia sessions want confidentiality.  This document provides a mechanism, extending the mechanisms of SRTP, to selectively encrypt RTP header extensions in SRTP.  This document updates RFC 3711, the Secure Real-Time Transport Protocol specification, to require that all SRTP encryption transforms specify how RTP header extensions are to be encrypted.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-srtp-encrypted-header-ext-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-srtp-encrypted-header-ext-02.txt' />
+</reference>

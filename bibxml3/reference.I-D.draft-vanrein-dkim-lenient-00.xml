@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanrein-dkim-lenient'>
+<front>
+<title>Lenient DKIM</title>
+
+<author initials='R' surname='Rein' fullname='Rick van Rein'>
+    <organization />
+</author>
+
+<date month='September' day='25' year='2017' />
+
+<abstract><t>DKIM is a framework for signed messages, especially for email.  While in transit, changes are sometimes made, and these break the DKIM- Signature.  This specification makes DKIM more lenient, without changes to its core.  It adds leniency towards MIME body rewrites, removal of alternatives and annotation with bits of text.  The intention is to allow these changes such that they can be clearly shown to the user, while indicating that the remainder of the signedmessage is still in tact.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanrein-dkim-lenient-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanrein-dkim-lenient-00.txt' />
+</reference>

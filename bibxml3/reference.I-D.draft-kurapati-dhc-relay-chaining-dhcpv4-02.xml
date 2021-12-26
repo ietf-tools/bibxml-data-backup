@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kurapati-dhc-relay-chaining-dhcpv4'>
+<front>
+<title>Relay Chaining in DHCPv4</title>
+
+<author initials='B' surname='Joshi' fullname='Bharat Joshi'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kurapati' fullname='Pavan Kurapati'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2009' />
+
+<abstract><t>DHCP Relay Agents eliminate the necessity of having a DHCP server on each physical network.  In certain network configurations, a DHCP server may be multiple subnets away from the DHCP client and multiple Relay Agents may be configured to relay DHCP messages to and from DHCP client.  Such configuration can be supported only when each Relay Agent adds certain Information to DHCP messages before relaying them.  This additional information helps in relaying the DHCP reply back to the DHCP client through the same path.  This mechanism is referred as Relay Chaining.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kurapati-dhc-relay-chaining-dhcpv4-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kurapati-dhc-relay-chaining-dhcpv4-02.txt' />
+</reference>

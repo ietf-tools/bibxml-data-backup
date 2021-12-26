@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-avtext-splicing-notification'>
+<front>
+<title>RTP/RTCP extension for RTP Splicing Notification</title>
+
+<author initials='J' surname='Xia' fullname='Jinwei Xia'>
+    <organization />
+</author>
+
+<author initials='R' surname='Huang' fullname='Rachel Huang'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2013' />
+
+<abstract><t>Content splicing is a process that replaces the content of a main multimedia stream with other multimedia content, and delivers the substitutive multimedia content to the receivers for a period of time.  The RTP mixer is designed to handle RTP splicing in [RFC6828], but how the RTP mixer knows when to start and end the splicing is still unspecified.  This memo defines two RTP/RTCP extensions to indicate the splicing related information to the RTP mixer: an RTP header extension that conveys the information in-band and an RTCP packet that conveys the information out-of-band.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-avtext-splicing-notification-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-avtext-splicing-notification-01.txt' />
+</reference>

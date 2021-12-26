@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dccp-rfc3448bis'>
+<front>
+<title>TCP Friendly Rate Control (TFRC): Protocol Specification</title>
+
+<author initials='M' surname='Handley' fullname='Mark Handley'>
+    <organization />
+</author>
+
+<author initials='S' surname='Floyd' fullname='Sally Floyd'>
+    <organization />
+</author>
+
+<author initials='J' surname='Padhye' fullname='Jitendra Padhye'>
+    <organization />
+</author>
+
+<author initials='J' surname='Widmer' fullname='Joerg Widmer'>
+    <organization />
+</author>
+
+<date month='April' day='12' year='2008' />
+
+<abstract><t>This document specifies TCP-Friendly Rate Control (TFRC).  TFRC is a congestion control mechanism for unicast flows operating in a best- effort Internet environment.  It is reasonably fair when competing for bandwidth with TCP flows, but has a much lower variation of throughput over time compared with TCP, making it more suitable for applications such as streaming media where a relatively smooth sending rate is of importance.  This document obsoletes RFC 3448 and updates RFC 4342.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dccp-rfc3448bis-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-rfc3448bis-06.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-rfc3448bis-06.pdf' />
+</reference>

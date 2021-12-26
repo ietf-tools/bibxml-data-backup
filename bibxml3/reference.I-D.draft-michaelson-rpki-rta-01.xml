@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.michaelson-rpki-rta'>
+<front>
+<title>A profile for Resource Tagged Attestations (RTAs)</title>
+
+<author initials='G' surname='Michaelson' fullname='George Michaelson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Huston' fullname='Geoff Huston'>
+    <organization />
+</author>
+
+<author initials='T' surname='Harrison' fullname='Tom Harrison'>
+    <organization />
+</author>
+
+<author initials='T' surname='Bruijnzeels' fullname='Tim Bruijnzeels'>
+    <organization />
+</author>
+
+<author initials='M' surname='Hoffmann' fullname='Martin Hoffmann'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2019' />
+
+<abstract><t>This document defines a Cryptographic Message Syntax (CMS) profile for a general purpose Resource Tagged Attestation (RTA), for use with the Resource Public Key Infrastructure (RPKI).  The objective is to allow an attestation, in the form of an arbitrary digital object, to be signed "with resources", and for validation to provide an outcome of "valid with resources".  The profile is intended to provide for the signing of an attestation with an arbitrary set of resources.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-michaelson-rpki-rta-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-michaelson-rpki-rta-01.txt' />
+</reference>

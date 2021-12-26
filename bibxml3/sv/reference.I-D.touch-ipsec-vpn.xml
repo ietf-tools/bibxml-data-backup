@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.touch-ipsec-vpn'>
+<front>
+<title>Use of IPsec Transport Mode for Dynamic Routing</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<author initials='L' surname='Eggert' fullname='L Eggert'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Wang' fullname='Yu-Shun Wang'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2004' />
+
+<abstract><t>This document addresses the use of IPsec to secure the links of a virtual (private) network (VN/VPN). It describes how virtual links established by IPsec tunnel mode conflict with routing and forwarding inside the VN, due to the IP routing dependence on references to interfaces and next-hop IP addresses. This document proposes a solution, called IIPtran, in which IPIP encapsulation separate from IPsec is used together with transport- mode IPsec. IPIP tunnel encapsulation occurs as a separate initial step, based on a forwarding lookup of the VN packet. After the forwarding lookup, IPsec transport mode processes the resulting (tunneled) IP packet with an SA determined through a security association database (SAD) match on the tunnel header. IIPtran supports dynamic routing inside the VN without changes to the current IPsec architecture, by establishing a complete virtual topology with IPIP tunnels that supports static and dynamic routing, and then securing it with IPsec transport mode. The document also discusses how IIPtran compares to several alternative mechanisms for VN routing, and their respective impact on IPsec, routing, policy enforcement and interactions with the Internet Key Exchange (IKE), among other issues. This document is a product of the X-Bone and DynaBone projects at USC/ISI [N5][N8]. Comments are solicited and should be addressed to the authors.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-touch-ipsec-vpn-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-touch-ipsec-vpn-07.txt' />
+</reference>

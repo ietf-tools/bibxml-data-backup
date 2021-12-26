@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ebalard-mext-m6t'>
+<front>
+<title>MIPv6 from IPv4-only networks</title>
+
+<author initials='A' surname='Ebalard' fullname='Arnaud Ebalard'>
+    <organization />
+</author>
+
+<date month='September' day='1' year='2010' />
+
+<abstract><t>MIPv6 [RFC3775] protocol has been designed to work on IPv6 networks: nothing was initially provisioned in the specification to support movement of Mobile Nodes to IPv4-only networks (with or without NAT) or the communication with IPv4 peers.  DSMIPv6 [RFC5555] is the official solution specified to address those needs.  It requires IPv4/NAT-awareness by the MIPv6 module, IKE module and IPsec stack.  The global approach selected by DSMIPv6 requires changes to implementations and increases complexity.  This memo presents an alternative approach to support operations of MIPv6 mobile nodes from IPv4-only networks.  It does not require changes to MIPv6 modules, IKE module and IPsec stack.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ebalard-mext-m6t-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ebalard-mext-m6t-01.txt' />
+</reference>

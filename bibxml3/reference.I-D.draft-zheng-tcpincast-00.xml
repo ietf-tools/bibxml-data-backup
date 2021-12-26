@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zheng-tcpincast'>
+<front>
+<title>An Effective Approach to Preventing TCP Incast Throughput Collapse for Data Center Networks</title>
+
+<author initials='H' surname='Zheng' fullname='Hongyun Zheng'>
+    <organization />
+</author>
+
+<author initials='C' surname='Qiao' fullname='Chunming Qiao'>
+    <organization />
+</author>
+
+<author initials='K' surname='Chen' fullname='Kai Chen'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Zhao' fullname='Yongxiang Zhao'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2016' />
+
+<abstract><t>This document presents an effective solution to the known TCP incast problem in data center networks. The incast problem refers to a drastic TCP throughput drop when the number of servers synchroni- cally sending data to the same receiver is too large. Our idea is avoiding packet losses before TCP incast happens. The scheme is limiting the number of concurrent senders such that the link can be filled as fully as possible but no packet losses. In this document we examine the condition that the link can be saturated but no packet losses. Then based on the condition we propose an approach to estimates the reasonable number of concurrent senders. Our approach does not modify TCP protocol itself and can thus be applied to any TCP variant, and works regardless of the type of data center network topology and throughput limitation. Analysis and simulation results show that our approach eliminates the incast problem and noticeably improves TCP throughput.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zheng-tcpincast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zheng-tcpincast-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-zheng-tcpincast-00.pdf' />
+</reference>

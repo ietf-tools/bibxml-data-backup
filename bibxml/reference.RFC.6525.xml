@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6525' target='https://www.rfc-editor.org/info/rfc6525'>
+<front>
+<title>Stream Control Transmission Protocol (SCTP) Stream Reconfiguration</title>
+<author initials='R.' surname='Stewart' fullname='R. Stewart'><organization /></author>
+<author initials='M.' surname='Tuexen' fullname='M. Tuexen'><organization /></author>
+<author initials='P.' surname='Lei' fullname='P. Lei'><organization /></author>
+<date year='2012' month='February' />
+<abstract><t>Many applications that use the Stream Control Transmission Protocol (SCTP) want the ability to &quot;reset&quot; a stream.  The intention of resetting a stream is to set the numbering sequence of the stream back to 'zero' with a corresponding notification to the application layer that the reset has been performed.  Applications requiring this feature want it so that they can &quot;reuse&quot; streams for different purposes but still utilize the stream sequence number so that the application can track the message flows.  Thus, without this feature, a new use of an old stream would result in message numbers greater than expected, unless there is a protocol mechanism to &quot;reset the streams back to zero&quot;.  This document also includes methods for resetting the transmission sequence numbers, adding additional streams, and resetting all stream sequence numbers.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6525'/>
+<seriesInfo name='DOI' value='10.17487/RFC6525'/>
+</reference>

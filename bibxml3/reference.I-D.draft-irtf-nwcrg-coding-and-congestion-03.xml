@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-nwcrg-coding-and-congestion'>
+<front>
+<title>Coding and congestion control in transport</title>
+
+<author initials='N' surname='Kuhn' fullname='Nicolas Kuhn'>
+    <organization />
+</author>
+
+<author initials='E' surname='Lochin' fullname='Emmanuel Lochin'>
+    <organization />
+</author>
+
+<author initials='F' surname='Michel' fullname='Francois Michel'>
+    <organization />
+</author>
+
+<author initials='M' surname='Welzl' fullname='Michael Welzl'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2020' />
+
+<abstract><t>FEC coding is a reliability mechanism that is distinct and separate from the loss detection of congestion controls.  Using FEC coding can be a useful way to deal with transfer tail losses or with networks having non-congestion losses.  However, FEC coding mechanisms should not hide congestion signals.  This memo offers a discussion of how FEC coding and congestion control can coexist.  Another objective is to encourage the research community to also consider congestion control aspects when proposing and comparing FEC coding solutions in communication systems.  This document is the product of the Coding for Efficient Network Communications Research Group (NWCRG).  The scope of the document is end-to-end communications: FEC coding for tunnels is out-of-the scope of the document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-nwcrg-coding-and-congestion-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-nwcrg-coding-and-congestion-03.txt' />
+</reference>

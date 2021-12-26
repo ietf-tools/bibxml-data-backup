@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-chen-iccrg-rocev3-cm-requirements-00.txt'>
+    <title>"Requirements for RoCEv3 Congestion Management", Fei Chen, Wenhao Sun, Yolanda Yu</title>
+    <link>http://www.ietf.org/internet-drafts/draft-chen-iccrg-rocev3-cm-requirements-00.txt</link>
+    <description>On IP-routed datacenter networks, RDMA is deployed using RoCEv2 protocol. RoCEv2 specification does not define the strong congestion management mechanisms and load balancing methods. RoCEv2 relies on the existing Link-Layer Flow-Control IEEE 802.1Qbb(Priority-based Flow Control, PFC)to provide a lossless fabric. RoCEv2 Congestion Management(RCM) use ECN(Explicit Congestion Notification, defined in RFC3168) to signal the congestion to the destination and use the congestion notification to reduce the rate of injection and increase the injection rate when the extent of congestion decreases. More and more practice of congestion management for RoCEv2 appear in the industry, such as DCQCN(Data Center Quantized Congestion Notification). There is a demanding for the new RoCEv3 protocol to provide stronger congestion management and load balancing mechanisms for RDMA deployment in modern datacenter.</description>
+    <dc:date>2019-03-23T07:00:00-00:00</dc:date>
+</item>

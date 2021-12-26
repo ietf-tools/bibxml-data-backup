@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wydrych-alto-paths'>
+<front>
+<title>Paths Extension for the ALTO Protocol</title>
+
+<author initials='P' surname='Wydrych' fullname='Piotr Wydrych'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Fu' fullname='Qiao Fu'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>The Application-Layer Traffic Optimization (ALTO) protocol has been standardized in RFC7285 to ease better-than-random overlay connection management.  However, through the base protocol it is not possible to differenciate paths from a given source to a given destination and provide an ALTO client with a detailed information of sending traffic through these paths.  This document describes an extension to the ALTO protocol allowing for representation of paths in the network maps, cost maps, and endpoint cost calculation.  Morever, this document defines a new path computation service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wydrych-alto-paths-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wydrych-alto-paths-00.txt' />
+</reference>

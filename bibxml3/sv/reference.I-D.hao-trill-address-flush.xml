@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hao-trill-address-flush'>
+<front>
+<title>TRILL: Address Flush Message</title>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>The TRILL (TRansparent Interconnection of Lots of Links) protocol, by default, learns end station addresses from observing the data plane. This document specifies a message by which an originating TRILL switch can explicitly request other TRILL switches to flush certain MAC reachability learned through the egress of TRILL Data packets. This is a supplement to the TRILL automatic address forgetting and can assist in achieving more rapid convergence in case of topoogy or configuration change.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hao-trill-address-flush-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hao-trill-address-flush-01.txt' />
+</reference>

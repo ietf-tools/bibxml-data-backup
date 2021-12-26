@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-trill-mtu-negotiation'>
+<front>
+<title>TRILL IS-IS MTU Negotiation</title>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhang' fullname='Xudong Zhang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chatterjee' fullname='Somnath Chatterjee'>
+    <organization />
+</author>
+
+<date month='February' day='13' year='2014' />
+
+<abstract><t>The base IETF TRILL protocol has a TRILL campus wide MTU feature, specified in RFC 6325 and RFC6327bis, that assures that link status changes can be successfully flooded throughout the campus while being able to take advantage of a campus wide capability to support jumbo packets. This document specifies optional updates to that MTU feature to take advantage, for appropriate link local packets, of link local MTUs that exceed the TRILL campus MTU. In addition, it specifies an efficient algorithm for local MTU testing. It updates RFC 6325.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-trill-mtu-negotiation-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-trill-mtu-negotiation-05.txt' />
+</reference>

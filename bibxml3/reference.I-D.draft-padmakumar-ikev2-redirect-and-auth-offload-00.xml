@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.padmakumar-ikev2-redirect-and-auth-offload'>
+<front>
+<title>IKEv2 Redirect and Authentication Offload</title>
+
+<author initials='A' surname='Padmakumar' fullname='A Padmakumar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bafna' fullname='Manikchand Bafna'>
+    <organization />
+</author>
+
+<author initials='P' surname='Sethi' fullname='Pratima Sethi'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2009' />
+
+<abstract><t>IKEv2 is a component of IPsec used for performing mutual authentication and establishing and maintaining security associations (SAs).  Redirect Mechanism for IKEv2 proposes a mechanism for IKEv2 that enables a VPN gateway to redirect the VPN client to another VPN gateway, for example, based on the load condition.  Redirect mechanism can also be used to redirect a client to another router (Trust Anchor) to do mutual authentication on behalf of the server.  After mutual authentication Trust Anchor can redirect the client back to the server with an Access Token which can be used as a pre-shared key between the server and client for password based IKE_AUTH exchange.  This document describes a mechanism to use IKEv2 redirects to offload such verifications to another trusted third party.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-padmakumar-ikev2-redirect-and-auth-offload-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-padmakumar-ikev2-redirect-and-auth-offload-00.txt' />
+</reference>

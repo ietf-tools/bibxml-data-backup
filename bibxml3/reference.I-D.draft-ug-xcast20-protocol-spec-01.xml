@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ug-xcast20-protocol-spec'>
+<front>
+<title>XCAST6 (version 2.0) Protocol Specification</title>
+
+<author initials='Y' surname='Imai' fullname='Yuji Imai'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kurosawa' fullname='Takahiro Kurosawa'>
+    <organization />
+</author>
+
+<author initials='N' surname='Kawaguchi' fullname='Nobuo Kawaguchi'>
+    <organization />
+</author>
+
+<author initials='E' surname='Muramoto' fullname='Eiichi Muramoto'>
+    <organization />
+</author>
+
+<date month='August' day='17' year='2008' />
+
+<abstract><t>This document describes the specification of Xcast6 (Explicit Multi- unicast (Xcast) for IPv6), a new multicast scheme with complementary scaling properties: Xcast supports a very large number of small multicast sessions.  Xcast achieves this by explicitly encoding the list of destinations in the data packets, instead of using a multicast group address.  The difference from the experimental specification which is described in [5058] is that this version eliminates Hop-by-Hop header which sometimes suffers hardware router.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ug-xcast20-protocol-spec-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ug-xcast20-protocol-spec-01.txt' />
+</reference>

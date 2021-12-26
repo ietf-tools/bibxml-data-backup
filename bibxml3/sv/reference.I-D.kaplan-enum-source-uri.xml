@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaplan-enum-source-uri'>
+<front>
+<title>DNS Extension for ENUM Source-URI</title>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<author initials='R' surname='Walter' fullname='Robert Walter'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gopal' fullname='Raja  Gopal'>
+    <organization />
+</author>
+
+<author initials='T' surname='Creighton' fullname='Tom Creighton'>
+    <organization />
+</author>
+
+<date month='December' day='11' year='2007' />
+
+<abstract><t>This document defines a specific DNS extension, based on the EDNS0 OPT RR, for an ENUM query to include the source URI which caused the ENUM request.  This is useful, for example, to specify the originating SIP or TEL URI from a SIP request which triggered the ENUM query, so the ENUM server can provide a different response.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kaplan-enum-source-uri-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kaplan-enum-source-uri-00.txt' />
+</reference>

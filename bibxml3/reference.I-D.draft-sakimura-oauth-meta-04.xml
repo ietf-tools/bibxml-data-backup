@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sakimura-oauth-meta'>
+<front>
+<title>JSON Metadata for OAuth Responses 1.0</title>
+
+<author initials='M' surname='Kelly' fullname='Mike Kelly'>
+    <organization />
+</author>
+
+<author initials='N' surname='Sakimura' fullname='Nat Sakimura'>
+    <organization />
+</author>
+
+<date month='July' day='22' year='2015' />
+
+<abstract><t>This specification defines an extensible metadata member that may be inserted into the OAuth 2.0 responses to assist the clients to process those responses.  It is expressed as a member called "_links" that is inserted as the top level member in the responses.  It will allow the client to learn where the members in the response could be used and how, etc.  Since it is just a member, any client that does not understand this extension should not break and work normally while supporting clients can utilize the metadata to its advantage.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sakimura-oauth-meta-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sakimura-oauth-meta-04.txt' />
+</reference>

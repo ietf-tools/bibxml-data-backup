@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reschke-webdav-post'>
+<front>
+<title>Using POST to add to Web Distributed Authoring and Versioning (WebDAV)  Collections</title>
+
+<author initials='J' surname='Reschke' fullname='Julian Reschke'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2008' />
+
+<abstract><t>The Hypertext Transfer Protocol (HTTP) Extensions for the Web Distributed Authoring and Versioning (WebDAV) do not define the behavior for the "POST" method when applied to collections, as the base specification (HTTP) leaves implementers lots of freedom for the semantics of "POST".  This has lead to a situation where many WebDAV servers do not implement POST for collections at all, although it is well suited to be used for the purpose of adding new members to a collection, where the server remains in control of the newly assigned URL.  As a matter of fact, the Atom Publishing Protocol (AtomPub) uses POST exactly for that purpose.  On the other hand, WebDAV-based protocols such as the Calendar Extensions to WebDAV (CalDAV) frequently require clients to pick a unique URL, although the server could easily perform that task.  This specification defines a discovery mechanism through which servers can advertise support for POST requests with the aforementioned "add collection member" semantics.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reschke-webdav-post-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reschke-webdav-post-00.txt' />
+</reference>

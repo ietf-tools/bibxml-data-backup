@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cardenas-dff'>
+<front>
+<title>Depth-First Forwarding in Unreliable Networks (DFF)</title>
+
+<author initials='U' surname='Herberg' fullname='Ulrich Herberg'>
+    <organization />
+</author>
+
+<author initials='A' surname='Cardenas' fullname='Alvaro Cardenas'>
+    <organization />
+</author>
+
+<author initials='T' surname='Iwao' fullname='Tadashige Iwao'>
+    <organization />
+</author>
+
+<author initials='M' surname='Dow' fullname='Michael Dow'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cespedes' fullname='Sandra Cespedes'>
+    <organization />
+</author>
+
+<date month='April' day='16' year='2013' />
+
+<abstract><t>This document specifies the "Depth-First Forwarding" (DFF) protocol for IPv6 networks, a data forwarding mechanism that can increase reliability of data delivery in networks with dynamic topology and/or lossy links.  The protocol operates entirely on the forwarding plane, but may interact with the routing plane.  DFF forwards data packets using a mechanism similar to a "depth-first search" for the destination of a packet.  The routing plane may be informed of failures to deliver a packet or loops.  This document specifies the DFF mechanism both for IPv6 networks (as specified in RFC2460) and in addition also for LoWPAN "mesh-under" networks (as specified in RFC4944).  DFF assumes that the underlying link layer provides means to detect if a packet has been successfully delivered to the next hop or not, is designed for networks with little traffic, and is used for unicast transmissions only.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cardenas-dff-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cardenas-dff-11.txt' />
+</reference>

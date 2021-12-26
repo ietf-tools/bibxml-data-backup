@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-cfrg-hpke'>
+<front>
+<title>Hybrid Public Key Encryption</title>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='K' surname='Bhargavan' fullname='Karthikeyan Bhargavan'>
+    <organization />
+</author>
+
+<author initials='B' surname='Lipp' fullname='Benjamin Lipp'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='July' day='30' year='2020' />
+
+<abstract><t>This document describes a scheme for hybrid public-key encryption (HPKE).  This scheme provides authenticated public key encryption of arbitrary-sized plaintexts for a recipient public key.  HPKE works for any combination of an asymmetric key encapsulation mechanism (KEM), key derivation function (KDF), and authenticated encryption with additional data (AEAD) encryption function.  We provide instantiations of the scheme using widely-used and efficient primitives, such as Elliptic Curve Diffie-Hellman key agreement, HKDF, and SHA2.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-cfrg-hpke-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-hpke-05.txt' />
+</reference>

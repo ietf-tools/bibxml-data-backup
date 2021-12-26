@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-dickson-dnsop-spartacus-system-00.txt'>
+    <title>"System to transport DNS over HTTP using JSON", Brian Dickson</title>
+    <link>http://www.ietf.org/internet-drafts/draft-dickson-dnsop-spartacus-system-00.txt</link>
+    <description>This is the SPARTACUS DNS gateway system.  It is designed to facilitate the transport of DNS messages opaquely, across problematic sections of the Internet.  It uses JSON encoding, and HTTP(S) as the protocol for transport.  The main criteria of SPARTACUS is that it preserve DNS messages verbatim, and that only properly formatted DNS messages are passed.  There are two modes (so far) defined: DNS forwarder (dns clients point to a local gateway, which forwards to a remote gateway for sending to a DNS resolver); and transparent proxy (DNS packets are intercepted, passed to a local gateway, which sends them to the remote gateway, with original destination IP address etc. encoded, and used by the remote gateway as the destination).  DNS messages are NAT-friendly, so changes to IP or UDP headers do not impact them.  Thus, SPARTACUS does not interfere with TSIG, SIG(0), or Eastlake Cookies.  This document describes the system, the components, and behavior, with examples.</description>
+    <dc:date>2014-10-15T07:00:00-00:00</dc:date>
+</item>

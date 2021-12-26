@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.luisbarguno-geolocation-header'>
+<front>
+<title>Geolocation Header for HTTP over a Secure Context</title>
+
+<author initials='L' surname='Barguno' fullname='Luis Barguno'>
+    <organization />
+</author>
+
+<date month='August' day='8' year='2017' />
+
+<abstract><t>The Geolocation header introduces a mechanism to send a device location over an HTTP Secure Context from a user agent to a server.  The Geolocation-Request header is used by a server to inform the user agent when a Geolocation header is requested to be sent.  This mechanism, through persistent Geolocation-Requests, provides a single-roundtrip solution to obtain location-aware responses for location-aware services, as oposed to existing JS-based Geolocation API that require two round trips.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-luisbarguno-geolocation-header-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-luisbarguno-geolocation-header-00.txt' />
+</reference>

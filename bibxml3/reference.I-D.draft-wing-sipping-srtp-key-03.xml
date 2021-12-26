@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wing-sipping-srtp-key'>
+<front>
+<title>Secure Media Recording and Transcoding with the Session Initiation  Protocol</title>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='F' surname='Audet' fullname='Francois Audet'>
+    <organization />
+</author>
+
+<author initials='S' surname='Fries' fullname='Steffen Fries'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='A' surname='Johnston' fullname='Alan Johnston'>
+    <organization />
+</author>
+
+<date month='February' day='24' year='2008' />
+
+<abstract><t>Call recording is an important feature in enterprise telephony applications.  Some industries such as financial traders have requirements to record all calls in which customers give trading orders.  This poses a particular problem for Secure RTP systems as many SRTP key exchange mechanisms do not disclose the SRTP session keys to intermediate SIP proxies.  As a result, these key exchange mechanisms cannot be used in environments where call recording is needed.  This document specifies a secure mechanism for a cooperating endpoint to disclose its SRTP master keys to an authorized party to allow secure call recording.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wing-sipping-srtp-key-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wing-sipping-srtp-key-03.txt' />
+</reference>

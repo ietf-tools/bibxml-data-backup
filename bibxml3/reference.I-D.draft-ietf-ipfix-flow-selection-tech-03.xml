@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipfix-flow-selection-tech'>
+<front>
+<title>Flow Selection Techniques</title>
+
+<author initials='L' surname='Peluso' fullname='Lorenzo Peluso'>
+    <organization />
+</author>
+
+<author initials='S' surname='D&apos;Antonio' fullname='Salvatore D&apos;Antonio'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zseby' fullname='Tanja Zseby'>
+    <organization />
+</author>
+
+<author initials='M' surname='Molina' fullname='Maurizio Molina'>
+    <organization />
+</author>
+
+<date month='December' day='6' year='2010' />
+
+<abstract><t>Flow selection is the process of selecting a subset of flows from all flows observed at an observation point.  The objective of flow selection is to reduce the effort of post-processing flow data and transferring flow records.  The flow selection process can be enabled at different stages of the measurement process.  It can be applied either directly after classification or at recording/exporting time by limiting the number of flows to be stored and/or exported to the collecting process.  This document describes motivations for flow selection and presents flow selection techniques.  It furthermore provides an information model for configuring flow selection techniques and discusses what information about a flow selection process is worth exporting through a suitable information model.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipfix-flow-selection-tech-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipfix-flow-selection-tech-03.txt' />
+</reference>

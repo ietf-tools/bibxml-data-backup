@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pala-odin'>
+<front>
+<title>OCSP over DNS (ODIN)</title>
+
+<author initials='M' surname='Pala' fullname='Massimiliano Pala'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2017' />
+
+<abstract><t>With the increase number of protocols and applications that rely on digital certificates to authenticate either the communication channel (TLS) or the data itself (PKIX), the need for providing an efficient revocation system is paramount.  Although the Online Certificate Status Protocol (OCSP) allows for efficient lookup of the revocation status of a certificate, the distribution of this information via HTTP (or very rarely) HTTPS is not particularly efficient for high volume websites without incurring in high distribution costs (e.g., CDN).  In particular, this specification defines how to distribute OCSP responses over DNS and how to define OCSP-over-DNS URLs in certificates.  The use of the DNS system to distribute such information is meant to lower the costs of providing revocation services (by leveraging the distributed nature of DNS cache) and increase the availability of revocation information (by providing an additional access method for revocation information retrieval).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pala-odin-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pala-odin-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vidya-eap-er'>
+<front>
+<title>EAP Extensions for Efficient Re-authentication</title>
+
+<author initials='V' surname='Narayanan' fullname='Vidya Narayanan'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dondeti' fullname='Lakshminath Dondeti'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2006' />
+
+<abstract><t>The extensible authentication protocol (EAP) is a generic framework supporting multiple authentication methods. In the most common deployment scenario, an EAP peer and server authenticate each other through an authenticator; the server sends one of the session keys to the authenticator so that the peer and the authenticator can establish a security association for per-packet access enforcement. It is desirable to not repeat the entire process of authentication when the peer moves to another authenticator in an EAP method independent manner. This document specifies extensions to EAP keying hierarchy and the protocol itself to facilitate such efficient re- authentication between the peer and the server through a new authenticator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vidya-eap-er-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vidya-eap-er-00.txt' />
+</reference>

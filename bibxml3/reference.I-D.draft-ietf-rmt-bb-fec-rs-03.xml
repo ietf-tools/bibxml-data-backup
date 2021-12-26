@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rmt-bb-fec-rs'>
+<front>
+<title>Reed-Solomon Forward Error Correction (FEC) Schemes</title>
+
+<author initials='J' surname='Lacan' fullname='Jerome Lacan'>
+    <organization />
+</author>
+
+<date month='May' day='7' year='2007' />
+
+<abstract><t>This document describes a Fully-Specified FEC Scheme for the Reed- Solomon forward error correction codes over GF(2""m), with m in {2..16}, and its application to the reliable delivery of data objects on the packet erasure channel. This document also describes a Fully-Specified FEC Scheme for the special case of Reed-Solomon codes over GF(2""8) when there is no encoding symbol group. Finally, in the context of the Under-Specified Small Block Systematic FEC Scheme (FEC Encoding ID 129), this document assigns an FEC Instance ID to the special case of Reed-Solomon codes over GF(2""8). Reed-Solomon codes belong to the class of Maximum Distance Separable (MDS) codes, i.e. they enable a receiver to recover the k source symbols from any set of k received symbols. The schemes described here are compatible with the implementation from Luigi Rizzo.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rmt-bb-fec-rs-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rmt-bb-fec-rs-03.txt' />
+</reference>

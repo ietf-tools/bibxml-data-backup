@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-gellens-mime-bucket-04.txt'>
+    <title>"The Codecs Parameter for "Bucket" Media Types", Randall Gellens</title>
+    <link>http://www.ietf.org/internet-drafts/draft-gellens-mime-bucket-04.txt</link>
+    <description>Several MIME type/subtype combinations exist which can contain different media formats. A receiving agent thus needs to examine the details of such media content to determine if the specific elements can be rendered given an available set of codecs. Especially when the end system has limited resources, or the connection to the end system has limited bandwidth, it would be helpful to know from the Content-Type alone if the content can be rendered. This document adds a new parameter, "codecs", to various type/subtype combinations to allow for unambiguous specification of the codecs indicated by the media formats contained within. By labeling content with the specific codecs indicated to render the contained media, receiving systems can determine if the codecs are supported by the end system, and if not, can take appropriate action (such as rejecting the content, sending notification of the situation, transcoding the content to a supported type, fetching and installing the required codecs, further inspection to determine if it will be sufficient to support a subset of the indicated codecs, etc.)</description>
+    <dc:date>2005-06-03T07:00:00-00:00</dc:date>
+</item>

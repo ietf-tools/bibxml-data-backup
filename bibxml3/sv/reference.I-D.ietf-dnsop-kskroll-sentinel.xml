@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-kskroll-sentinel'>
+<front>
+<title>A Root Key Trust Anchor Sentinel for DNSSEC</title>
+
+<author initials='G' surname='Huston' fullname='Geoff Huston'>
+    <organization />
+</author>
+
+<author initials='J' surname='Damas' fullname='Joao Damas'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2018' />
+
+<abstract><t>The DNS Security Extensions (DNSSEC) were developed to provide origin authentication and integrity protection for DNS data by using digital signatures.  These digital signatures can be verified by building a chain of trust starting from a trust anchor and proceeding down to a particular node in the DNS.  This document specifies a mechanism that will allow an end user and third parties to determine the trusted key state for the root key of the resolvers that handle that user's DNS queries.  Note that this method is only applicable for determining which keys are in the trust store for the root key.  [ This document is being collaborated on in Github at: https://github.com/APNIC-Labs/draft-kskroll-sentinel.  The most recent version of the document, open issues, etc should all be available here.  The authors (gratefully) accept pull requests.  RFC Editor, please remove text in square brackets before publication. ]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-kskroll-sentinel-16' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-kskroll-sentinel-16.txt' />
+</reference>

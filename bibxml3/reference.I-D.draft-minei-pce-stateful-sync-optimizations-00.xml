@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.minei-pce-stateful-sync-optimizations'>
+<front>
+<title>Optimizations of State Synchronization Procedures for Stateful PCE</title>
+
+<author initials='E' surname='Crabbe' fullname='Edward Crabbe'>
+    <organization />
+</author>
+
+<author initials='J' surname='Medved' fullname='Jan Medved'>
+    <organization />
+</author>
+
+<author initials='I' surname='Minei' fullname='Ina Minei'>
+    <organization />
+</author>
+
+<author initials='R' surname='Varga' fullname='Robert Varga'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhang' fullname='Xian Zhang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dhody' fullname='Dhruv Dhody'>
+    <organization />
+</author>
+
+<date month='October' day='8' year='2013' />
+
+<abstract><t>A stateful Path Computation Element (PCE) has access to not only the information carried by the network's IGP, but also to the set of active paths and their reserved resources for its computations.  The additional state allows the PCE to compute constrained paths while considering individual LSPs and their interactions.  This requires reliable state synchronization mechanisms between the PCE and the network, PCE and path computation clients (PCCs), and between cooperating PCEs.  The basic mechanism for state synchronization is part of the Stateful PCE specification.  This draft specifies optimizations related to state synchronization procedures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-minei-pce-stateful-sync-optimizations-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-minei-pce-stateful-sync-optimizations-00.txt' />
+</reference>

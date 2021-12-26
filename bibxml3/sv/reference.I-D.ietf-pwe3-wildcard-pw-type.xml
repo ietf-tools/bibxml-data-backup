@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pwe3-wildcard-pw-type'>
+<front>
+<title>Wildcard Pseudowire Type</title>
+
+<author initials='L' surname='Martini' fullname='Luca Martini'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2006' />
+
+<abstract><t>Pseudowire signaling requires that the Pseudowire Type (PW Type) be identical in both directions. For certain applications the configuration of the PW Type is most easily accomplished by configuring this information at just one PW endpoint. In any form of LDP-based signaling, each PW endpoint must initiate the creation of a unidirectional LSP. In order to allow the initiation of these two LSPs to remain independent, a means of allowing the PW endpoint lacking a priori knowledge of the PW Type to initiate the creation of an LSP is needed. This document defines a Wildcard PW Type to satisfy this need.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pwe3-wildcard-pw-type-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pwe3-wildcard-pw-type-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.flinck-lisp-membertest'>
+<front>
+<title>Membership test for Mapping Information optimization</title>
+
+<author initials='H' surname='Flinck' fullname='Hannu Flinck'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>This document defines how a membership test can be used to convey all or some of the EID-to-RLOC mappings from an Egress Tunnel Router to requesting Ingress Tunnel Router.  This draft proposes that an authoritative ETR MAY return a group membership test in the LISP Map- Reply Message that indicates if a given EID is served by the ETR. The membership test is implemented as a Bloom filter.  A Bloom filter is compact data structure to represent a set of elements.  The membership test "aggregates" EIDs beyond prefix based aggregation. Membership test decreases the load of the mapping system and distributes the EID-to-RLOC resolution between an ITR and an ETR.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-flinck-lisp-membertest-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-flinck-lisp-membertest-00.txt' />
+</reference>

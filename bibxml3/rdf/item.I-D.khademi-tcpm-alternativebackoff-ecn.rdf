@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-khademi-tcpm-alternativebackoff-ecn-01.txt'>
+    <title>"TCP Alternative Backoff with ECN (ABE)", Naeem Khademi, Michael Welzl, Grenville Armitage, Gorry Fairhurst</title>
+    <link>http://www.ietf.org/internet-drafts/draft-khademi-tcpm-alternativebackoff-ecn-01.txt</link>
+    <description>This memo updates the TCP sender-side reaction to a congestion notification received via Explicit Congestion Notification (ECN). The updated method reduces FlightSize in Congestion Avoidance by a smaller amount than the TCP reaction to loss.  The intention is to achieve good throughput when the queue at the bottleneck is smaller than the bandwidth-delay-product of the connection.  This is more likely when an Active Queue Management (AQM) mechanism has used ECN to CE-mark a packet, than when a packet was lost.  Future versions of this document will also describe a corresponding method for SCTP.</description>
+    <dc:date>2016-10-30T07:00:00-00:00</dc:date>
+</item>

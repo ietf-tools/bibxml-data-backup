@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-monitoring'>
+<front>
+<title>NETCONF Monitoring Schema</title>
+
+<author initials='M' surname='Scott' fullname='Mark Scott'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chisholm' fullname='Sharon Chisholm'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bjorklund' fullname='Martin Bjorklund'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>This document defines NETCONF content via XML Schema to be used to monitor the NETCONF protocol.  The monitoring data model includes information about NETCONF sessions, locks, and subscriptions and is intended to facilitate management of a NETCONF server.  In addition this monitoring data provides clients with standardized content to describe supported schema.  Today, NETCONF capabilities exchange is the only standardized method a client can use to discover the functionality supported by a NETCONF server.  This works well for static protocol capabilities but is not well suited for capabilities which could change during a session.  Considerations such as different schema formats, feature optionality and access controls can all impact the applicability and level of detail the NETCONF server sends to a client during session setup. Through updated monitoring data NETCONF clients can adjust their capabilities throughout a session.  Specifically the details returned can be used by a client to determine whether retrieval of new schema information is required and includes the information required to facilitate the retrieval.  A new RPC (get-schema) is also defined to support explicit schema retrieval via NETCONF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-monitoring-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-monitoring-03.txt' />
+</reference>

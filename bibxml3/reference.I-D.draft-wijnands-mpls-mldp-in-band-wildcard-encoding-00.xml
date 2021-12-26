@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-mpls-mldp-in-band-wildcard-encoding'>
+<front>
+<title>mLDP in-band signalling Wildcard encoding</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='a' surname='arkadiy.gulko@thomsonreuters.com' fullname='arkadiy.gulko@thomsonreuters.com'>
+    <organization />
+</author>
+
+<author initials='U' surname='Joorde' fullname='Uwe Joorde'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2013' />
+
+<abstract><t>Documents [RFC6826] and [I-D.ietf-l3vpn-mldp-vrf-in-band-signaling] define a solution to splice an IP multicast tree together with a multipoint LSP in the global or VRF context.  In these drafts the Multipoint Label Distribution Protocol (mLDP) Opaque TLV encodings have been documented for Source specific and Bidir IP multicast trees.  For each IP multicast tree a multipoint LSP is created. There are scenarios where it is beneficial to support shared trees and allow aggregation such that fewer multipoint LSPs are created in the network.  This document defines wildcard encodings to be used for the Source or Group fields of the existing opaque encodings.  With the wildcard encoding it is possible to create a single multipoint LSP that is used to represent *all* sources for a given multicast group or *all* groups for a given source.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-mpls-mldp-in-band-wildcard-encoding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-mpls-mldp-in-band-wildcard-encoding-00.txt' />
+</reference>

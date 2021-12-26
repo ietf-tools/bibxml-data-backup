@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.elmalki-mobileip-bicasting-v6'>
+<front>
+<title>Simultaneous Bindings for Mobile IPv6 Fast Handovers</title>
+
+<author initials='K' surname='Malki' fullname='Karim Malki'>
+    <organization />
+</author>
+
+<author initials='H' surname='Soliman' fullname='Hesham  Soliman'>
+    <organization />
+</author>
+
+<date month='July' day='18' year='2005' />
+
+<abstract><t>Fast Handover for Mobile IPv6 [1] minimizes the amount of service disruption when performing layer-3 handovers. This draft extends the Fast Handover protocol with a simultaneous bindings function to minimize packet loss at the MN. Traffic for the MN is therefore bicast or n-cast for a short period to its current location and to one or more locations where the MN is expected to move to shortly. This removes the timing ambiguity regarding when to start sending traffic for the MN to its new point of attachment following a Fast Handover and allows the decoupling of layer-2 and layer-3 handovers. It also saves the MN periods of service disruption in the case of ping-pong movement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-elmalki-mobileip-bicasting-v6-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-elmalki-mobileip-bicasting-v6-06.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-behave-syslog-nat-logging'>
+<front>
+<title>Syslog Format for NAT Logging</title>
+
+<author initials='Z' surname='Chen' fullname='Zhonghua Chen'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Cathy Zhou'>
+    <organization />
+</author>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2014' />
+
+<abstract><t>NAT devices are required to log events like creation and deletion of translations and information about the resources the NAT is managing. The logs are required to identify an attacker or a host that was used to launch malicious attacks, and for various other purposes of accounting and management.  Since there is no standard way of logging this information, different NAT devices behave differently.  The lack of a consistent way makes it difficult to write the collector applications that would receive this data and process it to present useful information.  This document describes the information that is required to be logged by the NAT devices.  It goes on to standardize formats for reporting these events and parameters using SYSLOG (RFC 5424).  A companion document specifies formats for reporting the same events and parameters using IPFIX (RFC 7011).  Applicability statements are provided in this document and its companion to guide operators and implementors in their choice of which technology to use for logging.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-behave-syslog-nat-logging-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-behave-syslog-nat-logging-06.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-sctp-failover'>
+<front>
+<title>Quick Failover Algorithm in SCTP</title>
+
+<author initials='Y' surname='Nishida' fullname='Yoshifumi Nishida'>
+    <organization />
+</author>
+
+<author initials='P' surname='Natarajan' fullname='Preethi Natarajan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Caro' fullname='Armando Caro'>
+    <organization />
+</author>
+
+<author initials='P' surname='Amer' fullname='Paul Amer'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nielsen' fullname='Karen E. E. Nielsen'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2014' />
+
+<abstract><t>One of the major advantages of SCTP is supporting multi-homed communication.  If a multi-homed end-point has a redundant network connections, the SCTP associations have a good chance to survive network failures by migrating traffic from inactive networks to active ones.  However, if the SCTP standard is followed, there can be a significant delay during the migration.  During this period, SCTP might not be able to transmit much data to the peer.  This issue drastically impairs the usability of SCTP in some situations.  This memo describes the issue of the SCTP failover mechanism and specifies an alternative failover procedure for SCTP that improves its performance during and after failover.  The procedures require only minimal modifications to the current specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-sctp-failover-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-failover-03.txt' />
+</reference>

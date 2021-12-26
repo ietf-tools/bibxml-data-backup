@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mif-problem-statement'>
+<front>
+<title>Multiple Interfaces and Provisioning Domains Problem Statement</title>
+
+<author initials='M' surname='Blanchet' fullname='Marc Blanchet'>
+    <organization />
+</author>
+
+<author initials='P' surname='Seite' fullname='Pierrick Seite'>
+    <organization />
+</author>
+
+<date month='April' day='27' year='2011' />
+
+<abstract><t>This document describes issues encountered by a node attached to multiple provisioning domains.  This node receives configuration information from each of its provisioning domains where some configuration objects are global to the node, others are local to the interface.  Issues such as selecting the wrong interface to send trafic happen when conflicting node-scoped configuration objects are received and inappropriately used.  Moreover, other issues are the result of simulatenous attachment to multiple networks, such as domain selection or addressing and naming space overlaps, regardless of the provisioning mechanism.  While multiple provisioning domains are typically seen on nodes with multiple interfaces, this document also discusses single interface nodes situation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mif-problem-statement-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mif-problem-statement-14.txt' />
+</reference>

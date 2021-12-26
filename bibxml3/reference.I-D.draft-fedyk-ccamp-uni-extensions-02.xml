@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fedyk-ccamp-uni-extensions'>
+<front>
+<title>UNI Extensions for Diversity and Latency Support</title>
+
+<author initials='D' surname='Fedyk' fullname='Don Fedyk'>
+    <organization />
+</author>
+
+<author initials='D' surname='Beller' fullname='Dieter Beller'>
+    <organization />
+</author>
+
+<author initials='L' surname='Levrau' fullname='Lieven Levrau'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
+    <organization />
+</author>
+
+<author initials='F' surname='Zhang' fullname='Fatai Zhang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Tochio' fullname='Yuji Tochio'>
+    <organization />
+</author>
+
+<author initials='X' surname='Fu' fullname='Xihua Fu'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>This document builds on the GMPLS overlay model [RFC4208] and defines extensions to the GMPLS User-Network Interface (UNI) to support route diversity within the core network for sets of LSPs initiated by edge nodes. A particular example where route diversity within the core network is desired, are dual-homed edge nodes. The document also defines GMPLS UNI extensions to deal with latency requirements for edge node initiated LSPs.  This document uses a VPN model that is based on the same premise as L1VPN framework [RFC4847] but may also be applied to other technologies.  The extensions are applicable both to VPN and non VPN environments. These extensions move the UNI from basic connectivity to enhanced mode connectivity by including additional constraints while minimizing the exchange of CE to PE information. These extensions are applicable to the overlay extension service model. Route Diversity for customer LSPs are a common requirement applicable to L1VPNs. The UNI mechanisms described in this document are L1VPN compatible and can be applied to achieve diversity for sets of customer LSPs.  The UNI extensions in support of latency constraints can also be applied to the extended overlay service model in order for the customer LSPs to meet certain latency requirements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fedyk-ccamp-uni-extensions-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fedyk-ccamp-uni-extensions-02.txt' />
+</reference>

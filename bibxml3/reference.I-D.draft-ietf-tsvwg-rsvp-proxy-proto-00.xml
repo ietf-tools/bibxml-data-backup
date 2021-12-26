@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-rsvp-proxy-proto'>
+<front>
+<title>RSVP Extensions for Path-Triggered RSVP Receiver Proxy</title>
+
+<author initials='F' surname='Faucheur' fullname='Francois Le  Faucheur'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2007' />
+
+<abstract><t>RSVP signaling can be used to make end-to-end resource reservations in an IP network in order to guarantee the QoS required by certain flows. With conventional RSVP, both the data sender and receiver of a given flow take part in RSVP signaling. Yet, there are many use cases where resource reservation is required, but the receiver, the sender, or both, is not RSVP-capable. Where the receiver is not RSVP-capable, an RSVP router may behave as an RSVP Receiver Proxy thereby performing RSVP signaling on behalf of the receiver. This allows resource reservations to be established on the segment of the end-to-end path from the sender to the RSVP Receiver Proxy. However, as discussed in the companion document presenting RSVP Proxy Approaches, RSVP extensions are needed to facilitate operations with an RSVP Receiver Proxy whose signaling is triggered by receipt of RSVP Path messages from the sender. This document specifies these extensions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-rsvp-proxy-proto-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-rsvp-proxy-proto-00.txt' />
+</reference>

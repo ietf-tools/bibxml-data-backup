@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-6man-nd-extension-headers'>
+<front>
+<title>Security Implications of the Use of IPv6 Extension Headers with IPv6 Neighbor Discovery</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='U' surname='CPNI' fullname='UK CPNI'>
+    <organization />
+</author>
+
+<date month='June' day='7' year='2011' />
+
+<abstract><t>IPv6 Extension Headers with Neighbor Discovery messages can be leveraged to circumvent simple local network protections, such as "Router Advertisement Guard".  Since there is no legitimate use for IPv6 Extension Headers in Neighbor Discovery messages, and such use greatly complicates network monitoring and simple security mitigations such as RA-Guard, this document proposes that hosts silently ignore Neighbor Discovery messages that use IPv6 Extension Headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-6man-nd-extension-headers-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-6man-nd-extension-headers-01.txt' />
+</reference>

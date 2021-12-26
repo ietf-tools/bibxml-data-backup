@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bonica-intarea-eping'>
+<front>
+<title>Extended Ping (Xping)</title>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<author initials='R' surname='Thomas' fullname='Reji Thomas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Linkova' fullname='J. Linkova'>
+    <organization />
+</author>
+
+<author initials='C' surname='Lenart' fullname='Chris Lenart'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2017' />
+
+<abstract><t>This document describes a new diagnostic tool called Extended Ping (Xping).  Network operators execute Xping to determine the status of a remote interface.  In this respect, Xping is similar to Ping. Xping differs from Ping in that it does not require network reachability between itself and remote interface whose status is being queried.  Xping relies on two new ICMP messages, called Extended Echo Request and Extended Echo Reply.  Both ICMP messages are defined herein.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bonica-intarea-eping-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bonica-intarea-eping-04.txt' />
+</reference>

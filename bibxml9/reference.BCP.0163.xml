@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<referencegroup anchor="BCP163" target="https://www.rfc-editor.org/info/bcp163">
+<!-- reference.RFC.6303.xml -->
+<reference  anchor='RFC6303' target='https://www.rfc-editor.org/info/rfc6303'>
+<front>
+<title>Locally Served DNS Zones</title>
+<author initials='M.' surname='Andrews' fullname='M. Andrews'><organization /></author>
+<date year='2011' month='July' />
+<abstract><t>Experience with the Domain Name System (DNS) has shown that there are a number of DNS zones that all iterative resolvers and recursive nameservers should automatically serve, unless configured otherwise. RFC 4193 specifies that this should occur for D.F.IP6.ARPA.  This document extends the practice to cover the IN-ADDR.ARPA zones for RFC 1918 address space and other well-known zones with similar characteristics.  This memo documents an Internet Best Current Practice.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='163'/>
+<seriesInfo name='RFC' value='6303'/>
+<seriesInfo name='DOI' value='10.17487/RFC6303'/>
+</reference>
+<!-- reference.RFC.7793.xml -->
+<reference  anchor='RFC7793' target='https://www.rfc-editor.org/info/rfc7793'>
+<front>
+<title>Adding 100.64.0.0/10 Prefixes to the IPv4 Locally-Served DNS Zones Registry</title>
+<author initials='M.' surname='Andrews' fullname='M. Andrews'><organization /></author>
+<date year='2016' month='May' />
+<abstract><t>RFC 6598 specifies that &quot;Reverse DNS queries for Shared Address Space addresses [100.64.0.0/10] MUST NOT be forwarded to the global DNS infrastructure.&quot;</t><t>This document formally directs IANA to add the associated zones to the &quot;IPv4 Locally-Served DNS Zones Registry&quot; to prevent such queries from accidentally leaking to the global DNS infrastructure.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='163'/>
+<seriesInfo name='RFC' value='7793'/>
+<seriesInfo name='DOI' value='10.17487/RFC7793'/>
+</reference>
+</referencegroup>

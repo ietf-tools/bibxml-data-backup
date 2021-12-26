@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lange-flexible-bgp-communities'>
+<front>
+<title>Flexible BGP Communities</title>
+
+<author initials='A' surname='Lange' fullname='Andrew Lange'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Amante' fullname='Shane Amante'>
+    <organization />
+</author>
+
+<date month='August' day='2' year='2010' />
+
+<abstract><t>This document defines a new attribute for BGP called the Flexible Community attribute.  Flexible Communities build on the experience and utility of the standard BGP community, and the extended BGP community attributes.  This attribute allows operators to associate structured information with a route or set of routes.  This information can be then be used to execute routing policy.  An enhanced version of communities is necessary to accommodate IPv6, 4-byte ASN's, and introduce a more extensible and flexible policy expression.  This document also introduces the concept of Neighbor Classes.  A Neighbor Class is applied to a group of BGP neighbors who share certain attributes.  For example, the PEER Neighbor Class could be applied to BGP sessions between ASN X and other networks with which ASN X has a non-transit peering relationship.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lange-flexible-bgp-communities-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lange-flexible-bgp-communities-03.txt' />
+</reference>

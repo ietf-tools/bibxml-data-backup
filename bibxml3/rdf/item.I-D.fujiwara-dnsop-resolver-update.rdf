@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-fujiwara-dnsop-resolver-update-00.txt'>
+    <title>"Updating Resolver Algorithm", Kazunori Fujiwara</title>
+    <link>http://www.ietf.org/internet-drafts/draft-fujiwara-dnsop-resolver-update-00.txt</link>
+    <description>Parent side NS RRSet and glue records are all information to access servers for child zone.  However, they may be overwritten by child zone data (zone apex NS RRSet and other A/AAAA RRSets).  The overwrite makes name resolution unstable and induces vulnerabilities. RFC 2181 section 5.4.1 specifies trustworthiness of DNS data.  And it is deemed that that all cached data (authoritative data, non- authoritative data, referrals and glue records) are merged into one. Resolvers may answer non-authoritative data, referrals and glue records that should not be returned.  This document proposes updating resolver algorithm that separates the cache to "authoritative data cache" and "delegation cache".  The former is used to answer stub resolvers, and the latter is used to iterate zones.</description>
+    <dc:date>2016-10-31T07:00:00-00:00</dc:date>
+</item>

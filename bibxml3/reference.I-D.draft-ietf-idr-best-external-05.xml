@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-best-external'>
+<front>
+<title>Advertisement of the best external route in BGP</title>
+
+<author initials='P' surname='Marques' fullname='Pedro Marques'>
+    <organization />
+</author>
+
+<author initials='R' surname='Fernando' fullname='Rex Fernando'>
+    <organization />
+</author>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<date month='January' day='3' year='2012' />
+
+<abstract><t>The current BGP-4 protocol specification [RFC4271] states that the selection process chooses the best path for a given route which is added to the Loc-Rib and advertised to all peers.  Previous versions [RFC1771] of the specification defined a different rule for Internal BGP Updates.  Given that Internal paths are not re- advertised to Internal peers, it was specified that the best of the external paths, as determined by the path selection tie breaking algorithm, would be advertised to Internal peers.  This document extends that procedure to operate in environments where Route Reflection [RFC4456] or Confederations [RFC5065] are used and explains why advertising the additional routing information can improve convergence time without causing routing loops.  Additional benefits include reduction of inter-domain churn and avoidance of permanent route oscillation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-best-external-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-best-external-05.txt' />
+</reference>

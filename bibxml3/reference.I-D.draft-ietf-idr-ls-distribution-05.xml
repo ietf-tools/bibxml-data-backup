@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-ls-distribution'>
+<front>
+<title>North-Bound Distribution of Link-State and TE Information using BGP</title>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='J' surname='Medved' fullname='Jan Medved'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ray' fullname='Saikat Ray'>
+    <organization />
+</author>
+
+<date month='May' day='22' year='2014' />
+
+<abstract><t>In a number of environments, a component external to a network is called upon to perform computations based on the network topology and current state of the connections within the network, including traffic engineering information.  This is information typically distributed by IGP routing protocols within the network  This document describes a mechanism by which links state and traffic engineering information can be collected from networks and shared with external components using the BGP routing protocol.  This is achieved using a new BGP Network Layer Reachability Information (NLRI) encoding format.  The mechanism is applicable to physical and virtual IGP links.  The mechanism described is subject to policy control.  Applications of this technique include Application Layer Traffic Optimization (ALTO) servers, and Path Computation Elements (PCEs).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-ls-distribution-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-ls-distribution-05.txt' />
+</reference>

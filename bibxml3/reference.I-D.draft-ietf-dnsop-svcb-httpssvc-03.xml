@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-svcb-httpssvc'>
+<front>
+<title>Service binding and parameter specification via the DNS (DNS SVCB and HTTPSSVC)</title>
+
+<author initials='B' surname='Schwartz' fullname='Benjamin Schwartz'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bishop' fullname='Mike Bishop'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nygren' fullname='Erik Nygren'>
+    <organization />
+</author>
+
+<date month='June' day='11' year='2020' />
+
+<abstract><t>This document specifies the "SVCB" and "HTTPSSVC" DNS resource record types to facilitate the lookup of information needed to make connections for origin resources, such as for HTTPS URLs.  SVCB records allow an origin to be served from multiple network locations, each with associated parameters (such as transport protocol configuration and keys for encrypting the TLS ClientHello).  They also enable aliasing of apex domains, which is not possible with CNAME.  The HTTPSSVC DNS RR is a variation of SVCB for HTTPS and HTTP origins.  By providing more information to the client before it attempts to establish a connection, these records offer potential benefits to both performance and privacy.  TO BE REMOVED: This proposal is inspired by and based on recent DNS usage proposals such as ALTSVC, ANAME, and ESNIKEYS (as well as long standing desires to have SRV or a functional equivalent implemented for HTTP).  These proposals each provide an important function but are potentially incompatible with each other, such as when an origin is load-balanced across multiple hosting providers (multi-CDN). Furthermore, these each add potential cases for adding additional record lookups in addition to AAAA/A lookups.  This design attempts to provide a unified framework that encompasses the key functionality of these proposals, as well as providing some extensibility for addressing similar future challenges.  TO BE REMOVED: The specific name for this RR type is an open topic for discussion.  "SVCB" and "HTTPSSVC" are meant as placeholders as they are easy to replace.  Other names might include "B", "SRV2", "SVCHTTPS", "HTTPS", and "ALTSVC".  TO BE REMOVED: This document is being collaborated on in Github at: https://github.com/MikeBishop/dns-alt-svc [1].  The most recent working version of the document, open issues, etc. should all be available there.  The authors (gratefully) accept pull requests.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-svcb-httpssvc-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-svcb-httpssvc-03.txt' />
+</reference>

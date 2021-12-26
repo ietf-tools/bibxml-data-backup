@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.urien-uta-tls-dtls-security-module'>
+<front>
+<title>TLS and DTLS Security Modules</title>
+
+<author initials='P' surname='Urien' fullname='Pascal Urien'>
+    <organization />
+</author>
+
+<date month='June' day='14' year='2019' />
+
+<abstract><t>Security and trust are very critical topics in the context of the anywhere, anytime, anything internet connectivity. TLS and DTLS are two major IETF protocols widely used to secure IP exchanges. According to CoAP, DTLS is the protocol used by constraint nodes in the Internet of Things (IoT) context.  In this draft we specify an ISO7816 interface for TLS and DTLS secure modules based on ISO7816 secure chips, which are today manufactured per billions every year.  Secure elements are cheap secure microcontrollers whose size is about 25mm2 and whose security is ranked by evaluations typically according to Common Criteria (CC) standards.  The support of TLS and DTLS is based on the EAP-TLS protocol, and the IETF draft "EAP Support in smartcard" describing EAP-TLS support for secure elements. First implementation demonstrates that such low cost security modules are realistic, with a setup time for handshake completion under the second.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-urien-uta-tls-dtls-security-module-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-urien-uta-tls-dtls-security-module-08.txt' />
+</reference>

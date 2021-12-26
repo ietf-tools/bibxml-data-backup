@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7791' target='https://www.rfc-editor.org/info/rfc7791'>
+<front>
+<title>Cloning the IKE Security Association in the Internet Key Exchange Protocol Version 2 (IKEv2)</title>
+<author initials='D.' surname='Migault' fullname='D. Migault' role='editor'><organization /></author>
+<author initials='V.' surname='Smyslov' fullname='V. Smyslov'><organization /></author>
+<date year='2016' month='March' />
+<abstract><t>This document considers a VPN end user establishing an IPsec Security Association (SA) with a Security Gateway using the Internet Key Exchange Protocol version 2 (IKEv2), where at least one of the peers has multiple interfaces or where Security Gateway is a cluster with each node having its own IP address.</t><t>The protocol described allows a peer to clone an IKEv2 SA, where an additional SA is derived from an existing one.  The newly created IKE SA is set without the IKEv2 authentication exchange.  This IKE SA can later be assigned to another interface or moved to another cluster node.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7791'/>
+<seriesInfo name='DOI' value='10.17487/RFC7791'/>
+</reference>

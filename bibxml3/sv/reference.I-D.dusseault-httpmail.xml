@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dusseault-httpmail'>
+<front>
+<title>HTTP Access to Email Stores</title>
+
+<author initials='L' surname='Dusseault' fullname='Lisa Dusseault'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2008' />
+
+<abstract><t>This document proposes a standard format and a standard navigation mechanism so that mail stores can provide interoperable access to mailboxes and messages over HTTP.  Mailbox contents and listings of mailboxes are exposed as Atom Feeds, while messages themselves are downloaded as a document of type message/822.  Each mailbox and each message is assigned an HTTP URL, and if permissions checks are satisfied, each message may be downloaded independently.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dusseault-httpmail-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dusseault-httpmail-00.txt' />
+</reference>

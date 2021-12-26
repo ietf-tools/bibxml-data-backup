@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipping-update-pai'>
+<front>
+<title>Updates to Asserted Identity in the Session Initiation Protocol (SIP)</title>
+
+<author initials='J' surname='Elwell' fullname='John  Elwell'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2008' />
+
+<abstract><t>SIP has a mechanism for conveying the asserted identity of the originator of a request by means of the P-Asserted-Identity header field.  This header field is specified for use in requests using a number of SIP methods, in particular the INVITE method.  However, RFC 3325 does not specify the insertion of this header field by a trusted UAC, does not specify the use of this header field with the SIP UPDATE, MESSAGE or PUBLISH methods, and is unclear on the use of this header field in responses.  This document extends RFC 3325 to cover these situations.  This work is being discussed on the sipping@ietf.org mailing list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipping-update-pai-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipping-update-pai-00.txt' />
+</reference>

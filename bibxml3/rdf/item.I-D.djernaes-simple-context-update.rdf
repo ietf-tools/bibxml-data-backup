@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-djernaes-simple-context-update-00.txt'>
+    <title>"Context updates in BGP", Martin Djernaes</title>
+    <link>http://www.ietf.org/internet-drafts/draft-djernaes-simple-context-update-00.txt</link>
+    <description>Currently BGP protocol can carry reachability information for multiple Address Families (AFI) and Subsequence Address Families (SAFI) using the Multiprotocol Extension[RFC2858], but it is limited to grouping of information based on the AFI/SAFI hierarchy. This document describes a mechanism to group and exchange prefix information based on properties other than just the AFI/ SAFI[RFC2858]. The mechanism is flexible and backwards compatible with the current methods for exchanging prefixes and hence does not require any changes to the the protocol formats. It introduces a new capability that allows two BGP speakers negotiate during the BGP OPEN phase in order to define what each AFI/SAFI means. In other words, the concept of a 'context' is defined and each such 'context' can be mapped to an AFI/SAFI. The context to AFI/SAFI mapping is only relevant to the BGP peers of the BGP session and hence offers great flexibility in how 2 BGP speakers can choose to group and exchange prefix information.</description>
+    <dc:date>2006-10-16T07:00:00-00:00</dc:date>
+</item>

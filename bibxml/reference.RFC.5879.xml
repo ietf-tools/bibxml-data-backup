@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5879' target='https://www.rfc-editor.org/info/rfc5879'>
+<front>
+<title>Heuristics for Detecting ESP-NULL Packets</title>
+<author initials='T.' surname='Kivinen' fullname='T. Kivinen'><organization /></author>
+<author initials='D.' surname='McDonald' fullname='D. McDonald'><organization /></author>
+<date year='2010' month='May' />
+<abstract><t>This document describes a set of heuristics for distinguishing IPsec ESP-NULL (Encapsulating Security Payload without encryption) packets from encrypted ESP packets.  These heuristics can be used on intermediate devices, like traffic analyzers, and deep-inspection engines, to quickly decide whether or not a given packet flow is encrypted, i.e., whether or not it can be inspected.  Use of these heuristics does not require any changes made on existing IPsec hosts that are compliant with RFC 4303.  This document is not an Internet  Standards Track specification; it is published for informational  purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5879'/>
+<seriesInfo name='DOI' value='10.17487/RFC5879'/>
+</reference>

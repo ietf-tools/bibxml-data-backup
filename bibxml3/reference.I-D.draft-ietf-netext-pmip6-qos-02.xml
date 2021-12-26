@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netext-pmip6-qos'>
+<front>
+<title>Quality of Service Option for Proxy Mobile IPv6</title>
+
+<author initials='M' surname='Liebsch' fullname='Marco Liebsch'>
+    <organization />
+</author>
+
+<author initials='P' surname='Seite' fullname='Pierrick Seite'>
+    <organization />
+</author>
+
+<author initials='H' surname='Yokota' fullname='Hidetoshi Yokota'>
+    <organization />
+</author>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>This specification defines a new mobility option that can be used by the mobility entities in the Proxy Mobile IPv6 domain to exchange Quality of Service parameters associated with a subscriber's IP flows.  Using the QoS option, the local mobility anchor and the mobile access gateway can exchange available QoS attributes and associated values.  This enables QoS policing and labeling of packets to enforce QoS differentiation on the path between the local mobility anchor and the mobile access gateway.  Furthermore, making QoS parameters available on the MAG enables mapping these parameters to QoS rules being specific to the access technology which operates below the mobile access gateway.  After such mapping, QoS rules can be enforced on the access technology components, such as an IEEE 802.11e Wireless LAN controller.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netext-pmip6-qos-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netext-pmip6-qos-02.txt' />
+</reference>

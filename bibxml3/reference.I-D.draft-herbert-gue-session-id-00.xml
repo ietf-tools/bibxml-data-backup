@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.herbert-gue-session-id'>
+<front>
+<title>Session Identifier Option for Generic UDP Encapsulation</title>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<date month='May' day='22' year='2015' />
+
+<abstract><t>This specification defines the session identifier option for Generic UDP Encapsulation (GUE). This option allows an encapsulator to identify a logical session to which an encapsulated packet belongs. The session for a packet may refer to the flow or connection of an encapsulated transport protocol, and the session identifier option provides visibility into this at the encapsulation layer. Nodes may use the session identifier option to create and maintain session state for encapsulated flows, and in turn can affect packet processing on the basis of this state.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-herbert-gue-session-id-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-herbert-gue-session-id-00.txt' />
+</reference>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8220' target='https://www.rfc-editor.org/info/rfc8220'>
+<front>
+<title>Protocol Independent Multicast (PIM) over Virtual Private LAN Service (VPLS)</title>
+<author initials='O.' surname='Dornon' fullname='O. Dornon'><organization /></author>
+<author initials='J.' surname='Kotalwar' fullname='J. Kotalwar'><organization /></author>
+<author initials='V.' surname='Hemige' fullname='V. Hemige'><organization /></author>
+<author initials='R.' surname='Qiu' fullname='R. Qiu'><organization /></author>
+<author initials='Z.' surname='Zhang' fullname='Z. Zhang'><organization /></author>
+<date year='2017' month='September' />
+<abstract><t>This document describes the procedures and recommendations for Virtual Private LAN Service (VPLS) Provider Edges (PEs) to facilitate replication of multicast traffic to only certain ports (behind which there are interested Protocol Independent Multicast (PIM) routers and/or Internet Group Management Protocol (IGMP) hosts) via PIM snooping and proxying.</t><t>With PIM snooping, PEs passively listen to certain PIM control messages to build control and forwarding states while transparently flooding those messages.  With PIM proxying, PEs do not flood PIM Join/Prune messages but only generate their own and send them out of certain ports, based on the control states built from downstream Join/Prune messages.  PIM proxying is required when PIM Join suppression is enabled on the Customer Edge (CE) devices and is useful for reducing PIM control traffic in a VPLS domain.</t><t>This document also describes PIM relay, which can be viewed as lightweight proxying, where all downstream Join/Prune messages are simply forwarded out of certain ports and are not flooded, thereby avoiding the triggering of PIM Join suppression on CE devices.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8220'/>
+<seriesInfo name='DOI' value='10.17487/RFC8220'/>
+</reference>

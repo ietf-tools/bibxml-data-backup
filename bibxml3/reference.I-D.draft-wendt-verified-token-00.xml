@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wendt-verified-token'>
+<front>
+<title>Verified Token</title>
+
+<author initials='C' surname='Wendt' fullname='Chris Wendt'>
+    <organization />
+</author>
+
+<date month='October' day='8' year='2015' />
+
+<abstract><t>This memo defines a token format for verifying with non-repudiation the originator of a set of information.  The originator uses a cryptographic signature generally with a key that proves authorization from a trust anchor to prove to a terminating party that the originator is both an authorized sender and the information wasn't altered or modified in transit.  The token incorporates the ability for the originator to assert a application specific but extensible set of information that could include network identity, device identity, realm of origin, and other metadata.  Verification of this information in the telephony world is important for validating telephone calls and the telephone numbers they are presenting and can be utilized as an important tool for combat spoofing of identity and other forms of impersonation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wendt-verified-token-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wendt-verified-token-00.txt' />
+</reference>

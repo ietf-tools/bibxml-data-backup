@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pullen-omcast'>
+<front>
+<title>Overlay Multicast Protocol</title>
+
+<author initials='M' surname='Pullen' fullname='Mark Pullen'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2006' />
+
+<abstract><t>This document defines formats and procedures for middleware that operates at the application layer to provide for transmission of IP multicast over IP networks that do not have network layer multicasting enabled, by means of tunneling IP multicast over IP unicast. This capability is called overlay multicast (OMCAST). While it cannot be as efficient as network layer multicasting, OMCAST allows for transparent support of IP multicast applications. Because the relay agents can cooperate to forward multicast messages in a way modeled after network layer multicast trees, significant reductions in network traffic are possible as compared to parallel transmission by each host to all other participating hosts. However, this protocol only provides mechanisms for the agents to cooperate; it does not prescribe a mechanism for routing messages among the agents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pullen-omcast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pullen-omcast-00.txt' />
+</reference>

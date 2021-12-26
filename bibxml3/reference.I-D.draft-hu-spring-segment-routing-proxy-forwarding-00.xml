@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hu-spring-segment-routing-proxy-forwarding'>
+<front>
+<title>Segment Routing Proxy Forwarding</title>
+
+<author initials='Z' surname='Hu' fullname='Zhibo Hu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Yao' fullname='Junda Yao'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>Segment Routing Traffic Engineering (SR-TE) supports the creation of explicit paths using adjacency-sids, node-sids, and binding-sids.  In the SR-TE path, by providing proxy forwarding to the neighbor nodes of the faulty node, it is ensured that the traffic can reach the neighbor node of the faulty node normally in the case of the SR-TE of the loose path or strict path.  If the failed node is a node that provides the Binding-sids service, the neighbor node can perform the binding-sids forwarding behavior to swap the corresponding label stack through the proxy forwarding of the neighbor node. [I-D.bashandy-rtgwg-segment-routing-ti-lfa] defines the usecase of protecting the node failure of segment list.  This document describes how to implement the proxy forwarding mechanism of a faulty node at the neighbor node of the faulty node on the SR-TE path .</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hu-spring-segment-routing-proxy-forwarding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.atwood-pim-sigmp'>
+<front>
+<title>Secure Internet Group Management Protocol</title>
+
+<author initials='w' surname='william.atwood@concordia.ca' fullname='william.atwood@concordia.ca'>
+    <organization />
+</author>
+
+<author initials='B' surname='Li' fullname='Bing Li'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2013' />
+
+<abstract><t>This document specifies a Secure Internet Group Management Protocol (SIGMP), which is an extension to IGMP to enforce receiver access control for secured multicast groups.  In SIGMP, only the hosts operated by authorized end users are permitted to report their interest in secured groups.  IPsec is used to filter the messages that report or query the interest in secured groups.  SIGMP provides two working modes that are fully compatible with IGMP v2 and IGMP v3 respectively.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-atwood-pim-sigmp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-atwood-pim-sigmp-00.txt' />
+</reference>

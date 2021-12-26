@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.birkholz-yang-core-telemetry'>
+<front>
+<title>Concise YANG Telemetry</title>
+
+<author initials='H' surname='Birkholz' fullname='Henk Birkholz'>
+    <organization />
+</author>
+
+<author initials='E' surname='Voit' fullname='Eric Voit'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2018' />
+
+<abstract><t>This document defines CoAP operations that implement the capabilities of YANG Datastore Subscriptions and YANG Customized Subscriptions for the CoAP Management Interface (CoMI).  The '/s' resource, as defined in CoMI, is extended analogously to include a set of sub-resources, each of them representing an observable resource identified by its subscription-id.  Specific additions include but are not limited to new FETCH Body definitions and simplified subtree subscriptions to intermediate data nodes in YANG datastore modules using SID.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-birkholz-yang-core-telemetry-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-birkholz-yang-core-telemetry-00.txt' />
+</reference>

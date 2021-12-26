@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8723' target='https://www.rfc-editor.org/info/rfc8723'>
+<front>
+<title>Double Encryption Procedures for the Secure Real-Time Transport Protocol (SRTP)</title>
+<author initials='C.' surname='Jennings' fullname='C. Jennings'><organization /></author>
+<author initials='P.' surname='Jones' fullname='P. Jones'><organization /></author>
+<author initials='R.' surname='Barnes' fullname='R. Barnes'><organization /></author>
+<author initials='A.B.' surname='Roach' fullname='A.B. Roach'><organization /></author>
+<date year='2020' month='April' />
+<abstract><t>In some conferencing scenarios, it is desirable for an intermediary to be able to manipulate some parameters in Real-time Transport Protocol (RTP) packets, while still providing strong end-to-end security guarantees. This document defines a cryptographic transform for the Secure Real-time Transport Protocol (SRTP) that uses two separate but related cryptographic operations to provide hop-by-hop and end-to-end security guarantees.  Both the end-to-end and hop-by-hop cryptographic algorithms can utilize an authenticated encryption with associated data (AEAD) algorithm or take advantage of future SRTP transforms with different properties.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8723'/>
+<seriesInfo name='DOI' value='10.17487/RFC8723'/>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hao-trill-centralized-replication'>
+<front>
+<title>Centralized Replication for BUM traffic in active-active edge connection</title>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='T' surname='Han' fullname='Tao Han'>
+    <organization />
+</author>
+
+<date month='December' day='10' year='2013' />
+
+<abstract><t>In TRILL active-active access scenario, RPF check failure issue may occur when pseduonode nickname mechanism in [TRILLPN] is used. This draft is to solve RPF check failure issue through centralized replication for BUM traffic solution. The basic idea is that all ingress RBs send BUM traffic to a centralized node through unicast TRILL encapsulation, the centralized node decapsulates the unicast TRILL packet. Then the centralized node searches its multicast forwarding table to replicates a copy of the BUM traffic to destination RBs through TRILL unicast encapsulation. Through centralized replication solution, only unicast forwarding behavior is required between edge RB and centralized RB, so no RPF check function is required on any device in TRILL campus through centralized replication solution and no RPF check failure issue occurs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hao-trill-centralized-replication-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hao-trill-centralized-replication-00.txt' />
+</reference>

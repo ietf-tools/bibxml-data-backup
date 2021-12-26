@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.parecki-oauth-browser-based-apps'>
+<front>
+<title>OAuth 2.0 for Browser-Based Apps</title>
+
+<author initials='A' surname='Parecki' fullname='Aaron Parecki'>
+    <organization />
+</author>
+
+<author initials='D' surname='Waite' fullname='David Waite'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2018' />
+
+<abstract><t>OAuth 2.0 authorization requests from apps running entirely in a browser are unable to use a Client Secret during the process, since they have no way to keep a secret confidential.  This specification details the security considerations that must be taken into account when developing browser-based applications, as well as best practices for how they can securely implement OAuth 2.0.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-parecki-oauth-browser-based-apps-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-parecki-oauth-browser-based-apps-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.contreras-sdnrg-layered-sdn'>
+<front>
+<title>Cooperating Layered Architecture for SDN</title>
+
+<author initials='L' surname='Contreras' fullname='Luis Contreras'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bernardos' fullname='Carlos Bernardos'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lopez' fullname='Diego Lopez'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='P' surname='Iovanna' fullname='Paola Iovanna'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>Software Defined Networking proposes the separation of the control plane from the data plane in the network nodes and its logical centralization on a control entity.  Most of the network intelligence is moved to this functional entity.  Typically, such entity is seen as a compendium of interacting control functions in a vertical, tight integrated fashion.  The relocation of the control functions from a number of distributed network nodes to a logical central entity conceptually places together a number of control capabilities with different purposes.  As a consequence, the existing solutions do not provide a clear separation between transport control and services that relies upon transport capabilities.  This document describes a proposal named Cooperating Layered Architecture for SDN.  The idea behind that is to differentiate the control functions associated to transport from those related to services, in such a way that they can be provided and maintained independently, and can follow their own evolution path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-contreras-sdnrg-layered-sdn-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-contreras-sdnrg-layered-sdn-03.txt' />
+</reference>

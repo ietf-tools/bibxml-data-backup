@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6lowpan-nd'>
+<front>
+<title>6LoWPAN Neighbor Discovery</title>
+
+<author initials='Z' surname='Shelby' fullname='Zach Shelby'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hui' fullname='Jonathan Hui'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chakrabarti' fullname='Samita Chakrabarti'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>This document specifies an extension of Neighbor Discovery for 6LoWPAN.  The 6LoWPAN format allows IPv6 to be used over energy and bandwidth constrained wireless networks often making use of multihop topologies.  However, the use of classic IPv6 Neighbor Discovery with 6LoWPAN has several problems.  Classic Neighbor Discovery was not designed for non-transitive wireless links, and the traditional IPv6 link concept and heavy use of multicast makes it unpractical.  This document specifies an ND mechanism both sufficient for minimal for LoWPAN operation which optimizes Neighbor Discovery.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6lowpan-nd-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6lowpan-nd-07.txt' />
+</reference>

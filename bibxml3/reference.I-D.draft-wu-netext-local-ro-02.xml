@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-netext-local-ro'>
+<front>
+<title>Proxy MIP extension for local routing optimization</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet  Sarikaya'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2009' />
+
+<abstract><t>This document extends local routing in proxy Mobile IPv6 and defines a simplified localized routing optimization protocol within one PMIPv6 domain. The protocol supports IPv4 transport network operation, IPv4 home address mobility and handover. The Local mobility anchor/mobile access gateway initiates local routing for the mobile and correspondent node by sending messages to each mobile access gateway/local mobility anchor. In case the correspondent node is connected to another local mobility anchor, the local mobility anchors connected by the correspondent node needs to be discovered firstly so that it can notify its mobile access gateways to the mobile access gateway attached by the mobile node afterwards. Mobile access gateways create and refresh bindings using proxy binding update and acknowledgement messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-netext-local-ro-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-netext-local-ro-02.txt' />
+</reference>

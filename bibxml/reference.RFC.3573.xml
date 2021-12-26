@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3573' target='https://www.rfc-editor.org/info/rfc3573'>
+<front>
+<title>Signalling of Modem-On-Hold status in Layer 2 Tunneling Protocol (L2TP)</title>
+<author initials='I.' surname='Goyret' fullname='I. Goyret'><organization /></author>
+<date year='2003' month='July' />
+<abstract><t>The Layer 2 Tunneling Protocol (L2TP) defines a mechanism for tunneling Point-to-Point Protocol (PPP) sessions.  It is common for these PPP sessions to be established using modems connected over the public switched telephone network. One of the standards governing modem operation defines procedures that enable a client modem to put the call on hold and later, re-establish the modem link with minimal delay and without having to redial.  While the modem call is on hold, the client phone line can be used to place or receive other calls. The L2TP base protocol does not provide any means to signal these events from the L2TP Access Controller (LAC), where the modem is physically connected, to the L2TP Network Server (LNS), where the PPP session is handled. This document describes a method to let the LNS know when a client modem connected to a LAC has placed the call on hold.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3573'/>
+<seriesInfo name='DOI' value='10.17487/RFC3573'/>
+</reference>

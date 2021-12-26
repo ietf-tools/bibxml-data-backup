@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moreau-pkix-takrem'>
+<front>
+<title>Trust Anchor Key Renewal Method Applied to X.509 Self-signed Certificates  (TAKREM-X.509)</title>
+
+<author initials='T' surname='Moreau' fullname='Thierry Moreau'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2005' />
+
+<abstract><t>In the Internet PKI, trust anchor keys are distributed as self- signed X.509 security certificates. This document specifies a trust anchor key renewal mechanism that leverages the confidence in the initial certificate distribution. A non-critical X.509 certificate extension holds a sequence of opaque octet strings. The trust anchor renewal operation occurs upon receipt of a message that hashes to one of those octet strings.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moreau-pkix-takrem-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moreau-pkix-takrem-01.txt' />
+</reference>

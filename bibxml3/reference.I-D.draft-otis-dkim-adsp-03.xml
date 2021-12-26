@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.otis-dkim-adsp'>
+<front>
+<title>DKIM Author Domain Signing Practices (ADSP)</title>
+
+<author initials='A' surname='Address' fullname='Author Address'>
+    <organization />
+</author>
+
+<author initials='D' surname='Otis' fullname='Douglas Otis'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2008' />
+
+<abstract><t>DomainKeys Identified Mail (DKIM) as described in [RFC4871], defines a domain-level authentication framework for email to permit verification of the source and contents of messages.  This document specifies an adjunct mechanism to aid in assessing messages lacking valid DKIM signatures for domains used in the author's address.  It defines a record that can advertise the extent that a domain signs outgoing mail publicly exchanged on SMTP port 25, as described in [RFC2821], and how other hosts can access those records. Advertisements defined by this document may also increase DKIM signature expectations for messages received by Mail User Agents (MUAs) or for messages which might have been exchanged over protocols other than SMTP.  In some circumstances, author domains may wish to have accommodations for protocol failures or for mixed public protocol messaging not made.  In addition, DKIM's identity parameters related to the author address are decisive only when a corresponding DKIM key local-part template precludes an author address.  DKIM in conjunction with ADSP is to provide methods for detecting the spoofing of known domains, but not for making assertions about the identity of the message author.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-otis-dkim-adsp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-otis-dkim-adsp-03.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thubert-roll-eliding-dio-information'>
+<front>
+<title>Eliding and Querying RPL Information</title>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='R' surname='Jadhav' fullname='Rahul Jadhav'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhao' fullname='Li Zhao'>
+    <organization />
+</author>
+
+<author initials='D' surname='Barthel' fullname='Dominique Barthel'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2019' />
+
+<abstract><t>This document presents a method to safely elide a group of RPL options in a DIO message by synchronizing the state associated with each of these options between parent and child using a new sequence counter in DIO messages.  A child that missed a DIO message with an update of any of those protected options detects it by the change of sequence counter and queries the update with a DIS Message.  The draft also provides a method to fully elide the options in a DAO message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thubert-roll-eliding-dio-information-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thubert-roll-eliding-dio-information-03.txt' />
+</reference>

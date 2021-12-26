@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8033' target='https://www.rfc-editor.org/info/rfc8033'>
+<front>
+<title>Proportional Integral Controller Enhanced (PIE): A Lightweight Control Scheme to Address the Bufferbloat Problem</title>
+<author initials='R.' surname='Pan' fullname='R. Pan'><organization /></author>
+<author initials='P.' surname='Natarajan' fullname='P. Natarajan'><organization /></author>
+<author initials='F.' surname='Baker' fullname='F. Baker'><organization /></author>
+<author initials='G.' surname='White' fullname='G. White'><organization /></author>
+<date year='2017' month='February' />
+<abstract><t>Bufferbloat is a phenomenon in which excess buffers in the network cause high latency and latency variation.  As more and more interactive applications (e.g., voice over IP, real-time video streaming, and financial transactions) run in the Internet, high latency and latency variation degrade application performance.  There is a pressing need to design intelligent queue management schemes that can control latency and latency variation, and hence provide desirable quality of service to users.</t><t>This document presents a lightweight active queue management design called &quot;PIE&quot; (Proportional Integral controller Enhanced) that can effectively control the average queuing latency to a target value. Simulation results, theoretical analysis, and Linux testbed results have shown that PIE can ensure low latency and achieve high link utilization under various congestion situations.  The design does not require per-packet timestamps, so it incurs very little overhead and is simple enough to implement in both hardware and software.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8033'/>
+<seriesInfo name='DOI' value='10.17487/RFC8033'/>
+</reference>

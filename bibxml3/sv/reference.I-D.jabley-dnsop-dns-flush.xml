@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jabley-dnsop-dns-flush'>
+<front>
+<title>A Mechanism for Remote-Triggered DNS Cache Flushes (DNS FLUSH)</title>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<date month='June' day='24' year='2013' />
+
+<abstract><t>DNS NOTIFY is a mechanism for prompt notification of zone changes between DNS authority servers that is usually employed to trigger immediate zone transfers.  This document specifies an additional use of DNS NOTIFY to allow DNS authority servers to trigger cache flushes on recursive DNS servers. Such signalling is authenticated and is intended for use between cooperating DNS server operators.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jabley-dnsop-dns-flush-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jabley-dnsop-dns-flush-00.txt' />
+</reference>

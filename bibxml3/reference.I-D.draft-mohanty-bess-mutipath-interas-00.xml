@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mohanty-bess-mutipath-interas'>
+<front>
+<title>BGP Multipath in Inter-AS Option-B</title>
+
+<author initials='s' surname='satyamoh@cisco.com' fullname='satyamoh@cisco.com'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sreekantiah' fullname='Arjun Sreekantiah'>
+    <organization />
+</author>
+
+<author initials='D' surname='Rao' fullname='Dhananjaya Rao'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2017' />
+
+<abstract><t>By default, The Border Gateway Protocol, BGP only installs the best- path to the IP Routing Table.  BGP multi-path is a well known feature that enables installation of multiple paths to the IP Routing Table. This is done to achieve load balancing while forwarding traffic.  For a path to be eligible as a multi-path, certain criteria need to be fulfilled.  Inter-AS VPNs are commonly deployed to span organizations across Service Provider boundaries.  In this draft, we describe an issue relating to multi-path load balancing that can arise in an Option B Inter-AS Deployment.  With the help of a representative topology, we illustrate the problem and then present two simple schemes as the solution to the problem.  We also note as a matter of independent interest that the same underlying issue is applicable to deployments that employ next-hop-self behavior (implicit or explicit) downstream and the multi-path feature upstream.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mohanty-bess-mutipath-interas-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mohanty-bess-mutipath-interas-00.txt' />
+</reference>

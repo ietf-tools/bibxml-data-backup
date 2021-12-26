@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shytyi-v6ops-danir'>
+<front>
+<title>DHCPv6_PD, PDP and NDP Implementation in IoT Router (DANIR)</title>
+
+<author initials='D' surname='Shytyi' fullname='Dmytro Shytyi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Petrescu' fullname='Alexandre Petrescu'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>This document provides a description of the implementation of Dynamic Host Configuration Protocol version 6 Prefix Delegation, Neighbour Discovery Protocol and of the use of the Packet Data Protocol in an Internet of Things Router.  This Internet of Things Router is connected on a cellular network; it is a DHCPv6-PD Client and it requests a /56 pool of prefixes from the server; the DHCPv6-PD server is placed in the PGW and is a part of the cellular infrastructure. After the pool of prefixes is delegated, the Internet of Things Router derives sub-prefixes from the prefix pool; each one of these sub-prefixes is aimed at one ingress interface.  After the Internet of Things Router finishes the network prefix assignment procedure, it advertises the network prefixes on the ingress links by using the Neighbour Discovery protocol.  Finally, when Hosts receive the sub-prefixes via Router Adverticement messages, they configure the Global Unique Address with the Stateless Address Auto-configuration protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shytyi-v6ops-danir-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shytyi-v6ops-danir-00.txt' />
+</reference>

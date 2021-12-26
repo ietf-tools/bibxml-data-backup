@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7343' target='https://www.rfc-editor.org/info/rfc7343'>
+<front>
+<title>An IPv6 Prefix for Overlay Routable Cryptographic Hash Identifiers Version 2 (ORCHIDv2)</title>
+<author initials='J.' surname='Laganier' fullname='J. Laganier'><organization /></author>
+<author initials='F.' surname='Dupont' fullname='F. Dupont'><organization /></author>
+<date year='2014' month='September' />
+<abstract><t>This document specifies an updated Overlay Routable Cryptographic Hash Identifiers (ORCHID) format that obsoletes that in RFC 4843. These identifiers are intended to be used as endpoint identifiers at applications and Application Programming Interfaces (APIs) and not as identifiers for network location at the IP layer, i.e., locators. They are designed to appear as application-layer entities and at the existing IPv6 APIs, but they should not appear in actual IPv6 headers.  To make them more like regular IPv6 addresses, they are expected to be routable at an overlay level.  Consequently, while they are considered non-routable addresses from the IPv6-layer perspective, all existing IPv6 applications are expected to be able to use them in a manner compatible with current IPv6 addresses.</t><t>The Overlay Routable Cryptographic Hash Identifiers originally defined in RFC 4843 lacked a mechanism for cryptographic algorithm agility.  The updated ORCHID format specified in this document removes this limitation by encoding, in the identifier itself, an index to the suite of cryptographic algorithms in use.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7343'/>
+<seriesInfo name='DOI' value='10.17487/RFC7343'/>
+</reference>

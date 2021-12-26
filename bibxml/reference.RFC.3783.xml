@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3783' target='https://www.rfc-editor.org/info/rfc3783'>
+<front>
+<title>Small Computer Systems Interface (SCSI) Command Ordering Considerations with iSCSI</title>
+<author initials='M.' surname='Chadalapaka' fullname='M. Chadalapaka'><organization /></author>
+<author initials='R.' surname='Elliott' fullname='R. Elliott'><organization /></author>
+<date year='2004' month='May' />
+<abstract><t>Internet Small Computer Systems Interface (iSCSI) is a Small Computer Systems Interface (SCSI) transport protocol designed to run on top of TCP.  The iSCSI session abstraction is equivalent to the classic SCSI &quot;I_T nexus&quot;, which represents the logical relationship between an Initiator and a Target (I and T) required in order to communicate via the SCSI family of protocols.  The iSCSI session provides an ordered command delivery from the SCSI initiator to the SCSI target.  This document goes into the design considerations that led to the iSCSI session model as it is defined today, relates the SCSI command ordering features defined in T10 specifications to the iSCSI concepts, and finally provides guidance to system designers on how true command ordering solutions can be built based on iSCSI.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3783'/>
+<seriesInfo name='DOI' value='10.17487/RFC3783'/>
+</reference>

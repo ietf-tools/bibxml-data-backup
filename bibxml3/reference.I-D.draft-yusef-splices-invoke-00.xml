@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yusef-splices-invoke'>
+<front>
+<title>The Session Initiation Protocol (SIP) INVOKE Method</title>
+
+<author initials='R' surname='Shekh-Yusef' fullname='Rifaat Shekh-Yusef'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<author initials='A' surname='Johnston' fullname='Alan Johnston'>
+    <organization />
+</author>
+
+<author initials='F' surname='Audet' fullname='Francois Audet'>
+    <organization />
+</author>
+
+<date month='May' day='17' year='2011' />
+
+<abstract><t>This document defines the INVOKE method, which describes a mechanism by which a UA can invoke a well-defined action on a remote UA.  These actions are represented by well-defined URNs that must be registered with IANA.  It also provides a mechanism that allows the INVOKE issuer to be notified of the outcome of the invoked action. Furthermore, It allows the INVOKE issuer to keep the dialog established with the INVOKE recipient open, to allow both sides to exchange application specific information.  This document also defines the 'invoke' event package and the Action, Subscribe-Type and Action-Progress request headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yusef-splices-invoke-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yusef-splices-invoke-00.txt' />
+</reference>

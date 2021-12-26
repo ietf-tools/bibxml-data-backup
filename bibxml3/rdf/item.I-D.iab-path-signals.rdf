@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-iab-path-signals-03.txt'>
+    <title>"Transport Protocol Path Signals", Ted Hardie</title>
+    <link>http://www.ietf.org/internet-drafts/draft-iab-path-signals-03.txt</link>
+    <description>This document discusses the nature of signals seen by on-path elements examining transport protocols, contrasting implicit and explicit signals.  For example, TCP's state mechanics uses a series of well-known messages that are exchanged in the clear.  Because these are visible to network elements on the path between the two nodes setting up the transport connection, they are often used as signals by those network elements.  In transports that do not exchange these messages in the clear, on-path network elements lack those signals.  Often, the removal of those signals is intended by those moving the messages to confidential channels.  Where the endpoints desire that network elements along the path receive these signals, this document recommends explicit signals be used.</description>
+    <dc:date>2019-01-08T08:00:00-00:00</dc:date>
+</item>

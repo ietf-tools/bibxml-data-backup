@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-btns-connection-latching-11.txt'>
+    <title>"IPsec Channels: Connection Latching", Nicolas Williams</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-btns-connection-latching-11.txt</link>
+    <description>This document specifies, abstractly, how to interface applications and transport protocols with IPsec so as to create "channels" by latching "connections" (packet flows) to certain IPsec Security Association (SA) parameters for the lifetime of the connections. Connection latching is layered on top of IPsec and does not modify the underlying IPsec architecture.  Connection latching can be used to protect applications against accidentally exposing live packet flows to unintended peers, whether as the result of a reconfiguration of IPsec or as the result of using weak peer identity to peer address associations.  Weak association of peer ID and peer addresses is at the core of Better Than Nothing Security (BTNS), thus connection latching can add a significant measure of protection to BTNS IPsec nodes.  Finally, the availability of IPsec channels will make it possible to use channel binding to IPsec channels.</description>
+    <dc:date>2009-08-12T22:00:00-00:00</dc:date>
+</item>

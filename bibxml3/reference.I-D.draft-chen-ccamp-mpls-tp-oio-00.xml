@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-ccamp-mpls-tp-oio'>
+<front>
+<title>Multi-Protocol Label Switching Transport Profile (MPLS-TP) Operator Identifier Object</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zheng' fullname='Lianshu Zheng'>
+    <organization />
+</author>
+
+<date month='May' day='13' year='2011' />
+
+<abstract><t>Two formats of Operator Identifier (Opr_ID) are specified in Multi- Protocol Label Switching Transport Profile (MPLS-TP) networks, to uniquely identify an operator.  One is Global Identifier (Global_ID), the other is ITU Carrier Code (ICC).  In MPLS-TP networks, Opr_ID as part of the global identifier of an MPLS-TP LSP may be required to be carried in the Path message when setting up the LSP.  This document defines two types of Operator Identifier Object: Global_ID Object and ICC Object, which could be carried in the Path message to comunicate the Operator Identifiers (Opr_IDs) that the two ends of an LSP in use.  At the same time, it makes sure all the nodes that the LSP traverses to use the same format of Opr_ID.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-ccamp-mpls-tp-oio-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-ccamp-mpls-tp-oio-00.txt' />
+</reference>

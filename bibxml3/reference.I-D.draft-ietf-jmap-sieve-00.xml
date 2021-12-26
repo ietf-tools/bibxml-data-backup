@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-jmap-sieve'>
+<front>
+<title>JMAP for Sieve Scripts</title>
+
+<author initials='K' surname='Murchison' fullname='Kenneth Murchison'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2020' />
+
+<abstract><t>This document specifies a data model for managing Sieve scripts on a server using JMAP.  Open Issues  o  Do we need/want both "content" and "blobId" in the SieveScript object?  It may be simpler to have just one way of specifying content and "blobId" is more versatile and doesn't require JSON- encoding of the content.  Furthermore, use of the forthcoming(?) Blob/set method would avoid the extra roundtrip of having to upload the blob first.  o  Should changes made by onSuccessActivateScript be reported in the response to the client-initiated request, or via a second implicit SIeveScript/set response?  o  The strawman for SieveScript/test only uses blobIds.  Will this have to change once the issue regarding content/blobId in SieveScript is resolved?</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-jmap-sieve-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-jmap-sieve-00.txt' />
+</reference>

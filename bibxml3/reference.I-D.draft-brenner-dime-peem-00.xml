@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.brenner-dime-peem'>
+<front>
+<title>Diameter Policy Processing Application</title>
+
+<author initials='M' surname='Brenner' fullname='Michael Brenner'>
+    <organization />
+</author>
+
+<date month='December' day='15' year='2007' />
+
+<abstract><t>This document describes the Diameter protocol application used for invocation of Policy Processing (Policy Evaluation, or Evaluation and Enforcement). This application is needed as one of the implementations of the Open Mobile Aliance (OMA) Policy Evaluation, Enforcement and Management (PEEM) enabler, namely for the PEM-1 interface used to send a request/responses for Policy Processing. When combined with the Diameter Base protocol, this application specification satisfies the OMA PEEM requirements for sending a request for policy processing and receiving a response with the policy processing result. The Diameter realization of this application assumes the use of Diameter Base protocol, as per RFC 3588, and extends it only for the with an application using a vendor-id, a vendor-specific application ID, a new Command Code, and a new AVP defined in the vendor-specific namespace. Input to policy processing are being passed through a new AVP, and policy results are being passed through a combination of the same new AVP, and the Experimental-Result AVP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-brenner-dime-peem-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-brenner-dime-peem-00.txt' />
+</reference>

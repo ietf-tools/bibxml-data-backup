@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lwig-ikev2-minimal'>
+<front>
+<title>Minimal IKEv2</title>
+
+<author initials='T' surname='Kivinen' fullname='Tero Kivinen'>
+    <organization />
+</author>
+
+<date month='April' day='11' year='2013' />
+
+<abstract><t>This document describes minimal version of the Internet Key Exchange version 2 (IKEv2) protocol.  IKEv2 is a component of IPsec used for performing mutual authentication and establishing and maintaining Security Associations (SAs).  IKEv2 includes several optional features, which are not needed in minimal implementations.  This document describes what is required from the minimal implementation, and also describes various optimizations which can be done.  The protocol described here is compliant with full IKEv2 with exception that this document only describes shared secret authentication (IKEv2 requires support for certificate authentication in addition to shared secret authentication).  This document does not update or modify RFC 5996, but provides more compact description of the minimal version of the protocol.  If this document and RFC 5996 conflicts then RFC 5996 is the authoritative description.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lwig-ikev2-minimal-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lwig-ikev2-minimal-00.txt' />
+</reference>

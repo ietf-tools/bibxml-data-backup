@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.narten-nvo3-overlay-problem-statement'>
+<front>
+<title>Problem Statement: Overlays for Network Virtualization</title>
+
+<author initials='T' surname='Narten' fullname='Thomas Narten'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sridhavan' fullname='Murari Sridhavan'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dutt' fullname='Dinesh Dutt'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<author initials='L' surname='Kreeger' fullname='Lawrence Kreeger'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>This document describes issues associated with providing multi- tenancy in large data center networks and an overlay-based network virtualization approach to addressing them.  A key multi-tenancy requirement is traffic isolation, so that a tenant's traffic is not visible to any other tenant.  This isolation can be achieved by assigning one or more virtual networks to each tenant such that traffic within a virtual network is isolated from traffic in other virtual networks.  The primary functionality required is provisioning virtual networks, associating a virtual machine's virtual network interface(s) with the appropriate virtual network, and maintaining that association as the virtual machine is activated, migrated and/or deactivated.  Use of an overlay-based approach enables scalable deployment on large network infrastructures.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-narten-nvo3-overlay-problem-statement-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-narten-nvo3-overlay-problem-statement-03.txt' />
+</reference>

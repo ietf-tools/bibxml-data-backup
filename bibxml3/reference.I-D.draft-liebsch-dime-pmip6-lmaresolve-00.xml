@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liebsch-dime-pmip6-lmaresolve'>
+<front>
+<title>Local Mobility Anchor Resolution for PMIPv6</title>
+
+<author initials='M' surname='Liebsch' fullname='Marco Liebsch'>
+    <organization />
+</author>
+
+<author initials='P' surname='Loureiro' fullname='Paulo Loureiro'>
+    <organization />
+</author>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>The IETF is specifying a new Diameter Application to support mobility service authorization and home network prefix allocation for Proxy Mobile IPv6.  The protocol operates between a Local Mobility Anchor and a AAA server.  Furthermore, the associated specification extends the existing protocol for network access service to support dynamic assignment and discovery of a Local Mobility Anchor during the authentication procedure.  The AAA server maintains mobile nodes' profile in a policy store, which includes information about the assigned Local Mobility Anchor as well as the home network prefix. This document proposes an extension to the Diameter PMIPv6 Application to allow Local Mobility Anchors benefit from the AAA server's policy store and resolve an unknown mobile node's IP address into a routable address of its assigned Local Mobility Anchor.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liebsch-dime-pmip6-lmaresolve-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liebsch-dime-pmip6-lmaresolve-00.txt' />
+</reference>

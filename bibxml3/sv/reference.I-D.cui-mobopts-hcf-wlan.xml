@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cui-mobopts-hcf-wlan'>
+<front>
+<title>Handover Control Function Based Handover for Mobile IPv6</title>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2005' />
+
+<abstract><t>This document propose a scheme to support MIP6 deployment based on Wireless LAN by extending HMIPv6. The HCF (Handover Control Function) described in this document should record all APs's MAC address, backend AR's address and network prefix of those APs. All MNs will periodically report all AP's MAC address and signal strength information to HCF which MN can probe, then HCF should decide whether or which AP MN shall associate with and notify MN about the new AP/ AR's information, meanwhile, a bi-cast mechanism shall be applied to further improve handover performance by reducing the packet loss during handover. This mechanism can be used in the nationwide university Wireless LAN based MIP6 network deployment to support VoIP and Video Telephony.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cui-mobopts-hcf-wlan-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cui-mobopts-hcf-wlan-00.txt' />
+</reference>

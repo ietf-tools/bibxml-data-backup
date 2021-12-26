@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ali-mpls-inter-domain-p2mp-rsvp-te-lsp'>
+<front>
+<title>Signaling RSVP-TE P2MP LSPs in an Inter-domain Environment</title>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>Point-to-MultiPoint (P2MP) Multiprotocol Label Switching  (MPLS) and Generalized  MPLS (GMPLS) Traffic Engineering Label  Switched Paths (TE LSPs) may be established using signaling  techniques described in [RFC4875]. However, [RFC4875] does not  Expires May 2009  [page 1]  Internet-Draft draft-ali-mpls-inter-domain-p2mp-rsvp-te-lsp-01.txt  address many issues that comes when a P2MP-TE LSP is signaled in  a multi-domain networks. Specifically, one of the issues in  multi-domain networks is how to allow computation of a loosely  routed P2MP-TE LSP such that it is remerge free. This document  provides a framework and required protocol extensions needed for  establishing and controlling P2MP MPLS and GMPLS TE LSPs in  multi-domain networks.  This document borrows inter-domain TE terminology from  [RFC4726], e.g., for the purposes of this document, a domain  is considered to be any collection of network elements within  a common sphere of address management or path computational  responsibility.  Examples of such domains include Interior  Gateway Protocol (IGP) areas and Autonomous Systems (ASes).  Conventions used in this document  In examples, "C:" and "S:" indicate lines sent by the client and  server respectively.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ali-mpls-inter-domain-p2mp-rsvp-te-lsp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ali-mpls-inter-domain-p2mp-rsvp-te-lsp-01.txt' />
+</reference>

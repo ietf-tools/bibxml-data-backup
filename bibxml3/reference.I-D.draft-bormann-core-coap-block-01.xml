@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-core-coap-block'>
+<front>
+<title>Sliced transfers in CoAP</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2010' />
+
+<abstract><t>CoAP is a RESTful transfer protocol for constrained nodes and networks.  CoAP is based on datagram transport, which limits the maximum size of resource representations that can be transferred without too much fragmentation.  A previous version of this draft defined the Block option.  The Block option provides a minimal way to transfer larger representations in a block-wise fashion.  It is currently documented in the WG draft draft-ietf-core-block-00.txt  This short I-D attempts to pick up some recent discussion on the CoRE mailing list, and defines a more general, but also slightly more complex approach.  It is intended as an example for a complete design based on this discussion, to enable a rational assessment of the relative complexities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-core-coap-block-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-core-coap-block-01.txt' />
+</reference>

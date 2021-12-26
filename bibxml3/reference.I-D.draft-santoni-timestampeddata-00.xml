@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.santoni-timestampeddata'>
+<front>
+<title>Syntax for binding documents with time stamps</title>
+
+<author initials='A' surname='Santoni' fullname='Adriano Santoni'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2007' />
+
+<abstract><t>This document describes a syntax which can be used to bind a generic document (or any set of data, not necessarily protected by means of cryptographic techniques) to one or more time-stamp tokens obtained for that document, where "time-stamp token" has the meaning defined in [TSP]. Whereas digital time stamping has become the standard technique for proving the existence of a document before a certain point in time, there is not a generally accepted syntax for keeping together one document and the associated time-stamps in a single "bundle". Such a syntax would facilitate keeping track of which time-stamps belong to what documents and would therefore improve the efficiency of timestamp-aware applications. This document proposes a simple syntax based on [CMS], by defining a new contentType.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-santoni-timestampeddata-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-santoni-timestampeddata-00.txt' />
+</reference>

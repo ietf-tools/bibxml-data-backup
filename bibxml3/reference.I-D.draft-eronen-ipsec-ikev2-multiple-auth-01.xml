@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eronen-ipsec-ikev2-multiple-auth'>
+<front>
+<title>Multiple Authentication Exchanges in IKEv2</title>
+
+<author initials='P' surname='Eronen' fullname='Pasi Eronen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2006' />
+
+<abstract><t>IKEv2 supports several mechanisms for authenticating the parties, including signatures with public-key certificates, shared secrets, and Extensible Authentication Protocol (EAP) methods. Currently, each endpoint uses only one of these mechanisms to authenticate itself. This document specifies an extension to IKEv2 that allows the use of multiple authentication exchanges, either using different mechanisms or the same mechanism. This extension allows, for instance, performing certificate-based authentication of the client host followed by an EAP authentication of the user. When backend authentication servers are used, they can belong to different administrative domains, such as the network access provider and the service provider.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eronen-ipsec-ikev2-multiple-auth-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eronen-ipsec-ikev2-multiple-auth-01.txt' />
+</reference>

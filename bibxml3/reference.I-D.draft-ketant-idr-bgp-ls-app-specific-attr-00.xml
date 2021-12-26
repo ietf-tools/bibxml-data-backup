@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ketant-idr-bgp-ls-app-specific-attr'>
+<front>
+<title>Application Specific Attributes Advertisement with BGP Link-State</title>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<date month='July' day='23' year='2018' />
+
+<abstract><t>Various link attributes have been defined in link-state routing protocols like OSPF and IS-IS in the context of the MPLS Traffic Engineering (TE) and GMPLS.  BGP Link-State (BGP-LS) extensions have been defined to distribute these attributes along with other topology information from these link-state routing protocols.  Many of these link attributes can be used for applications other than MPLS TE or GMPLS.  Extensions to link-state routing protocols have been defined for such link attributes which enable distribution of their application specific values.  This document defines extensions to BGP-LS address- family to enable advertisement of these application specific attributes as a part of the topology information from the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ketant-idr-bgp-ls-app-specific-attr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ketant-idr-bgp-ls-app-specific-attr-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-tcp-soft-errors'>
+<front>
+<title>TCP's Reaction to Soft Errors</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='April' day='4' year='2007' />
+
+<abstract><t>This document describes a non-standard, but widely implemented, modification to TCP's handling of ICMP soft error messages received in any of the non-synchronized states, that rejects connections experiencing those errors immediately. This behavior reduces the likelihood of long delays between connection establishment attempts that may arise in a number of scenarios, including one in which dual stack nodes that have IPv6 enabled by default are deployed in IPv4 or mixed IPv4 and IPv6 environments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-tcp-soft-errors-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-tcp-soft-errors-05.txt' />
+</reference>

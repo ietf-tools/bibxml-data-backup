@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sdecugis-dime-diameter-erp'>
+<front>
+<title>Diameter support for EAP Re-authentication Protocol (ERP)</title>
+
+<author initials='S' surname='Decugis' fullname='Sebastien  Decugis'>
+    <organization />
+</author>
+
+<date month='June' day='4' year='2009' />
+
+<abstract><t>The EAP Re-authentication Protocol (ERP) provides a mechanism to optimize EAP authentication delay in the case of re-authentication, which can be significant in roaming mobile situation.  This mechanism assumes that a protocol for Authentication, Authorization and Accounting (AAA) is available to transport ERP between the authenticator(s) and the EAP/ERP server. draft-gaonkar-radext-erp-attrs-03 specifies the transport of ERP using RADIUS.  This document specifies the transport of ERP using Diameter.  Foreword  This document differs from draft-ietf-dime-erp-00 [1] in its design and scope.  In this new version, we use a new Diameter application id for messages with ERP payload exchanged between authenticator and ER server.  This simplifies the routing of Diameter messages to the appropriate server, and allows more flexibility in the deployment of ERP.  The scope of previous documents (draft-ietf-dime-erp-00 [1] and draft-wu-dime-local-keytran-00 [2]) was focused on the implicit bootstrapping scenario described in [RFC5296].  By re-using the Diameter EAP application, these documents create implicit constraints on routing of messages that cannot be met by standard Diameter routing algorithm defined in the Diameter Base Protocol [RFC3588].  A separate Diameter Id may also allow the authenticator to dynamically discover if the local domain supports ERP or not.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sdecugis-dime-diameter-erp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sdecugis-dime-diameter-erp-00.txt' />
+</reference>

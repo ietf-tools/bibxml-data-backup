@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9109' target='https://www.rfc-editor.org/info/rfc9109'>
+<front>
+<title>Network Time Protocol Version 4: Port Randomization</title>
+<author initials='F.' surname='Gont' fullname='F. Gont'><organization /></author>
+<author initials='G.' surname='Gont' fullname='G. Gont'><organization /></author>
+<author initials='M.' surname='Lichvar' fullname='M. Lichvar'><organization /></author>
+<date year='2021' month='August' />
+<abstract><t>The Network Time Protocol (NTP) can operate in several modes.  Some of these modes are based on the receipt of unsolicited packets and therefore require the use of a well-known port as the local port.  However, in the case of NTP modes where the use of a well-known port is not required, employing such a well-known port unnecessarily facilitates the ability of attackers to perform blind/off-path attacks. This document formally updates RFC 5905, recommending the use of transport-protocol ephemeral port randomization for those modes where use of the NTP well-known port is not required.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9109'/>
+<seriesInfo name='DOI' value='10.17487/RFC9109'/>
+</reference>

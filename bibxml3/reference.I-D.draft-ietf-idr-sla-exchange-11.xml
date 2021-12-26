@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-sla-exchange'>
+<front>
+<title>Inter-domain Traffic Conditioning Agreement (TCA) Exchange Attribute</title>
+
+<author initials='S' surname='Shah' fullname='Shitanshu Shah'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bajaj' fullname='Sandeep Bajaj'>
+    <organization />
+</author>
+
+<author initials='L' surname='Tomotaki' fullname='Luis Tomotaki'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<date month='August' day='1' year='2017' />
+
+<abstract><t>Network administrators typically enforce Quality of Service (QoS) policies according to Traffic Conditioning Agreement (TCA) with their providers.  The enforcement of such policies often relies upon vendor-specific configuration language.  Both learning of TCA, either thru TCA documents or via some other out-of-band method, and translating them to vendor specific configuration language is a complex, often manual, process and prone to errors.  This document specifies an optional transitive attribute to signal TCA parameters in-band, across administrative boundaries (considered as Autonomous Systems (AS)), thus simplifying and facilitating some of the complex provisioning tasks in situations where BGP is available as a routing protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-sla-exchange-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-sla-exchange-11.txt' />
+</reference>

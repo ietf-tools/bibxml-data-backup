@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-lsr-ifit-node-capability-advertisement'>
+<front>
+<title>In-situ Flow Information Telemetry (IFIT) Node Capability Advertisement</title>
+
+<author initials='Y' surname='Wang' fullname='Yali Wang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zhou' fullname='Tianran Zhou'>
+    <organization />
+</author>
+
+<author initials='L' surname='Min' fullname='Liu Min'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pang' fullname='Ran Pang'>
+    <organization />
+</author>
+
+<date month='March' day='22' year='2020' />
+
+<abstract><t>For advertising In-situ Flow Information Telemetry (IFIT) node capabilities within the entire routing domain, this document extends a new optional TLV to the OSPF RI Opaque LSA, a new optional sub-TLV to the IS-IS Router CAPABILITY TLV, and a new Node Attribute TLV that is encoded in the BGP-LS attribute with Node NLRIs to carry IFIT node capabilities information.  Such advertisement allows entities (e.g. a centralized controller) to determine whether a particular IFIT functionality can be supported in a given network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-lsr-ifit-node-capability-advertisement-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-lsr-ifit-node-capability-advertisement-00.txt' />
+</reference>

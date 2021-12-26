@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.begen-avtext-retransmission-for-ssm'>
+<front>
+<title>Retransmission for Source-Specific Multicast (SSM) Sessions</title>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='T' surname='VanCaenegem' fullname='Tom VanCaenegem'>
+    <organization />
+</author>
+
+<date month='August' day='9' year='2012' />
+
+<abstract><t>This document describes RTP retransmission for source-specific multicast (SSM) architectures with unicast feedback.  RTP payload format for retransmissions has been defined in RFC 4588, whereas the RTP profile an RTP receiver could use to issue RTP Control Protocol (RTCP) feedback messages and the format of these feedback messages have been defined in RFC 4585.  RFC 5760 defines the operation for SSM architectures with unicast feedback.  First, we document potential issues that could arise when providing a retransmission service using RTP retransmission (RFC 4588 and RFC 4585) for RFC 5760 architectures based on rules described in the relevant RFCs.  We then present solutions that allow to avoid unnecessary feedback suppression, provide enhanced retransmission services and address congestion control for retransmission in an SSM environment.  These solutions specify certain rules that apply to the distribution source, feedback target(s), retransmission source(s) and RTP receivers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-begen-avtext-retransmission-for-ssm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-begen-avtext-retransmission-for-ssm-00.txt' />
+</reference>

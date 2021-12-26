@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-homenet-front-end-naming-delegation'>
+<front>
+<title>Outsourcing Home Network Authoritative Naming Service</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='R' surname='Weber' fullname='Ralf Weber'>
+    <organization />
+</author>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hunter' fullname='Ray Hunter'>
+    <organization />
+</author>
+
+<author initials='C' surname='Griffiths' fullname='Chris Griffiths'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cloetens' fullname='Wouter Cloetens'>
+    <organization />
+</author>
+
+<date month='November' day='16' year='2019' />
+
+<abstract><t>The Homenet Naming authority is responsible for making devices within the home network accessible by name within the home network as well as from outside the home network (e.g. the Internet).  The names of the devices accessible from the Internet are stored in the Public Homenet Zone, served by a DNS authoritative server.  It is unlikely that home networks will contain sufficiently robust platforms designed to host a service such as the DNS on the Internet and as such would expose the home network to DDoS attacks.  This document describes a mechanism that enables the Home Network Authority (HNA) to outsource the naming service to the Outsourcing Infrastructure via a Distribution Master (DM).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-homenet-front-end-naming-delegation-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-homenet-front-end-naming-delegation-09.txt' />
+</reference>

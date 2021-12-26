@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.leroux-pce-of'>
+<front>
+<title>Encoding of Objective Functions in Path Computation Element (PCE)  communication and discovery protocols</title>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2007' />
+
+<abstract><t>The computation of one or a series of Traffic Engineering Label Switched Paths (TE LSP) in MultiProtocol Label Switching (MPLS) and Generalized MPLS (GMPLS) networks, is subject to a set of one or more specific optimization criteria(s), referred to as an objective function (e.g. minimum cost path, widest path, etc.). A Path Computation Element (PCE) may support one or multiple objective functions, and it is desired for a Path Computation Client (PCC) to automatically discover the set of objective functions supported by a PCE. Furthermore, it may be useful for a PCC to specify in a path computation request the required objective function used by the PCE to compute a TE LSP or a set of TE LSPs. Thus the aim of this document is to define extensions to the PCE Discovery (PCED) TLV carried within the IS-IS Router Capability TLV and the OSPF Router Information LSA so as to allow a PCC to discover the set of objective functions supported by a PCE. Extensions to the PCE communication Protocol (PCEP) are also specified allowing a PCC to indicate in a path computation request the required objective function and a PCE to indicate in a path computation reply the objective function actually applied. The definition of objective functions is beyond the scope of this document and will be covered in separate documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-leroux-pce-of-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-leroux-pce-of-00.txt' />
+</reference>

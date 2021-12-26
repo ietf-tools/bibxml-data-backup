@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ma-core-stateful-observe'>
+<front>
+<title>Stateful Observation in CoAP</title>
+
+<author initials='C' surname='Ma' fullname='Changsha Ma'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hong' fullname='Peilin Hong'>
+    <organization />
+</author>
+
+<author initials='K' surname='Xue' fullname='Kaiping Xue'>
+    <organization />
+</author>
+
+<date month='July' day='29' year='2012' />
+
+<abstract><t>The Observe Option allows a CoAP client to observe changes in the state of resources and obtain a current representation of the last resource state.  To be an observer of an origin server's rescourses, the client is required to register its interest with the server.  A successful registration will make the client added into the server's observation list, while a failed one may drive the client to re- register.  However, even repeated and frequent re-registrations cannot guarantee the client to eventually become an observer of the target server.  In the case that the server is unable or unwilling to accept an observer, the time-intensive re-registrations will just bring redundant messages in the constrained network and considerable energy consumption on both the client and the server.  This memo defines a new CoAP option, State, for providing stateful observation on the resources of CoAP servers.  By observing the state of the server in terms of the Observe Option, a client can explicitly judge when the server will not actively reject an observation registration, and wisely performs the re-registration.  This avoids the potential registration flooding that causes considerable network overhead and energy consumption on the constrained nodes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ma-core-stateful-observe-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ma-core-stateful-observe-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ma-core-stateful-observe-00.pdf' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rohc-sigcomp-nack'>
+<front>
+<title>A Negative Acknowledgement Mechanism for Signaling Compression</title>
+
+<author initials='A' surname='Roach' fullname='Adam Roach'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2004' />
+
+<abstract><t>This document describes a mechanism that allows Signaling Compression (SigComp) implementations to report precise error information upon receipt of a message which cannot be decompressed. This negative feedback can be used by the recipient to make fine-grained adjustments to the compressed message before retransmitting it, allowing for rapid and efficient recovery from error situations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rohc-sigcomp-nack-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rohc-sigcomp-nack-02.txt' />
+</reference>

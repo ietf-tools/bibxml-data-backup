@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tsou-network-configuration-problem-statement'>
+<front>
+<title>Plug-and-Play Nodal Deployment Problem Statement</title>
+
+<author initials='T' surname='ZOU)' fullname='Tina Tsou (Ting ZOU)'>
+    <organization />
+</author>
+
+<date month='December' day='22' year='2009' />
+
+<abstract><t>When a new network node is brought into service, it is typically configured using scripts worked out in advance.  These scripts depend critically upon knowledge of the network topology, that is, the node's address and link information.  While this information may be derived during advance planning, deviations from plan occur in practice.  Correcting the scripts can be expensive, particularly if the corrections have to be reapplied on-site after installation. When an entire network of tens of thousands of nodes is being brought into service, such expenses become a significant part of the deployment budget.  Clearly it is helpful if plug-and-play operation of new nodes can be enabled, such that a link between the node and a network management system is established automatically upon activation.  In the first place, this allows automated assignment of the node's address and acquisition of its link information at the central location.  Beyond that, it provides the means for application of configuration scripts from a central point, avoiding the cost of sending a skilled craftsperson to a remote site.  This memo describes the problem of plug-and-play deployment of new nodes.  It defines this problem as minimizing the amount of pre- configuration required to achieve a successful IKEv2 exchange with a central management system.  It assumes that part of the solution consists of a protocol that distributes addresses from the network management system to the nodes as a preliminary to that exchange.  It explores the requirements on that protocol in various network scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tsou-network-configuration-problem-statement-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tsou-network-configuration-problem-statement-02.txt' />
+</reference>

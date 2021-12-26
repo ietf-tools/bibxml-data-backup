@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reddy-mmusic-stun-auth-fw-traversal'>
+<front>
+<title>STUN Extensions for Firewall Traversal</title>
+
+<author initials='T' surname='Reddy' fullname='Tirumaleswar Reddy'>
+    <organization />
+</author>
+
+<author initials='M' surname='Perumal' fullname='Muthu Perumal'>
+    <organization />
+</author>
+
+<author initials='R' surname='R' fullname='Ram R'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>Some networks deploy firewalls configured to block UDP traffic.  When SIP user agents or WebRTC endpoints are deployed behind such firewalls, media cannot be sent over UDP across the firewall, but must be sent using TCP (which causes a different user experience) or through a session border controller.  This draft describes an alternate model wherein extensions to ICE connectivity checks can be examined by the firewall to permit outgoing UDP flows across the firewall.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reddy-mmusic-stun-auth-fw-traversal-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reddy-mmusic-stun-auth-fw-traversal-00.txt' />
+</reference>

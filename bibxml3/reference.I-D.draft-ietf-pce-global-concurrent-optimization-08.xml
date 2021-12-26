@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-global-concurrent-optimization'>
+<front>
+<title>Path Computation Element Communication Protocol (PCEP) Requirements and  Protocol Extensions In Support of Global Concurrent Optimization</title>
+
+<author initials='Y' surname='Lee' fullname='Young Lee'>
+    <organization />
+</author>
+
+<author initials='J' surname='Roux' fullname='Jean-Louis Le Roux'>
+    <organization />
+</author>
+
+<author initials='D' surname='King' fullname='Daniel King'>
+    <organization />
+</author>
+
+<author initials='E' surname='Oki' fullname='Eiji Oki'>
+    <organization />
+</author>
+
+<date month='January' day='6' year='2009' />
+
+<abstract><t>The Path Computation Element (PCE) is a network component, application, or node that is capable of performing path computations at the request of Path Computation Clients (PCCs).  The PCE is applied in Multiprotocol Label Switching Traffic Engineering (MPLS-TE) networks and in Generalized MPLS (GMPLS) networks to determine the routes of Label Switched Paths (LSPs) through the network.  In this context a PCC may be a Label Switching Router (LSR), a Network Management System (NMS), or another PCE.  The Path Computation Element Communication Protocol (PCEP) is specified for communications between PCCs and PCEs, and between cooperating PCEs.  When computing or re-optimizing the routes of a set of TE LSPs through a network it may be advantageous to perform bulk path computations in order to avoid blocking problems and to achieve more optimal network-wide solutions.  Such bulk optimization is termed Global Concurrent Optimization (GCO).  A GCO is able to simultaneously consider the entire topology of the network and the complete set of existing TE LSPs, and their respective constraints, and look to optimize or re-optimize the entire network to satisfy all constraints for all TE LSPs.  A GCO may also be applied to some subset of the TE LSPs in a network.  The GCO application is primarily a Network Management System (NMS) solution.  While GCO is applicable to any simultaneous request for multiple TE LSPs (for example, a request for end-to-end protection), it is not envisaged that global concurrent reoptimization would be applied in a network (such as an MPLS-TE network) that contains a very large number of very low bandwidth or zero bandwidth TE LSPs since the large scope of the problem and the small benefit of concurrent reoptimization relative to single TE LSP reoptimization is unlikely to make the process worthwhile.  Further, applying global concurrent reoptimization in a network with a high rate of change of TE LSPs (churn) is not advised because of the likelihood that TE LSPs would change before they could be globally reoptimized.  Global reoptimization is more applicable to stable networks such as transport networks or those with long-term TE LSP tunnels.  This document provides application-specific requirements and the PCEP extensions in support of GCO applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-global-concurrent-optimization-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-global-concurrent-optimization-08.txt' />
+</reference>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8205' target='https://www.rfc-editor.org/info/rfc8205'>
+<front>
+<title>BGPsec Protocol Specification</title>
+<author initials='M.' surname='Lepinski' fullname='M. Lepinski' role='editor'><organization /></author>
+<author initials='K.' surname='Sriram' fullname='K. Sriram' role='editor'><organization /></author>
+<date year='2017' month='September' />
+<abstract><t>This document describes BGPsec, an extension to the Border Gateway Protocol (BGP) that provides security for the path of Autonomous Systems (ASes) through which a BGP UPDATE message passes.  BGPsec is implemented via an optional non-transitive BGP path attribute that carries digital signatures produced by each AS that propagates the UPDATE message.  The digital signatures provide confidence that every AS on the path of ASes listed in the UPDATE message has explicitly authorized the advertisement of the route.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8205'/>
+<seriesInfo name='DOI' value='10.17487/RFC8205'/>
+</reference>

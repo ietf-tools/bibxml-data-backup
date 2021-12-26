@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ackermann-tictoc-pdm-ntp-usage'>
+<front>
+<title>Usage of NTP for the PDM DOH IPv6 Extension Header</title>
+
+<author initials='M' surname='Ackermann' fullname='Michael Ackermann'>
+    <organization />
+</author>
+
+<author initials='N' surname='Elkins' fullname='Nalini Elkins'>
+    <organization />
+</author>
+
+<author initials='W' surname='Jouris' fullname='William Jouris'>
+    <organization />
+</author>
+
+<date month='October' day='3' year='2013' />
+
+<abstract><t>The Performance and Diagnostic Metrics (PDM) Destination Options Header (DOH) for IPv6 defines metrics which are critical for timely end-to-end problem resolution, without impacting an operational production network. These metrics and their derivations can be used for network diagnostics. The base metrics are: packet sequence number and packet timestamp. The timestamp fields require time synchronization at the two end points. This document provides implementation guidelines for implementing Network Time Protocol (NTP) to provide such synchronization.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ackermann-tictoc-pdm-ntp-usage-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ackermann-tictoc-pdm-ntp-usage-00.txt' />
+</reference>

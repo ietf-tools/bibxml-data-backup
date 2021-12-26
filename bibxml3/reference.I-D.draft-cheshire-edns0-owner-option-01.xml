@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheshire-edns0-owner-option'>
+<front>
+<title>EDNS0 OWNER Option</title>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<author initials='M' surname='Krochmal' fullname='Marc Krochmal'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2017' />
+
+<abstract><t>The DNS-SD Sleep Proxy Service uses a message format identical to that used by standard DNS Update, with two additional pieces of information: the identity of the sleeping server to which the records belong, and the Wake-on-LAN Magic Packet bit pattern which should be used to wake the sleeping server.  This document specifies the EDNS0 option used to carry that additional information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheshire-edns0-owner-option-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheshire-edns0-owner-option-01.txt' />
+</reference>

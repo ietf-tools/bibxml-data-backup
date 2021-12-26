@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yokota-netlmm-pmipv6-mn-itho-support'>
+<front>
+<title>Inter-Technology Handoff support in Mobile Node for Proxy Mobile IPv6</title>
+
+<author initials='H' surname='Yokota' fullname='Hidetoshi Yokota'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<author initials='K' surname='Leung' fullname='Kent Leung'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>Proxy Mobile IPv6 supports a handoff between different access technologies, by which the assigned IP address is preserved regardless of the access technology type.  From the perspective of the mobile node, this involves the change of the network interfaces, through which the IP address is assigned and the IP session is established.  Some implementations, however, do not assume this interface switching in the middle of the session and it could cause a disconnection by the event of unavailability of the current interface; hence it is not guaranteed to be able to maintain the IP session simply by assigning the same IP address to the new interface. This document analyzes the handling of the network interfaces on the mobile node and presents several measures to avoid a disconnection due to the interface switching.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yokota-netlmm-pmipv6-mn-itho-support-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yokota-netlmm-pmipv6-mn-itho-support-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dukhovni-opportunistic-security'>
+<front>
+<title>Opportunistic Security: Some Protection Most of the Time</title>
+
+<author initials='V' surname='Dukhovni' fullname='Viktor Dukhovni'>
+    <organization />
+</author>
+
+<date month='August' day='15' year='2014' />
+
+<abstract><t>This memo introduces the "Opportunistic Security" (OS) protocol design pattern.  Protocol designs based on OS depart from the established practice of employing cryptographic protection against both passive and active attacks, or no protection at all.  As a result, with OS at least some cryptographic protection should be provided most of the time.  For example, the majority of Internet SMTP traffic is now opportunistically encrypted.  OS designs remove barriers to the widespread use of encryption on the Internet.  The actual protection provided by opportunistic security depends on the advertised security capabilities of the communicating peers.  This document promotes designs in which cryptographic protection against both passive and active attacks can be rolled out incrementally as new systems are deployed, without creating barriers to communication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dukhovni-opportunistic-security-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dukhovni-opportunistic-security-03.txt' />
+</reference>

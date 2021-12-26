@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kang-sfc-failover'>
+<front>
+<title>Failover for Service Function Chaining</title>
+
+<author initials='t' surname='th.kang@kt.com' fullname='th.kang@kt.com'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kim' fullname='Sungsu Kim'>
+    <organization />
+</author>
+
+<author initials='E' surname='Paik' fullname='EunKyoung Paik'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2014' />
+
+<abstract><t>In the Software-Defined Networking (SDN) architecture, a SDN controller establishes flow paths.  SDN controller, classifier, and SFF(Service Function Forwarder) do closely interact for SFC packet transmission.  However, failure can happen at some nodes in SFC- enabled domain preventing packet forwarding, and such situation should be avoided.  Backup SF(Service Function) can be one of solutions.  Additionally, mandatory/optional criterion can decide whether to bypass the failed SF.  In this document, we illustrate failover method locally by SFF and globally by controller.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kang-sfc-failover-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kang-sfc-failover-00.txt' />
+</reference>

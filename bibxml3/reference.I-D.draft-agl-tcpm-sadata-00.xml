@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.agl-tcpm-sadata'>
+<front>
+<title>Faster application handshakes with SYN/ACK payloads</title>
+
+<author initials='A' surname='Langley' fullname='Adam Langley'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2008' />
+
+<abstract><t>This document describes an extension to TCP [RFC0793] which permits a small, mostly constant data payload to be carried in the SYN+ACK frame of the 3-way handshake.  This new behaviour is enabled by an option in the SYN packet to ensure backwards compatibility.  We should how this has latency benefits, specifically for cryptographic applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-agl-tcpm-sadata-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-agl-tcpm-sadata-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ke-policy-icmp-ext'>
+<front>
+<title>ICMP Extensions for Policy-based Routing</title>
+
+<author initials='D' surname='Ke' fullname='Du Ke'>
+    <organization />
+</author>
+
+<date month='July' day='14' year='2004' />
+
+<abstract><t>ping/traceroute and other network diagnostic tools are widely used in the IP networks to diagnose the network reachability, IP packet routing and routing failure location. However, the existing ping/traceroute tools are adaptable only to the pure networks where the routing is based on destination address. When an IP packet passes a certain equipment based on ACL policy routing, the ping/traceroute packet routing MAY be different from the real traffic flow routing. This will lead to an erroneous diagnostic result.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ke-policy-icmp-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ke-policy-icmp-ext-00.txt' />
+</reference>

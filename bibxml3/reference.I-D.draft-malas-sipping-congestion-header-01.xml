@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.malas-sipping-congestion-header'>
+<front>
+<title>The Session Initiation Protocol (SIP) CONGESTION Header Field</title>
+
+<author initials='D' surname='Malas' fullname='Daryl Malas'>
+    <organization />
+</author>
+
+<author initials='R' surname='Terpstra' fullname='Rich Terpstra'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2006' />
+
+<abstract><t>This document defines a new header field for use with SIP. The CONGESTION header field is used to report insufficient resources to an upstream element. It provides a means for passing the congestion information, but does not dictate how the receiver of the information should react to the information. This header is intended to provide a mechanism for decreasing the dependence on the 503 response code for determining an overloaded state. In addition, it provides detailed congestion awareness functionality, to compensate for current limited capabilities in SIP. This functionality can provide specific information regarding the cause of the congestion for custom aplication treatment policies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-malas-sipping-congestion-header-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-malas-sipping-congestion-header-01.txt' />
+</reference>

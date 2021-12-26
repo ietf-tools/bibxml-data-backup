@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.toutain-lpwan-ipv6-static-context-hc'>
+<front>
+<title>LPWAN Static Context Header Compression (SCHC) for IPv6 and UDP</title>
+
+<author initials='A' surname='Minaburo' fullname='Ana Minaburo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Toutain' fullname='Laurent Toutain'>
+    <organization />
+</author>
+
+<date month='September' day='23' year='2016' />
+
+<abstract><t>This document describes a header compression scheme for IPv6, IPv6/ UDP based on static contexts.  This technique is especially tailored for LPWA networks and could be extended to other protocol stacks.  During the IETF history several compression mechanisms have been proposed.  First mechanisms, such as RoHC, are using a context to store header field values and send smaller incremental differences on the link.  Values in the context evolve dynamically with information contained in the compressed header.  The challenge is to maintain sender's and receiver's contexts synchronized even with packet losses.  Based on the fact that IPv6 contains only static fields, 6LoWPAN developed an efficient context-free compression mechanisms, allowing better flexibility and performance.  The Static Context Header Compression (SCHC) combines the advantages of RoHC context which offers a great level of flexibility in the processing of fields, and 6LoWPAN behavior to elide fields that are known from the other side.  Static context means that values in the context field do not change during the transmission, avoiding complex resynchronization mechanisms, incompatible with LPWA characteristics. In most of the cases, IPv6/UDP headers are reduced to a small identifier.  This document focuses on IPv6/UDP headers compression, but the mechanism can be applied to other protocols such as CoAP.  It will be described in a separate document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-toutain-lpwan-ipv6-static-context-hc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-toutain-lpwan-ipv6-static-context-hc-00.txt' />
+</reference>

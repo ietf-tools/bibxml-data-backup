@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tbruijnzeels-sidr-validation-local-cache'>
+<front>
+<title>RPKI Repository Validation Using Local Cache</title>
+
+<author initials='T' surname='Bruijnzeels' fullname='Tim Bruijnzeels'>
+    <organization />
+</author>
+
+<author initials='O' surname='Muravskiy' fullname='Oleg Muravskiy'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>This document describes the approach to validate the content of the RPKI repository, which is independent of a particular object retrieval mechanism.  This allows it to be used with repositories available over rsync protocol (see Section 3 of[RFC6481]), and delta protocol ( [I-D.tbruijnzeels-sidr-delta-protocol]), as well as repositories that use a mix of both.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tbruijnzeels-sidr-validation-local-cache-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tbruijnzeels-sidr-validation-local-cache-02.txt' />
+</reference>

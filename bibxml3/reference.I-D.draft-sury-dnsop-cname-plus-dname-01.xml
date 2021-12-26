@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sury-dnsop-cname-plus-dname'>
+<front>
+<title>CNAME+DNAME Name Redirection</title>
+
+<author initials='O' surname='Sury' fullname='Ondrej Sury'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2018' />
+
+<abstract><t>This document updates RFC1034 to allow coexistence of the CNAME Resource Record with DNAME Resource Record at the same owner node, which provides redirection for a sub-tree of the domain name tree in the DNS system, in a parent zone.  By allowing this cooexistence, DNS system will have a way how to create a sub-tree redirection together that includes the Resource Records owner name.  This would allow parent zones to create full domain aliases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sury-dnsop-cname-plus-dname-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sury-dnsop-cname-plus-dname-01.txt' />
+</reference>

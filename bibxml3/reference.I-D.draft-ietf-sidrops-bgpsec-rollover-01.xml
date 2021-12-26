@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidrops-bgpsec-rollover'>
+<front>
+<title>BGPsec Router Certificate Rollover</title>
+
+<author initials='B' surname='Weis' fullname='Brian Weis'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gagliano' fullname='Roque Gagliano'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<date month='August' day='14' year='2017' />
+
+<abstract><t>Certificate Authorities (CAs) managing CA certificates and End-Entity (EE) certificates within the Resource Public Key Infrastructure (RPKI) will also manage BGPsec router certificates.  But the rollover of CA and EE certificates BGPsec router certificates have additional considerations for Normal and emergency rollover processes.  The rollover must be carefully managed in order to synchronize distribution of router public keys and BGPsec routers creating BGPsec Update messages verified with those router public keys.  This document provides general recommendations for the rollover process, as well as describing reasons why the rollover of BGPsec router certificates might be necessary.  When this rollover process is followed the rollover should be accomplished without routing information being lost.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidrops-bgpsec-rollover-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidrops-bgpsec-rollover-01.txt' />
+</reference>

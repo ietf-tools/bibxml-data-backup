@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mip4-rfc3012bis'>
+<front>
+<title>Mobile IPv4 Challenge/Response Extensions (revised)</title>
+
+<author initials='C' surname='Perkins' fullname='Charles Perkins'>
+    <organization />
+</author>
+
+<date month='February' day='1' year='2006' />
+
+<abstract><t>Mobile IP, as originally specified, defines an authentication extension (the Mobile-Foreign Authentication extension) by which a mobile node can authenticate itself to a foreign agent. Unfortunately, that extension does not provide the foreign agent any direct guarantee that the protocol is protected from replays, and does not allow for the use of existing techniques (such as CHAP) for authenticating portable computer devices. In this specification, we define extensions for the Mobile IP Agent Advertisements and the Registration Request that allow a foreign agent to use a challenge/response mechanism to authenticate the mobile node. Furthermore, this document updates RFC3344 by including new authentication extension called the Mobile-AAA Authentication extension. This new extension is provided so that a mobile node can supply credentials for authorization using commonly available AAA infrastructure elements. This Authorization-enabling extension MAY co-exist in the same Registration Request with Authentication extensions defined for Mobile IP Registration by RFC3344. This document obsoletes RFC3012.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mip4-rfc3012bis-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mip4-rfc3012bis-05.txt' />
+</reference>

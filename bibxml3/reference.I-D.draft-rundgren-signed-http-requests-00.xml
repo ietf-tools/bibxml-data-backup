@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rundgren-signed-http-requests'>
+<front>
+<title>Signed HTTP Requests (SHREQ)</title>
+
+<author initials='A' surname='Rundgren' fullname='Anders Rundgren'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>The SHREQ specification describes how the JSON Web Signature (JWS) specification combined with the JSON Canonicalization Scheme (JCS), can be utilized to support HTTP based applications needing digitally signed requests.  SHREQ is specifically tailored for Web applications using JSON as data interchange format.  However, there is also a SHREQ scheme for HTTP requests that do not have a body ("payload") like GET.  SHREQ was designed to be agnostic with respect to REST concepts versus traditional GET/POST schemes.  The intended audiences of this document are Web tool vendors, as well as designers of secure Web applications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rundgren-signed-http-requests-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rundgren-signed-http-requests-00.txt' />
+</reference>

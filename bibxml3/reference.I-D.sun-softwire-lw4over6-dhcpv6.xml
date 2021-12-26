@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sun-softwire-lw4over6-dhcpv6'>
+<front>
+<title>Dynamic Host Configuration Protocol for IPv6 (DHCPv6) Option for Lightweight 4over6</title>
+
+<author initials='C' surname='Xie' fullname='Chongfeng Xie'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Qiong' fullname='Qiong'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Lee' fullname='Yiu Lee'>
+    <organization />
+</author>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wu' fullname='Peng Wu'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2013' />
+
+<abstract><t>Lightweight 4over6 [I-D.ietf-softwire-lw4over6] is an extension to DS-Lite which moves the Network Address Translation function from the DS-Lite AFTR to the B4.  It can be deployed in a DS-Lite network to gradually reduce the load of Carrier Grade NAT in the AFTR.  However, when DS-Lite and lw4over6 co-exist in the same network, B4 elemtns and lwB4 elements may want to signal the DHCPv6 server the type of AFTR (i.e.  AFTR or lwAFTR) they request.  In this memo, a new DHCPv6 option is proposed for lwB4 element to request the IPv6 address of its corresponding lwAFTR.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sun-softwire-lw4over6-dhcpv6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sun-softwire-lw4over6-dhcpv6-00.txt' />
+</reference>

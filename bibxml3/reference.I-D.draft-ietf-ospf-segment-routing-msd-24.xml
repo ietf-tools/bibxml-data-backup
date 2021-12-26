@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-segment-routing-msd'>
+<front>
+<title>Signaling MSD (Maximum SID Depth) using OSPF</title>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='S' surname='Aldrin' fullname='Sam Aldrin'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2018' />
+
+<abstract><t>This document defines a way for an Open Shortest Path First (OSPF) Router to advertise multiple types of supported Maximum SID(Segment Identifier) Depths (MSDs) at node and/or link granularity.  Such advertisements allow entities (e.g., centralized controllers) to determine whether a particular SID stack can be supported in a given network.  This document defines only one type of MSD, but defines an encoding that can support other MSD types.  Here the term OSPF means both OSPFv2 and OSPFv3.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-segment-routing-msd-24' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-segment-routing-msd-24.txt' />
+</reference>

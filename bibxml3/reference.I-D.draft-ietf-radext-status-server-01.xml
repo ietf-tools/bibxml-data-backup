@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-radext-status-server'>
+<front>
+<title>Use of Status-Server Packets in the Remote Authentication Dial In User  Service (RADIUS) Protocol</title>
+
+<author initials='A' surname='DeKok' fullname='Alan DeKok'>
+    <organization />
+</author>
+
+<date month='August' day='25' year='2008' />
+
+<abstract><t>RFC 2865 defines a Status-Server code for use in RADIUS, but labels it as "Experimental" without further discussion.  This document describes a practical use for the Status-Server packet code, which is to let clients query the status of a RADIUS server.  These queries, and responses (if any) enable the client to make more informed decisions.  The result is a more stable, and more robust RADIUS architecture.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-radext-status-server-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-radext-status-server-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dots-signal-call-home'>
+<front>
+<title>Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Call Home</title>
+
+<author initials='T' surname='Reddy.K' fullname='Tirumaleswar Reddy.K'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='J' surname='Shallow' fullname='Jon Shallow'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2020' />
+
+<abstract><t>This document specifies the DOTS signal channel Call Home, which enables a DOTS server to initiate a secure connection to a DOTS client, and to receive the attack traffic information from the DOTS client.  The DOTS server in turn uses the attack traffic information to identify the compromised devices launching the outgoing DDoS attack and takes appropriate mitigation action(s).  The DOTS signal channel Call Home is not specific to the home networks; the solution targets any deployment which requires to block DDoS attack traffic closer to the source(s) of a DDoS attack.  Editorial Note (To be removed by RFC Editor)  Please update these statements within the document with the RFC number to be assigned to this document:  o  "This version of this YANG module is part of RFC XXXX;"  o  "RFC XXXX: Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Call Home";  o  "| [RFCXXXX] |"  o  reference: RFC XXXX  Please update this statement with the RFC number to be assigned to the following documents:  o  "RFC YYYY: Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Specification (used to be I-D.ietf-dots- signal-channel)  Please update TBD statements with the assignment made by IANA to DOTS Signal Channel Call Home.  Also, please update the "revision" date of the YANG module.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dots-signal-call-home-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dots-signal-call-home-08.txt' />
+</reference>

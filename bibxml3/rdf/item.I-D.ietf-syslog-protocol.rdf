@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-syslog-protocol-23.txt'>
+    <title>"The syslog Protocol", Rainer Gerhards</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-syslog-protocol-23.txt</link>
+    <description>This document describes the syslog protocol, which is used to convey event notification messages.  This protocol utilizes a layered architecture, which allows the use of any number of transport protocols for transmission of syslog messages.  It also provides a message format that allows vendor-specific extensions to be provided in a structured way. This document has been written with the original design goals for traditional syslog in mind.  The reason for a new layered specification has arisen because standardization efforts for reliable and secure syslog extensions suffer from the lack of a standards- track and transport independent RFC.  Without this document, each other standard needs to define its own syslog packet format and transport mechanism, which over time will introduce subtle compatibility issues.  This document tries to provide a foundation that syslog extensions can build on.  This layered architecture approach also provides a solid basis that allows code to be written once for each syslog feature rather than once for each transport.  This document obsoletes RFC3164.</description>
+    <dc:date>2007-09-05T22:00:00-00:00</dc:date>
+</item>

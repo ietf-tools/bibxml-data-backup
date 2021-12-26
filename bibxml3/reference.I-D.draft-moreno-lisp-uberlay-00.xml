@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moreno-lisp-uberlay'>
+<front>
+<title>Uberlay Interconnection of Multiple LISP overlays</title>
+
+<author initials='V' surname='Moreno' fullname='Victor Moreno'>
+    <organization />
+</author>
+
+<author initials='D' surname='Farinacci' fullname='Dino Farinacci'>
+    <organization />
+</author>
+
+<author initials='A' surname='Rodriguez-Natal' fullname='Alberto Rodriguez-Natal'>
+    <organization />
+</author>
+
+<author initials='M' surname='Portoles-Comeras' fullname='Marc Portoles-Comeras'>
+    <organization />
+</author>
+
+<author initials='F' surname='Maino' fullname='Fabio Maino'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hooda' fullname='Sanjay Hooda'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kondalam' fullname='Satish Kondalam'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2018' />
+
+<abstract><t>This document describes the use of the Locator/ID Separation Protocol (LISP) to create multiple independent and survivable network overlays that are interconnected by a transit overlay.  The transit overlay is referred to as the "uberlay" and provides connectivity and control plane abstraction between overlays.  Structuring the network into multiple network overlays allows each overlay to scale independently. The different network overlays are autonomous from a control and data plane perspective to enable failure survivability across overlays. The hierarchical structure of the multi-overlay network interconnected by an uberlay provides optimizations to the forwarding of unicast traffic as well as the replication of multicast traffic in both the overlay and underlay.  This document specifies the mechanisms and procedures for the distribution of control plane information across overlay sites and in the uberlay as well as the lookup and forwarding procedures for unicast and multicast traffic within and across overlays.  The specification also defines the procedures to support inter-overlay mobility of EIDs and their integration with the intra-overlay EID mobility procedures defined in draft-ietf-lisp-eid-mobility.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moreno-lisp-uberlay-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moreno-lisp-uberlay-00.txt' />
+</reference>

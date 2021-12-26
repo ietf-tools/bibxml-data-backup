@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ecrit-additional-data'>
+<front>
+<title>Additional Data related to an Emergency Call</title>
+
+<author initials='B' surname='Rosen' fullname='Brian Rosen'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='R' surname='Marshall' fullname='Roger Marshall'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2011' />
+
+<abstract><t>When an emergency call is sent to a Public Safety Answering Point (PSAP), the device that sends it, as well as any service provider in the path of the call, or access network may have information about the call which the PSAP may be able to use.  This document describes an XML data structure that contains this kind of information in a standardized form.  A Uniform Resource Identifier (URI) that points to the structure can be included in the SIP signaling with the call, or the data may be included in the body of a SIP message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ecrit-additional-data-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ecrit-additional-data-02.txt' />
+</reference>

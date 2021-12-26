@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.koch-openpgp-rfc4880bis'>
+<front>
+<title>OpenPGP Message Format</title>
+
+<author initials='J' surname='Callas' fullname='Jon Callas'>
+    <organization />
+</author>
+
+<author initials='L' surname='Donnerhacke' fullname='Lutz Donnerhacke'>
+    <organization />
+</author>
+
+<author initials='J' surname='Marcon' fullname='Jerome Marcon'>
+    <organization />
+</author>
+
+<author initials='D' surname='Shaw' fullname='David Shaw'>
+    <organization />
+</author>
+
+<author initials='R' surname='Thayer' fullname='Rodney Thayer'>
+    <organization />
+</author>
+
+<author initials='W' surname='Koch' fullname='Werner Koch'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2015' />
+
+<abstract><t>{ Work in progress to update OpenPGP }  This document is maintained in order to publish all necessary information needed to develop interoperable applications based on the OpenPGP format.  It is not a step-by-step cookbook for writing an application.  It describes only the format and methods needed to read, check, generate, and write conforming packets crossing any network.  It does not deal with storage and implementation questions. It does, however, discuss implementation issues necessary to avoid security flaws.  OpenPGP software uses a combination of strong public-key and symmetric cryptography to provide security services for electronic communications and data storage.  These services include confidentiality, key management, authentication, and digital signatures.  This document specifies the message formats used in OpenPGP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-koch-openpgp-rfc4880bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-koch-openpgp-rfc4880bis-00.txt' />
+</reference>

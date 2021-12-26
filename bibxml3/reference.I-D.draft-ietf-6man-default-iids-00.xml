@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-default-iids'>
+<front>
+<title>Recommendation on Stable IPv6 Interface Identifiers</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='A' surname='Cooper' fullname='Alissa Cooper'>
+    <organization />
+</author>
+
+<author initials='D' surname='Thaler' fullname='Dave Thaler'>
+    <organization />
+</author>
+
+<author initials='W' surname='Will' fullname='Will'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2014' />
+
+<abstract><t>Stateless Address Autoconfiguration (SLAAC) for IPv6 typically results in hosts configuring one or more stable addresses composed of a network prefix advertised by a local router, and an Interface Identifier that typically embeds a hardware address (e.g., an IEEE LAN MAC address).  The security and privacy implications of embedding hardware addresses in the Interface Identifier have been known and understood for some time now, and some popular IPv6 implementations have already deviated from such schemes to mitigate these issues. This document recommends [I-D.ietf-6man-stable-privacy-addresses] as the default scheme for the generating stable IPv6 addresses and recommends against embedding hardware addresses in IPv6 Interface Identifiers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-default-iids-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-default-iids-00.txt' />
+</reference>

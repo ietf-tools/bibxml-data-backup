@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8630' target='https://www.rfc-editor.org/info/rfc8630'>
+<front>
+<title>Resource Public Key Infrastructure (RPKI) Trust Anchor Locator</title>
+<author initials='G.' surname='Huston' fullname='G. Huston'><organization /></author>
+<author initials='S.' surname='Weiler' fullname='S. Weiler'><organization /></author>
+<author initials='G.' surname='Michaelson' fullname='G. Michaelson'><organization /></author>
+<author initials='S.' surname='Kent' fullname='S. Kent'><organization /></author>
+<author initials='T.' surname='Bruijnzeels' fullname='T. Bruijnzeels'><organization /></author>
+<date year='2019' month='August' />
+<abstract><t>This document defines a Trust Anchor Locator (TAL) for the Resource Public Key Infrastructure (RPKI).  The TAL allows Relying Parties in the RPKI to download the current Trust Anchor (TA) Certification Authority (CA) certificate from one or more locations and verify that the key of this self-signed certificate matches the key on the TAL. Thus, Relying Parties can be configured with TA keys but can allow these TAs to change the content of their CA certificate.  In particular, it allows TAs to change the set of IP Address Delegations and/or Autonomous System Identifier Delegations included in the extension(s) (RFC 3779) of their certificate.</t><t>This document obsoletes the previous definition of the TAL as provided in RFC 7730 by adding support for Uniform Resource Identifiers (URIs) (RFC 3986) that use HTTP over TLS (HTTPS) (RFC 7230) as the scheme.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8630'/>
+<seriesInfo name='DOI' value='10.17487/RFC8630'/>
+</reference>

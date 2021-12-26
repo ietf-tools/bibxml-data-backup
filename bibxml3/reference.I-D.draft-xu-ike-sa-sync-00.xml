@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-ike-sa-sync'>
+<front>
+<title>IKE SA Synchronization</title>
+
+<author initials='Y' surname='Xu' fullname='Yan Xu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Yang' fullname='Peng Yang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Ma' fullname='Yuanchen Ma'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>It will take a long time to do security association syncronization among IKE/IPsec gateways possibly maintaining huge numbers of IKEv2/ IPsec SAs.  The major reason is that the prcocedure of IKEv2 SA re- establishment will incur a time-consuming computation especially in the Diffie-Hellman exchange.  In this draft, a new IKE security associations synchronization solution is proposed to reduce the computation by directly transferring the indexed IKE SA from old gateway to new gateway, wherein the most expensive Diffie-Hellman calculation can be avoided.  Without some time-consuming IKEv2 exchanges, the huge amount of IKE/IPsec SA synchronization procedures can be finished in a short time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-ike-sa-sync-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-ike-sa-sync-00.txt' />
+</reference>

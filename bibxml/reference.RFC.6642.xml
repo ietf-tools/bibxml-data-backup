@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6642' target='https://www.rfc-editor.org/info/rfc6642'>
+<front>
+<title>RTP Control Protocol (RTCP) Extension for a Third-Party Loss Report</title>
+<author initials='Q.' surname='Wu' fullname='Q. Wu' role='editor'><organization /></author>
+<author initials='F.' surname='Xia' fullname='F. Xia'><organization /></author>
+<author initials='R.' surname='Even' fullname='R. Even'><organization /></author>
+<date year='2012' month='June' />
+<abstract><t>In a large RTP session using the RTP Control Protocol (RTCP) feedback mechanism defined in RFC 4585, a feedback target may experience transient overload if some event causes a large number of receivers to send feedback at once.  This overload is usually avoided by ensuring that feedback reports are forwarded to all receivers, allowing them to avoid sending duplicate feedback reports.  However, there are cases where it is not recommended to forward feedback reports, and this may allow feedback implosion.  This memo discusses these cases and defines a new RTCP Third-Party Loss Report that can be used to inform receivers that the feedback target is aware of some loss event, allowing them to suppress feedback.  Associated Session Description Protocol (SDP) signaling is also defined.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6642'/>
+<seriesInfo name='DOI' value='10.17487/RFC6642'/>
+</reference>

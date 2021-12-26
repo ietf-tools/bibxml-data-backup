@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.balaji-trill-over-ip-multi-level'>
+<front>
+<title>Connecting Disparate Data Center/PBB/Campus TRILL sites using BGP</title>
+
+<author initials='B' surname='Bhikkaji' fullname='Bhargav Bhikkaji'>
+    <organization />
+</author>
+
+<author initials='B' surname='Venkataswami' fullname='Balaji Venkataswami'>
+    <organization />
+</author>
+
+<author initials='N' surname='Swamy' fullname='Narayana Swamy'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2012' />
+
+<abstract><t>There is a need to connect (a) TRILL based data centers or (b) TRILL based networks which provide Provider Backbone like functionalities or (c) Campus TRILL based networks over the WAN using one or more ISPs that provide regular IP+GRE or IP+MPLS transport. A few solutions have been proposed as in [1] in the recent past that have not looked at the PB-like functionality. These solutions have not dealt with the details as to how these services could be provided such that multiple TRILL sites can be inter-connected with issues like nick-name collisons for unicast (multicast is still TBD) being taken care of. It has been found that with extensions to BGP the problem statement which we will define below can be handled. Both control plane and data plane operations can be driven into the solution to make it seamlessly look at the entire set of TRILL sites as a single entity which then can be viewed as one single Layer 2 cloud. MAC moves across TRILL sites and within TRILL sites can be realized. This document / proposal envisions the use of BGP-MAC-VPN vrfs both at the IP cloud PE devices and at the peripheral PEs within a TRILL site providing Provider Backbone like functionality. We deal in depth with the control plane and data plane particulars for unicast (multicast is still TBD) with nick-name election being taken care of as part of the solution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-balaji-trill-over-ip-multi-level-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-balaji-trill-over-ip-multi-level-02.txt' />
+</reference>

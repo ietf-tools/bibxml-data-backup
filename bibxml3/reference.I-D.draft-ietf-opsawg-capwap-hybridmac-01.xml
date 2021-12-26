@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-opsawg-capwap-hybridmac'>
+<front>
+<title>IEEE 802.11 MAC Profile for CAPWAP</title>
+
+<author initials='C' surname='Shao' fullname='Chunju Shao'>
+    <organization />
+</author>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pazhyannur' fullname='Rajesh Pazhyannur'>
+    <organization />
+</author>
+
+<author initials='F' surname='Bari' fullname='Farooq Bari'>
+    <organization />
+</author>
+
+<author initials='R' surname='Zhang' fullname='Rong Zhang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Matsushima' fullname='Satoru Matsushima'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2013' />
+
+<abstract><t>The CAPWAP protocol defines two modes of operation for IEEE 802.11 WTPs: Split and Local MAC (medium access control), as described in [RFC5415],[RFC5416].  Specifically, [RFC5416] describes in detail the division of labor between WTP and AC in the Split and Local MAC modes.  Unfortunately, there are many functions that have not yet been clearly defined whether they belong to the WTP or the AC.  For example IEEE 802.11 encryption is specified as located in either in the AC or the WTP with no clear way to negotiate where it should be located.  This lack of specification leads to interoperability between AC and WTP when AC and WTP come from different vendors.  To solve this problem, this specification defines the concept of IEEE 802.11 MAC profile where each profile refers to a table containing an unambigous division of labor between WTP and AC.  The profile is used as follows: the WTP informs the AC of the supported profiles and the AC selects the profile when it configures the WTP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-opsawg-capwap-hybridmac-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-opsawg-capwap-hybridmac-01.txt' />
+</reference>

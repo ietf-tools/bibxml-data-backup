@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.filsfils-spring-segment-routing-use-cases'>
+<front>
+<title>Segment Routing Use Cases</title>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='P' surname='Francois' fullname='Pierre Francois'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='M' surname='Horneffer' fullname='Martin Horneffer'>
+    <organization />
+</author>
+
+<author initials='I' surname='Milojevic' fullname='Igor Milojevic'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shakir' fullname='Rob Shakir'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ytti' fullname='Saku Ytti'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='E' surname='Crabbe' fullname='Edward Crabbe'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2014' />
+
+<abstract><t>Segment Routing (SR) leverages the source routing and tunneling paradigms.  A node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header.  A segment can represent any instruction, topological or service-based.  SR allows to enforce a flow through any topological path and service chain while maintaining per-flow state only at the ingress node of the SR domain.  The Segment Routing architecture can be directly applied to the MPLS dataplane with no change on the forwarding plane.  It requires minor extension to the existing link-state routing protocols.  Segment Routing can also be applied to IPv6 with a new type of routing extension header.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-filsfils-spring-segment-routing-use-cases-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-filsfils-spring-segment-routing-use-cases-01.txt' />
+</reference>

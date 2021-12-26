@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-herbert-vxlan-rco-01.txt'>
+    <title>"Remote checksum offload for VXLAN", Tom Herbert</title>
+    <link>http://www.ietf.org/internet-drafts/draft-herbert-vxlan-rco-01.txt</link>
+    <description>This specification describes remote checksum offload for VXLAN. Remote checksum offload is a mechanism that provides checksum offload of transport checksums in encapsulated packets using rudimentary offload capabilities found in most Network Interface Card (NIC) devices. The outer UDP checksum is enabled on transmit and, with some additional meta data, a receiver is able to deduce the checksum to be set in an encapsulated packet. Effectively this offloads the computation of the inner checksum which can be a significant performance optimization. Enabling the UDP checksum has the additional advantage that it covers more of the packet including the IP pseudo header and virtual network identifier.</description>
+    <dc:date>2016-03-01T08:00:00-00:00</dc:date>
+</item>

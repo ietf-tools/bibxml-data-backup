@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.andersson-mpls-eh-architecture'>
+<front>
+<title>MPLS Extension Header Architecture</title>
+<author initials='L' surname='Andersson' fullname='Loa Andersson'>
+<organization />
+</author>
+<author initials='J' surname='Guichard' fullname='Jim Guichard'>
+<organization />
+</author>
+<author initials='H' surname='Song' fullname='Haoyu Song'>
+<organization />
+</author>
+<author initials='S' surname='Bryant' fullname='Stewart Bryant'>
+<organization />
+</author>
+<date year='2021' month='October' day='06' />
+<abstract><t>Extension Headers (EH) carry information on in-network services and functions in an MPLS network.  This document describes an architecture for EHs and what actions an EH capable Label Switching Router (LSR) takes when finding or not finding an EH in the packet.</t><t> Multiprotocol Label Switching (MPLS) is a widely deployed forwarding technology.  It uses label stack entries that are pre-pended to either the EH or the ACH which in turn is pre-pended to the payload. The label stack entries are used to identify the forwarding actions by each LSR.  Actions may include pushing, swapping or popping the labels, and using the labels to determine the next hop for forwarding the packet.  Labels may also be used to establish the context under which the packet is forwarded.</t><t> The extension headers are carried after the MPLS Label Stack, and the presence of EHs are indicated in the label stack by an Extension Header Indicator (EHI).</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-andersson-mpls-eh-architecture-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-andersson-mpls-eh-architecture-02.txt'/>
+</reference>

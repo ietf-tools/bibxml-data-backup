@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-shim6-proto'>
+<front>
+<title>Shim6: Level 3 Multihoming Shim Protocol for IPv6</title>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo  Bagnulo'>
+    <organization />
+</author>
+
+<date month='February' day='6' year='2009' />
+
+<abstract><t>This document defines the Shim6 protocol, a layer 3 shim for providing locator agility below the transport protocols, so that multihoming can be provided for IPv6 with failover and load sharing properties, without assuming that a multihomed site will have a provider independent IPv6 address prefix which is announced in the global IPv6 routing table.  The hosts in a site which has multiple provider allocated IPv6 address prefixes, will use the Shim6 protocol specified in this document to setup state with peer hosts, so that the state can later be used to failover to a different locator pair, should the original one stop working.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-shim6-proto-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-shim6-proto-12.txt' />
+</reference>

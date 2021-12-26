@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.roca-tsvwg-fecframev2'>
+<front>
+<title>Forward Error Correction (FEC) Framework version 2</title>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2016' />
+
+<abstract><t>This document describes a framework for using Forward Error Correction (FEC) codes with applications in public and private IP networks to provide protection against packet loss.  The framework supports applying FEC to arbitrary packet flows over unreliable transport and is primarily intended for real-time, or streaming, media.  This framework can be used to define Content Delivery Protocols that provide FEC for streaming media delivery or other packet flows.  Content Delivery Protocols defined using this framework can support any FEC scheme (and associated FEC codes) that is compliant with various requirements defined in this document. Thus, Content Delivery Protocols can be defined that are not specific to a particular FEC scheme, and FEC schemes can be defined that are not specific to a particular Content Delivery Protocol.  The first version of FECFRAME defined in [RFC6363] was restricted to block FEC codes.  The FECFRAME version 2 defined in this document adds the possibility to use Convolutional FEC Codes in addition to Block FEC Codes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-roca-tsvwg-fecframev2-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-roca-tsvwg-fecframev2-01.txt' />
+</reference>

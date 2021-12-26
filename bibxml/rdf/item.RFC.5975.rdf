@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc5975.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc5975.txt</link>
+        <title>RFC 5975: QSPEC Template for the Quality-of-Service NSIS Signaling Layer Protocol (NSLP), G. Ash, A. Bader, C. Kappler, D. Oran</title>
+        <dc:date>2010-10-01T23:00:00-00:00</dc:date>
+        <description>The Quality-of-Service (QoS) NSIS signaling layer protocol (NSLP) is used to signal QoS reservations and is independent of a specific QoS model (QOSM) such as IntServ or Diffserv.  Rather, all information specific to a QOSM is encapsulated in a separate object, the QSPEC.  This document defines a template for the QSPEC including a number of QSPEC parameters.  The QSPEC parameters provide a common language to be reused in several QOSMs and thereby aim to ensure the extensibility and interoperability of QoS NSLP.  While the base protocol is QOSM-agnostic, the parameters that can be carried in the QSPEC object are possibly closely coupled to specific models.  The node initiating the NSIS signaling adds an Initiator QSPEC, which indicates the QSPEC parameters that must be interpreted by the downstream nodes less the reservation fails, thereby ensuring the intention of the NSIS initiator is preserved along the signaling path.  This document defines an Experimental  Protocol for the Internet community. </description>
+    </item>
+

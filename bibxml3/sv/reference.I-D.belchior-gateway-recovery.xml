@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.belchior-gateway-recovery'>
+<front>
+<title>DLT Gateway Crash Recovery Mechanism</title>
+<author initials='R' surname='Belchior' fullname='Rafael Belchior'>
+<organization />
+</author>
+<author initials='M' surname='Correia' fullname='Miguel Correia'>
+<organization />
+</author>
+<author initials='T' surname='Hardjono' fullname='Thomas Hardjono'>
+<organization />
+</author>
+<date year='2021' month='October' day='11' />
+<abstract><t>This memo describes the crash recovery mechanism for the Open Digital Asset Protocol (ODAP), called ODAP-2PC.  The goal is to assure gateways running ODAP to be able to recover from crashes, and thus preserve the consistency of an asset across ledgers (i.e., double spend does not occur).  This draft includes the description of the messaging and logging flow necessary for the correct functioning of ODAP-2PC.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-belchior-gateway-recovery-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-belchior-gateway-recovery-03.txt'/>
+</reference>

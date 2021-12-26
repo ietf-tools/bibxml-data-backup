@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fiebig-security-acme'>
+<front>
+<title>Extended Security Considerations for the Automatic Certificate Management Environment (ESecACME)</title>
+
+<author initials='T' surname='Fiebig' fullname='Tobias Fiebig'>
+    <organization />
+</author>
+
+<author initials='K' surname='Borgolte' fullname='Kevin Borgolte'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2019' />
+
+<abstract><t>Most Public Key Infrastructure X.509 (PKIX) certificates are issued via the ACME protocol.  Recently, several attacks against domain validation (DV) have been published, including IP-use-after-free and (forced) on-path attacks.  These attacks can often be mitigated by (selectively) requiring additional challenges, such as DNS validation, proof of ownership of a prior certificate, and by being more diligent in operating a certificate authority.  This document provides a list of currently known attacks and describes mitigations and operational procedures to prevent issuing a certificate to an unauthorized party.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fiebig-security-acme-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fiebig-security-acme-01.txt' />
+</reference>

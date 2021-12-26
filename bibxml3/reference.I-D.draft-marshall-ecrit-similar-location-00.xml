@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.marshall-ecrit-similar-location'>
+<front>
+<title>A LoST extension to support return of similar location info</title>
+
+<author initials='J' surname='Martin' fullname='Jeff Martin'>
+    <organization />
+</author>
+
+<author initials='R' surname='Marshall' fullname='Roger Marshall'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>This document introduces a new way to return similar civic locations (i.e., address sets) when original input location is returned not valid within the findServiceResponse message.  This document defines a new extension to the findServiceResponse message within the LoST protocol [RFC5222], that enables the LoST protocol to return one or more suggested sets of civic location information.  This "similar" address information is included as compilation of ca type xml elements within the existing response message structure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-marshall-ecrit-similar-location-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-marshall-ecrit-similar-location-00.txt' />
+</reference>

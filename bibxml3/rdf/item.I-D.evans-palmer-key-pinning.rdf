@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-evans-palmer-key-pinning-00.txt'>
+    <title>"Public Key Pinning Extension for HTTP", Chris Evans, Chris Palmer</title>
+    <link>http://www.ietf.org/internet-drafts/draft-evans-palmer-key-pinning-00.txt</link>
+    <description>This memo describes an extension to the HTTP protocol allowing web host operators to instruct user agents (UAs) to remember ("pin") the hosts' cryptographic identities for a given period of time.  During that time, UAs will require that the host present a certificate chain including at least one Subject Public Key Info structure whose fingerprint matches one or more of the pinned fingerprints for that host.  By effectively reducing the scope of authorities who can authenticate the domain during the lifetime of the pin, pinning may reduce the incidence of man-in-the-middle attacks due to compromised Certification Authorities and other authentication errors and attacks.</description>
+    <dc:date>2011-11-13T23:00:00-00:00</dc:date>
+</item>

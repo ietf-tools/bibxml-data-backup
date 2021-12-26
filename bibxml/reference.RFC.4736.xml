@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4736' target='https://www.rfc-editor.org/info/rfc4736'>
+<front>
+<title>Reoptimization of Multiprotocol Label Switching (MPLS) Traffic Engineering (TE) Loosely Routed Label Switched Path (LSP)</title>
+<author initials='JP.' surname='Vasseur' fullname='JP. Vasseur' role='editor'><organization /></author>
+<author initials='Y.' surname='Ikejiri' fullname='Y. Ikejiri'><organization /></author>
+<author initials='R.' surname='Zhang' fullname='R. Zhang'><organization /></author>
+<date year='2006' month='November' />
+<abstract><t>This document defines a mechanism for the reoptimization of loosely routed MPLS and GMPLS (Generalized Multiprotocol Label Switching) Traffic Engineering (TE) Label Switched Paths (LSPs) signaled with Resource Reservation Protocol Traffic Engineering (RSVP-TE).  This document proposes a mechanism that allows a TE LSP head-end Label Switching Router (LSR) to trigger a new path re-evaluation on every hop that has a next hop defined as a loose or abstract hop and a mid-point LSR to signal to the head-end LSR that a better path exists (compared to the current path) or that the TE LSP must be reoptimized (because of maintenance required on the TE LSP path).  The proposed mechanism applies to the cases of intra- and inter-domain (Interior Gateway Protocol area (IGP area) or Autonomous System) packet and non-packet TE LSPs following a loosely routed path.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4736'/>
+<seriesInfo name='DOI' value='10.17487/RFC4736'/>
+</reference>

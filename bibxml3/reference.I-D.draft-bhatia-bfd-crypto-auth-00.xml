@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bhatia-bfd-crypto-auth'>
+<front>
+<title>BFD Generic Cryptographic Authentication</title>
+
+<author initials='M' surname='Bhatia' fullname='Manav Bhatia'>
+    <organization />
+</author>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='November' day='18' year='2008' />
+
+<abstract><t>This document proposes an extension for Bidirectional Forwarding Detection (BFD) to allow the use of any cryptographic authentication algorithm in addition to the already documented authentication schemes, described in the base specification.  Although this document has been written specifically to introduce two new Authentication types it describes how BFD can use Hashed Message Authentication Code (HMAC) construct along with the Secure Hash algorithm (SHA) [FIPS-180-3] family of cryptographic hash functions to authenticate the control packets.  The method described in this document is generic and can be used to extend BFD to support any cryptographic hash function in the future.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bhatia-bfd-crypto-auth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bhatia-bfd-crypto-auth-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tokbind-protocol'>
+<front>
+<title>The Token Binding Protocol Version 1.0</title>
+
+<author initials='A' surname='Popov' fullname='Andrey Popov'>
+    <organization />
+</author>
+
+<author initials='M' surname='Nystrom' fullname='Magnus Nystrom'>
+    <organization />
+</author>
+
+<author initials='D' surname='Balfanz' fullname='Dirk Balfanz'>
+    <organization />
+</author>
+
+<author initials='A' surname='Langley' fullname='Adam Langley'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2015' />
+
+<abstract><t>This document specifies Version 1.0 of the Token Binding protocol. The Token Binding protocol allows client/server applications to create long-lived, uniquely identifiable TLS [RFC5246] bindings spanning multiple TLS sessions and connections.  Applications are then enabled to cryptographically bind security tokens to the TLS layer, preventing token export and replay attacks.  To protect privacy, the TLS Token Binding identifiers are only transmitted encrypted and can be reset by the user at any time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tokbind-protocol-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tokbind-protocol-00.txt' />
+</reference>

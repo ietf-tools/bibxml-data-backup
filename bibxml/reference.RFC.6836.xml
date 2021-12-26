@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6836' target='https://www.rfc-editor.org/info/rfc6836'>
+<front>
+<title>Locator/ID Separation Protocol Alternative Logical Topology (LISP+ALT)</title>
+<author initials='V.' surname='Fuller' fullname='V. Fuller'><organization /></author>
+<author initials='D.' surname='Farinacci' fullname='D. Farinacci'><organization /></author>
+<author initials='D.' surname='Meyer' fullname='D. Meyer'><organization /></author>
+<author initials='D.' surname='Lewis' fullname='D. Lewis'><organization /></author>
+<date year='2013' month='January' />
+<abstract><t>This document describes a simple distributed index system to be used by a Locator/ID Separation Protocol (LISP) Ingress Tunnel Router (ITR) or Map-Resolver (MR) to find the Egress Tunnel Router (ETR) that holds the mapping information for a particular Endpoint Identifier (EID).  The MR can then query that ETR to obtain the actual mapping information, which consists of a list of Routing Locators (RLOCs) for the EID.  Termed the Alternative Logical Topology (ALT), the index is built as an overlay network on the public Internet using the Border Gateway Protocol (BGP) and Generic Routing Encapsulation (GRE).  This document defines an Experimental  Protocol for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6836'/>
+<seriesInfo name='DOI' value='10.17487/RFC6836'/>
+</reference>

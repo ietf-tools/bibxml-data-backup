@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pfister-pim-border-proxy'>
+<front>
+<title>Protocol Independent Multicast Border Proxying</title>
+
+<author initials='P' surname='Pfister' fullname='Pierre Pfister'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>This document describes an extension to the Protocol Independent Multicast (PIM) multicast routing protocol that enables PIM proxying from PIM domains toward other multicast domains.  It relies on PIM Proxies located on domain borders and Proxy Controllers which can be located anywhere.  This document describes how subscriptions can be proxied toward domain's border interfaces using MLDv2 and IGMPv3, but other protocols could be used as well.  Once multicast traffic is received on a proxied interface, it can be forwarded as if originated by a directly connected source.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pfister-pim-border-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pfister-pim-border-proxy-00.txt' />
+</reference>

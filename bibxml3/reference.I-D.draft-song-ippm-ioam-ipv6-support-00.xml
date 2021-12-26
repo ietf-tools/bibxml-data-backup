@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-ippm-ioam-ipv6-support'>
+<front>
+<title>Approaches on Supporting IOAM in IPv6</title>
+
+<author initials='H' surname='Song' fullname='Haoyu Song'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Peng' fullname='Shuping Peng'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2020' />
+
+<abstract><t>It has been proposed to encapsulate IOAM tracing option data fields in IPv6 HbH options header.  However, due to size of the trace data and its location in the IPv6 header packets, this arrangement creates practical challenges for implementation, especially when other extension headers, such as routing header, also exist and require in- network processing.  We propose several alternative approaches to address this challenge, including separating the IOAM trace data to a different extension header, using the postcard-based telemetry (e.g., IOAM DEX) instead, and applying the segment IOAM trace export scheme, based on the network scenario and application requirements.  We discuss the pros and cons of each approach and foster standard convergence and industry adoption.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-ippm-ioam-ipv6-support-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-ippm-ioam-ipv6-support-00.txt' />
+</reference>

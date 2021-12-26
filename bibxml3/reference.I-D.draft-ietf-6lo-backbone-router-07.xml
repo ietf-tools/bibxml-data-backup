@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6lo-backbone-router'>
+<front>
+<title>IPv6 Backbone Router</title>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Charles Perkins'>
+    <organization />
+</author>
+
+<date month='September' day='3' year='2018' />
+
+<abstract><t>Backbone Routers placed at the wireless edge of a backbone link interconnect multiple wireless links at Layer-3 to form a large MultiLink Subnet, so that the broadcast domain of the backbone does not extend to the wireless links.  Wireless nodes register or are proxy-registered to a Backbone Router to establish IPv6 Neighbor Discovery proxy services, and the Backbone Router takes care of the ND operation on behalf of registered nodes and ensures and routes towards the registered addresses over the wireless interface.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6lo-backbone-router-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6lo-backbone-router-07.txt' />
+</reference>

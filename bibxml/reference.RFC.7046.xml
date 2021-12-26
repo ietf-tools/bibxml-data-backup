@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7046' target='https://www.rfc-editor.org/info/rfc7046'>
+<front>
+<title>A Common API for Transparent Hybrid Multicast</title>
+<author initials='M.' surname='Waehlisch' fullname='M. Waehlisch'><organization /></author>
+<author initials='T.' surname='Schmidt' fullname='T. Schmidt'><organization /></author>
+<author initials='S.' surname='Venaas' fullname='S. Venaas'><organization /></author>
+<date year='2013' month='December' />
+<abstract><t>Group communication services exist in a large variety of flavors and technical implementations at different protocol layers.  Multicast data distribution is most efficiently performed on the lowest available layer, but a heterogeneous deployment status of multicast technologies throughout the Internet requires an adaptive service binding at runtime.  Today, it is difficult to write an application that runs everywhere and at the same time makes use of the most efficient multicast service available in the network.  Facing robustness requirements, developers are frequently forced to use a stable upper-layer protocol provided by the application itself.  This document describes a common multicast API that is suitable for transparent communication in underlay and overlay and that grants access to the different flavors of multicast.  It proposes an abstract naming scheme that uses multicast URIs, and it discusses mapping mechanisms between different namespaces and distribution technologies.  Additionally, this document describes the application of this API for building gateways that interconnect current Multicast Domains throughout the Internet.  It reports on an implementation of the programming Interface, including service middleware.  This document is a product of the Scalable Adaptive Multicast (SAM) Research Group.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7046'/>
+<seriesInfo name='DOI' value='10.17487/RFC7046'/>
+</reference>

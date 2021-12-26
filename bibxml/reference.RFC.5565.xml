@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5565' target='https://www.rfc-editor.org/info/rfc5565'>
+<front>
+<title>Softwire Mesh Framework</title>
+<author initials='J.' surname='Wu' fullname='J. Wu'><organization /></author>
+<author initials='Y.' surname='Cui' fullname='Y. Cui'><organization /></author>
+<author initials='C.' surname='Metz' fullname='C. Metz'><organization /></author>
+<author initials='E.' surname='Rosen' fullname='E. Rosen'><organization /></author>
+<date year='2009' month='June' />
+<abstract><t>The Internet needs to be able to handle both IPv4 and IPv6 packets. However, it is expected that some constituent networks of the Internet will be &quot;single-protocol&quot; networks.  One kind of single-protocol network can parse only IPv4 packets and can process only IPv4 routing information; another kind can parse only IPv6 packets and can process only IPv6 routing information.  It is nevertheless required that either kind of single-protocol network be able to provide transit service for the &quot;other&quot; protocol.  This is done by passing the &quot;other kind&quot; of routing information from one edge of the single-protocol network to the other, and by tunneling the &quot;other kind&quot; of data packet from one edge to the other.  The tunnels are known as &quot;softwires&quot;.  This framework document explains how the routing information and the data packets of one protocol are passed through a single-protocol network of the other protocol.  The document is careful to specify when this can be done with existing technology and when it requires the development of new or modified technology.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5565'/>
+<seriesInfo name='DOI' value='10.17487/RFC5565'/>
+</reference>

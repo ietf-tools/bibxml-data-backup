@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8899' target='https://www.rfc-editor.org/info/rfc8899'>
+<front>
+<title>Packetization Layer Path MTU Discovery for Datagram Transports</title>
+<author initials='G.' surname='Fairhurst' fullname='G. Fairhurst'><organization /></author>
+<author initials='T.' surname='Jones' fullname='T. Jones'><organization /></author>
+<author initials='M.' surname='Tüxen' fullname='M. Tüxen'><organization /></author>
+<author initials='I.' surname='Rüngeler' fullname='I. Rüngeler'><organization /></author>
+<author initials='T.' surname='Völker' fullname='T. Völker'><organization /></author>
+<date year='2020' month='September' />
+<abstract><t>This document specifies Datagram Packetization Layer Path MTU Discovery (DPLPMTUD). This is a robust method for Path MTU Discovery (PMTUD) for datagram Packetization Layers (PLs). It allows a PL, or a datagram application that uses a PL, to discover whether a network path can support the current size of datagram.  This can be used to detect and reduce the message size when a sender encounters a packet black hole. It can also probe a network path to discover whether the maximum packet size can be increased.  This provides functionality for datagram transports that is equivalent to the PLPMTUD specification for TCP, specified in RFC 4821, which it updates. It also updates the UDP Usage Guidelines to refer to this method for use with UDP datagrams and updates SCTP.</t><t>The document provides implementation notes for incorporating Datagram PMTUD into IETF datagram transports or applications that use datagram transports.</t><t>This specification updates RFC 4960, RFC 4821, RFC 6951, RFC 8085, and RFC 8261.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8899'/>
+<seriesInfo name='DOI' value='10.17487/RFC8899'/>
+</reference>

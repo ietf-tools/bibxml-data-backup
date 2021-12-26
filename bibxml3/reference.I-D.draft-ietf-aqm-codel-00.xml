@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-aqm-codel'>
+<front>
+<title>Controlled Delay Active Queue Management</title>
+
+<author initials='K' surname='Nichols' fullname='Kathleen Nichols'>
+    <organization />
+</author>
+
+<author initials='V' surname='Jacobson' fullname='Van Jacobson'>
+    <organization />
+</author>
+
+<author initials='A' surname='McGregor' fullname='Andrew McGregor'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jana' fullname='Jana'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2014' />
+
+<abstract><t>The "persistently full buffer" problem has been discussed in the IETF community since the early 80's [RFC896].  The IRTF's End-to-End Working Group called for the deployment of active queue management (AQM) to solve the problem in 1998 [RFC2309].  Despite the awareness, the problem has only gotten worse as Moore's Law growth in memory density fueled an exponential increase in buffer pool size.  Efforts to deploy AQM have been frustrated by difficult configuration and negative impact on network utilization.  This problem, recently christened "bufferbloat", [TSVBB2011] [BB2011] has become increasingly important throughout the Internet but particularly at the consumer edge.  This document describes a general framework called CoDel (Controlled Delay) [CODEL2012] that controls bufferbloat-generated excess delay in modern networking environments.  CoDel consists of an estimator, a setpoint, and a control loop.  It requires no configuration in normal Internet deployments.  CoDel comprises some major technical innovations and has been made available as open source so that the framework can be applied by the community to a range of problems.  It has been implemented in Linux (and available in the Linux distribution) and deployed in some networks at the consumer edge.  In addition, the framework has been successfully applied in other ways.  Note: Code Components extracted from this document must include the license as included with the code in Section 5.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-aqm-codel-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-aqm-codel-00.txt' />
+</reference>

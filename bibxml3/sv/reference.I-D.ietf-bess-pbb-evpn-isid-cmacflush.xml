@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-pbb-evpn-isid-cmacflush'>
+<front>
+<title>PBB-EVPN ISID-based CMAC-Flush</title>
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+<organization />
+</author>
+<author initials='S' surname='Sathappan' fullname='Senthil Sathappan'>
+<organization />
+</author>
+<author initials='K' surname='Nagaraj' fullname='Kiran Nagaraj'>
+<organization />
+</author>
+<author initials='M' surname='Miyake' fullname='Masahiro Miyake'>
+<organization />
+</author>
+<author initials='T' surname='Matsuda' fullname='Taku Matsuda'>
+<organization />
+</author>
+<date year='2021' month='November' day='18' />
+<abstract><t>Provider Backbone Bridging (PBB) can be combined with Ethernet VPN (EVPN) to deploy Ethernet Local Area Network (ELAN) services in large Multi-Protocol Label Switching (MPLS) networks (PBB-EVPN).  Single- Active Multi-homing and per-I-SID (per Service Instance Identifier) Load-Balancing can be provided to access devices and aggregation networks.  In order to speed up the network convergence in case of failures on Single-Active Multi-Homed Ethernet Segments, PBB-EVPN defines a flush mechanism for Customer MACs (CMAC-flush) that works for different Ethernet Segment Backbone MAC (BMAC) address allocation models.  This document complements those CMAC-flush procedures for cases in which no PBB-EVPN Ethernet Segments are defined (the attachment circuit is associated to a zero Ethernet Segment Identifier) and a Service Instance Identifier based (I-SID-based) CMAC-flush granularity is required.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-pbb-evpn-isid-cmacflush-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-bess-pbb-evpn-isid-cmacflush-04.txt'/>
+</reference>

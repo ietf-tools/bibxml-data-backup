@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsext-forgery-resilience'>
+<front>
+<title>Measures for making DNS more resilient against forged answers</title>
+
+<author initials='B' surname='Hubert' fullname='Bert Hubert'>
+    <organization />
+</author>
+
+<author initials='R' surname='Mook' fullname='Remco van Mook'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2008' />
+
+<abstract><t>The current Internet climate poses serious threats to the Domain Name System.  In the interim period before the DNS protocol can be secured more fully, measures can already be taken to harden the DNS to make 'spoofing' a recursing nameserver many orders of magnitude harder.  Even a cryptographically secured DNS benefits from having the ability to discard bogus answers quickly, as this potentially saves large amounts of computation.  By describing certain behaviour that has previously not been standardised, this document sets out how to make the DNS more resilient against accepting incorrect answers.  This document updates RFC 1034.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsext-forgery-resilience-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsext-forgery-resilience-02.txt' />
+</reference>

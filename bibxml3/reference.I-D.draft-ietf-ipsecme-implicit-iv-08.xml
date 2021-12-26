@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-implicit-iv'>
+<front>
+<title>Implicit IV for Counter-based Ciphers in Encapsulating Security Payload (ESP)</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='T' surname='Guggemos' fullname='Tobias Guggemos'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+    <organization />
+</author>
+
+<date month='October' day='16' year='2019' />
+
+<abstract><t>Encapsulating Security Payload (ESP) sends an initialization vector (IV) in each packet.  The size of IV depends on the applied transform, being usually 8 or 16 octets for the transforms defined by the time this document is written.  Some algorithms such as AES-GCM, AES-CCM and ChaCha20-Poly1305 when used with IPsec, take the IV to generate a nonce that is used as an input parameter for encrypting and decrypting.  These algorithms require a unique IV but do not require an unpredictable IV.  As a result, the value provided in the ESP Sequence Number (SN) can be used instead to generate the nonce. This avoids sending the IV itself, and saves in the case of AES-GCM, AES-CCM and ChaCha20-Poly1305 8 octets per packet.  This document describes how to do this.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-implicit-iv-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-implicit-iv-08.txt' />
+</reference>

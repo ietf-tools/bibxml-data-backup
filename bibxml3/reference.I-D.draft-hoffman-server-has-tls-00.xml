@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-server-has-tls'>
+<front>
+<title>Specifying That a Server Supports TLS</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='November' day='30' year='2010' />
+
+<abstract><t>A server that hosts applications that can be run with or without TLS may want to communicate with clients whether the server is hosting an application only using TLS or also hosting the application without TLS.  Doing so tells clients that try using TLS but fail to set up a TLS session whether or not they should even try to set up an insecure session with the server.  This document describes the use cases for this type of communication and a secure method for communicating that information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-server-has-tls-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-server-has-tls-00.txt' />
+</reference>

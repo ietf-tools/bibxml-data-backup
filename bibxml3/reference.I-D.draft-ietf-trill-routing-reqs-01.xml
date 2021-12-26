@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-routing-reqs'>
+<front>
+<title>TRILL Routing Requirements in Support of RBridges</title>
+
+<author initials='E' surname='Gray' fullname='Eric Gray'>
+    <organization />
+</author>
+
+<date month='January' day='8' year='2007' />
+
+<abstract><t>RBridges provide the ability to have an entire domain, with multiple physical links, look to IP like a single subnet. The design allows for zero configuration of switches within an RBridge domain, optimal pair-wise routing, safe forwarding even during periods of temporary loops, and potential additional advantages as well. The design also supports VLANs, allows forwarding tables to be based on destinations within the RBridge domain (rather than station destinations, allowing internal forwarding tables to be smaller than in conventional bridge systems). The intent is to re-uses one or more existing routing protocols to accomplish these goals. This document lays out the background and specific requirements of potential routing protocols to be considered for use in this design. In particular, this document defines what is needed to accomodate this design using IS-IS (or OSPF) as a basis for RBridge protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-routing-reqs-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-routing-reqs-01.txt' />
+</reference>

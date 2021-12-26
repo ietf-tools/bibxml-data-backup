@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chown-v6ops-rogue-ra'>
+<front>
+<title>Rogue IPv6 Router Advertisement Problem Statement</title>
+
+<author initials='T' surname='Chown' fullname='Tim Chown'>
+    <organization />
+</author>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2007' />
+
+<abstract><t>When deploying IPv6 networks, whether IPv6-only or dual-stack, routers are configured to use IPv6 Router Advertisements to convey information to on link nodes that enable them to autoconfigure on the network.  This information includes the implied default router address taken from the observed source address of the Router Advertisement (RA) message.  However, in some networks 'bogus' RAs are observed, which may be present due to misconfigurations or possibly malicious attacks on the network.  In this draft we summarise the scenarios in which rogue RAs may be observed, and we present a list of possible solutions to the problem.  The goal of this draft is to present a framework around which solutions can be proposed and discussed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chown-v6ops-rogue-ra-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chown-v6ops-rogue-ra-00.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mattsson-srtp-store-and-forward'>
+<front>
+<title>SRTP Store-and-Forward Use Cases and Requirements</title>
+
+<author initials='R' surname='Blom' fullname='Rolf Blom'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cheng' fullname='Yi Cheng'>
+    <organization />
+</author>
+
+<author initials='F' surname='Lindholm' fullname='Fredrik Lindholm'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Naslund' fullname='Mats Naslund'>
+    <organization />
+</author>
+
+<author initials='K' surname='Norrman' fullname='Karl Norrman'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2011' />
+
+<abstract><t>The Secure Real-time Transport Protocol (SRTP) was designed to allow simple and efficient protection of RTP.  To provide this, encryption and authentication of media and control signaling are tightly coupled to the RTP session, and the information in the RTP header.  Hence, in general, it is not possible to perform store-and-forward of protected media using SRTP.  This document gives, based on a use case analysis, requirements that SRTP and new SRTP transforms need to satisfy in order to allow secure store-and-forward operation.  A first outline on how to introduce the needed new functionality and transforms in SRTP is also presented.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mattsson-srtp-store-and-forward-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mattsson-srtp-store-and-forward-04.txt' />
+</reference>

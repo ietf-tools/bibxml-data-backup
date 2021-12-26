@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.asati-pim-multicast-routing-blackhole-avoid'>
+<front>
+<title>Multicast Routing Blackhole Avoidance</title>
+
+<author initials='R' surname='Asati' fullname='Rajiv Asati'>
+    <organization />
+</author>
+
+<author initials='M' surname='McBride' fullname='Mike McBride'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2008' />
+
+<abstract><t>This document specifies a mechanism to avoid blackholing of IP Multicast traffic due to the disruption of multicast tree during the time when the RPF neighbor is yet to become the PIM neighbor. Such scenario is possible during the topology change (e.g. link UP) in an IP network that employs PIM-SM (or SSM) as the multicast routing protocol and a unicast routing protocol (including static routing).  Conventions used in this document  In examples, "C:" and "S:" indicate lines sent by the client and server respectively.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-asati-pim-multicast-routing-blackhole-avoid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-asati-pim-multicast-routing-blackhole-avoid-00.txt' />
+</reference>

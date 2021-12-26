@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schmertmann-dice-codtls'>
+<front>
+<title>CoDTLS: DTLS handshakes over CoAP</title>
+
+<author initials='L' surname='Schmertmann' fullname='Lars Schmertmann'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hartke' fullname='Klaus Hartke'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>The Datagram Transport Layer Security protocol, DTLS, is usually transported over UDP.  In Constrained Node Networks, there may be considerable limitations on the packet delivery rates and on practically usable packet sizes.  Applications often can control the size and retransmission requirements of their data packets, but the DTLS handshake is out of scope for such application optimizations.  This specification defines how to perform a DTLS handshake on top of the CoAP protocol.  The resulting DTLS connection may then be used for instance for transporting CoAP, or as a source of keying material.  The latter case is particularly interesting if the CoAP exchanges transporting the DTLS handshake messages traverse CoAP proxies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schmertmann-dice-codtls-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schmertmann-dice-codtls-00.txt' />
+</reference>

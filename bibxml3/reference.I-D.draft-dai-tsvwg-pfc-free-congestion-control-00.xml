@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dai-tsvwg-pfc-free-congestion-control'>
+<front>
+<title>PFC-Free Low Delay Control Protocol</title>
+
+<author initials='H' surname='Dai' fullname='Huichen Dai'>
+    <organization />
+</author>
+
+<author initials='B' surname='Fu' fullname='Binzhang Fu'>
+    <organization />
+</author>
+
+<author initials='K' surname='Tan' fullname='Kun Tan'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>Today, low-latency transport protocols like RDMA over Converged Ethernet (RoCE) can provide good delay and throughput performance in small and lightly loaded high-speed datacenter networks due to lossless transport based on priority-based flow control (PFC). However, PFC suffers from various issues from performance degradation and unreliability (e.g., deadlock), limiting the deployment of RoCE to only small scale clusters (~1000).  This document presents LDCP, a new transport that scales loss- sensitive transports, e.g., RDMA, to entire data-centers containing tens of thousands machines, without dependency on PFC for losslessness, i.e., PFC-free.  LDCP develops a novel end-to-end congestion control scheme and achieves very low queue occupancy even under high network utilization or large traffic churns, resulting in almost no packet loss.  Meanwhile, LDCP allows a new flow to jump start at full speed at the very beginning and therefore minimizes the latency for short RPC-style transactions.  LDCP relies on only WRED and ECN, two widely supported features on switches, so it can be easily deployed in existing network infrastructures.  Finally, LDCP is simple by design and thus can be easily implemented by programmable or ASIC NICs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dai-tsvwg-pfc-free-congestion-control-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dai-tsvwg-pfc-free-congestion-control-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.arkko-homenet-prefix-assignment'>
+<front>
+<title>Prefix Assignment in a Home Network</title>
+
+<author initials='J' surname='Arkko' fullname='Jari Arkko'>
+    <organization />
+</author>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='B' surname='Paterson' fullname='Benjamin Paterson'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2012' />
+
+<abstract><t>This memo describes a prefix assignment mechanism for home networks. It is expected that home gateway routers are allocated an IPv6 prefix through DHCPv6 Prefix Delegation (PD) or that a prefix is made available through other means.  This prefix needs to be divided among the multiple subnets in a home network.  This memo describes a mechanism for such division, or assignment, via OSPFv3.  This is an alternative design to also using DHCPv6 PD for the assignment.  The memo is input to the working group so that it can make a decision on which type of design to pursue.  It is expected that a routing- protocol based assignment uses a minimal amount of prefixes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-arkko-homenet-prefix-assignment-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-arkko-homenet-prefix-assignment-02.txt' />
+</reference>

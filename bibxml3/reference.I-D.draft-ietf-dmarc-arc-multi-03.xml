@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmarc-arc-multi'>
+<front>
+<title>Using Multiple Signing Algorithms with the ARC (Authenticated Received Chain) Protocol</title>
+
+<author initials='K' surname='Andersen' fullname='Kurt Andersen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blank' fullname='Seth Blank'>
+    <organization />
+</author>
+
+<author initials='J' surname='Levine' fullname='John Levine'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2019' />
+
+<abstract><t>The Authenticated Received Chain (ARC) protocol creates a mechanism whereby a series of handlers of an email message can conduct authentication of the email message as it passes among them on the way to its destination.  Initial development of ARC has been done with a single allowed signing algorithm, but parallel work in the DCRUP working group (https://datatracker.ietf.org/wg/dcrup/about/) is expanding the supported algorithms.  This specification defines how to extend ARC for multiple signing algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmarc-arc-multi-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmarc-arc-multi-03.txt' />
+</reference>

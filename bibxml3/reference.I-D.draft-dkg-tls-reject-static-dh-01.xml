@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dkg-tls-reject-static-dh'>
+<front>
+<title>TLS clients should reject static Diffie-Hellman</title>
+
+<author initials='D' surname='Gillmor' fullname='Daniel Gillmor'>
+    <organization />
+</author>
+
+<date month='December' day='4' year='2018' />
+
+<abstract><t>This draft addresses problematic proposals that contradict the expected security properties of TLS.  In particular, the ETSI "Middlebox Security Protocol" standard deliberately weakens the cryptographic guarantees of TLS unilaterally by the server, using static Diffie-Hellman keys where ephemeral keys are expected. Responsible TLS clients should avoid connecting to servers that appear to implement such a specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dkg-tls-reject-static-dh-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dkg-tls-reject-static-dh-01.txt' />
+</reference>

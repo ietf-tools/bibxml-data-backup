@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.atlas-ip-local-protect-loopfree'>
+<front>
+<title>Loop-Free Alternates for IP/LDP Local Protection</title>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2004' />
+
+<abstract><t>This document defines an architecture and selection process for providing local protection for IP unicast and/or LDP traffic in the event of a single link or node failure until the router has converged. When computing the primary next-hop for a prefix, a router S also determines an alternate next-hop which can be used if the primary next-hop fails. The alternate next-hop is said to be a loop-free alternate, which goes to a neighbor whose shortest path to the prefix does not go back through the router S.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-atlas-ip-local-protect-loopfree-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-atlas-ip-local-protect-loopfree-00.txt' />
+</reference>

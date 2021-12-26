@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zjns-mpls-lsp-ping-relay-reply'>
+<front>
+<title>Echo Relay Reply mechanism for LSP Ping</title>
+
+<author initials='Z' surname='Zheng' fullname='Zhi Zheng'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jin' fullname='Lizhong Jin'>
+    <organization />
+</author>
+
+<author initials='T' surname='Nadeau' fullname='Thomas Nadeau'>
+    <organization />
+</author>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<date month='June' day='15' year='2012' />
+
+<abstract><t>[RFC4379] describes the LSP Ping mechanism to detect data plane failures.  In some deployment scenario for the LSP traceroute, a replying LSR may not have the available route to the initiator, and the echo reply message sent to the initiator would be discarded. Thus, the basic idea of traceroute procedure to localize fault could not be achieved.  This document describes extensions to LSP Ping mechanism to enable the replying LSR to have the capability to relay the echo reply by a set of routable intermediate nodes to the initiator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zjns-mpls-lsp-ping-relay-reply-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zjns-mpls-lsp-ping-relay-reply-00.txt' />
+</reference>

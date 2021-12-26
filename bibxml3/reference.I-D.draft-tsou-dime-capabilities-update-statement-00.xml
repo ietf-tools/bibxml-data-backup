@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tsou-dime-capabilities-update-statement'>
+<front>
+<title>Capabilities Update Problem Statement</title>
+
+<author initials='T' surname='Tsou' fullname='Tina Tsou'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2008' />
+
+<abstract><t>This specification clarifies "Capabilities Update" in OPEN state defined in RFC 3588bis.  Capabilities update in OPEN state can reuse commands CER/CEA commands for re-negotiation between Diameter peers when one of them changes its capabilities.It is a very important function in Diameter.  However, RFC 3588 has defined a mechanism of containing capabilities list both in CER and CEA commands and the peer should update its local database whenever it receives CER/CEA.  This makes the process complex and redundant when they are used in OPEN state.  So this draft proposes a simpler solution based on CER/CEA commands to deal with this problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tsou-dime-capabilities-update-statement-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tsou-dime-capabilities-update-statement-00.txt' />
+</reference>

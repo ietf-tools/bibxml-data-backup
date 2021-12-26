@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.borchert-sidrops-rpki-state-unverified'>
+<front>
+<title>RPKI Route Origin Validation State Unverified</title>
+
+<author initials='O' surname='Borchert' fullname='Oliver Borchert'>
+    <organization />
+</author>
+
+<author initials='D' surname='Montgomery' fullname='Doug Montgomery'>
+    <organization />
+</author>
+
+<date month='July' day='9' year='2020' />
+
+<abstract><t>In case operators decide not to evaluate BGP route prefixes according to RPKI route origin validation (ROV), none of the available states as specified in RFC 6811 do properly represent this decision. This document introduces "Unverified" as well-defined validation state which allows to properly identify route prefixes as not evaluated according to RPKI route origin validation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-borchert-sidrops-rpki-state-unverified-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-borchert-sidrops-rpki-state-unverified-03.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zeng-idr-bgp-mtu-extension'>
+<front>
+<title>Maximum Transmission Unit Extended Community for BGP-4</title>
+
+<author initials='Q' surname='Zeng' fullname='Qing Zeng'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2012' />
+
+<abstract><t>Proper functioning of path Maximum Transmission Unit (MTU) discovery [RFC1191] requires that IP routers have knowledge of the MTU for each link to which they are connected.  As MPLS progresses, [RFC3988] specifies extensions to LDP in support of LDP LSP MTU discovery.  For the LSP created using Border Gateway Protocol (BGP) [RFC3107], it does not have the ability to signal the path MTU to the ingress Label Switching Router (LSR).  In the absence of this functionality, the MTU for the BGP LSP must be statically configured by network operators or by equivalent off-line mechanisms.  This document defines the MTU Extended Community for BGP in support of BGP LSP MTU discovery.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zeng-idr-bgp-mtu-extension-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zeng-idr-bgp-mtu-extension-02.txt' />
+</reference>

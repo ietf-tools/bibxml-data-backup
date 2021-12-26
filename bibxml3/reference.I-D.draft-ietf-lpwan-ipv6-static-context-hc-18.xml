@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lpwan-ipv6-static-context-hc'>
+<front>
+<title>LPWAN Static Context Header Compression (SCHC) and fragmentation for IPv6 and UDP</title>
+
+<author initials='A' surname='Minaburo' fullname='Ana Minaburo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Toutain' fullname='Laurent Toutain'>
+    <organization />
+</author>
+
+<author initials='C' surname='Gomez' fullname='Carles Gomez'>
+    <organization />
+</author>
+
+<author initials='D' surname='Barthel' fullname='Dominique Barthel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zuniga' fullname='Juan Zuniga'>
+    <organization />
+</author>
+
+<date month='December' day='14' year='2018' />
+
+<abstract><t>This document defines the Static Context Header Compression (SCHC) framework, which provides both header compression and fragmentation functionalities.  SCHC has been designed for Low Power Wide Area Networks (LPWAN).  SCHC compression is based on a common static context stored in both the LPWAN device and the network side.  This document defines a header compression mechanism and its application to compress IPv6/UDP headers.  This document also specifies a fragmentation and reassembly mechanism that is used to support the IPv6 MTU requirement over the LPWAN technologies.  Fragmentation is needed for IPv6 datagrams that, after SCHC compression or when such compression was not possible, still exceed the layer-2 maximum payload size.  The SCHC header compression and fragmentation mechanisms are independent of the specific LPWAN technology over which they are used.  This document defines generic functionalities and offers flexibility with regard to parameter settings and mechanism choices. This document standardizes the exchange over the LPWAN between two SCHC entities.  Settings and choices specific to a technology or a product are expected to be grouped into profiles, which are specified in other documents.  Data models for the context and profiles are out of scope.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lpwan-ipv6-static-context-hc-18' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lpwan-ipv6-static-context-hc-18.txt' />
+</reference>

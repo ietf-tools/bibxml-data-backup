@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6259' target='https://www.rfc-editor.org/info/rfc6259'>
+<front>
+<title>Delay-Tolerant Networking Previous-Hop Insertion Block</title>
+<author initials='S.' surname='Symington' fullname='S. Symington'><organization /></author>
+<date year='2011' month='May' />
+<abstract><t>This document defines an extension block for use with the Delay- Tolerant Networking (DTN) Bundle Protocol.  This Previous-Hop Insertion Block (PHIB) extension block is designed to be inserted by a forwarding node to provide the endpoint identifier (EID) of an endpoint of which the forwarding node is a member so that this EID may be conveyed to the next-hop receiving node.  Knowledge of an EID of an endpoint of which a previous-hop node is a member may be required in some circumstances to support certain routing protocols (e.g., flood routing).  If this EID cannot be provided by the convergence layer or other means, the PHIB defines the mechanism whereby the EID can be provided with the bundle.  Each PHIB is always removed from the bundle by the receiving node so that its presence within the bundle is limited to exactly one hop.  This document defines the format and processing of this PHIB.  This document is a product of the Delay-Tolerant Networking Research Group and has been reviewed by that group.  No objections to its publication as an RFC were raised.  This document defines an Experimental Protocol for the  Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6259'/>
+<seriesInfo name='DOI' value='10.17487/RFC6259'/>
+</reference>

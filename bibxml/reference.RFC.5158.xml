@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5158' target='https://www.rfc-editor.org/info/rfc5158'>
+<front>
+<title>6to4 Reverse DNS Delegation Specification</title>
+<author initials='G.' surname='Huston' fullname='G. Huston'><organization /></author>
+<date year='2008' month='March' />
+<abstract><t>This memo describes the service mechanism for entering a delegation of DNS servers that provide reverse lookup of 6to4 IPv6 addresses into the 6to4 reverse zone file.  The mechanism is based on a conventional DNS delegation service interface, allowing the service client to enter the details of a number of DNS servers for the delegated domain.  In the context of a 6to4 reverse delegation, the client is primarily authenticated by its source address used in the delegation request, and is authorized to use the function if its IPv6 address prefix corresponds to an address from within the requested 6to4 delegation address block.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5158'/>
+<seriesInfo name='DOI' value='10.17487/RFC5158'/>
+</reference>

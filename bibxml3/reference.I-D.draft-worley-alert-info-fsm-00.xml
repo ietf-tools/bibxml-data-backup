@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.worley-alert-info-fsm'>
+<front>
+<title>Simpler Algorithms for Processing Alert-Info URNs</title>
+
+<author initials='D' surname='Worley' fullname='Dale Worley'>
+    <organization />
+</author>
+
+<date month='April' day='19' year='2016' />
+
+<abstract><t>The "alert" namespace of uniform resource names (URNs) can be used in the Alert-Info header field of Session Initiation Protocol (SIP) requests and responses to inform a VoIP telephone (user agent) of the characteristics of the call that the user agent has originated or terminated.  Based on the URNs in the Alert-Info header field, the user agent must select an the best available signal to present to its user to indicate the characteristics of the call.  This document describes a method of constructing a finite state machine (FSM) to do this selection.  In many situations, the resulting FSM is simpler and faster than previously described selection algorithms.  The designer must construct the FSM so that its behavior will satisfy the requirements given in the definition of the "alert" URN namespace.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-worley-alert-info-fsm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-worley-alert-info-fsm-00.txt' />
+</reference>

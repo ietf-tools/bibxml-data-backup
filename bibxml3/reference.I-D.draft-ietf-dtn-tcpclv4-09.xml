@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dtn-tcpclv4'>
+<front>
+<title>Delay-Tolerant Networking TCP Convergence Layer Protocol Version 4</title>
+
+<author initials='B' surname='Sipos' fullname='Brian Sipos'>
+    <organization />
+</author>
+
+<author initials='M' surname='Demmer' fullname='Michael Demmer'>
+    <organization />
+</author>
+
+<author initials='J' surname='Ott' fullname='Joerg Ott'>
+    <organization />
+</author>
+
+<author initials='S' surname='Perreault' fullname='Simon Perreault'>
+    <organization />
+</author>
+
+<date month='June' day='24' year='2018' />
+
+<abstract><t>This document describes a revised protocol for the TCP-based convergence layer (TCPCL) for Delay-Tolerant Networking (DTN).  The protocol revision is based on implementation issues in the original TCPCL Version 3 of [RFC7242] and updates to the Bundle Protocol contents, encodings, and convergence layer requirements in Bundle Protocol Version 7.  Specifically, the TCPCLv4 uses CBOR-encoded BPv7 bundles as its service data unit being transported and provides a reliable transport of such bundles.  Several new IANA registries are defined for TCPCLv4 which define some behaviors inherited from TCPCLv3 but with updated encodings and/or semantics.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dtn-tcpclv4-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dtn-tcpclv4-09.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.meng-behave-napgt'>
+<front>
+<title>Network Address Port Group Translator</title>
+
+<author initials='W' surname='Meng' fullname='Wei Meng'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>Currently, if an internal server and hosts are behind NAT, they cannot share a global IP address except adding lots of static NAPT rule configuration.  Because if a server wants to provide a service by constant port(i.e. HTTP and FTP) , the destination port of packet sent by an external client should not be changed when it crosses NAT. This document specifies a new method to assign NAPT global address and port, aiming to solve the problem that internal servers and hosts cannot share less global IP addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-meng-behave-napgt-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-meng-behave-napgt-01.txt' />
+</reference>

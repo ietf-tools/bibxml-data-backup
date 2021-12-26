@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7389' target='https://www.rfc-editor.org/info/rfc7389'>
+<front>
+<title>Separation of Control and User Plane for Proxy Mobile IPv6</title>
+<author initials='R.' surname='Wakikawa' fullname='R. Wakikawa'><organization /></author>
+<author initials='R.' surname='Pazhyannur' fullname='R. Pazhyannur'><organization /></author>
+<author initials='S.' surname='Gundavelli' fullname='S. Gundavelli'><organization /></author>
+<author initials='C.' surname='Perkins' fullname='C. Perkins'><organization /></author>
+<date year='2014' month='October' />
+<abstract><t>This document specifies a method to split the control plane (CP) and user plane (UP) for a network infrastructure based on Proxy Mobile IPv6 (PMIPv6).  Existing specifications allow a mobile access gateway (MAG) to separate its control and user plane using the Alternate Care-of Address mobility option for IPv6 or Alternate IPv4 Care-of Address option for IPv4.  However, the current specification does not provide any mechanism allowing the local mobility anchor (LMA) to perform an analogous functional split.  To remedy that shortcoming, this document specifies a mobility option enabling an LMA to provide an alternate LMA address to be used for the bidirectional user-plane traffic between the MAG and LMA.  With this new option, an LMA will be able to use an IP address for its user plane that is different than the IP address used for the control plane.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7389'/>
+<seriesInfo name='DOI' value='10.17487/RFC7389'/>
+</reference>

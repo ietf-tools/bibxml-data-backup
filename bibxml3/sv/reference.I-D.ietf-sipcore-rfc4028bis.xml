@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipcore-rfc4028bis'>
+<front>
+<title>Session Timers in the Session Initiation Protocol (SIP)</title>
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+<organization />
+</author>
+<author initials='S' surname='Donovan' fullname='Steve Donovan'>
+<organization />
+</author>
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+<organization />
+</author>
+<date year='2021' month='July' day='27' />
+<abstract><t>This document defines an extension to the Session Initiation Protocol (SIP).  This extension allows for a periodic refresh of SIP sessions through a re-INVITE or UPDATE request.  The refresh allows both user agents and proxies to determine whether the SIP session is still active.  The extension defines two new header fields: Session- Expires, which conveys the lifetime of the session, and Min-SE, which conveys the minimum allowed value for the session timer.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipcore-rfc4028bis-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-sipcore-rfc4028bis-05.txt'/>
+</reference>

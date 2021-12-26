@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-teas-sr-rsvp-coexistence-rec'>
+<front>
+<title>Recommendations for RSVP-TE and Segment Routing LSP co-existence</title>
+
+<author initials='H' surname='Sitaraman' fullname='Harish Sitaraman'>
+    <organization />
+</author>
+
+<author initials='V' surname='Beeram' fullname='Vishnu Beeram'>
+    <organization />
+</author>
+
+<author initials='I' surname='Minei' fullname='Ina Minei'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<date month='June' day='2' year='2017' />
+
+<abstract><t>Operators are looking to introduce services over Segment Routing (SR) LSPs in networks running Resource Reservation Protocol (RSVP-TE) LSPs.  In some instances, operators are also migrating existing services from RSVP-TE to SR LSPs.  For example, there might be certain services that are well suited for SR and need to co-exist with RSVP-TE in the same network.  In other cases, services running on RSVP-TE might be migrated to run over SR.  Such introduction or migration of traffic to SR might require co-existence with RSVP-TE in the same network for an extended period of time depending on the operator's intent.  The following document provides solution options for keeping the traffic engineering database (TED) consistent across the network, accounting for the different bandwidth utilization between SR and RSVP-TE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-teas-sr-rsvp-coexistence-rec-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-teas-sr-rsvp-coexistence-rec-00.txt' />
+</reference>

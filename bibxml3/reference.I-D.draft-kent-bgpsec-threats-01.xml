@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kent-bgpsec-threats'>
+<front>
+<title>Threat Model for BGP Path Security</title>
+
+<author initials='S' surname='Kent' fullname='Stephen Kent'>
+    <organization />
+</author>
+
+<date month='February' day='10' year='2011' />
+
+<abstract><t>This document describes a threat model for BGP path security (BGPSEC). BGPSEC is assumed to make use of the Resource Public Key Infrastructure (RPKI) already developed in the SIDR WG [I-D.ietf- sidr-arch], and thus threats and attacks against the RPKI are part of this model. The model assumes that BGP path security is achieved through the application of digital signatures to AS_Path Info. The document characterizes classes of potential adversaries that are considered to be threats, and examines classes of attacks that might be launched against BGPSEC. It concludes with brief discussion of residual vulnerabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kent-bgpsec-threats-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kent-bgpsec-threats-01.txt' />
+</reference>

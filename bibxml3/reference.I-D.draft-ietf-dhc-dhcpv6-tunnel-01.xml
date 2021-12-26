@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-dhcpv6-tunnel'>
+<front>
+<title>DHCPv6 through Tunnels</title>
+
+<author initials='O' surname='Troan' fullname='Ole Troan'>
+    <organization />
+</author>
+
+<author initials='M' surname='Blanchet' fullname='Marc Blanchet'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Guo' fullname='Dayong Guo'>
+    <organization />
+</author>
+
+<date month='April' day='28' year='2012' />
+
+<abstract><t>The host configuration protocol DHCPv6 [RFC3315] relies on link-local addresses as source addresses and multicast addresses for destination addresses.  However, some tunnel links (e.g., 6rd [RFC5969] ) do not have IPv6 link-local addresses and do not support IPv6 multicast addresses.  Taking 6rd as an example, this document specifies how DHCPv6 is used across such tunnel links.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-dhcpv6-tunnel-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-dhcpv6-tunnel-01.txt' />
+</reference>

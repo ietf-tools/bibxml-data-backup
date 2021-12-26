@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5512' target='https://www.rfc-editor.org/info/rfc5512'>
+<front>
+<title>The BGP Encapsulation Subsequent Address Family Identifier (SAFI) and the BGP Tunnel Encapsulation Attribute</title>
+<author initials='P.' surname='Mohapatra' fullname='P. Mohapatra'><organization /></author>
+<author initials='E.' surname='Rosen' fullname='E. Rosen'><organization /></author>
+<date year='2009' month='April' />
+<abstract><t>In certain situations, transporting a packet from one Border Gateway Protocol (BGP) speaker to another (the BGP next hop) requires that the packet be encapsulated by the first BGP speaker and decapsulated by the second.  To support these situations, there needs to be some agreement between the two BGP speakers with regard to the &quot;encapsulation information&quot;, i.e., the format of the encapsulation header as well as the contents of various fields of the header.</t><t>The encapsulation information need not be signaled for all encapsulation types.  In cases where signaling is required (such as Layer Two Tunneling Protocol - Version 3 (L2TPv3) or Generic Routing Encapsulation (GRE) with key), this document specifies a method by which BGP speakers can signal encapsulation information to each other.  The signaling is done by sending BGP updates using the Encapsulation Subsequent Address Family Identifier (SAFI) and the IPv4 or IPv6 Address Family Identifier (AFI).  In cases where no encapsulation information needs to be signaled (such as GRE without key), this document specifies a BGP extended community that can be attached to BGP UPDATE messages that carry payload prefixes in order to indicate the encapsulation protocol type to be used.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5512'/>
+<seriesInfo name='DOI' value='10.17487/RFC5512'/>
+</reference>

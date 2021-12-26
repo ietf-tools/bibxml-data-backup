@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gurbani-sip-large-udp-response'>
+<front>
+<title>Handling Large User Datagram Protocol (UDP) Responses in the Session  Initiation Protocol (SIP)</title>
+
+<author initials='V' surname='Gurbani' fullname='Vijay Gurbani'>
+    <organization />
+</author>
+
+<author initials='S' surname='Lawrence' fullname='Scott Lawrence'>
+    <organization />
+</author>
+
+<date month='October' day='4' year='2006' />
+
+<abstract><t>The Session Initiation Protocol (SIP) mandates a maximum size for any request transmitted over UDP. This maximum is set to the lesser of 1300 bytes or the path maximum transmission unit (MTU) size minus 200 bytes. If the size of the request exceeds this maximum, SIP requires implementations to switch the downstream transport to be a congestion controlled transport. However, when sending a response, a SIP implementation cannot choose the transport; it must use the transport specified by the Via. This document discusses the problems large responses can cause on UDP, and proposes an update to SIP to help diagnose and avoid those problems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gurbani-sip-large-udp-response-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gurbani-sip-large-udp-response-00.txt' />
+</reference>

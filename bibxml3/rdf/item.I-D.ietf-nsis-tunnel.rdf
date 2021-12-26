@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-nsis-tunnel-13.txt'>
+    <title>"NSIS Operation Over IP Tunnels", Charles Shen, Henning Schulzrinne, Sung-Hyuck Lee, Jong Bang</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-nsis-tunnel-13.txt</link>
+    <description>NSIS Quality of Service (QoS) signaling enables applications to perform QoS reservation along a data flow path.  When the data flow path contains IP tunnel segments, NSIS QoS signaling has no effect within those tunnel segments.  Therefore, the resulting tunnel segments could become the weakest QoS link and invalidate the QoS efforts in the rest of the end-to-end path.  The problem with NSIS signaling within the tunnel is caused by the tunnel encapsulation which masks packets' original IP header fields.  Those original IP header fields are needed to intercept NSIS signaling messages and classify QoS data packets.  This document defines a solution to this problem by mapping end-to-end QoS session requests to corresponding QoS sessions in the tunnel, thus extending the end-to-end QoS signaling into the IP tunnel segments.</description>
+    <dc:date>2010-07-25T22:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.roca-nwcrg-fecframev2-problem-position'>
+<front>
+<title>FECFRAMEv2: Adding Sliding Encoding Window Capabilities to the FEC Framework: Problem Position</title>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<date month='May' day='20' year='2016' />
+
+<abstract><t>The Forward Error Correction (FEC) Framework (or FECFRAME) (RFC 6363) has been defined by the FECFRAME IETF WG to enable the use of FEC Encoding with real-time flows in a flexible manner.  The original FECFRAME specification only considers the use of block FEC codes, wherein the input flow(s) is(are) segmented into a sequence of blocks and FEC encoding performed independently on a per-block basis.  This document discusses an extension of FECFRAME in order to enable a sliding (potentially elastic) window encoding of the input flow(s), using convolutional FEC codes for the erasure channel, as an alternative to block FEC codes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-roca-nwcrg-fecframev2-problem-position-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-roca-nwcrg-fecframev2-problem-position-02.txt' />
+</reference>

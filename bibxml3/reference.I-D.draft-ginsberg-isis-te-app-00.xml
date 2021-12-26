@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ginsberg-isis-te-app'>
+<front>
+<title>IS-IS TE Attributes per application</title>
+
+<author initials='L' surname='Ginsberg' fullname='Les Ginsberg'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2017' />
+
+<abstract><t>Existing traffic engineering related link attribute advertisements have been defined and are used in RSVP-TE deployments.  In cases where multiple applications wish to make use of these link attributes the current advertisements do not support application specific values for a given attribute nor do they support indication of which applications are using the advertised value for a given link.  This draft introduces new link attribute advertisements which address both of these shortcomings.  It also discusses backwards compatibility issues and how to minimize duplicate advertisements in the presence of routers which do not support the extensions defined in this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ginsberg-isis-te-app-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ginsberg-isis-te-app-00.txt' />
+</reference>

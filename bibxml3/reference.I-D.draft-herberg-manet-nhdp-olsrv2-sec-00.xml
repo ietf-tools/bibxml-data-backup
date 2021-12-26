@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.herberg-manet-nhdp-olsrv2-sec'>
+<front>
+<title>Integrity Protection for Control Messages in NHDP and OLSRv2</title>
+
+<author initials='T' surname='Clausen' fullname='Thomas Clausen'>
+    <organization />
+</author>
+
+<author initials='C' surname='Dearlove' fullname='Christopher Dearlove'>
+    <organization />
+</author>
+
+<author initials='U' surname='Herberg' fullname='Ulrich Herberg'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>This document specifies integrity and replay protection for required implementation in the MANET Neighborhood Discovery Protocol (NHDP) and the Optimized Link State Routing Protocol version 2 (OLSRv2). This document specifies how an integrity check value (ICV) and a timestamp may be included as TLVs (defined in [RFC6622bis]) in NHDP's and OLSRv2's control messages, countering a number of security threats to NHDP and to OLSRv2.  The ICV TLV uses a SHA-256 based HMAC and a single shared secret key.  The timestamp TLV is based on POSIX time, assuming router synchronization.  The mechanism in this specification can also be used for other MANET protocols using RFC5444.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-herberg-manet-nhdp-olsrv2-sec-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-herberg-manet-nhdp-olsrv2-sec-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zeng-one-time-prefix-orf'>
+<front>
+<title>One-time Address-Prefix Based Outbound Route Filter for BGP-4</title>
+
+<author initials='Q' surname='Zeng' fullname='Qing Zeng'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2010' />
+
+<abstract><t>This document defines a new Outbound Router Filter (ORF) type for BGP, termed "One-time Address Prefix Outbound Route Filter", which would allow a BGP speaker to send to its BGP peer a route refresh request with a set of address-prefix-based filters to make the peer re-advertise only the specific routes matching the filters to the speaker. This ORF-type enables a BGP speaker to recover some specific "problematic" routes without requiring its peer to re- advertise the whole Adj-RIB-Out of specific address family, which makes the trouble shooting operation (such as packets tracking) more efficient and reduces the impact on network stability. This filter does not change the outbound route filters on BGP peers and should only be used for one-time filtering.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zeng-one-time-prefix-orf-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zeng-one-time-prefix-orf-01.txt' />
+</reference>

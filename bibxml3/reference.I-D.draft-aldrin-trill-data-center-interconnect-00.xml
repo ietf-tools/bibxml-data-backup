@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.aldrin-trill-data-center-interconnect'>
+<front>
+<title>TRILL Data Center Interconnect</title>
+
+<author initials='S' surname='Aldrin' fullname='Sam Aldrin'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='T' surname='Senevirathne' fullname='Tissa Senevirathne'>
+    <organization />
+</author>
+
+<author initials='A' surname='Banerjee' fullname='Ayan Banerjee'>
+    <organization />
+</author>
+
+<author initials='S' surname='Alvarez' fullname='Santiago Alvarez'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2012' />
+
+<abstract><t>This document presents a solution suite for TRILL data center sites to be connected over WAN networks. TRILL protocol is primarily designed to work within intra-data centers. Connecting different sites over WAN using overlay tunnel protocols is the primary method employed at present. Though this presents a simple mechanism to extend the LAN sites to be interconnected, it also brings in the problem of scalability for TRILL nicknames exchanged between sites, latency, duplication of traffic etc. This draft proposes a way to extend the TRILL sites without having to reveal the data of the LAN like customer MAC's or provide MAC's over the WAN, but to establish connections between various sites by extending routing protocol to exchange minimal information, thus reducing the information flow to the required sites only. Document also proposes BGP routing protocol extensions as an example to establish paths and information about the essential RBridges nicknames, over WAN networks like MPLS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-aldrin-trill-data-center-interconnect-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-aldrin-trill-data-center-interconnect-00.txt' />
+</reference>

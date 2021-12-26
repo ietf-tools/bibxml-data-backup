@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.terriberry-netvc-obmc'>
+<front>
+<title>Overlapped Block Motion Compensation for NETVC</title>
+
+<author initials='T' surname='Terriberry' fullname='Timothy Terriberry'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>This document proposes a scheme for overlapped block motion compensation that could be incorporated into a next-generation video codec.  The scheme described is that currently used by Xiph's Daala project, which supports variable block sizes without introducing any discontinuities at block boundaries.  This makes the scheme suitable for use with lapped transforms or other techniques where encoding such discontinuities is expensive.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-terriberry-netvc-obmc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-terriberry-netvc-obmc-00.txt' />
+</reference>

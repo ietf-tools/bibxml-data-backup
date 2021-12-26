@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thubert-6tsch-architecture'>
+<front>
+<title>An Architecture for IPv6 over Time Synchronized Channel Hopping</title>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<author initials='R' surname='Assimiti' fullname='Robert Assimiti'>
+    <organization />
+</author>
+
+<author initials='T' surname='Watteyne' fullname='Thomas Watteyne'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2013' />
+
+<abstract><t>This document presents an architecture for an IPv6 multilink subnet that is composed of a high speed powered backbone and a number of IEEE802.15.4e TSCH wireless networks attached and synchronized by Backbone Routers.  Route Computation may be achieved in a centralized fashion by a Path Computation Element, in a distributed fashion using the Routing Protocol for Low Power and Lossy Networks, or in a mixed mode.  The Backbone Routers perform proxy Neighbor discovery operations over the backbone on behalf of the wireless device, so they can share a same subnet and appear to be connected to the same backbone as classical devices.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thubert-6tsch-architecture-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thubert-6tsch-architecture-00.txt' />
+</reference>

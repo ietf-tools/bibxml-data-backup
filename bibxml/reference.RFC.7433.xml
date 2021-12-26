@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7433' target='https://www.rfc-editor.org/info/rfc7433'>
+<front>
+<title>A Mechanism for Transporting User-to-User Call Control Information in SIP</title>
+<author initials='A.' surname='Johnston' fullname='A. Johnston'><organization /></author>
+<author initials='J.' surname='Rafferty' fullname='J. Rafferty'><organization /></author>
+<date year='2015' month='January' />
+<abstract><t>There is a class of applications that benefit from using SIP to exchange User-to-User Information (UUI) data during session establishment.  This information, known as call control UUI data, is a small piece of data inserted by an application initiating the session and utilized by an application accepting the session.  The syntax and semantics for the UUI data used by a specific application are defined by a UUI package.  This UUI data is opaque to SIP and its function is unrelated to any basic SIP function.  This document defines a new SIP header field, User-to-User, to transport UUI data, along with an extension mechanism.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7433'/>
+<seriesInfo name='DOI' value='10.17487/RFC7433'/>
+</reference>

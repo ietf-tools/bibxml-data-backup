@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josefsson-tls-eddsa2'>
+<front>
+<title>EdDSA and Ed25519 for Transport Layer Security (TLS)</title>
+
+<author initials='S' surname='Josefsson' fullname='Simon Josefsson'>
+    <organization />
+</author>
+
+<date month='June' day='8' year='2015' />
+
+<abstract><t>This document introduce the public-key signature algorithm EdDSA for use in Transport Layer Security (TLS).  By using a new SignatureAlgorithm value, defined in this document, together with the NamedCurve and ECPointFormat assignments from the Curve25519 ECDHE key exchange mechanism, we describe how EdDSA is used for digital signatures in the existing ECDSA cipher suites.  This is intended to work with any version of TLS and Datagram TLS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josefsson-tls-eddsa2-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josefsson-tls-eddsa2-00.txt' />
+</reference>

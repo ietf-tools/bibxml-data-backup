@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-v6ops-ivi-icmp-address'>
+<front>
+<title>Stateless Source Address Mapping for ICMPv6 Packets</title>
+
+<author initials='X' surname='Li' fullname='Xing Li'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bao' fullname='Congxiao Bao'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='R' surname='Vaithianathan' fullname='Ramji Vaithianathan'>
+    <organization />
+</author>
+
+<author initials='G' surname='Huston' fullname='Geoff Huston'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2012' />
+
+<abstract><t>A stateless IPv4/IPv6 translator may receive ICMPv6 packets containing non IPv4-translatable addresses as the source that should be passed across the translator as an ICMP packet directed to the IPv4-translatable destination.  This document presents recommendations for source address translation in ICMPv6 headers for such cases.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-v6ops-ivi-icmp-address-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-v6ops-ivi-icmp-address-02.txt' />
+</reference>

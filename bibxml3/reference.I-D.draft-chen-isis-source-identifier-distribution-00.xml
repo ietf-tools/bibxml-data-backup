@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-isis-source-identifier-distribution'>
+<front>
+<title>Extensions to ISIS for Source Identifier Distribution</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='G' surname='Mirsky' fullname='Greg Mirsky'>
+    <organization />
+</author>
+
+<date month='October' day='12' year='2014' />
+
+<abstract><t>A Source Identifier (SI) is carried in an MPLS Source Label and used to identify (one of) the ingress LSR(s) to a specific LSP.  This document defines extensions to ISIS protocol for distribution of the mapping of a Source Identifier to an specific LSR.  Therefore, the egress and intermediate LSRs can use the SI to determine from which LSR an MPLS packet is sent.  This document also defines ISIS extensions to advertise the Source Label Capability (SLC) of each LSR that indicates whether an LSR can properly process the Source Label Indicator (SLI) special purpose label and Source Label (SL).  With the SLC, an ingress LSR can determine whether it is allowed to insert a SL into the label stack for a specific LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-isis-source-identifier-distribution-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-isis-source-identifier-distribution-00.txt' />
+</reference>

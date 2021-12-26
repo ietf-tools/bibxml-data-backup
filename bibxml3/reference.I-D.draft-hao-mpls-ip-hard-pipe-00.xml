@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hao-mpls-ip-hard-pipe'>
+<front>
+<title>Architecture of MPLS/IP Network with Hardened Pipes</title>
+
+<author initials='J' surname='Hao' fullname='JiangTao Hao'>
+    <organization />
+</author>
+
+<author initials='R' surname='Huang' fullname='River Huang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Andersson' fullname='Loa Andersson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2014' />
+
+<abstract><t>This document is intended to become an Informational RFC on the independent stream.  The document does not specify any new protocol or procedures.  It does explain how MPLS standards been implemented, deployed and operated to meet the requirements from operators that offer traditional Virtual Leased Line services.  This document introduces the concept of "Hard Pipes", a Hard Pipe is an MPLS Label Switched Path (LSP) or a Pseudowire (PW) with a bandwidth that is guaranteed and can neither be exceeded nor infringed upon.  This document describes an MPLS/IP network that has an infrastructure that can be separated into two or more strata.  For the implementation described in this document the infrastructure has been separated into two strata.  One for the 'Hard Pipes', called the 'Hard Pipe Stratum".  And one for the normal IP/MPLS traffic - called the 'Normal IP/MPLS stratum'.  The Hard Pipe stratum does not use statistical multiplexing, for the LSPs and PWs setup within this stratum the bandwidth are guaranteed end to end.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hao-mpls-ip-hard-pipe-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hao-mpls-ip-hard-pipe-00.txt' />
+</reference>

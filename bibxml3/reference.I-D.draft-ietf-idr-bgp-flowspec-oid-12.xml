@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-flowspec-oid'>
+<front>
+<title>Revised Validation Procedure for BGP Flow Specifications</title>
+
+<author initials='J' surname='Uttaro' fullname='Jim Uttaro'>
+    <organization />
+</author>
+
+<author initials='J' surname='Alcaide' fullname='Juan Alcaide'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='D' surname='Smith' fullname='David Smith'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Prodosh Mohapatra'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2020' />
+
+<abstract><t>This document describes a modification to the validation procedure defined for the dissemination of BGP Flow Specifications.  The dissemination of BGP Flow Specifications requires that the originator of the Flow Specification matches the originator of the best-match unicast route for the destination prefix embedded in the Flow Specification.  This allows only BGP speakers within the data forwarding path (such as autonomous system border routers) to originate BGP Flow Specifications.  Though it is possible to disseminate such Flow Specifications directly from border routers, it may be operationally cumbersome in an autonomous system with a large number of border routers having complex BGP policies.  The modification proposed herein enables Flow Specifications to be originated from a centralized BGP route controller.  This document updates RFC5575bis.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-flowspec-oid-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-flowspec-oid-12.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cardenas-dff'>
+<front>
+<title>Depth-First Forwarding in Unreliable Networks</title>
+
+<author initials='A' surname='Cardenas' fullname='Alvaro Cardenas'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cespedes' fullname='Sandra Cespedes'>
+    <organization />
+</author>
+
+<author initials='T' surname='Iwao' fullname='Tadashige Iwao'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2011' />
+
+<abstract><t>Routing protocols are generally composed of two independent phases, the control plane and the data forwarding plane.  The control plane is responsible for route discovery and maintenance.  The data forwarding plane performs a table lookup operation to set the packet on the right path.  In unreliable networks, the routing process incurs a large control overhead when is constantly repairing routes, detecting loops, and finding alternate paths due to frequent link failures.  This document describes the Depth-First Forwarding (DFF) protocol; a data forwarding mechanism that can be used to minimize the burden and control overhead of a control plane used in unreliable networks.  DFF offers reliability and low control overhead by supporting in the data plane loop detection, updates to the routing tables, and rerouting of data packets through alternate paths.  DFF can be integrated with different types of control plane mechanisms and can be used in mesh- under and route-over specifications.  In this draft, we describe a sample DFF implementation as a 6LoWPAN mesh-under data forwarding protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cardenas-dff-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cardenas-dff-01.txt' />
+</reference>

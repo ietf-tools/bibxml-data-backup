@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-spring-anycast-sid-service'>
+<front>
+<title>Anycast SID for Flexible and Robust Service in SRv6</title>
+
+<author initials='T' surname='Li' fullname='Taixin Li'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Chen' fullname='Zhe Chen'>
+    <organization />
+</author>
+
+<date month='May' day='15' year='2020' />
+
+<abstract><t>Segment Routing enables an operator or an application to specify a packet processing program. When Segment Routing is applied to IPv6 data plane, the list of IPv6 SIDs in SRH can specify a series of execution endpoints that hold service functions that process the packet. However, steering traffic dynamically to the different execution endpoints requires a specific "re-encapsulating". This procedure may be complex and take time.  This document proposes A-SID (Anycast-SID) based on SRv6 to achieve flexible and robust service provision. It uses anycast SID to identify service functions and locates the service functions based on anycast routing. The proposed solution can stay compatibility with the existing SRv6.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-spring-anycast-sid-service-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-spring-anycast-sid-service-01.txt' />
+</reference>

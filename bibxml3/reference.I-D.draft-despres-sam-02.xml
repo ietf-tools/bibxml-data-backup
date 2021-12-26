@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.despres-sam'>
+<front>
+<title>Stateless Address Mapping (SAM) Avoiding NATs and restoring the end-to-end  model in IPv6</title>
+
+<author initials='R' surname='Despres' fullname='Remi Despres'>
+    <organization />
+</author>
+
+<date month='March' day='24' year='2009' />
+
+<abstract><t>Stateless Address Mapping (SAM) is a generic mechanism to support global addressing across network zones where routing is based on a different address space.  With it, the end-to-end model, lost in IPv4 with the deployment of NATs, can be restored without losing services that NAT44s offer beyond address-space extension (private addressing, basic firewall, site multihoming, privacy protection, host-rooted subnets).  Global-address packets are encapsulated in local-address packets to traverse SAM zones, and global prefixes are statelessly mapped into local addresses.  For the IPv6-IPv4 coexistence period, port-restricted IPv4 addresses are used to extend the global IPv4 address space.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-despres-sam-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-despres-sam-02.txt' />
+</reference>

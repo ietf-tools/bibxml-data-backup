@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-eai-rfc5337bis-dsn'>
+<front>
+<title>Internationalized Delivery Status and Disposition Notifications</title>
+
+<author initials='T' surname='Hansen' fullname='Tony Hansen'>
+    <organization />
+</author>
+
+<author initials='C' surname='Newman' fullname='Chris Newman'>
+    <organization />
+</author>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2011' />
+
+<abstract><t>Delivery status notifications (DSNs) are critical to the correct operation of an email system.  However, the existing Draft Standards (RFC 3461, RFC 3462, RFC 3464) are presently limited to US-ASCII text in the machine-readable portions of the protocol.  This specification adds a new address type for international email addresses so an original recipient address with non-US-ASCII characters can be correctly preserved even after downgrading.  This also provides updated content return media types for delivery status notifications and message disposition notifications to support use of the new address type.  This document extends RFC 3461, RFC 3462, RFC 3464, and RFC 3798.  It replaces the experimental RFC 5337.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-eai-rfc5337bis-dsn-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-eai-rfc5337bis-dsn-04.txt' />
+</reference>

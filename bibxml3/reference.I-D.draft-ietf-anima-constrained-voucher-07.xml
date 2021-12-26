@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-anima-constrained-voucher'>
+<front>
+<title>Constrained Voucher Artifacts for Bootstrapping Protocols</title>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stok' fullname='Peter van der Stok'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kampanakis' fullname='Panos Kampanakis'>
+    <organization />
+</author>
+
+<date month='January' day='15' year='2020' />
+
+<abstract><t>This document defines a strategy to securely assign a pledge to an owner, using an artifact signed, directly or indirectly, by the pledge's manufacturer.  This artifact is known as a "voucher".  This document builds upon the work in [RFC8366], encoding the resulting artifact in CBOR.  Use with two signature technologies are described.  Additionally, this document explains how constrained vouchers may be transported as an extension to the [I-D.ietf-ace-coap-est] protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-anima-constrained-voucher-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-anima-constrained-voucher-07.txt' />
+</reference>

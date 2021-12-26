@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.josyula-dhc-multicast'>
+<front>
+<title>DHCP Option for IPTV Source address</title>
+
+<author initials='r' surname='ramakanthjosyula@gmail.com' fullname='ramakanthjosyula@gmail.com'>
+    <organization />
+</author>
+
+<date month='September' day='22' year='2013' />
+
+<abstract><t>Internet Protocol Television(IPTV) is a system facilitating transmission of television channels as multicast streams use dedicated multicast group addresses in IP networks.Internet Group Multicast Protocol(IGMP) is widely used for the communication between the hosts and routers to deliver these multicast streams.It is also possible for the networks to distinguish these multicast streams not only by their destination multicast group but also by the source IP address of the streams.In IGMP version-3 implementation,the networks can deliver the multicast traffic to the hosts from the specific multicast sources requested by the users.This needs a mechanism to supply the available multicast source address information to the hosts and the hosts also should be strictly implemented with IGMPv3 client. This document describes a new DHCP option which can addresses these issues.In addition to this,the document also describes about the advantages in the networks by implementing this option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-josyula-dhc-multicast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-josyula-dhc-multicast-00.txt' />
+</reference>

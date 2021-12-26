@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.keromytis-keynote-x509'>
+<front>
+<title>X.509 Key and Signature Encoding for the KeyNote Trust Management System</title>
+
+<author initials='A' surname='Keromytis' fullname='Angelos Keromytis'>
+    <organization />
+</author>
+
+<date month='March' day='30' year='2009' />
+
+<abstract><t>This memo describes X.509 key identifiers and signature encoding for version 2 of the KeyNote trust-management system [KEYNOTE]. X.509 certificates [RFC3280] can be directly used in the Authorizer or Licensees field (or in both fields) in a KeyNote assertion, allowing for easy integration with protocols that already use X.509 certificates for authentication.  In addition, the document defines additional signature types that use other hash functions (beyond the MD5 and SHA1 hash functions that are defined in [RFC2792]).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-keromytis-keynote-x509-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-keromytis-keynote-x509-02.txt' />
+</reference>

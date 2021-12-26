@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-isis-global-label-sid-adv'>
+<front>
+<title>Advertising Global Labels or SIDs Using IS-IS</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<date month='December' day='24' year='2013' />
+
+<abstract><t>Segment Routing (SR) is a new MPLS paradigm in which each SR-capable router is required to advertise global MPLS labels or Segment IDs (SID ) for its attached prefixes by using link-state IGPs, e.g., IS- IS.  One major challenge associated with such global MPLS label or SID advertisement mechanism is how to avoid a given global MPLS label or SID from being allocated by different routers to different prefixes.  Although such global label or SID allocation collision problem can be addressed through manual allocation , it is error- prone and nonautomatic therefore may not be suitable in large-scale SR network environments.  This document proposes an alternative approach for allocating and advertising global MPLS labels or SIDs via IS-IS so as to eliminate the potential risk of label allocation collision.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-isis-global-label-sid-adv-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-isis-global-label-sid-adv-00.txt' />
+</reference>

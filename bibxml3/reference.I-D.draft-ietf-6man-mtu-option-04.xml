@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-mtu-option'>
+<front>
+<title>IPv6 Minimum Path MTU Hop-by-Hop Option</title>
+<author initials='R' surname='Hinden' fullname='Robert Hinden'>
+<organization />
+</author>
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+<organization />
+</author>
+<date year='2020' month='October' day='23' />
+<abstract><t>This document specifies a new Hop-by-Hop IPv6 option that is used to record the minimum Path MTU along the forward path between a source host to a destination host.  This collects a minimum Path MTU recorded along the path to the destination.  The value can then be communicated back to the source using the return Path MTU field in the option.</t><t> This Hop-by-Hop option is intended to be used in environments like Data Centers and on paths between Data Centers, to allow them to better take advantage of paths able to support a large Path MTU.  The method could also be useful in other environments, including the general Internet.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-mtu-option-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-6man-mtu-option-04.txt'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huitema-dnssd-privacy'>
+<front>
+<title>Privacy Extensions for DNS-SD</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kaiser' fullname='Daniel Kaiser'>
+    <organization />
+</author>
+
+<date month='September' day='28' year='2016' />
+
+<abstract><t>DNS-SD allows discovery of services published in DNS or MDNS.  The publication normally discloses information about the device publishing the services.  There are use cases where devices want to communicate without disclosing their identity, for example two mobile devices visiting the same hotspot.  We propose to solve this problem by a two-stage approach.  In the first stage, hosts discover Private Discovery Service Instances via DNS-SD using special formats to protect their privacy.  These service instances correspond to Private Discovery Servers running on peers. In the second stage, hosts directly query these Private Discovery Servers via DNS-SD over TLS.  A pairwise shared secret necessary to establish these connections is only known to hosts authorized by a pairing system.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-huitema-dnssd-privacy-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-huitema-dnssd-privacy-02.txt' />
+</reference>

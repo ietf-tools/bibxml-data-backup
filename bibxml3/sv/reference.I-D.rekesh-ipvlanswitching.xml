@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rekesh-ipvlanswitching'>
+<front>
+<title>IP-based VLAN switching for Network Services Virtualization</title>
+
+<author initials='J' surname='Rekesh' fullname='John Rekesh'>
+    <organization />
+</author>
+
+<author initials='S' surname='Addepalli' fullname='Srinivasa Addepalli'>
+    <organization />
+</author>
+
+<date month='November' day='18' year='2010' />
+
+<abstract><t>The objective of this document is to define and formalize the use of IP-based VLAN switching in the context of virtualization of network services. Networking infrastructure appliances may host multiple virtual instances of network services. IP address inspection on a packet coming from an external network such as the Internet can be used to switch the packet into a VLAN, through use of VLAN tags on Ethernet frames. The tagged frame is subsequently fed to a VLAN-aware networking infrastructure appliance where the packet is directed to a virtualized service instance. This method of IP-based VLAN switching on a packet assists in hosting multiple virtual instances of network services on servers and other appliances.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rekesh-ipvlanswitching-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rekesh-ipvlanswitching-02.txt' />
+</reference>

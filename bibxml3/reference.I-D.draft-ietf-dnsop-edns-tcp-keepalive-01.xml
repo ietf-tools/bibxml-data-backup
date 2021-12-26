@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-edns-tcp-keepalive'>
+<front>
+<title>The edns-tcp-keepalive EDNS0 Option</title>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>DNS messages between clients and servers may be received over either UDP or TCP.  UDP transport involves keeping less state on a busy server, but can cause truncation and retries over TCP.  Additionally, UDP can be exploited for reflection attacks.  Using TCP would reduce retransmits and amplification.  However, clients are currently limited in their use of the TCP transport as RFC 5966 suggests closing idle TCP sessions "in the order of seconds", making use of TCP only suitable for individual queries generated as a fallback protocol for truncated UDP answers.  This document defines an EDNS0 option ("edns-tcp-keepalive") that allows DNS clients and servers to signal their respective readiness to conduct multiple DNS transactions over individual TCP sessions. This signalling facilitates a better balance of UDP and TCP transport between individual clients and servers, reducing the impact of problems associated with UDP transport and allowing the state associated with TCP transport to be managed effectively with minimal impact on the DNS transaction time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-edns-tcp-keepalive-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-edns-tcp-keepalive-01.txt' />
+</reference>

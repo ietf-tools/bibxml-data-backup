@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-agentopt-radius'>
+<front>
+<title>RADIUS Attributes Sub-option for the DHCP Relay Agent Information Option</title>
+
+<author initials='R' surname='Droms' fullname='Ralph Droms'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schnizlein' fullname='John Schnizlein'>
+    <organization />
+</author>
+
+<date month='September' day='8' year='2004' />
+
+<abstract><t>A NAS (network access server) may choose to authenticate the identity of a device before granting that device access to the network. The IEEE 802.1X protocol is an example of a mechanism for providing authenticated layer 2 network access. A network element using RADIUS as an authentication authority will receive attributes from a RADIUS server that may be used by a DHCP server in the selection of configuration parameters to be delivered to the device through its DHCP client. The RADIUS Attributes sub-option enables a network element to pass along attributes for the user of a device received during RADIUS authentication to a DHCP server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-agentopt-radius-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-agentopt-radius-08.txt' />
+</reference>

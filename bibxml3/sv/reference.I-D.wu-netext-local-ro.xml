@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-netext-local-ro'>
+<front>
+<title>An Extension to Proxy Mobile IPv6 for Local Routing Optimization</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<date month='February' day='12' year='2010' />
+
+<abstract><t>This document extends local routing in Proxy Mobile IPv6 (PMIPv6) and defines a localized routing optimization protocol between Mobility Access Gateways within a single provider domain.  The protocol supports operation over IPv4 transport networks, IPv4 home address mobility and handover.  The Local mobility anchor initiated and mobile access gateway initiated local routing are allowed to setup local routing path between the mobile and correspondent node by sending messages to the corresponding mobile access gateway or local mobility anchor.  If the MN &amp; CN are anchored with two different LMAs then the MN-LMA must discover which LMA the CN is registered with before an optimized local routing path can be established.  Mobile Access Gateways create and refresh bindings using proxy binding update and acknowledgement messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-netext-local-ro-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-netext-local-ro-05.txt' />
+</reference>

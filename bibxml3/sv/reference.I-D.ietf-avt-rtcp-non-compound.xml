@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rtcp-non-compound'>
+<front>
+<title>Support for Reduced-Size RTCP, Opportunities and Consequences</title>
+
+<author initials='I' surname='Johansson' fullname='Ingemar  Johansson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2009' />
+
+<abstract><t>This memo discusses benefits and issues that arise when allowing RTCP packets to be transmitted with reduced size.  The size can be reduced if the rules on how to create compound packets outlined in RFC3550 are removed or changed.  Based on that analysis this memo defines certain changes to the rules to allow feedback messages to be sent as reduced-size RTCP packets under certain conditions when using the RTP AVPF profile (RFC 4585).  This document updates [RFC3550], [RFC3711] and [RFC4585].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rtcp-non-compound-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rtcp-non-compound-09.txt' />
+</reference>

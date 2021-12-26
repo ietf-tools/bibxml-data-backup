@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.frejborg-hipv4'>
+<front>
+<title>Hierarchical IPv4 Framework</title>
+
+<author initials='P' surname='Frejborg' fullname='Patrick Frejborg'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2010' />
+
+<abstract><t>This document describes a framework how the current IPv4 address space can be divided in two new address categories; a core address space (Area Locators, ALOC) that is globally unique and an edge address space (Endpoint Locators, ELOC) that is regionally unique. The core-edge address grouping will enable a new level of hierarchy in the routing architecture of Internet. The hierarchical IPv4 framework is backwards compatible with the current IPv4 framework; it will also discuss a method to decouple the location and identifier functions, future applications can make use of the separation. The framework requires extensions to the existing Domain Name System, the existing IPv4 stack of the endpoints and to routers in the Internet. The framework can be implemented incrementally to endpoints, DNS and routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-frejborg-hipv4-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-frejborg-hipv4-07.txt' />
+</reference>

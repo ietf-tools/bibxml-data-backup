@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc4653.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc4653.txt</link>
+        <title>RFC 4653: Improving the Robustness of TCP to Non-Congestion Events, S. Bhandarkar, A. L. N. Reddy, M. Allman, E. Blanton</title>
+        <dc:date>2006-08-01T23:00:00-00:00</dc:date>
+        <description>This document specifies Non-Congestion Robustness (NCR) for TCP.  In the absence of explicit congestion notification from the network, TCP uses loss as an indication of congestion.  One of the ways TCP detects loss is using the arrival of three duplicate acknowledgments. However, this heuristic is not always correct, notably in the case when network paths reorder segments (for whatever reason), resulting in degraded performance.  TCP-NCR is designed to mitigate this degraded performance by increasing the number of duplicate acknowledgments required to trigger loss recovery, based on the current state of the connection, in an effort to better disambiguate true segment loss from segment reordering.  This document specifies the changes to TCP, as well as the costs and benefits of these modifications.  This memo defines an Experimental Protocol for the Internet community. </description>
+    </item>
+

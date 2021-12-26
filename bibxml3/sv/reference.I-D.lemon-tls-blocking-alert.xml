@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lemon-tls-blocking-alert'>
+<front>
+<title>Blocked Site Alerts for TLS</title>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<date month='June' day='6' year='2016' />
+
+<abstract><t>Hosts connecting to the Internet should generally be able to connect to all available services.  However, as a matter of policy, need or preference, some services may be blocked by the network.  TLS correctly treats attempts to communicate the reason for such blockage to the client as an attack.  This memo describes a safe way for hosts to be notified using the TLS alert mechanism that a connection has been blocked by the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lemon-tls-blocking-alert-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lemon-tls-blocking-alert-00.txt' />
+</reference>

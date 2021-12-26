@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hokey-arch-design'>
+<front>
+<title>Handover Keying (HOKEY) Architecture Design</title>
+
+<author initials='G' surname='Zorn' fullname='Glen Zorn'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='T' surname='Taylor' fullname='Tom Taylor'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hoeper' fullname='Katrin Hoeper'>
+    <organization />
+</author>
+
+<author initials='S' surname='Decugis' fullname='Sebastien Decugis'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+    <organization />
+</author>
+
+<date month='July' day='10' year='2011' />
+
+<abstract><t>The Handover Keying (HOKEY) Working Group seeks to minimize handover delay due to authentication when a peer moves from one point of attachment to another.  Work has progressed on two different approaches to reduce handover delay: early authentication (so that authentication does not need to be performed during handover), and reuse of cryptographic material generated during an initial authentication to save time during re-authentication.  A starting assumption is that the mobile host or "peer" is initially authenticated using the Extensible Authentication Protocol (EAP), executed between the peer and an EAP server as defined in RFC 3748.  This document documents the HOKEY architecture.  Specifically, it describes design objectives, the functional environment within which handover keying operates, the functions to be performed by the HOKEY architecture itself, and the assignment of those functions to architectural components.  It goes on to illustrate the operation of the architecture within various deployment scenarios that are described more fully in other documents produced by the HOKEY Working Group.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hokey-arch-design-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hokey-arch-design-04.txt' />
+</reference>

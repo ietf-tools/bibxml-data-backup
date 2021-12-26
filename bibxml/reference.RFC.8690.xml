@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8690' target='https://www.rfc-editor.org/info/rfc8690'>
+<front>
+<title>Clarification of Segment ID Sub-TLV Length for RFC 8287</title>
+<author initials='N.' surname='Nainar' fullname='N. Nainar'><organization /></author>
+<author initials='C.' surname='Pignataro' fullname='C. Pignataro'><organization /></author>
+<author initials='F.' surname='Iqbal' fullname='F. Iqbal'><organization /></author>
+<author initials='A.' surname='Vainshtein' fullname='A. Vainshtein'><organization /></author>
+<date year='2019' month='December' />
+<abstract><t>RFC 8287 defines the extensions to perform LSP Ping and Traceroute for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifiers (SIDs) with the MPLS data plane. RFC 8287 proposes three Target Forwarding Equivalence Class (FEC) Stack sub-TLVs. While RFC 8287 defines the format and procedure to handle those sub-TLVs, it does not sufficiently clarify how the length of the Segment ID sub-TLVs should be computed to be included in the Length field of the sub-TLVs. This ambiguity has resulted in interoperability issues.</t><t>This document updates RFC 8287 by clarifying the length of each of the Segment ID sub-TLVs defined in RFC 8287.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8690'/>
+<seriesInfo name='DOI' value='10.17487/RFC8690'/>
+</reference>

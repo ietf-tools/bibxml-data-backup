@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wilton-netmod-refined-datastores'>
+<front>
+<title>Refined YANG datastores</title>
+
+<author initials='R' surname='Wilton' fullname='Robert Wilton'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2016' />
+
+<abstract><t>The existing definition of YANG datastores supported by NETCONF only provides a loose definition of the running datastore, and no formal definition of any datastore that represents the operational state of a device.  This document defines a refined datastore model with new concrete and abstract datastores to allow devices to provide a clean separation between an operator's intended configuration of a device and the actual running operational state of a device.  It provides a similiar, but alternative, datastore framework to the one described in draft-schoenw-netmod-revised-datastores.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wilton-netmod-refined-datastores-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wilton-netmod-refined-datastores-01.txt' />
+</reference>

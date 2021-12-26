@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rserpool-asap'>
+<front>
+<title>Aggregate Server Access Protocol (ASAP)</title>
+
+<author initials='R' surname='Stewart' fullname='Randall Stewart'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Xie' fullname='Qiaobing Xie'>
+    <organization />
+</author>
+
+<author initials='M' surname='Stillman' fullname='Maureen Stillman'>
+    <organization />
+</author>
+
+<author initials='M' surname='Tuexen' fullname='Michael Tuexen'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2008' />
+
+<abstract><t>Aggregate Server Access Protocol (ASAP) in conjunction with the Endpoint Handlespace Redundancy Protocol (ENRP) [I-D.ietf-rserpool-enrp] provides a high availability data transfer mechanism over IP networks.  ASAP uses a handle-based addressing model which isolates a logical communication endpoint from its IP address(es), thus effectively eliminating the binding between the communication endpoint and its physical IP address(es) which normally constitutes a single point of failure.  In addition, ASAP defines each logical communication destination as a pool, providing full transparent support for server-pooling and load sharing.  It also allows dynamic system scalability - members of a server pool can be added or removed at any time without interrupting the service.  ASAP is designed to take full advantage of the network level redundancy provided by the Stream Transmission Control Protocol (SCTP) [RFC4960].  Each transport protocol, other than SCTP, MUST have an accompanying transport mapping document.  It should be noted that ASAP messages passed between PE's and ENRP servers MUST use the SCTP transport protocol.  The high availability server pooling is gained by combining two protocols, namely ASAP and ENRP, in which ASAP provides the user interface for pool handle to address translation, load sharing management, and fault management while ENRP defines the high availability pool handle translation service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rserpool-asap-21' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rserpool-asap-21.txt' />
+</reference>

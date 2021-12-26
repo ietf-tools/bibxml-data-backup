@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-idr-bgpls-extensions-ifit'>
+<front>
+<title>BGP-LS Extensions for In-situ Flow Information Telemetry (IFIT) Capability Advertisement</title>
+
+<author initials='Y' surname='Wang' fullname='Yali Wang'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zhou' fullname='Tianran Zhou'>
+    <organization />
+</author>
+
+<author initials='L' surname='Min' fullname='Liu Min'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pang' fullname='Ran Pang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huanan Chen'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2020' />
+
+<abstract><t>This document extends Node and Link Attribute TLVs to Border Gateway Protocol-Link State (BGP-LS) to advertise supported In-situ Flow Information Telemetry (IFIT) capabilities at node and/or link granularity.  An ingress router cannot insert IFIT-Data-Fields for packets going into a path unless an egress router has indicated via signaling that it has the capability to process IFIT-Data-Fields.  In addition, such advertisements would be useful for entities (e.g. Path Computation Element (PCE)) to gather each router's IFIT capability for achieving the computation of end-to-end Traffic Engineering (TE) paths that be able to fulfill the visibility of on- path OAM data.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-idr-bgpls-extensions-ifit-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-idr-bgpls-extensions-ifit-00.txt' />
+</reference>

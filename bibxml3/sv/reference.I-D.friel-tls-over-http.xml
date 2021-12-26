@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.friel-tls-over-http'>
+<front>
+<title>Application-Layer TLS</title>
+
+<author initials='O' surname='Friel' fullname='Owen Friel'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='M' surname='Pritikin' fullname='Max Pritikin'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>Many clients need to establish secure connections to application services but face challenges establishing these connections due to the presence of middleboxes that terminate TLS connections from the client and restablish new TLS connections to the service.  This document defines a mechanism for transporting TLS records in HTTP message bodies between clients and services.  This enables clients and services to establish secure connections using TLS at the application layer, and treat any middleboxes that are intercepting traffic at the network layer as untrusted transport.  In short, this mechanism moves the TLS handshake up the OSI stack to the application layer.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-friel-tls-over-http-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-friel-tls-over-http-00.txt' />
+</reference>

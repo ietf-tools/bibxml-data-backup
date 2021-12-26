@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.doherty-keyprov-dskpp'>
+<front>
+<title>Dynamic Symmetric Key Provisioning Protocol (DSKPP)</title>
+
+<author initials='M' surname='Nystroem' fullname='Magnus Nystroem'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2007' />
+
+<abstract><t>DSKPP is a client-server protocol for initialization (and configuration) of cryptographic tokens. The protocol requires neither private-key capabilities in the cryptographic tokens, nor an established public-key infrastructure. The four-pass variant of the protocol ensures that a provisioned (or generated) symmetric key will only be available to the server and the cryptographic token itself. Two-pass (i.e., one round-trip) and one-pass (i.e., one message) variants enable secure and efficient download and installation of a symmetric key to a cryptographic token.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-doherty-keyprov-dskpp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-doherty-keyprov-dskpp-00.txt' />
+</reference>

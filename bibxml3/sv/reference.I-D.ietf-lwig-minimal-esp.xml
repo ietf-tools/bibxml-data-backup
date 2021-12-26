@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lwig-minimal-esp'>
+<front>
+<title>Minimal IP Encapsulating Security Payload (ESP)</title>
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+<organization />
+</author>
+<author initials='T' surname='Guggemos' fullname='Tobias Guggemos'>
+<organization />
+</author>
+<date year='2021' month='November' day='08' />
+<abstract><t>This document describes the minimal properties IP Encapsulating Security Payload (ESP) implementation needs to meet to remain interoperable with the standard RFC4303 ESP.  Such a minimal version of ESP is not intended to become a replacement of the RFC 4303 ESP. Instead, a minimal implementation is expected to be optimized for constrained environment while remaining interoperable with implementations of RFC 4303 ESP.  In addition, this document also provides some considerations to implement minimal ESP in a constrained environment which includes limiting the number of flash writes, handling frequent wakeup / sleep states, limiting wakeup time, or reducing the use of random generation.</t><t> This document does not update or modify RFC 4303, but provides a compact description of how to implement the minimal version of the protocol.  RFC 4303 remains the authoritative description.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-lwig-minimal-esp-08'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-lwig-minimal-esp-08.txt'/>
+</reference>

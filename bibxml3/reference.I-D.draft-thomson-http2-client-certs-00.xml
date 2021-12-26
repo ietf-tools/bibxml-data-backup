@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thomson-http2-client-certs'>
+<front>
+<title>Reactive Certificate-Based Client Authentication in HTTP/2</title>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bishop' fullname='Mike Bishop'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>Some HTTP servers provide a subset of resources that require additional authentication to interact with.  HTTP/1.1 servers rely on TLS renegotiation that is triggered by a request to a protected resource.  HTTP/2 made this pattern impossible by forbidding the use of TLS renegotiation.  This document describes a how client authentication might be requested by a server as a result of receiving a request to a protected resource.  This document updates RFC 7540 to allow TLS renegotiation in limited circumstances.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thomson-http2-client-certs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thomson-http2-client-certs-00.txt' />
+</reference>

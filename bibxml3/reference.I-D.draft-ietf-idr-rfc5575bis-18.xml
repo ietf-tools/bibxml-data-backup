@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-rfc5575bis'>
+<front>
+<title>Dissemination of Flow Specification Rules</title>
+
+<author initials='C' surname='Loibl' fullname='Christoph Loibl'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='D' surname='McPherson' fullname='Danny McPherson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bacher' fullname='Martin Bacher'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>This document obsoletes both RFC5575 and RFC7674.  This document defines a Border Gateway Protocol Network Layer Reachability Information (BGP NLRI) encoding format, that can be used to distribute traffic Flow Specifications.  This allows the routing system to propagate information regarding more specific components of the traffic aggregate defined by an IP destination prefix.  It also specifies BGP Extended Community encoding formats, that can be used to propagate Traffic Filtering Actions along with the Flow Specification NLRI.  Those Traffic Filtering Actions encode actions a routing system can take if the packet matches the Flow Specification.  Additionally, it defines two applications of that encoding format: one that can be used to automate inter-domain coordination of traffic filtering, such as what is required in order to mitigate (distributed) denial-of-service attacks, and a second application to provide traffic filtering in the context of a BGP/MPLS VPN service. Other applications (ie. centralized control of traffic in a SDN or NFV context) are also possible.  Other drafts specify IPv6, MPLS addresses, L2VPN addresses, and NV03 encapsulation of IP addresses as Flow Specification extensions.  The information is carried via the BGP, thereby reusing protocol algorithms, operational experience, and administrative processes such as inter-provider peering agreements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-rfc5575bis-18' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-rfc5575bis-18.txt' />
+</reference>

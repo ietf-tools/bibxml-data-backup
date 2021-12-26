@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-extended-evpn-optimized-ir'>
+<front>
+<title>Extended Procedures for EVPN Optimized Ingress Replication</title>
+
+<author initials='W' surname='Lin' fullname='Wen Lin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivaraj' fullname='Selvakumar Sivaraj'>
+    <organization />
+</author>
+
+<author initials='V' surname='Garg' fullname='Vishal Garg'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2020' />
+
+<abstract><t>[EVPN-AR] specifies an optimized ingress replication solution for more efficient multicast and broadcast delivery in a Network Virtualization Overlay (NVO) network for EVPN.  This document extends the optimized ingress replication procedures specified in [EVPN-AR] to overcome the limitation that an AR- REPLICATOR may have.  An AR-REPLICATOR may be unable to retain the source IP address or include the expected ESI label that is required for EVPN split horizon filtering when replicating the packet on behalf of its multihomed AR-LEAF.  Under this circumstance, the extended procedures specified in this document allows the support of EVPN multihoming on the AR-LEAFs as well as optimized ingress replication for the rest of the EVPN overlay network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-extended-evpn-optimized-ir-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-extended-evpn-optimized-ir-00.txt' />
+</reference>

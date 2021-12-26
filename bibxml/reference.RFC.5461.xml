@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5461' target='https://www.rfc-editor.org/info/rfc5461'>
+<front>
+<title>TCP's Reaction to Soft Errors</title>
+<author initials='F.' surname='Gont' fullname='F. Gont'><organization /></author>
+<date year='2009' month='February' />
+<abstract><t>This document describes a non-standard, but widely implemented, modification to TCP's handling of ICMP soft error messages that rejects pending connection-requests when those error messages are received.  This behavior reduces the likelihood of long delays between connection-establishment attempts that may arise in a number of scenarios, including one in which dual-stack nodes that have IPv6 enabled by default are deployed in IPv4 or mixed IPv4 and IPv6 environments.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5461'/>
+<seriesInfo name='DOI' value='10.17487/RFC5461'/>
+</reference>

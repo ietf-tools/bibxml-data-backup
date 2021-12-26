@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-fibaggregation'>
+<front>
+<title>FIB Aggregation</title>
+
+<author initials='B' surname='Zhang' fullname='Beichuan Zhang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Wang' fullname='Lan Wang'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhao' fullname='Xin Zhao'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Liu' fullname='Yaoqing Liu'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhang' fullname='Lixia  Zhang'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>The rapid growth of Forwarding Information Base (FIB) has raised concerns among many Internet Service Providers.  One potential solution to this problem is FIB aggregation, i.e. letting each router aggregate its FIB entries without affecting the forwarding paths taken by data traffic.  It is a simple local software optimization within a router, requiring no changes to routing protocols or router hardware.  To understand the effectiveness of using FIB aggregation to extend router lifetime, in this draft we present several FIB aggregation algorithms and evaluate their performance using routing tables and updates collected from tens of networks.  Our results show that FIB aggregation can reduce the FIB table size by as much as 70% with small computational overhead.  We also show that the computational overhead can be controlled through various mechanisms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-fibaggregation-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-fibaggregation-01.txt' />
+</reference>

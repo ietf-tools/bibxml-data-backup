@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-ipsecme-alternate-outer-address'>
+<front>
+<title>IKEv2 Alternate Outer IP Address Extension</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2013' />
+
+<abstract><t>Current IKEv2 protocol has been designed to establish VPNs with the same outer IP addresses as those used for the IKEv2 channel.  This describes the alternate outer IP address extension, and IKEv2 extension that enables the VPN End User to negotiate a VPN on different interfaces as those used for the IKEv2 channel.  Thus, this extension makes possible a VPN End User with multiple interfaces to set an IPsec tunnel on each interface with a Security Gateway by using a single IKEv2 channel instead of using an IKEv2 channel per interface.  Similarly, for distributed Security Gateways, it also makes possible to split the IKEv2 and IPsec traffic on different interfaces.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-ipsecme-alternate-outer-address-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-ipsecme-alternate-outer-address-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-ipsecme-alternate-outer-address-00.pdf' />
+</reference>

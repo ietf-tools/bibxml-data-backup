@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.acee-ospf-geo-location'>
+<front>
+<title>OSPF Extensions for Advertising/Signaling Geo Location Information</title>
+
+<author initials='A' surname='Lindem' fullname='Acee Lindem'>
+    <organization />
+</author>
+
+<author initials='N' surname='Shen' fullname='Naiming Shen'>
+    <organization />
+</author>
+
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+    <organization />
+</author>
+
+<date month='February' day='12' year='2016' />
+
+<abstract><t>This document specifies an OSPF Link-Local-Signaling (LLS) TLV to signal the current Geo Coordinates of the OSPF router.  For Point-to- Point (P2)) and Point-to-Multi-Point (P2MP) networks, the Geo Coordinates can be used to dynamically computing the cost to neighbors.  This is useful both from the standpoint of auto- configuration and situations where the OSPF routers are moving.  The Geo Coordinates are also useful for other applications such as Traffic Engineering (TE) and network management and can be advertised in the OSPF Router Information (RI) LSA.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-acee-ospf-geo-location-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-acee-ospf-geo-location-00.txt' />
+</reference>

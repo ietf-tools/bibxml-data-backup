@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-decoding-dependency'>
+<front>
+<title>Signaling media decoding dependency in Session Description Protocol (SDP)</title>
+
+<author initials='T' surname='Schierl' fullname='Thomas Schierl'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wenger' fullname='Stephan Wenger'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2009' />
+
+<abstract><t>This memo defines semantics that allow for signaling the decoding dependency of different media descriptions with the same media type in the Session Description Protocol (SDP).  This is required, for example, if media data is separated and transported in different network streams as a result of the use of a layered or multiple descriptive media coding process. A new grouping type "DDP" -- decoding dependency -- is defined, to be used in conjunction with RFC 3388 entitled "Grouping of Media Lines in the Session Description Protocol".  In addition, an attribute is specified describing the relationship of the media streams in a "DDP" group indicated by media identification attribute(s) and media format description(s).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-decoding-dependency-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-decoding-dependency-06.txt' />
+</reference>

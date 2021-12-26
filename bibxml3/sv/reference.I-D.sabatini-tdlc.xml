@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sabatini-tdlc'>
+<front>
+<title>TDLC, An improved "Selective Repeat" protocol.</title>
+
+<author initials='A' surname='Sabatini' fullname='Anthony Sabatini'>
+    <organization />
+</author>
+
+<date month='August' day='27' year='2012' />
+
+<abstract><t>This paper describes an extremely efficient and reliable real-time "Selective Repeat" protocol that was implemented as the backbone transmission protocol for the largest financial information network in the United States during the 1980's and 1990's.  The protocol is capable of working efficiently in all environments including those with substantial delay and high error or congestion rates, transmitting optimally down to the point that there is one error per block, never resending a block that has been received correctly and always sending the blocks in an order which is optimal for expeditious delivery.  This protocol represents a new way of looking at "Selective Repeat" protocols and the concepts it introduces have wide applicability in other protocols.  It works equally well in point to multi-point environments as it does point to point ones.  It has been used as both a link level and a transport level protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sabatini-tdlc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sabatini-tdlc-00.txt' />
+</reference>

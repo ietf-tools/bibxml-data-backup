@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.carlberg-avtext-classifier'>
+<front>
+<title>A Real-time Transport Protocol (RTP) Classifier Header Extension</title>
+
+<author initials='K' surname='Carlberg' fullname='Ken Carlberg'>
+    <organization />
+</author>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2013' />
+
+<abstract><t>This document defines a new RTP header extension. The purpose of the extension is to provide additional information that further distinguishes the RTP datagram (and its payload) from other datagrams containing the same type of payload.  The information may be used to assist functions performed by application layer gateways (such as Session Border Controller or MCUs) and/or by routers/switches through deep packet inspection. Examples of these functions include intelligent dropping of packets or (re)setting the IP header diff-serv code points at ingress/egress boundaries of a diff-serv domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-carlberg-avtext-classifier-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-carlberg-avtext-classifier-01.txt' />
+</reference>

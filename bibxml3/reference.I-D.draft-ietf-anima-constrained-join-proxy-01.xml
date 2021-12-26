@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-anima-constrained-join-proxy'>
+<front>
+<title>Constrained Join Proxy for Bootstrapping Protocols</title>
+
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stok' fullname='Peter van der Stok'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kampanakis' fullname='Panos Kampanakis'>
+    <organization />
+</author>
+
+<date month='December' day='2' year='2020' />
+
+<abstract><t>This document defines a protocol to securely assign a pledge to a domain, represented by a Registrar, using an intermediary node between pledge and Registrar.  This intermediary node is known as a "constrained Join Proxy".  This document extends the work of [I-D.ietf-anima-bootstrapping-keyinfra] by replacing the Circuit- proxy by a stateless/stateful constrained (CoAP) Join Proxy.  It transports join traffic from the pledge to the Registrar without requiring per-client state.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-anima-constrained-join-proxy-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-anima-constrained-join-proxy-01.txt' />
+</reference>

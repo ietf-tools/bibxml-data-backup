@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.khalili-mptcp-congestion-control'>
+<front>
+<title>Opportunistic Linked-Increases Congestion Control Algorithm for MPTCP</title>
+
+<author initials='R' surname='Khalili' fullname='Ramin Khalili'>
+    <organization />
+</author>
+
+<author initials='N' surname='Gast' fullname='Nicolas Gast'>
+    <organization />
+</author>
+
+<author initials='M' surname='Popovic' fullname='Miroslav Popovic'>
+    <organization />
+</author>
+
+<author initials='J' surname='Boudec' fullname='Jean-Yves Le Boudec'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2013' />
+
+<abstract><t>This document describes the mechanism of OLIA, the "Opportunistic Linked Increases Algorithm". OLIA is a congestion control algorithm for MPTCP. The current congestion control algorithm of MPTCP, LIA [4], forces a tradeoff between optimal congestion balancing and responsiveness. OLIA's design departs from this tradeoff and provide these properties simultaneously. Hence, it solves the identified performance problems with LIA while retaining non-flappiness and responsiveness behavior of LIA, as shown by different studies [5, 6, 7, 8]. OLIA is now part of the UCLouvain's MPTCP implementation [9].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-khalili-mptcp-congestion-control-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-khalili-mptcp-congestion-control-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-khalili-mptcp-congestion-control-02.pdf' />
+</reference>

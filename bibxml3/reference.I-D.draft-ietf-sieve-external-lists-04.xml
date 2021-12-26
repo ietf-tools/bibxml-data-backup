@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sieve-external-lists'>
+<front>
+<title>Sieve Extension: Externally Stored Lists</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<author initials='B' surname='Leiba' fullname='Barry Leiba'>
+    <organization />
+</author>
+
+<date month='November' day='8' year='2010' />
+
+<abstract><t>The Sieve scripting language can be used to implement whitelisting, blacklisting, personal distribution lists, and other sorts of list matching.  Currently, this requires that all members of such lists be hardcoded in the script itself.  Whenever a member of a list is added or deleted, the script needs to be updated and possibly uploaded to a mail server.  This document defines a Sieve extension for accessing externally stored lists -- lists whose members are stored externally to the script, such as using LDAP (RFC 4510), ACAP (RFC 2244), or relational databases.  ToDo  o  Do we need support for URI schemes in ihave?  From IETF 77  minutes: "Can use ihave to test if a URI is valid, both that the  scheme is supported and that the URI can be retrieved/queried."  o  Do we need to say anything about comparators?  We can be silent  (as now), we can say that comparators MAY be ignored as a list-  specific thing, or we can say that comparators MUST NOT be used.  o  Should we add a mandatory-to-implement tag?  Ned suggests (and I  agree) that it might be good to add a registry of well-defined  strings that can be used instead of URIs, and define the initial  string "pab" to represent the user's personal address book.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sieve-external-lists-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sieve-external-lists-04.txt' />
+</reference>

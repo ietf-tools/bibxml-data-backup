@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hao-bess-evpn-df-handshaking'>
+<front>
+<title>Handshaking mechanism for DF election</title>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<date month='February' day='5' year='2015' />
+
+<abstract><t>In [EVPN], DF election process on each PE connecting to same ESI is triggered by independent timer expiring, DF and non-DF PEs can't ensure that unblocking and blocking action take effect at the same time, sometimes long time traffic disruption will occur. Handshaking mechanism for DF election is introduced in this draft, it can effectively reduce traffic disruption and avoid potential issues of packet duplication and loop in all-active access scenario.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hao-bess-evpn-df-handshaking-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hao-bess-evpn-df-handshaking-00.txt' />
+</reference>

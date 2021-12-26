@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ccamp-rsvp-node-id-based-hello'>
+<front>
+<title>Node ID based RSVP Hello: A Clarification Statement</title>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2006' />
+
+<abstract><t>Use of Node-ID based RSVP Hello messages is implied in a number of cases, e.g., when data and control plan are separated, and when TE links are unnumbered. Nonetheless, this implied behavior is unclear and this document formalizes use of Node-ID based RSVP Hello session in some scenarios. The procedure described in this document applies to both Multi-Protocol Label Switching (MPLS) and Generalized MPLS (GMPLS) capable nodes. When link level failure detection is performed by some means other than exchanging RSVP Hello messages, use of Node-ID based Hello session is optimal for detecting signaling adjacency failure for Resource reSerVation Protocol-Traffic Engineering (RSVP-TE). The use of Node-ID based Hello session is optimal in the sense that as long as there is IP reachability to the nieghbor (node-id), the signalling adjacency will remain up.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ccamp-rsvp-node-id-based-hello-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ccamp-rsvp-node-id-based-hello-03.txt' />
+</reference>

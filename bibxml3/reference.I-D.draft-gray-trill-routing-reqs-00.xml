@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gray-trill-routing-reqs'>
+<front>
+<title>TRILL Routing Requirements in Support of RBridges</title>
+
+<author initials='E' surname='Gray' fullname='Eric Gray'>
+    <organization />
+</author>
+
+<date month='February' day='24' year='2006' />
+
+<abstract><t>RBridges provide the ability to have an entire campus, with multiple physical links, look to IP like a single subnet. The design allows for zero configuration of switches within an RBridge campus, optimal pair-wise routing, safe forwarding even during periods of temporary loops, and the potential ability to cut down on Address Resolution Protocol (ARP) and/or Neighbor Discovery (ND) traffic. The design supports VLANs, allows forwarding tables to be based on destinations within the RBridge campus (rather than endnode destinations, allowing internal forwarding tables to be smaller than in conventional bridge systems) and re-uses existing routing protocols (for distribution of reachability of destinations and shortest path computation within an RBridge campus, and potentially for peer/topology discovery). In order to accomplish this, the design may impose requirements for extensions to one or more existing routing protocols necessary to accomplish the distribution and computation processes, as well as specific limits on interactions between bridge, R-Bridge and Router instances.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gray-trill-routing-reqs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gray-trill-routing-reqs-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.whittle-ivip-db-fast-push'>
+<front>
+<title>Ivip Mapping Database Fast Push</title>
+
+<author initials='R' surname='Whittle' fullname='Robin Whittle'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2008' />
+
+<abstract><t>Ivip (Internet Vastly Improved Plumbing) is a proposed map-encap system which is intended to provide a solution for the routing scaling problem - supporting growing numbers of end-user networks with multihoming, traffic engineering and portability, without further growth in the global BGP routing table.  Ivip is also intended to provide other benefits, including a new form of IPv4 and IPv6 mobility and better utilization of IPv4 address space.  To achieve these benefits, Ivip relies on a "fast mapping database push" system, which is required to securely and reliably deliver updates to the mapping database to hundreds of thousands - or potentially millions - of ITRs (Ingress Tunnel Routers) and Query Servers (QSes) all over the Net, ideally within a few seconds.  This ID describes the requirements of such a system and how it could be implemented so as to cope with very large numbers of updates and ITR/QS sites.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-whittle-ivip-db-fast-push-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-whittle-ivip-db-fast-push-00.txt' />
+</reference>

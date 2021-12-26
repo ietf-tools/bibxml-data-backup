@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.smyshlyaev-re-keying'>
+<front>
+<title>The ACPKM internal re-keying mechanism for block cipher modes of operation</title>
+
+<author initials='S' surname='Smyshlyaev' fullname='Stanislav Smyshlyaev'>
+    <organization />
+</author>
+
+<author initials='E' surname='Alekseev' fullname='Evgeny Alekseev'>
+    <organization />
+</author>
+
+<author initials='I' surname='Oshkin' fullname='Igor Oshkin'>
+    <organization />
+</author>
+
+<author initials='L' surname='Ahmetzyanova' fullname='Lilia Ahmetzyanova'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ekaterina' fullname='Smyshliaeva Ekaterina'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2016' />
+
+<abstract><t>This specification presents an approach to increase the security of block cipher operation modes based on re-keying (with no additional keys needed) during each separate message processing.  It provides an internal re-keying mechanism called ACPKM.  This mechanism doesn't require additional secret parameters or complicated transforms - for key update only the base encryption function is used.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-smyshlyaev-re-keying-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-smyshlyaev-re-keying-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-smyshlyaev-re-keying-00.pdf' />
+</reference>

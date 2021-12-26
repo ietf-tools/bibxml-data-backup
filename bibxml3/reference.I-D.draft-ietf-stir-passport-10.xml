@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-stir-passport'>
+<front>
+<title>Personal Assertion Token (PASSporT)</title>
+
+<author initials='C' surname='Wendt' fullname='Chris Wendt'>
+    <organization />
+</author>
+
+<author initials='J' surname='Peterson' fullname='Jon Peterson'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>This document defines a method for creating and validating a token that cryptographically verifies an originating identity, or more generally a URI or telephone number representing the originator of personal communications.  The PASSporT token is cryptographically signed to protect the integrity of the identity the originator and to verify the assertion of the identity information at the destination. The cryptographic signature is defined with the intention that it can confidently verify the originating persona even when the signature is sent to the destination party over an insecure channel.  PASSporT is particularly useful for many personal communications applications over IP networks and other multi-hop interconnection scenarios where the originating and destination parties may not have a direct trusted relationship.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-stir-passport-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-stir-passport-10.txt' />
+</reference>

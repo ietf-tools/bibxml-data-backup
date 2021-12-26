@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-bishop-httpbis-extended-settings-01.txt'>
+    <title>"HTTP/2 Extended SETTINGS Extension", Mike Bishop</title>
+    <link>http://www.ietf.org/internet-drafts/draft-bishop-httpbis-extended-settings-01.txt</link>
+    <description>HTTP/2 defines the SETTINGS frame to contain a single 32-bit value per setting.  While this is sufficient to convey everything used in the core HTTP/2 specification, some protocols will require more complex values, such as arrays of code-points or strings.  For such protocols, this extension defines a parallel to the SETTINGS frame, EXTENDED_SETTINGS, where the value of a setting is not a 32-bit value, but a variable-length opaque data blob whose interpretation is subject entirely to the definition of the protocol using it.</description>
+    <dc:date>2016-11-15T08:00:00-00:00</dc:date>
+</item>

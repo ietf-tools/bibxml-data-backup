@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nandy-utkarsh-pim-mcast-path-mtu'>
+<front>
+<title>Multicast Path MTU</title>
+<author initials='t' surname='nandy' fullname='tathagata nandy'>
+<organization />
+</author>
+<author initials='U' surname='Srivastava' fullname='Utkarsh Srivastava'>
+<organization />
+</author>
+<date year='2021' month='January' day='17' />
+<abstract><t>Path MTU discovery (rfc1191) is a standard technique to determine the supported MTU between two Internet Protocol (IP) hosts to avoid any fragmentation. In a multicast distribution tree, source will not know where the receivers are located. So the technique used to compute the path MTU for a unicast stream does not work in a multicast network.  This document describes a method to discover multicast path MTU with the goal to avoid traffic loss. This solution also aims to solve the problem of traffic loss in for multicast streams because of incorrect MTU setting and no path MTU support for multicast networks.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-nandy-utkarsh-pim-mcast-path-mtu-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-nandy-utkarsh-pim-mcast-path-mtu-00.txt'/>
+</reference>

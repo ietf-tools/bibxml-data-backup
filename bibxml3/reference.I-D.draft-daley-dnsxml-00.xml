@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.daley-dnsxml'>
+<front>
+<title>dnsxml - A standard XML representation of DNS data</title>
+
+<author initials='J' surname='Daley' fullname='Jay Daley'>
+    <organization />
+</author>
+
+<author initials='S' surname='Morris' fullname='Stephen Morris'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dickinson' fullname='John Dickinson'>
+    <organization />
+</author>
+
+<date month='July' day='30' year='2013' />
+
+<abstract><t>This memo describes a syntax for encoding DNS Resource Records in XML, and a schema to define that syntax written in XML Schema.  It can be used to represent all DNS RDATA.  This can be used by diverse applications as a common format.  DNS Resource Records are represented as XML elements with the name of the element taken from the mnemonic used to represent the DNS Resource Record in presentation format.  The RDATA is represented as XML attributes or content of the element.  The attribute names are taken from the RDATA field names specified in the normative RFC.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-daley-dnsxml-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-daley-dnsxml-00.txt' />
+</reference>

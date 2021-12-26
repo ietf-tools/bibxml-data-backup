@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-esadi'>
+<front>
+<title>TRILL: ESADI (End Station Address Distribution Information) Protocol</title>
+
+<author initials='Z' surname='Corporation' fullname='ZTE Corporation'>
+    <organization />
+</author>
+
+<author initials='f' surname='hu' fullname='fangwei hu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+    <organization />
+</author>
+
+<author initials='O' surname='Stokes' fullname='Olen Stokes'>
+    <organization />
+</author>
+
+<date month='June' day='7' year='2014' />
+
+<abstract><t>The IETF TRILL (Transparent Interconnection of Lots of Links) protocol provides least cost pair-wise data forwarding without configuration in multi-hop networks with arbitrary topologies and link technologies.  TRILL supports multi-pathing of both unicast and multicast traffic.  Devices that implement the TRILL protocol are called TRILL Switches or RBridges (Routing Bridges).  ESADI (End Station Address Distribution Information) is an optional protocol by which a TRILL switch can communicate, in a Data Label (VLAN or Fine Grained Label) scoped way, end station address and reachability information to TRILL switches participating in ESADI for the relevant Data Label.  This document updates RFC 6325, specifically the documentation of the ESADI protocol, and is not backwards compatible.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-esadi-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-esadi-08.txt' />
+</reference>

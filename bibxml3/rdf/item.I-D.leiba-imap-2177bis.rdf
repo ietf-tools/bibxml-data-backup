@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-leiba-imap-2177bis-00.txt'>
+    <title>"IMAP4 IDLE command", Barry Leiba</title>
+    <link>http://www.ietf.org/internet-drafts/draft-leiba-imap-2177bis-00.txt</link>
+    <description>The Internet Message Access Protocol requires a client to poll the server for changes to the selected mailbox (new mail, deletions). It's often more desirable to have the server transmit updates to the client in real time. This allows a user to see new mail immediately. It also helps some real-time applications based on IMAP, which might otherwise need to poll extremely often (such as every few seconds). (While the spec actually does allow a server to push EXISTS responses asynchronously, a client can't expect this behaviour and must poll.) This document specifies the syntax of an IDLE command, which will allow a client to tell the server that it's ready to accept such real-time updates.</description>
+    <dc:date>2005-12-09T08:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.williams-kitten-channel-bound-flag'>
+<front>
+<title>Channel Binding Signalling for the Generic Security Services Application Programming Interface</title>
+
+<author initials='N' surname='Williams' fullname='Nico Williams'>
+    <organization />
+</author>
+
+<date month='February' day='11' year='2013' />
+
+<abstract><t>This Internet-Draft proposes the addition of a "channel bound" return flag for the GSS_Init_sec_context() and GSS_Accept_sec_context() functions.  Two behaviors are specified: a default, safe behavior, and a behavior that is only safe when the application specifically tells the Generic Security Services Application Programming Interface (GSS-API) that it (the applicaiton) supports the new behavior.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-williams-kitten-channel-bound-flag-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-williams-kitten-channel-bound-flag-00.txt' />
+</reference>

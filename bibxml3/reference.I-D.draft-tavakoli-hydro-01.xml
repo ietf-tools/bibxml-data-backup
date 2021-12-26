@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tavakoli-hydro'>
+<front>
+<title>HYDRO: A Hybrid Routing Protocol for Lossy and Low Power Networks</title>
+
+<author initials='A' surname='Tavakoli' fullname='Arsalan  Tavakoli'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dawson-Haggerty' fullname='Stephen Dawson-Haggerty'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hui' fullname='Jonathan Hui'>
+    <organization />
+</author>
+
+<author initials='D' surname='Culler' fullname='David Culler'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2009' />
+
+<abstract><t>HYDRO is a hybrid routing protocol for Lossy and Low power Networks (L2Ns) that embraces centralized and distributed routing mechanisms. Through the use of standard ICMP Route Advertisements and Route Solicitations, Node Routers build Default Routes to Border Routers. These routes, which maintain multiple options per each Node Router when available, are maintained through data-driven link estimation. Node Routers periodically report a high-quality subset of their Default Route Table to Border Routers, which then form a global view of the topology.  When a Node Router attempts to route to another Node Router in the network, if no matching entry exists in the Node Router's Flow Table, it forwards the packet to a Border Router, which then installs the correct Flow Table Entries in the network to enable more efficient subsequent routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tavakoli-hydro-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tavakoli-hydro-01.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nordmark-multi6-noid'>
+<front>
+<title>Multihoming without IP Identifiers</title>
+
+<author initials='E' surname='Nordmark' fullname='Erik Nordmark'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2004' />
+
+<abstract><t>This document outlines a potential solution to IPv6 multihoming in order to stimulate discussion. This proposed solution relies on verification using the existing DNS to prevent redirection attacks, while allowing locator rewriting by (border) routers, with no per-packet overhead. The solution does not introduce a "stack name" type of identifier, instead it ensures that all upper layer protocols can operate unmodified in a multihomed setting while still seeing a stable IPv6 address.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nordmark-multi6-noid-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nordmark-multi6-noid-02.txt' />
+</reference>

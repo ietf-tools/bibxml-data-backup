@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schiff-ntp-chronos'>
+<front>
+<title>A Secure Selection and Filtering Mechanism for the Network Time Protocol Version 4</title>
+
+<author initials='N' surname='Schiff' fullname='Neta Schiff'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dolev' fullname='Danny Dolev'>
+    <organization />
+</author>
+
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+    <organization />
+</author>
+
+<author initials='M' surname='Schapira' fullname='Michael Schapira'>
+    <organization />
+</author>
+
+<date month='July' day='1' year='2018' />
+
+<abstract><t>The Network Time Protocol version 4 (NTPv4) defines the peer process, the clock filter algorithm, the system process and the clock description algorithm.  The clock filter algorithm and the system process, as defined in RFC 5905, are the mechanism according to which an NTP client chooses the NTP servers it synchronized with.  This document specifies an alternative set of client mechanisms, named Chronos, that is backward compatible with NTPv4, and offers an improved level of security against time shifting attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schiff-ntp-chronos-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schiff-ntp-chronos-00.txt' />
+</reference>

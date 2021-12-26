@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-coap-tcp-tls'>
+<front>
+<title>CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<author initials='S' surname='Lemay' fullname='Simon Lemay'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hartke' fullname='Klaus Hartke'>
+    <organization />
+</author>
+
+<author initials='B' surname='Silverajan' fullname='Bill Silverajan'>
+    <organization />
+</author>
+
+<author initials='B' surname='Raymor' fullname='Brian Raymor'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>The Constrained Application Protocol (CoAP), although inspired by HTTP, was designed to use UDP instead of TCP.  The message layer of the CoAP over UDP protocol includes support for reliable delivery, simple congestion control, and flow control.  Some environments benefit from the availability of CoAP carried over reliable transports such as TCP or TLS.  This document outlines the changes required to use CoAP over TCP, TLS, and WebSockets transports.  It also formally updates RFC 7641 for use with these transports and RFC 7959 to enable the use of larger messages over a reliable transport.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-coap-tcp-tls-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-core-coap-tcp-tls-10.txt' />
+</reference>

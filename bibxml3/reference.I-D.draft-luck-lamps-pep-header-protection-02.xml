@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.luck-lamps-pep-header-protection'>
+<front>
+<title>pretty Easy privacy (pEp): Header Protection</title>
+
+<author initials='C' surname='Luck' fullname='Claudio Luck'>
+    <organization />
+</author>
+
+<author initials='B' surname='Hoeneisen' fullname='Bernie Hoeneisen'>
+    <organization />
+</author>
+
+<date month='March' day='26' year='2019' />
+
+<abstract><t>Issues with email header protection in S/MIME have been recently raised in the IETF LAMPS Working Group.  The need for amendments to the existing specification regarding header protection was expressed.  The pretty Easy privacy (pEp) implementations currently use a mechanism quite similar to the currently standardized message wrapping for S/MIME.  The main difference is that pEp is using PGP/ MIME instead, and adds space for carrying public keys next to the protected message.  In LAMPS voices have also been expressed, that whatever mechanism will be chosen, it should not be limited to S/MIME, but also applicable to PGP/MIME.  This document aims to contribute to this discussion and share pEp implementation experience with email header protection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-luck-lamps-pep-header-protection-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-luck-lamps-pep-header-protection-02.txt' />
+</reference>

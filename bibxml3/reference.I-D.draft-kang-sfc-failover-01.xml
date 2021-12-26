@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kang-sfc-failover'>
+<front>
+<title>Failover for Service Function Chaining</title>
+
+<author initials='t' surname='th.kang@kt.com' fullname='th.kang@kt.com'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kim' fullname='Sungsu Kim'>
+    <organization />
+</author>
+
+<author initials='E' surname='Paik' fullname='EunKyoung Paik'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>In SFC-enabled domain, failures can occur at Service Function(SF). If the failed node is on the path where a packet is delivered, packet cannot be sent to destination and such situation should be avoided. Currently, there are many ways to provide redundancy of SFs, such as VRRP.  However, legacy redundancy method may not be used in SFC as Service Function Forwarders(SFFs) do not use IP or MAC address in their FIBs.  In SFC, traffic is steered based on Service Function Path ID and Service Index.  Therefore controller, which is responsible for a control plane function in SFC, can manage path of SFC.  In this document, we illustrate failover method specifically for SFC which uses SFC encapsulation.  We describe bypass mechanism to avoid failures in SFs and redirect traffic to backup SFs.  For bypass mechanism, we propose SF classification of 1)mandatory SFs that function indispensible for packet delivery, such as NAT and 2)optional SFs that a packet can be delivered without them, such as Firewall and IDS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kang-sfc-failover-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kang-sfc-failover-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jiang-softwire-4rd-radius'>
+<front>
+<title>RADIUS Attribute for 4rd</title>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fu' fullname='Yu Fu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Liu' fullname='Bing Liu'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2013' />
+
+<abstract><t>IPv4 Residual Deployment via IPv6 (4rd) is a stateless mechanism for running IPv4 over IPv6-only infrastructure. It provides both IPv4 and IPv6 connectivity services simultaneously during the IPv4/IPv6 co- existing period. The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) 4rd options has been defined to configure 4rd Customer Edge (CE). However, in many networks, the configuration information may be stored in Authentication Authorization and Accounting (AAA) servers while user configuration is mainly from Broadband Network Gateway (BNG) through DHCPv6 protocol. This document defines a Remote Authentication Dial In User Service (RADIUS) attribute that carries 4rd configuration information from AAA server to BNG. The 4rd RADIUS attribute are designed following the simplify principle. It provides just enough information to form the correspondent DHCPv6 4rd option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jiang-softwire-4rd-radius-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jiang-softwire-4rd-radius-02.txt' />
+</reference>

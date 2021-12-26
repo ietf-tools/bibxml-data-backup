@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-dns-zone-digest'>
+<front>
+<title>Message Digest for DNS Zones</title>
+
+<author initials='D' surname='Wessels' fullname='Duane Wessels'>
+    <organization />
+</author>
+
+<author initials='P' surname='Barber' fullname='Piet Barber'>
+    <organization />
+</author>
+
+<author initials='M' surname='Weinberg' fullname='Matt Weinberg'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='W' surname='Hardaker' fullname='Wes Hardaker'>
+    <organization />
+</author>
+
+<date month='June' day='24' year='2019' />
+
+<abstract><t>This document describes an experimental protocol and new DNS Resource Record that can be used to provide a message digest over DNS zone data.  The ZONEMD Resource Record conveys the message digest data in the zone itself.  When a zone publisher includes an ZONEMD record, recipients can verify the zone contents for accuracy and completeness.  This provides assurance that received zone data matches published data, regardless of how the zone data has been transmitted and received.  ZONEMD is not designed to replace DNSSEC.  Whereas DNSSEC protects individual RRSets (DNS data with fine granularity), ZONEMD protects protects a zone's data as a whole, whether consumed by authoritative name servers, recursive name servers, or any other applications.  As specified at this time, ZONEMD is not designed for use in large, dynamic zones due to the time and resources required for digest calculation.  The ZONEMD record described in this document includes fields reserved for future work to support large, dynamic zones.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-dns-zone-digest-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-dns-zone-digest-00.txt' />
+</reference>

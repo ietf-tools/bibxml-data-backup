@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-rs-bfd'>
+<front>
+<title>Making Route Servers Aware of Data Link Failures at IXPs</title>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<author initials='A' surname='Nipper' fullname='Arnold Nipper'>
+    <organization />
+</author>
+
+<author initials='C' surname='Dietzel' fullname='Christoph Dietzel'>
+    <organization />
+</author>
+
+<date month='September' day='2' year='2019' />
+
+<abstract><t>When BGP route servers are used, the data plane is not congruent with the control plane.  Therefore, peers at an Internet exchange can lose data connectivity without the control plane being aware of it, and packets are lost.  This document proposes the use of a newly defined BGP Subsequent Address Family Identifier (SAFI) both to allow the route server to request its clients use BFD to track data plane connectivity to their peers' addresses, and for the clients to signal that connectivity state back to the route server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-rs-bfd-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-rs-bfd-08.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lemonade-profile-bis'>
+<front>
+<title>The Lemonade Profile</title>
+
+<author initials='D' surname='Cridland' fullname='Dave Cridland'>
+    <organization />
+</author>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<author initials='S' surname='Maes' fullname='Stephane Maes'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2009' />
+
+<abstract><t>This document describes a profile (a set of required extensions, restrictions and usage modes), dubbed Lemonade, of the IMAP, mail submission and Sieve protocols.  This profile allows clients (especially those that are constrained in memory, bandwidth, processing power, or other areas) to efficiently use IMAP and Submission to access and submit mail.  This includes the ability to forward received mail without needing to download and upload the mail, to optimize submission and to efficiently resynchronize in case of loss of connectivity with the server.  The Lemonade profile relies upon several extensions to IMAP and Mail Submission protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lemonade-profile-bis-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lemonade-profile-bis-12.txt' />
+</reference>

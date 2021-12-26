@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hutton-mmusic-bundled-ice-candidates'>
+<front>
+<title>Multiplexing Negotiation Using ICE Candidate Extension</title>
+
+<author initials='A' surname='Hutton' fullname='Andrew Hutton'>
+    <organization />
+</author>
+
+<author initials='T' surname='Stach' fullname='Thomas Stach'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2013' />
+
+<abstract><t>This document describes a mechanism for extending ICE candidates with an optional parameter which can be used to negotiate the usage of bundled media, which refers to the usage of a single 5-tuple for multiple RTP streams.  In a scenario where a party initiating the negotiation supports ICE [RFC5245] this mechanism provides the ability to provide an SDP offer which is both backwards compatible and able to fully specify the use of bundled media.  Therefore, this mechanism allows bundled and non-bundled media to be negotiated in a single offer/answer exchange when both parties support ICE and this extension.  The mechanism complements the procedures described in [draft-ietf-mmusic-sdp-bundle-negotiation].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hutton-mmusic-bundled-ice-candidates-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hutton-mmusic-bundled-ice-candidates-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-hutton-mmusic-bundled-ice-candidates-00.pdf' />
+</reference>

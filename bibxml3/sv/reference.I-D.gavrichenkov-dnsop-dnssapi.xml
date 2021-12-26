@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gavrichenkov-dnsop-dnssapi'>
+<front>
+<title>Domain Name System Service Application Programming Interface</title>
+
+<author initials='A' surname='Gavrichenkov' fullname='Artyom Gavrichenkov'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>Managed DNS services are widely used to maintain DNS zones. Virtually all of them have an API of some sort, in most cases an XML- RPC or JSON-RPC API, while most of them lack the support of zone transfers.  The latter is unlikely to change any time soon due to the reasons outlined below.  This document describes a protocol, a common denominator of existing API protocols, that both a service provider and its customer can use to exchange information about DNS zones and policies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gavrichenkov-dnsop-dnssapi-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gavrichenkov-dnsop-dnssapi-00.txt' />
+</reference>

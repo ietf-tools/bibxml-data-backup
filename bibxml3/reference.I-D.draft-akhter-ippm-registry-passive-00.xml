@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.akhter-ippm-registry-passive'>
+<front>
+<title>Passive Performance Metrics Sub-Registry</title>
+
+<author initials='A' surname='Akhter' fullname='Aamer Akhter'>
+    <organization />
+</author>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<date month='February' day='14' year='2014' />
+
+<abstract><t>This memo defines the Passive Performance Metrics sub-registry of the Performance Metric Registry.  This sub-registry will contain Passive Performance Metrics, especially those defined in RFCs prepared in the IP Performance Metrics (IPPM) Working Group of the IETF, and possibly applicable to other IETF metrics.  IPPM Passive metric registration is meant to allow wider adoption of common metrics in an inter-operable way.  There are challenges with metric interoperability and adoption (to name a few) due to flexible input parameters, confusion between many similar metrics, and varying output formats.  This memo proposes a way to organize registry entries into columns that are well-defined, permitting consistent development of entries over time (a column may marked NA if it is not applicable for that metric).  The design is intended to foster development of registry entries based on existing reference RFCs, whilst each column serves as a check-list item to avoid omissions during the registration process.  Every entry in the registry, before IANA action, requires Expert review as defined by concurrent IETF work in progress "Registry for Performance Metrics" (draft-manyfolks-ippm-metric- registry).  The document contains example entries for the Passive Performance Metrics sub-registry: a registry entry for a passive metric based on octetTotalCount as defined in RFC5102 and a protocol specific passive metric based on RTP packets lost as defined in RFC3550.  The examples are for Informational purposes and do not create any entry in the IANA registry.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-akhter-ippm-registry-passive-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-akhter-ippm-registry-passive-00.txt' />
+</reference>

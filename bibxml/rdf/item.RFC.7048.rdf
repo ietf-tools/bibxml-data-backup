@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc7048.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc7048.txt</link>
+        <title>RFC 7048: Neighbor Unreachability Detection Is Too Impatient, E. Nordmark, I. Gashinsky</title>
+        <dc:date>2014-01-01T23:00:00-00:00</dc:date>
+        <description>IPv6 Neighbor Discovery includes Neighbor Unreachability Detection. That function is very useful when a host has an alternative neighbor -- for instance, when there are multiple default routers -- since it allows the host to switch to the alternative neighbor in a short time.  By default, this time is 3 seconds after the node starts probing.  However, if there are no alternative neighbors, this timeout behavior is far too impatient.  This document specifies relaxed rules for Neighbor Discovery retransmissions that allow an implementation to choose different timeout behavior based on whether or not there are alternative neighbors.  This document updates RFC 4861. </description>
+    </item>
+

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-savi-transition'>
+<front>
+<title>A general SAVI-based source address validation and traceback framework for 4over6 transition scenarios</title>
+
+<author initials='H' surname='Deng' fullname='Hui Deng'>
+    <organization />
+</author>
+
+<author initials='G' surname='Hu' fullname='Guangwu Hu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bi' fullname='Jun Bi'>
+    <organization />
+</author>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Shi' fullname='Fan Shi'>
+    <organization />
+</author>
+
+<date month='May' day='8' year='2012' />
+
+<abstract><t>Many proposals have been presented for preventing IP spoofing from occurring in network. An outstanding of them is the SAVI (Source Address Validation Improvement) proposal which was advocated by IETF SAVI workgroup for solving this problem from user access switch. SAVI Working Group is developing standardize mechanisms that prevent nodes attached to the same IP link from spoofing each other's IP addresses, and achieve IP source address validation at a finer granularity. However, up to now, to the best of our knowledge, none of them has focused on the scenarios of 4over6 transition, that is, IPv4 packets transit IPv6 network and arrive at other edge IPv4 network(s). With the boom of IPv6 networks, this issue becomes more and more urgent. In addition, since 4over6 plans are plenty and various, one solution cannot meet all requirements of these plans. This document describes a framework of IP source address validation and traceback for 4over6 transition scenarios, which extract out the essential and mutual properties from these plans and form corresponding sub-solution for each property. When one 4over6 plan is combined by some of them, the solution of IP source address validation and traceback for this plan are directly comprised of the combination of corresponding sub- solution. Thus, the most exciting advantage of this framework is that it is a once for all solution no matter how 4over6 plans changes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-savi-transition-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-savi-transition-01.txt' />
+</reference>

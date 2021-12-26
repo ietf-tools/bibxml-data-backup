@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iulian-advanced-groupware-access-protocol'>
+<front>
+<title>Advanced Groupware Access Protocol</title>
+
+<author initials='I' surname='Radu' fullname='Iulian Radu'>
+    <organization />
+</author>
+
+<date month='May' day='1' year='2014' />
+
+<abstract><t>The Advanced Groupware Access Protocol, (AGAP) allows a client to access and store electronic mail messages, contacts, events, files, and configurations on a server.  The electronic mail messages can be grouped in folders.  AGAP also provides the capability for an offline client to resynchronize with the server.  AGAP does not specify a means of posting electronic mail messages; this function is handled by a mail transfer protocol such as SMTP [RFC2821] .  It also does not specify a means for exchanging messages with contacts that are reported as being online; this function is handled by an instant messaging protocol such as XMPP [RFC3921] .  AGAP includes the following operations for electronic mail messages: creating, deleting, renaming, moving and coping mail folders; checking for new messages; permanently removing messages; moving and coping messages between folders; fetching information about a message; setting and clearing tags for messages; searching in messages; retrieving only a part of a message; marking messages as SPAM; deleting attachments from a message.  AGAP includes the following operations to manipulate the contacts: creating, deleting, moving, coping, tagging, and searching contacts; checking if a contact is online; fetching information about a contact.  AGAP includes the following operations related to the use of the events: creating, deleting, moving, coping and tagging events in calendar; fetching events details; searching for events.  All items are read and written in format XML encoded UTF-8 [RFC3629] and each item is identified by a unique alphanumeric identifier.  AGAP is designed to support access only to a single server per connection.  It is also designed to balance the volume of text exchanged between the server and clients and its readability by humans for debugging.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iulian-advanced-groupware-access-protocol-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iulian-advanced-groupware-access-protocol-09.txt' />
+</reference>

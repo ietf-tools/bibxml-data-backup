@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanderstok-ace-coap-est'>
+<front>
+<title>EST based on DTLS secured CoAP (EST-coaps)</title>
+
+<author initials='S' surname='Kumar' fullname='Sandeep Kumar'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<date month='December' day='7' year='2016' />
+
+<abstract><t>Low-resource devices in a Low-power and Lossy Network (LLN) can operate in a mesh network using the IPv6 over Low-power Personal Area Networks (6LoWPAN) and IEEE 802.15.4 link-layer standards. Provisioning these devices in a secure manner with keys (often called security bootstrapping) used to encrypt and authenticate messages is the subject of Bootstrapping of Remote Secure Key Infrastructures (BRSKI) [I-D.ietf-anima-bootstrapping-keyinfra].  Enrollment over Secure Transport (EST) [RFC7030], based on TLS and HTTP, is used for BRSKI.  This document defines how low-resource devices are expected to use EST over DTLS and CoAP. 6LoWPAN fragmentation management and minor extensions to CoAP are needed to enable EST over DTLS-secured CoAP (EST-coaps).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanderstok-ace-coap-est-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-ace-coap-est-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-ace-coap-est-00.pdf' />
+</reference>

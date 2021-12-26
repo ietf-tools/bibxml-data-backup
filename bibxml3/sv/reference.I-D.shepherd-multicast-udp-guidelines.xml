@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shepherd-multicast-udp-guidelines'>
+<front>
+<title>Multicast UDP Usage Guidelines for Application Designers</title>
+
+<author initials='G' surname='Shepherd' fullname='Greg Shepherd'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2013' />
+
+<abstract><t>The multi-recipient nature of Multicast prevents the use of any pont- to-point connection-oriented transport, therefore restricts all Multicast data to be sent over the User Datagram Protocol (UDP).  UDP provides a minimal message-passing transport that has no inherent congestion control mechanisms.  Because congestion control is critical to the stable operation of the Internet, applications and upper-layer protocols that choose to use Multicast UDP as an Internet service must employ mechanisms to prevent congestion collapse and to establish some degree of fairness with concurrent traffic.  This document provides guidelines on the use of UDP for the designers of multicast applications and higher-level protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shepherd-multicast-udp-guidelines-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shepherd-multicast-udp-guidelines-01.txt' />
+</reference>

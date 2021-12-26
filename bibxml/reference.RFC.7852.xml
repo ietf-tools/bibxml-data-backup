@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7852' target='https://www.rfc-editor.org/info/rfc7852'>
+<front>
+<title>Additional Data Related to an Emergency Call</title>
+<author initials='R.' surname='Gellens' fullname='R. Gellens'><organization /></author>
+<author initials='B.' surname='Rosen' fullname='B. Rosen'><organization /></author>
+<author initials='H.' surname='Tschofenig' fullname='H. Tschofenig'><organization /></author>
+<author initials='R.' surname='Marshall' fullname='R. Marshall'><organization /></author>
+<author initials='J.' surname='Winterbottom' fullname='J. Winterbottom'><organization /></author>
+<date year='2016' month='July' />
+<abstract><t>When an emergency call is sent to a Public Safety Answering Point (PSAP), the originating device, the access network provider to which the device is connected, and all service providers in the path of the call have information about the call, the caller, or the location, which is helpful for the PSAP to have in handling the emergency. This document describes data structures and mechanisms to convey such data to the PSAP.  The intent is that every emergency call carry as much of the information described here as possible using the mechanisms described here.</t><t>The mechanisms permit the data to be conveyed by reference (as an external resource) or by value (within the body of a SIP message or a location object).  This follows the tradition of prior emergency services standardization work where data can be conveyed by value within the call signaling (i.e., in the body of the SIP message) or by reference.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7852'/>
+<seriesInfo name='DOI' value='10.17487/RFC7852'/>
+</reference>

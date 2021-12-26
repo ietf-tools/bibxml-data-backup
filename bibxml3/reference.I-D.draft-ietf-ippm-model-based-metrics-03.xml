@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ippm-model-based-metrics'>
+<front>
+<title>Model Based Bulk Performance Metrics</title>
+
+<author initials='M' surname='Mathis' fullname='Matt Mathis'>
+    <organization />
+</author>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2014' />
+
+<abstract><t>We introduce a new class of model based metrics designed to determine if an end-to-end Internet path can meet predefined transport performance targets by applying a suite of IP diagnostic tests to successive subpaths.  The subpath-at-a-time tests can be robustly applied to key infrastructure, such as interconnects, to accurately detect if it will prevent the full end-to-end paths that traverse it from meeting the specified target performance.  Each IP diagnostic test consists of a precomputed traffic pattern and a statistical criteria for evaluating packet delivery.  The traffic patterns are precomputed to mimic TCP or other transport protocol over a long path but are independent of the actual details of the subpath under test.  Likewise the success criteria depends on the target performance for the long path and not the details of the subpath.  This makes the measurements open loop, which introduces several important new properties and eliminates most of the difficulties encountered by traditional bulk transport metrics.  This document does not define diagnostic tests, but provides a framework for designing suites of diagnostics tests that are tailored the confirming the target performance.  Interim DRAFT Formatted: Thu Jul 3 20:19:04 PDT 2014</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ippm-model-based-metrics-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ippm-model-based-metrics-03.txt' />
+</reference>

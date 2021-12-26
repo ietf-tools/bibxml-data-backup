@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bishop-httpbis-priority-placeholder'>
+<front>
+<title>Priority Placeholders in HTTP/2</title>
+
+<author initials='M' surname='Bishop' fullname='Mike Bishop'>
+    <organization />
+</author>
+
+<date month='July' day='25' year='2017' />
+
+<abstract><t>[RFC7540] defines HTTP/2, including a method for communicating priorities.  Some implementations have begun using closed streams as placeholders when constructing their priority tree, but this has unbounded state commitments and interacts poorly with HTTP/QUIC ([I-D.ietf-quic-http]).  This document proposes an extension to the HTTP/2 priority scheme for both protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bishop-httpbis-priority-placeholder-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bishop-httpbis-priority-placeholder-00.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-jain-dispatch-sip-transport-connection-reuse-00.txt'>
+    <title>"Reusing Transport Layer Connections in Session Initiation Protocol (SIP)", Rajnish Jain, Vijay Gurbani, Hadriel Kaplan</title>
+    <link>http://www.ietf.org/internet-drafts/draft-jain-dispatch-sip-transport-connection-reuse-00.txt</link>
+    <description>The current Session Initiation Protocol (SIP) specification dictates that a transport layer connection can carry SIP requests in only one direction i.e. from the client to the server.  This presents scalability problems as twice the number of connections are needed for each pair of SIP entities that communicate with each other.  The internet-draft [I-D.ietf-sip-connect-reuse] specifies a mechanism for reusing SIP over TLS connections.  However, that document is predicated on secure TLS mutual authentication and specifically refrains connection reuse for transports such as SIP over TCP and SCTP.  There are many situations, such as in Trust Domains [RFC3324], where TLS mutual authentication may not be required but where connection reuse is beneficial.  This document specifies connection reuse for SIP over connection-oriented transports such as TCP and SCTP.  It specifies the same mechanism for connection reuse as specified in [I-D.ietf-sip-connect-reuse], however, the solution is presented in the context of Trust Domains.</description>
+    <dc:date>2009-09-07T22:00:00-00:00</dc:date>
+</item>

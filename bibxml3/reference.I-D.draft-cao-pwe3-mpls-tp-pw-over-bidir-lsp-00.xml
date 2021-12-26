@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cao-pwe3-mpls-tp-pw-over-bidir-lsp'>
+<front>
+<title>LDP extensions for Explicit Pseudowire to transport LSP mapping</title>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='W' surname='Cao' fullname='Wei Cao'>
+    <organization />
+</author>
+
+<author initials='A' surname='Takacs' fullname='Attila Takacs'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2010' />
+
+<abstract><t>Currently a Pseudowire (PW) uses two reverse unidirectional LSPs as Packet Switching Network (PSN) tunnels, and each PE of a PW or segment of MS-PW selects PSN tunnels independently. In contrast MPLS-TP requires support for both bidirectional and unidirectional LSPs. In addition some transport services may require bidirectional traffic follows with congruent paths. Therefore, PWs may be required to use PSN tunnels with congruent paths.  This document specifies some extensions to LDP that ensures both ends of a PW (or segment PW) select and bind to the same bidirectional LSP or use unidirectional LSPs with congruent paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cao-pwe3-mpls-tp-pw-over-bidir-lsp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cao-pwe3-mpls-tp-pw-over-bidir-lsp-00.txt' />
+</reference>

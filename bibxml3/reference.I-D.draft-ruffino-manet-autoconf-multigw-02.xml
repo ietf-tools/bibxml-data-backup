@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ruffino-manet-autoconf-multigw'>
+<front>
+<title>Automatic configuration of IPv6 addresses for MANET with multiple gateways</title>
+
+<author initials='S' surname='Ruffino' fullname='Simone Ruffino'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stupar' fullname='Patrick Stupar'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2006' />
+
+<abstract><t>This document describes a mechanism for stateless autoconfiguration of IPv6 addresses for Mobile Ad-hoc Networks (MANETs), connected to the Internet by means of one or more gateways. Network prefixes are disseminated by Internet gateways and are used by nodes to configure a set of global IPv6 addresses. An algorithm is specified, by which nodes can choose the optimal address for data traffic. Configured global addresses are also advertised to other MANET nodes, to minimize latencies in case of gateway failures, partitions and mergers. The specified mechanism aims to be independent from any particular MANET routing protocol and to effectively exploit multiple gateways.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ruffino-manet-autoconf-multigw-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ruffino-manet-autoconf-multigw-02.txt' />
+</reference>

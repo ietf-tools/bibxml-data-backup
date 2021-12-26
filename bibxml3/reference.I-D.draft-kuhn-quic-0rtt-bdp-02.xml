@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuhn-quic-0rtt-bdp'>
+<front>
+<title>Transport parameters for 0-RTT connections</title>
+
+<author initials='N' surname='Kuhn' fullname='Nicolas Kuhn'>
+    <organization />
+</author>
+
+<author initials='S' surname='Emile' fullname='Stephan Emile'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<date month='May' day='21' year='2019' />
+
+<abstract><t>The NewSessionTicket record carries a field that tells a client the volume of early data that it can include in the 0-RTT messages when reconnecting to the same peer.  There are cases where additional information can significantly improve the time-to-service.  This memo discusses a solution where path adaptation parameters are also shared between the peers.  There are use cases where this can accelerate the throughput of subsequent 0-RTT connections in both direction.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuhn-quic-0rtt-bdp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuhn-quic-0rtt-bdp-02.txt' />
+</reference>

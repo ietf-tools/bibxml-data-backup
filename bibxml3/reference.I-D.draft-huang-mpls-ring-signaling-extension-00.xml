@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huang-mpls-ring-signaling-extension'>
+<front>
+<title>Signaling extension for MPLS ring protection</title>
+
+<author initials='Y' surname='Huang' fullname='Yong Huang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Jiang' fullname='Yuanlong Jiang'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>When using Multi-Protocol Label Switching (MPLS) Label Switched Paths (LSP) on a ring topology, it is needed to minimize the labels for protection purpose and minimize the configuration effort. Though MPLS Fast Re-Route [MPLS-FRR] can achieve automatic LSP service protection, it is not optimized as many labels are used to create lots of detour LSPs.  This document describes a MPLS ring mechanism and some extensions on signaling protocol to facilitate the establishment of Label Switched Paths (LSPs) using Label Distribution Protocol [LDP] or RSVP-TE protocol [RSVP-TE] to achieve automated link and node protection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-huang-mpls-ring-signaling-extension-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-huang-mpls-ring-signaling-extension-00.txt' />
+</reference>

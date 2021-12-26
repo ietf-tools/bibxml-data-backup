@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-idr-bgp-ifit-capabilities'>
+<front>
+<title>BGP Extension for Advertising In-situ Flow Information Telemetry (IFIT) Capabilities</title>
+
+<author initials='Y' surname='Wang' fullname='Yali Wang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zhuang' fullname='Shunwan Zhuang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Gu' fullname='Yunan Gu'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2020' />
+
+<abstract><t>This document defines extensions to BGP to advertise the In-situ Flow Information Telemetry (IFIT) capabilities.  Within an IFIT domain, IFIT-capability advertisement from the tail node to the head node assists the head node to determine whether a particular IFIT Option type can be encapsulated in data packets.  Such advertisement would be useful for mitigating the leakage threat and facilitating the deployment of IFIT measurements on a per-service and on-demand basis.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-idr-bgp-ifit-capabilities-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-idr-bgp-ifit-capabilities-01.txt' />
+</reference>

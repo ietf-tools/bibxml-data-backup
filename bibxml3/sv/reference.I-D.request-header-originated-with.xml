@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.request-header-originated-with'>
+<front>
+<title>Request Header Originated With</title>
+
+<author initials='N' surname='Riffat' fullname='Noman Riffat'>
+    <organization />
+</author>
+
+<date month='December' day='20' year='2018' />
+
+<abstract><t>This document proposes a new Request Header that must be initiated every time a user-agent sends XMLHttpRequest.  The aim of this header is to limit the possibilities of XSS to RCE and preventing Javascript from stealing CSRF tokens on other URLs of same domain.  This will allow developers to block request if it wasn't supposed to be sent via XMLHttpRequest.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-request-header-originated-with-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-request-header-originated-with-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-request-header-originated-with-00.pdf' />
+</reference>

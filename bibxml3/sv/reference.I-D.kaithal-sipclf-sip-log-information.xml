@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaithal-sipclf-sip-log-information'>
+<front>
+<title>Session Initiation Protocol (SIP) Extension for logging and debugging</title>
+
+<author initials='A' surname='Kaithal' fullname='Adarsh Kaithal'>
+    <organization />
+</author>
+
+<date month='April' day='8' year='2012' />
+
+<abstract><t>The current mechanisms to debug issues in SIP network are not very efficient.  It requires to enable debugging logs across different devices, recreate the problem and then collect the logs.  The idea is to provide a solution to automatically enable relevant logs (SIP messages and any other debugging logs meaningful to SIP devices), and also to indicate where the logs are to be collected or stored.  The enabling of logs will happen at all the SIP devices(upstream or downstream).  This will help to get the logs from all the SIP devices in a Common logging format (CLF).  The solution extends SIP to provide the infrastructure to enable logging for upstream and downstream devices with each server deciding how much troubleshooting information it wants to log - with freedom to simply ignore requests if required.  This document specifies a new header called "Log-Me" Header in all the SIP messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kaithal-sipclf-sip-log-information-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kaithal-sipclf-sip-log-information-00.txt' />
+</reference>

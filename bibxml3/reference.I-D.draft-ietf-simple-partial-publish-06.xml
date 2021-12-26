@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-partial-publish'>
+<front>
+<title>Publication of Partial Presence Information</title>
+
+<author initials='M' surname='Lonnfors' fullname='Mikko Lonnfors'>
+    <organization />
+</author>
+
+<date month='February' day='7' year='2007' />
+
+<abstract><t>The Session Initiation Protocol (SIP) Extension for Event State Publication describes a mechanism with which a presence user agent is able to publish presence information to a presence agent.  Using the Presence Information Data Format (PIDF), each presence publication contains full state, regardless of how much of that information has actually changed since the previous update.  As a consequence, updating a sizeable presence document with small changes bears a considerable overhead and is therefore inefficient.  Especially with low bandwidth and high latency links, this can constitue a considerable burden to the system.  This memo defines a solution that aids in reducing the impact of those constraints and increases transport efficiency by introducing a mechanism that allows for publication of partial presence information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-partial-publish-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-partial-publish-06.txt' />
+</reference>

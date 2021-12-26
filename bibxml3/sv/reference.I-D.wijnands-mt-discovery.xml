@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-mt-discovery'>
+<front>
+<title>MT Tunnel Discovery and RPF check</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='G' surname='Nalawade' fullname='Gargi Nalawade'>
+    <organization />
+</author>
+
+<date month='July' day='22' year='2004' />
+
+<abstract><t>Multicast Tunnels are built between Provider Edge (PE) routers to allow multicast communication between different site's of a VPN. The MT tunnel has a destination MDT group address that is unique to the VPN. All routers that act as PE's and are configured for a specific VPN join the VPN MDT multicast group in the backbone of the provider network to be able to receive each others packets. Each router is also a sender to the MDT group. How the forwarding of the MDT packets is achieved is depending on the PIM mode of the MDT group. This can be either PIM-Bidir, PIM-SM or PIM SSM. The proposal in this document is related specifically to PIM SSM mode.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-mt-discovery-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-mt-discovery-01.txt' />
+</reference>

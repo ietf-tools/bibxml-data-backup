@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dukhovni-tls-dnssec-chain'>
+<front>
+<title>The DANE Authentication Chain Extension for TLS</title>
+
+<author initials='V' surname='Dukhovni' fullname='Viktor Dukhovni'>
+    <organization />
+</author>
+
+<author initials='S' surname='Huque' fullname='Shumon Huque'>
+    <organization />
+</author>
+
+<author initials='W' surname='Toorop' fullname='Willem Toorop'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<author initials='M' surname='Shore' fullname='Melinda Shore'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>This draft describes a new TLS extension for transport of a DNS record set serialized with the DNSSEC signatures needed to authenticate that record set.  This allows TLS clients to perform DANE authentication of a TLS server without the need to perform additional DNS record lookups.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dukhovni-tls-dnssec-chain-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dukhovni-tls-dnssec-chain-00.txt' />
+</reference>

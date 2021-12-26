@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.worley-sipcore-b2bua-passthru'>
+<front>
+<title>Interoperation of "Application Server" B2BUAs with SIP Call Control</title>
+
+<author initials='D' surname='Worley' fullname='Dale Worley'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2010' />
+
+<abstract><t>Some SIP architectures use "application servers", B2BUAs that are inserted between two user agents during a conversation, to provide additional processing.  Since B2BUAs do not follow the rules for SIP proxies, they do not by default interoperate with SIP call control operations.  Augmenting application servers with suitable behaviors for handling SIP call control operations mitigates these problems, and in many cases, allows standard user agents to use SIP call control features without modification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-worley-sipcore-b2bua-passthru-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-worley-sipcore-b2bua-passthru-00.txt' />
+</reference>

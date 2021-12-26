@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ogud-dnsop-acl-metaqueries'>
+<front>
+<title>DNS Meta-Queries resticted.</title>
+
+<author initials='Ó' surname='Guðmundsson' fullname='Ólafur Guðmundsson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Majkowski' fullname='Marek Majkowski'>
+    <organization />
+</author>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>Some DNS types have special meaning and are classified as meta queries, this includes ANY, AXFR, IXFR.  These queries frequently return larger answers than queries for other types.  This document defines a standard way for Authoritative-Only servers how to refuse to serve these and other similar queries, with the expectation that resolvers honor that, by not asking followup queries.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ogud-dnsop-acl-metaqueries-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ogud-dnsop-acl-metaqueries-00.txt' />
+</reference>

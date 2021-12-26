@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tyoshino-hybi-websocket-perframe-deflate'>
+<front>
+<title>WebSocket Per-frame DEFLATE Extension</title>
+
+<author initials='T' surname='Yoshino' fullname='Takeshi Yoshino'>
+    <organization />
+</author>
+
+<date month='April' day='26' year='2011' />
+
+<abstract><t>This specification defines a per-frame DEFLATE compression extension for the WebSocket protocol.  This extension enables compressing only the Application Data part of WebSocket frames using DEFLATE compression while leaving the other parts such as opcode, payload length, the Extension Data part untouched.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tyoshino-hybi-websocket-perframe-deflate-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tyoshino-hybi-websocket-perframe-deflate-00.txt' />
+</reference>

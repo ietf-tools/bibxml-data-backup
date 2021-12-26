@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.padmakumar-ikev2-redirect-and-auth-offload'>
+<front>
+<title>IKEv2 Redirect and Authentication Offload</title>
+
+<author initials='A' surname='Padmakumar' fullname='A Padmakumar'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bafna' fullname='Manikchand Bafna'>
+    <organization />
+</author>
+
+<author initials='P' surname='Sethi' fullname='Pratima Sethi'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2009' />
+
+<abstract><t>IKEv2 supports multiple authentication mechanisms like public key signatures, shared secrets and EAP.  EAP based authentication requires server to maintain information about the client until EAP completes.  Public key based authentication mechanisms are highly computational intensive and demands server CPU resources.  Redirect Mechanism for IKEv2 proposes a mechanism for IKEv2 that enables a VPN gateway to redirect the VPN client to another VPN gateway, for example, based on the load condition.  Redirect mechanism can also be used to redirect a client to another router (trust anchor) to do mutual authentication on behalf of the server.  This redirection happens during the IKE_SA_INIT and server does not maintain any information about the redirected client.  After mutual authentication Trust anchor can redirect the client back to the server with an Access Token which can be used as a dynamic pre- shared key between the server and client for password based IKE_AUTH exchange.  Mechanism described here allows servers to compute the same pre-shared key dynamically, without contacting trust anchors, based on the information provided by the client during IKE_AUTH exchange.  Such a mechanism is useful especially for low power devices like handsets.  For example, a mobile node can redirect such authentications to its home agent.  This proposal explains a mechanism to offload such verifications to a set of less critical routers or to a service provider who offers trust as a service.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-padmakumar-ikev2-redirect-and-auth-offload-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-padmakumar-ikev2-redirect-and-auth-offload-01.txt' />
+</reference>

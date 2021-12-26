@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nguyen-ospf-oob-resync'>
+<front>
+<title>OSPF Out-of-band LSDB resynchronization</title>
+
+<author initials='A' surname='Zinin' fullname='Alex Zinin'>
+    <organization />
+</author>
+
+<author initials='A' surname='Roy' fullname='Abhay Roy'>
+    <organization />
+</author>
+
+<author initials='L' surname='Nguyen' fullname='Liem  Nguyen'>
+    <organization />
+</author>
+
+<date month='September' day='1' year='2004' />
+
+<abstract><t>OSPF is a link-state intra-domain routing protocol used in IP networks. LSDB synchronization in OSPF is achieved via two methods-- initial LSDB synchronization when an OSPF router has just been connected to the network and asynchronous flooding that ensures continuous LSDB synchronization in the presence of topology changes after the initial procedure was completed. It may sometime be necessary for OSPF routers to resynchronize their LSDBs. OSPF standard, however, does not allow routers to do so without actually changing the topology view of the network. This memo describes a vendor specific mechanism to perform such form of out-of-band LSDB synchronization.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nguyen-ospf-oob-resync-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nguyen-ospf-oob-resync-05.txt' />
+</reference>

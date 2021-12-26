@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-spring-segment-routing-policy'>
+<front>
+<title>Segment Routing Policy for Traffic Engineering</title>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='d' surname='daniel.voyer@bell.ca' fullname='daniel.voyer@bell.ca'>
+    <organization />
+</author>
+
+<author initials='b' surname='bogdanov@google.com' fullname='bogdanov@google.com'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mattes' fullname='Paul Mattes'>
+    <organization />
+</author>
+
+<date month='June' day='7' year='2018' />
+
+<abstract><t>Segment Routing allows a headend node to steer a packet flow along any path.  Intermediate per-flow states are eliminated thanks to source routing.  The headend node steers a flow into an SR Policy. The header of a packet steered in an SR Policy is augmented with the ordered list of segments associated with that SR Policy.  This document details the concepts of SR Policy and steering into an SR Policy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-spring-segment-routing-policy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-spring-segment-routing-policy-00.txt' />
+</reference>

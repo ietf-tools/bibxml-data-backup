@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melnikov-ldap-distr-auth'>
+<front>
+<title>Distributed SASL authentication in LDAP</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<author initials='K' surname='Zeilenga' fullname='Kurt Zeilenga'>
+    <organization />
+</author>
+
+<date month='July' day='13' year='2004' />
+
+<abstract><t>This document was prompted by a desire to allow deployments of distributed SASL implementations, so that all authentication can be performed in a one central place. It tries to fulfill the following requirements: 1) The SASL framework is client/server authentication, but it doesn't preclude either the client or the server implementations from being distributed. 2) It might be also desirable to proxy an authentication exchange whether it was initiated over LDAP or another SASL-supporting protocol. This document defines a Distributed Authentication LDAP extended operation, that enables applications (including LDAP proxies and gateways) that authenticate using SASL, to use LDAP for performing authentication, by forwarding the SASL authentication requests to an LDAP server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melnikov-ldap-distr-auth-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melnikov-ldap-distr-auth-00.txt' />
+</reference>

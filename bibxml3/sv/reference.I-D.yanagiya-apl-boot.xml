@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yanagiya-apl-boot'>
+<front>
+<title>Security Association for application bootstrapping</title>
+
+<author initials='M' surname='Yanagiya' fullname='Mayumi Yanagiya'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2005' />
+
+<abstract><t>In [ID-yanagiya-eap-saa-00], [ID-ohba-mip6-boot-arch-dhcp-01], and [ID-yegin-eap-boot-rfc3118-01], it is assumed that a peer and service authenticator execute the authentication or authorization process with a key derived from EAP Keying materials. However, [EAP-Key-04] does not assume that a network element that does not support EAP, such as a DHCP server or Mobile IP home agent, uses the EAP key to authenticate/authorize the user. Thus, it is necessary to define a new security association and key for the application authenticator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yanagiya-apl-boot-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yanagiya-apl-boot-00.txt' />
+</reference>

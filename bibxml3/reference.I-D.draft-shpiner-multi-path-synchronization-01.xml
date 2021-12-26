@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shpiner-multi-path-synchronization'>
+<front>
+<title>Multi-Path Time Synchronization</title>
+
+<author initials='A' surname='Shpiner' fullname='Alex Shpiner'>
+    <organization />
+</author>
+
+<author initials='R' surname='Tse' fullname='Richard Tse'>
+    <organization />
+</author>
+
+<author initials='C' surname='Schelp' fullname='Craig Schelp'>
+    <organization />
+</author>
+
+<author initials='T' surname='Mizrahi' fullname='Tal Mizrahi'>
+    <organization />
+</author>
+
+<date month='February' day='17' year='2013' />
+
+<abstract><t>Clock synchronization protocols are very widely used in IP-based networks. The Network Time Protocol (NTP) has been commonly deployed for many years, and the last few years have seen an increasingly rapid deployment of the Precision Time Protocol (PTP). As time- sensitive applications evolve, clock accuracy requirements are becoming increasingly stringent, requiring the time synchronization protocols to provide high accuracy. Slave Diversity is a recently introduced approach, where the master and slave clocks (also known as server and client) are connected through multiple network paths, and the slave combines the information received through all paths to obtain a higher clock accuracy compared to the conventional one-path approach.  This document describes a multi-path approach to PTP and NTP over IP networks, allowing the protocols to run concurrently over multiple communication paths between the master and slave clocks. The multi-path approach can significantly contribute to clock accuracy, security and fault protection. The Multi-Path Precision Time Protocol (MPPTP) and Multi-Path Network Time Protocol (MPNTP) define an additional layer that extends the existing PTP and NTP without the need to modify these protocols. MPPTP and MPNTP also allow backward compatibility with nodes that do not support the multi-path extension.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shpiner-multi-path-synchronization-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shpiner-multi-path-synchronization-01.txt' />
+</reference>

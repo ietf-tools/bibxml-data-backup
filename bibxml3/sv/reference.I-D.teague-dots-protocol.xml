@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.teague-dots-protocol'>
+<front>
+<title>DDoS Open Threat Signaling Protocol</title>
+
+<author initials='N' surname='Teague' fullname='Nik Teague'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mortensen' fullname='Andrew Mortensen'>
+    <organization />
+</author>
+
+<date month='February' day='15' year='2017' />
+
+<abstract><t>This document describes Distributed-Denial-of-Service (DDoS) Open Threat Signaling (DOTS), a protocol for requesting and managing mitigation of DDoS attacks.  DOTS mitigation requests over the signal channel permit domains to signal the need for help fending off DDoS attacks, setting the scope and duration of the requested mitigation.  Elements called DOTS servers field the signals for help, and enable defensive countermeasures to defend against the attack reported by the clients, reporting the status of the delegated defense to the requesting clients.  DOTS clients additionally may use a reliable data channel to manage filters and black- and white-lists to restrict or allow traffic to the clients' domains arbitrarily.  The DOTS signal channel may operate over UDP [RFC0768] and if necessary TCP [RFC0793].  This revision discusses a transport-agnostic approach to this channel, focusing on the message exchanges and delegating transport specifics to other documents.  Discussion of the reliable data channel may be found in [I-D.reddy-dots-data-channel].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-teague-dots-protocol-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-teague-dots-protocol-02.txt' />
+</reference>

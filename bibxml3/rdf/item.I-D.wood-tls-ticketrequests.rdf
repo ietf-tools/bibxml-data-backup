@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-wood-tls-ticketrequests-01.txt'>
+    <title>"TLS Ticket Requests", Tommy Pauly, David Schinazi, Christopher Wood</title>
+    <link>http://www.ietf.org/internet-drafts/draft-wood-tls-ticketrequests-01.txt</link>
+    <description>TLS session tickets enable stateless connection resumption for clients without server-side per-client state.  Servers vend session tickets to clients, at their discretion, upon connection establishment.  Clients store and use tickets when resuming future connections.  Moreover, clients should use tickets at most once for session resumption, especially if such keying material protects early application data.  Single-use tickets bound the number of parallel connections a client may initiate by the number of tickets received from a given server.  To address this limitation, this document describes a mechanism by which clients may specify the desired number of tickets needed for future connections.</description>
+    <dc:date>2018-10-13T07:00:00-00:00</dc:date>
+</item>

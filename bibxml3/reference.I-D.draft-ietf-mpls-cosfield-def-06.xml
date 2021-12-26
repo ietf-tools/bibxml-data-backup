@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-cosfield-def'>
+<front>
+<title>"EXP field" renamed to "Traffic Class field"</title>
+
+<author initials='L' surname='Andersson' fullname='Loa Andersson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Asati' fullname='Rajiv Asati'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2008' />
+
+<abstract><t>The early MPLS documents defined the form of the MPLS Label Stack entry.  This include a three bit field called the "EXP field".  The exact use of this field was not defined by these documents, except to state that it was to be "reserved for experimental use".  Although the intended use of the EXP field was as a "Class of Service" field, it was not named the "Class of Service" (CoS) field by these early documents because the use of such a CoS field was not considered to be sufficiently defined.  Today a number of standards documents define its usage as a CoS field. .  To avoid misunderstanding about how this field may be used, it has become increasingly necessary to rename this field.  This document changes the name of the field to the "Traffic Class field" ("TC field".)  In doing so it also updates documents that define the current use of the EXP this field.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-cosfield-def-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-cosfield-def-06.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mase-autoconf-framework'>
+<front>
+<title>A common framework for autoconfiguration of stand-alone ad hoc networks</title>
+
+<author initials='C' surname='Adjih' fullname='Cedric Adjih'>
+    <organization />
+</author>
+
+<author initials='K' surname='Mase' fullname='Kenichi Mase'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2007' />
+
+<abstract><t>We consider the unique address autoconfiguration problem for stand- alone ad hoc networks (MANETs). Specifically, we consider two cases. First, a node without a pre-assigned and valid local address acquires a new local address and becomes a member of a new or existing MANET. Second, two or more MANETs merge. In the first case, a mechanism of IP address generation is needed. We also should have MANET-wide duplicate address detection (DAD) on newly generated address (tentative address) for suppressing occurrence of duplicate addresses for address generation (pre-service DAD). In the second case, duplicate address may occur as the result of a merger of two formerly independent networks. We should have DAD on addresses in use for resolving duplicate addresses and suppressing routing information contamination due to existence of duplicate addresses (in-service DAD). To realize pre-service DAD and in-service DAD, we define autoconfiguration states that are common for both proactive and reactive routing protocol. Each node exists in one of the autoconfiguration states at any time. A node, that detects duplicate address between other nodes, should advertise the detected duplicate address to all other nodes In the MANET.This is termed "Duplicate address advertisement" (DAA). The specific DAD and DAA algorithm is beyond the scope of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mase-autoconf-framework-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mase-autoconf-framework-03.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hunt-scim-xsearch'>
+<front>
+<title>SCIM 2.0 Extended Search</title>
+
+<author initials='P' surname='Hunt' fullname='Phil Hunt'>
+    <organization />
+</author>
+
+<author initials='K' surname='Grizzle' fullname='Kelly Grizzle'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ansari' fullname='Morteza Ansari'>
+    <organization />
+</author>
+
+<author initials='D' surname='Olds' fullname='Dale Olds'>
+    <organization />
+</author>
+
+<date month='December' day='23' year='2012' />
+
+<abstract><t>The SCIM 2.0 Core API defines a simple profile for searching for specific resource types using filters and qualifiers in combination with the HTTP GET verb.  The Extended Search specification defines the following additional features:  o  Specification of search terms within an HTTP POST verb to avoid accidental leakage of confidential information via HTTP GET URLs,  o  An optional result set representation enabling clients to page through results in a state consistent fashion, and  o  The ability to search across multiple resource types (endpoints) and return one or more resource types.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hunt-scim-xsearch-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hunt-scim-xsearch-00.txt' />
+</reference>

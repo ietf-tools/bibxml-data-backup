@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-zerotouch'>
+<front>
+<title>Zero Touch Provisioning for Networking Devices</title>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Abrahamsson' fullname='Mikael Abrahamsson'>
+    <organization />
+</author>
+
+<author initials='I' surname='Farrer' fullname='Ian Farrer'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2018' />
+
+<abstract><t>This draft presents a technique to securely provision a networking device when it is booting in a factory-default state.  Variations in the solution enables it to be used on both public and private networks.  The provisioning steps are able to update the boot image, commit an initial configuration, and execute arbitrary scripts to address auxiliary needs.  The updated device is subsequently able to establish secure connections with other systems.  For instance, a device may establish NETCONF [RFC6241] and/or RESTCONF [RFC8040] connections with deployment-specific network management systems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-zerotouch-20' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-zerotouch-20.txt' />
+</reference>

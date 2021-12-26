@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3676' target='https://www.rfc-editor.org/info/rfc3676'>
+<front>
+<title>The Text/Plain Format and DelSp Parameters</title>
+<author initials='R.' surname='Gellens' fullname='R. Gellens'><organization /></author>
+<date year='2004' month='February' />
+<abstract><t>This specification establishes two parameters (Format and DelSP) to be used with the Text/Plain media type.  In the presence of these parameters, trailing whitespace is used to indicate flowed lines and a canonical quote indicator is used to indicate quoted lines.  This results in an encoding which appears as normal Text/Plain in older implementations, since it is in fact normal Text/Plain, yet provides for superior wrapping/flowing, and quoting.  This document supersedes the one specified in RFC 2646, &quot;The Text/Plain Format Parameter&quot;, and adds the DelSp parameter to accommodate languages/coded character sets in which ASCII spaces are not used or appear rarely.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3676'/>
+<seriesInfo name='DOI' value='10.17487/RFC3676'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-tcpm-tcp-timestamps'>
+<front>
+<title>On the generation of TCP timestamps</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2010' />
+
+<abstract><t>This document describes an algorithm for selecting the timestamps (TS value) used for TCP connections that use the TCP timestamp option, such that the resulting timestamps are monotonically-increasing across connections that involve the same four-tuple {local IP address, local TCP port, remote IP address, remote TCP port}.  The properties of the algorithm are such that it reduces the possibility of an attacker of guessing the exact value.  Additionally, it describes an algorithm for processing incoming SYN segments that allows higher connection-establishment rates between any two TCP endpoints when a TCP timestamps option is present in the incoming SYN segment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-tcpm-tcp-timestamps-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-tcpm-tcp-timestamps-03.txt' />
+</reference>

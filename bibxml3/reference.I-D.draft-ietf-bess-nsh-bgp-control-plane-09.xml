@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-nsh-bgp-control-plane'>
+<front>
+<title>BGP Control Plane for NSH SFC</title>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Drake' fullname='John Drake'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Uttaro' fullname='Jim Uttaro'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2019' />
+
+<abstract><t>This document describes the use of BGP as a control plane for networks that support Service Function Chaining (SFC).  The document introduces a new BGP address family called the SFC AFI/SAFI with two route types.  One route type is originated by a node to advertise that it hosts a particular instance of a specified service function. This route type also provides "instructions" on how to send a packet to the hosting node in a way that indicates that the service function has to be applied to the packet.  The other route type is used by a Controller to advertise the paths of "chains" of service functions, and to give a unique designator to each such path so that they can be used in conjunction with the Network Service Header defined in RFC 8300.  This document adopts the SFC architecture described in RFC 7665.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-nsh-bgp-control-plane-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bess-nsh-bgp-control-plane-09.txt' />
+</reference>

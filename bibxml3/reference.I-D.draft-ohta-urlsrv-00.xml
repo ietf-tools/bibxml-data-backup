@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ohta-urlsrv'>
+<front>
+<title>Using DNS SRV RRs with URLs</title>
+
+<author initials='M' surname='Ohta' fullname='Masataka Ohta'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2011' />
+
+<abstract><t>DNS SRV RRs of a domain implicitly specify servers and port numbers corresponding to the domain.  By combining URLs and SRV RRs, no port numbers have to be specified explicitly in URLs, even if non-default port numbers are used, which makes URLs more concise for port based virtual and real hosting, where port based real hosting means that multiple servers sharing an IP address are distinguished by port numbers to give service for different URLs, which is the case for port forwarded servers behind NAT and servers with realm specific IP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ohta-urlsrv-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ohta-urlsrv-00.txt' />
+</reference>

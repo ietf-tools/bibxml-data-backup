@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dondeti-ipsec-failover-sol'>
+<front>
+<title>IPsec Gateway Failover and Redundancy Protocol</title>
+
+<author initials='L' surname='Dondeti' fullname='Lakshminath Dondeti'>
+    <organization />
+</author>
+
+<author initials='V' surname='Narayanan' fullname='Vidya  Narayanan'>
+    <organization />
+</author>
+
+<date month='February' day='27' year='2007' />
+
+<abstract><t>IPsec gateways and servers maintaining SAs with large number of clients can quickly recover from failover using the protocols and procedures specified in this document. These techniques also facilitate IPsec clients to move from one gateway to another and resume operation without having to rerun IKEv2. The idea is to maintain IKEv2 and IPsec SA state at either the client or one or more backup servers to reduce the communication and computation overhead associated with reestablishing the SAs from scratch. Client to server SA state storage retrieval mechanisms and client-initiated or server-initiated failover recovery protocols are specified. This document, however, does not define an inter-gateway transport mechanism to transfer the state across entities at the backend.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dondeti-ipsec-failover-sol-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dondeti-ipsec-failover-sol-00.txt' />
+</reference>

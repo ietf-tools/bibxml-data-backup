@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kucherawy-mta-malformed'>
+<front>
+<title>Best Current Practices for Handling Malformed Messages</title>
+
+<author initials='M' surname='Kucherawy' fullname='Murray Kucherawy'>
+    <organization />
+</author>
+
+<date month='November' day='7' year='2010' />
+
+<abstract><t>The email ecosystem has long had a very permissive set of common processing rules in place despite increasingly rigid standards governing its components, ostensibly to improve the user experience. These come at some cost, and various components are faced with decisions about whether or not to permit non-conforming messages to continue toward their destinations unaltered, adjust them to conform (possibly at the cost of losing some of the original message), or outright rejecting them.  This memo includes a collection of the best current practices in a variety of such situations, to be used as implementation guidance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kucherawy-mta-malformed-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kucherawy-mta-malformed-00.txt' />
+</reference>

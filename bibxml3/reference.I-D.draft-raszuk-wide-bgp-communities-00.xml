@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raszuk-wide-bgp-communities'>
+<front>
+<title>Wide BGP Communities</title>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2010' />
+
+<abstract><t>Communicating various routing policies via route tagging plays an important role in external BGP peering relations.  The most common tool used today to attach various information about routes is realized with the use of BGP communities.  Such information is important for the peering AS to perform some mutually agreed actions without the need to maintain a separate offline database for each pair of prefix and an associated with it requested set of action entries.  The problem arises for customers which are assigned a 4 octet AS numbers as current definition of BGP communities are of total of 4 octets in length.  This document proposes the solution to this problem by defining new type of BGP Extended Community attribute which is to be used to pass routing policy information between peers.  Such new type could be used to pass existing routing policies which are communicated today by Internet Service Providers in standard BGP Community Attribute which have two octet AS numbers as well as those which already got assigned 4 octet AS numbers from their respected Internet routing registries.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raszuk-wide-bgp-communities-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raszuk-wide-bgp-communities-00.txt' />
+</reference>

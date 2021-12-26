@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-pce-bier'>
+<front>
+<title>PCEP Extensions for BIER</title>
+
+<author initials='R' surname='Chen' fullname='Ran Chen'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zheng Zhang'>
+    <organization />
+</author>
+
+<date month='October' day='16' year='2015' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain any multicast related per- flow state.  BIER forwards and replicates packets based on a BitString in the packet header.A BIER Path can be derived from a variety of mechanisms, including an IGP Shortest Path Tree (SPT), explicit configuration, or a Path Computation Element (PCE).  This document specifies extensions to the Path Computation Element Protocol (PCEP) to handle requests and responses for the computation of paths for BIER TE LSPs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-pce-bier-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-pce-bier-00.txt' />
+</reference>

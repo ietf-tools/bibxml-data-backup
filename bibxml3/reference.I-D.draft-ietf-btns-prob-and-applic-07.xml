@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-btns-prob-and-applic'>
+<front>
+<title>Problem and Applicability Statement for Better Than Nothing Security  (BTNS)</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Wang' fullname='Yu-Shun Wang'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2008' />
+
+<abstract><t>The Internet network security protocol suite, IPsec, requires authentication, usually of network layer entities, to enable access control and provide security services. This authentication can be based on mechanisms such as pre-shared symmetric keys, certificates with associated asymmetric keys, or the use of Kerberos (via KINK). The need to deploy authentication information and its associated identities can be a significant obstacle to the use of IPsec.  This document explains the rationale for extending the Internet network security protocol suite to enable use of IPsec security services without authentication. These extensions are intended to protect communication, providing "better than nothing security" (BTNS). The extensions may be used on their own (this use called Stand Alone BTNS, or SAB), or may be used to provide network layer security that can be authenticated by higher layers in the protocol stack (this use is called Channel-Bound BTNS, or CBB). The document also explains situations for which use of SAB and/or CBB extensions are applicable.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-btns-prob-and-applic-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-btns-prob-and-applic-07.txt' />
+</reference>

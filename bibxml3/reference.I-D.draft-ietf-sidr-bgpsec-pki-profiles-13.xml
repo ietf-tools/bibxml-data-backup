@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-bgpsec-pki-profiles'>
+<front>
+<title>A Profile for BGPsec Router Certificates, Certificate Revocation Lists, and Certification Requests</title>
+
+<author initials='M' surname='Reynolds' fullname='Mark Reynolds'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kent' fullname='Stephen Kent'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2015' />
+
+<abstract><t>This document defines a standard profile for X.509 certificates used to enable validation of Autonomous System (AS) paths in the Border Gateway Protocol (BGP), as part of an extension to that protocol known as BGPsec.  BGP is the standard for inter-domain routing in the Internet; it is the "glue" that holds the Internet together. BGPsec is being developed as one component of a solution that addresses the requirement to provide security for BGP.  The goal of BGPsec is to provide full AS path validation based on the use of strong cryptographic primitives.  The end-entity (EE) certificates specified by this profile are issued (to routers within an Autonomous System). Each of these certificates is issued under a Resource Public Key Infrastructure (RPKI) Certification Authority (CA) certificate. These CA certificates and EE certificates both contain the AS Identifier Delegation extension.  An EE certificate of this type asserts that the router(s) holding the corresponding private key are authorized to emit secure route advertisements on behalf of the AS(es) specified in the certificate.  This document also profiles the format of certification requests, and specifies Relying Party (RP) certificate path validation procedures for these EE certificates. This document extends the RPKI; therefore, this documents updates the RPKI Resource Certificates Profile (RFC 6487).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-bgpsec-pki-profiles-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-bgpsec-pki-profiles-13.txt' />
+</reference>

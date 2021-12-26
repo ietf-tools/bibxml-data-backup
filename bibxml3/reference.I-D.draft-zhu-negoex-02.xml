@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhu-negoex'>
+<front>
+<title>The Extended GSS-API Negotiation Mechanism (NEGOEX)</title>
+
+<author initials='M' surname='Short' fullname='Michiko Short'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhu' fullname='Larry Zhu'>
+    <organization />
+</author>
+
+<author initials='K' surname='Damour' fullname='Kevin Damour'>
+    <organization />
+</author>
+
+<author initials='D' surname='McPherson' fullname='Dave McPherson'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2010' />
+
+<abstract><t>This document defines the Extended Generic Security Service Application Program Interface (GSS-API) Negotiation Mechanism (NegoEx).  NegoEx is a pseudo-security mechanism that logically extends the SPNEGO protocol as defined in RFC4178.  The NegoEx protocol itself is a security mechanism negotiated by SPNEGO.  When selected as the common mechanism, NegoEx OPTIONALLY adds a pair of meta-data messages for each negotiated security mechanism.  The meta-data exchange allows security mechanisms to exchange auxiliary information such as trust configurations, thus NegoEx provides additional flexibility than just exchanging object identifiers in SPNEGO.  NegoEx preserves the optimistic token semantics of SPNEGO and applies that recursively.  Consequently a context establishment mechanism token can be included in the initial NegoEx message, and NegoEx does not require an extra round-trip when the initiator's optimistic token is accepted by the target.  Similar to SPNEGO, NegoEx defines a few new GSS-API extensions that a security mechanism MUST support in order to be negotiated by NegoEx. This document defines these GSS-API extensions.  Unlike SPNEGO however, NegoEx defines its own way for signing the protocol messages in order to protect the protocol negotiation.  The NegoEx message signing or verification can occur before the security context for the negotiated real security mechanism is fully established.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhu-negoex-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhu-negoex-02.txt' />
+</reference>

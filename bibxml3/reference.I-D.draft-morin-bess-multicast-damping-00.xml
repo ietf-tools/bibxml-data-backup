@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.morin-bess-multicast-damping'>
+<front>
+<title>Multicast VPN state damping</title>
+
+<author initials='T' surname='Morin' fullname='Thomas Morin'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='Jeffrey Zhang'>
+    <organization />
+</author>
+
+<author initials='R' surname='Kebler' fullname='Robert Kebler'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2014' />
+
+<abstract><t>This document describes procedures to damp multicast VPN routing state changes and control the effect of the churn due to the multicast dynamicity in customer site.  The procedures described in this document are applicable to BGP-based multicast VPN and help avoid uncontrolled control plane load increase in the core routing infrastructure.  New procedures are proposed inspired from BGP unicast route damping principles, but adapted to multicast.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-morin-bess-multicast-damping-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-morin-bess-multicast-damping-00.txt' />
+</reference>

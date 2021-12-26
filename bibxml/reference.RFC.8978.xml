@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8978' target='https://www.rfc-editor.org/info/rfc8978'>
+<front>
+<title>Reaction of IPv6 Stateless Address Autoconfiguration (SLAAC) to Flash-Renumbering Events</title>
+<author initials='F.' surname='Gont' fullname='F. Gont'><organization /></author>
+<author initials='J.' surname='Žorž' fullname='J. Žorž'><organization /></author>
+<author initials='R.' surname='Patterson' fullname='R. Patterson'><organization /></author>
+<date year='2021' month='March' />
+<abstract><t>In scenarios where network configuration information related to IPv6 prefixes becomes invalid without any explicit and reliable signaling of that condition (such as when a Customer Edge router crashes and reboots without knowledge of the previously employed prefixes), hosts on the local network may continue using stale prefixes for an unacceptably long time (on the order of several days), thus resulting in connectivity problems. This document describes this issue and discusses operational workarounds that may help to improve network robustness. Additionally, it highlights areas where further work may be needed.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8978'/>
+<seriesInfo name='DOI' value='10.17487/RFC8978'/>
+</reference>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<referencegroup anchor="STD76" target="https://www.rfc-editor.org/info/std76">
+<!-- reference.RFC.6376.xml -->
+<reference  anchor='RFC6376' target='https://www.rfc-editor.org/info/rfc6376'>
+<front>
+<title>DomainKeys Identified Mail (DKIM) Signatures</title>
+<author initials='D.' surname='Crocker' fullname='D. Crocker' role='editor'><organization /></author>
+<author initials='T.' surname='Hansen' fullname='T. Hansen' role='editor'><organization /></author>
+<author initials='M.' surname='Kucherawy' fullname='M. Kucherawy' role='editor'><organization /></author>
+<date year='2011' month='September' />
+<abstract><t>DomainKeys Identified Mail (DKIM) permits a person, role, or organization that owns the signing domain to claim some responsibility for a message by associating the domain with the message.  This can be an author's organization, an operational relay, or one of their agents.  DKIM separates the question of the identity of the Signer of the message from the purported author of the message.  Assertion of responsibility is validated through a cryptographic signature and by querying the Signer's domain directly to retrieve the appropriate public key.  Message transit from author to recipient is through relays that typically make no substantive change to the message content and thus preserve the DKIM signature.</t><t>This memo obsoletes RFC 4871 and RFC 5672.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='STD' value='76'/>
+<seriesInfo name='RFC' value='6376'/>
+<seriesInfo name='DOI' value='10.17487/RFC6376'/>
+</reference>
+</referencegroup>

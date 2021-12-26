@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gudmundsson-dnsext-setting-ends0-do-bit'>
+<front>
+<title>DNSSEC OK buffer minimum size requirement and error handling</title>
+
+<author initials='O' surname='Gudmundsson' fullname='Olafur Gudmundsson'>
+    <organization />
+</author>
+
+<date month='July' day='28' year='2009' />
+
+<abstract><t>RFC3226 mandated support for EDNS0 in DNS entities claiming to support either DNS Security Extensions or IPv6 address records.  This requirement was motivated because these new features increase the size of DNS messages.  If EDNS0 is not supported fall back to TCP will happen, having a detrimental impact on query latency and DNS server load.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gudmundsson-dnsext-setting-ends0-do-bit-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gudmundsson-dnsext-setting-ends0-do-bit-01.txt' />
+</reference>

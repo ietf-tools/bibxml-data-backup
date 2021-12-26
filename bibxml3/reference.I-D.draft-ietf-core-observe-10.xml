@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-observe'>
+<front>
+<title>Observing Resources in CoAP</title>
+
+<author initials='K' surname='Hartke' fullname='Klaus Hartke'>
+    <organization />
+</author>
+
+<date month='September' day='23' year='2013' />
+
+<abstract><t>CoAP is a RESTful application protocol for constrained nodes and networks.  The state of a resource on a CoAP server can change over time.  This document specifies a simple protocol extension for CoAP that enables CoAP clients to "observe" resources, i.e., to retrieve a representation of a resource and keep this representation updated by the server over a period of time.  The protocol follows a best- effort approach for sending new representations to clients and provides eventual consistency between the state observed by each client and the actual resource state at the server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-observe-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-core-observe-10.txt' />
+</reference>

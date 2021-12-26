@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.roca-tsvwg-rlc-fec-scheme'>
+<front>
+<title>Random Linear Codes (RLC) Forward Error Correction (FEC) Scheme for FECFRAME</title>
+
+<author initials='V' surname='Roca' fullname='Vincent Roca'>
+    <organization />
+</author>
+
+<date month='February' day='7' year='2017' />
+
+<abstract><t>This document describes a fully-specified FEC scheme for the convolutional Random Linear Codes (RLC) over GF(2^^m), where m equals 1 (binary case), 4 or 8, that can be used to protect arbitrary media streams along the lines defined by FECFRAME extended to convolutional codes.  These convolutional FEC codes rely on an encoding window that slides over the source symbols, generating new repair symbols whenever needed.  Compared to block FEC codes, these convolutional FEC codes offer key advantages in terms of reduced FEC-related latency while often providing improved erasure recovery capabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-roca-tsvwg-rlc-fec-scheme-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-roca-tsvwg-rlc-fec-scheme-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-refuse-any'>
+<front>
+<title>Providing Minimal-Sized Responses to DNS Queries that have QTYPE=ANY</title>
+
+<author initials='J' surname='Abley' fullname='Joe Abley'>
+    <organization />
+</author>
+
+<author initials='O' surname='Gudmundsson' fullname='Olafur Gudmundsson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Majkowski' fullname='Marek Majkowski'>
+    <organization />
+</author>
+
+<author initials='E' surname='Hunt' fullname='Evan Hunt'>
+    <organization />
+</author>
+
+<date month='August' day='14' year='2018' />
+
+<abstract><t>The Domain Name System (DNS) specifies a query type (QTYPE) "ANY". The operator of an authoritative DNS server might choose not to respond to such queries for reasons of local policy, motivated by security, performance or other reasons.  The DNS specification does not include specific guidance for the behaviour of DNS servers or clients in this situation.  This document aims to provide such guidance.  This document updates RFC 1034 and RFC 1035.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-refuse-any-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-refuse-any-07.txt' />
+</reference>

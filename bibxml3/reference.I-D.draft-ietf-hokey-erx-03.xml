@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hokey-erx'>
+<front>
+<title>EAP Re-authentication Extensions</title>
+
+<author initials='V' surname='Narayanan' fullname='Vidya Narayanan'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dondeti' fullname='Lakshminath Dondeti'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2007' />
+
+<abstract><t>The extensible authentication protocol (EAP) is a generic framework supporting multiple types of authentication methods. In the most common deployment scenario, a peer and server authenticate each other through an authenticator; the server sends the master session key (MSK) to the authenticator so that the peer and the authenticator can establish a security association for per-packet access enforcement. It is desirable to not repeat the entire process of authentication when the peer moves to another authenticator. This document specifies, EAP Reauthentication Extensions (ERX), extensions to EAP and EAP keying hierarchy to support a EAP method-independent protocol for efficient Re-authentication between the peer and the server through an authenticator.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hokey-erx-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hokey-erx-03.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zimmermann-avt-zrtp'>
+<front>
+<title>ZRTP: Media Path Key Agreement for Secure RTP</title>
+
+<author initials='P' surname='Zimmermann' fullname='Philip Zimmermann'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2007' />
+
+<abstract><t>This document defines ZRTP, a protocol for media path Diffie-Hellman exchange to agree on a session key and parameters for establishing Secure Real-time Transport Protocol (SRTP) sessions. The ZRTP protocol is media path keying because it is multiplexed on the same port as RTP and does not require support in the signaling protocol. ZRTP does not assume a Public Key Infrastructure (PKI) infrastructure or require the complexity of certificates in end devices. For the media session, ZRTP provides confidentiality, protection against Man in the Middle (MITM) attacks, and, in cases where a secret is available from the signaling protocol, authentication. ZRTP can utilize two Session Description Protocol (SDP) attributes to provide discovery and authentication through the signaling channel. To provide best effort SRTP, ZRTP utilizes normal RTP/AVP profiles.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zimmermann-avt-zrtp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zimmermann-avt-zrtp-03.txt' />
+</reference>

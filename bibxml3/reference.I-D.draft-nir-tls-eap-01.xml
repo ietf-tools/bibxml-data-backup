@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nir-tls-eap'>
+<front>
+<title>TLS using EAP Authentication</title>
+
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2007' />
+
+<abstract><t>This document describes an extension to the TLS protocol to allow TLS clients to authenticate with legacy credentials using the Extensible Authentication Protocol (EAP). This work follows the example of IKEv2, where EAP has been added to the IKEv2 protocol to allow clients to use different credentials such as passwords, token cards, and shared secrets. When TLS is used with EAP, additional records are sent after the ChangeCipherSpec protocol message and before the Finished message, effectively creating an extended handshake before the application layer data can be sent. Each EapMsg handshake record contains exactly one EAP message. Using EAP for client authentication allows TLS to be used with various AAA back-end servers such as RADIUS or Diameter. TLS with EAP may be used for securing a data connection such as HTTP or POP3. We believe it has three main benefits: o The ability of EAP to work with backend servers can remove that burden from the application layer. o Moving the user authentication into the TLS handshake protects the presumably less secure application layer from attacks by unauthenticated parties. o Using mutual authentication methods within EAP can help thwart certain classes of phishing attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nir-tls-eap-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nir-tls-eap-01.txt' />
+</reference>

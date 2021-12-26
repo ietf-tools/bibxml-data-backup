@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dong-idr-bgpls-sr-enhanced-vpn'>
+<front>
+<title>BGP-LS Extensions for Segment Routing based Enhanced VPN</title>
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+<organization />
+</author>
+<author initials='Z' surname='Hu' fullname='Zhibo Hu'>
+<organization />
+</author>
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+<organization />
+</author>
+<author initials='X' surname='Tang' fullname='Xiongyan Tang'>
+<organization />
+</author>
+<author initials='R' surname='Pang' fullname='Ran Pang'>
+<organization />
+</author>
+<date year='2021' month='February' day='22' />
+<abstract><t>Enhanced VPN (VPN+) aims to provide enhanced VPN services to support some applications' needs of enhanced isolation and stringent performance requirements.  VPN+ requires integration between the overlay VPN connectivity and the characteristics provided by the underlay network.  A Virtual Transport Network (VTN) is a virtual underlay network which consists of a customized network topology and a set of network resource allocated from the physical network.  A VTN could be used as the underlay to support one or a group of VPN+ services.</t><t> This document specifies the BGP-LS mechanisms with necessary extensions to advertise the information of Segment Routing (SR) based VTNs to a centralized network controller.  Each VTN can have a customized topology and a set of network resources allocated. Multiple VTNs may shared the same topology, and multiple VTNs may share the same set of network resources on some network segments. This allows flexible combination of network topology and network resource attributes to build a large number of VTNs with a relatively small number of logical topologies.  The proposed mechanism is applicable to both segment routing with MPLS data plane (SR-MPLS) and segment routing with IPv6 data plane (SRv6).</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-dong-idr-bgpls-sr-enhanced-vpn-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-dong-idr-bgpls-sr-enhanced-vpn-03.txt'/>
+</reference>

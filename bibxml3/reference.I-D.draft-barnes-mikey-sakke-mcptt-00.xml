@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barnes-mikey-sakke-mcptt'>
+<front>
+<title>Mission Critical Push-to-Talk (MCPTT) Group Key Transport using MIKEY- SAKKE</title>
+
+<author initials='M' surname='Barnes' fullname='Mary Barnes'>
+    <organization />
+</author>
+
+<author initials='A' surname='Allen' fullname='Andrew Allen'>
+    <organization />
+</author>
+
+<date month='May' day='26' year='2016' />
+
+<abstract><t>3GPP TS 33.179 defines the group services and system aspects for the Security of Mission Critical Push-To-Talk (MCPTT) service.  To create a group's security association, a Group Master Key (GMK) and associated identifier (GMK-ID) is distributed to MCPTT User Equipment (UE) by a Group Management Server (GMS).  The GMK is distributed encrypted specifically to a user and signed using an identity representing the Group Management Server.  The GMK is distributed within a Group Key Transport payload, which is a MIKEY-SAKKE I_MESSAGE, as defined in RFC 6509, which ensures the confidentiality, integrity and authenticity of the payload.  In order to convey the MCPTT specific service in the MIKEY-SAKKE I_MESSAGE, this document defines new values for the Type field of the General Extensions Payload Field defined for MIKEY in RFC 3830 the ID Role field in RFC 6043 and the ID Scheme field in RFC 6509.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-barnes-mikey-sakke-mcptt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-barnes-mikey-sakke-mcptt-00.txt' />
+</reference>

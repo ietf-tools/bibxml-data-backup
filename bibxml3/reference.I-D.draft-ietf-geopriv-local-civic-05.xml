@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-geopriv-local-civic'>
+<front>
+<title>Specifying Civic Address Extensions in PIDF-LO</title>
+
+<author initials='J' surname='Winterbottom' fullname='James Winterbottom'>
+    <organization />
+</author>
+
+<author initials='M' surname='Thomson' fullname='Martin Thomson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='B' surname='Rosen' fullname='Brian Rosen'>
+    <organization />
+</author>
+
+<author initials='R' surname='George' fullname='Robins George'>
+    <organization />
+</author>
+
+<date month='August' day='23' year='2012' />
+
+<abstract><t>New fields are occasionally added to civic addresses.  A backwardly- compatible mechanism for adding civic address elements to the Geopriv civic address format is described.  A formal mechanism for handling unsupported extensions when translating between XML and DHCP civic address forms is defined for entities that need to perform this translation.  Intial extensions for some new elements are also defined.  The LoST protocol mechanism that returns civic address element names used for validation of location information is clarified to require a namespace on each element.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-geopriv-local-civic-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-geopriv-local-civic-05.txt' />
+</reference>

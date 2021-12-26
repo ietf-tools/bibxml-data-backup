@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-prefix-hiding'>
+<front>
+<title>Hiding Transit-only Networks in OSPF</title>
+
+<author initials='Y' surname='Yang' fullname='Yi Yang'>
+    <organization />
+</author>
+
+<author initials='A' surname='Retana' fullname='Alvaro Retana'>
+    <organization />
+</author>
+
+<author initials='A' surname='Roy' fullname='Abhay Roy'>
+    <organization />
+</author>
+
+<date month='December' day='17' year='2012' />
+
+<abstract><t>A transit-only network is defined as a network connecting routers only.  In OSPF, transit-only networks are usually configured with routable IP addresses, which are advertised in Link State Advertisements (LSAs) but not needed for data traffic.  In addition, remote attacks can be launched against routers by sending packets to these transit-only networks.  This document presents a mechanism to hide transit-only networks to speed up network convergence and reduce remote attack vulnerability.  In the context of this document, 'hiding' implies that the prefixes are not installed in the routing tables on OSPF routers. In some cases, IP addresses may still be visible when using OSPFv2.  This document updates RFC 2328 and RFC 5340.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-prefix-hiding-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-prefix-hiding-07.txt' />
+</reference>

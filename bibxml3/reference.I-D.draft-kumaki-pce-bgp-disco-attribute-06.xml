@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kumaki-pce-bgp-disco-attribute'>
+<front>
+<title>BGP Protocol Extensions for Path Computation Element (PCE) Discovery in a BGP/MPLS IP-VPN</title>
+
+<author initials='K' surname='Kumaki' fullname='Kenji Kumaki'>
+    <organization />
+</author>
+
+<author initials='T' surname='Murai' fullname='Tomoki Murai'>
+    <organization />
+</author>
+
+<author initials='T' surname='Yamagata' fullname='Tomohiro Yamagata'>
+    <organization />
+</author>
+
+<author initials='C' surname='Sasaki' fullname='Chikara Sasaki'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2010' />
+
+<abstract><t>Connectivity between customer sites in an IP Virtual Private Network (VPN) supported by BGP/MPLS may be achieved using MPLS Traffic Engineered (TE) Label Switched Paths (LSPs). The paths of these LSPs must be computed to provide the end-to-end connectivity desired, and the paths selected may depend upon the VPN being served, and the location and reachability of target addresses within customer sites.  The Path Computation Element (PCE) is a server that can compute the paths of TE LSPs in an MPLS network. Where one or more VPNs is supported over a core network, different PCEs may serve computations for different VPNs.  PCE discovery allows a Path Computation Client (PCC) to determine which PCEs are available to service its computation requests. Using an IGP to distribute PCE discovery information for VPN use would result in the information being needlessly flooded to all core nodes regardless of whether they are aware of the VPN. These nodes do not need to be aware of per-VPN PCE function. This document describes how BGP can be used to distribute PCE discovery information specifically for use in VPN path computation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kumaki-pce-bgp-disco-attribute-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kumaki-pce-bgp-disco-attribute-06.txt' />
+</reference>

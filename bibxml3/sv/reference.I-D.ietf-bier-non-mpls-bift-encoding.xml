@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-non-mpls-bift-encoding'>
+<front>
+<title>An Optional Encoding of the BIFT-id Field in the non-MPLS BIER Encapsulation</title>
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+<organization />
+</author>
+<author initials='M' surname='Mishra' fullname='Mankamana Mishra'>
+<organization />
+</author>
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+<organization />
+</author>
+<author initials='H' surname='Bidgoli' fullname='Hooman Bidgoli'>
+<organization />
+</author>
+<date year='2021' month='May' day='30' />
+<abstract><t>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a &quot;multicast domain&quot;, without requiring intermediate routers to maintain any per-flow state or to engage in an explicit tree-building protocol.  The Multicast packet is encapsulated using a BIER Header and transported through an MPLS or non-MPLS network.  When MPLS is used as the transport, the Bit Indexed Forwarding Table (BIFT) is identified by a MPLS Label. When non-MPLS transport is used, the BIFT is identified by a 20bit value.  This document describes one way of encoding the 20bit value.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-non-mpls-bift-encoding-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-bier-non-mpls-bift-encoding-04.txt'/>
+</reference>

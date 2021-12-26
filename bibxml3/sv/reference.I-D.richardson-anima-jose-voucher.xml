@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.richardson-anima-jose-voucher'>
+<front>
+<title>JWS signed Voucher Artifacts for Bootstrapping Protocols</title>
+<author initials='M' surname='Richardson' fullname='Michael Richardson'>
+<organization />
+</author>
+<author initials='T' surname='Werner' fullname='Thomas Werner'>
+<organization />
+</author>
+<date year='2021' month='July' day='25' />
+<abstract><t>RFC8366 defines a digital artifact called voucher as a YANG-defined JSON document that has been signed using a Cryptographic Message Syntax (CMS) structure.  This memo introduces a variant of the voucher structure in which CMS is replaced by the JSON Object Signing and Encryption (JOSE) mechanism described in RFC7515 to better support use-cases in which JOSE is preferred over CMS.</t><t> In addition to explaining how the format is created, MIME types are registered and examples are provided.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-richardson-anima-jose-voucher-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-richardson-anima-jose-voucher-02.txt'/>
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-ippm-postcard-based-telemetry'>
+<front>
+<title>Postcard-based On-Path Flow Data Telemetry</title>
+
+<author initials='H' surname='Song' fullname='Haoyu Song'>
+    <organization />
+</author>
+
+<author initials='T' surname='Zhou' fullname='Tianran Zhou'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Shin' fullname='Jongyoon Shin'>
+    <organization />
+</author>
+
+<author initials='K' surname='Lee' fullname='Kyungtae Lee'>
+    <organization />
+</author>
+
+<date month='October' day='29' year='2019' />
+
+<abstract><t>The Postcard-Based Telemetry (PBT) allows network OAM applications to directly collect and export telemetry data about any user packet at each node on the forwarding path.  PBT has two variations, PBT-I and PBT-M.  PBT-I requires inserting an instruction header to user packets to guide the data collection.  An implementation of PBT-I is the IOAM Direct Export option described in [I-D.ioamteam-ippm-ioam-direct-export].  In contrast, PBT-M only marks the user packets or configure the flow filter to invoke the data collection and postcard export.  PBT complements IOAM trace option by addressing several specific implementation and deployment challenges.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-ippm-postcard-based-telemetry-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-ippm-postcard-based-telemetry-06.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ansari-scim-soft-delete'>
+<front>
+<title>SCIM Soft Delete</title>
+
+<author initials='M' surname='Ansari' fullname='Morteza Ansari'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hunt' fullname='Phil Hunt'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>The System for Cross-Domain Identity Management (SCIM) specification is an HTTP based protocol that makes managing identities in multi- domain scenarios easier to support through a standardized HTTP service.  Among other operations, SCIM defines delete operation where upon successful completion of the call, the SCIM endpoint is supposed to delete the requested object and the object should not be available for future SCIM calls and not used in uniqueness criteria requirements.  While this model is sufficient for a number of SCIM implementations, there are cases this simple definition of delete may not meet product or business requirements.  For example a service provider may require a user object to continue to exist as other objects/data is linked with it or for billing purposes, etc.  For example a cloud file storage mechanism may require to show basic information about who created a given file or modified one even if the user is de- provisioned from the system.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ansari-scim-soft-delete-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ansari-scim-soft-delete-00.txt' />
+</reference>

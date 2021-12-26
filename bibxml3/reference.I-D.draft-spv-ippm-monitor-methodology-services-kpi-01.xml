@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.spv-ippm-monitor-methodology-services-kpi'>
+<front>
+<title>Monitoring Service KPIs using TWAMP - Methodology</title>
+
+<author initials='S' surname='Sarangapani' fullname='Srivathsa Sarangapani'>
+    <organization />
+</author>
+
+<author initials='P' surname='Gupta' fullname='Peyush Gupta'>
+    <organization />
+</author>
+
+<author initials='V' surname='Hegde' fullname='Vinayak Hegde'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2016' />
+
+<abstract><t>We are introducing a new method to calculate services KPIs and metrics in the network using TWAMP protocol.  Services here ranging from Layer 4 to Layer 7 services.  Some of the examples are Http based services, Traffic load balancer, DPI, Video caching, real time streaming and IPSec.  The KPIs MAY be service latency, liveliness of an application, number of flows and sessions per service, load balancer statistics.  This draft outlines the methodology to calculate these parameters in the service plane in the real network using TWAMP protocol.  Some of the existing fields extended to support new modes in the TWAMP protocol for calculating these KPIs. set of new messages are added in the control protocol between TWAMP client (session sender) and the TWAMP server (session reflector).  There is a separate draft "draft-spv-ippm-monitor-implementation- services-kpi" that talks about implementation of monitoring these KPIs in the network using TWAMP.  Monitoring of these KPIs in the service plane with in a network play a vital role in optimum usage of network resources and improving the overall performance and capacity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-spv-ippm-monitor-methodology-services-kpi-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-spv-ippm-monitor-methodology-services-kpi-01.txt' />
+</reference>

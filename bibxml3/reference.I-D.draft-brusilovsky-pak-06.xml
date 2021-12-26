@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.brusilovsky-pak'>
+<front>
+<title>Password-Authenticated Diffie-Hellman Exchange (PAK)</title>
+
+<author initials='A' surname='Brusilovsky' fullname='Alec Brusilovsky'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>This document proposes to add mutual authentication, based on human-memorizable password, to the basic unauthenticated Diffie-Hellman key exchange. The proposed algorithm is called Password-authenticated Key exchange (PAK). PAK allows two parties to authenticate themselves while performing the Diffie-Hellman exchange. The protocol is secure against all passive and active attacks. In particular, it does not allow either type of attackers to obtain any information that would enable an off-line dictionary attack on the password. The use of Diffie-Hellman exchange ensures Forward Secrecy.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-brusilovsky-pak-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-brusilovsky-pak-06.txt' />
+</reference>

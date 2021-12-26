@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-wing-behave-nat-control-stun-usage-05.txt'>
+    <title>"Discovering, Querying, and Controlling Firewalls and NATs", Dan Wing, Jonathan Rosenberg, Hannes Tschofenig</title>
+    <link>http://www.ietf.org/internet-drafts/draft-wing-behave-nat-control-stun-usage-05.txt</link>
+    <description>A drawback with many NAT UDP hole punching techniques is the keepalive traffic necessary to keep the UDP binding open.  It it necessary to send keepalives frequently because it is not possible to determine or modify the NAT's binding lifetime.  This keepalive traffic causes server load and additional network traffic, which is especially problematic with battery-operated wireless devices. This document describes two mechanisms to discover NATs and firewalls and a mechanism to query and control their binding lifetime.  With these mechanisms, UDP binding discovery and UDP keepalive traffic can be reduced to involve only the necessary NATs or firewalls.  This eliminates the keepalive traffic to servers, and vastly reduces keepalive traffic across the network.  At the same time, backwards compatibility with NATs and firewalls that do not support this specification is retained, which allows for incremental deployment of this mechanism.  This document is discussed on the SAFE mailing list, &lt;http://www1.ietf.org/mailman/listinfo/safe>.</description>
+    <dc:date>2007-10-16T07:00:00-00:00</dc:date>
+</item>

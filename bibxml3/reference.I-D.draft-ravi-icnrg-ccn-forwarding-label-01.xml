@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ravi-icnrg-ccn-forwarding-label'>
+<front>
+<title>Forwarding-Label support in CCN Protocol</title>
+
+<author initials='R' surname='Ravindran' fullname='Ravi Ravindran'>
+    <organization />
+</author>
+
+<author initials='A' surname='Chakraborti' fullname='Asit Chakraborti'>
+    <organization />
+</author>
+
+<author initials='A' surname='Azgin' fullname='Aytac Azgin'>
+    <organization />
+</author>
+
+<date month='July' day='17' year='2017' />
+
+<abstract><t>The objective of this proposal is to enable ID and Locator namespace split in the CCN protocol that has several applications such as towards Interest routing optimization, seamless mobility and providing mobility as a service, conversational session support, handling indirections in manifests, and routing scalability.  We enable this through the notion of a forwarding-label object (FLO), which is an optional hop-by-hop payload in the Interest message with a topological name, which identifies a network domain, a router or a host.  FLO can be inserted within the Interest message by the applications or by the network.  FLO can be interpreted by the network in multiple ways, for instance, to terminate the message or to swap it with a new FLO based on the service context.  Furthermore, depending on the application and trust context, FLO can be subjected to policy based actions by the forwarders, such as invoking security verification or enabling other service-centric FLO management actions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ravi-icnrg-ccn-forwarding-label-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ravi-icnrg-ccn-forwarding-label-01.txt' />
+</reference>

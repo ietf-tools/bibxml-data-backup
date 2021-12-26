@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.heitzhe-tcpm-vm-rto'>
+<front>
+<title>TCP Retransmission Timer for Virtual Machines</title>
+
+<author initials='J' surname='Heitz' fullname='Jakob Heitz'>
+    <organization />
+</author>
+
+<author initials='C' surname='He' fullname='Chuan He'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2014' />
+
+<abstract><t>A Round Trip Time (RTT) estimate that decays performs badly in a bursty environment. A round trip time estimator that does not decay for a period of time is proposed.  It does not require a minimum value to be configured. It works equally well when the typical RTT is 100uS as when it is 10 seconds.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-heitzhe-tcpm-vm-rto-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-heitzhe-tcpm-vm-rto-00.txt' />
+</reference>

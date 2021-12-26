@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-cmt'>
+<front>
+<title>Coordinated Multicast Trees (CMT)for TRILL</title>
+
+<author initials='T' surname='Senevirathne' fullname='Tissa Senevirathne'>
+    <organization />
+</author>
+
+<author initials='J' surname='Pathangi' fullname='Janardhanan Pathangi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hudson' fullname='Jon Hudson'>
+    <organization />
+</author>
+
+<date month='April' day='17' year='2012' />
+
+<abstract><t>TRILL facilitates loop free connectivity to non TRILL legacy networks via choice of an Appointed Forwarder for set of VLANs. Appointed Forwarder provides VLAN level load sharing with active- standby model. Mission critical operations such as High Performance Data Centers require active-active load sharing model. Active-Active load sharing model can be accomplished by representing any given non TRILL legacy network with a single virtual RBridge. Virtual representation of the non-TRILL legacy network with a single RBridge poses serious challenges in multi-destination RPF calculations. This document presents the required enhancements to build Coordinated Multicast Trees (CMT) within the TRILL campus to solve related RPF issues. CMT provides flexibility to RBridges to select desired path of association to a given distribution tree.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-cmt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-cmt-00.txt' />
+</reference>

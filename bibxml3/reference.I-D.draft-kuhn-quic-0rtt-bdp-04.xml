@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuhn-quic-0rtt-bdp'>
+<front>
+<title>Transport parameters for 0-RTT connections</title>
+
+<author initials='N' surname='Kuhn' fullname='Nicolas Kuhn'>
+    <organization />
+</author>
+
+<author initials='S' surname='Emile' fullname='Stephan Emile'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>The time-to-service duration depends on both peers exchange optimization.  The peer initiating the connection may not be the one which send data first.  Moreover, clients may be resource-limited, behind a low bandwidth or connected to a long-RTT network and may need to adapt dynamically to improve data reception.  Currently, each side has its proprietary solution to measure and to store path characteristics.  Having a standard way to share these parameters should improve the adaptation to a non standard path characteristics.  QUIC v1 specification already reflects this approach.  Having a symmetrical control of the optimization should reduce protocol ossification.  This memo proposes the sharing of the characteristics of the path amongst the peer to reduce HTTP3 time-to-service for non default transport situation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuhn-quic-0rtt-bdp-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuhn-quic-0rtt-bdp-04.txt' />
+</reference>

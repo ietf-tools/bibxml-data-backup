@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mirtorabi-l3vpn-igp-transparency'>
+<front>
+<title>Maintaining IGP transparency of VPN routes when BGP is used as a PE-CE  protocol</title>
+
+<author initials='S' surname='Mirtorabi' fullname='Sina Mirtorabi'>
+    <organization />
+</author>
+
+<date month='April' day='13' year='2007' />
+
+<abstract><t>Many Service Providers offer Virtual Private Network (VPN) services to their customers, using a technique in which customer edge routers (CE routers) are routing peers of provider edge routers (PE routers). Although specification has been defined allowing OSPF or other IGP to be used as PE-CE routing protocol, BGP is often used as PE-CE routing protocol. Section 2 describes some of the motivations to use BGP as PE-CE routing protocol. The usage of BGP breaks customer route's transparency when they move from an overlay VPN model to MPLS VPN model. This document describes the extension to CE in order to keep the customer routes' transparent when BGP is used as PE-CE routing protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mirtorabi-l3vpn-igp-transparency-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mirtorabi-l3vpn-igp-transparency-00.txt' />
+</reference>

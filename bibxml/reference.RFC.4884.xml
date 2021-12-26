@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4884' target='https://www.rfc-editor.org/info/rfc4884'>
+<front>
+<title>Extended ICMP to Support Multi-Part Messages</title>
+<author initials='R.' surname='Bonica' fullname='R. Bonica'><organization /></author>
+<author initials='D.' surname='Gan' fullname='D. Gan'><organization /></author>
+<author initials='D.' surname='Tappan' fullname='D. Tappan'><organization /></author>
+<author initials='C.' surname='Pignataro' fullname='C. Pignataro'><organization /></author>
+<date year='2007' month='April' />
+<abstract><t>This document redefines selected ICMP messages to support multi-part operation.  A multi-part ICMP message carries all of the information that ICMP messages carried previously, as well as additional information that applications may require.</t><t>Multi-part messages are supported by an ICMP extension structure. The extension structure is situated at the end of the ICMP message. It includes an extension header followed by one or more extension objects.  Each extension object contains an object header and object payload.  All object headers share a common format.</t><t>This document further redefines the above mentioned ICMP messages by specifying a length attribute.  All of the currently defined ICMP messages to which an extension structure can be appended include an &quot;original datagram&quot; field.  The &quot;original datagram&quot; field contains the initial octets of the datagram that elicited the ICMP error message.  Although the original datagram field is of variable length, the ICMP message does not include a field that specifies its length. Therefore, in order to facilitate message parsing, this document allocates eight previously reserved bits to reflect the length of the &quot;original datagram&quot; field.</t><t>The proposed modifications change the requirements for ICMP compliance.  The impact of these changes on compliant implementations is discussed, and new requirements for future implementations are presented.</t><t>This memo updates RFC 792 and RFC 4443.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4884'/>
+<seriesInfo name='DOI' value='10.17487/RFC4884'/>
+</reference>

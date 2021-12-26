@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.smyslov-ipsecme-ikev2-qr-alt'>
+<front>
+<title>Alternative Approach for Mixing Preshared Keys in IKEv2 for Post-quantum Security</title>
+<author initials='V' surname='Smyslov' fullname='Valery Smyslov'>
+<organization />
+</author>
+<date year='2021' month='August' day='02' />
+<abstract><t>An IKEv2 extension defined in [RFC8784] allows IPsec traffic to be protected against someone storing VPN communications today and decrypting it later, when (and if) quantum computers are available. However, this protection doesn't cover an initial IKEv2 SA, which might be unacceptable in some scenarios.  This specification defines an alternative way get the same protection against quantum computers, but unlike the [RFC8784] solution it covers the initial IKEv2 SA too.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-smyslov-ipsecme-ikev2-qr-alt-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-smyslov-ipsecme-ikev2-qr-alt-04.txt'/>
+</reference>

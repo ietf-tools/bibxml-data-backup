@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-sipping-spit-policy'>
+<front>
+<title>A Document Format for Expressing Authorization Policies to tackle Spam and  Unwanted Communication for Internet Telephony</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<author initials='T' surname='Froment' fullname='Thomas Froment'>
+    <organization />
+</author>
+
+<author initials='G' surname='Dawirs' fullname='Geoffrey Dawirs'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2008' />
+
+<abstract><t>SPAM, defined as sending unsolicited messages to someone in bulk, might be a problem on SIP open-wide deployed networks.  The responsibility for filtering or blocking calls can belong to different elements in the call flow and may depend on various factors.  This document defines an authorization based policy language that allows end users to upload anti-SPIT policies to intermediaries, such as SIP proxies.  These policies mitigate unwanted SIP communications.  It extends the Common Policy authorization framework with additional conditions and actions.  The new conditions match a particular Session Initiation Protocol (SIP) communication pattern based on a number of attributes.  The range of attributes includes information provided, for example, by SIP itself, by the SIP identity mechanism, by information carried within SAML assertions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-sipping-spit-policy-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-sipping-spit-policy-03.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nfsv4-rfc5664bis'>
+<front>
+<title>Object-Based Parallel NFS (pNFS) Operations</title>
+
+<author initials='B' surname='Halevy' fullname='Benny Halevy'>
+    <organization />
+</author>
+
+<author initials='B' surname='Harrosh' fullname='Boaz Harrosh'>
+    <organization />
+</author>
+
+<author initials='B' surname='Welch' fullname='Brent Welch'>
+    <organization />
+</author>
+
+<date month='October' day='4' year='2013' />
+
+<abstract><t>Parallel NFS (pNFS) extends Network File System version 4 (NFSv4) to allow clients to directly access file data on the storage used by the NFSv4 server.  This ability to bypass the server for data access can increase both performance and parallelism, but requires additional client functionality for data access, some of which is dependent on the class of storage used, a.k.a. the Layout Type.  The main pNFS operations and data types in NFSv4 Minor version 1 specify a layout- type-independent layer; layout-type-specific information is conveyed using opaque data structures whose internal structure is further defined by the particular layout type specification.  This document specifies the NFSv4.1 Object-Based pNFS Layout Type as a companion to the main NFSv4 Minor version 1 specification.  This document has been updated since the initial version to clarify and fix some of the RAID-related computations so they match current implementations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nfsv4-rfc5664bis-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nfsv4-rfc5664bis-02.txt' />
+</reference>

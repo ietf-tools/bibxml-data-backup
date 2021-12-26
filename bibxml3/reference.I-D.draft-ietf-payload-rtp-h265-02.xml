@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-payload-rtp-h265'>
+<front>
+<title>RTP Payload Format for High Efficiency Video Coding</title>
+
+<author initials='Y' surname='Wang' fullname='Ye-Kui Wang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Sanchez' fullname='Yago Sanchez'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schierl' fullname='Thomas Schierl'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wenger' fullname='Stephan Wenger'>
+    <organization />
+</author>
+
+<author initials='M' surname='Hannuksela' fullname='Miska Hannuksela'>
+    <organization />
+</author>
+
+<date month='February' day='12' year='2014' />
+
+<abstract><t>This memo describes an RTP payload format for the video coding standard  ITU-T  Recommendation  H.265  and  ISO/IEC  International Standard 23008-2, both also known as High Efficiency Video Coding (HEVC) [HEVC], developed by the Joint Collaborative Team on Video Coding (JCT-VC).  The RTP payload format allows for packetization of one or more Network Abstraction Layer (NAL) units in each RTP packet payload, as well as fragmentation of a NAL unit into multiple RTP packets.  Furthermore, it supports transmission of an HEVC stream over a single as well as multiple RTP flows.  The payload format has wide applicability in videoconferencing, Internet video streaming, and high bit-rate entertainment-quality video, among others.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-payload-rtp-h265-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-payload-rtp-h265-02.txt' />
+</reference>

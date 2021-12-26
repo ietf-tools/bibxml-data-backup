@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-6man-ipv6-smurf-amplifier'>
+<front>
+<title>Security Implications of IPv6 options of Type 10xxxxxx</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='W' surname='Liu' fullname='Will Liu'>
+    <organization />
+</author>
+
+<date month='January' day='11' year='2013' />
+
+<abstract><t>When an IPv6 node processing an IPv6 packet does not support an IPv6 option whose two-highest-order bits of the Option Type are '10', it is required to respond with an ICMPv6 Parameter Problem error message, even if the Destination Address of the packet was a multicast address.  This feature provides an amplification vector, opening the door to an IPv6 version of the 'Smurf' Denial-of-Service (DoS) attack found in IPv4 networks.  This document discusses the security implications of the aforementioned options, and formally updates RFC 2460 such that this attack vector is eliminated. Additionally, it describes a number of operational mitigations that could be deployed against this attack vector.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-6man-ipv6-smurf-amplifier-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-6man-ipv6-smurf-amplifier-01.txt' />
+</reference>

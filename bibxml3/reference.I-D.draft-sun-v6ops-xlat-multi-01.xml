@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sun-v6ops-xlat-multi'>
+<front>
+<title>Running Multiple PLATs in 464XLAT</title>
+
+<author initials='Q' surname='Qiong' fullname='Qiong'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhirong Zhang'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Zhao' fullname='Qin Zhao'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fu' fullname='Yu Fu'>
+    <organization />
+</author>
+
+<date month='December' day='31' year='2014' />
+
+<abstract><t>The IPv6 transition has been an ongoing process throughout the world due to the exhaustion of the IPv4 address space.  The 464XLAT [RFC6877] provides a solution with limited IPv4 connectivity across an IPv6-only network, and the android system (version 2.3 and above) has already implemented the 464XLAT and the Prefix discovery solution [RFC7050].  However, the current 464XLAT architecture can only deal with the scenario with single PLAT in the network.  When operator deploys multiple PLATs with different Pref64 prefixes, 464XLAT cannot cope with multiple prefixes for different destination addresses.  This document describes the architecture with multiple PLATs and also the deployment considerations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sun-v6ops-xlat-multi-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sun-v6ops-xlat-multi-01.txt' />
+</reference>

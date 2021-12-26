@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hurtig-tcpm-rtorestart'>
+<front>
+<title>TCP and SCTP RTO Restart</title>
+
+<author initials='P' surname='Hurtig' fullname='Per Hurtig'>
+    <organization />
+</author>
+
+<author initials='A' surname='Petlund' fullname='Andreas Petlund'>
+    <organization />
+</author>
+
+<date month='December' day='22' year='2010' />
+
+<abstract><t>This document proposes to restart the TCP and the SCTP retransmission timer with consideration to the earliest outstanding segment and thus updates the standard algorithm.  It discusses the motivation, the required modifications and some experimental results.  This document focuses on TCP, but the motivation and required modifications also apply to SCTP as both protocols use the same algorithm for RTO management.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hurtig-tcpm-rtorestart-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hurtig-tcpm-rtorestart-00.txt' />
+</reference>

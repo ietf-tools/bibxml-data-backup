@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-referredby'>
+<front>
+<title>The SIP Referred-By Mechanism</title>
+
+<author initials='R' surname='Sparks' fullname='Robert Sparks'>
+    <organization />
+</author>
+
+<date month='March' day='23' year='2004' />
+
+<abstract><t>The SIP REFER method [2] provides a mechanism where one party (the referrer) gives a second party (the referree) an arbitrary URI to reference. If that URI is a SIP URI, the referree will send a SIP request, often an INVITE, to that URI (the refer target). This document extends the REFER method allowing the referrer to provide information about the reference to the refer target using the referree as an intermediary. This information includes the identity of the referrer and the URI to which the referrer referred. The mechanism utilizes S/MIME to help protect this information from a malicious intermediary. This protection is optional, but a recipient may refuse to accept a request unless it is present.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-referredby-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-referredby-05.txt' />
+</reference>

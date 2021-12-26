@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<referencegroup anchor="BCP198" target="https://www.rfc-editor.org/info/bcp198">
+<!-- reference.RFC.7608.xml -->
+<reference  anchor='RFC7608' target='https://www.rfc-editor.org/info/rfc7608'>
+<front>
+<title>IPv6 Prefix Length Recommendation for Forwarding</title>
+<author initials='M.' surname='Boucadair' fullname='M. Boucadair'><organization /></author>
+<author initials='A.' surname='Petrescu' fullname='A. Petrescu'><organization /></author>
+<author initials='F.' surname='Baker' fullname='F. Baker'><organization /></author>
+<date year='2015' month='July' />
+<abstract><t>IPv6 prefix length, as in IPv4, is a parameter conveyed and used in IPv6 routing and forwarding processes in accordance with the Classless Inter-domain Routing (CIDR) architecture.  The length of an IPv6 prefix may be any number from zero to 128, although subnets using stateless address autoconfiguration (SLAAC) for address allocation conventionally use a /64 prefix.  Hardware and software implementations of routing and forwarding should therefore impose no rules on prefix length, but implement longest-match-first on prefixes of any valid length.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='198'/>
+<seriesInfo name='RFC' value='7608'/>
+<seriesInfo name='DOI' value='10.17487/RFC7608'/>
+</reference>
+</referencegroup>

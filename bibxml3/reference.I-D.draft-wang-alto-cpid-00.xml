@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-alto-cpid'>
+<front>
+<title>ALTO protocol extension: aggregate network map and cost map into CPID</title>
+
+<author initials='Y' surname='Wang' fullname='Yan Wang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Yongchao' fullname='Song Yongchao'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>The goal of Application-Layer Traffic Optimization (ALTO) is to provide guidance to applications, which have to select one or several hosts from a set of candidates, which are able to provide the desired resource.  Until now the members in ALTO group propose many solutions, such as P4P and PROXIDOR.  The goal of the protocol specified in this document is to try to extend the existing solutions to improve the performance of protocol and better satisfy the privacy requirements.  The proposed protocol is based on the P4P or merged protocol.  It introduces a way to transfer the guidance or costs using Network Location identifiers/PIDs (we called it CPID) directly. This solution can inherit the existing solution's architecture, messages, and other mechanisms.  It can be an independent solution and also be a function together with other functions in the existing solution to provide the guidance for different client and balance the workload on the server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-alto-cpid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-alto-cpid-00.txt' />
+</reference>

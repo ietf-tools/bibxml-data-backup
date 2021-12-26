@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.weilian-mpls-fast-reroute-ext'>
+<front>
+<title>Extensions to RSVP-TE Fast Reroute</title>
+
+<author initials='J' surname='Weilian' fullname='Jiang Weilian'>
+    <organization />
+</author>
+
+<date month='December' day='21' year='2005' />
+
+<abstract><t>This document defines extensions to the Fast Reroute (FRR) mechanism of Facility Backup defined in RFC4090. Through the extensions, the node that has set up FRR relation is capable of notifying the tail node of backup tunnel to act as Merge Point (MP) of the protected and backup tunnels. In addition, after the FRR switchover, PLR and MP nodes can refresh the protocol state of protected tunnel through the Refresh message of backup tunnel, so that the protocol message of protected tunnel will not be refreshed along the path of backup tunnel, the middle nodes and tail node of backup tunnel will not assign many unused labels.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-weilian-mpls-fast-reroute-ext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-weilian-mpls-fast-reroute-ext-00.txt' />
+</reference>

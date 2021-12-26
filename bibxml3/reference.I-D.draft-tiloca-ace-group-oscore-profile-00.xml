@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tiloca-ace-group-oscore-profile'>
+<front>
+<title>Group OSCORE Profile of the Authentication and Authorization for Constrained Environments Framework</title>
+
+<author initials='M' surname='Tiloca' fullname='Marco Tiloca'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hoeglund' fullname='Rikard Hoeglund'>
+    <organization />
+</author>
+
+<author initials='L' surname='Seitz' fullname='Ludwig Seitz'>
+    <organization />
+</author>
+
+<author initials='F' surname='Palombini' fullname='Francesca Palombini'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2019' />
+
+<abstract><t>This document specifies a profile for the Authentication and Authorization for Constrained Environments (ACE) framework.  The profile uses Object Security for Constrained RESTful Environments (OSCORE) and/or Group OSCORE to provide communication security between a Client and (a group of) Resource Server(s).  Furthermore, the profile uses (Group) OSCORE to provide server authentication, and OSCORE to achieve proof-of-possession for a key owned by the Client and bound to an OAuth 2.0 Access Token.  Also, the profile provides proof-of-group-membership for the Client, by securely binding the pre-established Group OSCORE Security Context to the pairwise OSCORE Security Context newly established with the Resource Server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tiloca-ace-group-oscore-profile-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tiloca-ace-group-oscore-profile-00.txt' />
+</reference>

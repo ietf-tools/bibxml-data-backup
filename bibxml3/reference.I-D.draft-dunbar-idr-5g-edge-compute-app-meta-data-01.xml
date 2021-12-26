@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dunbar-idr-5g-edge-compute-app-meta-data'>
+<front>
+<title>BGP NLRI App Meta Data for 5G Edge Computing Service</title>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='K' surname='Majumdar' fullname='Kausik Majumdar'>
+    <organization />
+</author>
+
+<author initials='H' surname='Wang' fullname='Haibo Wang'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>This draft describes a new BGP Network Layer Reachability Information (BGP NLRI) Path Attribute, AppMetaData, that can distribute the 5G Edge Computing App running status and environment, so that other routers in the 5G Local Data Network can make intelligent decision on optimized forwarding of flows from UEs. The goal is to improve latency and performance for 5G Edge Computing services.  The extension enables a feature, called soft anchoring, which makes one Edge Computing Server at one specific location to be more preferred than others for the same application to receive packets from a specific source (UE).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dunbar-idr-5g-edge-compute-app-meta-data-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dunbar-idr-5g-edge-compute-app-meta-data-01.txt' />
+</reference>

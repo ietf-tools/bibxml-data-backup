@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.peterson-stir-rfc4916-update'>
+<front>
+<title>Connected Identity for STIR</title>
+<author initials='J' surname='Peterson' fullname='Jon Peterson'>
+<organization />
+</author>
+<author initials='C' surname='Wendt' fullname='Chris Wendt'>
+<organization />
+</author>
+<date year='2021' month='July' day='12' />
+<abstract><t>The SIP Identity header conveys cryptographic identity information about the originators of SIP requests.  The Secure Telephone Identity Revisited (STIR) framework however provides no means for determining the identity of the called party in a traditional telephone calling scenario.  This document updates prior guidance on the &quot;connected identity&quot; problem to reflect the changes to SIP Identity that accompanied STIR, and considers a revised problem space for connected identity as a means of detecting calls that have been retargeted to a party impersonating the intended destination, as well as the spoofing of mid-dialog or dialog-terminating events by intermediaries or third parties.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-peterson-stir-rfc4916-update-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-peterson-stir-rfc4916-update-04.txt'/>
+</reference>

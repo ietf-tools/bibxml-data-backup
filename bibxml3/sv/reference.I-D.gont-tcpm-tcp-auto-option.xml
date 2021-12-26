@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-tcpm-tcp-auto-option'>
+<front>
+<title>TCP Adaptive User TimeOut (AUTO) Option</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<date month='May' day='19' year='2004' />
+
+<abstract><t>The original TCP specification (RFC 793) defines a "USER TIMEOUT" parameter that sets the policy as to when a user connection should be aborted. However, TCP provides no means of letting users suggest an abort policy to a remote peer dynamically. Even though a fixed policy may work well in many cases, there are a number of scenarios where a fixed USER TIMEOUT value may be inappropriate, and some means of setting the abort policy dynamically may be necessary for TCP to be used effectively in such scenarios. This document defines a new TCP option, which lets a TCP peer suggest a USER TIMEOUT value to a remote TCP during the connection-establishment phase, and modify it during the life of a connection, thus adapting TCP's connection-abort policy as necessary.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-tcpm-tcp-auto-option-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-tcpm-tcp-auto-option-00.txt' />
+</reference>

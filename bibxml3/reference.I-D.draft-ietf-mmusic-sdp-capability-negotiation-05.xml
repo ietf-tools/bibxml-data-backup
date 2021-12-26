@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-sdp-capability-negotiation'>
+<front>
+<title>SDP Capability Negotiation</title>
+
+<author initials='F' surname='Andreasen' fullname='Flemming Andreasen'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2007' />
+
+<abstract><t>The Session Description Protocol (SDP) was intended for describing multimedia sessions for the purposes of session announcement, session invitation, and other forms of multimedia session initiation. SDP was not intended to provide capability indication or capability negotiation, however over the years, SDP has seen widespread adoption and as a result it has been gradually extended to provide limited support for these. SDP and its current extensions however do not have the ability to negotiate one or more alternative transport protocols (e.g. RTP profiles) which makes it particularly difficult to deploy new RTP profiles such as secure RTP or RTP with RTCP-based feedback. The purpose of this document is to address that and other real-life limitations by extending SDP with capability negotiation parameters and associated offer/answer procedures to use those parameters in a backwards compatible manner. The solution provided in this document provides a general SDP capability negotiation framework. It also defines specifically how to provide attributes and transport protocols as capabilities and negotiate them using the framework. Extensions for other types of capabilities (e.g. media types and formats) may be provided in other documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-sdp-capability-negotiation-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-sdp-capability-negotiation-05.txt' />
+</reference>

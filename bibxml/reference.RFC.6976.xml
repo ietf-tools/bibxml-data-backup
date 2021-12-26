@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6976' target='https://www.rfc-editor.org/info/rfc6976'>
+<front>
+<title>Framework for Loop-Free Convergence Using the Ordered Forwarding Information Base (oFIB) Approach</title>
+<author initials='M.' surname='Shand' fullname='M. Shand'><organization /></author>
+<author initials='S.' surname='Bryant' fullname='S. Bryant'><organization /></author>
+<author initials='S.' surname='Previdi' fullname='S. Previdi'><organization /></author>
+<author initials='C.' surname='Filsfils' fullname='C. Filsfils'><organization /></author>
+<author initials='P.' surname='Francois' fullname='P. Francois'><organization /></author>
+<author initials='O.' surname='Bonaventure' fullname='O. Bonaventure'><organization /></author>
+<date year='2013' month='July' />
+<abstract><t>This document describes an illustrative framework of a mechanism for use in conjunction with link-state routing protocols that prevents the transient loops that would otherwise occur during topology changes.  It does this by correctly sequencing the forwarding information base (FIB) updates on the routers.</t><t>This mechanism can be used in the case of non-urgent (management action) link or node shutdowns and restarts or link metric changes. It can also be used in conjunction with a fast reroute mechanism that converts a sudden link or node failure into a non-urgent topology change.  This is possible where a complete repair path is provided for all affected destinations.</t><t>After a non-urgent topology change, each router computes a rank that defines the time at which it can safely update its FIB.  A method for accelerating this loop-free convergence process by the use of completion messages is also described.</t><t>The technology described in this document has been subject to extensive simulation using pathological convergence behavior and real network topologies and costs.  However, the mechanisms described in this document are purely illustrative of the general approach and do not constitute a protocol specification.  This document represents a snapshot of the work of the Routing Area Working Group at the time of publication and is published as a document of record.  Further work is needed before implementation or deployment.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6976'/>
+<seriesInfo name='DOI' value='10.17487/RFC6976'/>
+</reference>

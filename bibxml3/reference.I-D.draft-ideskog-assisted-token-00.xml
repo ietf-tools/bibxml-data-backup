@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ideskog-assisted-token'>
+<front>
+<title>OAuth 2.0 Assisted Token</title>
+
+<author initials='J' surname='Ideskog' fullname='Jacob Ideskog'>
+    <organization />
+</author>
+
+<author initials='T' surname='Spencer' fullname='Travis Spencer'>
+    <organization />
+</author>
+
+<date month='March' day='18' year='2018' />
+
+<abstract><t>The OAuth 2.0 authorization flow for Single Page Applications (SPAs), often referred to as the assisted token flow, enables OAuth clients to request user authorization written in scripting languages, like JavaScript, with a simplified integration compared to the implicit grant type flow.  Communication does not rely on redirection of the user agent, but instead leverages HTML's iframe element, child windows, and the postMessage interface.  This communication is done using an additional endpoint, the assisted token endpoint, which this document defines.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ideskog-assisted-token-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ideskog-assisted-token-00.txt' />
+</reference>

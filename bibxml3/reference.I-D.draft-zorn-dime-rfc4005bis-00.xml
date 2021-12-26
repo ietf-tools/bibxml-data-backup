@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zorn-dime-rfc4005bis'>
+<front>
+<title>Diameter Network Access Server Application</title>
+
+<author initials='G' surname='Zorn' fullname='Glen Zorn'>
+    <organization />
+</author>
+
+<date month='May' day='23' year='2010' />
+
+<abstract><t>This document describes the Diameter protocol application used for Authentication, Authorization, and Accounting (AAA) services in the Network Access Server (NAS) environment.  When combined with the Diameter Base protocol, Transport Profile, and Extensible Authentication Protocol specifications, this application specification satisfies typical network access services requirements.  Initial deployments of the Diameter protocol are expected to include legacy systems.  Therefore, this application has been carefully designed to ease the burden of protocol conversion between RADIUS and Diameter.  This is achieved by including the RADIUS attribute space to eliminate the need to perform many attribute translations.  The interactions between Diameter applications and RADIUS specified in this document are to be applied to all Diameter applications.  In this sense, this document extends the Base Diameter protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zorn-dime-rfc4005bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zorn-dime-rfc4005bis-00.txt' />
+</reference>

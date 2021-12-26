@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-repos-struct'>
+<front>
+<title>A Profile for Resource Certificate Repository Structure</title>
+
+<author initials='G' surname='Huston' fullname='Geoff Huston'>
+    <organization />
+</author>
+
+<author initials='R' surname='Loomans' fullname='Robert Loomans'>
+    <organization />
+</author>
+
+<author initials='G' surname='Michaelson' fullname='George Michaelson'>
+    <organization />
+</author>
+
+<date month='June' day='7' year='2011' />
+
+<abstract><t>This document defines a profile for the structure of the Resource PKI distributed repository.  Each individual repository publication point is a directory that contains files that correspond to X.509 / PKIX Resource Certificates, Certificate Revocation Lists and signed objects.  This profile defines the recommended object (file) naming scheme, the recommended contents of repository publication points (directories), and a suggested internal structure of a local repository cache that is intended to facilitate synchronization across a distributed collection of repository publication points and facilitate certification path construction.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-repos-struct-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-repos-struct-08.txt' />
+</reference>

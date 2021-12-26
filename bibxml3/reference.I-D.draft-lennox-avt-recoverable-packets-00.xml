@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lennox-avt-recoverable-packets'>
+<front>
+<title>Marking and Selectively Retransmitting High-Priority Packets in the  Real-Time Transport Protocol (RTP)</title>
+
+<author initials='J' surname='Lennox' fullname='Jonathan Lennox'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2006' />
+
+<abstract><t>In some circumstances, it is useful and desirable for the sender of an RTP stream to be able to deliver a subset of its RTP packets reliably. One example of this is a video codec which can encode a video stream such that decoder state can be maintained using just a subset of the packets encoded. However, existing RTP reliability mechanisms only define mechanisms which retransmit all the packets of an RTP stream. This document describes a mechanism by which the sender of an RTP stream can mark a subset of the packets of an RTP stream as high- priority recoverable packets, and by which the receiver of the stream can request retransmission of the high-priority packets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lennox-avt-recoverable-packets-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lennox-avt-recoverable-packets-00.txt' />
+</reference>

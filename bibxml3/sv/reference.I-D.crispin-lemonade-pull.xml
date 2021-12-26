@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.crispin-lemonade-pull'>
+<front>
+<title>Message Submission</title>
+
+<author initials='M' surname='Crispin' fullname='Mark Crispin'>
+    <organization />
+</author>
+
+<date month='February' day='6' year='2004' />
+
+<abstract><t>This document describes a set of strategies to allow clients to submit new email messages incorporating content which resides on locations external to the client. This is the so-called 'IMAP Pull' approach currently being considered by the LEMONADE working group as one solution to the 'forward without download' problem (that is, as a means for clients to send new messages consisting of or containing all or parts of previously received messages without having to download and upload the data). Some of the strategies in this document rely upon extensions to other protocols; specifically URLAUTH and CATENATE in the IMAP protocol (RFC 3501) and BURL in the SUBMIT protocol (RFC 2476).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-crispin-lemonade-pull-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-crispin-lemonade-pull-01.txt' />
+</reference>

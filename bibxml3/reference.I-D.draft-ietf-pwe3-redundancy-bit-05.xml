@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pwe3-redundancy-bit'>
+<front>
+<title>Pseudowire Preferential Forwarding Status Bit</title>
+
+<author initials='P' surname='Muley' fullname='Praveen Muley'>
+    <organization />
+</author>
+
+<author initials='M' surname='Aissaoui' fullname='Mustapha Aissaoui'>
+    <organization />
+</author>
+
+<date month='September' day='21' year='2011' />
+
+<abstract><t>This document describes a mechanism for standby status signaling of redundant pseudowires (PWs) between their termination points. A set of redundant PWs is configured between provider edge (PE) nodes in single-segment pseudowire (SS-PW) applications, or between terminating provider edge (T-PE) nodes in multi-segment pseudowire (MS-PW) applications.  In order for the PE/T-PE nodes to indicate the preferred PW to use for forwarding PW packets to one another, a new status bit is needed to indicate a preferential forwarding status of Active or Standby for each PW in a redundant set.  In addition, a second status bit is defined to allow peer PE nodes to coordinate a switchover operation of the PW.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pwe3-redundancy-bit-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pwe3-redundancy-bit-05.txt' />
+</reference>

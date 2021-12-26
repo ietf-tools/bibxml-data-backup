@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-cfrg-rhash'>
+<front>
+<title>Strengthening Digital Signatures via Randomized Hashing</title>
+
+<author initials='S' surname='Halevi' fullname='Shai Halevi'>
+    <organization />
+</author>
+
+<author initials='H' surname='Krawczyk' fullname='Hugo  Krawczyk'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2007' />
+
+<abstract><t>This document describes a randomized hashing scheme consisting of a simple message randomization transform that when used as a front-end to regular hash-then-sign signature schemes, such as RSA and DSS, frees these signatures from their current vulnerability to off-line collision attacks against the underlying hash function.  The proposed mechanism can work with any hash function as-is and requires no change to the underlying signature algorithm. Incorporating this mechanism into existing applications requires changes that are comparable in their complexity to accommodating a new (deterministic) hash function such as SHA-256.  Visit http://www.ee.technion.ac.il/~hugo/rhash/ for more information and updates on this work.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-cfrg-rhash-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-rhash-01.txt' />
+</reference>

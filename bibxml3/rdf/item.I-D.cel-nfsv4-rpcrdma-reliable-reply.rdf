@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-cel-nfsv4-rpcrdma-reliable-reply-05.txt'>
+    <title>"Improving the Performance and Reliability of RPC Replies on RPC-over-RDMA Transports", Chuck Lever</title>
+    <link>http://www.ietf.org/internet-drafts/draft-cel-nfsv4-rpcrdma-reliable-reply-05.txt</link>
+    <description>RPC transports such as RPC-over-RDMA version 1 require reply buffers to be in place before an RPC Call is sent.  However, RPC consumers sometimes have difficulty estimating the expected maximum size of a particular RPC reply.  This introduces the risk that an RPC Reply message can overrun reply resources provided by the requester, preventing delivery of the message, through no fault of the requester.  This document describes a mechanism that eliminates the need for pre-allocation of reply resources for unpredictably large replies.</description>
+    <dc:date>2019-05-20T07:00:00-00:00</dc:date>
+</item>

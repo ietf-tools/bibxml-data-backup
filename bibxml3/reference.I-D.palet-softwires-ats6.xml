@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.palet-softwires-ats6'>
+<front>
+<title>Automatic Tunneling Setup for/with IPv6</title>
+
+<author initials='J' surname='Palet' fullname='Jordi Palet'>
+    <organization />
+</author>
+
+<author initials='M' surname='Diaz' fullname='Miguel Diaz'>
+    <organization />
+</author>
+
+<date month='January' day='18' year='2006' />
+
+<abstract><t>This document presents the basis for a procedure that enables a host or router to automatically setup an IPvX in IPvY tunnel. Basically, the document considers several scenarios, from the most common today "dominant IPv4" networks to new "dominant IPv6" networks, which can even support the use of multicast. A basic requirement is that the host or router is a dual stack node and it will have either native IPv4-only access (dominant IPv4 network) or native IPv6-only access (dominant IPv6 network). Consequently, either IPv6 will be transported in the existing IPv4- only infrastructure, or IPv4 will be transported in the existing IPv6-only infrastructure. Other combinations are possible, such as IPv6 in IPv6 (for example to support IPv6 multicast in an IPv6- unicast-only infrastructure). The procedure follows the work from [1], [2], [3], [4] and mainly [5], trying to be compliant with the requirements enumerated in those documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-palet-softwires-ats6-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-palet-softwires-ats6-01.txt' />
+</reference>

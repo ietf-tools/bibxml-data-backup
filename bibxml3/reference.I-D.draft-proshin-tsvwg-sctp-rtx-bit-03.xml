@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.proshin-tsvwg-sctp-rtx-bit'>
+<front>
+<title>Retransmit bit for SCTP DATA, I-DATA and SACK</title>
+
+<author initials='M' surname='Proshin' fullname='Maksim Proshin'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2020' />
+
+<abstract><t>This document defines a method which helps an SCTP sender to understand when a received SACK acknowledges the original transmission of a TSN or its retransmission.  It is done by specifying a new bit, called Retransmit bit (R-bit), in the header of DATA, I-DATA and SACK chunks.  The bit is used when a TSN is retransmitted and returned back in the acknowledgement.  This document updates [RFC4960] if approved.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-proshin-tsvwg-sctp-rtx-bit-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-proshin-tsvwg-sctp-rtx-bit-03.txt' />
+</reference>

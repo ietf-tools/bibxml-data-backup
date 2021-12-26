@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barthel-lpwan-oam-schc'>
+<front>
+<title>OAM for LPWAN using Static Context Header Compression (SCHC)</title>
+<author initials='D' surname='Barthel' fullname='Dominique Barthel'>
+<organization />
+</author>
+<author initials='L' surname='Toutain' fullname='Laurent Toutain'>
+<organization />
+</author>
+<author initials='A' surname='Kandasamy' fullname='Arunprabhu Kandasamy'>
+<organization />
+</author>
+<author initials='D' surname='Dujovne' fullname='Diego Dujovne'>
+<organization />
+</author>
+<author initials='J' surname='Zuniga' fullname='Juan Zuniga'>
+<organization />
+</author>
+<date year='2020' month='November' day='02' />
+<abstract><t>With IP protocols now generalizing to constrained networks, users expect to be able to Operate, Administer and Maintain them with the familiar tools and protocols they already use on less constrained networks.</t><t> OAM uses specific messages sent into the data plane to measure some parameters of a network.  Most of the time, no explicit values are sent is these messages.  Network parameters are obtained from the analysis of these specific messages.</t><t> This can be used:</t><t> *  To detect if a host is up or down.</t><t> *  To measure the RTT and its variation over time.</t><t> *  To learn the path used by packets to reach a destination.</t><t> OAM in LPWAN is a little bit trickier since the bandwidth is limited and extra traffic added by OAM can introduce perturbation on regular transmission.</t><t> Two scenarios can be investigated:</t><t> *  OAM coming from internet.  In that case, the NGW should act as a</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-barthel-lpwan-oam-schc-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-barthel-lpwan-oam-schc-02.txt'/>
+</reference>

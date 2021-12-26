@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.asaeda-pim-multiif-igmpmldproxy'>
+<front>
+<title>Multiple Upstream Interface Support for IGMP/MLD Proxy</title>
+
+<author initials='H' surname='Asaeda' fullname='Hitoshi Asaeda'>
+    <organization />
+</author>
+
+<author initials='L' surname='Contreras' fullname='Luis Contreras'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2018' />
+
+<abstract><t>This document describes the way of supporting multiple upstream interfaces for an IGMP/MLD proxy device.  The proposed extension enables an IGMP/MLD proxy device to receive multicast sessions/ channels through the different upstream interfaces.  The upstream interface is selected based on the subscriber address prefixes, channel/session IDs, and interface priority values.  A mechanism for upstream interface takeover that enables to switch from an inactive upstream interface to an active upstream interface is also described.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-asaeda-pim-multiif-igmpmldproxy-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-asaeda-pim-multiif-igmpmldproxy-02.txt' />
+</reference>

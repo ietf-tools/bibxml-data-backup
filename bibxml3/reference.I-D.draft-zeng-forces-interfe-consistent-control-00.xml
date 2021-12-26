@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zeng-forces-interfe-consistent-control'>
+<front>
+<title>ForCES inter-FE Consistent Control Scheme</title>
+
+<author initials='L' surname='Zeng' fullname='Lieguang Zeng'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Zhou' fullname='Ye Zhou'>
+    <organization />
+</author>
+
+<author initials='M' surname='Yang' fullname='Mao Yang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Li' fullname='Yong Li'>
+    <organization />
+</author>
+
+<author initials='D' surname='Jin' fullname='Depeng Jin'>
+    <organization />
+</author>
+
+<author initials='L' surname='Su' fullname='Li Su'>
+    <organization />
+</author>
+
+<date month='May' day='19' year='2014' />
+
+<abstract><t>This document addresses the inter-FE consistent control problem for ForCES in software-defined network (SDN), and proposes an inter-FE consistent control scheme through dynamic match-field selection. In detail, the control element (CE) analyzes the similarities and differences between both the old and rules. Then, CE dynamically determines appropriate match fields and, correspondingly, generates a set of transitional flow entries. After that, it deletes the old flow entries and writes the new ones. Finally, the consistent control is achieved after deleting the transitional flow entries. This scheme guarantees the inter-FE consistent control.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zeng-forces-interfe-consistent-control-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zeng-forces-interfe-consistent-control-00.txt' />
+</reference>

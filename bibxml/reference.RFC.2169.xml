@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC2169' target='https://www.rfc-editor.org/info/rfc2169'>
+<front>
+<title>A Trivial Convention for using HTTP in URN Resolution</title>
+<author initials='R.' surname='Daniel' fullname='R. Daniel'><organization /></author>
+<date year='1997' month='June' />
+<abstract><t>The Uniform Resource Names Working Group (URN-WG) was formed to specify persistent, location-independent names for network accessible resources, as well as resolution mechanisms to retrieve the resources given such a name. At this time the URN-WG is considering one particular resolution mechanism, the NAPTR proposal [1]. That proposal specifies how a client may find a &quot;resolver&quot; for a URN. A resolver is a database that can provide information about the resource identified by a URN, such as the resource's location, a bibliographic description, or even the resource itself. The protocol used for the client to communicate with the resolver is not specified in the NAPTR proposal.  Instead, the NAPTR resource record provides a field that indicates the &quot;resolution protocol&quot; and &quot;resolution service requests&quot; offered by the resolver.</t><t>This document specifies the &quot;THTTP&quot; resolution protocol - a trivial convention for encoding resolution service requests and responses as HTTP 1.0 or 1.1 requests and responses.  The primary goal of THTTP is to be simple to implement so that existing HTTP servers may easily add support for URN resolution. We expect that the databases used by early resolvers will be useful when more sophisticated resolution protocols are developed later.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='2169'/>
+<seriesInfo name='DOI' value='10.17487/RFC2169'/>
+</reference>

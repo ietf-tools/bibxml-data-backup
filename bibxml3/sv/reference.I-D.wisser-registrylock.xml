@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wisser-registrylock'>
+<front>
+<title>Registry Lock Extension for the Extensible Provisioning Protocol (EPP)</title>
+<author initials='U' surname='Wisser' fullname='Ulrich Wisser'>
+<organization />
+</author>
+<date year='2021' month='July' day='07' />
+<abstract><t>This extensions defines an additional protective layer for changes to domain [RFC5731], host [RFC5732] and contact [RFC5733] objects managed through EPP.</t><t> EPP allows changes to objects only by the sponsoring client.  EPP objects are usually managed by the sponsoring client on behalf of the sponsoring clients customers.  All of these interactions are ususally fully automated.</t><t> In case of a system breach, there is no protection in EPP to changes to any object by the intruder.</t><t> This extension defines a protective layer that aims to break automated changes and work flows by requiring manual intervention.</t><t> The actual form of manual intervention is out-of-scope for this document.  By whom and how changes can be made is up to the registry and registrars to decide.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-wisser-registrylock-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-wisser-registrylock-04.txt'/>
+</reference>

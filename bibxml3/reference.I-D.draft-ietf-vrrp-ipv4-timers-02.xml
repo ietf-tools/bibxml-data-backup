@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-vrrp-ipv4-timers'>
+<front>
+<title>Timer Enhancements to Reduce Failover Times for the Virtual Router  Redundancy Protocol for IPv4</title>
+
+<author initials='R' surname='Hott' fullname='Robert Hott'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2006' />
+
+<abstract><t>The router survivability capability provided by the Virtual Router Redundancy Protocol for IPv4 (VRRPv4) satisfies the requirements for many LAN environments. There are, however, LAN environments that have sub-second failover requirements and thus a need for finer granularity of the VRRP timers. This draft proposes extensions to VRRPv4 [RFC 3768] for specifying sub-second Advertisement Intervals. A new message type is introduced which permits the timer granularity for the Advertisement Interval to be specified. In addition, a new field is introduced permitting the specification of the number of missed ADVERTISEMENTs before a Virtual Router Master is declared down.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-vrrp-ipv4-timers-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-vrrp-ipv4-timers-02.txt' />
+</reference>

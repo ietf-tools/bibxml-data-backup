@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jung-mipshop-secure-efficient-handover'>
+<front>
+<title>A Secure and Efficient Handover Authentication in FMIP6</title>
+
+<author initials='S' surname='Jung' fullname='Souhwan Jung'>
+    <organization />
+</author>
+
+<author initials='J' surname='Choi' fullname='Jaeduck Choi'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>This document describes a secure and efficient handover authentication (SEHA) protocol in FMIP6. The main idea is using the Diffie-Hellman (DH) algorithm to enhance security aspects, and is modifying the DH key exchange to reduce computational cost at the Mobile Node (MN) by delegating exponential operation to the Access Router (AR). The MN and NAR establish the handover key HK_NAR through the PAR instead of the AAA server at any convenient time while the MN belongs to the NAR domain. The HK_NAR is used for handover authentication when the MN moves from the NAR to the next NAR. The main advantage of this document is more secure and suitable to a light-weight mobile terminal than the existing handover authentication scheme using SEND.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jung-mipshop-secure-efficient-handover-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jung-mipshop-secure-efficient-handover-01.txt' />
+</reference>

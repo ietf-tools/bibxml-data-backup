@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dubrovsky-ospf-non-compatible'>
+<front>
+<title>Extensions to OSPF facilitating the deployment of non-backward- compatible changes.</title>
+
+<author initials='M' surname='Dubrovsky' fullname='Mike Dubrovsky'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shrivastava' fullname='Rashmi Shrivastava'>
+    <organization />
+</author>
+
+<author initials='D' surname='Cheng' fullname='Dean Cheng'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>This document specifies a generic mechanism that facilitates the deployment of non-backward-compatible changes in OSPF protocol.  This mechanism allows the OSPF routers to advertise the capability of non- backward-compatible functionality and to make the functionality operational only when supported by all participating routers. Depending on the functionality scope, capability advertisements must be propagated across a link, area or autonomous system (AS).  For link and area scope functionality, Router Information Link State Advertisement (LSA) is utilized to propagate the capability information.  For the cases when compatibility must be maintained across the whole OSPF autonomous system, new Area Information (AI) LSA is introduced.  The AI LSA is a TLV-based analog of Indication- LSA that is used for demand circuit functionality and described in RFC1793.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dubrovsky-ospf-non-compatible-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dubrovsky-ospf-non-compatible-00.txt' />
+</reference>

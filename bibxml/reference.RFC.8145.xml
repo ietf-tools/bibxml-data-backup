@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8145' target='https://www.rfc-editor.org/info/rfc8145'>
+<front>
+<title>Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC)</title>
+<author initials='D.' surname='Wessels' fullname='D. Wessels'><organization /></author>
+<author initials='W.' surname='Kumari' fullname='W. Kumari'><organization /></author>
+<author initials='P.' surname='Hoffman' fullname='P. Hoffman'><organization /></author>
+<date year='2017' month='April' />
+<abstract><t>The DNS Security Extensions (DNSSEC) were developed to provide origin authentication and integrity protection for DNS data by using digital signatures.  These digital signatures can be verified by building a chain of trust starting from a trust anchor and proceeding down to a particular node in the DNS.  This document specifies two different ways for validating resolvers to signal to a server which keys are referenced in their chain of trust.  The data from such signaling allow zone administrators to monitor the progress of rollovers in a DNSSEC-signed zone.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8145'/>
+<seriesInfo name='DOI' value='10.17487/RFC8145'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-admitted-realtime-dscp'>
+<front>
+<title>DSCPs for Capacity-Admitted Traffic</title>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<date month='March' day='28' year='2007' />
+
+<abstract><t>This document requests two DSCPs from the IANA for real-time traffic classes similar to voice and video, conforming to the Expedited Forwarding Per Hop Behavior, and admitted using a CAC procedure involving authentication, authorization, and capacity admission, as compared to a class of real-time traffic conforming to the Expedited Forwarding Per Hop Behavior but not subject to capacity admission or subject to very coarse capacity admission. One of the reasons behind this is the need for classes of traffic that are handled under special policies, such as the non-preemptive Emergency Telecommunication Service, the US DoD's Assured Service (which is similar to MLPP), or e-911. These do not need separate DSCPs or separate PHBs that separate them from each other, but they need a traffic class that separates them from the traffic not subject to admission control, from which they can deterministically obtain their service requirements, including SLA matters.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-admitted-realtime-dscp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-admitted-realtime-dscp-01.txt' />
+</reference>

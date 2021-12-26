@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-isis-mpls-elc'>
+<front>
+<title>Signaling Entropy Label Capability and Entropy Readable Label Depth Using IS-IS</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<date month='September' day='3' year='2019' />
+
+<abstract><t>Multiprotocol Label Switching (MPLS) has defined a mechanism to load- balance traffic flows using Entropy Labels (EL).  An ingress Label Switching Router (LSR) cannot insert ELs for packets going into a given Label Switched Path (LSP) unless an egress LSR has indicated via signaling that it has the capability to process ELs, referred to as Entropy Label Capability (ELC), on that tunnel.  In addition, it would be useful for ingress LSRs to know each LSR's capability for reading the maximum label stack depth and performing EL-based load- balancing, referred to as Entropy Readable Label Depth (ERLD).  This document defines a mechanism to signal these two capabilities using IS-IS.  These mechanisms are particularly useful, where label advertisements are done via protocols like IS-IS.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-isis-mpls-elc-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-isis-mpls-elc-08.txt' />
+</reference>

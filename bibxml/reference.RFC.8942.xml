@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8942' target='https://www.rfc-editor.org/info/rfc8942'>
+<front>
+<title>HTTP Client Hints</title>
+<author initials='I.' surname='Grigorik' fullname='I. Grigorik'><organization /></author>
+<author initials='Y.' surname='Weiss' fullname='Y. Weiss'><organization /></author>
+<date year='2021' month='February' />
+<abstract><t>HTTP defines proactive content negotiation to allow servers to select the appropriate response for a given request, based upon the user agent's characteristics, as expressed in request headers. In practice, user agents are often unwilling to send those request headers, because it is not clear whether they will be used, and sending them impacts both performance and privacy.</t><t>This document defines an Accept-CH response header that servers can use to advertise their use of request headers for proactive content negotiation, along with a set of guidelines for the creation of such headers, colloquially known as &quot;Client Hints.&quot;</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8942'/>
+<seriesInfo name='DOI' value='10.17487/RFC8942'/>
+</reference>

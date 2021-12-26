@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-mif-api-extension'>
+<front>
+<title>Socket API Extension for MIF Host</title>
+
+<author initials='D' surname='Liu' fullname='Dapeng Liu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Ismailov' fullname='Yuri Ismailov'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Cao' fullname='Zhen Cao'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2011' />
+
+<abstract><t>API (Application Program Interface) is an interface implemented by a software program that enables it to interact with other software.  In IP network communication area, Socket API is the de facto standard and is widely used in many systems.  Recently, multiple interfaces or multiple connection capable devices become more and more common.  But due to the limitation of the default route of the host and other issues such as DNS selection etc prevent the utilization of multiple interfaces/connections benefit.  Moreover, there is no API level support for the application developer to utilize the benefit of the host's multiple interfaces/connections.  Starting with the requirement of MIF API extension, this document describes a new set of abstraction APIs to provide additional services to applications running on hosts attached to multiple provisioning domains.  These services could assist advanced applications in having greater control over first-hop, source address and/or DNS selection issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-mif-api-extension-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-mif-api-extension-04.txt' />
+</reference>

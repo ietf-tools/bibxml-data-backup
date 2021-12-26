@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pala-eap-creds'>
+<front>
+<title>Credentials Provisioning and Management via EAP (EAP-CREDS)</title>
+
+<author initials='M' surname='Pala' fullname='Massimiliano Pala'>
+    <organization />
+</author>
+
+<date month='October' day='28' year='2019' />
+
+<abstract><t>With the increase number of devices, protocols, and applications that rely on strong credentials (e.g., digital certificates, keys, or tokens) for network access, the need for a standardized credentials provisioning and management framework is paramount.  The 802.1x architecture allows for entities (e.g., devices, applications, etc.) to authenticate to the network by providing a communication channel where different methods can be used to exchange different types of credentials.  However, the need for managing these credentials (i.e., provisioning and renewal) is still a hard problem to solve.  EAP-CREDS, if implemented in Managed Networks (e.g., Cable Modems), could enable our operators to offer a registration and credentials management service integrated in the home WiFi thus enabling visibility about registered devices.  During initialization, EAP- CREDS also allows for MUD files or URLs to be transferred between the EAP Peer and the EAP Server, thus giving detailed visibility about devices when they are provisioned with credentials for accessing the networks.  The possibility provided by EAP-CREDS can help to secure home or business networks by leveraging the synergies of the security teams from the network operators thanks to the extended knowledge of what and how is registered/authenticated.  This specifications define how to support the provisioning and management of authentication credentials that can be exploited in different environments (e.g., Wired, WiFi, cellular, etc.) to users and/or devices by using EAP together with standard provisioning protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pala-eap-creds-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pala-eap-creds-05.txt' />
+</reference>

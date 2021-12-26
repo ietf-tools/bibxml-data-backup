@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc3465.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc3465.txt</link>
+        <title>RFC 3465: TCP Congestion Control with Appropriate Byte Counting (ABC), M. Allman</title>
+        <dc:date>2003-02-01T23:00:00-00:00</dc:date>
+        <description>This document proposes a small modification to the way TCP increases its congestion window.  Rather than the traditional method of increasing the congestion window by a constant amount for each arriving acknowledgment, the document suggests basing the increase on the number of previously unacknowledged bytes each ACK covers.  This change improves the performance of TCP, as well as closes a security hole TCP receivers can use to induce the sender into increasing the sending rate too rapidly. This memo defines an Experimental Protocol for the Internet community. </description>
+    </item>
+

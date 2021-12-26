@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4920' target='https://www.rfc-editor.org/info/rfc4920'>
+<front>
+<title>Crankback Signaling Extensions for MPLS and GMPLS RSVP-TE</title>
+<author initials='A.' surname='Farrel' fullname='A. Farrel' role='editor'><organization /></author>
+<author initials='A.' surname='Satyanarayana' fullname='A. Satyanarayana'><organization /></author>
+<author initials='A.' surname='Iwata' fullname='A. Iwata'><organization /></author>
+<author initials='N.' surname='Fujita' fullname='N. Fujita'><organization /></author>
+<author initials='G.' surname='Ash' fullname='G. Ash'><organization /></author>
+<date year='2007' month='July' />
+<abstract><t>In a distributed, constraint-based routing environment, the information used to compute a path may be out of date.  This means that Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) Traffic Engineered (TE) Label Switched Path (LSP) setup requests may be blocked by links or nodes without sufficient resources.  Crankback is a scheme whereby setup failure information is returned from the point of failure to allow new setup attempts to be made avoiding the blocked resources.  Crankback can also be applied to LSP recovery to indicate the location of the failed link or node.</t><t>This document specifies crankback signaling extensions for use in MPLS signaling using RSVP-TE as defined in &quot;RSVP-TE: Extensions to RSVP for LSP Tunnels&quot;, RFC 3209, and GMPLS signaling as defined in &quot;Generalized Multi-Protocol Label Switching (GMPLS) Signaling Functional Description&quot;, RFC 3473.  These extensions mean that the LSP setup request can be retried on an alternate path that detours around blocked links or nodes.  This offers significant improvements in the successful setup and recovery ratios for LSPs, especially in situations where a large number of setup requests are triggered at the same time.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4920'/>
+<seriesInfo name='DOI' value='10.17487/RFC4920'/>
+</reference>

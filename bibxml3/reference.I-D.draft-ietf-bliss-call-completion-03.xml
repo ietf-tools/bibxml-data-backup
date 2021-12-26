@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bliss-call-completion'>
+<front>
+<title>Call Completion for Session Initiation Protocol (SIP)</title>
+
+<author initials='D' surname='Worley' fullname='Dale Worley'>
+    <organization />
+</author>
+
+<author initials='M' surname='Huelsemann' fullname='Martin  Huelsemann'>
+    <organization />
+</author>
+
+<author initials='R' surname='Jesske' fullname='Roland Jesske'>
+    <organization />
+</author>
+
+<date month='December' day='8' year='2008' />
+
+<abstract><t>The features "call completion on busy subscriber" and "call completion on no reply" allow the calling party of a failed call to be notified when the called party becomes available to receive a call.  This document describes an architecture for implementing these features in the Session Initiation Protocol: "Call completion" implementations at the caller's and callee's endpoints cooperate to place the caller's request for call completion into a queue at the callee's endpoint, and, when a caller's request is ready to be serviced, re-attempt the original, failed call.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bliss-call-completion-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bliss-call-completion-03.txt' />
+</reference>

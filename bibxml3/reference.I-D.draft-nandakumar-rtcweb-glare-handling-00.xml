@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nandakumar-rtcweb-glare-handling'>
+<front>
+<title>Glareless addition of media to existing RTCWeb Sessions</title>
+
+<author initials='S' surname='Nandakumar' fullname='Suhas Nandakumar'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jennings' fullname='Cullen Jennings'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>The RFC3264 Offer/Answer model specifies rule for the bilateral exchange of Session Description Protocol (SDP) [RFC4566] messages for setting up, updating and tearing down of multimedia streams.  Rarely, there might be situations wherein either of the communicating parties, might end up being the offerer for updating an on-going session.  This scenario is commonly known as "glare" condition and it needs to be handled nevertheless.  This specification describes procedures for parties involved in an ongoing RTCWeb session to add new media in a glareless fashion.  There are various ways this problem might be solved - this draft sketches out one possible solution to the problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nandakumar-rtcweb-glare-handling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nandakumar-rtcweb-glare-handling-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-nandakumar-rtcweb-glare-handling-00.pdf' />
+</reference>

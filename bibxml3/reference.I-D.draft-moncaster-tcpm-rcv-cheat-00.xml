@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.moncaster-tcpm-rcv-cheat'>
+<front>
+<title>A TCP Test to Allow Senders to Identify Receiver Cheating</title>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<date month='February' day='21' year='2007' />
+
+<abstract><t>The honesty of TCP senders and receivers has become a major concern to the Internet community. Currently, TCP senders rely on receiver honesty so they can correctly react to network congestion. Such honesty cannot be taken for granted. Receivers may conceal dropped packets to prevent their flow being subject to a congestion response or may acknowledge data optimistically to get a higher bandwidth. This document introduces a simple two-stage test of receiver honesty. Once a receiver fails the first stage it can be subjected to the second stage test that conclusively proves cheating. The performance hit of the first stage is very slight compared to the second. So, although the first stage is not decisive, it selects which receivers are acting suspiciously enough to warrant the second stage. This specification does not modify the TCP protocol - the tests only require a change to sender implementations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-moncaster-tcpm-rcv-cheat-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-moncaster-tcpm-rcv-cheat-00.txt' />
+</reference>

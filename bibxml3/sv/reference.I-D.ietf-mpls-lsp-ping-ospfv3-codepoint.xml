@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-lsp-ping-ospfv3-codepoint'>
+<front>
+<title>OSPFv3 CodePoint for MPLS LSP Ping</title>
+<author initials='N' surname='Nainar' fullname='Nagendra Nainar'>
+<organization />
+</author>
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+<organization />
+</author>
+<author initials='M' surname='Aissaoui' fullname='Mustapha Aissaoui'>
+<organization />
+</author>
+<date year='2021' month='November' day='18' />
+<abstract><t>IANA has created &quot;Protocol in the Segment ID Sub-TLV&quot; and &quot;Protocol in the Label Stack Sub-TLV of the Downstream Detailed Mapping TLV&quot; registries under the &quot;Multi-Protocol Label Switching (MPLS) Label Switched Paths (LSPs) Ping Parameters&quot; registry.  RFC8287 defines the code points for Open Shortest Path First (OSPF) and Intermediate System to Intermediate System (IS-IS) protocols.</t><t> This document specifies the code point to be used in the Segment ID sub-TLV and Downstream Detailed Mapping TLV when the Interior Gateway Protocol (IGP) is OSPFv3.  This document also updates RFC8287 by clarifying that the existing &quot;OSPF&quot; code point is to be used only to indicate OSPFv2, and by defining the behavior when the Segment ID sub-TLV indicates the use of IPv6.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-lsp-ping-ospfv3-codepoint-06'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-mpls-lsp-ping-ospfv3-codepoint-06.txt'/>
+</reference>

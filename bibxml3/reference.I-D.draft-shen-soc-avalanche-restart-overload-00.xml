@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shen-soc-avalanche-restart-overload'>
+<front>
+<title>A Mechanism for Session Initiation Protocol (SIP) Avalanche Restart Overload Control</title>
+
+<author initials='C' surname='Shen' fullname='Charles Shen'>
+    <organization />
+</author>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<author initials='A' surname='Koike' fullname='Arata Koike'>
+    <organization />
+</author>
+
+<date month='June' day='3' year='2010' />
+
+<abstract><t>When a large number of clients register with a SIP registrar server at approximately the same time, the server may become overloaded. Near-simultaneous floods of SIP SUBSCRIBE and PUBLISH requests may have similar effects.  Such request avalanches can occur, for example, after a power failure and recovery in a metropolitan area. This document describes how to avoid such overload situations.  Under this mechanism, a server estimates an avalanche restart backoff interval during its normal operation and conveys this interval to its clients through a new Restart-Timer header in normal response messages.  Once an avalanche restart actually occurs, the clients perform backoff based on the previously received Restart-Timer header value before sending out the first request attempt.  Thus, the mechanism spreads all the initial client requests and prevents them from overloading the server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shen-soc-avalanche-restart-overload-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shen-soc-avalanche-restart-overload-00.txt' />
+</reference>

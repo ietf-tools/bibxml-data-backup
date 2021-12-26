@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-bier-mld-lan-election'>
+<front>
+<title>Generic Multicast Router Election on LAN's</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='P' surname='Pfister' fullname='Pierre Pfister'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2015' />
+
+<abstract><t>When a host is connected to multiple multicast capable routers, each of these routers is a candidate to process the multicast flow for that LAN, but only one router should be elected to process it.  This document proposes a generic multicast router election mechanism using Internet Group Management Protocol (IGMP) and Multicast Listener Discovery (MLD) that can be used by any Multicast Overlay Signalling Protocol (MOSP).  Having such generic election mechanism removes a dependency on Protocol Independent Multicast (PIM).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-bier-mld-lan-election-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-bier-mld-lan-election-00.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-zhang-trill-resilient-trees-04.txt'>
+    <title>"TRILL Resilient Distribution Trees", Mingui Zhang, Tissa Senevirathne, Janardhanan Pathangi, Ayan Banerjee, Anoop Ghanwani, Donald Eastlake</title>
+    <link>http://www.ietf.org/internet-drafts/draft-zhang-trill-resilient-trees-04.txt</link>
+    <description>TRILL protocol provides layer 2 multicast data forwarding using IS-IS link state routing. Distribution trees are computed based on the link state information through Shortest Path First calculation. When a link on the distribution tree fails, a campus-wide recovergence of this distribution tree will take place, which can be time consuming and may cause considerable disruption to the ongoing multicast service.  This document proposes to build the backup distribution tree to protect links on the primary distribution tree. Since the backup distribution tree is built up ahead of the link failure, when a link on the primary distribution tree fails, the pre-installed backup forwarding table will be utilized to deliver multicast packets without waiting for the campus-wide recovergence, which minimizes the service disruption.</description>
+    <dc:date>2013-10-19T22:00:00-00:00</dc:date>
+</item>

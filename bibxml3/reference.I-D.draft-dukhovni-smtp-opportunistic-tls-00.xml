@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dukhovni-smtp-opportunistic-tls'>
+<front>
+<title>SMTP security via opportunistic DANE TLS</title>
+
+<author initials='V' surname='Dukhovni' fullname='Viktor Dukhovni'>
+    <organization />
+</author>
+
+<date month='May' day='18' year='2013' />
+
+<abstract><t>This memo describes an experimental protocol for opportunistic TLS security based on the DANE TLSA PKI.  The design goal is an incremental transition of the Internet email backbone (MTA to MTA SMTP traffic) from today's unauthenticated and typically unencrypted connections to TLS encrypted and authenticated delivery when the client is DANE TLSA aware and the server domain publishes DANE TLSA records for its MX hosts.  This protocol has been implemented by author in the Postfix MTA.  It is hoped that other MTA implementations will find this protocol well suited to their needs and will adopt interoperable implementations.  This protocol may be suited to other use-cases for opportunistic TLS beyond SMTP, but such use-cases are not covered here, and will need to be defined in separate specifications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dukhovni-smtp-opportunistic-tls-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dukhovni-smtp-opportunistic-tls-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-gmpls-lsp-reroute'>
+<front>
+<title>PathErr Message Triggered MPLS and GMPLS LSP Reroute</title>
+
+<author initials='L' surname='Berger' fullname='Lou Berger'>
+    <organization />
+</author>
+
+<author initials='D' surname='Papadimitriou' fullname='Dimitri Papadimitriou'>
+    <organization />
+</author>
+
+<author initials='J' surname='Vasseur' fullname='JP Vasseur'>
+    <organization />
+</author>
+
+<date month='September' day='24' year='2009' />
+
+<abstract><t>This document describes how Resource ReserVation Protocol (RSVP) PathErr Messages may be used to trigger rerouting of Multi-Protocol Label Switching (MPLS) and Generalized MPLS (GMPLS) point-to-point Traffic Engineering (TE) Label Switched Paths (LSPs) without first removing LSP state or resources.  Such LSP rerouting may be desirable in a number of cases including, for example, soft-preemption and graceful shutdown.  This document describes the usage of existing Standards Track mechanisms to support LSP rerouting. In this case, it relies on mechanisms already defined as part of RSVP-TE and simply describes a sequence of actions to be executed. While existing protocol definition can be used to support reroute applications, this document also defines a new reroute-specific error code to allow for the future definition of reroute application-specific error values.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-gmpls-lsp-reroute-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-gmpls-lsp-reroute-06.txt' />
+</reference>

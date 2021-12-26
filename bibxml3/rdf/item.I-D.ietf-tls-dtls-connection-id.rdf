@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-tls-dtls-connection-id-13.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-tls-dtls-connection-id-13.txt</link>
+        <title>"Connection Identifiers for DTLS 1.2", Eric Rescorla, Hannes Tschofenig, Thomas Fossati, Achim Kraus</title>
+        <dc:date>2021-06-22T23:00:00-00:00</dc:date>
+        <description>This document specifies the Connection ID (CID) construct for the Datagram Transport Layer Security (DTLS) protocol version 1.2.  A CID is an identifier carried in the record layer header that gives the recipient additional information for selecting the appropriate security association.  In "classical" DTLS, selecting a security association of an incoming DTLS record is accomplished with the help of the 5-tuple.  If the source IP address and/or source port changes during the lifetime of an ongoing DTLS session then the receiver will be unable to locate the correct security context.  The new ciphertext record format with CID also provides content type encryption and record-layer padding.</description>
+    </item>

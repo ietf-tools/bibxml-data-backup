@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.menth-pcn-emft'>
+<front>
+<title>Edge-Assisted Marked Flow Termination</title>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='F' surname='Lehrieder' fullname='Frank Lehrieder'>
+    <organization />
+</author>
+
+<author initials='P' surname='Eardley' fullname='Philip Eardley'>
+    <organization />
+</author>
+
+<author initials='A' surname='Charny' fullname='Anna Charny'>
+    <organization />
+</author>
+
+<author initials='J' surname='Babiarz' fullname='Jozef Babiarz'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2008' />
+
+<abstract><t>This document presents edge-assisted marked flow termination (EMFT) for PCN.  It assumes packet-size independent excess marking, i.e. packets exceeding the supportable rate (SR) of a link are marked as "excess-traffic" (ET).  EMFT terminates only flows with at least one ET-marked packet.  The problem is to avoid that all flows with ET- marked packets are terminated.  This draft proposes two solutions. Flow-based EMFT (F-EMFT) considers single flows separately and terminates them when sufficiently many packets of them have been received by the PCN egress node with an ET-mark.  Aggregate-based EMFT (A-EMFT) considers ingress-egress-aggregates and terminates flows thereof sufficiently many ET-marked packets have been received for that aggregate.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-menth-pcn-emft-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-menth-pcn-emft-00.txt' />
+</reference>

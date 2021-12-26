@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.abarth-mime-sniff'>
+<front>
+<title>Content-Type Processing Model</title>
+
+<author initials='A' surname='Barth' fullname='Adam Barth'>
+    <organization />
+</author>
+
+<author initials='I' surname='Hickson' fullname='Ian Hickson'>
+    <organization />
+</author>
+
+<date month='September' day='29' year='2009' />
+
+<abstract><t>Many web servers supply incorrect Content-Type headers with their HTTP responses.  In order to be compatible with these servers, user agents consider the content of HTTP responses as well as the Content- Type header when determining the effective media type of the response.  This document describes an algorithm for determining the effective media type of HTTP responses that balances security and compatibility considerations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-abarth-mime-sniff-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-abarth-mime-sniff-03.txt' />
+</reference>

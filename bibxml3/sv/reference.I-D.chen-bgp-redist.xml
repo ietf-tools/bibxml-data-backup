@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-bgp-redist'>
+<front>
+<title>Deterministic Route Redistribution into BGP</title>
+<author initials='E' surname='Chen' fullname='Enke Chen'>
+<organization />
+</author>
+<author initials='J' surname='Yuan' fullname='Jenny Yuan'>
+<organization />
+</author>
+<date year='2021' month='August' day='12' />
+<abstract><t>In this document we present several examples of non-deterministic routing behavior involving route redistribution into BGP.  In order to eliminate such non-deterministic behavior, we propose an enhancement to BGP route selection that would take into account the administrative distance under certain conditions.  We also recommend that the LOCAL_PREF value be reduced for the redistributed backup route, and be calculated automatically based on the administrative distance.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-chen-bgp-redist-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-chen-bgp-redist-03.txt'/>
+</reference>

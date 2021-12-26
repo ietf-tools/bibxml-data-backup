@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.koodli-fmipv4'>
+<front>
+<title>Adapting Mobile IPv6 Fast Handovers for IPv4</title>
+
+<author initials='R' surname='Koodli' fullname='Rajeev Koodli'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Charles  Perkins'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2004' />
+
+<abstract><t>The Mobile IPv6 fast handover document [2] specifies a protocol to improve latency and packet loss resulting from Mobile IPv6 handover operations. This document adapts the protocol for IPv4 networks to improve performance over Mobile IPv4 operations, including processing of Agent Advertisements, new Care of Address acquisition and Registration Request and Reply. However, Foreign Agent operation at a router is not necessary. Also, the protocol may be used transparently on hosts which do not support Mobile IP, but with limited movement across subnets. Using the concepts outlined in [2], this document also addresses movement detection, IP address configuration and location update latencies. For reducing the IP address configuration, the draft provides two alternatives. First, the new CoA is always made to be the new access router's IP address. Second, a hash algorithm is used to produce a new CoA, and any conflicts are resolved so as not to cause traffic misdirection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-koodli-fmipv4-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-koodli-fmipv4-00.txt' />
+</reference>

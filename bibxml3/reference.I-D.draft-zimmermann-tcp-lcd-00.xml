@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zimmermann-tcp-lcd'>
+<front>
+<title>Make TCP more Robust to Long Connectivity Disruptions</title>
+
+<author initials='A' surname='Zimmermann' fullname='Alexander  Zimmermann'>
+    <organization />
+</author>
+
+<author initials='A' surname='Hannemann' fullname='Arnd Hannemann'>
+    <organization />
+</author>
+
+<date month='January' day='28' year='2009' />
+
+<abstract><t>TCP was designed with fixed, wired networks in mind.  As a result TCP performs suboptimal in networks where connectivity disruptions are frequent, e.g., in wireless (multi-hop) networks.  One reason for the performance degradation is TCP's over-conservative behavior in face of long connectivity disruptions.  This document describes how connectivity disruption indications provided by standard ICMP messages may be exploited to improve TCP's performance.  An RTO revert strategy is proposed that enables earlier detection of whether connectivity to a previously disconnected peer node has been restored or not.  The scheme is a sender only modification which fully respects the TCP congestion control principles.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zimmermann-tcp-lcd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zimmermann-tcp-lcd-00.txt' />
+</reference>

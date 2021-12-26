@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.elkins-v6ops-ipv6-ipid-needed'>
+<front>
+<title>IPv6 IPID Needed</title>
+
+<author initials='N' surname='Elkins' fullname='Nalini Elkins'>
+    <organization />
+</author>
+
+<author initials='L' surname='Kratzke' fullname='Lawrence Kratzke'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ackermann' fullname='Michael Ackermann'>
+    <organization />
+</author>
+
+<author initials='K' surname='Haining' fullname='Keven Haining'>
+    <organization />
+</author>
+
+<date month='April' day='14' year='2013' />
+
+<abstract><t>The IPv4 main header contained a 16-bit IP Identification (IPID) field used for fragmentation and reassembly.  In practice, this field was commonly used by network diagnosticians for tracking packets. In IPv6, the IPID has been moved to the Fragment header, and would only be used when fragmentation is required.  Thus, the IPID field in IPv6, is no longer able to be utilized in the valuable role it played in IPv4, relative to diagnostics and problem resolution.  This causes great concern in particular for end users and large enterprises, for whom Network/Application availability and performance can directly and profoundly affect bottom line financials. Several viable solutions to this situation exist.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-elkins-v6ops-ipv6-ipid-needed-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-elkins-v6ops-ipv6-ipid-needed-01.txt' />
+</reference>

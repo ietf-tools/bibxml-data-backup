@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-grow-bgp-session-culling'>
+<front>
+<title>Mitigating Negative Impact of Maintenance through BGP Session Culling</title>
+
+<author initials='W' surname='Hargrave' fullname='Will Hargrave'>
+    <organization />
+</author>
+
+<author initials='M' surname='Griswold' fullname='Matt Griswold'>
+    <organization />
+</author>
+
+<author initials='J' surname='Snijders' fullname='Job Snijders'>
+    <organization />
+</author>
+
+<author initials='N' surname='Hilliard' fullname='Nick Hilliard'>
+    <organization />
+</author>
+
+<date month='September' day='11' year='2017' />
+
+<abstract><t>This document outlines an approach to mitigate negative impact on networks resulting from maintenance activities.  It includes guidance for both IP networks and Internet Exchange Points (IXPs).  The approach is to ensure BGP-4 sessions affected by the maintenance are forcefully torn down before the actual maintenance activities commence.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-grow-bgp-session-culling-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-grow-bgp-session-culling-04.txt' />
+</reference>

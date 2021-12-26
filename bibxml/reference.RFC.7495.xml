@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7495' target='https://www.rfc-editor.org/info/rfc7495'>
+<front>
+<title>Enumeration Reference Format for the Incident Object Description Exchange Format (IODEF)</title>
+<author initials='A.' surname='Montville' fullname='A. Montville'><organization /></author>
+<author initials='D.' surname='Black' fullname='D. Black'><organization /></author>
+<date year='2015' month='March' />
+<abstract><t>The Incident Object Description Exchange Format (IODEF) is an XML data representation framework for sharing information about computer security incidents.  In IODEF, the Reference class provides references to externally specified information such as a vulnerability, Intrusion Detection System (IDS) alert, malware sample, advisory, or attack technique.  In practice, these references are based on external enumeration specifications that define both the enumeration format and the specific enumeration values, but the IODEF Reference class (as specified in IODEF v1 in RFC 5070) does not indicate how to include both of these important pieces of information.</t><t>This document establishes a stand-alone data format to include both the external specification and specific enumeration identification value, and establishes an IANA registry to manage external enumeration specifications. While this document does not update IODEF v1, this enumeration reference format is used in IODEF v2 and is applicable to other formats that support this class of enumeration references.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7495'/>
+<seriesInfo name='DOI' value='10.17487/RFC7495'/>
+</reference>

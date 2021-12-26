@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sporny-http-proofs'>
+<front>
+<title>Proof-based Authentication for HTTP Messages</title>
+
+<author initials='M' surname='Sporny' fullname='Manu Sporny'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2015' />
+
+<abstract><t>For a client to access a particular resource on the Web, a server must expend a certain amount of computational effort to respond to the request.  In some cases this computational effort is sizeable and the server may want to only respond to certain clients.  For example, in a distributed denial-of-service attack, a server may require all clients to expend a certain amount of resources via a client-run proof-of-work algorithm to throttle the number of incoming requests to a more manageable number.  This document details a new authentication scheme for HTTP that may be used to request and transmit proofs in HTTP headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sporny-http-proofs-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sporny-http-proofs-01.txt' />
+</reference>

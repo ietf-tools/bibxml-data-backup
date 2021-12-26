@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.secure-cookie-session-protocol'>
+<front>
+<title>SCS: Secure Cookie Sessions for HTTP</title>
+
+<author initials='S' surname='Barbato' fullname='Stefano Barbato'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dorigotti' fullname='Steven Dorigotti'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<date month='February' day='21' year='2011' />
+
+<abstract><t>This document provides an overview of SCS, a cryptographic protocol layered on top of the HTTP cookie facility, that allows an origin server to handle session state without storing it locally.  Its typical use cases include devices with little or no storage offering some functionality via an HTTP interface, and web applications with High Availability or load balancing requirements which may want to handle application state without the need to synchronize the pool through shared storage or peering.  Nevertheless, its security properties allow it to be used whenever privacy and integrity of cookies is a concern, at the cost of increased server CPU and bandwidth usage, and of some "credential- ownership" implications which will be thoroughly analysed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-secure-cookie-session-protocol-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-secure-cookie-session-protocol-00.txt' />
+</reference>

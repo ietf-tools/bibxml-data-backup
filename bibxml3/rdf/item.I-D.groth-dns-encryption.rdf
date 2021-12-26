@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-groth-dns-encryption-02.pdf'>
+    <title>"DNS Encryption", Duane Groth</title>
+    <link>http://www.ietf.org/internet-drafts/draft-groth-dns-encryption-02.pdf</link>
+    <description>This document requests IANA registration of a new DNS OpCode and ErrorCode type in facilitating encryption of DNS requests and replies and feed back to the client if plain text requests are not acceptable. Once this OpCode is seen the DNS server attempts to decrypt the request using its private OpenPGP key. Inside the encrypted packet is the AES key which the client expects to be used when the server encrypts a response. A server may advertise that it is capable of DNS encryption by returning OpenPGP fingerprints in TXT records using a similar format to Public Key Association (PKA). The full pubic keys are returned from DNS servers by using a CERT request against the host name(s) of the domain's NS records or via OpenPGP key servers.</description>
+    <dc:date>2008-07-13T22:00:00-00:00</dc:date>
+</item>

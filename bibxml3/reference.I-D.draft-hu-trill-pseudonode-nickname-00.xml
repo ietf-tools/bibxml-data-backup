@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hu-trill-pseudonode-nickname'>
+<front>
+<title>RBridge: Pseudonode Nickname</title>
+
+<author initials='H' surname='Zhai' fullname='Hongjun Zhai'>
+    <organization />
+</author>
+
+<author initials='f' surname='hu' fullname='fangwei hu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='H' surname='technology' fullname='Huawei technology'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2011' />
+
+<abstract><t>The Appointed Forwarder on a link for VLAN-x is the RBridge that ingresses native frames from the link and egresses native frames to the link in VLAN-x.  If the appointed forwarder for an end station is changed, the remote data traffic to the end station could fail.  This document is proposed to assign a nickname for pseudonode identifying a multi-access link to solve the issue.  When any appointed forwarder encapsulates a packet, it uses the pseudonode nickname as "ingress nickname" rather than its own nickname.  If it does, then if the appointed forwarder changes, or the DRB changes, and the pseudonode still uses the same nickname, then the remote RBridge caches won't need to change, and the data traffic to the end station would reach the link uninterruptedly.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hu-trill-pseudonode-nickname-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hu-trill-pseudonode-nickname-00.txt' />
+</reference>

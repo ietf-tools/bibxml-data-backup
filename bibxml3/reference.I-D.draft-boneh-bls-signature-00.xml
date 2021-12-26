@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boneh-bls-signature'>
+<front>
+<title>BLS Signature Scheme</title>
+
+<author initials='D' surname='Boneh' fullname='Dan Boneh'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gorbunov' fullname='Sergey Gorbunov'>
+    <organization />
+</author>
+
+<author initials='H' surname='Wee' fullname='Hoeteck Wee'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Zhang' fullname='Zhenfei Zhang'>
+    <organization />
+</author>
+
+<date month='February' day='8' year='2019' />
+
+<abstract><t>The BLS signature scheme was introduced by Boneh-Lynn-Shacham in 2001.  The signature scheme relies on pairing-friendly curves and supports non-interactive aggregation properties.  That is, given a collection of signatures (sigma_1, ..., sigma_n), anyone can produce a short signature (sigma) that authenticates the entire collection. BLS signature scheme is simple, efficient and can be used in a variety of network protocols and systems to compress signatures or certificate chains.  This document specifies the BLS signature and the aggregation algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boneh-bls-signature-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boneh-bls-signature-00.txt' />
+</reference>

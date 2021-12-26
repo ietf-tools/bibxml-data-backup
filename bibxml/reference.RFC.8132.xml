@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8132' target='https://www.rfc-editor.org/info/rfc8132'>
+<front>
+<title>PATCH and FETCH Methods for the Constrained Application Protocol (CoAP)</title>
+<author initials='P.' surname='van der Stok' fullname='P. van der Stok'><organization /></author>
+<author initials='C.' surname='Bormann' fullname='C. Bormann'><organization /></author>
+<author initials='A.' surname='Sehgal' fullname='A. Sehgal'><organization /></author>
+<date year='2017' month='April' />
+<abstract><t>The methods defined in RFC 7252 for the Constrained Application Protocol (CoAP) only allow access to a complete resource, not to parts of a resource.  In case of resources with larger or complex data, or in situations where resource continuity is required, replacing or requesting the whole resource is undesirable.  Several applications using CoAP need to access parts of the resources.</t><t>This specification defines the new CoAP methods, FETCH, PATCH, and iPATCH, which are used to access and update parts of a resource.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8132'/>
+<seriesInfo name='DOI' value='10.17487/RFC8132'/>
+</reference>

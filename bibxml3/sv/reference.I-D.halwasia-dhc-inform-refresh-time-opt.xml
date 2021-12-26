@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.halwasia-dhc-inform-refresh-time-opt'>
+<front>
+<title>DHCPv4 INFORM Refresh Time Option</title>
+
+<author initials='C' surname='Systems' fullname='Cisco Systems'>
+    <organization />
+</author>
+
+<author initials='G' surname='Halwasia' fullname='Gaurav Halwasia'>
+    <organization />
+</author>
+
+<author initials='B' surname='Volz' fullname='Bernie Volz'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2012' />
+
+<abstract><t>This document describes a Dynamic Host Configuration Protocol for IPv4 (DHCPv4) [RFC2131] option for specifying an upper bound for how long a client should wait before refreshing information retrieved from DHCPv4 Server by using DHCP INFORM message.  It is used with stateless DHCPv4 as there are no addresses or other entities with lifetimes that can tell the client when to contact the DHCPv4 server to refresh its configuration.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-halwasia-dhc-inform-refresh-time-opt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-halwasia-dhc-inform-refresh-time-opt-00.txt' />
+</reference>

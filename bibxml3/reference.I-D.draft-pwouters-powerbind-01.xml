@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pwouters-powerbind'>
+<front>
+<title>The Delegation_Only DNSKEY flag</title>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<author initials='L' surname='Xia' fullname='Liang Xia'>
+    <organization />
+</author>
+
+<author initials='W' surname='Hardaker' fullname='Wes Hardaker'>
+    <organization />
+</author>
+
+<date month='June' day='29' year='2018' />
+
+<abstract><t>This document introduces a new DNSKEY flag called DELEGATION_ONLY that indicates that the particular zone will never sign zone data across a label.  That is, every label (dot) underneath is considered a zone cut and must have its own (signed) delegation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pwouters-powerbind-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pwouters-powerbind-01.txt' />
+</reference>

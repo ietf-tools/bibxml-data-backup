@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.minaburo-hc-tunneling'>
+<front>
+<title>IP Tunneling Header Compression</title>
+
+<author initials='A' surname='Minaburo' fullname='Ana Minaburo'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2006' />
+
+<abstract><t>The IP tunneling mechanisms are widely used in mobility (NEMO and Mobile IP), security (VPN) and IP transition. They use an IP encapsualation (at least 2 IP headers), which is very expensive for wireliss links. Header compression mechanisms can be used to reduce this overhead, independent of the payload type. This document defines the use of normal header compression mechanisms for the tunneled (inner) header together with a new header compression mechanism for the tunneling (outer) transport header to reduce the header size.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-minaburo-hc-tunneling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-minaburo-hc-tunneling-00.txt' />
+</reference>

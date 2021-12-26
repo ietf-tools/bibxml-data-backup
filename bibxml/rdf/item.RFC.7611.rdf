@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc7611.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc7611.txt</link>
+        <title>RFC 7611: BGP ACCEPT_OWN Community Attribute, J. Uttaro, P. Mohapatra, D. Smith, R. Raszuk, J. Scudder</title>
+        <dc:date>2015-08-01T23:00:00-00:00</dc:date>
+        <description>Under certain conditions, it is desirable for a Border Gateway Protocol (BGP) route reflector to be able to modify the Route Target (RT) list of a Virtual Private Network (VPN) route that the route reflector distributes, enabling the route reflector to control how a route originated within one VPN Routing and Forwarding table (VRF) is imported into other VRFs.  This technique works effectively as long as the VRF that exports the route is not on the same Provider Edge (PE) router as the VRF(s) that imports the route.  However, due to the constraints of BGP, it does not work if the two are on the same PE.  This document describes a modification to BGP allowing this technique to work when the VRFs are on the same PE and to be used in a standard manner throughout an autonomous system. </description>
+    </item>
+

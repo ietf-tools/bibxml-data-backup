@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-egress-protection-framework'>
+<front>
+<title>MPLS Egress Protection Framework</title>
+
+<author initials='Y' surname='Shen' fullname='Yimin Shen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jeganathan' fullname='Jeyananth Jeganathan'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='C' surname='Michel' fullname='Carsten Michel'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2019' />
+
+<abstract><t>This document specifies a fast reroute framework for protecting IP/ MPLS services and MPLS transport tunnels against egress node and egress link failures.  For each type of egress failure, it defines the roles of point of local repair (PLR), protector, and backup egress router, and the procedures of establishing a bypass tunnel from a PLR to a protector.  It describes the behaviors of these routers in handling an egress failure, including local repair on the PLR, and context-based forwarding on the protector.  The framework can be used to develop egress protection mechanisms to reduce traffic loss before global repair reacts to an egress failure and control plane protocols converge on the topology changes due to the egress failure.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-egress-protection-framework-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-egress-protection-framework-07.txt' />
+</reference>

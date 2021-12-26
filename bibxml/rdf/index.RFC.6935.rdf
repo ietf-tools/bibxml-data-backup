@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc6935.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc6935.txt</link>
+        <title>RFC 6935: IPv6 and UDP Checksums for Tunneled Packets, M. Eubanks, P. Chimento, M. Westerlund</title>
+        <dc:date>2013-04-01T23:00:00-00:00</dc:date>
+        <description>This document updates the IPv6 specification (RFC 2460) to improve performance when a tunnel protocol uses UDP with IPv6 to tunnel packets.  The performance improvement is obtained by relaxing the IPv6 UDP checksum requirement for tunnel protocols whose header information is protected on the "inner" packet being carried. Relaxing this requirement removes the overhead associated with the computation of UDP checksums on IPv6 packets that carry the tunnel protocol packets.  This specification describes how the IPv6 UDP checksum requirement can be relaxed when the encapsulated packet itself contains a checksum.  It also describes the limitations and risks of this approach and discusses the restrictions on the use of this method. </description>
+    </item>
+

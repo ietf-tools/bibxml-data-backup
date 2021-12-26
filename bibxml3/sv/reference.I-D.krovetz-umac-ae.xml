@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.krovetz-umac-ae'>
+<front>
+<title>The UMAC-AE Authenticated-Encryption Algorithm</title>
+
+<author initials='T' surname='Krovetz' fullname='Ted Krovetz'>
+    <organization />
+</author>
+
+<date month='June' day='3' year='2005' />
+
+<abstract><t>This document specifies UMAC-AE, a shared-key algorithm that simultaneously encrypts data using a block cipher in counter mode while also authenticating the data with UMAC. At its peak rate, using AES as the block cipher, UMAC-AE encrypts and authenticates data at a cost of about 10% more than simple encryption. UMAC is unencumbered by intellectual property claims and can be used freely. Pairing UMAC with a license-free block cipher, such as AES, provides fast and license-free authenticated encryption.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-krovetz-umac-ae-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-krovetz-umac-ae-00.txt' />
+</reference>

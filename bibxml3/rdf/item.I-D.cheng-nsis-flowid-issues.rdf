@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-cheng-nsis-flowid-issues-02.txt'>
+    <title>"NSIS Flow ID and packet classification issues", Hong Cheng</title>
+    <link>http://www.ietf.org/internet-drafts/draft-cheng-nsis-flowid-issues-02.txt</link>
+    <description>In current NSIS signaling, there are two main functions depending on Flow ID, i.e. signaling message routing, data packet classification. Specifically, the same information carried by the MRI is also used to derive the packet classification at NSLP layer. This arrangement assumes that identical information is required by the two functions at two different layers, and thus has limitations. With the introduction of NSIS applications in more complicated scenarios, such assumption can no longer hold. Therefore, keeping the dependency between the two functions hinders the development of NSIS. Efforts have been made in different NSLP layer applications to extend the relationship, e.g. QoS NSLP. This draft studied the possibility of disjoining the information for the two functions. Problems faced by the current system and different remedy options are discussed. With these details, it is intended to help the reader to evaluate the feasibility of redefining the packet classification information signaling in NSIS.</description>
+    <dc:date>2005-10-26T07:00:00-00:00</dc:date>
+</item>

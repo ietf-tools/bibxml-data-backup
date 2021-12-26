@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.briscoe-tsvwg-re-ecn-tcp'>
+<front>
+<title>Re-ECN: Adding Accountability for Causing Congestion to TCP/IP</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob  Briscoe'>
+    <organization />
+</author>
+
+<author initials='A' surname='Jacquet' fullname='Arnaud Jacquet'>
+    <organization />
+</author>
+
+<author initials='T' surname='Moncaster' fullname='T Moncaster'>
+    <organization />
+</author>
+
+<author initials='A' surname='Smith' fullname='Alan Smith'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2008' />
+
+<abstract><t>This document introduces a new protocol for explicit congestion notification (ECN), termed re-ECN, which can be deployed incrementally around unmodified routers.  The protocol arranges an extended ECN field in each packet so that, as it crosses any interface in an internetwork, it will carry a truthful prediction of congestion on the remainder of its path.  Then the upstream party at any trust boundary in the internetwork can be held responsible for the congestion they cause, or allow to be caused.  So, networks can introduce straightforward accountability and policing mechanisms for incoming traffic from end-customers or from neighbouring network domains.  The purpose of this document is to specify the re-ECN protocol at the IP layer and to give guidelines on any consequent changes required to transport protocols.  It includes the changes required to TCP both as an example and as a specification.  It also gives examples of mechanisms that can use the protocol to ensure data sources respond correctly to congestion.  And it describes example mechanisms that ensure the dominant selfish strategy of both network domains and end-points will be to set the extended ECN field honestly.  Authors' Statement: Status (to be removed by the RFC Editor)  Although the re-ECN protocol is intended to make a simple but far- reaching change to the Internet architecture, the most immediate priority for the authors is to delay any move of the ECN nonce to Proposed Standard status.  The argument for this position is developed in Appendix I.  Changes from previous drafts (to be removed by the RFC Editor)  Full diffs created using the rfcdiff tool are available at &lt;http://www.cs.ucl.ac.uk/staff/B.Briscoe/pubs.html#retcp>  From -04 to -05 (current version):  Completed justification for packet marking with FNE during slow-  start(Appendix D).  Minor editorial changes throughout.  From -03 to -04:  Clarified reasons for holding back ECN nonce (Section 3.2 &amp;  Appendix I).  Clarified Figure 1.  Added Section 4.1.1.1 on equivalence of drops and ECN marks.  Improved precision of Section 5.6 on IP in IP tunnels.  Explained the RTT fairness is possible to enforce, but unlikely to  be required (Section 6.1.3 &amp; Appendix F).  Explained that bulk per-user policing should be adequate but per-  flow policing is also possible if desired, though it is not likely  to be necessary (Section 6.1.5 &amp; Appendix G).  Reinforced need for passive policing at inter-domain borders to  enable all-optical networking (Section 6.1.6).  Minor editorial changes throughout.  From -02 to -03:  Started guidelines for re-ECN support in DCCP and SCTP.  Added annex on limitations of nonce mechanism.  Minor editorial changes throughout.  From -01 to -02:  Explanation on informal terminology in Section 3.4 clarified.  IPv6 wire protocol encoding added (Section 5.2).  Text on (non-)issues with tunnels, encryption and link layer  congestion notification added (Section 5.6 &amp; Section 5.7).  Section added giving evolvability arguments against encouraging  bottleneck policing (Section 6.1.2).  And text on re-ECN's  evolvability by design added to Section 6.1.3  Text on inter-domain policing (Section 6.1.6) and inter-domain  fail-safes (Section 6.1.7) added.  From -00 to -01:  Encoding of re-ECN wire protocol changed for reasons given in  Appendix B and consequently draft substantially re-written.  Substantial text added in sections on applications, incremental  deployment, architectural rationale and security considerations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-briscoe-tsvwg-re-ecn-tcp-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-briscoe-tsvwg-re-ecn-tcp-05.txt' />
+</reference>

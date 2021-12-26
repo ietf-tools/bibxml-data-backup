@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hallambaker-udf'>
+<front>
+<title>Uniform Data Fingerprint (UDF)</title>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='September' day='19' year='2016' />
+
+<abstract><t>This document describes means of generating Uniform Data Fingerprint (UDF) values and their presentation as text sequences and as URIs.  Cryptographic digests provide a means of uniquely identifying static data without the need for a registration authority.  A fingerprint is a form of presenting a cryptographic digest that makes it suitable for use in applications where human readability is required.  The UDF fingerprint format improves over existing formats through the introduction of a compact algorithm identifier affording an intentionally limited choice of digest algorithm and the inclusion of an IANA registered MIME Content-Type identifier within the scope of the digest input to allow the use of a single fingerprint format in multiple application domains.  Alternative means of rendering fingerprint values are considered including machine-readable codes, word and image lists.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hallambaker-udf-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hallambaker-udf-04.txt' />
+</reference>

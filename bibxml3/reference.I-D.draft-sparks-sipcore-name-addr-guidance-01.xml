@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sparks-sipcore-name-addr-guidance'>
+<front>
+<title>Clarifications for when to use the name-addr production in SIP messages</title>
+
+<author initials='R' surname='Sparks' fullname='Robert Sparks'>
+    <organization />
+</author>
+
+<date month='September' day='27' year='2016' />
+
+<abstract><t>RFC3261 constrained several SIP header fields whose grammar contains the "name-addr / addr-spec" alternative to use name-addr when certain characters appear.  Unfortunately it expressed the constraints with prose copied into each header field definition, and at least one header field was missed.  Further, the constraint has not been copied into documents defining extension headers whose grammar contains the alternative.  This document updates RFC3261 to state the constraint generically, and clarifies that the constraint applies to all SIP header fields where there is a choice between using name-addr or addr-spec.  It also updates those extension SIP header fields that use the alternative to clarify that the constraint applies (RFCs 3325, 3515, 3892, 4508, 5002, 5318, 5360, and 5502).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sparks-sipcore-name-addr-guidance-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sparks-sipcore-name-addr-guidance-01.txt' />
+</reference>

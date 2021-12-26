@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reschke-http-etag-on-write'>
+<front>
+<title>The Hypertext Transfer Protocol (HTTP) Entity Tag ("ETag") Response Header  in Write Operations</title>
+
+<author initials='J' surname='Reschke' fullname='Julian Reschke'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2007' />
+
+<abstract><t>The Hypertext Transfer Protocol (HTTP) specifies a state identifier, called "Entity Tag", to be returned in the "ETag" response header. However, the description of this header for write operations such as PUT is incomplete, and has caused confusion among developers and protocol designers, and potentially interoperability problems. This document explains the problem in detail and suggests both a clarification for a revision to the HTTP/1.1 specification (RFC2616) and a new header for use in responses, making HTTP entity tags more useful for user agents that want to avoid round-trips to the server after modifying a resource.  Editorial Note (To be removed by RFC Editor before publication)  Distribution of this document is unlimited.  Please send comments to the Hypertext Transfer Protocol (HTTP) mailing list at ietf-http-wg@w3.org [1], which may be joined by sending a message with subject "subscribe" to ietf-http-wg-request@w3.org [2].  Discussions of the HTTP working group are archived at &lt;http://lists.w3.org/Archives/Public/ietf-http-wg/>.  XML versions, latest edits and the issues list for this document are available from &lt;http://greenbytes.de/tech/webdav/#draft-reschke-http-etag-on-write>.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reschke-http-etag-on-write-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reschke-http-etag-on-write-08.txt' />
+</reference>

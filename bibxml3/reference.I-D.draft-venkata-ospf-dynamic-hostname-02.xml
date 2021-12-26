@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.venkata-ospf-dynamic-hostname'>
+<front>
+<title>Dynamic Hostname Exchange Mechanism for OSPF</title>
+
+<author initials='S' surname='Venkata' fullname='Subbaiah Venkata'>
+    <organization />
+</author>
+
+<author initials='S' surname='Harwani' fullname='Sanjay  Harwani'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='D' surname='McPherson' fullname='Danny McPherson'>
+    <organization />
+</author>
+
+<date month='January' day='29' year='2008' />
+
+<abstract><t>Currently, there does not exist a simple and dynamic mechanism for routers running OSPF to learn about symbolic hostnames just like for routers running IS-IS.  This document defines a new OSPF Router Information (RI) TLV which allows the OSPF routers to flood their hostname-to-Router ID mapping information across the OSPF network. This mechanism is applicable to both OSPFv2 and OSPFv3.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-venkata-ospf-dynamic-hostname-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-venkata-ospf-dynamic-hostname-02.txt' />
+</reference>

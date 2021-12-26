@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hardie-mdtls-session'>
+<front>
+<title>Multipath DTLS Session Layer</title>
+
+<author initials='T' surname='Hardie' fullname='Ted Hardie'>
+    <organization />
+</author>
+
+<author initials='J' surname='Khuon' fullname='Jake Khuon'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>The Internet model has traditionally avoided the complication of an explicit session layer, in favor of having applications and transports divide the relevant work between them.  While this has been a successful strategy when the packet flows from two hosts all take the same path, there may be advantages in using a session-layer strategy when a host initiates related flows from multiple interfaces in independent routing domains (e.g. a 3G or 4G interface and a WiFi interface).  This draft discusses an approach re-using the security association mechanisms present in DTLS [RFC4347] to create a simple session layer.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hardie-mdtls-session-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hardie-mdtls-session-00.txt' />
+</reference>

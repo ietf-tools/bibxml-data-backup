@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.maqueda-6lowpan-pgw'>
+<front>
+<title>Guidelines for the Operation of a 6LoWPAN-ND Proxy Gateway</title>
+
+<author initials='G' surname='Maguire' fullname='Gerald Maguire'>
+    <organization />
+</author>
+
+<author initials='L' surname='Ara' fullname='Luis Maqueda Ara'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>The IETF 6LoWPAN working group has defined a number of optimizations to adapt traditional IPv6 Neighbor Discovery for Low-power and Lossy Networks (LLNs).  As these two ND protocols are incompatible, and Neighbor Discovery has link-local scope, a side effect of these optimizations is that communication between Full Function Devices (FFDs) and 6LoWPAN nodes (6LNs) becomes impossible within the same link, unless the proper proxy mechanisms are applied.  This document specifies guidelines for such proxy mechanisms to enable transparent communication between FFDs and 6LNs within the same network link.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-maqueda-6lowpan-pgw-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-maqueda-6lowpan-pgw-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zuo-mptcp-degradation'>
+<front>
+<title>A Proactive Approach to Avoid Performance Degradation of MPTCP</title>
+
+<author initials='F' surname='Wang' fullname='Fanzhao Wang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zuo' fullname='Jing Zuo'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Cao' fullname='Zhen Cao'>
+    <organization />
+</author>
+
+<author initials='K' surname='Zheng' fullname='Kai Zheng'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>One of the goals for MPTCP is utilizing multiple paths to perform at least as well as the best path in terms of throughput. However, this goal might not be arrived at because of the path asymmetry, which is called as the performance-degradation problem of MPTCP in this draft. Some existing methods focus on this problem, such as penalizing and opportunistic retransmission, which reactively responds to the head- of-line blocking for trying their best to send data across all paths. In order to efficiently utilize the capabilities of the multiple paths, this draft proposes an approach that proactively selects the best path(s) to send data instead of always bonding all paths together.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zuo-mptcp-degradation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zuo-mptcp-degradation-00.txt' />
+</reference>

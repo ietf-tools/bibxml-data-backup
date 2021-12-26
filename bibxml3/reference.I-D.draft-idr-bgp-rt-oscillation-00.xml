@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.idr-bgp-rt-oscillation'>
+<front>
+<title>Fixing Persistent Route Oscillation conditions in BGP RT-Constrain</title>
+
+<author initials='D' surname='Duan' fullname='Dongling Duan'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='J' surname='Haas' fullname='Jeffrey Haas'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2016' />
+
+<abstract><t>[RFC4684] defines Multi-Protocol BGP (MP-BGP) procedures that allow BGP speakers to exchange Route Target reachability information (RT- Constrain) to restrict the propagation of Virtual Private Network (VPN) routes.  In network scenarios where hierarchical route reflection (RR) is used, the existing RT-Constrain mechanism may result in persistent routing oscillations within RRs.  This document describes the problem scenario and proposes solutions to address persistent routing oscillations in hierarchical RR scenario.  This document updates RFC 4684 by proposing solutions to avoid the persistent routing oscillations in hierarchical RR scenario.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-idr-bgp-rt-oscillation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-idr-bgp-rt-oscillation-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-mpls-in-band-signaling'>
+<front>
+<title>In-band signaling for Point-to-Multipoint and Multipoint-to-Multipoint Label  Switched Paths</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='T' surname='Eckert' fullname='Toerless Eckert'>
+    <organization />
+</author>
+
+<author initials='N' surname='Leymann' fullname='Nicolai Leymann'>
+    <organization />
+</author>
+
+<author initials='M' surname='Napierala' fullname='Maria Napierala'>
+    <organization />
+</author>
+
+<date month='September' day='8' year='2008' />
+
+<abstract><t>When an IP multicast tree needs to pass through an MPLS domain, it is advantageous to map the tree to a Point-to-Multipoint or Multipoint- to-Multipoint Label Switched Path.  This document specifies a way to provide a one-one mapping between IP multicast trees and Label Switched Paths.  The IP multicast control messages are translated into MPLS control messages when they enter the MPLS domain, and are translated back into IP multicast control messages at the far end of the MPLS domain.  The IP multicast control information is coded into the MPLS control information in such a way as to ensure that a single Multipoint Label Switched Path gets set up for each IP multicast tree.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-mpls-in-band-signaling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-mpls-in-band-signaling-00.txt' />
+</reference>

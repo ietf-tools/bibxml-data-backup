@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.spaghetti-sidrops-rpki-manifest-validation'>
+<front>
+<title>A Default Validation Policy for the use of RPKI Manifests in the global Internet Routing System.</title>
+
+<author initials='J' surname='Snijders' fullname='Job Snijders'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2020' />
+
+<abstract><t>Manifests are a critical cornerstone to the global Resource Public Key Infrastructure (RPKI).  RFC 6486 describes a validation decision tree which introduced the notion of 'local policy', creating space for ambiguity.  This ambiguity has led to various RPKI implementations producing different output when presented with the same input, but also leads to severe operational security implications.  This document updates RFC 6486 and introduces the notion of a default policy for Manifest validation to encourage harmony between implementations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-spaghetti-sidrops-rpki-manifest-validation-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-spaghetti-sidrops-rpki-manifest-validation-01.txt' />
+</reference>

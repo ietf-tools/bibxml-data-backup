@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.howlett-radsec-knp'>
+<front>
+<title>Key Negotiation Protocol for RadSec (KNP)</title>
+
+<author initials='J' surname='Howlett' fullname='Josh Howlett'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hartman' fullname='Sam Hartman'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2010' />
+
+<abstract><t>RadSec provides a means to secure the communication between a RADIUS client and server on the transport layer by using a TLS cipher-suite. This avoids the security weaknesses inherent in RADIUS' use of the MD5 algorithm.  The Key Negotiation Protocol for RadSec enables a RADIUS client and RADIUS server to derive a key that can be used with a TLS PSK ciphersuite and applied with a RadSec connection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-howlett-radsec-knp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-howlett-radsec-knp-00.txt' />
+</reference>

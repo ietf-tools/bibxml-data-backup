@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.begen-avt-rtp-mpeg2ts-preamble'>
+<front>
+<title>RTP Payload Format for MPEG2-TS Preamble</title>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='E' surname='Friedrich' fullname='Eric Friedrich'>
+    <organization />
+</author>
+
+<date month='August' day='12' year='2009' />
+
+<abstract><t>Demultiplexing and decoding an MPEG2 Transport Stream (MPEG2-TS) requires the knowledge of specific information about the transport stream, which we refer to as the MPEG2-TS Preamble.  While this information is spread over different locations throughout the transport stream and can be eventually assembled after some time a receiver started receiving the MPEG2-TS, the time it takes to retrieve all this information (especially in multicast environments) may be long.  Instead, having this information readily available as a Preamble and sending the Preamble to a receiver that will shortly start receiving the transport stream will virtually eliminate the waiting time and let the receiver start processing/decoding the MPEG2-TS sooner.  In this document, we give an overview of the MPEG2-TS and the delay components in video systems, and motivate the need for constructing and using the MPEG2-TS Preamble for rapidly acquiring the source stream in RTP multicast sessions.  We also define and register the RTP payload format for the MPEG2-TS Preamble.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-begen-avt-rtp-mpeg2ts-preamble-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-begen-avt-rtp-mpeg2ts-preamble-02.txt' />
+</reference>

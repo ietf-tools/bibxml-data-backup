@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-dhcpv6-stateful-issues'>
+<front>
+<title>Issues and Recommendations with Multiple Stateful DHCPv6 Options</title>
+
+<author initials='O' surname='Troan' fullname='Ole Troan'>
+    <organization />
+</author>
+
+<author initials='B' surname='Volz' fullname='Bernie Volz'>
+    <organization />
+</author>
+
+<author initials='M' surname='Siodelski' fullname='Marcin Siodelski'>
+    <organization />
+</author>
+
+<date month='January' day='29' year='2015' />
+
+<abstract><t>The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) specification defined two stateful options, IA_NA and IA_TA, but did not anticipate the development of additional stateful options. DHCPv6 Prefix Delegation added the IA_PD option, which is stateful. Applications that use IA_NA and IA_PD together have revealed issues that need to be addressed.  This document updates RFC 3315 and RFC 3633 to address these issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-dhcpv6-stateful-issues-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-dhcpv6-stateful-issues-10.txt' />
+</reference>

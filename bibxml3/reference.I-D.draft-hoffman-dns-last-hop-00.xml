@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hoffman-dns-last-hop'>
+<front>
+<title>Wrapping DNS for Traffic Protection</title>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='December' day='5' year='2010' />
+
+<abstract><t>DNS queries from one resolver to an upstream resolver are often run over connections with no protection of any kind.  This connection, is currently susceptible to both malicious and unintentional alteration that prevents the querying resolver from being sure that the results it receives are valid.  Some middleboxes can prevent a querying resolver that does DNSSEC validation from getting enough information to validate a response.  Further, a non-validating, non-iterative resolver querying a trusted recursive resolver is susceptible to active attacks in which the results are purposely altered.  The protocols described in this document provide two methods to avoid these problems and thus make resolution significantly more secure. These protocols can be used between any two DNS resolvers, but they are particularly useful for queries from "last-hop" stub resolvers to trusted recursive resolvers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hoffman-dns-last-hop-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hoffman-dns-last-hop-00.txt' />
+</reference>

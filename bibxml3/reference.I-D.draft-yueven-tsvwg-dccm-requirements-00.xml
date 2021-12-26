@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yueven-tsvwg-dccm-requirements'>
+<front>
+<title>Data Center Congestion Management requirements</title>
+
+<author initials='F' surname='Chen' fullname='Fei Chen'>
+    <organization />
+</author>
+
+<author initials='W' surname='Sun' fullname='Wenhao Sun'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yu' fullname='Yolanda Yu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<date month='June' day='26' year='2019' />
+
+<abstract><t>On IP-routed datacenter networks, RDMA is deployed using RoCEv2 protocol.  RoCEv2 specification does not define a strong congestion management mechanisms and load balancing methods.  RoCEv2 relies on the existing Link-Layer Flow-Control IEEE 802.1Qbb(Priority-based Flow Control, PFC) to provide a lossless fabric.  RoCEv2 Congestion Management(RCM) use ECN(Explicit Congestion Notification, defined in RFC3168) to signal the congestion to the destination and use the congestion notification to reduce the rate of injection and increase the injection rate when the extent of congestion decreases.  More and more practice of congestion management for RoCEv2 appear in the industry, such as DCQCN(Data Center Quantized Congestion Notification).  This document describes the current state of flow control and congestion handling in the DC using RoCEv2 and provides requirements for new directions for better congestion control.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yueven-tsvwg-dccm-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yueven-tsvwg-dccm-requirements-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-yueven-tsvwg-dccm-requirements-00.pdf' />
+</reference>

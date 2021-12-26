@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bitar-mpls-isis-explicit-null-label'>
+<front>
+<title>ISIS MPLS Explicit NULL Label</title>
+
+<author initials='G' surname='Swallow' fullname='George Swallow'>
+    <organization />
+</author>
+
+<author initials='H' surname='Shah' fullname='Himanshu Shah'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bitar' fullname='Nabil Bitar'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2011' />
+
+<abstract><t>There is need to support IP interfaces on the top of GMPLS packet Label Switched Paths (LSPs), and enable IP routing (e.g., OSPF-TE, ISIS-TE) and MPLS protocols on these interfaces. Traffic on an IP/MPLS interface can be user traffic or control traffic. In addition, it can be MPLS, IP or ISIS. Multiplexing IP and MPLS packets over the same LSP is supported in the current MPLS architecture. However, multiplexing IP, MPLS, and ISIS packets over the same LSP is not currently supported. This draft proposes the definition of an explicit ISIS NULL label to enable this type of multiplexing to take place.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bitar-mpls-isis-explicit-null-label-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bitar-mpls-isis-explicit-null-label-00.txt' />
+</reference>

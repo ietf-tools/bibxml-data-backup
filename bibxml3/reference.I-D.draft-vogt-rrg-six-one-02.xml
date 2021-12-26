@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vogt-rrg-six-one'>
+<front>
+<title>Six/One: A Solution for Routing and Addressing in IPv6</title>
+
+<author initials='C' surname='Vogt' fullname='Christian Vogt'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>There is heightened concern about the growth of the global routing table and the increased frequency of routing table updates.  Both is due to the use of provider-independent addressing space in edge networks, which accommodates operators' desire to move traffic quickly and easily from one provider to another.  The main recent proposals attempt to solve this problem by hiding provider- independent addressing space through a level of indirection. Unfortunately, indirection requires a non-trivial distribution of address translation information across the Internet.  This is either slow, or costly in terms of signaling overhead, or both.  Security and transitionability are further issues.  This document proposes an alternative solution, which is based on a single, provider-dependent addressing space and hence avoids the problems of indirection.  The solution meets the objectives of edge network operators while limiting the size of the routing table and its update frequency.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vogt-rrg-six-one-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vogt-rrg-six-one-02.txt' />
+</reference>

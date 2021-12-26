@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jiang-v6ops-v4v6mc-proxy'>
+<front>
+<title>Multicast Proxy in IPv6/IPv4 Transition</title>
+
+<author initials='S' surname='Jiang' fullname='Sheng Jiang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Gu' fullname='Dujuan Gu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Fu' fullname='Yu Fu'>
+    <organization />
+</author>
+
+<author initials='B' surname='Liu' fullname='Bing Liu'>
+    <organization />
+</author>
+
+<date month='April' day='26' year='2012' />
+
+<abstract><t>During the long co-existing period of IPv6 and IPv4, the interoperation between IPv6 network and IPv4 network is essential. Multicast services across IPv6 and IPv4 networks are also needed. Besides the packet-based multicast translation mechanism, this document describes a multicast proxy solution. The solution is a multicast deployment for transition scenario. It does not propose any new protocol or protocol modification/extension for multicast. The multicast proxy is deployed at the border of IPv6/IPv4 networks. It is mainly based on content cache. Without packet-based translation, it acquires the content data from IPvX network, caches the data, and multicasts the data in IPvY network. It acts as a multicast leaf in the IPvX network where the data source locates while acting as a multicast source in IPvY network where the multicast client locates.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jiang-v6ops-v4v6mc-proxy-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jiang-v6ops-v4v6mc-proxy-01.txt' />
+</reference>

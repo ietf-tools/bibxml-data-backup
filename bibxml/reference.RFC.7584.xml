@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7584' target='https://www.rfc-editor.org/info/rfc7584'>
+<front>
+<title>Session Traversal Utilities for NAT (STUN) Message Handling for SIP Back-to-Back User Agents (B2BUAs)</title>
+<author initials='R.' surname='Ravindranath' fullname='R. Ravindranath'><organization /></author>
+<author initials='T.' surname='Reddy' fullname='T. Reddy'><organization /></author>
+<author initials='G.' surname='Salgueiro' fullname='G. Salgueiro'><organization /></author>
+<date year='2015' month='July' />
+<abstract><t>Session Initiation Protocol (SIP) Back-to-Back User Agents (B2BUAs) are often designed to be on the media path rather than just intercepting signaling.  This means that B2BUAs often act on the media path leading to separate media legs that the B2BUA correlates and bridges together.  When acting on the media path, B2BUAs are likely to receive Session Traversal Utilities for NAT (STUN) packets as part of Interactive Connectivity Establishment (ICE) processing.</t><t>This document defines behavior for a B2BUA performing ICE processing. The goal of this document is to ensure that B2BUAs properly handle SIP messages that carry ICE semantics in Session Description Protocol (SDP) and STUN messages received as part of the ICE procedures for NAT and Firewall traversal of multimedia sessions.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7584'/>
+<seriesInfo name='DOI' value='10.17487/RFC7584'/>
+</reference>

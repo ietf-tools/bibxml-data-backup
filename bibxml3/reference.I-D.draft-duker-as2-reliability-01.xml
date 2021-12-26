@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.duker-as2-reliability'>
+<front>
+<title>Operational Reliability for EDIINT AS2</title>
+
+<author initials='D' surname='Moberg' fullname='Dale Moberg'>
+    <organization />
+</author>
+
+<author initials='J' surname='Duker' fullname='John Duker'>
+    <organization />
+</author>
+
+<date month='June' day='12' year='2006' />
+
+<abstract><t>The goal of this document is to define approaches to achieve a "once and only once" delivery of messages. The EDIINT AS2 protocol is implemented by a number of software tools on a variety of platforms with varying capabilities and with varying network service quality. Although the AS2 protocol defines a unique "Message-ID", current implementations of AS2 do not provide a standard method to prevent the same message (re-transmitted by the initial sender) from reaching back-end business applications at the initial receiver. TCP underpinnings of HTTP over which AS2 operates generally provide a good quality of network connectivity, but experience indicates a need to be able to compensate for both transient server and socket exceptions, including "Connection refused" as well as "Server busy." In addition, difficulties with server availability, stability, and loads can result in reduced operational reliability. This document describes some ways to compensate for exceptions and enhance the reliability of AS2 protocol operation. Implementation of these reliability features is indicated by presence of the "AS2- Reliability" value in the EDIINT-Features header. Feedback Instructions: NOTE TO RFC EDITOR: This section should be removed by the RFC editor prior to publication. If you want to provide feedback on this draft, follow these guidelines: -Send feedback via e-mail to the ietf-ediint list for discussion, with "AS2 Reliability" in the Subject field. To enter or follow the discussion, you need to subscribe to ietf-ediint@imc.org. -Be specific as to what section you are referring to, preferably quoting the portion that needs modification, after which you state your comments. -If you are recommending some text to be replaced with your suggested text, again, quote the section to be replaced, and be clear on the section in question.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-duker-as2-reliability-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-duker-as2-reliability-01.txt' />
+</reference>

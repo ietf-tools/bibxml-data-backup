@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-lwig-6lowpan-virtual-reassembly'>
+<front>
+<title>Virtual reassembly buffers in 6LoWPAN</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='January' day='25' year='2018' />
+
+<abstract><t>When employing adaptation layer fragmentation in 6LoWPAN, it may be beneficial for a forwarder not to have to reassemble each packet in its entirety before forwarding it.  This has been always possible with the original fragmentation design of RFC 4944.  Apart from a brief mention of the way to do this in Section 2.5.2 of the 6LoWPAN book, this has not been extensively described in the literature.  The present document attempts to fill that gap.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-lwig-6lowpan-virtual-reassembly-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-lwig-6lowpan-virtual-reassembly-00.txt' />
+</reference>

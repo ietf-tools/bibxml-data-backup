@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-mprtp'>
+<front>
+<title>Multipath RTP (MPRTP)</title>
+
+<author initials='V' surname='Singh' fullname='Varun Singh'>
+    <organization />
+</author>
+
+<author initials='T' surname='Karkkainen' fullname='Teemu Karkkainen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Ott' fullname='Joerg Ott'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ahsan' fullname='Saba Ahsan'>
+    <organization />
+</author>
+
+<author initials='L' surname='Eggert' fullname='Lars Eggert'>
+    <organization />
+</author>
+
+<date month='March' day='21' year='2016' />
+
+<abstract><t>The Real-time Transport Protocol (RTP) is used to deliver real-time content and, along with the RTP Control Protocol (RTCP), forms the control channel between the sender and receiver.  However, RTP and RTCP assume a single delivery path between the sender and receiver and make decisions based on the measured characteristics of this single path.  Increasingly, endpoints are becoming multi-homed, which means that they are connected via multiple Internet paths.  Network utilization can be improved when endpoints use multiple parallel paths for communication.  The resulting increase in reliability and throughput can also enhance the user experience.  This document extends the Real-time Transport Protocol (RTP) so that a single session can take advantage of the availability of multiple paths between two endpoints.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-mprtp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-mprtp-02.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-mprtp-02.pdf' />
+</reference>

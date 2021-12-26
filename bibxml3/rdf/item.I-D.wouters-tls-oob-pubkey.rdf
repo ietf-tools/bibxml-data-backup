@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-wouters-tls-oob-pubkey-02.txt'>
+    <title>"TLS out-of-band public key validation", Paul Wouters, John Gilmore, Samuel Weiler, Tero Kivinen, Hannes Tschofenig</title>
+    <link>http://www.ietf.org/internet-drafts/draft-wouters-tls-oob-pubkey-02.txt</link>
+    <description>This document specifies a new TLS certificate type for exchanging raw public keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) for use with out-of-band authentication. Currently, TLS authentication can only occur via PKIX or OpenPGP certificates.  By specifying a minimum resource for raw public key exchange, implementations can use alternative authentication methods.  One such method is using DANE Resource Records secured by DNSSEC, Another use case is to provide authentication functionality when used with devices in a constrained environment that use whitelists and blacklists, as is the case with sensors and other embedded devices that are constrained by memory, computational, and communication limitations where the usage of PKIX is not feasible.  The new certificate type specified can also be used to reduce the latency of a TLS client that is already in possession of a validated public key of the TLS server before it starts a (non-resumed) TLS handshake.</description>
+    <dc:date>2011-11-16T23:00:00-00:00</dc:date>
+</item>

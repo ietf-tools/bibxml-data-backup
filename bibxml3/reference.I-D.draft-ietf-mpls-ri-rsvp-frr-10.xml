@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-ri-rsvp-frr'>
+<front>
+<title>Refresh-interval Independent FRR Facility Protection</title>
+<author initials='C' surname='R' fullname='Chandrasekar R'>
+<organization />
+</author>
+<author initials='T' surname='Saad' fullname='Tarek Saad'>
+<organization />
+</author>
+<author initials='I' surname='Minei' fullname='Ina Minei'>
+<organization />
+</author>
+<author initials='D' surname='Pacella' fullname='Dante Pacella'>
+<organization />
+</author>
+<date year='2020' month='December' day='18' />
+<abstract><t>RSVP-TE Fast ReRoute extensions specified in RFC 4090 defines two local repair techniques to reroute Label Switched Path (LSP) traffic over pre-established backup tunnel.  Facility backup method allows one or more LSPs traversing a connected link or node to be protected using a bypass tunnel.  The many-to-one nature of local repair technique is attractive from scalability point of view.  This document enumerates facility backup procedures in RFC 4090 that rely on refresh timeout and hence make facility backup method refresh- interval dependent.  The RSVP-TE extensions defined in this document will enhance the facility backup protection mechanism by making the corresponding procedures refresh-interval independent and hence compatible with Refresh-interval Independent RSVP (RI-RSVP) specified in RFC 8370.  Hence, this document updates RFC 4090 in order to support RI-RSVP capability specified in RFC 8370.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-ri-rsvp-frr-10'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-mpls-ri-rsvp-frr-10.txt'/>
+</reference>

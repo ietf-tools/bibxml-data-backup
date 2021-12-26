@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-stenn-ntp-last-extension-00.txt'>
+    <title>"Network Time Protocol Last Extension Field", Harlan Stenn</title>
+    <link>http://www.ietf.org/internet-drafts/draft-stenn-ntp-last-extension-00.txt</link>
+    <description>NTPv4 is defined by RFC 5905 [RFC5905], and it and earlier versions of the NTP Protocol have supported symmetric private key MAC authentication.  MACs pre-date the Extension Fields introduced in RFC 5905 [RFC5905], and as the number of Extension Fields grows there is an increasing chance of ambiguity when deciding if the "next" set of data is an Extension Field or a MAC.  This proposal defines a new Extension Field which is used to signifiy that it is the last Extension Field in the packet.  If present, any subsequent data SHOULD be considered to be a legacy MAC.</description>
+    <dc:date>2016-03-14T07:00:00-00:00</dc:date>
+</item>

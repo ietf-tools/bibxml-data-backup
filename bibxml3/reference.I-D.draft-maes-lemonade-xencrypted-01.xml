@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.maes-lemonade-xencrypted'>
+<front>
+<title>XENCRYPTED</title>
+
+<author initials='S' surname='Maes' fullname='Stephane Maes'>
+    <organization />
+</author>
+
+<author initials='R' surname='Cromwell' fullname='Ray Cromwell'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2006' />
+
+<abstract><t>Some deployment models for Lemonade [LEMONADEPROFILE] may require a non-pass-through proxy to fit OMA requirements. The proxy sits between the client and the backend Lemonade server and executes commands on behalf of the client, and rewriting some of the responses. XENCRYPT introduces a new encrypted literal type that allows the backend Lemonade server to end-to-end encrypt sensitive data returned from the mail store, such as message bodies and headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-maes-lemonade-xencrypted-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-maes-lemonade-xencrypted-01.txt' />
+</reference>

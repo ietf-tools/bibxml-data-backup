@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.asati-bgp-mpls-blackhole-avoidance'>
+<front>
+<title>BGP/MPLS Traffic Blackhole Avoidance</title>
+
+<author initials='R' surname='Asati' fullname='Rajiv Asati'>
+    <organization />
+</author>
+
+<date month='February' day='26' year='2007' />
+
+<abstract><t>In any BGP based MPLS network such as MPLS VPN [RFC4364], an ingress PE router would continue to attract traffic from the CE router by advertising the prefix reachability, even though the Label Switched Path (LSP) from the ingress PE router to the egress PE router may be broken. This causes the VPN traffic to be dropped inside the MPLS VPN network. This document proposes a framework to make BGP consider the MPLS path availability to the "NEXT_HOP" (i.e. egress PE router) during the BGP bestpath candidate selection process. This document also defines a local database for storing the MPLS path health information for one or more IP prefixes and its interaction with BGP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-asati-bgp-mpls-blackhole-avoidance-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-asati-bgp-mpls-blackhole-avoidance-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.song-yeti-testbed-experience'>
+<front>
+<title>Yeti DNS Testbed</title>
+
+<author initials='L' surname='Song' fullname='Linjian Song'>
+    <organization />
+</author>
+
+<author initials='D' surname='Liu' fullname='Dong Liu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Vixie' fullname='Paul Vixie'>
+    <organization />
+</author>
+
+<author initials='A' surname='Kato' fullname='Akira Kato'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kerr' fullname='Shane Kerr'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2017' />
+
+<abstract><t>The Internet's Domain Name System (DNS) is built upon the foundation provided by the Root Server System -- that is, the critical infrastructure that serves the DNS root zone.  Yeti DNS is an experimental, non-production testbed that aims to provide an environment where technical and operational experiments can safely be performed without risk to production infrastructure. This testbed has been used by a broad community of participants to perform experiments that aim to inform operations and future development of the production DNS.  Yeti DNS is an independently- coordinated project and is not affiliated with ICANN, IANA or any Root Server Operator.  The Yeti DNS testbed implementation includes various novel and experimental components including IPv6-only transport, independent, autonomous Zone Signing Key management, large cryptographic keys and a large number of component Yeti-Root Servers.  These differences from the Root Server System have operational consequences such as large responses to priming queries and the coordination of a large pool of independent operators; by deploying such a system globally but outside the production DNS system, the Yeti DNS project provides an opportunity to gain insight into those consequences without threatening the stability of the DNS.  This document neither addresses the relevant policies under which the Root Server System is operated nor makes any proposal for changing any aspect of its implementation or operation.  This document aims solely to document technical and operational findings following the deployment of a system which is similar but different from the Root Server System.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-song-yeti-testbed-experience-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-song-yeti-testbed-experience-05.txt' />
+</reference>

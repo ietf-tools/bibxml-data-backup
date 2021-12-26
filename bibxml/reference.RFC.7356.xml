@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7356' target='https://www.rfc-editor.org/info/rfc7356'>
+<front>
+<title>IS-IS Flooding Scope Link State PDUs (LSPs)</title>
+<author initials='L.' surname='Ginsberg' fullname='L. Ginsberg'><organization /></author>
+<author initials='S.' surname='Previdi' fullname='S. Previdi'><organization /></author>
+<author initials='Y.' surname='Yang' fullname='Y. Yang'><organization /></author>
+<date year='2014' month='September' />
+<abstract><t>Intermediate System to Intermediate System (IS-IS) provides efficient and reliable flooding of information to its peers; however, the current flooding scopes are limited to either area scope or domain scope.  There are existing use cases where support of other flooding scopes is desirable.  This document defines new Protocol Data Units (PDUs) that provide support for new flooding scopes as well as additional space for advertising information targeted for the currently supported flooding scopes.  This document also defines extended Type-Length-Values (TLVs) and sub-TLVs that are encoded using 16-bit fields for Type and Length.</t><t>The protocol extensions defined in this document are not backwards compatible with existing implementations and so must be deployed with care.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7356'/>
+<seriesInfo name='DOI' value='10.17487/RFC7356'/>
+</reference>

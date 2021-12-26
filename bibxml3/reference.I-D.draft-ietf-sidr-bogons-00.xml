@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-bogons'>
+<front>
+<title>A Profile for Bogon Origin Attestations (BOAs)</title>
+
+<author initials='G' surname='Huston' fullname='Geoff Huston'>
+    <organization />
+</author>
+
+<author initials='T' surname='Manderson' fullname='Terry  Manderson'>
+    <organization />
+</author>
+
+<author initials='G' surname='Michaelson' fullname='George Michaelson'>
+    <organization />
+</author>
+
+<date month='August' day='6' year='2008' />
+
+<abstract><t>This document defines a standard profile for Bogon Origin Attestations (BOAs).  A BOA is a digitally signed object that provides a means of verifying that an IP address block holder has not authorized any Autonomous System (AS) to originate routes that are equivalent to any of the addresses listed in the BOA, and also provides a means of verifying that BGP speaker is not using an AS as a BGP speaker without appropriate authority to use that AS.  The proposed application of BOAs is intended to fit within the requirements for adding security measures to inter-domain routing, including the ability to support incremental and piecemeal deployment of such measures, and does not require any changes to the specification of BGP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-bogons-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-bogons-00.txt' />
+</reference>

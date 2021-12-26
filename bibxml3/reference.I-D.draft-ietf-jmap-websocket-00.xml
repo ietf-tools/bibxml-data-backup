@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-jmap-websocket'>
+<front>
+<title>A JSON Meta Application Protocol (JMAP) Subprotocol for WebSocket</title>
+
+<author initials='K' surname='Murchison' fullname='Ken Murchison'>
+    <organization />
+</author>
+
+<date month='December' day='5' year='2018' />
+
+<abstract><t>This document defines a binding for the JSON Meta Application Protocol (JMAP) over a WebSocket transport layer.  A WebSocket binding for JMAP provides higher performance than the current HTTP binding for JMAP.  Open Issues  o  What mechanism should be used to allow the client to choose what types of objects for which is wishes to receive push notifications over the WS connection?  Shoul this be done via a new method type or can it be done with header fields and/or query parameters on the WS handshake?</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-jmap-websocket-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-jmap-websocket-00.txt' />
+</reference>

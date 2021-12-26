@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pullen-srmp'>
+<front>
+<title>Selectively Reliable Multicast Protocol (SRMP)</title>
+
+<author initials='M' surname='Pullen' fullname='Mark Pullen'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2005' />
+
+<abstract><t>The Selectively Reliable Multicast Protocol (SRMP) is a transport protocol, intended to deliver a mix of reliable and best-effort messages in an any-to-any multicast environment, where the best- effort traffic occurs in significantly greater volume than the reliable traffic and therefore can be used to carry sequence numbers of reliable messages for loss detection. SRMP is intended for use in a distributed simulation application environment, where only the latest value of reliable transmission for any particular data identifier requires delivery. SRMP has two sublayers: a bundling sublayer that combines short messages, peforms NAK suppression, and incorporates the TCP-Friendly Multicast Congestion Control of Widmer and Handley, dropping best- effort traffic in order to achieve congestion control; and a selectively reliable transport (SRT) sublayer that formats best- effort and reliable transmissions and also creates negative acknowledgements when loss of reliable messages is detected. In SRMP, selection between reliable and best-effort messages is performed by the application. The protocol bundles messages within a configured time interval, attempting to achieve a configured bundle size which typically is set to the expected smallest MTU in the delivery path. The bundle header carries the latest sequence number for each reliable transmission. Rate reduction is achieved when necessary by dropping best-effort messages at random.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pullen-srmp-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pullen-srmp-06.txt' />
+</reference>

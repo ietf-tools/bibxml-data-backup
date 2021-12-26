@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.unbehagen-lldp-spb'>
+<front>
+<title>Auto-attach using LLDP with IEEE 802.1aq SPBM networks</title>
+
+<author initials='P' surname='Unbehagen' fullname='Paul Unbehagen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Romascanu' fullname='Dan Romascanu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Seligson' fullname='John Seligson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Keene' fullname='Carl Keene'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bragg' fullname='Nigel Bragg'>
+    <organization />
+</author>
+
+<author initials='L' surname='Beliveau' fullname='Ludovic Beliveau'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2014' />
+
+<abstract><t>This informational document describes a compact method of using IEEE 802.1AB Link Layer Discovery Protocol (LLDP) with IEEE 802.1aq Shortest Path Bridging (SPB) network to automatically attach network devices not supporting IEEE 802.1ah to individual services in a SPB network.  These network devices typically do not support SPBM, MAC- in-MAC (802.1ah), nor I-SID usage  and therefore cannot easily take advantage of the SPB infrastructure without manual configuration of attachment of VLANs to I-SIDs in multiple locations.  A motivation for this draft is to suggest a useful means to simplify and automate connections to PBB L2VPN based service networks such as those defined in SPBM-EVPN</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-unbehagen-lldp-spb-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-unbehagen-lldp-spb-00.txt' />
+</reference>

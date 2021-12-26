@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.oiwa-httpauth-multihop-template'>
+<front>
+<title>Common Template for HTTP Message-based Multi-hop Authentication</title>
+
+<author initials='Y' surname='Oiwa' fullname='Yutaka Oiwa'>
+    <organization />
+</author>
+
+<author initials='H' surname='Watanabe' fullname='Hajime Watanabe'>
+    <organization />
+</author>
+
+<author initials='H' surname='Takagi' fullname='Hiromitsu Takagi'>
+    <organization />
+</author>
+
+<author initials='B' surname='Kihara' fullname='Boku Kihara'>
+    <organization />
+</author>
+
+<author initials='T' surname='Hayashi' fullname='Tatsuya Hayashi'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Ioku' fullname='Yuichi Ioku'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>This document specifies a common protocol design template for authentication on the Hyper-text Transport Protocol (HTTP) involving multi-hop message exchanges.  To facilitate advanced authentication technologies such as hash-based exchanges, zero-knowledge password proof, or public-key authentications on HTTP, a kind of state management and key management facilities are required on the general HTTP authentication message framework.  Also, to optimize performance of such authentication schemes, a well-designed mechanism for key caching and re-authentication are needed.  The template defined in this document provides a generic foundation for implementing such advanced authentication technologies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-oiwa-httpauth-multihop-template-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-oiwa-httpauth-multihop-template-00.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-oiwa-httpauth-multihop-template-00.ps' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-oiwa-httpauth-multihop-template-00.pdf' />
+</reference>

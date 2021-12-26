@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bajko-mip6-rrtfw'>
+<front>
+<title>Firewall friendly RTT for MIPv6</title>
+
+<author initials='G' surname='Bajko' fullname='Gabor Bajko'>
+    <organization />
+</author>
+
+<author initials='F' surname='Le' fullname='Franck Le'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2006' />
+
+<abstract><t>This document defines a slightly modified Return Routability Test (RRT) for MIPv6 [2]. The new method is firewall friendly and allows a mobile node to send Binding Update message to its correspondent node (so that Route Optimization can be applied) and ensures that the CN receives the Binding Update, even when either the mobile node, the CN, or both are located behind firewalls.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bajko-mip6-rrtfw-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bajko-mip6-rrtfw-00.txt' />
+</reference>

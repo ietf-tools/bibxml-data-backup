@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-sack-immediately-04.txt'>
+    <title>"SACK-IMMEDIATELY Extension for the Stream Control Transmission Protocol", Michael Tuexen, Irene Ruengeler, Randall Stewart</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-sack-immediately-04.txt</link>
+    <description>This document updates RFC 4960 by defining a method for the sender of a DATA chunk to indicate that the corresponding SACK chunk should be sent back immediately and not be delayed.  It is done by specifying a bit in the DATA chunk header, called the I-bit, which can get set either by the SCTP implementation or by the application using an SCTP stack.  Since unknown flags in chunk headers are ignored by SCTP implementations, this extension does not introduce any interoperability problems.</description>
+    <dc:date>2013-08-27T22:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-cbor-date-tag'>
+<front>
+<title>Concise Binary Object Representation (CBOR) Tags for Date</title>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<author initials='A' surname='Nadalin' fullname='Anthony Nadalin'>
+    <organization />
+</author>
+
+<author initials='J' surname='Richter' fullname='Joerg Richter'>
+    <organization />
+</author>
+
+<date month='June' day='9' year='2020' />
+
+<abstract><t>The Concise Binary Object Representation (CBOR, RFC 7049) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.  In CBOR, one point of extensibility is the definition of CBOR tags. RFC 7049 defines two tags for time: CBOR tag 0 (RFC 3339 date/time string) and tag 1 (Posix "seconds since the epoch").  Since then, additional requirements have become known.  This specification defines a CBOR tag for an RFC 3339 date text string, for applications needing a textual date representation without a time.  It also defines a CBOR tag for days since the Posix epoch, for applications needing a numeric date representation without a time.  It is intended as the reference document for the IANA registration of the CBOR tags defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-cbor-date-tag-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-cbor-date-tag-01.txt' />
+</reference>

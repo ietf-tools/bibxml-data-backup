@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-avt-retransmission-supression-rtp'>
+<front>
+<title>RTCP Report Extension for Feedback Suppression</title>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2010' />
+
+<abstract><t>In a large RTP session using the RTCP feedback mechanism defined in RFC 4585, a media source or middlebox may experience transient overload if some event causes a large number of receivers to send feedback at once.  This feedback implosion can be mitigated if the device suffering from overload can send a feedback suppression message to the receivers to inhibit further feedback.  This memo defines RTCP extensions for feedback suppression, to suppress NACK and FIR feedback requests.  It also defines associated SDP signalling."</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-avt-retransmission-supression-rtp-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-avt-retransmission-supression-rtp-06.txt' />
+</reference>

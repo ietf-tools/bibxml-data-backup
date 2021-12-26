@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ford-mptcp-architecture'>
+<front>
+<title>Architectural Guidelines for Multipath TCP Development</title>
+
+<author initials='A' surname='Ford' fullname='Alan Ford'>
+    <organization />
+</author>
+
+<author initials='C' surname='Raiciu' fullname='Costin Raiciu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Barre' fullname='Sebastien Barre'>
+    <organization />
+</author>
+
+<author initials='J' surname='Iyengar' fullname='Janardhan Iyengar'>
+    <organization />
+</author>
+
+<author initials='B' surname='Ford' fullname='Bryan Ford'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>Often endpoints are connected by multiple paths, but the nature of TCP/IP restricts communications to a single path per socket. Resource usage within the network would be more efficient were these multiple paths able to be used concurrently.  This should enhance user experience through higher throughput and improved resilience to network failure.  This document outlines architectural guidelines for the development of a Multipath Transport Protocol, with references to how these architectural components come together in the Multipath TCP (MPTCP) protocol.  This document also contains suggestions for functional separation within an implementation, maximising the flexibility that can be achieved with these architectural components.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ford-mptcp-architecture-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ford-mptcp-architecture-00.txt' />
+</reference>

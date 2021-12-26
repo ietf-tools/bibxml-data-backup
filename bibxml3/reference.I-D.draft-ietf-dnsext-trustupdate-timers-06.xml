@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsext-trustupdate-timers'>
+<front>
+<title>Automated Updates of DNSSEC Trust Anchors</title>
+
+<author initials='M' surname='StJohns' fullname='Michael StJohns'>
+    <organization />
+</author>
+
+<date month='April' day='4' year='2007' />
+
+<abstract><t>This document describes a means for automated, authenticated and authorized updating of DNSSEC "trust anchors". The method provides protection against N-1 key compromises of N keys in the trust point key set. Based on the trust established by the presence of a current anchor, other anchors may be added at the same place in the hierarchy, and, ultimately, supplant the existing anchor(s). This mechanism will require changes to resolver management behavior (but not resolver resolution behavior), and the addition of a single flag bit to the DNSKEY record.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsext-trustupdate-timers-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsext-trustupdate-timers-06.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gulbrandsen-imap-uidonly'>
+<front>
+<title>The IMAP UIDONLY Extension</title>
+
+<author initials='A' surname='Gulbrandsen' fullname='Arnt Gulbrandsen'>
+    <organization />
+</author>
+
+<date month='April' day='25' year='2014' />
+
+<abstract><t>Opening a large mailbox in IMAP can take mailbox; 30 seconds is realistic if the mailbox contains ten million messages. Most of that time is needed to number the messages consecutively.  This extension provides a way to avoid having to number the messages consecutively.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gulbrandsen-imap-uidonly-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gulbrandsen-imap-uidonly-00.txt' />
+</reference>

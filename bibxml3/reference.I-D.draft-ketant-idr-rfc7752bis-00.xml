@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ketant-idr-rfc7752bis'>
+<front>
+<title>Distribution of Link-State and Traffic Engineering Information Using BGP</title>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='J' surname='Medved' fullname='Jan Medved'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ray' fullname='Saikat Ray'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2019' />
+
+<abstract><t>In a number of environments, a component external to a network is called upon to perform computations based on the network topology and current state of the connections within the network, including Traffic Engineering (TE) information.  This is information typically distributed by IGP routing protocols within the network.  This document describes a mechanism by which link-state and TE information can be collected from networks and shared with external components using the BGP routing protocol.  This is achieved using a new BGP Network Layer Reachability Information (NLRI) encoding format.  The mechanism is applicable to physical and virtual IGP links.  The mechanism described is subject to policy control.  Applications of this technique include Application-Layer Traffic Optimization (ALTO) servers and Path Computation Elements (PCEs).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ketant-idr-rfc7752bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ketant-idr-rfc7752bis-00.txt' />
+</reference>

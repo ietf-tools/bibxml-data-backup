@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rtgwg-mrt-frr-architecture'>
+<front>
+<title>An Architecture for IP/LDP Fast-Reroute Using Maximally Redundant Trees</title>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<author initials='R' surname='Kebler' fullname='Robert Kebler'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='G' surname='Envedi' fullname='Gabor Envedi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Csaszar' fullname='Andras Csaszar'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='M' surname='Konstantynowicz' fullname='Maciek Konstantynowicz'>
+    <organization />
+</author>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2014' />
+
+<abstract><t>With increasing deployment of Loop-Free Alternates (LFA) [RFC5286], it is clear that a complete solution for IP and LDP Fast-Reroute is required.  This specification provides that solution.  IP/LDP Fast- Reroute with Maximally Redundant Trees (MRT-FRR) is a technology that gives link-protection and node-protection with 100% coverage in any network topology that is still connected after the failure.  MRT removes all need to engineer for coverage.  MRT is also extremely computationally efficient.  For any router in the network, the MRT computation is less than the LFA computation for a node with three or more neighbors.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rtgwg-mrt-frr-architecture-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-mrt-frr-architecture-04.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-mrt-frr-architecture-04.pdf' />
+</reference>

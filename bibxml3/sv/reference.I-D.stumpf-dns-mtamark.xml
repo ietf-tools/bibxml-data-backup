@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stumpf-dns-mtamark'>
+<front>
+<title>Marking Mail Transfer Agents in Reverse DNS with TXT RRs</title>
+
+<author initials='M' surname='Stumpf' fullname='Markus Stumpf'>
+    <organization />
+</author>
+
+<date month='May' day='2' year='2005' />
+
+<abstract><t>In contrast to other more extensive approaches to deal with unsolicited email, commonly called "spam", this memo discusses a very simple authentication scheme. It uses marking of hosts in reverse DNS (IN-ADDR.ARPA and IP6.ARPA zones) to allow the receiving mail transfer agents to decide whether the connecting (sending) host is a designated mail transfer agent (MTA) or not. Despite being a weaker scheme than most of the other proposals currently discussed, it can reduce the amount of spam and viruses/ worms significantly and has the advantage that it can be implemented based on existing and well-established Internet technology like DNS without any changes to that technology. This document is part of the LMAP work of the Anti-Spam Research Group (ASRG) of the IRTF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stumpf-dns-mtamark-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stumpf-dns-mtamark-04.txt' />
+</reference>

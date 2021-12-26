@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yan-netext-hnprenum'>
+<front>
+<title>Home Network Prefix Renumbering in PMIPv6</title>
+
+<author initials='Z' surname='Yan' fullname='Zhiwei Yan'>
+    <organization />
+</author>
+
+<author initials='J' surname='Lee' fullname='Jong-Hyouk Lee'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2014' />
+
+<abstract><t>In the basic Proxy Mobile IPv6 (PMIPv6) specification, a Mobile Node (MN) is assigned a 64-bit Home Network Prefix (HNP) during the initial attachment for the Home Address (HoA) configuration. During the movements of the MN, this prefix is unchanged and unnecessary for the MN to reconfigure the HoA. However, the current protocol does not specify related operations to support the MN to timely receive and configure a new HNP when the allocated HNP changes. In this draft, this problem is discussed and a possible solution is proposed based on RFC 7077.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yan-netext-hnprenum-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yan-netext-hnprenum-01.txt' />
+</reference>

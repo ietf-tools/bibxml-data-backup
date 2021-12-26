@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-ccamp-mpls-tp-rsvpte-ext-tunnel-num'>
+<front>
+<title>RSVP-TE Extensions to Exchange MPLS-TP LSP Tunnel Numbers</title>
+
+<author initials='F' surname='Zhang' fullname='Fei Zhang'>
+    <organization />
+</author>
+
+<author initials='V' surname='Mahalingam' fullname='Venkatesan Mahalingam'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Xu' fullname='Yunbin Xu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gandhi' fullname='Rakesh Gandhi'>
+    <organization />
+</author>
+
+<date month='August' day='15' year='2012' />
+
+<abstract><t>The MPLS Transport Profile (MPLS-TP) identifiers document [RFC6370] specifies an initial set of identifiers, including the local assigned Z9-Tunnel_Num, which can be used to form Maintenance Entity Point Identifier (MEP_ID).  As to some Operation, Administration and Maintenance (OAM) functions, such as Connectivity Verification (CV) [RFC6428], source MEP_ID must be inserted in the OAM packets, so that the peer endpoint can compare the received and expected MEP_IDs to judge whether there is a mis-connectivity defect [RFC6371], which means that the two MEP nodes need to pre-store each other's MEP_IDs.  This document defines the signaling extensions to communicate the local assigned Z9-Tunnel_Num to the ingress LSR (Label Switching Router) of a co-routed bidirectional LSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-ccamp-mpls-tp-rsvpte-ext-tunnel-num-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-ccamp-mpls-tp-rsvpte-ext-tunnel-num-04.txt' />
+</reference>

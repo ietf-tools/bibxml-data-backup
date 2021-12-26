@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.masinter-dated-uri'>
+<front>
+<title>The "tdb" URI scheme: denoting described resources</title>
+
+<author initials='L' surname='Masinter' fullname='Larry Masinter'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2009' />
+
+<abstract><t>This document defines a URI scheme, "tdb" ( standing for "Thing Described By").  It provides a semantic hook for allowing anyone at any time to mint a URI for anything that they can describe.  Such URIs may include a timestamp to fix the description at a given date or time.  This URI scheme may reduce the need to define define new URN namespaces merely for the purpose of creating stable identifiers.  In addition, they provide a ready means for identifying "non-information resources" by semantic indirection -- a way of creating a URI for anything.  Note  This document is not a product of any working group.  Many of the ideas here have been discussed since 2001.  This document has been discussed on the mailing list &lt;uri@w3.org>.  Previous versions have couched "tdb" as a URN namespace, and included a "duri" scheme for fixing date without indirection, which seems unnecessary.  It was originally written as a thought experiment as a way of resolving the use/mention problem in semantic web applications, but may have other uses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-masinter-dated-uri-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-masinter-dated-uri-06.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-masinter-dated-uri-06.pdf' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iyengar-minion-concept'>
+<front>
+<title>Minion - Service Model and Conceptual API</title>
+
+<author initials='J' surname='Jana' fullname='Jana'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cheshire' fullname='Stuart Cheshire'>
+    <organization />
+</author>
+
+<author initials='J' surname='Graessley' fullname='Josh Graessley'>
+    <organization />
+</author>
+
+<date month='July' day='15' year='2013' />
+
+<abstract><t>Minion uses TCP-format packets on-the-wire, to provide full compatibility with existing NATs, Firewalls, and similar middleboxes, but provides a richer set of facilities to the application.  Minion's richer facilities include a message-oriented API rather than TCP's unstructured byte-stream service model, multiplexing of multiple messages (or message streams) on a single connection, interleaving of multiplexed messages (to eliminate head-of-line blocking), message cancellation, request/reply support, ordered and unordered messages, chained messages, multiple priority levels with byte-granularity preemption, and DTLS Security.  Minion can be implemented entirely as a user-level library, without waiting for any special support from OS vendors, and provides immediate benefits to application developers. Additionally, Minion is able to take advantage of some simple kernel extensions to provide enhanced services that go beyond what is possible with traditional TCP.  These kernel extensions are optional, and even without them, Minion offers worthwhile benefits to application developers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iyengar-minion-concept-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iyengar-minion-concept-01.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-tokbind-https-18.txt'>
+    <title>"Token Binding over HTTP", Andrey Popov, Magnus Nystrom, Dirk Balfanz, Adam Langley, Nick Harper, Jeff Hodges</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-tokbind-https-18.txt</link>
+    <description>This document describes a collection of mechanisms that allow HTTP servers to cryptographically bind security tokens (such as cookies and OAuth tokens) to TLS connections.  We describe both first-party and federated scenarios.  In a first- party scenario, an HTTP server is able to cryptographically bind the security tokens it issues to a client, and which the client subsequently returns to the server, to the TLS connection between the client and server.  Such bound security tokens are protected from misuse since the server can generally detect if they are replayed inappropriately, e.g., over other TLS connections.  Federated token bindings, on the other hand, allow servers to cryptographically bind security tokens to a TLS connection that the client has with a different server than the one issuing the token.  This document is a companion document to The Token Binding Protocol.</description>
+    <dc:date>2018-06-26T07:00:00-00:00</dc:date>
+</item>

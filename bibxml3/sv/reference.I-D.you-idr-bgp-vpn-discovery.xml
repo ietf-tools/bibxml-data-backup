@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.you-idr-bgp-vpn-discovery'>
+<front>
+<title>BGP VPN Peer Discovery Method</title>
+
+<author initials='J' surname='You' fullname='Jianjie You'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Liang' fullname='Qiandeng Liang'>
+    <organization />
+</author>
+
+<date month='September' day='15' year='2014' />
+
+<abstract><t>This document proposes a VPN peer discovery method based on BGP.  All BGP peers need to establish sessions with a centralized control point which collects and distributes BGP VPN Peer information according to local policies or filtering policies subscribed from BGP peers. Thereafter, the BGP node can select the interested peers with the same VPN services to establish sessions.  This would avoid unnecessary session between uninterested BGP peers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-you-idr-bgp-vpn-discovery-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-you-idr-bgp-vpn-discovery-00.txt' />
+</reference>

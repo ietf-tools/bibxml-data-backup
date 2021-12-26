@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-kumarzheng-bier-ping-03.txt'>
+    <title>"BIER Ping and Trace", Nagendra Kumar, Carlos Pignataro, Nobo Akiya, Lianshu Zheng, Mach Chen, Greg Mirsky</title>
+    <link>http://www.ietf.org/internet-drafts/draft-kumarzheng-bier-ping-03.txt</link>
+    <description>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain any multicast related per- flow state.  BIER also does not require any explicit tree-building protocol for its operation.  A multicast data packet enters a BIER domain at a "Bit-Forwarding Ingress Router" (BFIR), and leaves the BIER domain at one or more "Bit-Forwarding Egress Routers" (BFERs). The BFIR router adds a BIER header to the packet.  The BIER header contains a bit-string in which each bit represents exactly one BFER to forward the packet to.  The set of BFERs to which the multicast packet needs to be forwarded is expressed by setting the bits that correspond to those routers in the BIER header.  This document describes the mechanism and basic BIER OAM packet format that can be used to perform failure detection and isolation on BIER data plane.</description>
+    <dc:date>2016-07-05T07:00:00-00:00</dc:date>
+</item>

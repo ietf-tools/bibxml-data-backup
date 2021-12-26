@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-6man-rfc3484bis'>
+<front>
+<title>Default Address Selection for Internet Protocol version 6 (IPv6)</title>
+
+<author initials='D' surname='Thaler' fullname='Dave Thaler'>
+    <organization />
+</author>
+
+<author initials='R' surname='Draves' fullname='Richard Draves'>
+    <organization />
+</author>
+
+<author initials='A' surname='Matsumoto' fullname='Arifumi Matsumoto'>
+    <organization />
+</author>
+
+<author initials='T' surname='Chown' fullname='Tim Chown'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2012' />
+
+<abstract><t>This document describes two algorithms, for source address selection and for destination address selection.  The algorithms specify default behavior for all Internet Protocol version 6 (IPv6) implementations.  They do not override choices made by applications or upper-layer protocols, nor do they preclude the development of more advanced mechanisms for address selection.  The two algorithms share a common context, including an optional mechanism for allowing administrators to provide policy that can override the default behavior.  In dual stack implementations, the destination address selection algorithm can consider both IPv4 and IPv6 addresses - depending on the available source addresses, the algorithm might prefer IPv6 addresses over IPv4 addresses, or vice-versa.  All IPv6 nodes, including both hosts and routers, must implement default address selection as defined in this specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-6man-rfc3484bis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-6man-rfc3484bis-01.txt' />
+</reference>

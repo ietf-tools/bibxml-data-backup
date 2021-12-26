@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuehlewind-quic-substrate'>
+<front>
+<title>Use Cases and Requirements for QUIC as a Substrate</title>
+
+<author initials='M' surname='Kuehlewind' fullname='Mirja Kuehlewind'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Sarker' fullname='Zaheduzzaman Sarker'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<author initials='L' surname='Pardue' fullname='Lucas Pardue'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2019' />
+
+<abstract><t>TCP is often used as a proxying or tunneling protocol.  QUIC is a new, emerging transport protocol and there is a similar expectation that it too will be used as a substrate once it is widely deployed. Using QUIC instead of TCP in existing scenarios will allow proxying and tunneling services to maintain the benefits of QUIC natively, without degrading the performance and security characteristics.  QUIC also opens up new opportunities for these services to have lower latency and better multistreaming support.  This document summarizes current and future usage scenarios to derive requirements for QUIC and to provide additional protocol considerations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuehlewind-quic-substrate-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuehlewind-quic-substrate-01.txt' />
+</reference>

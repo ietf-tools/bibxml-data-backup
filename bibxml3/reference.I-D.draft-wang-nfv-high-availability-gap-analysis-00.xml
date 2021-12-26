@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-nfv-high-availability-gap-analysis'>
+<front>
+<title>NFV High-Availability Technologies Gap Analysis</title>
+
+<author initials='Y' surname='Wang' fullname='Yang Wang'>
+    <organization />
+</author>
+
+<date month='December' day='30' year='2013' />
+
+<abstract><t>High-Availability (HA) is a very important requirement throughout the history of carrier network, many technologies have emerged for it. With the trend of Network Function Virtualization (NFV), network function are migrated from dedicated hardware to software running over COTS servers, the same SLA of HA should be provided depending on network service itself.  But some new challenges are brought by NFV, one example is Virtualized Network Function (VNF) cluster caused by the HA and performance limitation of individual VNF instance.  For the VNF cluster, some gaps exist between with the available HA technologies on issues of multi-homing, state synchronization, share- risk prevention and HA role election, especially in the network which has a large scale deployment of NFV.  This document firstly identifies the challenges emerged within NFV deployed networks.  Then, available HA technologies are reviewed and the detailed gap analysis between them with the new challenges is discussed in depth.  At last, the summary of these gaps is presented.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-nfv-high-availability-gap-analysis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-nfv-high-availability-gap-analysis-00.txt' />
+</reference>

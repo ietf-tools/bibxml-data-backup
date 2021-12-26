@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rapid-rtp-sync'>
+<front>
+<title>Rapid Synchronisation of RTP Flows</title>
+
+<author initials='C' surname='Perkins' fullname='Colin Perkins'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schierl' fullname='Thomas Schierl'>
+    <organization />
+</author>
+
+<date month='May' day='7' year='2009' />
+
+<abstract><t>This memo outlines how RTP multimedia sessions are synchronised, and discusses how rapidly such synchronisation can occur.  We show that most RTP sessions can be synchronised immediately, but that the use of video switching multipoint conference units (MCUs) or large source specific multicast (SSM) groups can greatly increase the initial synchronisation delay.  This increase in delay can be unacceptable to some applications that use layered and/or multi-description codecs.  This memo introduces several mechanisms to reduce the initial synchronisation delay for multimedia sessions.  It updates the RTP Control Protocol (RTCP) timing rules to reduce the initial synchronisation delay for SSM sessions.  A new feedback packet is defined for use with the Extended RTP Profile for RTCP-based Feedback (RTP/AVPF), allowing video switching MCUs to rapidly request resynchronisation.  Two new RTP header extensions are defined to allow rapid synchronisation of late joiners, and guarantee correct timestamp based decoding order recovery for layered codecs in the presence of clock skew.  Therefore, a synchronized insertion of RTP header extensions is recommended.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rapid-rtp-sync-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rapid-rtp-sync-01.txt' />
+</reference>

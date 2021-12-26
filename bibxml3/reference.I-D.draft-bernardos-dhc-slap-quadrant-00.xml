@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bernardos-dhc-slap-quadrant'>
+<front>
+<title>SLAP quadrant selection options for DHCPv6</title>
+
+<author initials='C' surname='Bernardos' fullname='Carlos Bernardos'>
+    <organization />
+</author>
+
+<author initials='A' surname='Mourad' fullname='Alain Mourad'>
+    <organization />
+</author>
+
+<date month='January' day='28' year='2019' />
+
+<abstract><t>The IEEE originally structured the 48-bit MAC address space in such a way that half of it was reserved for local use.  Recently, the IEEE has been working on a new specification (IEEE 802c) which defines a new "optional Structured Local Address Plan" (SLAP) that specifies different assignment approaches in four specified regions of the local MAC address space.  The IEEE is working on mechanisms to allocate addresses in the one of these quadrants (IEEE 802.1CQ).  There is work also in the IETF working on specifying new mechanism that extends DHCPv6 operation to handle the local MAC address assignments.  In this document, we complement this IETF work by defining a mechanism to allow choosing the SLAP quadrant to use in the allocation of the MAC address to the requesting terminal/client.  This document proposes extensions to DHCPv6 protocols to enable a DHCPv6 client or a DHCPv6 relay to indicate a preferred SLAP quadrant to the server, so that the server allocates correspondingly the MAC address to the given client or relay.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bernardos-dhc-slap-quadrant-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bernardos-dhc-slap-quadrant-00.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-avt-hc-mpls-reqs-03.txt'>
+    <title>"Requirements for Header Compression over MPLS", Jerry Ash, Bur Goode, Jim  Hand, Raymond Zhang</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-avt-hc-mpls-reqs-03.txt</link>
+    <description>VoIP typically uses the encapsulation voice/RTP/UDP/IP. When MPLS labels are added, this becomes voice/RTP/UDP/IP/MPLS-labels, where, for example, the packet header is at least 48 bytes, while the voice payload is often no more than 30 bytes. Header compression can significantly reduce the overhead through various compression mechanisms, such as enhanced compressed RTP (ECRTP) and robust header compression (ROHC). We consider using MPLS to route compressed packets over an MPLS LSP without compression/decompression cycles at each router. This approach can increase the bandwidth efficiency as well as processing scalability of the maximum number of simultaneous flows that use header compression at each router. In the draft we give a problem statement, goals and requirements, and an example scenario.</description>
+    <dc:date>2004-08-25T07:00:00-00:00</dc:date>
+</item>

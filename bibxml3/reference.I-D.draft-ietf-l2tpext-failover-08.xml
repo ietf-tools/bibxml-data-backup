@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l2tpext-failover'>
+<front>
+<title>Fail Over extensions for L2TP "failover"</title>
+
+<author initials='V' surname='Jain' fullname='Vipin Jain'>
+    <organization />
+</author>
+
+<date month='April' day='27' year='2006' />
+
+<abstract><t>L2TP is a connection-oriented protocol that has shared state between active endpoints. Some of this shared state is vital for operation but may be rather volatile in nature, such as packet sequence numbers used on the L2TP Control Connection. When failure of one side of a control connection occurs, a new control connection is created and associated with the old connection by exchanging information about the old connection. Such a mechanism is not intended as a replacement for an active fail over with some mirrored connection states, but as an aid just for those parameters that are particularly difficult to have immediately available. Protocol extensions to L2TP defined in this document are intended to facilitate state recovery, providing additional resiliency in an L2TP network and improving a remote system's layer 2 connectivity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l2tpext-failover-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l2tpext-failover-08.txt' />
+</reference>

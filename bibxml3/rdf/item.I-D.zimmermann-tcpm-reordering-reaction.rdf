@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-zimmermann-tcpm-reordering-reaction-02.pdf'>
+    <title>"Making TCP Adaptively Robust to Non-Congestion Events", Alexander Zimmermann, Lennart Schulte, Carsten Wolff, Arnd Hannemann</title>
+    <link>http://www.ietf.org/internet-drafts/draft-zimmermann-tcpm-reordering-reaction-02.pdf</link>
+    <description>This document specifies an adaptive Non-Congestion Robustness (aNCR) mechanism for TCP.  In the absence of explicit congestion notification from the network, TCP uses only packet loss as an indication of congestion.  One of the signals TCP uses to determine loss is the arrival of three duplicate acknowledgments.  However, this heuristic is not always correct, notably in the case when paths reorder packets.  This results in degraded performance.  TCP-aNCR is designed to mitigate this performance degradation by adaptively increasing the number of duplicate acknowledgments required to trigger loss recovery, based on the current state of the connection, in an effort to better disambiguate true segment loss from segment reordering.  This document specifies the changes to TCP and TCP-NCR (on which this specification is build on) and discusses the costs and benefits of these modifications.</description>
+    <dc:date>2014-11-10T08:00:00-00:00</dc:date>
+</item>

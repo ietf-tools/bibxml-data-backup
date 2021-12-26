@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sidr-bgpsec-threats'>
+<front>
+<title>Threat Model for BGP Path Security</title>
+
+<author initials='S' surname='Kent' fullname='Stephen Kent'>
+    <organization />
+</author>
+
+<author initials='A' surname='Chi' fullname='Andrew Chi'>
+    <organization />
+</author>
+
+<date month='February' day='3' year='2012' />
+
+<abstract><t>This document describes a threat model for BGP path security (BGPSEC).  It assumes the context established by the SIDR WG charter, as of April 19, 2011.  The charter established two goals for the SIDR work:  o  Enabling an AS to verify the authorization of an origin AS to originate a specified set of prefixes  o  Enabling an AS to verify that the AS-PATH represented in a route matches the path travelled by the NLRI for the route  The charter further mandates that SIDR build upon the Resource Public Key Infrastructure (RPKI), the first product of the WG.  Consistent with the charter, this threat model includes an analysis of the RPKI, and focuses on the ability of an AS to verify the authenticity of the AS path info received in a BGP update.  The model assumes that BGP path security is achieved through the application of digital signatures to AS_Path Info.  The document characterizes classes of potential adversaries that are considered to be threats, and examines classes of attacks that might be launched against BGPSEC.  It concludes with brief discussion of residual vulnerabilities.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidr-bgpsec-threats-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sidr-bgpsec-threats-01.txt' />
+</reference>

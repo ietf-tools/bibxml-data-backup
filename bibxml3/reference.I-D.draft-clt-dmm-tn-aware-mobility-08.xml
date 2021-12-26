@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.clt-dmm-tn-aware-mobility'>
+<front>
+<title>Transport Network aware Mobility for 5G</title>
+
+<author initials='U' surname='Chunduri' fullname='Uma Chunduri'>
+    <organization />
+</author>
+
+<author initials='R' surname='Li' fullname='Renwei Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bhaskaran' fullname='Sridhar Bhaskaran'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kaippallimalil' fullname='John Kaippallimalil'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='L' surname='Contreras' fullname='Luis Contreras'>
+    <organization />
+</author>
+
+<author initials='P' surname='Muley' fullname='Praveen Muley'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2020' />
+
+<abstract><t>This document specifies a framework and mapping from slices in 5G mobile systems to transport slices in IP and Layer 2 transport networks.  Slices in 5G systems are characterized by latency bounds, reservation guarantees, jitter, data rates, availability, mobility speed, usage density, criticality and priority.  These characteristics should be mapped to the transport network slice characteristics that include bandwidth, latency and criteria such as isolation, directionality and disjoint routes.  Mobile slice criteria need to be mapped to the appropriate transport slice and capabilities offered in backhaul, midhaul and fronthaul connectivity segments between radio side network functions and user plane function (gateway).  This document describes how mobile network functions map its slice criteria to identifiers in IP packets that transport network segments use to grant transport layer services during UE mobility scenarios. Applicability of this framework and underlying transport networks, which can enable different slice properties is also discussed.  This is based on mapping between mobile and transport underlays (L2, Segment Routing, IPv6, MPLS and IPv4).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-clt-dmm-tn-aware-mobility-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-clt-dmm-tn-aware-mobility-08.txt' />
+</reference>

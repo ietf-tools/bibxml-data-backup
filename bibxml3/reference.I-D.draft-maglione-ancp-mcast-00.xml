@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.maglione-ancp-mcast'>
+<front>
+<title>ANCP Multicast Handling</title>
+
+<author initials='R' surname='Maglione' fullname='Roberta Maglione'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2007' />
+
+<abstract><t>This draft is aimed at presenting ANCP Multicast Handling in order to extend the high level multicast description currently present in [1] and [2]. The document describes the ANCP Multicast use cases as well as the protocol requirements and message flows derived from the use cases. The proposal is mainly driven by the following two objectives. First, enabling NAS and AN to functionally behave as one single black box, while replication is performed on the AN, but without any loss of functionality compared to if replication was performed on NAS. Second, allowing the necessary information to be provided by NAS to the AN to perform multicast admission decision locally when possible and/or desirable, and allowing the AN to query the NAS when further decisions are needed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-maglione-ancp-mcast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-maglione-ancp-mcast-00.txt' />
+</reference>

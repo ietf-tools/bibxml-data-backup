@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nainar-mpls-rfc8287-errata'>
+<front>
+<title>RFC8287 Sub-TLV Length Clarification</title>
+
+<author initials='N' surname='Kumar' fullname='Nagendra Kumar'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='f' surname='faiqbal@cisco.com' fullname='faiqbal@cisco.com'>
+    <organization />
+</author>
+
+<author initials='S' surname='Vainshtein' fullname='Sasha Vainshtein'>
+    <organization />
+</author>
+
+<date month='June' day='17' year='2018' />
+
+<abstract><t>RFC8287 defines the extensions to MPLS LSP Ping and Traceroute for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifier (SIDs) with an MPLS data plane.  RFC8287 proposes 3 Target FEC Stack Sub-TLVs.  While the standard defines the format and procedure to handle those Sub-TLVs, it does not sufficiently clarify how the length of the Segment ID Sub-TLVs should be computed to include in the Length field of the Sub-TLVs which may result in interoperability issues.  This document updates RFC8287 by clarifying the length of each Segment ID Sub-TLVs defined in RFC8287.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nainar-mpls-rfc8287-errata-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nainar-mpls-rfc8287-errata-00.txt' />
+</reference>

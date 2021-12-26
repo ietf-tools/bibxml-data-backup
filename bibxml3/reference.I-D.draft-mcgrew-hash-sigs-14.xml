@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mcgrew-hash-sigs'>
+<front>
+<title>Hash-Based Signatures</title>
+
+<author initials='D' surname='McGrew' fullname='David McGrew'>
+    <organization />
+</author>
+
+<author initials='M' surname='Curcio' fullname='Michael Curcio'>
+    <organization />
+</author>
+
+<author initials='S' surname='Fluhrer' fullname='Scott Fluhrer'>
+    <organization />
+</author>
+
+<date month='December' day='19' year='2018' />
+
+<abstract><t>This note describes a digital signature system based on cryptographic hash functions, following the seminal work in this area of Lamport, Diffie, Winternitz, and Merkle, as adapted by Leighton and Micali in 1995.  It specifies a one-time signature scheme and a general signature scheme.  These systems provide asymmetric authentication without using large integer mathematics and can achieve a high security level.  They are suitable for compact implementations, are relatively simple to implement, and naturally resist side-channel attacks.  Unlike most other signature systems, hash-based signatures would still be secure even if it proves feasible for an attacker to build a quantum computer.  This document is a product of the Crypto Forum Research Group (CFRG) in the IRTF.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mcgrew-hash-sigs-14' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mcgrew-hash-sigs-14.txt' />
+</reference>

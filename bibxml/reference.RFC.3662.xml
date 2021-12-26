@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC3662' target='https://www.rfc-editor.org/info/rfc3662'>
+<front>
+<title>A Lower Effort Per-Domain Behavior (PDB) for Differentiated Services</title>
+<author initials='R.' surname='Bless' fullname='R. Bless'><organization /></author>
+<author initials='K.' surname='Nichols' fullname='K. Nichols'><organization /></author>
+<author initials='K.' surname='Wehrle' fullname='K. Wehrle'><organization /></author>
+<date year='2003' month='December' />
+<abstract><t>This document proposes a differentiated services per-domain behavior (PDB) whose traffic may be &quot;starved&quot; (although starvation is not strictly required) in a properly functioning network.  This is in contrast to the Internet's &quot;best-effort&quot; or &quot;normal Internet traffic&quot; model, where prolonged starvation indicates network problems.  In this sense, the proposed PDB's traffic is forwarded with a &quot;lower&quot; priority than the normal &quot;best-effort&quot; Internet traffic, thus the PDB is called &quot;Lower Effort&quot; (LE).  Use of this PDB permits a network operator to strictly limit the effect of its traffic on &quot;best-effort&quot;/&quot;normal&quot; or all other Internet traffic.  This document gives some example uses, but does not propose constraining the PDB's use to any particular type of traffic.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='3662'/>
+<seriesInfo name='DOI' value='10.17487/RFC3662'/>
+</reference>

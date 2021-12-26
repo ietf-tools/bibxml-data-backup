@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.randriamasy-alto-cost-calendar'>
+<front>
+<title>ALTO Cost Calendar</title>
+
+<author initials='S' surname='Randriamasy' fullname='Sabine Randriamasy'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Yang Yang'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wu' fullname='Wenson Wu'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lingli' fullname='Deng Lingli'>
+    <organization />
+</author>
+
+<author initials='N' surname='Schwan' fullname='Nico Schwan'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>The goal of Application-Layer Traffic Optimization (ALTO) is to bridge the gap between network and applications by provisioning network related information in order to allow applications to make informed decisions.  The present draft extends the ALTO cost information so as to broaden the decision possibilities of applications to not only decide 'where' to connect to, but also 'when'.  This is useful to applications that need to schedule their data transfers and connections and have a degree of freedom to do so. ALTO guidance to schedule application traffic can also efficiently help for load balancing and resources efficiency.  Besides, the ALTO Cost Calendar also allows to schedule the ALTO requests themselves and thus save a number of ALTO transactions.  The draft proposes new capabilities and attributes on filtered cost maps and endpoint costs enabling an ALTO Server to provide "Cost Calendars".  These capabilities are applicable to time-sensitive ALTO metrics With ALTO Cost Calendars, an ALTO Server exposes ALTO Cost Values in JSON arrays where each value corresponds to a given time interval.  The time intervals as well as other Calendar attributes are specified in the IRD and ALTO Server responses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-randriamasy-alto-cost-calendar-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-randriamasy-alto-cost-calendar-04.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-samrg-common-api'>
+<front>
+<title>A Common API for Transparent Hybrid Multicast</title>
+
+<author initials='M' surname='Waehlisch' fullname='Matthias Waehlisch'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schmidt' fullname='Thomas Schmidt'>
+    <organization />
+</author>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>Group communication services exist in a large variety of flavors, and technical implementations at different protocol layers.  Multicast data distribution is most efficiently performed on the lowest available layer, but a heterogeneous deployment status of multicast technologies throughout the Internet requires an adaptive service binding at runtime.  Today, it is difficult to write an application that runs everywhere and at the same time makes use of the most efficient multicast service available in the network.  Facing robustness requirements, developers are frequently forced to use a stable, upper layer protocol provided by the application itself. This document describes a common multicast API that is suitable for transparent communication in underlay and overlay, and grants access to the different multicast flavors.  It proposes an abstract naming by multicast URIs and discusses mapping mechanisms between different namespaces and distribution technologies.  Additionally, it describes the application of this API for building gateways that interconnect current multicast domains throughout the Internet.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-samrg-common-api-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-samrg-common-api-05.txt' />
+</reference>

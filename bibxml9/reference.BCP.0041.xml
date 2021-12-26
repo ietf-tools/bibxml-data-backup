@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<referencegroup anchor="BCP41" target="https://www.rfc-editor.org/info/bcp41">
+<!-- reference.RFC.2914.xml -->
+<reference  anchor='RFC2914' target='https://www.rfc-editor.org/info/rfc2914'>
+<front>
+<title>Congestion Control Principles</title>
+<author initials='S.' surname='Floyd' fullname='S. Floyd'><organization /></author>
+<date year='2000' month='September' />
+<abstract><t>The goal of this document is to explain the need for congestion control in the Internet, and to discuss what constitutes correct congestion control.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='41'/>
+<seriesInfo name='RFC' value='2914'/>
+<seriesInfo name='DOI' value='10.17487/RFC2914'/>
+</reference>
+<!-- reference.RFC.7141.xml -->
+<reference  anchor='RFC7141' target='https://www.rfc-editor.org/info/rfc7141'>
+<front>
+<title>Byte and Packet Congestion Notification</title>
+<author initials='B.' surname='Briscoe' fullname='B. Briscoe'><organization /></author>
+<author initials='J.' surname='Manner' fullname='J. Manner'><organization /></author>
+<date year='2014' month='February' />
+<abstract><t>This document provides recommendations of best current practice for dropping or marking packets using any active queue management (AQM) algorithm, including Random Early Detection (RED), BLUE, Pre- Congestion Notification (PCN), and newer schemes such as CoDel (Controlled Delay) and PIE (Proportional Integral controller Enhanced).  We give three strong recommendations: (1) packet size should be taken into account when transports detect and respond to congestion indications, (2) packet size should not be taken into account when network equipment creates congestion signals (marking, dropping), and therefore (3) in the specific case of RED, the byte- mode packet drop variant that drops fewer small packets should not be used.  This memo updates RFC 2309 to deprecate deliberate preferential treatment of small packets in AQM algorithms.</t></abstract>
+</front>
+<seriesInfo name='BCP' value='41'/>
+<seriesInfo name='RFC' value='7141'/>
+<seriesInfo name='DOI' value='10.17487/RFC7141'/>
+</reference>
+</referencegroup>

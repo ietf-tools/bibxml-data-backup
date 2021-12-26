@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mglt-ipsecme-diet-esp'>
+<front>
+<title>Diet-ESP: a flexible and compressed format for IPsec/ESP</title>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<author initials='T' surname='Guggemos' fullname='Tobias Guggemos'>
+    <organization />
+</author>
+
+<author initials='D' surname='Palomares' fullname='Daniel Palomares'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2014' />
+
+<abstract><t>IPsec/ESP has been designed to secure IP packets exchanged between two nodes.  IPsec implements security at the IP layer which makes security transparent to the applications, as opposed to TLS or DTLS that requires application to implement TLS/DTLS.  As a result, IPsec enable to define the security rules in a similar way one establishes firewall rules.  One of the IPsec's drawbacks is that implementing security on a per packet basis adds overhead to each IP packet.  Considering IoT devices, the data transmitted over an IP packet is expected to be rather small, and the cost of sending extra bytes is so high that IPsec/ESP can hardly be used for IoT as it is currently defined in RFC 4303.  This document defines Diet-ESP, a protocol that compress and reduce the ESP overhead of IPsec/ESP so that it can fit security and energy efficient IoT requirements.  Diet-ESP use already existing mechanism like IKEv2 to negotiate the compression format.  Furthermore a lot of information, already existing for an IPsec Security Association, are reused to offer light negotiation in addition to maximum compression.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mglt-ipsecme-diet-esp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-ipsecme-diet-esp-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-mglt-ipsecme-diet-esp-00.pdf' />
+</reference>

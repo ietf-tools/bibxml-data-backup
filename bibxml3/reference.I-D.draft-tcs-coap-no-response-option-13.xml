@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tcs-coap-no-response-option'>
+<front>
+<title>CoAP option for no server-response</title>
+
+<author initials='A' surname='Bhattacharyya' fullname='Abhijan Bhattacharyya'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bandyopadhyay' fullname='Soma Bandyopadhyay'>
+    <organization />
+</author>
+
+<author initials='A' surname='Pal' fullname='Arpan Pal'>
+    <organization />
+</author>
+
+<author initials='T' surname='Bose' fullname='Tulika Bose'>
+    <organization />
+</author>
+
+<date month='November' day='2' year='2015' />
+
+<abstract><t>There can be M2M scenarios where responses from server against requests from client might be considered redundant. This kind of open-loop exchange (with no response path from the server to the client) may be desired to minimize resource consumption in constrained systems while simultaneously updating a bulk of resources or updating a resource with a very high frequency. CoAP already provides a non-confirmable (NON) mode of message exchange where the server end-point does not respond with ACK. However, obeying the request/response semantics, the server end-point responds back with a status code indicating "the result of the attempt to understand and satisfy the request".  This draft introduces a header option for CoAP called 'No-Response'. Using this option the client explicitly tells the server to suppress responses against the particular request. This option also provides granular control to enable suppression of a particular class or a combination of response-classes. This option may be effective for both unicast and multicast requests. Present draft also discusses few exemplary applications which benefit from this option.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tcs-coap-no-response-option-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tcs-coap-no-response-option-13.txt' />
+</reference>

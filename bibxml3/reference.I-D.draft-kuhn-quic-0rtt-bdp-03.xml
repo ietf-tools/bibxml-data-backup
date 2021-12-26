@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kuhn-quic-0rtt-bdp'>
+<front>
+<title>Transport parameters for 0-RTT connections</title>
+
+<author initials='N' surname='Kuhn' fullname='Nicolas Kuhn'>
+    <organization />
+</author>
+
+<author initials='S' surname='Emile' fullname='Stephan Emile'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fairhurst' fullname='Gorry Fairhurst'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2019' />
+
+<abstract><t>The time-to-service duration depends on both peers and the peer initiating the connection may not be the peer actually sending data. Moreover, clients may be resource-limited, behind a low bandwidth or a long-RTT network and may need adaptations to improve data transmission or reception.  While each client and server can have its dedicated solution to store path parameters, having a standard way of exchanging this information helps in providing symmetrical control of the optimisation and reducing protocol ossification.  QUIC may not be limited to HTTP3: it can be used as a substrate for proxying and tunneling.  This memo discusses a solution where the client is informed about path parameters: both the client and the server can contribute to the reduction of the time-to-service for subsequent connections.  This would improve symmetrical transmission of data and reduce ossification of the protocol.  To improve the time-to-service of subsequent 0-RTT reconnection the server currently sets in the early_data extension the maximum volume of egress data the client is allowed to send when reconnecting.  This memo proposes BDP_metadata, an additional extension, to also inform the client about path parameters.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kuhn-quic-0rtt-bdp-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kuhn-quic-0rtt-bdp-03.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l3vpn-ipsec-2547'>
+<front>
+<title>Architecture for the Use of PE-PE IPsec Tunnels in BGP/MPLS IP VPNs</title>
+
+<author initials='E' surname='Rosen' fullname='Eric  Rosen'>
+    <organization />
+</author>
+
+<date month='August' day='8' year='2005' />
+
+<abstract><t>In BGP/MPLS IP Virtual Private Networks (VPNs), VPN data packets traveling from one Provider Edge (PE) router to another generally carry two MPLS labels, an "inner" label that corresponds to a VPN- specific route, and an "outer" label that corresponds to a Label Switched Path (LSP) between the PE routers.  In some circumstances, it is desirable to support the same type of VPN architecture, but using an IPsec Security Association in place of that LSP.  The "outer" MPLS label would thus be replaced by an IP/IPsec header. This enables the VPN packets to be carried securely over non-MPLS networks, using standard IPsec authentication and/or encryption functions to protect them.  This draft specifies the procedures which are specific to support of BGP/MPLS IP VPNs using the IPsec encapsulation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l3vpn-ipsec-2547-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l3vpn-ipsec-2547-05.txt' />
+</reference>

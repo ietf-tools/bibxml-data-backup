@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.watteyne-6lo-minimal-fragment'>
+<front>
+<title>LLN Minimal Fragment Forwarding</title>
+
+<author initials='T' surname='Watteyne' fullname='Thomas Watteyne'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<author initials='P' surname='Thubert' fullname='Pascal Thubert'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2018' />
+
+<abstract><t>This document gives an overview of LLN Minimal Fragment Forwarding. When employing adaptation layer fragmentation in 6LoWPAN, it may be beneficial for a forwarder not to have to reassemble each packet in its entirety before forwarding it.  This has been always possible with the original fragmentation design of RFC4944.  This document details the Virtual Reassembly Buffer (VRB) implementation technique which reduces the latency and increases end-to-end reliability in route-over forwarding, and discusses its limits.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-watteyne-6lo-minimal-fragment-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-watteyne-6lo-minimal-fragment-00.txt' />
+</reference>

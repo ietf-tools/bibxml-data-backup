@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eggert-core-congestion-control'>
+<front>
+<title>Congestion Control for the Constrained Application Protocol (CoAP)</title>
+
+<author initials='L' surname='Eggert' fullname='Lars Eggert'>
+    <organization />
+</author>
+
+<date month='January' day='27' year='2011' />
+
+<abstract><t>The Constrained Application Protocol (CoAP) is a simple, low- overhead, UDP-based protocol for use with resource-constrained IP networks and nodes.  CoAP defines a simple technique to individually retransmit lost messages, but has no other congestion control mechanisms.  This document motivates the need for additional congestion control mechanisms, and defines some simple strawman proposals.  The goal is to encourage experimentation with these and other proposals, in order to determine which mechanisms are feasible to implement on resource- constrained nodes and are effective in real deployments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eggert-core-congestion-control-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eggert-core-congestion-control-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.maenpaa-p2psip-self-tuning'>
+<front>
+<title>A Self-tuning Distributed Hash Table (DHT) for REsource LOcation And  Discovery (RELOAD)</title>
+
+<author initials='J' surname='Maenpaa' fullname='Jouni Maenpaa'>
+    <organization />
+</author>
+
+<author initials='G' surname='Camarillo' fullname='Gonzalo Camarillo'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hautakorpi' fullname='Jani Hautakorpi'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2009' />
+
+<abstract><t>REsource LOcation And Discovery (RELOAD) is a peer-to-peer (P2P) signaling protocol that provides an overlay network service.  Peers in a RELOAD overlay network collectively run an overlay algorithm to organize the overlay, and to store and retrieve data.  RELOAD provides an abstract interface to the overlay layer that allows implementing different structured and unstructured overlay algorithms by using different topology plugins.  This document defines a new topology plugin for RELOAD.  This topology plugin implements a self- tuning DHT (Distributed Hash Table), which adapts to changing operating conditions (e.g., churn and network size).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-maenpaa-p2psip-self-tuning-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-maenpaa-p2psip-self-tuning-00.txt' />
+</reference>

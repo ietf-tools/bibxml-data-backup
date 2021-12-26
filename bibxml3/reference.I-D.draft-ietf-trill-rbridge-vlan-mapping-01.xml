@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-rbridge-vlan-mapping'>
+<front>
+<title>RBridge VLAN Mapping</title>
+
+<author initials='R' surname='Perlman' fullname='Radia Perlman'>
+    <organization />
+</author>
+
+<author initials='D' surname='3rd' fullname='Donald Eastlake 3rd'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dutt' fullname='Dinesh Dutt'>
+    <organization />
+</author>
+
+<date month='December' day='4' year='2009' />
+
+<abstract><t>Some bridge products perform a feature known as "VLAN mapping" or "VLAN ID translation", in which a bridge translates a data frame's VLAN ID from one VLAN to another when it forwards a frame from one port to another. This feature facilitates scenarios such as combining two bridged LANs with overlapping VLAN IDs into one bridged LAN without merging two communities just because they have been given the same VLAN ID in the original two clouds. This document describes how RBridges can achieve the same functionality.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-rbridge-vlan-mapping-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-rbridge-vlan-mapping-01.txt' />
+</reference>

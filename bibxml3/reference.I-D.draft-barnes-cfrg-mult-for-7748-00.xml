@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barnes-cfrg-mult-for-7748'>
+<front>
+<title>Homomorphic Multiplication for X25519 and X448</title>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='J' surname='Alwen' fullname='Joel Alwen'>
+    <organization />
+</author>
+
+<author initials='S' surname='Corretti' fullname='Sandro Corretti'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2019' />
+
+<abstract><t>In some contexts it is useful for holders of the private and public parts of an elliptic curve key pair to be able to independently apply an updates to those values, such that the resulting updated public key corresponds to the updated private key.  Such updates are straightforward for older elliptic curves, but for X25519 and X448, the "clamping" prescribed for scalars requires some additional processing.  This document defines a multiplication procedure that can be used to update X25519 and X448 key pairs.  This algorithm can fail to produce a result, but only with negligible probability. Failures can be detected by the holder of the private key.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-barnes-cfrg-mult-for-7748-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-barnes-cfrg-mult-for-7748-00.txt' />
+</reference>

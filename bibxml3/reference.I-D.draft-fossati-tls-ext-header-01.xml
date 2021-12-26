@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fossati-tls-ext-header'>
+<front>
+<title>Record Header Extensions for DTLS</title>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<author initials='N' surname='Mavrogiannopoulos' fullname='Nikos Mavrogiannopoulos'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2018' />
+
+<abstract><t>This document proposes a mechanism to extend the record header in DTLS.  To that aim, the DTLS header is modified as follows: the length field is trimmed to 15 bits, and the length's top bit is given the "record header extension indicator" semantics, allowing a sender to signal that one or more record header extensions have been added to this record.  We define the generic format of a record header extension and the general rules associated with its handling.  Any details regarding syntax, semantics and negotiation of a specific record header extension, are left to future documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fossati-tls-ext-header-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fossati-tls-ext-header-01.txt' />
+</reference>

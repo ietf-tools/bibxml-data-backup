@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7743' target='https://www.rfc-editor.org/info/rfc7743'>
+<front>
+<title>Relayed Echo Reply Mechanism for Label Switched Path (LSP) Ping</title>
+<author initials='J.' surname='Luo' fullname='J. Luo' role='editor'><organization /></author>
+<author initials='L.' surname='Jin' fullname='L. Jin' role='editor'><organization /></author>
+<author initials='T.' surname='Nadeau' fullname='T. Nadeau' role='editor'><organization /></author>
+<author initials='G.' surname='Swallow' fullname='G. Swallow' role='editor'><organization /></author>
+<date year='2016' month='January' />
+<abstract><t>In some inter-AS (Autonomous System) and inter-area deployment scenarios for RFC 4379 (&quot;Label Switched Path (LSP) Ping and                           Traceroute&quot;), a replying Label Switching Router (LSR) may not have the available route to an initiator, and the Echo Reply message sent to the initiator would be discarded, resulting in false negatives or a complete failure of operation of the LSP Ping and Traceroute.  This document describes extensions to the LSP Ping mechanism to enable the replying LSR to have the capability to relay the Echo Response by a set of routable intermediate nodes to the initiator.  This document updates RFC 4379.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7743'/>
+<seriesInfo name='DOI' value='10.17487/RFC7743'/>
+</reference>

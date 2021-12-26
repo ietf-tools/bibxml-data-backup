@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7132' target='https://www.rfc-editor.org/info/rfc7132'>
+<front>
+<title>Threat Model for BGP Path Security</title>
+<author initials='S.' surname='Kent' fullname='S. Kent'><organization /></author>
+<author initials='A.' surname='Chi' fullname='A. Chi'><organization /></author>
+<date year='2014' month='February' />
+<abstract><t>This document describes a threat model for the context in which External Border Gateway Protocol (EBGP) path security mechanisms will be developed.  The threat model includes an analysis of the Resource Public Key Infrastructure (RPKI) and focuses on the ability of an Autonomous System (AS) to verify the authenticity of the AS path info received in a BGP update.  We use the term &quot;PATHSEC&quot; to refer to any BGP path security technology that makes use of the RPKI.  PATHSEC will secure BGP, consistent with the inter-AS security focus of the RPKI.</t><t>The document characterizes classes of potential adversaries that are considered to be threats and examines classes of attacks that might be launched against PATHSEC.  It does not revisit attacks against unprotected BGP, as that topic has already been addressed in the BGP-4 standard.  It concludes with a brief discussion of residual vulnerabilities.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7132'/>
+<seriesInfo name='DOI' value='10.17487/RFC7132'/>
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-dekok-radext-request-authenticator-03.txt'>
+    <title>"Correlating requests and replies in the Remote Authentication Dial In User Service (RADIUS) Protocol via the Request Authenticator.", Alan DeKok</title>
+    <link>http://www.ietf.org/internet-drafts/draft-dekok-radext-request-authenticator-03.txt</link>
+    <description>RADIUS uses a one-octet Identifier field to correlate requests and responses, which limits clients to 256 "in flight" packets per connection.  This document removes that limitation by allowing Request Authenticator to be used as an additional field for identifying packets.  The capability is negotiated on a per- connection basis, and requires no changes to the RADIUS packet format, attribute encoding, or data types.</description>
+    <dc:date>2017-12-04T08:00:00-00:00</dc:date>
+</item>

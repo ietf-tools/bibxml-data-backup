@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.harrison-regext-rdap-redirect-with-content'>
+<front>
+<title>RDAP Redirect with Content</title>
+<author initials='T' surname='Harrison' fullname='Tom Harrison'>
+<organization />
+</author>
+<author initials='G' surname='Michaelson' fullname='George Michaelson'>
+<organization />
+</author>
+<date year='2020' month='November' day='01' />
+<abstract><t>The Registration Data Access Protocol (RDAP) is used by Regional Internet Registries (RIRs) and Domain Name Registries (DNRs) to provide access to their resource registration information.  When an RDAP service operator has delegated authority for a resource to a third party, the operator will configure its RDAP service to redirect requests for that resource to the third party.  However, the client may be interested in the resource registration data that the first service operator has in its own right, for various reasons.  This document defines a conformance code that a service operator can use to indicate that when redirecting requests, it will also include as the body of the response the RDAP object (if any) that it has in its own right for the requested resource.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-harrison-regext-rdap-redirect-with-content-00'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-harrison-regext-rdap-redirect-with-content-00.txt'/>
+</reference>

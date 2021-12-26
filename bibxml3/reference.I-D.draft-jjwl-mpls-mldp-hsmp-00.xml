@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jjwl-mpls-mldp-hsmp'>
+<front>
+<title>LDP Extensions for Hub &amp; Spoke Multipoint Label Switched Path</title>
+
+<author initials='L' surname='Jin' fullname='Lizhong Jin'>
+    <organization />
+</author>
+
+<author initials='F' surname='JOUNAY' fullname='Frederic JOUNAY'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='N' surname='Leymann' fullname='Nicolai Leymann'>
+    <organization />
+</author>
+
+<date month='August' day='3' year='2012' />
+
+<abstract><t>This draft introduces a hub &amp; spoke multipoint LSP (short for HSMP LSP), which allows traffic both from root to leaf through P2MP LSP and also leaf to root along the co-routed reverse path.  That means traffic entering the HSMP LSP from application/customer at the root node travels downstream, exactly as if it was traveling downstream along a P2MP LSP to each leaf node, and traffic entering the HSMP LSP at any leaf node travels upstream along the tree to the root as if it is unicast to the root, except that it follows the path of the tree rather than ordinary unicast path.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jjwl-mpls-mldp-hsmp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jjwl-mpls-mldp-hsmp-00.txt' />
+</reference>

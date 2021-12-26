@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-emu-rfc5448bis'>
+<front>
+<title>Improved Extensible Authentication Protocol Method for 3rd Generation Authentication and Key Agreement (EAP-AKA')</title>
+
+<author initials='J' surname='Arkko' fullname='Jari Arkko'>
+    <organization />
+</author>
+
+<author initials='V' surname='Lehtovirta' fullname='Vesa Lehtovirta'>
+    <organization />
+</author>
+
+<author initials='V' surname='Torvinen' fullname='Vesa Torvinen'>
+    <organization />
+</author>
+
+<author initials='P' surname='Eronen' fullname='Pasi Eronen'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2018' />
+
+<abstract><t>This specification defines a new EAP method, EAP-AKA', a small revision of the EAP-AKA method.  The change is a new key derivation function that binds the keys derived within the method to the name of the access network.  The new key derivation mechanism has been defined in the 3rd Generation Partnership Project (3GPP).  This specification allows its use in EAP in an interoperable manner.  In addition, EAP-AKA' employs SHA-256 instead of SHA-1.  This specification also updates RFC 4187 EAP-AKA to prevent bidding down attacks from EAP-AKA'.  This version of the EAP-AKA' specification updates a reference to constructing one field in the protocol, so that EAP-AKA' becomes compatible with 5G deployments as well.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-emu-rfc5448bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-emu-rfc5448bis-00.txt' />
+</reference>

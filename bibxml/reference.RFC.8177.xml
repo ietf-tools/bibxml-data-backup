@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8177' target='https://www.rfc-editor.org/info/rfc8177'>
+<front>
+<title>YANG Data Model for Key Chains</title>
+<author initials='A.' surname='Lindem' fullname='A. Lindem' role='editor'><organization /></author>
+<author initials='Y.' surname='Qu' fullname='Y. Qu'><organization /></author>
+<author initials='D.' surname='Yeung' fullname='D. Yeung'><organization /></author>
+<author initials='I.' surname='Chen' fullname='I. Chen'><organization /></author>
+<author initials='J.' surname='Zhang' fullname='J. Zhang'><organization /></author>
+<date year='2017' month='June' />
+<abstract><t>This document describes the key chain YANG data model.  Key chains are commonly used for routing protocol authentication and other applications requiring symmetric keys.  A key chain is a list containing one or more elements containing a Key ID, key string, send/accept lifetimes, and the associated authentication or encryption algorithm.  By properly overlapping the send and accept lifetimes of multiple key chain elements, key strings and algorithms may be gracefully updated.  By representing them in a YANG data model, key distribution can be automated.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8177'/>
+<seriesInfo name='DOI' value='10.17487/RFC8177'/>
+</reference>

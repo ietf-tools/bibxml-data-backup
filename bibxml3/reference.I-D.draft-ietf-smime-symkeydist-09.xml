@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-smime-symkeydist'>
+<front>
+<title>CMS Symmetric Key Management and Distribution</title>
+
+<author initials='S' surname='Turner' fullname='Sean Turner'>
+    <organization />
+</author>
+
+<date month='January' day='14' year='2003' />
+
+<abstract><t>This document describes a mechanism to manage (i.e., setup, distribute, and rekey) keys used with symmetric cryptographic algorithms. Also defined herein is a mechanism to organize users into groups to support distribution of encrypted content using symmetric cryptographic algorithms. The mechanisms use the Cryptographic Message Syntax (CMS) protocol [2] and Certificate Management Message over CMS (CMC) protocol [3] to manage the symmetric keys. Any member of the group can then later use this distributed shared key to decrypt other CMS encrypted objects with the symmetric key. This mechanism has been developed to support S/MIME Mail List Agents (MLAs).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-smime-symkeydist-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-smime-symkeydist-09.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-msrp-sessmatch'>
+<front>
+<title>Connection Establishment for Media Anchoring (CEMA) for the Message Session Relay Protocol (MSRP)</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blau' fullname='Staffan Blau'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2011' />
+
+<abstract><t>This document defines an MSRP extension, Connection Establishment for Media Anchoring (CEMA).  Support of the extension is optional.  MSRP endpoints can implement the extension in order to allow MSRP communication in networks where Middleboxes anchor the MSRP connection, without the need for the Middleboxes to enable MSRP B2BUA functionality in most cases.  The document also defines a Session Description Protocol (SDP) [RFC4566] attribute, a=msrp-cema, that can be used by MSRP endpoints to indicate support of the CEMA extension.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-msrp-sessmatch-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-msrp-sessmatch-13.txt' />
+</reference>

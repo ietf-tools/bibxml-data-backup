@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-sctp-failover'>
+<front>
+<title>SCTP-PF: Quick Failover Algorithm in SCTP</title>
+
+<author initials='Y' surname='Nishida' fullname='Yoshifumi Nishida'>
+    <organization />
+</author>
+
+<author initials='P' surname='Natarajan' fullname='Preethi Natarajan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Caro' fullname='Armando Caro'>
+    <organization />
+</author>
+
+<author initials='P' surname='Amer' fullname='Paul Amer'>
+    <organization />
+</author>
+
+<author initials='K' surname='Nielsen' fullname='Karen E. E. Nielsen'>
+    <organization />
+</author>
+
+<date month='August' day='31' year='2015' />
+
+<abstract><t>SCTP supports multi-homing.  However, when the failover operation specified in RFC4960 is followed, there can be significant delay and performance degradation in the data transfer path failover.  To overcome this problem this document specifies a quick failover algorithm (SCTP-PF) based on the introduction of a Potentially Failed (PF) state in SCTP Path Management.  The document also specifies a dormant state operation of SCTP.  This dormant state operation is required to be followed by an SCTP-PF implementation, but it may equally well be applied by a standard RFC4960 SCTP implementation.  Additionally, the document introduces an alternative switchback operation mode called Primary Path Switchover that will be beneficial in certain situations.  This mode of operation applies to both a standard RFC4960 SCTP implementation as well as to a SCTP-PF implementation.  The procedures defined in the document require only minimal modifications to the RFC4960 specification.  The procedures are sender-side only and do not impact the SCTP receiver.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-sctp-failover-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-sctp-failover-12.txt' />
+</reference>

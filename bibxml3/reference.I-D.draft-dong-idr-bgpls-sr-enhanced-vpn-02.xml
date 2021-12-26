@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dong-idr-bgpls-sr-enhanced-vpn'>
+<front>
+<title>BGP-LS Extensions for Segment Routing based Enhanced VPN</title>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Hu' fullname='Zhibo Hu'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='X' surname='Tang' fullname='Xiongyan Tang'>
+    <organization />
+</author>
+
+<author initials='R' surname='Pang' fullname='Ran Pang'>
+    <organization />
+</author>
+
+<date month='June' day='23' year='2020' />
+
+<abstract><t>Enhanced VPN (VPN+) is an enhancement to VPN services to support the needs of new applications, particularly including the applications that are associated with 5G services.  These applications require enhanced isolation and have more stringent performance requirements than that can be provided with traditional overlay VPNs.  An enhanced VPN may be used for 5G transport network slicing, and will also be of use in more generic scenarios.  To meet the requirement of enhanced VPN services, a number of Virtual Transport Networks (VTNs) need to be created, each with a subset of the underlay network topology and a set of network resources allocated to meet the requirement of a specific VPN+ service, or a group of VPN+ services.  This document specifies the BGP-LS mechanisms with necessary extensions to advertise the information of Segment Routing (SR) based VTNs.  The proposed mechanism is applicable to both segment routing with MPLS data plane (SR-MPLS) and segment routing with IPv6 data plane (SRv6).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dong-idr-bgpls-sr-enhanced-vpn-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dong-idr-bgpls-sr-enhanced-vpn-02.txt' />
+</reference>

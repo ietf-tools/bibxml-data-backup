@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-emu-aka-pfs'>
+<front>
+<title>Perfect-Forward Secrecy for the Extensible Authentication Protocol Method for Authentication and Key Agreement (EAP-AKA' PFS)</title>
+
+<author initials='J' surname='Arkko' fullname='Jari Arkko'>
+    <organization />
+</author>
+
+<author initials='K' surname='Norrman' fullname='Karl Norrman'>
+    <organization />
+</author>
+
+<author initials='V' surname='Torvinen' fullname='Vesa Torvinen'>
+    <organization />
+</author>
+
+<date month='May' day='25' year='2020' />
+
+<abstract><t>Many different attacks have been reported as part of revelations associated with pervasive surveillance.  Some of the reported attacks involved compromising smart cards, such as attacking SIM card manufacturers and operators in an effort to compromise shared secrets stored on these cards.  Since the publication of those reports, manufacturing and provisioning processes have gained much scrutiny and have improved.  However, the danger of resourceful attackers for these systems is still a concern.  This specification is an optional extension to the EAP-AKA' authentication method which was defined in [I-D.ietf-emu-rfc5448bis]. The extension, when negotiated, provides Perfect Forward Secrecy for the session key generated as a part of the authentication run in EAP- AKA'.  This prevents an attacker who has gained access to the long- term pre-shared secret in a SIM card from being able to decrypt any past communications.  In addition, if the attacker stays merely a passive eavesdropper, the extension prevents attacks against future sessions.  This forces attackers to use active attacks instead.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-emu-aka-pfs-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-emu-aka-pfs-04.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.akhunger-tod-multicast'>
+<front>
+<title>Day and Time based IP Multicast</title>
+
+<author initials='A' surname='Khunger' fullname='Ajeet Khunger'>
+    <organization />
+</author>
+
+<date month='August' day='18' year='2005' />
+
+<abstract><t>This document specifies enhancement to the Internet Group Management Protocol, IGMPv3. IGMP is the protocol used by IPv4 systems to report their IP Multicast group memberships to neighboring Multicast routers. This enhancement for IGMP adds support for "specifying day, time and duration with Multicast reports", that is, the ability for a system to report interest in receiving traffic for a particular Multicast address at a particular day, time and for a specific duration. This information may be used by intermediate routers and switches to ensure providing better Quality of Service. Also specifying such information in a consolidated packet may help reduce signaling load on the multicast routers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-akhunger-tod-multicast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-akhunger-tod-multicast-00.txt' />
+</reference>

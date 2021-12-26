@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8049' target='https://www.rfc-editor.org/info/rfc8049'>
+<front>
+<title>YANG Data Model for L3VPN Service Delivery</title>
+<author initials='S.' surname='Litkowski' fullname='S. Litkowski'><organization /></author>
+<author initials='L.' surname='Tomotaki' fullname='L. Tomotaki'><organization /></author>
+<author initials='K.' surname='Ogaki' fullname='K. Ogaki'><organization /></author>
+<date year='2017' month='February' />
+<abstract><t>This document defines a YANG data model that can be used for communication between customers and network operators and to deliver a Layer 3 provider-provisioned VPN service.  This document is limited to BGP PE-based VPNs as described in RFCs 4026, 4110, and 4364.  This model is intended to be instantiated at the management system to deliver the overall service.  It is not a configuration model to be used directly on network elements.  This model provides an abstracted view of the Layer 3 IP VPN service configuration components.  It will be up to the management system to take this model as input and use specific configuration models to configure the different network elements to deliver the service.  How the configuration of network elements is done is out of scope for this document.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8049'/>
+<seriesInfo name='DOI' value='10.17487/RFC8049'/>
+</reference>

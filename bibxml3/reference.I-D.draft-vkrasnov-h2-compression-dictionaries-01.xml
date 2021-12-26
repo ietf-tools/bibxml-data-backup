@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vkrasnov-h2-compression-dictionaries'>
+<front>
+<title>Compression Dictionaries for HTTP/2</title>
+
+<author initials='V' surname='Krasnov' fullname='Vlad Krasnov'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>This document specifies a new HTTP/2 frame type and new HTTP/2 settings values that would enable the use of previously transferred data as compression dictionaries, significantly improving overall compression ratio for a given connection.  In addition, this document proposes to define a set of industry standard, static, dictionaries to be used with any Lempel-Ziv based compression for the common textual MIME types prevalent on the web.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vkrasnov-h2-compression-dictionaries-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vkrasnov-h2-compression-dictionaries-01.txt' />
+</reference>

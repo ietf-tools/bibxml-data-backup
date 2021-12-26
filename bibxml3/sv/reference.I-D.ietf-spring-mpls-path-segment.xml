@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-spring-mpls-path-segment'>
+<front>
+<title>Path Segment in MPLS Based Segment Routing Network</title>
+<author initials='W' surname='Cheng' fullname='Weiqiang Cheng'>
+<organization />
+</author>
+<author initials='H' surname='Li' fullname='Han Li'>
+<organization />
+</author>
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+<organization />
+</author>
+<author initials='R' surname='Gandhi' fullname='Rakesh Gandhi'>
+<organization />
+</author>
+<author initials='R' surname='Zigler' fullname='Royi Zigler'>
+<organization />
+</author>
+<date year='2021' month='December' day='20' />
+<abstract><t>A Segment Routing (SR) path is identified by an SR segment list. Only the complete segment list can identify the end-to-end SR path, and a sub-set of segments from the segment list cannot distinguish one SR path from another as they may be partially congruent.  SR path identification is a pre-requisite for various use-cases such as Performance Measurement (PM), bidirectional paths correlation, and end-to-end 1+1 path protection.</t><t> In SR for MPLS data plane (SR-MPLS), the segment identifiers are stripped from the packet through label popping as the packet transits the network.  This means that when a packet reaches the egress of the SR path, it is not possible to determine on which SR path it traversed the network.</t><t> This document defines a new type of segment that is referred to as Path Segment, which is used to identify an SR path in an SR-MPLS network.  When used, it is inserted by the ingress node of the SR path and immediately follows the last segment identifier in the segment list of the SR path.  The Path Segment is preserved until it reaches the egress node for SR path identification and correlation.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-spring-mpls-path-segment-07'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-spring-mpls-path-segment-07.txt'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tkeiser-rxrpc-sec-clear'>
+<front>
+<title>Rx Security Object Providing Cleartext Peer Identity Assertions</title>
+
+<author initials='T' surname='Keiser' fullname='Thomas Keiser'>
+    <organization />
+</author>
+
+<date month='November' day='12' year='2009' />
+
+<abstract><t>There are a number of anonymous RxRPC applications which require identity assertions in order to ensure that the desired peer receives and processes the procedure call.  This memo defines a replacement for the rxnull security class which provides a means for mutually agreeing upon who is communicating, without incurring cryptographic overhead.  It should be noted that, much like rxnull, this security object is not suitable for use in a distributed environment due to its inability to provide integrity protection.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tkeiser-rxrpc-sec-clear-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tkeiser-rxrpc-sec-clear-00.txt' />
+</reference>

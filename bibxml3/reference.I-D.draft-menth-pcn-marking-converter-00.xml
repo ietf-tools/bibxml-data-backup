@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.menth-pcn-marking-converter'>
+<front>
+<title>Marking Converter for Excess-Marked Traffic</title>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='F' surname='Lehrieder' fullname='Frank  Lehrieder'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2008' />
+
+<abstract><t>This document proposes an algorithm that converts packet markings of a stream that was excess-marked based on a lower-rate into packet markings that correspond to a stream that was excess-marked based on a higher-rate.  It may be applied in the PCN context to convert marked admissible-rate-overload into marked supportable-rate- overload.  This allows to perform marked flow termination when packets are excess-marked based on the admissible rate only.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-menth-pcn-marking-converter-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-menth-pcn-marking-converter-00.txt' />
+</reference>

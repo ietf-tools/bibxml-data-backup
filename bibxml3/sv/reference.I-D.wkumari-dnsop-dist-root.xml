@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wkumari-dnsop-dist-root'>
+<front>
+<title>Securely Distributing the DNS Root</title>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2014' />
+
+<abstract><t>This document recommends that recursive DNS resolvers get copies of the root zone, validate it using DNSSEC, populate their caches with the information, and also give negative responses from the validated zone.  [[ Note: This document is largely a discussion starting point. ]]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wkumari-dnsop-dist-root-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wkumari-dnsop-dist-root-01.txt' />
+</reference>

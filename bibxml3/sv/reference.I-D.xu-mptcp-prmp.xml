@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-mptcp-prmp'>
+<front>
+<title>Multipath Transmission Control Protocol (MPTCP) Partial Reliability Extension</title>
+
+<author initials='C' surname='Xu' fullname='Changqiao Xu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Huang' fullname='Hui Huang'>
+    <organization />
+</author>
+
+<author initials='H' surname='Zhang' fullname='Hongke Zhang'>
+    <organization />
+</author>
+
+<author initials='C' surname='Xiong' fullname='Chunshan Xiong'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhu' fullname='Lei Zhu'>
+    <organization />
+</author>
+
+<date month='June' day='20' year='2017' />
+
+<abstract><t>This memo presents an extension to the Multipath Transmission Control Protocol (MPTCP) that allows MPTCP endpoints in which case both sender side and receiver side support this function to provide partially reliable data transmission service to the upper layer applications. In order to achieve the above goal, this memo extents MPTCP by adding two new subtypes which are expressed as "PR_CAPABLE" and "ACK_NOTIFY" and the corresponding processes are also introduced. The extension can provide the backward-compatibility with MPTCP if the new features are not available.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-mptcp-prmp-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-mptcp-prmp-04.txt' />
+</reference>

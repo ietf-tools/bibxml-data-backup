@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sip-authid-body'>
+<front>
+<title>SIP Authenticated Identity Body (AIB) Format</title>
+
+<author initials='J' surname='Peterson' fullname='Jon Peterson'>
+    <organization />
+</author>
+
+<date month='May' day='6' year='2004' />
+
+<abstract><t>RFC3261 introduces the concept of adding an S/MIME body to a SIP request or response in order to provide reference integrity over its headers. This document provides a more specific mechanism to derive integrity and authentication properties from an 'authenticated identity body', a digitally-signed SIP message or message fragment. A standard format for such bodies (known as Authenticated Identity Bodies, or AIBs) is given in this document. Some considerations for the processing of AIBs by recipients of SIP messages with such bodies are also given.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sip-authid-body-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sip-authid-body-03.txt' />
+</reference>

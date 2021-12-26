@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.curran-lisp-emacs'>
+<front>
+<title>EID Mappings Multicast Across Cooperating Systems for LISP</title>
+
+<author initials='S' surname='Brim' fullname='Scott Brim'>
+    <organization />
+</author>
+
+<author initials='D' surname='Farinacci' fullname='Dino Farinacci'>
+    <organization />
+</author>
+
+<author initials='D' surname='Meyer' fullname='Dave Meyer'>
+    <organization />
+</author>
+
+<author initials='J' surname='Curran' fullname='John Curran'>
+    <organization />
+</author>
+
+<date month='November' day='9' year='2007' />
+
+<abstract><t>One of the potential problems with the "map-and-encapsulate" approaches to routing architecture is that there is a significant chance of packets being dropped while a mapping is being retrieved. Some approaches pre-load ingress tunnel routers with at least part of the mapping database.  Some approaches try to solve this by providing intermediate "default" routers which have a great deal more knowledge than a typical ingress tunnel router.  This document proposes a scheme which does not drop packets yet does not require a great deal of knowledge in any router.  However, there are still some issues that need to be worked out.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-curran-lisp-emacs-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-curran-lisp-emacs-00.txt' />
+</reference>

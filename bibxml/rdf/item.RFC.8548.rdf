@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc8548.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc8548.txt</link>
+        <title>RFC 8548: Cryptographic Protection of TCP Streams (tcpcrypt), A. Bittau, D. Giffin, M. Handley, D. Mazieres, Q. Slack, E. Smith</title>
+        <dc:date>2019-05-01T23:00:00-00:00</dc:date>
+        <description>This document specifies "tcpcrypt", a TCP encryption protocol designed for use in conjunction with the TCP Encryption Negotiation Option (TCP-ENO).  Tcpcrypt coexists with middleboxes by tolerating resegmentation, NATs, and other manipulations of the TCP header.  The protocol is self-contained and specifically tailored to TCP implementations, which often reside in kernels or other environments in which large external software dependencies can be undesirable. Because the size of TCP options is limited, the protocol requires one additional one-way message latency to perform key exchange before application data can be transmitted.  However, the extra latency can be avoided between two hosts that have recently established a previous tcpcrypt connection. </description>
+    </item>
+

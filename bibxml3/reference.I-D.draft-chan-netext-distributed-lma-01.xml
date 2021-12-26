@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chan-netext-distributed-lma'>
+<front>
+<title>Distributed Local Mobility Anchors</title>
+
+<author initials='H' surname='Chan' fullname='H Anthony Chan'>
+    <organization />
+</author>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='J' surname='Xiang' fullname='Justin Xiang'>
+    <organization />
+</author>
+
+<date month='December' day='30' year='2009' />
+
+<abstract><t>This draft proposes a distributed local mobility anchors architecture.  It separates the full functions of a local mobility anchor into different logical functions: (1) allocation of home network prefixes or home addresses to mobile nodes, (2) location management (LM) which includes managing the IP addresses and locations of the mobile nodes and (3) mobility routing (MR) which includes intercepting and forwarding packets.  The distributed local mobility anchors architecture provides visited local mobility anchors in different networks with mobility routing function to avoid triangle routing problem in Proxy mobile IP or Mobile IP, but keeps the internetwork location management function at the home local mobility anchors at registered networks.  The needed location information of a mobile node is acquired only when a packet is first sent to the mobile node and are then cached at the visited local mobility anchor to enable subsequent optimized mobility routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chan-netext-distributed-lma-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chan-netext-distributed-lma-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-chan-netext-distributed-lma-01.pdf' />
+</reference>

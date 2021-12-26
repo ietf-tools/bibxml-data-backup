@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.miles-behave-l2nat'>
+<front>
+<title>Layer2-Aware NAT</title>
+
+<author initials='D' surname='Miles' fullname='David Miles'>
+    <organization />
+</author>
+
+<author initials='M' surname='Townsley' fullname='Mark Townsley'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2009' />
+
+<abstract><t>This document describes a "Layer2-Aware" IPv4-to-IPv4 (NAT44) Service Provider NAT function that identifies subscriber traffic based on IP- independent methods such as a link-layer address, VLAN, PPP session, tunnel, etc. in order to allow one to either avoid "double-NAT" (NAT444) of subscriber IP traffic altogether, the need for additional "Shared Service-Provider" IPv4 address space, or partitioning of RFC 1918 space between subscribers.  While the mechanisms described in this document may be applicable to a variety of network architectures, the primary focus is on residential "fixed-line" Internet access.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-miles-behave-l2nat-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-miles-behave-l2nat-00.txt' />
+</reference>

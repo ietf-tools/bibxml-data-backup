@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-l4s-arch'>
+<front>
+<title>Low Latency, Low Loss, Scalable Throughput (L4S) Internet Service: Architecture</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='K' surname='Schepper' fullname='Koen Schepper'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<author initials='G' surname='White' fullname='Greg White'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2020' />
+
+<abstract><t>This document describes the L4S architecture, which enables Internet applications to achieve Low queuing Latency, Low Loss, and Scalable throughput (L4S).  The insight on which L4S is based is that the root cause of queuing delay is in the congestion controllers of senders, not in the queue itself.  The L4S architecture is intended to enable _all_ Internet applications to transition away from congestion control algorithms that cause queuing delay, to a new class of congestion controls that induce very little queuing, aided by explicit congestion signaling from the network.  This new class of congestion control can provide low latency for capacity-seeking flows, so applications can achieve both high bandwidth and low latency.  The architecture primarily concerns incremental deployment.  It defines mechanisms that allow the new class of L4S congestion controls to coexist with 'Classic' congestion controls in a shared network.  These mechanisms aim to ensure that the latency and throughput performance using an L4S-compliant congestion controller is usually much better (and never worse) than the performance would have been using a 'Classic' congestion controller, and that competing flows continuing to use 'Classic' controllers are typically not impacted by the presence of L4S.  These characteristics are important to encourage adoption of L4S congestion control algorithms and L4S compliant network elements.  The L4S architecture consists of three components: network support to isolate L4S traffic from classic traffic; protocol features that allow network elements to identify L4S traffic; and host support for L4S congestion controls.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-l4s-arch-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-l4s-arch-07.txt' />
+</reference>

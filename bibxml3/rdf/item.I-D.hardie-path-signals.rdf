@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-hardie-path-signals-03.txt'>
+    <title>"Path Signals", Ted Hardie</title>
+    <link>http://www.ietf.org/internet-drafts/draft-hardie-path-signals-03.txt</link>
+    <description>This document discusses the nature of signals seen by on-path elements, contrasting implicit and explicit signals.  For example, TCP's state mechanics uses a series of well-known messages that are exchanged in the clear.  Because these are visible to network elements on the path between the two nodes setting up the transport connection, they are often used as signals by those network elements. In transports that do not exchange these messages in the clear, on- path network elements lack those signals.  This document recommends that explict signals be used by transports which encrypt their state mechanics.  It also recommends that a signal be exposed to the path only when the signal's originator intends that it be used by the network elements on the path.</description>
+    <dc:date>2018-04-02T07:00:00-00:00</dc:date>
+</item>

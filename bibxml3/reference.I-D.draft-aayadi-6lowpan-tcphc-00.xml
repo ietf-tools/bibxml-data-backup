@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.aayadi-6lowpan-tcphc'>
+<front>
+<title>TCP header compression for 6LoWPAN</title>
+
+<author initials='A' surname='Ayadi' fullname='Ahmed Ayadi'>
+    <organization />
+</author>
+
+<author initials='D' surname='Ros' fullname='David Ros'>
+    <organization />
+</author>
+
+<author initials='L' surname='Toutain' fullname='Laurent Toutain'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2010' />
+
+<abstract><t>This document describes LOWPAN_TCPHC, a scheme for compressing the header of Transmission Control Protocol (TCP) segments, in order to reduce the overhead on low-power and lossy networks.  It also specifies the LOWPAN_TCPHC header fields for the transmission of TCP segments over IPv6 for Low-power Wireless Personal Area Networks (6LoWPAN).  In many cases, the 20 octets of the mandatory TCP header can be compressed into as little as 6 octets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-aayadi-6lowpan-tcphc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-aayadi-6lowpan-tcphc-00.txt' />
+</reference>

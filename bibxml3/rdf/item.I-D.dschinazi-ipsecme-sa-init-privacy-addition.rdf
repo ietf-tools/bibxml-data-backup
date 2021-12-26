@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-dschinazi-ipsecme-sa-init-privacy-addition-00.txt'>
+    <title>"Privacy Addition to the Internet Key Exchange Protocol Version 2 (IKEv2) IKE_SA_INIT Exchange", David Schinazi</title>
+    <link>http://www.ietf.org/internet-drafts/draft-dschinazi-ipsecme-sa-init-privacy-addition-00.txt</link>
+    <description>The Internet Key Exchange Protocol version 2 (IKEv2) provides strong security and privacy properties to both endpoints once they have authenticated each other.  However, before an endpoint has validated the peer's AUTH payload, it could be divulging information to an untrusted host.  An example of such information is the Identification payload of the initiator.  Another example is the fact that a host is running an IKEv2 responder.  This document introduces a new "Initialization Authentication Code" notify payload that can be included in IKE_SA_INIT messages to increase their trustworthiness. This new protection is meant to be used in addition to current IKEv2 mechanisms and is not meant to replace the AUTH payload in any way.</description>
+    <dc:date>2018-03-05T08:00:00-00:00</dc:date>
+</item>

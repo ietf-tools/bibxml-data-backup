@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xue-radext-key-management'>
+<front>
+<title>RADIUS Extensions for Key Management in WLAN network</title>
+
+<author initials='L' surname='Xue' fullname='Li Xue'>
+    <organization />
+</author>
+
+<author initials='D' surname='Zhang' fullname='Dacheng Zhang'>
+    <organization />
+</author>
+
+<author initials='B' surname='Gao' fullname='Bo Gao'>
+    <organization />
+</author>
+
+<date month='February' day='12' year='2014' />
+
+<abstract><t>When a mobile device (referred to as Station (STA) in this work) tries to connect to a Wireless Local Area Network (WLAN), it needs to first perform mutual authentication with the EAP server of the network.  As a result of successful authentication, a Pairwise Master Key (PMK) will be generated, and distributed to the STA and the Authenticator of the network by the EAP server respectively.  The PMK is used for securing the subsequent communications between the STA and the Wireless Termination Point (WTP) it attaches to.  In practice, the authenticator may not be deployed on the WTP.  In this case, an approach is required to help the WTP to obtain the PMK. This work tries to discuss the issues related with this topic and proposes a RADIUS extension to address the problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xue-radext-key-management-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xue-radext-key-management-02.txt' />
+</reference>

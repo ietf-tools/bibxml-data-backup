@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.klockar-ibgp-oscillation'>
+<front>
+<title>Oscillation Prevention in I-BGP</title>
+
+<author initials='T' surname='Klockar' fullname='Tomas Klockar'>
+    <organization />
+</author>
+
+<date month='July' day='11' year='2005' />
+
+<abstract><t>This memo presents a technique for preventing oscillations in I-BGP. The idea is to utilize already known data in routers to stop oscillation. This builds on the fact that routers can send implicit and explicit withdrawals. Implicit withdrawals are redefined to mean that the route still exist and explicit withdrawal to mean that the route has disappeared. The router can detect and avoid oscillation by storing the implicit withdrawn routes and using them to rule out other routes. The cost is more cheap memory for the RIB-In but no extra expensive memory is needed in the forwarding table.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-klockar-ibgp-oscillation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-klockar-ibgp-oscillation-00.txt' />
+</reference>

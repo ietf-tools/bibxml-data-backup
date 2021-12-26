@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.housley-cms-fw-wrap'>
+<front>
+<title>Using CMS to Protect Firmware Packages</title>
+
+<author initials='R' surname='Housley' fullname='Russ Housley'>
+    <organization />
+</author>
+
+<date month='January' day='25' year='2005' />
+
+<abstract><t>This document describes the use of the Cryptographic Message Syntax (CMS) to protect firmware packages, which provide object code for one or more hardware module components. CMS is specified in RFC 3852. A digital signature is used to protect the firmware package from undetected modification and provide data origin authentication. Encryption is optionally used to protect the firmware package from disclosure, and compression is optionally used to reduce the size of the protected firmware package. A firmware package loading receipt can optionally be generated to acknowledge the successful loading of a firmware package. Similarly, a firmware package load error report can optionally be generated to convey the failure to load a firmware package.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-housley-cms-fw-wrap-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-housley-cms-fw-wrap-11.txt' />
+</reference>

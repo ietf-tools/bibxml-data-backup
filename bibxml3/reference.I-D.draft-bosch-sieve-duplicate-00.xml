@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bosch-sieve-duplicate'>
+<front>
+<title>Sieve Email Filtering: Detecting Duplicate Deliveries</title>
+
+<author initials='S' surname='Bosch' fullname='Stephan Bosch'>
+    <organization />
+</author>
+
+<date month='January' day='17' year='2013' />
+
+<abstract><t>This document defines a new test command "duplicate" for the "Sieve" email filtering language.  It can be used to test whether a particular string value is a duplicate, i.e. whether it was seen before by the delivery agent that is executing the Sieve script.  The main application for this new test is detecting duplicate message deliveries commonly caused by mailing list subscriptions or redirected mail addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bosch-sieve-duplicate-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bosch-sieve-duplicate-00.txt' />
+</reference>

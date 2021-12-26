@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-iptel-tel-enumdi'>
+<front>
+<title>The ENUM Dip Indicator parameter for the "tel" URI</title>
+
+<author initials='R' surname='Stastny' fullname='Richard Stastny'>
+    <organization />
+</author>
+
+<date month='May' day='15' year='2006' />
+
+<abstract><t>This document defines a new parameter "enumdi" for the "tel" Uniform Resource Identifier (URI) to support the handling of ENUM queries in VoIP (Voice over Internet Protocol) network elements. A VoIP network element may receive an URI containing an E.164 number, where that URI contains an "enumdi" parameter. The presence of the "enumdi" parameter indicates that an ENUM query has already been performed on the E.164 number by a previous VoIP network element. Equally, if a VoIP network element sends such an URI, it asserts that an ENUM query has been carried out on this number.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-iptel-tel-enumdi-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-iptel-tel-enumdi-04.txt' />
+</reference>

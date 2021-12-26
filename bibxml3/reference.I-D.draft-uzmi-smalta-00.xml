@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.uzmi-smalta'>
+<front>
+<title>FIB Aggregation with SMALTA</title>
+
+<author initials='Z' surname='Uzmi' fullname='Zartash Uzmi'>
+    <organization />
+</author>
+
+<author initials='A' surname='Tariq' fullname='Ahsan Tariq'>
+    <organization />
+</author>
+
+<author initials='P' surname='Francis' fullname='Paul Francis'>
+    <organization />
+</author>
+
+<date month='July' day='5' year='2010' />
+
+<abstract><t>Concerns about the growth of the global routing table has led to proposals for short-term FIB-reduction and long-term RIB-reduction solutions.  The simplest type of FIB-reduction solution is "FIB aggregation", whereby individual routers locally reduce the FIB size without any changes to external operation.  The draft [I-D.zhang-fibaggregation] describes and analyzes several FIB aggregation schemes.  This current draft describes and analyzes another point in the design space, called SMALTA.  Compared to the approaches in [I-D.zhang-fibaggregation], SMALTA provides better aggregation and does not introduce non-routable entries in the FIB, but is also more complex.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-uzmi-smalta-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-uzmi-smalta-00.txt' />
+</reference>

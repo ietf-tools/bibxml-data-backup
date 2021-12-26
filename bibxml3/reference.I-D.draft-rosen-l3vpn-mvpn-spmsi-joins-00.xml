@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosen-l3vpn-mvpn-spmsi-joins'>
+<front>
+<title>MVPN: S-PMSI Join Extensions and PIM/IPv6 over PIM/IPv4 Tunnels</title>
+
+<author initials='Y' surname='Cai' fullname='Yiqun Cai'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<date month='February' day='2' year='2010' />
+
+<abstract><t>"S-PMSI Join" messages are used in PIM-based MVPN procedures to bind particular multicast flows to particular tunnels through a core network.  This document specifies extensions to the S-PMSI Join mechanism that allow S-PMSI Join messages to specify IPv6 multicast flows, that allow S-PMSI Join messages to specify MPLS tunnels, and that allow a single UDP datagram to contain multiple S-PMSI Join messages.  It also specifies how to send PIM IPv6 control messages over a PIM/IPv4 tunnel.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosen-l3vpn-mvpn-spmsi-joins-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosen-l3vpn-mvpn-spmsi-joins-00.txt' />
+</reference>

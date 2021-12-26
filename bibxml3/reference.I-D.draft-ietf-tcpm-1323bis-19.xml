@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-1323bis'>
+<front>
+<title>TCP Extensions for High Performance</title>
+
+<author initials='D' surname='Borman' fullname='David Borman'>
+    <organization />
+</author>
+
+<author initials='R' surname='Braden' fullname='Robert Braden'>
+    <organization />
+</author>
+
+<author initials='V' surname='Jacobson' fullname='Van Jacobson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Scheffenegger' fullname='Richard Scheffenegger'>
+    <organization />
+</author>
+
+<date month='January' day='24' year='2014' />
+
+<abstract><t>This document specifies a set of TCP extensions to improve performance over paths with a large bandwidth * delay product and to provide reliable operation over very high-speed paths.  It defines the TCP Window Scale (WS) option and the TCP Timestamps (TS) option and their semantics.  The Window Scale option is used to support larger receive windows, while the Timestamps option can be used for at least two distinct mechanisms, PAWS (Protection Against Wrapped Sequences) and RTTM (Round Trip Time Measurement), that are also described herein.  This document obsoletes RFC1323 and describes changes from it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-1323bis-19' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-1323bis-19.txt' />
+</reference>

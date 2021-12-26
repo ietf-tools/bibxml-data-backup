@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-tmrg-tools'>
+<front>
+<title>Tools for the Evaluation of Simulation and Testbed Scenarios</title>
+
+<author initials='S' surname='Floyd' fullname='Sally Floyd'>
+    <organization />
+</author>
+
+<author initials='E' surname='Kohler' fullname='Eddie Kohler'>
+    <organization />
+</author>
+
+<date month='December' day='15' year='2006' />
+
+<abstract><t>This document describes tools for the evaluation of simulation and testbed scenarios used in research on Internet congestion control mechanisms. We believe that research in congestion control mechanisms has been seriously hampered by the lack of good models underpinning analysis, simulation, and testbed experiments, and that tools for the evaluation of simulation and testbed scenarios can help in the construction of better scenarios, based on better underlying models. One use of the tools described in this document is in comparing key characteristics of test scenarios with known characteristics from the diverse and ever-changing real world. Tools characterizing the aggregate traffic on a link include the distribution of per-packet round-trip times, the distribution of connection sizes, and the like. Tools characterizing end-to-end paths include drop rates as a function of packet size and of burst size, the synchronization ratio between two end-to-end TCP flows, and the like. For each characteristic, we describe what aspects of the scenario determine this characteristic, how the characteristic can affect the results of simulations and experiments for the evaluation of congestion control mechanisms, and what is known about this characteristic in the real world. We also explain why the use of such tools can add considerable power to our understanding and evaluation of simulation and testbed scenarios.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-tmrg-tools-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-tmrg-tools-03.txt' />
+<format type='PS'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-tmrg-tools-03.ps' />
+</reference>

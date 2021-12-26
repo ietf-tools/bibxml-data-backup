@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-nfsv4-rocev2-cm-problem-statement'>
+<front>
+<title>Problem Statement of RoCEv2 Congestion Management</title>
+
+<author initials='F' surname='Chen' fullname='Fei Chen'>
+    <organization />
+</author>
+
+<author initials='W' surname='Sun' fullname='Wenhao Sun'>
+    <organization />
+</author>
+
+<date month='August' day='10' year='2018' />
+
+<abstract><t>On IP-routed datacenter networks, RDMA is deployed using RoCEv2 protocol. RoCEv2 specification does not define the congestion management and load balancing methods. RoCEv2 relies on the existing Link-Layer Flow-Control IEEE 802.1Qbb(Priority-based Flow Control, PFC)to provide a lossless network. RoCEv2 Congestion Management(RCM) use ECN(Explicit Congestion Notification, defined in RFC3168) to signal the congestion to the destination and use the congestion notification to reduce the rate of injection and increase the injection rate when the extent of congestion decreases. More and more practice of congestion management for RoCEv2 appear in the industry, such as DCQCN(Data Center Quantized Congestion Notification). There is a demanding for the new RoCE protocol(temporary alias RoCEv3) to provide stronger congestion management and load balancing mechanisms for RDMA deployment in modern datacenter.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-nfsv4-rocev2-cm-problem-statement-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-nfsv4-rocev2-cm-problem-statement-00.txt' />
+</reference>

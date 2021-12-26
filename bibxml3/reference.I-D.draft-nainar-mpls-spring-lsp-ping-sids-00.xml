@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.nainar-mpls-spring-lsp-ping-sids'>
+<front>
+<title>Label Switched Path (LSP) Ping/Traceroute for Segment Routing SIDs with MPLS Data-plane</title>
+
+<author initials='N' surname='Kumar' fullname='Nagendra Kumar'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<author initials='f' surname='faiqbal@cisco.com' fullname='faiqbal@cisco.com'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<date month='October' day='23' year='2018' />
+
+<abstract><t>RFC8402 introduces Segment Routing architecture that leverages source routing and tunneling paradigms and can be directly applied to the Multi Protocol Label Switching (MPLS) data plane.  A node steers a packet through a controlled set of instructions called segments, by prepending the packet with Segment Routing header.  SR architecture defines different types of segments with different forwarding semantics associated.  RFC8287 defines the extensions to MPLS LSP Ping and Traceroute for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifier (SIDs) with an MPLS data plane.  RFC8287 defines the Target FEC Stack Sub-TLVs and the procedures to apply RFC8029 on SR architecture with MPLS data plane.  This document defines the Target FEC Stack Sub-TLVs and the extension required for other SR Segments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-nainar-mpls-spring-lsp-ping-sids-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-nainar-mpls-spring-lsp-ping-sids-00.txt' />
+</reference>

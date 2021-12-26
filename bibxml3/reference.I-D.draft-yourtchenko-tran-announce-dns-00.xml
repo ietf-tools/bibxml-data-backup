@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yourtchenko-tran-announce-dns'>
+<front>
+<title>A la carte: Announcing the supported transport protocols via DNS</title>
+
+<author initials='A' surname='Yourtchenko' fullname='Andrew Yourtchenko'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='September' day='17' year='2009' />
+
+<abstract><t>While TCP has enjoyed many enhancements over the decades, it is useful to allow applications to use transports beyond just UDP and TCP and to use TCP in new ways.  It is inefficient to naively probe the server using the new protocol.  This document proposes a new DNS resource record which provides an efficient way to query which protocols are supported by a server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yourtchenko-tran-announce-dns-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yourtchenko-tran-announce-dns-00.txt' />
+</reference>

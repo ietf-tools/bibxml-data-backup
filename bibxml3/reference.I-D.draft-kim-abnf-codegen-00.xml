@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kim-abnf-codegen'>
+<front>
+<title>An ABNF Extension for code generation</title>
+
+<author initials='J' surname='Kim' fullname='Jong Kim'>
+    <organization />
+</author>
+
+<author initials='M' surname='Yu' fullname='Munjo Yu'>
+    <organization />
+</author>
+
+<date month='May' day='27' year='2009' />
+
+<abstract><t>This document describes an ABNF extension for code generation. The extension has two features; extension rule and non-sequence group notations. The extension rules are used to direct the parser generator with things like data types, variable names, forced value for a variable, etc. The non-sequence group feature was proposed as part of RFC 2234 in the past, but dropped due to its ambiguities. The  feature is proposed again in this document not as a fundamental building block, but as an add-on. The elements of a non-sequence group are unordered, and are allowed multiple appearance.We attempt to minimize the ambiguities stemmed from repetition of an element by defining specific repetition rules for elements of a non-sequence group and non-sequence group themselves.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kim-abnf-codegen-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kim-abnf-codegen-00.txt' />
+</reference>

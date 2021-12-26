@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-manet-report-mib'>
+<front>
+<title>Definition of Managed Objects for Performance Reporting</title>
+
+<author initials='R' surname='Cole' fullname='Robert Cole'>
+    <organization />
+</author>
+
+<author initials='J' surname='Macker' fullname='Joseph Macker'>
+    <organization />
+</author>
+
+<author initials='A' surname='Morton' fullname='Al Morton'>
+    <organization />
+</author>
+
+<date month='February' day='17' year='2011' />
+
+<abstract><t>This memo defines a portion of the Management Information Base (MIB) for use with network management protocols in the Internet community. In particular, it describes objects for configuring autonomous report generation on any device that supports MIBs containing counter and gauge objects for performance monitoring.  This allows a management station to instruct a device to build off-line reports to be collected asynchronously by the management station.  Further, this REPORT-MIB can be configured in a proxy configuration where the report generation is performed on a device in close network proximity to the device containing the referenced counter objects.  Hence, this capability allows network operators to reduce the SNMP polling traffic burden on Mobile Ad-Hoc and Disruption Tolerant Networks which is typical of SNMP performance management applications.  This capability also improves the accuracy of the performance reports by minimizing the delay variation between the reporting agent (this MIB) and the data monitor (the MIB containing the monitored counter objects).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-manet-report-mib-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-manet-report-mib-01.txt' />
+</reference>

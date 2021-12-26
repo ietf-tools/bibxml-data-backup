@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hallambaker-httpsession'>
+<front>
+<title>HTTP Session Management</title>
+
+<author initials='P' surname='Hallam-Baker' fullname='Phillip Hallam-Baker'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>The HTTP Session Management Mechanism provides a mean of securely establishing a persistent authentication session between a HTTP client and server that does not rely on the presentation of a confidential bearer token.  The Session Management Mechanism is intended to provide a replacement for the existing HTTP State Management Mechanism (Cookies) for this purpose.  This document defines the HTTP Accept-Session, Set-Session and Session headers and specifies their use to establish symmetric authentication keys and their use to authenticate and verify specific parts of an HTTP message.  Other means by which keys used to authenticate the messages are established are outside the scope of this document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hallambaker-httpsession-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hallambaker-httpsession-03.txt' />
+</reference>

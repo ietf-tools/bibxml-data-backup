@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-briscoe-conex-data-centre-02.txt'>
+    <title>"Network Performance Isolation in Data Centres using Congestion Policing", Bob Briscoe, Murari Sridharan</title>
+    <link>http://www.ietf.org/internet-drafts/draft-briscoe-conex-data-centre-02.txt</link>
+    <description>This document describes how a multi-tenant (or multi-department) data centre operator can isolate tenants from network performance degradation due to each other's usage, but without losing the multiplexing benefits of a LAN-style network where anyone can use any amount of any resource.  Zero per-tenant configuration and no implementation change is required on network equipment.  Instead the solution is implemented with a simple change to the hypervisor (or container) beneath the tenant's virtual machines on every physical server connected to the network.  These collectively enforce a very simple distributed contract - a single network allowance that each tenant can allocate among their virtual machines, even if distributed around the network.  The solution uses layer-3 switches that support explicit congestion notification (ECN).  It is best if the sending operating system supports congestion exposure (ConEx).  Nonetheless, the operator can unilaterally deploy a complete solution while operating systems are being incrementally upgraded to support ConEx and ECN.</description>
+    <dc:date>2014-02-14T08:00:00-00:00</dc:date>
+</item>

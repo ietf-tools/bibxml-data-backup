@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.adligo-hybi-asbp'>
+<front>
+<title>Asynchronous Services Bus Protocol</title>
+
+<author initials='S' surname='Morgan' fullname='Scott Morgan'>
+    <organization />
+</author>
+
+<author initials='A' surname='Inc' fullname='Adligo Inc'>
+    <organization />
+</author>
+
+<date month='October' day='7' year='2016' />
+
+<abstract><t>ASBP (Asynchronous Services Bus Protocol) is a simple command based application-level protocol for routing data and messages.  ASBP is intended to allow implementation of fully Asynchronous Service Bus Architectures, in a simple standardized manor.  ASBP is intended to be layered over WebSocket or HTTP.  The protocol consists of a simple ASCII or UTF-8 key value(s) header and any arbitrary data (text, binary, XML, JSON, etc.), which the application's specific Command-Attendant or Command-Respondent processes.  In addition this document touches on an extension to ASBP, CP (Conversation Protocol) a protocol used to facilitate communication between Asynchronous Service Busses implemented or hosted by different organizations.  CP will be covered in more detail in another RFC still in progress.  Internet-Draft  This Internet-Draft is submitted in full conformance with the provisions of BCP 78 and BCP 79.  Internet-Drafts are working documents of the Internet Engineering Task Force (IETF). Note that other groups may also distribute working documents as Internet-Drafts. The list of current Internet-Drafts is at http://datatracker.ietf.org/drafts/current.  Internet-Drafts are draft documents valid for a maximum of six months and may be updated, replaced, or obsoleted by other documents at any time. It is inappropriate to use Internet- Drafts as reference material or to cite them other than as "work in progress.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-adligo-hybi-asbp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-adligo-hybi-asbp-02.txt' />
+</reference>

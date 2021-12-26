@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.halpern-forces-lfblibrary-vpn'>
+<front>
+<title>A VPN Library for use with the ForCES Protocol and Model</title>
+
+<author initials='J' surname='Halpern' fullname='Joel Halpern'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ma' fullname='Huanyuan Ma'>
+    <organization />
+</author>
+
+<date month='January' day='18' year='2007' />
+
+<abstract><t>The forwarding and Control Element Separation (ForCES) protocol defines a standard communication and control mechanism through which a Control Element (CE) can control the behavior of a Forwarding Element (FE). That control is accomplished through manipulating attributes of Logical Function Blocks (LFBs), whose structure is defined in a model RFC produced by the working group. In order to build an actual solution based on this protocol, defining a set of Logical Function Block definitions that can be instantiated by FEs and controlled by CEs is welcome. A base library definition of LFBs is already given in library [5]. VPN (Virtual Private Network) services, as a kind of important services widely employed in Internet, will certainly be implemented in routers using this protocol. This document provides an initial set of VPN LFB definitions in particular, a set of tunnel encapsulator and decapsulator LFBs. It is anticipated that additional VPN-related LFB definitions like L2VPN, L3VPN can be defined over time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-halpern-forces-lfblibrary-vpn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-halpern-forces-lfblibrary-vpn-00.txt' />
+</reference>

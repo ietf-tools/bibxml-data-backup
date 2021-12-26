@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.arifumi-v6ops-addr-select-ps'>
+<front>
+<title>Problem Statement of Default Address Selection in Multi-prefix Environment:  Operational Issues of RFC3484 Default Rules</title>
+
+<author initials='A' surname='Matsumoto' fullname='Arifumi Matsumoto'>
+    <organization />
+</author>
+
+<date month='June' day='13' year='2006' />
+
+<abstract><t>One physical network can carry multiple logical networks. Moreover, we can use multiple physical networks at the same time in a host. In that environment, end-hosts might have multiple IP addresses and be required to use them selectively. Without an appropriate source/ destination address selection mechanism, the host will experience some trouble in the communication. RFC 3484 defines both the source and destination address selection algorithms, but the multi-prefix environment considered here needs additional rules beyond the default operation. This document describes the possible problems that end- hosts could encounter in an environment with multiple logical networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-arifumi-v6ops-addr-select-ps-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-arifumi-v6ops-addr-select-ps-00.txt' />
+</reference>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8490' target='https://www.rfc-editor.org/info/rfc8490'>
+<front>
+<title>DNS Stateful Operations</title>
+<author initials='R.' surname='Bellis' fullname='R. Bellis'><organization /></author>
+<author initials='S.' surname='Cheshire' fullname='S. Cheshire'><organization /></author>
+<author initials='J.' surname='Dickinson' fullname='J. Dickinson'><organization /></author>
+<author initials='S.' surname='Dickinson' fullname='S. Dickinson'><organization /></author>
+<author initials='T.' surname='Lemon' fullname='T. Lemon'><organization /></author>
+<author initials='T.' surname='Pusateri' fullname='T. Pusateri'><organization /></author>
+<date year='2019' month='March' />
+<abstract><t>This document defines a new DNS OPCODE for DNS Stateful Operations (DSO).  DSO messages communicate operations within persistent stateful sessions using Type Length Value (TLV) syntax.  Three TLVs are defined that manage session timeouts, termination, and encryption padding, and a framework is defined for extensions to enable new stateful operations.  This document updates RFC 1035 by adding a new DNS header OPCODE that has both different message semantics and a new result code.  This document updates RFC 7766 by redefining a session, providing new guidance on connection reuse, and providing a new mechanism for handling session idle timeouts.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8490'/>
+<seriesInfo name='DOI' value='10.17487/RFC8490'/>
+</reference>

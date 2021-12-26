@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.krol-core-featurecast'>
+<front>
+<title>Featurecast: Data-Centric Group Communication</title>
+
+<author initials='M' surname='Krol' fullname='Michal Krol'>
+    <organization />
+</author>
+
+<author initials='F' surname='Rousseau' fullname='Franck Rousseau'>
+    <organization />
+</author>
+
+<author initials='A' surname='Duda' fullname='Andrzej Duda'>
+    <organization />
+</author>
+
+<date month='November' day='25' year='2014' />
+
+<abstract><t>This document presents Featurecast, a group communication service in which addressing and routing are based on node features defined as predicates.  For instance, one can send a packet to the address composed of features [ temperature and Room D ] to reach all nodes with a temperature sensor located in Room D. Each node constructs its address from the set of its features and disseminates the features in the network so that intermediate nodes can build routing tables. With Featurecast, a node can send a packet to a set of nodes matching given features.  Featurecast fits into IPv6 address field without any additional headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-krol-core-featurecast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-krol-core-featurecast-00.txt' />
+</reference>

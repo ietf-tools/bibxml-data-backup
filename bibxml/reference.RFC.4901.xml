@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4901' target='https://www.rfc-editor.org/info/rfc4901'>
+<front>
+<title>Protocol Extensions for Header Compression over MPLS</title>
+<author initials='J.' surname='Ash' fullname='J. Ash' role='editor'><organization /></author>
+<author initials='J.' surname='Hand' fullname='J. Hand' role='editor'><organization /></author>
+<author initials='A.' surname='Malis' fullname='A. Malis' role='editor'><organization /></author>
+<date year='2007' month='June' />
+<abstract><t>This specification defines how to use Multi-Protocol Label Switching (MPLS) to route Header-Compressed (HC) packets over an MPLS label switched path.  HC can significantly reduce packet-header overhead and, in combination with MPLS, can also increases bandwidth efficiency and processing scalability in terms of the maximum number of simultaneous compressed flows that use HC at each router).  Here we define how MPLS pseudowires are used to transport the HC context and control messages between the ingress and egress MPLS label switching routers.  This is defined for a specific set of existing HC mechanisms that might be used, for example, to support voice over IP. This specification also describes extension mechanisms to allow support for future, as yet to be defined, HC protocols.  In this specification, each HC protocol operates independently over a single pseudowire instance, very much as it would over a single point-to-point link.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4901'/>
+<seriesInfo name='DOI' value='10.17487/RFC4901'/>
+</reference>

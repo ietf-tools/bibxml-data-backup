@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rtp-svc'>
+<front>
+<title>RTP Payload Format for SVC Video</title>
+
+<author initials='S' surname='Wenger' fullname='Stephan Wenger'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2008' />
+
+<abstract><t>This memo describes an RTP payload format for Scalable Video Coding (SVC) as defined in_Annex G of ITU-T Recommendation H.264, which is technically identical to Amendment 3 of ISO/IEC International Standard 14496-10.  The RTP payload format allows for packetization of one or more H.264 Network Abstraction Layer (NAL) units in each RTP packet payload, supporting both single-session as well as multi- session streams.  For single-session streams the packetization modes of RFC 3984 are used, whereas for multi-session streams four different packetization modes are defined in this memo.  The payload format is backwards compatible to RFC 3984, and has wide applicability in conversational applications such as videoconferencing, Internet video streaming, and high bit-rate entertainment-quality video, among others.  Table of Contents  Status of this Memo ............................................ 1 Copyright Notice ............................................... 1 Abstract ....................................................... 2</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rtp-svc-12' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rtp-svc-12.txt' />
+</reference>

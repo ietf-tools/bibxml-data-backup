@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ko-roll-mix-network-pathology'>
+<front>
+<title>RPL Routing Pathology In a Network With a Mix of Nodes Operating in Storing and Non-Storing Modes</title>
+
+<author initials='J' surname='Ko' fullname='JeongGil Ko'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jeong' fullname='Jongsoo Jeong'>
+    <organization />
+</author>
+
+<author initials='J' surname='Park' fullname='Jongjun Park'>
+    <organization />
+</author>
+
+<author initials='J' surname='Jun' fullname='Jong Jun'>
+    <organization />
+</author>
+
+<author initials='N' surname='Kim' fullname='Naesoo Kim'>
+    <organization />
+</author>
+
+<author initials='O' surname='Gnawali' fullname='Omprakash Gnawali'>
+    <organization />
+</author>
+
+<date month='August' day='17' year='2012' />
+
+<abstract><t>Nodes can run RPL in storing or non-storing modes for downward routing.  When a downward-bound packet traverses a node running in storing to a node running in non-storing mode, there is a routing pathology that makes the packet bounce between the two nodes.  Due to this pathology, the packet never reaches the destination if it lies beyond these nodes in the multi-hop path.  The solution is to mandate that all the nodes parse and interpret source routing headers and storing nodes to sometimes act like non-storing mode root.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ko-roll-mix-network-pathology-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ko-roll-mix-network-pathology-00.txt' />
+</reference>

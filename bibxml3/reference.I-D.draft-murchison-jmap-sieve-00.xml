@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.murchison-jmap-sieve'>
+<front>
+<title>JMAP for Sieve Scripts</title>
+
+<author initials='K' surname='Murchison' fullname='Ken Murchison'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2020' />
+
+<abstract><t>This document specifies a data model for managing Sieve scripts on a server using JMAP.  Open Issues  o  Should setting isActive==true on a script automatically deactivate any other existing active script, or should the client have to do so itself (as is currently documented)?  o  Do we want/need a SieveScript/copy method?  o  Do we want to leverage draft-ietf-jmap-quotas to query Sieve script storage quotas?</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-murchison-jmap-sieve-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-murchison-jmap-sieve-00.txt' />
+</reference>

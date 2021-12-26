@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.touch-tcpm-tcp-edo'>
+<front>
+<title>TCP Extended Data Offset Option</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<author initials='W' surname='Eddy' fullname='Wesley Eddy'>
+    <organization />
+</author>
+
+<date month='April' day='18' year='2014' />
+
+<abstract><t>TCP segments include a Data Offset field to indicate space for TCP options, but the size of the field can limit the space available for complex options that have evolved. This document specifies an optional extension to that space and explains why such extensions (including this) cannot be used in the initial SYN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-touch-tcpm-tcp-edo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-touch-tcpm-tcp-edo-00.txt' />
+</reference>

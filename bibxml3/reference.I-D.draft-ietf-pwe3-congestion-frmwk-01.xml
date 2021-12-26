@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pwe3-congestion-frmwk'>
+<front>
+<title>Pseudowire Congestion Control Framework</title>
+
+<author initials='S' surname='Bryant' fullname='Stewart Bryant'>
+    <organization />
+</author>
+
+<author initials='B' surname='Davie' fullname='Bruce Davie'>
+    <organization />
+</author>
+
+<author initials='L' surname='Martini' fullname='Luca  Martini'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<date month='May' day='28' year='2008' />
+
+<abstract><t>Pseudowires are sometimes used to carry non-TCP data flows.  In these circumstances the service payload will not react to network congestion by reducing its offered load.  Pseudowires should therefore reduces their network bandwidth demands in the face of significant packet loss, including if necessary completely ceasing transmission.  Since it is difficult to determine a priori the number of equivalent TCP flow that a pseudowire represents, a suitably "fair" rate of back-off cannot be pre-determined.  This document describes pseudowire congestion problem and provides guidance on the development suitable solutions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pwe3-congestion-frmwk-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pwe3-congestion-frmwk-01.txt' />
+</reference>

@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-ns-revalidation-01.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-dnsop-ns-revalidation-01.txt</link>
+        <title>"Delegation Revalidation by DNS Resolvers", Shumon Huque, Paul Vixie, Ralph Dolmans</title>
+        <dc:date>2021-07-12T23:00:00-00:00</dc:date>
+        <description>This document recommends improved DNS [RFC1034] [RFC1035] resolver behavior with respect to the processing of Name Server (NS) resource record sets (RRset) during iterative resolution.  When following a referral response from an authoritative server to a child zone, DNS resolvers should explicitly query the authoritative NS RRset at the apex of the child zone and cache this in preference to the NS RRset on the parent side of the zone cut.  Resolvers should also periodically revalidate the child delegation by re-quering the parent zone at the expiration of the TTL of the parent side NS RRset.</description>
+    </item>

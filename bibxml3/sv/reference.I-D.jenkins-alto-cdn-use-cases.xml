@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jenkins-alto-cdn-use-cases'>
+<front>
+<title>Use Cases for ALTO within CDNs</title>
+
+<author initials='B' surname='Niven-Jenkins' fullname='Ben Niven-Jenkins'>
+    <organization />
+</author>
+
+<author initials='G' surname='Watson' fullname='Grant Watson'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bitar' fullname='Nabil Bitar'>
+    <organization />
+</author>
+
+<author initials='J' surname='Medved' fullname='Jan Medved'>
+    <organization />
+</author>
+
+<author initials='S' surname='Previdi' fullname='Stefano Previdi'>
+    <organization />
+</author>
+
+<date month='June' day='10' year='2012' />
+
+<abstract><t>For some time, Content Distribution Networks (CDNs) have been used in the delivery of some Internet services (e.g. delivery of websites, software updates and video delivery) as they provide numerous benefits including reduced delivery cost for cacheable content, improved quality of experience for end users and increased robustness of delivery.  In order to derive the optimal benefit from a CDN it is preferable to deliver content from the servers (caches) that are "closest" to the End User requesting the content, where "closest" may be as simple as "geographical or network distance" combined with CDN server load within a location, but may also consider other more complex combinations of metrics and CDN or Network Service Provider (NSP) policies.  There are a number of different ways in which a CDN may obtain the necessary network topology and/or cost information to allow it to serve End Users from the most optimal servers/locations, such as static configuration, passively listening to routing protocols directly, active probing of underlying network(s), or obtaining topology and cost by querying an information service such as the ALTO map &amp; cost services.  This document describes the use cases for a CDN to be able to obtain network topology and cost information from an ALTO server(s).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jenkins-alto-cdn-use-cases-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jenkins-alto-cdn-use-cases-03.txt' />
+</reference>

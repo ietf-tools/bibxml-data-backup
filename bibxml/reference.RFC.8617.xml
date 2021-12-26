@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8617' target='https://www.rfc-editor.org/info/rfc8617'>
+<front>
+<title>The Authenticated Received Chain (ARC) Protocol</title>
+<author initials='K.' surname='Andersen' fullname='K. Andersen'><organization /></author>
+<author initials='B.' surname='Long' fullname='B. Long' role='editor'><organization /></author>
+<author initials='S.' surname='Blank' fullname='S. Blank' role='editor'><organization /></author>
+<author initials='M.' surname='Kucherawy' fullname='M. Kucherawy' role='editor'><organization /></author>
+<date year='2019' month='July' />
+<abstract><t>The Authenticated Received Chain (ARC) protocol provides an authenticated &quot;chain of custody&quot; for a message, allowing each entity that handles the message to see what entities handled it before and what the message's authentication assessment was at each step in the handling.</t><t>ARC allows Internet Mail Handlers to attach assertions of message authentication assessment to individual messages.  As messages traverse ARC-enabled Internet Mail Handlers, additional ARC assertions can be attached to messages to form ordered sets of ARC assertions that represent the authentication assessment at each step of the message-handling paths.</t><t>ARC-enabled Internet Mail Handlers can process sets of ARC assertions to inform message disposition decisions, identify Internet Mail Handlers that might break existing authentication mechanisms, and convey original authentication assessments across trust boundaries.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8617'/>
+<seriesInfo name='DOI' value='10.17487/RFC8617'/>
+</reference>

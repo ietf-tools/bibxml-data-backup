@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.levy-abegnoli-savi-plbt'>
+<front>
+<title>Preference Level based Binding Table</title>
+
+<author initials='E' surname='Levy-Abegnoli' fullname='Eric Levy-Abegnoli'>
+    <organization />
+</author>
+
+<date month='June' day='2' year='2009' />
+
+<abstract><t>A trusted database located on the first switch, storing the binding between end-nodes Link-Layer-Addresses (LLA) and their IPv6 addresses would be an essential part of source address validation.  To build such a database, one must: 1.  Describe the source of information 2.  How the information is maintained 3.  How the collisions are resolved. and solutions would differ by one or more of these elements.  While also getting its binding data from NDP, this draft proposes an alternate to "first-come-first-serve" basis [fcfs]), by specifying a preference algorithm to deal with collisions.  Instead of the simplistic first-come first serve collision handling, the proposed algorithm relies on the following criterias to choose between two coliding entries: o  Where the entries were learnt from (access port, trunk port, etc) o  Credential carried by the entries (CGA proof, certificate, mac/lla  match, etc.) o  State of the current entry o  Age of the entry  Since the state of the entry is one of the element of the algorithm, this draft also describes a tracking mechanism to maintain entries in states where the preference algorithm can enable end-nodes movement.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-levy-abegnoli-savi-plbt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-levy-abegnoli-savi-plbt-00.txt' />
+</reference>

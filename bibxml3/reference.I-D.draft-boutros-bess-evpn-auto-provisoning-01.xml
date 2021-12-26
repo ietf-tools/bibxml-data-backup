@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boutros-bess-evpn-auto-provisoning'>
+<front>
+<title>EVPN auto provisioning using a controller</title>
+
+<author initials='S' surname='Boutros' fullname='Sami Boutros'>
+    <organization />
+</author>
+
+<author initials='R' surname='Fernando' fullname='Rex Fernando'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+    <organization />
+</author>
+
+<author initials='J' surname='Pang' fullname='Junying Pang'>
+    <organization />
+</author>
+
+<author initials='t' surname='tsingh@juniper.net' fullname='tsingh@juniper.net'>
+    <organization />
+</author>
+
+<date month='March' day='18' year='2016' />
+
+<abstract><t>In some datacenter use cases, priori knowledge of what PE/NVE to be configured for a given L2 or L3 service may not be available. This document describes how EVPN can be extended to discover what L2 or L3 services to be enabled on a given PE/NVE, based on first sign of life FSOL packets received on the PE/NVE ports. An EVPN route based on the FSOL packets will be sent to a controller to trigger a push of the related L2/L3 or subscriber service configuration to be provisioned on the PE/NVE and on the switch ports.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boutros-bess-evpn-auto-provisoning-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boutros-bess-evpn-auto-provisoning-01.txt' />
+</reference>

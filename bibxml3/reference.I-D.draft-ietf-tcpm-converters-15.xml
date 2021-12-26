@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-converters'>
+<front>
+<title>0-RTT TCP Convert Protocol</title>
+
+<author initials='O' surname='Bonaventure' fullname='Olivier Bonaventure'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<author initials='S' surname='Seo' fullname='SungHoon Seo'>
+    <organization />
+</author>
+
+<author initials='B' surname='Hesmans' fullname='Benjamin Hesmans'>
+    <organization />
+</author>
+
+<date month='February' day='11' year='2020' />
+
+<abstract><t>This document specifies an application proxy, called Transport Converter, to assist the deployment of TCP extensions such as Multipath TCP.  A Transport Converter may provide conversion service for one or more TCP extensions.  The conversion service is provided by means of the TCP Convert Protocol (Convert).  This protocol provides 0-RTT (Zero Round-Trip Time) conversion service since no extra delay is induced by the protocol compared to connections that are not proxied.  Also, the Convert Protocol does not require any encapsulation (no tunnels, whatsoever).  This specification assumes an explicit model, where the Transport Converter is explicitly configured on hosts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-converters-15' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-converters-15.txt' />
+</reference>

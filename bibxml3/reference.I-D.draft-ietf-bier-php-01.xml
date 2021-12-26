@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bier-php'>
+<front>
+<title>BIER Penultimate Hop Popping</title>
+
+<author initials='Z' surname='Zhang' fullname='Zhaohui Zhang'>
+    <organization />
+</author>
+
+<date month='November' day='28' year='2018' />
+
+<abstract><t>Bit Index Explicit Replication (BIER) can be used as provider tunnel for MVPN/GTM [RFC6514] [RFC7716] or EVPN BUM [RFC7432].  It is possible that not all routers in the provider network support BIER and there are various methods to handle BIER incapable transit routers.  However the MVPN/EVPN PEs are assumed to be BIER capable - they are BFIRs/BFERs.  This document specifies a method to allow BIER incapable routers to act as MVPN/EVPN PEs with BIER as the transport, by having the upstream BFR (connected directly or indirectly via a tunnel) of a PE remove the BIER header and send the payload to the PE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-bier-php-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-bier-php-01.txt' />
+</reference>

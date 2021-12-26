@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dhc-dhcpv4-over-ipv6'>
+<front>
+<title>DHCPv4 over IPv6 Transport</title>
+
+<author initials='T' surname='Lemon' fullname='Ted Lemon'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yong Cui'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wu' fullname='Peng Wu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<date month='November' day='30' year='2011' />
+
+<abstract><t>Recently, there are demands arising for IPv4 address allocation under IPv6 environment, especially in IPv6 transition scenarios.  This document describes the mechanism to survive DHCPv4 over IPv6 network. DHCPv4 messages are transported in IPv6 packets when traversing the IPv6 network.  DHCPv4 protocol behavior of the client and server is extended to support this IPv6 transport.  For the relay case, a new suboption of the Relay Agent Information Option is defined to carry the remote IPv6 address of the clients.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dhc-dhcpv4-over-ipv6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dhc-dhcpv4-over-ipv6-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.meuric-ccamp-tsvmode-signaling'>
+<front>
+<title>Conveying Transceiver-Related Information within RSVP-TE Signaling</title>
+
+<author initials='J' surname='Meuric' fullname='Julien Meuric'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rouzic' fullname='Esther Le Rouzic'>
+    <organization />
+</author>
+
+<author initials='L' surname='Alahdab' fullname='Luay Alahdab'>
+    <organization />
+</author>
+
+<author initials='G' surname='Galimberti' fullname='Gabriele Galimberti'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2020' />
+
+<abstract><t>The ReSource Reservation Protocol with Traffic Engineering extensions (RSVP-TE) allows to carry optical information so as to set up channels over Wavelength Division Multiplexing (WDM) networks between a pair of transceivers.  Nowadays, there are many transceivers that not only support tunable lasers, but also multiple modulation formats.  This memo leverages the Generalized Multiprotocol Label Switching protocol extensions to support the signaling of the associated information as a "mode" parameter within a "transceiver type" context.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-meuric-ccamp-tsvmode-signaling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-meuric-ccamp-tsvmode-signaling-00.txt' />
+</reference>

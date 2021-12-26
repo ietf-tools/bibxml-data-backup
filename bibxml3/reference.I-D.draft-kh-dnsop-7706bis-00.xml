@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kh-dnsop-7706bis'>
+<front>
+<title>Decreasing Access Time to Root Servers by Running One on Loopback</title>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2018' />
+
+<abstract><t>Some DNS recursive resolvers have longer-than-desired round-trip times to the closest DNS root server.  Some DNS recursive resolver operators want to prevent snooping of requests sent to DNS root servers by third parties.  Such resolvers can greatly decrease the round-trip time and prevent observation of requests by running a copy of the full root zone on a loopback address (such as 127.0.0.1). This document shows how to start and maintain such a copy of the root zone that does not pose a threat to other users of the DNS, at the cost of adding some operational fragility for the operator.  This draft will update RFC 7706.  See Section 1.1 for a list of topics that will be added in the update.  [ Ed note: Text inside square brackets ([]) is additional background information, answers to freqently asked questions, general musings, etc.  They will be removed before publication.]  [ This document is being collaborated on in Github at: https://github.com/wkumari/draft-kh-dnsop-7706bis.  The most recent version of the document, open issues, etc should all be available here.  The authors (gratefully) accept pull requests ]</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kh-dnsop-7706bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kh-dnsop-7706bis-00.txt' />
+</reference>

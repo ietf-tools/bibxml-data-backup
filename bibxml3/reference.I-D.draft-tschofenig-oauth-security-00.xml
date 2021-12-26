@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-oauth-security'>
+<front>
+<title>OAuth 2.0 Security: Going Beyond Bearer Tokens</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hunt' fullname='Phil Hunt'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2012' />
+
+<abstract><t>The OAuth working group has finished work on the OAuth 2.0 core protocol as well as the Bearer Token specification.  The Bearer Token is a TLS-based solution for ensuring that neither the interaction with the Authorization Server (when requesting a token) nor the interaction with the Resource Server (for accessing a protected resource) leads to token leakage.  There has, however, always been the desire to develop a security solution that is "better" than Bearer Tokens (or at least different) where the Client needs to show possession of some keying material when accessing a Resource Server. This document tries to capture the discussion and to come up with requirements to process the work on solutions.  This document aims to discuss threats, security requirements and desired design properties of an enhanced OAuth security mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-oauth-security-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-oauth-security-00.txt' />
+</reference>

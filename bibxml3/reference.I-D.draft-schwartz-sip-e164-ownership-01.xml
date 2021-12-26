@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schwartz-sip-e164-ownership'>
+<front>
+<title>E.164 Ownership Problem Statement</title>
+
+<author initials='D' surname='Schwartz' fullname='David Schwartz'>
+    <organization />
+</author>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<author initials='K' surname='Darilion' fullname='Klaus  Darilion'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>When a call travels end-to-end relayed from the PSTN to SIP then problems occur with E.164 number ownership.  Additionally, there are security challenges when the PSTN-VoIP gateway has to authenticate and authorize the calling party.  Without addressing these two aspects the overall security story is weak or non-existent.  This document aims to investigate these two aspect; it does, however, not investigate current E.164 number handling with RFC 4474 ("SIP Identity").  Such an analysis is provided by other documents already.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schwartz-sip-e164-ownership-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schwartz-sip-e164-ownership-01.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iannone-lisp-mapping-versioning'>
+<front>
+<title>LISP Mapping Versioning</title>
+
+<author initials='L' surname='Iannone' fullname='Luigi Iannone'>
+    <organization />
+</author>
+
+<author initials='D' surname='Saucez' fullname='Damien Saucez'>
+    <organization />
+</author>
+
+<author initials='O' surname='Bonaventure' fullname='Olivier Bonaventure'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2010' />
+
+<abstract><t>The present document sketches an optional approach to provide in- packet information about EID-to-RLOC mappings used to encapsulate LISP data packets.  The proposed approach is based on associating a version number to EID-to-RLOC mappings and transport such a version number in the LISP specific header of LISP-encapsulated packets. This versioning approach is particularly useful to inform communicating xTRs about modification of the mappings used to encapsulate packets.  Modification of mappings could mean adding/ removing an RLOC, or just a modification in the reachability, priority, or weight of one or more RLOCs.  Each time a mapping is modified, a new version number is generated and propagated in the LISP data packet.  The use of version numbers allows to avoid repeated Map-Request upon mappings change, limits the interaction between Control and Data planes, improves security, offer support for caching on Map-Servers, and could be used also in mobile scenarios.  The proposed mechanism is optional and does not need any modification on the base LISP encapsulation.  Rather, it uses one of the reserved bits of the LISP specific header and overloads the Locator Status Bits.  Similarly, no modification are necessary in the base LISP Map- Reply records.  LISP versioning uses part of the reserved bits.  In both cases, LISP encapsulation and Map-Reply records, bits used for LISP versioning can be safely ignored by xTRs that do not support the mechanism.  Further, mappings can be distributed as usual through both existing and future mapping distribution system (e.g., ALT). The infrastructure build by each specific mapping distribution system does not change anyhow.  Even more, existing mapping distribution protocol are able to rely LISP control plane packets containing version numbers and do not need modifications.  All of these features make LISP versioning a completely transparent optional mechanism with respect to the LISP base specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iannone-lisp-mapping-versioning-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iannone-lisp-mapping-versioning-01.txt' />
+</reference>

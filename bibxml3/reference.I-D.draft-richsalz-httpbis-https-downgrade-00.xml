@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.richsalz-httpbis-https-downgrade'>
+<front>
+<title>Best practices for TLS Downgrade</title>
+
+<author initials='B' surname='Sniffen' fullname='Brian Sniffen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bishop' fullname='Mike Bishop'>
+    <organization />
+</author>
+
+<author initials='E' surname='Nygren' fullname='Erik Nygren'>
+    <organization />
+</author>
+
+<author initials='R' surname='Salz' fullname='Rich Salz'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>Content providers delivering content via CDNs will sometimes deliver content over HTTPS (or both HTTPS and HTTP) but configure the CDN to pull from the origin over cleartext and unauthenticated HTTP.  From the perspective of a client, it appears that their requests and associated responses are delivered over HTTPS, while in reality their requests are being sent across the network in-the-clear and responses are delivered unauthenticated.  This exposes user request data to pervasive monitoring [RFC7258]; it also means response data may be tampered with by active adversaries.  Terminating TLS connections on a load balancer and contacting a backend over cleartext has long been common within data centers, but doing this TLS termination and downgrade to HTTP at a CDN introduces additional risk when the unprotected traffic is sent over the general Internet, sometimes across national boundaries.  While it would be nice to say "never do this," customer demand, content provider use-cases, and market forces today make it impossible for CDNs to not support downgrade.  However, following a set of best practices can provide visibility into when this is happening and can reduce some of the risks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-richsalz-httpbis-https-downgrade-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-richsalz-httpbis-https-downgrade-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.szarecki-grow-abstract-nh-scaleout-peering'>
+<front>
+<title>Use of Abstract NH in Scale-Out peering architecture</title>
+
+<author initials='R' surname='Szarecki' fullname='Rafal Szarecki'>
+    <organization />
+</author>
+
+<author initials='K' surname='Vairavakkalai' fullname='Kaliraj Vairavakkalai'>
+    <organization />
+</author>
+
+<author initials='N' surname='Venkataraman' fullname='Natrajan Venkataraman'>
+    <organization />
+</author>
+
+<date month='February' day='6' year='2019' />
+
+<abstract><t>Many large-scale service provider networks use some form of scale-out architecture at peering sites.  In such an architecture, each participating Autonomous System (AS) deploys multiple independent Autonomous System Border Routers (ASBRs) for peering, and Equal Cost Multi-Path (ECMP) load balancing is used between them.  There are numerous benefits to this architecture, including but not limited to N+1 redundancy and the ability to flexibly increase capacity as needed.  A cost of this architecture is an increase in the amount of state in both the control and data planes.  This has negative consequences for network convergence time and scale.  In this document we describe how to mitigate these negative consequences through configuration of the routing protocols, both BGP and IGP, to utilize what we term the "Abstract Next-Hop" (ANH).  Use of ANH allows us to both reduce the number of BGP paths in the control plane and enable rapid path invalidation (hence, network convergence and traffic restoration).  We require no new protocol features to achieve these benefits.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-szarecki-grow-abstract-nh-scaleout-peering-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-szarecki-grow-abstract-nh-scaleout-peering-00.txt' />
+</reference>

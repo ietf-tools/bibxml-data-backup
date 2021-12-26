@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC5482' target='https://www.rfc-editor.org/info/rfc5482'>
+<front>
+<title>TCP User Timeout Option</title>
+<author initials='L.' surname='Eggert' fullname='L. Eggert'><organization /></author>
+<author initials='F.' surname='Gont' fullname='F. Gont'><organization /></author>
+<date year='2009' month='March' />
+<abstract><t>The TCP user timeout controls how long transmitted data may remain unacknowledged before a connection is forcefully closed.  It is a local, per-connection parameter.  This document specifies a new TCP option -- the TCP User Timeout Option -- that allows one end of a TCP connection to advertise its current user timeout value.  This information provides advice to the other end of the TCP connection to adapt its user timeout accordingly.  Increasing the user timeouts on both ends of a TCP connection allows it to survive extended periods without end-to-end connectivity.  Decreasing the user timeouts allows busy servers to explicitly notify their clients that they will maintain the connection state only for a short time without connectivity.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='5482'/>
+<seriesInfo name='DOI' value='10.17487/RFC5482'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-oauth-browser-based-apps'>
+<front>
+<title>OAuth 2.0 for Browser-Based Apps</title>
+
+<author initials='A' surname='Parecki' fullname='Aaron Parecki'>
+    <organization />
+</author>
+
+<author initials='D' surname='Waite' fullname='David Waite'>
+    <organization />
+</author>
+
+<date month='March' day='27' year='2019' />
+
+<abstract><t>OAuth 2.0 authorization requests from browser-based apps must be made using the authorization code grant with the PKCE extension, and should not be issued a client secret when registered.  This specification details the security considerations that must be taken into account when developing browser-based applications, as well as best practices for how they can securely implement OAuth 2.0.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-oauth-browser-based-apps-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-oauth-browser-based-apps-01.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-ldp-ip-pw-capability'>
+<front>
+<title>Controlling State Advertisements Of Non-negotiated LDP Applications</title>
+
+<author initials='K' surname='Raza' fullname='Kamran Raza'>
+    <organization />
+</author>
+
+<author initials='S' surname='Boutros' fullname='Sami Boutros'>
+    <organization />
+</author>
+
+<date month='January' day='18' year='2015' />
+
+<abstract><t>There is no capability negotiation done for Label Distribution Protocol (LDP) applications that setup Label Switched Paths (LSPs) for IP prefixes or that signal Point-to-point (P2P) Pseudowires (PWs) for Layer 2 Virtual Private Networks (L2VPNs). When an LDP session comes up, an LDP speaker may unnecessarily advertise its local state for such LDP applications even when the peer session is established for some other applications like Multipoint LDP (mLDP) or Inter-Chassis Communication Protocol (ICCP). This document defines a solution by which an LDP speaker announces to its peer its disinterest in such non-negotiated applications, thus disabling the unnecessary advertisement of corresponding application state, which would have otherwise be advertised over the established LDP session.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-ldp-ip-pw-capability-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-ldp-ip-pw-capability-09.txt' />
+</reference>

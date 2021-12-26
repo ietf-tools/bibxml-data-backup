@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.evans-palmer-hsts-pinning'>
+<front>
+<title>Certificate Pinning Extension for HSTS</title>
+
+<author initials='C' surname='Evans' fullname='Chris Evans'>
+    <organization />
+</author>
+
+<author initials='C' surname='Palmer' fullname='Chris Palmer'>
+    <organization />
+</author>
+
+<date month='September' day='21' year='2011' />
+
+<abstract><t>This memo describes an extension to the HTTP Strict Transport Security specification allowing web host operators to instruct UAs to remember ("pin") hosts' cryptographic identities for a given period of time.  During that time, UAs will require that the host present a certificate chain including at least one public key whose fingerprint matches one or more of the pinned fingerprints for that host.  By effectively reducing the scope of authorities who can authenticate the domain during the lifetime of the pin, we hope pinning reduces the incidence of man-in-the-middle attacks due to compromised Certification Authorities and other authentication errors and attacks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-evans-palmer-hsts-pinning-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-evans-palmer-hsts-pinning-00.txt' />
+</reference>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.trammell-quic-spin'>
+<front>
+<title>Adding Explicit Passive Measurability of Two-Way Latency to the QUIC Transport Protocol</title>
+
+<author initials='B' surname='Trammell' fullname='Brian Trammell'>
+    <organization />
+</author>
+
+<author initials='P' surname='Vaere' fullname='Piet Vaere'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<author initials='G' surname='Fioccola' fullname='Giuseppe Fioccola'>
+    <organization />
+</author>
+
+<author initials='T' surname='Fossati' fullname='Thomas Fossati'>
+    <organization />
+</author>
+
+<author initials='M' surname='Ihlar' fullname='Marcus Ihlar'>
+    <organization />
+</author>
+
+<author initials='A' surname='Morton' fullname='Alfred Morton'>
+    <organization />
+</author>
+
+<author initials='S' surname='Emile' fullname='Stephan Emile'>
+    <organization />
+</author>
+
+<date month='May' day='14' year='2018' />
+
+<abstract><t>This document describes the addition of a "spin bit", intended for explicit measurability of end-to-end RTT, to the QUIC transport protocol.  It proposes a detailed mechanism for the spin bit, as well as an additional mechanism, called the valid edge counter, to increase the fidelity of the latency signal in less than ideal network conditions.  It describes how to use the latency spin signal to measure end-to-end latency, discusses corner cases and their workarounds in the measurement, describes experimental evaluation of the mechanism done to date, and examines the utility and privacy implications of the spin bit.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-trammell-quic-spin-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-trammell-quic-spin-03.txt' />
+</reference>

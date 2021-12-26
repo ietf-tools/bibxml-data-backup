@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ono-sipping-smime-keyreuse'>
+<front>
+<title>Key reuse in Secure MIME for the Session Initiation Protocol(SIP)</title>
+
+<author initials='S' surname='Tachimoto' fullname='Shinya  Tachimoto'>
+    <organization />
+</author>
+
+<author initials='K' surname='Ono' fullname='Kumiko Ono'>
+    <organization />
+</author>
+
+<date month='July' day='20' year='2005' />
+
+<abstract><t>The SIP User Agent uses Secure MIME (S/MIME) Cryptographic Message Syntax (CMS) EnvelopedData to protect SIP messages for confidentiality. While SIP messages can be encrypted with different keying materials for each message in a dialog, it usually requires a public key operation for each message and the computational cost of such operations are relatively expensive. This draft proposes a method of bidirectional key exchange to reuse keying materials for S/MIME-secured messages in a dialog and use a symmetric key mechanism instead of an asymmetric key mechanism such as a public key operation. The proposed mechanism also achieves the sharing of keying material among multiple entities simply.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ono-sipping-smime-keyreuse-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ono-sipping-smime-keyreuse-01.txt' />
+</reference>

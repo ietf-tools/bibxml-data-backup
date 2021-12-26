@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.westberg-pcn-load-control'>
+<front>
+<title>LC-PCN: The Load Control PCN Solution</title>
+
+<author initials='L' surname='Westberg' fullname='Lars Westberg'>
+    <organization />
+</author>
+
+<date month='September' day='5' year='2007' />
+
+<abstract><t>There is an increased interest of simple and scalable resource provisioning solution for Diffserv network. The Load Control PCN (LC-PCN) addresses the following issues: o Admission control for real time data flows in stateless Diffserv Domains o Flow termination: Termination of flows in case of exceptional events, such as severe congestion after re-routing. Admission control in a Diffserv stateless domain is a combination of: o Probing, whereby a probe packet is sent along the forwarding path in a network to determine whether a flow can be admitted based upon the current congestion state of the network o Admission control based on data marking, whereby in congestion situations the data packets are marked to notify the PCN-egress- node that a congestion occurred on a particular PCN-ingress-node to PCN-egress-node path. The scheme provides the capability of controlling the traffic load in the network without requiring signaling or any per-flow processing in the PCN-interior-nodes. The complexity of Load Control is kept to a minimum to make implementation simple.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-westberg-pcn-load-control-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-westberg-pcn-load-control-01.txt' />
+</reference>

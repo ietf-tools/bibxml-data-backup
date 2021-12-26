@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.quittek-ipfix-middlebox'>
+<front>
+<title>Guidelines for IPFIX Implementations on Middleboxes</title>
+
+<author initials='J' surname='Quittek' fullname='Juergen Quittek'>
+    <organization />
+</author>
+
+<date month='February' day='6' year='2004' />
+
+<abstract><t>This memo gives recommendations for the implementation of IP Flow Information eXport (IPFIX) metering processes and IPFIX exporting processes on middleboxes, such as firewalls, network address translators, tunnel endpoints, packet classifiers, etc. Middlebox functions potentially change properties of traffic flows passing the box, for example NATs change addresses in header fields and firewalls change the numbers of packets and bytes belonging to a traffic flow. An IPFIX implementation on a middlebox should reflect this by the way it selects and reports the observation point and by the way it measures and reports traffic flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-quittek-ipfix-middlebox-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-quittek-ipfix-middlebox-00.txt' />
+</reference>

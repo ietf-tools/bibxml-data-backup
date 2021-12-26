@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jen-apt'>
+<front>
+<title>APT: A Practical Transit Mapping Service</title>
+
+<author initials='D' surname='Jen' fullname='Dan Jen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Meisel' fullname='Michael Meisel'>
+    <organization />
+</author>
+
+<author initials='D' surname='Massey' fullname='Dan  Massey'>
+    <organization />
+</author>
+
+<author initials='L' surname='Wang' fullname='Lan Wang'>
+    <organization />
+</author>
+
+<author initials='B' surname='Zhang' fullname='Beichuan Zhang'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhang' fullname='Lixia Zhang'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>The size of the global routing table is a rapidly growing problem. Several solutions have been proposed.  These solutions commonly divide the Internet into two address spaces, one for determining the delivery location, and one to use during transit.  Packets destined for delivery addresses are tunneled through the default-free zone (DFZ), which uses only transit addresses.  For this process to work, there must be a mapping service that can supply an appropriate destination transit address for any given delivery address.  We present a design for such a mapping service.  We adhere to a "do no harm" design philosophy: maintain all desirable features of the current architecture without negatively affecting its security or reliability.  Our design aims to minimize delay and prevent loss in packet encapsulation, minimize the number of modifications to existing hardware, minimize the number of new devices, and keep the level of control traffic manageable.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jen-apt-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jen-apt-01.txt' />
+</reference>

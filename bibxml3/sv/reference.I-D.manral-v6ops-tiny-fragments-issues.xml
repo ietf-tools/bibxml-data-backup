@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.manral-v6ops-tiny-fragments-issues'>
+<front>
+<title>Operational issues with Tiny Fragments in IPv6</title>
+
+<author initials='V' surname='Manral' fullname='Vishwas Manral'>
+    <organization />
+</author>
+
+<date month='September' day='9' year='2008' />
+
+<abstract><t>IPv6 fragmentation allows fragments to be sent only by the source of a  packet. The Fragment  header is used by an IPv6 source to send a packet larger than would fit in the path MTU to its   destination.  Firewalls generally use 5-tuples to filter out packets. However there are cases where  fragmentation can be used to disguise TCP  packets from IP filters used in routers and hosts. This document specifies where tiny fragments can be issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-manral-v6ops-tiny-fragments-issues-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-manral-v6ops-tiny-fragments-issues-03.txt' />
+</reference>

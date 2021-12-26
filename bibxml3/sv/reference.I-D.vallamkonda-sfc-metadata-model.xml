@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vallamkonda-sfc-metadata-model'>
+<front>
+<title>A Framework for SFC Metadata</title>
+
+<author initials='s' surname='sunilvk@f5.com' fullname='sunilvk@f5.com'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dolson' fullname='David Dolson'>
+    <organization />
+</author>
+
+<date month='July' day='7' year='2016' />
+
+<abstract><t>Various types of metadata are applicable to Service Function Chaining (SFC).  Metadata can be used for many purposes, such as conveying processing information, resource usage, and flow specific information, from prior nodes along the Service Function Path. It can also be vendor specific to leverage vendor capabilities and hint to downstream Service functions dynamically for improved performance. In contrast, metadata carried out of band introduces latency and overhead with inefficiency and non-synchronous to real- time traffic. A Service Function (SF) that needs to process the information carried by the metadata may need detailed information of the metadata structure carried by the packets and can have local policies based on metadata.  The purpose of this document is to specify a framework and information model on how to provision information about metadata among classifiers and service functions on a service function chain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vallamkonda-sfc-metadata-model-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vallamkonda-sfc-metadata-model-01.txt' />
+</reference>

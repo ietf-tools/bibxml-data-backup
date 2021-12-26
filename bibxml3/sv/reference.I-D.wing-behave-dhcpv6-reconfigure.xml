@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wing-behave-dhcpv6-reconfigure'>
+<front>
+<title>DHCPv6 Dynamic Re-Configuration</title>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='T' surname='Reddy' fullname='Tirumaleswar Reddy'>
+    <organization />
+</author>
+
+<author initials='P' surname='Patil' fullname='Prashanth Patil'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2011' />
+
+<abstract><t>Some networks are expected to support IPv4-only, dual-stack, and IPV6-only hosts at the same time.  This makes prioritizing the DNS servers for hosts tricky due to a heterogeneous mix of protocol stacks causing optimal behavior to occur only when the host stack re- initializes.  The networks infrastructure is usually well equipped to be aware of single/dual-stack nature of hosts.  This specification extends DHCPv6 so that the DHCPv6 Relay Agent can dynamically influence the priority of DNS servers provided to the host, so that the host can use the optimal DNS server for resolution.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wing-behave-dhcpv6-reconfigure-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wing-behave-dhcpv6-reconfigure-01.txt' />
+</reference>

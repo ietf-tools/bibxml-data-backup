@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.templin-intarea-grefrag'>
+<front>
+<title>GRE Tunnel Level Fragmentation</title>
+
+<author initials='F' surname='Templin' fullname='Fred Templin'>
+    <organization />
+</author>
+
+<date month='July' day='29' year='2016' />
+
+<abstract><t>GRE tunnels use IP fragmentation for delivery packets that exceed the path MTU.  However, IP fragmentation has been shown to be susceptible to reassembly errors at high data rates, and IP fragments may be unconditionally dropped by some middleboxes.  This document therefore introduces GRE tunnel level fragmentation, which overcomes these issues.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-templin-intarea-grefrag-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-templin-intarea-grefrag-03.txt' />
+</reference>

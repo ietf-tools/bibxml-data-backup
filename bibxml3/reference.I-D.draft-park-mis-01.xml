@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.park-mis'>
+<front>
+<title>Interface selection for a multihomed mobile network</title>
+
+<author initials='C' surname='Park' fullname='Chulhyun Park'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2006' />
+
+<abstract><t>In this draft, we discuss how to make use of multiple interfaces in a single mobile router. We will focus on the scenario in which each interface is attached to different access network. Especially, we propose how a mobile router selects proper interfaces to provide services to different traffic flows. We suggest a new option carried in IPv6 hop-by-hop options header to maintain and advertise the flow requirment and characteristics. New option contains a service type value and a preference value. A servie type value is used for traffic classification, and a preference value enables mobile router to control the traffic in detail. The propsed multiple interface selection mechanism in a multihomed mobile router (MMR) chooses an appropriate interface for each flow, depending on traffic requirements and access network characteristics.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-park-mis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-park-mis-01.txt' />
+</reference>

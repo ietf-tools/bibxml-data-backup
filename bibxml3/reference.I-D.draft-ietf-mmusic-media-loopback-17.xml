@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-media-loopback'>
+<front>
+<title>An Extension to the Session Description Protocol (SDP) for Media Loopback</title>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hedayat' fullname='Kaynam Hedayat'>
+    <organization />
+</author>
+
+<author initials='N' surname='Venna' fullname='Nagarjuna Venna'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jones' fullname='Paul Jones'>
+    <organization />
+</author>
+
+<author initials='A' surname='Roychowdhury' fullname='Arjun Roychowdhury'>
+    <organization />
+</author>
+
+<author initials='C' surname='Sivachelvan' fullname='C Sivachelvan'>
+    <organization />
+</author>
+
+<author initials='N' surname='Stratton' fullname='Nathan Stratton'>
+    <organization />
+</author>
+
+<date month='March' day='12' year='2012' />
+
+<abstract><t>The wide deployment of Voice over IP (VoIP), Text and Video over IP services has introduced new challenges in managing and maintaining real-time voice/real-time Text/video quality, reliability, and overall performance.  In particular, media delivery is an area that needs attention.  One method of meeting these challenges is monitoring the media delivery performance by looping media back to the transmitter.  This is typically referred to as "active monitoring" of services.   Media loopback is especially popular in ensuring the quality of transport to the edge of a given VoIP, Real-time Text or Video over IP service.  Today in networks that deliver real-time media, short of running 'ping' and 'traceroute' to the edge, service providers are left without the necessary tools to actively monitor, manage, and diagnose quality issues with their service.  The extension defined herein adds new SDP media attributes which enables establishment of media sessions where the media is looped back to the transmitter. Such media sessions will serve as monitoring and troubleshooting tools by providing the means for measurement of more advanced VoIP, Real-time Text and Video over IP performance metrics.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-media-loopback-17' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-media-loopback-17.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melnikov-imap-search-res'>
+<front>
+<title>IMAP extension for referencing the last SEARCH result</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='December' day='14' year='2007' />
+
+<abstract><t>Many IMAP clients use the result of a SEARCH command as the input to perform another operation, for example fetching the found messages, deleting them or copying them to another mailbox. This can be achieved using standard IMAP operations described in RFC 3501, however this would be suboptimal: the server will send the list of found messages to the client, after that the client will have to parse the list, reformat it and send it back to the server. The client can't pipeline the SEARCH command with the subsequent command. This document proposes an IMAP extension that allows a client to tell a server to use the result of a SEARCH (or UID SEARCH) command as an input to any subsequent command.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melnikov-imap-search-res-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melnikov-imap-search-res-06.txt' />
+</reference>

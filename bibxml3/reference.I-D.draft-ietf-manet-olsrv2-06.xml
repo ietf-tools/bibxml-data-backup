@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-manet-olsrv2'>
+<front>
+<title>The Optimized Link State Routing Protocol version 2</title>
+
+<author initials='T' surname='Clausen' fullname='Thomas Clausen'>
+    <organization />
+</author>
+
+<author initials='C' surname='Dearlove' fullname='Christopher Dearlove'>
+    <organization />
+</author>
+
+<author initials='P' surname='Jacquet' fullname='Philippe Jacquet'>
+    <organization />
+</author>
+
+<date month='June' day='6' year='2008' />
+
+<abstract><t>This document describes version 2 of the Optimized Link State Routing (OLSRv2) protocol.  The protocol embodies an optimization of the classical link state algorithm tailored to the requirements of a Mobile Ad hoc NETwork (MANET).  The key optimization in OLSRv2 is that of multipoint relays (MPRs), providing an efficient mechanism for network-wide broadcast of link state information (i.e. reducing the cost of performing a network- wide link state broadcast).  A secondary optimization is that OLSRv2 employs partial link state information; each node maintains information about all destinations, but only a subset of links. Consequently, only selected nodes flood link state advertisements (thus reducing the number of network-wide link state broadcasts) and these advertisements contain only a subset of links (thus reducing the size of network-wide link state broadcasts).  The partial link state information thus obtained still allows each OLSRv2 node to at all times maintain optimal (in terms of number of hops) routes to all destinations in the network.  OLSRv2 imposes minimum requirements on the network by not requiring sequenced or reliable transmission of control traffic.  Furthermore, the only interaction between OLSRv2 and the IP stack is routing table management.  OLSRv2 is particularly suitable for large and dense networks as the technique of MPRs works best in this context.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-manet-olsrv2-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-manet-olsrv2-06.txt' />
+</reference>

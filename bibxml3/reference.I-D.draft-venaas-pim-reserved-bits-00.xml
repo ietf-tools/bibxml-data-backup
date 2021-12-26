@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.venaas-pim-reserved-bits'>
+<front>
+<title>PIM reserved bits and type space extension</title>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<author initials='A' surname='Retana' fullname='Alvaro Retana'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2018' />
+
+<abstract><t>The currently defined PIM version 2 messages share a common message header format.  The common header definition contains eight reserved bits.  This document specifies how these bits may be used by individual message types, and creates a registry containing the per message type usage.  This document also extends the PIM type space by defining a new message type where four of the flag bits are used as an extended type range.  This document Updates RFC7761 and RFC3973 by defining the use of the currently Reserved field in the PIM common header.  This document further updates RFC7761 and RFC3973, along with RFC5015, RFC6754 and I-D.ietf-pim-source-discovery-bsr, by specifying the use of the currently Reserved bits for each PIM message.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-venaas-pim-reserved-bits-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-venaas-pim-reserved-bits-00.txt' />
+</reference>

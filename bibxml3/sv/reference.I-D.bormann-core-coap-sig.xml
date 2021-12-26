@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bormann-core-coap-sig'>
+<front>
+<title>CoAP Signaling Messages</title>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2016' />
+
+<abstract><t>draft-ietf-core-coap-tcp-tls defines how to transport CoAP messages on reliable transports such as TCP, TLS, or WebSockets.  All these underlying protocols have ways to set up connection properties and manage the connection.  In many cases, these ways cannot be used very well for managing CoAP's use of the connection.  Signaling messages are a way to signal information that is about the connection.  They form a third basic kind of messages in CoAP, beyond requests and responses.  Message class 7 is used for signaling messages.  Signaling messages are only relevant for the connection they appear in.  The present draft assumes reliable, sequence-preserving connections.  It is for further study whether signaling messages are needed or useful for DTLS connections.  The present draft, when adopted, would resolve CoRE tickets #400 (message sizes), #388 (by providing a foundation for a mechanism for version negotiation, once that is needed), #390 (connection close reason), #391 (server name indication), #394 (ping/pong).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bormann-core-coap-sig-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bormann-core-coap-sig-02.txt' />
+</reference>

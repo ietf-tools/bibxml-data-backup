@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.adamson-elasticmcast'>
+<front>
+<title>Elastic Multicast Routing Protocol</title>
+
+<author initials='B' surname='Adamson' fullname='Brian Adamson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Danilov' fullname='Claudiu Danilov'>
+    <organization />
+</author>
+
+<author initials='J' surname='Macker' fullname='Joseph Macker'>
+    <organization />
+</author>
+
+<date month='November' day='4' year='2013' />
+
+<abstract><t>This document describes an Internet Protocol (IP) multicast routing protocol suitable for dynamic network environments including mobile wireless.  To handle high dynamics, this routing mechanism uses redundant forwarding, based upon the Simplified Multicast Forwarding (SMF) approach of [RFC6621], while converging to regular multicast distribution trees where or when the network becomes relatively stable.  The rationale is that intermittent connectivity directly affects the ability of routers to synchronize on their view of the network, thus making it difficult to converge on efficient distribution trees, while network wide broadcast may be prohibitively expensive for relatively sparse groups.  A hybrid approach, called Elastic Multicast, is specified which dynamically switches between limited scope broadcast and tree path forwarding independently at each node.  The trees created during stable periods and portions of the network are pruned from the SMF efficient flooding mesh.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-adamson-elasticmcast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-adamson-elasticmcast-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-adamson-elasticmcast-00.pdf' />
+</reference>

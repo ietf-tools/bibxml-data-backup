@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shaio-manet-common-l3-interface'>
+<front>
+<title>A Common Layer 3 Interface for MANET</title>
+
+<author initials='J' surname='Shaio' fullname='Jack Shaio'>
+    <organization />
+</author>
+
+<author initials='C' surname='Lo' fullname='Caleb Lo'>
+    <organization />
+</author>
+
+<author initials='d' surname='donb@mitre.org' fullname='donb@mitre.org'>
+    <organization />
+</author>
+
+<date month='March' day='25' year='2015' />
+
+<abstract><t>This paper presents an approach that allows an algorithm to choose IP routing peers intelligently among the nodes in a MANET but does not involve any modifications to existing IP routing protocols. In addition, our approach works as a pure interface between (any) MANET radio terminal and any IP router, so nodes using our interface interoperate with nodes that do not use this interface or with nodes using different algorithms to select routing peers. This interface was prototyped and this paper includes test results for two different mobility patterns on a mobile network using OLSR for MANET routing and OSPFv2 for IP routing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shaio-manet-common-l3-interface-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shaio-manet-common-l3-interface-02.txt' />
+</reference>

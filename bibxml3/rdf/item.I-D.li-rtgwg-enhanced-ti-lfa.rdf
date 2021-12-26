@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-li-rtgwg-enhanced-ti-lfa-05.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-li-rtgwg-enhanced-ti-lfa-05.txt</link>
+        <title>"Enhanced Topology Independent Loop-free Alternate Fast Re-route", Cheng Li, Zhibo Hu, Yongqing Zhu, Shraddha Hegde</title>
+        <dc:date>2021-10-21T23:00:00-00:00</dc:date>
+        <description>Topology Independent Loop-free Alternate Fast Re-route (TI-LFA) aims at providing protection of node and adjacency segments within the Segment Routing (SR) framework.  A key aspect of TI-LFA is the FRR path selection approach establishing protection over the expected post-convergence paths from the point of local repair.  However, the TI-LFA FRR path may skip the node even if it is specified in the SID list to be traveled.  This document defines Enhanced TI-LFA(TI-LFA+) by adding a No-bypass indicator for segments to ensure that the FRR route will not bypass the specific node, such as firewall.  Also, this document defines No- bypass flag and No-FRR flag in SRH to indicate not to bypass nodes and not to perform FRR on all the nodes along the SRv6 path, respectively.</description>
+    </item>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.barnes-acme'>
+<front>
+<title>Automatic Certificate Management Environment (ACME)</title>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='P' surname='Eckersley' fullname='Peter Eckersley'>
+    <organization />
+</author>
+
+<author initials='S' surname='Schoen' fullname='Seth Schoen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Halderman' fullname='Alex Halderman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kasten' fullname='James Kasten'>
+    <organization />
+</author>
+
+<date month='May' day='13' year='2015' />
+
+<abstract><t>Certificates in the Web's X.509 PKI (PKIX) are used for a number of purposes, the most significant of which is the authentication of domain names.  Thus, certificate authorities in the Web PKI are trusted to verify that an applicant for a certificate legitimately represents the domain name(s) in the certificate.  Today, this verification is done through a collection of ad hoc mechanisms.  This document describes a protocol that a certificate authority (CA) and an applicant can use to automate the process of verification and certificate issuance.  The protocol also provides facilities for other certificate management functions, such as certificate revocation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-barnes-acme-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-barnes-acme-02.txt' />
+</reference>

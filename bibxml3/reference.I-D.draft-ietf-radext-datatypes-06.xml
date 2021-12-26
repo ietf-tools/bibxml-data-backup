@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-radext-datatypes'>
+<front>
+<title>Data Types in the Remote Authentication Dial-In User Service Protocol (RADIUS)</title>
+
+<author initials='A' surname='DeKok' fullname='Alan DeKok'>
+    <organization />
+</author>
+
+<date month='August' day='3' year='2016' />
+
+<abstract><t>RADIUS specifications have used data types for two decades without defining them as managed entities.  During this time, RADIUS implementations have named the data types, and have used them in attribute definitions.  This document updates the specifications to better follow established practice.  We do this by naming the data types defined in RFC 6158, which have been used since at least RFC 2865.  We provide an IANA registry for the data types, and update the RADIUS Attribute Type registry to include a "Data Type" field for each attribute.  Finally, we recommend that authors of RADIUS specifications use these types in preference to existing practice. This document updates RFC 2865, 3162, 6158, and 6572.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-radext-datatypes-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-radext-datatypes-06.txt' />
+</reference>

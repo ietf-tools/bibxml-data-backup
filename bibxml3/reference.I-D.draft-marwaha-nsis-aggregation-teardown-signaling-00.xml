@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.marwaha-nsis-aggregation-teardown-signaling'>
+<front>
+<title>Problems Analysis of NSIS Aggregation Teardown Signaling in Mobility  Scenarios</title>
+
+<author initials='S' surname='Marwaha' fullname='Shivanajay Marwaha'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2006' />
+
+<abstract><t>If a Mobile Node communicates with different Corresponding Nodes and there exists a common path for these sessions, NSIS allows these reservations to be aggregated. However, change of aggregation path caused by mobility event creates problems related to the prompt removal of the old aggregation state in case Correspondent Nodes are NSIS Initiators, i.e. multiple Correspondent Nodes will send multiple teardown messages for tearing down the same unused aggregated section and may cause problems of extra signaling overhead, delay in tearing down, reliability, redundancy and extra processing overhead. This draft presents the analysis of these problems.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-marwaha-nsis-aggregation-teardown-signaling-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-marwaha-nsis-aggregation-teardown-signaling-00.txt' />
+</reference>

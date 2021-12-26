@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-core-echo-request-tag'>
+<front>
+<title>CoAP: Echo, Request-Tag, and Token Processing</title>
+<author initials='C' surname='Amsuess' fullname='Christian Amsuess'>
+<organization />
+</author>
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+<organization />
+</author>
+<author initials='G' surname='Selander' fullname='Goeran Selander'>
+<organization />
+</author>
+<date year='2021' month='October' day='04' />
+<abstract><t>This document specifies enhancements to the Constrained Application Protocol (CoAP) that mitigate security issues in particular use cases.  The Echo option enables a CoAP server to verify the freshness of a request or to force a client to demonstrate reachability at its claimed network address.  The Request-Tag option allows the CoAP server to match block-wise message fragments belonging to the same request.  This document updates RFC 7252 with respect to the client Token processing requirements, forbidding non-secure reuse of Tokens to ensure binding of response to request when CoAP is used with a security protocol, and with respect to amplification mitigation, where the use of Echo is now recommended.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-core-echo-request-tag-14'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-core-echo-request-tag-14.txt'/>
+</reference>

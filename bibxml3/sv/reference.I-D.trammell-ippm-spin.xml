@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.trammell-ippm-spin'>
+<front>
+<title>An Explicit Transport-Layer Signal for Hybrid RTT Measurement</title>
+
+<author initials='B' surname='Trammell' fullname='Brian Trammell'>
+    <organization />
+</author>
+
+<date month='January' day='9' year='2019' />
+
+<abstract><t>This document defines an explicit per-flow transport-layer signal for hybrid measurement of end-to-end RTT.  This signal consists of three bits: a spin bit, which oscillates once per end-to-end RTT, and a two-bit Valid Edge Counter (VEC), which compensates for loss and reordering of the spin bit to increase fidelity of the signal in less than ideal network conditions.  It describes the algorithm for generating the signal, approaches for observing it to passively measure end-to-end latency, and proposes methods for adding it to a variety of IETF transport protocols.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-trammell-ippm-spin-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-trammell-ippm-spin-00.txt' />
+</reference>

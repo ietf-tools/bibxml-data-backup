@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gersch-dnsop-revdns-cidr'>
+<front>
+<title>Reverse DNS Naming Convention for CIDR Address Blocks</title>
+
+<author initials='J' surname='Gersch' fullname='Joe Gersch'>
+    <organization />
+</author>
+
+<author initials='D' surname='Massey' fullname='Dan Massey'>
+    <organization />
+</author>
+
+<author initials='E' surname='Osterweil' fullname='Eric Osterweil'>
+    <organization />
+</author>
+
+<author initials='C' surname='Olschanowsky' fullname='Cathie Olschanowsky'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>This draft proposes a naming convention for encoding CIDR address blocks into the reverse DNS namespace.  The reverse DNS naming method is commonly used to specify a complete IP address.  This document describes how to encode an IPv4 or IPv6 CIDR address block such as 129.82.128.0/17.  By defining a common naming convention, one can associate information with a prefix.  The convention builds on past work in RFC 1101 that associates network names with prefixes. However, this previous work pre-dated the introduction of CIDR and has several critical ambiguities.  This convention corrects the ambiguities and enables new applications ranging from routing information to geolocation.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gersch-dnsop-revdns-cidr-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gersch-dnsop-revdns-cidr-04.txt' />
+</reference>

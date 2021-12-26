@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-route-leak-detection-mitigation'>
+<front>
+<title>Methods for Detection and Mitigation of BGP Route Leaks</title>
+
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+    <organization />
+</author>
+
+<author initials='A' surname='Azimov' fullname='Alexander Azimov'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>Problem definition for route leaks and enumeration of types of route leaks are provided in RFC 7908.  This document describes a solution for detection and mitigation route leaks which is based on conveying route-leak protection (RLP) information in a Border Gateway Protocol (BGP) community.  The RLP information is carried in a new well-known transitive BGP community, called the RLP community.  The RLP community helps with detection and mitigation of route leaks at ASes downstream from the leaking AS (in the path of the BGP update).  This is an inter-AS (multi-hop) solution mechanism.  This solution complements the intra-AS (local AS) route-leak avoidance solution that is described in ietf-idr-bgp-open-policy draft.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-route-leak-detection-mitigation-10' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-route-leak-detection-mitigation-10.txt' />
+</reference>

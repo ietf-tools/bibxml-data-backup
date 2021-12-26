@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-alto-multi-cost'>
+<front>
+<title>Multi-Cost ALTO</title>
+
+<author initials='S' surname='Randriamasy' fullname='Sabine Randriamasy'>
+    <organization />
+</author>
+
+<author initials='W' surname='Roome' fullname='Wendy Roome'>
+    <organization />
+</author>
+
+<author initials='N' surname='Schwan' fullname='Nico Schwan'>
+    <organization />
+</author>
+
+<date month='April' day='5' year='2017' />
+
+<abstract><t>The ALTO (Application Layer-Traffic Optimization) Protocol ([RFC7285]) defines several services that return various metrics describing the costs between network endpoints.  An ALTO Server may offer a variety of cost metrics, based on latency,bandwidth, hop count, jitter, or whatever else the ALTO Server deems useful.  For example, when downloading a file that is mirrored on several sites, a user application may consider more than one metric, perhaps trading bandwidth for latency to determine the most efficient mirror site.  While the base ALTO Protocol allows an ALTO Client to use more than one cost metric, to do so, the Client must request each metric separately.  This document defines a new service that allows a Client to retrieve several cost metrics with one request, which is considerably more efficient.  In addition, this document extends the ALTO constraint tests to allow a user to specify an arbitrary logical combination of tests on several cost metrics.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-alto-multi-cost-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-alto-multi-cost-08.txt' />
+</reference>

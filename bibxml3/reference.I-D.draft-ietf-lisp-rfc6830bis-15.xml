@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lisp-rfc6830bis'>
+<front>
+<title>The Locator/ID Separation Protocol (LISP)</title>
+
+<author initials='D' surname='Farinacci' fullname='Dino Farinacci'>
+    <organization />
+</author>
+
+<author initials='V' surname='Fuller' fullname='Vince Fuller'>
+    <organization />
+</author>
+
+<author initials='D' surname='Meyer' fullname='David Meyer'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lewis' fullname='Darrel Lewis'>
+    <organization />
+</author>
+
+<author initials='A' surname='Cabellos-Aparicio' fullname='Albert Cabellos-Aparicio'>
+    <organization />
+</author>
+
+<date month='August' day='24' year='2018' />
+
+<abstract><t>This document describes the Data-Plane protocol for the Locator/ID Separation Protocol (LISP).  LISP defines two namespaces, End-point Identifiers (EIDs) that identify end-hosts and Routing Locators (RLOCs) that identify network attachment points.  With this, LISP effectively separates control from data, and allows routers to create overlay networks.  LISP-capable routers exchange encapsulated packets according to EID-to-RLOC mappings stored in a local Map-Cache.  LISP requires no change to either host protocol stacks or to underlay routers and offers Traffic Engineering, multihoming and mobility, among other features.  This document obsoletes RFC 6830.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lisp-rfc6830bis-15' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lisp-rfc6830bis-15.txt' />
+</reference>

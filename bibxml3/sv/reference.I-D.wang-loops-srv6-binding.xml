@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wang-loops-srv6-binding'>
+<front>
+<title>Embedding LOOPS in SRv6</title>
+
+<author initials='J' surname='Jianglong' fullname='Jianglong'>
+    <organization />
+</author>
+
+<author initials='S' surname='Nie' fullname='Shizhong Nie'>
+    <organization />
+</author>
+
+<author initials='L' surname='Bo' fullname='Lei Bo'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bormann' fullname='Carsten Bormann'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>LOOPS (Local Optimizations on Path Segments) aims to provide local in-network loss recovery.  It can be used with tunneling protocols to efficiently recover lost packets on a single segment of an end-to-end path instead of leaving recovery to the end-to-end protocol, traversing the entire path.  Segment Routing (SR) leverages the source routing mechanisms and steers the packets through an policy instantiated as an ordered list of instructions called segments.  LOOPS can be embedded in an SR segment to improve the packet recovery. draft-welzl-loops-gen-info defines the generic information model, without binding that to any specific protocols, to be carried between LOOPS ingress and egress nodes, which can be SR segment endpoints.  This document specifies the concrete mechanisms to embed LOOPS in SRv6 segment.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wang-loops-srv6-binding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wang-loops-srv6-binding-00.txt' />
+</reference>

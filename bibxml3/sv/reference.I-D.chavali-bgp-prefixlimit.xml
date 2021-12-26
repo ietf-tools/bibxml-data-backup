@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chavali-bgp-prefixlimit'>
+<front>
+<title>Peer Prefix Limits Exchange in BGP</title>
+
+<author initials='V' surname='Radoaca' fullname='Vasile Radoaca'>
+    <organization />
+</author>
+
+<author initials='M' surname='Miri' fullname='Mo Miri'>
+    <organization />
+</author>
+
+<author initials='L' surname='Fang' fullname='Luyuan Fang'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chavali' fullname='Srikanth Chavali'>
+    <organization />
+</author>
+
+<date month='April' day='29' year='2004' />
+
+<abstract><t>This document proposes a mechanism to allow BGP peers to coordinate the setting of a limit on the number of prefixes which one BGP speaker will send to its peer. Coordination can prevent disruption of the peering session or discarding of routes, which can occur when a maximum prefix limit is configured on the 'receiving' peer, and the 'sending' peer exceeds the limit.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chavali-bgp-prefixlimit-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chavali-bgp-prefixlimit-02.txt' />
+</reference>

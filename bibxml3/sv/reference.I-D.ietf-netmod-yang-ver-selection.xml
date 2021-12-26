@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netmod-yang-ver-selection'>
+<front>
+<title>YANG Schema Selection</title>
+
+<author initials='R' surname='Wilton' fullname='Robert Wilton'>
+    <organization />
+</author>
+
+<author initials='R' surname='Rahman' fullname='Reshad Rahman'>
+    <organization />
+</author>
+
+<author initials='J' surname='Clarke' fullname='Joe Clarke'>
+    <organization />
+</author>
+
+<author initials='J' surname='Sterne' fullname='Jason Sterne'>
+    <organization />
+</author>
+
+<author initials='W' surname='Bo' fullname='Wu Bo'>
+    <organization />
+</author>
+
+<date month='March' day='17' year='2020' />
+
+<abstract><t>This document defines a mechanism to allow clients, using NETCONF or RESTCONF, to configure and select YANG schema for interactions with a server.  This functionality can help servers support clients using older revisions of YANG modules even if later revisions contain non- backwards-compatible changes.  It can also be used to allow clients to select between YANG schema defined by different organizations.  This draft provides a solution to YANG versioning requirements 3.1 and 3.2.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netmod-yang-ver-selection-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netmod-yang-ver-selection-00.txt' />
+</reference>

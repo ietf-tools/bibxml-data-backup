@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hares-idr-flowspec-v2'>
+<front>
+<title>BGP Flow Specification Version 2</title>
+<author initials='S' surname='Hares' fullname='Susan Hares'>
+<organization />
+</author>
+<author initials='D' surname='Eastlake' fullname='Donald Eastlake'>
+<organization />
+</author>
+<author initials='C' surname='Yadlapalli' fullname='Chaitanya Yadlapalli'>
+<organization />
+</author>
+<author initials='S' surname='Maduschke' fullname='Sven Maduschke'>
+<organization />
+</author>
+<date year='2021' month='October' day='24' />
+<abstract><t>BGP flow specification version 1 (FSv1) defined in RFC 8955, RFC 8956, and RFC 9117 describes the distribution of traffic filter policy (traffic filters and actions) distributed via BGP.  Multiple applications have used BGP FSv1 to distribute traffic filter policy. These applications include the following: mitigation of denial of service (DoS), enabling traffic filtering in BGP/MPLS VPNs, centralized traffic control of router firewall functions, and SFC traffic insertion.</t><t> During the deployment of BGP FSv1 a number of issues were detected due to lack of consistent TLV encoding for rules for flow specifications, lack of user ordering of filter rules and/or actions, and lack of clear definition of interaction with BGP peers not supporting FSv1.  Version 2 of the BGP flow specification (FSv2) protocol addresses these features.  In order to provide a clear demarcation between FSv1 and FSv2, a different NLRI encapsulates FSv2.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-hares-idr-flowspec-v2-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-hares-idr-flowspec-v2-03.txt'/>
+</reference>

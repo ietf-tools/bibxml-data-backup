@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-bgp-ls-flex-algo'>
+<front>
+<title>Flexible Algorithm Definition Advertisement with BGP Link-State</title>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zandi' fullname='Shawn Zandi'>
+    <organization />
+</author>
+
+<author initials='G' surname='Dawra' fullname='Gaurav Dawra'>
+    <organization />
+</author>
+
+<date month='June' day='2' year='2019' />
+
+<abstract><t>Flexible Algorithm is a solution that allows routing protocols (viz. OSPF and IS-IS) to compute paths over a network based on user-defined (and hence, flexible) constraints and metrics.  The computation is performed by routers participating in the specific network in a distribute manner using a Flex Algorithm definition.  This definition provisioned on one or more routers and propagated (viz.  OSPF and IS- IS flooding) through the network.  BGP Link-State (BGP-LS) enables the collection of various topology information from the network.  This draft defines extensions to BGP- LS address-family to advertise the Flexible Algorithm Definition as a part of the topology information from the network.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-bgp-ls-flex-algo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-bgp-ls-flex-algo-00.txt' />
+</reference>

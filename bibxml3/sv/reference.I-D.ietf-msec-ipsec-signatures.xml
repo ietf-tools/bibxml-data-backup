@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-msec-ipsec-signatures'>
+<front>
+<title>The Use of RSA/SHA-1 Signatures within ESP and AH</title>
+
+<author initials='B' surname='Weis' fullname='Brian Weis'>
+    <organization />
+</author>
+
+<date month='June' day='22' year='2005' />
+
+<abstract><t>This memo describes the use of the RSA Digital Signature algorithm as an authentication algorithm within the revised IP Encapsulating Security Payload (ESP) as described in RFC XXXX and the revised IP Authentication Header (AH) as described in RFC YYYY. The use of a digital signature algorithm, such as RSA, provides data origin authentication in applications when a secret key method (e.g., HMAC) does not provide this property. One example is the use of ESP and AH to authenticate the sender of an IP multicast packet. -- Note to RFC Editor: Please replace RFC XXXX with the RFC -- number that is assigned to draft-ietf-ipsec-esp-v3 and -- replace RFC YYYY with the RFC number assigned to -- draft-ietf-ipsec-rfc2402bis. Please also modify normative -- references [ESP] and [AH] that point to these drafts with -- their respective RFC numbers. Lastly, informative references -- [IKEV2] and [AES-GCM] should be changed to their assigned -- RFC numbers, assuming they are published before this -- document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-msec-ipsec-signatures-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-msec-ipsec-signatures-06.txt' />
+</reference>

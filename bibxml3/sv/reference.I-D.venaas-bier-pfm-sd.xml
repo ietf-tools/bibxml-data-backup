@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.venaas-bier-pfm-sd'>
+<front>
+<title>PIM Flooding Mechanism and Source Discovery for BIER</title>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='m' surname='mishra' fullname='mankamana mishra'>
+    <organization />
+</author>
+
+<author initials='M' surname='Sivakumar' fullname='Mahesh Sivakumar'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>PIM Flooding Mechanism and Source Discovery (PFM-SD) is a mechanism for source discovery within a PIM domain.  PIM signaling over BIER has been defined, allowing for BIER to interoperate with PIM.  This document defines PFM-SD over BIER, such that PFM-SD can be used by PIM in a PIM domain to discover sources that are reachable via BIER. Also, this document provides PFM-SD extensions to discover the BIER ingress router closest to the source.  This can be used by BIER overlays, such as PIM signaling over BIER, to determine which router to signal.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-venaas-bier-pfm-sd-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-venaas-bier-pfm-sd-00.txt' />
+</reference>

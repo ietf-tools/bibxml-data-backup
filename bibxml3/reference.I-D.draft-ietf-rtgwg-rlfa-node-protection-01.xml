@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rtgwg-rlfa-node-protection'>
+<front>
+<title>Remote-LFA Node Protection and Manageability</title>
+
+<author initials='P' surname='Sarkar' fullname='P. Sarkar'>
+    <organization />
+</author>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='C' surname='Bowers' fullname='Chris Bowers'>
+    <organization />
+</author>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='H' surname='Raghuveer' fullname='Harish Raghuveer'>
+    <organization />
+</author>
+
+<date month='December' day='15' year='2014' />
+
+<abstract><t>The loop-free alternates computed following the current Remote-LFA [I-D.ietf-rtgwg-remote-lfa] specification gaurantees only link- protection.  The resulting Remote-LFA nexthops (also called PQ- nodes), may not gaurantee node-protection for all destinations being protected by it.  This document describes procedures for determining if a given PQ-node provides node-protection for a specific destination or not.  The document also shows how the same procedure can be utilised for collection of complete characteristics for alternate paths. Knowledge about the characteristics of all alternate path is precursory to apply operator defined policy for eliminating paths not fitting constraints.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rtgwg-rlfa-node-protection-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-rlfa-node-protection-01.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-rlfa-node-protection-01.pdf' />
+</reference>

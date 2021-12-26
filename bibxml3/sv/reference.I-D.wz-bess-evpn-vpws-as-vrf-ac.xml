@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wz-bess-evpn-vpws-as-vrf-ac'>
+<front>
+<title>EVPN VPWS as VRF Attachment Circuit</title>
+<author initials='Y' surname='Wang' fullname='Yubao Wang'>
+<organization />
+</author>
+<author initials='Z' surname='Zhang' fullname='Zheng Zhang'>
+<organization />
+</author>
+<date year='2021' month='August' day='28' />
+<abstract><t>When a VRF Attachment Cirucit (VRF-AC) is far away from its IP-VRF instance, we can deploy an EVPN VPWS ([RFC8214]) between that VRF-AC and its IP-VRF instance.  From the viewpoint of the IP-VRF instance, a local virtual interface takes the place of that remote &quot;VRF-AC&quot;. The IP address for that VRF-AC is now configured to the virtual interface, in other words, the virtual interface is the actual VRF-AC of the IP-VRF instance.  The virtual interface is also the AC of that VPWS instance, in other words, the virtual interface is cross- connected to that remote &quot;VRF-AC&quot; by the VPWS instance.</t><t> This document proposes an extension to [I-D.ietf-bess-evpn-inter-subnet-forwarding] to support this scenario.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-wz-bess-evpn-vpws-as-vrf-ac-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-wz-bess-evpn-vpws-as-vrf-ac-02.txt'/>
+</reference>

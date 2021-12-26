@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-straw-b2bua-rtcp'>
+<front>
+<title>Guidelines to support RTCP end-to-end in Back-to-Back User Agents (B2BUAs)</title>
+
+<author initials='L' surname='Miniero' fullname='Lorenzo Miniero'>
+    <organization />
+</author>
+
+<author initials='S' surname='Murillo' fullname='Sergio Murillo'>
+    <organization />
+</author>
+
+<author initials='V' surname='Pascual' fullname='Victor Pascual'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>SIP Back-to-Back User Agents (B2BUAs) are often designed to also be on the media path, rather than just intercepting signalling.  This means that B2BUAs often implement an RTP/RTCP stack as well, thus leading to separate multimedia sessions that the B2BUA correlates and bridges together.  If not disciplined, though, this behaviour can severely impact the communication experience, especially when statistics and feedback information contained in RTCP messages get lost because of mismatches in the reported data.  This document defines the proper behaviour B2BUAs should follow when also acting on the signalling/media plane in order to preserve the end-to-end functionality of RTCP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-straw-b2bua-rtcp-15' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-straw-b2bua-rtcp-15.txt' />
+</reference>

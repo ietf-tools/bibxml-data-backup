@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.liu-pwe3-mpls-tp-p2mp-pw-protection'>
+<front>
+<title>p2mp pw protection for MPLS-TP network</title>
+
+<author initials='G' surname='Liu' fullname='Guoman Liu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='jinghai' fullname='Yu jinghai'>
+    <organization />
+</author>
+
+<date month='December' day='11' year='2012' />
+
+<abstract><t>The requirements of MPLS-TP in RFC 5654 include a requirement(R63) that requires MPLS-TP MUST be possible to provide protection for MPLS-TP data plane without any IP forwarding capability and control plane.If applying 1:1 protection for the p2mp traffic in rfc6718 , it must have a return path to coordinate the switch state to select the same path to receive and send the traffic packet.As there exists the above problem statement,This document describes a kind of protection solution to recovery and protect the p2mp traffic under the failure condition.  This document is a product of a joint Internet Task Force(IETF) / International Telecommunications Union Telecommunications Standardization Sector (ITU-T) effort to include an MPLS Transport Profile within the IETF MPLS and PWE3 architectures to support the capabilities and functionalities of a packet transport network as defined by the ITU-T.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-liu-pwe3-mpls-tp-p2mp-pw-protection-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-liu-pwe3-mpls-tp-p2mp-pw-protection-02.txt' />
+</reference>

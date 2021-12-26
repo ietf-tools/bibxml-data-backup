@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-dhcpv6-shared-address-option'>
+<front>
+<title>Dynamic Host Configuration Protocol (DHCPv6) Options for Shared IP Addresses Solutions</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohammed Boucadair'>
+    <organization />
+</author>
+
+<author initials='P' surname='Levis' fullname='Pierre Levis'>
+    <organization />
+</author>
+
+<author initials='J' surname='Grimault' fullname='Jean-Luc Grimault'>
+    <organization />
+</author>
+
+<author initials='T' surname='Savolainen' fullname='Teemu Savolainen'>
+    <organization />
+</author>
+
+<author initials='G' surname='Bajko' fullname='Gabor Bajko'>
+    <organization />
+</author>
+
+<date month='December' day='20' year='2009' />
+
+<abstract><t>This memo defines Dynamic Host Configuration Protocol version 6 (DHCPv6) Options to be used in the context of shared IP address solutions.  In some deployment scenarios, DHCP (IPv4) cannot be used to configure customer devices because only IPv6 capabilities are deployed (e.g., DS-lite context or IPv6 Port Range).  Therefore, DHCPv6 may be used to convey IPv4-related configuration information such as Port Range and/or Port Extended IPv4 addresses.  This document defines also a DHCPv6 Option aiming to convey the IPv6 prefix to be used to build IPv4 Embedded IPv6 addresses [I-D.ietf-behave-address-format].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-dhcpv6-shared-address-option-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-dhcpv6-shared-address-option-01.txt' />
+</reference>

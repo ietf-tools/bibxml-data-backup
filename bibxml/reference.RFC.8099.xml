@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8099' target='https://www.rfc-editor.org/info/rfc8099'>
+<front>
+<title>OSPF Topology-Transparent Zone</title>
+<author initials='H.' surname='Chen' fullname='H. Chen'><organization /></author>
+<author initials='R.' surname='Li' fullname='R. Li'><organization /></author>
+<author initials='A.' surname='Retana' fullname='A. Retana'><organization /></author>
+<author initials='Y.' surname='Yang' fullname='Y. Yang'><organization /></author>
+<author initials='Z.' surname='Liu' fullname='Z. Liu'><organization /></author>
+<date year='2017' month='February' />
+<abstract><t>This document presents a Topology-Transparent Zone (TTZ) in an OSPF area.  A TTZ comprises a group of routers and a number of links connecting these routers.  Any router outside of the zone is not aware of the zone.  A TTZ hides the internal topology of the TTZ from the outside.  It does not directly advertise any internal information about the TTZ to a router outside of the TTZ.  The information about the links and routers such as a link down inside the TTZ is not advertised to any router outside of the TTZ.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8099'/>
+<seriesInfo name='DOI' value='10.17487/RFC8099'/>
+</reference>

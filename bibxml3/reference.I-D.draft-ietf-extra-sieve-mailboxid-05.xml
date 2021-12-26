@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-extra-sieve-mailboxid'>
+<front>
+<title>Sieve Email Filtering: delivery by mailboxid</title>
+
+<author initials='B' surname='Gondwana' fullname='Bron Gondwana'>
+    <organization />
+</author>
+
+<date month='November' day='18' year='2020' />
+
+<abstract><t>The OBJECTID capability of the IMAP protocol (RFC8474) allows clients to identify mailboxes by a unique identifier which survives rename.  This document extends the Sieve mail filtering language (RFC5228) to allow using that same unique identifier as a target for fileinto rules, and for testing the existance of mailboxes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-extra-sieve-mailboxid-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-extra-sieve-mailboxid-05.txt' />
+</reference>

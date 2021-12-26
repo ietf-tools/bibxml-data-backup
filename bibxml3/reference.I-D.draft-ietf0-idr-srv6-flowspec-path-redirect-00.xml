@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf0-idr-srv6-flowspec-path-redirect'>
+<front>
+<title>Flowspec Indirection-id Redirect for SRv6</title>
+
+<author initials='G' surname='Velde' fullname='Gunter Van de Velde'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2018' />
+
+<abstract><t>This document defines extensions to "FlowSpec Redirect to indirection-id Extended Community" for SRv6.  This extended community can trigger advanced redirection capabilities to flowspec clients for SRv6.  When activated, this flowspec extended community is used by a flowspec client to retrieve the corresponding next-hop and encoding information within a localised indirection-id mapping table.  The functionality detailed in this document allows a network controller to decouple the BGP flowspec redirection instruction from the operation of the available paths.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf0-idr-srv6-flowspec-path-redirect-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf0-idr-srv6-flowspec-path-redirect-00.txt' />
+</reference>

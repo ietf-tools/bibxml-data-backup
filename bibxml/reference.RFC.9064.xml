@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9064' target='https://www.rfc-editor.org/info/rfc9064'>
+<front>
+<title>Considerations in the Development of a QoS Architecture for CCNx-Like Information-Centric Networking Protocols</title>
+<author initials='D.' surname='Oran' fullname='D. Oran'><organization /></author>
+<date year='2021' month='June' />
+<abstract><t>This is a position paper. It documents the author's personal views on how Quality of Service (QoS) capabilities ought to be accommodated in Information-Centric Networking (ICN) protocols like Content-Centric Networking (CCNx) or Named Data Networking (NDN), which employ flow-balanced Interest/Data exchanges and hop-by-hop forwarding state as their fundamental machinery. It argues that such protocols demand a substantially different approach to QoS from that taken in TCP/IP and proposes specific design patterns to achieve both classification and differentiated QoS treatment on both a flow and aggregate basis. It also considers the effect of caches in addition to memory, CPU, and link bandwidth as resources that should be subject to explicitly unfair resource allocation. The proposed methods are intended to operate purely at the network layer, providing the primitives needed to achieve transport- and higher-layer QoS objectives. It explicitly excludes any discussion of Quality of Experience (QoE), which can only be assessed and controlled at the application layer or above. </t><t>This document is not a product of the IRTF Information-Centric Networking Research Group (ICNRG) but has been through formal Last Call and has the support of the participants in the research group for publication as an individual submission.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9064'/>
+<seriesInfo name='DOI' value='10.17487/RFC9064'/>
+</reference>

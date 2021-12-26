@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-byte-pkt-congest'>
+<front>
+<title>Byte and Packet Congestion Notification</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='J' surname='Manner' fullname='Jukka Manner'>
+    <organization />
+</author>
+
+<date month='November' day='7' year='2012' />
+
+<abstract><t>This document provides recommendations of best current practice for dropping or marking packets using active queue management (AQM) such as random early detection (RED) or pre-congestion notification (PCN). We give three strong recommendations: (1) packet size should be taken into account when transports read and respond to congestion indications, (2) packet size should not be taken into account when network equipment creates congestion signals (marking, dropping), and therefore (3) the byte-mode packet drop variant of the RED AQM algorithm that drops fewer small packets should not be used.  This memo updates RFC 2309 to deprecate deliberate preferential treatment of small packets in AQM algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-byte-pkt-congest-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-byte-pkt-congest-09.txt' />
+</reference>

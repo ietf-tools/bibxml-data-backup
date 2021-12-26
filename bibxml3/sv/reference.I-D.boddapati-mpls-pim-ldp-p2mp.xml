@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boddapati-mpls-pim-ldp-p2mp'>
+<front>
+<title>P2MP LSP Setup using PIM-SSM and LDP</title>
+
+<author initials='S' surname='Boddapati' fullname='Suresh Boddapati'>
+    <organization />
+</author>
+
+<author initials='V' surname='Hemige' fullname='Venu Hemige'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2005' />
+
+<abstract><t>There is emerging interest in the use of MPLS LSPs for the delivery of multicast traffic. Efficient delivery of multicast traffic using MPLS requires P2MP LSPs. This document describes a mechanism to setup P2MP LSPs using PIM-SSM and LDP. PIM-SSM is a widely deployed multicast routing protocol and has well defined procedures for signalling multicast traffic. LDP is a well defined mechanism for distribution of MPLS labels. Utilizing both PIM-SSM and LDP for setting up P2MP LSPs keeps the clear separation between signalling and label distribution, and minimizes changes to both protocols. PIM-SSM signals when to receive multicast traffic and LDP distributes label information regarding how to receive multicast traffic.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boddapati-mpls-pim-ldp-p2mp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boddapati-mpls-pim-ldp-p2mp-00.txt' />
+</reference>

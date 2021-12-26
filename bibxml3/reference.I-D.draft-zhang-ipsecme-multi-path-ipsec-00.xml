@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-ipsecme-multi-path-ipsec'>
+<front>
+<title>Multiple Path IP Security</title>
+
+<author initials='X' surname='Zhang' fullname='Xiangyang Zhang'>
+    <organization />
+</author>
+
+<date month='April' day='1' year='2012' />
+
+<abstract><t>This document presents one approach to enhance data protection when transmitting IPsec datagrams across the insecure networks. The method affords the stronger protection to the traffic by splitting it among a set of sub-tunnels.  All the Security Associations (SAs) are set up independently for all sub-tunnels.  Both the sending and receiving entity combine all the sub-tunnels to one clustered tunnel.  As different sub-tunnel uses different crypto key materials and processing parameters, it may achieve the stronger protection of the traffic across the insecure networks.  In addition, it could possibly bring more benefits in terms of the network control.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-ipsecme-multi-path-ipsec-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-ipsecme-multi-path-ipsec-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-ipsecme-multi-path-ipsec-00.pdf' />
+</reference>

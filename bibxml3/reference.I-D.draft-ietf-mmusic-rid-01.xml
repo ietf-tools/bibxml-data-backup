@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-rid'>
+<front>
+<title>RTP Payload Format Constraints</title>
+
+<author initials='P' surname='Thatcher' fullname='Peter Thatcher'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zanaty' fullname='Mo Zanaty'>
+    <organization />
+</author>
+
+<author initials='S' surname='Nandakumar' fullname='Suhas Nandakumar'>
+    <organization />
+</author>
+
+<author initials='B' surname='Burman' fullname='Bo Burman'>
+    <organization />
+</author>
+
+<author initials='A' surname='Roach' fullname='Adam Roach'>
+    <organization />
+</author>
+
+<author initials='B' surname='Campen' fullname='Byron Campen'>
+    <organization />
+</author>
+
+<date month='February' day='1' year='2016' />
+
+<abstract><t>In this specification, we define a framework for identifying RTP Streams with the constraints on its payload format in the Session Description Protocol.  This framework defines a new "rid" SDP attribute to: a) effectively identify the RID RTP Streams within a RTP Session, b) constrain their payload format parameters in a codec- agnostic way beyond what is provided with the regular Payload Types and c) enable unambiguous mapping between the RID RTP Streams to their media format specification in the SDP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-rid-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-rid-01.txt' />
+</reference>

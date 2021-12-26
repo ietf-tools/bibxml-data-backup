@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sharhalakis-httphreq'>
+<front>
+<title>Header Request for HTTP</title>
+
+<author initials='S' surname='Harhalakis' fullname='Stefanos Harhalakis'>
+    <organization />
+</author>
+
+<date month='September' day='4' year='2007' />
+
+<abstract><t>This document describes a method that extends HTTP to support optional on-demand headers as an addition to its dialogs.  Any server side application using this method becomes able to request additional headers from conforming HTTP clients.  It can also serve as an intermediate step for introducing new HTTP headers without placing the need for always exchanging them.  An additional HTTP header is described and its ABNF description is provided.  IANA is requested to extend its HTTP registry to support the 'on-demand' flag.  IANA is also requested to provide support for header names that actually identify groups of headers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sharhalakis-httphreq-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sharhalakis-httphreq-01.txt' />
+</reference>

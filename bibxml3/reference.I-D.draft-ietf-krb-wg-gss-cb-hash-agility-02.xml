@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-krb-wg-gss-cb-hash-agility'>
+<front>
+<title>Kerberos Version 5 GSS-API Channel Binding Hash Agility</title>
+
+<author initials='S' surname='Emery' fullname='Sean Emery'>
+    <organization />
+</author>
+
+<date month='October' day='11' year='2007' />
+
+<abstract><t>Currently, the Kerberos Version 5 Generic Security Services Application Programming Interface (GSS-API) mechanism [RFC4121] does not have the ability to utilize better hash algorithms used to generate channel binding identities. The current mechanism for doing this is hard coded to use MD5 only. The purpose of this document is to outline changes required to update the protocol so that more secure algorithms can be used to create channel binding identities. The extensibility of this solution also provides an eventual replacement of identities based solely on hash algorithms.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-krb-wg-gss-cb-hash-agility-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-krb-wg-gss-cb-hash-agility-02.txt' />
+</reference>

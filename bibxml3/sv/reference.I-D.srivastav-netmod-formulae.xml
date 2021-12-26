@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.srivastav-netmod-formulae'>
+<front>
+<title>YANG extension Statements for formulae modeling</title>
+
+<author initials='S' surname='Srivastav' fullname='Sudhanshu Srivastav'>
+    <organization />
+</author>
+
+<date month='September' day='12' year='2017' />
+
+<abstract><t>Operational data can be divided into multiple categories like i) state data, ii) raw performance counter, iii) Derived/calculated Counters by arithmetic operation on raw performance counters also referred as KPIs. Existing YANG built-in-types only define the way to model the state data and raw performance counters but have no provision for modelling derived performance counters representing an equivalent of a simple mathematical formula.  This document define extensions for the modeling language YANG as new language statements, which introduce a method to model KPIs aka mathematical expression in YANG data modeling language and describes the syntax and semantics of newly added .  As KPIs require limited number of mathematical operations viz. +, /, -, *,minimum, maximum, summation are needed. Hence, +, /, -, *,minimum, maximum, summation are needed. Hence, our proposal is to enhance YANG to support formula based nodes for these basic arithmetic operations. YANG is enhanced to model KPI formulae with basic arithmetic operations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-srivastav-netmod-formulae-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-srivastav-netmod-formulae-00.txt' />
+</reference>

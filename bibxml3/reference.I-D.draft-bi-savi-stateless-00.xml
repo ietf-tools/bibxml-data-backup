@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bi-savi-stateless'>
+<front>
+<title>SAVI Solution for Stateless Address</title>
+
+<author initials='J' surname='Bi' fullname='Jun Bi'>
+    <organization />
+</author>
+
+<author initials='G' surname='Yao' fullname='Guang Yao'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wu' fullname='Jianping Wu'>
+    <organization />
+</author>
+
+<author initials='F' surname='Baker' fullname='Fred Baker'>
+    <organization />
+</author>
+
+<date month='April' day='18' year='2010' />
+
+<abstract><t>This document specifies the procedure for creating bindings between a stateless address (including Stateless Autoconfiguration Address, manually configured non-static address, etc) and an anchor (refer to [SAVI-framework]) on SAVI (Source Address Validation Improvements) device. The bindings can be used to filter packets generated on the local link with forged IP addresses. Different from other proposed solution for stateless address (e.g., SAVI-FCFS), this solution follows RFC4862 to arbitrate the ownership of address. Supplemental binding processes are also specified to cover conditions that cannot be handled by control packet snooping.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bi-savi-stateless-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bi-savi-stateless-00.txt' />
+</reference>

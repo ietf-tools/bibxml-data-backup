@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.muthu-behave-consent-freshness'>
+<front>
+<title>STUN Usage for Consent Freshness</title>
+
+<author initials='M' surname='Perumal' fullname='Muthu Perumal'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='R' surname='R' fullname='Ram R'>
+    <organization />
+</author>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2013' />
+
+<abstract><t>Verification of peer consent before sending traffic is necessary in WebRTC deployments to ensure that a malicious JavaScript cannot use the browser as a platform for launching attacks.  A related problem is session liveness.  WebRTC applications may want to detect connection failure and take appropriate actions.  This document describes a STUN usage that enables a WebRTC browser to perform the following on a candidate pair ICE is using for a media component after session establishment:</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-muthu-behave-consent-freshness-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-muthu-behave-consent-freshness-03.txt' />
+</reference>

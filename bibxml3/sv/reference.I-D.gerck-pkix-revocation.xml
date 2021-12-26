@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gerck-pkix-revocation'>
+<front>
+<title>Certificate Revocation Revisited Internet X.509 Public Key Infrastructure</title>
+
+<author initials='E' surname='Gerck' fullname='Ed Gerck'>
+    <organization />
+</author>
+
+<date month='May' day='24' year='2004' />
+
+<abstract><t>PKIX certificate revocation protocols are primarily described in RFC3280. This Document revisits limitations on determining the revocation status of a certificate. Ambiguous aspects of revocation and revocation delegation are resolved. An objective point of view is introduced as a reference that does not depend on the observer (e.g., the RP). The revocation status of a certificate issued by a conforming CA is shown to be always well-defined from a relying party's point of view -- i.e., it is unambiguous (revoked or not revoked) and ultimately determinable at any period in time. The limitations on determining the revocation status of a certificate have nothing to do with the eventual result of the determination process by a relying party. The limitations have to do with the efforts for that determination, which may require a large (actually unspecified) amount of time and work. Some practices are also suggested, allowing a relying party to determine the revocation status of a certificate with higher reliability in less time. The same considerations apply to determinations of status "change" processes, including certificateHold and removefromCRL.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gerck-pkix-revocation-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gerck-pkix-revocation-00.txt' />
+</reference>

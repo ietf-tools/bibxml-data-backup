@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wei-isis-tlv'>
+<front>
+<title>New TLV for Purge Packet in Intermediate System to Intermediate System (IS-IS) Protocol</title>
+
+<author initials='T' surname='Li' fullname='Tony Li'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2010' />
+
+<abstract><t>At present the purge packet does not contain information of the source Intermediate System (IS) generating it.  Thus under the circumstance of purge packet propagation, it is difficult to traceback and locate the source IS.  To address the problem, this document proposes to add a new TLV in purge packet to record the system ID of the IS generating it.  This TLV should not be changed in purge packets sent by other ISs.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wei-isis-tlv-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wei-isis-tlv-02.txt' />
+</reference>

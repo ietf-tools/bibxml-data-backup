@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-idr-route-leak-detection-mitigation'>
+<front>
+<title>Methods for Detection and Mitigation of BGP Route Leaks</title>
+
+<author initials='K' surname='Sriram' fullname='Kotikalapudi Sriram'>
+    <organization />
+</author>
+
+<author initials='D' surname='Montgomery' fullname='Doug Montgomery'>
+    <organization />
+</author>
+
+<author initials='B' surname='Dickson' fullname='Brian Dickson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='A' surname='Robachevsky' fullname='Andrei Robachevsky'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2018' />
+
+<abstract><t>Problem definition for route leaks and enumeration of types of route leaks are provided in RFC 7908.  This document specifies BGP enhancements that significantly extend its route-leak detection and mitigation capabilities.  The solution involves carrying a per-hop route-leak protection (RLP) field in BGP updates.  The RLP fields are carried in a new optional transitive attribute, called BGP RLP attribute.  The RLP attribute helps with detection and mitigation of route leaks at ASes downstream from the leaking AS (in the path of BGP update).  This is an inter-AS (multi-hop) solution mechanism. This solution complements the intra-AS (local AS) route-leak avoidance solution that is described in ietf-idr-bgp-open-policy draft.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-route-leak-detection-mitigation-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-idr-route-leak-detection-mitigation-08.txt' />
+</reference>

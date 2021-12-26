@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dccp-ccid4'>
+<front>
+<title>Profile for Datagram Congestion Control Protocol (DCCP) Congestion ID 4:  TCP-Friendly Rate Control for Small Packets (TFRC-SP)</title>
+
+<author initials='S' surname='Floyd' fullname='Sally Floyd'>
+    <organization />
+</author>
+
+<author initials='E' surname='Kohler' fullname='Eddie Kohler'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2009' />
+
+<abstract><t>This document specifies a profile for Congestion Control Identifier 4, the Small-Packet variant of TCP-Friendly Rate Control (TFRC), in the Datagram Congestion Control Protocol (DCCP).  CCID 4 is for experimental use, and uses TFRC-SP [RFC4828], a variant of TFRC designed for applications that send small packets.  CCID 4 is considered experimental because TFRC-SP is itself experimental, and is not proposed for widespread deployment in the global Internet at this time.  The goal for TFRC-SP is to achieve roughly the same bandwidth in bits per second (bps) as a TCP flow using packets of up to 1500 bytes but experiencing the same level of congestion.  CCID 4 is for use for senders that send small packets and would like a TCP- friendly sending rate, possibly with Explicit Congestion Notification (ECN), while minimizing abrupt rate changes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dccp-ccid4-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-ccid4-05.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dccp-ccid4-05.pdf' />
+</reference>

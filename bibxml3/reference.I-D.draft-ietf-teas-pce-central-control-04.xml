@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-teas-pce-central-control'>
+<front>
+<title>An Architecture for Use of PCE and PCEP in a Network with Central Control</title>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Zhao' fullname='Quintin Zhao'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<author initials='C' surname='Zhou' fullname='Chao Zhou'>
+    <organization />
+</author>
+
+<date month='August' day='24' year='2017' />
+
+<abstract><t>The Path Computation Element (PCE) has become established as a core component of Software Defined Networking (SDN) systems.  It can compute optimal paths for traffic across a network for most definitions of "optimal" and can also monitor changes in resource availability and traffic demands to update the paths.  Conventionally, the PCE has been used to derive paths for MPLS Label Switched Paths (LSPs).  These paths are supplied using the Path Computation Element Communication Protocol (PCEP) to the head end of the LSP for signaling in the MPLS network.  SDN has a far broader applicability than just signaled MPLS traffic engineered networks, and the PCE may be used to determine paths in a wide range of use cases including static LSPs, segment routing, service function chaining (SFC), and indeed most forms of routed or switched network.  It is, therefore, reasonable to consider PCEP as a control protocol for use in these environments to allow the PCE to be fully enabled as a central controller.  This document briefly introduces the architecture for PCE as a central controller, examines the motivations and applicability for PCEP as a control protocol in this environment, and introduces the implications for the protocol.  A PCE-based central controller can simplify the processing of distributed control plane by blending it with elements of SDN and without necessarily completely replacing it.  This document does not describe use cases in detail and does not define protocol extensions: that work is left for other documents.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-teas-pce-central-control-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-teas-pce-central-control-04.txt' />
+</reference>

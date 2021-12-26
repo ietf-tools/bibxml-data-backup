@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-acme-acme'>
+<front>
+<title>Automatic Certificate Management Environment (ACME)</title>
+
+<author initials='R' surname='Barnes' fullname='Richard Barnes'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hoffman-Andrews' fullname='Jacob Hoffman-Andrews'>
+    <organization />
+</author>
+
+<author initials='D' surname='McCarney' fullname='Daniel McCarney'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kasten' fullname='James Kasten'>
+    <organization />
+</author>
+
+<date month='December' day='17' year='2018' />
+
+<abstract><t>Public Key Infrastructure X.509 (PKIX) certificates are used for a number of purposes, the most significant of which is the authentication of domain names.  Thus, certification authorities (CAs) in the Web PKI are trusted to verify that an applicant for a certificate legitimately represents the domain name(s) in the certificate.  Today, this verification is done through a collection of ad hoc mechanisms.  This document describes a protocol that a CA and an applicant can use to automate the process of verification and certificate issuance.  The protocol also provides facilities for other certificate management functions, such as certificate revocation.  RFC EDITOR: PLEASE REMOVE THE FOLLOWING PARAGRAPH: The source for this draft is maintained in GitHub.  Suggested changes should be submitted as pull requests at https://github.com/ietf-wg-acme/acme [1].  Instructions are on that page as well.  Editorial changes can be managed in GitHub, but any substantive change should be discussed on the ACME mailing list (acme@ietf.org).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-acme-acme-17' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-acme-acme-17.txt' />
+</reference>

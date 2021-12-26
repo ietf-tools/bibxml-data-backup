@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kutscher-icnrg-rice'>
+<front>
+<title>Remote Method Invocation in ICN</title>
+
+<author initials='M' surname='Krol' fullname='Michal Krol'>
+    <organization />
+</author>
+
+<author initials='K' surname='Habak' fullname='Karim Habak'>
+    <organization />
+</author>
+
+<author initials='D' surname='Oran' fullname='David Oran'>
+    <organization />
+</author>
+
+<author initials='D' surname='Kutscher' fullname='Dirk Kutscher'>
+    <organization />
+</author>
+
+<author initials='I' surname='Psaras' fullname='Ioannis Psaras'>
+    <organization />
+</author>
+
+<date month='October' day='1' year='2018' />
+
+<abstract><t>Information Centric Networking has been proposed as a new network layer for the Internet, capable of encompassing the full range of networking facilities provided by the current IP architecture.  In addition to the obvious content-fetching use cases which have been the subject of a large body of work, ICN has also shown promise as a substrate to effectively support remote computation, both pure functional programming (as exemplified by Named Function Networking) and more general remote invocation models such as RPC and web transactions.  Providing a unified remote computation capability in ICN presents some unique challenges, among which are timer management, client authorization, and binding to state held by servers, while maintaining the advantages of ICN protocol designs like CCN and NDN.  This document specifies a unified approach to remote method invocation in ICN that exploits the attractive ICN properties of name-based routing, receiver-driven flow and congestion control, flow balance, and object-oriented security while presenting a natural programming model to the application developer.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kutscher-icnrg-rice-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kutscher-icnrg-rice-00.txt' />
+</reference>

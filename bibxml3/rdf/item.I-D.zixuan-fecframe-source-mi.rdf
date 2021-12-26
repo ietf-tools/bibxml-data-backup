@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-zixuan-fecframe-source-mi-01.txt'>
+    <title>"Source FEC Payload Mapping Information for Sequence Flow", Bing Chen, Zixuan Zou</title>
+    <link>http://www.ietf.org/internet-drafts/draft-zixuan-fecframe-source-mi-01.txt</link>
+    <description>Per FEC Framework, FEC source packet carries source FEC payload ID for FEC protection of arbitrary packet flow. Source FEC payload ID will contain information identifying the source block and the position within the source block. However, in order to maintain backwards compatibility, this document enables the receiver to get this information without appending source FEC payload ID. This information is obtained using the combination of information provided in the FEC payload header and source FEC payload mapping information unit (MIU). Therefore, both non-FEC- capable and FEC-capable receivers can work together in a multicast session. Two ways to signal the source block structure are defined, one for general procedure and anther for systematic procedure that the order of the packets in the source block is deterministic.</description>
+    <dc:date>2009-10-25T23:00:00-00:00</dc:date>
+</item>

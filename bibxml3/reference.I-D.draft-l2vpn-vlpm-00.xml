@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.l2vpn-vlpm'>
+<front>
+<title>VPLS external Loop Protection Mechanism (VLPM)</title>
+
+<author initials='R' surname='Boldy' fullname='Richard Boldy'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2013' />
+
+<abstract><t>Virtual Private LAN Service (VPLS) as defined in RFC4761 [RFC4761] and RFC4762 [RFC4762] implementations are highly susceptible to layer-2 loops external to the PE customer-facing interface. Such loops impact performance and can have a detrimental effect on all VPLS traffic throughout the entire instance under certain conditions.  Current Layer-2 loop protection and protection mechanisms do not function effectively here.  This document describes a protocol function (VPLS External Loop Protection Mechanism (VLPM)) to offer VPLS service providers a mechanism for detecting such layer-2 loops and facilitating configurable actions without the need for inter-operation with customer network protocols, other VPLS PEs or sites.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-l2vpn-vlpm-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-l2vpn-vlpm-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kaplan-behave-twist'>
+<front>
+<title>Traversal With Internet Server Transports (TWIST): Relay Extensions to  Session Traversal Utilities for NAT (STUN)</title>
+
+<author initials='H' surname='Kaplan' fullname='Hadriel Kaplan'>
+    <organization />
+</author>
+
+<date month='March' day='26' year='2008' />
+
+<abstract><t>If a host is located behind a NAT, then in certain situations it can be impossible for that host to communicate directly with other hosts (peers) located behind other NATs.  In these situations, it is necessary for the host to use the services  of an intermediate node on the Internet that acts as a communication relay.  Likewise, if a host of one IP address family wants to communicate with the host of  another address family, through one or more NATs, an intermediate node may be  necessary.  This specification defines a protocol, called TWIST (Traversal With  Internet Server Transports), that allows the host to control the operation of a  TWIST relay and to exchange packets with its peers using the relay, or directly  between each other.  This is similar to TURN, but defines an alternative mechanism which is more scalable, cheaper to deploy, and is thus more likely to succeed in achieving wide- spread use.  TWIST is not meant to replace TURN, but rather to provide an  alternative.  This document is a straw-man proposal, to stimulate discussion, not  a fully defined draft.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kaplan-behave-twist-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kaplan-behave-twist-00.txt' />
+</reference>

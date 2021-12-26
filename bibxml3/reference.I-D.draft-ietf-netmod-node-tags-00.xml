@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netmod-node-tags'>
+<front>
+<title>Self Describing Data Object Tags</title>
+
+<author initials='Q' surname='WU' fullname='Qin WU'>
+    <organization />
+</author>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<author initials='L' surname='Geng' fullname='Liang Geng'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Du' fullname='Zongpeng Du'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<date month='December' day='29' year='2020' />
+
+<abstract><t>This document defines a method to tag data objects associated with operation and management data in YANG Modules.  This YANG data object tagging method can be used to classify data objects from different YANG modules and identify characteristics data.  It also can provide input, instruction, indication to selection filter and filter queries of operational state on a server during a "pub/sub" service for YANG datastore updates.  When the state of all subscriptions of a particular Subscriber to be fetched is huge, the amount of data to be streamed out to the destination can be greatly reduced and only targeted to the characteristics data.  These data object tags may be registered as well as assigned during the module definition; assigned by implementations; or dynamically defined and set by users.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netmod-node-tags-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netmod-node-tags-00.txt' />
+</reference>

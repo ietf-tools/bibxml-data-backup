@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC6404' target='https://www.rfc-editor.org/info/rfc6404'>
+<front>
+<title>Session PEERing for Multimedia INTerconnect (SPEERMINT) Security Threats and Suggested Countermeasures</title>
+<author initials='J.' surname='Seedorf' fullname='J. Seedorf'><organization /></author>
+<author initials='S.' surname='Niccolini' fullname='S. Niccolini'><organization /></author>
+<author initials='E.' surname='Chen' fullname='E. Chen'><organization /></author>
+<author initials='H.' surname='Scholz' fullname='H. Scholz'><organization /></author>
+<date year='2011' month='November' />
+<abstract><t>The Session PEERing for Multimedia INTerconnect (SPEERMINT) working group (WG) provides a peering framework that leverages the building blocks of existing IETF-defined protocols such as SIP and ENUM for the interconnection between SIP Service Providers (SSPs).  The objective of this document is to identify and enumerate SPEERMINT- specific threat vectors and to give guidance for implementers on selecting appropriate countermeasures.  Security requirements for SPEERMINT that have been derived from the threats detailed in this document can be found in RFC 6271; this document provides concrete countermeasures to meet those SPEERMINT security requirements.  In this document, the different security threats related to SPEERMINT are classified into threats to the Lookup Function (LUF), the Location Routing Function (LRF), the Signaling Function (SF), and the Media Function (MF) of a specific SIP Service Provider.  Various instances of the threats are briefly introduced inside the classification.  Finally, existing security solutions for SIP and RTP/RTCP (Real-time Transport Control Protocol) are presented to describe countermeasures currently available for such threats.  Each SSP may have connections to one or more remote SSPs through peering or transit contracts.  A potentially compromised remote SSP that attacks other SSPs is out of the scope of this document; this document focuses on attacks on an SSP from outside the trust domain such an SSP may have with other SSPs.  This document is not an Internet  Standards Track specification; it is published for informational purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='6404'/>
+<seriesInfo name='DOI' value='10.17487/RFC6404'/>
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ogud-fake-nxdomain-type'>
+<front>
+<title>Signaling NSEC record owner name nonexistence</title>
+
+<author initials='Ó' surname='Guðmundsson' fullname='Ólafur Guðmundsson'>
+    <organization />
+</author>
+
+<author initials='F' surname='Valsorda' fullname='Filippo Valsorda'>
+    <organization />
+</author>
+
+<date month='May' day='7' year='2015' />
+
+<abstract><t>DNSSEC was to large extent designed for off-line signing.  A number of new opportunities arise when on-line signing is used.  In negative answers case there is no real need for the wildcard proof and the server can just state that the queried name and type do not exist in a single NSEC/NSEC3 record.  But such a minimally covering NSEC record that shares the name with the query name can not set the NXDOMAIN RCODE.  Still, some applications want to explicitly know if the name does exist.  This document allocates a new DNS RRtype that can be used to signal nonexistence of the owner names of NSEC/NSEC3 records.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ogud-fake-nxdomain-type-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ogud-fake-nxdomain-type-00.txt' />
+</reference>

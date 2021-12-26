@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.mrugalski-dhc-dhcpv6-suboptions'>
+<front>
+<title>Requesting Suboptions in DHCPv6</title>
+
+<author initials='T' surname='Mrugalski' fullname='Tomasz Mrugalski'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>DHCPv6 clients may use Option Request Option (ORO) to specify, which options they would like to get configured by DHCPv6 servers.  Clients may also be interested in specific options that do not appear in DHCPv6 message directly (top-level options), but rather as a compounds of other options (suboptions).  This document defines way of using existing ORO to request for specific suboptions.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-mrugalski-dhc-dhcpv6-suboptions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-mrugalski-dhc-dhcpv6-suboptions-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boucadair-mptcp-probe-subflow'>
+<front>
+<title>Probing MPTCP Subflows</title>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>This document specifies an extension to Multipath TCP (MPTCP) that is meant to assess whether a path used to establish a given subflow is MPTCP-friendly, i.e., intermediate nodes involved in that path do not alter nor strip MPTCP options, which would prevent the establishment of MPTCP communications along that path.  A new flag bit, called Probe Flag (P-flag) is defined for this purpose.  This document updates RFC6824.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boucadair-mptcp-probe-subflow-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boucadair-mptcp-probe-subflow-00.txt' />
+</reference>

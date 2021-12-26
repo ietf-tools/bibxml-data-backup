@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gont-6man-slaac-dns-config-issues'>
+<front>
+<title>Current issues with DNS Configuration Options for SLAAC</title>
+
+<author initials='F' surname='Gont' fullname='Fernando Gont'>
+    <organization />
+</author>
+
+<author initials='P' surname='Simerda' fullname='Pavel Simerda'>
+    <organization />
+</author>
+
+<date month='June' day='14' year='2012' />
+
+<abstract><t>RFC 6106 specifies two Neighbor Discovery options that can be included in Router Advertisement messages to convey information about DNS recursive servers and DNS Search Lists.  Small lifetime values for the aforementioned options have been found to cause interoperability problems in those network scenarios in which these options are used to convey DNS-related information.  This document analyzes the aforementioned problem, and formally updates RFC 6106 such that these issues are mitigated.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gont-6man-slaac-dns-config-issues-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gont-6man-slaac-dns-config-issues-00.txt' />
+</reference>

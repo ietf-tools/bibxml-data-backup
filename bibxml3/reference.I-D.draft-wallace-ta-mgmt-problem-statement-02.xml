@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wallace-ta-mgmt-problem-statement'>
+<front>
+<title>Trust Anchor Management Problem Statement</title>
+
+<author initials='R' surname='Reddy' fullname='R Reddy'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wallace' fullname='Carl Wallace'>
+    <organization />
+</author>
+
+<date month='September' day='12' year='2007' />
+
+<abstract><t>This document provides a problem statement for the Trust Anchor Management Birds of a Feather (BOF).  A trust anchor represents an authoritative entity via a public key and associated data.  The public key is used to verify digital signatures and the associated data is used to constrain the types of information for which the trust anchor is authoritative.  Relying parties use trust anchors to determine if digitally signed objects are valid by verifying digital signatures using the trust anchor's public key and by enforcing the constraints expressed in the associated data.  This document describes some of the problems associated with the lack of a standard trust anchor management mechanism as well as problems that must be addressed by such a mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wallace-ta-mgmt-problem-statement-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wallace-ta-mgmt-problem-statement-02.txt' />
+</reference>

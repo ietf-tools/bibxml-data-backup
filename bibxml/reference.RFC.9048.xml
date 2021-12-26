@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9048' target='https://www.rfc-editor.org/info/rfc9048'>
+<front>
+<title>Improved Extensible Authentication Protocol Method for 3GPP Mobile Network Authentication and Key Agreement (EAP-AKA')</title>
+<author initials='J.' surname='Arkko' fullname='J. Arkko'><organization /></author>
+<author initials='V.' surname='Lehtovirta' fullname='V. Lehtovirta'><organization /></author>
+<author initials='V.' surname='Torvinen' fullname='V. Torvinen'><organization /></author>
+<author initials='P.' surname='Eronen' fullname='P. Eronen'><organization /></author>
+<date year='2021' month='October' />
+<abstract><t>The 3GPP mobile network Authentication and Key Agreement (AKA) is an authentication mechanism for devices wishing to access mobile networks. RFC 4187 (EAP-AKA) made the use of this mechanism possible within the Extensible Authentication Protocol (EAP) framework. RFC 5448 (EAP-AKA') was an improved version of EAP-AKA.</t><t>This document is the most recent specification of EAP-AKA', including, for instance, details about and references related to operating EAP-AKA' in 5G networks. </t><t>EAP-AKA' differs from EAP-AKA by providing a key derivation function that binds the keys derived within the method to the name of the access network. The key derivation function has been defined in the 3rd Generation Partnership Project (3GPP). EAP-AKA' allows its use in EAP in an interoperable manner. EAP-AKA' also updates the algorithm used in hash functions, as it employs SHA-256 / HMAC-SHA-256 instead of SHA-1 / HMAC-SHA-1, which is used in EAP-AKA.</t><t>This version of the EAP-AKA' specification defines the protocol behavior for both 4G and 5G deployments, whereas the previous version defined protocol behavior for 4G deployments only. While EAP-AKA' as defined in RFC 5448 is not obsolete, this document defines the most recent and fully backwards-compatible specification of EAP-AKA'. This document updates both RFCs 4187 and 5448.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9048'/>
+<seriesInfo name='DOI' value='10.17487/RFC9048'/>
+</reference>

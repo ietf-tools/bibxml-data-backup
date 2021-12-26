@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9125' target='https://www.rfc-editor.org/info/rfc9125'>
+<front>
+<title>Gateway Auto-Discovery and Route Advertisement for Site Interconnection Using Segment Routing</title>
+<author initials='A.' surname='Farrel' fullname='A. Farrel'><organization /></author>
+<author initials='J.' surname='Drake' fullname='J. Drake'><organization /></author>
+<author initials='E.' surname='Rosen' fullname='E. Rosen'><organization /></author>
+<author initials='K.' surname='Patel' fullname='K. Patel'><organization /></author>
+<author initials='L.' surname='Jalil' fullname='L. Jalil'><organization /></author>
+<date year='2021' month='August' />
+<abstract><t>Data centers are attached to the Internet or a backbone network by gateway routers.  One data center typically has more than one gateway for commercial, load-balancing, and resiliency reasons.  Other sites, such as access networks, also need to be connected across backbone networks through gateways.</t><t>This document defines a mechanism using the BGP Tunnel Encapsulation attribute to allow data center gateway routers to advertise routes to the prefixes reachable in the site, including advertising them on behalf of other gateways at the same site.  This allows segment routing to be used to identify multiple paths across the Internet or backbone network between different gateways.  The paths can be selected for load-balancing, resilience, and quality purposes.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9125'/>
+<seriesInfo name='DOI' value='10.17487/RFC9125'/>
+</reference>

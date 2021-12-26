@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dondeti-dime-erp-diameter'>
+<front>
+<title>Diameter Support for EAP Re-authentication Protocol</title>
+
+<author initials='L' surname='Dondeti' fullname='Lakshminath Dondeti'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2007' />
+
+<abstract><t>An EAP extension, called "EAP Re-authentication Protocol (ERP)", has been specified that supports an EAP method-independent protocol for efficient re-authentication between the peer and the server through an authenticator.  This document specifies Diameter support for ERP. The Diameter EAP application is re-used for encapsulating the newly defined EAP Initiate and EAP Finish messages specified in the ERP specification.  AVPs for request and delivery of Domain Specific Root Keys from the AAA/EAP server to the ER server are also specified. Additionally, this document also specifies Diameter processing rules relevant to ERP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dondeti-dime-erp-diameter-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dondeti-dime-erp-diameter-01.txt' />
+</reference>

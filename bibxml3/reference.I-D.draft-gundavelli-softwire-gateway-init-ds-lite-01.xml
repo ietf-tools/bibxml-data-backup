@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gundavelli-softwire-gateway-init-ds-lite'>
+<front>
+<title>Gateway Initiated Dual-Stack Lite Deployment</title>
+
+<author initials='F' surname='Brockners' fullname='Frank Brockners'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gundavelli' fullname='Sri Gundavelli'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2009' />
+
+<abstract><t>Dual-Stack lite (DS-lite) has been proposed as an IPv4 to IPv6 transition technique.  Dual-stack lite allows a service provider to migrate his network to IPv6, while still offering IPv4 services to the customer.  The dual-stack lite solution uses an IPv4-over-IPv6 tunnel between a host (or access device) and a dual-stack lite Carrier Grade NAT (CGN).  Several existing network architectures (e.g. 3GPP, WiMAX, or PPP based broadband networks) already specify dual-stack deployment and leverage tunneling schemes between the access device and an access gateway in the provider network. Applying the dual-stack lite concept to these networks will result in changes to the end-system and unnecessary tunneling overhead.  This draft describes a modified implementation of dual-stack lite where existing access tunnels are extended beyond the access gateway to the dual-stack lite CGN using softwires.  This evolved approach not only applies to IPv6 networks but also includes support for IPv4 networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gundavelli-softwire-gateway-init-ds-lite-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gundavelli-softwire-gateway-init-ds-lite-01.txt' />
+</reference>

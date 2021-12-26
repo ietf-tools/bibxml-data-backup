@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipsecme-rfc4307bis'>
+<front>
+<title>Cryptographic Algorithms for Use in the Internet Key Exchange Version 2 (IKEv2)</title>
+
+<author initials='Y' surname='Nir' fullname='Yoav Nir'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kivinen' fullname='Tero Kivinen'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wouters' fullname='Paul Wouters'>
+    <organization />
+</author>
+
+<author initials='D' surname='Migault' fullname='Daniel Migault'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2015' />
+
+<abstract><t>The IPsec series of protocols makes use of various cryptographic algorithms in order to provide security services.  The Internet Key Exchange protocol provides a mechanism to negotiate which algorithms should be used in any given association.  However, to ensure interoperability between disparate implementations, it is necessary to specify a set of mandatory-to-implement algorithms to ensure that there is at least one algorithm that all implementations will have available.  This document defines the current set of algorithms that are mandatory to implement as part of IKEv2, as well as algorithms that should be implemented because they may be promoted to mandatory at some future time.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-rfc4307bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipsecme-rfc4307bis-00.txt' />
+</reference>

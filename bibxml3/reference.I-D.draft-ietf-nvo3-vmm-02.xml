@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nvo3-vmm'>
+<front>
+<title>Virtual Machine Mobility Protocol for L2 and L3 Overlay Networks</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='L' surname='Dunbar' fullname='Linda Dunbar'>
+    <organization />
+</author>
+
+<author initials='B' surname='Khasnabish' fullname='Bhumip Khasnabish'>
+    <organization />
+</author>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<author initials='S' surname='Dikshit' fullname='Saumya Dikshit'>
+    <organization />
+</author>
+
+<date month='May' day='4' year='2018' />
+
+<abstract><t>This document describes a virtual machine mobility protocol commonly used in data centers built with overlay-based network virtualization approach.  For layer 2, it is based on using a Network Virtualization Authority (NVA)-Network Virtualization Edge (NVE) protocol to update Address Resolution Protocol (ARP) table or neighbor cache entries at the NVA and the source NVEs tunneling in-flight packets to the destination NVE after the virtual machine moves from source NVE to the destination NVE.  For Layer 3, it is based on address and connection migration after the move.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nvo3-vmm-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nvo3-vmm-02.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.thomas-crypto-conditions'>
+<front>
+<title>Crypto-Conditions</title>
+
+<author initials='S' surname='Thomas' fullname='Stefan Thomas'>
+    <organization />
+</author>
+
+<author initials='R' surname='Reginelli' fullname='Rome Reginelli'>
+    <organization />
+</author>
+
+<author initials='A' surname='Hope-Bailie' fullname='Adrian Hope-Bailie'>
+    <organization />
+</author>
+
+<date month='January' day='19' year='2018' />
+
+<abstract><t>The crypto-conditions specification defines a set of encoding formats and data structures for *conditions* and *fulfillments*.  A condition uniquely identifies a logical "boolean circuit" constructed from one or more logic gates, evaluated by either validating a cryptographic signature or verifying the preimage of a hash digest.  A fulfillment is a data structure encoding one or more cryptographic signatures and hash digest preimages that define the structure of the circuit and provide inputs to the logic gates allowing for the result of the circuit to be evaluated.  A fulfillment is validated by evaluating that the circuit output is TRUE but also that the provided fulfillment matches the circuit fingerprint, the condition.  Since evaluation of some of the logic gates in the circuit (those that are signatures) also take a message as input the evaluation of the entire fulfillment takes an optional input message which is passed to each logic gate as required.  As such the algorithm to validate a fulfillment against a condition and a message matches that of other signature schemes and a crypto-condition can serve as a sophisticated and flexible replacement for a simple signature where the condition is used as the public key and the fulfillment as the signature.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-thomas-crypto-conditions-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-thomas-crypto-conditions-04.txt' />
+</reference>

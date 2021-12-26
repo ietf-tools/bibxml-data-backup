@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.jearango-lisp-stateful-pull-model'>
+<front>
+<title>LISP Stateful Pull Model</title>
+
+<author initials='J' surname='Arango' fullname='Jesus Arango'>
+    <organization />
+</author>
+
+<author initials='J' surname='Leong' fullname='Johnson Leong'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2017' />
+
+<abstract><t>This document specifies a stateful pull model for LISP where ITRs can subscribe with the mapping system to be notified whenever a particular EID mapping changes.  The model uses a publish/subscribe mechanism that supports overlapping EID registrations without having to notify the ITR about every single prefix covered by a particular subscription.  The pull model is stateful in the sense that it requires that the mapping system maintain subscription state.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-jearango-lisp-stateful-pull-model-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-jearango-lisp-stateful-pull-model-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-jearango-lisp-stateful-pull-model-00.pdf' />
+</reference>

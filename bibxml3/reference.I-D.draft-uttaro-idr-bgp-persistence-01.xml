@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.uttaro-idr-bgp-persistence'>
+<front>
+<title>BGP Persistence</title>
+
+<author initials='J' surname='Uttaro' fullname='James Uttaro'>
+    <organization />
+</author>
+
+<author initials='A' surname='Simpson' fullname='Adam Simpson'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shakir' fullname='Rob Shakir'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mohapatra' fullname='Pradosh Mohapatra'>
+    <organization />
+</author>
+
+<author initials='B' surname='Decraene' fullname='Bruno Decraene'>
+    <organization />
+</author>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Rekhter' fullname='Yakov Rekhter'>
+    <organization />
+</author>
+
+<date month='March' day='12' year='2012' />
+
+<abstract><t>For certain AFI/SAFI combinations it is desirable that a BGP speaker be able to retain routing state learned over a session that has terminated.  By maintaining routing state forwarding may be preserved.  This technique works effectively as long as the AFI/SAFI is primarily used to realize services that do not depend on exchanging BGP routing state with peers or customers.  There may be exceptions based upon the amount and frequency of route exchange that allow for this technique.  Generally the BGP protocol tightly couples the viability of a session and the routing state that is learned over it.  This is driven by the history of the protocol and it's application in the internet space as a vehicle to exchange routing state between administrative authorities.  This document addresses new services whose requirements for persistence diverge from the Internet routing point of view.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-uttaro-idr-bgp-persistence-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-uttaro-idr-bgp-persistence-01.txt' />
+</reference>

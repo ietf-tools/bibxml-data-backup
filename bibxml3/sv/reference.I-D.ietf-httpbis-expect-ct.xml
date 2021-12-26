@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-httpbis-expect-ct'>
+<front>
+<title>Expect-CT Extension for HTTP</title>
+<author initials='e' surname='estark@google.com' fullname='estark@google.com'>
+<organization />
+</author>
+<date year='2018' month='December' day='09' />
+<abstract><t>This document defines a new HTTP header field named Expect-CT, which allows web host operators to instruct user agents to expect valid Signed Certificate Timestamps (SCTs) to be served on connections to these hosts.  Expect-CT allows web host operators to discover misconfigurations in their Certificate Transparency deployments. Further, web host operaters can use Expect-CT to ensure that, if a UA which supports Expect-CT accepts a misissued certificate, that certificate will be discoverable in Certificate Transparency logs.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-httpbis-expect-ct-08'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-httpbis-expect-ct-08.txt'/>
+</reference>

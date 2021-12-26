@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trill-centralized-replication'>
+<front>
+<title>Centralized Replication for Active-Active BUM Traffic</title>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='M' surname='Durrani' fullname='Muhammad Durrani'>
+    <organization />
+</author>
+
+<author initials='S' surname='Gupta' fullname='Sujay Gupta'>
+    <organization />
+</author>
+
+<author initials='A' surname='Qu' fullname='Andrew Qu'>
+    <organization />
+</author>
+
+<author initials='T' surname='Han' fullname='Tao Han'>
+    <organization />
+</author>
+
+<date month='December' day='20' year='2016' />
+
+<abstract><t>In TRILL active-active access, an RPF check failure issue may occur when using the pseudo-nickname mechanism specified in RFC 7781. This draft describes a solution to resolve this RPF check failure issue through centralized replication. All ingress RBridges send BUM (Broadcast, Unknown unicast and Mutlicast) traffic to a centralized node with unicast TRILL encapsulation. When the centralized node receives the BUM traffic, it decapsulates the packets and forwards them to their destination RBridges using a distribution tree established as per TRILL base protocol RFC 6325. To avoid RPF check failure on a RBridge sitting between the ingress RBridge and the centralized replication node, some change in the RPF calculation algorithm is required. RPF checks on each RBridge should be calculated as if the centralized node was the ingress RBridge, instead of being calculated using the actual ingress RBridge.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trill-centralized-replication-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trill-centralized-replication-07.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.napierala-mpls-targeted-mldp'>
+<front>
+<title>Using LDP Multipoint Extensions on Targeted LDP Sessions</title>
+
+<author initials='M' surname='Napierala' fullname='Maria Napierala'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2011' />
+
+<abstract><t>Label Distribution Protocol (LDP) can be used to set up Point-to-Multipoint (P2MP) and Multipoint-to-Multipoint (MP2MP) Label Switched Paths.  The existing specification for this functionality assumes that a pair of LDP neighbors are directly connected. However, the LDP base specification allows for the case where a pair of LDP neighbors are not directly connected; the LDP session between such a pair of neighbors is known as a "Targeted LDP" session.  This document specifies the use of the LDP P2MP/MP2MP extensions over a Targeted LDP session.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-napierala-mpls-targeted-mldp-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-napierala-mpls-targeted-mldp-02.txt' />
+</reference>

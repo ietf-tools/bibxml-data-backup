@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.spiriyath-ipsecme-dynamic-ipsec-pmtu'>
+<front>
+<title>Path Maximum Transmission Unit Discovery (PMTUD) For IPsec Tunnels Using The Internet Key Exchange Protocol (IKE) Version 2</title>
+
+<author initials='S' surname='Piriyath' fullname='Shibu Piriyath'>
+    <organization />
+</author>
+
+<author initials='U' surname='Mangla' fullname='Umesh Mangla'>
+    <organization />
+</author>
+
+<author initials='N' surname='Melam' fullname='Nagavenkata Melam'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<date month='January' day='17' year='2018' />
+
+<abstract><t>This document describes new Path MTU Discovery (PMTUD) procedures that leverage the Internet Key Exchange (IKE) version 2.  Unlike ICMP-based PMTUD procedures, IKE-based PMTUD procedures are not susceptible to attack by forgery.  This is because IKE messages are cryptographically authenticated.  The procedures described in this document are applicable in IPsec tunnel mode only and then, only when the outermost IP header is IPv4.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-spiriyath-ipsecme-dynamic-ipsec-pmtu-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-spiriyath-ipsecme-dynamic-ipsec-pmtu-00.txt' />
+</reference>

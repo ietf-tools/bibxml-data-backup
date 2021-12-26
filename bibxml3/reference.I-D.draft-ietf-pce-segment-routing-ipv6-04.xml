@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pce-segment-routing-ipv6'>
+<front>
+<title>PCEP Extensions for Segment Routing leveraging the IPv6 data plane</title>
+
+<author initials='M' surname='Negi' fullname='Mahendra Negi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Li' fullname='Cheng Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
+    <organization />
+</author>
+
+<author initials='P' surname='Kaladharan' fullname='Prejeeth Kaladharan'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Zhu' fullname='Yongqing Zhu'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2020' />
+
+<abstract><t>The Source Packet Routing in Networking (SPRING) architecture describes how Segment Routing (SR) can be used to steer packets through an IPv6 or MPLS network using the source routing paradigm. SR enables any head-end node to select any path without relying on a hop-by-hop signaling technique (e.g., LDP or RSVP-TE).  It depends only on "segments" that are advertised by Link- State IGPs.  A Segment Routed Path can be derived from a variety of mechanisms, including an IGP Shortest Path Tree (SPT), explicit configuration, or a Path Computation Element (PCE).  Since SR can be applied to both MPLS and IPv6 forwarding plane, a PCE should be able to compute SR-Path for both MPLS and IPv6 forwarding plane.  This document describes the extensions required for SR support for IPv6 data plane in Path Computation Element communication Protocol (PCEP).  The PCEP extension and mechanism to support SR-MPLS is described in RFC 8664.  This document extends it to support SRv6 (SR over IPv6).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pce-segment-routing-ipv6-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pce-segment-routing-ipv6-04.txt' />
+</reference>

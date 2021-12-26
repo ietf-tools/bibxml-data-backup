@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chen-rtgwg-srv6-midpoint-protection'>
+<front>
+<title>SRv6 Midpoint Protection</title>
+
+<author initials='H' surname='Chen' fullname='Huanan Chen'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Hu' fullname='Zhibo Hu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+    <organization />
+</author>
+
+<author initials='X' surname='Geng' fullname='Xuesong Geng'>
+    <organization />
+</author>
+
+<date month='June' day='1' year='2020' />
+
+<abstract><t>The previous work in IETF has provided some mechanism, e.g., TI-LFA, that allows local repair actions on the direct neighbors of the failed node to temporarily route traffic to the destination.  These mechanism could not work properly when the failure happens in the destination point or the link connected to the destination.  In SRv6 TE, the IPv6 destination address in the outer IPv6 header could be the dedicated endpoint of the TE path rather than the destination of the TE path.  When the endpoint fails, local repair couldn't work on the direct neighbor of the failed endpoint either.  This document defines midpoint protection, which enables the direct neighbor of the failed endpoint to do the function of the endpoint, replace the IPv6 destination address to the other endpoint, and choose the next hop based on the new destination address.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chen-rtgwg-srv6-midpoint-protection-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chen-rtgwg-srv6-midpoint-protection-02.txt' />
+</reference>

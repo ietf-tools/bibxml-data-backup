@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.raza-ace-cbor-certificates'>
+<front>
+<title>CBOR Profile of X.509 Certificates</title>
+
+<author initials='S' surname='Raza' fullname='Shahid Raza'>
+    <organization />
+</author>
+
+<author initials='J' surname='Hoglund' fullname='Joel Hoglund'>
+    <organization />
+</author>
+
+<author initials='G' surname='Selander' fullname='Goeran Selander'>
+    <organization />
+</author>
+
+<author initials='J' surname='Mattsson' fullname='John Mattsson'>
+    <organization />
+</author>
+
+<author initials='M' surname='Furuhed' fullname='Martin Furuhed'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>This document specifies a CBOR encoding and profiling of X.509 public key certificate suitable for Internet of Things (IoT) deployments. The full X.509 public key certificate format and commonly used ASN.1 encoding is overly verbose for constrained IoT environments. Profiling together with CBOR encoding reduces the certificate size significantly with associated known performance benefits.  The CBOR certificates are compatible with the existing X.509 standard, enabling the use of profiled and compressed X.509 certificates without modifications in the existing X.509 standard.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-raza-ace-cbor-certificates-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-raza-ace-cbor-certificates-01.txt' />
+</reference>

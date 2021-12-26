@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ppsenak-ospf-sr-flex-algo'>
+<front>
+<title>OSPF Segment Routing Flexible Algorithm</title>
+
+<author initials='P' surname='Psenak' fullname='Peter Psenak'>
+    <organization />
+</author>
+
+<author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
+    <organization />
+</author>
+
+<author initials='A' surname='Gulko' fullname='Arkadiy Gulko'>
+    <organization />
+</author>
+
+<date month='February' day='16' year='2018' />
+
+<abstract><t>IGP protocols traditionally compute best paths over the network based on the IGP metric assigned to the links.  Many network deployments use RSVP-TE based or Segment Routing based Traffic Engineering to enforce traffic over a path that is computed using different metrics or constraints than the shortest IGP path.  Various mechanisms are used to steer the traffic towards such traffic engineered paths. This document proposes a solution that allows IGPs themselves to compute constraint based paths over the network without the use of the above mentioned traffic engineering technologies.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ppsenak-ospf-sr-flex-algo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ppsenak-ospf-sr-flex-algo-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.costa-6man-dad-proxy'>
+<front>
+<title>Duplicate Address Detection Proxy</title>
+
+<author initials='F' surname='Costa' fullname='Fabio Costa'>
+    <organization />
+</author>
+
+<author initials='J' surname='Combes' fullname='Jean-Michel Combes'>
+    <organization />
+</author>
+
+<author initials='X' surname='Pougnard' fullname='Xavier Pougnard'>
+    <organization />
+</author>
+
+<author initials='L' surname='Hongyu' fullname='Li Hongyu'>
+    <organization />
+</author>
+
+<date month='July' day='2' year='2010' />
+
+<abstract><t>The document describes a mechanism allowing the use of Duplicate Address Detection (DAD) by IPv6 nodes in a VLAN N:1 with "split- horizon" model DSL architecture.  Based on the DAD signalling, the first hop router stores all used addresses on the VLAN in a Binding Table.  When a node performs DAD for an address already used by another node, the first hop router replies instead of this last one.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-costa-6man-dad-proxy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-costa-6man-dad-proxy-00.txt' />
+</reference>

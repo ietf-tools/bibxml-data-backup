@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.campbell-oauth-tbpkce'>
+<front>
+<title>A Token Binding method for OAuth 2.0 Proof Key for Code Exchange</title>
+
+<author initials='B' surname='Campbell' fullname='Brian Campbell'>
+    <organization />
+</author>
+
+<author initials='J' surname='Bradley' fullname='John Bradley'>
+    <organization />
+</author>
+
+<author initials='M' surname='Jones' fullname='Michael Jones'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>This specification describes a Proof Key for Code Exchange (PKCE) [RFC7636] method utilizing Token Binding over HTTP [I-D.ietf-tokbind-https] to cryptographically bind the OAuth 2.0 [RFC6749] authorization code to a key pair on the client, which it proves possession of during the access token request with the authorization code.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-campbell-oauth-tbpkce-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-campbell-oauth-tbpkce-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-campbell-oauth-tbpkce-00.pdf' />
+</reference>

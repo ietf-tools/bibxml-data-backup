@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sheffer-tls-pinning-ticket'>
+<front>
+<title>TLS Server Identity Pinning with Tickets</title>
+
+<author initials='Y' surname='Sheffer' fullname='Yaron Sheffer'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>Fake public-key certificates are an ongoing problem for users of TLS. Several solutions have been proposed, but none is currently in wide use.  This document proposes to extend TLS with opaque tickets, similar to those being used for TLS session resumption, as a way to pin the server's identity.  That is, to ensure the client that it is connecting to the right server even in the presence of corrupt certificate authorities and fake certificates.  The main advantage of this solution is that no manual management actions are required.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sheffer-tls-pinning-ticket-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sheffer-tls-pinning-ticket-02.txt' />
+</reference>

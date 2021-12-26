@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bzwu-tls-client-keyshare'>
+<front>
+<title>Transport Layer Security (TLS) Client Keyshare Extension</title>
+
+<author initials='B' surname='Wu' fullname='Bingzheng Wu'>
+    <organization />
+</author>
+
+<date month='May' day='6' year='2015' />
+
+<abstract><t>This document defines an extension that allows a TLS client to carry Diffie-Hellman (DH) keyshares in ClientHello message, replacing the ClientKeyExchange message in the second round-trip, to reduce the full handshake latency to one network round-trip time (RTT).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bzwu-tls-client-keyshare-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bzwu-tls-client-keyshare-01.txt' />
+</reference>

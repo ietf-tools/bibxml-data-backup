@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tschofenig-mip6-aaa-ha-diameter'>
+<front>
+<title>Mobile IPv6 Bootstrapping using Diameter</title>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<date month='October' day='25' year='2005' />
+
+<abstract><t>Both Mobile IPv6 bootstrapping solutions require use of a AAA interface. In the split scenario, this interface is between the Home Agent and the AAA infrastructure of the Mobile Service Provider (MSP) and the Mobility Service Authorizer (MSA). The first interface should meet a list of requirements. This document provides an overview of the capabilities and design of the Diameter protocol that could meet the specified goals. In the integrated scenario, in addition to this interface, the impact of the MIPv6 bootstrapping on the AAA interface for network access authentication must be considered. Basically, this interface is also used to carry Home Agent information. This document defines the necessary AVP and how Diameter can be used in the integrated scenario.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tschofenig-mip6-aaa-ha-diameter-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tschofenig-mip6-aaa-ha-diameter-01.txt' />
+</reference>

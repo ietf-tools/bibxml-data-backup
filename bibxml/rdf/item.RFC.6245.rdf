@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc6245.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc6245.txt</link>
+        <title>RFC 6245: Generic Routing Encapsulation (GRE) Key Extension for Mobile IPv4, P. Yegani, K. Leung, A. Lior, K. Chowdhury, J. Navali</title>
+        <dc:date>2011-05-01T23:00:00-00:00</dc:date>
+        <description>The Generic Routing Encapsulation (GRE) specification contains a Key field, which MAY contain a value that is used to identify a particular GRE data stream.  This specification defines a new Mobile IP extension that is used to exchange the value to be used in the GRE Key field.  This extension further allows the Mobility Agents to set up the necessary protocol interfaces prior to receiving the mobile node traffic.  The new extension allows a Foreign Agent to request GRE tunneling without disturbing the Home Agent behavior specified for Mobile IPv4.  GRE tunneling with the Key field allows the operators to have home networks that consist of multiple Virtual Private Networks (VPNs), which may have overlapping home addresses. When the tuple <Care of Address, Home Address, and Home Agent Address> is the same across multiple subscriber sessions, GRE tunneling will provide a means for the Foreign Agent and Home Agent to identify data streams for the individual sessions based on the GRE key.  In the absence of this key identifier, the data streams cannot be distinguished from each other -- a significant drawback when using IP-in-IP tunneling.  [STANDARDS-TRACK] </description>
+    </item>
+

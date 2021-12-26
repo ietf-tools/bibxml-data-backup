@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-l4s-arch'>
+<front>
+<title>Low Latency, Low Loss, Scalable Throughput (L4S) Internet Service: Architecture</title>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<author initials='K' surname='Schepper' fullname='Koen Schepper'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<author initials='G' surname='White' fullname='Greg White'>
+    <organization />
+</author>
+
+<date month='February' day='20' year='2020' />
+
+<abstract><t>This document describes the L4S architecture, which enables Internet applications to achieve Low Latency, Low Loss, and Scalable throughput (L4S), while coexisting on shared network bottlenecks with existing Internet applications that are not built to take advantage of this new technology.  In traditional bottleneck links that utilize a single, shared egress queue, a variety of application traffic flows can share the bottleneck queue simultaneously.  As a result, each sender's behavior and its response to the congestion signals (delay, packet drop, ECN marking) provided by the queue can impact the performance of all other applications that share the link.  Furthermore, it is considered important that new protocols coexist in a reasonably fair manner with existing protocols (most notably TCP and QUIC).  As a result, senders tend to normalize on behaviors that are not significantly different than those in use by the majority of the existing senders.  For many years, the majority of traffic on the Internet has used either the Reno AIMD congestion controller or the Cubic algorithm, and as a result any newly proposed congestion controller needs to demonstrate that it provides reasonable fairness when sharing a bottleneck with flows that use Reno or Cubic.  This has led to an ossification in congestion control, where improved congestion controllers cannot easily be deployed on the Internet.  It is well known that the common existing congestion controllers (e.g.  Reno and Cubic) increase their congestion window (the amount of data in flight) until they induce congestion, and they respond to the congestion signals of packet loss (or equivalently ECN marks) by significantly reducing their congestion window.  This leads to a large sawtooth of the congestion window that manifests itself as a combination of queue delay and/or link underutilization.  Meanwhile, in closed network environments, such as data centres, new congestion controllers (e.g.  DCTCP [RFC8257]) have been deployed that significantly outperform Reno and Cubic in terms of queue delay and link utilization across a much wider range of network conditions.  The L4S architecture provides an approach that allows for the deployment of next generation congestion controllers while preserving reasonably fair coexistence with Reno and Cubic.  The L4S architecture consists of three components: network support to isolate L4S traffic from other traffic and to provide appropriate congestion signaling to both types; protocol features that allow network elements to identify L4S traffic and allow for communication of congestion signaling; and host support for immediate congestion signaling and an appropriate congestion response that enables scalable performance.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-l4s-arch-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-l4s-arch-05.txt' />
+</reference>

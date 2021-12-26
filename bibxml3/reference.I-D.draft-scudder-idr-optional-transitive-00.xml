@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.scudder-idr-optional-transitive'>
+<front>
+<title>Error Handling for Optional Transitive BGP Attributes</title>
+
+<author initials='J' surname='Scudder' fullname='John Scudder'>
+    <organization />
+</author>
+
+<author initials='E' surname='Chen' fullname='Enke  Chen'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2009' />
+
+<abstract><t>According to the base BGP specification, a BGP speaker that receives an UPDATE message containing a malformed attribute is required to reset the session over which the offending attribute was received. This behavior is undesirable in the case of optional transitive attributes.  This document revises BGP's error-handling rules for optional transitive attributes, and provides guidelines for the authors of documents defining new optional transitive attributes.  It also revises the error handling procedures for several existing optional transitive attributes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-scudder-idr-optional-transitive-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-scudder-idr-optional-transitive-00.txt' />
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-mglt-ipsecme-diet-esp-payload-compression-00.pdf'>
+    <title>"Diet-IPsec: ESP Payload Compression of IPv6 / UDP / TCP / UDP-Lite", Daniel Migault, Tobias Guggemos</title>
+    <link>http://www.ietf.org/internet-drafts/draft-mglt-ipsecme-diet-esp-payload-compression-00.pdf</link>
+    <description>ESP is a IPsec protocol that takes as input a Clear Text Data and outputs an encrypted ESP packet according to IPsec rules and parameters stored in different IPsec databases.  Diet-ESP compresses the ESP fields.  However, Diet-ESP does not consider compression of the Clear Text Data.  Instead, if compression of the Clear Text Data is expected protocols like ROHCoverIPsec can be used.  ROHCoverIPsec remains complex to implement in IoT devices, as states, and negotiations are involved between the compressors and decompressors of the two IoT devices.  Most of this complexity can be avoided by considering the parameters that have been negotiated by IPsec.  This document describes an extension of the Diet-ESP Context that enables the compression of the Clear Text Data, without implementing the complex ROHCoverIPsec framework.  As opposed to ROHCoverIPsec the compression is not generic and as such all communication will not benefit from this compression.  However, we believe this extension addresses most of IoT communications.</description>
+    <dc:date>2014-07-03T07:00:00-00:00</dc:date>
+</item>

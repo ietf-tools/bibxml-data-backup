@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-grow-simple-va'>
+<front>
+<title>Simple Virtual Aggregation (S-VA)</title>
+
+<author initials='P' surname='Francis' fullname='Paul Francis'>
+    <organization />
+</author>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='H' surname='Ballani' fullname='Hitesh Ballani'>
+    <organization />
+</author>
+
+<author initials='R' surname='Raszuk' fullname='Robert Raszuk'>
+    <organization />
+</author>
+
+<author initials='L' surname='Zhang' fullname='Lixia Zhang'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>The continued growth in the Default Free Routing Table (DFRT) stresses the global routing system in a number of ways.  One of the most costly stresses is FIB size: ISPs often must upgrade router hardware simply because the FIB has run out of space, and router vendors must design routers that have adequate FIB.  FIB suppression is an approach to relieving stress on the FIB by NOT loading selected RIB entries into the FIB.  Simple Virtual Aggregation (S-VA) is a simple form of Virtual Aggregation (VA) that allows any and all edge routers to shrink their FIB requirements substantially and therefore increase their useful lifetime.  S-VA does not change FIB requirements for core routers.  S-VA is extremely easy to configure---considerably more so than the various tricks done today to extend the life of edge routers.  S-VA can be deployed autonomously by an ISP (cooperation between ISPs is not required), and can co-exist with legacy routers in the ISP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-grow-simple-va-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-grow-simple-va-00.txt' />
+</reference>

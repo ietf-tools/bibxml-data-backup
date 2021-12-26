@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-early-rexmt'>
+<front>
+<title>Early Retransmit for TCP and SCTP</title>
+
+<author initials='M' surname='Allman' fullname='Mark Allman'>
+    <organization />
+</author>
+
+<author initials='K' surname='Avrachenkov' fullname='Konstantin Avrachenkov'>
+    <organization />
+</author>
+
+<author initials='U' surname='Ayesta' fullname='Urtzi Ayesta'>
+    <organization />
+</author>
+
+<author initials='E' surname='Blanton' fullname='Ethan Blanton'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hurtig' fullname='Per Hurtig'>
+    <organization />
+</author>
+
+<date month='January' day='14' year='2009' />
+
+<abstract><t>This document proposes a new mechanism for TCP and SCTP that can be used to recover lost segments when a connection's congestion window    is small. The "Early Retransmit" mechanism allows the transport to reduce, in certain special circumstances, the number of duplicate acknowledgments required to trigger a fast retransmission.  This allows the transport to use fast retransmit to recover packet losses that would otherwise require a lengthy retransmission timeout.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-early-rexmt-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-early-rexmt-01.txt' />
+</reference>

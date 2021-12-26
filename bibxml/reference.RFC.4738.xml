@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4738' target='https://www.rfc-editor.org/info/rfc4738'>
+<front>
+<title>MIKEY-RSA-R: An Additional Mode of Key Distribution in Multimedia Internet KEYing (MIKEY)</title>
+<author initials='D.' surname='Ignjatic' fullname='D. Ignjatic'><organization /></author>
+<author initials='L.' surname='Dondeti' fullname='L. Dondeti'><organization /></author>
+<author initials='F.' surname='Audet' fullname='F. Audet'><organization /></author>
+<author initials='P.' surname='Lin' fullname='P. Lin'><organization /></author>
+<date year='2006' month='November' />
+<abstract><t>The Multimedia Internet Keying (MIKEY) specification describes several modes of key distribution solution that address multimedia scenarios (e.g., SIP calls and Real Time Streaming Protocol (RTSP) sessions) using pre-shared keys, public keys, and optionally a Diffie-Hellman key exchange.  In the public-key mode, the Initiator encrypts a random key with the Responder's public key and sends it to the Responder.  In many communication scenarios, the Initiator may not know the Responder's public key, or in some cases the Responder's ID (e.g., call forwarding) in advance.  We propose a new MIKEY mode that works well in such scenarios.  This mode also enhances the group key management support in MIKEY; it supports member-initiated group key download (in contrast to group manager pushing the group keys to all members).  This document updates RFC 3830 with the RSA-R mode.  [STANDARDS-TRACK]</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4738'/>
+<seriesInfo name='DOI' value='10.17487/RFC4738'/>
+</reference>

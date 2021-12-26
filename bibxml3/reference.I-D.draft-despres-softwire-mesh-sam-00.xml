@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.despres-softwire-mesh-sam'>
+<front>
+<title>Mesh Softwire Solution without BGP and with Stateless Address Mapping  (SAM)</title>
+
+<author initials='R' surname='Despres' fullname='Remi Despres'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>SAM is a generic mechanism for packets whose addresses are in an address family to traverse routing domains where this address family is not directly supported.  Its topological scenarios are in the defined as mesh softwire class, i.e. with point to multipoint tunnels between border nodes so that packets never need to traverse softwire domains twice.  SAM exterior to interior address mappings are stateless, i.e; such that border nodes don't need to maintain states about other border nodes.  While 6to4, ISATAP, and 6rd, are already solutions for IPv6 tunnels across IPv4 domains, SAM supports all IPvX across IPvY combinations.  Also, to mitigate consequences of the IPv4 address shortage during the transition-to-IPv6 period, SAM supports, for protocols that have ports to designate connection endpoints, port-extended IPv4 addresses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-despres-softwire-mesh-sam-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-despres-softwire-mesh-sam-00.txt' />
+</reference>

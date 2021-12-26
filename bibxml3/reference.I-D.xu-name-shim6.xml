@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-name-shim6'>
+<front>
+<title>Name Based Sockets - Shim6</title>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ming' fullname='Zhongxing Ming'>
+    <organization />
+</author>
+
+<author initials='J' surname='Ubillos' fullname='Javier Ubillos'>
+    <organization />
+</author>
+
+<author initials='C' surname='Vogt' fullname='Christian Vogt'>
+    <organization />
+</author>
+
+<date month='September' day='17' year='2010' />
+
+<abstract><t>This document describes and defines shim6 as a mobility solution for name-based sockets.  Using names rather than pseudo IP addresses, shim6 can handle a more diverse set of mobility scenarios.  These changes allow a shim6 session to persist even through cases where one node has no working locators to its correspondent node.  If the name is also a resolvable fully qualified domain name, the connection can be kept alive even if neither node have a working locator to the corresponding node.  As can be the case if both nodes are mobile simultaneously.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-name-shim6-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-name-shim6-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chaparadza-6man-igcp'>
+<front>
+<title>ICMPv6 based Generic Control Protocol (IGCP)</title>
+
+<author initials='R' surname='Chaparadza' fullname='Ranganai Chaparadza'>
+    <organization />
+</author>
+
+<author initials='R' surname='Petre' fullname='Razvan Petre'>
+    <organization />
+</author>
+
+<author initials='L' surname='Xin' fullname='Li Xin'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Li' fullname='Yuhong Li'>
+    <organization />
+</author>
+
+<author initials='S' surname='Cheng' fullname='Shiduan Cheng'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2010' />
+
+<abstract><t>This document presents a proposal for a multi-purpose Generic Control Protocol (IGCP) for IPv6 based networks. There is a growing need for a generic control protocol framework that can be further customized to specific usage contexts in which certain types of control information exchange messages and behavior among some functional entities hosted by different nodes is desired. For example, the growing area of self-management, self-organization and autonomic networking introduces functional entities into the node and network architectures that need to exchange control information in order to implement self-adaptive behavior and dynamic network configuration and optimization. In this document, we capture a number of control message exchange types of contexts for which a generic control protocol would be desired. The extensibility of ICMPv6 offers the room for designing such a generic control protocol. In this document, we present our proposal for such a generic control protocol that is based on extending ICMPv6, whose message format is divided into two parts: a Common Part and a Generic Data Part that can be further structured according to some usage context of control messages further encapsulated by the Data Part that need to be parsed and used by entities meant to interpret the Data Part.  We also give an example use case, where functional entities residing in different nodes exchange information using the IGCP generic messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chaparadza-6man-igcp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chaparadza-6man-igcp-00.txt' />
+</reference>

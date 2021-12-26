@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yao-dnsop-xname-loop'>
+<front>
+<title>xNAME loop detection and its usage suggestion</title>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<date month='November' day='14' year='2011' />
+
+<abstract><t>The Domain Name System (DNS) has provided some means, such as CNAME or DNAME, where a query can be redirected to a different name.  The zone operator should be careful about this redirection, which may forms a loop.  The detail analysis of xNAME loop detection and its impacts are not specified in the RFC 1035 and RFC 2672.  This document gives a detail analysis of xNAME loop and its impacts.  It also gives some advices for using xNAME.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yao-dnsop-xname-loop-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yao-dnsop-xname-loop-00.txt' />
+</reference>

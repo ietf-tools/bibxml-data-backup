@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-radext-ipv6-access'>
+<front>
+<title>RADIUS attributes for IPv6 Access Networks</title>
+
+<author initials='B' surname='Lourdelet' fullname='Benoit Lourdelet'>
+    <organization />
+</author>
+
+<author initials='W' surname='Dec' fullname='Wojciech Dec'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='G' surname='Zorn' fullname='Glen Zorn'>
+    <organization />
+</author>
+
+<author initials='D' surname='Miles' fullname='David Miles'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2010' />
+
+<abstract><t>This document specifies IPv6 RADIUS attributes, which complement those of RFC3162, and are intended to be used in residential broadband networks, where specific user configuration information is expected to be passed as part of the AAA process between a NAS and an AAA server.  The attributes cover the assignment or reporting of the following; a specific host IPv6 address; a recursive DNS IPv6 server address; a specific IPv6 route announced to a host; a named IPv6 delegated prefix pool to be used for assignments to an accessing host.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-radext-ipv6-access-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-radext-ipv6-access-02.txt' />
+</reference>

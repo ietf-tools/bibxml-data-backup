@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtcore-ecn-for-rtp'>
+<front>
+<title>Explicit Congestion Notification (ECN) for RTP over UDP</title>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<author initials='I' surname='Johansson' fullname='Ingemar Johansson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Perkins' fullname='Colin Perkins'>
+    <organization />
+</author>
+
+<author initials='K' surname='Carlberg' fullname='Ken Carlberg'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2011' />
+
+<abstract><t>This document specifies how explicit congestion notification (ECN) can be used with Real-time Transport Protocol (RTP) over UDP flows that use RTP Control Protocol (RTCP) as feedback mechanism.  It defines one RTP Control Protocol Extended Reports (RTCP XR) extension for ECN summary, a RTCP transport feedback format for timely reporting of congestion events, and an Session Traversal Utilities for NAT (STUN) extension used in the optional initilization method using Interactive Connectivity Establishment (ICE).  Signalling and procedures for negotiation of capabilities and initilization methods are also defined.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtcore-ecn-for-rtp-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtcore-ecn-for-rtp-01.txt' />
+</reference>

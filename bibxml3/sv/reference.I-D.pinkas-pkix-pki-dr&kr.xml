@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pinkas-pkix-pki-dr_kr'>
+<front>
+<title>Internet X.509 Public Key Infrastructure PKI Disaster Recovery and Key  Rollover</title>
+
+<author initials='D' surname='Pinkas' fullname='Denis Pinkas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Kazin' fullname='Joel Kazin'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2007' />
+
+<abstract><t>This document presents a framework to assist the writers of policy or practice statements and the designers of a Public Key Infrastructure to prepare disaster recovery plans in case of a private key-compromise or a private key-loss. This may happen to end-entity keys, Certification Authorities, Revocation Authorities, Attribute Authorities, or Time-Stamping Authorities. Since certificates have finite validity, CA key-rollover should be planned in advance. In addition, denial of service attacks on Repositories holding CRLs has also to be considered. This framework provides a comprehensive list of potential key- compromise or key-loss conditions that, in the opinion of the authors, should be addressed so that it is possible to quickly recover from exceptional situations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pinkas-pkix-pki-dr&amp;kr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pinkas-pkix-pki-dr&amp;kr-00.txt' />
+</reference>

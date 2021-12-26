@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.menth-lisp-ha'>
+<front>
+<title>LISP Hybrid Access</title>
+
+<author initials='M' surname='Menth' fullname='Michael Menth'>
+    <organization />
+</author>
+
+<author initials='A' surname='Stockmayer' fullname='Andreas Stockmayer'>
+    <organization />
+</author>
+
+<author initials='M' surname='Schmidt' fullname='Mark Schmidt'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2015' />
+
+<abstract><t>Hybrid access (HA) allows simultaneous usage of multiple access links.  Advantages are increased bandwidth and improved resilience. This document presents LISP Hybrid Access (LISP-HA), a mechanism to provide HA based on LISP technology.  The document discusses potential changes needed to perform dynamic load-balancing and per packet load-balancing, which both increase the efficiency of HA.  To that end, modified usage of some fields in the LISP header is proposed.  Discussed use cases include the bundling of multiple access technologies for mobile devices and residential access routers.  Additionally, we provide some considerations how LISP-HA can be deployed by providers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-menth-lisp-ha-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-menth-lisp-ha-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-menth-lisp-ha-00.pdf' />
+</reference>

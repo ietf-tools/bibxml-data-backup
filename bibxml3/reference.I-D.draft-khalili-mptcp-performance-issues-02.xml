@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.khalili-mptcp-performance-issues'>
+<front>
+<title>&lt;Performance Issues with MPTCP></title>
+
+<author initials='R' surname='Khalili' fullname='Ramin Khalili'>
+    <organization />
+</author>
+
+<author initials='N' surname='Gast' fullname='Nicolas Gast'>
+    <organization />
+</author>
+
+<author initials='M' surname='Popovic' fullname='Miroslav Popovic'>
+    <organization />
+</author>
+
+<author initials='J' surname='Boudec' fullname='Jean-Yves Le Boudec'>
+    <organization />
+</author>
+
+<date month='February' day='18' year='2013' />
+
+<abstract><t>We show, by measurements over a testbed and by mathematical analysis, that the current MPTCP suffers from two problems: (P1) Upgrading some TCP users to MPTCP can reduce the throughput of others without any benefit to the upgraded users; and (P2) MPTCP users can be excessively aggressive towards TCP users. We attribute these problems to the "Linked Increases" Algorithm (LIA) of MPTCP [4], and more specifically, to an excessive amount of traffic transmitted over congested paths. Our results show that these problems are important and can be mitigated. We believe that the design of the congestion control of MPTCP should be improved.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-khalili-mptcp-performance-issues-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-khalili-mptcp-performance-issues-02.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-radext-filter'>
+<front>
+<title>RADIUS Filter Rule Attribute</title>
+
+<author initials='P' surname='Congdon' fullname='Paul Congdon'>
+    <organization />
+</author>
+
+<date month='January' day='11' year='2007' />
+
+<abstract><t>While RFC 2865 defines the Filter-Id attribute, this requires that the Network Access Server (NAS) be pre-populated with the desired filters. However, in situations where the server operator does not know which filters have been pre-populated, it is useful to specify filter rules explicitly. This document defines the NAS-Filter-Rule attribute within the Remote Authentication Dial In User Service (RADIUS). This attribute is based on the Diameter NAS-Filter-Rule Attribute Value Pair (AVP) described in RFC 4005, and the IPFilterRule syntax defined in RFC 3588.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-radext-filter-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-radext-filter-07.txt' />
+</reference>

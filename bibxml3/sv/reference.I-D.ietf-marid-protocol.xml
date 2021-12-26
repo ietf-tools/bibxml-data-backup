@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-marid-protocol'>
+<front>
+<title>The SPF Record Format and Sender-ID Protocol</title>
+
+<author initials='M' surname='Wong' fullname='Meng Weng Wong'>
+    <organization />
+</author>
+
+<date month='September' day='16' year='2004' />
+
+<abstract><t>This document defines a protocol for the authorization of Internet hosts to use domain names in the sender mailbox of mail that those hosts send. Authorization records are published in DNS for domain names that may be used as part of sender mailboxes. Mail receivers then perform a check against those records to see if a client host submitting a piece of mail is actually authorized. Since there are several different concepts of sender mailbox, this protocol is generic and can be applied to one or more of such "scopes".</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-marid-protocol-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-marid-protocol-03.txt' />
+</reference>

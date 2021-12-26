@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.welzl-tcp-ccc'>
+<front>
+<title>TCP-CCC: single-path TCP congestion control coupling</title>
+
+<author initials='M' surname='Welzl' fullname='Michael Welzl'>
+    <organization />
+</author>
+
+<author initials='S' surname='Islam' fullname='Safiqul Islam'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hiorth' fullname='Kristian Hiorth'>
+    <organization />
+</author>
+
+<author initials='J' surname='You' fullname='Jianjie You'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>This document specifies a method, TCP-CCC, to combine the congestion controls of multiple TCP connections between the same pair of hosts. This can have several performance benefits, and it makes it possible to precisely assign a share of the congestion window to the connections based on priorities.  This document also addresses the problem that TCP connections between the same pair of hosts may not share the same path.  We discuss methods to detect if, or enforce that connections traverse a common bottleneck.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-welzl-tcp-ccc-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-welzl-tcp-ccc-00.txt' />
+</reference>

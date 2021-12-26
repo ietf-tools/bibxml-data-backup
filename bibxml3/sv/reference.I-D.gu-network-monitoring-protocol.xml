@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gu-network-monitoring-protocol'>
+<front>
+<title>Network Monitoring Protocol (NMP)</title>
+
+<author initials='Y' surname='Gu' fullname='Yunan Gu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Zhuang' fullname='Shunwan Zhuang'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2018' />
+
+<abstract><t>To evolve towards automated network OAM (Operations, administration and management), the monitoring of control plane protocols is a fundamental necessity.  In this document, a network monitoring protocol (NMP) is proposed to provision the running status information of control plane protocols, e.g., IGP (Interior Gateway Protocol) and other protocols.  By collecting the protocol monitoring data and reporting it to the NMP monitoring server in real-time, NMP can facilitate network troubleshooting.  In this document, NMP for IGP troubleshooting are illustrated to showcase the necessity of NMP. IS-IS is used as the demonstration protocol, and the case of OSPF (Open Shortest Path First) and other control protocols will be elaborated in the future versions.  The operations of NMP are described, and the NMP message types and message formats are defined in the document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gu-network-monitoring-protocol-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gu-network-monitoring-protocol-00.txt' />
+</reference>

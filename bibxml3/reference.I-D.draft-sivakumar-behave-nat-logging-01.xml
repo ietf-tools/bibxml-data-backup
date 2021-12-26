@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sivakumar-behave-nat-logging'>
+<front>
+<title>Logging of NAT Events</title>
+
+<author initials='S' surname='Sivakumar' fullname='Senthil Sivakumar'>
+    <organization />
+</author>
+
+<date month='May' day='11' year='2011' />
+
+<abstract><t>Carrier grade NAT (CGN) devices are required to log events like creation and deletion of translations and information about the resources it is managing.  The logs are required in many cases to identify an attacker or a host that was used to launch malicious attacks and/or for various other purposes of accounting.  Since there is no standard way of logging this information, different NAT devices behave differently and hence it is difficult to expect a consistent behavior.  The lack of a consistent way makes it difficult to write the collector applications that would receive this data and process it to present useful information.  This document describes the information that is required to be logged by the NAT devices.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sivakumar-behave-nat-logging-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sivakumar-behave-nat-logging-01.txt' />
+</reference>

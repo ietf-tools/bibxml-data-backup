@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yao-eai-dns'>
+<front>
+<title>SMTPUTF8 Capability Indicator</title>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<author initials='S' surname='Shen' fullname='Sean Shen'>
+    <organization />
+</author>
+
+<date month='March' day='4' year='2012' />
+
+<abstract><t>Key RFCs for internationalized email addresses specify the basic protocols for using them.  The SMTP client can only know the SMTP server's ability by EHLO command.  In order to help the internationalized email address delivery, this document suggests to add the new DNS RR type for internationalized email protocols. Through this RR type, the SMTP client can know whether the destination SMTP server can support the SMTPUTF8 ability before sending the EHLO command to the server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yao-eai-dns-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yao-eai-dns-00.txt' />
+</reference>

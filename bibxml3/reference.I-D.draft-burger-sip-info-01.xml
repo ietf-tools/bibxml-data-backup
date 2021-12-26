@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.burger-sip-info'>
+<front>
+<title>Session Initiation Protocol (SIP) INFO Method Use</title>
+
+<author initials='E' surname='Burger' fullname='Eric Burger'>
+    <organization />
+</author>
+
+<date month='August' day='7' year='2007' />
+
+<abstract><t>The purpose of the INFO request for the Session Initiation Protocol (SIP), as described by RFC 2976, is to provide mid-session SIP User Agent (UA)-to-SIP UA application data transport. In the years since the introduction of the INFO request, experience with the use of the INFO request indicates a number of problems. This document explains why there are INFO-based, proprietary protocols in the wild; the flaws of using INFO; and explains why it is not possible to create a framework to rescue INFO for general purpose use. Thus, this document restricts the use of INFO to call establishment signaling, as described in RFC 3372 (SIP-T).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-burger-sip-info-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-burger-sip-info-01.txt' />
+</reference>

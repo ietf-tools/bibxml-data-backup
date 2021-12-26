@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xia-netlmm-radius'>
+<front>
+<title>RADIUS Proxy Mobile IPv6</title>
+
+<author initials='F' surname='Xia' fullname='Frank Xia'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<date month='November' day='15' year='2007' />
+
+<abstract><t>Proxy Mobile IPv6 (PMIP6) is network based mobility management protocol which allows IP session continuity for a mobile node (MN) without its involvement in mobility management.  A mobile access gateway (MAG) is authorized to send Mobile IPv6 signaling messages on behalf of mobile nodes.  The MAG requires a local mobility anchor address(LMAA), mobile node's identifier (MN-Identifier),and IPsec security association (SA) with it's LMA before it sends signaling messages.  Interworking with existing authentication, authorization and accounting (AAA) infrastructure, MAG acquires the LMAA (directly or indirectly) and MN-Identifier.  Local mobility anchor (LMA) also uses AAA infrastructure to authenticate MAG and build SA between MAG when IKEv2 IPSec is used for security between MAG and LMA .  This document defines new RADIUS attributes and reasonably reuses existing attributes to serve the purpose.  This information exchange takes place as part of the initial network access authentication procedure. Address configuration modes and others can also be obtained from AAA infrastructure to emulate MN's home link on access links.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xia-netlmm-radius-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xia-netlmm-radius-01.txt' />
+</reference>

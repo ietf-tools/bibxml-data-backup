@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-msec-tesla-intro'>
+<front>
+<title>TESLA: Multicast Source Authentication Transform Introduction</title>
+
+<author initials='A' surname='Perrig' fullname='Adrian  Perrig'>
+    <organization />
+</author>
+
+<author initials='R' surname='Canetti' fullname='Ran Canetti'>
+    <organization />
+</author>
+
+<author initials='D' surname='Song' fullname='Dawn Song'>
+    <organization />
+</author>
+
+<author initials='D' surname='Tygar' fullname='Doug Tygar'>
+    <organization />
+</author>
+
+<author initials='B' surname='Briscoe' fullname='Bob Briscoe'>
+    <organization />
+</author>
+
+<date month='December' day='8' year='2004' />
+
+<abstract><t>This document introduces TESLA, short for Timed Efficient Stream Loss-tolerant Authentication. TESLA allows all receivers to check the integrity and authenticate the source of each packet in multicast or broadcast data streams. TESLA requires no trust between receivers; uses low cost operations per packet at both sender and receiver; can tolerate any level of loss without retransmissions; and requires no per-receiver state at the sender. TESLA can protect receivers against denial of service attacks in certain circumstances. Each receiver must be loosely time synchronized with the source in order to verify messages, but otherwise receivers need send no messages. TESLA alone cannot support non-repudiation of the data source to third parties. This informational document is intended to assist in writing standardizable and secure specifications for protocols based on TESLA in different contexts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-msec-tesla-intro-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-msec-tesla-intro-04.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.murchison-tzdist-geolocate'>
+<front>
+<title>The Time Zone Data Distribution Service (TZDIST) Geolocate Extension</title>
+
+<author initials='K' surname='Murchison' fullname='Ken Murchison'>
+    <organization />
+</author>
+
+<date month='November' day='9' year='2018' />
+
+<abstract><t>This document defines an extension to the Time Zone Data Distribution Service (RFC 7808) to allow a mobile device to retrieve the time zones associated with a geographic location as specified by a 'geo' URI (RFC 5870).  Open Issues  o  Determine which, if any, GEOPRIV requirements we need to follow and how they impact Security/Privacy considerations.  o  Need a new field(s) in the response to indicate which time zone(s) contain the point location vs those which are nearby (intersect the radius of uncertainty).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-murchison-tzdist-geolocate-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-murchison-tzdist-geolocate-03.txt' />
+</reference>

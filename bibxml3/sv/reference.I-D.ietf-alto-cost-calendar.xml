@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-alto-cost-calendar'>
+<front>
+<title>Application-Layer Traffic Optimization (ALTO) Cost Calendar</title>
+
+<author initials='S' surname='Randriamasy' fullname='Sabine Randriamasy'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Yang' fullname='Y. Yang'>
+    <organization />
+</author>
+
+<author initials='Q' surname='WU' fullname='Qin WU'>
+    <organization />
+</author>
+
+<author initials='D' surname='Lingli' fullname='Deng Lingli'>
+    <organization />
+</author>
+
+<author initials='N' surname='Schwan' fullname='Nico Schwan'>
+    <organization />
+</author>
+
+<date month='March' day='17' year='2020' />
+
+<abstract><t>This document is an extension to the base Application-Layer Traffic Optimization (ALTO) protocol.  It extends the ALTO cost information service so that applications decide not only 'where' to connect, but also 'when'.  This is useful for applications that need to perform bulk data transfer and would like to schedule these transfers during an off-peak hour, for example.  This extension introduces ALTO Cost Calendar, with which an ALTO Server exposes ALTO cost values in JSON arrays where each value corresponds to a given time interval.  The time intervals as well as other Calendar attributes, are specified in the Information Resources Directory and ALTO Server responses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-alto-cost-calendar-21' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-alto-cost-calendar-21.txt' />
+</reference>

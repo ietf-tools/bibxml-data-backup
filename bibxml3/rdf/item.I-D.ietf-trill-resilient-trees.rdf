@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-trill-resilient-trees-09.txt'>
+    <title>"TRILL: Resilient Distribution Trees", Mingui Zhang, Tissa Senevirathne, Janardhanan Pathangi, Ayan Banerjee, Anoop Ghanwani</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-trill-resilient-trees-09.txt</link>
+    <description>The TRILL (Transparent Interconnection of Lots of Links) protocol provides multicast data forwarding based on IS-IS link state routing. Distribution trees are computed based on the link state information through Shortest Path First calculation. When a link on the distribution tree fails, a campus-wide re-convergence of this distribution tree will take place, which can be time consuming and may cause considerable disruption to the ongoing multicast service.  This document specifies how to build backup distribution trees to protect links on the primary distribution tree. Since the backup distribution tree is built up ahead of the link failure, when a link on the primary distribution tree fails, the pre-installed backup forwarding table will be utilized to deliver multicast packets without waiting for the campus-wide re-convergence. This minimizes the service disruption. This document updates RFC 6325.</description>
+    <dc:date>2018-01-22T08:00:00-00:00</dc:date>
+</item>

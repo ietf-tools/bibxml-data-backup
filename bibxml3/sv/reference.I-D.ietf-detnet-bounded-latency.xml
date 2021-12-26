@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-detnet-bounded-latency'>
+<front>
+<title>DetNet Bounded Latency</title>
+<author initials='N' surname='Finn' fullname='Norman Finn'>
+<organization />
+</author>
+<author initials='J' surname='Boudec' fullname='Jean-Yves Le Boudec'>
+<organization />
+</author>
+<author initials='E' surname='Mohammadpour' fullname='Ehsan Mohammadpour'>
+<organization />
+</author>
+<author initials='J' surname='Zhang' fullname='Jiayi Zhang'>
+<organization />
+</author>
+<author initials='B' surname='Varga' fullname='Balazs Varga'>
+<organization />
+</author>
+<author initials='J' surname='Farkas' fullname='Janos Farkas'>
+<organization />
+</author>
+<date year='2021' month='September' day='01' />
+<abstract><t>This document references specific queuing mechanisms, defined in other documents, that can be used to control packet transmission at each output port and achieve the DetNet qualities of service.  This document presents a timing model for sources, destinations, and the DetNet transit nodes that relay packets that is applicable to all of those referenced queuing mechanisms.  Using the model presented in this document, it should be possible for an implementor, user, or standards development organization to select a particular set of queuing mechanisms for each device in a DetNet network, and to select a resource reservation algorithm for that network, so that those elements can work together to provide the DetNet service.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-detnet-bounded-latency-07'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-detnet-bounded-latency-07.txt'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gould-eppext-verificationcode'>
+<front>
+<title>Verification Code Extension for the Extensible Provisioning Protocol (EPP)</title>
+
+<author initials='J' surname='Gould' fullname='James Gould'>
+    <organization />
+</author>
+
+<date month='November' day='9' year='2015' />
+
+<abstract><t>This document describes an Extensible Provisioning Protocol (EPP) extension for including a verification code for marking the data for a transform command as being verified by a 3rd party, which is referred to as the Verification Service Provider (VSP).  The verification code is digitally signed by the VSP using XML Signature and is "base64" encoded.  The XML Signature includes the VSP signer certificate, so the server can verify that the verification code originated from the VSP.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gould-eppext-verificationcode-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gould-eppext-verificationcode-02.txt' />
+</reference>

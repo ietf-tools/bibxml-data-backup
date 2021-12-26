@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7923' target='https://www.rfc-editor.org/info/rfc7923'>
+<front>
+<title>Requirements for Subscription to YANG Datastores</title>
+<author initials='E.' surname='Voit' fullname='E. Voit'><organization /></author>
+<author initials='A.' surname='Clemm' fullname='A. Clemm'><organization /></author>
+<author initials='A.' surname='Gonzalez Prieto' fullname='A. Gonzalez Prieto'><organization /></author>
+<date year='2016' month='June' />
+<abstract><t>This document provides requirements for a service that allows client applications to subscribe to updates of a YANG datastore.  Based on criteria negotiated as part of a subscription, updates will be pushed to targeted recipients.  Such a capability eliminates the need for periodic polling of YANG datastores by applications and fills a functional gap in existing YANG transports (i.e., Network Configuration Protocol (NETCONF) and RESTCONF).  Such a service can be summarized as a &quot;pub/sub&quot; service for YANG datastore updates. Beyond a set of basic requirements for the service, various refinements are addressed.  These refinements include: periodicity of object updates, filtering out of objects underneath a requested a subtree, and delivery QoS guarantees.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7923'/>
+<seriesInfo name='DOI' value='10.17487/RFC7923'/>
+</reference>

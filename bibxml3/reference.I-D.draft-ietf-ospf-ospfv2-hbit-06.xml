@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ospf-ospfv2-hbit'>
+<front>
+<title>H-bit Support for OSPFv2</title>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='P' surname='Pillay-Esnault' fullname='Padma Pillay-Esnault'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bhardwaj' fullname='Manish Bhardwaj'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bayraktar' fullname='Serpil Bayraktar'>
+    <organization />
+</author>
+
+<date month='August' day='27' year='2018' />
+
+<abstract><t>OSPFv3 defines an option bit for router-LSAs known as the R-bit in RFC5340.  If the R-bit is clear, an OSPFv3 router can participate in OSPF topology flooding, however it will not be used as a transit router.  In such cases, other routers in the OSPFv3 routing domain only install routes to allow local traffic delivery.  This document defines the H-bit functionality to prevent other OSPFv2 routers from using the router for transit traffic in OSPFv2 routing domains as described in RFC 2328.  This document updates RFC 2328.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ospf-ospfv2-hbit-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ospf-ospfv2-hbit-06.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.eriksson-http-resource-map'>
+<front>
+<title>Resource Maps</title>
+
+<author initials='G' surname='Eriksson' fullname='Goran Eriksson'>
+    <organization />
+</author>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Sarker' fullname='Zaheduzzaman Sarker'>
+    <organization />
+</author>
+
+<author initials='J' surname='Reschke' fullname='Julian Reschke'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>When the 'out-of-band' content coding ('OOB') is used for delivering a number of resources from a primary server via a secondary server, the additional round trips for OOB responses and load on the primary server can be a significant nuisance.  In such situations, it is useful for the primary server to be able to provide the client with OOB response information for several resources in one go anticipating future client requests.  This document describes a format for providing the client with the information, called a resource map, and how the resource map could be delivered to a client.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-eriksson-http-resource-map-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-eriksson-http-resource-map-00.txt' />
+</reference>

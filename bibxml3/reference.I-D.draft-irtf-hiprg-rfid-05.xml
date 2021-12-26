@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-hiprg-rfid'>
+<front>
+<title>HIP support for RFIDs</title>
+
+<author initials='P' surname='Urien' fullname='Pascal Urien'>
+    <organization />
+</author>
+
+<author initials='G' surname='Lee' fullname='Gyu Lee'>
+    <organization />
+</author>
+
+<author initials='G' surname='Pujolle' fullname='Guy Pujolle'>
+    <organization />
+</author>
+
+<date month='April' day='23' year='2012' />
+
+<abstract><t>This document describes an architecture based on the Host Identity Protocol (HIP), for active RFIDs, i.e. Radio Frequency Identifiers including tamper resistant computing resources, as specified for example in the ISO 14443 or 15693 standards. HIP-RFIDs never expose their identity in clear text, but hide this value (typically an EPC- Code) by a particular equation that can be only solved by a dedicated entity, referred as the portal. HIP exchanges occur between HIP-RFIDs and portals; they are transported by IP packets, through the Internet cloud.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-hiprg-rfid-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-hiprg-rfid-05.txt' />
+</reference>

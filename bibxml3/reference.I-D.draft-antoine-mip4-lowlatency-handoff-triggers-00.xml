@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.antoine-mip4-lowlatency-handoff-triggers'>
+<front>
+<title>Using Higher Layer Triggers for Low Latency Handoffs in MIPv4</title>
+
+<author initials='S' surname='Antoine' fullname='Stephane  Antoine'>
+    <organization />
+</author>
+
+<date month='December' day='15' year='2006' />
+
+<abstract><t>This document introduces the use of triggers coming from layers higher than the link layer to initiate the Low Latency Handoff in Mobile IPv4 (MIPv4) . The Low Latency Handoff for MIPv4 assumes availability of Layer 2 (L2) triggers that contain Layer 3 (L3) information for the Mobile Node (MN) to handoff. However, the low latency draft does not describe the method by which the L2 trigger is produced neither does it explicitly describe by what mechanism the L3 information present in the L2 trigger is acquired. The Low Latency Handoff for MIPv4 relies on availability of the L2 trigger. However relying only on the link information to initiate a handoff does not generally gather enough information for the MN to handoff to the most suitable available access network. Information from higher layers such as Higher Layer Triggers can be used to command a MN to quickly move from one access to another one. Using Higher Layer Triggers to initiate the handoff enables the implementation of policy based handoff to garantee load balancing of the wireless networks and Quality of Services to the end users.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-antoine-mip4-lowlatency-handoff-triggers-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-antoine-mip4-lowlatency-handoff-triggers-00.txt' />
+</reference>

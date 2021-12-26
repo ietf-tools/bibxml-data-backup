@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.asai-cross-domain-overlay'>
+<front>
+<title>Considerations on the AS-Level Application-Layer Traffic Optimization</title>
+
+<author initials='H' surname='Asai' fullname='Hirochika Asai'>
+    <organization />
+</author>
+
+<author initials='H' surname='Esaki' fullname='Hiroshi Esaki'>
+    <organization />
+</author>
+
+<author initials='T' surname='Momose' fullname='Tsuyoshi Momose'>
+    <organization />
+</author>
+
+<date month='December' day='17' year='2011' />
+
+<abstract><t>Application-layer or overlay routing has been applied to various distributed systems such as content delivery networks and live media streaming systems.  The problems with these systems for the layer 3 network providers, such as Internet service providers, are that these systems utilize higher-cost network resources (e.g., transit links) from the viewpoint of the layer 3 network providers but the operators have difficulties in controlling and optimizing the traffic of these systems because these systems construct their own networks over the layer 3 network.  The ALTO Working Group has worked on application- layer traffic optimization to fill the gaps in routing policies between the layer 3 network and applications by providing the underlay network topology and cost information to these systems. However, there are considerations on applying application-layer traffic optimization techniques to cross-domain traffic because the cost is assumed to be configured by each AS although ASes are autonomously operated.  This document summarizes general problems with overlay networks and considerations on the AS-level application- layer traffic optimization from the viewpoint of inter-AS economics. The main concerns on the AS-level application-layer traffic optimization are unfair policy configuration between distinct administrative domains and asymmetric economic policies on transit links.  The underlying problem inducing these concerns is that the economic policies between interconnected ASes are non-disclosure due to commercial contracts.  This document also discusses the conceivable approaches to solve the problems and considerations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-asai-cross-domain-overlay-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-asai-cross-domain-overlay-03.txt' />
+</reference>

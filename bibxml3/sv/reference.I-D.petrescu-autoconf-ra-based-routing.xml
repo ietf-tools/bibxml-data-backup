@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.petrescu-autoconf-ra-based-routing'>
+<front>
+<title>Router Advertisements for Routing between Moving Networks</title>
+
+<author initials='A' surname='Petrescu' fullname='Alex Petrescu'>
+    <organization />
+</author>
+
+<author initials='C' surname='Janneteau' fullname='Christophe Janneteau'>
+    <organization />
+</author>
+
+<author initials='N' surname='Demailly' fullname='Nicolas Demailly'>
+    <organization />
+</author>
+
+<author initials='S' surname='Imadali' fullname='Sofiane Imadali'>
+    <organization />
+</author>
+
+<date month='July' day='22' year='2014' />
+
+<abstract><t>This draft specifies extensions to the ICMPv6 Router Advertisement messages and processing.  Traditionally, prefixes contained in RAs are used for on-link determination, on-link address auto- configuration, but not for path setup towards multi-hop destinations. The extensions proposed here still rely on RAs being communicated on a single link (not across several IP hops), but upon RA reception the prefixes are installed in the routing table; they are thus used for forwarding packets further than a single link (multi IP hop).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-petrescu-autoconf-ra-based-routing-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-petrescu-autoconf-ra-based-routing-05.txt' />
+</reference>

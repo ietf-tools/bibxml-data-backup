@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.cheng-grow-va-auto-extensions'>
+<front>
+<title>Auto-Configuration Extention in Virtual Aggregation</title>
+
+<author initials='L' surname='Cheng' fullname='Li Cheng'>
+    <organization />
+</author>
+
+<author initials='J' surname='Wang' fullname='Jun Wang'>
+    <organization />
+</author>
+
+<date month='September' day='6' year='2011' />
+
+<abstract><t>Auto-Configuration in Virtual Aggregation as specified in [I-D.ietf-grow-va-auto] requires configuration of a "VP-range list" in ASBRs connected to transit and peer ISPs.  These ASBRs simply tag some routes whose prefix falls within the VP-Range with a "can- suppress" tag to indicate whether these routes should be FIB installed.  This draft specified an extended auto-configuration mechanism in Virtual Aggregation to support the configuration of both "VP-List" and "popular prefixes".  Specifically, based on this mechanism, the ratio of lost packets when VP routes fail could be minimized.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-cheng-grow-va-auto-extensions-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-cheng-grow-va-auto-extensions-00.txt' />
+</reference>

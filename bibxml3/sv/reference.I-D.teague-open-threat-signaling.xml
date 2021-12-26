@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.teague-open-threat-signaling'>
+<front>
+<title>Open Threat Signaling using RPC API over HTTPS and IPFIX</title>
+
+<author initials='N' surname='Teague' fullname='Nik Teague'>
+    <organization />
+</author>
+
+<date month='July' day='4' year='2015' />
+
+<abstract><t>This document defines a method by which a device or application may signal information relating to current threat handling to other devices/applications that may reside locally or at the service provider.  The initial focus is ddos mitigation; however, the method may be extended to communicate any threat type.  This will allow for a vendor or provider agnostic approach to threat mitigation utilising multiple layers of protection as the operator sees fit.  The dissemination of threat information will occur utilising JSON RPC API over HTTPS communications between devices/applications and will be augmented by IPFIX and UDP or SCTP for signaling telemetry information relating to attacks and protected object data.  An open standards based approach to communication between on-premise DDoS mitigation devices and service provider based DDoS protection services allows for enterprises to have a wider range of options to better secure their environments without the limitations of vendor lock-in.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-teague-open-threat-signaling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-teague-open-threat-signaling-01.txt' />
+</reference>

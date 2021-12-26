@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pwe3-fat-pw'>
+<front>
+<title>Flow Aware Transport of Pseudowires over an MPLS Packet Switched Network</title>
+
+<author initials='S' surname='Bryant' fullname='Stewart Bryant'>
+    <organization />
+</author>
+
+<author initials='C' surname='Filsfils' fullname='Clarence Filsfils'>
+    <organization />
+</author>
+
+<author initials='U' surname='Drafz' fullname='Ulrich Drafz'>
+    <organization />
+</author>
+
+<author initials='V' surname='Kompella' fullname='Vach Kompella'>
+    <organization />
+</author>
+
+<author initials='J' surname='Regan' fullname='Joe Regan'>
+    <organization />
+</author>
+
+<author initials='S' surname='Amante' fullname='Shane Amante'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2011' />
+
+<abstract><t>Where the payload of a pseudowire comprises a number of distinct flows, it can be desirable to carry those flows over the equal cost multiple paths (ECMPs) that exist in the packet switched network. Most forwarding engines are able to generate a hash of the MPLS label stack and use this mechanism to balance MPLS flows over ECMPs.  This document describes a method of identifying the flows, or flow groups, within pseudowires such that Label Switching Routers can balance flows at a finer granularity than individual pseudowires. The mechanism uses an additional label in the MPLS label stack.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pwe3-fat-pw-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pwe3-fat-pw-07.txt' />
+</reference>

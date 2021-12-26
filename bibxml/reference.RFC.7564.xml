@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7564' target='https://www.rfc-editor.org/info/rfc7564'>
+<front>
+<title>PRECIS Framework: Preparation, Enforcement, and Comparison of Internationalized Strings in Application Protocols</title>
+<author initials='P.' surname='Saint-Andre' fullname='P. Saint-Andre'><organization /></author>
+<author initials='M.' surname='Blanchet' fullname='M. Blanchet'><organization /></author>
+<date year='2015' month='May' />
+<abstract><t>Application protocols using Unicode characters in protocol strings need to properly handle such strings in order to enforce internationalization rules for strings placed in various protocol slots (such as addresses and identifiers) and to perform valid comparison operations (e.g., for purposes of authentication or authorization).  This document defines a framework enabling application protocols to perform the preparation, enforcement, and comparison of internationalized strings (&quot;PRECIS&quot;) in a way that depends on the properties of Unicode characters and thus is agile with respect to versions of Unicode.  As a result, this framework provides a more sustainable approach to the handling of internationalized strings than the previous framework, known as Stringprep (RFC 3454).  This document obsoletes RFC 3454.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7564'/>
+<seriesInfo name='DOI' value='10.17487/RFC7564'/>
+</reference>

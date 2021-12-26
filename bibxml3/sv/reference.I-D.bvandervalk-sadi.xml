@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bvandervalk-sadi'>
+<front>
+<title>SADI: Semantic Automated Discovery and Integration</title>
+
+<author initials='B' surname='Vandervalk' fullname='Ben Vandervalk'>
+    <organization />
+</author>
+
+<author initials='E' surname='McCarthy' fullname='E. McCarthy'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wilkinson' fullname='Mark Wilkinson'>
+    <organization />
+</author>
+
+<date month='January' day='31' year='2012' />
+
+<abstract><t>This document describes Semantic Automated Discovery and Integration (SADI), a set of best practices for implementing stateless web services that consume RDF data as input and generate RDF data as output.  The goal of SADI is to establish conventions that will enable a much higher level of interoperability between web services from independent providers than is currently possible under the widespread use of WSDL/XML and RESTful services.  Under SADI, interoperability depends on the shared use of predicate vocabularies, rather than the shared use of particular XML schemas, JSON structures, or ad hoc data formats.  Through the use of OWL to describe service input and output datatypes, SADI enables: i) automated discovery of services that provide data or computations of interest, and ii) automated matchmaking between local data and available services.  By iterative application of the former two capabilities, SADI enables semi-automated construction of arbitrarily complex workflows across independent service providers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bvandervalk-sadi-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bvandervalk-sadi-00.txt' />
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hunt-dns-server-diagnostics'>
+<front>
+<title>The DNS Extended Server Diagnostics (ESD) Option</title>
+
+<author initials='E' surname='Hunt' fullname='Evan Hunt'>
+    <organization />
+</author>
+
+<date month='July' day='31' year='2013' />
+
+<abstract><t>The widespread adoption of DNSSEC implies more frequent DNSSEC failures.  Unfortunately, DNSSEC's failure mode is largely opaque to the client: when validation fails, the only signal that the clients of a validating resolver receive is an empty response with a SERVFAIL response code.  This note proposes a protocol extension to allow SERVFAIL responses to include additional diagnostic information, giving the client greater insight into what went wrong and a better chance of delivering useful problem reports to DNS operators.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hunt-dns-server-diagnostics-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hunt-dns-server-diagnostics-00.txt' />
+</reference>

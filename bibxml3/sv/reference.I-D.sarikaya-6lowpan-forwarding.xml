@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sarikaya-6lowpan-forwarding'>
+<front>
+<title>Serial forwarding approach to connecting TinyOS-based sensors to IPv6  Internet</title>
+
+<author initials='B' surname='Sarikaya' fullname='Behcet Sarikaya'>
+    <organization />
+</author>
+
+<date month='February' day='23' year='2006' />
+
+<abstract><t>This document describes a simple approach to interconnect IEEE 802.15.4 sensor nodes to IPv6 Internet. The technique requires a gateway node that is connected to both the sensor network and the IPv6 Internet. The gateway node runs the serial forwarder over IPv6. Sensor nodes run the open-source TinyOS operating system and generate TinyOS packets. The sensor network can be accessed from IPv6 Internet using a Web interface and the serial forwarder that runs in the applets enables reception/transmission of TinyOS packets over IPv6.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sarikaya-6lowpan-forwarding-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sarikaya-6lowpan-forwarding-00.txt' />
+</reference>

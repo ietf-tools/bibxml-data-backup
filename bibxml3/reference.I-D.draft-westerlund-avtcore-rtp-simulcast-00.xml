@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.westerlund-avtcore-rtp-simulcast'>
+<front>
+<title>Using Simulcast in RTP sessions</title>
+
+<author initials='M' surname='Westerlund' fullname='Magnus Westerlund'>
+    <organization />
+</author>
+
+<author initials='B' surname='Burman' fullname='Bo Burman'>
+    <organization />
+</author>
+
+<author initials='M' surname='Lindqvist' fullname='Morgan Lindqvist'>
+    <organization />
+</author>
+
+<author initials='F' surname='Jansson' fullname='Fredrik Jansson'>
+    <organization />
+</author>
+
+<date month='October' day='24' year='2011' />
+
+<abstract><t>In some applications it may be necessary to send multiple media streams derived from the same media source.  This is called Simulcast.  This document discusses the best way of accomplishing this in RTP.  It is concluded that a session based solution provides best support for simulcast, and a solution for that is defined. There are two necessary extensions.  The first extension is how to group RTP sessions belonging to the same simulcast source using the grouping framework, and the second is how to identify which SSRCs that are the same media source by using a new RTCP SDES item SRCNAME.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-westerlund-avtcore-rtp-simulcast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-westerlund-avtcore-rtp-simulcast-00.txt' />
+</reference>

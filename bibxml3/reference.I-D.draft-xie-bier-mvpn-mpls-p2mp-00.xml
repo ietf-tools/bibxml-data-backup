@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xie-bier-mvpn-mpls-p2mp'>
+<front>
+<title>Multicast VPN Using MPLS P2MP and BIER</title>
+
+<author initials='J' surname='Xie' fullname='Jingrong Xie'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2017' />
+
+<abstract><t>The Multicast Virtual Private Network (MVPN) specifications defines P-tunnels for carrying multicast traffic across the backbone.  A variety of P-tunnel types are supported.  Bit Index Explicit Replication (BIER) is a new architecture that provides optimal multicast forwarding through a "multicast domain", without requiring intermediate routers to maintain any per-flow state.  The purpose of the current document is to specify one way of carrying multicast traffic over an SP MPLS backbone network using compatible method and encapsulation of BIER.  It uses a pre-build P2MP as the BIER topology, and uses mLDP/RSVP-TE protocol extension to build BIER- related underlay routing and forwarding information in-band when building the P2MP topology.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xie-bier-mvpn-mpls-p2mp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xie-bier-mvpn-mpls-p2mp-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yizhou-trill-tc-awareness'>
+<front>
+<title>Aware Spanning Tree Topology Change on RBridges</title>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='H' surname='Weiguo' fullname='Hao Weiguo'>
+    <organization />
+</author>
+
+<author initials='N' surname='Nimmu' fullname='Naveen Nimmu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Ghanwani' fullname='Anoop Ghanwani'>
+    <organization />
+</author>
+
+<date month='October' day='21' year='2012' />
+
+<abstract><t>When a local LAN running spanning tree protocol connecting to TRILL campus via more than one RBridge, there are several ways to perform loop avoidance. One of them illustrated by RFC6325 [RFC6325] A.3 was to make relevant ports on edge RBridges involving in spanning tree calculation. When edge RBridges are emulated as a single highest priority root, the local bridged LAN will be naturally partitioned after running spanning tree protocol. This approach achieves better link utilization and intra-VLAN load balancing in some scenarios. This document describes how the edge RBridges react to topology change occurring in bridged LAN in order to make the abovementioned spanning tree approach function correct.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yizhou-trill-tc-awareness-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yizhou-trill-tc-awareness-01.txt' />
+</reference>

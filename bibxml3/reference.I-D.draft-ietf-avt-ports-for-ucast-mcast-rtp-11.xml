@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-ports-for-ucast-mcast-rtp'>
+<front>
+<title>Port Mapping Between Unicast and Multicast RTP Sessions</title>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<author initials='T' surname='VanCaenegem' fullname='Tom VanCaenegem'>
+    <organization />
+</author>
+
+<date month='January' day='5' year='2011' />
+
+<abstract><t>This document presents a port mapping solution that allows RTP receivers to choose their own ports for an auxiliary unicast session in RTP applications using both unicast and multicast services.  The solution provides protection against denial-of-service or packet amplification attacks that could be used to cause one or more RTP packets to be sent to a victim client.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-ports-for-ucast-mcast-rtp-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-ports-for-ucast-mcast-rtp-11.txt' />
+</reference>

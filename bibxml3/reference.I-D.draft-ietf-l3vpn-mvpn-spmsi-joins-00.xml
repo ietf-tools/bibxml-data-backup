@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l3vpn-mvpn-spmsi-joins'>
+<front>
+<title>MVPN: Customer IPv6 Using PIM Control Plane and S-PMSI Join Messages</title>
+
+<author initials='Y' surname='Cai' fullname='Yiqun Cai'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<date month='May' day='21' year='2010' />
+
+<abstract><t>The specification for Multicast Virtual Private Networks (MVPN) contains an option that allows the use of PIM as the control protocol between provider edge routers.  It also contains an option that allows UDP-based "S-PMSI Join" messages to be used to bind particular customer multicast flows to particular tunnels through a service provider's network.  This document extends the MVPN specification so that these options can be used when the customer multicast flows are IPv6 flows.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l3vpn-mvpn-spmsi-joins-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l3vpn-mvpn-spmsi-joins-00.txt' />
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dong-ospf-maxage-flush-problem-statement'>
+<front>
+<title>OSPF LSA Flushing Problem Statement</title>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhang' fullname='Xudong Zhang'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenqiang Li'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2016' />
+
+<abstract><t>In OSPF protocol, Link State Advertisements (LSAs) are exchanged in Link State Update (LSU) packets to achieve link state database (LSDB) synchronization and consistent route calculation.  OSPF protocol specifies several scenarios in which an LSA is flushed with the LS age field set to MaxAge.  In some cases, the flushing of MaxAge LSAs may cause flooding storm of OSPF packets and severely impact the services provided by the network.  This document describes the problem of OSPF LSA flushing, and ask for solutions to solve this problem.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dong-ospf-maxage-flush-problem-statement-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dong-ospf-maxage-flush-problem-statement-01.txt' />
+</reference>

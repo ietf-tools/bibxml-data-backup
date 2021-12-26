@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ouldbrahim-ppvpn-gvpn-bgpgmpls'>
+<front>
+<title>GVPN Services: Generalized VPN Services using BGP and GMPLS Toolkit</title>
+
+<author initials='H' surname='Ould-Brahim' fullname='Hamid  Ould-Brahim'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2005' />
+
+<abstract><t>This draft describes a suite of port-based Provider-provisioned VPN services called Generalized VPNs (GVPNs) that uses BGP as a VPN auto-discovery and GMPLS as a signaling mechanism. GVPN services are "generalized" as the interfaces on the customer’s and provider ports could be any of the interfaces supported by Generalized MPLS (GMPLS). GVPN services outlined in this document are: (1) a port-based Generalized Virtual Private Wire (GVPW) where the basic unit of service is a Label Switched Path (LSP) between a pair of customer’s ports within a given VPN port-topology. (2) a Generalized Virtual Private Cross-connect (GVPXC) service where the service provider network appears to the customer network as a GMPLS-enabled Virtual Private node. A GVPXC service provides flexible traffic engineering on the client network and eliminates the need for n square routing peering between CEs. Since GVPNs uses GMPLS as the signaling mechanism, and since GMPLS applies to both TDM and Optical interfaces, it results that GVPN services include Optical/TDM VPNs (though they need not be restricted to).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ouldbrahim-ppvpn-gvpn-bgpgmpls-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ouldbrahim-ppvpn-gvpn-bgpgmpls-06.txt' />
+</reference>

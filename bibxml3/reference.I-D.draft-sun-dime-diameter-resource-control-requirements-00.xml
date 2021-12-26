@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sun-dime-diameter-resource-control-requirements'>
+<front>
+<title>Towards the Specification of a Diameter Resource Control Application: gaps,  functional requirements and models, and implementations</title>
+
+<author initials='D' surname='Sun' fullname='Dong Sun'>
+    <organization />
+</author>
+
+<date month='November' day='6' year='2006' />
+
+<abstract><t>This I-D is to address the gaps in the ongoing discussion of the QoS application in the DIME WG, discuss the extension of the scope of QoS application and investigate potential mechanisms to support additional resource control scenarios. The scope of diameter-qos- strawman-00.txt and its predecessors is limited to QoS authorization in an environment where end-hosts can directly request network resources through path-coupled QoS signaling such as RSVP or NSIS. It does not address environments where path-coupled QoS signaling is not supported by end user equipments or networks. In such environments, a different mode of operations is needed to allow an authorizing entity to not just authorize QoS requests triggered by the QoS signaling but also directly authorize and allocate resources, and dictate routers/switches to act. The new mode of operations also lends itself to address resource control in general. It can control resources for the purpose beyond QoS support, such as NAPT, media latching, and packet filtering.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sun-dime-diameter-resource-control-requirements-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sun-dime-diameter-resource-control-requirements-00.txt' />
+</reference>

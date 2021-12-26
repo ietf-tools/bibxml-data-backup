@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kim-abnf-codegen'>
+<front>
+<title>An ABNF Extension for code generation</title>
+
+<author initials='J' surname='Kim' fullname='Jong Kim'>
+    <organization />
+</author>
+
+<author initials='M' surname='Yu' fullname='Munjo Yu'>
+    <organization />
+</author>
+
+<date month='November' day='26' year='2009' />
+
+<abstract><t>This document describes an ABNF extension for code generation. ABNF has been widely used for decades. While its popurarity is ascribed to its simplicity and ease of use,  the demand for code generation has been fulfilled only marginally, by some sort of non-standard extensions, or by conversion to yet another meta language. One possible solution is to add more detailed specifications to the existing ABNF standard, but this hurts the very competitiveness of ABNF itself.  Another solution is to standardize an extension and make it a 'sister' standard in parallel to the existing ABNF standaard.  In this document we propose such an extension as a standard. The generated code using the proposed extension would be "complete", meaning no need to modify by hand, if there exist no concepts of unordered groups in the specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kim-abnf-codegen-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kim-abnf-codegen-01.txt' />
+</reference>

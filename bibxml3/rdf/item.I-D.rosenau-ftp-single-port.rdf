@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-rosenau-ftp-single-port-05.txt'>
+    <title>"FTP EXTENSION ALLOWING IP FORWARDING (NATs)", Martin Rosenau</title>
+    <link>http://www.ietf.org/internet-drafts/draft-rosenau-ftp-single-port-05.txt</link>
+    <description>The FTP protocol [1] needs two connections. A control and a data connection. Using networks with "port forwarding" (eg. SSH, DSL routers, VPN etc.) there is often only the possibility for the server to listen on only one TCP port. In such networks the traditional FTP protocol cannot be used.  This memo describes an extension to the FTP protocol that allows the use of FTP using only one TCP port number for both control connections and passive-mode data connections.  The extension can also be used to use the FTP protocol over network protocols that do not have a "port" concept (such as the NetBIOS protocol).</description>
+    <dc:date>2008-09-17T22:00:00-00:00</dc:date>
+</item>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mmusic-msid'>
+<front>
+<title>Cross Session Stream Identification in the Session Description Protocol</title>
+
+<author initials='H' surname='Alvestrand' fullname='Harald Alvestrand'>
+    <organization />
+</author>
+
+<date month='February' day='10' year='2013' />
+
+<abstract><t>This document specifies a grouping mechanism for RTP media streams that can be used to specify relations between media streams within different RTP sessions as well as within a single RTP session, and independently of whether these media streams are described within one SDP m-line or in multiple m-lines.  This mechanism is used to signal the association between the RTP concept of SSRC and the WebRTC concept of "MediaStream" / "MediaStreamTrack" using SDP signaling.  This document is a work item of the MMUSIC WG, whose discussion list is mmusic@ietf.org.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mmusic-msid-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mmusic-msid-00.txt' />
+</reference>

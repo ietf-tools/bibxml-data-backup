@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8383' target='https://www.rfc-editor.org/info/rfc8383'>
+<front>
+<title>Transparent Interconnection of Lots of Links (TRILL): Address Flush Message</title>
+<author initials='W.' surname='Hao' fullname='W. Hao'><organization /></author>
+<author initials='D.' surname='Eastlake 3rd' fullname='D. Eastlake 3rd'><organization /></author>
+<author initials='Y.' surname='Li' fullname='Y. Li'><organization /></author>
+<author initials='M.' surname='Umair' fullname='M. Umair'><organization /></author>
+<date year='2018' month='May' />
+<abstract><t>The TRILL (Transparent Interconnection of Lots of Links) protocol, by default, learns end station addresses from observing the data plane. In particular, it learns local Media Access Control (MAC) addresses and the edge switch port of attachment from the receipt of local data frames and learns remote MAC addresses and the edge switch port of attachment from the decapsulation of remotely sourced TRILL Data packets.</t><t>This document specifies a message by which a TRILL switch can explicitly request other TRILL switches to flush certain MAC reachability learned through the decapsulation of TRILL Data packets. This is a supplement to the TRILL automatic address forgetting (see Section 4.8.3 of RFC 6325) and can assist in achieving more rapid convergence in case of topology or configuration change.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8383'/>
+<seriesInfo name='DOI' value='10.17487/RFC8383'/>
+</reference>

@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-tictoc-1588overmpls-07.txt'>
+    <title>"Transporting Timing messages over MPLS Networks", Shahram Davari, Amit Oren, Manav Bhatia, Peter Roberts, Laurent Montini</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-tictoc-1588overmpls-07.txt</link>
+    <description>This document defines a method for transporting timing messages, such as Precision Time Protocol (PTP) or Network Time Protocol (NTP), over a Multiprotocol Label Switched (MPLS) network.  The method facilitates efficient recognition of timing packets to enable their port level processing in both Label Edge Routers (LERs) and Label Switched Routers (LSRs).  The basic mechanism is to transport timing messages inside "Timing LSPs", which are dedicated MPLS Label Switched Paths (LSPs) that carry only timing, and possibly related Operations, Administration and Maintenance (OAM) or management packets, but do not carry customer traffic.  Two encapsulations methods are defined.  The first transports UDP/IP encapsulated timing messages directly over the dedicated LSP.  The second transports Ethernet encapsuled timing messages inside an Ethernet pseudowire.</description>
+    <dc:date>2015-10-16T07:00:00-00:00</dc:date>
+</item>

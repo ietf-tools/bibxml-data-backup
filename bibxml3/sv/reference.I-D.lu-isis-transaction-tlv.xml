@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.lu-isis-transaction-tlv'>
+<front>
+<title>ISIS Transaction TLV</title>
+
+<author initials='W' surname='Lu' fullname='Wenhu Lu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Tian' fullname='Albert Tian'>
+    <organization />
+</author>
+
+<date month='March' day='5' year='2012' />
+
+<abstract><t>ISIS local updates may require multiple LSPs to convey.  Receiving routers, whose decision processes are without such knowledge, may generate incorrect routing table updates based on the partial set of LSPs it receives and hence the traffic outage before they are corrected by another run of the decision process.  This memo describes a method that makes the decision process more informed so that the interim results can be minimized or avoided.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-lu-isis-transaction-tlv-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-lu-isis-transaction-tlv-00.txt' />
+</reference>

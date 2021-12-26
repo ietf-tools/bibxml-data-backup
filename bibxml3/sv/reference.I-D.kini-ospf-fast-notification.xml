@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kini-ospf-fast-notification'>
+<front>
+<title>OSPF Fast Notification</title>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='W' surname='Lu' fullname='Wenhu Lu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Tian' fullname='Albert Tian'>
+    <organization />
+</author>
+
+<date month='March' day='14' year='2011' />
+
+<abstract><t>The current OSPF link-state database (LSDB) flooding mechanism involves control-plane processing and forwarding at each hop. The delay due to the involvement of the control-plane adversely affects OSPF convergence. This document describes a mechanism to transmit link-state advertisements (LSA)  multiple hops away without involving control-plane processing at the intermediate routers. This helps to achieve faster convergence. It complements the current LSDB flooding mechanism.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kini-ospf-fast-notification-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kini-ospf-fast-notification-01.txt' />
+</reference>

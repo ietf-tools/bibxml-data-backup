@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.adamson-nfsv4-multi-domain-access'>
+<front>
+<title>NFSv4 Multi-Domain Access</title>
+
+<author initials='A' surname='Adamson' fullname='Andy Adamson'>
+    <organization />
+</author>
+
+<author initials='K' surname='Coffman' fullname='Kevin Coffman'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2009' />
+
+<abstract><t>The NFS Version 4 [NFSv40] protocol enables the construction of a distributed file system which can join NFSv4.0 or NFSv4.1 [NFSv41] servers, which potentially use separate name translation services and separate security services, into a common name space.  The protocol supports multiple authentication methods and does not restrict how users are represented or authenticated.  As such a user's view of the name space may be limited by the authentication and authorization privileges they have on the different file servers in the name space.  This document discusses authentication and authorization management and proposes two name service attributes that are used for NFSv4 name and security principal translations to enable users to traverse and access files in a secure, multi-domain NFS Version 4 name space.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-adamson-nfsv4-multi-domain-access-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-adamson-nfsv4-multi-domain-access-00.txt' />
+</reference>

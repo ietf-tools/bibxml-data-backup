@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.herbert-simple-sr'>
+<front>
+<title>Simple Segment Routing Header</title>
+
+<author initials='T' surname='Herbert' fullname='Tom Herbert'>
+    <organization />
+</author>
+
+<date month='March' day='11' year='2019' />
+
+<abstract><t>This specification defines a simple extension header format for Segment Routing based on the current definition of the Segment Routing extension header defined for IPv6. A Segment Identifier type field is added so that the segment list might contain values other than IPv6 addresses. Optional TLVs in the segment routing header are eliminated; Destination options that precede the routing header are sufficient. Two new destination options are defined: one for Routing header security and another to specify that certain destinations should process certain options.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-herbert-simple-sr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-herbert-simple-sr-00.txt' />
+</reference>

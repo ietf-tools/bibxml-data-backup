@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-idr-sr-policy-path-segment'>
+<front>
+<title>SR Policy Extensions for Path Segment and Bidirectional Path</title>
+
+<author initials='C' surname='Li' fullname='Cheng Li'>
+    <organization />
+</author>
+
+<author initials='C' surname='Telecom' fullname='China Telecom'>
+    <organization />
+</author>
+
+<author initials='M' surname='Chen' fullname='Mach Chen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Dong' fullname='Jie Dong'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Li' fullname='Zhenbin Li'>
+    <organization />
+</author>
+
+<date month='August' day='8' year='2019' />
+
+<abstract><t>A Segment Routing (SR) policy is a set of candidate SR paths consisting of one or more segment lists with necessary path attributes.  For each SR path, it may also have its own path attributes, and Path Segment is one of them.  A Path Segment is defined to identify an SR path, which can be used for performance measurement, path correlation, and end-2-end path protection.  Path Segment can be also used to correlate two unidirctional SR paths into a bidirectional SR path which is required in some scenarios, for example, mobile backhaul transport network.  This document defines extensions to BGP to distribute SR policies carrying Path Segment and bidirectional path information.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-idr-sr-policy-path-segment-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-idr-sr-policy-path-segment-01.txt' />
+</reference>

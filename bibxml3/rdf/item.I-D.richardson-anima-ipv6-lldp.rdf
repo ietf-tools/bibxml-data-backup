@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-richardson-anima-ipv6-lldp-04.txt'>
+    <title>"IPv6 over Link-Local Discovery Protocol", Michael Richardson, Liang Xia</title>
+    <link>http://www.ietf.org/internet-drafts/draft-richardson-anima-ipv6-lldp-04.txt</link>
+    <description>This document describes a mechanism to encapsulate IPv6 packets over the Link Layer Discovery Protocol (LLDP).  The LLDP is a single layer-two protocol with its own ethertype.  It is never forwarded, which is a desireable property when building the IPv6-over-IPsec- over-IPv6-Link-Local tunnels that make up the ANIMA Autonomic Control Plane (ACP).  This unorthodox encapsulation avoids unwanted interactions between the ACP packets and native packet forwarding engines, as well as being safe for layer-2 switches which might otherwise have no IPv6 capabilities.</description>
+    <dc:date>2020-04-07T07:00:00-00:00</dc:date>
+</item>

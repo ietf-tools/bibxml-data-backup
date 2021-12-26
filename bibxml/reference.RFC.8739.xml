@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8739' target='https://www.rfc-editor.org/info/rfc8739'>
+<front>
+<title>Support for Short-Term, Automatically Renewed (STAR) Certificates in the Automated Certificate Management Environment (ACME)</title>
+<author initials='Y.' surname='Sheffer' fullname='Y. Sheffer'><organization /></author>
+<author initials='D.' surname='Lopez' fullname='D. Lopez'><organization /></author>
+<author initials='O.' surname='Gonzalez de Dios' fullname='O. Gonzalez de Dios'><organization /></author>
+<author initials='A.' surname='Pastor Perales' fullname='A. Pastor Perales'><organization /></author>
+<author initials='T.' surname='Fossati' fullname='T. Fossati'><organization /></author>
+<date year='2020' month='March' />
+<abstract><t>Public key certificates need to be revoked when they are compromised, that is, when the associated private key is exposed to an unauthorized entity.  However, the revocation process is often unreliable. An alternative to revocation is issuing a sequence of certificates, each with a short validity period, and terminating the sequence upon compromise.  This memo proposes an Automated Certificate Management Environment (ACME) extension to enable the issuance of Short-Term, Automatically Renewed (STAR) X.509 certificates.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8739'/>
+<seriesInfo name='DOI' value='10.17487/RFC8739'/>
+</reference>

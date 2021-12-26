@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rtgwg-cl-requirement'>
+<front>
+<title>Requirements for MPLS Over a Composite Link</title>
+
+<author initials='C' surname='Villamizar' fullname='Curtis Villamizar'>
+    <organization />
+</author>
+
+<author initials='D' surname='McDysan' fullname='Dave McDysan'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ning' fullname='So Ning'>
+    <organization />
+</author>
+
+<author initials='A' surname='Malis' fullname='Andrew Malis'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yong' fullname='Lucy Yong'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2010' />
+
+<abstract><t>There is often a need to provide large aggregates of bandwidth that is best provided using parallel links between routers or MPLS LSR. In core networks there is often no alternative since the aggregate capacities of core networks today far exceed the capacity of a single physical link or single packet processing element.  Furthermore, links may be composed of network elements operating across multiple layers.  The presence of parallel links, potentially comprised of multiple layers has resulted in a additional requirements.  Certain services may benefit from being restricted to a subset of the set of composite link component links or a specific component link, where component link characteristics, such as latency, differ.  Certain services require that LSP be treated as atomic and avoid reordering.  Other services will continue to require only that reordering not occur with a microflow as is current practice.  Current practice related to multipath is described briefly in an appendix.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rtgwg-cl-requirement-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-cl-requirement-01.txt' />
+</reference>

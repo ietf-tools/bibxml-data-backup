@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7858' target='https://www.rfc-editor.org/info/rfc7858'>
+<front>
+<title>Specification for DNS over Transport Layer Security (TLS)</title>
+<author initials='Z.' surname='Hu' fullname='Z. Hu'><organization /></author>
+<author initials='L.' surname='Zhu' fullname='L. Zhu'><organization /></author>
+<author initials='J.' surname='Heidemann' fullname='J. Heidemann'><organization /></author>
+<author initials='A.' surname='Mankin' fullname='A. Mankin'><organization /></author>
+<author initials='D.' surname='Wessels' fullname='D. Wessels'><organization /></author>
+<author initials='P.' surname='Hoffman' fullname='P. Hoffman'><organization /></author>
+<date year='2016' month='May' />
+<abstract><t>This document describes the use of Transport Layer Security (TLS) to provide privacy for DNS.  Encryption provided by TLS eliminates opportunities for eavesdropping and on-path tampering with DNS queries in the network, such as discussed in RFC 7626.  In addition, this document specifies two usage profiles for DNS over TLS and provides advice on performance considerations to minimize overhead from using TCP and TLS with DNS.</t><t>This document focuses on securing stub-to-recursive traffic, as per the charter of the DPRIVE Working Group.  It does not prevent future applications of the protocol to recursive-to-authoritative traffic.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7858'/>
+<seriesInfo name='DOI' value='10.17487/RFC7858'/>
+</reference>

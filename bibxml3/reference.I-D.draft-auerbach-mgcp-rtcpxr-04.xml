@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.auerbach-mgcp-rtcpxr'>
+<front>
+<title>RTCP XR VoIP Metrics Package for the Media Gateway Control Protocol</title>
+
+<author initials='D' surname='Auerbach' fullname='David  Auerbach'>
+    <organization />
+</author>
+
+<date month='April' day='13' year='2006' />
+
+<abstract><t>The main intent of this document is to define a Media Gateway Control Protocol (MGCP) package to control the reporting of metrics supported by the VoIP metrics block in RTCP Extended Reports as specified in [RFC 3611]. It also allows the call agent to control whether or not the gateway will request a peer device via SDP to send the VoIP metrics block in RTCP Extended Reports and whether it will respond positively to such requests from the peer device. Besides this primary focus, this package also allows the reporting of metrics defined for RTCP Sender Reports and Receiver Reports [RFC 3550] and the reporting of session description parameters (based on the ones defined in RFC 2327, RFC 2198 etc.).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-auerbach-mgcp-rtcpxr-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-auerbach-mgcp-rtcpxr-04.txt' />
+</reference>

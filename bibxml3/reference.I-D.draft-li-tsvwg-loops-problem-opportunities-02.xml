@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-tsvwg-loops-problem-opportunities'>
+<front>
+<title>LOOPS (Localized Optimizations of Path Segments) Problem Statement and Opportunities</title>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='X' surname='Zhou' fullname='Xingwang Zhou'>
+    <organization />
+</author>
+
+<date month='May' day='24' year='2019' />
+
+<abstract><t>In various network deployments, end to end paths are partitioned into multiple segments.  In some cloud based WAN connections, multiple overlay tunnels in series are used to achieve better path selection and lower latency.  In satellite communication, the end to end path is split into two terrestrial segments and a satellite segment. Packet losses can be caused both by random events or congestion in various deployments.  Traditional end-to-end transport layers respond to packet loss slowly especially in long-haul networks: They either wait for some signal from the receiver to indicate a loss and then retransmit from the sender or rely on sender's timeout which is often quite long.  Non- congestion caused packet loss may make the TCP sender over-reduce the sending rate unnecessarily.  With end-to-end encryption moving under the transport (QUIC), traditional PEP (performance enhancing proxy) techniques such as TCP splitting are no longer applicable.  LOOPS (Local Optimizations on Path Segments) aims to provide non end- to-end, locally based in-network recovery to achieve better data delivery by making packet loss recovery faster and by avoiding the senders over-reducing their sending rate.  In an overlay network scenario, LOOPS can be performed over the existing, or purposely created, overlay tunnel based path segments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-tsvwg-loops-problem-opportunities-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-tsvwg-loops-problem-opportunities-02.txt' />
+</reference>

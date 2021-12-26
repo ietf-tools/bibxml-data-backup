@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-nfsv4-flex-files'>
+<front>
+<title>Parallel NFS (pNFS) Flexible File Layout</title>
+
+<author initials='B' surname='Halevy' fullname='Benny Halevy'>
+    <organization />
+</author>
+
+<author initials='T' surname='Haynes' fullname='Tom Haynes'>
+    <organization />
+</author>
+
+<date month='September' day='4' year='2014' />
+
+<abstract><t>The Parallel Network File System (pNFS) allows a separation between the metadata and data for a file.  The metadata file access is handled via Network File System version 4 (NFSv4) minor version 1 (NFSv4.1) and the data file access is specific to the protocol being used between the client and storage device.  The client is informed by the metadata server as to which protocol to use via a Layout Type. The Flexible File Layout Type is defined in this document as an extension to NFSv4.1 to allow the use of storage devices which need not be tightly coupled to the metadata server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-nfsv4-flex-files-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-nfsv4-flex-files-01.txt' />
+</reference>

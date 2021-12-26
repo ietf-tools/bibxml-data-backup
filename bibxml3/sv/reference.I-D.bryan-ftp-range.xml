@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bryan-ftp-range'>
+<front>
+<title>File Transfer Protocol RANG Command for Octet Ranges</title>
+
+<author initials='A' surname='Bryan' fullname='Anthony Bryan'>
+    <organization />
+</author>
+
+<author initials='T' surname='Tsujikawa' fullname='Tatsuhiro Tsujikawa'>
+    <organization />
+</author>
+
+<author initials='D' surname='Stenberg' fullname='Daniel Stenberg'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kosse' fullname='Tim Kosse'>
+    <organization />
+</author>
+
+<date month='February' day='1' year='2013' />
+
+<abstract><t>The File Transfer Protocol offers the REST command to designate a starting point for a transfer, but does not currently offer any method to specify an end point.  This document specifies a new FTP RANG command to be used by clients to designate an octet range to a file, including a start and end point.  This range can be used to permit restarts and repairs of interrupted data transfers in STREAM mode, among other things.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bryan-ftp-range-08' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bryan-ftp-range-08.txt' />
+</reference>

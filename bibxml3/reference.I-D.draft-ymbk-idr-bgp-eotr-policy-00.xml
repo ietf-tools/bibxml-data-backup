@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ymbk-idr-bgp-eotr-policy'>
+<front>
+<title>Route Leak Detection and Filtering using Roles in Update and Open messages</title>
+
+<author initials='A' surname='Azimov' fullname='Alexander Azimov'>
+    <organization />
+</author>
+
+<author initials='E' surname='Bogomazov' fullname='Eugene Bogomazov'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<date month='March' day='13' year='2017' />
+
+<abstract><t>[draft-ymbk-idr-bgp-open-policy] defines a BGP OPEN capability and consequent route marking which enforces a valley-free peering relationship.  This document defines an eOTC (external Only To Customer) transitive BGP attribute which propagates the specific marking to automatically detect route leaks.  The goal is to allow a distant AS to determine a violation of valley-free peering.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ymbk-idr-bgp-eotr-policy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ymbk-idr-bgp-eotr-policy-00.txt' />
+</reference>

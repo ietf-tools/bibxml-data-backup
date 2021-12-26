@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-p2psip-share'>
+<front>
+<title>A Usage for Shared Resources in RELOAD (ShaRe)</title>
+
+<author initials='A' surname='Knauf' fullname='Alexander Knauf'>
+    <organization />
+</author>
+
+<author initials='T' surname='Schmidt' fullname='Thomas Schmidt'>
+    <organization />
+</author>
+
+<author initials='G' surname='Hege' fullname='Gabriel Hege'>
+    <organization />
+</author>
+
+<author initials='M' surname='Waehlisch' fullname='Matthias Waehlisch'>
+    <organization />
+</author>
+
+<date month='March' day='2' year='2015' />
+
+<abstract><t>This document defines a RELOAD Usage for managing shared write access to RELOAD Resources.  Shared Resources in RELOAD (ShaRe) form a basic primitive for enabling various coordination and notification schemes among distributed peers.  Access in ShaRe is controlled by a hierarchical trust delegation scheme maintained within an access list.  A new USER-CHAIN-ACL access policy allows authorized peers to write a Shared Resource without owning its corresponding certificate. This specification also adds mechanisms to store Resources with a variable name which is useful whenever peer-independent rendezvous processes are required.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-p2psip-share-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-p2psip-share-05.txt' />
+</reference>

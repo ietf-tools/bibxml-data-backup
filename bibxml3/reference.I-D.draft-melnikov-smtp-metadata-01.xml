@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.melnikov-smtp-metadata'>
+<front>
+<title>Simple Mail Transfer Protocol extension for relaying Metadata</title>
+
+<author initials='A' surname='Melnikov' fullname='Alexey Melnikov'>
+    <organization />
+</author>
+
+<date month='June' day='17' year='2015' />
+
+<abstract><t>This memo defines an extension to the SMTP (Simple Mail Transfer Protocol) service whereby message metadata (such as Trace header fields, IMAP flags, Keying material, etc) can be transferred in separate containers similar to BDAT (RFC 3030, SMTP CHUNKING) command.  This allows clean separation of transaction related state from the message itself.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-melnikov-smtp-metadata-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-melnikov-smtp-metadata-01.txt' />
+</reference>

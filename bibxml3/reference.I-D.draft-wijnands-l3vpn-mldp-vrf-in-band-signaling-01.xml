@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wijnands-l3vpn-mldp-vrf-in-band-signaling'>
+<front>
+<title>Multipoint Label Distribution Protocol In-Band Signaling in a VRF Context</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hitchen' fullname='Paul Hitchen'>
+    <organization />
+</author>
+
+<author initials='N' surname='Leymann' fullname='Nicolai Leymann'>
+    <organization />
+</author>
+
+<author initials='W' surname='Henderickx' fullname='Wim Henderickx'>
+    <organization />
+</author>
+
+<author initials='a' surname='arkadiy.gulko@thomsonreuters.com' fullname='arkadiy.gulko@thomsonreuters.com'>
+    <organization />
+</author>
+
+<date month='October' day='17' year='2012' />
+
+<abstract><t>Sometimes an IP multicast distribution tree (MDT) traverses both MPLS-enabled and non-MPLS-enabled regions of a network.  Typically the MDT begins and ends in non-MPLS regions, but travels through an MPLS region.  In such cases, it can be useful to begin building the MDT as a pure IP MDT, then convert it to an MPLS Multipoint LSP (Label Switched Path) when it enters an MPLS-enabled region, and then convert it back to a pure IP MDT when it enters a non-MPLS-enabled region.  Other documents specify the procedures for building such a hybrid MDT, using Protocol Independent Multicast (PIM) in the non- MPLS region of the network, and using Multipoint Extensions to Label Distribution Protocol (mLDP) in the MPLS region.  This document extends those procedures to handle the case where the link connecting the two regions is a "Virtual Routing and Forwarding Table" (VRF) link, as defined in the "BGP IP/MPLS VPN" specifications.  However, this document is primarily aimed at particular use cases where VRFs are used to support multicast applications other than Multicast VPN.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wijnands-l3vpn-mldp-vrf-in-band-signaling-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wijnands-l3vpn-mldp-vrf-in-band-signaling-01.txt' />
+</reference>

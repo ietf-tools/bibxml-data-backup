@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.vanderstok-core-patch'>
+<front>
+<title>Patch Method for Constrained Application Protocol (CoAP)</title>
+
+<author initials='P' surname='Stok' fullname='Peter Van der Stok'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sehgal' fullname='Anuj Sehgal'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2015' />
+
+<abstract><t>Several applications (for example see [I-D.vanderstok-core-comi]) which extend the Constrained Application Protocol [RFC7252] (CoAP) need to perform partial resource modifications.  The existing CoAP PUT method only allows a complete replacement of a resource.  This proposal adds a new CoAP method, PATCH, to modify an existing CoAP resource partially.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-vanderstok-core-patch-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-core-patch-00.txt' />
+<format type='PDF'
+        target='http://www.ietf.org/internet-drafts/draft-vanderstok-core-patch-00.pdf' />
+</reference>

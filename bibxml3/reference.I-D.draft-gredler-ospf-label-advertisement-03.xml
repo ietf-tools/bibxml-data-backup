@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gredler-ospf-label-advertisement'>
+<front>
+<title>Advertising MPLS labels in OSPF</title>
+
+<author initials='H' surname='Gredler' fullname='Hannes Gredler'>
+    <organization />
+</author>
+
+<author initials='S' surname='Amante' fullname='Shane Amante'>
+    <organization />
+</author>
+
+<author initials='T' surname='Scholl' fullname='Tom Scholl'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<date month='May' day='21' year='2013' />
+
+<abstract><t>Historically MPLS label distribution was driven by protocols like LDP, RSVP and LBGP.  All of those protocols are session oriented.  In order to obtain label binding for a given destination FEC from a given router one needs first to establish an LDP/RSVP/LBGP session with that router.  Advertising MPLS labels in IGPs [I-D.gredler-rtgwg-igp-label-advertisement] describes several use cases where utilizing the flooding machinery of link-state protocols for MPLS label distribution allows to obtain the binding without requiring to establish an LDP/RSVP/LBGP session with that router.  This document describes the protocol extension to distribute MPLS label bindings by the OSPFv2 and OSPFv3 protocol.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gredler-ospf-label-advertisement-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gredler-ospf-label-advertisement-03.txt' />
+</reference>

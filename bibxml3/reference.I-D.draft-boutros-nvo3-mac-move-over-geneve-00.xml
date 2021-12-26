@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.boutros-nvo3-mac-move-over-geneve'>
+<front>
+<title>MAC move/flush over Geneve encapsulation</title>
+
+<author initials='S' surname='Boutros' fullname='Sami Boutros'>
+    <organization />
+</author>
+
+<author initials='J' surname='Catrouillet' fullname='Jerome Catrouillet'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sharma' fullname='Ankur Sharma'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2017' />
+
+<abstract><t>This document specifies a mechanism to signal Media Access Control (MAC) addresses move or flush over a Network Virtualization Overlays over Layer 3 (NVO3) virtual tunnel.  Such notification is useful in redundancy scenarios when a Layer 2 service that was active on a Network Virtualization Edge (NVE) fails over to a standby NVE. This notification can be used only when data plane mac learning is enabled over the NVO3 tunnels.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-boutros-nvo3-mac-move-over-geneve-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-boutros-nvo3-mac-move-over-geneve-00.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.bi-dhc-sec-option'>
+<front>
+<title>Security option extensions for DHCP</title>
+
+<author initials='E' surname='Bi' fullname='Emily Bi'>
+    <organization />
+</author>
+
+<author initials='S' surname='Manning' fullname='Serge Manning'>
+    <organization />
+</author>
+
+<author initials='M' surname='Wong' fullname='Marcus Wong'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cui' fullname='Yang Cui'>
+    <organization />
+</author>
+
+<date month='July' day='16' year='2012' />
+
+<abstract><t>This document defines a new option that can be used by DHCP servers to provision with DHCP clients specific security configuration information. It has been known that DHCP protocol typically works at the very beginning stage of the access to networks, thus lack of security protection. However, although it is difficult to set up some security mechanism for DHCP protocol solely, it is able to play a key role for DHCP server to provide configuration information to help building security mechanism within those pre-configured DHCP clients and devices. This new option defines a simple extension to current standard format and benefits to those who need to activate security mechanism in an early stage and interoperate within devices from multiple vendors.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-bi-dhc-sec-option-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-bi-dhc-sec-option-02.txt' />
+</reference>

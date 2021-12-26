@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.kini-ospf-fast-notification'>
+<front>
+<title>OSPF Fast Notifications</title>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<author initials='W' surname='Lu' fullname='Wenhu Lu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Tian' fullname='Albert Tian'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2010' />
+
+<abstract><t>Several applications could use a mechanism to quickly notify one or more routers about control-protocol events. Current mechanisms to convey such information to routers multiple hops away involves hop- by-hop protocol-specific control plane processing as well as hop-by- hop control plane forwarding. The delay due to control planes involvement in processing/forwarding, adversely affects the application's goal (e.g. fast convergence). This document describes a framework to use data plane forwarding to convey control protocol information multiple hops away. It also defines some sample applications within this framework.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-kini-ospf-fast-notification-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-kini-ospf-fast-notification-00.txt' />
+</reference>

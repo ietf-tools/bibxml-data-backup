@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sb-nvo3-sdn-federation'>
+<front>
+<title>Federated SDN-based Controllers for NVO3</title>
+
+<author initials='F' surname='Balus' fullname='Florin Balus'>
+    <organization />
+</author>
+
+<author initials='D' surname='Stiliadis' fullname='Dimitri Stiliadis'>
+    <organization />
+</author>
+
+<author initials='N' surname='Bitar' fullname='Nabil Bitar'>
+    <organization />
+</author>
+
+<author initials='K' surname='Ogaki' fullname='Kenichi Ogaki'>
+    <organization />
+</author>
+
+<date month='October' day='22' year='2012' />
+
+<abstract><t>The familiar toolset of VPN and IP/MPLS protocols defined in IETF has been discussed as a good starting point for addressing several of the problems described in the NVO3 problem statement and requirements drafts. However, there is a significant gap between the VPN technologies and the scale and complexity required when the NVEs are running in server hypervisors.  This draft proposes a solution that bridges the gap between the concepts familiar to the data center IT community with some of the best concepts developed by the networking industry.  The proposed solution is based on the understanding that in a cloud environment NVEs may reside in end-devices that should not be burdened with the complexities of control plane protocols. The complex control plane functionalities are decoupled from the forwarding plane to minimize the required NVE processing, recognizing that major hypervisor distributions already employ Openflow to address this issue.  The solution also defines the mechanisms for scaling data center network control horizontally and interoperates seamlessly with existing L2 and L3 VPN devices.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sb-nvo3-sdn-federation-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sb-nvo3-sdn-federation-01.txt' />
+</reference>

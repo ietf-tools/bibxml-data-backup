@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.huitema-tls-tlsoverhttp'>
+<front>
+<title>TLS over HTTP</title>
+
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>We observe that attacks against HTTPS are getting more and more popular.  The attacks typically exploit weaknesses in PKI certificate verification software.  These weaknesses allow a third party to insert itself as a Man-In-The-Middle in a TLS connection, accessing the content of messages that were previously encrypted and in some case changing these messages.  TLS over HTTP allows clients and servers to carry a TLS conversation on top of HTTP, and thus bypass the man-in-the-middle attackers. Different deployment models are possible, e.g., HTTP over TLS over HTTP, application-layer-protocol over TLS over HTTP, or HTTP over TLS over HTTP over TLS.  The proposed solution allows for reuse of the existing TLS implementation, thus minimizing the development costs and risks.  It includes an optional obfuscation layer, to maximize the likelihood of working unnoticed by firewalls and other MITM boxes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-huitema-tls-tlsoverhttp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-huitema-tls-tlsoverhttp-00.txt' />
+</reference>

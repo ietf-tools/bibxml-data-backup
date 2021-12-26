@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tsvwg-le-phb'>
+<front>
+<title>A Lower Effort Per-Hop Behavior (LE PHB)</title>
+
+<author initials='R' surname='Bless' fullname='Roland Bless'>
+    <organization />
+</author>
+
+<date month='January' day='20' year='2019' />
+
+<abstract><t>This document specifies properties and characteristics of a Lower Effort (LE) per-hop behavior (PHB).  The primary objective of this LE PHB is to protect best-effort (BE) traffic (packets forwarded with the default PHB) from LE traffic in congestion situations, i.e., when resources become scarce, best-effort traffic has precedence over LE traffic and may preempt it.  Alternatively, packets forwarded by the LE PHB can be associated with a scavenger service class, i.e., they scavenge otherwise unused resources only.  There are numerous uses for this PHB, e.g., for background traffic of low precedence, such as bulk data transfers with low priority in time, non time-critical backups, larger software updates, web search engines while gathering information from web servers and so on.  This document recommends a standard DSCP value for the LE PHB.  This specification obsoletes RFC 3662 and updates the DSCP recommended in RFC 4594 and RFC 8325 to use the DSCP assigned in this specification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tsvwg-le-phb-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tsvwg-le-phb-07.txt' />
+</reference>

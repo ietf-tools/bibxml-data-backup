@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-simple-msrp-sessmatch'>
+<front>
+<title>Session Matching Update for the Message Session Relay Protocol (MSRP)</title>
+
+<author initials='C' surname='Holmberg' fullname='Christer Holmberg'>
+    <organization />
+</author>
+
+<author initials='S' surname='Blau' fullname='Staffan Blau'>
+    <organization />
+</author>
+
+<date month='April' day='8' year='2010' />
+
+<abstract><t>This document updates the session matching procedure defined in sections 5.4 and 7.3 of RFC 4975, so that an Message Session Relay Protocol (MSRP) User Agent (UA) only uses the session-id part of the MSRP URI in order to perform the consistency checks.  The update allows intermediaries, Application Layer Gateways (ALGs), to modify the address information in the MSRP URI of the Session Description Protocol (SDP) a=path attribute, without the need for the intermediaries to terminate and do the correlating modifications in the associated MSRP messages.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-simple-msrp-sessmatch-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-simple-msrp-sessmatch-04.txt' />
+</reference>

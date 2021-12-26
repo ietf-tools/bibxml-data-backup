@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.badra-hajjeh-mtls'>
+<front>
+<title>MTLS: TLS Multiplexing</title>
+
+<author initials='M' surname='Badra' fullname='Mohamad Badra'>
+    <organization />
+</author>
+
+<author initials='I' surname='Hajjeh' fullname='Ibrahim Hajjeh'>
+    <organization />
+</author>
+
+<date month='June' day='16' year='2006' />
+
+<abstract><t>The Transport Layer Security (TLS) standard provides connection security with mutual authentication, data confidentiality and integrity, key generation and distribution, and security parameters negotiation. However, missing from the protocol is a way to multiplex application data over a single TLS session. This document defines MTLS, a new TLS sub-protocol running over TLS (or DTLS) Record protocol. The MTLS design provides application multiplexing over a single TLS (or DTLS) session. Therefore, instead of associating a TLS connection with each application, MTLS allows several applications to protect their exchanges over a single TLS session.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-badra-hajjeh-mtls-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-badra-hajjeh-mtls-01.txt' />
+</reference>

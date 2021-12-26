@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.fuxh-pce-drpc'>
+<front>
+<title>A Dual-end Recursive PCE-Based Computation (DRPC) Procedure to Compute Shortest Constrained Inter-domain Traffic Engineering Label Switched Paths</title>
+
+<author initials='X' surname='Fu' fullname='Xihua Fu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Bao' fullname='Yuanlin Bao'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Zhao' fullname='Yongli Zhao'>
+    <organization />
+</author>
+
+<author initials='J' surname='Zhang' fullname='Jie Zhang'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Gu' fullname='Yuan Gu'>
+    <organization />
+</author>
+
+<date month='February' day='28' year='2011' />
+
+<abstract><t>A dual-end recursive PCE-based computation procedure (DRPC) is proposed to compute shortest constrained inter-domain traffic engineering label switched paths based on BRPC in Multi-protocol Label Switching (MPLS) and Generalized MPLS (GMPLS) networks.  By recursively performing shortest path algorithm and transferring the segmental path computation result from both ends bi-directionally, they meet at one of the Middle PCEs, generating a directional shortest path graph into which the two shortest path trees are stitched together.  Therefore, the end-to-end constrained inter- domain traffic engineering label switched path, even k shortest paths can be gained from the directional shortest path graph directly.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-fuxh-pce-drpc-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-fuxh-pce-drpc-02.txt' />
+</reference>

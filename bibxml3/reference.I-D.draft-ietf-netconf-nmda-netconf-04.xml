@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netconf-nmda-netconf'>
+<front>
+<title>NETCONF Extensions to Support the Network Management Datastore Architecture</title>
+
+<author initials='M' surname='Bjorklund' fullname='Martin Bjorklund'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schoenwaelder' fullname='Juergen Schoenwaelder'>
+    <organization />
+</author>
+
+<author initials='P' surname='Shafer' fullname='Philip Shafer'>
+    <organization />
+</author>
+
+<author initials='K' surname='Watsen' fullname='Kent Watsen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Wilton' fullname='Robert Wilton'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2018' />
+
+<abstract><t>This document extends the NETCONF protocol defined in RFC 6241 in order to support the Network Management Datastore Architecture defined in I-D.ietf-netmod-revised-datastores.  This document updates both RFC 6241 and RFC 7950.  The update to RFC 6241 adds new operations &lt;get-data> and &lt;edit-data>, and augments existing operations &lt;lock>, &lt;unlock>, and &lt;validate>.  The update to RFC 7950 requires the usage of I-D.ietf-netconf-rfc7895bis by NETCONF servers implementing the Network Management Datastore Architecture.  REF Editor: please replace "I-D.ietf-netmod-revised-datastores" and "I-D.ietf-netconf-rfc7895bis" above with their final RFC assignments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netconf-nmda-netconf-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netconf-nmda-netconf-04.txt' />
+</reference>

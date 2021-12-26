@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC4829' target='https://www.rfc-editor.org/info/rfc4829'>
+<front>
+<title>Label Switched Path (LSP) Preemption Policies for MPLS Traffic Engineering</title>
+<author initials='J.' surname='de Oliveira' fullname='J. de Oliveira' role='editor'><organization /></author>
+<author initials='JP.' surname='Vasseur' fullname='JP. Vasseur' role='editor'><organization /></author>
+<author initials='L.' surname='Chen' fullname='L. Chen'><organization /></author>
+<author initials='C.' surname='Scoglio' fullname='C. Scoglio'><organization /></author>
+<date year='2007' month='April' />
+<abstract><t>When the establishment of a higher priority (Traffic Engineering Label Switched Path) TE LSP requires the preemption of a set of lower priority TE LSPs, a node has to make a local decision to select which TE LSPs will be preempted.  The preempted LSPs are then rerouted by their respective \%Head-end Label Switch Router (LSR).  This document presents a flexible policy that can be used to achieve different objectives: preempt the lowest priority LSPs; preempt the minimum number of LSPs; preempt the set of TE LSPs that provide the closest amount of bandwidth to the required bandwidth for the preempting TE LSPs (to minimize bandwidth wastage); preempt the LSPs that will have the maximum chance to get rerouted.  Simulation results are given and a comparison among several different policies, with respect to preemption cascading, number of preempted LSPs, priority, wasted bandwidth and blocking probability is also included.  This memo provides information for the Internet community.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='4829'/>
+<seriesInfo name='DOI' value='10.17487/RFC4829'/>
+</reference>

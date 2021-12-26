@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-trill-vlan-assign'>
+<front>
+<title>Adaptive VLAN Assignment for Data Center RBridges</title>
+
+<author initials='M' surname='Zhang' fullname='Mingui Zhang'>
+    <organization />
+</author>
+
+<author initials='D' surname='Zhang' fullname='Dacheng Zhang'>
+    <organization />
+</author>
+
+<date month='March' day='7' year='2011' />
+
+<abstract><t>When several RBridges are multi-accessed to a LAN link, each of them can act as the packet forwarder for the hosts attached to this link. One of the RBridges will be elected as the Designated RBridge (DRB) which is responsible to choose the Appointed Forwarder (AF) for each VLAN appearing on this LAN link. If the DRB casually assign a VLAN to an RBridge as the Appointed Forwarder without considering the number of the MAC addresses and traffic load of this VLAN, it may overload some of the RBridges while leave other RBridges lightly loaded. This unbalanced assignment issue reduces the scalability of a TRILL network and undermines its performance. Therefore, the TRILL DRB should choose Appointed Forwarders taking their load into consideration. The goal of this document is to design a new protocol to support the adaptive VLAN assignment (or Appointed Forwarder selection) based on the forwarders' reporting of their usage of MAC tables and available bandwidth.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-trill-vlan-assign-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-trill-vlan-assign-00.txt' />
+</reference>

@@ -1,0 +1,6 @@
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-delegation-only-02.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-dnsop-delegation-only-02.txt</link>
+        <title>"The DELEGATION_ONLY DNSKEY flag", Paul Wouters, Wes Hardaker</title>
+        <dc:date>2021-02-21T23:00:00-00:00</dc:date>
+        <description>This document introduces a new DNSKEY flag called DELEGATION_ONLY that indicates that this zone will only produce delegation responses for data outside of its own apex (or _underscore labels).  That is, the Answer Section for queries that do not involve the apex (or _underscore labels) of the zone is empty, and only glue records in the Authority Section and Additional Section will be acceptable data in the response message.  Additionally, it indicates that it is not expected that the parent of this delegation-only zone bypasses or removes the delegation to this zone.  DNSSEC Validating Resolvers can use this flag to mark any data that violates the DELEGATION_ONLY policy as Bogus.</description>
+    </item>

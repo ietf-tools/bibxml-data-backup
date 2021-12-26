@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dime-extended-naptr'>
+<front>
+<title>Diameter S-NAPTR Usage</title>
+
+<author initials='M' surname='Jones' fullname='Mark Jones'>
+    <organization />
+</author>
+
+<author initials='J' surname='Korhonen' fullname='Jouni Korhonen'>
+    <organization />
+</author>
+
+<author initials='L' surname='Morand' fullname='Lionel Morand'>
+    <organization />
+</author>
+
+<date month='August' day='3' year='2011' />
+
+<abstract><t>The Diameter base protocol specifies mechanisms whereby a given realm may advertise Diameter nodes and the supported transport protocol. However, these mechanisms do not reveal the Diameter applications that each node supports.  A peer outside the realm would have to perform a Diameter capability exchange with every node until it discovers one that supports the required application.  This document updates RFC3588 "Diameter Base Protocol" and describes an improvement using an extended format for the Straightforward-Naming Authority Pointer (S-NAPTR) Application Service Tag that allows for discovery of the supported applications without doing Diameter capability exchange beforehand.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dime-extended-naptr-09' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dime-extended-naptr-09.txt' />
+</reference>

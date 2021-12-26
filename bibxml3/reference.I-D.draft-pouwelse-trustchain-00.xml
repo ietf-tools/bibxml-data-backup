@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pouwelse-trustchain'>
+<front>
+<title>TrustChain protocol</title>
+
+<author initials='J' surname='Pouwelse' fullname='Johan Pouwelse'>
+    <organization />
+</author>
+
+<date month='January' day='18' year='2018' />
+
+<abstract><t>TrustChain is a protocol for a networked datastructure, designed to act as a trust ledger.  This protocol acts as a decentral alternative to platforms like eBay, Airbnb, and Uber.  It is specifically designed to record transactions among strangers without central control, support high transaction volumes, be application neutral, and avoid vendor lock-in.  The protocol defines recording transactions in an ordered list using an append-only datastructure, a new communication overlay, and a horizontally scalable consensus protocol based on checkpoint consensus, called CHECO.  Trustchain has resistance to traditional blockchain attacks, such as the 51 percent majority attack.  This is achieved by using a graph-based append-only datastructure combined with a personal blockchain for each participant with their own genesis block.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pouwelse-trustchain-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pouwelse-trustchain-00.txt' />
+</reference>

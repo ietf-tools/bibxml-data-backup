@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.strassner-anima-control-loops'>
+<front>
+<title>The Use of Control Loops in Autonomic Networking</title>
+
+<author initials='J' surname='Strassner' fullname='John Strassner'>
+    <organization />
+</author>
+
+<date month='October' day='20' year='2015' />
+
+<abstract><t>This document describes how control loops are used in Autonomic Networking. Control loops provide a generic mechanism to enable the Autonomic System to adapt (on its own) to various factors that can change the goals that the Autonomic System is trying to achieve, or how those goals are achieved. For example, as user needs, business goals, and the Autonomic Network Infrastructure (ANI) itself changes, self-adaptation enables the ANI to change the services and resources it makes available to adapt to these changes.  Control loops operate to continuously observe and collect data that enables the Autonomic Management System system to understand changes to the behavior of the system being managed, and then provide actions to move the state of the system being managed toward a common goal. Self-adaptive systems move decision-making from static, pre-defined commands to dynamic processes computed at runtime.  This document defines the requirements for an autonomic control loop, describes different types of control loops, and explains how control loops are used in an Autonomic System.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-strassner-anima-control-loops-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-strassner-anima-control-loops-00.txt' />
+</reference>

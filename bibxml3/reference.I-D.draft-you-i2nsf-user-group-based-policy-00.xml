@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.you-i2nsf-user-group-based-policy'>
+<front>
+<title>User-group-based Security Policy for Service Layer</title>
+
+<author initials='J' surname='You' fullname='Jianjie You'>
+    <organization />
+</author>
+
+<author initials='M' surname='Zarny' fullname='Myo Zarny'>
+    <organization />
+</author>
+
+<author initials='C' surname='Jacquenet' fullname='Christian Jacquenet'>
+    <organization />
+</author>
+
+<author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
+    <organization />
+</author>
+
+<author initials='L' surname='Yizhou' fullname='Li Yizhou'>
+    <organization />
+</author>
+
+<author initials='S' surname='Majee' fullname='Sumandra Majee'>
+    <organization />
+</author>
+
+<date month='October' day='18' year='2015' />
+
+<abstract><t>This draft discusses the User-group Aware Policy Control (UAPC) framework that facilitates consistent enforcement of security policies based on user group identity.  The framework calls for: (1) a user-group identifier derived from predefined policy criteria (e.g., source IP, time-of-day, device certificate, etc.) for security policy enforcement; (2) a logical policy server that maintains user- group identification policies as well as inter-user-group permission policies; and (3) a logical security controller responsible for managing Network Security Functions (NSFs), and implementing necessary policies on them.  The document discusses key northbound APIs of the framework that fall within the scope of the I2NSF Service Layer.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-you-i2nsf-user-group-based-policy-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-you-i2nsf-user-group-based-policy-00.txt' />
+</reference>

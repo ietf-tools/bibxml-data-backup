@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yoneya-dnssec-kskro-failure-recovery'>
+<front>
+<title>DNSSEC KSK rollover failure recovery practices</title>
+
+<author initials='Y' surname='Yoneya' fullname='Yoshiro Yoneya'>
+    <organization />
+</author>
+
+<author initials='P' surname='Wallstrom' fullname='Patrik Wallstrom'>
+    <organization />
+</author>
+
+<date month='September' day='4' year='2012' />
+
+<abstract><t>This document describes a set of common problems and possible recovery methods for DNSSEC when there is a DS published in the parent zone which does no longer match any DNSKEY in the child zone. As DNSSEC validators are becoming widely deployed, this will have serious effect on the availability of the zone, and the need for a quick recovery is needed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yoneya-dnssec-kskro-failure-recovery-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yoneya-dnssec-kskro-failure-recovery-01.txt' />
+</reference>

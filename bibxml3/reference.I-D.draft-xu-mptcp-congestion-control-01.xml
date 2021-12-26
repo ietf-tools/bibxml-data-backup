@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-mptcp-congestion-control'>
+<front>
+<title>Delay-based Congestion Control for MPTCP</title>
+
+<author initials='M' surname='Xu' fullname='Mingwei Xu'>
+    <organization />
+</author>
+
+<author initials='Y' surname='Cao' fullname='Yu Cao'>
+    <organization />
+</author>
+
+<author initials='E' surname='Dong' fullname='Enhuan Dong'>
+    <organization />
+</author>
+
+<date month='January' day='5' year='2015' />
+
+<abstract><t>This document describes the mechanism of wVegas (weighted Vegas), which is a delay-based congestion control for MPTCP. The current congestion control algorithm of MPTCP, LIA, achieves only course- grained load balancing, since it is based on packet loss event. On the contrary, wVegas adopts packet queuing delay as congestion signals, thus achieving fine-grained load balancing. Compared with loss-based algorithms, wVegas is more sensitive to changes of network congestion and thus achieves more timely traffic shifting and quicker convergence. WVegas has been implemented in the Linux Kernel and is part of the UCLouvain's MPTCP implementation now.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-mptcp-congestion-control-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-mptcp-congestion-control-01.txt' />
+</reference>

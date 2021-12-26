@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.tripathy-cloud-sla-yang-model'>
+<front>
+<title>Cloud SLA YANG Model incorporating Peer Mount Semantics</title>
+
+<author initials='A' surname='Tripathy' fullname='Ambika Tripathy'>
+    <organization />
+</author>
+
+<author initials='E' surname='Voit' fullname='Eric Voit'>
+    <organization />
+</author>
+
+<author initials='A' surname='Clemm' fullname='Alex Clemm'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2014' />
+
+<abstract><t>This document defines a YANG data model which supports cloud SLA applications.  Two apps currently operating from this model are a cloud based policer application and a distributed-denial-of-service attack redirect application.  Other applications are planned as well.  Key to this model is that it includes semantics for mounting objects from remote network element datastores.  These semantics are necessary so that applications can operate on objects distributed across multiple devices as if they were part of a single local datastore.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-tripathy-cloud-sla-yang-model-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-tripathy-cloud-sla-yang-model-00.txt' />
+</reference>

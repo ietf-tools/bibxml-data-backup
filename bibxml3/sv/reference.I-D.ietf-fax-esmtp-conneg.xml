@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-fax-esmtp-conneg'>
+<front>
+<title>SMTP and MIME Extensions For Content Conversion</title>
+
+<author initials='K' surname='Toyoda' fullname='Kiyoshi Toyoda'>
+    <organization />
+</author>
+
+<author initials='D' surname='Crocker' fullname='Dave  Crocker'>
+    <organization />
+</author>
+
+<date month='January' day='21' year='2005' />
+
+<abstract><t>A message originator sometimes sends content in a form the recipient cannot process. Such content needs to be converted to a related form, with the same or with restricted information, such as changing from color to black and white. In a store-and-forward environment, it can be convenient to have this conversion performed by an intermediary. This specification integrates two ESMTP extensions and three MIME content-types, to permit authorized, accountable content form conversion by intermediaries.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-fax-esmtp-conneg-13' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-fax-esmtp-conneg-13.txt' />
+</reference>

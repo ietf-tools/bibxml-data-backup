@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-mpls-mldp-recurs-fec-04.txt'>
+    <title>"Using Multipoint LDP when the Backbone has no Route to the Root", IJsbrand Wijnands, Eric Rosen, Maria Napierala, Nicolai Leymann</title>
+    <link>http://www.ietf.org/internet-drafts/draft-ietf-mpls-mldp-recurs-fec-04.txt</link>
+    <description>The control protocol used for constructing Point-to-Multipoint and Multipoint-to-Multipoint Label Switched Paths ("MP LSPs") contains a field that identifies the address of a "root node".  Intermediate nodes are expected to be able to look up that address in their routing tables.  However, if the route to the root node is a BGP route, and the intermediate nodes are part of a BGP-free core, this is not possible.  This document specifies procedures which enable a MP LSP to be constructed through a BGP-free core.  In these procedures, the root node address is temporarily replaced by an address that is known to the intermediate nodes and is on the path to the true root node.</description>
+    <dc:date>2011-07-24T22:00:00-00:00</dc:date>
+</item>

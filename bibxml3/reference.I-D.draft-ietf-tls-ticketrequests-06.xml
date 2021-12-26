@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tls-ticketrequests'>
+<front>
+<title>TLS Ticket Requests</title>
+
+<author initials='T' surname='Pauly' fullname='Tommy Pauly'>
+    <organization />
+</author>
+
+<author initials='D' surname='Schinazi' fullname='David Schinazi'>
+    <organization />
+</author>
+
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+    <organization />
+</author>
+
+<date month='November' day='19' year='2020' />
+
+<abstract><t>TLS session tickets enable stateless connection resumption for clients without server-side, per-client, state.  Servers vend an arbitrary number of session tickets to clients, at their discretion, upon connection establishment.  Clients store and use tickets when resuming future connections.  This document describes a mechanism by which clients can specify the desired number of tickets needed for future connections.  This extension aims to provide a means for servers to determine the number of tickets to generate in order to reduce ticket waste, while simultaneously priming clients for future connection attempts.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tls-ticketrequests-06' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tls-ticketrequests-06.txt' />
+</reference>

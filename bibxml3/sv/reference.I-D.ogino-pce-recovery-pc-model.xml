@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ogino-pce-recovery-pc-model'>
+<front>
+<title>Path Computation Model for Recovery LSPs Using External PCE</title>
+
+<author initials='N' surname='Ogino' fullname='Nagao Ogino'>
+    <organization />
+</author>
+
+<date month='October' day='1' year='2004' />
+
+<abstract><t>This document proposes a PC model, where the recovery LSP route in a domain is computed using an external PCE. Recovery LSP computation that promotes bandwidth sharing between other recovery LSPs requires unreserved bandwidth information that corresponds to each failure position or SRLG. However, the present IGP-TE can only advertise unreserved bandwidth information corresponding to eight priority classes to each LSR involved in an IGP area. An external PCE in a domain can compute efficient recovery LSP routes by exclusively preserving such unreserved bandwidth information without any extension of the present IGP-TE.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ogino-pce-recovery-pc-model-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ogino-pce-recovery-pc-model-00.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-rtgwg-ipfrr-spec-base'>
+<front>
+<title>Basic Specification for IP Fast-Reroute: Loop-free Alternates</title>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<author initials='A' surname='Zinin' fullname='Alex Zinin'>
+    <organization />
+</author>
+
+<date month='March' day='6' year='2006' />
+
+<abstract><t>This document describes the use of loop-free alternates to provide local protection for unicast traffic in pure IP and MPLS/LDP networks in the event of a single failure, whether link, node or shared risk link group (SRLG). The goal of this technology is to reduce the micro-looping and packet loss that happens while routers converge after a topology change due to a failure. Rapid failure repair is achieved through use of precalculated backup next-hops that are loop- free and safe to use until the distributed network convergence process completes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-rtgwg-ipfrr-spec-base-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-rtgwg-ipfrr-spec-base-05.txt' />
+</reference>

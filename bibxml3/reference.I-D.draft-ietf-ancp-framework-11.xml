@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ancp-framework'>
+<front>
+<title>Framework and Requirements for an Access Node Control Mechanism in Broadband  Multi-Service Networks</title>
+
+<author initials='S' surname='Ooghe' fullname='Sven Ooghe'>
+    <organization />
+</author>
+
+<author initials='N' surname='Voigt' fullname='Norbert Voigt'>
+    <organization />
+</author>
+
+<author initials='M' surname='Platnic' fullname='Michel Platnic'>
+    <organization />
+</author>
+
+<author initials='T' surname='Haag' fullname='Thomas Haag'>
+    <organization />
+</author>
+
+<author initials='S' surname='Wadhwa' fullname='Sanjay Wadhwa'>
+    <organization />
+</author>
+
+<date month='July' day='27' year='2009' />
+
+<abstract><t>The purpose of this document is to define a framework for an Access Node Control Mechanism between a Network Access Server (NAS) and an Access Node (e.g. a Digital Subscriber Line Access Multiplexer (DSLAM)) in a multi-service reference architecture in order to perform QoS-related, service-related and Subscriber-related operations.  The Access Node Control Mechanism will ensure that the transmission of the information does not need to go through distinct element managers but rather using a direct device-device communication.  This allows for performing access link related operations within those network elements, while avoiding impact on the existing Operational Support Systems (OSSes).  This document first identifies a number of use cases for which the Access Node Control Mechanism may be appropriate.  It then presents the requirements for the Access Node Control Protocol that must be taken into account during protocol design.  Finally, it describes requirements for the network elements that need to support ANCP and the described use cases.  These requirements should be seen as guidelines rather than as absolute requirements.  RFC 2119 therefore does not apply to the nodal requirements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ancp-framework-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ancp-framework-11.txt' />
+</reference>

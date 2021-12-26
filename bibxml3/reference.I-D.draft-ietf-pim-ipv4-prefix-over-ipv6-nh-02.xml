@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-pim-ipv4-prefix-over-ipv6-nh'>
+<front>
+<title>Use of PIM Address List Hello across address families</title>
+
+<author initials='A' surname='Gupta' fullname='Ashutosh Gupta'>
+    <organization />
+</author>
+
+<author initials='S' surname='Venaas' fullname='Stig Venaas'>
+    <organization />
+</author>
+
+<date month='May' day='1' year='2018' />
+
+<abstract><t>In the PIM Sparse Mode standard there is an Address List Hello option used to list secondary addresses of an interface.  Usually the addresses would be of the same address family as the primary address. In this document we provide a use case for listing secondary addresses that are from a different family.  In particular, Multi- Protocol BGP (MP-BGP) has support for distributing next-hop information for multiple address families using one AFI/SAFI Network Layer Reachability Information (NLRI).  When using this combined with PIM, the Address List Hello option can be used to determine which PIM neighbor to use as RPF neighbor.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-pim-ipv4-prefix-over-ipv6-nh-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-pim-ipv4-prefix-over-ipv6-nh-02.txt' />
+</reference>

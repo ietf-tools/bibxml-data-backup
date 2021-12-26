@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.johansson-sip-dual-stack'>
+<front>
+<title>Locating SIP servers in a dual stack IP network</title>
+
+<author initials='G' surname='Salgueiro' fullname='Gonzalo Salgueiro'>
+    <organization />
+</author>
+
+<date month='June' day='24' year='2013' />
+
+<abstract><t>RFC 3263 defines how a SIP implementation given an URL should locate the next hop SIP server using DNS.  The RFC repeatedly states that the implementation should look up IPv4 or IPv6 addresses, which is not a good solution considering the issues that lead to the development of Happy Eyeballs (RFC XXX).  This document corrects this behaviour for dual stack SIP implementations so that an implementation so that an implementation should look up both IPv4 and IPv6 addresses.  This way, the implementation can find the best network flow and have a greater chance in success in reaching the service.  This document also clarifies DNS SRV usage for single stack clients.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-johansson-sip-dual-stack-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-johansson-sip-dual-stack-00.txt' />
+</reference>

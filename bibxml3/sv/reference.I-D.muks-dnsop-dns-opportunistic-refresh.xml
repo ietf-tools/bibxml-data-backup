@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.muks-dnsop-dns-opportunistic-refresh'>
+<front>
+<title>DNS Opportunistic Refresh for Resolvers</title>
+
+<author initials='M' surname='Sivaraman' fullname='Mukund Sivaraman'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kerr' fullname='Shane Kerr'>
+    <organization />
+</author>
+
+<author initials='S' surname='Morris' fullname='Stephen Morris'>
+    <organization />
+</author>
+
+<date month='June' day='30' year='2017' />
+
+<abstract><t>This document describes a mechanism whereby a DNS resolver can opportunistically refresh the TTLs of cached records of a zone using serial number information carried in responses from the zone's nameservers.  As well as improving resolver response time by reducing the need to make upstream queries, the mechanism can also reduce the workload of authoritative servers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-muks-dnsop-dns-opportunistic-refresh-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-muks-dnsop-dns-opportunistic-refresh-00.txt' />
+</reference>

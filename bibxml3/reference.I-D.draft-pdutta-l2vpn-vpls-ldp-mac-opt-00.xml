@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.pdutta-l2vpn-vpls-ldp-mac-opt'>
+<front>
+<title>LDP Extensions for Optimized MAC Address Withdrawal in H-VPLS</title>
+
+<author initials='P' surname='Dutta' fullname='Pranjal  Dutta'>
+    <organization />
+</author>
+
+<date month='July' day='12' year='2006' />
+
+<abstract><t>[VPLS-LDP] defines a mechanism to remove or unlearn MAC addresses that have been dynamically learned in a Virtual Switch Instance(VSI) for faster convergence on topology change. One of the ways to accomplish this is by sending LDP Address Withdraw Message with empty MAC List when topology change occurs due to spoke PW (Pseudo Wires) switchover at dual-homed capable Multi-Tenant Unit Switch (MTU-s) in a Hierarchical VPLS (H-VPLS) domain. On receiving this message a PE-rs removes all MAC addresses associated with the VSI except the ones learned in the session over which the message is received. The MAC addresses removed in this procedure also include the MAC addresses learned from LDP sessions in the same VSI that are not actually affected due to such topology change. This document proposes an extension to LDP Address Withdraw Message with empty MAC List defined in [VPLS-LDP], which enables the PE-rs receiving the message to remove only the MAC addresses that are affected and need to be relearned.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-pdutta-l2vpn-vpls-ldp-mac-opt-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-pdutta-l2vpn-vpls-ldp-mac-opt-00.txt' />
+</reference>

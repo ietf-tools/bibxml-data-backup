@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.svshah-bgp-qos-sla-attribute'>
+<front>
+<title>BGP attribute for QoS SLA advertisement</title>
+
+<author initials='S' surname='Shah' fullname='Shitanshu Shah'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='S' surname='Bajaj' fullname='Sandeep Bajaj'>
+    <organization />
+</author>
+
+<date month='March' day='1' year='2012' />
+
+<abstract><t>Out-of-band manual learning of SLA details and provisioning them in general can be complex work for network administrators.  For example, Enterprise network administrators not only have to know what is their SLA, for voice, video etc application traffic, with their Provider, but they also require translating application groups to Classifier groups as per provider's definition as well translate SLA to vendor specific provisioning language.  An in-band method of QoS signaling can help to simplify some of the complexities.  An optional transitive BGP attribute proposed in this document intends to signal SLA details in-band, across administrative boundaries (considered as Autonomous Systems (AS)), and thus simplify/speed-up some of the complex tasks.  Though the use-case with the proposed attribute is explicitly defined in this document, purpose of this attribute is not limited to this use-case only.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-svshah-bgp-qos-sla-attribute-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-svshah-bgp-qos-sla-attribute-00.txt' />
+</reference>

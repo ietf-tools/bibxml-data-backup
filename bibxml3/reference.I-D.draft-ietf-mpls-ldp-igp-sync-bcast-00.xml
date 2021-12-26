@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-ldp-igp-sync-bcast'>
+<front>
+<title>LDP IGP Synchronization for broadcast networks</title>
+
+<author initials='W' surname='Lu' fullname='Wenhu Lu'>
+    <organization />
+</author>
+
+<author initials='S' surname='Kini' fullname='Sriganesh Kini'>
+    <organization />
+</author>
+
+<date month='November' day='10' year='2009' />
+
+<abstract><t>[LDP-IGP-SYNC] describes a mechanism to prevent black-holing traffic (e.g. VPN) when IGP is operational on a link but LDP is not. If this mechanism is applied to broadcast links that have more than one LDP/IGP peer, the cost-out procedure can only be applied to the link as a whole but not an individual peer. When a new LDP peer comes up on a broadcast network, this can result in loss of traffic through other established peers on that network. This document describes a mechanism to address that use-case without dropping traffic. The mechanism does not introduce any protocol changes.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-ldp-igp-sync-bcast-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-ldp-igp-sync-bcast-00.txt' />
+</reference>

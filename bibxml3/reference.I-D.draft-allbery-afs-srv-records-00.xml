@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.allbery-afs-srv-records'>
+<front>
+<title>DNS SRV Resource Records for AFS</title>
+
+<author initials='R' surname='Allbery' fullname='Russ Allbery'>
+    <organization />
+</author>
+
+<date month='October' day='2' year='2009' />
+
+<abstract><t>This document specifies how to use DNS (Domain Name Service) SRV RRs (Resource Records) to locate services for the AFS distributed file system and how the priority and weight values of the SRV RR should be interpreted in the server weighting system used by AFS.  It deprecates use of the AFSDB RR to locate AFS cell database servers and provides guidance for backward compatibility.  Internet Draft Comments  Comments are solicited.  Please include the AFS Standardization mailing list at afs3-standardization@openafs.org as a recipient of any comments.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-allbery-afs-srv-records-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-allbery-afs-srv-records-00.txt' />
+</reference>

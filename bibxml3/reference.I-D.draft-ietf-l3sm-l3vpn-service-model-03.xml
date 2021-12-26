@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-l3sm-l3vpn-service-model'>
+<front>
+<title>YANG Data Model for L3VPN service delivery</title>
+
+<author initials='S' surname='Litkowski' fullname='Stephane Litkowski'>
+    <organization />
+</author>
+
+<author initials='R' surname='Shakir' fullname='Rob Shakir'>
+    <organization />
+</author>
+
+<author initials='L' surname='Tomotaki' fullname='Luis Tomotaki'>
+    <organization />
+</author>
+
+<author initials='K' surname='D&apos;Souza' fullname='Kevin D&apos;Souza'>
+    <organization />
+</author>
+
+<date month='March' day='3' year='2016' />
+
+<abstract><t>This document defines a YANG data model that can be used to deliver a Layer 3 Provider Provisioned VPN service.  The document is limited to the BGP PE-based VPNs as described in RFC4110 and RFC4364.  This model is intended to be instantiated at management system to deliver the overall service.  This model is not a configuration model to be used directly on network elements.  This model provides an abstracted view of the Layer 3 IPVPN service configuration components.  It will be up to a management system to take this as an input and use specific configurations models to configure the different network elements to deliver the service.  How configuration of network elements is done is out of scope of the document.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-l3sm-l3vpn-service-model-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-l3sm-l3vpn-service-model-03.txt' />
+</reference>

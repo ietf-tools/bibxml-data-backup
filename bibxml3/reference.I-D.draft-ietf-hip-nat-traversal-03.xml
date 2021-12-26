@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-nat-traversal'>
+<front>
+<title>Basic HIP Extensions for Traversal of Network Address Translators and  Firewalls</title>
+
+<author initials='M' surname='Komu' fullname='Miika Komu'>
+    <organization />
+</author>
+
+<author initials='T' surname='Henderson' fullname='Tom Henderson'>
+    <organization />
+</author>
+
+<author initials='P' surname='Matthews' fullname='Philip Matthews'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='A' surname='Keraenen' fullname='Ari Keraenen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Melen' fullname='Jan Melen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Bagnulo' fullname='Marcelo Bagnulo'>
+    <organization />
+</author>
+
+<date month='February' day='25' year='2008' />
+
+<abstract><t>The Host Identity Protocol (HIP) provides a new namespace that can be used for uniquely identifying hosts.  Existing HIP experimental specifications do not specify protocol operations across Network Address Translators (NATs).  This document specifies NAT traversal extensions for HIP.  The HIP shim layer is located between the network and transport layer, the extensions can also provide a more general-purpose NAT traversal support for higher-layer networking applications.  The extensions are based on the use of the The Interactive Connectivity Establishment (ICE) methodology to discover a working path between two end-hosts. Using the specified extensions, two HIP-capable hosts are able to communicate with each other even when both nodes are behind NATs or firewalls.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-nat-traversal-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-nat-traversal-03.txt' />
+</reference>

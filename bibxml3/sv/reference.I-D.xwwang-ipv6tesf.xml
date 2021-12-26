@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xwwang-ipv6tesf'>
+<front>
+<title>TESF Based on True IPv6 Address Access</title>
+
+<author initials='X' surname='Wang' fullname='Xingwei Wang'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Wen' fullname='ZhanKao Wen'>
+    <organization />
+</author>
+
+<author initials='W' surname='Wang' fullname='WeiDong Wang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Liu' fullname='Jun Liu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Liu' fullname='PengCheng Liu'>
+    <organization />
+</author>
+
+<date month='December' day='23' year='2010' />
+
+<abstract><t>The current Email infrastructure has the property that any host sending mail to the mail system can identify itself as any user name it wants.  Furthermore, the current Email framework neither authenticates the sender nor traces the source of the mail, so even find a spam, the method is just to reject the mail or insert the mail source into "blacklist", and both of these methods can!_t deracinate the generation of spam.  This document design a Email source address authentication based on true IPv6 address access to identify and authenticate the mail source address, to trace the mail sender effectively, and to deracinate the generation of spam.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xwwang-ipv6tesf-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xwwang-ipv6tesf-00.txt' />
+</reference>

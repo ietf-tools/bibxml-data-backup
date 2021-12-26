@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ace-oscore-gm-admin'>
+<front>
+<title>Admin Interface for the OSCORE Group Manager</title>
+
+<author initials='M' surname='Tiloca' fullname='Marco Tiloca'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hoeglund' fullname='Rikard Hoeglund'>
+    <organization />
+</author>
+
+<author initials='P' surname='Stok' fullname='Peter van der Stok'>
+    <organization />
+</author>
+
+<author initials='F' surname='Palombini' fullname='Francesca Palombini'>
+    <organization />
+</author>
+
+<author initials='K' surname='Hartke' fullname='Klaus Hartke'>
+    <organization />
+</author>
+
+<date month='July' day='30' year='2020' />
+
+<abstract><t>Group communication for CoAP can be secured using Group Object Security for Constrained RESTful Environments (Group OSCORE).  A Group Manager is responsible to handle the joining of new group members, as well as to manage and distribute the group key material. This document defines a RESTful admin interface at the Group Manager, that allows an Administrator entity to create and delete OSCORE groups, as well as to retrieve and update their configuration.  The ACE framework for Authentication and Authorization is used to enforce authentication and authorization of the Administrator at the Group Manager.  Protocol-specific transport profiles of ACE are used to achieve communication security, proof-of-possession and server authentication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ace-oscore-gm-admin-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ace-oscore-gm-admin-00.txt' />
+</reference>

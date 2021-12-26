@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-lamps-hash-of-root-key-cert-extn'>
+<front>
+<title>Hash Of Root Key Certificate Extension</title>
+
+<author initials='R' surname='Housley' fullname='Russell Housley'>
+    <organization />
+</author>
+
+<date month='January' day='15' year='2019' />
+
+<abstract><t>This document specifies the Hash Of Root Key certificate extension. This certificate extension is carried in the self-signed certificate for a trust anchor, which is often called a Root Certification Authority (CA) certificate.  This certificate extension unambiguously identifies the next public key that will be used at some point in the future as the next Root CA certificate, eventually replacing the current one.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-lamps-hash-of-root-key-cert-extn-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-lamps-hash-of-root-key-cert-extn-04.txt' />
+</reference>

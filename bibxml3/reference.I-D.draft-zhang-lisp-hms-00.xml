@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.zhang-lisp-hms'>
+<front>
+<title>A Hierarchical Mapping System for LISP</title>
+
+<author initials='H' surname='Zhang' fullname='Hongke Zhang'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2011' />
+
+<abstract><t>This draft proposes a Hierarchical Mapping System (HMS) for Locator/ID Separation Protocol (LISP). HMS uses a hierarchical architecture as well as one-hop DHT (Distributed Hash Tables). HMS composes two levels with the bottom level maintaining EID-to-RLOC mappings in an Autonomous System (AS) and the upper level storing the global EID-prefix-to-AS mappings. The bottom level is organized in one-hop DHT and the upper level propagates EID-prefix-to-AS mappings using a protocol like BGP. HMS builds an efficient and scalable mapping system to provide RLOCs for a given EID.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-zhang-lisp-hms-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-zhang-lisp-hms-00.txt' />
+</reference>

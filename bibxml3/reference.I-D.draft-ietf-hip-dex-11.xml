@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-hip-dex'>
+<front>
+<title>HIP Diet EXchange (DEX)</title>
+
+<author initials='R' surname='Moskowitz' fullname='Robert Moskowitz'>
+    <organization />
+</author>
+
+<author initials='R' surname='Hummen' fullname='Rene Hummen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Komu' fullname='Miika Komu'>
+    <organization />
+</author>
+
+<date month='October' day='31' year='2019' />
+
+<abstract><t>This document specifies the Host Identity Protocol Diet EXchange (HIP DEX), a variant of the Host Identity Protocol Version 2 (HIPv2).  The HIP DEX protocol design aims at reducing the overhead of the employed cryptographic primitives by omitting public-key signatures and hash functions.  The HIP DEX protocol is primarily designed for computation or memory- constrained sensor/actuator devices.  Like HIPv2, it is expected to be used together with a suitable security protocol such as the Encapsulated Security Payload (ESP) for the protection of upper layer protocol data.  In addition, HIP DEX can also be used as a keying mechanism for security primitives at the MAC layer, e.g., for IEEE 802.15.4 networks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-hip-dex-11' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-hip-dex-11.txt' />
+</reference>

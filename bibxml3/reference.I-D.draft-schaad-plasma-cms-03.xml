@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schaad-plasma-cms'>
+<front>
+<title>Plasma Service Cryptographic Message Syntax (CMS) Processing</title>
+
+<author initials='J' surname='Schaad' fullname='Jim Schaad'>
+    <organization />
+</author>
+
+<date month='January' day='11' year='2013' />
+
+<abstract><t>Secure MIME (S/MIME) defined a method of placing security labels on a Cryptographic Message Syntax (CMS) object.  These labels are placed as part of the data signed and validated by the parties.  This means that the message content is visible to the recipient prior to the label enforcement.  A new model for enforcement of policy using a third party is described in RFC TBD [I.D-draft-freeman-plasma-requirements].  This is the Policy Augmented S/MIME (PLASMA) system.  This document provides the details needed to implement the new Plasma model in the CMS infrastructure.  An additional benefit of using the Plasma module is that the server, based on policy, manages who has access to the message and how the keys are protected.  The document details how the client encryption and decryption processes are performed, defines how to construct the CMS recipient info structure, a new content to hold the data required for the Plasma server to store the keys and policy information.  The document does not cover the protocol between the client and the Plasma policy enforcement server.  One example of the client/server protocol can be found in RFC TBD [plasma-token].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schaad-plasma-cms-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schaad-plasma-cms-03.txt' />
+</reference>

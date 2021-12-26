@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-netmod-dsdl-map'>
+<front>
+<title>Mapping YANG to Document Schema Definition Languages and Validating NETCONF Content</title>
+
+<author initials='L' surname='Lhotka' fullname='Ladislav Lhotka'>
+    <organization />
+</author>
+
+<author initials='R' surname='Mahy' fullname='Rohan Mahy'>
+    <organization />
+</author>
+
+<author initials='S' surname='Chisholm' fullname='Sharon Chisholm'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>This draft specifies the mapping rules for translating YANG data models into Document Schema Definition Languages (DSDL), a coordinated set of XML schema languages standardized as ISO 19757. The following DSDL schema languages are used by the mapping: RELAX NG, Schematron and DSRL.  The mapping takes one or more YANG modules and produces a set of DSDL schemas for a selected target document type - datastore content, NETCONF PDU etc.  Procedures for schema- based validation of such documents are also discussed.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-netmod-dsdl-map-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-netmod-dsdl-map-04.txt' />
+</reference>

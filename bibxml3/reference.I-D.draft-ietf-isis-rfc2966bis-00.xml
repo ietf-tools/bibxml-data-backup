@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-isis-rfc2966bis'>
+<front>
+<title>Domain-wide Prefix Distribution with Two-Level IS-IS</title>
+
+<author initials='T' surname='Li' fullname='Tony Li'>
+    <organization />
+</author>
+
+<author initials='H' surname='Smit' fullname='Henk Smit'>
+    <organization />
+</author>
+
+<author initials='T' surname='Przygienda' fullname='Tony Przygienda'>
+    <organization />
+</author>
+
+<date month='February' day='7' year='2008' />
+
+<abstract><t>This document describes extensions to the Intermediate System to Intermediate System (IS-IS) protocol to support optimal routing within a two-level domain. The IS-IS protocol is specified in ISO 10589, with extensions for supporting IPv4 (Internet Protocol) specified in RFC 1195. This document extends the semantics presented in RFC 1195 so that a routing domain running with both level 1 and level 2 Intermediate Systems (IS) [routers] can distribute IP prefixes between level 1 and level 2 and vice versa. This distribution requires certain restrictions to insure that persistent forwarding loops do not form. The goal of this domain-wide prefix distribution is to increase the granularity of the routing information within the domain.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-isis-rfc2966bis-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-isis-rfc2966bis-00.txt' />
+</reference>

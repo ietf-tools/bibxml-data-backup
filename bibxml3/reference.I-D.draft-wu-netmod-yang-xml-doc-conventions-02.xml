@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-netmod-yang-xml-doc-conventions'>
+<front>
+<title>Documentation Conventions for Expressing XML and JSON encoded YANG Data Node Instance</title>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='A' surname='Farrel' fullname='Adrian Farrel'>
+    <organization />
+</author>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<date month='May' day='30' year='2018' />
+
+<abstract><t>Many documents that define YANG modules also include YANG data node Instance examples presented in XML/JSON.  IETF documentation has specific limits on line length and some YANG data node Instance examples such as XML examples have to include line wraps that would not normally be allowed according to the XML representation rules of RFC7950 and RFC7952.The same applies to JSON.  This document lays out documentation conventions that allow YANG examples to be presented in IETF documentation when XML/JSON encoded YANG data instance would otherwise exceed the maximum line length and provide consistent XML/JSON encoded YANG data node instance example within an Internet-Draft or RFC.  There are no implications in this document for YANG parsers: this document does not change the rules for presenting YANG models or for encoding YANG in data files or in the wire.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-netmod-yang-xml-doc-conventions-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-netmod-yang-xml-doc-conventions-02.txt' />
+</reference>

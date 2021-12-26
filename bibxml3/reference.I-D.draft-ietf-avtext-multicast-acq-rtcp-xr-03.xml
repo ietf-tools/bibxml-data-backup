@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avtext-multicast-acq-rtcp-xr'>
+<front>
+<title>Multicast Acquisition Report Block Type for RTP Control Protocol (RTCP) Extended Reports (XRs)</title>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='E' surname='Friedrich' fullname='Eric Friedrich'>
+    <organization />
+</author>
+
+<date month='April' day='11' year='2011' />
+
+<abstract><t>In most RTP-based multicast applications, the RTP source sends inter- related data.  Due to this interdependency, randomly joining RTP receivers usually cannot start consuming the multicast data right after they join the session.  Thus, they often experience a random acquisition delay.  An RTP receiver can use one ore more different approaches to achieve rapid acquisition.  Yet, due to various factors, performance of the rapid acquisition methods usually varies. Furthermore, in some cases the RTP receiver can (or be compelled to) do a simple multicast join.  For quality reporting, monitoring and diagnostics purposes, it is important to collect detailed information from the RTP receivers about their acquisition and presentation experiences.  This document addresses this issue by defining a new report block type, called Multicast Acquisition (MA) Report Block, within the framework of RTP Control Protocol (RTCP) Extended Reports (XR) (RFC 3611).  This document also defines the necessary signaling of the new MA report block type in the Session Description Protocol (SDP).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avtext-multicast-acq-rtcp-xr-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avtext-multicast-acq-rtcp-xr-03.txt' />
+</reference>

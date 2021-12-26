@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.rosen-bess-secure-l3vpn'>
+<front>
+<title>Augmenting RFC 4364 Technology to Provide Secure Layer L3VPNs over Public Infrastructure</title>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bonica' fullname='Ron Bonica'>
+    <organization />
+</author>
+
+<date month='June' day='11' year='2018' />
+
+<abstract><t>The Layer 3 Virtual Private Network (VPN) technology described in RFC 4364 is focused on the scenario in which a network Service Provider (SP) maintains a secure backbone network and offers VPN service over that network to its customers.  Customers access the SP's network by attaching "Customer Edge" (CE) routers to "Provider Edge" (PE) routers, and exchanging cleartext IP packets.  PE routers generally serve multiple customers, and prevent unauthorized communication among customers.  Customer data sent across the backbone (from one PE to another) is encapsulated in MPLS, using an MPLS label to associate a given packet with a given customer.  The labeled packets are then sent across the backbone network in the clear, using MPLS transport. However, many customers want a VPN service that is secure enough to run over the public Internet, and which does not require them to send cleartext IP packets to a service provider.  Often they want to connect directly to edge nodes of the public Internet, which does not provide MPLS support.  Each customer may itself have multiple tenants who are not allowed to intercommunicate with each other freely.  In this case, the customer many need to provide a VPN service for the tenants.  This document describes a way in which this can be achieved using the technology of RFC 4364.  The functionality assigned therein to a PE router can be placed instead in Customer Premises Equipment. This functionality can be augmented by transmitting MPLS packets through IPsec Security Associations.  The BGP control plane sessions can also be protected by IPsec.  This allows a customer to use RFC 4364 technology to provide VPN service to its internal departments, while sending only IPsec-protected packets to the Internet or other backbone network, and eliminating the need for MPLS transport in the backbone.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-rosen-bess-secure-l3vpn-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-rosen-bess-secure-l3vpn-00.txt' />
+</reference>

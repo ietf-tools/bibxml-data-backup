@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-rtp-rfc3984bis'>
+<front>
+<title>RTP Payload Format for H.264 Video</title>
+
+<author initials='Y' surname='Wang' fullname='Ye-Kui Wang'>
+    <organization />
+</author>
+
+<author initials='R' surname='Even' fullname='Roni Even'>
+    <organization />
+</author>
+
+<author initials='T' surname='Kristensen' fullname='Tom Kristensen'>
+    <organization />
+</author>
+
+<date month='November' day='3' year='2008' />
+
+<abstract><t>This memo describes an RTP Payload format for the ITU-T Recommendation H.264 video codec and the technically identical  ISO/IEC International Standard 14496-10 video codec, excluding the Scalable Video Coding (SVC) extension and the Multivew Video Coding extension, for which the RTP payload formats are defined elsewhere.  The RTP payload format allows for packetization of one or more Network Abstraction Layer Units (NALUs), produced by an H.264 video encoder, in each RTP payload.  The payload format has wide applicability, as it supports applications from simple low bit-rate conversational usage, to Internet video streaming with interleaved transmission, to high bit-rate video-on-demand.  This memo intends to obsolete RFC 3984.  Changes from RFC 3984 are summarized in section 17. Issues on backward compatibility to RFC 3984 are discussed in section 16.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-rtp-rfc3984bis-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-rtp-rfc3984bis-01.txt' />
+</reference>

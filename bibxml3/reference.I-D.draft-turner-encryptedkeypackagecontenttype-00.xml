@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.turner-encryptedkeypackagecontenttype'>
+<front>
+<title>Encrypted Key Package Content Type</title>
+
+<author initials='R' surname='Housley' fullname='Russ Housley'>
+    <organization />
+</author>
+
+<author initials='S' surname='Turner' fullname='Sean Turner'>
+    <organization />
+</author>
+
+<date month='September' day='8' year='2009' />
+
+<abstract><t>This document defines the encrypted key package content type, which can be used to encrypt a content that includes a key package, such as a symmetric key package or an asymmetric key package.  It is transport independent.  The Cryptographic Message Syntax (CMS) can be used to digitally sign, digest, authenticate, or further encrypt this content type.  It is designed to be used with the CMS Content Constraints extension, which does not constrain the EncryptedData, EnvelopedData, and AuthEnvelopedData.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-turner-encryptedkeypackagecontenttype-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-turner-encryptedkeypackagecontenttype-00.txt' />
+</reference>

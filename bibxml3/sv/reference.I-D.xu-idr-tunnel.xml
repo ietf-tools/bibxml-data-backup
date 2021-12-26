@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.xu-idr-tunnel'>
+<front>
+<title>Tunnel Endpoints in BGP</title>
+
+<author initials='X' surname='Xu' fullname='Xiaohu Xu'>
+    <organization />
+</author>
+
+<author initials='P' surname='Francis' fullname='Paul Francis'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2008' />
+
+<abstract><t>Virtual Aggregation (VA) is a mechanism for shrinking the size of the DFZ FIB in routers [I-D.francis-idr-intra-va].  VA can result in longer paths and increased load on routers within the ISP that deploys VA.  This document describes a mechanism that allows an AS that originates a route to associate a tunnel endpoint terminating at itself with the route.  This allows routers in a remote AS to tunnel packets to the originating AS.  If transit ASes between the remote AS and the originating AS install the prefixes associated with tunnel endpoints in their FIBs, then tunneled packets that transit through them will take the shortest path.  This results in reduced load for the transit AS, and better performance for the customers at the source and destination.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-xu-idr-tunnel-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-xu-idr-tunnel-00.txt' />
+</reference>

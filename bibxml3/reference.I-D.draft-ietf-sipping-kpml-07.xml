@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-sipping-kpml'>
+<front>
+<title>A Session Initiation Protocol (SIP) Event Package for Key Press Stimulus  (KPML)</title>
+
+<author initials='E' surname='Burger' fullname='Eric Burger'>
+    <organization />
+</author>
+
+<date month='December' day='29' year='2004' />
+
+<abstract><t>This document describes a SIP Event Package "kpml" that enables monitoring of DTMF signals and uses XML documents referred to as Key Press Markup Language (KPML). The kpml Event Package may be used to support applications consistent with the principles defined in the document titled "A Framework for Application Interaction in the Session Initiation Protocol (SIP)". The event package uses SUBSCRIBE messages and allows for XML scripts that define and describe filter specifications for capturing key presses (DTMF Tones) entered at a presentation-free User Interface SIP User Agent (UA). The event package uses NOTIFY messages and allows for XML scripts to report the captured key presses (DTMF tones), consistent with the filter specifications, to an Application Server. The scope of this package is for collecting supplemental key presses or mid-call key presses (triggers).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-sipping-kpml-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-sipping-kpml-07.txt' />
+</reference>

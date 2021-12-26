@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dmarc-arc-protocol'>
+<front>
+<title>Authenticated Received Chain (ARC) Protocol</title>
+
+<author initials='K' surname='Andersen' fullname='Kurt Andersen'>
+    <organization />
+</author>
+
+<author initials='J' surname='Rae-Grant' fullname='John Rae-Grant'>
+    <organization />
+</author>
+
+<author initials='B' surname='Long' fullname='Brandon Long'>
+    <organization />
+</author>
+
+<author initials='J' surname='Adams' fullname='J. Adams'>
+    <organization />
+</author>
+
+<author initials='S' surname='Jones' fullname='Steven Jones'>
+    <organization />
+</author>
+
+<date month='December' day='2' year='2016' />
+
+<abstract><t>Authenticated Received Chain (ARC) permits an organization which is creating or handling email to indicate its involvement with the handling process.  It defines a set of cryptographically signed header fields in a manner analagous to that of DKIM.  Assertion of responsibility is validated through a cryptographic signature and by querying the Signer's domain directly to retrieve the appropriate public key.  Changes in the message that might break DKIM can be identified through the ARC set of header fields.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dmarc-arc-protocol-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dmarc-arc-protocol-01.txt' />
+</reference>

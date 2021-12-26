@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wu-netconf-base-notification-nmda'>
+<front>
+<title>Base Notifications for NMDA</title>
+
+<author initials='Q' surname='Wu' fullname='Qin Wu'>
+    <organization />
+</author>
+
+<author initials='R' surname='Ranade' fullname='Rohit Ranade'>
+    <organization />
+</author>
+
+<date month='June' day='19' year='2018' />
+
+<abstract><t>The Network Configuration Protocol (NETCONF) provides mechanisms to manipulate configuration datastores.  NMDA introduces additional datastores for systems that support more advanced processing chains converting configuration to operational state.  However, client applications are not able to be aware of common events pertaining to additional datstores, such as a data validation state change in NETCONF server, that may impact management applications.  This document updates [RFC6470] to allow a NETCONF client to receive additional notifications for some common system events pertaining to the Network Management Datastore Architecture (NMDA) defined in [RFC8342].</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wu-netconf-base-notification-nmda-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wu-netconf-base-notification-nmda-01.txt' />
+</reference>

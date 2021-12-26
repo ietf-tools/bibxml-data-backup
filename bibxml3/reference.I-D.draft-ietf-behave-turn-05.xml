@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-behave-turn'>
+<front>
+<title>Traversal Using Relays around NAT (TURN): Relay Extensions to Session  Traversal Utilities for NAT (STUN)</title>
+
+<author initials='J' surname='Rosenberg' fullname='Jonathan Rosenberg'>
+    <organization />
+</author>
+
+<author initials='R' surname='Mahy' fullname='Rohan Mahy'>
+    <organization />
+</author>
+
+<author initials='P' surname='Matthews' fullname='Philip Matthews'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wing' fullname='Dan Wing'>
+    <organization />
+</author>
+
+<date month='November' day='17' year='2007' />
+
+<abstract><t>This specification defines an extension of the Session Traversal Utilities for NAT (STUN) Protocol for asking the STUN server to relay packets towards a client. This extension, called Traversal Using Relays around NAT (TURN), is useful for hosts behind address dependent NATs. The extension purposefully restricts the ways in which the relayed address can be used. In particular, it prevents users from running general purpose servers on ports obtained from the TURN server.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-behave-turn-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-behave-turn-05.txt' />
+</reference>

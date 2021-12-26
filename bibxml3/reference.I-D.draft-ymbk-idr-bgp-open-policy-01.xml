@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ymbk-idr-bgp-open-policy'>
+<front>
+<title>Route Leak Detection and Filtering using Roles in Update and Open messages</title>
+
+<author initials='A' surname='Azimov' fullname='Alexander Azimov'>
+    <organization />
+</author>
+
+<author initials='E' surname='Bogomazov' fullname='Eugene Bogomazov'>
+    <organization />
+</author>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<date month='October' day='26' year='2016' />
+
+<abstract><t>Route Leaks are propagation of BGP prefixes which violate assumptions of BGP topology relationships; e.g. passing a route learned from one peer to another peer or to a transit provider, passing a route learned from one transit provider to another transit provider or to a peer.  Today, approaches to leak prevention rely on marking routes according to some configuration options without any check of the configuration corresponds to that of the BGP neighbor, or enforcement that the two BGP speakers agree on the relationship.  This document enhances BGP Open to establish agreement of the (peer, customer, provider, internal) relationship of two BGP neighboring speakers to enforce appropriate configuration on both sides.  Propagated routes are then marked with a eOTC and iOTC attributes according to agreed relationship allowing prevetion and detection of route leaks.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ymbk-idr-bgp-open-policy-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ymbk-idr-bgp-open-policy-01.txt' />
+</reference>

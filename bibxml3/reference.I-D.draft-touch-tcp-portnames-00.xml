@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.touch-tcp-portnames'>
+<front>
+<title>A TCP Option for Port Names</title>
+
+<author initials='J' surname='Touch' fullname='Joseph Touch'>
+    <organization />
+</author>
+
+<date month='April' day='17' year='2006' />
+
+<abstract><t>This document specifies a new TCP option that specifies services by a string name. This option separates the use of port numbers for connection demultiplexing from their use as a service identifier. The option allows a larger number of concurrent connections for a particular service, as well as potentially enabling more explicitly coordination of services behind NATs and firewalls. This option should be supported in new TCP implementations.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-touch-tcp-portnames-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-touch-tcp-portnames-00.txt' />
+</reference>

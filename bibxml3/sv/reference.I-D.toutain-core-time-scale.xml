@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.toutain-core-time-scale'>
+<front>
+<title>CoAP Time Scale Option</title>
+
+<author initials='A' surname='Minaburo' fullname='Ana Minaburo'>
+    <organization />
+</author>
+
+<author initials='L' surname='Toutain' fullname='Laurent Toutain'>
+    <organization />
+</author>
+
+<date month='October' day='27' year='2017' />
+
+<abstract><t>SCHC compression mechanism for LPWAN network enables IPv6 on devices connected to a constrained network (LPWAN).  They can communicate with a CoAP server located anywhere in the Internet.  LPWAN network characteristics limits the number of exchanges and may impose a long RTT.  The CoAP server must be aware of these properties to manage correctly requests.  The Time Scale option allows a device to inform a CoAP server of the duration the message ID value should be kept in memory to manage correctly message duplication.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-toutain-core-time-scale-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-toutain-core-time-scale-00.txt' />
+</reference>

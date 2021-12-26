@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.chan-http2-stream-dependencies'>
+<front>
+<title>HTTP/2 Stream Dependencies</title>
+
+<author initials='M' surname='Piatek' fullname='Michael Piatek'>
+    <organization />
+</author>
+
+<author initials='W' surname='Chan' fullname='William Chan'>
+    <organization />
+</author>
+
+<date month='January' day='6' year='2014' />
+
+<abstract><t>The existing HTTP/2 prioritization scheme relies purely on integer values to indicate priorities.  This simple scheme misses critical support for priority grouping, and does not support other features like resource ordering.  This draft proposes using stream dependencies to solve the lack of priority grouping, as well as provide other features.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-chan-http2-stream-dependencies-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-chan-http2-stream-dependencies-00.txt' />
+</reference>

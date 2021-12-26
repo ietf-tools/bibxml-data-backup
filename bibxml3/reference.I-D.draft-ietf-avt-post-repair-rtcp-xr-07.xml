@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-avt-post-repair-rtcp-xr'>
+<front>
+<title>Post-Repair Loss RLE Report Block Type for RTCP XR</title>
+
+<author initials='A' surname='Begen' fullname='Ali Begen'>
+    <organization />
+</author>
+
+<author initials='D' surname='Hsu' fullname='Dong Hsu'>
+    <organization />
+</author>
+
+<author initials='M' surname='Lague' fullname='Michael Lague'>
+    <organization />
+</author>
+
+<date month='November' day='10' year='2009' />
+
+<abstract><t>This document defines a new report block type within the framework of RTP Control Protocol (RTCP) Extended Reports (XR).  One of the initial XR report block types is the Loss Run Length Encoding (RLE) Report Block.  This report conveys the information regarding the individual Real-time Transport Protocol (RTP) packet receipt and loss events experienced during the RTCP interval preceding the transmission of the report.  The new report, which is referred to as the Post-repair Loss RLE Report, carries the information regarding the remaining lost packets after all loss-repair methods are applied. By comparing the RTP packet receipts/losses before and after the loss repair is completed, one can determine the effectiveness of the loss- repair methods in an aggregated fashion.  This document also defines the signaling of the Post-repair Loss RLE Report in the Session Description Protocol (SDP).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-avt-post-repair-rtcp-xr-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-avt-post-repair-rtcp-xr-07.txt' />
+</reference>

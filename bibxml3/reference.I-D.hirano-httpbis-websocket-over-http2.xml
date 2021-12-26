@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.hirano-httpbis-websocket-over-http2'>
+<front>
+<title>WebSocket over HTTP/2</title>
+
+<author initials='Y' surname='Hirano' fullname='Yutaka Hirano'>
+    <organization />
+</author>
+
+<date month='August' day='12' year='2014' />
+
+<abstract><t>The WebSocket protocol enables two-way communication between a client running untrusted code in a controlled environment to a remote host that has opted-in to communications from that code.  Since it requires one TCP connection for every WebSocket connection, having multiple WebSocket connections between the same client and the same server is inefficient.  On the other hand, HTTP/2 specifies a fast, secure, multiplexed framing protocol.  This document provides bi- directional multiplexed communication by layering WebSocket on top of HTTP/2.  Please send feedback to the ietf-http-wg@w3.org mailing list.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-hirano-httpbis-websocket-over-http2-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-hirano-httpbis-websocket-over-http2-01.txt' />
+</reference>

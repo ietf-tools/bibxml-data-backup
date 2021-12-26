@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC7581' target='https://www.rfc-editor.org/info/rfc7581'>
+<front>
+<title>Routing and Wavelength Assignment Information Encoding for Wavelength Switched Optical Networks</title>
+<author initials='G.' surname='Bernstein' fullname='G. Bernstein' role='editor'><organization /></author>
+<author initials='Y.' surname='Lee' fullname='Y. Lee' role='editor'><organization /></author>
+<author initials='D.' surname='Li' fullname='D. Li'><organization /></author>
+<author initials='W.' surname='Imajuku' fullname='W. Imajuku'><organization /></author>
+<author initials='J.' surname='Han' fullname='J. Han'><organization /></author>
+<date year='2015' month='June' />
+<abstract><t>A Wavelength Switched Optical Network (WSON) requires certain key information fields be made available to facilitate path computation and the establishment of Label Switched Paths (LSPs). The information model described in &quot;Routing and Wavelength                           Assignment Information Model for Wavelength Switched Optical Networks&quot; (RFC 7446) shows what information is required at specific points in the WSON. Part of the WSON information model contains aspects that may be of general applicability to other technologies, while other parts are specific to WSONs.</t><t>This document provides efficient, protocol-agnostic encodings for the WSON-specific information fields.  It is intended that protocol- specific documents will reference this memo to describe how information is carried for specific uses.  Such encodings can be used to extend GMPLS signaling and routing protocols.  In addition, these encodings could be used by other mechanisms to convey this same information to a Path Computation Element (PCE).</t></abstract>
+</front>
+<seriesInfo name='RFC' value='7581'/>
+<seriesInfo name='DOI' value='10.17487/RFC7581'/>
+</reference>

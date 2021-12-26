@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.unyte-netconf-multi-stream-originators'>
+<front>
+<title>Subscription to Multiple Stream Originators</title>
+
+<author initials='T' surname='Zhou' fullname='Tianran Zhou'>
+    <organization />
+</author>
+
+<author initials='G' surname='Zheng' fullname='Guangying Zheng'>
+    <organization />
+</author>
+
+<author initials='E' surname='Voit' fullname='Eric Voit'>
+    <organization />
+</author>
+
+<author initials='A' surname='Clemm' fullname='Alexander Clemm'>
+    <organization />
+</author>
+
+<author initials='T' surname='Graf' fullname='Thomas Graf'>
+    <organization />
+</author>
+
+<author initials='P' surname='Francois' fullname='Pierre Francois'>
+    <organization />
+</author>
+
+<date month='March' day='8' year='2020' />
+
+<abstract><t>This document describes the distributed data export mechanism that allows multiple data streams to be managed by using a single subscription.  Specifically, device can decide to decompse one subscription into multiple subscriptions to the line-cards.  So that each line-card can directly push data to the collector without passing through a broker for internal consolidation.  And the device can indicate the subscription decomposition result to the receiver to check the data integrity.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-unyte-netconf-multi-stream-originators-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-unyte-netconf-multi-stream-originators-00.txt' />
+</reference>

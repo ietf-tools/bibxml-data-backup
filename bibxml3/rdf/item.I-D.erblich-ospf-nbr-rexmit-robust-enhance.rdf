@@ -1,0 +1,7 @@
+
+<item rdf:about='http://www.ietf.org/internet-drafts/draft-erblich-ospf-nbr-rexmit-robust-enhance-00.txt'>
+    <title>"Robust Enhancement to the Neighbor's Retransmission List when one or more  LSA Checksum and length are in Error", Mitchell Erblich</title>
+    <link>http://www.ietf.org/internet-drafts/draft-erblich-ospf-nbr-rexmit-robust-enhance-00.txt</link>
+    <description>The ability to process LSAs within a Update packet requires that the length field be correct to generate the next offset within the packet. During the rare times that a checksum error and length LSA fields are incorrect, the beginning of later LSAs header's can't be determined. This draft specifies a transparent method to allow all valid LSAs to be processed even when these corrupted LSAs exist on the neighbor's retransmission list.</description>
+    <dc:date>2005-01-05T08:00:00-00:00</dc:date>
+</item>

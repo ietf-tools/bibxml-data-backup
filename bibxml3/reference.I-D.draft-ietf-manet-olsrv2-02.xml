@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-manet-olsrv2'>
+<front>
+<title>The Optimized Link-State Routing Protocol version 2</title>
+
+<author initials='T' surname='Clausen' fullname='Thomas Clausen'>
+    <organization />
+</author>
+
+<date month='June' day='27' year='2006' />
+
+<abstract><t>This document describes version 2 of the Optimized Link State Routing (OLSRv2) protocol for mobile ad hoc networks. The protocol embodies an optimization of the classical link state algorithm tailored to the requirements of a mobile wireless LAN. The key optimization of OLSRv2 is that of multipoint relays, providing an efficient mechanism for network-wide broadcast of link- state information (i.e. reducing the cost of performing a network- wide link-state broadcast). A secondary optimization is that OLSRv2 employs partial link-state information: each node maintains information about all destinations, but only a subset of links. This allows that only select nodes diffuse link-state advertisements (i.e. reduces the number of network-wide link-state broadcasts) and that these advertisements contain only a subset of links (i.e. reduces the size of each network-wide link-state broadcast). The partial link- state information thus obtained still allows each OLSRv2 node to at all times maintain optimal (in terms of number of hops) routes to all destinations in the network. OLSRv2 imposes minimum requirements to the network by not requiring sequenced or reliable transmission of control traffic. Furthermore, the only interaction between OLSRv2 and the IP stack is routing table management. OLSRv2 is particularly suitable for large and dense networks as the technique of MPRs works well in this context.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-manet-olsrv2-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-manet-olsrv2-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.schmitt-ace-twowayauth-for-iot'>
+<front>
+<title>Two-way Authentication for IoT</title>
+
+<author initials='C' surname='Schmitt' fullname='Corinna Schmitt'>
+    <organization />
+</author>
+
+<author initials='B' surname='Stiller' fullname='Burkhard Stiller'>
+    <organization />
+</author>
+
+<date month='June' day='25' year='2014' />
+
+<abstract><t>In this draft the first key idea for a full two-way authentication security scheme for the Internet of Things (IoT) based on existing Internet standards is introduced.  The solution is twofold providing a two-way authentication for resource-rich hardware (e.g., class 2 devices with ~50 KiB RAM and ~250 KiB ROM [14]) and for devices with less resources (e.g., class 1 devices with ~10 KiB RAM and ~100 KiB ROM [14]).  By relying on an established standard, existing implementations, engineering techniques, and security infrastructure can be reused, which enables an easy security uptake.  The proposed security scheme for resource-rich devices is, therefore, based on RSA, the most widely used public key cryptography algorithm.  It is designed to work over standard communication stacks that offer UDP/ IPv6 networking for Low power Wireless Personal Area Networks (6LoWPANs).  RSA is a bulky solution at the moment but shows that it is possible using it on constraint devices for security purposes.  An optimization is the usage of elliptic curve cryptography (ECC) as assumed for devices with less resources.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-schmitt-ace-twowayauth-for-iot-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-schmitt-ace-twowayauth-for-iot-00.txt' />
+</reference>

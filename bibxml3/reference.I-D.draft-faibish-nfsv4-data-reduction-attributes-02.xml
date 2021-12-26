@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.faibish-nfsv4-data-reduction-attributes'>
+<front>
+<title>Support for Data Reduction Attributes in nfsv4 Version 2</title>
+
+<author initials='S' surname='Faibish' fullname='Sorin Faibish'>
+    <organization />
+</author>
+
+<author initials='D' surname='Black' fullname='David Black'>
+    <organization />
+</author>
+
+<author initials='P' surname='Shilane' fullname='Philip Shilane'>
+    <organization />
+</author>
+
+<date month='December' day='30' year='2019' />
+
+<abstract><t>This document proposes extending NFSv4 operations to add new named attributes to be used in the protocol to provide information about the data reduction properties of files. The new data reduction attributes are proposed to allow the client application to communicate to the NFSv4 server data reduction attributes associated with files and directories using new metadata, communicated to the Block Storage data reduction engines. Corresponding new named attributes are proposed to allow clients and client applications to query the server for data reduction attributes support and allow to get and set data reduction attributes on files and directories. Such data reduction metadata is used as hints to the file server about what type of data reduction to apply. The proposed data reduction attributes include achievable ratios for compression and deduplication plus whether each data reduction technique applies to a file or directory.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-faibish-nfsv4-data-reduction-attributes-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-faibish-nfsv4-data-reduction-attributes-02.txt' />
+</reference>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-tcpm-sack-recovery-entry'>
+<front>
+<title>Using TCP Selective Acknowledgement (SACK) Information to Determine Duplicate Acknowledgements for Loss Recovery Initiation</title>
+
+<author initials='I' surname='Jarvinen' fullname='Ilpo Jarvinen'>
+    <organization />
+</author>
+
+<author initials='M' surname='Kojo' fullname='Markku Kojo'>
+    <organization />
+</author>
+
+<date month='October' day='19' year='2009' />
+
+<abstract><t>This document describes a TCP sender algorithm to trigger loss recovery based on the TCP Selective Acknowledgement (SACK) information gathered on a SACK scoreboard instead of simply counting the number of arriving duplicate acknowledgements (ACKs) in the traditional way.  The given algorithm is more robust to ACK losses, ACK reordering, missed duplicate acknowledgements due to delayed acknowledgements, and extra duplicate acknowledgements due to duplicated segments and out-of-window segments. The algorithm allows not only a timely initiation of TCP loss recovery but also reduces false fast retransmits.  It has a low implementation cost on top of the SACK scoreboard defined in RFC 3517.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-sack-recovery-entry-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-tcpm-sack-recovery-entry-00.txt' />
+</reference>

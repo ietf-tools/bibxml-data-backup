@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.gong-dnsop-optimal-retrieval-edns'>
+<front>
+<title>Optimal Retrieval Process for DNS Based on EDNS</title>
+
+<author initials='D' surname='Gong' fullname='Daobiao Gong'>
+    <organization />
+</author>
+
+<author initials='P' surname='Zhang' fullname='Peng Zhang'>
+    <organization />
+</author>
+
+<date month='May' day='21' year='2020' />
+
+<abstract><t>This document specifies a mechanism for query-response protocol to improve DNS retrieval efficiency,which makes the resolver always look for the best authoritative servers to ask for the required data.Based on the extension mechanisms for DNS,optimal-result using OPT pseudo- RR can be added to the addtional data section of either a request or a response,which contains the information of optimal authoritative servers by testing.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-gong-dnsop-optimal-retrieval-edns-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-gong-dnsop-optimal-retrieval-edns-00.txt' />
+</reference>

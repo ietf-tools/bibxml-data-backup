@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sermersheim-ldap-chaining'>
+<front>
+<title>LDAP Control to Specify Chaining Behavior</title>
+
+<author initials='J' surname='Sermersheim' fullname='Jim Sermersheim'>
+    <organization />
+</author>
+
+<date month='February' day='22' year='2005' />
+
+<abstract><t>This document describes a Lightweight Directory Access Protocol (LDAP) request control that allows specification of chaining behavior for LDAP operations. By using the control with various LDAP operations, a directory client (DUA), or directory server (DSA) specifies whether or not a DSA or secondary DSA chains operations to other DSAs or returns referrals and/or search result references to the client.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sermersheim-ldap-chaining-03' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sermersheim-ldap-chaining-03.txt' />
+</reference>

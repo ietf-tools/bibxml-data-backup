@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.li-pwe3-ms-pw-pon'>
+<front>
+<title>Multisegment Pseudowires in Passive Optical Networks</title>
+
+<author initials='R' surname='Zheng' fullname='Ruobin Zheng'>
+    <organization />
+</author>
+
+<author initials='L' surname='Hongyu' fullname='Li Hongyu'>
+    <organization />
+</author>
+
+<date month='July' day='26' year='2010' />
+
+<abstract><t>This document describes the application of multi-segment pseudowires (MS-PWs) in a Passive Optical Network (PON).  Static configuration of at least one PW segment is a typical case for a MS-PW.  This is often one of the end segments and, in the case of mobile backhaul, it is the segment closest to the aggregation device. But, when MS-PW is implemented in a PON, there may be a very large number of PW Terminating Provider Edge nodes (T-PEs).  This makes provisioning a heavy burden for the network manager.  Making use of a Gigabit-capable Passive Optical Network (GPON) management protocol helps to reduce the labor of configuration, simplify and speed up the PW provision procedure to a great extent, and notify to switching PE (S-PE) (which is the Optical Line Termination node (OLT)) of the status of the AC at the T-PE (which is the Optical Network Unit (ONU)).  This document describes how to end-to-end MPLS MS-PWs can be provided through the integration of MPLS and GPON provisioning and control protocols, and describes how the MPLS-PW can be carried by the link layer of the GPON.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-li-pwe3-ms-pw-pon-01' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-li-pwe3-ms-pw-pon-01.txt' />
+</reference>

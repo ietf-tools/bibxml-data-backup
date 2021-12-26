@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.perez-abfab-gss-remote-attr'>
+<front>
+<title>Retrieving remote attributes using GSS-API naming extensions</title>
+
+<author initials='A' surname='Perez-Mendez' fullname='Alejandro Perez-Mendez'>
+    <organization />
+</author>
+
+<author initials='R' surname='Lopez' fullname='Rafael Lopez'>
+    <organization />
+</author>
+
+<author initials='G' surname='Lopez-Millan' fullname='Gabriel Lopez-Millan'>
+    <organization />
+</author>
+
+<date month='October' day='5' year='2015' />
+
+<abstract><t>The GSS-API Naming Extensions define new APIs that extend the GSS-API naming model to support name attribute transfer between GSS-API peers.  Historically, this set of functions has been used to obtain the authorization information contained in some sort of authorization token provided to the GSS acceptor during the context establishment process, such as a Kerberos ticket, a SAML assertion, or an X.509 attribute certificate.  However, some scenarios require to allow the GSS acceptor to request additional attributes after context establishment.  If these attributes are not locally stored by the GSS mechanism they have to be retrieved from an external source (e.g. SQL database, LDAP directory, external IdP, etc.).  This document describes how current GSS-API extensions are able to encompass such functionality without requiring of any change, neither on the existing calls nor on the way applications use the API.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-perez-abfab-gss-remote-attr-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-perez-abfab-gss-remote-attr-00.txt' />
+</reference>

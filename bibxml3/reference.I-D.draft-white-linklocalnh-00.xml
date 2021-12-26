@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.white-linklocalnh'>
+<front>
+<title>Link Local Next Hop Handling for BGP</title>
+
+<author initials='R' surname='White' fullname='Russ White'>
+    <organization />
+</author>
+
+<author initials='D' surname='Sharp' fullname='Donald Sharp'>
+    <organization />
+</author>
+
+<author initials='D' surname='Dutt' fullname='Dinesh Dutt'>
+    <organization />
+</author>
+
+<author initials='B' surname='Sadhu' fullname='Biswajit Sadhu'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<date month='September' day='30' year='2019' />
+
+<abstract><t>BGP, described in [RFC4271], was originally designed to provide reachability between domains and between the edges of a domain.  As such, BGP assumes the next hop towards any reachable destination may not reside on the advertising speaker, but rather may either be through a router connected to the same subnet as the speaker, or through a router only reachable by traversing multiple hops through the network.  Because of this, BGP does not recognize the use of IPv6 link local addresses, as described in [RFC4291], as a valid next hop for forwarding purposes.  However, BGP speakers are now often deployed on point-to-point links in networks where multihop reachability of any kind is not assumed or desired (all next hops are assumed to be the speaker reachable through a directly connected point-to-point link).  This is common, for instance, in data center fabrics.  In these situations, a global IPv6 address is not required for the advertisement of reachability information; in fact, providing global IPv6 addresses in these kinds of networks can be detrimental to Zero Touch Provisioning (ZTP).  This draft standardizes the operation of BGP over a point-to-point link using link local IPv6 addressing only.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-white-linklocalnh-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-white-linklocalnh-00.txt' />
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.irtf-cfrg-kangarootwelve'>
+<front>
+<title>KangarooTwelve</title>
+
+<author initials='B' surname='Viguier' fullname='Benoit Viguier'>
+    <organization />
+</author>
+
+<author initials='D' surname='Wong' fullname='David Wong'>
+    <organization />
+</author>
+
+<author initials='G' surname='Assche' fullname='Giles Van Assche'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Dang' fullname='Quynh Dang'>
+    <organization />
+</author>
+
+<author initials='J' surname='Daemen' fullname='Joan Daemen'>
+    <organization />
+</author>
+
+<date month='March' day='12' year='2020' />
+
+<abstract><t>This document defines the KangarooTwelve eXtendable Output Function (XOF), a hash function with output of arbitrary length.  It provides an efficient and secure hashing primitive, which is able to exploit the parallelism of the implementation in a scalable way.  It uses tree hashing over a round-reduced version of SHAKE128 as underlying primitive.  This document builds up on the definitions of the permutations and of the sponge construction in [FIPS 202], and is meant to serve as a stable reference and an implementation guide.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-irtf-cfrg-kangarootwelve-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-irtf-cfrg-kangarootwelve-02.txt' />
+</reference>

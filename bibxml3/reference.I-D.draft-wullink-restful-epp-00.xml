@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.wullink-restful-epp'>
+<front>
+<title>RESTful interface for the Extensible Provisioning Protocol</title>
+
+<author initials='M' surname='Wullink' fullname='Maarten Wullink'>
+    <organization />
+</author>
+
+<author initials='M' surname='Davids' fullname='Marco Davids'>
+    <organization />
+</author>
+
+<author initials='R' surname='Gieben' fullname='R. Gieben'>
+    <organization />
+</author>
+
+<date month='April' day='23' year='2012' />
+
+<abstract><t>This document specifies a 'RESTful interface for EPP' (REPP) with the aim to improve efficiency and interoperability of EPP systems.  This document includes a new EPP Protocol Extension as well as a mapping of [RFC5730] XML-commands to an HTTP based (RESTful) interface.  Existing semantics and mappings as defined in [RFC5731], [RFC5732] and [RFC5733] are largely retained and reusable in RESTful EPP.  With REPP, no session is created on the EPP server.  Each request from client to server will contain all of the information necessary to understand the request.  The server will close the connection after each HTTP request.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-wullink-restful-epp-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-wullink-restful-epp-00.txt' />
+</reference>

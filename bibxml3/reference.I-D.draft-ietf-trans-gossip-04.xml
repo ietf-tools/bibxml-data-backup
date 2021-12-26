@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-trans-gossip'>
+<front>
+<title>Gossiping in CT</title>
+
+<author initials='L' surname='Nordberg' fullname='Linus Nordberg'>
+    <organization />
+</author>
+
+<author initials='D' surname='Gillmor' fullname='Daniel Gillmor'>
+    <organization />
+</author>
+
+<author initials='T' surname='Ritter' fullname='Tom Ritter'>
+    <organization />
+</author>
+
+<date month='January' day='10' year='2017' />
+
+<abstract><t>The logs in Certificate Transparency are untrusted in the sense that the users of the system don't have to trust that they behave correctly since the behavior of a log can be verified to be correct.  This document tries to solve the problem with logs presenting a "split view" of their operations.  It describes three gossiping mechanisms for Certificate Transparency: SCT Feedback, STH Pollination and Trusted Auditor Relationship.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-trans-gossip-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-trans-gossip-04.txt' />
+</reference>

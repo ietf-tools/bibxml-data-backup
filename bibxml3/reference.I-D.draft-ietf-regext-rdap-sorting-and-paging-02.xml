@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-regext-rdap-sorting-and-paging'>
+<front>
+<title>Registration Data Access Protocol (RDAP) Query Parameters for Result Sorting and Paging</title>
+
+<author initials='M' surname='Loffredo' fullname='Mario Loffredo'>
+    <organization />
+</author>
+
+<author initials='M' surname='Martinelli' fullname='Maurizio Martinelli'>
+    <organization />
+</author>
+
+<author initials='S' surname='Hollenbeck' fullname='Scott Hollenbeck'>
+    <organization />
+</author>
+
+<date month='May' day='27' year='2019' />
+
+<abstract><t>The Registration Data Access Protocol (RDAP) does not include core functionality for clients to provide sorting and paging parameters for control of large result sets.  This omission can lead to unpredictable server processing of queries and client processing of responses.  This unpredictability can be greatly reduced if clients can provide servers with their preferences for managing large responses.  This document describes RDAP query extensions that allow clients to specify their preferences for sorting and paging result sets.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-regext-rdap-sorting-and-paging-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-regext-rdap-sorting-and-paging-02.txt' />
+</reference>

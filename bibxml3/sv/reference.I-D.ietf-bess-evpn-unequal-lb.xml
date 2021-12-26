@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-bess-evpn-unequal-lb'>
+<front>
+<title>Weighted Multi-Path Procedures for EVPN Multi-Homing</title>
+<author initials='N' surname='Malhotra' fullname='Neeraj Malhotra'>
+<organization />
+</author>
+<author initials='A' surname='Sajassi' fullname='Ali Sajassi'>
+<organization />
+</author>
+<author initials='J' surname='Rabadan' fullname='Jorge Rabadan'>
+<organization />
+</author>
+<author initials='J' surname='Drake' fullname='John Drake'>
+<organization />
+</author>
+<author initials='A' surname='Lingala' fullname='Avinash Lingala'>
+<organization />
+</author>
+<author initials='S' surname='Thoria' fullname='Samir Thoria'>
+<organization />
+</author>
+<date year='2021' month='November' day='17' />
+<abstract><t>EVPN enables all-active multi-homing for a CE device connected to two or more PEs via a LAG, such that bridged and routed traffic from remote PEs to hosts attached to the Ethernet Segment can be equally load balanced (it uses Equal Cost Multi Path) across the multi-homing PEs.  EVPN also enables multi-homing for IP subnets advertised in IP Prefix routes, so that routed traffic from remote PEs to those IP subnets can be load balanced.  This document defines extensions to EVPN procedures to optimally handle unequal access bandwidth distribution across a set of multi-homing PEs in order to:</t><t> *  provide greater flexibility, with respect to adding or removing individual multi-homed PE-CE links.</t><t> *  handle multi-homed PE-CE link failures that can result in unequal PE-CE access bandwidth across a set of multi-homing PEs.</t></abstract>
+</front>
+<seriesInfo name='Internet-Draft' value='draft-ietf-bess-evpn-unequal-lb-15'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-bess-evpn-unequal-lb-15.txt'/>
+</reference>

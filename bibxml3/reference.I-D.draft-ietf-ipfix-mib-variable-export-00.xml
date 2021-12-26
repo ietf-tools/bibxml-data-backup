@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ipfix-mib-variable-export'>
+<front>
+<title>Exporting MIB Variables using the IPFIX Protocol</title>
+
+<author initials='B' surname='Claise' fullname='Benoit Claise'>
+    <organization />
+</author>
+
+<author initials='P' surname='Aitken' fullname='Paul Aitken'>
+    <organization />
+</author>
+
+<author initials='J' surname='Schoenwaelder' fullname='Juergen Schoenwaelder'>
+    <organization />
+</author>
+
+<date month='July' day='6' year='2012' />
+
+<abstract><t>This document specifies a way to complement IPFIX Flow Records with Management Base (MIB) objects, avoiding the need to define new IPFIX Information Elements for existing Management Information Base objects that are already fully specified.  This method requires an extension to the current IPFIX protocol.  New Template Set and Options Template Sets are specified to allow the export of Simple Network Management Protocol (SNMP) MIB Objects along with IPFIX Information Elements.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipfix-mib-variable-export-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ipfix-mib-variable-export-00.txt' />
+</reference>

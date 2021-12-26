@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ymbk-l3vpn-origination'>
+<front>
+<title>Authenticating L3VPN Origination Signaling</title>
+
+<author initials='R' surname='Bush' fullname='Randy Bush'>
+    <organization />
+</author>
+
+<author initials='K' surname='Patel' fullname='Keyur Patel'>
+    <organization />
+</author>
+
+<author initials='P' surname='Mehta' fullname='Pranav Mehta'>
+    <organization />
+</author>
+
+<author initials='A' surname='Sreekantiah' fullname='Arjun Sreekantiah'>
+    <organization />
+</author>
+
+<author initials='L' surname='Jalil' fullname='Luay Jalil'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2012' />
+
+<abstract><t>A BGP-signaled Layer-3 VPN's prefix bindings sent over BGP are subject to unintentional errors, both by the legitimate originator and by non-legitimate origins.  This is of special concern if the VPN traverses untrusted networks.  This document describes how the sender of the VPN/Prefix binding may sign it so that recipient of the binding may authenticate it.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ymbk-l3vpn-origination-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ymbk-l3vpn-origination-00.txt' />
+</reference>

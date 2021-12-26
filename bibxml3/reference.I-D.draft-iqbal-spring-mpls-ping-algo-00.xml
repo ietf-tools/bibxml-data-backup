@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.iqbal-spring-mpls-ping-algo'>
+<front>
+<title>Supporting Flexible Algorithm Prefix SIDs in LSP Ping/Traceroute</title>
+
+<author initials='f' surname='faiqbal@cisco.com' fullname='faiqbal@cisco.com'>
+    <organization />
+</author>
+
+<author initials='N' surname='Kumar' fullname='Nagendra Kumar'>
+    <organization />
+</author>
+
+<author initials='Z' surname='Ali' fullname='Zafar Ali'>
+    <organization />
+</author>
+
+<author initials='C' surname='Pignataro' fullname='Carlos Pignataro'>
+    <organization />
+</author>
+
+<date month='June' day='28' year='2018' />
+
+<abstract><t>RFC8287 defines the extensions to MPLS LSP Ping and Traceroute for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifier (SIDs) with an MPLS data plane.  [I-D.ietf-lsr-flex-algo] proposes a mechanism to allow IGPs to compute constraint based path over network and use Segment Routing Prefix-SIDs to steer packets along the constraint-based paths.  All Prefix-SIDs associated with the Flexible Algorithm are assigned to the same IPv4/IPv6 Prefix.  Any Segment Routing network that uses Flexible Algorithm based path computation needs additional details to be carried in the FEC Stack sub-TLV for FEC validaiton.  This document updates [RFC8287] by modifying IPv4 and IPv6 IGP-Prefix Segment ID FEC sub-TLVs to also include algorithm identification.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-iqbal-spring-mpls-ping-algo-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-iqbal-spring-mpls-ping-algo-00.txt' />
+</reference>

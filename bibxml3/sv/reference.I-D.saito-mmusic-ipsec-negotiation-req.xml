@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.saito-mmusic-ipsec-negotiation-req'>
+<front>
+<title>Requirements for IPsec Negotiation in the SIP Framework</title>
+
+<author initials='M' surname='Saito' fullname='Makoto Saito'>
+    <organization />
+</author>
+
+<author initials='S' surname='Fujimoto' fullname='Shingo Fujimoto'>
+    <organization />
+</author>
+
+<date month='March' day='10' year='2006' />
+
+<abstract><t>As the Internet grows, it becomes inevitable even for the general users to take measures against the security risks such as tapping, unauthorized access, and so on. For example, we can consider the use case of networked home appliances which cannot have the rich calculation resources and may use the dedicated transport protocol for the media session. In such a case, it is effective to connect such devices securely using IPsec [1] because it does not require the rich resources, and is independent of the upper layer protocol. Also from the viewpoint of implementation, IPsec is not only widespread in IPv4, but also mandatory in IPv6 which is expected in the networked home appliances region(this use case is just the one of examples, and this document does not focus only on home appliances but also on the general applications which use the dedicated media protocols, where IPsec is suitable as the security protocol).</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-saito-mmusic-ipsec-negotiation-req-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-saito-mmusic-ipsec-negotiation-req-02.txt' />
+</reference>

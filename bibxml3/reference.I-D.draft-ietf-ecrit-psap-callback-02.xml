@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ecrit-psap-callback'>
+<front>
+<title>Public Safety Answering Point (PSAP) Callbacks</title>
+
+<author initials='H' surname='Schulzrinne' fullname='Henning Schulzrinne'>
+    <organization />
+</author>
+
+<author initials='H' surname='Tschofenig' fullname='Hannes Tschofenig'>
+    <organization />
+</author>
+
+<author initials='M' surname='Patel' fullname='Milan Patel'>
+    <organization />
+</author>
+
+<date month='November' day='7' year='2010' />
+
+<abstract><t>After an emergency call is completed (either prematurely terminated by the emergency caller or normally by the call-taker) it is possible that the call-taker feels the need for further communication or for a clarification.  For example, the call may have been dropped by accident without the call-taker having sufficient information about the current situation of a wounded person.  A call-taker may trigger a callback towards the emergency caller using the contact information provided with the initial emergency call.  This callback could, under certain circumstances, then be treated like any other call and as a consequence, it may get blocked by authorization policies or may get forwarded to an answering machine.  The IETF emergency services architecture addresses callbacks in a limited fashion and thereby covers a couple of scenarios.  This document discusses some shortcomings and illustrates an extension.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ecrit-psap-callback-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ecrit-psap-callback-02.txt' />
+</reference>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.yao-dnsop-accompanying-questions'>
+<front>
+<title>A DNS Query including A Main Question with Accompanying Questions</title>
+
+<author initials='J' surname='Yao' fullname='Jiankang Yao'>
+    <organization />
+</author>
+
+<author initials='P' surname='Vixie' fullname='Paul Vixie'>
+    <organization />
+</author>
+
+<author initials='N' surname='Kong' fullname='Ning Kong'>
+    <organization />
+</author>
+
+<author initials='X' surname='Lee' fullname='XiaoDong Lee'>
+    <organization />
+</author>
+
+<date month='October' day='30' year='2016' />
+
+<abstract><t>This document enables DNS initiators to send a main question accompanying with several related questions in a single DNS query, and enables DNS responders to put the answers into a single DNS response.  This mechanism can reduce the number of DNS round-trips per application work-unit.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-yao-dnsop-accompanying-questions-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-yao-dnsop-accompanying-questions-02.txt' />
+</reference>

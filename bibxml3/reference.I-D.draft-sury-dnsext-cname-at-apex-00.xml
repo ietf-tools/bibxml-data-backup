@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.sury-dnsext-cname-at-apex'>
+<front>
+<title>CNAME at the zone apex</title>
+
+<author initials='O' surname='Sury' fullname='Ondrej Sury'>
+    <organization />
+</author>
+
+<date month='August' day='18' year='2010' />
+
+<abstract><t>This document proposes a modification to CNAME record to coexist with SOA and NS records at the zone apex.  This proposal will improve aliasing in the DNS system.  The users are often forced to manually add duplicate A, AAAA and MX records by copying data from the target zone to the aliased zone.  This forces zone owner to keep track of target domain name since the mismatch in the data could cause failures.  This administrative burden will be eliminated by allowing CNAME to coexist with NS and SOA resource records.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-sury-dnsext-cname-at-apex-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-sury-dnsext-cname-at-apex-00.txt' />
+</reference>

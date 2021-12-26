@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.shin-augmented-pake'>
+<front>
+<title>Most Efficient Augmented Password-Only Authentication and Key Exchange for IKEv2</title>
+
+<author initials='S' surname='Shin' fullname='SeongHan Shin'>
+    <organization />
+</author>
+
+<author initials='K' surname='Kobara' fullname='Kazukuni Kobara'>
+    <organization />
+</author>
+
+<date month='July' day='3' year='2011' />
+
+<abstract><t>This document describes an efficient augmented password-only authentication and key exchange (AugPAKE) protocol where a user remembers a low-entropy password and its verifier is registered in the intended server.  In general, the user password is chosen from a small set of dictionary whose space is within the off-line dictionary attacks.  The AugPAKE protocol described here is secure against passive attacks, active attacks and off-line dictionary attacks (on the obtained messages with passive/active attacks), and also provides resistance to server compromise (in the context of augmented PAKE security).  In addition, this document describes how the AugPAKE protocol is integrated into IKEv2.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-shin-augmented-pake-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-shin-augmented-pake-07.txt' />
+</reference>

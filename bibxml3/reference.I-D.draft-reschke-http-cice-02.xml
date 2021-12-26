@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.reschke-http-cice'>
+<front>
+<title>Hypertext Transfer Protocol (HTTP) Client-Initiated Content-Encoding</title>
+
+<author initials='J' surname='Reschke' fullname='Julian Reschke'>
+    <organization />
+</author>
+
+<date month='March' day='9' year='2015' />
+
+<abstract><t>In HTTP, "Content Codings" allow for payload encodings such as for compression or integrity checks.  In particular, the "gzip" content coding is widely used for payload data sent in response messages.  Content Codings can be used in request messages as well, however discoverability is not on par with response messages.  This document extends the HTTP "Accept-Encoding" header field for use in responses.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-reschke-http-cice-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-reschke-http-cice-02.txt' />
+</reference>

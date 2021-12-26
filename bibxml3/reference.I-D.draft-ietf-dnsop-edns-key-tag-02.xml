@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-dnsop-edns-key-tag'>
+<front>
+<title>Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC)</title>
+
+<author initials='D' surname='Wessels' fullname='Duane Wessels'>
+    <organization />
+</author>
+
+<author initials='W' surname='Kumari' fullname='Warren Kumari'>
+    <organization />
+</author>
+
+<author initials='P' surname='Hoffman' fullname='Paul Hoffman'>
+    <organization />
+</author>
+
+<date month='July' day='8' year='2016' />
+
+<abstract><t>The DNS Security Extensions (DNSSEC) were developed to provide origin authentication and integrity protection for DNS data by using digital signatures.  These digital signatures can be verified by building a chain-of-trust starting from a trust anchor and proceeding down to a particular node in the DNS.  This document specifies two different ways for validating resolvers to signal to a server which keys are referenced in their chain-of-trust.  The data from such signaling allow zone administrators to monitor the progress of rollovers in a DNSSEC-signed zone.  This document describes two independent methods for validating resolvers to publish their referenced keys: an EDNS option and a differnt DNS query.  The reason there are two methods instead of one is some people see significant problems with each method.  Having two methods is clearly worse than having just one, but it is probably better for the Internet than having no way to gain the information from the resolvers.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-edns-key-tag-02' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-dnsop-edns-key-tag-02.txt' />
+</reference>

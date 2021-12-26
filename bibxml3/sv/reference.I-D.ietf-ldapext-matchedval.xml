@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-ldapext-matchedval'>
+<front>
+<title>Returning Matched Values with LDAPv3</title>
+
+<author initials='D' surname='Chadwick' fullname='David Chadwick'>
+    <organization />
+</author>
+
+<author initials='S' surname='Mullan' fullname='Sean Mullan'>
+    <organization />
+</author>
+
+<date month='July' day='23' year='2003' />
+
+<abstract><t>This document describes a control for the Lightweight Directory Access Protocol version 3 that is used to return a subset of attribute values from an entry, specifically, only those values that match a 'values return' filter. Without support for this control, a client must retrieve all of an attribute's values and search for specific values locally.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-ldapext-matchedval-07' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-ldapext-matchedval-07.txt' />
+</reference>

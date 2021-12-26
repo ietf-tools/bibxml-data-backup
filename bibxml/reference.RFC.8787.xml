@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC8787' target='https://www.rfc-editor.org/info/rfc8787'>
+<front>
+<title>Location Source Parameter for the SIP Geolocation Header Field</title>
+<author initials='J.' surname='Winterbottom' fullname='J. Winterbottom'><organization /></author>
+<author initials='R.' surname='Jesske' fullname='R. Jesske'><organization /></author>
+<author initials='B.' surname='Chatras' fullname='B. Chatras'><organization /></author>
+<author initials='A.' surname='Hutton' fullname='A. Hutton'><organization /></author>
+<date year='2020' month='May' />
+<abstract><t>There are some circumstances where a Geolocation header field may contain more than one locationValue. Knowing the identity of the node adding the locationValue allows the recipient more freedom in selecting the value to look at first rather than relying solely on the order of the locationValues.  This document defines the &quot;loc-src&quot; parameter so that the entity adding the locationValue to the Geolocation header field can identify itself using its hostname.  This document updates RFC 6442.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='8787'/>
+<seriesInfo name='DOI' value='10.17487/RFC8787'/>
+</reference>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.dnoveck-nfsv4-rpcrdma-xcharext'>
+<front>
+<title>RPC-over-RDMA Extension to Manage Transport Characteristics</title>
+
+<author initials='D' surname='Noveck' fullname='David Noveck'>
+    <organization />
+</author>
+
+<date month='April' day='11' year='2016' />
+
+<abstract><t>It is expected that the RPC-over-RDMA transport will, at some point, allow protocol extensions to be defined.  This would provide for the specification of OPTIONAL features, allowing participants who implement the OPTIONAL features, to cooperate as specified by that extension, while still interoperating with participants who do not support that extension.  A particular extension is described herein, whose purpose is to allow RPC/RDMA Endpoints to specify and manage their transport characteristics in order to allow the other participant to optimize message transfer in light of the characteristics communicated by the initial sender.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-dnoveck-nfsv4-rpcrdma-xcharext-00' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-dnoveck-nfsv4-rpcrdma-xcharext-00.txt' />
+</reference>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-mldp-node-protection'>
+<front>
+<title>mLDP Node Protection</title>
+
+<author initials='I' surname='Wijnands' fullname='IJsbrand Wijnands'>
+    <organization />
+</author>
+
+<author initials='K' surname='Raza' fullname='Kamran Raza'>
+    <organization />
+</author>
+
+<author initials='E' surname='Rosen' fullname='Eric Rosen'>
+    <organization />
+</author>
+
+<author initials='A' surname='Atlas' fullname='Alia Atlas'>
+    <organization />
+</author>
+
+<author initials='J' surname='Tantsura' fullname='Jeff Tantsura'>
+    <organization />
+</author>
+
+<author initials='Q' surname='Zhao' fullname='Quintin Zhao'>
+    <organization />
+</author>
+
+<date month='February' day='9' year='2015' />
+
+<abstract><t>This document describes procedures to support node protection for Point-to-Multipoint and Multipoint-to-Multipoint Label Switched Paths (MP LSPs) that has been built by "Multipoint Label Distribution Protocol"(mLDP).  In order to protect a node N, the Point of Local Repair (PLR) LSR of N must learn the Merge Point (MPT) LSR(s) of node N such that traffic can be redirected to them in case node N fails. Redirecting the traffic around the failed node N depends on existing P2P LSPs.  The pre-established LSPs originate from the PLR LSR and terminate on the MPT LSRs while bypassing LSR N.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-mldp-node-protection-05' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-mldp-node-protection-05.txt' />
+</reference>

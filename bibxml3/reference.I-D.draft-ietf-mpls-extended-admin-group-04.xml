@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.ietf-mpls-extended-admin-group'>
+<front>
+<title>Extended Administrative Groups in MPLS-TE</title>
+
+<author initials='E' surname='Osborne' fullname='Eric Osborne'>
+    <organization />
+</author>
+
+<date month='March' day='20' year='2014' />
+
+<abstract><t>MPLS-TE advertises 32 administrative groups (commonly referred to as "colors" or "link colors") using the Administrative Group sub-TLV of the Link TLV.  This is defined for OSPFv2 (RFC3630), OSPFv3 (RFC5329) and ISIS (RFC5305).  This document adds a sub-TLV to the IGP TE extensions, "Extended Administrative Group".  This sub-TLV provides for additional administrative groups (link colors) beyond the current limit of 32.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-extended-admin-group-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-ietf-mpls-extended-admin-group-04.txt' />
+</reference>

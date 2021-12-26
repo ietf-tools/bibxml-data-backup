@@ -1,0 +1,7 @@
+    <item rdf:about='http://www.rfc-editor.org/rfc/rfc8750.txt'>
+        <link>http://www.rfc-editor.org/rfc/rfc8750.txt</link>
+        <title>RFC 8750: Implicit Initialization Vector (IV) for Counter-Based Ciphers in Encapsulating Security Payload (ESP), D. Migault, T. Guggemos, Y. Nir</title>
+        <dc:date>2020-03-01T23:00:00-00:00</dc:date>
+        <description>Encapsulating Security Payload (ESP) sends an initialization vector (IV) in each packet. The size of the IV depends on the applied transform and is usually 8 or 16 octets for the transforms defined at the time this document was written. When used with IPsec, some algorithms, such as AES-GCM, AES-CCM, and ChaCha20-Poly1305, take the IV to generate a nonce that is used as an input parameter for encrypting and decrypting. This IV must be unique but can be predictable.  As a result, the value provided in the ESP Sequence Number (SN) can be used instead to generate the nonce. This avoids sending the IV itself and saves 8 octets per packet in the case of AES-GCM, AES-CCM, and ChaCha20-Poly1305. This document describes how to do this. </description>
+    </item>
+

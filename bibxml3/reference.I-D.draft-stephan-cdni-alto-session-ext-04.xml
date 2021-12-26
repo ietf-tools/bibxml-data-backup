@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference anchor='I-D.stephan-cdni-alto-session-ext'>
+<front>
+<title>ALTO session for CDN Interconnection</title>
+
+<author initials='S' surname='Emile' fullname='Stephan Emile'>
+    <organization />
+</author>
+
+<author initials='S' surname='Ellouze' fullname='Selim Ellouze'>
+    <organization />
+</author>
+
+<date month='October' day='15' year='2013' />
+
+<abstract><t>The selection of a downstream CDN by an upstream CDN is based on multi-dimensional criteria.  Various protocols, such as BGP or ALTO, may be used by a downstream CDN to expose content routing information and interconnection preferences to an upstream CDN.  The selection of such a protocol is premature as the WG, and especially the Footprint/ Capabilities Design Team, is currently working on this topic.  So this draft does not promote the usage of the ALTO protocol for CDN interconnection.  It presents the limitations of the current ALTO protocol in the case it would be selected for CDN interconnection. It specifies the mechanism for controlling the session initialization and for limiting the information exchanged.  Then it discusses the need of incremental update and proposes to study the usage of Netconf /Yang to provide ALTO server with notifications.</t></abstract>
+
+</front>
+
+<seriesInfo name='Internet-Draft' value='draft-stephan-cdni-alto-session-ext-04' />
+<format type='TXT'
+        target='http://www.ietf.org/internet-drafts/draft-stephan-cdni-alto-session-ext-04.txt' />
+</reference>
