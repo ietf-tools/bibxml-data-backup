@@ -21,9 +21,9 @@
 <author initials='Y' surname='Liu' fullname='Yisong Liu'>
 <organization />
 </author>
-<date year='2021' month='October' day='24' />
-<abstract><t>Segment Routing Traffic Engineering (SR-TE) supports explicit paths using segment lists containing adjacency-SIDs, node-SIDs and binding- SIDs.  The current SR FRR such as TI-LFA provides fast re-route protection for the failure of a node along a SR-TE path by the direct neighbor or say point of local repair (PLR) to the failure.  However, once the IGP converges, the SR FRR is no longer sufficient to forward traffic of the path around the failure, since the non-neighbors of the failure will no longer have a route to the failed node.  This document describes a mechanism for the restoration of the routes to the failure of a SR-TE path after the IGP converges.  It provides the restoration of the routes to an adjacency segment, a node segment and a binding segment of the path.  With the restoration of the routes to the failure, the traffic is continuously sent to the neighbor of the failure after the IGP converges.  The neighbor as a PLR fast re- routes the traffic around the failure.</t></abstract>
+<date year='2021' month='December' day='31' />
+<abstract><t>Segment Routing Traffic Engineering (SR-TE) supports explicit paths using segment lists containing adjacency-SIDs, node-SIDs and binding- SIDs.  The current SR FRR such as TI-LFA provides fast re-route protection for the failure of a node along a SR-TE path by the direct neighbor or say point of local repair (PLR) to the failure.  However, once the IGP converges, the SR FRR is no longer sufficient to forward traffic of the path around the failure, since the non-neighbors of the failure will no longer have a route to the failed node.  This document describes a mechanism for the restoration of the routes to the failure of a SR-MPLS TE path after the IGP converges.  It provides the restoration of the routes to an adjacency segment, a node segment and a binding segment of the path.  With the restoration of the routes to the failure, the traffic is continuously sent to the neighbor of the failure after the IGP converges.  The neighbor as a PLR fast re-routes the traffic around the failure.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-hu-spring-segment-routing-proxy-forwarding-15'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-15.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-hu-spring-segment-routing-proxy-forwarding-16'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-16.txt'/>
 </reference>
