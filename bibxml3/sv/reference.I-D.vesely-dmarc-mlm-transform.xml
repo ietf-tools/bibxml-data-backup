@@ -6,9 +6,9 @@
 <author initials='A' surname='Vesely' fullname='Alessandro Vesely'>
 <organization />
 </author>
-<date year='2021' month='November' day='10' />
-<abstract><t>The widespread adoption of Domain-based Message Authentication, Reporting, and Conformance (DMARC) led Mailing List Managers (MLM) to rewrite the From: header field as a workaround.</t><t> This document describes cases where it is possible to revert MLM transformations and hence verify DomainKeys Identified Mail (DKIM) signatures that were applied at submission time.  For reliable results, some compliance is required of all agents involved, author domain signers, MLMs, forwarders, and final recipients.</t><t> MLM transformation reversion reduces the DMARC's effects on indirect mail flows.</t></abstract>
+<date year='2022' month='January' day='04' />
+<abstract><t>The widespread adoption of Domain-based Message Authentication, Reporting, and Conformance (DMARC) led Mailing List Managers (MLM) to rewrite the From: header field as a workaround.</t><t> This document describes reverting MLM transformations in IETF mailing lists.  That way, it is possible to verify DomainKeys Identified Mail (DKIM) signatures that were applied at submission time and thereby restore original identifiers.</t><t> For reliable results, some compliance is required of all agents involved, author domain signers, MLMs, forwarders, and final recipients' verifiers.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-vesely-dmarc-mlm-transform-03'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-vesely-dmarc-mlm-transform-03.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-vesely-dmarc-mlm-transform-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-vesely-dmarc-mlm-transform-04.txt'/>
 </reference>
