@@ -9,9 +9,9 @@
 <author initials='J' surname='Dai' fullname='Jinyou Dai'>
 <organization />
 </author>
-<date year='2021' month='May' day='02' />
-<abstract><t>RSVP-TE has the following advantages: source routing capability, and the ability to reserve resources hop by hop along the LSP path.</t><t> RSVP takes a &quot;soft state&quot; approach to manage the reservation state in routers and hosts. The use of 'Refresh messages' to cover many possible failures has resulted in a number of operational problems.  One problem relates to scaling, another relates to the reliability and latency of RSVP Signaling.</t><t> This document describes a number of mechanisms that can be used to reduce processing overhead requirements of refresh messages. These extension present no backwards compatibility issues.</t></abstract>
+<date year='2022' month='January' day='10' />
+<abstract><t>RSVP-TE has the following advantages: source routing capability, and the ability to reserve resources hop by hop along the LSP path. The two advantages are used by Deterministic Networking (DetNet) to provide DetNet Quality of Service (QoS) in a fully distributed control plane utilizing dynamic signaling protocols or in a Combined Control Plane (partly centralized, partly distributed).</t><t> RSVP takes a &quot;soft state&quot; approach to manage the reservation state in routers and hosts. The use of 'Refresh messages' to cover many possible failures has resulted in a number of operational problems.  One problem relates to scaling, another relates to the reliability and latency of RSVP Signaling.</t><t> This document describes a number of mechanisms that can be used to reduce processing overhead requirements of refresh messages. These extension present no backwards compatibility issues.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-gao-mpls-teas-rsvpte-state-update-03'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-gao-mpls-teas-rsvpte-state-update-03.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-gao-mpls-teas-rsvpte-state-update-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-gao-mpls-teas-rsvpte-state-update-04.txt'/>
 </reference>
