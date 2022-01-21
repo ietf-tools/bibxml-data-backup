@@ -18,9 +18,9 @@
 <author initials='D' surname='Shytyi' fullname='Dmytro Shytyi'>
 <organization />
 </author>
-<date year='2021' month='July' day='12' />
+<date year='2022' month='January' day='20' />
 <abstract><t>This draft proposes the use of arbitrary length prefixes in PIO for SLAAC.  A prefix of length 63 in PIO, for example, would be permitted to form an address whose interface identifier length is 65, which allows several benefits.  A prefix of length 65 would be allowed too, but it SHOULD NOT be used on a large scale, like at a large ISP; this is to avoid a race to the bottom.</t><t> The implementation uses a parameter in the Host; this option is off by default.  In that case, the Host respects the 64bit boundary. When the parameter is set to on the Host accepts prefixes of lengths different than 64 and forms 128bit addresses.</t><t> In the past, various IPv6 addressing models have been proposed based on a subnet hierarchy embedding a 64-bit prefix.  The last remnant of IPv6 classful addressing is a inflexible interface identifier boundary at /64.  This document proposes flexibility to the fixed position of that boundary for interface addressing.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-mishra-6man-variable-slaac-04'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-mishra-6man-variable-slaac-04.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-mishra-6man-variable-slaac-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-mishra-6man-variable-slaac-05.txt'/>
 </reference>
