@@ -12,9 +12,9 @@
 <author initials='S' surname='Sivabalan' fullname='Siva Sivabalan'>
 <organization />
 </author>
-<date year='2021' month='July' day='10' />
+<date year='2022' month='January' day='21' />
 <abstract><t>In RFC 8957 the concept of MPLS synonymos flow labels (SFL) was introduced.  This document describes a simple control protocol that runs over an associated control header to request, withdraw, and extend the lifetime of such labels.  It is not the only control protocol that might be used to support SFL, but it has the benefit of being able to be used without modifying of the existing MPLS control protocols.  The existence of this design is not intended to restrict the ability to enhance an existing MPLS control protocol to add a similar capability.</t><t> A Querier MUST wait a configured time (suggested wait of 60 seconds) before re-attempting a Withdraw request.  No more than three Withdraw requests SHOULD be made.  These restrictions are to prevent overloading the control plane of the actioning router.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-sfl-control-01'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-mpls-sfl-control-01.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-mpls-sfl-control-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-mpls-sfl-control-02.txt'/>
 </reference>
