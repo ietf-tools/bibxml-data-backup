@@ -24,9 +24,9 @@
 <author initials='S' surname='Bryant' fullname='Stewart Bryant'>
 <organization />
 </author>
-<date year='2021' month='July' day='11' />
+<date year='2022' month='January' day='29' />
 <abstract><t>Enhanced VPN (VPN+) aims to provide enhanced VPN services to support some application's needs of enhanced isolation and stringent performance requirements.  VPN+ requires integration between the overlay VPN connectivity and the characteristics provided by the underlay network.  A Virtual Transport Network (VTN) is a virtual underlay network which has a customized network topology and a set of network resources allocated from the physical network.  A VTN could be used to support one or a group of VPN+ services.</t><t> This document specifies the IGP mechanisms with necessary extensions to advertise the associated topology and resource attributes for scalable Segment Routing (SR) based VTNs.  Each VTN can have a customized topology and a set of network resources allocated from the physical network.  Multiple VTNs may shared the same topology, and multiple VTNs may share the same set of network resources on some network segments.  A group of resource-aware SIDs are allocated for each VTN.  This allows flexible combination of the network topology and network resource attributes to build a relatively large number of VTNs with a small number of logical topologies.  The proposed mechanism is applicable to both Segment Routing with MPLS data plane (SR-MPLS) and segment routing with IPv6 data plane (SRv6).  This document also describes the mechanisms of using dedicated VTN-ID in the data plane instead of the per-VTN resource-aware SIDs to further reduce the control plane overhead.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-dong-lsr-sr-enhanced-vpn-06'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-dong-lsr-sr-enhanced-vpn-06.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-dong-lsr-sr-enhanced-vpn-07'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-dong-lsr-sr-enhanced-vpn-07.txt'/>
 </reference>
