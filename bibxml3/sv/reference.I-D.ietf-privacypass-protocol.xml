@@ -2,7 +2,7 @@
 
 <reference anchor='I-D.ietf-privacypass-protocol'>
 <front>
-<title>Privacy Pass Protocol Specification</title>
+<title>Privacy Pass Issuance Protocol</title>
 <author initials='S' surname='Celi' fullname='Sofia Celi'>
 <organization />
 </author>
@@ -12,9 +12,15 @@
 <author initials='A' surname='Faz-Hernandez' fullname='Armando Faz-Hernandez'>
 <organization />
 </author>
-<date year='2021' month='February' day='22' />
-<abstract><t>This document specifies the Privacy Pass protocol.  This protocol provides anonymity-preserving authorization of clients to servers. In particular, client re-authorization events cannot be linked to any previous initial authorization.  Privacy Pass is intended to be used as a performant protocol in the application-layer.</t></abstract>
+<author initials='S' surname='Valdez' fullname='Steven Valdez'>
+<organization />
+</author>
+<author initials='C' surname='Wood' fullname='Christopher Wood'>
+<organization />
+</author>
+<date year='2022' month='January' day='31' />
+<abstract><t>This document specifies two variants of the the two-message issuance protocol for Privacy Pass tokens: one that produces tokens that are privately verifiable, and another that produces tokens that are publicly verifiable.  The privately verifiable issuance protocol optionally supports public metadata during the issuance flow.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-privacypass-protocol-01'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-privacypass-protocol-01.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-privacypass-protocol-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-privacypass-protocol-02.txt'/>
 </reference>
