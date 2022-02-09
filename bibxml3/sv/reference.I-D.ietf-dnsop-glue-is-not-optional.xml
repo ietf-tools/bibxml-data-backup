@@ -2,7 +2,7 @@
 
 <reference anchor='I-D.ietf-dnsop-glue-is-not-optional'>
 <front>
-<title>Glue In DNS Referral Responses Is Not Optional</title>
+<title>DNS Referral Glue Requirements</title>
 <author initials='M' surname='Andrews' fullname='Mark Andrews'>
 <organization />
 </author>
@@ -15,9 +15,9 @@
 <author initials='D' surname='Wessels' fullname='Duane Wessels'>
 <organization />
 </author>
-<date year='2021' month='October' day='11' />
-<abstract><t>The DNS uses glue records to allow iterative clients to find the addresses of nameservers that are contained within a delegated zone. Authoritative Servers are expected to return all available glue records in referrals.  If message size constraints prevent the inclusion of all glue records in a UDP response, the server MUST set the TC flag to inform the client that the response is incomplete, and that the client SHOULD use TCP to retrieve the full response.  This document updates RFC 1034 to clarify correct server behavior.</t></abstract>
+<date year='2022' month='February' day='08' />
+<abstract><t>The DNS uses referral glue records to allow iterative clients to find the addresses of nameservers that are contained within a delegated zone.  Authoritative Servers are expected to return all available referral glue records in a referral response.  If message size constraints prevent the inclusion of all in-domain referral glue records, the server MUST set the TC flag to inform the client that the response is incomplete, and that the client SHOULD use another transport to retrieve the full response.  This document updates RFC 1034 to clarify correct server behavior.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-glue-is-not-optional-03'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-dnsop-glue-is-not-optional-03.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-dnsop-glue-is-not-optional-04'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-dnsop-glue-is-not-optional-04.txt'/>
 </reference>
