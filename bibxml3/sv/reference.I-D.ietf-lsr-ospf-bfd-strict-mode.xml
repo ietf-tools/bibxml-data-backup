@@ -2,7 +2,7 @@
 
 <reference anchor='I-D.ietf-lsr-ospf-bfd-strict-mode'>
 <front>
-<title>OSPF Strict-Mode for BFD</title>
+<title>OSPF BFD Strict-Mode</title>
 <author initials='K' surname='Talaulikar' fullname='Ketan Talaulikar'>
 <organization />
 </author>
@@ -15,9 +15,9 @@
 <author initials='R' surname='Shetty' fullname='Rejesh Shetty'>
 <organization />
 </author>
-<date year='2021' month='October' day='22' />
-<abstract><t>This document specifies the extensions to OSPF that enable an OSPF router to signal the requirement for a Bidirectional Forwarding Detection (BFD) session prior to adjacency formation.  Link-Local Signaling (LLS) is used to advertise the requirement of strict-mode for BFD session establishment for OSPF adjacency.  If both OSPF neighbors advertise the strict-mode for BFD, adjacency formation will be blocked until a BFD session has been successfully established.</t></abstract>
+<date year='2022' month='February' day='10' />
+<abstract><t>This document specifies the extensions to OSPF that enable an OSPF router to signal the requirement for a Bidirectional Forwarding Detection (BFD) session prior to adjacency formation.  Link-Local Signaling (LLS) is used to advertise the requirement for strict-mode BFD session establishment for an OSPF adjacency.  If both OSPF neighbors advertise the BFD strict-mode, adjacency formation will be blocked until a BFD session has been successfully established.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-lsr-ospf-bfd-strict-mode-04'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-lsr-ospf-bfd-strict-mode-04.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-lsr-ospf-bfd-strict-mode-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-lsr-ospf-bfd-strict-mode-05.txt'/>
 </reference>

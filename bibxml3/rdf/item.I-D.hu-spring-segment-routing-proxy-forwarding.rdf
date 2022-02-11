@@ -1,6 +1,6 @@
-    <item rdf:about='http://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-16.txt'>
-        <link>http://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-16.txt</link>
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-17.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-hu-spring-segment-routing-proxy-forwarding-17.txt</link>
         <title>"SR-TE Path Midpoint Restoration", Zhibo Hu, Huaimo Chen, Junda Yao, Chris Bowers, Yongqing Zhu, Yisong Liu</title>
-        <dc:date>2021-12-31T23:00:00-00:00</dc:date>
+        <dc:date>2022-02-09T23:00:00-00:00</dc:date>
         <description>Segment Routing Traffic Engineering (SR-TE) supports explicit paths using segment lists containing adjacency-SIDs, node-SIDs and binding- SIDs.  The current SR FRR such as TI-LFA provides fast re-route protection for the failure of a node along a SR-TE path by the direct neighbor or say point of local repair (PLR) to the failure.  However, once the IGP converges, the SR FRR is no longer sufficient to forward traffic of the path around the failure, since the non-neighbors of the failure will no longer have a route to the failed node.  This document describes a mechanism for the restoration of the routes to the failure of a SR-MPLS TE path after the IGP converges.  It provides the restoration of the routes to an adjacency segment, a node segment and a binding segment of the path.  With the restoration of the routes to the failure, the traffic is continuously sent to the neighbor of the failure after the IGP converges.  The neighbor as a PLR fast re-routes the traffic around the failure.</description>
     </item>

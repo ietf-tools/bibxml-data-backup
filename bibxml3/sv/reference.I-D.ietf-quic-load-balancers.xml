@@ -9,9 +9,12 @@
 <author initials='N' surname='Banks' fullname='Nick Banks'>
 <organization />
 </author>
-<date year='2022' month='January' day='04' />
+<author initials='C' surname='Huitema' fullname='Christian Huitema'>
+<organization />
+</author>
+<date year='2022' month='February' day='10' />
 <abstract><t>The QUIC protocol design is resistant to transparent packet inspection, injection, and modification by intermediaries.  However, the server can explicitly cooperate with network services by agreeing to certain conventions and/or sharing state with those services. This specification provides a standardized means of solving three problems: (1) maintaining routability to servers via a low-state load balancer even when the connection IDs in use change; (2) explicit encoding of the connection ID length in all packets to assist hardware accelerators; and (3) injection of QUIC Retry packets by an anti-Denial-of-Service agent on behalf of the server.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-quic-load-balancers-10'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-quic-load-balancers-10.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-quic-load-balancers-11'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-quic-load-balancers-11.txt'/>
 </reference>

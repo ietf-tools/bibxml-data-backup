@@ -2,7 +2,7 @@
 
 <reference anchor='I-D.ietf-netmod-node-tags'>
 <front>
-<title>Self Describing Data Object Tags</title>
+<title>Self-Describing Data Object Tags</title>
 <author initials='Q' surname='WU' fullname='Qin WU'>
 <organization />
 </author>
@@ -18,9 +18,9 @@
 <author initials='M' surname='Boucadair' fullname='Mohamed Boucadair'>
 <organization />
 </author>
-<date year='2021' month='November' day='11' />
-<abstract><t>This document defines a method to tag data objects associated with operation and management data in YANG modules.  This YANG data object tagging method can be used to classify data objects from different YANG modules and identify their characteristics data.  It can also provide input, instruction, indication to selection filter, and filter queries of operational state on a server during a &quot;pub/sub&quot; service for YANG datastore updates.  When the subscriptions of a particular subscriber to be fetched is very large, the amount of data to be streamed out to the destination can be reduced and only targeted to the characteristics data.  These data object tags may be registered as well as assigned during the module definition, assigned by implementations, or dynamically defined and set by users.</t></abstract>
+<date year='2022' month='February' day='10' />
+<abstract><t>This document defines a method to tag data objects associated with operation and management data in YANG modules.  The expectation is for this YANG data object tagging method to be used to classify data objects from different YANG modules and identify their characteristics data.  Tags may be registered as well as assigned during the module definition, assigned by implementations, or dynamically defined and set by users.  This document also provides guidance to future model writers; as such, this document updates RFC 8407.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-netmod-node-tags-04'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-netmod-node-tags-04.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-netmod-node-tags-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-netmod-node-tags-05.txt'/>
 </reference>
