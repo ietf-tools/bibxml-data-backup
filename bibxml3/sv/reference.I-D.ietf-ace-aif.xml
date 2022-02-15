@@ -6,9 +6,9 @@
 <author initials='C' surname='Bormann' fullname='Carsten Bormann'>
 <organization />
 </author>
-<date year='2022' month='January' day='28' />
-<abstract><t>Constrained Devices as they are used in the &quot;Internet of Things&quot; need security.  One important element of this security is that devices in the Internet of Things need to be able to decide which operations requested of them should be considered authorized, need to ascertain that the authorization to request the operation does apply to the actual requester, and need to ascertain that other devices they place requests on are the ones they intended.</t><t> To transfer detailed authorization information from an authorization manager (such as an ACE-OAuth Authorization Server) to a device, a compact representation format is needed.  This document provides a suggestion for such a format, the Authorization Information Format (AIF).  AIF is defined both as a general structure that can be used for many different applications and as a specific refinement that describes REST resources (potentially dynamically created) and the permissions on them.</t></abstract>
+<date year='2022' month='February' day='14' />
+<abstract><t>Information about which entities are authorized to perform what operations on which constituents of other entities is a crucial component of producing an overall system that is secure.  Conveying precise authorization information is especially critical in highly automated systems with large numbers of entities, such as the &quot;Internet of Things&quot;.</t><t> This specification provides a generic information model and format for representing such authorization information, as well as two variants of a specific instantiation of that format for use with REST resources identified by URI path.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-ace-aif-04'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-ace-aif-04.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-ace-aif-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-ace-aif-05.txt'/>
 </reference>
