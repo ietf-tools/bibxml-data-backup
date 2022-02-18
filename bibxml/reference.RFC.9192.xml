@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9192' target='https://www.rfc-editor.org/info/rfc9192'>
+<front>
+<title>Network Service Header (NSH) Fixed-Length Context Header Allocation</title>
+<author initials='T.' surname='Mizrahi' fullname='T. Mizrahi'><organization /></author>
+<author initials='I.' surname='Yerushalmi' fullname='I. Yerushalmi'><organization /></author>
+<author initials='D.' surname='Melman' fullname='D. Melman'><organization /></author>
+<author initials='R.' surname='Browne' fullname='R. Browne'><organization /></author>
+<date year='2022' month='February' />
+<abstract><t>The Network Service Header (NSH) specification defines two possible methods of including metadata (MD): MD Type 0x1 and MD Type 0x2. MD Type 0x1 uses a fixed-length Context Header. The allocation of this Context Header, i.e., its structure and semantics, has not been standardized. This memo defines the Timestamp Context Header, which is an NSH fixed-length Context Header that incorporates the packet's timestamp, a sequence number, and a source interface identifier.</t><t>Although the definition of the Context Header presented in this document has not been standardized by the IETF, it has been implemented in silicon by several manufacturers and is published here to facilitate interoperability.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9192'/>
+<seriesInfo name='DOI' value='10.17487/RFC9192'/>
+</reference>

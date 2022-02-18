@@ -3,22 +3,15 @@
 <reference anchor='I-D.ymbk-grow-bgp-collector-communities'>
 <front>
 <title>Marking Announcements to BGP Collectors</title>
-
 <author initials='R' surname='Bush' fullname='Randy Bush'>
-    <organization />
+<organization />
 </author>
-
 <author initials='E' surname='Aben' fullname='Emile Aben'>
-    <organization />
+<organization />
 </author>
-
-<date month='September' day='7' year='2015' />
-
-<abstract><t>When BGP route collectors such as RIPE RIS and Route Views are used by operators and researchers, currently one can not tell if a path announced to a collector is from the ISP's customer cone, an internal route, or one learned from peering or transit.  This greatly reduces the utility of the collected data.  This document specifies the use of BGP communities to differentiate the kinds of views being presented to the collectors.</t></abstract>
-
+<date year='2022' month='February' day='17' />
+<abstract><t>When BGP route collectors such as RIPE RIS and Route Views are used by operators and researchers, currently one can not tell if the collection of paths announced to a collector represents the ISP's customer cone, includes internal routes, includes paths learned from peerings or transits.  This greatly reduces the utility of the collected data.  This document specifies the use of BGP communities to differentiate the kinds of views being presented to the collectors.</t></abstract>
 </front>
-
-<seriesInfo name='Internet-Draft' value='draft-ymbk-grow-bgp-collector-communities-01' />
-<format type='TXT'
-        target='http://www.ietf.org/internet-drafts/draft-ymbk-grow-bgp-collector-communities-01.txt' />
+<seriesInfo name='Internet-Draft' value='draft-ymbk-grow-bgp-collector-communities-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ymbk-grow-bgp-collector-communities-02.txt'/>
 </reference>
