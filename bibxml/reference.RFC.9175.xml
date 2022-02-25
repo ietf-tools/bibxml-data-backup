@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9175' target='https://www.rfc-editor.org/info/rfc9175'>
+<front>
+<title>Constrained Application Protocol (CoAP): Echo, Request-Tag, and Token Processing</title>
+<author initials='C.' surname='Amsüss' fullname='C. Amsüss'><organization /></author>
+<author initials='J.' surname='Preuß Mattsson' fullname='J. Preuß Mattsson'><organization /></author>
+<author initials='G.' surname='Selander' fullname='G. Selander'><organization /></author>
+<date year='2022' month='February' />
+<abstract><t>This document specifies enhancements to the Constrained Application Protocol (CoAP) that mitigate security issues in particular use cases. The Echo option enables a CoAP server to verify the freshness of a request or to force a client to demonstrate reachability at its claimed network address. The Request-Tag option allows the CoAP server to match block-wise message fragments belonging to the same request. This document updates RFC 7252 with respect to the following: processing requirements for client Tokens, forbidding non-secure reuse of Tokens to ensure response-to-request binding when CoAP is used with a security protocol, and amplification mitigation (where the use of the Echo option is now recommended).</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9175'/>
+<seriesInfo name='DOI' value='10.17487/RFC9175'/>
+</reference>
