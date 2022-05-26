@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9228' target='https://www.rfc-editor.org/info/rfc9228'>
+<front>
+<title>Delivered-To Email Header Field</title>
+<author initials='D.' surname='Crocker' fullname='D. Crocker' role='editor'><organization /></author>
+<date year='2022' month='April' />
+<abstract><t>The address to which email is delivered might be different than any of the addresses shown in any of the content header fields that were created by the email's author. For example, the address used by the email transport service is provided separately, such as through SMTP's &quot;RCPT TO&quot; command, and might not match any address in the To: or cc: fields. In addition, before final delivery, handling can entail a sequence of submission/delivery events, using a sequence of different destination addresses that (eventually) lead to the recipient. As well, a receiving system's delivery process can produce local address transformations.</t><t>It can be helpful for a message to have a common way to record each delivery in such a sequence, noting each address used in the sequence to that recipient, such as for (1) analyzing the path a message has taken, (2) loop detection, or (3) formulating the author's address in a reply message.  This document defines a header field for this information.</t><t>Email handling information discloses details about the email infrastructure, as well as about a particular recipient; this can raise privacy concerns.</t><t>A header field such as this is not automatically assured of widespread use. Therefore, this document is being published as an Experimental RFC, looking for constituency and for operational utility. This document was produced through the Independent Submission Stream and was not subject to the IETF's approval process.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9228'/>
+<seriesInfo name='DOI' value='10.17487/RFC9228'/>
+</reference>

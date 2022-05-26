@@ -2,23 +2,19 @@
 
 <reference anchor='I-D.geng-spring-redundancy-policy'>
 <front>
-<title>Redundancy Policy for Redundant Protection</title>
-
+<title>Redundancy Policy for Redundancy Protection</title>
 <author initials='X' surname='Geng' fullname='Xuesong Geng'>
-    <organization />
+<organization />
 </author>
-
 <author initials='M' surname='Chen' fullname='Mach Chen'>
-    <organization />
+<organization />
 </author>
-
-<date month='March' day='23' year='2020' />
-
-<abstract><t>Redundancy protection is a method of service protection by sending copies of the same packets of one flow over multiple paths, which includes packet replicaiton, elimination and ordering.  This document defines redundancy policy as an extension to the current SR policy to support redundancy protection.</t></abstract>
-
+<author initials='F' surname='Yang' fullname='Fan Yang'>
+<organization />
+</author>
+<date year='2022' month='March' day='07' />
+<abstract><t>Redundancy Protection is a generalized protection mechanism to achieve the high reliability of service transmission in Segment Routing network.  Specifically, packets of flows are replicated at a network node into two or more copies, which are transported via different and disjoint paths in parallel.  To support redundancy protection in Segment Routing domain, this document introduces Redundancy Policy, as a variant of SR Policy, to intrust the replication of service packets and the multiple ordered lists of segments used for packet carrying.</t></abstract>
 </front>
-
-<seriesInfo name='Internet-Draft' value='draft-geng-spring-redundancy-policy-01' />
-<format type='TXT'
-        target='http://www.ietf.org/internet-drafts/draft-geng-spring-redundancy-policy-01.txt' />
+<seriesInfo name='Internet-Draft' value='draft-geng-spring-redundancy-policy-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-geng-spring-redundancy-policy-02.txt'/>
 </reference>

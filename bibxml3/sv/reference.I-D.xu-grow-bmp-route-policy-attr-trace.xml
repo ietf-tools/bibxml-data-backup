@@ -3,34 +3,24 @@
 <reference anchor='I-D.xu-grow-bmp-route-policy-attr-trace'>
 <front>
 <title>BGP Route Policy and Attribute Trace Using BMP</title>
-
 <author initials='F' surname='Xu' fullname='Feng Xu'>
-    <organization />
+<organization />
 </author>
-
 <author initials='T' surname='Graf' fullname='Thomas Graf'>
-    <organization />
+<organization />
 </author>
-
 <author initials='Y' surname='Gu' fullname='Yunan Gu'>
-    <organization />
+<organization />
 </author>
-
 <author initials='S' surname='Zhuang' fullname='Shunwan Zhuang'>
-    <organization />
+<organization />
 </author>
-
 <author initials='Z' surname='Li' fullname='Zhenbin Li'>
-    <organization />
+<organization />
 </author>
-
-<date month='July' day='26' year='2020' />
-
-<abstract><t>The generation of BGP adj-rib-in, local-rib or adj-rib-out comes from BGP route exchange and route policy processing.  BGP Monitoring Protocol (BMP) provides the monitoring of BGP adj-rib-in [RFC7854], BGP local-rib [I-D.ietf-grow-bmp-local-rib] and BGP adj-rib-out [I-D.ietf-grow-bmp-adj-rib-out].  By monitoring these BGP RIB's the full state of the network is visible, but how route-policies affect the route propagation or changes BGP attributes is still not.  This document describes a method of using BMP to record the trace data on how BGP routes are (not) changed under the process of route policies.</t></abstract>
-
+<date year='2022' month='March' day='07' />
+<abstract><t>The generation of BGP adj-rib-in, local-rib or adj-rib-out comes from BGP route exchange and route policy processing.  BGP Monitoring Protocol (BMP) provides the monitoring of BGP adj-rib-in [RFC7854], BGP local-rib [RFC9069] and BGP adj-rib-out [RFC8671].  By monitoring these BGP RIB's the full state of the network is visible, but how route-policies affect the route propagation or changes BGP attributes is still not.  This document describes a method of using BMP to record the trace data on how BGP routes are (not) changed under the process of route policies.</t></abstract>
 </front>
-
-<seriesInfo name='Internet-Draft' value='draft-xu-grow-bmp-route-policy-attr-trace-05' />
-<format type='TXT'
-        target='http://www.ietf.org/internet-drafts/draft-xu-grow-bmp-route-policy-attr-trace-05.txt' />
+<seriesInfo name='Internet-Draft' value='draft-xu-grow-bmp-route-policy-attr-trace-06'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-xu-grow-bmp-route-policy-attr-trace-06.txt'/>
 </reference>

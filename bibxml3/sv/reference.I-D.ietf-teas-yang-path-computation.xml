@@ -2,25 +2,25 @@
 
 <reference anchor='I-D.ietf-teas-yang-path-computation'>
 <front>
-<title>YANG Data Model for requesting Path Computation</title>
+<title>A YANG Data Model for requesting path computation</title>
 <author initials='I' surname='Busi' fullname='Italo Busi'>
 <organization />
 </author>
 <author initials='S' surname='Belotti' fullname='Sergio Belotti'>
 <organization />
 </author>
-<author initials='V' surname='Lopez' fullname='Victor Lopez'>
+<author initials='O' surname='Dios' fullname='Oscar de Dios'>
 <organization />
 </author>
 <author initials='A' surname='Sharma' fullname='Anurag Sharma'>
 <organization />
 </author>
-<author initials='Y' surname='Shi' fullname='Yan Shi'>
+<author initials='D' surname='Ceccarelli' fullname='Daniele Ceccarelli'>
 <organization />
 </author>
-<date year='2021' month='September' day='06' />
-<abstract><t>There are scenarios, typically in a hierarchical Software-Defined Networking (SDN) context, where the topology information provided by a Traffic Engineering (TE) network provider may be insufficient for its client to perform end-to-end path computation. In these cases the client would need to request the provider to calculate some (partial) feasible paths.</t><t> This document defines a YANG data model for a Remote Procedure Call (RPC) to request path computation. This model complements the solution, defined in RFC YYYY, to configure a TE tunnel path in &quot;compute-only&quot; mode.</t><t> [RFC EDITOR NOTE: Please replace RFC YYYY with the RFC number of draft-ietf-teas-yang-te once it has been published.</t><t> Moreover this document describes some use cases where a path computation request, via YANG-based protocols (e.g., NETCONF or RESTCONF), can be needed.</t></abstract>
+<date year='2022' month='March' day='22' />
+<abstract><t>There are scenarios, typically in a hierarchical Software-Defined Networking (SDN) context, where the topology information provided by a Traffic Engineering (TE) network provider may be insufficient for its client to perform multi-domain path computation.  In these cases the client would need to request the TE network provider to compute some intra-domain paths.</t><t> This document defines a YANG data model which contains Remote Procedure Calls (RPCs) to request path computation.  This model complements the solution, defined in RFC YYYY, to configure a TE tunnel path in &quot;compute-only&quot; mode.</t><t> [RFC EDITOR NOTE: Please replace RFC YYYY with the RFC number of draft-ietf-teas-yang-te once it has been published.</t><t> Moreover, this document describes some use cases where the path computation request, via YANG-based protocols (e.g., NETCONF or RESTCONF), can be needed.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-teas-yang-path-computation-16'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-teas-yang-path-computation-16.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-teas-yang-path-computation-18'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-teas-yang-path-computation-18.txt'/>
 </reference>

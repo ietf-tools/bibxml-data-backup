@@ -3,22 +3,15 @@
 <reference anchor='I-D.ietf-stir-certificates-ocsp'>
 <front>
 <title>OCSP Usage for Secure Telephone Identity Certificates</title>
-
 <author initials='J' surname='Peterson' fullname='Jon Peterson'>
-    <organization />
+<organization />
 </author>
-
 <author initials='S' surname='Turner' fullname='Sean Turner'>
-    <organization />
+<organization />
 </author>
-
-<date month='March' day='13' year='2017' />
-
-<abstract><t>When certificates are used as credentials to attest the assignment or ownership of telephone numbers, some mechanism is required to convey certificate freshness to relying parties.  This document specifies the use of the Online Certificate Status Protocol (OCSP) as a means of retrieving real-time status information about such certificates, defining new extensions to compensate for the dynamism of telephone number assignments.</t></abstract>
-
+<date year='2022' month='April' day='21' />
+<abstract><t>When certificates are used as credentials to attest the assignment or ownership of telephone numbers, some mechanism is required to convey certificate freshness to relying parties.  Certififcate Revocation Lists (CRLs) are commonly used for this purpose, but for certain classes of certificates, including delegate certificates conveying their scope of authority by-reference in Secure Telephone Identity Revisited (STIR) systems, they may not be aligned with the needs of relying parties.  This document specifies the use of the Online Certificate Status Protocol (OCSP) as a means of retrieving real-time status information about such certificates, defining new extensions to compensate for the dynamism of telephone number assignments.</t></abstract>
 </front>
-
-<seriesInfo name='Internet-Draft' value='draft-ietf-stir-certificates-ocsp-00' />
-<format type='TXT'
-        target='http://www.ietf.org/internet-drafts/draft-ietf-stir-certificates-ocsp-00.txt' />
+<seriesInfo name='Internet-Draft' value='draft-ietf-stir-certificates-ocsp-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-stir-certificates-ocsp-01.txt'/>
 </reference>

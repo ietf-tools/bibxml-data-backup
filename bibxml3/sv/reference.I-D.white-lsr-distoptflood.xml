@@ -9,12 +9,12 @@
 <author initials='S' surname='Hegde' fullname='Shraddha Hegde'>
 <organization />
 </author>
-<author initials='S' surname='Zandi' fullname='Shawn Zandi'>
+<author initials='T' surname='Przygienda' fullname='Tony Przygienda'>
 <organization />
 </author>
-<date year='2020' month='November' day='29' />
-<abstract><t>In dense topologies, such as data center fabrics based on the Clos and butterfly fabric topologies, flooding mechanisms designed for sparse topologies, when used in these dense topologies, can &quot;overflood,&quot; or carry too many copies of topology and reachability to fabric devices.  This results in slower convergence times and higher resource utilization.  The modifications to the flooding mechanism in the Intermediate System to Intermediate System (IS-IS) link state protocol described in this document reduce resource utilization to a minimum, while increaseing convergence performance in dense topologies.</t><t> Note that a Clos fabric is used as the primary example of a desne flooding topology throughout this document.  However, the flooding optimizations described in this document apply to any dense topology.</t></abstract>
+<date year='2022' month='April' day='25' />
+<abstract><t>In dense topologies (such as data center fabrics based on the Clos and butterfly topologies, though not limited to these), IGP flooding mechanisms designed for sparse topologies can &quot;overflood,&quot; or carry too many copies of topology and reachability information to fabric devices.  This results in slower convergence times and higher resource utilization.  The modifications to the flooding mechanism in the Intermediate System to Intermediate System (IS-IS) link state protocol described in this document reduce resource utilization significantly, while increasing convergence performance in dense topologies.</t><t> Note that a Clos fabric is used as the primary example of a dense flooding topology throughout this document.  However, the flooding optimizations described in this document apply to any topology.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-white-lsr-distoptflood-00'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-white-lsr-distoptflood-00.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-white-lsr-distoptflood-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-white-lsr-distoptflood-02.txt'/>
 </reference>

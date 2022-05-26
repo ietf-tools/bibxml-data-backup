@@ -2,13 +2,13 @@
 
 <reference anchor='I-D.ietf-masque-connect-udp'>
 <front>
-<title>UDP Proxying Support for HTTP</title>
+<title>Proxying UDP in HTTP</title>
 <author initials='D' surname='Schinazi' fullname='David Schinazi'>
 <organization />
 </author>
-<date year='2021' month='October' day='25' />
-<abstract><t>This document describes how to proxy UDP over HTTP.  Similar to how the CONNECT method allows proxying TCP over HTTP, this document defines a new mechanism to proxy UDP.  It is built using HTTP Extended CONNECT.</t></abstract>
+<date year='2022' month='May' day='03' />
+<abstract><t>This document describes how to proxy UDP in HTTP, similar to how the HTTP CONNECT method allows proxying TCP in HTTP.  More specifically, this document defines a protocol that allows HTTP clients to create a tunnel for UDP communications through an HTTP server that acts as a proxy.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-masque-connect-udp-06'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-masque-connect-udp-06.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-masque-connect-udp-12'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-masque-connect-udp-12.txt'/>
 </reference>

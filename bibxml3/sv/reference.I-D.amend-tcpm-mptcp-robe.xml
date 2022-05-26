@@ -9,9 +9,9 @@
 <author initials='J' surname='Kang' fullname='Jiao Kang'>
 <organization />
 </author>
-<date year='2021' month='February' day='22' />
+<date year='2022' month='March' day='07' />
 <abstract><t>Multipath TCP extends the plain, single-path limited, TCP towards the capability of multipath transmission.  This greatly improves the reliability and performance of TCP communication.  For backwards compatibility reasons the Multipath TCP was designed to setup successfully an initial path first, after which subsequent paths can be added for multipath transmission.  For that reason the Multipath TCP has the same limitations as the plain TCP during connection setup, in case the selected path is not functional.</t><t> This document proposes a set of implementations and possible combinations thereof, that provide a more Robust Establishment (RobE) of MPTCP sessions.  It includes RobE_TIMER, RobE_SIM, RobE_eSIM and RobE_IPS.</t><t> RobE_TIMER is designed to stay close to MPTCP in that standard functionality is used wherever possible.  Resiliency against network outages is achieved by modifying the SYN retransmission timer: If one path is defective, another path is used.</t><t> RobE_SIM and RobE_eSIM provides the ability to simultaneously use multiple paths for connection setup.  They ensure connectivity if at least one functional path out of a bunch of paths is given and offers beside that the opportunity to significantly improve loading times of Internet services.</t><t> RobE_IPS provides a heuristic to select properly an initial path for connection establishment with a remote host based on empirical data derived from previous connection information.</t><t> In practice, these independent solutions can be complementary used. This document also presents the design and protocol procedure for those combinations in addition to the respective stand-alone solutions.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-amend-tcpm-mptcp-robe-01'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-amend-tcpm-mptcp-robe-01.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-amend-tcpm-mptcp-robe-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-amend-tcpm-mptcp-robe-02.txt'/>
 </reference>

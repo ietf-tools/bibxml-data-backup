@@ -9,9 +9,15 @@
 <author initials='B' surname='Xu' fullname='BenChong Xu'>
 <organization />
 </author>
-<date year='2021' month='December' day='24' />
-<abstract><t>This document specifies extensions to PCEP protocol when a PCE-based controller is also responsible for configuring the forwarding actions on the routers, in addition to computing the paths for packet flows in a BIER-TE network and telling the edge routers what instructions to attach to packets as they enter the network.</t></abstract>
+<author initials='H' surname='Chen' fullname='Huaimo Chen'>
+<organization />
+</author>
+<author initials='A' surname='Wang' fullname='Aijun Wang'>
+<organization />
+</author>
+<date year='2022' month='March' day='07' />
+<abstract><t>This draft specify extensions to PCEP protocol when a PCE-based controller is responsible for allocates the BIER-TE information(BIER subdomain-id, adjacencies BitPosition(s), and Adjacency Types etc), then PCC generate a &quot;Bit Index Forwarding Table&quot;(BIFT).</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-chen-pce-controller-bier-te-02'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-chen-pce-controller-bier-te-02.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-chen-pce-controller-bier-te-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-chen-pce-controller-bier-te-03.txt'/>
 </reference>

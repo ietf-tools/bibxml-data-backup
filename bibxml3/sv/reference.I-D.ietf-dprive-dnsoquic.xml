@@ -12,9 +12,9 @@
 <author initials='A' surname='Mankin' fullname='Allison Mankin'>
 <organization />
 </author>
-<date year='2022' month='February' day='08' />
-<abstract><t>This document describes the use of QUIC to provide transport privacy for DNS.  The encryption provided by QUIC has similar properties to that provided by TLS, while QUIC transport eliminates the head-of- line blocking issues inherent with TCP and provides more efficient packet loss recovery than UDP.  DNS over QUIC (DoQ) has privacy properties similar to DNS over TLS (DoT) specified in RFC7858, and latency characteristics similar to classic DNS over UDP.  This specification describes the use of DNS over QUIC as a general-purpose transport for DNS and includes the use of DNS over QUIC for stub to recursive, recursive to authoritative, and zone transfer scenarios.</t></abstract>
+<date year='2022' month='April' day='20' />
+<abstract><t>This document describes the use of QUIC to provide transport confidentiality for DNS.  The encryption provided by QUIC has similar properties to those provided by TLS, while QUIC transport eliminates the head-of-line blocking issues inherent with TCP and provides more efficient packet loss recovery than UDP.  DNS over QUIC (DoQ) has privacy properties similar to DNS over TLS (DoT) specified in RFC7858, and latency characteristics similar to classic DNS over UDP. This specification describes the use of DNS over QUIC as a general- purpose transport for DNS and includes the use of DNS over QUIC for stub to recursive, recursive to authoritative, and zone transfer scenarios.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-dprive-dnsoquic-09'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-dprive-dnsoquic-09.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-dprive-dnsoquic-12'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-dprive-dnsoquic-12.txt'/>
 </reference>

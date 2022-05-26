@@ -2,13 +2,13 @@
 
 <reference anchor='I-D.song-ship-edge'>
 <front>
-<title>Short Hierarchical IP Addresses at Edge Networks</title>
+<title>Short Hierarchical IP Addresses for Edge Networks</title>
 <author initials='H' surname='Song' fullname='Haoyu Song'>
 <organization />
 </author>
-<date year='2021' month='October' day='11' />
-<abstract><t>To mitigate the IPv6 header overhead in edge networks, this draft proposes to use short hierarchical addresses excluding the network prefix within edge networks.  An edge network can be further organized into a hierarchical architecture containing one or more levels of networks.  The border routers for each hierarchical level are responsible for address augmenting and pruning when a packet leaves or enter a lower level network.  Specifically, the top-level border routers convert the internal IP header to and from the standard IPv6 header.  This draft presents an incrementally deployable scheme allowing packet header to be effectively compressed in edge networks without affecting the network interoperability.</t></abstract>
+<date year='2022' month='April' day='11' />
+<abstract><t>To mitigate the IPv6 header overhead and improve the scalability and performance in edge networks, this draft proposes to use short hierarchical IP addresses excluding the network prefix within edge networks.  An edge network can be further organized into a hierarchical architecture containing one or more levels of networks. While each end node only needs to keep a short address suffix as its identifier, the border routers for each hierarchical level are responsible for address augmenting and pruning when a packet leaves or enter a lower level network.  Specifically, the top-level border routers of an edge network convert the internal IP header to and from the standard IPv6 header.  This draft presents an incrementally deployable scheme allowing packet header to be effectively compressed in edge networks without affecting the network interoperability. Simplifying both network data plane and control plane, the SHIP architecture is suitable for any types of edge networks, especially when low latency, high performance, and high bandwidth efficiency are required.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-song-ship-edge-02'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-song-ship-edge-02.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-song-ship-edge-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-song-ship-edge-03.txt'/>
 </reference>

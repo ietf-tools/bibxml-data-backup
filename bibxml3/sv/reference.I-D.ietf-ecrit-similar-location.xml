@@ -12,9 +12,9 @@
 <author initials='J' surname='Martin' fullname='Jeff Martin'>
 <organization />
 </author>
-<date year='2022' month='February' day='15' />
-<abstract><t>This document describes an extension to the LoST protocol that is specified in RFC 5222 that allows additional civic location information to be returned in the &lt;locationValidation&gt; element of a &lt;findServiceResponse&gt;.  This extension supports two use cases. First, when the input location is incomplete, the LoST server can provide a complete intended unique address.  Second, when the input location is invalid, the LoST server can identify one or more feasible locations.  This extension is applicable when the location information in the &lt;findService&gt; request uses the Basic Civic profile as described in RFC 5222</t></abstract>
+<date year='2022' month='March' day='04' />
+<abstract><t>This document describes an extension to the LoST protocol of RFC 5222 that allows additional civic location information to be returned in a &lt;findServiceResponse&gt;.  This extension supports two use cases: First, when the input location is valid but lacks some Civic Address elements, the LoST server can provide a completed form.  Second, when the input location is invalid, the LoST server can identify one or more feasible (&quot;similar&quot;) locations.  This extension is applicable when the location information in the &lt;findService&gt; request uses the Basic Civic profile as described in RFC 5222 or another profile whose definition provides instructions concerning its use with this extension.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-ecrit-similar-location-18'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-ecrit-similar-location-18.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-ecrit-similar-location-19'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-ecrit-similar-location-19.txt'/>
 </reference>

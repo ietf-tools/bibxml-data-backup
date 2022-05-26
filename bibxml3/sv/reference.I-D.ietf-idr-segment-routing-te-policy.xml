@@ -21,9 +21,9 @@
 <author initials='S' surname='Lin' fullname='Steven Lin'>
 <organization />
 </author>
-<date year='2021' month='November' day='10' />
-<abstract><t>This document defines a new BGP SAFI with a new NLRI to advertise a candidate path of a Segment Routing (SR) Policy.  An SR Policy is a set of candidate paths, each consisting of one or more segment lists. The headend of an SR Policy may learn multiple candidate paths for an SR Policy.  Candidate paths may be learned via several different mechanisms, e.g., CLI, NetConf, PCEP, or BGP.  This document specifies how BGP may be used to distribute SR Policy candidate paths.  New sub-TLVs for the Tunnel Encapsulation Attribute are defined for signaling information about these candidate paths.</t></abstract>
+<date year='2022' month='April' day='14' />
+<abstract><t>This document defines a new BGP SAFI with a new NLRI to advertise a candidate path of a Segment Routing (SR) Policy.  An SR Policy is a set of candidate paths, each consisting of one or more segment lists. The headend of an SR Policy may learn multiple candidate paths for an SR Policy.  Candidate paths may be learned via several different mechanisms, e.g., CLI, NetConf, PCEP, or BGP.  This document specifies how BGP may be used to distribute SR Policy candidate paths.  New sub-TLVs for the Tunnel Encapsulation Attribute are defined for signaling information about these candidate paths.</t><t> This documents updates RFC9012 with extensions to the Color Extended Community to support new steering modes over SR Policy.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-idr-segment-routing-te-policy-14'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-idr-segment-routing-te-policy-14.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-idr-segment-routing-te-policy-17'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-idr-segment-routing-te-policy-17.txt'/>
 </reference>

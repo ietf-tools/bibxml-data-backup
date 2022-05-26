@@ -1,6 +1,6 @@
-    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-grow-bmp-tlv-06.txt'>
-        <link>http://www.ietf.org/internet-drafts/draft-ietf-grow-bmp-tlv-06.txt</link>
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-grow-bmp-tlv-07.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-grow-bmp-tlv-07.txt</link>
         <title>"TLV support for BMP Route Monitoring and Peer Down Messages", Paolo Lucente, Yunan Gu</title>
-        <dc:date>2021-10-25T23:00:00-00:00</dc:date>
-        <description>Most of the message types defined by the BGP Monitoring Protocol (BMP) do provision for optional trailing data.  However, Route Monitoring messages (to provide a snapshot of the monitored Routing Information Base) and Peer Down messages (to indicate that a peering session was terminated) do not.  Supporting optional data in TLV format across all BMP message types allows for an homogeneous and extensible surface that would be useful for the most different use- cases that need to convey additional data to a BMP station.  While it is not intended for this document to cover any specific utilization scenario, it defines a simple way to support optional TLV data in all message types.</description>
+        <dc:date>2022-03-07T23:00:00-00:00</dc:date>
+        <description>Most of the message types defined by the BGP Monitoring Protocol (BMP) make provision for optional trailing data.  However, Route Monitoring messages (which provide a snapshot of the monitored Routing Information Base) and Peer Down messages (which indicate that a peering session was terminated) do not.  Supporting optional data in TLV format across all BMP message types allows for a homogeneous and extensible surface that would be useful for the most different use-cases that need to convey additional data to a BMP station. While it is not intended for this document to cover any specific utilization scenario, it defines a simple way to support optional TLV data in all message types.</description>
     </item>

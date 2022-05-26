@@ -27,9 +27,12 @@
 <author initials='D' surname='Gowda' fullname='Deepak Gowda'>
 <organization />
 </author>
-<date year='2022' month='January' day='19' />
+<author initials='C' surname='Yadlapalli' fullname='Chaitanya Yadlapalli'>
+<organization />
+</author>
+<date year='2022' month='April' day='27' />
 <abstract><t>This document specifies a mechanism, referred to as &quot;service mapping&quot;, to express association of overlay routes with underlay routes satisfying a certain SLA, using BGP.  The document describes a framework for classifying underlay routes into transport classes, and mapping service routes to specific transport class.</t><t> The &quot;Transport class&quot; construct maps to a desired SLA, and can be used to realize the &quot;Topology Slice&quot; in 5G Network slicing architecture.</t><t> This document specifies BGP protocol procedures that enable dissemination of such service mapping information that may span multiple co-operating administrative domains.  These domains may be administetered by the same provider or closely co-ordinating provider networks.</t><t> It makes it possible to advertise multiple tunnels to the same destination address, thus avoiding need of multiple loopbacks on the egress node.</t><t> A new BGP transport layer address family (SAFI 76) is defined for this purpose that uses RFC-4364 technology and follows RFC-8277 NLRI encoding.  This new address family is called &quot;BGP Classful Transport&quot;, aka BGP CT.</t><t> It carries transport prefixes across tunnel domain boundaries (e.g. in Inter-AS Option-C networks), parallel to BGP LU (SAFI 4) . It disseminates &quot;Transport class&quot; information for the transport prefixes across the participating domains, which is not possible with BGP LU. This makes the end-to-end network a &quot;Transport Class&quot; aware tunneled network.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-kaliraj-idr-bgp-classful-transport-planes-13'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-kaliraj-idr-bgp-classful-transport-planes-13.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-kaliraj-idr-bgp-classful-transport-planes-14'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-kaliraj-idr-bgp-classful-transport-planes-14.txt'/>
 </reference>

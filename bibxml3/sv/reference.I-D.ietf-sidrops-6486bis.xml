@@ -15,9 +15,9 @@
 <author initials='M' surname='Lepinski' fullname='Matt Lepinski'>
 <organization />
 </author>
-<date year='2021' month='December' day='21' />
-<abstract><t>This document defines a &quot;manifest&quot; for use in the Resource Public Key Infrastructure (RPKI).  A manifest is a signed object (file) that contains a listing of all the signed objects (files) in the repository publication point (directory) associated with an authority responsible for publishing in the repository.  For each certificate, Certificate Revocation List (CRL), or other type of signed objects issued by the authority that are published at this repository publication point, the manifest contains both the name of the file containing the object and a hash of the file content.  Manifests are intended to enable a relying party (RP) to detect certain forms of attacks against a repository.  Specifically, if an RP checks a manifest's contents against the signed objects retrieved from a repository publication point, then the RP can detect &quot;stale&quot; (valid) data and deletion of signed objects.  This document obsoletes RFC 6486.</t></abstract>
+<date year='2022' month='March' day='24' />
+<abstract><t>This document defines a &quot;manifest&quot; for use in the Resource Public Key Infrastructure (RPKI).  A manifest is a signed object (file) that contains a listing of all the signed objects (files) in the repository publication point (directory) associated with an authority responsible for publishing in the repository.  For each certificate, Certificate Revocation List (CRL), or other type of signed objects issued by the authority that are published at this repository publication point, the manifest contains both the name of the file containing the object and a hash of the file content.  Manifests are intended to enable a relying party (RP) to detect certain forms of attacks against a repository.  Specifically, if an RP checks a manifest's contents against the signed objects retrieved from a repository publication point, then the RP can detect replay attacks, and unauthorized in-flight modification or deletion of signed objects.  This document obsoletes RFC 6486.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-sidrops-6486bis-09'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-sidrops-6486bis-09.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-sidrops-6486bis-11'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-sidrops-6486bis-11.txt'/>
 </reference>

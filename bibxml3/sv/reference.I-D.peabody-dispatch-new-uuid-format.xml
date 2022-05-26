@@ -9,9 +9,9 @@
 <author initials='K' surname='Davis' fullname='Kyzer Davis'>
 <organization />
 </author>
-<date year='2021' month='October' day='07' />
-<abstract><t>This document presents new time-based UUID formats which are suited for use as a database key.</t><t> A common case for modern applications is to create a unique identifier for use as a primary key in a database table.  This identifier usually implements an embedded timestamp that is sortable using the monotonic creation time in the most significant bits.  In addition the identifier is highly collision resistant, difficult to guess, and provides minimal security attack surfaces.  None of the existing UUID versions, including UUIDv1, fulfill each of these requirements in the most efficient possible way.  This document is a proposal to update [RFC4122] with three new UUID versions that address these concerns, each with different trade-offs.</t></abstract>
+<date year='2022' month='March' day='31' />
+<abstract><t>This document presents new Universally Unique Identifier (UUID) formats for use in modern applications and databases.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-peabody-dispatch-new-uuid-format-02'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-peabody-dispatch-new-uuid-format-02.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-peabody-dispatch-new-uuid-format-03'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-peabody-dispatch-new-uuid-format-03.txt'/>
 </reference>

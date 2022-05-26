@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9214' target='https://www.rfc-editor.org/info/rfc9214'>
+<front>
+<title>OSPFv3 Code Point for MPLS LSP Ping</title>
+<author initials='N.' surname='Nainar' fullname='N. Nainar'><organization /></author>
+<author initials='C.' surname='Pignataro' fullname='C. Pignataro'><organization /></author>
+<author initials='M.' surname='Aissaoui' fullname='M. Aissaoui'><organization /></author>
+<date year='2022' month='April' />
+<abstract><t>IANA has created &quot;Protocol in the Segment ID Sub-TLV&quot; and &quot;Protocol in Label Stack Sub-TLV of Downstream Detailed Mapping TLV&quot; registries under the &quot;Multiprotocol Label Switching (MPLS) Label Switched Paths (LSPs) Ping Parameters&quot; registry. RFC 8287 defines the code points for Open Shortest Path First (OSPF) and Intermediate System to Intermediate System (IS-IS) protocols. </t><t>This document specifies the code point to be used in the Segment ID sub-TLV and Downstream Detailed Mapping (DDMAP) TLV when the Interior Gateway Protocol (IGP) is OSPFv3. This document also updates RFC 8287 by clarifying that the existing &quot;OSPF&quot; code point is to be used only to indicate OSPFv2 and by defining the behavior when the Segment ID sub-TLV indicates the use of IPv6.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9214'/>
+<seriesInfo name='DOI' value='10.17487/RFC9214'/>
+</reference>

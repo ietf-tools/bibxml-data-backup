@@ -1,7 +1,6 @@
-
-<item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-stir-certificates-ocsp-00.txt'>
-    <title>"OCSP Usage for Secure Telephone Identity Certificates", Jon Peterson, Sean Turner</title>
-    <link>http://www.ietf.org/internet-drafts/draft-ietf-stir-certificates-ocsp-00.txt</link>
-    <description>When certificates are used as credentials to attest the assignment or ownership of telephone numbers, some mechanism is required to convey certificate freshness to relying parties.  This document specifies the use of the Online Certificate Status Protocol (OCSP) as a means of retrieving real-time status information about such certificates, defining new extensions to compensate for the dynamism of telephone number assignments.</description>
-    <dc:date>2017-03-13T07:00:00-00:00</dc:date>
-</item>
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-stir-certificates-ocsp-01.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-stir-certificates-ocsp-01.txt</link>
+        <title>"OCSP Usage for Secure Telephone Identity Certificates", Jon Peterson, Sean Turner</title>
+        <dc:date>2022-04-21T23:00:00-00:00</dc:date>
+        <description>When certificates are used as credentials to attest the assignment or ownership of telephone numbers, some mechanism is required to convey certificate freshness to relying parties.  Certififcate Revocation Lists (CRLs) are commonly used for this purpose, but for certain classes of certificates, including delegate certificates conveying their scope of authority by-reference in Secure Telephone Identity Revisited (STIR) systems, they may not be aligned with the needs of relying parties.  This document specifies the use of the Online Certificate Status Protocol (OCSP) as a means of retrieving real-time status information about such certificates, defining new extensions to compensate for the dynamism of telephone number assignments.</description>
+    </item>

@@ -1,6 +1,6 @@
-    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-anima-constrained-join-proxy-06.txt'>
-        <link>http://www.ietf.org/internet-drafts/draft-ietf-anima-constrained-join-proxy-06.txt</link>
+    <item rdf:about='http://www.ietf.org/internet-drafts/draft-ietf-anima-constrained-join-proxy-10.txt'>
+        <link>http://www.ietf.org/internet-drafts/draft-ietf-anima-constrained-join-proxy-10.txt</link>
         <title>"Constrained Join Proxy for Bootstrapping Protocols", Michael Richardson, Peter van der Stok, Panos Kampanakis</title>
-        <dc:date>2021-12-03T23:00:00-00:00</dc:date>
-        <description>This document defines a protocol to securely assign a Pledge to a domain, represented by a Registrar, using an intermediary node between Pledge and Registrar.  This intermediary node is known as a "constrained Join Proxy".  An enrolled Pledge can act as a Join Proxy.  This document extends the work of Bootstrapping Remote Secure Key Infrastructures (BRSKI) by replacing the Circuit-proxy between Pledge and Registrar by a stateless/stateful constrained Join Proxy.  It relays join traffic from the Pledge to the Registrar.</description>
+        <dc:date>2022-04-14T23:00:00-00:00</dc:date>
+        <description>This document extends the work of Bootstrapping Remote Secure Key Infrastructures (BRSKI) by replacing the Circuit-proxy between Pledge and Registrar by a stateless/stateful constrained Join Proxy.  The constrained Join Proxy is a mesh neighbor of the Pledge and can relay a DTLS session originating from a Pledge with only link-local addresses to a Registrar which is not a mesh neighbor of the Pledge.  This document defines a protocol to securely assign a Pledge to a domain, represented by a Registrar, using an intermediary node between Pledge and Registrar.  This intermediary node is known as a "constrained Join Proxy".  An enrolled Pledge can act as a constrained Join Proxy.</description>
     </item>
