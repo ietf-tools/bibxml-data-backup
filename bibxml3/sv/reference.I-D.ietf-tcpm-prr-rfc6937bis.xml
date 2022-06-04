@@ -12,9 +12,9 @@
 <author initials='Y' surname='Cheng' fullname='Yuchung Cheng'>
 <organization />
 </author>
-<date year='2021' month='February' day='22' />
-<abstract><t>This document updates the experimental Proportional Rate Reduction (PRR) algorithm, described RFC 6937, to standards track.  PRR potentially replaces the Fast Recovery and Rate-Halving algorithms. All of these algorithms regulate the amount of data sent by TCP or other transport protocol during loss recovery.  PRR accurately regulates the actual flight size through recovery such that at the end of recovery it will be as close as possible to the ssthresh, as determined by the congestion control algorithm.</t></abstract>
+<date year='2022' month='June' day='03' />
+<abstract><t>This document updates the experimental Proportional Rate Reduction (PRR) algorithm, described RFC 6937, to standards track.  PRR potentially replaces the Fast Recovery to regulate the amount of data sent by TCP or other transport protocol during loss recovery.  PRR accurately regulates the actual flight size through recovery such that at the end of recovery it will be as close as possible to the slow start threshold (ssthresh), as determined by the congestion control algorithm.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-prr-rfc6937bis-01'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-tcpm-prr-rfc6937bis-01.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-prr-rfc6937bis-02'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-tcpm-prr-rfc6937bis-02.txt'/>
 </reference>
