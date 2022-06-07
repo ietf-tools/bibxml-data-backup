@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9218' target='https://www.rfc-editor.org/info/rfc9218'>
+<front>
+<title>Extensible Prioritization Scheme for HTTP</title>
+<author initials='K.' surname='Oku' fullname='K. Oku'><organization /></author>
+<author initials='L.' surname='Pardue' fullname='L. Pardue'><organization /></author>
+<date year='2022' month='June' />
+<abstract><t>This document describes a scheme that allows an HTTP client to communicate its preferences for how the upstream server prioritizes responses to its requests, and also allows a server to hint to a downstream intermediary how its responses should be prioritized when they are forwarded.  This document defines the Priority header field for communicating the initial priority in an HTTP version-independent manner, as well as HTTP/2 and HTTP/3 frames for reprioritizing responses. These share a common format structure that is designed to provide future extensibility.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9218'/>
+<seriesInfo name='DOI' value='10.17487/RFC9218'/>
+</reference>

@@ -2,7 +2,7 @@
 
 <reference anchor='I-D.ietf-lisp-nexagon'>
 <front>
-<title>Network-Hexagons: H3-LISP GeoState &amp; Mobility Network</title>
+<title>Network-Hexagons: H3-LISP Dataflow Virtualization for Mobility Edge</title>
 <author initials='s' surname='sbarkai@gmail.com' fullname='sbarkai@gmail.com'>
 <organization />
 </author>
@@ -24,9 +24,9 @@
 <author initials='D' surname='Farinacci' fullname='Dino Farinacci'>
 <organization />
 </author>
-<date year='2021' month='September' day='14' />
-<abstract><t>This document specifies the use of H3 and LISP for Geolocation Services. Geolocation Services utilize geospatial data for: Fresh HDMaps, Intelligent Driving, Cruise and Parking assists. Geospatial utilization is delivered using in-network compute for brokered verification, curation, and localization of data, using:</t><t> - EID addressable geospatial-tiles abstraction of road-segments. - EID Interface for detections and uploads to the tile-contexts. - EID Routing-Sharing hazards, blockages, parking, road-inventory. - EID themed multicast channels per tile to subscribed clients.</t></abstract>
+<date year='2022' month='June' day='06' />
+<abstract><t>Geolocation-Services aggregate raw data uploads from vehicles using mobility edge compute locations and process these uploads to verified ,localized, geospatial detection-channels. Geospatial detection channels are used by mobility clients in vehicles and in the cloud to support aspects of Mobility use-cases: i. Crowd-sourced mapping of lanes, markings, and signage ii. Intelligent Driving heads-up notifications on hazards, blockages, and connivances such as parking or charging on the driving route. The allocation of Geolocation Services is dynamic and adjusted to road activity and number of active vehicles. This dynamics combined with the dynamics of vehicles mobile-access IP Anchors creates coherency, context-switching, geo-privacy, and service continuity key issues. These issues are resolved by dataflow virtualization, or communication indirection, between mobility clients in vehicles and Geolocation Services. LISP overlay network-virtualization, rfc6830bis and rfc6833bis, offers a fully distributed dataflow virtualization solution at the networking level. Such LISP mobility- network deployment is described in this informational document.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-lisp-nexagon-19'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-lisp-nexagon-19.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-lisp-nexagon-22'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-lisp-nexagon-22.txt'/>
 </reference>
