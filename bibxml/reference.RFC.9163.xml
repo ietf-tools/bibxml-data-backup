@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<reference  anchor='RFC9163' target='https://www.rfc-editor.org/info/rfc9163'>
+<front>
+<title>Expect-CT Extension for HTTP</title>
+<author initials='E.' surname='Stark' fullname='E. Stark'><organization /></author>
+<date year='2022' month='June' />
+<abstract><t>This document defines a new HTTP header field named &quot;Expect-CT&quot;, which allows web host operators to instruct user agents (UAs) to expect valid Signed Certificate Timestamps (SCTs) to be served on connections to these hosts. Expect-CT allows web host operators to discover misconfigurations in their Certificate Transparency (CT) deployments. Further, web host operators can use Expect-CT to ensure that if a UA that supports Expect-CT accepts a misissued certificate, that certificate will be discoverable in Certificate Transparency logs.</t></abstract>
+</front>
+<seriesInfo name='RFC' value='9163'/>
+<seriesInfo name='DOI' value='10.17487/RFC9163'/>
+</reference>
