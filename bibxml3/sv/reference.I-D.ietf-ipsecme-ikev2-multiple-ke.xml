@@ -24,9 +24,9 @@
 <author initials='V' surname='Smyslov' fullname='Valery Smyslov'>
 <organization />
 </author>
-<date year='2022' month='March' day='28' />
+<date year='2022' month='June' day='13' />
 <abstract><t>This document describes how to extend the Internet Key Exchange Protocol Version 2 (IKEv2) to allow multiple key exchanges to take place while computing a shared secret during a Security Association (SA) setup.  The primary application of this feature in IKEv2 is the ability to perform one or more post-quantum key exchanges in conjunction with the classical (Elliptic Curve) Diffie-Hellman key exchange, so that the resulting shared key is resistant against quantum computer attacks.  Another possible application is the ability to combine several key exchanges in situations when no single key exchange algorithm is trusted by both initiator and responder.</t><t> This document updates RFC7296 by renaming a transform type 4 from &quot;Diffie-Hellman Group (D-H)&quot; to &quot;Key Exchange Method (KE)&quot; and renaming a field in the Key Exchange Payload from &quot;Diffie-Hellman Group Num&quot; to &quot;Key Exchange Method&quot;.  It also renames an IANA registry for this transform type from &quot;Transform Type 4 - Diffie- Hellman Group Transform IDs&quot; to &quot;Transform Type 4 - Key Exchange Method Transform IDs&quot;.  These changes generalize key exchange algorithms that can be used in IKEv2.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-ikev2-multiple-ke-05'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-ipsecme-ikev2-multiple-ke-05.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-ipsecme-ikev2-multiple-ke-06'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-ipsecme-ikev2-multiple-ke-06.txt'/>
 </reference>
