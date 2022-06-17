@@ -12,9 +12,9 @@
 <author initials='M' surname='Olson' fullname='Matt Olson'>
 <organization />
 </author>
-<date year='2022' month='January' day='23' />
-<abstract><t>This doument describes HyStart++, a simple modification to the slow start phase of TCP congestion control algorithms.  Traditional slow start can overshoot the ideal send rate in many cases, causing high packet loss and poor performance.  HyStart++ uses a delay increase heuristic to find an exit point before possible overshoot.  It also adds a mitigation to prevent jitter from causing premature slow start exit.</t></abstract>
+<date year='2022' month='June' day='16' />
+<abstract><t>This doument describes HyStart++, a simple modification to the slow start phase of congestion control algorithms.  Traditional slow start can overshoot the ideal send rate in many cases, causing high packet loss and poor performance.  HyStart++ uses a delay increase heuristic to find an exit point before possible overshoot.  It also adds a mitigation to prevent jitter from causing premature slow start exit.</t></abstract>
 </front>
-<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-hystartplusplus-04'/>
-<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-tcpm-hystartplusplus-04.txt'/>
+<seriesInfo name='Internet-Draft' value='draft-ietf-tcpm-hystartplusplus-05'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-ietf-tcpm-hystartplusplus-05.txt'/>
 </reference>
