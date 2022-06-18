@@ -3,22 +3,18 @@
 <reference anchor='I-D.kang-tcpm-fault-management-in-mptcp-session'>
 <front>
 <title>Fault Management Mechanism in MPTCP Session</title>
-
 <author initials='J' surname='Kang' fullname='Jiao Kang'>
-    <organization />
+<organization />
 </author>
-
 <author initials='l' surname='liangqiandeng' fullname='liangqiandeng'>
-    <organization />
+<organization />
 </author>
-
-<date month='August' day='9' year='2020' />
-
+<author initials='S' surname='Deng' fullname='ShangLing Deng'>
+<organization />
+</author>
+<date year='2022' month='June' day='16' />
 <abstract><t>This document presents a mechanism for fault management during a MPTCP session.  It is used to convey subflow failure information from client to server by other subflow running normally.  It includes: 1) a new Fault Announce Option for describing subflow failure, 2) implementation and interoperability of this option during a MPTCP session when one subflow suffers a failure.  In fact, the server is able to determine network problems accurately based on these fault information reported from multiple clients for their connections.</t></abstract>
-
 </front>
-
-<seriesInfo name='Internet-Draft' value='draft-kang-tcpm-fault-management-in-mptcp-session-00' />
-<format type='TXT'
-        target='http://www.ietf.org/internet-drafts/draft-kang-tcpm-fault-management-in-mptcp-session-00.txt' />
+<seriesInfo name='Internet-Draft' value='draft-kang-tcpm-fault-management-in-mptcp-session-01'/>
+<format type='TXT' target='https://www.ietf.org/internet-drafts/draft-kang-tcpm-fault-management-in-mptcp-session-01.txt'/>
 </reference>
